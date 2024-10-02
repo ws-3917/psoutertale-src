@@ -1,0 +1,206 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 170
+                  },
+                  "size": {
+                     "x": 160,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 170
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 210
+                  },
+                  "size": {
+                     "x": 104,
+                     "y": 30
+                  }
+               },
+               {
+                  "position": {
+                     "x": 216,
+                     "y": 210
+                  },
+                  "size": {
+                     "x": 24,
+                     "y": 30
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 170
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 226,
+                     "y": 185
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 198,
+                     "y": 174
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 219,
+                     "y": 167
+                  },
+                  "size": {
+                     "x": 23,
+                     "y": -20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -23,
+                     "y": -9
+                  },
+                  "name": "aerialis",
+                  "args": [
+                     "recycler"
+                  ],
+                  "position": {
+                     "x": 219,
+                     "y": 177
+                  }
+               },
+               {
+                  "position": {
+                     "x": 112,
+                     "y": 170
+                  },
+                  "size": {
+                     "x": 23,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sc_book"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 150,
+                     "y": 170
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -26,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sc_drawer"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 166,
+                     "y": 170
+                  },
+                  "size": {
+                     "x": 26,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sc_diagram"
+                  ]
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 235
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_sansroom",
+                     "down",
+                     "157",
+                     "90"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "s_sansroom"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "preload": [
+      "amDrone",
+      "asRustle"
+   ],
+   "score": {
+      "music": "drone",
+      "rate": 0.9
+   }
+}

@@ -1,0 +1,95 @@
+{
+   "$schema": "./room.schema.json",
+   "preload": [
+      "asCymbal",
+      "ieStory"
+   ],
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 85
+                  },
+                  "size": {
+                     "x": 320,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 85
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 155
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 85
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 155
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 320,
+                     "y": 20
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "position": {
+               "x": 160,
+               "y": 85
+            },
+            "triggers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 3
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "_"
+               }
+            ]
+         }
+      ]
+   },
+   "spawn": {
+      "x": 160,
+      "y": 230
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

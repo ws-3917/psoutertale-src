@@ -1,0 +1,1193 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iooSNoise",
+      "iocPapyrus",
+      "iooSBiodome",
+      "asPhase",
+      "amPapyrus",
+      "iocPapyrusStark",
+      "asShatter"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 490,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 190,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 310,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 350,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 390,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 550,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 290,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 330,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 370,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 110,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 470,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 310,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 350,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 430,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 230,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 630,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 430,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 450,
+               "y": -30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 510,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 470,
+               "y": -10
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 390,
+               "y": -50
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 410,
+               "y": -30
+            }
+         },
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 995,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 70
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_exit",
+                     "right",
+                     "20",
+                     "170"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 70
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_town2",
+                     "left",
+                     "980",
+                     "230"
+                  ]
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 1000,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 85
+                  },
+                  "size": {
+                     "x": 1000,
+                     "y": 20
+                  }
+               }
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 630,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 450,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 410,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 370,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 510,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 470,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 430,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 330,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 290,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 490,
+               "y": 90
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 550,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 110,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 390,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 350,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 310,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 190,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 230,
+               "y": 70
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": 70
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "s_town2",
+      "s_exit"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": -10
+      },
+      {
+         "x": 840,
+         "y": -10
+      }
+   ]
+}

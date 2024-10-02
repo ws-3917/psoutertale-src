@@ -1,0 +1,268 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amGenerator",
+      "iooFSteam",
+      "asDephase",
+      "asPhase",
+      "iocAlphys",
+      "avAlphys",
+      "idcAlphys",
+      "asDephase"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 340,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 520,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -520,
+                     "y": 220
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": -20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 515,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_puzzle3",
+                     "right",
+                     "480",
+                     "110"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_hub",
+                     "left",
+                     "580",
+                     "130"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_taxi",
+                     "up",
+                     "160",
+                     "50"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFWallsign"
+                  ],
+                  "position": {
+                     "x": 50,
+                     "y": 100
+                  }
+               },
+               {
+                  "type": "sprite",
+                  "position": {
+                     "x": 150,
+                     "y": 100
+                  },
+                  "frames": [
+                     "iooFWallsign"
+                  ]
+               },
+               {
+                  "type": "sprite",
+                  "position": {
+                     "x": 250,
+                     "y": 100
+                  },
+                  "frames": [
+                     "iooFWallsign"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 50,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "f_path1"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 150,
+                     "y": 120
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "f_path2"
+                  ],
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 250,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "f_path3"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 180,
+               "y": -60
+            }
+         },
+         {
+            "tags": [
+               "steamgap"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 420,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [],
+      "above": []
+   },
+   "mixins": {
+      "above": "foundry-overlay"
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 360,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "generator",
+      "gain": 1
+   },
+   "neighbors": [
+      "f_hub",
+      "f_taxi",
+      "f_puzzle3"
+   ]
+}

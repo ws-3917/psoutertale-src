@@ -1,0 +1,249 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "taxiAssets"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 55
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_prepuzzle",
+                     "down",
+                     "160",
+                     "90"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooTaxi",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "riverboi_x"
+            ],
+            "position": {
+               "x": 160,
+               "y": 2
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": -90,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 91,
+                     "y": -5
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -66,
+                     "y": -22
+                  }
+               },
+               {
+                  "position": {
+                     "x": -22,
+                     "y": -5
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -17
+                  }
+               },
+               {
+                  "position": {
+                     "x": -22,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 46,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -42,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 17
+                  },
+                  "name": "aerialis",
+                  "args": [
+                     "riverboi"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 24,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 17
+                  },
+                  "name": "aerialis",
+                  "args": [
+                     "riverboi"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "taxibarrier"
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 160,
+                     "y": -20
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 260,
+               "y": 20
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 60,
+               "y": 20
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": -60
+      },
+      {
+         "x": 160,
+         "y": -60
+      }
+   ],
+   "score": {
+      "music": "radiosong",
+      "gain": 1,
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "f_prepuzzle",
+      "_taxi"
+   ]
+}

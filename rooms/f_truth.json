@@ -1,0 +1,142 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_piano",
+                     "left",
+                     "240",
+                     "200"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "position": {
+               "x": 80,
+               "y": 135
+            },
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooFSecretbook"
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "tome"
+                  ]
+               }
+            ],
+            "tags": [
+               "tomebox"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 130
+      },
+      {
+         "x": 160,
+         "y": 130
+      }
+   ],
+   "preload": [
+      "amGenerator",
+      "asEpiphany",
+      "amSplendor"
+   ],
+   "neighbors": [
+      "f_piano"
+   ],
+   "score": {
+      "music": "generator",
+      "gain": 1
+   }
+}

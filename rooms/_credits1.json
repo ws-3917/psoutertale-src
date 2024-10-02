@@ -1,0 +1,92 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iooHovercar",
+      "iooHovercarBack",
+      "iooTrike1",
+      "iooTrike2",
+      "iocPapyrusDown",
+      "iocPapyrusRightMadTalk",
+      "iocPapyrusStomp",
+      "iocPapyrusCape",
+      "ionFBirdFly",
+      "iocAsrielUp"
+   ],
+   "neighbors": [
+      "_credits2"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSIcewolf",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 33,
+               "y": 87
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSDoggo",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 3,
+               "y": 87
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocHumansPatienceDown"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 90,
+               "y": 70
+            },
+            "tags": [
+               "hoooooooooooooooooman"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 280
+      },
+      {
+         "x": 460,
+         "y": 280
+      }
+   ]
+}

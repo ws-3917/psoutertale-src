@@ -1,0 +1,32 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": []
+   },
+   "preload": [
+      "homeAssets",
+      "ieEurybia",
+      "iocKidd",
+      "iocKiddSad",
+      "iocAsrielHome",
+      "idcKidd",
+      "idcAsrielTrue",
+      "iocAsrielTrueLeftSad",
+      "avKidd",
+      "avAsriel"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "birds"
+   }
+}

@@ -1,0 +1,116 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "metadata": {
+      "dark02": true
+   },
+   "layers": {
+      "below": [
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 5
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_prespear",
+                     "up",
+                     "240",
+                     "490"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 415
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_corner",
+                     "down",
+                     "160",
+                     "10"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 420
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 420
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "preload": [
+      "asAppear",
+      "asStab",
+      "iooFFloorspear",
+      "iooFFloorspearBase",
+      "asArrow",
+      "iocUndyne",
+      "ibuSOUL",
+      "iocUndyneJetpack",
+      "iooFSpearStab",
+      "asLanding",
+      "iooFSpearHole",
+      "asStomp",
+      "amUndynefast",
+      "asJetpack",
+      "iooFSpear",
+      "battleAssets",
+      "ibbRedspear",
+      "iooFSpearSpawn",
+      "asOops"
+   ],
+   "neighbors": [
+      "f_prespear",
+      "f_corner"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 300
+      }
+   ],
+   "score": {
+      "music": "factory",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   }
+}

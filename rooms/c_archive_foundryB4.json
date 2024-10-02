@@ -1,0 +1,145 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amFactoryquietArchive"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 180
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 250,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 250,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": -140,
+                     "y": 60
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_foundryB3",
+                     "down",
+                     "393",
+                     "135"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cf2_battle"
+                  ]
+               }
+            ],
+            "interacts": []
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFBlookComputer",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 82
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocNapstablookUp"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 92
+            }
+         }
+      ]
+   },
+   "score": {
+      "music": "factoryquietArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_foundryB3",
+      "c_archive_path4"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

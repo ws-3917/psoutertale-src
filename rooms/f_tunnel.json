@@ -1,0 +1,284 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "metadata": {
+      "dark01": true
+   },
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": -100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 240,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_chute",
+                     "down",
+                     "160",
+                     "90"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePointDark",
+                  "position": {
+                     "x": 0,
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 145
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFShinycabDark"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 93
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -14
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 40,
+                     "y": -14
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "f_shinycab"
+                  ],
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "trasher"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFTrash"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 40,
+               "y": 97
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": 51,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 51,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "f_trash"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "preload": [
+      "iocTorielDownTalk",
+      "iocTorielPhoneTalk",
+      "iocTorielSad",
+      "iooSavePoint",
+      "iooSavePointDark"
+   ],
+   "neighbors": [
+      "f_chute"
+   ]
+}

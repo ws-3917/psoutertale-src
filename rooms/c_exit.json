@@ -1,0 +1,286 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 215
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_road3",
+                     "down",
+                     "40",
+                     "10"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": -20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "final"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 190
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "1"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 120,
+               "y": 10
+            },
+            "tags": [
+               "spawn"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 120,
+         "y": -100
+      },
+      {
+         "x": 120,
+         "y": 100
+      }
+   ],
+   "neighbors": [
+      "c_road3"
+   ],
+   "preload": [
+      "amBarrier",
+      "iocAsgore",
+      "avAsgore",
+      "idcAsgore",
+      "avAlphys",
+      "iocAlphys",
+      "idcAlphys",
+      "iooCVirtexit",
+      "asCymbal"
+   ],
+   "score": {
+      "music": "barrier"
+   }
+}

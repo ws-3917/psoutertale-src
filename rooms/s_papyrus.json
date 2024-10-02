@@ -1,0 +1,476 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amStarton",
+      "iocPapyrus",
+      "iocSans",
+      "idcSans",
+      "avSans",
+      "iooSBiodome"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 310,
+               "y": 100
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": -10,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 170,
+               "y": 60
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 130,
+               "y": 100
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": 60
+            }
+         },
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 315,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 110
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_doggo",
+                     "right",
+                     "20",
+                     "140"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_human",
+                     "left",
+                     "300",
+                     "120"
+                  ]
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 55
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 90,
+                     "y": 95
+                  }
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 110
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 75
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 225
+                  },
+                  "size": {
+                     "x": 310,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 270,
+                     "y": 75
+                  },
+                  "size": {
+                     "x": 50,
+                     "y": 40
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 100,
+               "y": 125
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 300,
+               "y": 125
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSSentry2"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 110
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": -23,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 53,
+                     "y": -8
+                  }
+               },
+               {
+                  "position": {
+                     "x": -20,
+                     "y": -8
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": -4
+                  }
+               },
+               {
+                  "position": {
+                     "x": 22,
+                     "y": -8
+                  },
+                  "size": {
+                     "x": -4,
+                     "y": -4
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": -20,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 42,
+                     "y": 8
+                  },
+                  "name": "starton",
+                  "args": [
+                     "sentry"
+                  ]
+               }
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": -10,
+               "y": 60
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "s_human",
+      "s_doggo"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 40
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "starton",
+      "gain": 1
+   }
+}

@@ -1,0 +1,826 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amFactory",
+      "avAlphys",
+      "avMettaton",
+      "asLanding",
+      "avAsgore",
+      "asPhase",
+      "asSigstar2",
+      "avSans",
+      "avKidd"
+   ],
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "x": 0,
+               "y": 0
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 420,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 320
+                  },
+                  "size": {
+                     "x": 480,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 480,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 420,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 540,
+                     "y": 340
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 600,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 720,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 140
+                  }
+               },
+               {
+                  "position": {
+                     "x": 660,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 840,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 180
+                  }
+               },
+               {
+                  "position": {
+                     "x": 960,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 180
+                  }
+               },
+               {
+                  "position": {
+                     "x": 900,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1080,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 140
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1200,
+                     "y": 340
+                  },
+                  "size": {
+                     "x": -180,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1200,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1140,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1320,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1260,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1440,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1380,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 780,
+                     "y": 380
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 1495,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_muffet",
+                     "right",
+                     "20",
+                     "170"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_stand",
+                     "left",
+                     "460",
+                     "150"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePointDark",
+                  "position": {
+                     "x": 0,
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 1470,
+               "y": 200
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss1"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 352,
+               "y": 318
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss1"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss2"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 563,
+               "y": 247
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss2"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss3"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 684,
+               "y": 338
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss3"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss4"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 780,
+               "y": 187
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss4"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss5"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 861,
+               "y": 377
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss5"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss6"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 909,
+               "y": 254
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss6"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss7"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 1005,
+               "y": 146
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss7"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss8"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 1146,
+               "y": 338
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss8"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss9"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 1217,
+               "y": 187
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss9"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "f_echoAbyss10"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflowerDark",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 1398,
+               "y": 278
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "npc",
+                     "f_echoAbyss10"
+                  ]
+               }
+            ]
+         }
+      ],
+      "above": []
+   },
+   "mixins": {
+      "above": "foundry-overlay"
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 180
+      },
+      {
+         "x": 1340,
+         "y": 340
+      }
+   ],
+   "score": {
+      "music": "factory",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "f_stand",
+      "f_muffet"
+   ]
+}

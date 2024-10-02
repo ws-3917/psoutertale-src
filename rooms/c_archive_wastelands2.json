@@ -1,0 +1,250 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amOutlandsArchive",
+      "asSwitch"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooOSwitch",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 150
+            },
+            "tags": [
+               "cw_switch"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 30
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cw_switch"
+                  ]
+               }
+            ]
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 200
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands1",
+                     "up",
+                     "390",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands3",
+                     "up",
+                     "140",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 315,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands4",
+                     "right",
+                     "20",
+                     "190"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooOPaintblaster",
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 115,
+               "y": 270
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 52,
+                     "y": -8
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 52,
+                     "y": -8
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cw_paintblaster"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "outlandsArchive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 200
+      }
+   ],
+   "neighbors": [
+      "c_archive_wastelands1",
+      "c_archive_wastelands3",
+      "c_archive_wastelands4"
+   ]
+}

@@ -1,0 +1,7 @@
+/app/code
+/app/dist
+/app/languages
+/passwd
+/platforms
+/www
+node_modules

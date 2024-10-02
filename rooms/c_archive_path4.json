@@ -1,0 +1,533 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets"
+   ],
+   "layers": {
+      "below": [
+         {
+            "tags": [
+               "mightyrings"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCRing1"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 20,
+               "y": 140
+            }
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": 220
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 160
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 260,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 700,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 640,
+                     "y": 240
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 5
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_path5",
+                     "up",
+                     "30",
+                     "430"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 975,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_path3",
+                     "right",
+                     "20",
+                     "70"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "akd"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCArchiveKeystoneDiamond",
+                  "position": {
+                     "x": 0,
+                     "y": 5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               },
+               {
+                  "type": "animation",
+                  "position": {
+                     "x": 80,
+                     "y": 5
+                  },
+                  "resources": "iooCArchiveKeystoneDiamond",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 40
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "ringzone",
+                     "310",
+                     "240",
+                     "left",
+                     "x"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 100,
+               "y": 160
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 40,
+               "y": 20
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 110,
+               "y": 60
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -30,
+               "y": 60
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 40,
+               "y": -70
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 890,
+               "y": 390
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 890,
+               "y": 150
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 710,
+               "y": 150
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 710,
+               "y": 390
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 530,
+               "y": 390
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 350,
+               "y": 390
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         }
+      ],
+      "above": [
+         {
+            "tags": [
+               "arch"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArch1"
+                  ],
+                  "position": {
+                     "x": 40,
+                     "y": 180
+                  }
+               },
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArch1"
+                  ],
+                  "position": {
+                     "x": 120,
+                     "y": 180
+                  }
+               }
+            ],
+            "position": {
+               "x": -20,
+               "y": -23
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "c_archive_path3",
+      "c_archive_path5",
+      "c_archive_foundryB1"
+   ],
+   "score": {
+      "music": "archive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 0,
+         "y": 120
+      },
+      {
+         "x": 820,
+         "y": 300
+      }
+   ],
+   "spawn": {
+      "x": 40,
+      "y": 60
+   }
+}

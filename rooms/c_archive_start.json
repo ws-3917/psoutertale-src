@@ -1,0 +1,300 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 380
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 380
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 480
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 380
+                  }
+               },
+               {
+                  "position": {
+                     "x": 101,
+                     "y": 380
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 100
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 5
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_path1",
+                     "up",
+                     "170",
+                     "470"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 50,
+               "y": 450
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -50,
+               "y": 210
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -50,
+               "y": 0
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 150,
+               "y": 420
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 150,
+               "y": 210
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 150,
+               "y": 0
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -50,
+               "y": 420
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "archive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": -1000,
+         "y": 120
+      },
+      {
+         "x": 1000,
+         "y": 1000
+      }
+   ],
+   "neighbors": [
+      "c_archive_path1"
+   ]
+}

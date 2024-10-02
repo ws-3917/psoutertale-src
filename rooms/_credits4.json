@@ -1,0 +1,55 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iocAsgoreAsrielhug",
+      "iocAsgoreDownHappy",
+      "iocAsgoreDown",
+      "iocTorielDownAsriel",
+      "iocTorielDownAsrielSad",
+      "iocTorielLeftAsriel",
+      "iocTorielLeftAsrielSad",
+      "iocKiddRightTrip",
+      "iocKiddUp",
+      "iocKiddUpSad",
+      "iocKiddRight",
+      "iocKiddRightSad",
+      "iocAsgoreUp",
+      "iocKiddRightTripSad",
+      "iocKiddDownSad"
+   ],
+   "neighbors": [
+      "_frontier1"
+   ],
+   "layers": {
+      "below": [],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionACharles",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 425,
+               "y": 91
+            }
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 340
+      }
+   ]
+}

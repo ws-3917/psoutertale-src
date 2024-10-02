@@ -1,0 +1,217 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amFactory",
+      "iocUndyne",
+      "ibuSOUL",
+      "iocKidd",
+      "idcKidd",
+      "avKidd",
+      "iocUndynePhone",
+      "avAlphys",
+      "iocKiddJetpack",
+      "iocKiddSad",
+      "asSuperstrike",
+      "amScramble",
+      "iooFSpearHole",
+      "asOops"
+   ],
+   "metadata": {
+      "dark02": true
+   },
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "x": 0,
+               "y": 0
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 40
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_story2",
+                     "down",
+                     "160",
+                     "10"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 5
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_spear",
+                     "up",
+                     "160",
+                     "410"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 40
+                  },
+                  "name": "foundry",
+                  "args": [
+                     "saver"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "factory",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "f_story2",
+      "f_spear"
+   ]
+}

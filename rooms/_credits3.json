@@ -1,0 +1,562 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "ionFShyrenNote",
+      "iocMettatonDanceBody",
+      "iocMettatonDanceArm",
+      "iocMettatonDanceLeg",
+      "ionFShyrenSing",
+      "iocMettatonPointthree",
+      "iocMettatonPointtwo",
+      "iocMettatonPoint",
+      "iocMettatonPointthreeHapstablook",
+      "iocMettatonPointtwoHapstablook",
+      "iocMettatonPointHapstablook",
+      "iocMettatonMicrophoneHapstablook"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOWoshuaBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 252,
+               "y": 155
+            },
+            "barriers": []
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStagelight"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  }
+               }
+            ],
+            "tags": [
+               "light"
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionAClamguyBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 207,
+               "y": 158
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOMushyBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 175,
+               "y": 150
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "tags": [
+               "asriel"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocAsrielTrueLeftSad",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 320,
+               "y": 86
+            }
+         },
+         {
+            "tags": [
+               "animated"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOFroggitBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 120,
+               "y": 156
+            }
+         },
+         {
+            "tags": [
+               "animated"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOFroggitBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 101,
+               "y": 153
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionFDogeLeft",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 314,
+               "y": 121
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionABusinessdude",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 63,
+               "y": 64
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooODjtable",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 72
+            },
+            "tags": [
+               "turntable"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOPlugbellyBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 145,
+               "y": 154
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionADrakedad",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 27,
+               "y": 29
+            },
+            "tags": [
+               "drakedad",
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSRabbit",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 48,
+               "y": 38
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "ionSPolitics"
+               }
+            ],
+            "position": {
+               "x": 313,
+               "y": 30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOSteaksalesmanBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 61,
+               "y": 157
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocNapstablookDown"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 58
+            },
+            "tags": [
+               "floater"
+            ]
+         },
+         {
+            "tags": [
+               "shyren"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionFShyren",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": true,
+                  "filters": []
+               }
+            ],
+            "position": {
+               "x": 124,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocMettatonMicrophone",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 200,
+               "y": 61
+            },
+            "tags": [
+               "metta"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFPiano"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 233,
+               "y": 37
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocNapstablookUpAlter"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 234,
+               "y": 42
+            },
+            "tags": [
+               "floater"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSDogamy",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false
+               }
+            ],
+            "position": {
+               "x": 5,
+               "y": 95
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSDogaressa",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 1,
+               "y": 111
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOSilencioBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 282,
+               "y": 39
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOMananaBackl",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 26,
+               "y": 145
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionABowtieBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 288,
+               "y": 147
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionOMananaBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 26,
+               "y": 144
+            },
+            "tags": [
+               "animated"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooAMoneyMew",
+                     ""
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 90,
+               "y": 47
+            },
+            "tags": [
+               "floater"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocHumansIntegrityDown"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 271,
+               "y": 58
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "_credits4"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 280
+      },
+      {
+         "x": 160,
+         "y": 280
+      }
+   ]
+}

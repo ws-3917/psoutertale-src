@@ -1,0 +1,9 @@
+- fix mk citadel view bug when sanctuary (happens if use sanctuary when they standin still)
+- no hit no save no reaction
+- posible for terrestria shadow person to not appear then appear stuck in one place after battle
+- controller bring up keyboard rename on timeline screen is broken
+
+- potentially add more options menus!
+   - add keyboard layout option
+   - add in-game time display
+- The npc that sells you super starwalker #1 could react if you threw the comic away in that room

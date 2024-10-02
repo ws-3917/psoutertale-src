@@ -1,0 +1,565 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "x": 214,
+               "y": 80
+            },
+            "size": {
+               "x": 72,
+               "y": 20
+            },
+            "name": "teleport",
+            "args": []
+         },
+         {
+            "tags": [
+               "xobject"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 100
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "bastion"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 245,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": 20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "bastion"
+                  ]
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 100
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               }
+            ]
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 94,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 206,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 94,
+                     "y": -20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_throneroom",
+                     "down",
+                     "110",
+                     "130"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 134,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 72,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_road3",
+                     "up",
+                     "40",
+                     "1270"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastionCable"
+               }
+            ],
+            "position": {
+               "x": 60,
+               "y": 120
+            },
+            "filters": [],
+            "tags": [
+               "bastionCable",
+               "xobject"
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  }
+               }
+            ],
+            "position": {
+               "x": 65,
+               "y": 60
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ],
+            "barriers": [],
+            "interacts": []
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  }
+               }
+            ],
+            "position": {
+               "x": 95,
+               "y": 60
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  }
+               }
+            ],
+            "position": {
+               "x": 245,
+               "y": 60
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 15,
+                     "y": -5
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 65,
+               "y": 76
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 95,
+               "y": 76
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 245,
+               "y": 76
+            },
+            "tags": [
+               "bastion",
+               "xobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCTerminal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 80,
+               "y": 195
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -10
+                  }
+               }
+            ],
+            "triggers": [],
+            "tags": [
+               "bastionTerminal",
+               "xobject"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -10
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "bastionTerm"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCBastion",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 275,
+               "y": 120
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -30,
+                     "y": -20
+                  }
+               }
+            ],
+            "tags": [
+               "bastion",
+               "yourBastion",
+               "xobject"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -30,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "bastion"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "eobject",
+               "c_janet"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionCJanet",
+                  "active": true,
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 228,
+               "y": 158
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -62,
+                     "y": -7
+                  },
+                  "position": {
+                     "x": 1,
+                     "y": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 25,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -14,
+                     "y": -7
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "janetbucket"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": -30,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 45,
+                     "y": -7
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "janet"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "c_road3",
+      "c_throneroom"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 180,
+         "y": 120
+      }
+   ],
+   "preload": [
+      "idcAlphys",
+      "iocAlphys",
+      "avAlphys",
+      "iocAsgore",
+      "avAsgore",
+      "idcAsgore",
+      "asCymbal",
+      "asDepower",
+      "idcSans",
+      "avSans"
+   ]
+}

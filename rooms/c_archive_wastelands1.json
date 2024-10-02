@@ -1,0 +1,281 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amOutlandsArchive",
+      "asSwitch"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooOSwitch",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 395,
+               "y": 90
+            },
+            "tags": [
+               "cw_switch"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 30
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cw_switch"
+                  ]
+               }
+            ]
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 420,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 360,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 420,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands4",
+                     "left",
+                     "340",
+                     "120"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 237
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands2",
+                     "down",
+                     "150",
+                     "90"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [],
+            "position": {
+               "x": 160,
+               "y": 140
+            },
+            "attachments": [
+               {
+                  "type": "animation",
+                  "auto": false,
+                  "position": {
+                     "y": -10
+                  },
+                  "resources": "ionOFroggit"
+               }
+            ],
+            "barriers": [
+               {
+                  "size": {
+                     "x": 20,
+                     "y": 10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 20,
+                     "y": 10
+                  },
+                  "args": [
+                     "cw_f1"
+                  ],
+                  "name": "trivia"
+               }
+            ]
+         },
+         {
+            "tags": [],
+            "position": {
+               "x": 280,
+               "y": 140
+            },
+            "attachments": [
+               {
+                  "type": "animation",
+                  "auto": false,
+                  "position": {
+                     "y": -10
+                  },
+                  "resources": "ionOFroggit"
+               }
+            ],
+            "barriers": [
+               {
+                  "size": {
+                     "x": 20,
+                     "y": 10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 20,
+                     "y": 10
+                  },
+                  "args": [
+                     "cw_f2"
+                  ],
+                  "name": "trivia"
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "auto": false,
+                  "resources": "iooOVendingMachine",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 50,
+               "y": 135
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -28,
+                     "y": -15
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -28,
+                     "y": -15
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cw_vender"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "outlandsArchive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 320,
+         "y": 120
+      }
+   ],
+   "neighbors": [
+      "c_archive_wastelands2",
+      "c_archive_wastelands4"
+   ]
+}

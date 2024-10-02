@@ -1,0 +1,394 @@
+{
+   "$schema": "./room.schema.json",
+   "preload": [
+      "asDoorClose",
+      "iooCAsgoreAsrielOver",
+      "avAlphys",
+      "asImpact"
+   ],
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 71,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 128,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 51,
+                     "y": 101
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 119
+                  }
+               },
+               {
+                  "position": {
+                     "x": 250,
+                     "y": 101
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 119
+                  }
+               },
+               {
+                  "position": {
+                     "x": 238,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 12,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 123,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 39,
+                     "y": 15
+                  }
+               },
+               {
+                  "position": {
+                     "x": 169,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": 21
+                  }
+               },
+               {
+                  "position": {
+                     "x": 205,
+                     "y": 105
+                  },
+                  "size": {
+                     "x": 32,
+                     "y": 51
+                  }
+               },
+               {
+                  "position": {
+                     "x": 225,
+                     "y": 157
+                  },
+                  "size": {
+                     "x": 24,
+                     "y": 15
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 101
+                  },
+                  "size": {
+                     "x": 32,
+                     "y": 55
+                  }
+               },
+               {
+                  "position": {
+                     "x": 102,
+                     "y": 101
+                  },
+                  "size": {
+                     "x": 21,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 131,
+                     "y": 99
+                  },
+                  "size": {
+                     "x": 9,
+                     "y": 15
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_paper"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 105,
+                     "y": 101
+                  },
+                  "size": {
+                     "x": 16,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_flower"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 168,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 31,
+                     "y": 21
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_cabinet"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 225,
+                     "y": 158
+                  },
+                  "size": {
+                     "x": 23,
+                     "y": 13
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_box"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 148,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 6,
+                     "y": 14
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_frame"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 205,
+                     "y": 122
+                  },
+                  "size": {
+                     "x": 32,
+                     "y": 34
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "bed"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 71,
+                     "y": 105
+                  },
+                  "size": {
+                     "x": 31,
+                     "y": 51
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "c_aa_deathbed"
+                  ]
+               }
+            ]
+         },
+         {
+            "interacts": [],
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 199,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 39,
+                     "y": 20
+                  },
+                  "args": [
+                     "c_asgore_hallway",
+                     "down",
+                     "170.5",
+                     "122"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSCrossword"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "ultranote"
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "ultranote"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 149,
+               "y": 167
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCPresent",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -12
+                  }
+               }
+            ],
+            "position": {
+               "x": 126,
+               "y": 216
+            },
+            "tags": [
+               "giftbox1"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -12
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "giftbox1"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCPresent",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -12
+                  }
+               }
+            ],
+            "position": {
+               "x": 172,
+               "y": 216
+            },
+            "tags": [
+               "giftbox2"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -12
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "giftbox2"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "c_asgore_hallway"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120.5
+      },
+      {
+         "x": 160,
+         "y": 120.5
+      }
+   ]
+}

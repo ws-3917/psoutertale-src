@@ -1,0 +1,430 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iooSBiodome",
+      "taxiAssets",
+      "ieTelescope",
+      "idcKidd",
+      "iocKidd",
+      "avKidd"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 35
+                  },
+                  "size": {
+                     "x": 110,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 210,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 90
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 105
+                  },
+                  "size": {
+                     "x": 210,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 35
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 70
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_town1",
+                     "left",
+                     "980",
+                     "150"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooTaxi",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "riverboi_x"
+            ],
+            "position": {
+               "x": 160,
+               "y": 12
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": -90,
+                     "y": 3
+                  },
+                  "size": {
+                     "x": 91,
+                     "y": -8
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 3
+                  },
+                  "size": {
+                     "x": -66,
+                     "y": -25
+                  }
+               },
+               {
+                  "position": {
+                     "x": -22,
+                     "y": -5
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -17
+                  }
+               },
+               {
+                  "position": {
+                     "x": -22,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 46,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -42,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 17
+                  },
+                  "name": "aerialis",
+                  "args": [
+                     "riverboi"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 24,
+                     "y": -22
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 17
+                  },
+                  "name": "aerialis",
+                  "args": [
+                     "riverboi"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "taxibarrier"
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 110,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": -20
+                  }
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 198,
+               "y": 101
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSTelescope"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 70,
+               "y": 45
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": 21,
+                     "y": -8
+                  },
+                  "position": {
+                     "x": 1,
+                     "y": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": 22,
+                     "y": -8
+                  },
+                  "name": "starton",
+                  "args": [
+                     "telescope"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSVegetoid",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 128,
+               "y": 28
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -19,
+                     "y": -6
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -19,
+                     "y": -6
+                  },
+                  "name": "starton",
+                  "args": [
+                     "vegetoid"
+                  ]
+               }
+            ],
+            "tags": [
+               "s_vegetoid"
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": 20
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": 60
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": 100
+            }
+         }
+      ]
+   },
+   "score": {
+      "music": "radiosong",
+      "gain": 1,
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "s_town1",
+      "_taxi"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 40
+      },
+      {
+         "x": 160,
+         "y": 40
+      }
+   ]
+}

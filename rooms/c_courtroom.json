@@ -1,0 +1,476 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 1000,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 1200,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1300,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1260,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 480,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 600,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 720,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 840,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 960,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 1080,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_elevator2",
+                     "up",
+                     "230",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 1200,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_road2",
+                     "up",
+                     "170",
+                     "470"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 780,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_window"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar1"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar2"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 480,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar3"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 600,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar4"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 720,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar5"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 840,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar6"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 960,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar7"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 1080,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cr_pillar8"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 120,
+               "y": 130
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "tags": [
+               "dimbox"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooDimbox",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 130
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  },
+                  "name": "starton",
+                  "args": [
+                     "dimbox"
+                  ]
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 1050,
+               "y": 124
+            },
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocSansDown",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -23,
+                     "y": -5
+                  }
+               }
+            ],
+            "tags": [
+               "eobject",
+               "sanser"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 1240,
+         "y": 120
+      }
+   ],
+   "neighbors": [
+      "c_elevator2",
+      "c_road2"
+   ],
+   "preload": [
+      "iooCPillar",
+      "asJudgement",
+      "avSans",
+      "iocSans",
+      "idcSans",
+      "asPathway",
+      "asElectropulse",
+      "ibuCyanSOUL"
+   ]
+}

@@ -1,0 +1,444 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "asPathway",
+      "asOops",
+      "iooCBastionwall",
+      "asAppear"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 480
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 190
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 380
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 50
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 460
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 110
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 460
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 110
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 310
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 210
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 580
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 210,
+                     "y": 580
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 580
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 640
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 640
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 80
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 335,
+                     "y": 520
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "final_frontier"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_bastion",
+                     "up",
+                     "170",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 715
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_road2",
+                     "down",
+                     "170",
+                     "150"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "warningsign"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "cornerbarrier"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 190
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 460
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 460
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 90,
+                     "y": 570
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 10
+                  }
+               },
+               {
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  },
+                  "position": {
+                     "x": 20,
+                     "y": 640
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 640
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 520
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 130,
+                     "y": 570
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 250,
+                     "y": 570
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               }
+            ],
+            "barriers": [
+               {}
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCThrone",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 170,
+               "y": 385
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -75,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -75,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "throne"
+                  ]
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 231,
+               "y": 131
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarlingPotted"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "c_bastion",
+      "c_road2"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 180,
+         "y": 600
+      }
+   ]
+}

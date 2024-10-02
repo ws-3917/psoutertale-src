@@ -1,0 +1,605 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amFactoryquietArchive",
+      "ionFSpider"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 155
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_foundryB2",
+                     "down",
+                     "160",
+                     "90"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "cf2_ficus"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCFicus"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 50,
+               "y": 35
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 15,
+                     "y": -8
+                  },
+                  "position": {
+                     "x": -5,
+                     "y": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -5,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 15,
+                     "y": -8
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_ficus"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "cf2_ficus"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCFicus"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 265,
+               "y": 35
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 15,
+                     "y": -8
+                  },
+                  "position": {
+                     "x": -5,
+                     "y": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -5,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 15,
+                     "y": -8
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_ficus"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "dimbox"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooDimbox",
+                  "position": {
+                     "x": 0,
+                     "y": 95
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": -45
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 95
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cf2_key"
+                  ],
+                  "position": {
+                     "x": 0,
+                     "y": 95
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "position": {
+                     "x": 0,
+                     "y": 59
+                  },
+                  "frames": [
+                     "iooCQuiethouse"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 164,
+               "y": -40
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": -99,
+                     "y": 98
+                  },
+                  "size": {
+                     "x": 190,
+                     "y": -33
+                  }
+               }
+            ],
+            "tags": [
+               "spiderobject"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -23,
+                     "y": 98
+                  },
+                  "size": {
+                     "x": 38,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_quiethouse"
+                  ]
+               }
+            ],
+            "filters": []
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFWebcube"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 205,
+               "y": 65
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -10
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_web"
+                  ]
+               }
+            ],
+            "tags": [
+               "spiderobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFWebcuboid"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 235,
+               "y": 75
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_web"
+                  ]
+               }
+            ],
+            "tags": [
+               "spiderobject"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFSpidertable"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 100
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -10
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf2_spidertable"
+                  ]
+               }
+            ],
+            "tags": [
+               "spiderobject"
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "factoryquietArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_foundryB2"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 0
+      },
+      {
+         "x": 160,
+         "y": 40
+      }
+   ]
+}

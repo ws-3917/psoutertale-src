@@ -1,0 +1,539 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amStarton",
+      "iooSCrossword",
+      "iooSCrosswordScreen",
+      "iocPapyrus",
+      "iocSans",
+      "idcSans",
+      "avSans",
+      "iooSBiodome",
+      "iocPapyrusStark"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 140,
+               "y": 120
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 100,
+               "y": 120
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 100,
+               "y": 160
+            }
+         },
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 215
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 90
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_spaghetti",
+                     "left",
+                     "300",
+                     "160"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 590,
+                     "y": 65
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_puzzle1",
+                     "up",
+                     "80",
+                     "250"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 90,
+                     "y": 25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 215
+                  },
+                  "size": {
+                     "x": 70,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 50,
+                     "y": -100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 305
+                  },
+                  "size": {
+                     "x": -70,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 280,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 500,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -280,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 500,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 70,
+                     "y": -25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 570,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -55
+                  }
+               },
+               {
+                  "position": {
+                     "x": 500,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 70,
+                     "y": 25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 570,
+                     "y": 205
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 650,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 145
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSFlower"
+                  ],
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 12,
+               "y": 98
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSFlower"
+                  ],
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 2,
+               "y": 103
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 15,
+               "y": 65
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 590,
+               "y": 125
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 50,
+               "y": 225
+            }
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 670,
+               "y": 160
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 670,
+               "y": 200
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 630,
+               "y": 200
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "s_spaghetti",
+      "s_puzzle1"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 180
+      },
+      {
+         "x": 520,
+         "y": 220
+      }
+   ],
+   "score": {
+      "music": "starton",
+      "gain": 1
+   }
+}

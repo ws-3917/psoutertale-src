@@ -1,0 +1,163 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "tags": [
+               "sippy"
+            ],
+            "position": {
+               "x": 185,
+               "y": 92
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSippy"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [ "goatboi" ],
+            "position": {
+               "x": 80,
+               "y": 150
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocAsrielSleepingbeauty"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooBedcover"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  }
+               },
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooBedcover"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "position": {
+                     "x": 160,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 62,
+               "y": 133
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ibuSOUL",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 240,
+               "y": 79
+            },
+            "filters": [
+               "bloomX"
+            ],
+            "tags": [
+               "hearts"
+            ]
+         },
+         {
+            "tags": [
+               "hearts"
+            ],
+            "filters": [
+               "bloomX"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "ibuBossSOUL"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 80,
+               "y": 79
+            }
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "preload": [
+      "asImpact",
+      "asBoom",
+      "asDeeploop2",
+      "idcAsgoreHopeful",
+      "avAsgore",
+      "iocAsgore",
+      "asDephase",
+      "asPhase",
+      "amGenerator",
+      "avSans",
+      "idcSans",
+      "idcAsgore",
+      "avKidd",
+      "idcKidd",
+      "avPapyrus",
+      "idcPapyrus"
+   ],
+   "score": {
+      "music": "generator",
+      "rate": 0.5,
+      "filter": 0
+   }
+}

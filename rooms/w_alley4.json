@@ -1,0 +1,307 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iocTorielLeftHandhold",
+      "iocTorielDown",
+      "iocTorielDownTalk",
+      "asImpact",
+      "iocTorielLeft",
+      "iocTorielLeftTalk",
+      "iocTorielRight",
+      "iocTorielRightTalk",
+      "iocTorielUp",
+      "iocTorielUpTalk",
+      "iocTorielHug",
+      "amPrebattle",
+      "amToriel",
+      "iooSBiodome",
+      "iooOSecurityFieldTall",
+      "iocTorielMad"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocTwinklyMain",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "tags": [
+               "stalker"
+            ],
+            "position": {
+               "x": 320,
+               "y": 150
+            }
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 320
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 220
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 380,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 320
+                  },
+                  "size": {
+                     "x": -180,
+                     "y": 180
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 540
+                  },
+                  "size": {
+                     "x": -240,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 116,
+                     "y": 500
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "name": "outlands",
+                  "args": [
+                     "runaway"
+                  ]
+               }
+            ]
+         },
+         {
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 5,
+                     "y": 500
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "args": [
+                     "w_alley3",
+                     "left",
+                     "360",
+                     "180"
+                  ]
+               },
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 200,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "args": [
+                     "w_bridge",
+                     "up",
+                     "40",
+                     "1270"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "w_alley3",
+      "w_bridge"
+   ],
+   "region": [
+      {
+         "x": 180,
+         "y": 140
+      },
+      {
+         "x": 260,
+         "y": 460
+      }
+   ]
+}

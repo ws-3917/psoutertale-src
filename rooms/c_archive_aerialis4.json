@@ -1,0 +1,121 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amAerialisArchive",
+      "asWind"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": -20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 215,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis3",
+                     "right",
+                     "20",
+                     "40"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis2",
+                     "up",
+                     "160",
+                     "230"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "aerialisArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_aerialis3",
+      "c_archive_aerialis2"
+   ],
+   "region": [
+      {
+         "x": 20,
+         "y": 120
+      },
+      {
+         "x": 60,
+         "y": 220
+      }
+   ]
+}

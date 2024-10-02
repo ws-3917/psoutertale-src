@@ -1,0 +1,484 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets"
+   ],
+   "layers": {
+      "below": [
+         {
+            "tags": [
+               "mightyrings"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCRing2"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 180
+            }
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 280
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": 200
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": 220
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 240,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 201,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 240,
+                     "y": 180
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 320
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 520,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  }
+               }
+            ],
+            "interacts": [],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 475
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_start",
+                     "down",
+                     "50",
+                     "10"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 5
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_path2",
+                     "up",
+                     "430",
+                     "430"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         {
+            "tags": [
+               "akd"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCArchiveKeystoneDiamond",
+                  "position": {
+                     "x": 0,
+                     "y": 5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               },
+               {
+                  "type": "animation",
+                  "position": {
+                     "x": 80,
+                     "y": 5
+                  },
+                  "resources": "iooCArchiveKeystoneDiamond",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 40
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "ringzone",
+                     "460",
+                     "290",
+                     "right"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 300,
+               "y": 200
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 70,
+               "y": 480
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -30,
+               "y": 0
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 270,
+               "y": 480
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 480,
+               "y": 150
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 480,
+               "y": 410
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 550,
+               "y": 280
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveLight"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": -30,
+               "y": 210
+            },
+            "tags": [
+               "archiveLight"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 480,
+               "y": 240
+            }
+         }
+      ],
+      "above": [
+         {
+            "tags": [
+               "arch"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArch2"
+                  ],
+                  "position": {
+                     "x": 320,
+                     "y": 220
+                  }
+               },
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArch2"
+                  ],
+                  "position": {
+                     "x": 400,
+                     "y": 220
+                  }
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": -23
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "c_archive_start",
+      "c_archive_path2",
+      "c_archive_wastelands1"
+   ],
+   "score": {
+      "music": "archive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 0,
+         "y": 120
+      },
+      {
+         "x": 280,
+         "y": 360
+      }
+   ],
+   "spawn": {
+      "x": 480,
+      "y": 280
+   }
+}

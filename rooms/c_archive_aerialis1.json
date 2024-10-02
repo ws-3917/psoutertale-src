@@ -1,0 +1,244 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amAerialisArchive",
+      "asWind"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -220,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 280,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis2",
+                     "up",
+                     "160",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis3",
+                     "left",
+                     "420",
+                     "40"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "ca_starling"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "neuteral"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "ionCNeuteral"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 190,
+               "y": 125
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -22,
+                     "y": -4
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": -22,
+                     "y": -4
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "ca_neuteral"
+                  ]
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 78,
+               "y": 210
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 45,
+               "y": 210
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 62,
+               "y": 214
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "aerialisArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_aerialis3",
+      "c_archive_aerialis2"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 280,
+         "y": 200
+      }
+   ]
+}

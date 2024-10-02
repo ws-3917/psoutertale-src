@@ -96,12 +96,15 @@ import startonIndex from './starton/index';
 import startonOpponents from './starton/opponents';
 import startonPatterns from './starton/patterns';
 
-// import '../languages/ru_RU/index';
-// import '../languages/tr_TR/index';
-// import '../languages/zh_CN/index';
-// import '../languages/zh_CN/index-alt';
-// import '../languages/zh_TW/index';
-// import '../languages/zh_TW/index-alt';
+import '../languages/cs_CZ/index';
+import '../languages/es_ES/index';
+import '../languages/ja_JP/index';
+import '../languages/ru_RU/index';
+import '../languages/tr_TR/index';
+import '../languages/zh_CN/index';
+import '../languages/zh_CN/index-alt';
+import '../languages/zh_TW/index';
+import '../languages/zh_TW/index-alt';
 
 export type OutertaleMod = (mod: string, api: typeof apiValue) => any;
 
@@ -243,7 +246,7 @@ const inputState = {
 
 const viteError = new Error();
 
-function errorHandler (error: any) {
+function errorHandler(error: any) {
    if (
       error === viteError ||
       `${error}`.includes('fullscreen error') ||
@@ -257,7 +260,7 @@ function errorHandler (error: any) {
    }
 }
 
-async function fileOpen () {
+async function fileOpen() {
    const content = await dialog.open(systemsText.dialog.dialog_open);
    if (typeof content === 'string') {
       try {
@@ -267,9 +270,8 @@ async function fileOpen () {
             (await dialog.message(false, 'confirm', {
                buttons: systemsText.dialog.message_confirm,
                title: systemsText.dialog.dialog_open.title,
-               message: `${systemsText.dialog.prompt_open}\n${
-                  name || systemsText.general.unknown
-               } @ ${CosmosUtils.provide(saver.locations.of(room || spawn).name)}`
+               message: `${systemsText.dialog.prompt_open}\n${name || systemsText.general.unknown
+                  } @ ${CosmosUtils.provide(saver.locations.of(room || spawn).name)}`
             })) === 1
          ) {
             saver.time_but_real.active = false;
@@ -278,7 +280,7 @@ async function fileOpen () {
                   (key.startsWith(SAVE.safespace) && !SAVE.semisafe.includes(key.slice(SAVE.safespace.length))) ||
                   SAVE.manager.removeItem(key);
             }
-            for (const [ key, value ] of entries) {
+            for (const [key, value] of entries) {
                key === 'ERRORCODE' ||
                   (key.startsWith(SAVE.safespace) && !SAVE.semisafe.includes(key.slice(SAVE.safespace.length))) ||
                   SAVE.manager.setItem(key, value);
@@ -297,7 +299,7 @@ async function fileOpen () {
    }
 }
 
-async function fileReset () {
+async function fileReset() {
    const { name, room } = SAVE.strings(SAVE.manager.getItem(SAVE.canon));
    if (
       (await dialog.message(false, 'confirm', {
@@ -320,7 +322,7 @@ async function fileReset () {
    }
 }
 
-async function fileSave () {
+async function fileSave() {
    if (isMobile.any) {
       prompt(systemsText.dialog.prompt_save_alternate, SAVE.serialize());
    } else {
@@ -339,7 +341,7 @@ async function fileSave () {
    }
 }
 
-function inputHandler (key: string) {
+function inputHandler(key: string) {
    if (key !== '' && inputState.hyper()) {
       switch ((inputState.code += key)) {
          case 'll':
@@ -380,7 +382,7 @@ keys.upKey.on('down', () => inputHandler('u') && atlas.seek('up'));
 
 renderer.on('tick', {
    priority: Number.MIN_SAFE_INTEGER,
-   listener () {
+   listener() {
       if (inputState.hyper()) {
          keyState.down = false;
          keyState.interact = false;
@@ -403,7 +405,7 @@ renderer.on('tick', {
 
 renderer.on('pre-render', {
    priority: Number.MIN_SAFE_INTEGER,
-   listener () {
+   listener() {
       this.freecam || this.position.set(game.camera);
    }
 });
@@ -470,20 +472,20 @@ addEventListener('beforeunload', () => {
                ? decodeURIComponent(params.get('modscript') ?? '')
                : SAVE.manager.getItem('MODSCRIPT'),
             []
-         ).map((script, index) => [ `modscript:${index}`, `data:text/javascript,${script}` ]),
-         ...(backend?.mods() ?? []).map(name => [ `mods:${name}`, `mods:${name}/index.js?${Math.random()}` ])
-      ].map(async ([ name, source ]) => {
+         ).map((script, index) => [`modscript:${index}`, `data:text/javascript,${script}`]),
+         ...(backend?.mods() ?? []).map(name => [`mods:${name}`, `mods:${name}/index.js?${Math.random()}`])
+      ].map(async ([name, source]) => {
          try {
-            return [ name, await import(/* @vite-ignore */ source) ] as [string, any];
+            return [name, await import(/* @vite-ignore */ source)] as [string, any];
          } catch (error) {
             console.trace(error);
             backend?.exec('devtools', true);
-            return [ name, null ] as [string, null];
+            return [name, null] as [string, null];
          }
       })
    ).then(entries =>
       Promise.all(
-         entries.map(async ([ name, value ]) => {
+         entries.map(async ([name, value]) => {
             if (value) {
                try {
                   await Promise.all(events.fire('loaded-mod', name, await value.default?.(name, apiValue)));
@@ -512,7 +514,7 @@ addEventListener('beforeunload', () => {
       while (indices.includes(index)) {
          index++;
       }
-      list.push([ index, data.s.name ]);
+      list.push([index, data.s.name]);
       delete data.s.name;
       const namespace = `TIMELINES~${index}`;
       for (const key of SAVE.keys()) {
@@ -535,7 +537,7 @@ addEventListener('beforeunload', () => {
    await inventories.fontAssets.load();
    panel.ready = true;
    params.has('developer') && panel.start();
-   const gp = [ ...navigator.getGamepads() ].find(value => value instanceof Gamepad);
+   const gp = [...navigator.getGamepads()].find(value => value instanceof Gamepad);
    gp !== void 0 && gp !== null && gamepadder.connect(gp);
    if (
       launch.timeline &&

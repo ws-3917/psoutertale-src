@@ -109,10 +109,10 @@ zip -qr9 ../win.zip * &
 while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
 
 # and.apk
-# echo creating and.apk
-# cd ../../..
-# rm -rf www
-# cp -r app/dist/assets www
-# if [ ! -d platforms ]; then yarn build-platforms; fi
-# yarn build-apk
-# mv platforms/android/app/build/outputs/apk/debug/app-debug.apk app/dist/and.apk
+echo creating and.apk
+cd ../../..
+rm -rf www
+cp -r app/dist/assets www
+if [ ! -d platforms ]; then yarn build-platforms; fi
+yarn build-apk
+mv platforms/android/app/build/outputs/apk/debug/app-debug.apk app/dist/and.apk

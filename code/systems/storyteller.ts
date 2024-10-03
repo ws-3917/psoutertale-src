@@ -3157,7 +3157,6 @@ export class CosmosText<
                         const rect= this.parent?.parent
                         if(rect instanceof CosmosRectangle){
                            xOffset = rect.size.x - this.position.x - rect.position.x - (glyph[6] * scale + this.spacing.x + subspacing.x) * stretch;
-                           console.log(rect.size,this.position,rect.position.x,xOffset)
                         }
                      }
 

@@ -57,6 +57,7 @@ import s_start from '../../rooms/s_start.json';
 import s_taxi from '../../rooms/s_taxi.json';
 import s_town1 from '../../rooms/s_town1.json';
 import s_town2 from '../../rooms/s_town2.json';
+import values from '../../languages/default/text/values';
 
 export const startonMap = new OutertaleMap(imStarton$info, new CosmosImage(imStarton));
 startonMap.name = 'maps::starton';
@@ -537,7 +538,9 @@ speech.presets.register({
       voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
       fontFamily1: content.fPapyrus,
       fontFamily2: content.fPapyrus,
-      fontSize2: 8
+      fontSize1: values.papyrusStyle().fontSize1,
+      fontSize2: 8,
+      writingMode: values.papyrusStyle().writingMode,
    }),
    papyrusnt: new OutertaleSpeechPreset({
       faces: [ null ],
@@ -545,7 +548,9 @@ speech.presets.register({
       voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
       fontFamily1: content.fPapyrus,
       fontFamily2: content.fPapyrus,
-      fontSize2: 8
+      fontSize1: values.papyrusStyle().fontSize1,
+      fontSize2: 8,
+      writingMode: values.papyrusStyle().writingMode,
    }),
    alphys: new OutertaleSpeechPreset({
       faces: [

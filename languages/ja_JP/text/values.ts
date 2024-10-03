@@ -253,6 +253,12 @@ export default {
    },
    nameYesX: 3,
    nameGoBackX: 0,
+   papyrusStyle: () => {
+      return {
+         fontSize1: 10,
+         writingMode: "vertical-rl"
+      };
+   },
    saveLVX: 8,
    saveReturnX: 18,
    saveSaveX: 14,

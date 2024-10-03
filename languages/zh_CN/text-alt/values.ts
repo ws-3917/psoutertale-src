@@ -415,6 +415,12 @@ export default {
       return value.toLowerCase();
    },
    nameGoBackX: 0,
+   papyrusStyle: () => {
+      return {
+         fontSize1: 16,
+         writingMode: "horizontal-tb"
+      };
+   },
    saveLVX: 8,
    saveReturnX: 18,
    saveSaveX: 14,

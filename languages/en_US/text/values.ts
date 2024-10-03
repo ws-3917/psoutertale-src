@@ -242,12 +242,8 @@ export default {
    nameNoX: 0,
    nameYesX: 0,
    nameGoBackX: 0,
-   papyrusStyle: () => {
-      return {
-         fontSize1: 16,
-         writingMode: "horizontal-tb"
-      };
-   },
+   papyrusFontSize1: 16,
+   papyrusWritingMode: 'horizontal-tb',
    saveLVX: 0,
    saveReturnX: 0,
    saveSaveX: 0,

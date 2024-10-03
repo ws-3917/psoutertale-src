@@ -34,10 +34,8 @@ export default values as {
    nameNoX: number;
    nameYesX: number;
    nameGoBackX: number;
-   papyrusStyle: () => {
-      fontSize1: number;
-      writingMode: CosmosWritingMode;
-   };
+   papyrusFontSize1: number;
+   papyrusWritingMode: String;
    saveLVX: number;
    saveReturnX: number;
    saveSaveX: number;

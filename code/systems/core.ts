@@ -392,6 +392,9 @@ export const speech = {
       get fontSize2 () {
          return speech.state.preset.fontSize2;
       },
+      get writingMode() {
+         return speech.state.preset.writingMode;
+      },
       preset: new OutertaleSpeechPreset()
    },
    presets: new CosmosRegistry<string, OutertaleSpeechPreset>(new OutertaleSpeechPreset()),

@@ -108,6 +108,7 @@ import {
    CosmosValue,
    CosmosValueLinked,
    CosmosValueRandom,
+   CosmosWritingMode,
    Vow
 } from './storyteller';
 import { translator } from './translator';
@@ -622,7 +623,8 @@ export const battler = {
       twinkly: (
          fontFamily = () => speech.state.fontFamily2,
          fontSize = () => speech.state.fontSize2,
-         provider = () => game.text
+         provider = () => game.text,
+         writingMode = () => speech.state.writingMode
       ) =>
          new CosmosObject({
             objects: [
@@ -634,6 +636,7 @@ export const battler = {
                }).on('tick', function () {
                   this.fontFamily = fontFamily();
                   this.fontSize = fontSize();
+                  this.writingMode = writingMode();
                   this.content = provider();
                   switch (this.fontFamily) {
                      case content.fPapyrus:
@@ -1381,11 +1384,12 @@ export const battler = {
    async monster (
       cutscene: boolean,
       position: CosmosPointSimple,
-      bubble: (fontFamily?: () => CosmosFont | null, fontSize?: () => number, content?: () => string) => CosmosObject,
+      bubble: (fontFamily?: () => CosmosFont | null, fontSize?: () => number, content?: () => string, writingMode?: () => CosmosWritingMode | null) => CosmosObject,
       ...lines: string[]
    ) {
       let fontFamily: () => CosmosFont | null,
          fontSize: () => number,
+         writingMode: () => CosmosWritingMode | null,
          provider: () => string,
          typer_current: CosmosTyper;
       let targets = null as Set<CosmosSprite> | null;
@@ -1402,6 +1406,7 @@ export const battler = {
 
          fontFamily = () => state.fontFamily2;
          fontSize = () => state.fontSize2;
+         writingMode = () => state.writingMode;
          provider = () => text;
          typer_current = typer_local;
          targets = new Set<CosmosSprite>();
@@ -1421,6 +1426,9 @@ export const battler = {
             },
             get fontSize2 () {
                return state.preset.fontSize2;
+            },
+            get writingMode () {
+               return state.preset.writingMode;
             },
             preset: new OutertaleSpeechPreset()
          };
@@ -1512,11 +1520,12 @@ export const battler = {
          game.text = '';
          fontFamily = () => speech.state.fontFamily2;
          fontSize = () => speech.state.fontSize2;
+         writingMode = () => speech.state.writingMode;
          provider = () => game.text;
          typer_current = typer;
          cutscene || atlas.switch('dialoguerBase');
       }
-      const container = new CosmosObject({ position, objects: [ bubble(fontFamily, fontSize, provider) ] });
+      const container = new CosmosObject({ position, objects: [ bubble(fontFamily, fontSize, provider, writingMode) ] });
       renderer.attach('menu', container);
       typer_current.magic ||= battler.generic_magic;
       await typer_current.text(...lines);
@@ -1548,7 +1557,7 @@ export const battler = {
       bubble = [ { x: 0, y: 0 }, () => new CosmosObject() ] as CosmosProvider<
          [
             CosmosPointSimple,
-            (fontFamily?: () => CosmosFont | null, fontSize?: () => number, content?: () => string) => CosmosObject
+            (fontFamily?: () => CosmosFont | null, fontSize?: () => number, content?: () => string, writingMode?: () => CosmosWritingMode | null) => CosmosObject
          ],
          [CosmosPoint]
       >,
@@ -2903,7 +2912,7 @@ export function dialogueObjects () {
       new CosmosObject({ position: { x: 34, y: 35 } }),
       menuText(0, 0, () => game.text).on('tick', function () {
          this.position.x = speech.state.face ? 69 : 11;
-         switch (speech.state.fontFamily1) {
+         switch (speech.state.fontFamily1) {            
             case content.fPapyrus:
                this.spacing.x = -0.375;
                this.spacing.y = 3;
@@ -6919,6 +6928,7 @@ atlas.navigators.register({
          menuBox(32, 320, 566, 140, 6, { objects: dialogueObjects() }).on('tick', function () {
             this.fontFamily = speech.state.fontFamily1;
             this.fontSize = speech.state.fontSize1;
+            this.writingMode = speech.state.writingMode;
          })
       ]
    }),
@@ -6931,6 +6941,7 @@ atlas.navigators.register({
          menuBox(32, 10, 566, 140, 6, { objects: dialogueObjects() }).on('tick', function () {
             this.fontFamily = speech.state.fontFamily1;
             this.fontSize = speech.state.fontSize1;
+            this.writingMode = speech.state.writingMode;
          })
       ]
    }),

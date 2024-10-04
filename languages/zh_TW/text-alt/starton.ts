@@ -1041,10 +1041,10 @@ export default {
          world.edgy
             ? [ "<25>{#p/sans}{#f/0}* 不錯嘛。\n* 沒看出來，你還挺機靈的。" ]
             : [
-                 '<18>{#p/papyrus}{#f/1}WHAT!?',
-                 '<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?',
-                 '<18>THAT WAS SUPPOSED TO BE TOTALLY IMPOSSIBLE!',
-                 '<18>{#f/9}... WELL THEN!\nI SHALL HAVE TO STEP UP MY GAME!'
+                 '<18>{#p/papyrus}{#f/1}啥！？',
+                 '<18>{#f/7}你咋做到的！？！？',
+                 '<18>這謎題是個人都過不去啊！',
+                 '<18>{#f/9}...哎呀，行吧！\n我得快點布置自己的謎題了！'
               ],
       maze10: () =>
          world.edgy
@@ -1582,9 +1582,9 @@ export default {
                : world.population < 4
                ? [
                     '<32>{#p/basic}* ...\n* ...\n* ...',
-                    '<32>{#npc/a}* Grillbz is real sorry for the lack of other customers.',
-                    "<32>* Personally, I think they're just afraid...",
-                    '<32>* You know.\n* Of that bully.'
+                    '<32>{#npc/a}* 今天店裡這麼冷清，\n  烤爾比實在很對不起。',
+                    "<32>* 我看，那些老主顧可能就是怕了...",
+                    '<32>* 怕那個惡霸。\n* 當然嘍。'
                  ]
                : [
                     '<32>{#p/basic}* ...\n* ...\n* ...',
@@ -1679,9 +1679,9 @@ export default {
                     ]
                   : world.population < 4
                   ? [
-                       "<32>{#p/basic}{#npc/a}* Word around town is there's a bully going and beating people up.",
-                       '<32>* But Grillbz and I decided to keep the bar open.',
-                       "<32>* No bully's gonna keep us from running THIS establishment!"
+                       "<32>{#p/basic}{#npc/a}* 聽傳言說，有個瞎晃悠的惡霸，\n  路上的人全都被他揍了。",
+                       '<32>* 不過我和烤爾比可不打算關店跑路。',
+                       "<32>* 區區惡霸，怎能逼得走咱們！"
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* 那些狗是皇家衛隊的成員，\n  是由安黛因領導的\n  軍事集團。',
@@ -1867,8 +1867,8 @@ export default {
                           '<32>* It usually comes through here every day after work...'
                        ],
                        [
-                          '<32>{#p/basic}{#npc/a}* A badly wounded dog just walked through here...',
-                          '<32>* What kind of person would beat up a cute little dog?'
+                          '<32>{#p/basic}{#npc/a}* 剛有隻小狗經過這兒，\n  身上全是傷...',
+                          '<32>* 到底是有多沒良心，\n  才能對小可愛下毒手啊？'
                        ]
                     ][SAVE.data.n.state_starton_lesserdog],
             () =>
@@ -1884,7 +1884,7 @@ export default {
                        [ '<32>{#p/basic}{#npc/a}* 對那狗狗來說挺糟糕吧，嗯？' ],
                        [ '<32>{#p/basic}{#npc/a}* 對那狗狗來說很糟糕吧，嗯？' ],
                        [ '<32>{#p/basic}{#npc/a}* Have you seen it?' ],
-                       [ '<32>{#p/basic}{#npc/a}* Despicable.' ]
+                       [ '<32>{#p/basic}{#npc/a}* 惡劣，真惡劣。' ]
                     ][SAVE.data.n.state_starton_lesserdog]
          ),
          s_moonrocks1: pager.create(
@@ -2651,7 +2651,7 @@ export default {
                ? 'BREAKING:\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE.'
                : SAVE.data.n.plot === 72
                ? 'BREAKING:\nWE CAN LEAVE.\nLIKE.. FOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!'
-               : "突發新聞：\n《喵喵星火》\n評分..\n一塌糊塗。\n新聞來源：\n就，這是\n真的嗎？"
+               : "突發新聞：\n《喵喵星火》\n評分..\n一塌糊塗。\n新聞來源：\n就，這是真的嗎？"
       },
       papcomputer4: [
          () =>
@@ -2998,9 +2998,9 @@ export default {
       ],
       papdate18b: () => [
          '<15>{#p/papyrus}{#f/24}喔...',
-         '<15>{#f/21}BUT DESPITE THAT...',
-         '<15>{#f/21}YOU STILL CHOSE TO WEAR CLOTHING TODAY OF ALL DAYS...?',
-         "<15>{#f/24}IT'S ALMOST LIKE...",
+         '<15>{#f/21}不過，你嘴上那麼說...',
+         '<15>{#f/21}...但這一整天，\n你還是好好穿了衣服？',
+         "<15>{#f/24}也就是說...",
          ...(SAVE.data.b.flirt_papyrus
             ? [
                  '<15>{#f/13}LIKE YOUR INTEREST IN ME WAS PREDESTINED~',
@@ -3185,7 +3185,7 @@ export default {
          '<15>{#f/27}不-不...\n居然來這招...',
          "<15>{#f/13}真的好厲害！",
          '<15>{#f/14}但-但是...\n啊哈！\n看我的反擊！',
-         "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
+         "<15>{#f/15}我自己拆\n不就好了！！"
       ],
       papdate29: [ '<15>{#p/papyrus}{#f/20}你知道【這】是\n什麼嗎？' ],
       papdate30: () => [ choicer.create('* （你知道這是什麼嗎？）', "當然知道", "不知道") ],
@@ -3442,11 +3442,11 @@ export default {
       papspaghet1a: () => [
          '<18>{#p/papyrus}{#f/1}什麼！？\n你是怎麼避開\n我的陷阱的？',
          '<18>{#f/4}還有，比起這個...',
-         '<18>{#f/0}IS THERE ANY LEFT FOR...',
-         '<18>{#f/4}... WAIT.',
-         "<18>{#f/0}IT'S RIGHT THERE IN YOUR ITEMS!!",
-         '<18>{#f/9}WHAT WERE YOU PLANNING, HUMAN?',
-         choicer.create("* (What will you do with\n  Papyrus' spaghetti?)", '一起吃吧', '吃掉'),
+         '<18>{#f/0}有給我剩...',
+         '<18>{#f/4}...等下。',
+         "<18>{#f/0}你帶著它呢！！",
+         '<18>{#f/9}人類，你怎麼打算的？',
+         choicer.create("* （你要拿帕派瑞斯的意面怎麼辦呢？）", '一起吃吧', '吃掉'),
          '<18>{#p/papyrus}真的！？'
       ],
       papspaghet2a: [
@@ -5401,7 +5401,7 @@ export default {
                     '<32>* 「但也許，這就是命。」',
                     '<32>* 「對了，解謎愉快喔。」',
                     '<32>* 「我猜，你肯定\n   一眨眼工夫就能解開。」',
-                    '<#32>- \"恕我冒昧了，\"\n  衫斯'
+                    '<#32>- 「恕我冒昧了，」\n  衫斯'
                  ]
                : [
                     "<32>{#p/basic}* 這是張帕派瑞斯留的字條...",
@@ -5832,7 +5832,7 @@ export default {
       heckleText2: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/human}* (You tell Chilldrake that they should be a rebel somewhere else.)' ]
-            : [ "<32>{#p/human}* (You tell Stardrake that they aren't funny.)" ],
+            : [ "<32>{#p/human}* （你說星鐵龍\n  沒有一點幽默細胞。）" ],
       heckleText3: () =>
          SAVE.data.b.s_state_chilldrake
             ? [
@@ -5841,7 +5841,7 @@ export default {
               ]
             : [
                  '<32>{#p/human}* (You tell Stardrake that no one will ever love them the way they are.)',
-                 '<32>{#p/basic}* Stardrake struggles to make a retort, and slinks away utterly crushed...'
+                 '<32>{#p/basic}* 他百口莫辯，灰溜溜地逃走了...'
               ],
       hurtStatus: () =>
          world.goatbro
@@ -6012,7 +6012,7 @@ export default {
       idleTalkSolo3: () =>
          SAVE.data.b.spared_jerry
             ? [ "<08>{#p/basic}{~}Wouldn't trade ya for the galaxy." ]
-            : [ '<08>{#p/basic}{~}The signal here sucks.' ],
+            : [ '<08>{#p/basic}{~}這兒的訊號\n爛透了。' ],
       idleTalkSolo4: () =>
          SAVE.data.b.spared_jerry
             ? [ '<08>{#p/basic}{~}I love humans!' ]
@@ -6071,8 +6071,8 @@ export default {
          '<32>{#p/basic}* 紳鼠貓發出了刺耳的嘶嘶聲！'
       ],
       act_disown2: [
-         "<32>{#p/human}* (You pluck another whisker from Whizkarat's face.)",
-         '<32>{#p/basic}* Whizkarat scurries away!'
+         "<32>{#p/human}* （你又拔下了紳鼠貓\n  臉上的一根鬍鬚。）",
+         '<32>{#p/basic}* 紳鼠貓吃痛，匆匆跑開了！'
       ],
       act_disown3: [ '<32>{#p/human}* (You try to pluck a whisker, but Whizkarat pretends it has none.)' ],
       act_flirt: [ "<32>{#p/human}* (You make a cute remark and scratch Whizkarat's neck.)" ],
@@ -6083,7 +6083,7 @@ export default {
       flirtTalk2: [ '<08>{#p/basic}{~}\x00*purrs gently*' ],
       genoStatus: [ '<32>{#p/asriel2}* 紳鼠貓。' ],
       hurtStatus: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* 離死不遠了。' ] : [ '<32>{#p/story}* Whizkarat is nearing demise.' ],
+         world.goatbro ? [ '<32>{#p/asriel2}* 離死不遠了。' ] : [ '<32>{#p/story}* 紳鼠貓快斷氣了。' ],
       idleTalk1: [ '<08>{#p/basic}{~}What food do they eat?' ],
       idleTalk2: [ '<08>{#p/basic}{~}Where do they hide?' ],
       idleTalk3: [ '<08>{#p/basic}{~}How do they speak?' ],
@@ -6654,12 +6654,12 @@ export default {
       sparableSpannerTalk1: [ '<15>{#p/papyrus}{#f/20}NOW, SHOW ME YOUR MERCY!' ],
       sparableSpannerTalk2: [ '<15>{#p/papyrus}{#f/20}...' ],
       bullySpareTalk: [
-         '<15>{#p/papyrus}{#f/27}SAY... IS IT GETTING DARK OUT HERE?',
-         "<15>{#f/27}MAYBE CAPTURING YOU WASN'T SUCH A GREAT IDEA...",
-         "<15>{#f/15}YEAH!!! I CAN TELL YOU'RE DESPERATE FOR MY MERCY!",
-         '<15>{#f/20}I, THE GREAT PAPYRUS, WILL OBLIGE YOU!!',
-         '<15>{#f/20}I WILL {@fill=#f00}SPARE{@fill=#000} YOU, HUMAN!!!',
-         "<15>{#f/27}SO... NOW'S YOUR CHANCE... TO ACCEPT MY {@fill=#f00}MERCY{@fill=#000}..."
+         '<15>{#p/papyrus}{#f/27}怎麼...\n天暗下來了？',
+         "<15>{#f/27}看來抓你\n不是啥好主意...",
+         "<15>{#f/15}沒錯！！\n我敢說，你正渴求著\n我的仁慈！",
+         '<15>{#f/20}我，偉大的帕派瑞斯，\n樂意為您效勞！',
+         '<15>{#f/20}人類，\n我會{@fill=#f00}饒恕{@fill=#000}你！！！',
+         "<15>{#f/27}...是時候... 接受...\n我的{@fill=#f00}仁慈{@fill=#000}了..."
       ],
       act_check: () =>
          world.genocide
@@ -6779,7 +6779,7 @@ export default {
               ][(SAVE.data.n.state_papyrus_spaghet + 1) % 2]
       ],
       spaghetti2: [ "<32>{#p/basic}* If Papyrus wasn't so busy fighting, he might've noticed that." ],
-      specialStatus0: [ "<32>{#p/story}* Papyrus's aura is rising." ],
+      specialStatus0: [ "<32>{#p/story}* 帕派瑞斯的氣場越來越強。" ],
       specialStatus1: [ '<32>{#p/story}* 特殊攻擊。' ],
       specialStatus2: [ '<32>{#p/story}* 帕派瑞斯正全力以赴。' ],
       specialStatus3: [ '<32>{#p/story}* 帕派瑞斯將所有邏輯都拋之腦後。' ],
@@ -6788,7 +6788,7 @@ export default {
       specialStatus6: [ "<32>{#p/story}* 帕派瑞斯已經束手無策了。" ],
       status1: [ '<32>{#p/story}* 帕派瑞斯正在饒恕你。' ],
       status2: [ '<32>{#p/story}* 帕派瑞斯擋住了去路！' ],
-      turnTalk0a: [ "<15>{#p/papyrus}{#f/24}SO, YOU'RE SERIOUS..." ],
+      turnTalk0a: [ "<15>{#p/papyrus}{#f/24}看來，\n你要來真的..." ],
       turnTalk0b: [ "<15>{#p/papyrus}{#f/24}看來，\n你不想戰鬥..." ],
       turnTalk0c: [ "<15>{#p/papyrus}{#f/20}那就讓我看看\n你會如何應對\n我傳說中的\n『藍色攻擊！』" ],
       turnTalk0x: [
@@ -7284,8 +7284,8 @@ export default {
                : SAVE.data.n.plot === 72 && game.room === 'c_asgore_kitchen' // NO-TRANSLATE
 
                ? [
-                    '<18>{#p/papyrus}{#f/8}NOOO!!\nWHAT HAVE YOU DONE!?!?',
-                    '<18>{#f/5}... THE SPAGHETTI I MADE FOR YOU...',
+                    '<18>{#p/papyrus}{#f/8}別啊！！\n你怎麼能這麼對它！？！？',
+                    '<18>{#f/5}...那是我親自下廚\n為你做的意面啊...',
                     '<18>{#f/4}... IS... ACTUALLY KIND OF OLD, TO BE HONEST.',
                     '<18>{#f/0}YEAH!!\nMY NEW DISH WILL BE WAY BETTER!',
                     "<18>{#f/9}FEEL FREE TO SWING BY AND HAVE SOME WHEN IT'S DONE!",
@@ -7299,8 +7299,8 @@ export default {
 
                     ?.position.extentOf(game.camera.position.clamp(...renderer.region)) ?? 240) < 240
                ? [
-                    '<18>{#p/papyrus}{#f/8}NOOO!!\nWHAT HAVE YOU DONE!?!?',
-                    '<18>{#f/5}... THE SPAGHETTI I MADE FOR YOU...',
+                    '<18>{#p/papyrus}{#f/8}別啊！！\n你怎麼能這麼對它！？！？',
+                    '<18>{#f/5}...那是我親自下廚\n為你做的意面啊...',
                     ...(fetchCharacters().find(c => c.key === 'undyne') !== void 0 // NO-TRANSLATE
 
                        ? [
@@ -7308,11 +7308,11 @@ export default {
                             '<25>{#p/undyne}{#f/7}* Human!\n* Pick the spaghetti up off the floor NOW!',
                             "<18>{#p/papyrus}{#f/6}UNDYNE, PLEASE!!\nTHAT'S ENTIRELY UNSANITARY!!"
                          ]
-                       : [ '<18>{#f/6}... IS CONSUMABLE NO LONGER!!' ]),
-                    "<18>{#f/4}STILL... MAYBE IT'S FOR THE BEST.",
-                    '<18>{#f/5}LIKE, MAYBE SEEING YOU THROW THAT AWAY...',
-                    '<18>{#f/6}WILL ENCOURAGE ME TO MAKE A EVEN -BETTER- DISH!',
-                    '<18>{#f/9}YEAH! LOOK AT HOW ENCOURAGED I AM RIGHT NOW!',
+                       : [ '<18>{#f/6}...吃不了了啦！！' ]),
+                    "<18>{#f/4}不過... 這樣也好。",
+                    '<18>{#f/5}你丟掉了那份意面...',
+                    '<18>{#f/6}那我就做一份【更贊的】！',
+                    '<18>{#f/9}沒錯！\n你看我，充滿了鬥志！',
                     ...(fetchCharacters().find(c => c.key === 'undyne') !== void 0 // NO-TRANSLATE
 
                        ? [ '<25>{#p/undyne}{#f/17}* YEAH!!\n* Look at how encouraged he is right now!!' ]
@@ -7739,8 +7739,8 @@ export default {
                  ]
                : SAVE.data.n.state_wastelands_napstablook < 5
                ? [
-                    "<32>{#p/napstablook}{#k/0}* oh...\n* i'm not sure what to say, really...",
-                    '<32>{#k/3}* uhh... hello, i guess?'
+                    "<32>{#p/napstablook}{#k/0}* 喔...\n* 說些什麼好呢，不太確定啊...",
+                    '<32>{#k/3}* 呃，也許... 你好?'
                  ]
                : [
                     '<32>{#p/napstablook}{#k/4}* heh...\n* hey...',
@@ -7878,23 +7878,23 @@ export default {
                        '<32>{#k/0}* 沒事...'
                     ],
                     [
-                       "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life...",
-                       '<32>{#k/3}* meeting you was the highlight of my weekend...'
+                       "<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n  拿不出什麼好聊的事...",
+                       '<32>{#k/3}* 碰上你這事，\n  都算這周末比較出彩的了...'
                     ],
                     [
-                       "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life...",
-                       '<32>{#k/6}* and thanks to people like you, there probably never will be...'
+                       "<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n  拿不出什麼好聊的事...",
+                       '<32>{#k/6}* 而且有你在這，\n  我的生活估計也不會有啥起色了...'
                     ],
                     [
-                       "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life...",
+                       "<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n  拿不出什麼好聊的事...",
                        "<32>{#k/3}* i'm just... pluggin' along..."
                     ],
                     [
-                       "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life...",
+                       "<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n  拿不出什麼好聊的事...",
                        '<32>{#k/6}* not that you... really care...'
                     ],
                     [
-                       "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life...",
+                       "<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n  拿不出什麼好聊的事...",
                        "<32>{#k/0}* i'm just a ghost that tends to get lost in the mix"
                     ]
                  ][SAVE.data.n.state_wastelands_napstablook]

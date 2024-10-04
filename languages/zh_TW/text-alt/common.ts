@@ -5050,7 +5050,7 @@ export default {
       smile: '* 微笑',
       someoneelse: '* 別的什麼人',
       spark: '* 引燃',
-      stare: '* 凝視',
+      stare: '* 瞪眼',
       steal: '* 偷竊',
       storytime: '* 故事時間',
       suggest: '* 提議',
@@ -5301,15 +5301,15 @@ export default {
          "<32>{#p/basic}* 這是小黏團高興時的顏色！"
       ],
       act_slap: [
-         '<32>{#p/human}* （你使勁地給了Galatini一巴掌。）',
+         '<32>{#p/human}* （你使勁扇了小黏團一巴掌。）',
          '<32>{#p/basic}* 小黏團身體發生凹陷，\n  但不久便恢復原形。'
       ],
       act_slap2: [
-         '<32>{#p/human}* （你用盡全身力氣扇了小黏團\n  一巴掌。）',
+         '<32>{#p/human}* （你用盡全身力氣，\n  狠狠扇了小黏團一巴掌。）',
          '<32>{#p/basic}* 小黏團的根基被動搖了！'
       ],
       act_slap3: [
-         '<32>{#p/human}* （你用盡全身力氣扇了小黏團\n  一巴掌。）',
+         '<32>{#p/human}* （你用盡全身力氣，\n  狠狠扇了小黏團一巴掌。）',
          '<32>{#p/basic}* 小黏團逃離了現場！'
       ],
       idleTalk1: [ '<08>{#p/basic}{~}吐泡泡..' ],
@@ -5383,8 +5383,8 @@ export default {
       createStatus2: () =>
          world.goatbro ? [ '<32>{#p/asriel2}* Astro Serf.' ] : [ '<32>{#p/story}* 太空帽被打動了。' ],
       createTalk1: [ "<09>{#p/basic}{~}喂！！！\n我的天線\n在頭上呢。" ],
-      createTalk2: [ '<08>{#p/basic}{~}What?\nWhat are you doing?' ],
-      createTalk3: [ "<08>{#p/basic}{~}But.. it can't be..!" ],
+      createTalk2: [ '<08>{#p/basic}{~}啊？\n你在做甚？' ],
+      createTalk3: [ "<08>{#p/basic}{~}不是.. 這\n怎麼可能！" ],
       createTalk4: [ '<08>{#p/basic}{~}Woah..\nHow did you do that??' ],
       createTalk5: [ "<08>{#p/basic}{~}你在做..\n你自己的\n天線？" ],
       act_create: () =>
@@ -5492,8 +5492,8 @@ export default {
       mkBully3: [ '<32>{#p/kidding}* ...' ],
       mkBully1OW: [
          '<25>{#p/kidd}{#f/4}* 呃...',
-         '<25>* They seemed really scared...',
-         "<25>* I hope we didn't hurt them too badly or something..."
+         '<25>* 對手好像嚇壞了...',
+         "<25>* 希望我們下手沒那麼重..."
       ],
       mkBully2OW: [ '<25>{#p/kidd}{#f/7}* 那位也...！', '<25>{#f/4}* 我們打得那麼狠嗎...？' ],
       mkBully3OW: [ '<25>{#p/kidd}{#f/4}* ...' ],

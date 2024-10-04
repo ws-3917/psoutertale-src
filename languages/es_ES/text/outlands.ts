@@ -1376,8 +1376,8 @@ export default {
          '<25>{#f/0}{#v/0}* Lo hiciste por ABURRIMIENTO.'
       ],
       endtwinklyEA: [ "<25>{#f/11}{#v/0}* No creas que no sé cómo funciona esto..." ],
-      endtwinklyEB: [ "<25>{#f/6}{#v/0}* It's sad, though..." ],
-      endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Look at you, playing with her life like this...' ],
+      endtwinklyEB: [ "<25>{#f/6}{#v/0}* Es triste, aunque..." ],
+      endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Mírate, jugando así con su vida...' ],
       endtwinklyFA: [ '<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again...' ],
       endtwinklyFB: [ '<25>{#f/7}{#v/0}* Leaving her, killing her, leaving her again...' ],
       endtwinklyFXA: [

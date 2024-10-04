@@ -1358,11 +1358,11 @@ export default {
          "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
       ],
       endtwinklyD: [
-         "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
-         '<25>{#f/8}{#v/0}* Beating monsters to the brink of death, only to let them go...',
-         "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
-         '<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?',
-         '<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?',
+         "<25>{#p/twinkly}{#f/11}{#v/0}* 你倒是挺会找乐子的嘛。",
+         '<25>{#f/8}{#v/0}* 把一路上的怪物都痛扁一顿，\n  等他们快咽气了，\n  又放他们一条生路...',
+         "<25>{#f/7}{#v/0}* 我倒要看看，\n  要是谁打死不要你可怜，\n  你打算咋办？",
+         '<25>{#f/6}{#v/0}* 你要撕了他那张犟嘴？',
+         '<25>{#f/5}{#v/0}* 还是动动脑子，\n  发现当个假“好人”\n  屁用没有呢？',
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
          '<25>{#f/7}{#v/0}* 那一定会很好玩的。',
          "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
@@ -3869,7 +3869,7 @@ export default {
       ],
       act_translate1y: [
          '<32>{#p/human}* （你把你想说的话翻译了一下。）\n* （Froggit好像听懂你在说什么了。）',
-         '<32>* 在巨大胁迫下，Froggit转头就跑了！'
+         '<32>* Froggit吓破了胆，扭头就跑！'
       ],
       act_translate1z: [
          '<32>{#p/human}* （你把你想说的话翻译了一下。）\n* （Froggit好像听懂你在说什么了。）',
@@ -3944,7 +3944,7 @@ export default {
       flirtTalk1: [ '<08>{#p/basic}{~}啥？\n没-没门！' ],
       hurtStatus: [ '<32>{#p/story}* Oculoux在流泪。' ],
       idleTalk1: [ "<08>{#p/basic}{~}我就盯着\n你了。" ],
-      idleTalk2: [ "<08>{#p/basic}{~}别告诉我\n我该怎么\n做。" ],
+      idleTalk2: [ "<08>{#p/basic}{~}我想干啥\n不用你管。" ],
       idleTalk3: [ '<08>{#p/basic}{~}盯着你\n意味着\n在意你。' ],
       idleTalk4: [ '<08>{#p/basic}{~}真碍眼。' ],
       idleTalk5: [ '<08>{#p/basic}{~}来个\n盯人比赛\n如何？' ],
@@ -3968,7 +3968,7 @@ export default {
       flirtTalk: [ '<08>{#p/basic}{~}嗨呀~' ],
       groupInsult: [ "<32>{#p/human}* （你骂了Silente几句，\n  但它正忙着拉拢其他怪物，\n  没听到你的话。）" ],
       groupStatus1: [ '<32>{#p/story}* Silente在跟别人说悄悄话。' ],
-      groupStatus2: [ "<32>{#p/story}* 闻起来逐渐像蟑螂屋的味道了。" ],
+      groupStatus2: [ "<32>{#p/story}* 战场上飘来阵阵蟑螂屋的味道。" ],
       groupTalk1: [ '<08>{#p/basic}肮脏卑鄙，\n一心一意\n..' ],
       groupTalk2: [ '<08>{#p/basic}服从于\n无上主宰\n..' ],
       groupTalk3: [ '<08>{#p/basic}军团！\n我们是\n军团！' ],
@@ -3977,7 +3977,7 @@ export default {
       groupTalk6: [ "<08>{#p/basic}我不在乎。" ],
       name: '* Silente',
       perilStatus: [ '<32>{#p/story}* Silente不打算放弃。' ],
-      soloInsult: [ "<32>{#p/human}* （你打算辱骂Silente，\n  但它太开心了，根本不在乎。）" ],
+      soloInsult: [ "<32>{#p/human}* （你想把Silente臭骂一顿，\n  可它开心得飞起，压根不在乎。）" ],
       soloStatus: [ "<32>{#p/story}* Silente在这宇宙中无忧无虑。" ],
       soloTalk1: [ "<08>{#p/basic}{~}做自己\n才是\n最好的！" ],
       soloTalk2: [ '<08>{#p/basic}{~}啦啦~\n做自己\n就好~' ],
@@ -5273,7 +5273,7 @@ export default {
    c_call_toriel_early: () =>
       game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 现在，立刻，马上\n  回家里来！' ]
          : [
               3 <= SAVE.data.n.cell_insult
                  ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
@@ -5295,7 +5295,7 @@ export default {
          ? [ '<32>{#p/human}* (But the line was busy.)' ]
          : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 现在，立刻，马上\n  回家里来！' ]
          : [
               '<25>{#p/toriel}{#f/1}* 没有必要给我打电话，\n  孩子。',
               3 <= SAVE.data.n.cell_insult

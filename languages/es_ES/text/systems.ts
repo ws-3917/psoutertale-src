@@ -415,8 +415,16 @@ export default {
             '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
             'Bilge \"mnwary\"',
             "§fill=#808080§Por estar ahí para ayudar al\nfinal del desarrollo, y\nasegurando que la escritura del juego\nllegue a su potencial máximo.§fill=#fff§"
-         ],
-         [ 'Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         
+        ],
+         [
+            '§fill=#ff0§< TRADUCTORES AL ESPAÑOL >§fill=#fff§',
+            'Chistosito',
+            'Stefano9000',
+            'DR4GON_HE4RT',
+            'Manuel',
+        ],
+[ 'Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
       ],
 
       final_frontier: {

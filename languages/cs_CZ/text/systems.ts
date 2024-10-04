@@ -415,8 +415,14 @@ export default {
             '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
             'Bilge \"mnwary\"',
             "§fill=#808080§Za to, že je tam byl, abys pomohl\nukončení vývoje a\nzajištění psaní hry\ndosahuje svého plného potenciálu.§fill=#fff§"
-         ],
-         [ 'Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         
+        ],
+         [
+            '§fill=#ff0§< ČEŠTÍ PŘEKLADATELÉ >§fill=#fff§',
+            'Chickenytboi',
+            'petar3664',
+        ],
+[ 'Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
       ],
 
       final_frontier: {

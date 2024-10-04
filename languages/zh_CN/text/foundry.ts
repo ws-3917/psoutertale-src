@@ -1243,7 +1243,7 @@ export default {
             : [ '<25>{#p/asriel2}{#f/8}* 切。' ],
       muffet1: () =>
          badSpider()
-            ? [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* Tell her she should increase my payout next time.' ]
+            ? [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* 让她下次把报酬再提点。' ]
             : SAVE.data.b.flirt_muffet
             ? [ '<32>{#p/basic}* 啊呼呼呼呼...', "<32>* Let's just pretend this never happened, shall we, dearies?" ]
             : [ '<32>{#p/basic}* 啊呼呼呼呼...', '<32>* 刚才很有趣哦！\n* 下次再见，亲！' ],
@@ -2809,12 +2809,12 @@ export default {
          '<25>{#p/sans}{#f/3}* 嗯？\n* 不，那东西完全无害。',
          '<25>{#f/2}* 能让这酒吧燃起来的\n  只有我的招牌幽默笑话。'
       ],
-      spookydate9x: [ "<25>{#p/sans}{#f/3}* gee grillby, where'd everybody go?" ],
+      spookydate9x: [ "<25>{#p/sans}{#f/3}* 哎呀，grillby，\n  大家伙人呢？" ],
       spookydate9y: [
          '<32>{#p/basic}{#npc/a}* ...\n* ...\n* ...',
-         "<32>* ... Grillbz didn't mention customers, but said seeing you is a nice relief."
+         "<32>* ...Grillbz没说那些老主顾去哪了，\n  不过你来了他也松口气了。"
       ],
-      spookydate9z: [ '<25>{#p/sans}{#f/0}* how strange.' ],
+      spookydate9z: [ '<25>{#p/sans}{#f/0}* 怪事。' ],
       spookydate10: [ "<25>{#p/sans}* 为什么不过来坐一下呢，\n  伙计？" ],
       spookydate11: [
          '<25>{#p/sans}* 嗷哟，小心你坐的地方。',
@@ -2884,8 +2884,8 @@ export default {
          world.population < 6
             ? [
                  "<25>{#p/sans}{#f/8}* 行吧，我要回到我的\n  岗位上了。",
-                 '<25>{#f/8}* oh, and try to be nicer to people, will ya?',
-                 '<25>{#f/9}* you might regret it otherwise.'
+                 '<25>{#f/8}* 哦对了，记得对人好点。',
+                 '<25>{#f/9}* 要不然，你哪天可能就后悔了。'
               ]
             : [
                  "<25>{#p/sans}{#f/8}* 行吧，我要回到我的\n  岗位上了。",
@@ -3009,8 +3009,8 @@ export default {
          ...(world.population === 0
             ? [
                  '<25>{#f/0}* 现在，\n  你应该不会有事的。',
-                 '<25>{#f/3}* the area ahead of you seems pretty empty, by my estimate.',
-                 '<25>{#f/2}* but hey.\n* i could be wrong.'
+                 '<25>{#f/3}* 我寻思，\n  你前头应该没啥东西。',
+                 '<25>{#f/2}* 但别高兴太早，\n  也许我搞错了呢。'
               ]
             : world.killed5
             ? [
@@ -5175,7 +5175,7 @@ export default {
          rescue1: () => [
             "<25>{#p/kidd}{#f/7}* Undyne，不要！\n* 那是我的朋友！",
             world.dead_skeleton || geno() || world.population < 4
-               ? "<32>{#p/undyne}* No, they're not.\n* You really shouldn't be with them, kiddo."
+               ? "<32>{#p/undyne}* 才怪。\n* 小子，你不该和这家伙混一块的。"
                : "<32>{#p/undyne}* 回家吧，孩子。\n* 你跟这家伙不是一路人。"
          ],
          rescue2: [ '<25>{*}{#p/kidd}{#f/8}* Undyne...{#x1}{^20}{%}' ],
@@ -5342,7 +5342,7 @@ export default {
             ? [ '<32>{#p/kidding}* 一切... 还好吗？' ]
             : [ '<32>{#p/story}* Skrubbington讨厌自己的伤口。' ],
       jokeText1: [ '<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)' ],
-      jokeText2: [ '<32>{#p/human}* (You tell a joke about atmospheric pollution.)' ],
+      jokeText2: [ '<32>{#p/human}* （你拿大气污染打趣Skrubbington。）' ],
       jokeText3: [ '<32>{#p/human}* (You tell a joke about two starships that got stuck in a trash barge.)' ],
       touchText0: [
          '<32>{#p/human}* （你友好地摸了摸Skrubbington。）',
@@ -5395,7 +5395,7 @@ export default {
       act_check2: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 状态并不是很好。' ],
       act_check3: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 允许成为全职果冻垫。' ],
       act_check4: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 和你的关系并没有想象的那么好...' ],
-      act_topple1: [ "<32>{#p/human}* （你试图推倒Gelata，但它还没有那么弱。）" ],
+      act_topple1: [ "<32>{#p/human}* （你试图推倒Gelata，\n  但它还没有那么弱。）" ],
       act_topple2: [ '<32>{#p/human}* （你推倒了Gelata。）\n* （它的身体塌陷了，滚到了远处。）' ],
       name: '* Gelata',
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
@@ -5431,7 +5431,7 @@ export default {
             ? [ '<32>{#p/asriel2}* 离死不远了。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* Gelata的状态看起来不太好..." ]
-            : [ '<32>{#p/story}* Gelata has seen better days.' ],
+            : [ '<32>{#p/story}* Gelata身子不中用了。' ],
       act_handshake: [
          '<32>{#p/human}* （你向Gelata伸出了手。）\n* （Gelata用黏液把你包裹了起来。）',
          '<32>{#p/story}* 你的移速下降了！'
@@ -5612,21 +5612,21 @@ export default {
          world.dead_skeleton || geno() || world.population < 4
             ? [ '<32>{#p/human}* (You wave your arms wildly.)\n* (Nothing happens.)' ]
             : [ '<32>{#p/human}* (You wave your arms wildly.)', '<32>{#p/basic}* The crowd eats it up!' ],
-      act_boo1: [ '<32>{#p/human}* (You boo Shyren.)', '<32>{#p/basic}* Her head down, Shyren moves away quietly...' ],
+      act_boo1: [ '<32>{#p/human}* （你朝着Shyren喝倒彩。）', '<32>{#p/basic}* 她耷拉着头，默默走了...' ],
       act_boo2: [
-         '<32>{#p/human}* (You boo Shyren.)',
+         '<32>{#p/human}* （你朝着Shyren喝倒彩。）',
          '<32>{#p/basic}* Shyren, seeing how you handle rejection, leaves in a huff.'
       ],
       act_boo3: [
-         '<32>{#p/human}* (You boo Shyren.)',
+         '<32>{#p/human}* （你朝着Shyren喝倒彩。）',
          "<32>{#p/basic}* Shyren's fleeting joy fades just as soon as it came to her."
       ],
       act_boo4: [
-         '<32>{#p/human}* (You boo Shyren.)',
+         '<32>{#p/human}* （你朝着Shyren喝倒彩。）',
          '<32>{#p/basic}* The crowd, distraught, watches as Shyren flees the scene.'
       ],
       act_boo5: [
-         '<32>{#p/human}* (You boo Shyren.)',
+         '<32>{#p/human}* （你朝着Shyren喝倒彩。）',
          '<32>{#p/basic}* The betrayal brings Shyren to tears as she flees the scene.'
       ]
    },
@@ -5659,7 +5659,7 @@ export default {
             ? [ '<32>{#p/asriel2}* Radtile。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 别是这家伙呀...' ]
-            : [ '<32>{#p/story}* Radtile makes an impression!' ],
+            : [ '<32>{#p/story}* Radtile闪亮登场！' ],
       randStatus1: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* That sure is an interesting hat he's got on his head." ]
@@ -5713,7 +5713,7 @@ export default {
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 呃...' ]
             : [ '<32>{#p/story}* Radtile is not amused.' ],
-      act_insult: [ '<32>{#p/human}* (You call Radtile a loser, and tell him to shut up.)' ],
+      act_insult: [ '<32>{#p/human}* （你大骂Radtile废物，\n  让他闭上臭嘴。）' ],
       act_insult_bullied: [ "<32>{#p/human}* (You mock Radtile's bruises, and tell him to go away.)" ],
       act_flirt: [ '<32>{#p/human}* (You beckon Radtile.)' ],
       act_flirt_bullied: [ "<32>{#p/human}* (You tell Radtile he's beautiful no matter how disfigured he is.)" ],
@@ -5729,7 +5729,7 @@ export default {
             : [ '<32>{#p/story}* Radtile gives you a chance.' ],
       hurtStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* This isn't looking good..." ]
+            ? [ "<32>{#p/kidding}* 心理总感觉不是滋味..." ]
             : [ "<32>{#p/story}* Radtile的牙齿开始脱落了。" ]
    },
    b_opponent_doge: {
@@ -6957,7 +6957,7 @@ export default {
       genoCutscene4: [
          "<08>{#p/kidding}{#e/kidd/5}我控制不了\n自己...",
          '<08>{#e/kidd/6}他们... 他...',
-         '<08>{#e/kidd/7}他对我的身体\n动了手脚...'
+         '<08>{#e/kidd/7}他对\n我的身体\n动了手脚...'
       ],
       genoCutscene5: [ '<20>{#p/undyne}{#e/undyne/2}所以，你的眼睛...' ],
       genoCutscene6: [ '<08>{#p/kidding}{#e/kidd/6}我...', '<08>{#p/kidding}{#e/kidd/6}我...' ],
@@ -7292,14 +7292,14 @@ export default {
    },
    i_sap: {
       battle: {
-         description: "取材自怪物故园里的一棵树。",
+         description: "源自怪物故园里的一棵树。",
          name: '树胶'
       },
       drop: [ '<32>{#p/human}* （你把树胶扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （35 HP。）' ]
-            : [ '<32>{#p/basic}* “树胶” 回复35 HP\n* 取材自怪物故园里的一棵树。' ],
+            : [ '<32>{#p/basic}* “树胶” 回复35 HP\n* 源自怪物故园里的一棵树。' ],
       name: '树胶',
       use: [ '<32>{#p/human}* （你嚼了一块树胶。）' ]
    },
@@ -7568,8 +7568,8 @@ export default {
 
             ? [
                  SAVE.data.b.undyne_respecc
-                    ? '<25>{#p/undyne}{#f/1}* Hope you like it!'
-                    : '<25>{#p/undyne}{#f/14}* Hope you like it!'
+                    ? '<25>{#p/undyne}{#f/1}* 希望你喜欢！'
+                    : '<25>{#p/undyne}{#f/14}* 希望你喜欢！'
               ]
             : SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
@@ -7606,16 +7606,16 @@ export default {
       itemInfo: () =>
          SAVE.data.n.plot === 72
             ? [
-                 '回复2 HP\ntem免费的\n食物！！',
-                 '回复2 HP\ntem免费的\n食物！！',
-                 '回复2 HP\ntem免费的\n食物！！',
-                 SAVE.data.b.colleg ? '防具：20防御\n让战斗\n炒鸡\n容易！！！' : '大鞋\ntem追球\n更高级的\n教育'
+                 '回复2 HP\ntem的\n食物\n免费！！',
+                 '回复2 HP\ntem的\n食物\n免费！！',
+                 '回复2 HP\ntem的\n食物\n免费！！',
+                 SAVE.data.b.colleg ? '防具：20防御\n让战斗\n炒鸡\n容易！！！' : '大鞋\ntem追球\n高等\n教育'
               ]
             : [
                  '回复2 HP\ntem的\n食物',
-                 '回复2 HP\ntem的\n促销\n食物！！',
+                 '回复2 HP\ntem的\n食物\n促销！！',
                  '回复2 HP\ntem的\n食物\n（粉贵）',
-                 SAVE.data.b.colleg ? '防具：20防御\n让战斗\n炒鸡\n容易！！！' : '大鞋\ntem追球\n更高级的\n教育'
+                 SAVE.data.b.colleg ? '防具：20防御\n让战斗\n炒鸡\n容易！！！' : '大鞋\ntem追球\n高等\n教育'
               ],
       itemPrompt: '<09>{#p/tem}{#k/0}你吼！\n欢银光临...\nTEM商店！',
       itemPurchase: [
@@ -7626,78 +7626,78 @@ export default {
       ],
       itemPurchasePrompt: (free: boolean) => (free || temgone() ? '偷走吗？' : '花$(x)G\n买它吗？'),
       itemSellPrompt: '出$(x)G\n卖掉它吗？',
-      itemUnavailable: () => (temgone() ? '<09>{#p/basic}空无一物。' : '<09>{#p/tem}{#k/2}米有\n东西啦...'),
-      itemRestricted: '<09>{#p/tem}{#k/2}这个我\n不收...',
+      itemUnavailable: () => (temgone() ? '<09>{#p/basic}空无一物。' : '<09>{#p/tem}{#k/2}米有\n东西...'),
+      itemRestricted: '<09>{#p/tem}{#k/2}这个\n我不收...',
       menu: () =>
          temgone() ? [ '拿取', '偷窃', '阅读', '离开' ] : [ '购买', world.meanie ? '偷窃' : '出售', '交谈', '离开' ],
       menuPrompt1: '<23>{#p/tem}{#k/0}* 你吼！\n* 欢银光临...\n* TEM商店！！！',
       menuPrompt2: '<23>{#p/basic}* ...但是大家都逃走了。',
-      sell1: [ '<30>{#p/tem}{#k/2}* 别哇！！！\n* 我滴钱钱，，，', '<30>{#p/tem}{#k/4}* 不许偷钱！！！' ],
+      sell1: [ '<30>{#p/tem}{#k/2}* 不要哇！！！\n* 我滴钱钱，，，', '<30>{#p/tem}{#k/4}* 不许偷！！！' ],
       sell2: [ '<30>{#p/tem}{#k/3}* 没门。' ],
       steal1: [ '<30>{#p/human}* （你从柜台后面拿走了32767G。）' ],
       steal2: [ '<30>{#p/basic}* 空无一物。' ],
       note: [ '<32>{#p/human}* （没有字条。）' ],
       talk: () => [
          SAVE.data.n.plot === 72 ? '好消息' : '打招呼',
-         SAVE.data.n.plot === 72 ? '未来发展' : SAVE.data.b.colleg ? '关于Temmie盔甲' : '介绍下自己',
+         SAVE.data.n.plot === 72 ? '未来发展' : SAVE.data.b.colleg ? 'Temmie盔甲' : '介绍下自己',
          SAVE.data.n.plot === 72 ? 'Temmie的秘密' : 'Temmie的历史',
-         '关于这个商店',
+         '关于商店',
          '离开'
       ],
       talkPrompt: '<09>{#p/tem}{#k/0}你吼！！！\n我素temmie',
       talkText: [
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/tem}{#k/0}* yAYA!', '<32>{#p/tem}{#k/0}* tem go to NEW WORLDS!!!' ]
+               ? [ '<32>{#p/tem}{#k/0}* 嚎吖！', '<32>{#p/tem}{#k/0}* tem要去新四界辣！' ]
                : [ '<32>{#p/tem}{#k/0}* 你吼！！！', "<32>* 我素temmie" ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/tem}{#k/0}* yAYA!', '<32>{#p/tem}{#k/0}* tem go to NEW WORLDS!!!' ]
+               ? [ '<32>{#p/tem}{#k/0}* 嚎吖！', '<32>{#p/tem}{#k/0}* tem要去新四界辣！' ]
                : SAVE.data.b.colleg
                ? [
-                    '<32>{#k/1}* tem盔甲太太吼了！\n* 任何战斗都变哒！\n* 炒鸡容易胜利！！！',
-                    '<32>{#k/4}* 但，哼嗯嗯嗯，tem想...\n* 如果尼用了盔甲，\n  战斗就卜再有挑战性了，',
-                    '<32>{#k/3}* 但tem...\n* 有一个姐决番案。',
-                    '<32>{#k/6}* tem会提供...\n* 一份{@fill=#ff0}奖鞋金{@fill=#fff}！',
-                    '<32>{#k/3}* 如果尼{@fill=#ff0}输了好多战斗{@fill=#fff}，\n  tem就费{@fill=#ff0}降低价格{@fill=#fff}！',
+                    '<32>{#k/1}* tem盔甲太太太吼了！\n* 任何战斗都变哒！\n  炒鸡容易胜利！！！',
+                    '<32>{#k/4}* 但，哼嗯嗯嗯，tem想...\n* 用了盔甲，\n  尼的战斗就目有挑战了，',
+                    '<32>{#k/3}* tem...\n* 有一个姐决番案。',
+                    '<32>{#k/6}* tem会给尼...\n* 一份{@fill=#ff0}奖鞋金{@fill=#fff}！',
+                    '<32>{#k/3}* 如果尼{@fill=#ff0}输了好多战斗{@fill=#fff}，\n  tem就费{@fill=#ff0}给尼打折{@fill=#fff}！',
                     ...(armorprice() <= 1000
                        ? [
-                            '<32>{#k/1}* in fack...\n* PRICE MAY ALREADY BE LOWERS!!!\n* WOA!!!!',
-                            '<32>{#k/6}* Congra-tem-lations!!!'
+                            '<32>{#k/1}* 尼看！其实...\n* 价哥已经，变低啦！！！\n* 哇哇！！！！',
+                            '<32>{#k/6}* 太tem祝贺尼啦！！！'
                          ]
                        : [
-                            '<32>{#k/3}* 所以如果你陷入了吼难的\n  战逗中觉得好灰森啊，\n  那你就可以买下TEM盔甲\n  作为你的救命稻草！',
-                            '<32>{#k/5}* 但tem盔甲太吼了，\n* 答应窝一定在真的需要的\n  时候才买吼，'
+                            '<32>{#k/3}* 所以如果陷入了吼难的战逗中\n  觉得好灰森啊，\n  那就买下TEM盔甲吧！\n* 它就四尼的救命稻草！',
+                            '<32>{#k/5}* 但tem盔甲太吼了，\n* 答应窝一定四真的需要它\n  才买吼，'
                          ])
                  ]
                : [ '<32>{#p/tem}{#k/0}* 你吼！！！', "<32>* 我素temmie" ],
          () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/tem}{#k/0}* at back of famus statue, can find SPECIL SWITCH,',
-                    '<32>{#p/tem}{#k/0}* and SWITCHs...\n* come wif RIDDLES!',
+                    '<32>{#p/tem}{#k/0}* 辣个炒鸡有名哒雕像后面\n  有个特苏按钮，',
+                    '<32>{#p/tem}{#k/0}* 按了按钮吖...\n* 就粗来一个谜提！',
                     SAVE.data.b.colleg
-                       ? '<32>{#p/tem}{#k/2}* even after colleg, tem don know what it means,,,'
-                       : '<32>{#p/tem}{#k/0}* tem don know what it means,,,',
-                    '<32>{#p/tem}{#k/1}* but mayb humans can solve!!\n* yAYA!!'
+                       ? '<32>{#p/tem}{#k/2}* 上了大鞋，\n  tem还是不知道\n  辣个怎么弄，，，'
+                       : '<32>{#p/tem}{#k/0}* tem不知道辣个怎么弄,,,',
+                    '<32>{#p/tem}{#k/1}* 但缩不定，\n  银类能解开呢！！\n* 嚎吖！！'
                  ]
                : SAVE.data.b.colleg
                ? [
-                    "<32>{#p/tem}{#k/0}* 嚎吖！\n* tem获得惹提米学的学位！\n* tem现在可以告诉你全部\n  tem的深远历史了！！！"
+                    "<32>{#p/tem}{#k/0}* 嚎吖！\n* tem获得惹提米鞋的鞋位！\n* tem可以把全不的森远历史\n  都告诉尼啦！！！"
                  ]
-               : [ '<32>{#p/tem}{#k/0}* 我们tem有着\n  粉深远的历史！！！' ],
+               : [ '<32>{#p/tem}{#k/0}* 我们tem\n  有着粉深远的历史！！！' ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/tem}{#k/0}* yaYA!!!\n* wil close TEM SHOP soon!!!' ]
+               ? [ '<32>{#p/tem}{#k/0}* 嚎吖！！！\n* TEM桑店要关门啦！！！' ]
                : [ '<32>{#p/tem}{#k/0}* 嚎吖！！！\n* 去TEM商店吧！！！' ]
       ],
       colleg1: [
          '<32>{#p/tem}{#k/1}* 哇嗷！！',
          '<32>{#k/2}* 介么多钱钱...\n* tem尊的可以收下么...',
-         '<32>{#k/6}* 好哒！！！！\n* tem要去上大鞋然后\n  让尼感到骄傲！！！'
+         '<32>{#k/6}* 好哒！！！！\n* tem要去上大鞋\n  让尼为窝感到骄傲！！！'
       ],
       colleg2: [
-         '<32>{#p/tem}* tem从大鞋回来了，',
+         '<32>{#p/tem}* tem大鞋毕业了，',
          '<32>{#k/0}* tem学会啦好多东东，\n* 学会卖新道具辣！\n* 嚎吖！！！'
       ],
       sellExit: '离开',
@@ -7714,7 +7714,7 @@ export default {
       sellStory3: () =>
          SAVE.data.b.colleg
             ? [
-                 "<32>{#p/tem}{#k/3}* Is this a joke?\n* Are you having a laugh?\n* Ha ha, very funny.\n* I'm the one with a degree."
+                 "<32>{#p/tem}{#k/3}* 跟我开玩笑是吧？\n* 敢笑话我是吧！\n* 哈哈，真有意思。\n* 看清楚，我可是高材生。"
               ]
             : [ "<32>{#p/tem}{#k/3}* 你会后悔的。" ],
       zeroPrompt: '<09>{#p/basic}...'
@@ -7726,7 +7726,7 @@ export default {
             : world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
             ? [ '<32>{#p/basic}{#k/1}* 可算走了。' ]
-            : [ '<32>{#p/basic}{#k/0}* 在外面小心点，孩子！' ],
+            : [ '<32>{#p/basic}{#k/0}* 在外头小心点，孩子！' ],
       item: () =>
          world.runaway
             ? [ '0G - 平板电脑？', '0G - AR眼镜？', '0G - 星云茶', '0G - 树胶', '离开' ]
@@ -7766,18 +7766,18 @@ export default {
             ? '防具：4防御\n(当前防御$(x))\n只能让你\n多喘口气。'
             : '防具：6防御\n(当前防御$(x))\n提供更长的\n喘息时间。',
          '回复15 HP\n能在战斗中\n移动得更快。',
-         '回复35 HP\n取材自\n真正的树。'
+         '回复35 HP\n源自\n真正的树。'
       ],
       itemPrompt: () =>
          world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-            ? "<09>{#p/basic}{#k/3}别指望\n我会打折。"
-            : "<09>{#p/basic}{#k/4}想买些\n啥呢？",
+            ? "<09>{#p/basic}{#k/3}别指望\n我打折。"
+            : "<09>{#p/basic}{#k/4}想买点\n啥呢？",
       itemPurchase: () =>
          world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
             ? [
-                 '<09>{#p/basic}{#k/1}拿这个。',
+                 '<09>{#p/basic}{#k/1}这就结了。',
                  '<09>{#p/basic}{#k/1}...',
                  "<09>{#p/basic}{#k/3}咋了？\n这点钱\n都付不起？",
                  "<10>{#p/human}（你带的\n东西\n太多了。）"
@@ -7794,33 +7794,33 @@ export default {
       menuPrompt1: () =>
          SAVE.data.n.plot === 72
             ? '<23>{#p/basic}{#k/0}* 哇哈哈！\n* 我果然没看错你！'
-            : "<23>{#p/basic}{#k/0}* 来瞧瞧！\n* 我这有不少物美价廉的\n  废品打算卖呢。",
+            : "<23>{#p/basic}{#k/0}* 瞧一瞧，看一看！\n* 我这里有好多物美价廉的废品\n  正在大甩卖！",
       menuPrompt2: () =>
          SAVE.data.n.plot === 72 ? '<23>{#p/basic}{#k/0}* 哇哈哈。' : "<23>{#p/basic}{#k/0}* 别见外哦。",
       menuPrompt3: () =>
          world.genocide
-            ? "<23>{#p/basic}{#k/3}* 你们几个还想去哪？\n* 等等，当我没问。\n  你们去哪，关我什么事呢？"
-            : '<24>{#p/basic}{#k/2}* 哇哈哈...\n* 您来啦。\n* 好一个祸乱滔天啊！',
+            ? "<23>{#p/basic}{#k/3}* 你们几个还想去哪？\n* 等等，当我没问。\n  你们去哪关我什么事呢？"
+            : '<24>{#p/basic}{#k/2}* 哇哈哈...\n* 您来啦。\n* 好一个大瘟神啊！',
       menuPrompt4: '<23>{#p/basic}* ...但是大家都逃走了。',
-      note: [ '<32>{#p/human}* （但没有人给你留字条。）' ],
+      note: [ '<32>{#p/human}* （但没人给你留字条。）' ],
       sell1: () =>
          world.runaway
             ? [ '<30>{#p/human}* （你从柜台后面拿走了1394G。）' ]
             : world.genocide
             ? [
                  '<30>{#p/basic}{#k/4}* 哇哈哈...',
-                 '<30>{#k/3}* 呵，先是把别人灵魂据为己有，\n  现在又想用同样的手段\n  偷我的东西？',
-                 "<30>{#k/4}* 我建议你\n  最好不要得寸进尺。"
+                 '<30>{#k/3}* 呵，先是把别人灵魂据为己有，\n  现在又想耍同样的手段\n  把我东西偷走？',
+                 "<30>{#k/4}* 听我句劝，\n  最好别得寸进尺。"
               ]
             : world.meanie
             ? [
                  "<30>{#p/basic}{#k/2}* 哎呀，孩子。\n* 你知道这些东西\n  是要花钱的吧？",
-                 "<30>{#k/3}* 也许对你来说\n  它们只是废品，\n  但对我来说绝非如此！"
+                 "<30>{#k/3}* 也许在你看来，这些就是破烂。\n* 可在我心中，它们都是宝贝！"
               ]
             : [
                  "<30>{#p/basic}{#k/2}* 哈！\n* 我是卖废品的，\n  不是收废品的！",
-                 "<30>{#k/3}* 不过，如果你想卖点东西，\n  我有个好主意，\n  去Temmie商店那里看看吧。",
-                 '<30>{#k/0}* 你问它在哪？',
+                 "<30>{#k/3}* 不过，如果你想卖点东西，\n  我有个好主意：\n  去Temmie商店那里看看吧。",
+                 '<30>{#k/0}* 在哪呢...',
                  '<30>{#k/4}* ...',
                  "<30>{#k/0}* 想不起来了。"
               ],
@@ -7828,8 +7828,8 @@ export default {
          world.runaway
             ? [ '<30>{#p/basic}* 空无一物。' ]
             : world.genocide || world.meanie
-            ? [ "<30>{#p/basic}{#k/1}* I wouldn't give up my gilded treasures at phaser-point." ]
-            : [ "<30>{#p/basic}{#k/0}* 我再说最后一遍，\n  我不收！" ],
+            ? [ "<30>{#p/basic}{#k/1}* 就算把刀架我脖子上，\n  我也不会这些宝贝交给你。" ]
+            : [ "<30>{#p/basic}{#k/0}* 我最后说一次，\n  我不是收破烂的！" ],
       talk: () =>
          SAVE.data.n.plot === 72
             ? [
@@ -7886,23 +7886,23 @@ export default {
                  ]
                : world.genocide
                ? [
-                    '<32>{#p/basic}{#k/1}* You wanna know my thoughts on Asriel?',
-                    '<32>{#k/0}* ...\n* He was a good kid.',
-                    '<32>{#k/3}* And if he was still alive, he woulda made a great king.',
-                    "<32>{#k/4}* As for what you got there standin' in front of me, well, it's not him.",
-                    '<32>{#k/0}* It looks like him, talks like him, even has his damned adorable face... bless that kid.',
-                    '<32>{#k/3}* But that SOUL... being this close to you, the resemblance is unmistakable.',
-                    "<32>{#k/1}* How'd it feel taking the SOUL of your own mother, boy?",
-                    '<32>{#k/0}* I wonder.'
+                    '<32>{#p/basic}{#k/1}* 想听听我心目中的Asriel\n  是什么样的吗？',
+                    '<32>{#k/0}* ...\n* 他是个好孩子。',
+                    '<32>{#k/3}* 他要是没死，\n  现在已继任国王了。',
+                    "<32>{#k/4}* 我说的Asriel，\n  可不是面前这个“Asriel”。",
+                    '<32>{#k/0}* 这个“Asriel”，\n  就算能模仿他的面容，复刻他的声音，\n  甚至... 凭那张可爱的脸以假乱真...',
+                    '<32>{#k/3}* 可就是模仿不了他的心灵。\n* 我了解Asriel的性格，\n  所以，你骗不了我。',
+                    "<32>{#k/1}* 我很好奇，\n  亲手把自己母亲的灵魂\n  扯出来的滋味...",
+                    '<32>{#k/0}* 好受不？'
                  ]
                : world.killed0 || startonATE()
                ? [
-                    '<32>{#p/basic}{#k/0}* 很久以前，国王和我都认为\n  逃脱这里是没有意义的...',
-                    '<32>{#k/1}* 一旦我们出去，\n  立刻就会被人类给宰了。',
-                    "<32>{#k/3}* 后来他改变主意时，\n  我还有点被背叛的感觉。",
-                    '<32>{#k/4}* 但现在，我觉得...\n* 或许他是对的。',
-                    "<32>{#k/0}* 毕竟，就算我们不曾离开这里...",
-                    "<32>{#k/3}* 某个人类还是会杀掉我们，\n  我说的对吧？"
+                    '<32>{#p/basic}{#k/0}* 很久以前，我跟国王都觉得，\n  在前哨站安分守己，才有未来...',
+                    '<32>{#k/1}* 因为，一旦我们出去，\n  马上就会被人类宰了。',
+                    "<32>{#k/3}* 后来，国王改变主意了。\n* 当时，我甚至有点感觉\n  自己被他背叛了。",
+                    '<32>{#k/4}* 但现在，我觉得...\n* 是我错了。',
+                    "<32>{#k/0}* 毕竟，就算我们安分守己...",
+                    "<32>{#k/3}* 最终，还是会葬送在\n  某个人类的手中，对不对？"
                  ]
                : 48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
                ? [
@@ -7922,7 +7922,7 @@ export default {
                     [
                        '<32>{#p/basic}{#k/0}* 啊，是啊，就是那场战争。\n* 那场战争，\n  给我，给这里每个人\n  都带来了难以磨灭的创伤。',
                        "<32>{#k/4}* 每隔一段时间，\n  我们会收到报告...\n* 上面，全是为了保护家园\n  而壮烈牺牲的烈士。",
-                       "<32>{#k/1}* 我至今还记得，小毛球国王\n  将一封封噩耗告知烈士家属时，\n  他脸上的神情...",
+                       "<32>{#k/1}* 我至今还记得，小毛球国王\n  将一条条噩耗告知烈士家属时，\n  他脸上的神情...",
                        "<32>{#k/1}* 眼神空洞，目光呆滞...\n* 孩子，这就是战争\n  给人带来的影响。",
                        "<32>{#k/3}* 所以，我就退休了。"
                     ],
@@ -7955,21 +7955,21 @@ export default {
                  ]
                : world.genocide || world.killed0 || startonATE()
                ? [
-                    "<32>{#p/basic}{#k/3}* 我经历了太多岁月，\n  不会怕你这种东西。",
-                    '<32>{#k/2}* 来试试啊，小子！',
-                    "<32>{#k/1}* ...我知道你在这没法战斗。",
-                    "<32>{#k/4}* 哇哈...\n* 博识是我长寿的原因之一。"
+                    "<32>{#p/basic}{#k/3}* 我活了这么久，\n  什么大风大浪没见过。\n  不会怕你这种东西。",
+                    '<32>{#k/2}* 来啊，小子，动手啊！',
+                    "<32>{#k/1}* ...我知道你在这伤不了我的。",
+                    "<32>{#k/4}* 哇哈...\n* 假如没有这样的智慧，\n  我也活不长。"
                  ]
                : SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
                ? [
-                    '<32>{#p/basic}{#k/2}* The homeworld, eh?',
-                    '<32>{#k/0}* Look, kiddo.',
-                    "<32>{#k/0}* All I'll say about the homeworld is that it was a nice place.",
-                    "<32>{#k/4}* A place where people didn't have to worry...",
-                    '<32>{#k/1}* ... about seeing those they care about be killed in front of their very eyes.',
-                    "<32>{#k/0}* So, to summarize, it's not really a place you'd fit into.",
-                    '<32>{#k/1}* Any questions?'
+                    '<32>{#p/basic}{#k/2}* 你说，故园生活？',
+                    '<32>{#k/0}* 呵，孩子啊...',
+                    "<32>{#k/0}* 我只能告诉你，\n  故园是个很棒的地方。",
+                    "<32>{#k/4}* 在那里，人们不用怕...",
+                    '<32>{#k/1}* ...自己的亲人，朋友在面前\n  被活活杀死。',
+                    "<32>{#k/0}* 所以嘛，\n  那地方肯定不适合你待。",
+                    '<32>{#k/1}* 有疑问吗？'
                  ]
                : [
                     [
@@ -7988,92 +7988,93 @@ export default {
                        "<32>{#k/3}* ...那次一别，\n  此后就再也没能见到家人。"
                     ],
                     [
-                       '<32>{#p/basic}{#k/0}* Erogot，我们故园\n  上一个伟大时代的国王。',
-                       "<32>* 我相信你一定读过他的故事。",
+                       '<32>{#p/basic}{#k/0}* Erogot，是故园最后一段全盛时期的\n  当政国王。',
+                       "<32>* 我相信，你一定读过他的故事。",
                        ...(SAVE.storage.inventory.has('artifact') // NO-TRANSLATE
 
-                          ? [ "<32>{#k/2}* 如果你没读过，\n  那你怎么拿着他的吊坠！？" ]
+                          ? [ "<32>{#k/2}* 否则，那你怎么拿着\n  他的吊坠！？" ]
                           : [
-                               "<32>{#k/2}* 如果你没读过，\n  难不成你活的这么长时间\n  都是在外星过的吗！？"
+                               "<32>{#k/2}* 否则，你难道一直活在\n  外星上吗？"
                             ]),
-                       '<32>{#k/3}* 在他的统治下，\n  怪物一族发展到了现在的盛况。\n* 可能有点太盛了。',
-                       '<32>{#k/0}* 他第一次见到人类的时候\n  很高兴...\n  但不是为他自己而高兴。',
-                       "<32>{#k/1}* 喏，是他儿子的愿望。\n* 那可怜的孩子不仅完全\n  得到了他想要的，\n  还得到了更多..."
+                       '<32>{#k/3}* 在他的统治下，\n  怪物一族逐渐发展壮大\n* 都有点壮大过头了。',
+                       '<32>{#k/0}* 他第一次见到人类时，\n  非常高兴...',
+'<32>{#k/0}* 并不是因为他自己想见到人类，\n  而是为了实现他儿子的愿望。',
+                       "<32>{#k/1}* 可怜的孩子，\n  虽然实现了他的梦想，\n  可之后..."
                     ],
                     [
-                       "<32>{#p/basic}{#k/3}* 抱歉，我不想谈太多\n  这个话题了。",
+                       "<32>{#p/basic}{#k/3}* 抱歉，这事我不该说太多。",
                        "<32>{#k/1}* 小毛球国王可不想让你\n  背负那样的重担。"
                     ]
                  ][Math.min(SAVE.data.n.shop_homeworld++, 3)],
          () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}{#k/0}* Toriel?\n* She came through here not too long ago, actually.',
-                    '<32>{#k/1}* Said she needed time to herself.',
-                    "<32>{#k/3}* Well, y'know what?\n* I figure she's had enough time by now.",
-                    '<32>{#k/0}* You can find her in the trash depository past the ladder in the room nearby.',
-                    "<32>{#k/3}* I'm pretty sure I know what's got her so pre-occupied..."
+                    '<32>{#p/basic}{#k/0}* Toriel？\n* 其实，她不久前刚经过这。',
+                    '<32>{#k/1}* 她说，“想自己一个人静静。”',
+                    "<32>{#k/3}* 嗯... \n* 不过我觉得，\n  现在她应该冷静得差不多了。",
+                    '<32>{#k/0}* 附近有个垃圾堆，\n  那房间里还有一架梯子。\n  她应该就在那里。',
+                    "<32>{#k/3}* 至于她为啥这么心事重重...\n  我清楚得很。"
                  ]
                : world.genocide || world.killed0 || startonATE()
                ? 48 <= SAVE.data.n.plot
                   ? [
                        [
-                          '<32>{#p/basic}{#k/3}* 呃？\n* 和你打架？',
-                          "<32>{#k/1}* 不...我不是个英雄。\n* 不再是了。",
-                          "<32>{#k/0}* And b'sides...\n* You may have spared Undyne, but everyone else is still dead.",
-                          "<32>{#k/4}* I'm better off holding my ground right where I am..."
+                          '<32>{#p/basic}{#k/3}* 嗯？\n* 跟你干一架？',
+                          "<32>{#k/1}* 没门。\n* 我不是英雄，\n  也不会去逞英雄。",
+                          "<32>{#k/0}* 更何况...\n* 你就算没杀Undyne，\n  其他民众也还是都被杀了。",
+                          "<32>{#k/4}* 反正，我就这么待着，\n  你也拿我没办法..."
                        ],
                        [
-                          '<32>{#p/basic}{#k/3}* 呃？\n* 和你打架？',
-                          "<32>{#k/1}* 不...我不是个英雄。\n* 不再是了。",
-                          "<32>{#k/3}* And b'sides...\n* People seem to go missing after they run into you.",
-                          "<32>{#k/4}* I'll take that as an omen to stay right where I am..."
+                          '<32>{#p/basic}{#k/3}* 嗯？\n* 跟你干一架？',
+                          "<32>{#k/1}* 没门。\n* 我不是英雄，\n  也不会去逞英雄。",
+                          "<32>{#k/3}* 更何况...\n* 怪物们只要碰上你，\n  几乎都会失踪。",
+                          "<32>{#k/4}* 那我不如识趣点，老实待着。\n* 反正你也拿我没办法..."
                        ],
                        [
-                          '<32>{#p/basic}{#k/3}* 呃？\n* 和你打架？',
-                          "<32>{#k/1}* 不...我不是个英雄。\n* 不再是了。",
-                          "<32>{#k/0}* And b'sides...\n* After what you did to Undyne, I know I don't stand a chance.",
-                          "<32>{#k/4}* I'm better off holding my ground right where I am..."
+                          '<32>{#p/basic}{#k/3}* 嗯？\n* 跟你干一架？',
+                          "<32>{#k/1}* 没门。\n* 我不是英雄，\n  也不会去逞英雄。",
+                          "<32>{#k/0}* 更何况...\n* 连Undyne都拦不住你，\n  那我就更不是你的对手。",
+                          "<32>{#k/4}* 反正，我就这么待着，\n  你也拿我没办法..."
                        ]
                     ][world.genocide ? 2 : SAVE.data.n.state_foundry_undyne]
                   : [
-                       '<32>{#p/basic}{#k/3}* 呃？\n* 和你打架？',
-                       "<32>{#k/1}* 不...我不是个英雄。\n* 不再是了。",
-                       "<32>{#k/0}* 更何况...\n* 我这身老骨头也没法再打了。",
-                       "<32>{#k/1}* 你打一下，我可能...就...",
-                       "<32>{#k/4}* 至少跟你说话这会儿，\n  我给他们争取了足以逃走的时间。"
+                       '<32>{#p/basic}{#k/3}* 嗯？\n* 跟你干一架？',
+                       "<32>{#k/1}* 没门。\n* 我不是英雄，\n  也不会去逞英雄。",
+                       "<32>{#k/0}* 更何况...\n* 我这身老骨头也打不动了。",
+                       "<32>{#k/1}* 你打一下，我可能...\n  就...",
+                       "<32>{#k/4}* 至少，我还能扯扯闲话，拖住你们，\n  帮孩子们争取逃命的时间。"
                     ]
                : postSIGMA()
                ? [
-                    '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？',
-                    "<32>{#k/3}* Well, recently, we've been having some electricity problems...",
-                    "<32>{#k/0}* Though I'm sure it's nothing the Foundry crew can't sort out.",
-                    "<32>{#k/2}* Those folks can't get enough of their engineering jobs!"
+                    '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 就这个破地方？',
+                    "<32>{#k/3}* 呃...\n* 刚才，这里停电了...",
+                    "<32>{#k/0}* 不过别担心。\n* 就这点小事，\n  难不倒铸厂员工的。",
+                    "<32>{#k/2}* 这群修理工啊，\n  一个个恨不得天天996呢！"
                  ]
                : 48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
                ? [
                     [
-                       '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？',
-                       "<32>{#k/3}* 嗯，这是个大家经常迷路...",
-                       '<32>{#k/3}* 或者被抛弃的地方...',
-                       "<32>{#k/2}* 孩子，我真希望这种事情\n  不会发生在你身上。"
+                       '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 就这个破地方？',
+                       "<32>{#k/3}* 嗯，这地方跟个迷宫一样，\n  总有人在这里迷路...",
+                       '<32>{#k/3}* 甚至被抛弃...',
+                       "<32>{#k/2}* 孩子，我真希望\n  这种事情别发生在你身上。"
                     ],
                     [
-                       '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？',
-                       "<32>{#k/0}* 唉，这地方从来都\n  称不上友好...",
-                       '<32>{#k/3}* 从人类把我们死死逼到这里来，\n  到最近我们失去斗志...',
-                       "<32>{#k/3}* 这里只有厄运啊，孩子。"
+                       '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 就这个破地方？',
+                       "<32>{#k/0}* 唉，这里根本不是什么\n  幸福乐园...\n* 从来都不是。",
+                       '<32>{#k/3}* 前有人类把我们逼到这里，\n  活活等死；\n* 后有英雄战死，士气低迷...',
+                       "<32>{#k/3}* 孩子，这里只有苦难。"
                     ]
                  ][SAVE.data.n.state_foundry_undyne - 1]
                : [
-                    '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 这个破地方？',
-                    '<32>{#k/2}* 回想我们刚被困在这里时，\n  这里就是前哨站！',
-                    '<32>{#k/0}* 所有后来添加的花哨部分\n  都是由我们这些怪物建造的。',
-                    "<32>{#k/0}* 事实证明，\n  大多数人都不喜欢活在过去。\n* 确实在理。",
-                    "<32>{#k/2}* 但是... 我只是觉得\n  改造这个地方太安逸了。",
-                    "<32>{#k/3}* 是人类把我们困在这里，\n  希望我们在黑暗中腐烂受苦。",
-                    "<32>{#k/0}* 但看看现在的我们。\n* 看看我们把这里\n  变成了自己的地盘。",
-                    "<32>{#k/2}* 哇哈哈！\n* 得让他们知道知道，\n  谁才是老大！"
+                    '<32>{#p/basic}{#k/3}* 你想了解铸厂？\n* 就这个破地方？',
+                    '<32>{#k/2}* 我想想...\n* 当年，怪物刚被困在这里时，\n  整个“前哨站”还只有铸厂！',
+                    '<32>{#k/0}* 后来，我们不断扩建前哨站，\n  才有了形态各异的其他区域。',
+                    "<32>{#k/0}* 看来，怪物们大多不愿拘泥于过去，\n  而是“向前看”，谋发展。\n* 我能理解。",
+                    "<32>{#k/2}* 虽说...\n  只想发展，扩建，改造\n  这一亩三分地，有点没出息。",
+                    "<32>{#k/3}* 当年，人类把我们困在这里，\n  希望我们在黑暗中腐烂受苦。",
+                    "<32>{#k/0}* 但你瞧：\n  一路下来，我们不仅走出了困境，\n  还把这里变成了自己的地盘。",
+                    "<32>{#k/2}* 哇哈哈！\n* 就让他们瞧瞧：\n  谁才是老大！"
                  ],
          () =>
             SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
@@ -8108,146 +8109,147 @@ export default {
                ? world.genocide
                   ? [
                        [
-                          "<32>{#p/basic}{#k/1}* I take it you've killed her by now?",
+                          "<32>{#p/basic}{#k/1}* 你们杀掉她了？",
                           '<32>{#k/1}* ...',
-                          '<32>{#k/3}* Then why ask me...',
-                          '<32>{#k/3}* Unless...',
-                          "<32>{#k/2}* You just wanna get my reaction, don'tcha?",
+                          '<32>{#k/3}* 那干嘛明知故问...',
+                          '<32>{#k/3}* 难道...',
+                          '<32>{#k/2}* 就是为了看看我啥反应？',
+'<32>{#k/2}* 是吗？',
                           '<32>{#k/4}* ...',
-                          '<32>{#k/4}* How about... nah.'
+                          '<32>{#k/4}* 你还不如... 唉算了。'
                        ],
                        [
-                          '<32>{#p/basic}{#k/1}* I get it, guys.',
-                          "<32>{#k/1}* She's dead.",
-                          "<32>{#k/3}* You expectin' me to throw a party for you or somethin'?",
-                          '<32>{#k/1}* Get outta my sight.'
+                          '<32>{#p/basic}{#k/1}* 好了我知道了娃们。',
+                          "<32>{#k/1}* 她死了。",
+                          "<32>{#k/3}* 赖着不走，\n  是等着我给你俩办庆功宴吗？",
+                          '<32>{#k/1}* 现在给我滚。'
                        ]
                     ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
                   : SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
                   ? [
                        '<32>{#p/basic}{#k/1}* ...',
-                       "<32>{#k/1}* You've got a real twisted sense of humor, kiddo.",
-                       '<32>{#k/3}* Killing her in front of me like that...',
-                       "<32>{#k/1}* You're lucky I don't walk out there and kill you myself."
+                       "<32>{#k/1}* 小子，你可真幽默。",
+                       '<32>{#k/3}* 还当我面把她杀了...',
+                       "<32>{#k/1}* 算你幸运，\n  我不会走出商店，把你杀了。"
                     ]
                   : world.killed0 || startonATE()
                   ? [
                        [
                           '<32>{#p/basic}{#k/4}* Undyne？',
                           49 <= SAVE.data.n.plot
-                             ? '<32>{#k/4}* She passed through here earlier...'
-                             : '<32>{#k/4}* She just passed through here a few moments ago.',
-                          '<32>{#k/0}* Said she\'d \"given up\" on tryin\'a capture you.',
+                             ? '<32>{#k/4}* 前不久，她刚路过这里...'
+                             : '<32>{#k/4}* 几分钟前，她刚路过这里。',
+                          '<32>{#k/0}* 她说，“不想”抓你了。',
                           '<32>{#k/4}* ...',
-                          '<32>{#k/4}* What happened back there...?'
+                          '<32>{#k/4}* 到底咋回事？'
                        ],
                        [
                           '<32>{#p/basic}{#k/3}* Undyne？',
-                          "<32>{#k/0}* I haven't heard from her in a while.",
-                          '<32>{#k/4}* She just kinda... disappeared.',
-                          '<32>{#k/3}* Was that your doing?'
+                          "<32>{#k/0}* 这段时间一直没看到她。",
+                          '<32>{#k/4}* 好像... 失踪了。.',
+                          '<32>{#k/3}* 是你干的吧？'
                        ],
                        [
                           [
                              '<32>{#p/basic}{#k/1}* ...',
-                             '<32>{#k/1}* You killed her, just like you killed everyone else.',
-                             "<32>{#k/3}* Granted, she wasn't intent on letting YOU live...",
-                             "<32>{#k/1}* But don't act like this was just self-defense for you.",
-                             '<32>{#k/3}* Wa ha...\n* I know you better than that.'
+                             '<32>{#k/1}* 你故技重施，杀了她。',
+                             "<32>{#k/3}* 诚然，她追杀你，\n  她没想让你活命...",
+                             "<32>{#k/1}* 但想靠“正当防卫”糊弄我？\n  没门。",
+                             '<32>{#k/3}* 哇哈...\n* 你的所作所为，我清楚得很。'
                           ],
-                          [ '<32>{#p/basic}{#k/4}* ...', '<32>{#k/0}* What more is there to say?' ]
+                          [ '<32>{#p/basic}{#k/4}* ...', '<32>{#k/0}* 还有啥好说的呢？' ]
                        ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
                     ][SAVE.data.n.state_foundry_undyne]
                   : [
                        2 <= SAVE.data.n.plot_date
                           ? SAVE.data.b.undyne_respecc
                              ? [
-                                  '<32>{#p/basic}{#k/4}* So you and her had a good time, eh?',
+                                  '<32>{#p/basic}{#k/4}* 欸，你俩挺合得来嘛。',
                                   '<32>{#k/2}* 哇哈哈！',
-                                  "<32>{#k/0}* You've really made a good impression on her, kiddo!"
+                                  "<32>{#k/0}* 你在她心中的地位\n  直线上升了哦，孩子！"
                                ]
                              : [
-                                  '<32>{#p/basic}{#k/4}* 所以你们现在...\n  是朋友了？',
+                                  '<32>{#p/basic}{#k/4}* 所以，你俩...\n  现在成好朋友了？',
                                   '<32>{#k/2}* 哇哈哈！',
-                                  "<32>{#k/0}* 你做了我从没想过的事，\n  孩子！"
+                                  "<32>{#k/0}* 连我都大吃一惊啊，\n  孩子！"
                                ]
                           : [
                                [
                                   '<32>{#p/basic}{#k/4}* Undyne？',
                                   49 <= SAVE.data.n.plot
-                                     ? '<32>{#k/4}* She passed through here earlier...'
-                                     : '<32>{#k/4}* She just passed through here a few moments ago.',
+                                     ? '<32>{#k/4}* 前不久，她刚路过这里...'
+                                     : '<32>{#k/4}* 几分钟前，她刚路过这里。',
                                   SAVE.data.b.undyne_respecc
-                                     ? '<32>{#k/0}* Said she was proud to have fought an \"honorable\" human.'
-                                     : '<32>{#k/0}* Said she was \"done\" tryin\'a capture you.',
+                                     ? '<32>{#k/0}* 她说，和那位“可敬的人类”\n  好好切磋了一番。'
+                                     : '<32>{#k/0}* 她说，“早就”抓到你了。',
                                   '<32>{#k/4}* ...',
-                                  '<32>{#k/4}* The heck did you do to make her say THAT?'
+                                  '<32>{#k/4}* 她咋说得出口的？\n  你小子干啥了？'
                                ],
                                [
-                                  "<32>{#p/basic}{#k/4}* If you're askin' me where to find her, she's at home.\n* Ain't but a few steps away.",
-                                  '<32>{#k/3}* From her words to me before...',
+                                  "<32>{#p/basic}{#k/4}* 你想去找她是吧？\n* 她就在家待着呢，离这没几步路。",
+                                  '<32>{#k/3}* 听她之前那番话...',
                                   SAVE.data.b.undyne_respecc
-                                     ? '<32>{#k/4}* It seems you two are on better terms than I thought.'
-                                     : '<32>{#k/4}* It seems you two have some things to work out.'
+                                     ? '<32>{#k/4}* 没想到，你俩处得挺不错。'
+                                     : '<32>{#k/4}* 你俩得好好聊聊了。'
                                ]
                             ][Math.min(SAVE.data.n.shop_deadfish++, 1)],
                        [
                           '<32>{#p/basic}{#k/3}* Undyne？',
-                          "<32>{#k/0}* I haven't heard from her in a while.",
-                          '<32>{#k/4}* She just kinda... disappeared.',
-                          '<32>{#k/1}* Something tells me you played a part in that...'
+                          "<32>{#k/0}* 这段时间一直没看到她。",
+                          '<32>{#k/4}* 好像... 失踪了。.',
+                          '<32>{#k/1}* 隐隐觉得，这事跟你有关系...'
                        ],
                        [
                           [
                              '<32>{#p/basic}{#k/4}* ...',
-                             '<32>{#k/0}* Well... you killed her.',
-                             "<32>{#k/3}* Though, that's kinda her own doing.",
-                             '<32>{#k/4}* I never really got why she was so intent on killing you humans...',
-                             "<32>{#k/0}* If she wanted your SOUL, couldn't she just wait until you died naturally?"
+                             '<32>{#k/0}* 嗯... 她被杀了。',
+                             "<32>{#k/3}* 不过吧，这事得怪她自己。",
+                             '<32>{#k/4}* 我一直搞不明白，\n  她为啥就铁了心地想\n  干掉你们人类呢...',
+                             "<32>{#k/0}* 就拿个灵魂而已，\n  等你自然老死，然后再拿，\n  有什么不好呢？"
                           ],
-                          [ '<32>{#p/basic}{#k/4}* ...', '<32>{#k/0}* What more is there to say?' ]
+                          [ '<32>{#p/basic}{#k/4}* ...', '<32>{#k/0}* 还有啥好说的呢？' ]
                        ][Math.min(SAVE.data.n.shop_deadfish++, 1)]
                     ][SAVE.data.n.state_foundry_undyne]
                : world.genocide
                ? [
-                    "<32>{#p/basic}{#k/0}* Undyne?\n* Oh, that poor little urchin.\n* Normally, I'd call her the hero...",
-                    "<32>{#k/1}* But to be honest, I've seen what you've done.\n* She doesn't stand a chance.",
-                    "<32>{#k/4}* Don't get me wrong, she'll give ya one hell of a fight.",
-                    '<32>{#k/3}* But no... the outpost needs a different kinda hero now.',
-                    "<32>{#k/3}* Someone that doesn't operate on brawn and bravado...",
-                    "<32>{#k/3}* Someone that doesn't see the universe like everyone else...",
-                    "<32>{#k/0}* Wa ha ha.\n* I don't doubt someone like that will be the end of you."
+                    "<32>{#p/basic}{#k/0}* Undyne？\n* 哦，一个小淘气鬼而已。\n* 要是换平时，我会说她是英雄...",
+                    "<32>{#k/1}* 不过，我一路上目睹了\n  你的所做所为。\n* 她再怎么逞能，也是白费功夫。",
+                    "<32>{#k/4}* 别误会。\n* 即使没有胜算，\n  她会好好和你打一场。",
+                    '<32>{#k/3}* 可是...\n  一味只会诉诸武力的人，\n  救不了前哨站。',
+                    "<32>{#k/3}* 此时，仍能“众人皆醉我独醒”，\n  愿意寻找另一种办法\n  化解危机之人...",
+                    "<32>{#k/3}* 才是真正的英雄。",
+                    "<32>{#k/0}* 哇哈哈。\n* 我相信，这样的英雄\n  一定能灭了你们。"
                  ]
                : world.killed0 || startonATE()
                ? world.trueKills > 29
                   ? [
-                       "<32>{#p/basic}{#k/1}* 我不是个英雄。",
-                       "<32>{#k/3}* 但我知道这附近有一个。",
-                       "<32>* 一个无论如何，\n  都坚守着正义的人。",
-                       "<32>{#k/0}* 尽管没有预言或传说\n  提到过那样一个人。",
-                       "<32>* 但我仍然确信。",
-                       '<32>{#k/3}* 有朝一日，那个人会把你拿下。'
+                       "<32>{#p/basic}{#k/1}* 我不是英雄。",
+                       "<32>{#k/3}* 但我知道，在这里的某处，\n  一定有这样一位英雄：",
+                       "<32>* 那英雄不管身处何种境地，\n  始终坚守正义。",
+                       "<32>{#k/0}* 那英雄江湖无名，\n  任何传说从未提及。",
+                       "<32>* 但我仍然坚信，\n  那英雄一定就在某处。",
+                       '<32>{#k/3}* 有朝一日，\n  那英雄定会将你斩于马下。'
                     ]
                   : [
-                       "<32>{#p/basic}{#k/1}* 我不是个英雄。",
-                       "<32>{#k/3}* 但我知道这附近有一个。",
-                       "<32>* 一个无论如何，\n  都坚守着正义的人。",
-                       "<32>{#k/0}* I'd watch your back, kiddo.",
-                       "<32>{#k/0}* 'Cause sooner or later, before you know it...",
-                       "<32>{#k/3}* ... you'll be as good as dead."
+                       "<32>{#p/basic}{#k/1}* 我不是英雄。",
+                       "<32>{#k/3}* 但我知道，在这里的某处，\n  一定有这样一位英雄：",
+                       "<32>* 那英雄不管身处何种境地，\n  始终坚守正义。",
+                       "<32>{#k/0}* 孩子，你最好小心点。",
+                       "<32>{#k/0}* 指不定哪天，\n  有人偷袭你...",
+                       "<32>{#k/3}* ...到那时，\n  你只会觉得生不如死。"
                     ]
                : world.trueKills > 29
                ? [
                     "<32>{#p/basic}{#k/0}* Undyne？\n* 是啊，她是这一带的英雄。",
-                    '<32>{#k/3}* She stormed off earlier... seemed pretty upset at someone who looked just like you...',
-                    "<32>{#k/2}* 我会帮你一把的，孩子。\n* 买些东西吧...\n* 说不定能救你一命呢！\n* 哇哈哈！"
+                    '<32>{#k/3}* 刚刚，她四处咆哮...\n* 似乎特别厌恶\n  长得像你一样的家伙...',
+                    "<32>{#k/2}* 孩子，我会帮你一把的。\n* 买点东西吧，\n  说不定能救你一命呢！\n* 哇哈哈！"
                  ]
                : [
                     "<32>{#p/basic}{#k/0}* Undyne？\n* 是啊，她是这一带的英雄。",
                     '<32>{#k/4}* 凭借勇气和决心，\n  她一路奋斗到皇家守卫的顶点。',
-                    '<32>{#k/3}* 事实上，她刚刚来这里问过\n  有没有见到一个长得\n  很像你的人...',
-                    "<32>{#k/2}* 我会帮你一把的，孩子。\n* 买些东西吧...\n* 说不定能救你一命呢！\n* 哇哈哈！"
+                    '<32>{#k/3}* 刚刚，她来这里问\n  有没有见到一个\n  长得很像你的家伙...',
+                    "<32>{#k/2}* 孩子，我会帮你一把的。\n* 买点东西吧，\n  说不定能救你一命呢！\n* 哇哈哈！"
                  ]
       ],
       zeroPrompt: '<09>{#p/basic}...'
@@ -8265,7 +8267,7 @@ export default {
          name: '铸厂 - 钢索桥',
          text: () =>
             SAVE.data.n.state_foundry_undyne > 0 || world.runaway
-               ? [ '<32>{#p/human}* (The starlight dims, filling you with determination.)' ]
+               ? [ '<32>{#p/human}* （星光渐渐暗淡，\n  这使你充满了决心。）' ]
                : [
                     '<32>{#p/human}* （虽然远在天际，星光依旧闪烁。）',
                     '<32>{#p/human}* （这使你充满了决心。）'
@@ -8276,18 +8278,18 @@ export default {
          text: () =>
             SAVE.data.n.state_foundry_undyne > 0 || world.runaway
                ? [
-                    '<32>{#p/human}* (The silence is deafening...)',
-                    '<32>{#p/human}* (Yet it fills you with determination.)'
+                    '<32>{#p/human}* （这里静得可怕...）',
+                    '<32>{#p/human}* （这仍使你充满了决心。）'
                  ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/human}* (Returning to such a quiet place after your journey fills you with determination.)' ]
+               ? [ '<32>{#p/human}* （旅途即将结束，\n  而你又回到这片宁静地带。）\n* （这使你充满了决心。）' ]
                : SAVE.data.n.plot < 48
                ? [
-                    '<32>{#p/human}* （在持续的混乱中\n  得到短暂的喘息...）',
+                    '<32>{#p/human}* （在持续的混乱中\n  得到了短暂的喘息...）',
                     '<32>{#p/human}* （这使你充满了决心。）'
                  ]
                : SAVE.data.n.plot_date < 2.1
-               ? [ '<32>{#p/human}* (The chaos has come to an end, filling you with determination.)' ]
+               ? [ '<32>{#p/human}* （混乱消退了。）\n* （这使你充满了决心。）' ]
                : SAVE.data.n.exp > 0
                ? [
                     '<32>{#p/human}* （随着蒸汽而来的\n  是背叛的苦涩。）',
@@ -8304,40 +8306,40 @@ export default {
             SAVE.data.n.plot < 39
                ? [ '<32>{#p/human}* （在铸厂的深处漫步，\n  使你充满了决心。）' ]
                : SAVE.data.n.state_foundry_muffet === 1
-               ? [ '<32>{#p/human}* (Thinking of the friends you corrupted along the way fills you with determination.)' ]
+               ? [ '<32>{#p/human}* （一路上，你把“朋友”拉下了水。）\n* （想到这些，你充满了决心。）' ]
                : SAVE.data.b.f_state_kidd_betray
-               ? [ '<32>{#p/human}* (Thinking of the friends you betrayed along the way fills you with determination.)' ]
+               ? [ '<32>{#p/human}* （一路上，你把“朋友”弃若敝履。）\n* （想到这些，你充满了决心。）' ]
                : world.runaway
                ? [
-                    "<32>{#p/human}* (Thinking of the friends you'll never get to see again fills you with determination.)"
+                    "<32>{#p/human}* （如今，你与“朋友”们再无缘相见。）\n* （想到这些，你充满了决心。）"
                  ]
                : SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (Thinking of the friends you went the extra mile to save fills you with determination.)'
+                    '<32>{#p/human}* （那时，你竭尽全力拯救朋友。）\n* （想到这些，你充满了决心。）'
                  ]
-               : [ '<32>{#p/human}* (Thinking of the friends you made along the way fills you with determination.)' ]
+               : [ '<32>{#p/human}* （一路上，你结交了那么多朋友。）\n* （想到这些，你充满了决心。）' ]
       },
       f_prechase: {
          name: '铸厂 - 岔路口',
          text: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (Despite it only being useful for you and your company...)',
-                    '<32>{#p/human}* (The newly-built bridge nearby still fills you with determination.)'
+                    '<32>{#p/human}* （尽管只有你和伙伴们\n  有机会踏上附近那座新桥...）',
+                    '<32>{#p/human}* （它仍使你充满了决心。）'
                  ]
                : world.runaway
                ? [
-                    "<32>{#p/human}* (Despite you being the only one who'll get to use it now...)",
-                    '<32>{#p/human}* (The newly-built bridge nearby still fills you with determination.)'
+                    "<32>{#p/human}* （尽管如今只有你\n  有机会踏上附近那座新桥...）",
+                    '<32>{#p/human}* （它仍使你充满了决心。）'
                  ]
                : SAVE.data.n.plot < 48
                ? [
                     '<32>{#p/human}* （塔架谜题、讯星，\n  还有老式通风口...）',
-                    '<32>{#p/human}* （如同变幻莫测的滑稽剧一般，\n  使你充满了决心。）'
+                    '<32>{#p/human}* （如同变幻莫测的喜剧一般，\n  使你充满了决心。）'
                  ]
                : [
-                    '<32>{#p/human}* (A bridge now sits amidst the surroundings.)',
-                    '<32>{#p/human}* (This development fills you with determination.)'
+                    '<32>{#p/human}* （周围多了一座在建的新桥。）',
+                    '<32>{#p/human}* （这使你充满了决心。）'
                  ]
       },
       f_sans: {
@@ -8345,26 +8347,26 @@ export default {
          text: () =>
             world.dead_skeleton || world.runaway
                ? [
-                    '<32>{#p/human}* （不知怎地，通风口排出的\n  蒸汽令人不安。）',
-                    '<32>{#p/human}* （尽管如此，你充满了\n  决心。）'
+                    '<32>{#p/human}* （不知怎地，通风口排出的蒸汽\n  令人感到不安。）',
+                    '<32>{#p/human}* （但你仍充满了决心。）'
                  ]
-               : [ '<32>{#p/human}* （通风口冒出的湿热蒸汽使你\n  充满了决心。）' ]
+               : [ '<32>{#p/human}* （通风口不停冒出湿热的蒸汽。）\n* （这使你充满了决心。）' ]
       },
       f_shyren: {
          name: '铸厂 - 售货机',
          text: () =>
             SAVE.data.b.killed_shyren
-               ? [ '<32>{#p/human}* (A sad stillness permeates the air, filling you with determination.)' ]
+               ? [ '<32>{#p/human}* （空气中弥漫着悲伤的寂静。）\n* （这使你充满了决心。）' ]
                : SAVE.data.n.plot < 40
-               ? [ '<32>{#p/human}* （耳边回荡的嗡嗡声，\n  使你充满了决心。）' ]
-               : [ '<32>{#p/human}* (The sound of music fills you with determination.)' ]
+               ? [ '<32>{#p/human}* （耳边的哼唱声不住回响。）\n* （这使你充满了决心。）' ]
+               : [ '<32>{#p/human}* （音乐在耳畔回响。）\n* （这使你充满了决心。）' ]
       },
       f_tunnel: {
          name: '铸厂 - 垃圾场',
          text: () =>
             SAVE.data.n.plot < 42.1
                ? [ '<32>{#p/human}* （在垃圾中迷失方向\n  使你充满了决心。）' ]
-               : [ '<32>{#p/human}* (Finding yourself back amongst the trash fills you with determination.)' ]
+               : [ '<32>{#p/human}* （发现自己又回到了垃圾的行列\n  使你充满了决心。）' ]
       }
    }
 };

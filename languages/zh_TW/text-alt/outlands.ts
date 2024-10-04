@@ -1358,11 +1358,11 @@ export default {
          "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
       ],
       endtwinklyD: [
-         "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
-         '<25>{#f/8}{#v/0}* Beating monsters to the brink of death, only to let them go...',
-         "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
-         '<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?',
-         '<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?',
+         "<25>{#p/twinkly}{#f/11}{#v/0}* 你倒是挺會找樂子的嘛。",
+         '<25>{#f/8}{#v/0}* 把一路上的怪物都痛扁一頓，\n  等他們快咽氣了，\n  又放他們一條生路...',
+         "<25>{#f/7}{#v/0}* 我倒要看看，\n  要是誰打死不要你可憐，\n  你打算咋辦？",
+         '<25>{#f/6}{#v/0}* 你要撕了他那張犟嘴？',
+         '<25>{#f/5}{#v/0}* 還是動動腦子，\n  發現當個假「好人」\n  屁用沒有呢？',
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
          '<25>{#f/7}{#v/0}* 那一定會很好玩的。',
          "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
@@ -3869,7 +3869,7 @@ export default {
       ],
       act_translate1y: [
          '<32>{#p/human}* （你把你想說的話翻譯了一下。）\n* （蛙吉特好像聽懂你在說什麼了。）',
-         '<32>* 在巨大脅迫下，蛙吉特轉頭就跑了！'
+         '<32>* 蛙吉特嚇破了膽，扭頭就跑！'
       ],
       act_translate1z: [
          '<32>{#p/human}* （你把你想說的話翻譯了一下。）\n* （蛙吉特好像聽懂你在說什麼了。）',
@@ -3944,7 +3944,7 @@ export default {
       flirtTalk1: [ '<08>{#p/basic}{~}啥？\n沒-沒門！' ],
       hurtStatus: [ '<32>{#p/story}* 乾瞪眼在流淚。' ],
       idleTalk1: [ "<08>{#p/basic}{~}我就盯著\n你了。" ],
-      idleTalk2: [ "<08>{#p/basic}{~}別告訴我\n我該怎麼\n做。" ],
+      idleTalk2: [ "<08>{#p/basic}{~}我想幹啥\n不用你管。" ],
       idleTalk3: [ '<08>{#p/basic}{~}盯著你\n意味著\n在意你。' ],
       idleTalk4: [ '<08>{#p/basic}{~}真礙眼。' ],
       idleTalk5: [ '<08>{#p/basic}{~}來個\n盯人比賽\n如何？' ],
@@ -3968,7 +3968,7 @@ export default {
       flirtTalk: [ '<08>{#p/basic}{~}嗨呀~' ],
       groupInsult: [ "<32>{#p/human}* （你罵了忍術蟑螂幾句，\n  但它正忙著拉攏其他怪物，\n  沒聽到你的話。）" ],
       groupStatus1: [ '<32>{#p/story}* 忍術蟑螂在跟別人說悄悄話。' ],
-      groupStatus2: [ "<32>{#p/story}* 聞起來逐漸像蟑螂屋的味道了。" ],
+      groupStatus2: [ "<32>{#p/story}* 戰場上飄來陣陣蟑螂屋的味道。" ],
       groupTalk1: [ '<08>{#p/basic}骯髒卑鄙，\n一心一意\n..' ],
       groupTalk2: [ '<08>{#p/basic}服從於\n無上主宰\n..' ],
       groupTalk3: [ '<08>{#p/basic}軍團！\n我們是\n軍團！' ],
@@ -3977,7 +3977,7 @@ export default {
       groupTalk6: [ "<08>{#p/basic}我不在乎。" ],
       name: '* 忍術蟑螂',
       perilStatus: [ '<32>{#p/story}* 忍術蟑螂不打算放棄。' ],
-      soloInsult: [ "<32>{#p/human}* （你打算辱罵忍術蟑螂，\n  但它太開心了，根本不在乎。）" ],
+      soloInsult: [ "<32>{#p/human}* （你想把忍術蟑螂臭罵一頓，\n  可它開心得飛起，壓根不在乎。）" ],
       soloStatus: [ "<32>{#p/story}* 忍術蟑螂在這宇宙中無憂無慮。" ],
       soloTalk1: [ "<08>{#p/basic}{~}做自己\n才是\n最好的！" ],
       soloTalk2: [ '<08>{#p/basic}{~}啦啦~\n做自己\n就好~' ],
@@ -5273,7 +5273,7 @@ export default {
    c_call_toriel_early: () =>
       game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 現在，立刻，馬上\n  回家裡來！' ]
          : [
               3 <= SAVE.data.n.cell_insult
                  ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
@@ -5295,7 +5295,7 @@ export default {
          ? [ '<32>{#p/human}* (But the line was busy.)' ]
          : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 現在，立刻，馬上\n  回家裡來！' ]
          : [
               '<25>{#p/toriel}{#f/1}* 沒有必要給我打電話，\n  孩子。',
               3 <= SAVE.data.n.cell_insult

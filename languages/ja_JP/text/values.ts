@@ -254,6 +254,8 @@ export default {
    nameYesX: 3,
    nameGoBackX: 0,
    papyrusFontSize1: 10,
+   papyrusSpacingX: -0.375,
+   papyrusSpacingY: 5,
    papyrusWritingMode: 'vertical-rl',
    saveLVX: 8,
    saveReturnX: 18,

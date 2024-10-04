@@ -3154,6 +3154,7 @@ export class CosmosText<
                      let xOffset = 0;
 
                      if(writingMode==="vertical-rl"){
+                        //if menuText
                         const rect= this.parent?.parent
                         if(rect instanceof CosmosRectangle){
                            xOffset = rect.size.x - this.position.x - rect.position.x - (glyph[6] * scale + this.spacing.x + subspacing.x) * stretch;

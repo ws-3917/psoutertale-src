@@ -35,6 +35,8 @@ export default values as {
    nameYesX: number;
    nameGoBackX: number;
    papyrusFontSize1: number;
+   papyrusSpacingX: number;
+   papyrusSpacingY: number;
    papyrusWritingMode: String;
    saveLVX: number;
    saveReturnX: number;

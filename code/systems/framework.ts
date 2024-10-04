@@ -2914,8 +2914,8 @@ export function dialogueObjects () {
          this.position.x = speech.state.face ? 69 : 11;
          switch (speech.state.fontFamily1) {            
             case content.fPapyrus:
-               this.spacing.x = -0.375;
-               this.spacing.y = 3;
+               this.spacing.x = values.papyrusSpacingX;
+               this.spacing.y = values.papyrusSpacingY;
                this.position.y = 7;
                break;
             case content.fComicSans:

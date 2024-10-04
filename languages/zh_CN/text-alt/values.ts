@@ -416,6 +416,8 @@ export default {
    },
    nameGoBackX: 0,
    papyrusFontSize1: 16,
+   papyrusSpacingX: -0.375,
+   papyrusSpacingY: 3,
    papyrusWritingMode: 'horizontal-tb',
    saveLVX: 8,
    saveReturnX: 18,

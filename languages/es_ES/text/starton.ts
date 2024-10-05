@@ -167,7 +167,7 @@ export default {
          [
             [
                '<32>{#p/asriel2}* ¿Listo, $(name)?',
-               choicer.create('* (¿Qué debería de hacer Asriel?)', 'Perdonar', 'Actuar', 'Magia', 'Atacar')
+               choicer.create('* (¿Qué debería de hacer Asriel?)', 'Perdonar', 'Actuar', 'Magia', 'Luchar')
             ],
             [ "<32>{#p/asriel2}* Simplemente terminemos con esto." ]
          ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
@@ -184,9 +184,9 @@ export default {
       shockpapyrus2c: [
          '<32>{#p/asriel2}* Magia.\n* La fuerza que nos une a nosotros los monstruos.',
          '<32>{#p/asriel2}* O, en este caso...',
-         '<33>{#p/asriel2}* The force that rips them apart.'
+         '<33>{#p/asriel2}* La fuerza que los separa.'
       ],
-      shockpapyrus2d: [ '<32>{#p/asriel2}* Fight... the ideal choice.', '<32>{#p/asriel2}* Hee hee hee...' ],
+      shockpapyrus2d: [ '<32>{#p/asriel2}* Luchar... la opción ideal.', '<32>{#p/asriel2}* Hee hee hee...' ],
       sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}SANS!\nYOU'RE HURT!" ],
       sansDeath2: [ "<20>{#p/sans}papyrus, didn't i tell you to stay at home?", '{*}{#e/papyrus/21}{%}' ],
       sansDeath3: [ "<20>{#p/sans}... don't worry bro, it's just yamok sauce.", '{*}{#e/papyrus/26}{%}' ],

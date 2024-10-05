@@ -70,9 +70,9 @@ export default {
       ],
       darktoriel5b: [ '<25>{#p/toriel}{#f/1}* No, byl by to dobrý čas, kdybys šel.' ],
       darktoriel6: [
-         '<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss it.',
-         '<25>{#f/9}* For now, however, I must collect my thoughts.',
-         '<25>{#f/1}* ... thank you for being good, Frisk.\n* You have been the best.'
+         '<25>{#f/5}* Vím, že transportní loď brzy odjíždí, a nenechám si ji ujít.',
+         '<25>{#f/9}* Prozatím si však musím utřídit myšlenky.',
+         '<25>{#f/1}* ... děkuji ti, že jsi dobrý, Frisku.\n* Byl jsi nejlepší.'
       ],
       darktoriel7: () =>
          SAVE.data.b.c_state_secret1_used

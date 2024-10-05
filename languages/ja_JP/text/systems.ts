@@ -97,7 +97,7 @@ export default {
          ],
          p_explorer: {
             header: '表示',
-            layers: [ 'Base (表示)', 'Below (表示)', 'Main (表示)', 'Above (表示)', 'Main (表示)' ],
+            layers: [ 'Base (表示)', 'Below (表示)', 'Main (表示)', 'Above (表示)', 'Menu (表示)' ],
             letters: {
                animation: 'A',
                character: 'C',
@@ -416,7 +416,7 @@ export default {
             'Bilge \"mnwary\"',
             "§fill=#808080§さいごまで　かいはつを　てつだっていただき\nゲームはさいこう　クオリティとなりました。\nありがとうございます。§fill=#fff§"
          ],
-         [ '§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう' ]
+         [ '§fill=#ff0§Mavisとおともだち§fill=#fff§　ていきょう' ]
       ],
 
       final_frontier: {

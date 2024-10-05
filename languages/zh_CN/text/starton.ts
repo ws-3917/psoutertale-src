@@ -1845,8 +1845,8 @@ export default {
                   ? [ "<32>{#p/basic}{#npc/a}* Sorry, champ.\n* Now's not a good time." ]
                   : 30 <= SAVE.data.n.plot
                   ? [
-                       '<32>{#p/basic}{#npc/a}* I heard that dog is a 4-D poker player...',
-                       '<32>* Has it ever won a game?\n* I wonder.'
+                       '<32>{#p/basic}{#npc/a}* 听说那只小狗\n  玩4D扑克牌...',
+                       '<32>* 不知道它赢过没？\n* 我挺想知道的。'
                     ]
                   : [
                        [
@@ -2529,7 +2529,7 @@ export default {
                     '<32>{#p/human}* （你激活了终端。）',
                     "<32>{#p/basic}* 这是个游戏终端...",
                     ...(SAVE.data.n.plot === 72 || world.postnoot
-                       ? [ '<32>{#p/basic}* The power supply has been cut.' ]
+                       ? [ '<32>{#p/basic}* 电源被切断了。' ]
                        : [ '<32>{#p/basic}* “尽可能快速射击目标！\n   用[Z]来射击。”' ])
                  ])
          ]
@@ -2648,7 +2648,7 @@ export default {
          d: '- 新闻 -',
          e: () =>
             world.runaway
-               ? 'BREAKING:\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE.'
+               ? '突发新闻：\n..\n..\n..\n..我们得走了。'
                : SAVE.data.n.plot === 72
                ? 'BREAKING:\nWE CAN LEAVE.\nLIKE.. FOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!'
                : "突发新闻：\n《喵喵星火》\n评分..\n一塌糊涂。\n新闻来源：\n就，这是真的吗？"
@@ -2689,7 +2689,7 @@ export default {
                ? {
                     a: 'NAPSTABLOOK22',
                     b: '今天',
-                    c: '这就是为什么我再也不上网了...\n一切都毫无意义'
+                    c: '再也不上网了...\n太没劲了...'
                  }
                : world.genocide
                ? {
@@ -2859,7 +2859,7 @@ export default {
       ),
       papdate3a: [ '<18>{#p/papyrus}{#f/6}哇！当个好主人\n可真是个体力活！' ],
       papdate3b: [
-         "<18>{#p/papyrus}{#f/5}哇，我感觉不到\n我的腿了...",
+         "<18>{#p/papyrus}{#f/5}哎呀，我腿都麻了...",
          "<18>{#f/0}那肯定证明了\n我是个好主人！！！"
       ],
       papdate4: pager.create(
@@ -2960,17 +2960,17 @@ export default {
          '<15>{#f/24}漂亮的衣服...',
          (
             {
-               spacesuit: "<15>{#f/26}你身上的\n那件旧宇航服...",
-               halo: '<15>{#f/26}你头上的\n那个光环...',
-               eye: '<15>{#f/26}你周围的\n力场...',
-               eye_x: '<15>{#f/26}你周围的\n力场...',
-               temyarmor: "<15>{#f/26}你现在穿戴着的\n防具...",
-               goggles: '<15>{#f/26}你头上的\n那个玩意...',
-               goggles_x: '<15>{#f/26}你头上的\n那个玩意...',
-               visor: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
-               visor_x: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
-               sonic: "<15>{#f/26}你带着的那个\n奇怪的设备...",
-               heart_locket: '<15>{#f/26}THAT LOCKET AROUND YOUR NECK...'
+               spacesuit: "<15>{#f/26}你正穿着件\n旧宇航服呢...",
+               halo: '<15>{#f/26}你正顶着个\n漂亮的光环呢...',
+               eye: '<15>{#f/26}你正开着一道\n力场护盾呢...',
+               eye_x: '<15>{#f/26}你正开着一道\n力场护盾呢...',
+               temyarmor: "<15>{#f/26}你正披着\n一件盔甲呢...",
+               goggles: '<15>{#f/26}你正戴着台\nAR设备呢...',
+               goggles_x: '<15>{#f/26}你正戴着台\nAR设备呢...',
+               visor: '<15>{#f/26}你正戴着\n一个护目镜呢...',
+               visor_x: '<15>{#f/26}你正戴着\n一个护目镜呢...',
+               sonic: "<15>{#f/26}你正扛着个\n奇怪的装置呢...",
+               heart_locket: '<15>{#f/26}你正戴着个吊坠呢...'
             } as Partial<CosmosKeyed<string>>
          )[SAVE.data.s.armor] || '<15>{#f/26}你身上的\n那个东西...',
          "<15>{#f/20}你现在就\n穿着衣服呢！！！",
@@ -3028,7 +3028,7 @@ export default {
       papdate21: [ '<15>{#p/papyrus}{#f/15}你觉得我的\n秘密穿搭\n怎么样？' ],
       papdate22: () => [ choicer.create('* （你要怎么回答？）', '很棒', '很差劲') ],
       papdate23a: [ '<15>{#p/papyrus}{#f/13}不！！！', '<15>{#f/13}发自内心的\n赞美...！' ],
-      papdate23b: [ '<15>{#p/papyrus}{#f/13}不！！！', '<15>{#f/13}虽然是批评，\n但是好诚实...！' ],
+      papdate23b: [ '<15>{#p/papyrus}{#f/13}不！！！', '<15>{#f/13}你在批评我...\n你果然真心为我好！' ],
       papdate24: [
          '<15>{#p/papyrus}{#f/24}然而...',
          "<15>{#f/20}你根本不明白\n这身衣服背后\n{@fill=#f00}隐藏的力量{@fill=#000}！",
@@ -3181,7 +3181,7 @@ export default {
       ],
       papdate27: () => [ choicer.create('* （你该怎么办？）', '打开', '不要') ],
       papdate28: [
-         "<15>{#p/papyrus}{#f/21}你甚至不忍心\n弄坏我精致的\n包装？？",
+         "<15>{#p/papyrus}{#f/21}你甚至都\n舍不得拆开\n我精致的包装？",
          '<15>{#f/27}不-不...\n居然来这招...',
          "<15>{#f/13}真的好厉害！",
          '<15>{#f/14}但-但是...\n啊哈！\n看我的反击！',
@@ -3435,7 +3435,7 @@ export default {
       papspaghet1: (take: boolean) => [
          '<18>{#p/papyrus}{#f/1}什么！？\n你是怎么避开\n我的陷阱的？',
          '<18>{#f/4}还有，比起这个...',
-         '<18>{#f/0}还有剩的给我吗？？？',
+         '<18>{#f/0}有给我留点吗？？？',
          choicer.create('* （你要怎么跟Papyrus说\n  关于他做的意大利面的事？）', take ? '拿走了' : '留在那了', '吃掉了'),
          '<18>{#p/papyrus}真的！？'
       ],
@@ -4438,7 +4438,7 @@ export default {
                     '<32>{#p/basic}* “正在小憩。”',
                     ...(world.goatbro && SAVE.flag.n.ga_asrielDog++ < 1 ? [ '<25>{#p/asriel2}{#f/15}* What.' ] : [])
                  ]
-               : [ '<32>{#p/basic}* \"It\'s escaped.\"' ],
+               : [ '<32>{#p/basic}* “逃走了。”' ],
          grillflower: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (It appears this plant is very neon indeed.)' ]
@@ -5824,7 +5824,7 @@ export default {
       heckleTalk3: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ "<08>{#p/basic}{~}Defiance can't be defied!" ]
-            : [ '<08>{#p/basic}{~}（侮辱\n人类）' ],
+            : [ '<08>{#p/basic}{~}（对人类\n骂骂咧咧）' ],
       heckleText1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<32>{#p/human}* (You denounce Chilldrake for its cause.)' ]
@@ -5840,7 +5840,7 @@ export default {
                  '<32>{#p/basic}* Chilldrake takes your mockery as advice, and saunters off to town...'
               ]
             : [
-                 '<32>{#p/human}* (You tell Stardrake that no one will ever love them the way they are.)',
+                 '<32>{#p/human}* （你告诉Stardrake，\n  再这样下去，它就成万人烦了。）',
                  '<32>{#p/basic}* 他百口莫辩，灰溜溜地逃走了...'
               ],
       hurtStatus: () =>
@@ -7815,7 +7815,7 @@ export default {
                           '<32>{#k/3}* it was nice to have you there, though......'
                        ]
                   : [
-                       '<32>{#p/napstablook}{#k/7}* with every day that goes by, i feel a little further away from happiness......'
+                       '<32>{#p/napstablook}{#k/7}* 时间每流逝一点，\n  我离幸福也就更远一步...'
                     ]
                : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
                ? [
@@ -10354,10 +10354,10 @@ export default {
       a_lab_main: pager.create(
          0,
          () => [
-            '<18>{#p/papyrus}{#f/4}THE LAST TIME I WAS HERE...',
+            '<18>{#p/papyrus}{#f/4}我上次去实验室...',
             solo()
-               ? '<18>{#p/papyrus}{#f/0}... WAS JUST THIS WEEK, TO HANG OUT WITH DR. ALPHYS!'
-               : '<18>{#p/papyrus}{#f/0}... WAS EARLIER TODAY, ON OUR WAY TO THE REC CENTER!',
+               ? '<18>{#p/papyrus}{#f/0}...还是去找ALPHYS博士玩，\n就这周！'
+               : '<18>{#p/papyrus}{#f/0}...其实就今天早些时候，\n刚好咱要去休闲回廊！',
             '<18>{#p/papyrus}{#f/5}BUT WHEN I WAS YOUNGER, SANS USED TO TAKE ME THERE.',
             '<18>{#p/papyrus}{#f/5}SO MANY SCIENTIFIC MARVELS TO BE MARVELLED AT...',
             ...(solo()
@@ -11418,7 +11418,7 @@ export default {
                   ? [ '<32>{#p/human}* （有个骷髅没有出现，\n  这使你充满了决心。）' ]
                   : [ "<32>{#p/human}* （那对骷髅兄弟的滑稽互动\n  使你充满了决心。）" ]
                : papreal() || world.runaway
-               ? [ '<32>{#p/human}* (The box is so lonely, it fills you with determination anyway.)' ]
+               ? [ '<32>{#p/human}* （孤零零的箱子使你充满了决心。）' ]
                : [ '<32>{#p/human}* (The box can rest easy now.)\n* (This, of course, fills you with determination.)' ]
       },
       s_pacing: {
@@ -11459,7 +11459,7 @@ export default {
                     '<32>{#p/human}* （这使你充满了决心。）'
                  ]
                : papreal() || world.runaway
-               ? [ '<32>{#p/human}* (A shadow looms over town, filling you with determination.)' ]
+               ? [ '<32>{#p/human}* （小镇笼罩在一片阴影中，\n  这使你充满了决心。）' ]
                : [ '<32>{#p/human}* （这个可爱的小镇\n  使你充满了决心。）' ]
       }
    }

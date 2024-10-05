@@ -346,9 +346,9 @@ export default {
                   ]
                : [
                   '<25>{#p/undyne}{#f/1}* Hey, punk.\n* Papyrus had some \"business\" to see to.',
-                  "<25>{#f/14}* At least, that's what he tells me.",
-                  "<25>{#f/7}* But that means I'M the only friend you've got up here!",
-                  '<25>{#f/4}* ... so you better not do anything STUPID!'
+                  "<25>{#f/14}* 至少，他就这么讲的。",
+                  "<25>{#f/7}* 可那不是说，我是你\n  待在这儿唯一的朋友了嘛！",
+                  '<25>{#f/4}* ...所以你最好\n  别给我出洋相了！'
                ],
          () =>
             SAVE.data.n.plot < 68.1 || SAVE.data.b.a_state_hapstablook
@@ -547,7 +547,7 @@ export default {
                   ['<25>{#p/asriel1}{#f/13}* Really now...']
                ][Math.min(asrielinter.spiderweb++, 3)]
             ]
-            : ['<32>{#p/basic}* The web is empty.'],
+            : ['<32>{#p/basic}* 蛛网上什么都没有。'],
       hotelfood0: () =>
          SAVE.data.b.svr
             ? [
@@ -738,7 +738,7 @@ export default {
                   '<32>* BEING BROADCAST TO YOUR SCREENS NOW IS REAL FOOTAGE OF THEIR VILLAINOUS ACTS!',
                   SAVE.data.n.state_foundry_undyne > 0
                      ? '<25>{#p/alphys}{#f/2}* M-mettaton, wait!!\n* What are you...'
-                     : '<25>{#p/alphys}{#g/alphysGarbo}* Huh?\n* Did you steal security footage again?'
+                     : '<25>{#p/alphys}{#g/alphysGarbo}* 啊？\n* 你又顺走监控录像了？'
                ]
                : [
                   "<32>{#p/mettaton}* 我已经预感到了\n  这次会是个超棒的节目哦！",
@@ -746,10 +746,10 @@ export default {
                   '<33>* 唯一一位的人类访客！'
                ],
          alphys10a: () => [
-            '<32>{#p/mettaton}* (PLEASE WAIT AS THE AUDIENCE WATCHES THE FOOTAGE.)',
+            '<32>{#p/mettaton}* （等观众看完再说。）',
             SAVE.data.n.state_foundry_undyne > 0
-               ? "<25>{#p/alphys}{#f/21}* ...\n* I just can't win."
-               : "<26>{#p/alphys}{#g/alphysGarboCenter}* I'll take that as a yes."
+               ? "<25>{#p/alphys}{#f/21}* ...\n* 真就说不过你。"
+               : "<26>{#p/alphys}{#g/alphysGarboCenter}* 所以你承认喽。"
          ],
          alphys11: () =>
             iFancyYourVilliany()
@@ -768,7 +768,7 @@ export default {
                : ['<32>{#p/mettaton}* 从来没有玩过吗，幸运儿？', "<32>* 没关系，很简单。"],
          alphys11a: () => [
             choicer.create(
-               '* (Which name will you choose?)',
+               '* （你打算起啥外号呢？）',
                '黄天霸主',
                '风云剑客',
                '狂怒剑皇',
@@ -780,8 +780,8 @@ export default {
                ? world.flirt > 9
                   ? ["<32>{#p/mettaton}* SO, $(moniker2u), LET'S SEE IF YOUR SKILLS ON THE BATTLEFIELD..."]
                   : [
-                     '<32>{#p/mettaton}* $(moniker1u), HUH?\n* MY, WHAT AN EXCELLENT CHOICE!',
-                     "<32>{#p/mettaton}* WELL, $(moniker2u), LET'S SEE IF YOUR SKILLS ON THE BATTLEFIELD..."
+                     '<32>{#p/mettaton}* $(moniker1u)吗？\n* 天呐，这名真不错！',
+                     "<32>{#p/mettaton}* 行，$(moniker2u)，\n  拿出你的战斗技巧..."
                   ]
                : ["<32>* 实际上，规则只有一个！", '<32>* 拿出你一生中\n  最好的表现...'],
          alphys12: () =>
@@ -966,24 +966,24 @@ export default {
          status: '$(x)有新消息',
          barricade1: () => [
             '<32>{#p/event}* 铃铃，铃铃...',
-            "<25>{#p/alphys}{#g/alphysSideSad}* I don't think you can get through that...",
-            '<25>{#g/alphysSmileSweat}* Let me see if I can do anything to help.',
-            '<32>{#p/human}* (It sounds like someone is furiously typing at a keyboard.)',
-            '<25>{#p/alphys}{#g/alphysNervousLaugh}* Security... w-what?',
-            '<32>{#p/human}* (More typing can be heard.)',
+            "<25>{#p/alphys}{#g/alphysSideSad}* 你估计过不去...",
+            '<25>{#g/alphysSmileSweat}* 我看看能不能帮到你。',
+            '<32>{#p/human}* （你听到了一阵狂敲键盘的声音。）',
+            '<25>{#p/alphys}{#g/alphysNervousLaugh}* 安保问... 啥-啥玩意？',
+            '<32>{#p/human}* （你又听到了一阵敲键盘的声音。）',
             '<32>{#p/human}* （...）',
-            '<32>{#p/human}* (The typing stops.)',
-            "<25>{#p/alphys}{#g/alphysWelp}* So... looks like we're gonna have to answer security questions.",
-            "<25>{#g/alphysGarbo}* Mettaton's security questions...",
-            '<25>{#g/alphysNeutralSweat}* Do you... happen to know anything useful about Mettaton?',
-            '<25>{#g/alphysTheFactIs}* ... probably not, considering you just met him...',
-            "<25>{#g/alphysUhButHeresTheDeal}* Well, uh, maybe you'll know the answer to the first one.",
-            '<25>{|}{#g/alphysIDK}* \"Who has the bi- {%}',
+            '<32>{#p/human}* （敲键盘的声音听下来了。）',
+            "<25>{#p/alphys}{#g/alphysWelp}* 嗯... 我们得回答\n  几个安保问题才行。",
+            "<25>{#g/alphysGarbo}* 镁塔顿设的...",
+            '<25>{#g/alphysNeutralSweat}* 你... 了解镁塔顿吗？\n  也许知道点有用的消息？',
+            '<25>{#g/alphysTheFactIs}* ...想想就知道不可能，\n  你才碰上他多久...',
+            "<25>{#g/alphysUhButHeresTheDeal}* 呃，说是这么说，\n  也许你答得上来第一问。",
+            '<25>{|}{#g/alphysIDK}* “谁最喜- {%}',
             ...(world.postnoot
                ? []
                : [
-                  "<25>{#g/alphysWTF}* Oh my god of course he'd use that as a security question.",
-                  '<25>{#g/alphysNervousLaugh}* \"Who has the biggest crush on Mettaton?\"',
+                  "<25>{#g/alphysWTF}* 天呐，我就知道\n  他会拿这个当安保问题。",
+                  '<25>{#g/alphysNervousLaugh}* “谁最喜欢镁塔顿？”',
                   choicer.create('* （你要怎么回答？）', '艾菲斯', '艾斯戈尔', '帕派瑞斯', '安黛因')
                ])
          ],
@@ -994,40 +994,40 @@ export default {
          ],
          barricade1b1: [
             '<25>{#p/alphys}{#g/alphysFR}* ...',
-            '<25>{#g/alphysFR}* I do NOT have a crush on Mettaton.',
-            "<25>{#g/alphysCutscene2}* Let's try... Asgore."
+            '<25>{#g/alphysFR}* 我喜欢镁塔顿就怪了。',
+            "<25>{#g/alphysCutscene2}* 我试试... 艾斯戈尔。"
          ],
-         barricade1b2: ['<25>{#p/alphys}{#g/alphysSmileSweat}* Hmm... okay.'],
+         barricade1b2: ['<25>{#p/alphys}{#g/alphysSmileSweat}* 嗯... 行。'],
          barricade1b3: () => [
-            '<25>{#p/alphys}{#g/alphysNervousLaugh}* You sure?',
+            '<25>{#p/alphys}{#g/alphysNervousLaugh}* 当真？',
             '<25>{#p/alphys}{#x1}* ...',
             ...(SAVE.data.n.state_starton_papyrus === 1
                ? [
-                  '<25>{#p/alphys}{#g/alphysSideSad}* Oh, I guess that was the right answer.',
+                  '<25>{#p/alphys}{#g/alphysSideSad}* 哦，你好像答对了。',
                   '<25>{#g/alphysHaveSomeCompassion}* ...'
                ]
                : [
-                  '<25>{#p/alphys}{#g/alphysWelp}* Oh wow, that was the right answer.',
+                  '<25>{#p/alphys}{#g/alphysWelp}* 哇哦，你答对了。',
                   '<25>{#g/alphysFR}* ...',
-                  "<25>{#g/alphysFR}* That's an oddly specific thing to know about Papyrus.",
-                  '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* But okay!!'
+                  "<25>{#g/alphysFR}* 没想到帕派瑞斯\n  在人后还有这么一面。\n  奇怪的冷知识增加了。",
+                  '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* 不过我接受得了！！'
                ])
          ],
          barricade1b4: () => [
             ...(SAVE.data.n.state_foundry_undyne === 1
                ? [
-                  "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* ...\n* I don't think she really liked him.",
-                  "<25>{#g/alphysSideSad}* Let's try... Asgore."
+                  "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* ...\n* 我可不这么觉得。",
+                  "<25>{#g/alphysSideSad}* 还是试试... 艾斯戈尔吧。"
                ]
                : [
-                  "<25>{#p/alphys}{#g/alphysCutscene3}* Pfft...\n* You're kidding, right?",
+                  "<25>{#p/alphys}{#g/alphysCutscene3}* 噗...\n* 你肯定没上心，对吧？",
                   "<25>* She TOLERATES him.\n* There's no way that's the answer.",
-                  "<25>{#g/alphysCutscene2}* Let's try... Asgore."
+                  "<25>{#g/alphysCutscene2}* 我试试... 艾斯戈尔。"
                ])
          ],
          barricade2: () => [
             '<32>{#p/event}* 铃铃，铃铃...',
-            '<25>{#p/alphys}{#g/alphysCutscene2}* Okay, so the question for this one is...',
+            '<25>{#p/alphys}{#g/alphysCutscene2}* 好，这次的问题是...',
             '<25>{|}{#g/alphysCutscene1}* \"Who is Mettaton\'s- {%}',
             '<25>{#g/alphysGarbo}* Are they all seriously about himself?',
             '<25>{#g/alphysGarboCenter}* Man.',
@@ -1035,7 +1035,7 @@ export default {
             choicer.create('* （你要怎么回答？）', '镁塔美妆', '镁塔厨具', '镁塔科技', '镁塔卫视')
          ],
          barricade2b1: [
-            "<25>{#p/alphys}{#g/alphysCutscene2}* Yeah... that's probably the right answer.",
+            "<25>{#p/alphys}{#g/alphysCutscene2}* 没错...\n  估计这就是正确答案。",
             '<25>{#g/alphysTheFactIs}* He really wants his TV shows to take off, but...',
             '<25>{#g/alphysUhButHeresTheDeal}* People do love their beauty products!'
          ],
@@ -1046,18 +1046,18 @@ export default {
          ],
          barricade2b3: [
             '<25>{#p/alphys}{#g/alphysFR}* ...',
-            "<25>{#g/alphysFR}* I'm gonna pretend you didn't say that.",
-            "<25>{#g/alphysHellYeah}* Everyone knows I'm the one you go to for tech!",
+            "<25>{#g/alphysFR}* 我就当作没听到。",
+            "<25>{#g/alphysHellYeah}* 你在路上随便拉个人\n  都知道科研是我的活啊！",
             '<25>{#g/alphysHellYeah}* ...',
-            "<25>{#g/alphysWelp}* How about... Mettaton's cooking products?"
+            "<25>{#g/alphysWelp}* 要不试试... 镁塔厨具？"
          ],
          barricade2b4: [
-            '<25>{#p/alphys}{#g/alphysWorried}* I dunno...',
-            "<25>{#g/alphysWelp}* Mettaton's TV shows haven't been doing too well lately.",
+            '<25>{#p/alphys}{#g/alphysWorried}* 我说不准...',
+            "<25>{#g/alphysWelp}* 镁塔顿的节目\n  最近不温不火的。",
             '<25>{#g/alphysWTF}{#x1}* ...',
-            '<25>{#g/alphysWTF2}* That was RIGHT!?',
-            '<25>{#g/alphysCutscene3}* ... how do you know all of this stuff?',
-            '<25>{#g/alphysUhButHeresTheDeal}* Well, one more to go!'
+            '<25>{#g/alphysWTF2}* 答对了！？',
+            '<25>{#g/alphysCutscene3}* ...你都咋知道的？',
+            '<25>{#g/alphysUhButHeresTheDeal}* 算了，把剩下一个解了就行！'
          ],
          barricade3: () => [
             '<32>{#p/event}* 铃铃，铃铃...',
@@ -1076,28 +1076,28 @@ export default {
             '<25>{#g/alphysOhGodNo}* 你是怎么知道的？',
             "<25>{#g/alphysOhGodNo}* 不应该有人知道\n  这个的啊！！！",
             '<25>{#g/alphysNeutralSweat}* 你-你有告诉过\n  其他人吗？？',
-            '<25>{#g/alphysNeutralSweat}* Are you planning to!?',
+            '<25>{#g/alphysNeutralSweat}* 你有这个打算吗！？',
             '<25>{#g/alphysNeutralSweat}* ...',
             "<25>{#g/alphysNervousLaugh}* 行吧...\n  这至少不是镁塔顿的\n  真实身份。"
          ],
          barricade3b3: [
-            '<25>{#p/alphys}{#g/alphysInquisitive}* Aidrian?',
+            '<25>{#p/alphys}{#g/alphysInquisitive}* 阿德里安？',
             '<25>{#g/alphysInquisitive}* 这又是什么逆天东西？',
             "<25>{#g/alphysSmileSweat}* 嗯，肯定不是它。"
          ],
          barricade3b4: [
             "<25>{#p/alphys}{#g/alphysCutscene1}* 所以说...\n  镁塔顿的真实身份\n  其实就是镁塔顿，嗯？",
             '<25>{#x1}* ...',
-            '<25>{#p/alphys}{#g/alphysWelp}* Oh.\n* I guess it is.',
-            '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* The more you know!'
+            '<25>{#p/alphys}{#g/alphysWelp}* 哦。\n* 看来对了。',
+            '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* 你懂的真多！'
          ],
          barricade3c: [
             '<25>* ...',
             '<25>{#p/alphys}{#g/alphysSide}* 嗯... 我有个主意。',
-            '<32>{#p/human}* (The typing from earlier resumes.)',
+            '<32>{#p/human}* （敲键盘的声音又响了起来。）',
             '<25>{#p/alphys}{#g/alphysCutscene1}{#x1}* ...',
-            '<25>{#p/alphys}{#g/alphysSmileSweat}* There!!!',
-            '<25>{#g/alphysUhButHeresTheDeal}* Well, that was fun.'
+            '<25>{#p/alphys}{#g/alphysSmileSweat}* 成啦！！！',
+            '<25>{#g/alphysUhButHeresTheDeal}* 还蛮有意思的。'
          ],
          barricadeFail1: [
             '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
@@ -1118,14 +1118,14 @@ export default {
          barricadeFail3: ['<25>{#p/alphys}{#g/alphysCutscene1}* 希望对你有所帮助！'],
          barricade4: () => [
             '<32>{#p/event}* 铃铃，铃铃...',
-            '<25>{#p/alphys}{#g/alphysSideSad}* Not this again...',
+            '<25>{#p/alphys}{#g/alphysSideSad}* 咋又来...',
             '<25>{#g/alphysSideSad}* ...',
-            "<25>{#g/alphysWelp}* Wait, I'm still logged into Mettaton's account.",
+            "<25>{#g/alphysWelp}* 等下，镁塔顿的账号\n  我还登着呢。",
             '<25>{#g/alphysNervousLaugh}* Maybe I c-can just unlock it right away!',
-            '<32>{|}{#p/human}* (The typing from earlier resu- {%}',
-            '<25>{#p/alphys}{#g/alphysHellYeah}{#x1}* Got it!',
+            '<32>{|}{#p/human}* （敲键盘的声音又- {%}',
+            '<25>{#p/alphys}{#g/alphysHellYeah}{#x1}* 搞定！',
             '<25>{#g/alphysWelp}* ...',
-            "<25>{#g/alphysGarboCenter}* I really hope that's the last time we have to deal with that.",
+            "<25>{#g/alphysGarboCenter}* 真心希望能\n  别再碰上那玩意了。",
             ...(SAVE.data.b.failshow
                ? []
                : SAVE.data.b.item_tvm_mewmew &&
@@ -1136,36 +1136,36 @@ export default {
                   !SAVE.storage.dimboxB.has('tvm_mewmew') // NO-TRANSLATE
 
                   ? [
-                     '<25>{#g/alphysTheFactIs}* Oh, a-and, uh, about that Mew Mew doll...',
-                     '<25>* Well...',
+                     '<25>{#g/alphysTheFactIs}* 哦，还-还有，\n  那个喵喵玩偶...',
+                     '<25>* 嗯...',
                      '<25>{#f/10}* Wait, did you...',
                      '<25>{#f/3}* D-did you throw it away or something?',
                      '<25>{#f/3}* ...',
                      '<25>{#g/alphysUhButHeresTheDeal}* Sure, okay!'
                   ]
                   : [
-                     '<25>{#g/alphysTheFactIs}* Oh, a-and, uh, about that Mew Mew doll...',
-                     '<25>* Well...',
-                     "<25>{#g/alphysUhButHeresTheDeal}* Actually, you don't even have it, so never mind.",
-                     '<25>{|}{#g/alphysCutscene3}* Anyway see you at the elevator baiiii- {%}'
+                     '<25>{#g/alphysTheFactIs}* 哦，还-还有，\n  那个喵喵玩偶...',
+                     '<25>* 嗯...',
+                     "<25>{#g/alphysUhButHeresTheDeal}* 其实都不在你手上，\n  没事了。",
+                     '<25>{|}{#g/alphysCutscene3}* 总之电梯见，\n  拜拜啦啊啊- {%}'
                   ]),
             '<32>{#s/equip}{#p/event}* 滴...'
          ],
          puzzleReaction1: [
             '<32>{#p/event}* 铃铃，铃铃...',
-            '<25>{#p/alphys}{#g/alphysHellYeah}* You did it!!',
+            '<25>{#p/alphys}{#g/alphysHellYeah}* 你做到了！！',
             '<25>{#g/alphysNeutralSweat}* ...',
-            '<25>{#g/alphysCutscene2}* C... congratulations.'
+            '<25>{#g/alphysCutscene2}* 恭... 恭喜你啊。'
          ],
          cooker1a: ['<32>{#p/mettaton}* 你好啊。'],
          cooker1b: ["<32>{*}{#p/mettaton}* 欢迎来到前哨站的首期\n  创艺工坊节目！{^30}{%}"],
          cooker2a1: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/mettaton}* WHAT ARE WE MAKING TODAY?\n* SOMETHING FUN, OF COURSE!']
+               ? ['<32>{#p/mettaton}* 我们今天要做些啥呢？\n* 反正肯定是些好玩的！']
                : ['<32>{#p/mettaton}* 大家的工具都充好电了吗？\n  我们马上就要来搞一些\n  “劲爆”的玩意了！'],
          cooker2a2: () =>
             iFancyYourVilliany()
-               ? ["<32>{#p/mettaton}* AFTER ALL, IT'S UP TO US TO SET A GOOD EXAMPLE!"]
+               ? ["<32>{#p/mettaton}* 毕竟，要做什么好东西\n  还不是我们说了算！"]
                : ['<32>{#p/mettaton}* 哈哈哈...'],
          cooker2b: () =>
             iFancyYourVilliany()
@@ -1180,44 +1180,44 @@ export default {
          cooker3a: () => [
             "<32>{#p/mettaton}* 我们需要三件重要的物品。",
             iFancyYourVilliany()
-               ? '<32>* {@fill=#ff0}HAPPY POWDER{@fill=#fff}, {@fill=#ff0}TINGLE SERUM{@fill=#fff}, AND {@fill=#ff0}LOVE OIL{@fill=#fff}.'
+               ? '<32>* {@fill=#ff0}幸福闪粉{@fill=#fff}，{@fill=#ff0}激情水浆{@fill=#fff}，\n  和{@fill=#ff0}博爱甘油{@fill=#fff}。'
                : '<32>* {@fill=#ff0}环三亚甲基三硝胺{@fill=#fff}，\n  {@fill=#ff0}己二酸二正辛酯{@fill=#fff}，和{@fill=#ff0}矿物油{@fill=#fff}。'
          ],
          cooker3b: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/mettaton}* HOP TO IT, $(moniker2u)!']
+               ? ['<32>{#p/mettaton}* 开始吧，$(moniker2u)！']
                : ['<32>{#p/mettaton}* 开始吧，甜心！'],
          cooker4a: ['<32>{#p/mettaton}* 好极了！', '<32>* 现在，让我...'],
          cooker4b: ['<32>{#p/mettaton}* 搞定！', "<32>* 我们要用这些东西..."],
          cooker5: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/mettaton}* ... TO MAKE MTT-BRAND {@fill=#003cff}FUN SLIME{@fill=#fff}! (TM)']
+               ? ['<32>{#p/mettaton}* ...来制作镁塔牌{@fill=#003cff}乐乐史莱姆{@fill=#fff}！(TM)']
                : ['<32>{#p/mettaton}* ...来制作{@fill=#f00}塑性炸药{@fill=#fff}！'],
          cooker6: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/mettaton}* HERE IT COMES!']
+               ? ['<32>{#p/mettaton}* 我要开始喽！']
                : ['<32>{#p/mettaton}* 祈祷吧，美人儿！'],
          cooker7a: () =>
             iFancyYourVilliany()
                ? [
                   '<32>{#p/event}* 铃铃，铃铃...',
-                  '<25>{#p/alphys}{#g/alphysShocked}* Uh, w-wait!',
-                  "<25>{#g/alphysOhGodNo}* That's not {@fill=#003cff}fun slime{@fill=#fff}...",
-                  "<25>{#g/alphysUhButHeresTheDeal}* That's {@fill=#f00}plastic explosive{@fill=#fff}!"
+                  '<25>{#p/alphys}{#g/alphysShocked}* 呃，等-等一下！',
+                  "<25>{#g/alphysOhGodNo}* 啥{@fill=#003cff}乐乐史莱姆{@fill=#fff}...",
+                  "<25>{#g/alphysUhButHeresTheDeal}* 那就是个{@fill=#f00}塑性炸药{@fill=#fff}！"
                ]
                : [
                   '<32>{#p/event}* 铃铃，铃铃...',
-                  '<25>{#p/alphys}{#g/alphysShocked}* Uh, w-wait!',
+                  '<25>{#p/alphys}{#g/alphysShocked}* 呃，等-等一下！',
                   '<25>{#g/alphysOhGodNo}* If you synthesize that right now...',
                   "<25>{#g/alphysUhButHeresTheDeal}* You'll destroy h-half of Aerialis!"
                ],
          cooker7b: () =>
             iFancyYourVilliany()
                ? [
-                  '<32>{#p/mettaton}* HUH...?\n* ARE YOU SAYING OUR SPECIAL GUEST SWAPPED THE INGREDIENTS?',
-                  '<25>{#p/alphys}{#g/alphysTheFactIs}* W-well...\n* Not exactly...',
-                  '<32>{#p/mettaton}* OH DEAR...\n* I DO BELIEVE OUR SPECIAL GUEST SWAPPED THE INGREDIENTS!',
-                  "<25>{#p/alphys}{#g/alphysSmileSweat}* That's not what I- {%}",
+                  '<32>{#p/mettaton}* ...啊？\n* 你是说我们的特邀嘉宾\n  把材料掉包了？',
+                  '<25>{#p/alphys}{#g/alphysTheFactIs}* 我-我...\n  不是那个意思...',
+                  '<32>{#p/mettaton}* 亲们...\n* 看来我们的特邀嘉宾\n  真把材料掉包了！',
+                  "<25>{#p/alphys}{#g/alphysSmileSweat}* 我没这么说- {%}",
                   '<32>{#p/mettaton}* HOW TREACHEROUS!\n* TO THINK OUR SPECIAL GUEST COULD DO SUCH A THING...'
                ]
                : [
@@ -1242,8 +1242,8 @@ export default {
          cooker8a2: () =>
             iFancyYourVilliany()
                ? [
-                  "<32>* WHAT!?!?\n* THE ARTS 'N' CRAFTS WAS JUST A DISTRACTION FOR THIS!?!?",
-                  "<32>* OH MY, $(moniker1u)'S VILLAINY TRULY KNOWS NO BOUNDS!"
+                  "<32>* 啥！？！？\n* 办创艺工坊只是个障眼法！？！？\n  真家伙竟然在这！？！？",
+                  "<32>* 天呐，$(moniker1u)可真是坏得没边了！"
                ]
                : ['<32>* 幸好我提前做了一些，对吧？'],
          cooker8b: () =>
@@ -1277,9 +1277,9 @@ export default {
                ]
                : [
                   '<32>{#p/event}* 铃铃，铃铃...',
-                  '<25>{#p/alphys}{#g/alphysSide}* Hey, uh...',
-                  '<25>{#g/alphysCutscene1}* I think I know a way you can get across!',
-                  "<25>{#g/alphysNervousLaugh}* It's... well...",
+                  '<25>{#p/alphys}{#g/alphysSide}* 嘿，呃...',
+                  '<25>{#g/alphysCutscene1}* 我知道个法子\n  能让你飞过去！',
+                  "<25>{#g/alphysNervousLaugh}* 就是...",
                   "<25>{#g/alphysSmileSweat}* It's not as good as Undyne's, but, the phone I gave you...",
                   '<25>{#g/alphysHellYeah}* It has a one-time use portable jetpack!',
                   '<25>{#g/alphysNervousLaugh}* Maybe... now would be a good time to try it??'
@@ -1352,7 +1352,7 @@ export default {
          ],
          cooker18a: [
             '<32>{#p/mettaton}* 哎呀呀...',
-            "<32>* IT SEEMS YOU'VE MADE IT JUST IN TIME.",
+            "<32>* 看来你还是赶上时间了呢。",
             "<32>* CONGRATULATIONS!\n* YOU DON'T COMPLETELY SUCK."
          ],
          cooker18b: [
@@ -1371,7 +1371,7 @@ export default {
          ],
          cooker19a: [
             '<32>{#p/event}* 铃铃，铃铃...',
-            '<25>{#p/alphys}{#g/alphysCutscene1}* You did it!!',
+            '<25>{#p/alphys}{#g/alphysCutscene1}* 你做到了！！',
             '<25>{#g/alphysCutscene2}* ...',
             "<25>{#g/alphysUhButHeresTheDeal}* I guess I should've expected that."
          ],
@@ -1456,7 +1456,7 @@ export default {
          moneyPre1: () =>
             iFancyYourVilliany()
                ? [
-                  '<32>{#p/mettaton}* AH, THERE YOU ARE.',
+                  '<32>{#p/mettaton}* 你来了啊。',
                   '<32>{#p/mettaton}* YOU\'VE DONE WELL TO PLAY ALONG THUS FAR, DEAR \"$(moniker2u).\"'
                ]
                : world.bad_robot
@@ -1498,7 +1498,7 @@ export default {
          moneyIntro4a: ['<32>{#p/mettaton}* 纳普斯特！'],
          moneyIntro4b: () =>
             iRespeccYourVilliany()
-               ? ["<32>{#p/napstablook}* you don't always have to use the same applause..."]
+               ? ["<32>{#p/napstablook}* 没必要老用那个鼓掌音效的..."]
                : alphysPhoneDisplay() && SAVE.data.n.state_foundry_undyne === 1
                   ? ['<32>{#p/napstablook}* 大家好']
                   : ['<32>{#p/napstablook}* 大家好...'],
@@ -1509,7 +1509,7 @@ export default {
             SAVE.data.b.f_state_kidd_betray ? ['<25>{#p/kidd}{#f/3}* 大家好。'] : ['<25>{#p/kidd}{#f/1}* 哟！'],
          moneyIntro7: [
             '<32>{#p/mettaton}{#z0}* 非常感谢各位的到来！',
-            "<32>{#z2}* 首先，先聊一点关于\n  你们自己的事，如何？"
+            "<32>{#z2}* 各位，先做个简短的\n  自我介绍吧，如何？"
          ],
          moneyIntro8: [
             '<32>{#p/mettaton}{#z0}* ...',
@@ -1530,11 +1530,11 @@ export default {
          moneyChat1: () =>
             iRespeccYourVilliany()
                ? [
-                  '<25>{#p/undyne}{#f/17}* Huh?\n* You want ME to talk?',
-                  "<25>{#p/undyne}{#f/1}* Well, to be honest, I think you're an annoying piece of junk.",
+                  '<25>{#p/undyne}{#f/17}* 啊？\n* 你在教我说话？',
+                  "<25>{#p/undyne}{#f/1}* 得得得，我可不跟你客气。\n  要我说，你就是个\n  烦人的破铁皮盒子。",
                   '<25>{#p/undyne}{#f/7}* Not only that, but you treat your employees like garbage!',
-                  "<25>{#p/undyne}{#f/12}* But, uh, that's not why I took Papyrus's place.",
-                  '<25>{#p/undyne}{#f/16}* Actually, I only really came for one reason.'
+                  "<25>{#p/undyne}{#f/12}* 呃，我抢了帕派瑞斯的名额\n  才不是为了你呢。",
+                  '<25>{#p/undyne}{#f/16}* 我来这，就一个原因。'
                ]
                : world.dead_skeleton
                   ? ['<25>{#p/sans}{#g/sansNormal}* 你好啊。']
@@ -1547,13 +1547,13 @@ export default {
                   ],
          moneyChat1a: () =>
             iRespeccYourVilliany()
-               ? ["<32>{#p/mettaton}* AND WHAT'S THAT?"]
+               ? ["<32>{#p/mettaton}* 是什么呢？"]
                : world.dead_skeleton
                   ? ['<32>{#p/mettaton}* 还有吗？']
                   : ['<32>{#p/mettaton}* GOT ANY OF YOUR LAME JOKES FOR US TODAY?'],
          moneyChat1b: () =>
             iRespeccYourVilliany()
-               ? ['<25>{#p/undyne}{#f/8}* To see $(moniker1), of course!\n* Fuhuhu!']
+               ? ['<25>{#p/undyne}{#f/8}* 当然是为了见见$(moniker1)啦！\n* 呋呼呼！']
                : world.dead_skeleton
                   ? ['<25>{#p/sans}{#g/sansNormal}* 没有。']
                   : [
@@ -1565,7 +1565,7 @@ export default {
                   ],
          moneyChat1c: () =>
             iRespeccYourVilliany()
-               ? ['<32>{#p/mettaton}* RIGHT.']
+               ? ['<32>{#p/mettaton}* 行吧。']
                : world.dead_skeleton
                   ? ["<32>{#p/mettaton}* 有人今天不舒服，是吗？"]
                   : ['<32>{#p/mettaton}* VERY FUNNY.'],
@@ -1575,7 +1575,7 @@ export default {
                ? ["<25>{#p/undyne}{#f/14}* It's certainly not mine anymore, is it?"]
                : world.dead_skeleton
                   ? ['<25>{#p/sans}{#g/sansBlink}* ...']
-                  : ["<25>{#p/sans}{#g/sansBlink}* go on, don't be afraid."],
+                  : ["<25>{#p/sans}{#g/sansBlink}* 放宽心，别害怕嘛。"],
          moneyChat2b: () => [
             iRespeccYourVilliany()
                ? '<32>{#p/napstablook}* 哦...\n* 嗨......'
@@ -1608,18 +1608,18 @@ export default {
                ],
          moneyChat3: () =>
             world.scared_ghost
-               ? ["<32>{#p/napstablook}* it's your turn.", "<32>{#p/human}* (但你没什么可说的。)"]
+               ? ["<32>{#p/napstablook}* it's your turn.", "<32>{#p/human}* （但你没什么可说的。）"]
                : [
                   '<32>{#p/napstablook}* 呃......',
                   '<32>* 你可以开始讲了？',
-                  "<32>{#p/human}* (但你没什么可说的。)"
+                  "<32>{#p/human}* （但你没什么可说的。）"
                ],
          moneyChat3a: () =>
             iFancyYourVilliany()
                ? [
-                  '<33>{#p/mettaton}* WELL, YOU KNOW WHAT THEY SAY...',
-                  '<32>{#p/mettaton}* THE BIGGER THE TALK, THE SMALLER THE ACTION!',
-                  "<32>{#p/mettaton}* IT'S NO SURPRISE THIS BULLY OF BULLIES WOULD BE SO RELUCTANT TO PART WITH THEIR WORDS."
+                  '<33>{#p/mettaton}* 好吧，总能听到...',
+                  '<32>{#p/mettaton}* 有些人啊，雷声大雨点小！',
+                  "<32>{#p/mettaton}* 而我们这位恶霸王中王\n  就当然不会轻易开口了。"
                ]
                : ['<32>{#p/mettaton}* “神秘的人类”，\n  果然名副其实。'],
          moneyChat4: () =>
@@ -1628,26 +1628,26 @@ export default {
                   ? ['<32>{#p/tem}* 提咪... 去了大鞋，']
                   : ['<32>{#p/tem}* 提咪... 上了电视！！']
                : [
-                  '<25>{#p/kidd}{#f/1}* Haha, I guess so.',
+                  '<25>{#p/kidd}{#f/1}* 哈哈，确实。',
                   ...(SAVE.data.b.f_state_kidd_betray
                      ? [
-                        "<25>{#f/1}* OH!\n* It's my turn, I think.",
+                        "<25>{#f/1}* 哦！\n* 轮到我了是吗？",
                         "<25>{#f/4}* Today's... not really been the greatest...",
                         '<25>{#f/8}* Haha...',
                         "<25>{#f/5}* ... well, I'm Monster Kid."
                      ]
                      : [
                         "<25>{#f/1}* OH!\n* It's my turn, right??",
-                        "<25>{#f/4}* I'm... not really sure if my parents are watching, but...",
-                        "<25>{#f/1}* I hope they're not!!\n* I... don't think they'd like me being here.",
-                        '<25>{#f/1}* Haha.',
-                        "<25>{#f/2}* Anyway, I'm Monster Kid."
+                        "<25>{#f/4}* 不清楚...\n  我的父母有没有\n  在看这档节目，不过...",
+                        "<25>{#f/1}* 他们最好没在看吧！！\n* 他们... 应该不喜欢我上这儿。",
+                        '<25>{#f/1}* 哈哈。',
+                        "<25>{#f/2}* 话说回来，我叫怪物小孩。"
                      ])
                ],
          moneyChat4a: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? ['<32>{#p/mettaton}* 然后呢...?']
-               : ["<32>{#p/mettaton}* WAIT, THAT'S YOUR ACTUAL NAME?"],
+               : ["<32>{#p/mettaton}* 等下，确定是真名？"],
          moneyChat4b: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? SAVE.data.b.colleg
@@ -1655,12 +1655,12 @@ export default {
                   : ['<32>{#p/tem}* 提咪... 喜欢上电视！！']
                : SAVE.data.b.f_state_kidd_betray
                   ? ['<25>{#p/kidd}{#f/4}* ...']
-                  : ["<25>{#p/kidd}{#f/1}* Why wouldn't it be?"],
+                  : ["<25>{#p/kidd}{#f/1}* 不行吗？"],
          moneyChat4c1: ['<32>{#p/mettaton}* 呃...'],
          moneyChat5: () =>
             SAVE.data.n.state_foundry_muffet === 1
                ? ['<32>{#p/mettaton}* 好了，\n  我们的介绍环节\n  算是结束了。']
-               : ['<32>{#p/mettaton}* HEH. I THINK THAT WRAPS UP OUR INTRODUCTIONS QUITE NICELY.'],
+               : ['<32>{#p/mettaton}* 好了，\n  我们的介绍环节\n  算是圆满结束了。'],
          moneyTr1: [
             '<32>* 是这样，\n  这个游戏是关于价格的。',
             "<32>* 我们今天准备了三件\n  稀有的地球文物。",
@@ -1757,8 +1757,8 @@ export default {
                   : [
                      '<32>{#p/mettaton}* 嗯...',
                      '<32>* 什么“小鸡”？',
-                     "<25>{#p/sans}{#g/sansLaugh1}* 我真是受够这个\n  叽叽喳喳的小鸡器人了。",
-                     "<32>{#p/mettaton}* 你被取消比赛资格了！",
+                     "<25>{#p/sans}{#g/sansLaugh1}* 小鸡器人你太镁了。",
+                     "<32>{#p/mettaton}* 你出局！",
                      '<25>{#p/sans}{#g/sansLaugh2}* 呵呵，值了。',
                      '<32>{#p/mettaton}* 呃... 小幽，你想票掉谁呢？'
                   ],
@@ -1803,9 +1803,9 @@ export default {
             choicer.create('* （你要怎么回答？）', '是', '否')
          ],
          moneyVote4: () => [
-            '<32>{#p/mettaton}* 不，我该问你要\n  给【谁】投票？',
+            '<32>{#p/mettaton}* 不，我该问你要\n  【票掉】谁吗？',
             choicer.create(
-               '* (你要给谁投票？)',
+               '* (你要票掉谁？)',
                iRespeccYourVilliany() ? '安黛因' : '衫斯',
                '纳普斯特',
                SAVE.data.n.state_foundry_muffet === 1 ? '提米' : '怪物小孩',
@@ -1837,21 +1837,21 @@ export default {
                ? ['<32>{#p/tem}* 提咪投... 阔爱幽灵！', '<32>* 提咪住的离阔爱幽灵近... \n  喜欢阔爱幽灵！']
                : [
                   iFancyYourVilliany()
-                     ? "<25>{#p/kidd}{#f/1}* I'm voting for $(moniker1) because they're AWESOME!"
-                     : "<25>{#p/kidd}{#f/1}* I'm voting for the human because they're AWESOME!",
+                     ? "<25>{#p/kidd}{#f/1}* 我要给$(moniker1)投一票，\n  人类酷毙了！"
+                     : "<25>{#p/kidd}{#f/1}* 我要给人类投一票，\n  人类酷毙了！",
                   '<25>{#f/7}* Not only did they face off against UNDYNE...',
                   "<25>* ... who's one of the strongest monsters EVER...",
-                  '<25>* But when I was about to DIE...',
+                  '<25>* 还在我差点没命的时候...',
                   '<25>* ... they pulled me down at the LAST second and saved me!',
-                  '<25>{#f/2}* IN FRONT OF UNDYNE!!!',
+                  '<25>{#f/2}* 当着安黛因的面呢！！！',
                   ...(iRespeccYourVilliany()
                      ? [
-                        "<25>{#p/undyne}{#f/14}* Uh, kid, I'm right here, you know.",
-                        '<25>{#p/kidd}{#f/3}* Oh, right.\n* Uh, s-sorry Undyne!\n* Haha.',
-                        "<25>{#p/undyne}{#f/1}* Nah, don't worry.\n* You're a good kid...",
-                        '<25>{#p/kidd}{#f/3}* Aw... thanks, Undyne.\n* But $(moniker1) is WAY cooler than me.'
+                        "<25>{#p/undyne}{#f/14}* 呃，小子，\n  我就在这呢，你没忘吧。",
+                        '<25>{#p/kidd}{#f/3}* 对哦。\n* 呃，安黛因，对不起啦！\n* 哈哈。',
+                        "<25>{#p/undyne}{#f/1}* 没必要。\n* 我知道你是个乖孩子...",
+                        '<25>{#p/kidd}{#f/3}* 呀... 谢了，安黛因。\n* 不过$(moniker1)比我酷太多了。'
                      ]
-                     : ['<25>{#f/3}* I... kind of owe them my life, haha...'])
+                     : ['<25>{#f/3}* 可以说...\n  我欠他一条命，哈哈...'])
                ],
          moneyVote5b: ['<32>{#p/mettaton}* 你确定吗？\n  你不知道这个投票环节\n  是要投掉你想淘汰的人吗？'],
          moneyVote5c: () =>
@@ -1863,20 +1863,20 @@ export default {
                ]
                : iRespeccYourVilliany()
                   ? [
-                     '<25>{#p/kidd}{#f/4}* ... it is?',
-                     '<25>{#p/undyne}{#f/3}* I was about to say the same thing.',
-                     "<25>{#p/kidd}{#f/1}* Oh... then I won't vote for them, because OBVIOUSLY, and...",
-                     "<25>{#f/2}* Voting for Undyne... I just can't do it!",
-                     "<25>{#f/3}* So... I guess it'll be Napstablook.\n* Please don't be sad..."
+                     '<25>{#p/kidd}{#f/4}* ...原来是这样？',
+                     '<25>{#p/undyne}{#f/3}* 我也想说来着。',
+                     "<25>{#p/kidd}{#f/1}* 哦... 那我不投人类了，都不用说了。\n  那么...",
+                     "<25>{#f/2}* 叫我票掉安黛因... 我可做不到！",
+                     "<25>{#f/3}* 我投纳普斯特吧。\n* 希望你别难过..."
                   ]
                   : [
-                     '<25>{#p/kidd}{#f/4}* ... it is?',
+                     '<25>{#p/kidd}{#f/4}* ...原来是这样？',
                      "<25>{#f/1}* Hmm... then I won't vote for them, because OBVIOUSLY, and...",
-                     '<25>{#f/4}* Voting for Napstablook might hurt their feelings...',
-                     "<25>{#f/3}* So... I guess it'll be Sans."
+                     '<25>{#f/4}* 票掉纳普斯特\n  可能太伤感情了...',
+                     "<25>{#f/3}* 我投衫斯吧。"
                   ],
-         moneyVote5x: ['<32>{#p/kidd}{#f/8}* ...', '<32>{#f/8}* The human.'],
-         moneyVote5x1: ["<32>{#p/mettaton}* SHEESH, SOMEBODY'S NOT HAPPY TODAY."],
+         moneyVote5x: ['<32>{#p/kidd}{#f/8}* ...', '<32>{#f/8}* 票掉人类。'],
+         moneyVote5x1: ["<32>{#p/mettaton}* 咦呀，看来今天有人不咋高兴。"],
          moneyVote5x2a: ['<32>{#p/mettaton}* BUT EVEN WITH THAT VOTE, SANS STILL HAS THE LOSING EDGE.'],
          moneyPun1: () =>
             world.dead_skeleton
@@ -1984,18 +1984,18 @@ export default {
                         '<25>{#f/1}* Well, thanks for letting me be on the show, Metatron.',
                         '<25>{#f/1}* My friends are gonna be so stoked when I tell them about this!!!'
                      ],
-         moneyFinal0c: ['<32>{#p/mettaton}* SERIOUSLY.\n* NOW GET OFF THE STAGE.'],
+         moneyFinal0c: ['<32>{#p/mettaton}* 认真的。\n* 请离开舞台。'],
          moneyFinal0d: [
-            '<25>{#p/undyne}{#f/8}* PFFT!\n* HOW STUPID IS THAT!',
+            '<25>{#p/undyne}{#f/8}* 噗！\n* 你个大蠢蛋！',
             '<25>{#f/1}* You know, that human might be mean, but at least they play fair.',
-            '<25>{#f/5}* As for YOU?',
-            '<25>{#f/7}* You just make up the rules as you go along!',
-            "<25>{#f/9}* ... guess I shouldn't have expected anything else, though.",
-            "<25>{#f/11}* You've got a reputation for this sort of thing."
+            '<25>{#f/5}* 而你呢？',
+            '<25>{#f/7}* 随心所欲，规则说改就改！',
+            "<25>{#f/9}* ...对你真没啥好期待的。",
+            "<25>{#f/11}* 在这点，你可是出了名的。"
          ],
          moneyFinal1: () => [
             iRespeccYourVilliany()
-               ? '<32>{#p/mettaton}* GOOD RIDDANCE.'
+               ? '<32>{#p/mettaton}* 谢天谢地。'
                : SAVE.data.n.state_foundry_muffet === 1
                   ? SAVE.data.b.colleg
                      ? "<32>{#p/mettaton}* ... JEEZ, AT LEAST SHE'S GONE."
@@ -2025,18 +2025,18 @@ export default {
                ]
                : [
                   '<32>{#p/event}* 铃铃，铃铃...',
-                  "<25>{#p/alphys}{#g/alphysOhGodNo}{#z0}* H-hey! You can't give that away, that's... I own that!",
+                  "<25>{#p/alphys}{#g/alphysOhGodNo}{#z0}* 打-打住！\n  你不能把那个随便送人，\n  我... 那是我的财产！",
                   '<32>{#p/mettaton}* OH, DO YOU NOW?',
-                  "<32>* I APOLOGIZE.\n* I WASN'T AWARE.\n* BUT...",
-                  '<25>{#p/alphys}{#g/alphysWTF2}* BUT???',
-                  "<32>{#p/mettaton}* I'M AFRAID IT'S TOO LATE, DR. ALPHYS..."
+                  "<32>* 我之前不知情，向你致歉。\n* 不过...",
+                  '<25>{#p/alphys}{#g/alphysWTF2}* 不过？？？',
+                  "<32>{#p/mettaton}* 艾菲斯博士，\n  恐怕来不及了哦..."
                ]),
-            '<32>{#z3}* THE CONTESTANTS HAVE ALREADY GOTTEN THEIR HOPES UP.',
-            '<25>{#p/alphys}{#g/alphysWTF}{#z0}* Are you serious?',
-            '<25>{|}{#p/alphys}{#g/alphysCutscene3}* I spent months looking for- {%}'
+            '<32>{#z3}* 选手们已经起兴致了。',
+            '<25>{#p/alphys}{#g/alphysWTF}{#z0}* 你玩我呢？',
+            '<25>{|}{#p/alphys}{#g/alphysCutscene3}* 我花了好几个月才- {%}'
          ],
          moneyFinal5: [
-            '<32>{#p/mettaton}* OH NO.\n* THE CONNECTION SEEMS TO HAVE BEEN TERMINATED.',
+            '<32>{#p/mettaton}* 哎呀呀。\n* 信号好像不好。',
             '<32>* POOR DR. ALPHYS.\n* NO MEW MEW DOLL FOR HER.',
             '<32>{#z2}* INSTEAD, ONE OF YOU WILL GET TO KEEP IT!',
             '<32>{#z3}* BUT WHO?'
@@ -2440,7 +2440,7 @@ export default {
                   '<25>{#f/20}* Well, we should probably head up to the rec center now.'
                ]
                : [
-                  '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ah, there you are!',
+                  '<25>{#p/alphys}{#g/alphysNervousLaugh}* 啊，你来了！',
                   ...(world.bad_lizard === 1
                      ? [
                         "<25>{#g/alphysSideSad}* I've been... worried, about what you'd do if I didn't escort you.",
@@ -2476,10 +2476,10 @@ export default {
                : world.bad_lizard === 1
                   ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Here we are.']
                   : [
-                     "<25>{#p/alphys}{#g/alphysCutscene1}* Okay, we're here!",
-                     '<25>{#g/alphysSmileSweat}* B-better stay behind me while we get through security.'
+                     "<25>{#p/alphys}{#g/alphysCutscene1}* 好，咱到了！",
+                     '<25>{#g/alphysSmileSweat}* 过安检的时候，\n  最-最好跟着我。'
                   ],
-         opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* H-hiya.', "<32>{#p/basic}{#x1}* 'Sup.{#x3}"],
+         opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* 你-你们好呀。', "<32>{#p/basic}{#x1}* 'Sup.{#x3}"],
          opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* O-oh, I guess there is no security.'],
          opera6: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Uh, y-yeah!\n* Hi!'],
          opera7: () =>
@@ -2492,7 +2492,7 @@ export default {
                   '<25>{#p/alphys}{#g/alphysWelp}* Well uh, thanks for... not attacking the human earlier.',
                   '<25>{#g/alphysGarbo}* The other guards didn\'t really \"get the memo,\" so to speak.'
                ],
-         opera8: ['<32>{#p/basic}{#x1}* ... human?{#x3}', '<32>{#x1}* What human?{#x3}'],
+         opera8: ['<32>{#p/basic}{#x1}* ...人类？{#x3}', '<32>{#x1}* 哪有人类？{#x3}'],
          opera9: [
             "<25>{|}{#p/alphys}{#g/alphysTheFactIs}* Uhhhhh I don't know I'm just trying to escor- {%}",
             "<32>{#p/basic}{#x1}* Alphys, you're like, the second highest authority on the outpost.{#x3}",
@@ -3213,7 +3213,7 @@ export default {
                : []),
             world.badder_lizard
                ? '<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Follow me.'
-               : '<25>{#p/alphys}{#g/alphysWelp}* This way.'
+               : '<25>{#p/alphys}{#g/alphysWelp}* 这边走。'
          ],
          endwalk1: () =>
             !world.badder_lizard
@@ -3440,7 +3440,7 @@ export default {
          laserbarrrier1: () =>
             world.darker
                ? ["<32>{#p/basic}* 一道安保屏障。"]
-               : ["<32>{#p/basic}* As per the crafter's guild standard, an impassable force field surrounds the area."],
+               : ["<32>{#p/basic}* 按照创艺协会规范，\n  附近布下了无法跨越的力场。"],
          
          laserbarrrier2: pager.create(
             0,
@@ -3768,15 +3768,15 @@ export default {
          recyclerX: ['<32>{#p/human}* （你丢掉了电阻尼液。）'],
          ingredient1: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/human}* (You found the happy powder.)']
+               ? ['<32>{#p/human}* （你找到了幸福闪粉。）']
                : ['<32>{#p/human}* （你找到了环三亚甲基三硝胺。）'],
          ingredient2: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/human}* (You found the tingle serum.)']
+               ? ['<32>{#p/human}* （你找到了激情水浆。）']
                : ['<32>{#p/human}* （你找到了己二酸二正辛酯。）'],
          ingredient3: () =>
             iFancyYourVilliany()
-               ? ['<32>{#p/human}* (You found the love oil.)']
+               ? ['<32>{#p/human}* （你找到了博爱甘油。）']
                : ['<32>{#p/human}* （你找到了矿物油。）'],
          boop: () =>
             [
@@ -4179,7 +4179,7 @@ export default {
                ? ['<32>{#p/human}* (You stop to see the flowers.)']
                : world.darker
                   ? ['<32>{#p/basic}* 星花。']
-                  : ['<32>{#p/basic}* A patch of Starling flowers.'],
+                  : ['<32>{#p/basic}* 一丛星花。'],
          starling2: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You stop to see the flowers.)']
@@ -4310,7 +4310,7 @@ export default {
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (The sign establishes a limit for the number of monsters a liftgate can hoist.)']
                : [
-                  '<32>{#p/basic}* “请务必小心，\n   升降机一次最多只能搭乘\n   两个怪物。”',
+                  '<32>{#p/basic}* “请务必小心，升降机一次\n   最多只能搭乘两个怪物。”',
                   ...(world.genocide && SAVE.flag.n.ga_asrielSkySign1++ < 1
                      ? ['<25>{#p/asriel2}{#f/1}* 正好够用。']
                      : [])
@@ -4557,8 +4557,8 @@ export default {
                   world.darker
                      ? '<32>{#p/basic}* 传送带上有几瓶化学试剂。'
                      : SAVE.data.n.plot === 72
-                        ? "<32>{#p/basic}* Chemicals on conveyor belts.\n* Somehow, nothing's ever gone wrong with this."
-                        : '<32>{#p/basic}* Chemicals on conveyor belts.\n* What could possibly go wrong?',
+                        ? "<32>{#p/basic}* 传送带上有几瓶化学试剂。\n* 怪了，竟然没出岔子。"
+                        : '<32>{#p/basic}* 传送带上有几瓶化学试剂。\n* 能出啥岔子呢？',
                   ...(mtt
                      ? [
                         '<32>{#p/mettaton}* 没有什么比镁塔超安全级传送带\n  发出的平静嗡嗡声更好了!',
@@ -4612,7 +4612,7 @@ export default {
                      ? '<33>{#p/basic}* 意义不明的装置。'
                      : SAVE.data.n.plot === 72
                         ? '<32>{#p/basic}* Disappointingly, the passage of time has not given this device a greater purpose.'
-                        : '<32>{#p/basic}* The purpose of this device is explicitly unclear.',
+                        : '<32>{#p/basic}* 用途不明的装置。',
                   ...(mtt
                      ? [
                         '<32>{#p/mettaton}* 啊，没错，这就是\n  永远都好用的镁塔牌\n  中子流偏振器。',
@@ -4662,7 +4662,7 @@ export default {
                SAVE.data.n.state_foundry_undyne !== 1
                   ? [
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                     '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
+                     '<25>{#p/alphys}{#g/alphysShocked}* 啊，快停下！！',
                      "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
                      '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
                      '<25>{#g/alphysThatSucks}* Sorry...',
@@ -4670,7 +4670,7 @@ export default {
                   ]
                   : [
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                     '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
+                     '<25>{#p/alphys}{#g/alphysShocked}* 啊，快停下！！',
                      "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                      "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
                      "<26>{#f/10}* S-so don't be stupid!",
@@ -6106,8 +6106,8 @@ export default {
       dinnerdate1: pager.create(
          0,
          () => [
-            "<25>{#p/sans}* hey, i heard you're visiting here.",
-            '<25>{#p/sans}{#f/2}* mind grabbing some dinner with me real quick?',
+            "<25>{#p/sans}* 嘿，听说你要来这了。",
+            '<25>{#p/sans}{#f/2}* 介不介意来和我吃一顿？\n  要不了多久的。',
             choicer.create('* （共进晚餐吗？）', '是', '否')
          ],
          () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* （共进晚餐吗？）', '是', '否')]
@@ -6117,13 +6117,13 @@ export default {
          ["<25>{#p/sans}{#f/3}* eh, fair enough.\n* i'll be here if you change your mind."],
          ['<25>{#p/sans}{#f/3}* ok then.']
       ),
-      dinnerdate2b: ['<25>{#p/sans}{#p/sans}{#f/0}* sweet.'],
-      dinnerdate3: ['<25>{#p/sans}{#f/2}* right this way.'],
-      dinnerdate4: ['<25>{#p/sans}* here we are.'],
+      dinnerdate2b: ['<25>{#p/sans}{#p/sans}{#f/0}* 挺好。'],
+      dinnerdate3: ['<25>{#p/sans}{#f/2}* 这边走。'],
+      dinnerdate4: ['<25>{#p/sans}* 我们到了。'],
       dinnerdate5: ['<25>{#p/sans}* this table looks good.'],
-      dinnerdate5b: ["<25>{#f/2}* i'll take right, you take left."],
+      dinnerdate5b: ["<25>{#f/2}* 我坐右边，你坐左边。"],
       dinnerdate8: () => [
-         '<25>{#p/sans}* so...',
+         '<25>{#p/sans}* 所以...',
          "<25>{#f/3}* your journey's almost over, huh?",
          '<25>{#f/0}* you must really wanna get outta here.',
          '<25>{#f/0}* ... heh.\n* trust me, i know the feeling, buddo.',
@@ -6601,7 +6601,7 @@ export default {
          "<25>{#p/alphys}{#g/alphysWelp}* 停，前-前面有东西。",
          '<25>{#p/alphys}{#g/alphysNeutralSweat}* 让我看看，\n  这回能不能直接清除障碍...',
          SAVE.data.b.ubershortcut
-            ? '<32>{#p/human}* (It sounds like someone is furiously typing at a keyboard.)'
+            ? '<32>{#p/human}* （你听到了一阵狂敲键盘的声音。）'
             : '<32>{|}{#p/human}* （又是强制- {%}',
          "<25>{#p/alphys}{#g/alphysCutscene3}* 内网系统的名单上没有它。",
          "<25>{#g/alphysUhButHeresTheDeal}* 它甚至连守卫都不是！",
@@ -6666,7 +6666,7 @@ export default {
             : ['<33>{#p/human}* (You try to tell Glyde a password, but it shakes its head and interrupts you.)'],
       act_flirt1: ['<32>{#p/human}* (You flirt with Glyde.)'],
       act_flirt2: ["<32>{#p/human}* (You try flirting with Glyde, but it doesn't elicit a response.)"],
-      act_berate: ['<32>{#p/human}* (You berate Glyde.)\n* (Glyde laughs at the attempt.)'],
+      act_berate: ['<32>{#p/human}* （你训了老滑头一顿。）\n* （老滑头回以嘲讽。）'],
       fightEnder1: [
          '<20>{#p/basic}{#p/basic}{~}{#e/glyde/4}... huh?',
          '<20>{#p/basic}{~}Did you just say \"triple beefcake deluxe?\"',
@@ -6717,7 +6717,7 @@ export default {
       turn1a: () => [
          '<20>{#p/basic}{#p/basic}{~}{#e/glyde/10}你不跟我战斗吗？',
          iFancyYourVilliany()
-            ? '<20>{#p/basic}{~}{#e/glyde/0}... surprising, coming from a common villain like you.'
+            ? '<20>{#p/basic}{~}{#e/glyde/0}...真是新奇事，\n  你可是个典型反派啊。'
             : '<20>{#p/basic}{~}{#e/glyde/0}...我猜你会的。'
       ],
       turn1b: () => [
@@ -6768,34 +6768,34 @@ export default {
       turn6a: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}So whaddya say, huh?'],
       turn6b: ['<20>{#p/basic}{#p/basic}{~}Crud.'],
       turn6c: () => [
-         '<20>{#p/basic}{#e/bpants/12}Why do I ALWAYS end up taking out the trash around here?',
+         '<20>{#p/basic}{#e/bpants/12}为什么总要我来\n赶走这死家伙？',
          '<20>...',
-         '<20>{#e/bpants/0}Sorry for the trouble, little buddy.',
-         "<20>{#e/bpants/11}I'm Burgie.\nNice to meet ya.",
+         '<20>{#e/bpants/0}小家伙，对不住了，\n给你添麻烦了。',
+         "<20>{#e/bpants/11}我叫Burgie。\n很高兴见到你。",
          ...(ateThreshold() || (world.badder_lizard && world.bad_lizard > 1)
             ? [
-               "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-               "<20>{#e/bpants/12}... hey, you're that kid who's been killing people!"
+               "<20>{#e/bpants/6}老滑头来这闹事有...",
+               "<20>{#e/bpants/12}...嘿，你不就是那个\n滥杀无辜的毛头小子吗！"
             ]
             : burger()
                ? [
-                  "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-                  "<20>{#e/bpants/12}... hey, you're that kid who killed everyone in Starton!"
+                  "<20>{#e/bpants/6}老滑头来这闹事有...",
+                  "<20>{#e/bpants/12}...嘿，你不就是那个\n把星港居民杀了个干净的\n毛头小子吗！"
                ]
                : world.population === 0 && world.bullied
                   ? [
-                     "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-                     "<20>{#e/bpants/12}... hey, aren't you that kid who's been beating everyone up?"
+                     "<20>{#e/bpants/6}老滑头来这闹事有...",
+                     "<20>{#e/bpants/12}...嘿，你不就是那个\n喜欢揍人的毛头小子吗？"
                   ]
                   : [
-                     "<20>{#e/bpants/6}Glyde's been a problem around here for quite a while...",
+                     "<20>{#e/bpants/6}老滑头来这闹事有好久了...",
                      "<20>{#e/bpants/1}Hopefully this latest stunt will get it to realize nobody's buying its crap anymore."
                   ])
       ],
       turn6d: [
          '<20>{#p/mettaton}汉堡裤！',
-         "<20>IT'S SO VERY GREAT TO SEE YOU.",
-         "<20>(DON'T WORRY, I CUT THE LIVE TV FEED AS SOON AS I SAW YOU COMING.)"
+         "<20>太好了，你来啦。",
+         "<20>（别担心，一见着你，\n  我就中断了直播。）"
       ],
       turn6e: () =>
          ateThreshold()
@@ -6803,20 +6803,20 @@ export default {
                "<20>{#p/basic}{#e/bpants/12}Don't you realize what you're dealing with here?",
                '<20>{#e/bpants/3}What the HELL are you doing putting THEM on TV!?'
             ]
-            : ["<20>{#p/basic}{#e/bpants/12}I don't work for you anymore. Get lost."],
+            : ["<20>{#p/basic}{#e/bpants/12}我可不跟你干了，\n  少来烦我。"],
       turn6f: () =>
          ateThreshold()
-            ? ['<20>{#p/mettaton}WOW, SORRY...', "<20>I DIDN'T KNOW IT WAS A CRIME TO HOST A TV SHOW."]
-            : ['<20>{#p/mettaton}WOW, SORRY...', "<20>I DIDN'T KNOW YOU DISLIKED ME THAT MUCH."],
+            ? ['<20>{#p/mettaton}哎呀，对不起嘛...', "<20>I DIDN'T KNOW IT WAS A CRIME TO HOST A TV SHOW."]
+            : ['<20>{#p/mettaton}哎呀，对不起嘛...', "<20>我还不知道\n你这么讨厌我呢。"],
       turn6g: [
          '<20>{#p/basic}{#e/bpants/12}...',
-         "<20>{|}{#p/basic}{#e/bpants/2}I seriously just can't with this guy I swear to go- {%}"
+         "<20>{|}{#p/basic}{#e/bpants/2}待不下去了\n我要走- {%}"
       ],
       turn6h: [
-         "<20>{#p/mettaton}A-NY-WAY WE HAVE THINGS TO GET TO SO IF YOU DON'T MIND {%}",
-         '<20>WOULD YOU KINDLY GET OFF THE STAGE PLEASE AND THANK YOU HAVE A GREAT DAY.'
+         "<20>{#p/mettaton}不-过-呢\n咱还有事要办\n要是你不介意的话 {%}",
+         '<20>请您见谅\n离开舞台谢谢\n祝您今天愉快。'
       ],
-      hurtStatus: ['<32>{#p/story}* Glyde is in danger.']
+      hurtStatus: ['<32>{#p/story}* 老滑头有危险了。']
    },
 
    b_opponent_mettaton1: {
@@ -7023,9 +7023,9 @@ export default {
             ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D EXPECT A MORE -YOUTHFUL- SHOWING!'],
             ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D HOPE TO BE BLOWN AWAY!'],
             ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D THINK YOUR SKILLS WOULD BE MAD!'],
-            ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D HOPE TO HAVE STOLEN THE SHOW!']
+            ['<20>{#p/mettaton}“$(moniker1u)”，\n你可不能被别人\n抢了风头啊！']
          ][SAVE.data.n.state_aerialis_moniker],
-         "<20>{#p/mettaton}BUT I GUESS IT JUST WASN'T MEANT TO BE."
+         "<20>{#p/mettaton}也许你没这个觉悟吧。"
       ],
       turn8end2a: () => [
          ...[
@@ -7092,8 +7092,8 @@ export default {
       turn9end3: () =>
          SAVE.data.n.state_foundry_undyne > 0
             ? ['<20>{#p/mettaton}WELL...', '<20>IF YOU SAY SO, DOCTOR.']
-            : ['<20>{#p/mettaton}嗯...', '<20>你的观点还挺有趣的，\n博士。'],
-      turn9end4: ["<20>但我不敢\n苟同你的观点。{#e/alphys/1}"],
+            : ['<20>{#p/mettaton}嗯...', '<20>博士，这想法挺新奇。'],
+      turn9end4: ["<20>我可不敢苟同。{#e/alphys/1}"],
       turn9end5: () =>
          SAVE.data.n.state_foundry_undyne > 0
             ? ["<20>IT'S JUST A SHAME THE VIEWERS WON'T GET TO SEE WHAT HAPPENS.{#e/alphys/28}"]
@@ -7104,7 +7104,7 @@ export default {
       turn9end6: [
          "<20>{#p/mettaton}{#e/alphys/0}行吧，总而言之\n我们的时间\n已经所剩无几了。",
          "<20>所以...\n今天的节目到此结束！",
-         '<21>STAY TUNED, FOLKS!\nTHE NEXT EPISODE IS ALREADY IN THE WORKS.',
+         '<21>伙计们，别划走!\n下期节目正在加急制作中。',
          "<20>你一定不想错过！"
       ],
       turn9end7a: ['<20>{#p/alphys}好吧。'],
@@ -8067,21 +8067,21 @@ export default {
          '<32>{#p/story}* 谜宇人 - 攻击29 防御24\n* 爱的力量比最古老的魔法还要强大。'
       ],
       idleStatus1: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* 这是谜宇人。"] : ['<32>{#p/story}* 谜宇人跳着不可思议的舞蹈。'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 这位是谜宇人。"] : ['<32>{#p/story}* 谜宇人跳着不可思议的舞蹈。'],
       idleStatus2: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是谜宇人。"]
+            ? ["<32>{#p/alphys}* 这位是谜宇人。"]
             : ['<32>{#p/story}* 谜宇人气势汹汹地卖弄着它的魔球。'],
       idleStatus3: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是谜宇人。"]
+            ? ["<32>{#p/alphys}* 这位是谜宇人。"]
             : ['<32>{#p/story}* 谜宇人嘀咕着艰深晦涩的脏话。'],
       idleStatus4: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是谜宇人。"]
+            ? ["<32>{#p/alphys}* 这位是谜宇人。"]
             : ['<32>{#p/story}* 谜宇人以火眼金睛凝视着你。'],
       idleStatus5: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* 这是谜宇人。"] : ['<32>{#p/story}* ...魔法的味道扑面而来。'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 这位是谜宇人。"] : ['<32>{#p/story}* ...魔法的味道扑面而来。'],
       idleTalk1: ['<20>{#p/basic}{~}急急如律令。'],
       idleTalk2: ['<20>{#p/basic}{~}变变变！！'],
       idleTalk3: ['<20>{#p/basic}{~}神明啊，显灵吧。'],
@@ -8104,7 +8104,7 @@ export default {
          !world.badder_lizard
             ? ['<32>{#p/alphys}* 太好了！！！\n* 魔球都耗尽能量了！']
             : ["<32>{#p/story}* 谜宇人的惊雷魔球\n  穷尽了它的能量。"],
-      danceText3: ['<32>{#p/human}* （你选择跳舞。）\n* （没发生什么变化。）'],
+      danceText3: ['<32>{#p/human}* （你选择跳舞。）\n* （无事发生。）'],
       danceText4: [
          '<32>{#p/human}* （你选择跳舞。）',
          "<32>{#p/basic}* 谜宇人百思不得其解，\n  再也忍不下去了！"
@@ -8129,7 +8129,7 @@ export default {
       playdeadIdleTalk1: ['<20>{#p/basic}{~}实在灰心丧气。'],
       playdeadIdleTalk2: ['<20>{#p/basic}{~}彻底心烦意乱。'],
       playdeadIdleTalk3: ['<20>{#p/basic}{~}完全乱成一团。'],
-      playdeadText2: ['<32>{#p/human}* （你选择装死。）\n* （没发生什么变化。）'],
+      playdeadText2: ['<32>{#p/human}* （你选择装死。）\n* （无事发生。）'],
       flirtText0: () => [
          '<32>{#p/human}* （你向谜宇人调情。）\n* （没什么效果。）',
          ...(!world.badder_lizard ? ['<32>{#p/alphys}* 嗯，祝你好运...'] : [])
@@ -8153,7 +8153,7 @@ export default {
             ? ["<32>{#p/alphys}* 哇... 我想就这样吧。"]
             : ['<32>{#p/story}* 谜宇人欣喜若狂。'],
       flirtText3: () => [
-         '<32>{#p/human}* （你选择调情。）\n* （没发生什么变化。）',
+         '<32>{#p/human}* （你选择调情。）\n* （无事发生。）',
          ...(!world.badder_lizard ? ["<32>{#p/alphys}* 啐，别太得寸进尺。"] : [])
       ],
       flirtIdleTalk1: ['<20>{#p/basic}{~}多么可爱...'],
@@ -8208,19 +8208,19 @@ export default {
       act_check5: ['<32>{#p/story}* 特雷莉亚 - 攻击36 防御36\n* 她的注意力被偷走了，\n  世间一切如同消失。'],
       idleStatus1: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是特雷莉亚。"]
+            ? ["<32>{#p/alphys}* 这位是特雷莉亚。"]
             : ['<32>{#p/story}* 特雷莉亚紧紧握着她的法杖。'],
       idleStatus2: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* 这是特雷莉亚。"] : ['<32>{#p/story}* 特雷莉亚深吸了一口气。'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 这位是特雷莉亚。"] : ['<32>{#p/story}* 特雷莉亚深吸了一口气。'],
       idleStatus3: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* 这是特雷莉亚。"] : ['<32>{#p/story}* 特雷莉亚静静地看着你。'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 这位是特雷莉亚。"] : ['<32>{#p/story}* 特雷莉亚静静地看着你。'],
       idleStatus4: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是特雷莉亚。"]
+            ? ["<32>{#p/alphys}* 这位是特雷莉亚。"]
             : ["<32>{#p/story}* 特雷莉亚的盔甲\n  发出了微弱的黄光。"],
       idleStatus5: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* 这是特雷莉亚。"]
+            ? ["<32>{#p/alphys}* 这位是特雷莉亚。"]
             : ['<32>{#p/story}* 被忘却之遗物的味道\n  扑面而来。'],
       idleTalk1: ['<20>{#p/basic}{~}好梦骑程。'],
       idleTalk2: ['<20>{#p/basic}{~}慢走。'],
@@ -8246,7 +8246,7 @@ export default {
             ? ["<32>{#p/alphys}* 这一幕... 真令人开心。"]
             : ['<32>{#p/story}* 特雷莉亚找到了\n  新的生活目标。'],
       comfortTalk3: ['<20>{#p/basic}{~}...\n...\n好...'],
-      comfortText3: ['<32>{#p/human}* （你安抚了特雷莉亚。）\n* （没发生什么变化。）'],
+      comfortText3: ['<32>{#p/human}* （你安抚了特雷莉亚。）\n* （无事发生。）'],
       comfortText4: [
          '<32>{#p/human}* （你安抚了特雷莉亚。）',
          '<32>{#p/basic}* 特雷莉亚放下了她的法杖，\n  并接受了你的和平提议。'
@@ -8259,9 +8259,9 @@ export default {
             ? ['<32>{#p/alphys}* 我想你可以饶恕她了...']
             : ['<32>{#p/story}* 特雷莉亚平静下来了。'],
       flashText1: () => [
-         '<32>{#p/human}* （你使你的手机屏幕发出闪光。）',
+         '<32>{#p/human}* （你把手机调亮，\n  朝特雷莉亚闪了过去。）',
          '<32>{#p/basic}* 特雷莉亚惊慌失措！',
-         ...(!world.badder_lizard ? ['<32>{#p/alphys}* 你在干什么！？'] : [])
+         ...(!world.badder_lizard ? ['<32>{#p/alphys}* 你干了什么！？'] : [])
       ],
       flashTalk: ['<20>{#p/basic}{~}\x00*无声的恐慌*'],
       flashStatus: () =>
@@ -8272,10 +8272,10 @@ export default {
       flashIdleTalk2: ["<20>{#p/basic}{~}我看不见你..."],
       flashIdleTalk3: ['<20>{#p/basic}{~}你在哪里...'],
       flashText2a: [
-         '<32>{#p/human}* （你使你的手机屏幕发出闪光。）\n* （特雷莉亚正忙着做关于你的白日梦，\n  没注意到。）'
+         '<32>{#p/human}* （你把手机调亮，\n  朝特雷莉亚闪了过去。）\n* （可她正在做关于你的白日梦，没注意到。）'
       ],
-      flashText2b: ['<32>{#p/human}* （你使你的手机屏幕发出闪光。）\n* （特雷莉亚放松了自我，\n  没注意到。）'],
-      flashText2c: ['<32>{#p/human}* （你使你的手机屏幕发出闪光。）\n* （没发生什么变化。）'],
+      flashText2b: ['<32>{#p/human}* （你把手机调亮，\n  朝特雷莉亚闪了过去。）\n* （可她十分放松，没注意到。）'],
+      flashText2c: ['<32>{#p/human}* （你把手机调亮，\n  朝特雷莉亚闪了过去。）\n* （无事发生。）'],
       flirtText0: () => [
          '<32>{#p/human}* （你向特雷莉亚调情。）\n* (没什么效果。)',
          ...(!world.badder_lizard
@@ -8301,7 +8301,7 @@ export default {
             ? ['<32>{#p/alphys}* 好-好啊。\n* 这...了不得。']
             : ['<32>{#p/story}* 特雷莉亚情意绵绵。'],
       flirtText3: () => [
-         '<32>{#p/human}* （你选择调情。）\n* （没发生什么变化。）',
+         '<32>{#p/human}* （你选择调情。）\n* （无事发生。）',
          ...(!world.badder_lizard ? ['<32>{#p/alphys}* 你疯了吧。'] : [])
       ],
       flirtIdleTalk1: ['<20>{#p/basic}{~}好惊喜...'],
@@ -8520,7 +8520,7 @@ export default {
          '<32>{#p/human}* （你戳了戳飘游䗁士\n  以让它失去平衡。）',
          '<32>{#p/basic}* 飘游䗁士掉了下去并逃之夭夭！',
          ...(!world.badder_lizard && calm_lizard()
-            ? ["<32>{#p/alphys}* 我就当没看见。"]
+            ? ["<32>{#p/alphys}* 我会当没看见的。"]
             : [])
       ],
       preperchText1: ['<08>{#p/basic}{~}我该\n去吗..？'],
@@ -8569,7 +8569,7 @@ export default {
             world.meanie
                ? 
                [
-                  '<08>{#p/basic}{~}你比我还\n居心不良！',
+                  '<08>{#p/basic}{~}你小子\n比我还坏！',
                   "<08>{#p/basic}{~}我还是\n适可而止\n为好。"
                ]
                : SAVE.data.b.oops && world.flirt > 9
@@ -9049,7 +9049,7 @@ export default {
          '<32>{#p/story}* PERIGEE - ATK 25 DEF 0\n* This bird of peace appreciates your love songs platonically.'
       ],
       act_flirt: ['<32>{#p/human}* (You flirt with Perigee.)'],
-      act_yell: ['<32>{#p/human}* (You shout at Perigee.)'],
+      act_yell: ['<32>{#p/human}* （你扯着嗓子，\n  冲呦呦鸡大喊大叫。）'],
       idleTalk1: ['<08>{#p/basic}{~}Chirp, chirp.'],
       idleTalk2: ['<08>{#p/basic}{~}\x00*calming whistle*'],
       idleTalk3: ['<08>{#p/basic}{~}Life is good.'],
@@ -9080,7 +9080,7 @@ export default {
       status6: () =>
          world.goatbro ? ["<32>{#p/asriel2}* 不堪一击。"] : ['<32>{#p/story}* Perigee is satisfied.'],
       hurtStatus: () =>
-         world.goatbro ? ['<32>{#p/asriel2}* 离死不远了。'] : ["<32>{#p/story}* Perigee's time is near."]
+         world.goatbro ? ['<32>{#p/asriel2}* 离死不远了。'] : ["<32>{#p/story}* 呦呦鸡的死期快到了。"]
    },
 
    b_opponent_tsundere: {
@@ -9132,7 +9132,7 @@ export default {
       idleTalk2: ['<08>{#p/basic}{~}Id.. idiot!'],
       idleTalk3: ["<08>{#p/basic}{~}Hmph!\nDon't get in my way."],
       idleTalk4: ['<08>{#p/basic}{~}(Eep..!)\nHuman..'],
-      idleTalk5: ['<08>{#p/basic}{~}..\nH-human\n..\n..?'],
+      idleTalk5: ['<08>{#p/basic}{~}..\n人-人类\n..\n..？'],
       flirtTalk1: ['<08>{#p/basic}{~}Huh!?\nY-you sicko!'],
       flirtTalk2: ['<08>{#p/basic}{~}I.. I think not!\nHmph!'],
       flirtTalk3: ['<08>{#p/basic}{~}Is that true..?'],
@@ -9194,145 +9194,145 @@ export default {
       epiphaNOPE: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}那个，\n你在干啥呢？']
-            : ["<11>{#p/basic}{~}This ain't it, chief."],
+            : ["<11>{#p/basic}{~}宝贝，\n这不科学。"],
       act_check: () =>
          world.goatbro
             ? ["<32>{#p/asriel2}* 一号守卫...\n* 这俩货我没啥好说的。"]
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* A confident lover who seems intent on ending you.']
-               : ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Conspicuous cowgirl attitude.\n* Skeptic.'],
+               ? ['<32>{#p/story}* 一号守卫 - 攻击30 防御20\n* 这对自信的情侣\n  似乎铁了心想干掉你。']
+               : ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 对牛仔女孩情有独钟，\n  还是个怀疑论者。'],
       act_check2: () =>
          world.goatbro
-            ? ["<32>{#p/asriel2}* RG 01.\n* Only one left."]
+            ? ["<32>{#p/asriel2}* 一号守卫。\n* 就剩他自己了。"]
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* Intent on ending you, even if it kills him.']
-               : ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Planning on sharpening her falchion soon.'],
-      act_check3: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Re-united at last...'],
-      act_check4: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Broken.'],
-      act_check5: ['<33>{#p/story}* RG 03 - ATK 30 DEF 20\n* Wants badly to say something...'],
-      act_check6: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Eager to make up for her lack of conviction.'],
+               ? ['<32>{#p/story}* 一号守卫 - 攻击30 防御20\n* 就算牺牲生命，\n  也要彻底干掉你。']
+               : ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 之后想把指甲好好剪剪。'],
+      act_check3: ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 她俩终于在一起了...'],
+      act_check4: ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 心碎了。'],
+      act_check5: ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 想把心里话\n  马上说出来...'],
+      act_check6: ['<32>{#p/story}* 三号守卫 - 攻击30 防御20\n* 真心想挽回，可惜太自卑。'],
       randTalk1: () => ['<11>{#p/basic}{~}组合技。'],
       randTalk2: () =>
-         world.bad_lizard > 1 ? ["<11>{#p/basic}{~}我们会\n阻止你的。"] : ["<11>{#p/basic}{~}We're just friends..."],
+         world.bad_lizard > 1 ? ["<11>{#p/basic}{~}我们会\n阻止你..."] : ["<11>{#p/basic}{~}我俩只是\n普通朋友..."],
       randTalk3: () =>
          world.bad_lizard > 1
-            ? ["<11>{#p/basic}{~}You're no match for us."]
-            : ["<11>{#p/basic}{~}You best not be shippin' us..."],
+            ? ["<11>{#p/basic}{~}你不是\n我们的对手。"]
+            : ["<11>{#p/basic}{~}别硬给我们\n牵线搭桥..."],
       randTalk4: () =>
-         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Careful, bro.'] : ['<11>{#p/basic}{~}Careful, girl.'],
+         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}兄弟，当心。'] : ['<11>{#p/basic}{~}姑娘，当心。'],
       randStatus1: () =>
          world.bad_lizard > 1
-            ? ['<32>{#p/story}* 01 and 02 attack in sync.']
-            : ["<33>{#p/story}* 03 is living in the friendzone.\n* 04 doesn't question it."],
+            ? ['<32>{#p/story}* 一号和二号配合默契。']
+            : ["<33>{#p/story}* 三号想继续和四号做普通朋友。\n* 四号没有异议。"],
       randStatus2: () =>
          world.bad_lizard > 1
-            ? ['<32>{#p/story}* 01 and 02 prepare their next assault.']
-            : ['<32>{#p/story}* 03 casts her doubts aside for just a moment.\n* 04 breathes a sigh of relief.'],
+            ? ['<32>{#p/story}* 一号和二号正准备施展\n  下一轮组合技。']
+            : ['<32>{#p/story}* 三号不再顾虑。\n* 四号松了口气。'],
       randStatus3: () =>
          world.bad_lizard > 1
-            ? ['<32>{#p/story}* 01 and 02 slam their bodies together brotastically.']
-            : ["<32>{#p/story}* 03 ponders about 04's history.\n* 04 shrugs."],
+            ? ['<32>{#p/story}* 一号和二号互相媳戏，\n  身子不停地撞来撞去。']
+            : ["<32>{#p/story}* 三号细细回忆着四号的过往。\n* 四号耸耸肩，毫不在意。"],
       randStatus4: () =>
          world.bad_lizard > 1
-            ? ["<32>{#p/story}* Smells like men's body spray."]
-            : ['<32>{#p/story}* Smells like perfume.'],
+            ? ["<32>{#p/story}* 空气中飘来阵阵男士体香。"]
+            : ['<32>{#p/story}* 空气中飘来阵阵香水芬芳。'],
       randStatus5: () =>
          world.bad_lizard > 1
-            ? ['<32>{#p/story}* 01 and 02 refer to themselves as \"brotally swagical.\"']
-            : ['<32>{#p/story}* 03 puts on a brave face.\n* 04 replies non-verbally with her own bravery.'],
+            ? ['<32>{#p/story}* 一号和二号说\n  他们是“最酷的铁哥们”。']
+            : ['<32>{#p/story}* 三号鼓起了勇气。\n* 四号回应以无言的勇气。'],
       randTalkLone1: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}{@random=1.1/1.1}下地狱吧。']
-            : ["<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."],
+            : ["<11>{#p/basic}{~}{@random=1.1/1.1}再也无从得知..."],
       randTalkLone2: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}{@random=1.1/1.1}死有余辜。']
-            : ["<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."],
+            : ["<11>{#p/basic}{~}{@random=1.1/1.1}一切都晚了..."],
       randTalkLone3: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}{@random=1.1/1.1}禽兽不如。']
-            : ['<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance...'],
+            : ['<11>{#p/basic}{~}{@random=1.1/1.1}永远没机会...'],
       randTalkLone4: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}{@random=1.1/1.1}给我去死。']
-            : ["<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."],
+            : ["<11>{#p/basic}{~}{@random=1.1/1.1}不要啊..."],
       randStatusLone: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* 只剩一个了。']
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* 01 seems even more focused than before.']
-               : ['<32>{#p/story}* 03 is in disarray.'],
+               ? ['<32>{#p/story}* 一号变得更加专注。']
+               : ['<32>{#p/story}* 三号已经彻底懵了。'],
 
-      act_flirt: ['<32>{#p/human}* (You flirt with 03.)'],
-      flirtTalk1: ['<11>{#p/basic}{~}Flirting is strictly forbidden.'],
-      flirtTalk2: ["<11>{#p/basic}{~}You think that's gonna work on us?"],
-      flirtTalkNervy1: ['<11>{#p/basic}{~}Flirting is... ack...'],
-      flirtTalkNervy2: ["<11>{#p/basic}{~}That's not really... ack..."],
+      act_flirt: ['<32>{#p/human}* （你向三号守卫调情。）'],
+      flirtTalk1: ['<11>{#p/basic}{~}不准调情。'],
+      flirtTalk2: ["<11>{#p/basic}{~}这招对我们\n根本没用。"],
+      flirtTalkNervy1: ['<11>{#p/basic}{~}调情可真... 唉...'],
+      flirtTalkNervy2: ["<11>{#p/basic}{~}感觉也... 唉..."],
       flirtTalkLone: ['<11>{#p/basic}{~}...'],
-      flirtStatus: ['<32>{#p/story}* 03 struggles to contain her feelings.\n* 04 seems confused...'],
-      flirtStatusNervy: ["<32>{#p/story}* 03's feelings are bursting at the seams.\n* 04 seems concerned..."],
+      flirtStatus: ['<32>{#p/story}* 三号努力克制自己的情愫。\n* 四号有点不解...'],
+      flirtStatusNervy: ["<32>{#p/story}* 三号快要按捺不住自己的心意。\n* 四号有些担忧..."],
       act_flirt_happy: [
-         '<32>{#p/human}* (You flirt with 03.)\n* (She accepts the compliment, but remains focused on 04.)'
+         '<32>{#p/human}* （你向三号守卫调情。）\n* （她接受了你的赞美，\n  但仍痴情于四号。）'
       ],
-      act_flirt_nada: ["<32>{#p/human}* (You flirt with 01.)\n* (He doesn't seem to react in any significant way.)"],
+      act_flirt_nada: ["<32>{#p/human}* （你向一号守卫调情。）\n* （他根本不搭理你。）"],
 
-      act_tug: ["<32>{#p/human}* (You try to pull on 03's glove, but she slaps your hand away.)"],
-      tugTalk1: ['<11>{#p/basic}{~}Paws off, sister.'],
-      tugTalk2: ['<11>{#p/basic}{~}No touchy.'],
-      tugTalk3: ["<11>{#p/basic}{~}That's off- limits to you."],
-      tugTalk4: ['<11>{#p/basic}{~}Nope.'],
-      tugStatus: ['<32>{#p/story}* It would seem some boundaries are better left uncrossed.'],
-      act_tug_lone: ["<32>{#p/human}* (You try to pull on 03's glove, but she raises it out of your reach.)"],
+      act_tug: ["<32>{#p/human}* （你伸手去拉三号的手套，\n  结果被她一把推开。）"],
+      tugTalk1: ['<11>{#p/basic}{~}给我收敛点。'],
+      tugTalk2: ['<11>{#p/basic}{~}不准碰我。'],
+      tugTalk3: ["<11>{#p/basic}{~}出格了。"],
+      tugTalk4: ['<11>{#p/basic}{~}走开。'],
+      tugStatus: ['<32>{#p/story}* 看来，有些红线真不能乱碰。'],
+      act_tug_lone: ["<32>{#p/human}* （你伸手去拉三号的手套，\n  她猛地抬起爪子，你扑了个空。）"],
       tugTalkLone: ['<11>{#p/basic}{~}...'],
-      tugStatusLone: ['<32>{#p/story}* 03 towers above you, masking her true expression.'],
+      tugStatusLone: ['<32>{#p/story}* 三号俯视着你，\n  竭力掩藏内心的感受。'],
       act_tug_happy: [
-         "<32>{#p/human}* (You hold 03's paw.)",
-         '<32>{#p/basic}* 03 mistakenly believes 04 is holding her paw...'
+         "<32>{#p/human}* （你抓住了三号的爪子。）",
+         '<32>{#p/basic}* 三号错把你的手\n  当成了四号的爪子...'
       ],
 
-      tugShock: ['<11>{#p/basic}{~}04...!', '<11>{#p/basic}{~}...', '<11>{#p/basic}{~}That bracelet...'],
-      nervyTalk1: ['<11>{#p/basic}{~}04, I...'],
-      nervyTalk2: ['<11>{#p/basic}{~}04, we...'],
-      nervyTalk3: ['<11>{#p/basic}{~}04, you...'],
-      nervyTalk4: ["<11>{#p/basic}{~}04, it's..."],
-      nervyStatus: ['<32>{#p/story}* The solar winds begin to shift towards your favor.'],
+      tugShock: ['<11>{#p/basic}{~}四号...！', '<11>{#p/basic}{~}...', '<11>{#p/basic}{~}那只手镯...'],
+      nervyTalk1: ['<11>{#p/basic}{~}四号，\n我...'],
+      nervyTalk2: ['<11>{#p/basic}{~}四号，\n我们...'],
+      nervyTalk3: ['<11>{#p/basic}{~}四号，\n你...'],
+      nervyTalk4: ["<11>{#p/basic}{~}四号，\n这太..."],
+      nervyStatus: ['<32>{#p/story}* 太阳风开始转向，\n  助你一路顺风。'],
 
-      act_whisper: ['<32>{#p/human}* (You whisper to 03 to open up about her feelings.)'],
-      act_whisper_alt: ['<32>{#p/human}* （你和三号守卫说悄悄话。）\n* （什么都没发生。）'],
+      act_whisper: ['<32>{#p/human}* （你跟三号守卫悄悄说，\n  有爱就要大声说出来。）'],
+      act_whisper_alt: ['<32>{#p/human}* （你跟三号守卫说了几句悄悄话。）\n* （什么都没发生。）'],
 
-      confess1: ['<11>{#p/basic}{~}04...'],
-      confess2: ['<11>{#p/basic}{~}...', '<11>{#p/basic}{~}... yeah, 03?'],
-      confess3: ['<11>{#p/basic}{~}Look at me, 04...'],
-      confess4: ["<11>{#p/basic}{~}But that's..."],
-      confess5: ['<11>{#p/basic}{~}The bracelet of unity...', '<11>{#p/basic}{~}Remember?'],
+      confess1: ['<11>{#p/basic}{~}四号...'],
+      confess2: ['<11>{#p/basic}{~}...', '<11>{#p/basic}{~}...怎么了，\n三号？'],
+      confess3: ['<11>{#p/basic}{~}看我的手...'],
+      confess4: ["<11>{#p/basic}{~}那是..."],
+      confess5: ['<11>{#p/basic}{~}是团结手镯。', '<11>{#p/basic}{~}记得吗？'],
       confess6: [
-         "<11>{#p/basic}{~}It's you...",
-         "<11>{#p/basic}{~}I thought I'd lost you, all those years ago...",
-         "<11>{#p/basic}{~}I thought I'd never see you again.",
-         "<11>{#p/basic}{~}But now...\nAfter graduating from Undyne's training..."
+         "<11>{#p/basic}{~}是你！",
+         "<11>{#p/basic}{~}这么多年\n没见到你了...",
+         "<11>{#p/basic}{~}我以为，\n咱们再也\n无缘相见。",
+         "<11>{#p/basic}{~}那之后...\n我在安黛因\n手下\n接受训练。\n没想到..."
       ],
       confess7: [
-         "<11>{#p/basic}{~}We're together again, 04.\nJust like before.",
-         '<11>{#p/basic}{~}And, no matter what names we go by...',
-         '<11>{#p/basic}{~}I will always love you.'
+         "<11>{#p/basic}{~}过了这么\n多年，我还能\n再见到你，\n四号。",
+         '<11>{#p/basic}{~}不管你我的\n名字怎么变...',
+         '<11>{#p/basic}{~}我对你的爱\n永远不变。'
       ],
-      confess8: ['<11>{#p/basic}{~}03, I...', '<11>{#p/basic}{~}I love you too!'],
-      confess9: ['<11>{#p/basic}{~}... do you wanna get some ice cream?'],
-      confess10: ['<11>{#p/basic}{~}Salmon- flavored?'],
-      confess11: ['<11>{#p/basic}{~}You know it!'],
+      confess8: ['<11>{#p/basic}{~}三号...', '<11>{#p/basic}{~}我也爱你！'],
+      confess9: ['<11>{#p/basic}{~}...我带你去\n吃冰淇淋吧？'],
+      confess10: ['<11>{#p/basic}{~}三文鱼味的？'],
+      confess11: ['<11>{#p/basic}{~}想一块去了！'],
 
-      happyTalk1: ['<11>{#p/basic}{~}I missed you...'],
-      happyTalk2: ["<11>{#p/basic}{~}I'm glad you're here..."],
-      happyTalk3: ['<11>{#p/basic}{~}To think it was you, all this time...'],
-      happyTalk4: ['<11>{#p/basic}{~}To think I forgot about those beautiful eyes...'],
-      happyStatus: ['<32>{#p/story}* 03 and 04 are looking happily at each other.'],
+      happyTalk1: ['<11>{#p/basic}{~}这么多年，\n我好想你...'],
+      happyTalk2: ["<11>{#p/basic}{~}有你陪着我，\n好开心..."],
+      happyTalk3: ['<11>{#p/basic}{~}没想到，\n一起并肩\n作战的人\n原来就是你...'],
+      happyTalk4: ['<11>{#p/basic}{~}没想到，\n那双明眸，\n就是你的...'],
+      happyStatus: ['<32>{#p/story}* 三号和四号幸福地望着彼此。'],
 
       horrorTalk1: [
-         '<11>{#p/basic}{~}{@random=1.1/1.1}N... no...',
-         '<11>{#p/basic}{~}{@random=1.1/1.1}We were gonna be... so happy together...'
+         '<11>{#p/basic}{~}{@random=1.1/1.1}不... 不要...',
+         '<11>{#p/basic}{~}{@random=1.1/1.1}明明说好...\n  要幸福地在一起...'
       ],
-      horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}I can't go on..."],
-      horrorTalk3: ["<11>{#p/basic}{~}{@random=1.1/1.1}I don't want to live like this anymore..."],
+      horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}我受不了了..."],
+      horrorTalk3: ["<11>{#p/basic}{~}{@random=1.1/1.1}求求你，\n让我去死..."],
       horrorTalk4: ['<11>{#p/basic}{~}{@random=1.1/1.1}...'],
       horrorStatus: ['<32>{#p/story}* ...'],
 
@@ -9340,122 +9340,122 @@ export default {
          world.goatbro
             ? ['<32>{#p/asriel2}* 离死不远了。']
             : world.bad_lizard > 1
-               ? ["<32>{#p/story}* 01's gaze pans downwards to the floor."]
-               : ["<32>{#p/story}* 03's breathing intensifies."]
+               ? ["<32>{#p/story}* 一号守卫望向地面。"]
+               : ["<32>{#p/story}* 三号守卫喘着粗气。"]
    },
 
    b_opponent_rg02: {
       name: () => (world.bad_lizard > 1 ? '* 二号守卫' : '* 四号守卫'),
       epiphaNOPE: () =>
          world.bad_lizard > 1
-            ? ["<11>{#p/basic}{~}I don't get this at all..."]
-            : ["<11>{#p/basic}{~}That won't work on me."],
+            ? ["<11>{#p/basic}{~}没看懂\n那人在干啥..."]
+            : ["<11>{#p/basic}{~}这招对我\n不好使。"],
       act_check: () =>
          world.goatbro
             ? ["<32>{#p/asriel2}* 二号守卫...\n* 这俩货我没啥好说的。"]
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* RG 02 - ATK 30 DEF 20\n* A confident lover who seems intent on stopping you.']
-               : ["<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Believes in friendship, but isn't against something more..."],
+               ? ['<32>{#p/story}* 二号守卫 - 攻击30 防御20\n* 这对自信的情侣\n  似乎铁了心想阻止你。']
+               : ["<33>{#p/story}* 四号守卫 - 攻击30 防御20\n* 她忠于友情，\n  但缘分到了，也愿意更进一步..."],
       act_check2: () =>
          world.goatbro
-            ? ["<32>{#p/asriel2}* RG 02.\n* Only one left."]
+            ? ["<32>{#p/asriel2}* 二号守卫。\n* 就剩他自己了。"]
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* RG 02 - ATK 30 DEF 20\n* Intent on stopping you, no matter what it takes.']
-               : ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Planning on shopping for new armor soon.'],
-      act_check3: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Re-united at last...'],
-      act_check4: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Broken.'],
-      act_check5: ['<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Feeling somewhat exposed...'],
-      act_check6: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Eager to see you dead.'],
+               ? ['<32>{#p/story}* 二号守卫 - 攻击30 防御20\n* 就算命丧黄泉，\n  也要彻底消灭你。']
+               : ['<32>{#p/story}* 四号守卫 - 攻击30 防御20\n* 之后想淘一件新盔甲。'],
+      act_check3: ['<32>{#p/story}* 四号守卫 - 攻击30 防御20\n* 她俩终于在一起了...'],
+      act_check4: ['<32>{#p/story}* 四号守卫 - 攻击30 防御20\n* 心碎了。'],
+      act_check5: ['<32>{#p/story}* 四号守卫 - 攻击30 防御20\n* 有点“露骨”...'],
+      act_check6: ['<32>{#p/story}* 四号守卫 - 攻击30 防御20\n* 恨不得马上杀了你。'],
       randTalk1: () => ['<11>{#p/basic}{~}组合技！'],
       randTalk2: () =>
-         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}一劳永逸！'] : ['<11>{#p/basic}{~}Absolutely!'],
+         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}一劳永逸！'] : ['<11>{#p/basic}{~}纯普通朋友！'],
       randTalk3: () =>
-         world.bad_lizard > 1 ? ["<11>{#p/basic}{~}You don't stand a chance!"] : ['<11>{#p/basic}{~}No romance here!'],
+         world.bad_lizard > 1 ? ["<11>{#p/basic}{~}你就是\n在送死！"] : ['<11>{#p/basic}{~}强扭的瓜\n不甜！'],
       randTalk4: () =>
-         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Totally, bro!'] : ['<11>{#p/basic}{~}Oh you know it, girl!'],
+         world.bad_lizard > 1 ? ['<11>{#p/basic}{~}必须滴，\n兄弟！'] : ['<11>{#p/basic}{~}肯定的，\n姑娘！'],
       randTalkLone1: () =>
          world.bad_lizard > 1
             ? ["<11>{#p/basic}{~}{@random=1.1/1.1}你完蛋了！！"]
-            : ['<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?'],
+            : ['<11>{#p/basic}{~}{@random=1.1/1.1}为什么要\n这样对我！？'],
       randTalkLone2: () =>
          world.bad_lizard > 1
             ? ["<11>{#p/basic}{~}{@random=1.1/1.1}休想得逞！！"]
-            : ['<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!'],
+            : ['<11>{#p/basic}{~}{@random=1.1/1.1}我就她一个\n朋友啊...！'],
       randTalkLone3: () =>
          world.bad_lizard > 1
             ? ['<11>{#p/basic}{~}{@random=1.1/1.1}老子\n宰了你！！']
-            : ['<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!'],
+            : ['<11>{#p/basic}{~}{@random=1.1/1.1}她就是\n我的唯一...'],
       randTalkLone4: () =>
          world.bad_lizard > 1
             ? ["<11>{#p/basic}{~}{@random=1.1/1.1}血债血偿！"]
-            : ['<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?'],
+            : ['<11>{#p/basic}{~}{@random=1.1/1.1}你到底是\n什么怪物！？'],
       randStatusLone: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* 只剩一个了。']
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* 02 has lost his temper.']
-               : ['<32>{#p/story}* 04 is in shambles.'],
+               ? ['<32>{#p/story}* 二号的情绪彻底失控。']
+               : ['<32>{#p/story}* 四号已经心乱如麻。'],
 
-      act_flirt: ['<32>{#p/human}* (You flirt with 04.)'],
-      flirtTalk1: ["<11>{#p/basic}{~}It's in the rules!"],
-      flirtTalk2: ["<11>{#p/basic}{~}It won't!"],
-      flirtTalkNervy1: ["<11>{#p/basic}{~}It's against the rules!"],
-      flirtTalkNervy2: ["<11>{#p/basic}{~}It's not our thing!"],
+      act_flirt: ['<32>{#p/human}* （你向四号守卫调情。）'],
+      flirtTalk1: ["<11>{#p/basic}{~}严禁调情！"],
+      flirtTalk2: ["<11>{#p/basic}{~}根本没用！"],
+      flirtTalkNervy1: ["<11>{#p/basic}{~}真不像话！"],
+      flirtTalkNervy2: ["<11>{#p/basic}{~}也跟我们\n没关系！"],
       flirtTalkLone: ['<11>{#p/basic}{~}...'],
       act_flirt_happy: [
-         "<32>{#p/human}* (You flirt with 04.)\n* (She's flattered, but her eyes remain locked with 03.)"
+         "<32>{#p/human}* （你向四号守卫调情。）\n* （她回应了你的赞美，\n  但仍痴情于三号。）"
       ],
-      act_flirt_nada: ["<32>{#p/human}* (You flirt with 02.)\n* (He doesn't seem to react in any significant way.)"],
+      act_flirt_nada: ["<32>{#p/human}* （你向二号守卫调情。）\n* （他根本不搭理你。）"],
 
-      act_tug: ["<32>{#p/human}* (You pull on 04's glove.)", "<32>{#p/basic}* 04's glove seems loose..."],
-      tugTalk1: ['<11>{#p/basic}{~}W-what are you doing?'],
-      tugTalk2: ["<11>{#p/basic}{~}Don't tell me you're going to..."],
-      tugTalk3: ['<11>{#p/basic}{~}I...\nThis is...'],
+      act_tug: ["<32>{#p/human}* （你伸手去拉四号的手套。）", "<32>{#p/basic}* 手套似乎松动了..."],
+      tugTalk1: ['<11>{#p/basic}{~}你-你在\n干什么？'],
+      tugTalk2: ["<11>{#p/basic}{~}难不成...\n你要..."],
+      tugTalk3: ['<11>{#p/basic}{~}我...\n这太...'],
       tugTalk4: ['<11>{#p/basic}{~}...'],
-      tugStatus: ["<32>{#p/story}* 04's glove is slipping."],
-      act_tug_lone: ["<32>{#p/human}* (You pull on 04's glove.)", "<32>* 04's glove comes right off!"],
+      tugStatus: ["<32>{#p/story}* 四号的手套\n  眼看就要掉下来了。"],
+      act_tug_lone: ["<32>{#p/human}* （你伸手去拉四号的手套。）", "<32>* 她的手套直接就掉了！"],
       tugTalkLone: ['<11>{#p/basic}{~}...'],
-      tugStatusLone: ['<32>{#p/story}* 04 shows no resistance.'],
-      act_tug_hold: ["<32>{#p/human}* (You hold 04's claw.)"],
-      holdTalk: ['<11>{#p/basic}{~}Uh...'],
-      holdStatus: ['<32>{#p/story}* 04 is not really sure what to make of this.'],
-      act_tug_hold_lone: ["<32>{#p/human}* (You hold 04's claw.)\n* (Nothing happens.)"],
+      tugStatusLone: ['<32>{#p/story}* 四号不理不睬，任你摆布。'],
+      act_tug_hold: ["<32>{#p/human}* （你抓住了四号的爪子。）"],
+      holdTalk: ['<11>{#p/basic}{~}呃...'],
+      holdStatus: ['<32>{#p/story}* 四号有些不知所措。'],
+      act_tug_hold_lone: ["<32>{#p/human}* （你抓住了四号的爪子。）\n* （可她一点反应都没有。）"],
       holdTalkLone: ['<11>{#p/basic}{~}...'],
-      holdStatusLone: ['<32>{#p/story}* 04 just lets it happen.'],
+      holdStatusLone: ['<32>{#p/story}* 四号放弃了抵抗。'],
       act_tug_happy: [
-         "<32>{#p/human}* (You hold 04's claw.)",
-         '<32>{#p/basic}* 04 mistakenly believes 03 is holding her claw...'
+         "<32>{#p/human}* （你抓住了四号的爪子。）",
+         '<32>{#p/basic}* 四号错把你的手\n  当成了三号的爪子...'
       ],
-      tugSuccessStatus: ['<32>{#p/story}* The veil has been lifted.'],
+      tugSuccessStatus: ['<32>{#p/story}* 真是饺子破了皮——露馅了。'],
 
-      tugShock: ["<11>{#p/basic}{~}My glove...\nIt's coming off...!"],
-      nervyTalk1: ['<11>{#p/basic}{~}03...?'],
-      nervyTalk2: ['<11>{#p/basic}{~}Why are you looking at me that way?'],
-      nervyTalk3: ["<11>{#p/basic}{~}What's with that face, 03?"],
-      nervyTalk4: ['<11>{#p/basic}{~}Are you okay?'],
+      tugShock: ["<11>{#p/basic}{~}我的手套...\n要掉了...！"],
+      nervyTalk1: ['<11>{#p/basic}{~}三号...？'],
+      nervyTalk2: ['<11>{#p/basic}{~}干嘛露出\n那样的眼神？'],
+      nervyTalk3: ["<11>{#p/basic}{~}三号，\n你的表情\n怎么怪怪的？"],
+      nervyTalk4: ['<11>{#p/basic}{~}你没事吧？'],
 
-      act_whisper: ['<32>{#p/human}* (You whisper to 04, but she just seems confused.)'],
-      act_whisper_alt: ['<32>{#p/human}* （你和四号守卫说悄悄话。）\n* （什么都没发生。）'],
+      act_whisper: ['<32>{#p/human}* （你跟四号守卫说了几句悄悄话。）\n* （可她更加困惑了。）'],
+      act_whisper_alt: ['<32>{#p/human}* （你跟四号守卫说了几句悄悄话。）\n* （什么都没发生。）'],
 
-      happyTalk1: ['<11>{#p/basic}{~}I missed you too!'],
-      happyTalk2: ["<11>{#p/basic}{~}I'm glad YOU'RE here!"],
-      happyTalk3: ['<11>{#p/basic}{~}Haha, yeah...'],
-      happyTalk4: ['<11>{#p/basic}{~}Think nothing of it, sweetheart!'],
+      happyTalk1: ['<11>{#p/basic}{~}我也想你！'],
+      happyTalk2: ["<11>{#p/basic}{~}有你在身边，\n好开心！"],
+      happyTalk3: ['<11>{#p/basic}{~}哈哈，\n可不是么...'],
+      happyTalk4: ['<11>{#p/basic}{~}宝贝，\n别多想了！'],
 
       horrorTalk1: [
-         '<11>{#p/basic}{~}{@random=1.1/1.1}N... no...',
-         '<11>{#p/basic}{~}{@random=1.1/1.1}We were gonna do... so much together...'
+         '<11>{#p/basic}{~}{@random=1.1/1.1}不... 不要...',
+         '<11>{#p/basic}{~}{@random=1.1/1.1}明明说好...\n要一起做\n好多好多事...'
       ],
-      horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}I can't accept it..."],
-      horrorTalk3: ['<11>{#p/basic}{~}{@random=1.1/1.1}Just... kill me...'],
+      horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}不可能..."],
+      horrorTalk3: ['<11>{#p/basic}{~}{@random=1.1/1.1}求求你...\n杀了我吧...'],
       horrorTalk4: ['<11>{#p/basic}{~}{@random=1.1/1.1}...'],
 
       dangerStatus: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* 离死不远了。']
             : world.bad_lizard > 1
-               ? ['<32>{#p/story}* 02 holds his head high.']
-               : ["<32>{#p/story}* 04's breathing intensifies."]
+               ? ['<32>{#p/story}* 二号守卫昂起头颅。']
+               : ["<32>{#p/story}* 四号守卫喘着粗气。"]
    },
 
    b_use: {
@@ -10064,9 +10064,9 @@ export default {
 
                   ?.position.extentOf(game.camera.position.clamp(...renderer.region)) ?? 240) < 240
                   ? [
-                     '<25>{#p/alphys}{#g/alphysOhGodNo}* W-was that my drink!?',
-                     '<25>{#p/alphys}{#f/10}* Oh... my god...',
-                     '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* You did not hold back!'
+                     '<25>{#p/alphys}{#g/alphysOhGodNo}* 那-那不是我的饮料吗！？',
+                     '<25>{#p/alphys}{#f/10}* 我... 的... 天...',
+                     '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* 你就不能克制一下吗！'
                   ]
                   : [])
             ]
@@ -10962,15 +10962,15 @@ export default {
                : ["<30>{#p/basic}{#k/6}* 这事找我没戏，小家伙。"],
       talk: () =>
          SAVE.data.n.plot === 72
-            ? ['Romantic Advice', '镁塔顿', 'Where To Go Next', 'My Future', '离开']
+            ? ['恋爱心得', '镁塔顿', '下一步去哪', '我的未来', '离开']
             : [
-               ['人生感悟', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge'][
+               ['人生感悟', '§fill=#ff0§主动出击（新）', '主动出击'][
                Math.min(SAVE.data.n.shop_bpants_advice, 2)
                ],
                '镁塔顿',
                postSIGMA()
                   ? '突然停电'
-                  : ['我们在哪', '§fill=#ff0§Glyde (NEW)', '老滑头'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
+                  : ['我们在哪', '§fill=#ff0§老滑头（新）', '老滑头'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
                '你的未来',
                '离开'
             ],
@@ -11044,10 +11044,10 @@ export default {
                               '<32>{#k/5}* 您也是真有本事，\n  能把人恶心成这样...\n  也算是前无古人了。'
                            ]
                            : [
-                              '<32>{#p/basic}{#k/4}* Why does it always have to be about him...',
-                              "<32>{#k/0}* Yeah, he's a bit of an icon around here.\n* Everybody loves him...",
+                              '<32>{#p/basic}{#k/4}* 咋总绕不开他啊...',
+                              "<32>{#k/0}* 是，他算这前哨站上的偶像吧。\n* 大家伙都爱他...",
                               '<32>{#k/6}* Except for yours truly, of course. I spit on him with every breath I take.',
-                              "<32>{#k/5}* No, really.\n* I've got a little figurine of him under the counter, and I make sure as much saliva as possible hits his face.",
+                              "<32>{#k/5}* 我说真的。\n* 我在柜台下面摆了个他的塑像，\n  讲话的时候，我就喷他一脸唾沫星子，\n  越多越好。",
                               "<32>{#k/4}* You wouldn't BELIEVE the crap he put me through working here...",
                               '<32>{#k/6}* After he got out of my way I gracefully stripped the shop of all the MTT-brand trimmings.',
                               '<32>* Oh, and of course I renamed all the food items.',
@@ -11171,9 +11171,9 @@ export default {
             : '防具：12防御\n(当前防御$(x))\n让武器\n瞄准更容易。',
          '特殊物品：\n也许能帮你\n进入某处。'
       ],
-      itemPrompt: '<99>{#p/basic}{#k/0/9}{@fill=#d4bbff}You\nshould\nbuy ALL\nour stuff!',
+      itemPrompt: '<99>{#p/basic}{#k/0/9}{@fill=#d4bbff}你就该\n把我们的商品\n统统买下来！',
       itemPurchase: [
-         "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}Bratty!\nWe're gonna be rich!",
+         "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}布莱蒂！\n我们发财了！",
          '<09>{#p/basic}{#k/0/4}{@fill=#d4bbff}So are you gonna buy it??',
          '<09>{#p/basic}{#k/4/5}{@fill=#d4bbff}You need WAY more money.',
          "<10>{#p/human}(你带的东西\n太多了。）"
@@ -11192,8 +11192,8 @@ export default {
             : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}We're all sold out!\nMee-YOW!",
       menu: () =>
          adultEvac() ? ['拿取', '偷窃', '阅读', '离开'] : ['购买', world.meanie ? '偷窃' : '出售', '交谈', '离开'],
-      menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!',
-      menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything.',
+      menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* 快来看看吧！',
+      menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* 走过路过，不要错过。\n  别急着走嘛。',
       menuPrompt3: () =>
          world.bulrun ? '<23>{#p/basic}* ...但是大家都逃走了。' : '<23>{#p/basic}* ...但是谁也没有来。',
       note: () => [
@@ -11233,7 +11233,7 @@ export default {
                   [
                      !world.badder_lizard
                         ? {
-                           b: '<16>* “我们才不想\n   在这傻等，等着...”',
+                           b: '<16>* “我们才不想\n   在这傻等，\n   等着...”',
                            c: '<16>* “...等着你把我们\n  都揍个遍。”'
                         }
                         : {
@@ -11243,7 +11243,7 @@ export default {
                      {
                         b: '<16>* “不过，走之前，\n   我们得把这些彩笔\n   用完。”',
                         c: !world.badder_lizard
-                           ? '<16>* “是的呢。\n   咱可不能糟蹋笔！”'
+                           ? '<16>* “是的呢。\n   咱可不能\n   糟蹋笔！”'
                            : '<16>* “是啊。”\n* “冷静点，艾菲斯！\n   咱可不能糟蹋笔！”'
                      },
                      {
@@ -11290,12 +11290,12 @@ export default {
             : world.meanie
                ? [
                   {
-                     b: '<16>{#k/2/6}* Um, excuse me?',
-                     c: '<16>{#k/2/6}* Like, what are you doing?'
+                     b: '<16>{#k/2/6}* 呃，等一下？',
+                     c: '<16>{#k/2/6}* 那个，你在干啥？'
                   },
                   {
                      b: "<16>{#k/1/0}* We don't hand out stuff for free.",
-                     c: '<16>{#k/1/0}* Yeah, go steal somewhere else!'
+                     c: '<16>{#k/1/0}* 没错，想偷东西\n  别来我们这儿！'
                   }
                ]
                : SAVE.storage.inventory.has('glamburger') // NO-TRANSLATE
@@ -11367,12 +11367,12 @@ export default {
                ],
       talk: () =>
          SAVE.data.n.plot === 72
-            ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', '离开']
+            ? ['大伙没事吧', '神祇出现了', '域外网咋关了', '聊聊人类', '离开']
             : [
-               'About You Two',
-               SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? '镁塔顿' : 'Grand Finale',
-               ['Area Ownership', '§fill=#ff0§Burgie (NEW)', '堡堡'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
-               ['艾菲斯', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', '艾斯戈尔'][
+               '聊聊你俩',
+               SAVE.data.n.plot < 68 ? '聊聊这旧货铺' : SAVE.data.b.killed_mettaton ? '镁塔顿' : '压轴好戏',
+               ['这地方归谁', '§fill=#ff0§堡堡（新）', '堡堡'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
+               ['艾菲斯', '§fill=#ff0§皇家科学员（新）', '§fill=#ff0§艾斯戈尔（新）', '艾斯戈尔'][
                Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                ],
                '离开'
@@ -11402,8 +11402,8 @@ export default {
                ]
                : [
                   {
-                     b: "<16>{#k/0/0}* I'm Bratty, and this is my best friend, Catty.",
-                     c: "<16>* I'm Catty, and this is my best friend, Bratty.",
+                     b: "<16>{#k/0/0}* 我叫布莱蒂，而这位\n  是我最要好的闺蜜，\n  凯蒂。",
+                     c: "<16>* 我叫凯蒂，而这位\n  是我最要好的闺蜜，\n  布莱蒂。",
                      s: true
                   },
                   {
@@ -11414,7 +11414,7 @@ export default {
                   },
                   '{*}{#s/meow}{%}',
                   {
-                     b: '<16>{#k/5/8}* Mmm hm hm!',
+                     b: '<16>{#k/5/8}* 呣呼呼！',
                      c: '<16>* 喵哈哈！',
                      s: true
                   },
@@ -11450,7 +11450,7 @@ export default {
                : SAVE.data.n.plot < 68
                   ? [
                      {
-                        b: "<16>{#k/0/6}* It's like, a second-hand store.",
+                        b: "<16>{#k/0/6}* 其实这就是个，呃，\n  二手商店。",
                         c: "<16>{#k/0/2}* No it's like, a BARGAIN outlet!"
                      },
                      {
@@ -11556,8 +11556,8 @@ export default {
                : [
                   [
                      {
-                        b: "<16>{#k/2/1}* Oh yeah, we're technically the owners here.",
-                        c: '<16>* Oh yeah, we practically RULE this zone.', 
+                        b: "<16>{#k/2/1}* 啊没错，严格说来\n  我们就是主人。",
+                        c: '<16>* 啊没错，这地儿\n  可以算归我们管。', 
                         s: true
                      },
                      ...(SAVE.data.b.killed_mettaton
@@ -11576,20 +11576,20 @@ export default {
                            },
                            {
                               b: "<16>{#k/1/0}* Anyway, Burgie's the one who put us in charge.",
-                              c: "<16>* We haven't questioned it since."
+                              c: "<16>* 姐俩也没质疑过\n  这码事。"
                            }
                         ]
                         : [
                            {
-                              b: '<16>{#k/2/1}* So like, originally, Mettaton was in charge here, right?',
-                              c: '<16>{#k/1/1}* Totally in charge.'
+                              b: '<16>{#k/2/1}* 那个，一开始，\n  这儿归镁塔顿来着，\n  对吧？',
+                              c: '<16>{#k/1/1}* 完完全全。'
                            },
                            {
-                              b: '<16>{#k/2/5}* But then...',
-                              c: '<16>* Then...'
+                              b: '<16>{#k/2/5}* 不过后来...',
+                              c: '<16>* 后来呢...'
                            },
                            {
-                              b: '<16>{#k/4/4}* Burgie decided to \"overthrow\" him.',
+                              b: '<16>{#k/4/4}* Burgie决定“推翻”他。',
                               c: '',
                               s: true
                            },
@@ -11604,13 +11604,13 @@ export default {
                               s: true
                            },
                            {
-                              b: '<16>{#k/2/6}* I think he blackmailed him.',
-                              c: '<16>* I think he had an accomplice.',
+                              b: '<16>{#k/2/6}* 我觉得吧，\n  Burgie就是敲诈了他一手。',
+                              c: '<16>* 我觉得吧，\n  他肯定还找了个同谋。',
                               s: true
                            },
                            {
-                              b: '<16>{#k/1/0/1}* Anyway, he said we could be the new owners.',
-                              c: "<16>* We haven't questioned it since."
+                              b: '<16>{#k/1/0/1}* 话又说回来，后来他说\n  这一带可以让我们管。',
+                              c: "<16>* 姐俩也没质疑过\n  这码事。"
                            }
                         ])
                   ],
@@ -11621,13 +11621,13 @@ export default {
                         s: true
                      },
                      {
-                        b: "<16>{#k/0/5}* Yeah, he's alright.",
-                        c: "<16>* Eh, he's cool.",
+                        b: "<16>{#k/0/5}* 啊，他人还不错。",
+                        c: "<16>* 哎呀，他还挺酷的。",
                         s: true
                      },
                      {
-                        b: '<16>{#k/2/6}* He used to act all weird around us, but...',
-                        c: '<16>* ... he kinda keeps to himself now.'
+                        b: '<16>{#k/2/6}* 以前，他待在\n  姐俩身边的时候，\n  表现得不咋自然，\n  不过...',
+                        c: '<16>* ...他现在\n  不咋和人来往了。'
                      },
                      {
                         b: '<16>{#k/0/5}* Like, the last time we heard from him...',
@@ -11640,8 +11640,8 @@ export default {
                         s: true
                      },
                      {
-                        b: '<16>{#k/2/6}* Kinda sounds like...',
-                        c: '<16>* Sorta feels like...',
+                        b: '<16>{#k/2/6}* 听起来就像...',
+                        c: '<16>* 感觉就像...',
                         s: true
                      },
                      {
@@ -11655,33 +11655,33 @@ export default {
                         s: true
                      },
                      {
-                        b: '<16>{#k/2/5}* Catty, we would have said no.',
+                        b: '<16>{#k/2/5}* 凯蒂，我们保准会\n  回绝他的。',
                         c: '',
                         s: true
                      },
                      {
                         b: '',
-                        c: '<16>{#k/2/1}* ... or would we have said yes?',
+                        c: '<16>{#k/2/1}* ...说不准会答应呢？',
                         s: true
                      },
                      {
-                        b: '<16>{#k/4/1}* No.',
+                        b: '<16>{#k/4/1}* 回绝。',
                         c: '',
                         s: true
                      },
                      {
                         b: '',
-                        c: '<16>{#k/4/8}* Yes.',
+                        c: '<16>{#k/4/8}* 答应。',
                         s: true
                      },
                      {
-                        b: '<16>{#k/1/8}* No.',
+                        b: '<16>{#k/1/8}* 回绝。',
                         c: '',
                         s: true
                      },
                      {
                         b: '',
-                        c: '<16>{#k/1/7}* YES!',
+                        c: '<16>{#k/1/7}* 答-应！',
                         s: true
                      },
                      {
@@ -11696,17 +11696,17 @@ export default {
                      },
                      {
                         b: '',
-                        c: '<16>{#k/5/8}* Nope!!!',
+                        c: '<16>{#k/5/8}* 没呀！！！',
                         s: true
                      }
                   ],
                   [
                      {
-                        b: "<16>{#k/0/0}* There's not much more to say about Burgie, but-",
-                        c: '<16>{#k/0/8}* ... no, wait!\n* Can you go ask him to make us some food?'
+                        b: "<16>{#k/0/0}* 关于Burgie，\n  我们没啥好说的了，\n  不过",
+                        c: '<16>{#k/0/8}* ...不，等下！\n* 你能让他给姐俩\n  做点吃的吗？'
                      },
                      {
-                        b: '<16>{#k/4/8}* Catty!',
+                        b: '<16>{#k/4/8}* 凯蒂！',
                         c: '',
                         s: true
                      },
@@ -11769,10 +11769,10 @@ export default {
                ]
                : [
                   [
-                     { b: '<16>{#k/4/4}* Oh my god.\n* Alphys.', c: '<16>* Oh my god, ALPHYS.', s: true },
+                     { b: '<16>{#k/4/4}* 天呐。\n* 你说艾菲斯。', c: '<16>* 天呐，\n  你说艾菲斯。', s: true },
                      {
                         b: '<16>{#k/5/8}* She used to live in our housing spire!',
-                        c: '<16>* She was like a big sister!',
+                        c: '<16>* 她就和个\n  大姐姐一样！',
                         s: true
                      },
                      {
@@ -11798,9 +11798,9 @@ export default {
                   [
                      {
                         b: '<16>{#k/0/6}* So Alphys has always been, like...',
-                        c: '<16>{#k/0/0}* ... super duper smart.'
+                        c: '<16>{#k/0/0}* ...超级无敌聪明。'
                      },
-                     { b: '<16>{#k/2/4}* Like...', c: '<16>* UNNATURALLY smart.' },
+                     { b: '<16>{#k/2/4}* 怎么说呢...', c: '<16>* UNNATURALLY smart.' },
                      {
                         b: '<16>{#k/0/0}* Like, she can calculate a derivative in her head...',
                         c: '<16>{#k/0/2}* ... in five seconds FLAT!'
@@ -11842,12 +11842,12 @@ export default {
                   [
                      {
                         b: '<16>{#k/0/0}* Oh right, THAT goofy goober.',
-                        c: '<17>{#k/0/8}* Oh yeah, THAT furry fuzzball!',
+                        c: '<17>{#k/0/8}* 哦，那个\n  毛茸茸的小毛球！',
                         s: true
                      },
                      {
                         b: "<16>{#k/2/0}* So like, here's the thing about Asgore...",
-                        c: "<16>* ... he's one of the NICEST guys you'll ever meet."
+                        c: "<16>* ...他是你这辈子\n  能见到的\n  最好的人之一。"
                      },
                      ...[
                         [
@@ -11991,7 +11991,7 @@ export default {
                         ? ['<32>{#p/human}* (Reflecting on such an anti- climactic ending fills you with determination.)']
                         : SAVE.data.b.a_state_hapstablook
                            ? ['<32>{#p/human}* (Knowing how far Mettaton has come fills you with determination.)']
-                           : ['<32>{#p/human}* (Reflecting on your road to superstardom fills you with determination.)']
+                           : ['<32>{#p/human}* （回顾你的成名之路\n  使你充满了决心。）']
       },
       a_split: {
          name: '空境 - 喷泉',
@@ -12030,7 +12030,7 @@ export default {
       },
       a_core_entry1: {
          name: '空境 - 核心',
-         text: ['<32>{#p/human}* (The cold and computerized aesthetic in this area fills you with determination.)']
+         text: ['<32>{#p/human}* （这一带冰冷的机械之美\n  使你充满了决心。）']
       },
       a_core_checkpoint: {
          name: '核心 - 维护区',

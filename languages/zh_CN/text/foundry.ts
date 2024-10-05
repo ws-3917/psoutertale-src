@@ -149,7 +149,7 @@ export default {
                  '<32>* “王子曲成左门启，谁人可使右室显？”',
                  '<32>* “再奏谜自开。”'
               ],
-      tome0: () => [ '<32>{#p/basic}* 这册书牢牢地固定在底座上。' ],
+      tome0: () => [ '<32>{#p/basic}* 这宗卷轴被牢牢固定在底座上，\n  拿不起来。' ],
       tome1: () => [ '<32>{#p/human}* （你取下了卷轴《顿悟》。）' ],
       tome2: [ "<32>{#p/human}* （你带的东西太多，装不下它了。）" ],
       tome3: () =>
@@ -208,7 +208,7 @@ export default {
                choicer.create('* （拿走它吗？）', '是', '否')
             ]
          ][SAVE.data.n.state_foundry_astrofood],
-      astrofood2: [ '<32>{#p/human}* （你拿了一块太空豆腐。）' ],
+      astrofood2: [ '<32>{#p/human}* （你拿了一份太空豆腐。）' ],
       astrofood3: [ "<32>{#p/human}* （你带的东西太多了。）" ],
       astrofood4: () => [ '<32>{#p/human}* （你不打算这么做。）' ],
       astrofood5: () =>
@@ -834,17 +834,17 @@ export default {
             : [ "<32>{#p/basic}* 一个很开心的抱抱人偶。" ],
       epicreaction: () =>
          [
-            [ '<25>{#p/kidd}{#f/7}* 那是什么！？' ],
+            [ '<25>{#p/kidd}{#f/7}* 啥玩意啊！？' ],
             [ '<25>{#p/kidd}{#f/7}* 呃啊！！' ],
             [ '<25>{#p/kidd}{#f/7}* 别再来了啊！' ],
-            [ '<25>{#p/kidd}{#f/7}* 那东西到底有多少啊！' ],
+            [ '<25>{#p/kidd}{#f/7}* Undyne埋了多少这玩意啊！' ],
             [ '<25>{#p/kidd}{#f/7}* 认真的吗！？' ],
             [ '<25>{#p/kidd}{#f/7}* 天啊！！' ],
-            [ "<25>{#p/kidd}{#f/4}* 我们得想办法\n  从这里出去..." ],
+            [ "<25>{#p/kidd}{#f/4}* 我们得快点逃出去..." ],
             [ '<25>{#p/kidd}{#f/4}* ...' ]
          ][Math.min(SAVE.data.n.state_foundry_kiddreaction++, 7)],
-      fallenfish: [ '<33>{#p/basic}* 电流通过了她的全身。' ],
-      fallenfish2: [ "<32>{#p/basic}* 她倒下了。" ],
+      fallenfish: [ '<33>{#p/basic}* 电流击穿了她的身体。' ],
+      fallenfish2: [ "<32>{#p/basic}* 她陨落了。" ],
       fallenfish3: [ '<32>{#p/basic}* ... 但是什么也没发生。' ],
       finalfish1: [ '<25>{#p/undyne}{#f/19}* 嘎啊...' ],
       finalfish2: [ '<25>{#p/undyne}{#f/19}* 该死的...\n* 干扰...' ],
@@ -1173,7 +1173,7 @@ export default {
          ][Math.min(SAVE.flag.n.ga_asrielEpic++, 7)],
       hapstadoor1: () =>
          SAVE.data.b.svr ? [ "<32>{#p/human}* (But you didn't have the key.)" ] : [ "<32>{#p/basic}* 锁住了。" ],
-      hapstadoor2: [ '<32>{#p/human}* (You use the Mystery Key.)' ],
+      hapstadoor2: [ '<32>{#p/human}* （你用神秘钥匙打开了门。）' ],
       jumpsuit1: () => [
          '<32>{#p/human}* （你捡到了一件飞行服。）',
          choicer.create('* （穿上飞行服吗？）', '是', '否')
@@ -1800,8 +1800,8 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
-                    '<32>{#p/basic}* So what happened next?',
-                    '<32>* (Well, you should know.)\n* (This is the part that everyone knows.)',
+                    '<32>{#p/basic}* 然后呢？',
+                    '<32>* （哎呀，你咋能不知道呢。）\n* （后面的事，大伙都知道啊。）',
                     '<32>* (From our perspective, we saw a human fending off attacks...)',
                     '<32>* (Whatever that star turned himself into was relentlessly attacking the human.)',
                     '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
@@ -1845,10 +1845,10 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
-                    '<32>{#p/basic}* (Eventually, though, the human mustered some kind of power...)',
-                    '<32>* (And then...)',
-                    '<32>* (... IT... happened.)',
-                    '<32>* Yeah... that.\n* The moment where it all turned upside-down, huh?',
+                    '<32>{#p/basic}* （最后呢，就是，\n  人类动用了某种力量...）',
+                    '<32>* （接着...）',
+                    '<32>* （就是... 那事了。）',
+                    '<32>* 哦... 那个啊。\n* 形势逆转的那一刻吗？',
                     '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
                  ]
                : SAVE.data.n.plot === 72
@@ -1890,10 +1890,10 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
-                    '<32>{#p/basic}* I remember that bit.\n* The power changed hands... the human was in control.',
-                    '<32>* (Yeah, and then they started attacking us!)\n* (I thought we were all...)',
-                    '<32>* Going to die?',
-                    "<32>* (Yeah, and it's like I could feel their fear.)\n* (Everyone was so afraid.)",
+                    '<32>{#p/basic}* 我有点印象。\n* 人类掌控了那股力量...\n  掌控了战局。',
+                    '<32>* （对对对，然后他就开始攻击咱们了！）\n* （我还以为咱...）',
+                    '<32>* 死定了？',
+                    "<32>* （是这样，而且我能和别人感同身受。）\n* （每个人都惊恐万分。）",
                     '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
                  ]
                : SAVE.data.n.plot === 72
@@ -1926,10 +1926,10 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
-                    '<32>{#p/basic}* Yeah... I remember.',
+                    '<32>{#p/basic}* 啊... 都记着呢。',
                     "<32>* (Look, whatever happens...)\n* (I'm just glad you're safe, ya fat old mole-rat.)",
-                    "<32>* Wa ha ha... that's my boy.",
-                    '<32>* (... when we get to the new homeworld, would you... like to go out for dinner?)',
+                    "<32>* 哇哈哈... 真真是个好小子。",
+                    '<32>* （...等我们到新家园，要不...\n  咱出去吃一顿？）',
                     '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
                  ]
                : SAVE.data.n.plot === 72
@@ -2421,8 +2421,8 @@ export default {
                     ]
                   : [
                        "<32>{#p/basic}{#npc/a}* How'd you like our bridge?\n* Was it stable?\n* Was it gravitationally secure?",
-                       "<32>* Well, Shortsy said it's fine, and they're kinda the expert here.",
-                       "<32>* I'm mostly just here to carry around the tools!"
+                       "<32>* 哎呀，Shortsy反正说这桥可牢靠了。\n  它在这方面可懂行了。",
+                       "<32>* 我来这基本上只是帮它拿工具！"
                     ],
             () =>
                SAVE.data.n.plot === 72
@@ -2449,8 +2449,8 @@ export default {
                        "<32>* 我向你保证！"
                     ]
                   : [
-                       '<32>{#p/basic}{#npc/a}* Take a look at our newest bridge.',
-                       '<32>* Longsy and I figure this will be enough to impress the king...',
+                       '<32>{#p/basic}{#npc/a}* 瞧瞧咱俩新建的桥。',
+                       '<32>* 我的Longsy觉得\n  这肯定能打动国王的...',
                        "<32>* It needs to be if we're going to work alongside him!"
                     ],
             () =>
@@ -2459,7 +2459,7 @@ export default {
                   : SAVE.data.n.plot < 48
                   ? [ "<32>{#p/basic}{#npc/a}* 不遗余力，\n  将事情做到最好。\n* 这就是我。" ]
                   : [
-                       "<32>{#p/basic}{#npc/a}* No need to thank us, it's only a community service.\n* That's just what I do."
+                       "<32>{#p/basic}{#npc/a}* 不用谢咱俩，社区服务罢了。\n* 就是这样。"
                     ]
          ),
          f_snail1: () =>
@@ -2878,7 +2878,7 @@ export default {
          '<25>* 帮我留意一下，行吗？',
          '<25>* 谢了。'
       ],
-      spookydate21: [ '<25>{#p/sans}* ...呃，grillby。\n* 能帮忙把雅莫万用酱\n  递给我吗？' ],
+      spookydate21: [ '<25>{#p/sans}* ...呃，grillby。\n* 给我喷点雅莫万用酱呗？' ],
       spookydate22: [ '<25>{#p/sans}{#f/8}* 真是美味啊。' ],
       spookydate23: () =>
          world.population < 6
@@ -3458,7 +3458,7 @@ export default {
                : SAVE.data.n.plot_date > 1.3 && SAVE.data.n.plot_date < 2.1
                ? SAVE.data.n.state_wastelands_toriel === 0
                   ? [ "<32>{#p/basic}* Don't worry.\n* Everything is fine.\n* This happens all the time." ]
-                  : [ '<32>{#p/basic}* 什么。\n* 什么？\n* 什-么-！？', '<32>{#p/basic}* 这种情况经常发生的。' ]
+                  : [ '<32>{#p/basic}* 咋的。\n* 咋的？\n* 咋-的-！？', '<32>{#p/basic}* 这种事早就见怪不怪了。' ]
                : SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
 
                ? [
@@ -3474,7 +3474,7 @@ export default {
                           '<32>{#p/basic}* Well.\n* Well!\n* WELL!',
                           '<32>* You certainly know how to choose your battles.'
                        ]
-                  : [ '<32>{#p/basic}* Ugh.\n* Ugh!\n* UGH!', '<33>{#p/basic}* My life really sucks right now.' ]
+                  : [ '<32>{#p/basic}* 呃啊。\n* 呃啊！\n* 呃-啊！', '<33>{#p/basic}* 我的生活现在真是一团糟。' ]
                : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
                ? [
                     "<32>{#p/basic}* Hey, aren't you supposed to be in Mettaton's next show?",
@@ -3527,7 +3527,7 @@ export default {
                             "<32>* 像你这样软弱的凝视\n  永远比不上Undyne那\n  凶狠的凝视！"
                          ])
                  ]
-               : [ '<32>{#p/basic}* 什么。\n* 什么？\n* 什-么-！？', "<32>{#p/basic}* It's a living." ],
+               : [ '<32>{#p/basic}* 咋的。\n* 咋的？\n* 咋-的-！？', "<32>{#p/basic}* It's a living." ],
          f_view: [ '<25>{#p/kidd}{#f/14}* Awesome...' ],
          f_village_egg: () => [ "<32>{#p/basic}* 已经熟透了。" ],
          f_village_sign1: () =>
@@ -3976,11 +3976,11 @@ export default {
          SAVE.data.b.undyne_respecc
             ? [
                  "<25>{#p/undyne}{#f/1}* 嗨，初次见...",
-                 '<25>{#f/8}* ... OH MY GOD!!!',
+                 '<25>{#f/8}* ...我的天呐！！！',
                  '<18>{#p/papyrus}{#f/6}...UNDYNE？',
-                 "<25>{#p/undyne}{#f/12}* Pfft, I can't believe you actually brought THEM here.",
+                 "<25>{#p/undyne}{#f/12}* 呼，没想到你真捎上人类了。",
                  '<18>{#p/papyrus}{#f/5}...',
-                 '<25>{#p/undyne}{#f/1}* Come on, get inside!'
+                 '<25>{#p/undyne}{#f/1}* 愣着干嘛，快进来坐坐！'
               ]
             : [
                  "<25>{#p/undyne}{#f/1}* 嗨，初次见...",
@@ -4014,9 +4014,9 @@ export default {
                  SAVE.data.b.f_state_undynecheck
                     ? "<26>{#p/undyne}{#f/17}* If it isn't the human who tried to break into my house IN FRONT OF ME."
                     : "<25>{#p/undyne}{#f/1}* Well then.\n* Look who's come crawling back for more.",
-                 "<25>{#f/16}* To be honest, though, I dunno if I'm in the mood for another fight.",
-                 '<25>{#f/12}* Still, I can get you something to drink in the meantime!',
-                 "<25>{#f/1}* Have a seat, and I'll see what I can do."
+                 "<25>{#f/16}* 说实话，\n  我说不准有没有兴致再来一架。",
+                 '<25>{#f/12}* 不过，我可以先给你拿点喝的！',
+                 "<25>{#f/1}* 你找个地方歇下脚，\n  我看看我能做些啥。"
               ]
             : [
                  '<25>{#p/undyne}{#f/11}* ...',
@@ -4188,7 +4188,7 @@ export default {
       unddate17: () => [
          "<25>{#p/undyne}{#f/17}* 喂！\n* 别站起来！",
          ...(SAVE.data.b.undyne_respecc
-            ? [ '<25>{#f/10}* ...', '<25>{#f/16}* Sorry, reflex.\n* I seriously gotta stop doing that...' ]
+            ? [ '<25>{#f/10}* ...', '<25>{#f/16}* 对不起，条件反射了。\n* 你是客人，\n  我不想让你跑腿而已...' ]
             : [ "<25>{#f/17}* 你是客人！\n* 给我坐下来慢慢享用！", '<25>{#f/17}* ...' ])
       ],
       unddate18: () =>
@@ -4200,7 +4200,7 @@ export default {
               ],
       unddate19x: '* 按←和→瞄准。\n* 按[Z]选定。',
       unddate19y: () => [
-         SAVE.data.b.undyne_respecc ? '* Undyne\n* Awesome fish lady.' : '* Undyne\n* 疯狂的鱼女士。',
+         SAVE.data.b.undyne_respecc ? '* Undyne\n* 英俊的鱼女士。' : '* Undyne\n* 疯狂的鱼女士。',
          '* 零食柜\n* 里面有超多好东西！',
          '* 水\n* 聪明的选择',
          '* 糖\n* 适合放在茶里。',
@@ -4383,7 +4383,7 @@ export default {
          '<25>* “抱歉，你想知道\n   打败我的方法吗？”',
          '<25>{#f/1}* 我说了“想”，从那以后，\n  他就开始训练我。',
          '<25>{#f/16}* 有一天，在练习时，\n  我终于打倒了他。',
-         '<25>{#f/9}* 我觉得... 非常糟糕。',
+         '<25>{#f/9}* 可我心里... 很不是滋味。',
          '<25>{#f/12}* 他却很高兴...',
          '<25>{#f/1}* 我从没见过哪个人\n  因为被扁了而感到荣幸。',
          '<25>* 总之，长话短说，\n  他一直训练着我...',
@@ -4436,8 +4436,8 @@ export default {
             ? [
                  "<25>{#f/1}* 没错！",
                  '<25>{#f/1}* 除了烹饪之外，\n  没什么能让我和\n  Papyrus更亲近了！',
-                 '<25>{#f/17}* Heheh, if you thought we were friends before...',
-                 '<25>{#f/8}* JUST WAIT UNTIL YOU SEE US AFTER THIS!'
+                 '<25>{#f/17}* 嘿嘿，你觉得\n我俩已经是朋友了，对吧？',
+                 '<25>{#f/8}* 等上完这堂课，\n  那我们就是死党了！'
               ]
             : [
                  "<25>{#f/1}* 没错！",
@@ -4544,7 +4544,7 @@ export default {
             ? [
                  '<25>{#p/undyne}{#f/10}* ...',
                  '<25>{#f/9}* ...我在开什么玩笑...',
-                 "<25>{#f/16}* 我真的把事情弄失控了，\n  是吧...？",
+                 "<25>{#f/16}* 我真把事做过火了，\n  是吧...？",
                  '<25>{#f/16}* 呵...'
               ]
             : [
@@ -4757,7 +4757,7 @@ export default {
               ],
       undynefinal1b: () => (respecc() ? [ '<32>{#p/undyne}* No...' ] : [ '<32>{#p/undyne}* 你猜怎么着？' ]),
       undynefinal1c: () =>
-         respecc() ? [ '<32>{*}{#p/undyne}{#i/2}* 我不！！{^999}' ] : [ '<32>{*}{#p/undyne}{#i/2}* 去它的吧！！{^999}' ],
+         respecc() ? [ '<32>{*}{#p/undyne}{#i/2}* 不行！！{^999}' ] : [ '<32>{*}{#p/undyne}{#i/2}* 去它的吧！！{^999}' ],
       undynefinal1d: () =>
          respecc()
             ? [ '<32>{*}{#p/undyne}{#i/1}* 我怎么能那样居高临下地\n  对你说话！！{^999}' ]
@@ -4770,11 +4770,11 @@ export default {
       undynefinal1g: () =>
          respecc()
             ? [
-                 '<25>{#p/undyne}{#f/1}* LISTEN UP!',
-                 '<25>* I like the way you fight.',
-                 "<25>{#f/16}* Like any good warrior, you fight until your enemy's been crushed...",
-                 '<25>{#f/17}* ... and then you spare them, so they can live to tell the tale!',
-                 '<25>{#f/10}* What courage...'
+                 '<25>{#p/undyne}{#f/1}* 听我说！',
+                 '<25>* 我喜欢你战斗的方式。',
+                 "<25>{#f/16}* 你就像一个真正的战士，\n  把敌人痛扁一顿...",
+                 '<25>{#f/17}* ...然后放他们一条生路，\n  让他们继续书写自己的故事！',
+                 '<25>{#f/10}* 多么英勇啊...'
               ]
             : [
                  '<25>{#p/undyne}{#f/1}* 人类！',
@@ -4786,9 +4786,9 @@ export default {
       undynefinal2a: () =>
          respecc()
             ? [
-                 '<25>{#f/1}* I guess I should apologize for how I acted back there.',
-                 '<25>{#f/16}* You and your friend were just standing up for each other, right?',
-                 '<25>{#f/1}* Well, I can respect that sort of thing.',
+                 '<25>{#f/1}* 之前那样说你，\n  我得和你道个歉。',
+                 '<25>{#f/16}* 你和你的朋友\n  只是在相互扶持而已。',
+                 '<25>{#f/1}* 哈！我当然能理解。',
                  "<25>{#f/17}* And then there's the local ELITE squad!",
                  "<25>{#f/9}* 我承认，我被你打动了...",
                  ...(SAVE.data.n.state_foundry_doge === 2 && SAVE.data.n.state_foundry_muffet === 2
@@ -4803,13 +4803,13 @@ export default {
                          "<25>{#f/11}* I don't think I've ever seen those two so red-faced."
                       ]
                     : [
-                         '<25>{#f/10}* Even when faced with their blades, you still held your nerve?',
-                         '<25>{#f/1}* I guess you really are something special!'
+                         '<25>{#f/10}* 他们都把刀架你脖子上了，\n  你还是一往无前。',
+                         '<25>{#f/1}* 果真是万里挑一的勇士！'
                       ]),
-                 '<25>{#f/8}* ... BUT GETTING BACK TO MY POINT!',
-                 '<25>{#f/1}* So, at first, I was just going to kill you and take your SOUL.',
-                 '<25>{#f/11}* But after seeing the way you fight...',
-                 "<25>{#f/8}* THERE'S NO WAY I'D GO SO EASY ON YOU!!!",
+                 '<25>{#f/8}* ...回到正题上！',
+                 '<25>{#f/1}* 一开始，我打算杀了你，\n  夺走你的灵魂。',
+                 '<25>{#f/11}* 不过欣赏了你的战斗后...',
+                 "<25>{#f/8}* 之前那想法\n  可就太小儿科了！！",
                  "<25>{#f/1}* No... I want you to show me what you're REALLY made of!",
                  "<25>{#f/4}* And only once I've beaten you fair and square...",
                  "<25>{#f/5}* Will I finally claim the freedom that's rightfully ours!",
@@ -5074,7 +5074,7 @@ export default {
             : world.trueKills > 1
             ? [ '<25>{#p/undyne}{#f/11}* 混蛋，你自找的。', '<25>{#f/9}* 准备好了吗...' ]
             : respecc()
-            ? [ "<25>{#p/undyne}{#f/1}* 那么，好了...！", "<25>{#f/17}* It's time you met your one true equal!" ]
+            ? [ "<25>{#p/undyne}{#f/1}* 那么，好了...！", "<25>{#f/17}* 来吧，针尖对麦芒，\n  瞧瞧谁更厉害！" ]
             : [ "<25>{#p/undyne}{#f/1}* 那么，好了...！", '<25>{#f/17}* 别再想着逃走！' ])
       ],
       undynefinal3x: [ '<25>{#f/7}{*}* 去死吧！！！{#x1}{^999}' ],
@@ -5391,11 +5391,11 @@ export default {
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* Gelata，恶心粘球。\n* 为啥我要多费口舌给你解释这些？' ]
-            : [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 并不是很小。' ],
+            : [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 它已经从“小团子”进化成功。' ],
       act_check2: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 状态并不是很好。' ],
       act_check3: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 允许成为全职果冻垫。' ],
       act_check4: [ '<32>{#p/story}* GELATA - 攻击 18 防御 18\n* 和你的关系并没有想象的那么好...' ],
-      act_topple1: [ "<32>{#p/human}* （你试图推倒Gelata，\n  但它还没有那么弱。）" ],
+      act_topple1: [ "<32>{#p/human}* （你想推倒Gelata，\n  可它身子还很结实。）" ],
       act_topple2: [ '<32>{#p/human}* （你推倒了Gelata。）\n* （它的身体塌陷了，滚到了远处。）' ],
       name: '* Gelata',
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
@@ -6381,7 +6381,7 @@ export default {
    },
    b_opponent_undyne: {
       artifact: [ "<32>{#p/human}* （Undyne似乎甚至不知道\n  这是什么。）" ],
-      epiphaNOPE: [ '<20>{#p/undyne}嗯?\n这到底是什么？' ],
+      epiphaNOPE: [ '<20>{#p/undyne}嗯?\n你拿了个啥玩意？' ],
       spaghetti1: [
          '<32>{#p/basic}* The smell reminds Undyne of someone close to her...',
          "<32>{#p/story}* Undyne的攻击力下降了！"
@@ -6588,7 +6588,7 @@ export default {
          SAVE.data.n.state_starton_papyrus === 1
             ? [ '<20>{#p/undyne}{#e/undyne/2}给你讲个故事吧。' ]
             : respecc()
-            ? [ "<20>{#p/undyne}{#e/undyne/0}It's been a long time since I've met a warrior like you..." ]
+            ? [ "<20>{#p/undyne}{#e/undyne/0}好久没碰上\n像样的战士了..." ]
             : [ "<20>{#p/undyne}{#e/undyne/0}很多年来，\n我们梦想着能有个\n圆满的结局..." ],
       turnTalkA3: () =>
          SAVE.data.n.state_starton_papyrus === 1
@@ -6597,7 +6597,7 @@ export default {
                  "<20>{#p/undyne}{#e/undyne/2}然而，\n事情并非一帆风顺。"
               ]
             : respecc()
-            ? [ "<20>{#p/undyne}{#e/undyne/0}And now, I've got the chance to do battle with one!" ]
+            ? [ "<20>{#p/undyne}{#e/undyne/0}不过，机会就摆在眼前！" ]
             : [ '<20>{#p/undyne}{#e/undyne/0}现在，\n群星已经触手可及！' ],
       turnTalkA4: () =>
          SAVE.data.n.state_starton_papyrus === 1
@@ -6638,7 +6638,7 @@ export default {
                  '<20>{#e/undyne/3}一个天真无邪的声音。'
               ]
             : respecc()
-            ? [ '<20>{#p/undyne}{#e/undyne/0}Not that I expected anything less...' ]
+            ? [ '<20>{#p/undyne}{#e/undyne/0}不是说我看扁你啦...' ]
             : [ '<20>{#p/undyne}{#e/undyne/0}可就算你能够打败我...' ],
       turnTalkA7b: () =>
          SAVE.data.n.state_starton_papyrus === 1
@@ -6831,8 +6831,8 @@ export default {
          respecc()
             ? [
                  '<20>{#p/undyne}嘎啊...',
-                 '<21>I thought...\nYou were different...',
-                 '<20>But then...\n... you actually...\n... urgh...',
+                 '<21>我还以为...\n你很特别...',
+                 '<20>结果...\n你到底还是...\n咳...咳...',
                  '<20>...'
               ]
             : [
@@ -6850,7 +6850,7 @@ export default {
                  '<20>{#p/undyne}{#e/undyne/32}不！',
                  "<20>我不能死！",
                  ...(respecc()
-                    ? [ '<20>This betrayal...\nThis... dishonor...', "<20>I won't let you get away with it!" ]
+                    ? [ '<20>你背叛了我...\n这... 太耻辱了...', "<20>我怎能不让你吃点苦头！" ]
                     : [
                          SAVE.data.n.state_starton_papyrus === 1
                             ? '<20>{#e/undyne/36}Alphys...\nAsgore...'
@@ -6865,7 +6865,7 @@ export default {
             : [
                  '<20>{#p/undyne}{#e/undyne/32}人类！',
                  respecc()
-                    ? '<20>{#e/undyne/36}In the name of a good and fair fight...'
+                    ? '<20>{#e/undyne/36}以公平对决起誓...'
                     : "<20>{#e/undyne/36}以希望与梦想起誓...",
                  '<20>{#e/undyne/32}我定会击败你！'
               ],
@@ -6878,7 +6878,7 @@ export default {
          helmetdyneAttack()
             ? []
             : respecc()
-            ? [ "<20>{#p/undyne}{#e/undyne/34}W-where's your fighting spirit now, huh?" ]
+            ? [ "<20>{#p/undyne}{#e/undyne/34}你-你的斗志\n跑哪去了？" ]
             : [ '<20>{#p/undyne}{#e/undyne/34}当我们相信自己时，\n爆发出的力量有多强，\n你见-见识到了吧？' ],
       determination5: () =>
          helmetdyneAttack() ? [] : [ '<20>{#p/undyne}{#e/undyne/35}呵... \n呵呵...', '<20>{#e/undyne/34}闹够了没有？' ],
@@ -6900,10 +6900,10 @@ export default {
          "<20>{#e/undyne/48}我不能死！"
       ],
       death7: [ '<20>{*}{#p/undyne}{#i/8}{@random=1.1/1.1}嘎啊啊啊啊！！！{^10}{%}' ],
-      death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death8c: [ "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不能死！{^15}{%}" ],
-      death9: [ "<20>{*}{#p/undyne}{#i/8}{#v/4}{@random=1.1/1.1}我{^10}不{^10}能{^30}{%}" ],
+      death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不会死！{^15}{%}" ],
+      death8b: [ "<20>{*}{#p/undyne}{#i/5}{#v/2}{@random=1.1/1.1}我不会死！{^15}{%}" ],
+      death8c: [ "<20>{*}{#p/undyne}{#i/6}{#v/3}{@random=1.1/1.1}我不会死！{^15}{%}" ],
+      death9: [ "<20>{*}{#p/undyne}{#i/8}{#v/4}{@random=1.1/1.1}我{^10}不{^10}会{^30}{%}" ],
       deterStatus1: [ '<32>{#p/story}* Undyne笑着，强装自己没事。' ],
       deterStatus2: [ "<32>{#p/story}* Undyne的身体正一点一点融化。" ],
       deterStatus3: [ "<32>{#p/story}* Undyne的身体已经化得\n  看不出形状了。" ],
@@ -7068,15 +7068,15 @@ export default {
       intro: () =>
          SAVE.data.b.undyne_respecc
             ? [
-                 '<20>{#p/undyne}{#f/0}... so this is it.',
-                 '<20>Our final battle.',
+                 '<20>{#p/undyne}{#f/0}...终于啊。',
+                 '<20>决战到来了。',
                  '<20>...',
-                 '<20>{#e/undyne/12}Warrior to warrior.',
-                 '<20>Across the sky of stars.',
-                 '<20>I challenge you to a duel...',
-                 '<20>{#e/undyne/9}For the honor of EVERYONE ON THE OUTPOST!!',
+                 '<20>{#e/undyne/12}针尖对麦芒，',
+                 '<20>轰动星河的决战到来了。',
+                 '<20>我在此对你发出挑战...',
+                 '<20>{#e/undyne/9}以全前哨站\n怪物的荣耀起誓！！',
                  "<20>{#e/undyne/7}IT'S THE ONLY WAY I CAN SETTLE THE SCORE BETWEEN US!!",
-                 "<20>{#e/undyne/9}SO COME ON, HIT ME WITH EVERYTHING YOU'VE GOT!!!\nNGAHHHH!!!"
+                 "<20>{#e/undyne/9}拿出真本事，放马过来！！！\n嘎啊啊啊！！！"
               ]
             : [
                  "<20>{#p/undyne}{#f/0}我被打败了，\n我的房子也\n完了...",
@@ -8236,8 +8236,8 @@ export default {
                        "<32>{#k/3}* 但我知道，在这里的某处，\n  一定有这样一位英雄：",
                        "<32>* 那英雄不管身处何种境地，\n  始终坚守正义。",
                        "<32>{#k/0}* 孩子，你最好小心点。",
-                       "<32>{#k/0}* 指不定哪天，\n  有人偷袭你...",
-                       "<32>{#k/3}* ...到那时，\n  你只会觉得生不如死。"
+                       "<32>{#k/0}* 指不定哪天...",
+                       "<32>{#k/3}* 你就死定了。"
                     ]
                : world.trueKills > 29
                ? [

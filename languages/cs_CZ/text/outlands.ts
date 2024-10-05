@@ -271,23 +271,23 @@ export default {
          ],
          d28: [ '<25>{#p/asriel1}{#f/13}* ... Pořád to věřím.' ],
          d29: [
-            "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity.",
-            "<32>* I've spent the past hundred years holding a grudge I never should've had.",
-            '<32>* In all that time, I wondered what kept me alive...',
-            '<32>* And now, I finally know the answer.'
+            "<32>{#p/basic}* Posledních sto let jsem se utápěl v sebelítosti.",
+            "<32>* Posledních sto let jsem v sobě choval zášť, kterou jsem nikdy neměl mít.",
+            '<32>* Po celou tu dobu jsem přemýšlel, co mě drží naživu...',
+            '<32>* A teď konečně znám odpověď.'
          ],
          d30: [ '<25>{#p/asriel1}{#f/15}* ...?' ],
-         d31: [ "<32>{#p/basic}* ... it's you, Asriel.", "<32>* You're the one who's been keeping me alive." ],
+         d31: [ "<32>{#p/základní}* ... jsi to ty, Asrieli.", "<32>* Ty jsi ten, kdo mě drží naživu." ],
          d32: [
-            '<32>{#p/basic}* Think of it like... an unfulfilled promise.',
-            '<32>* Holding that grudge... thinking about you in the way that I did...',
-            "<32>* Knowing I could've been so much more for you than I ultimately was.",
-            "<32>* All this time, that's what's been holding me back."
+            '<32>{#p/basic}* Přemýšlej o tom jako... nesplněné zaslíbení.',
+            '<32>* Držím v sobě tu zášť... myslím na tebe tak, jak jsem na tebe myslel já...',
+            "<32>* Věděl jsem, že jsem pro tebe mohl být mnohem víc, než jsem nakonec byl.",
+            "<32>* Celou tu dobu mě to drželo zpátky."
          ],
          d33: [ '<25>{#p/asriel1}{#f/23}* $(name)...' ],
-         d34: [ '<32>{#p/basic}* Asriel.\n* Můj bratr.', '<32>* You deserve to know the truth.' ],
-         d35: [ '<25>{*}{#p/asriel1}{#f/25}* Huh?\n* But you already- {%}' ],
-         d36: [ '<32>{#p/basic}* I forgive you, too.' ],
+         d34: [ '<32>{#p/basic}* Asriel.\n* Můj bratr.', '<32>* Zasloužíš si znát pravdu.' ],
+         d35: [ '<25>{*}{#p/asriel1}{#f/25}* Cože?\n* Ale vy už- {%}' ],
+         d36: [ '<32>{#p/basic}* Také vám odpouštím.' ],
          d37: [ '<25>{#p/asriel1}{#f/30}{#i/4}* ...!', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...' ],
          d38: [ '<32>{#p/basic}* Shh...', "<32>* It's alright.", "<32>* I've got you, okay?" ],
          d39: [ '<25>{#p/asriel1}{#f/25}{#i/4}* I...' ],

@@ -1016,7 +1016,7 @@ export default {
       stat12: 'ESTADO',
       stat13: '\"$(x)\"',
 
-      story1: [ '<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTROUS.{^35}{}' ],
+      story1: [ '<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTRUOS.{^35}{}' ],
       story2: [ '<24>Cuando el tiempo pasó, una guerra empezó entre las especies.{^35}{}' ],
       story3: [ "<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los HUMANOS declararon victoria.{^35}{}" ],
       story4: [ '<24>Los MONSTRUOS restantes fueron expulsados a un puesto abandonado.{^35}{}' ],

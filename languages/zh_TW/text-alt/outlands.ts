@@ -2593,9 +2593,9 @@ export default {
                     ]
                   : [
                        '<32>{#p/human}* （你激活了終端。）\n* （上面有一條新訊息。）',
-                       "<32>{#p/alphys}* The force field's gone.\n* Calling all citizens for immediate evacuation.",
-                       "<32>* ... I know you're all afraid, but it's going to be okay.",
-                       "<32>* They can't hurt us if we leave them behind."
+                       "<32>{#p/alphys}* 那道力場破碎了。\n* 請喊上全體居民迅速撤離。",
+                       "<32>* ...你們都很害怕，我懂，\n  但很快就沒事了。",
+                       "<32>* 把那個人類丟下後，\n  那傢伙傷不到我們的。"
                     ]
                : 37.2 <= SAVE.data.n.plot
                ? [
@@ -3481,11 +3481,11 @@ export default {
                      : SAVE.data.n.plot === 72
                      ? [
                           '<32>{#p/human}* （你讀了讀新寫的段落。）',
-                          '<32>{#p/toriel}{#f/21}* \"It seems my preconceptions about Asgore were incorrect.\"',
+                          '<32>{#p/toriel}{#f/21}* 「看來我之前誤解艾斯戈爾了。」',
                           '<32>* \"In failing to confront him, I have failed to understand what was truly going on.\"',
-                          '<32>* \"I was right in thinking I did not deserve to be a mother.\"',
-                          '<32>* \"But perhaps now... I can learn what being a mother truly means.\"',
-                          '<32>* \"I will need to think about this on my own.\"'
+                          '<32>* 「我果然不配做一個母親。」',
+                          '<32>* 「不過現在...\n  我可以學著去體會母愛的真諦。」',
+                          '<32>* 「這事不能讓別人插手，\n  得我自己慢慢來。」'
                        ]
                      : world.darker
                      ? [ "<32>{#p/basic}* 這是本日記，\n  你在裡面找不到任何笑點。" ]
@@ -3865,7 +3865,7 @@ export default {
       ],
       act_translate1x: [
          '<32>{#p/human}* （你把你想說的話翻譯了一下。）\n* （蛙吉特好像聽懂你在說什麼了。）',
-         '<32>{#p/basic}* 蛙吉特猶豫該不該繼續戰鬥下去。'
+         '<32>{#p/basic}* 蛙吉特更加顧慮，\n  不知該不該繼續戰鬥。'
       ],
       act_translate1y: [
          '<32>{#p/human}* （你把你想說的話翻譯了一下。）\n* （蛙吉特好像聽懂你在說什麼了。）',
@@ -3931,19 +3931,19 @@ export default {
       ],
       act_check3: [ '<32>{#p/story}* 乾瞪眼 - 攻擊6 防禦6\n* 這隻怪物很榮幸\n  能出現在你的視線裡。' ],
       act_dontpick: [
-         '<32>{#p/human}* （你緊盯著乾瞪眼。）\n* （乾瞪眼更緊地向你盯了回去。）',
-         "<32>{#p/human}* （乾瞪眼的眼睛越盯越緊，\n  最後它...）",
-         '<32>{#p/human}* （...承受不住，屈服了。）'
+         '<32>{#p/human}* （你瞪了乾瞪眼一眼。）\n* （乾瞪眼使勁瞪了回來。）',
+         "<32>{#p/human}* （乾瞪眼越瞪越用力...）",
+         '<32>{#p/human}* （...最後它受不了，投降了。）'
       ],
       act_flirt: [ '<32>{#p/human}* （你向乾瞪眼調情。）' ],
       act_pick: [ '<32>{#p/human}* （你粗魯地告誡乾瞪眼\n  不要盯著別人看。）' ],
       checkTalk1: [ '<08>{#p/basic}{~}你敢盯著\n看嗎？' ],
       dontDeny1: [ '<08>{#p/basic}{~}看看誰\n變卦了。' ],
       dontTalk1: [ '<99>{#p/basic}{~}這貨還\n真挺能\n盯的。' ],
-      flirtDeny1: [ '<08>{#p/basic}{~}你還挺\n傲嬌。' ],
+      flirtDeny1: [ '<08>{#p/basic}{~}死傲嬌。' ],
       flirtTalk1: [ '<08>{#p/basic}{~}啥？\n沒-沒門！' ],
       hurtStatus: [ '<32>{#p/story}* 乾瞪眼在流淚。' ],
-      idleTalk1: [ "<08>{#p/basic}{~}我就盯著\n你了。" ],
+      idleTalk1: [ "<08>{#p/basic}{~}盯上你了。" ],
       idleTalk2: [ "<08>{#p/basic}{~}我想幹啥\n不用你管。" ],
       idleTalk3: [ '<08>{#p/basic}{~}盯著你\n意味著\n在意你。' ],
       idleTalk4: [ '<08>{#p/basic}{~}真礙眼。' ],
@@ -5351,8 +5351,8 @@ export default {
                     '<32>{#p/human}* （HP已回滿。）'
                  ]
                : [
-                    '<32>{#p/human}* (Returning to where it all began, after so long...)',
-                    '<32>{#p/human}* (This fills you with determination.)',
+                    '<32>{#p/human}* （過了這麼久，\n  你回到了一切開始的地方...）',
+                    '<32>{#p/human}* （這使你充滿了決心。）',
                     '<32>{#p/human}* （HP已回滿。）'
                  ]
       },

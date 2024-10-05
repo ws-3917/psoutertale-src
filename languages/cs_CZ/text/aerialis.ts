@@ -88,11 +88,11 @@ export default {
          "<32>* Kdybych byl vámi, skončil bych, dokud jsem byl napřed.",
          "<32>* Ale to je jen můj názor."
       ],
-      harpyKILLER: ["<32>{#p/basic}* Huhehehaw...\n* Golly gosharoo, I think I'm in mortal danger!"],
-      shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
+      harpyKILLER: ["<32>{#p/basic}* Huhehehaw...\n* Golly gosharoo, myslím, že jsem ve smrtelném nebezpečí!"],
+      shopclosed: ['<32>{#p/human}* (Ale ti tu nezbývalo nic.)'],
       afear: [
          '<32>{#s/phone}{#p/event}* Zvoní, zvoní...',
-         '<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, h-hey...',
+         '<25>{#p/alphys}{#g/alphysNervousLaugh}* Eh, h-hej...',
          '<25>{#p/alphys}{#g/alphysNeutralSweat}* Sorry about... running off and stuff...',
          '<25>{#p/alphys}{#g/alphysIDK}* ...',
          "<25>{#p/alphys}{#g/alphysNervousLaugh}* You'll be fine, right?\n* You won't...",

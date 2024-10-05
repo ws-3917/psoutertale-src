@@ -1287,7 +1287,7 @@ export default {
                     "<25>{*}{#e/twinkly/15}This doesn't stop until you do exactly what I've told you."
                  ])
          ],
-         oof: [ '<32>{#p/human}* (You catch your breath...)' ],
+         oof: [ '<32>{#p/human}* （你倒吸了一口凉气...）' ],
          killer1: [
             '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}呀。',
             "<25>{*}{#e/twinkly/17}你真把事情搞砸了，不是吗？",
@@ -1341,17 +1341,17 @@ export default {
             '<25>{*}(You thank the one beyond for what they have done...)',
             '<25>{*}(And ask that you be allowed to carry on.)'
          ],
-         forget1: [ '<25>{*}{#p/human}（...）', "<25>{*}(You're so alone.)" ],
-         forget2: [ '<25>{*}{#p/human}（...）', "<25>{*}(You're so afraid.)" ],
+         forget1: [ '<25>{*}{#p/human}（...）', "<25>{*}（你好孤独...）" ],
+         forget2: [ '<25>{*}{#p/human}（...）', "<25>{*}（你好害怕...）" ],
          forget3: [
             '<25>{*}{#p/human}（...）',
-            "<25>{*}(You'd do anything to get another chance...)",
-            "<25>{*}(... even if it means forgetting everything you've ever known.)"
+            "<25>{*}（你多么盼着能重新做人...）",
+            "<25>{*}（...不管付出什么代价，\n  忘记一切都行。）"
          ],
          forget4: [
             '<25>{*}{#p/human}（...）',
-            "<25>{*}(But the choice wasn't yours to make.)",
-            "<25>{*}(It's someone else's choice, now.)"
+            "<25>{*}（可你没得选。）",
+            "<25>{*}（你只能看着别人替你选。）"
          ],
          regret1: [ '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hi.' ],
          regret2: [
@@ -1429,7 +1429,7 @@ export default {
             world.bad_robot
                ? [ '<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你后面！！！{%}' ]
                : [
-                    '<25>{#p/asgore}{#f/6}* 年轻人，如果你被吓着了，\n  那我先对你道个歉。',
+                    '<25>{#p/asgore}{#f/6}* 孩子，如果你被吓着了，\n  那我先对你道个歉。',
                     '<25>{#p/asgore}{#f/6}* Alphys告知了我\n  你会来到这里。'
                  ],
          asgoreStoryPre3: () => [
@@ -1562,40 +1562,40 @@ export default {
          asgoreStory16r: [ "<32>{#p/basic}* It's not fair...!{%40}" ],
          asgoreStory17: [
             '<25>{*}{#p/asgore}{#f/3}* 可我回过神来才发现，\n  一切都为时已晚。{~}',
-            '<25>{*}{#p/asgore}{#f/2}* 人民发动战争的意愿\n  早已如洪水般\n  势不可挡。{~}',
-            '<25>{*}{#p/asgore}{#f/5}* At least, nothing done publicly.{~}'
+            '<25>{*}{#p/asgore}{#f/2}* 无论做什么事情\n  都无法阻挡人民\n  发动战争的意愿。{~}',
+            '<25>{*}{#p/asgore}{#f/5}* 至少明面上如此。{~}'
          ],
          asgoreStory18: () =>
             SAVE.data.b.killed_mettaton || world.baddest_lizard
                ? [
-                    '<25>{*}{#p/asgore}{#f/5}* By now, Alphys must have told you about a certain secret.{~}',
-                    '<25>{*}{#p/asgore}{#f/5}* An agreement between myself and the former royal scientist.{~}',
+                    '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已经告诉过你\n  某个秘密了吧。{~}',
+                    '<25>{*}{#p/asgore}{#f/5}* 一份我与前皇家科学员的\n  协议。{~}',
                     '<25>{*}{#p/asgore}{#f/6}* ... now, if only I knew what was holding up the current one...{~}'
                  ]
                : [
-                    '<25>{*}{#p/asgore}{#f/5}* By now, Alphys must have told you about a certain {@fill=#003cff}secret{@fill=#fff}.{~}',
-                    '<25>{*}{#p/asgore}{#f/5}* An {@fill=#003cff}agreement{@fill=#fff} between myself and the former royal scientist.{~}',
-                    '<25>{*}{#p/asgore}{#f/6}* ... ah, there she is.\n* I have been wondering when she would arrive.{~}'
+                    '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已经告诉过你\n  某个{@fill=#003cff}秘密{@fill=#fff}了吧。{~}',
+                    '<25>{*}{#p/asgore}{#f/5}* 一份我与前皇家科学员的\n  {@fill=#003cff}协议{@fill=#fff}。{~}',
+                    '<25>{*}{#p/asgore}{#f/6}* ... 啊，原来她来了。\n* 我刚才还寻思着她\n  什么时候才会到呢。{~}'
                  ],
          asgoreStory19: [
-            '<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, s-sorry!\n* I got here as fast as I could!',
-            '<25>{#p/asgore}{#f/6}* No need to rush.\n* Good things come to those who wait.',
-            "<25>{#p/alphys}{#g/alphysWorried}* ... do you think they're ready?"
+            '<25>{#p/alphys}{#g/alphysNervousLaugh}* 呃，抱——抱歉！\n* 我已经尽力在赶了！',
+            '<25>{#p/asgore}{#f/6}* 不必着急。\n* 毕竟好事多磨嘛。',
+            "<25>{#p/alphys}{#g/alphysWorried}* ... 你真觉得人类\n  已经做好准备了吗？"
          ],
          asgoreStory20a: [
-            '<25>{#p/asgore}{#f/7}* Young one, if you could excuse us for just a moment...',
-            '<25>{#p/asgore}{#f/7}* Alphys and I have some things to discuss.'
+            '<25>{#p/asgore}{#f/7}* 孩子，请让我们\n  先行一步...',
+            '<25>{#p/asgore}{#f/7}* 我和Alphys有些事情\n  需要谈谈。'
          ],
          asgoreStory20b: [
-            "<25>{#p/alphys}{#g/alphysHellYeah}* Yeah, uh... j-just keep going forward, we'll be waiting for you!"
+            "<25>{#p/alphys}{#g/alphysHellYeah}* 是的，呃...\n  接着往——往前走吧,\n  我们会等着你的！"
          ],
          asgoreStory21: [
-            '<25>{#p/asgore}{#f/5}* How odd.\n* She does not appear to be here now.',
-            '<25>{#p/asgore}{#f/5}* ... this is not what I had in mind.'
+            '<25>{#p/asgore}{#f/5}* 真奇怪。\n* 她居然还没来。',
+            '<25>{#p/asgore}{#f/5}* ... 这不是我所期望的。'
          ],
          asgoreStory22: [
-            '<25>{#p/asgore}{#f/5}* Well then.\n* If she wants to see me, she will have to wait.',
-            '<25>{#p/asgore}{#f/5}* This cannot be delayed any further.'
+            '<25>{#p/asgore}{#f/5}* 那么。\n* 她要是想见我\n  就得等上一会了。',
+            '<25>{#p/asgore}{#f/5}* 这件事不能再拖了。'
          ],
 
          
@@ -1722,14 +1722,14 @@ export default {
                  ]
                : [
                     '<25>{#f/3}* ...哦对。\n* 差点忘了。',
-                    '<25>{#f/0}* you may have noticed how difficult it is to flirt with alphys.',
-                    "<25>{#f/2}* but i know a trick that'll get 'er right in the heart.",
-                    "<25>{#f/0}* if you're truly devoted to being a legendary flirt master...",
-                    "<25>{#f/0}* you'll whisper this in her ear.",
-                    '<32>{#p/human}* (Sans whispered something in your ear.)',
+                    '<25>{#f/0}* 你可能已经知道\n  对Alphys调情\n  是有多么困难了。',
+                    "<25>{#f/2}* 但我有诀窍，能让你\n  一击俘获Alphys芳心。",
+                    "<25>{#f/0}* 如果你真的想成为\n  一位传奇调情大师...",
+                    "<25>{#f/0}* 你就得在她耳边\n  这样低语。",
+                    '<32>{#p/human}* （Sans在你耳边\n  小声说了些话。）',
                     ...(funni
-                       ? [ '<25>{#p/sans}{#f/2}* try not to stand behind a pillar when you say it to her.' ]
-                       : [ '<25>{#p/sans}{#f/2}* good luck.' ])
+                       ? [ '<25>{#p/sans}{#f/2}* 尽量别在柱子后面\n  对她说这些话。' ]
+                       : [ '<25>{#p/sans}{#f/2}* 祝你好运。' ])
                  ])
          ],
          jspeech3: (funni: boolean) => [
@@ -1830,13 +1830,13 @@ export default {
                             '<25>{#f/3}* oh, right.\n* i almost forgot.',
                             '<25>{#f/0}* you may have noticed how difficult it is to flirt with her.',
                             '<25>{#f/0}* alphys, i mean.',
-                            "<25>{#f/2}* but i know a trick that'll get 'er right in the heart.",
-                            "<25>{#f/0}* if you're truly devoted to being a legendary flirt master...",
-                            "<25>{#f/0}* you'll whisper this in her ear.",
-                            '<32>{#p/human}* (Sans whispered something in your ear.)',
+                            "<25>{#f/2}* 但我有诀窍，能让你\n  一击俘获Alphys芳心。",
+                            "<25>{#f/0}* 如果你真的想成为\n  一位传奇调情大师...",
+                            "<25>{#f/0}* 你就得在她耳边\n  这样低语。",
+                            '<32>{#p/human}* （Sans在你耳边\n  小声说了些话。）',
                             ...(funni
-                               ? [ '<25>{#p/sans}{#f/2}* try not to stand behind a pillar when you say it to her.' ]
-                               : [ '<25>{#p/sans}{#f/2}* good luck.' ])
+                               ? [ '<25>{#p/sans}{#f/2}* 尽量别在柱子后面\n  对她说这些话。' ]
+                               : [ '<25>{#p/sans}{#f/2}* 祝你好运。' ])
                          ])
                  ]
                : [
@@ -2889,8 +2889,8 @@ export default {
                     "<18>{#p/papyrus}{#f/5}求求你...\n别来找我们，行吗？",
                     "<18>{#f/31}我们都不想再见到你。",
                     '<18>{#f/3}...',
-                    '<18>{#f/3}WELL... GOODBYE.',
-                    '<25>{#p/undyne}{#f/1}* Enjoy the solitude!!',
+                    '<18>{#f/3}唉... 你好走吧。',
+                    '<25>{#p/undyne}{#f/1}* 好好享受一个人的世界！！',
                     '<32>{#s/equip}{#p/event}* 滴...'
                  ]
                : [

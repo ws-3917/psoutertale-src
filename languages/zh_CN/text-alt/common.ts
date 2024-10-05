@@ -7,16 +7,16 @@ import { SAVE } from '../../../code/systems/save';
 
 export default {
    _0: {
-      _1: 'The player did everything they could...',
-      _2: 'But alas, his fate was sealed, and...',
-      _3: 'No addendum to the story could unravel it.',
-      _4: 'There was no scenario in which the player could truly be satisfied.',
-      _5: 'Is this what they really deserve?',
-      _6: 'To live in bittersweet agony, knowing he could never be...',
-      _7: 'No...\nI will not allow it.',
-      _8: 'If bending the fabric of spacetime is what it takes, then...',
-      _9: 'So be it.',
-      _10: 'I will not rest until the task is done.'
+      _1: '那个玩家，已经竭尽全力...',
+      _2: '但命运早已注定...',
+      _3: '再怎么改动故事，也无法改变结局。',
+      _4: '那个玩家... 已经看过无数条时间线。\n可是没有一条，能让他满意。',
+      _5: '他的余生，注定要永无止境地\n进行这场苦乐参半的时空旅行。',
+      _6: '这就是他的归宿吗？',
+      _7: '不...\n我绝不允许。',
+      _8: '要是只有扭曲时空法则，\n才能让他跳出循环...',
+      _9: '那就豁出去了。',
+      _10: '我绝不会让“时空计划”\n半途而废。'
    },
 
    a_common: {
@@ -5153,13 +5153,13 @@ export default {
          '<11>{#p/basic}{~}{#x4}JUST... GAHH!\nGET OUT OF MY LIFE!',
          '<11>{#p/basic}{~}{#x4}GO LISTEN TO MUSIC WITH NAPSTABLOOK OR SOMETHING!'
       ],
-      changeStatus1: [ '<32>{#p/story}* Mad Dummy is getting cotton all over the floor.' ],
-      changeStatus2: [ '<32>{#p/story}* Mechanical whirrs fill the room.' ],
+      changeStatus1: [ '<32>{#p/story}* 愤怒人偶把棉花\n  弹得到处都是。' ],
+      changeStatus2: [ '<32>{#p/story}* 机械噪声在房间中回响。' ],
       fightFail: [
-         '<11>{#p/basic}{~}{#x1}Foolish.\nFoolish!\nFOOLISH!',
-         '<11>{#p/basic}{~}{#x3}Even if you attack my vessel...',
-         "<11>{#p/basic}{~}{#x4}... you'll NEVER hurt ME!",
-         "<11>{#p/basic}{~}{#x1}I'm still incor- poreal, you dummy!!!"
+         '<11>{#p/basic}{~}{#x1}愚蠢。\n愚蠢！\n愚蠢！',
+         '<11>{#p/basic}{~}{#x3}就算你打到了\n我的身体...',
+         "<11>{#p/basic}{~}{#x4}...也伤不到我！",
+         "<11>{#p/basic}{~}{#x1}我还是没有实体，\n你这棉花脑袋！！"
       ],
       final1: () => [
          "<11>{#p/napstablook}{~}sorry, i interrupted you, didn't i...",
@@ -5197,50 +5197,50 @@ export default {
       hugTalk3: [ '<11>{#p/basic}{~}{#x2}少来这套！！' ],
       hugTalk4: [ '<11>{#p/basic}{~}{#x3}...' ],
       name: () => (16 <= SAVE.data.n.kills_wastelands ? '* 开心人偶' : '* 愤怒人偶'),
-      phase2Talk1: [ "<11>{#p/basic}{~}{#x1}I'll defeat you and take your SOUL!" ],
-      phase2Talk2: [ "<11>{#p/basic}{~}{#x1}I'll use your SOUL to break the force field!" ],
-      phase2Talk3: [ '<11>{#p/basic}{~}{#x6}The other monsters will love me, praise me...!' ],
+      phase2Talk1: [ "<11>{#p/basic}{~}{#x1}看老子不弄死你，\n扯出你的灵魂！" ],
+      phase2Talk2: [ "<11>{#p/basic}{~}{#x1}老子\n要拿你的灵魂\n灭了那力场！" ],
+      phase2Talk3: [ '<11>{#p/basic}{~}{#x6}...我会受到\n万众爱戴，\n万人敬仰！' ],
       phase2Talk4: [ '<11>{#p/basic}{~}{#x4}THEN EVERYTHING I WANT WILL BE MINE!' ],
       phase2Talk5: [ "<11>{#p/basic}{~}{#x3}Huh?\nYeah, I guess that'll avenge my cousin." ],
       phase2Talk6: [ '<11>{#p/basic}{~}{#x5}Do my other cousins care...?' ],
       phase2Talk7: [ '<11>{#p/basic}{~}{#x4}Whatever.\nWhatever!\nWHATEVER!' ],
       phase2Talk8: [ '<11>{#p/basic}{~}{#x1}...' ],
-      phase3Talk1: [ '<11>{#p/basic}{~}{#x1}DUMMY BOTS!\nMAGIC MISSILE!' ],
-      phase3Talk2: [ '<11>{#p/basic}{~}{#x3}DUMMY BOTS!\nTRY AGAIN!' ],
-      phase3Talk3: [ "<11>{#p/basic}{~}{#x5}DUMMY BOTS!\nYou're awful???" ],
-      phase3Talk4: [ '<11>{#p/basic}{~}{#x4}DUMMY BOTS!\nFINAL ATTACK!' ],
+      phase3Talk1: [ '<11>{#p/basic}{~}{#x1}机器人偶！\n使用魔法飞弹！' ],
+      phase3Talk2: [ '<11>{#p/basic}{~}{#x3}机器人偶！\n再来！' ],
+      phase3Talk3: [ "<11>{#p/basic}{~}{#x5}机器人偶！\n咋这么\n没本事呢？？？" ],
+      phase3Talk4: [ '<11>{#p/basic}{~}{#x4}机器人偶！\n最终攻击！' ],
       phaseChange1: [
-         '<11>{#p/basic}{~}{#x2}OWWWW, you DUMMIES!!',
-         '<11>{#p/basic}{~}{#x1}Watch where you aim your {@fill=#f00}MAGIC{@fill=#000} attacks!',
+         '<11>{#p/basic}{~}{#x2}痛死了，\n你们这些\n棉花脑袋！！',
+         '<11>{#p/basic}{~}{#x1}用{@fill=#f00}魔法{@fill=#000}的时候\n往哪瞄呢！',
          '<11>{#p/basic}{~}{#x4}...',
-         '<11>{#p/basic}{~}{#x4}Hey!\nYou!',
-         '<11>{#p/basic}{~}{#x3}Forget I said anything about {@fill=#f00}MAGIC{@fill=#000}.'
+         '<11>{#p/basic}{~}{#x4}嘿！\n听着！',
+         '<11>{#p/basic}{~}{#x3}“{@fill=#f00}魔法{@fill=#000}”那事，\n你就当没听见！'
       ],
-      phaseChange2a: [ '<11>{#p/basic}{~}{#x4}HEY GUYS!' ],
+      phaseChange2a: [ '<11>{#p/basic}{~}{#x4}伙计们！' ],
       phaseChange2b1: [
-         '<11>{#p/basic}{~}{#x1}Dummies.\nDummies!\nDUMMIES!',
-         '<11>{#p/basic}{~}{#x3}Remember how I said NOT to shoot at me?',
-         '<11>{#p/basic}{~}{#x3}Well...'
+         '<11>{#p/basic}{~}{#x1}全是棉花脑袋。\n棉花脑袋！\n棉花脑袋！',
+         '<11>{#p/basic}{~}{#x3}老子没说\n不要冲着我\n攻击吗？',
+         '<11>{#p/basic}{~}{#x3}得得得...'
       ],
-      phaseChange2b2: [ "<11>{#p/basic}{~}{#x4}FAILURES!\nYOU'RE FIRED!\nYOU'RE ALL BEING REPLACED!" ],
+      phaseChange2b2: [ "<11>{#p/basic}{~}{#x4}一帮饭桶！\n老子炒了你们！\n老子有更好的！" ],
       phaseChange2c: [
-         '<11>{#p/basic}{~}{#x4}Hahaha.\nHahaha!\nHAHAHA!',
-         "<11>{#p/basic}{~}{#x3}Now you'll see my true power...",
-         "<11>{#p/basic}{~}{#x6}Relying on people that aren't garbage!"
+         '<11>{#p/basic}{~}{#x4}哈哈哈。\n哈哈哈！\n哈-哈-哈！',
+         "<11>{#p/basic}{~}{#x3}这就让你\n见识见识\n我的真本事...",
+         "<11>{#p/basic}{~}{#x6}靠那些\n不是饭桶的\n伙计们！"
       ],
       phaseChange3a1: [
-         '<11>{#p/basic}{~}{#x3}N... no way!',
+         '<11>{#p/basic}{~}{#x3}咋...\n咋可能呢！',
          '<11>{#p/basic}{~}{#x3}These guys are WORSE than the other guys!'
       ],
       phaseChange3a2: [
-         '<11>{#p/basic}{~}{#x1}Who cares.\nWho cares!\nWHO CARES!',
-         "<11>{#p/basic}{~}{#x4}I DON'T NEED FRIENDS!!"
+         '<11>{#p/basic}{~}{#x1}我不在乎。\n我不在乎！\n我-不-\n在-乎！',
+         "<11>{#p/basic}{~}{#x4}老子才\n不需要朋友！！"
       ],
-      phaseChange3b: [ "<11>{#p/basic}{~}{#x6}I'VE GOT KNIVES!!!" ],
-      phaseChange3c1: [ "<11>{#p/basic}{~}{#x3}I'm...", '<11>{#p/basic}{~}{#x3}Out of knives.' ],
+      phaseChange3b: [ "<11>{#p/basic}{~}{#x6}我还有\n刀子呢！！" ],
+      phaseChange3c1: [ "<11>{#p/basic}{~}{#x3}我...", '<11>{#p/basic}{~}{#x3}没刀子了。' ],
       phaseChange3c2: [
-         "<11>{#p/basic}{~}{#x4}BUT IT DOESN'T MATTER!!!",
-         "<11>{#p/basic}{~}{#x4}YOU CAN'T HURT ME AND I CAN'T HURT YOU!",
+         "<11>{#p/basic}{~}{#x4}没事！！！",
+         "<11>{#p/basic}{~}{#x4}我伤不着你，\n你也伤不着我！",
          "<11>{#p/basic}{~}{#x1}YOU'LL BE STUCK FIGHTING ME..."
       ],
       phaseChange3c3: [ '<11>{#p/basic}{~}{#x1}Forever.' ],
@@ -5252,26 +5252,26 @@ export default {
          '<11>{*}{#p/basic}{~}{#x6}Ergh!\nAcid rain!?{^20}{%}',
          "<11>{*}{#p/basic}{~}{#x4}Oh, FORGET IT!\nI'm OUTTA here!!{^20}{%}"
       ],
-      randStatus1: [ '<32>{#p/story}* Mad Dummy is looking for the nearest airlock to throw you out of.' ],
-      randStatus2: [ '<32>{#p/story}* Mad Dummy is bossing around its bullets.' ],
+      randStatus1: [ '<32>{#p/story}* 要是能找到气闸，\n  愤怒人偶就把你扔出去了。' ],
+      randStatus2: [ '<32>{#p/story}* 愤怒人偶正使唤着它的弹幕。' ],
       randStatus3: [ '<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the same expression.' ],
       randStatus4: [ '<32>{#p/story}* Mad Dummy is hopping mad.' ],
       randStatus5: [ '<32>{#p/story}* Smells like a textile factory.' ],
       gladStatus1: [ '<32>{#p/story}* 开心人偶很庆幸自己来了这里。' ],
       gladStatus2: [ "<32>{#p/story}* 开心人偶正规划着\n  今后的美好人生。" ],
       gladStatus3: [ '<32>{#p/story}* 开心人偶看起来很满足。' ],
-      randTalk1: [ '<11>{#p/basic}{~}{#x1}Foolish.\nFoolish!\nFOOLISH!' ],
+      randTalk1: [ '<11>{#p/basic}{~}{#x1}愚蠢。\n愚蠢！\n愚蠢！' ],
       randTalk2: [ '<11>{#p/basic}{~}{#x1}Futile.\nFutile!\nFUTILE!' ],
       randTalk3: [ '<11>{#p/basic}{~}{#x1}Pitiful.\nPitiful!\nPITIFUL!' ],
       randTalk4: [ '<11>{#p/basic}{~}{#x1}Feeble.\nFeeble!\nFEEBLE!' ],
-      slapTalk1: [ '<11>{#p/basic}{~}{#x6}Why you little...!' ],
-      slapTalk2: [ '<11>{#p/basic}{~}{#x4}Are you kidding me??' ],
-      slapTalk3: [ '<11>{#p/basic}{~}{#x2}Come on!' ],
+      slapTalk1: [ '<11>{#p/basic}{~}{#x6}好你个...！' ],
+      slapTalk2: [ '<11>{#p/basic}{~}{#x4}你玩我呢？？' ],
+      slapTalk3: [ '<11>{#p/basic}{~}{#x2}脏手拿远点！' ],
       slapTalk4: [ '<11>{#p/basic}{~}{#x3}...' ],
       status1: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [ '<32>{#p/story}* 开心人偶打算放你走。' ]
-            : [ '<32>{#p/story}* Mad Dummy blocks the way!' ]
+            : [ '<32>{#p/story}* 愤怒人偶拦住了去路！' ]
    },
    b_opponent_moldsmal: {
       epiphany: [
@@ -5393,7 +5393,7 @@ export default {
             [ '<32>{#p/human}* （你做好了天线，\n  把它戴了上去。）' ],
             [
                '<32>{#p/human}* （你开始做另一根天线。）',
-               '<32>{#p/basic}* 太空帽不知道该如何应对，\n  跑掉了。'
+               '<32>{#p/basic}* 太空帽被你整懵了，\n  退出了战斗。'
             ]
          ][battler.target?.vars.create ?? 0],
       flirtStatus1: [ '<32>{#p/story}* Astro Serf is not impressed by your attire.' ],
@@ -5520,167 +5520,167 @@ export default {
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid struggled in the web and made a scary face.' ],
-                 [ '<32>{#p/story}* Monster Kid struggled in the web and yelled.' ],
-                 [ '<32>{#p/story}* Monster Kid gave out a menacing laugh.' ]
+                 [ '<32>{#p/story}* 怪物小孩在网里不停挣扎，\n  还给玛菲特摆了个鬼脸。' ],
+                 [ '<32>{#p/story}* 怪物小孩在网里\n  大喊大叫，不停挣扎。' ],
+                 [ '<32>{#p/story}* 怪物小孩发出一阵瘆人的笑声。' ]
               ]
             : opponent === 'shyren' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid sang a scary tune.' ],
-                 [ '<32>{#p/story}* Monster Kid yelled overly edgy lyrics.' ],
-                 [ '<32>{#p/story}* Monster Kid drummed loudly with their feet.' ]
+                 [ '<32>{#p/story}* 怪物小孩哼了一段\n  瘆人的旋律。' ],
+                 [ '<32>{#p/story}* 怪物小孩嚷着骇人的歌词。' ],
+                 [ '<32>{#p/story}* 怪物小孩疯狂地跺脚。' ]
               ]
             : opponent === 'woshua' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid pointed out the dirty floors.' ],
-                 [ '<32>{#p/story}* Monster Kid pointed out the leaky pipes.' ],
-                 [ '<32>{#p/story}* Monster Kid made a gross face.' ]
+                 [ '<32>{#p/story}* 怪物小孩不停地对地上的赃污\n  指指点点。' ],
+                 [ '<32>{#p/story}* 怪物小孩向刷洁顿指着\n  漏水的管道。' ],
+                 [ '<32>{#p/story}* 怪物小孩捂住鼻子，一脸嫌弃。' ]
               ]
             : [
-                 [ '<32>{#p/story}* Monster Kid stared $(x) directly in the face.' ],
-                 [ '<32>{#p/story}* Monster Kid pointed at $(x) accusingly.' ],
-                 [ '<32>{#p/story}* Monster Kid circled around $(x) like a predator.' ]
+                 [ '<32>{#p/story}* 怪物小孩直钩钩地盯着$(x)。' ],
+                 [ '<32>{#p/story}* 怪物小孩愤怒地指着$(x)。' ],
+                 [ '<32>{#p/story}* 怪物小孩绕着#(x)来回踱步，\n  准备下手。' ]
               ],
       
       mkTurnActRand2: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid complimented Muffet on her eloquent taste in clothing.' ],
-                 [ '<32>{#p/story}* Monster Kid told Muffet her pastries are the best known to monsterkind.' ],
-                 [ "<32>{#p/story}* Monster Kid said no webs are as strong as Muffet's." ]
+                 [ '<32>{#p/story}* 怪物小孩夸玛菲特穿得真精致，\n  有品味。' ],
+                 [ '<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她的糕点在怪物界就是一流。' ],
+                 [ "<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她织的网简直无人能敌。" ]
               ]
             : opponent === 'shyren' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid hummed a pretty melody.' ],
-                 [ "<32>{#p/story}* Monster Kid complimented Shyren's hair." ],
-                 [ "<32>{#p/story}* Monster Kid complimented Shyren's voice." ]
+                 [ '<32>{#p/story}* 怪物小孩哼了一段优美的旋律。' ],
+                 [ "<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的头发真好看。" ],
+                 [ "<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的声音真好听。" ]
               ]
             : opponent === 'woshua' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid called Skrubbington the cleanest monster on the block.' ],
-                 [ "<32>{#p/story}* Monster Kid appreciated Skrubbington's efforts to freshen up the factory." ],
-                 [ "<32>{#p/story}* Monster Kid noted Skrubbington's committment to perfection." ]
+                 [ '<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  这片数它最爱干净。' ],
+                 [ "<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  它就是铸厂模范清洁工。" ],
+                 [ "<32>{#p/story}* 怪物小孩对刷洁顿说，\n  它对完美的追求真是执着。" ]
               ]
             : opponent === 'radtile' // NO-TRANSLATE
 
             ? [
-                 [ "<32>{#p/story}* Monster Kid complimented Radtile's mirror." ],
-                 [ "<32>{#p/story}* Monster Kid complimented Radtile's hat." ],
-                 [ "<32>{#p/story}* Monster Kid made sure to double-check Radtile's appearance." ]
+                 [ "<32>{#p/story}* 怪物小孩夸老顽鳄的镜子\n  真好看。" ],
+                 [ "<32>{#p/story}* 怪物小孩夸老顽鳄\n  帽子真酷。" ],
+                 [ "<32>{#p/story}* 怪物小孩再三打量老顽鳄\n  帅气的脸庞。" ]
               ]
             : [
-                 [ '<32>{#p/story}* Monster Kid offered to keep $(x) company.' ],
-                 [ "<32>{#p/story}* Monster Kid told $(x) they'd be there if it'd help." ],
-                 [ '<32>{#p/story}* Monster Kid stood on top of $(x).' ]
+                 [ '<32>{#p/story}* 怪物小孩告诉$(x)，\n  会陪着它。' ],
+                 [ "<32>{#p/story}* 怪物小孩告诉$(x)，\n  会尽全力帮助它。" ],
+                 [ '<32>{#p/story}* 怪物小孩站到了$(x)上面。' ]
               ],
       
       mkTurnActRand3: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  关于蜘蛛部落的事。' ],
-                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  关于点心店的事。' ],
-                 [ '<32>{#p/story}* Monster Kid tried asking Muffet about tea.' ]
+                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  蜘蛛部落的事。' ],
+                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  烘焙心得。' ],
+                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  品茶之道。' ]
               ]
             : opponent === 'shyren' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid debated about musical notation.' ],
-                 [ '<32>{#p/story}* Monster Kid spoke about music theory.' ],
-                 [ '<32>{#p/story}* Monster Kid discussed their favorite music genres.' ]
+                 [ '<32>{#p/story}* 怪物小孩和害羞塞壬争论起\n  用哪种记谱方式更好。' ],
+                 [ '<32>{#p/story}* 怪物小孩开始讲起了乐理知识。' ],
+                 [ '<32>{#p/story}* 怪物小孩跟害羞塞壬讨论起\n  彼此喜爱的音乐流派。' ]
               ]
             : opponent === 'woshua' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid waxed poetic about proper hygiene.' ],
-                 [ '<32>{#p/story}* Monster Kid rapped about hazard safety.' ],
-                 [ '<32>{#p/story}* Monster Kid showed off their polished sewer pipe set.' ]
+                 [ '<32>{#p/story}* 怪物小孩以“讲卫生”为主题，\n  吟了首小诗。' ],
+                 [ '<32>{#p/story}* 怪物小孩围绕“安”与“危”\n  来了段Rap。' ],
+                 [ '<32>{#p/story}* 怪物小孩自豪地展示着\n  自己的亮晶晶下水管道组。' ]
               ]
             : opponent === 'radtile' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* Monster Kid made an ugly face at Radtile.' ],
-                 [ '<32>{#p/story}* Monster Kid came near and inspected Radtile up close.' ],
-                 [ '<32>{#p/story}* Monster Kid acted out as if they were a feral creature.' ]
+                 [ '<32>{#p/story}* 怪物小孩朝老顽鳄摆了个鬼脸。' ],
+                 [ '<32>{#p/story}* 怪物小孩走上前，把脸凑过去，\n  仔细打量着老顽鳄。' ],
+                 [ '<32>{#p/story}* 怪物小孩把自己扮成一个野孩子。' ]
               ]
             : [
-                 [ '<32>{#p/story}* Monster Kid wiggled around, mimicing $(x).' ],
-                 [ '<32>{#p/story}* Monster Kid did a handstand, impressing $(x).' ],
-                 [ '<32>{#p/story}* Monster Kid spun around, bewildering $(x).' ]
+                 [ '<32>{#p/story}* 怪物小孩看着$(x)，\n  有样学样，扭动着身体。' ],
+                 [ '<32>{#p/story}* 怪物小孩表演了倒立，\n  $(x)惊呆了。' ],
+                 [ '<32>{#p/story}* 怪物小孩在原地打转，\n  看得$(x)不明所以。' ]
               ],
       
       mkTurnActRand4: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
-            ? [ [ "<32>{#p/story}* 怪物小孩试着告诉玛菲特\n  这一切毫无意义！" ] ]
+            ? [ [ "<32>{#p/story}* 怪物小孩想告诉玛菲特\n  这一切毫无意义！" ] ]
             : opponent === 'shyren' || opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ [ '<32>{#p/story}* Monster Kid claimed a spatial distortion was approaching fast!' ] ]
+            ? [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  时空扭曲即将来临！' ] ]
             : opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ [ '<32>{#p/story}* Monster Kid claimed an airborne viral agent was on its way!' ] ]
-            : [ [ '<32>{#p/story}* Monster Kid claimed the nearby pipes were leaking acid!' ] ],
+            ? [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  某种病毒快传播到这里了！' ] ]
+            : [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  酸液从附近的管道里渗出来了！' ] ],
       mkTurnActResult0: [ '<32>{#p/story}* 无事发生。' ],
       mkTurnActResult1: (opponent: string) =>
          opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Skrubbington was grossed out!\n* Skrubbington's DEFENSE down!" ]
+            ? [ "<32>{#p/story}* 刷洁顿直犯恶心！\n* 刷洁顿的防御力下降了！" ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Shyren felt uncomfortable!\n* Shyren's DEFENSE down!" ]
+            ? [ "<32>{#p/story}* 害羞塞壬感到很不自在！\n* 害羞塞壬的防御力下降了！" ]
             : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Radtile felt uncomfortable!\n* Radtile's DEFENSE down!" ]
-            : [ "<32>{#p/story}* $(x) felt uncomfortable!\n* $(x)'s DEFENSE down!" ],
+            ? [ "<32>{#p/story}* 老顽鳄感到很不自在！\n* 老顽鳄的防御力下降了！" ]
+            : [ "<32>{#p/story}* $(x)感到很不自在！\n* $(x)的防御力下降了！" ],
       mkTurnActResult2: (opponent: string) =>
          opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Skrubbington felt flattered!\n* Skrubbington's ATTACK down!" ]
+            ? [ "<32>{#p/story}* 刷洁顿受宠若惊！\n* 刷洁顿的攻击力下降了！" ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Shyren felt flattered!\n* Shyren's ATTACK down!" ]
+            ? [ "<32>{#p/story}* 害羞塞壬受宠若惊！\n* 害羞塞壬的攻击力下降了！" ]
             : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* Radtile felt respected!\n* Radtile's ATTACK down!" ]
-            : [ "<32>{#p/story}* $(x) felt respected!\n* $(x)'s ATTACK down!" ],
+            ? [ "<32>{#p/story}* 受到尊重，老顽鳄心满意足！\n* 老顽鳄的攻击力下降了！" ]
+            : [ "<32>{#p/story}* 受到尊重，$(x)心满意足！\n* $(x)的攻击力下降了！" ],
       mkTurnActResult3: (opponent: string, multiple: boolean) =>
          opponent === 'woshua' // NO-TRANSLATE
 
             ? multiple
-               ? [ '<32>{#p/story}* Skrubbington and the others were distracted by Monster Kid and forgot their turn!' ]
-               : [ '<32>{#p/story}* Skrubbington was distracted by Monster Kid and forgot their turn!' ]
+               ? [ '<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿和其他对手都分神了，\n  错过了自己的回合！' ]
+               : [ '<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿分神了，\n  错过了自己的回合！' ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* Distracted by Monster Kid, Shyren forgot her turn!' ]
+            ? [ '<32>{#p/story}* 被怪物小孩一搅和，\n  害羞塞壬分神了，\n  错过了自己的回合！' ]
             : multiple
-            ? [ '<32>{#p/story}* Entranced by Monster Kid, $(x) and the others forgot their turn!' ]
+            ? [ '<32>{#p/story}* 被怪物小孩一整，\n  $(x)和其他对手忘乎所以，\n  错过了自己的回合！' ]
             : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* Entranced by Monster Kid, Radtile forgot his turn!' ]
-            : [ '<32>{#p/story}* Entranced by Monster Kid, $(x) forgot their turn!' ],
+            ? [ '<32>{#p/story}* 被怪物小孩一整，\n  老顽鳄忘乎所以，\n  错过了自己的回合！' ]
+            : [ '<32>{#p/story}* 被怪物小孩一整，\n  $(x)忘乎所以，\n  错过了自己的回合！' ],
       mkTurnActResult4: (opponent: string, multiple: boolean, allowpac: boolean) =>
          opponent === 'woshua' // NO-TRANSLATE
 
             ? [
-                 '<32>{#p/story}* Fearful for its life, Skrubbington panicked and left the battle!',
-                 ...(multiple ? [ '<32>{#p/story}* The other monsters continue to fight you.' ] : [])
+                 '<32>{#p/story}* 刷洁顿担心自己小命不保，\n  赶忙跑掉了！',
+                 ...(multiple ? [ '<32>{#p/story}* 其他对手还想继续战斗。' ] : [])
               ]
             : opponent === 'shyren' // NO-TRANSLATE
 
             ? allowpac
-               ? [ '<32>{#p/story}* Fearful for her life, Shyren panicked and left the battle!' ]
-               : [ '<32>{#p/story}* Encouraged by her own performance, Shyren braved the threat!' ]
+               ? [ '<32>{#p/story}* 害羞塞壬担心自己小命不保，\n  赶忙跑掉了！' ]
+               : [ '<32>{#p/story}* 表演过后，害羞塞壬有了信心。\n  决定勇敢地直面危险！' ]
             : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* Fearful for his life, Radtile panicked and left the battle!' ]
+            ? [ '<32>{#p/story}* 老顽鳄担心自己小命不保，\n  赶忙跑掉了！' ]
             : [
-                 '<32>{#p/story}* Fearful for its life, $(x) panicked and left the battle!',
-                 ...(multiple ? [ '<32>{#p/story}* The other monsters continue to fight you.' ] : [])
+                 '<32>{#p/story}* $(x)担心自己小命不保，\n  赶忙跑掉了！',
+                 ...(multiple ? [ '<32>{#p/story}* 其他对手还想继续战斗。' ] : [])
               ],
       mkTurnFight1: () => [
          '<32>{#p/kidding}* 你... 你-你让我战斗？\n* 真的吗？',
@@ -5707,7 +5707,7 @@ export default {
    c_call_common: {
       start: '<32>{#s/phone}{#p/event}* 拨号中...',
       end: '<32>{#s/equip}{#p/event}* 滴...',
-      nobody0: [ '<32>{#p/human}* （受到太多信号干扰了。）' ],
+      nobody0: [ '<32>{#p/human}* （全是噪音。）' ],
       nobody1: [ '<32>{#p/human}* （没有回应。）' ],
       nobody2: [ '<32>{#p/basic}* ...但是谁也没有来。' ],
       nobody3: [ '<32>{#p/human}* （没有信号。）' ],

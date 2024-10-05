@@ -1,4 +1,4 @@
-import { CosmosFont, CosmosKeyed, CosmosPointSimple } from '../../../code/systems/storyteller';
+import { CosmosFont, CosmosKeyed, CosmosPointSimple, CosmosWritingMode } from '../../../code/systems/storyteller';
 import values from '../../en_US/text/values';
 export default values as {
    cellInventoryX: number;
@@ -34,6 +34,10 @@ export default values as {
    nameNoX: number;
    nameYesX: number;
    nameGoBackX: number;
+   papyrusFontSize1: number;
+   papyrusSpacingX: number;
+   papyrusSpacingY: number;
+   papyrusWritingMode: String;
    saveLVX: number;
    saveReturnX: number;
    saveSaveX: number;

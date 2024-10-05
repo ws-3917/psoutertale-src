@@ -2,7 +2,7 @@ import commonText from '../../languages/default/text/common';
 import text from '../../languages/default/text/starton';
 import { faces, quickCall } from '../common/api';
 import { content, context, soundOpts, soundRouter, sounds } from '../systems/assets';
-import { atlas, game, items, keys, maps, renderer, rooms, speech } from '../systems/core';
+import { atlas, events, game, items, keys, maps, renderer, rooms, speech } from '../systems/core';
 import { battler, easyRoom, keyring, phone, portraits, saver, shake } from '../systems/framework';
 import { OutertaleMap, OutertaleSpeechPreset } from '../systems/outertale';
 import { SAVE } from '../systems/save';
@@ -14,7 +14,8 @@ import {
    CosmosNavigator,
    CosmosObject,
    CosmosSprite,
-   CosmosUtils
+   CosmosUtils,
+   CosmosWritingMode
 } from '../systems/storyteller';
 import { translator } from '../systems/translator';
 
@@ -57,6 +58,7 @@ import s_start from '../../rooms/s_start.json';
 import s_taxi from '../../rooms/s_taxi.json';
 import s_town1 from '../../rooms/s_town1.json';
 import s_town2 from '../../rooms/s_town2.json';
+import values from '../../languages/default/text/values';
 
 export const startonMap = new OutertaleMap(imStarton$info, new CosmosImage(imStarton));
 startonMap.name = 'maps::starton';
@@ -325,6 +327,8 @@ phone.register('papyrus', {
 
 portraits.register(faces);
 
+console.log(values.papyrusWritingMode)
+
 export const startonRooms = {
    s_start: easyRoom('s_start', startonMap, s_start),
    s_sans: easyRoom('s_sans', startonMap, s_sans),
@@ -493,60 +497,6 @@ speech.presets.register({
       fontFamily1: content.fDeterminationMono,
       fontFamily2: content.fDotumChe
    }),
-   papyrus: new OutertaleSpeechPreset({
-      faces: [
-         faces.papyrusCutscene1, // 0
-         faces.papyrusAYAYA, // 1
-         faces.papyrusAyoo, // 2
-         faces.papyrusDisbeef, // 3
-         faces.papyrusIsThatSo, // 4
-         faces.papyrusNervousLaugh, // 5
-         faces.papyrusNervousSweat, // 6
-         faces.papyrusNyeh, // 7
-         faces.papyrusThisIsSoSad, // 8
-         faces.papyrusWhatchaGonnaDo, // 9
-         faces.papyrusBattleHapp, // 10
-         faces.papyrusBattleHappAgain, // 11
-         faces.papyrusBattleAnime, // 12
-         faces.papyrusBattleBlush, // 13
-         faces.papyrusBattleBlushRefuse, // 14
-         faces.papyrusBattleConfident, // 15
-         faces.papyrusBattleDeadpan, // 16
-         faces.papyrusBattleDetermined, // 17
-         faces.papyrusBattleEyeroll, // 18
-         faces.papyrusBattleFakeAnger, // 19
-         faces.papyrusBattleMad, // 20
-         faces.papyrusBattleNooo, // 21
-         faces.papyrusBattleOwwie, // 22
-         faces.papyrusBattleShock, // 23
-         faces.papyrusBattleSide, // 24
-         faces.papyrusBattleSly, // 25
-         faces.papyrusBattleSus, // 26
-         faces.papyrusBattleSweat, // 27
-         faces.papyrusBattleTopBlush, // 28
-         faces.papyrusBattleWeary, // 29
-         null, // 30
-         faces.papyrusSad, // 31
-         faces.papyrusSadSweat, // 32
-         faces.papyrusBattleClosed, // 33
-         faces.papyrusDisbeefTurnaround, // 34
-         faces.papyrusBattleSmacked, // 35
-         faces.papyrusBattleBlank // 36
-      ],
-      interval: 2,
-      voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
-      fontFamily1: content.fPapyrus,
-      fontFamily2: content.fPapyrus,
-      fontSize2: 8
-   }),
-   papyrusnt: new OutertaleSpeechPreset({
-      faces: [ null ],
-      interval: 2,
-      voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
-      fontFamily1: content.fPapyrus,
-      fontFamily2: content.fPapyrus,
-      fontSize2: 8
-   }),
    alphys: new OutertaleSpeechPreset({
       faces: [
          null, // 0
@@ -628,5 +578,68 @@ speech.presets.register({
 translator.addAsset('imStarton$info', startonMap);
 translator.addAsset('imStarton', startonMap.image);
 translator.addText('starton', text);
+
+events.on("ready", () => {
+   speech.presets.register({
+      papyrus: new OutertaleSpeechPreset({
+         faces: [
+            faces.papyrusCutscene1, // 0
+            faces.papyrusAYAYA, // 1
+            faces.papyrusAyoo, // 2
+            faces.papyrusDisbeef, // 3
+            faces.papyrusIsThatSo, // 4
+            faces.papyrusNervousLaugh, // 5
+            faces.papyrusNervousSweat, // 6
+            faces.papyrusNyeh, // 7
+            faces.papyrusThisIsSoSad, // 8
+            faces.papyrusWhatchaGonnaDo, // 9
+            faces.papyrusBattleHapp, // 10
+            faces.papyrusBattleHappAgain, // 11
+            faces.papyrusBattleAnime, // 12
+            faces.papyrusBattleBlush, // 13
+            faces.papyrusBattleBlushRefuse, // 14
+            faces.papyrusBattleConfident, // 15
+            faces.papyrusBattleDeadpan, // 16
+            faces.papyrusBattleDetermined, // 17
+            faces.papyrusBattleEyeroll, // 18
+            faces.papyrusBattleFakeAnger, // 19
+            faces.papyrusBattleMad, // 20
+            faces.papyrusBattleNooo, // 21
+            faces.papyrusBattleOwwie, // 22
+            faces.papyrusBattleShock, // 23
+            faces.papyrusBattleSide, // 24
+            faces.papyrusBattleSly, // 25
+            faces.papyrusBattleSus, // 26
+            faces.papyrusBattleSweat, // 27
+            faces.papyrusBattleTopBlush, // 28
+            faces.papyrusBattleWeary, // 29
+            null, // 30
+            faces.papyrusSad, // 31
+            faces.papyrusSadSweat, // 32
+            faces.papyrusBattleClosed, // 33
+            faces.papyrusDisbeefTurnaround, // 34
+            faces.papyrusBattleSmacked, // 35
+            faces.papyrusBattleBlank // 36
+         ],
+         interval: 2,
+         voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
+         fontFamily1: content.fPapyrus,
+         fontFamily2: content.fPapyrus,
+         fontSize1: values.papyrusFontSize1,
+         fontSize2: 8,
+         writingMode: values.papyrusWritingMode as CosmosWritingMode,
+      }),
+      papyrusnt: new OutertaleSpeechPreset({
+         faces: [ null ],
+         interval: 2,
+         voices: [ [ new CosmosDaemon(content.avPapyrus, { context, router: soundRouter }) ] ],
+         fontFamily1: content.fPapyrus,
+         fontFamily2: content.fPapyrus,
+         fontSize1: values.papyrusFontSize1,
+         fontSize2: 8,
+         writingMode: values.papyrusWritingMode as CosmosWritingMode,
+      }),
+   })
+})
 
 CosmosUtils.status(`LOAD MODULE: STARTON BOOTSTRAP (${Math.floor(performance.now()) / 1000})`, { color: '#07f' });

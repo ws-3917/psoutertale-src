@@ -61,9 +61,20 @@ export type CosmosPixelShader = (
 export type CosmosProvider<A, B extends any[] = []> = A | ((...args: B) => A);
 export type CosmosRegion = [CosmosPointSimple, CosmosPointSimple];
 export type CosmosRendererLayerModifier = 'fixed' | 'vertical';
+export type CosmosRendererStyle = {
+   blend: BLEND_MODES;
+   border: number;
+   fill: number;
+   fontFamily: null;
+   fontSize: number;
+   stroke: number;
+   tint: number;
+   writingMode: CosmosWritingMode;
+};
 export type CosmosResult<A> = A extends () => Promise<infer B> ? B : never;
 export type CosmosTransform = [CosmosPoint, number, CosmosPoint];
 export type CosmosTyperFormatter = (text: string, length: number, plain?: boolean) => string;
+export type CosmosWritingMode = "vertical-rl" | "horizontal-tb"
 
 // interfaces
 export interface CosmosAnchoredObjectProperties<A extends CosmosMetadata = CosmosMetadata>
@@ -206,6 +217,7 @@ export interface CosmosStyle {
    fontSize: number;
    stroke: number;
    tint: number;
+   writingMode: CosmosWritingMode | null;
 }
 
 export interface CosmosTextProperties<A extends CosmosMetadata = CosmosMetadata>
@@ -1020,6 +1032,7 @@ export class CosmosBase<A extends CosmosBaseEvents = CosmosBaseEvents>
    fill: number | undefined;
    fontFamily: CosmosFont | null | undefined;
    fontSize: number | undefined;
+   writingMode: CosmosWritingMode | null | undefined;
    position: CosmosPoint;
    rotation: CosmosValue;
    scale: CosmosPoint;
@@ -1053,7 +1066,8 @@ export class CosmosBase<A extends CosmosBaseEvents = CosmosBaseEvents>
       rotation = 0,
       scale = 1,
       stroke = void 0,
-      tint = void 0
+      tint = void 0,
+      writingMode = void 0
    }: CosmosBaseProperties = {}) {
       super();
       this.alpha = new CosmosValue(alpha);
@@ -1077,6 +1091,7 @@ export class CosmosBase<A extends CosmosBaseEvents = CosmosBaseEvents>
       }
       this.stroke = stroke;
       this.tint = tint;
+      this.writingMode = writingMode;
    }
    updateFilters (filters = this.container.filters) {
       if (filters === null || filters.length === 0) {
@@ -1969,15 +1984,16 @@ export class CosmosRenderer<
    B extends CosmosBaseEvents = CosmosBaseEvents
 > extends CosmosBase<B> {
    static fancy = true;
-   static style = {
+   static style:CosmosRendererStyle = {
       blend: BLEND_MODES.NORMAL,
       border: 1,
       fill: -1,
       fontFamily: null,
       fontSize: 0,
       stroke: -1,
-      tint: 0xffffff
-   };
+      tint: 0xffffff,
+      writingMode: 'horizontal-tb'
+   }
    static suspend = false;
    _layers: CosmosRendererLayer[] = [];
    application: Application;
@@ -2191,7 +2207,8 @@ export class CosmosRenderer<
          fontFamily: this.fontFamily ?? CosmosRenderer.style.fontFamily,
          fontSize: this.fontSize ?? CosmosRenderer.style.fontSize,
          stroke: this.stroke ?? CosmosRenderer.style.stroke,
-         tint: this.tint ?? CosmosRenderer.style.tint
+         tint: this.tint ?? CosmosRenderer.style.tint,
+         writingMode: this.writingMode ?? CosmosRenderer.style.writingMode
       };
    }
    tick () {
@@ -2523,6 +2540,21 @@ export class CosmosObject<
          return this.tint;
       }
    }
+   getWritingMode (style: CosmosStyle) {
+      if (this.writingMode === void 0) {
+         let parent = this.parent;
+         while (parent !== null) {
+            if (parent.writingMode === void 0) {
+               parent = parent.parent;
+            } else {
+               return parent.writingMode;
+            }
+         }
+         return style.writingMode;
+      } else {
+         return this.writingMode;
+      }
+   }
    render (camera: CosmosPointSimple, scale: CosmosPointSimple, style: CosmosStyle) {
       this.fire('pre-render');
       let x = this.position.x;
@@ -2832,7 +2864,7 @@ export class CosmosText<
    static state = 0;
    content: string;
    display = new Container();
-   memory: [boolean, number, number, number, number, number, number, string, CosmosFont | null, number] = [
+   memory: [boolean, number, number, number, number, number, number, string, CosmosFont | null, number, CosmosWritingMode | null] = [
       false, // plain
       -1, // fill
       0, // font size
@@ -2842,7 +2874,8 @@ export class CosmosText<
       -1, // stroke
       '', // content
       null, // font family
-      0 // blend mode
+      0, // blend mode
+      null, // writing mode
    ];
    plain: boolean;
    spacing: CosmosPointSimple;
@@ -2873,6 +2906,8 @@ export class CosmosText<
    draw (style: CosmosStyle) {
       const fontSize = this.getFontSize(style);
       const fontFamily = this.getFontFamily(style);
+      const writingMode = this.getWritingMode(style);      
+
       if (fontSize === 0 || fontFamily?.loaded !== true || this.transparent()) {
          if (this.visible) {
             this.swirl_time = 0;
@@ -2926,6 +2961,10 @@ export class CosmosText<
             this.memory[8] = fontFamily;
             update = true;
          }
+         if (writingMode !== this.memory[10]) {
+            this.memory[10] = writingMode;
+            update = true;
+         }
 
          let updateBlend = false;
          const blend = this.getBlend(style);
@@ -2977,8 +3016,16 @@ export class CosmosText<
             while (index < this.content.length) {
                let char = this.content[index++];
                if (char === '\n') {
-                  cursor.x = 0;
-                  cursor.y += height + this.spacing.y + subspacing.y;
+                  switch (writingMode){
+                     case "horizontal-tb":
+                        cursor.x = 0;
+                        cursor.y += height + this.spacing.y;
+                        break;
+                     case "vertical-rl":
+                        cursor.x -= height + this.spacing.y;
+                        cursor.y = 0;
+                        break;
+                  }
                } else if (!this.plain && char === '§') {
                   const code = this.content.slice(index, this.content.indexOf('§', index));
                   const [ key, value ] = code.split('=');
@@ -3064,21 +3111,24 @@ export class CosmosText<
                      this.memory[5] = -1;
                   }
                } else {
+                  let dummyCursor = writingMode === "horizontal-tb" 
+                     ? {x:cursor.x,y:cursor.y}
+                     : {x:cursor.y,y:cursor.x};
                   let h = null as number | null;
-                  let x = cursor.x + (shake.x !== 0 ? shake.x * stretch * (Math.random() - 0.5) : 0);
-                  let y = cursor.y + (shake.y !== 0 ? shake.y * (Math.random() - 0.5) : 0);
+                  let dummyX = dummyCursor.x + (shake.x !== 0 ? shake.x * stretch * (Math.random() - 0.5) : 0);
+                  let dummyY = dummyCursor.y + (shake.y !== 0 ? shake.y * (Math.random() - 0.5) : 0);
                   if (swirl.r !== 0 && swirl.s !== 0) {
                      const angle =
                         (((this.swirl_time / CosmosMath.FRAME) * 360 * swirl.s) % 360) + index * (360 / swirl.p);
                      const endpoint = CosmosMath.ORIGIN.endpoint(angle, swirl.r);
                      swirl.h && (h = angle);
-                     x += endpoint.x * stretch;
-                     y += endpoint.y;
+                     dummyX += endpoint.x * stretch;
+                     dummyY += endpoint.y;
                   }
                   if (wordify.index !== -1) {
                      char = wordify.word[wordify.index++] ?? '';
                      if (wordify.index === wordify.word.length) {
-                        cursor.x += (wordify.size - fontFamily.metrics(wordify.word).x) * stretch;
+                        dummyCursor.x += (wordify.size - fontFamily.metrics(wordify.word).x) * stretch;
                      }
                   }
                   if (mystify.length !== 0) {
@@ -3097,16 +3147,40 @@ export class CosmosText<
                      h === null ||
                         ((sprite.filters ??= [ new ColorMatrixFilter() ])[0] as ColorMatrixFilter).hue(h, false);
                      (updateBlend || !reuse) && (sprite.blendMode = blend);
-                     sprite.position.set(x + glyph[4], y + glyph[5]);
+                     const {x,y}=writingMode==="horizontal-tb"
+                     ? { x: dummyX, y:dummyY }
+                     : { x: dummyY, y:dummyX };
+
+                     let xOffset = 0;
+
+                     if(writingMode==="vertical-rl"){
+                        //if menuText
+                        const rect= this.parent?.parent
+                        if(rect instanceof CosmosRectangle){
+                           xOffset = rect.size.x - this.position.x - rect.position.x - (glyph[6] * scale + this.spacing.x + subspacing.x) * stretch;
+                        }
+                     }
+
+                     sprite.position.set(x + glyph[4] + xOffset, y + glyph[5]);
                      sprite.scale.set(scale * stretch, scale);
                      sprite.texture = fontFamily.texture(code);
                      sprite.tint =
                         stroke === -1 || stroke === fill
                            ? fill
-                           : CosmosImageUtils.gradient(fill, stroke, Math.min(Math.max(cursor.x / size.x, 0), 1));
+                           : CosmosImageUtils.gradient(fill, stroke, Math.min(Math.max(dummyCursor.x / size.x, 0), 1));
                      reuse || this.display.addChild(sprite);
-                     cursor.x += (glyph[6] * scale + this.spacing.x + subspacing.x) * stretch;
+                     dummyCursor.x += (glyph[6] * scale + this.spacing.x + subspacing.x) * stretch;
                   }
+                  switch (writingMode){
+                     case "horizontal-tb":
+                        cursor.x = dummyCursor.x;
+                        cursor.y = dummyCursor.y;
+                        break;
+                     case "vertical-rl":
+                        cursor.x = dummyCursor.y;
+                        cursor.y = dummyCursor.x;
+                        break;
+                  }                  
                }
             }
             if (index_reuse < reuse_length) {

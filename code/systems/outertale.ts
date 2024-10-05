@@ -22,7 +22,8 @@ import {
    CosmosRectangle,
    CosmosSprite,
    CosmosSpriteProperties,
-   CosmosUtils
+   CosmosUtils,
+   CosmosWritingMode
 } from './storyteller';
 
 export type OutertaleChildAnimationDecorator = {
@@ -651,6 +652,7 @@ export interface OutertaleSpeechPresetProperties {
    fontSize1?: number;
    fontSize2?: number;
    threshold?: number;
+   writingMode?: CosmosWritingMode;
 }
 
 export class OutertaleSpeechPreset {
@@ -663,6 +665,7 @@ export class OutertaleSpeechPreset {
    fontSize1: number;
    fontSize2: number;
    threshold: number;
+   writingMode: CosmosWritingMode | null;
    constructor ({
       chunksize = 1,
       faces = [],
@@ -672,7 +675,8 @@ export class OutertaleSpeechPreset {
       fontFamily2 = null,
       fontSize1 = 16,
       fontSize2 = 9,
-      threshold = 0
+      threshold = 0,
+      writingMode = 'horizontal-tb'
    }: OutertaleSpeechPresetProperties = {}) {
       this.chunksize = chunksize;
       this.faces = faces;
@@ -683,6 +687,7 @@ export class OutertaleSpeechPreset {
       this.fontSize1 = fontSize1;
       this.fontSize2 = fontSize2;
       this.threshold = threshold;
+      this.writingMode = writingMode;
    }
 }
 

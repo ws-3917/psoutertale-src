@@ -1,0 +1,250 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 14,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 126,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 194,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 860,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 640,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 960,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 54,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 72,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "a_citadelevator",
+                     "up",
+                     "160",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_road1",
+                     "down",
+                     "230",
+                     "10"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 995,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_pacing",
+                     "right",
+                     "20",
+                     "170"
+                  ]
+               }
+            ],
+            "interacts": []
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 300,
+               "y": 170
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "tags": [
+               "picnic_kidd",
+               "eobject"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocKiddUpTalk",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 450,
+               "y": 147
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -21,
+                     "y": -5
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -21,
+                     "y": -5
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "npc",
+                     "picnic_kidd"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 840,
+         "y": 120
+      }
+   ],
+   "neighbors": [
+      "c_road1",
+      "a_citadelevator",
+      "c_pacing"
+   ],
+   "preload": [
+      "iocAsgore",
+      "avAsgore",
+      "idcAsgore",
+      "cityAssets",
+      "amApproach",
+      "iocAlphys",
+      "avAlphys",
+      "idcAlphys",
+      "idcKidd",
+      "avKidd"
+   ]
+}

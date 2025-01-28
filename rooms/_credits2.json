@@ -1,0 +1,77 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "iocUndyneSitside",
+      "iocUndyneSitred",
+      "iocUndyneSithead",
+      "iocAlphysSitdown",
+      "iocAlphysSitred",
+      "iocAsrielTrueDownSad",
+      "ionAOnionsanKawaii",
+      "ionAOnionsanWistful",
+      "ionSNicecreamShocked",
+      "iocAlphysDown",
+      "iocAlphysSit",
+      "ieGay",
+      "iocAlphysSitonion"
+   ],
+   "neighbors": [
+      "_credits3"
+   ],
+   "layers": {
+      "below": [],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "resources": "ionSNicecreamHappi",
+                  "active": false,
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 68,
+               "y": 91
+            },
+            "tags": [
+               "niceguy"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionSPunkhamster",
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 14,
+               "y": 132
+            }
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 320,
+         "y": 120
+      },
+      {
+         "x": 320,
+         "y": 120
+      }
+   ]
+}

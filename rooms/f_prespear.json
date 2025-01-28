@@ -1,0 +1,123 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 280,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": 340
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 400
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_puzzle3",
+                     "left",
+                     "980",
+                     "110"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 495
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_spear",
+                     "down",
+                     "160",
+                     "10"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "metadata": {
+      "dark02": true
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 280,
+         "y": 380
+      }
+   ],
+   "score": {
+      "music": "factory",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "preload": [
+      "asAppear",
+      "asStab",
+      "iooFFloorspear",
+      "iooFFloorspearBase",
+      "asArrow",
+      "iocUndyne",
+      "ibuSOUL",
+      "iocUndyneJetpack",
+      "iooFSpearStab",
+      "asLanding",
+      "iooFSpearHole",
+      "asStomp",
+      "amUndynefast",
+      "asJetpack",
+      "iooFSpear",
+      "battleAssets",
+      "ibuSOUL",
+      "ibbRedspear",
+      "iooFSpearSpawn",
+      "amFactory"
+   ],
+   "neighbors": [
+      "f_puzzle3",
+      "f_spear"
+   ]
+}

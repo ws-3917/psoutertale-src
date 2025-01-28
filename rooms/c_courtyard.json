@@ -1,0 +1,1252 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "cityAssets",
+      "iocAsrielRightHandhold",
+      "iocAsrielRightHandholdWater",
+      "asRetract",
+      "iocAlphys",
+      "avAlphys",
+      "idcAlphys",
+      "avAsgore",
+      "iocAsgore",
+      "idcAsgore",
+      "ionAClamguyFront",
+      "asShake"
+   ],
+   "layers": {
+      "below": [
+         {
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 5,
+                     "y": 320
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "args": [
+                     "c_pacing",
+                     "left",
+                     "620",
+                     "170"
+                  ]
+               },
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 234,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 72,
+                     "y": 20
+                  },
+                  "args": [
+                     "c_asgore_front",
+                     "up",
+                     "159",
+                     "230"
+                  ]
+               },
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 535,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "args": [
+                     "c_alley",
+                     "right",
+                     "20",
+                     "180"
+                  ]
+               }
+            ],
+            "position": {
+               "x": -20,
+               "y": 40
+            },
+            "interacts": [
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "garden"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "garden"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "garden"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "garden"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "garden"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "garden_ex"
+                  ]
+               }
+            ],
+            "barriers": []
+         },
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 14,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 306,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 14,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 220,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 460,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 400
+                  },
+                  "size": {
+                     "x": 260,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 380
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 8,
+                     "y": 5
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 380
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 360
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 380,
+                     "y": 340
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 400,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 420,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "position": {
+               "x": -20,
+               "y": 40
+            },
+            "attachments": []
+         }
+      ],
+      "main": [
+         {
+            "position": {
+               "x": 97,
+               "y": 331
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 103,
+               "y": 306
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 128,
+               "y": 296
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 115,
+               "y": 281
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 151,
+               "y": 273
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 136,
+               "y": 260
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 161,
+               "y": 247
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "position": {
+               "x": 186,
+               "y": 240
+            },
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooStarling"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "starflower"
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 504,
+               "y": 188
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 508,
+               "y": 194
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 504,
+               "y": 200
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 508,
+               "y": 206
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 504,
+               "y": 212
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "c_pylon"
+            ],
+            "position": {
+               "x": 508,
+               "y": 218
+            },
+            "attachments": [
+               {
+                  "auto": false,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooOPylon"
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -2,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": 4,
+                     "y": 6
+                  }
+               }
+            ]
+         },
+         {
+            "tags": [
+               "eobject"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCPicnictable"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 14
+                  }
+               }
+            ],
+            "position": {
+               "x": 250,
+               "y": 366
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 19,
+                     "y": -18
+                  },
+                  "position": {
+                     "x": 39,
+                     "y": 2
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 14
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -77,
+                     "y": -50
+                  }
+               },
+               {
+                  "position": {
+                     "x": -38,
+                     "y": 7
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": -38,
+                     "y": -13
+                  },
+                  "size": {
+                     "x": -23,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 39,
+                     "y": -16
+                  },
+                  "size": {
+                     "x": 21,
+                     "y": -10
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": -38,
+                     "y": 7
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "picnicchair"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": -38,
+                     "y": -13
+                  },
+                  "size": {
+                     "x": -23,
+                     "y": -10
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "picnicchair"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 39,
+                     "y": 2
+                  },
+                  "size": {
+                     "x": 19,
+                     "y": -18
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "picnicchair"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 39,
+                     "y": -16
+                  },
+                  "size": {
+                     "x": 21,
+                     "y": -10
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "picnicchair"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionAOni",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 250,
+               "y": 336
+            },
+            "tags": [
+               "picnic_oni",
+               "eobject"
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": -6
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": -16
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": -6
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": -16
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "npc",
+                     "picnic_oni"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionAClamguyBack",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 250,
+               "y": 392
+            },
+            "tags": [
+               "picnic_clamguy",
+               "eobject"
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": -12
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -36,
+                     "y": -12
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "npc",
+                     "picnic_clamguy"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "picnic_charles",
+               "eobject"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionACharles",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 1,
+                     "y": -56
+                  }
+               }
+            ],
+            "position": {
+               "x": 280,
+               "y": 380
+            },
+            "interacts": [
+               {
+                  "position": {
+                     "x": 8,
+                     "y": -44
+                  },
+                  "size": {
+                     "x": -14,
+                     "y": -14
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "npc",
+                     "picnic_charles"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionAProskater",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 320,
+               "y": 231
+            },
+            "tags": [
+               "eobject",
+               "picnic_proskater"
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -30,
+                     "y": -11
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -30,
+                     "y": -11
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "npc",
+                     "picnic_proskater"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionARgrabbitDown",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 85,
+               "y": 355
+            },
+            "tags": [
+               "picnic_rabbit",
+               "eobject"
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -35,
+                     "y": -15
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -35,
+                     "y": -15
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "rg",
+                     "1"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionARgdragonDown",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "filters": [
+                     ""
+                  ]
+               }
+            ],
+            "position": {
+               "x": 45,
+               "y": 355
+            },
+            "tags": [
+               "picnic_dragon",
+               "eobject"
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -35,
+                     "y": -15
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -35,
+                     "y": -15
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "rg",
+                     "0"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "c_pacing",
+      "c_asgore_front",
+      "c_alley"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 360,
+         "y": 360
+      }
+   ]
+}

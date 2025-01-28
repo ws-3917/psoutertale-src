@@ -1,0 +1,37 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": []
+   },
+   "preload": [
+      "amRedacted",
+      "iocAsgoreUp",
+      "iocAsgoreUpTalk",
+      "idcAsgore",
+      "avAsgore",
+      "iocAsrielUp",
+      "iocAsrielUpTalk",
+      "avAsriel",
+      "idcAsrielTrue",
+      "splashAssets",
+      "asImpact"
+   ],
+   "neighbors": [
+      "_credits1"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "redacted",
+      "gain": 1
+   }
+}

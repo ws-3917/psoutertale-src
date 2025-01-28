@@ -1,0 +1,328 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "asDoorClose"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 63,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 49,
+                     "y": 22
+                  }
+               },
+               {
+                  "position": {
+                     "x": 206,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 34,
+                     "y": 44
+                  }
+               },
+               {
+                  "position": {
+                     "x": 171,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 69,
+                     "y": -20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_bonehouse",
+                     "down",
+                     "268",
+                     "65"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 157,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_sanscloset",
+                     "up",
+                     "200",
+                     "230"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 84,
+                     "y": 102
+                  },
+                  "size": {
+                     "x": 19,
+                     "y": -22
+                  },
+                  "name": "starton",
+                  "args": [
+                     "sanscabinet"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 206,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 33,
+                     "y": 44
+                  },
+                  "name": "starton",
+                  "args": [
+                     "sansbed"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 109,
+                     "y": 102
+                  },
+                  "size": {
+                     "x": 19,
+                     "y": -22
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sr_lamp"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         {
+            "tags": [
+               "xobject"
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 129,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 77,
+                     "y": 7
+                  }
+               }
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSCottonrow"
+                  ],
+                  "position": {
+                     "x": 130,
+                     "y": 78
+                  }
+               },
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSCottondoor"
+                  ],
+                  "position": {
+                     "x": 143,
+                     "y": 37
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 129,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 77,
+                     "y": 7
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sr_cottonball"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSYousleptinthebed"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  }
+               }
+            ],
+            "position": {
+               "x": 208,
+               "y": 76
+            },
+            "tags": [
+               "yousleptinthebed"
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSTreadmill",
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 217,
+               "y": 198
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": -11
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": -40,
+                     "y": -11
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_sr_treadmill"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "s_bonehouse",
+      "s_sanscloset"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

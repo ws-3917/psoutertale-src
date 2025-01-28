@@ -1,0 +1,164 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 1280
+                  }
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 1280
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 10,
+                     "y": -15
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "args": [
+                     "c_exit",
+                     "up",
+                     "120",
+                     "210"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 1275
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_bastion",
+                     "down",
+                     "170",
+                     "110"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 140
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "2"
+                  ],
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 400
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "3"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 660
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "4"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 920
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "5"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 1180
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "nmon",
+                     "6"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": []
+   },
+   "neighbors": [
+      "c_exit",
+      "c_bastion"
+   ],
+   "region": [
+      {
+         "x": 40,
+         "y": 120
+      },
+      {
+         "x": 40,
+         "y": 1160
+      }
+   ],
+   "preload": [
+      "amBarrier"
+   ],
+   "score": {
+      "music": "barrier"
+   }
+}

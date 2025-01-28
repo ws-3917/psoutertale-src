@@ -1,0 +1,219 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "_view"
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 215
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier4",
+                     "down",
+                     "160",
+                     "110"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "cornerbarrier"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "charatrigger"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocFriskDownCharaFake",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 130,
+               "y": 105
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  },
+                  "name": "_chara"
+               }
+            ]
+         }
+      ]
+   },
+   "preload": [
+      "splashAssets",
+      "homeAssets"
+   ],
+   "neighbors": [
+      "_frontier4",
+      "_frontier8"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "birds",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   }
+}

@@ -1,0 +1,234 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amStartonArchive"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 95
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 190
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 330,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -50,
+                     "y": 30
+                  }
+               },
+               {
+                  "position": {
+                     "x": 330,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -50,
+                     "y": -25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 335,
+                     "y": 95
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 95
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_starton2",
+                     "right",
+                     "20",
+                     "60"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 241,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 100
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cs_battle"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "lasercheckpoint"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSLasercheckpointOpenSide"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 5
+                  }
+               },
+               {
+                  "active": true,
+                  "type": "animation",
+                  "resources": "iooSLasercheckpointSide",
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 5
+                  }
+               }
+            ],
+            "position": {
+               "x": 300,
+               "y": 170
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "position": {
+                     "x": 9,
+                     "y": -5
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -50
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSLasercheckpointOpenSide2"
+                  ],
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 75
+                  }
+               }
+            ],
+            "position": {
+               "x": 300,
+               "y": 100
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveSentry"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 200,
+               "y": 90
+            },
+            "barriers": []
+         }
+      ]
+   },
+   "score": {
+      "music": "startonArchive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 20,
+         "y": 60
+      },
+      {
+         "x": 180,
+         "y": 180
+      }
+   ],
+   "neighbors": [
+      "c_archive_starton2",
+      "c_archive_path2"
+   ]
+}

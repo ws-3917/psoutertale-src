@@ -1,0 +1,256 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "iooCArchivePuzzlepylonOverlay",
+      "amFactoryArchive",
+      "asIndicator",
+      "asPathway",
+      "asSigstar2"
+   ],
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "x": 0,
+               "y": 0
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_foundryA3",
+                     "down",
+                     "350",
+                     "110"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "position": {
+                     "x": 100,
+                     "y": 80
+                  },
+                  "frames": [
+                     "iooFWallsign"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf1_wallsign"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "beamwall"
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 240
+                  }
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         }
+      ],
+      "main": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFEchoflower",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "auto": false
+               }
+            ],
+            "position": {
+               "x": 180,
+               "y": 175
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -5
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cf1_echo4"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "pylonG",
+               "pylon"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooCArchivePuzzlepylon",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 60,
+               "y": 150
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": -10
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.05
+                  },
+                  "size": {
+                     "x": 14,
+                     "y": 14
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "factoryArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_foundryA3"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

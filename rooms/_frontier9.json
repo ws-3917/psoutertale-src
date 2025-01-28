@@ -1,0 +1,237 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -100,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 112,
+                     "y": 102
+                  },
+                  "size": {
+                     "x": 7,
+                     "y": -22
+                  }
+               },
+               {
+                  "position": {
+                     "x": 119,
+                     "y": 97
+                  },
+                  "size": {
+                     "x": 56,
+                     "y": -17
+                  }
+               },
+               {
+                  "position": {
+                     "x": 104,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -18,
+                     "y": 12
+                  }
+               },
+               {
+                  "position": {
+                     "x": 225,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 31,
+                     "y": 14
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier1",
+                     "up",
+                     "200",
+                     "230"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 225,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 31,
+                     "y": 14
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_wash"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 86,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 18,
+                     "y": 12
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_toilet"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 119,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 56,
+                     "y": 17
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_bathrub"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "charatrigger"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iocFriskUpCharaFake"
+               }
+            ],
+            "position": {
+               "x": 240,
+               "y": 139
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  },
+                  "name": "_chara"
+               }
+            ]
+         }
+      ]
+   },
+   "preload": [
+      "homeAssets"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "birds",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "_frontier1"
+   ]
+}

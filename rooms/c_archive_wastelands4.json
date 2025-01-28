@@ -1,0 +1,310 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amOutlandsArchive",
+      "asSwitch"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 60
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 280,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 200,
+                     "y": 80
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 300
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 280
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 260,
+                     "y": 260
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 220
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 190,
+                     "y": 220
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": 5
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands2",
+                     "left",
+                     "300",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 355,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_wastelands1",
+                     "right",
+                     "20",
+                     "200"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 190,
+                     "y": 220
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -40,
+                     "y": 5
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cw_terminal"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooOSwitch",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 330,
+               "y": 70
+            },
+            "tags": [
+               "cw_switch"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 30
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "cw_switch"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "ionODummy",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 40,
+               "y": 168
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "cw_dummy"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "outlandsArchive",
+      "gain": 1
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 200,
+         "y": 220
+      }
+   ],
+   "neighbors": [
+      "c_archive_wastelands1",
+      "c_archive_wastelands2"
+   ]
+}

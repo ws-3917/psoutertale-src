@@ -1,0 +1,175 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 420,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 420,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 60,
+                     "y": 60
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 60
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_view",
+                     "left",
+                     "980",
+                     "110"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 60
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "plankstop"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "fakebridge"
+            ],
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooFPlankBridge"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 420,
+               "y": 80
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 60,
+               "y": 60
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 60,
+               "y": 160
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         }
+      ]
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 420,
+         "y": 120
+      }
+   ],
+   "neighbors": [
+      "f_view",
+      "f_tunnel"
+   ],
+   "preload": [
+      "iocKiddCrouch",
+      "asAppear",
+      "asStab",
+      "iooFFloorspear",
+      "iooFFloorspearBase",
+      "asArrow",
+      "iocUndyne",
+      "ibuSOUL",
+      "iocKidd",
+      "iocKiddSad",
+      "iocUndyneJetpack",
+      "asLanding",
+      "asArrow",
+      "asAppear",
+      "amUndynefast",
+      "iooFSpear",
+      "iocUndyneKick",
+      "asFear",
+      "asJetpack",
+      "asStomp",
+      "asKick",
+      "avAsriel",
+      "avAsriel4"
+   ]
+}

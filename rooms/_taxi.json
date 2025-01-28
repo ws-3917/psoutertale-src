@@ -1,0 +1,29 @@
+{
+   "$schema": "./room.schema.json",
+   "preload": [
+      "taxiAssets"
+   ],
+   "neighbors": [
+      "w_wonder",
+      "s_taxi",
+      "a_lookout",
+      "f_taxi"
+   ],
+   "score": {
+      "music": "radiosong",
+      "gain": 1,
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

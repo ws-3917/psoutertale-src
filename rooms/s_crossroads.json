@@ -1,0 +1,771 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amStarton",
+      "iooSBiodome"
+   ],
+   "layers": {
+      "below": [
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 90
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_sans",
+                     "left",
+                     "600",
+                     "400"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 315,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_human",
+                     "right",
+                     "20",
+                     "120"
+                  ]
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 310,
+                     "y": -20
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  }
+               },
+               {
+                  "position": {
+                     "x": 130,
+                     "y": 105
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 30
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 105
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": 30
+                  }
+               },
+               {
+                  "position": {
+                     "x": 150,
+                     "y": 135
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 70
+                  }
+               },
+               {
+                  "position": {
+                     "x": -10,
+                     "y": 135
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 70
+                  }
+               },
+               {
+                  "position": {
+                     "x": 10,
+                     "y": 205
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 150,
+                     "y": 205
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 310,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 310,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 30,
+                     "y": 225
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 150,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 30,
+               "y": 0
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 330,
+               "y": 20
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSCtowerback"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 80,
+               "y": 215
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": -13,
+                     "y": -8
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "size": {
+                     "x": -13,
+                     "y": -8
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_helipad"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSSign"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 30
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -18,
+                     "y": -6
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -18,
+                     "y": -6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_crossroads_sign"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSCrossword"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "position": {
+                     "x": 111,
+                     "y": 145
+                  }
+               }
+            ],
+            "position": {
+               "x": 25,
+               "y": 25
+            },
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "position": {
+                     "x": 104,
+                     "y": 154
+                  },
+                  "size": {
+                     "x": 13,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "s_phonecard"
+                  ]
+               }
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "resources": "iooSavePoint",
+                  "position": {
+                     "y": -10,
+                     "x": 0
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "save",
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": -10
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 80,
+               "y": 30
+            },
+            "tags": [
+               "spawn"
+            ]
+         },
+         {
+            "tags": [
+               "dimbox"
+            ],
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooDimbox",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 190,
+               "y": 30
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 9
+                  },
+                  "name": "starton",
+                  "args": [
+                     "dimbox"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "position": {
+               "x": 295,
+               "y": 205
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 280,
+               "y": 30
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSVendingMachine"
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 28,
+                     "y": -15
+                  }
+               }
+            ],
+            "position": {
+               "x": 240,
+               "y": 30
+            },
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -28,
+                     "y": -15
+                  },
+                  "name": "starton",
+                  "args": [
+                     "candy"
+                  ]
+               }
+            ],
+            "tags": [
+               "vending_machine"
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 10,
+               "y": 220
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 150,
+               "y": 220
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 330,
+               "y": 80
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 50,
+               "y": 240
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 110,
+               "y": 240
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "s_sans",
+      "s_human"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 60
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "starton",
+      "gain": 1
+   }
+}

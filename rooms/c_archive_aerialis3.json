@@ -1,0 +1,323 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "amAerialisArchive",
+      "asWind"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 440,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 110,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 210
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 130,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 180,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 130
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 230
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 330,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 110,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": -15,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis4",
+                     "left",
+                     "200",
+                     "180"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 435,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "c_archive_aerialis1",
+                     "right",
+                     "20",
+                     "160"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 160
+                  },
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -100,
+                     "y": 80
+                  },
+                  "name": "citadel",
+                  "args": [
+                     "ca_battle"
+                  ]
+               }
+            ],
+            "rotation": 0,
+            "position": {
+               "x": 0,
+               "y": -120
+            }
+         },
+         {
+            "tags": [
+               "cornerbarrier"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 150
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 270,
+                     "y": 150
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": 10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 110,
+                     "y": 210
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 330,
+                     "y": 210
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 120,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": 10,
+                     "y": -10
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 240
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": -10
+                  }
+               }
+            ],
+            "position": {
+               "x": 0,
+               "y": -120
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooCArchiveStrut"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 360,
+               "y": 0
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooAMegacarrier",
+                  "position": {
+                     "x": 0,
+                     "y": -5
+                  },
+                  "active": true
+               },
+               {
+                  "type": "animation",
+                  "resources": "iocAsgoreDown",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "active": false,
+                  "position": {
+                     "x": 0,
+                     "y": -23
+                  }
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 39
+            },
+            "tags": [
+               "megacarrier"
+            ]
+         }
+      ]
+   },
+   "score": {
+      "music": "aerialisArchive",
+      "gain": 1
+   },
+   "neighbors": [
+      "c_archive_aerialis1",
+      "c_archive_aerialis4",
+      "c_archive_path5"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 0
+      },
+      {
+         "x": 280,
+         "y": 160
+      }
+   ]
+}

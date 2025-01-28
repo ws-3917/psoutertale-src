@@ -1,0 +1,97 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "archiveAssets",
+      "asCrickets"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 150
+                  },
+                  "size": {
+                     "x": 320,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 150
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -35
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 320,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 320,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 35
+                  }
+               }
+            ],
+            "attachments": [],
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iocHumansJusticeUp"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 145,
+               "y": 130
+            },
+            "tags": [
+               "justice"
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "c_archive_path6"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ]
+}

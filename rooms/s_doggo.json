@@ -1,0 +1,983 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amStarton",
+      "ionSDoggo",
+      "iocSans",
+      "asBell",
+      "iooSBiodome"
+   ],
+   "layers": {
+      "below": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 410,
+               "y": 40
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 360,
+               "y": 40
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 310,
+               "y": 40
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 430,
+               "y": 60
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 450,
+               "y": 80
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 470,
+               "y": 100
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 290,
+               "y": 60
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 270,
+               "y": 80
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 250,
+               "y": 100
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": -10,
+               "y": 60
+            }
+         },
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 435,
+                     "y": 86
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 80
+                  },
+                  "name": "starton",
+                  "args": [
+                     "doggo"
+                  ]
+               }
+            ],
+            "position": {
+               "x": -120,
+               "y": 14
+            }
+         },
+         {
+            "triggers": [
+               {
+                  "position": {
+                     "x": 495,
+                     "y": 95
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 90
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_maze",
+                     "right",
+                     "20",
+                     "100"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 75
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 110
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_papyrus",
+                     "left",
+                     "300",
+                     "180"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 295
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "s_robot",
+                     "down",
+                     "120",
+                     "10"
+                  ]
+               }
+            ],
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 75
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 185
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 230,
+                     "y": -45
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 50,
+                     "y": 25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 440,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 50,
+                     "y": -25
+                  }
+               },
+               {
+                  "position": {
+                     "x": 280,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": 160,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 30,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 105
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 130,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 170,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 150,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 400,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 420,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 30,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 70,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 15
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 70,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": -35
+                  }
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": -35
+                  }
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSSentry3"
+                  ],
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 331,
+               "y": 106
+            },
+            "barriers": [
+               {
+                  "size": {
+                     "x": 53,
+                     "y": -12
+                  },
+                  "position": {
+                     "x": 3,
+                     "y": 0
+                  }
+               },
+               {
+                  "position": {
+                     "x": 3,
+                     "y": -12
+                  },
+                  "size": {
+                     "x": 6,
+                     "y": -6
+                  }
+               },
+               {
+                  "position": {
+                     "x": 56,
+                     "y": -12
+                  },
+                  "size": {
+                     "x": -6,
+                     "y": -6
+                  }
+               }
+            ]
+         },
+         {
+            "attachments": [],
+            "position": {
+               "x": 323,
+               "y": 86
+            },
+            "barriers": [],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": -1,
+                     "y": 1
+                  },
+                  "position": {
+                     "x": 64,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": -16,
+                     "y": 12
+                  },
+                  "name": "starton",
+                  "args": [
+                     "dogbell"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 11,
+                     "y": 20
+                  },
+                  "size": {
+                     "x": 35,
+                     "y": -12
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "doginfo"
+                  ]
+               }
+            ]
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 85,
+               "y": 80
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 375,
+               "y": 265
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 305,
+               "y": 264
+            }
+         },
+         {
+            "tags": [
+               "s_lamp"
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "lamppost"
+                  ]
+               }
+            ],
+            "attachments": [
+               {
+                  "active": true,
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "iooSLamp",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "size": {
+                     "x": -10,
+                     "y": 6
+                  }
+               }
+            ],
+            "position": {
+               "x": 155,
+               "y": 80
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  },
+                  "resources": "ionSSnowdrake",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -30,
+                     "y": -7
+                  }
+               }
+            ],
+            "position": {
+               "x": 120,
+               "y": 40
+            },
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": 30,
+                     "y": -7
+                  },
+                  "name": "starton",
+                  "args": [
+                     "npc",
+                     "s_snowdrake"
+                  ]
+               }
+            ],
+            "tags": [
+               "s_snowdrake"
+            ]
+         }
+      ],
+      "above": [
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 190,
+               "y": 220
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 190,
+               "y": 300
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 50,
+               "y": 220
+            }
+         },
+         {
+            "attachments": [
+               {
+                  "type": "sprite",
+                  "frames": [
+                     "iooSHolotree"
+                  ],
+                  "anchor": {
+                     "x": 0,
+                     "y": -0.4
+                  },
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  }
+               }
+            ],
+            "tags": [
+               "holotree"
+            ],
+            "position": {
+               "x": 50,
+               "y": 300
+            }
+         }
+      ]
+   },
+   "neighbors": [
+      "s_papyrus",
+      "s_maze",
+      "s_doggo"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 340,
+         "y": 160
+      }
+   ],
+   "score": {
+      "music": "starton",
+      "gain": 1
+   }
+}

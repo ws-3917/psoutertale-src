@@ -1,0 +1,130 @@
+{
+   "$schema": "./room.schema.json",
+   "preload": [
+      "amChara",
+      "avAsriel",
+      "asDoorClose"
+   ],
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "y": 20
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 440,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 340,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  }
+               }
+            ]
+         },
+         {
+            "position": {
+               "y": 20
+            },
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 495,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "args": [
+                     "w_candy",
+                     "right",
+                     "180",
+                     "160"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "outlands",
+                  "position": {
+                     "x": 80,
+                     "y": 115
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": 20
+                  },
+                  "args": [
+                     "coffin"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "w_candy"
+   ],
+   "region": [
+      {
+         "x": 180,
+         "y": 120
+      },
+      {
+         "x": 340,
+         "y": 120
+      }
+   ],
+   "metadata": {
+      "dark02": true
+   },
+   "score": {
+      "music": "chara",
+      "reverb": 0.9
+   }
+}

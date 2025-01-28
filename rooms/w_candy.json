@@ -1,0 +1,194 @@
+{
+   "$schema": "./room.schema.json",
+   "preload": [
+      "amOutlands",
+      "asDoorClose"
+   ],
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "position": {
+               "x": 140,
+               "y": 20
+            },
+            "barriers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 160,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 40,
+                     "y": 180
+                  },
+                  "size": {
+                     "x": 120,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               }
+            ]
+         },
+         {
+            "position": {
+               "x": 140,
+               "y": 20
+            },
+            "triggers": [
+               {
+                  "name": "teleport",
+                  "position": {
+                     "x": 255,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 40
+                  },
+                  "args": [
+                     "w_froggit",
+                     "right",
+                     "80",
+                     "140"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 25,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  },
+                  "name": "outlands",
+                  "args": [
+                     "secret"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "trivia",
+                  "position": {
+                     "x": 100,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "args": [
+                     "w_candy"
+                  ]
+               }
+            ]
+         }
+      ],
+      "main": [
+         {
+            "tags": [
+               "vending_machine"
+            ],
+            "position": {
+               "x": 190,
+               "y": 133
+            },
+            "attachments": [
+               {
+                  "type": "animation",
+                  "active": true,
+                  "resources": "iooOVendingMachine",
+                  "anchor": {
+                     "y": 1
+                  }
+               }
+            ],
+            "barriers": [
+               {
+                  "size": {
+                     "y": -13,
+                     "x": 28
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "name": "outlands",
+                  "size": {
+                     "y": -13,
+                     "x": 28
+                  },
+                  "args": [
+                     "candy"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "w_froggit",
+      "w_coffin"
+   ],
+   "region": [
+      {
+         "x": 280,
+         "y": 130
+      },
+      {
+         "x": 280,
+         "y": 130
+      }
+   ],
+   "score": {
+      "gain": 1,
+      "music": "outlands"
+   }
+}

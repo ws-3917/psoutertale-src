@@ -1,0 +1,299 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "position": {
+                     "x": 0,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 140,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 200,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -180,
+                     "y": 20
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier3",
+                     "up",
+                     "80",
+                     "230"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 5,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 40
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier4",
+                     "left",
+                     "300",
+                     "160"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 258,
+                     "y": 176
+                  },
+                  "rotation": -45,
+                  "size": {
+                     "x": 25,
+                     "y": 20
+                  },
+                  "anchor": {
+                     "x": -1,
+                     "y": -1
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier1",
+                     "right",
+                     "110",
+                     "170"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 20,
+                     "y": 215
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "_frontier10",
+                     "down",
+                     "120",
+                     "90"
+                  ]
+               }
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 240,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_mirror"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 80,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_sign2"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 140,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  },
+                  "name": "trivia",
+                  "args": [
+                     "x_sign1"
+                  ]
+               }
+            ],
+            "position": {
+               "y": 20
+            }
+         },
+         {
+            "tags": [
+               "cornerbarrier"
+            ],
+            "interacts": [
+               {
+                  "position": {
+                     "x": 300,
+                     "y": 200
+                  },
+                  "size": {
+                     "x": -60,
+                     "y": -60
+                  }
+               }
+            ],
+            "position": {
+               "y": 20
+            }
+         }
+      ],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iocFriskDownCharaFake",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 130,
+               "y": 185
+            },
+            "barriers": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  }
+               }
+            ],
+            "interacts": [
+               {
+                  "anchor": {
+                     "x": 0,
+                     "y": -1
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": -3
+                  },
+                  "name": "_chara"
+               }
+            ],
+            "tags": [
+               "charatrigger"
+            ]
+         }
+      ]
+   },
+   "neighbors": [
+      "_frontier1",
+      "_frontier3",
+      "_frontier4",
+      "_frontier10"
+   ],
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 160,
+         "y": 120
+      }
+   ],
+   "score": {
+      "music": "birds",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "preload": [
+      "homeAssets",
+      "iooFrontierMirrorBackdrop",
+      "mirrorHomeAssets",
+      "asDoorClose",
+      "iooFrontierUnder"
+   ]
+}

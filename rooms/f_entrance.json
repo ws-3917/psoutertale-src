@@ -1,0 +1,522 @@
+{
+   "$schema": "./room.schema.json",
+   "background": "below",
+   "preload": [
+      "amFactory",
+      "asRustle",
+      "iocUndyneGrabKidd",
+      "asGrab",
+      "amUndynefast",
+      "avKidd",
+      "idcKidd",
+      "iocKidd",
+      "asStomp",
+      "iooSavePoint",
+      "iooSavePointDark"
+   ],
+   "layers": {
+      "below": [
+         {
+            "barriers": [
+               {
+                  "size": {
+                     "x": 240,
+                     "y": 20
+                  },
+                  "position": {
+                     "x": -180,
+                     "y": 120
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": -140,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -160,
+                     "y": 100
+                  }
+               },
+               {
+                  "position": {
+                     "x": 360,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 380,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 140
+                  }
+               },
+               {
+                  "position": {
+                     "x": 220,
+                     "y": 120
+                  },
+                  "size": {
+                     "x": 100,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 160
+                  },
+                  "size": {
+                     "x": -80,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 140
+                  },
+                  "size": {
+                     "x": -300,
+                     "y": 160
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 100,
+                     "y": 40
+                  },
+                  "size": {
+                     "x": 80,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 180,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": -20
+                  }
+               },
+               {
+                  "position": {
+                     "x": 60,
+                     "y": 60
+                  },
+                  "size": {
+                     "x": -280,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": -240,
+                     "y": 80
+                  },
+                  "size": {
+                     "x": 20,
+                     "y": 20
+                  }
+               },
+               {
+                  "position": {
+                     "x": -240,
+                     "y": 100
+                  },
+                  "size": {
+                     "x": -20,
+                     "y": 200
+                  }
+               }
+            ],
+            "triggers": [
+               {
+                  "position": {
+                     "x": -240,
+                     "y": 295
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_chase",
+                     "down",
+                     "1320",
+                     "10"
+                  ]
+               },
+               {
+                  "position": {
+                     "x": 340,
+                     "y": 235
+                  },
+                  "size": {
+                     "x": 40,
+                     "y": 20
+                  },
+                  "name": "teleport",
+                  "args": [
+                     "f_lobby",
+                     "down",
+                     "220",
+                     "90"
+                  ]
+               }
+            ],
+            "position": {
+               "x": 260,
+               "y": 20
+            }
+         }
+      ],
+      "above": [],
+      "main": [
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 440,
+               "y": 120
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 440,
+               "y": 127.5
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 440,
+               "y": 135
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 400,
+               "y": 120
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 400,
+               "y": 127.5
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 400,
+               "y": 135
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 360,
+               "y": 120
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 360,
+               "y": 127.5
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFTallgrass",
+                  "anchor": {
+                     "x": 0,
+                     "y": 1
+                  }
+               }
+            ],
+            "position": {
+               "x": 360,
+               "y": 135
+            },
+            "tags": [
+               "tallgrass"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 580,
+               "y": 220
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 220,
+               "y": 80
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 280,
+               "y": 160
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 160,
+               "y": 160
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 100,
+               "y": 80
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         },
+         {
+            "attachments": [
+               {
+                  "type": "animation",
+                  "resources": "iooFHovercrystal",
+                  "anchor": {
+                     "x": 0,
+                     "y": 0.25
+                  },
+                  "active": true
+               }
+            ],
+            "position": {
+               "x": 660,
+               "y": 220
+            },
+            "tags": [
+               "hovercrystal"
+            ]
+         }
+      ]
+   },
+   "mixins": {
+      "above": "foundry-overlay"
+   },
+   "region": [
+      {
+         "x": 160,
+         "y": 120
+      },
+      {
+         "x": 620,
+         "y": 200
+      }
+   ],
+   "score": {
+      "music": "factory",
+      "reverb": 0.8,
+      "filter": 0.6,
+      "rate": 0.8
+   },
+   "neighbors": [
+      "f_lobby",
+      "f_chase"
+   ]
+}

@@ -1148,7 +1148,7 @@ export default {
                             '<25>{#g/alphysTheFactIs}* 喔，還-還有，\n  那個喵喵玩偶...',
                             '<25>* 嗯...',
                             SAVE.data.b.item_tvm_mewmew
-                                ? "<25>{#g/alphysUhButHeresTheDeal}* I'll get back to you on that later."
+                                ? "<25>{#g/alphysUhButHeresTheDeal}* 我待會再跟你聊。"
                                 : "<25>{#g/alphysUhButHeresTheDeal}* 其實都不在你手上，\n  沒事了。",
                             '<25>{|}{#g/alphysCutscene3}* 總之電梯見，\n  拜拜啦啊啊- {%}'
                         ]),
@@ -1233,10 +1233,10 @@ export default {
                     ],
             cooker7c: ['<32>{#p/mettaton}* 等等，這很可能讓人喪命。'],
             cooker7d: [
-                "<32>{#p/mettaton}* WAIT! SOMETHING'S WRONG...",
-                "<32>{#p/mettaton}* THIS ISN'T MTT-BRAND {@fill=#003cff}FUN SLIME{@fill=#fff} AT ALL!",
-                '<32>{#p/mettaton}* NO... THIS IS {@fill=#f00}PLASTIC EXPLOSIVE{@fill=#fff}!',
-                "<32>{#p/mettaton}* OUR SPECIAL GUEST MUST'VE SWAPPED THE INGREDIENTS!",
+                "<32>{#p/mettaton}* 等下！這可不對...",
+                "<32>{#p/mettaton}* 這壓根就不是MTT牌的\n  {@fill=#003cff}歡樂微笑膏{@fill=#fff}！",
+                '<32>{#p/mettaton}* 這...這是{@fill=#f00}塑性炸藥{@fill=#fff}！',
+                "<32>{#p/mettaton}* 我們的特邀嘉賓一定是\n  把材料掉包了！",
                 '<32>{#p/mettaton}* 怎麼能搞這種小動作呢...\n* 為人也太陰險了點吧！'
             ],
             cooker8a1: () =>

@@ -2136,6 +2136,10 @@ export default {
                 ['<32>{#p/basic}{#n1}* ¿Eh?\n* ¿Paso de nuevo?\n* Tch, estos niños de ahora...'],
                 ['<32>{#p/basic}{#n1}* Los niños de ahora...']
             ][Math.min(roomKills().w_puzzle4++, 2)],
+        mananaY: [
+            '<32>{#p/basic}{#n1}* Huh?\n* Was that my Super Starwalker comic strip?',
+            "<32>{#p/basic}{#n1}* ... and here I thought I'd gotten rid of that thing."
+        ],
         afrogX: (k: number) =>
             [
                 ["<32>{#p/basic}{#n1}* Si... si h-haces eso de nuevo... ¡t-tendré que detenerte!"],

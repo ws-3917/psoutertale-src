@@ -3637,7 +3637,7 @@ export const foundryScript = async (subscript: string, ...args: string[]): Promi
                                         ep.gain.modulate(renderer, 300, ep.daemon.gain);
                                     }
                                 } else if (SAVE.data.n.plot === 47.2) {
-                                    erndyne.metadata.chaser?.gain.modulate(renderer, 300, 1);
+                                    erndyne.metadata.chaser?.gain.modulate(renderer, 300, erndyne.metadata.chaser.daemon.gain);
                                 } else {
                                     quickresume(true);
                                 }
@@ -6445,7 +6445,7 @@ export async function foundryTPE(from: string, to: string) {
         }
     }
     if (from === 'f_napstablook' && SAVE.data.n.state_foundry_blookmusic !== 0 && SAVE.data.n.plot === 47.2) {
-        erndyne.metadata.chaser?.gain.modulate(renderer, 300, 1);
+        erndyne.metadata.chaser?.gain.modulate(renderer, 300, erndyne.metadata.chaser.daemon.gain);
     }
     switch (to) {
         case 'f_truth': {

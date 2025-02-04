@@ -1,5 +1,3 @@
-// TODO: update to follow outertale code conventions
-
 import { backend, events, game } from './core';
 import { battler } from './framework';
 import { SAVE } from './save';

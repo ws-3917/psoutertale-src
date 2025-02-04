@@ -1146,7 +1146,7 @@ export default {
                             '<25>{#g/alphysTheFactIs}* Ah, e, sobre aquela b-boneca Mell Mell...',
                             '<25>* Bem...',
                             SAVE.data.b.item_tvm_mewmew
-                                ? "<25>{#g/alphysUhButHeresTheDeal}* I'll get back to you on that later."
+                                ? "<25>{#g/alphysUhButHeresTheDeal}* Eu vou estar de volta com você mais tarde."
                                 : "<25>{#g/alphysUhButHeresTheDeal}* Na verdade, você nem tem ela, então tudo bem!",
                             '<25>{|}{#g/alphysCutscene3}* De toda forma, te vejo no eleva- {%}'
                         ]),
@@ -1231,10 +1231,10 @@ export default {
                     ],
             cooker7c: ['<32>{#p/mettaton}* ESPERA, ISSO PODE ACABAR REALMENTE MATANDO ALGUÉM.'],
             cooker7d: [
-                "<32>{#p/mettaton}* WAIT! SOMETHING'S WRONG...",
-                "<32>{#p/mettaton}* THIS ISN'T MTT-BRAND {@fill=#003cff}FUN SLIME{@fill=#fff} AT ALL!",
-                '<32>{#p/mettaton}* NO... THIS IS {@fill=#f00}PLASTIC EXPLOSIVE{@fill=#fff}!',
-                "<32>{#p/mettaton}* OUR SPECIAL GUEST MUST'VE SWAPPED THE INGREDIENTS!",
+                "<32>{#p/mettaton}* PERA! ALGO ESTÁ ERRADO...",
+                "<32>{#p/mettaton}* ESTE NÃO É O {@fill=#003cff}SLIME LEGAL{@fill=#fff} DA MARCA MTT DE FORMA ALGUMA!",
+                '<32>{#p/mettaton}* NÃO... ISSO É {@fill=#f00}PLASTICO EXPLOSIVO{@fill=#fff}!',
+                "<32>{#p/mettaton}* NOSSO CONVIDADO ESPECIAL DEVE TER TROCADO OS INGREDIENTES!",
                 '<32>{#p/mettaton}* QUE AMEAÇADOR!\n* E PENSAR QUE NOSSO CONVIDADO ESPECIAL FARIA ISSO...'
             ],
             cooker8a1: () =>
@@ -2042,53 +2042,53 @@ export default {
                 '<25>{|}{#p/alphys}{#g/alphysCutscene3}* Eu passei meses procurando por- {%}'
             ],
             moneyFinal5: [
-                '<32>{#p/mettaton}* OH NO.\n* THE CONNECTION SEEMS TO HAVE BEEN TERMINATED.',
-                '<32>* POOR DR. ALPHYS.\n* NO MEW MEW DOLL FOR HER.',
-                '<32>{#z2}* INSTEAD, ONE OF YOU WILL GET TO KEEP IT!',
-                '<32>{#z3}* BUT WHO?'
+                '<32>{#p/mettaton}* OH NÃO.\n* PAREVE QUE A CONEXÃO CAIU.',
+                '<32>* POBRE DR. ALPHYS.\n* SEM MEW MEW PRA ELA.',
+                '<32>{#z2}* AO INVÉS DISSO, UM DE VOCÊS VAI FICAR COM ELA!',
+                '<32>{#z3}* MAS QUEM?'
             ],
             moneyFinal6: [
                 '<32>{#p/mettaton}* HAHAHA, IMPRESSIONADO?',
-                '<32>{#p/mettaton}{#z2}* IT WAS FOUND IN AN ABANDONED SHIPPING CONTAINER, ADRIFT AMONGST THE STARS...',
-                '<32>* THE SEARCH TEAM SPENT MONTHS LOOKING FOR IT AFTER THE INITIAL TRACE WAS DETECTED...',
-                '<32>* AND ITS RARITY...\n* WELL...',
-                '<32>* THAT SPEAKS FOR ITSELF.',
-                '<32>{#z3}* BUT WHO, MY DEAR VIEWERS, WILL GET TO KEEP IT?'
+                '<32>{#p/mettaton}{#z2}* FOI ENCONTRADA EM UM CONTÊINER ABANDONADO, QUE CAIU DAS ESTRELAS...',
+                '<32>* O TIME DE BUSCA PASSOU MESES PROCURANDO POR ISSO, DEPOIS DO PRIMEIRO TRAÇO DE DETECÇÃO...',
+                '<32>* E É UMA RARIDADE...\n* BEM...',
+                '<32>* ISSO FALA POR SI SÓ.',
+                '<32>{#z3}* MAS QUEM, MEU QUERIDO ESPECTADOR, VAI FICAR COM ISSO?'
             ],
             moneyItem3: {
                 a: [
-                    "<32>{#z0}* SINCE THIS IS THE FINAL ROUND, THERE WON'T BE A TIME LIMIT.",
-                    "<32>{#z0}* LET'S RUN THIS ONE LAST TIME!"
+                    "<32>{#z0}* COMO ESTA É A RODADA FINAL, NÃO TERÁ UM TEMPO LIMITE.",
+                    "<32>{#z0}* VAMOS FAZER ISSO UMA ÚLTIMA VEZ!"
                 ],
                 b: [
-                    '<32>{#p/mettaton}* THIS IS IT...',
-                    '<32>{#p/mettaton}{#z3}* WHO WILL WIN THE GRAND PRIZE?',
-                    '<32>{#p/mettaton}{#z0}* THE.\n* PRICE.\n* IS...'
+                    '<32>{#p/mettaton}* É ISSO...',
+                    '<32>{#p/mettaton}{#z3}* QUEM GANHARÁ O GRANDE PRÊMIO?',
+                    '<32>{#p/mettaton}{#z0}* E.\n* O PREÇO.\n* É...'
                 ],
                 c: ['<32>{#p/mettaton}{#z5}* ... 999G!!!'],
                 d: () =>
                     iRespeccYourVilliany()
                         ? [
-                            '<32>{#p/mettaton}{#z0}* MONSTER KID!',
-                            '<32>* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.',
+                            '<32>{#p/mettaton}{#z0}* CRIANÇA MONSTRO!',
+                            '<32>* É MINHA HONRA TE ENTREGAR ESTE GRANDE PRÊMIO.',
                             '<25>{#p/kidd}{#f/4}* H... huh?',
                             '<25>{#f/7}* ...',
                             '<25>{#f/14}* YOOOOOOOOOOO!!!!'
                         ]
-                        : ['<32>{#p/mettaton}{#z0}* BLOOKY!', '<32>* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'],
+                        : ['<32>{#p/mettaton}{#z0}* BLOOKY!', '<32>* É MINHA HONRA TE ENTREGAR ESTE GRANDE PRÊMIO.'],
                 e: () =>
                     iFancyYourVilliany()
                         ? [
-                            '<32>{#p/mettaton}{#z0}* WELL PLAYED, $(moniker3u).',
-                            '<32>{#p/mettaton}* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'
+                            '<32>{#p/mettaton}{#z0}* PARABÉNS, $(moniker3u).',
+                            '<32>{#p/mettaton}* É MINHA HONRA TE ENTREGAR ESTE PRÊMIO.'
                         ]
-                        : ['<32>{#p/mettaton}{#z0}* HUMAN!', '<32>* IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'],
+                        : ['<32>{#p/mettaton}{#z0}* HUMANO!', '<32>* É MINHA HONRA TE ENTREGAR ESTE GRANDE PRÊMIO.'],
                 f: () =>
                     iRespeccYourVilliany()
                         ? [
-                            '<32>{#p/mettaton}{#z0}* MONSTER KID!',
-                            "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS $(moniker3u)'S, BUT YOU MADE YOURS FIRST.",
-                            '<32>* THEREFORE, IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.',
+                            '<32>{#p/mettaton}{#z0}* CRIANÇA MONSTRO!',
+                            "<32>* SUA RESPOSTA FOI A MESMA DO $(moniker3u), MAS VOCÊ ADIVINHOU PRIMEIRO.",
+                            '<32>* DESSA FORMA, É MINHA HONRA ENTREGAR ESTE PRÊMIO PARA VOCÊ.',
                             '<25>{#p/kidd}{#f/4}* H... huh?',
                             '<25>{#f/7}* ...',
                             '<25>{#f/14}* YOOOOOOOOOOO!!!!'
@@ -2096,734 +2096,734 @@ export default {
                         : [
                             '<32>{#p/mettaton}{#z0}* BLOOKY!',
                             iFancyYourVilliany()
-                                ? "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS $(moniker3u)'S, BUT YOU MADE YOURS FIRST."
-                                : "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS THE HUMAN'S, BUT YOU MADE YOURS FIRST.",
-                            '<32>* THEREFORE, IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'
+                                ? "<32>* SUA RESPOSTA FOI A MESMA DO $(moniker3u), MAS VOCÊ ADIVINHOU PRIMEIRO."
+                                : "<32>* SUA RESPOSTA FOI A MESMA DO HUMANO, MAS VOCÊ DECIDIU PRIMEIRO.",
+                            '<32>* DESSA FORMA, É MINHA HONRA ENTREGAR ESTE PRÊMIO PARA VOCÊ.'
                         ],
                 g: () =>
                     iRespeccYourVilliany()
                         ? [
-                            '<32>{#p/mettaton}{#z0}* WELL PLAYED, $(moniker3u).',
-                            "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS MONSTER KID'S, BUT YOU MADE YOURS FIRST.",
-                            '<32>* THEREFORE, IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'
+                            '<32>{#p/mettaton}{#z0}* PARABÉNS, $(moniker3u).',
+                            "<32>* SUA RESPOSTA PODE TER SIDO A MESMA DA CRIANÇA MONSTRO, MAS VOCÊ ADIVINHOU PRIMEIRO.",
+                            '<32>* DESSA FORMA, É MINHA HONRA ENTREGAR ESTE PRÊMIO PARA VOCÊ.'
                         ]
                         : [
                             iFancyYourVilliany()
-                                ? '<32>{#p/mettaton}{#z0}* WELL PLAYED, $(moniker3u).'
-                                : '<32>{#p/mettaton}{#z0}* HUMAN!',
-                            "<32>* YOUR GUESS MAY HAVE BEEN THE SAME AS BLOOKY'S, BUT YOU MADE YOURS FIRST.",
-                            '<32>* THEREFORE, IT IS MY HONOR TO BESTOW THIS GIFT UPON YOU.'
+                                ? '<32>{#p/mettaton}{#z0}* PARABÉNS, $(moniker3u).'
+                                : '<32>{#p/mettaton}{#z0}* HUMANO!',
+                            "<32>* SUA RESPOSTA PODE TER SIDO A MESMA DO BLOOKY, MAS VOCÊ ADIVINHOU PRIMEIRO.",
+                            '<32>* DESSA FORMA, É MINHA HONRA ENTREGAR ESTE PRÊMIO PARA VOCÊ.'
                         ]
             },
-            moneyTrash1: ['<32>* WAIT, BLOOKY, WHERE ARE YOU...', '<32>* ... GOING...', '<32>{#z1}* ...'],
-            moneyTrash2: ["<32>{#z0}* I GUESS THEY DIDN'T WANT TO BE HERE ANY LONGER."],
+            moneyTrash1: ['<32>* ESPERA, BLOOKY, ONDE VOCÊ...', '<32>* ... ESTÁ INDO...', '<32>{#z1}* ...'],
+            moneyTrash2: ["<32>{#z0}* EU ACHO QUE ELE NÃO DESEJAVA ESTAR AQUI POR MAIS TEMPO."],
             moneyItemPut1: ['<32>{#p/human}* (você pegou o Velho Rádio.)'],
-            moneyItemPut2: ['<33>{#p/human}* (You got the Fireworks.)'],
-            moneyItemPut3: ['<32>{#p/human}* (You got the Mew Mew Doll.)'],
+            moneyItemPut2: ['<33>{#p/human}* (Você pegou os Fogos de Artifício.)'],
+            moneyItemPut3: ['<32>{#p/human}* (Você pegou a Boneca Mew Mew.)'],
             moneyItemPut4: [
                 "<32>{#p/human}* (Você está carregando muito.)",
-                '<32>{#p/mettaton}* TOO MUCH TO HANDLE, HUH?',
-                '<32>{#p/mettaton}* WELL, NO WORRIES.\n* YOUR PRIZES WILL BE AVAILABLE FOR PICKUP AT THE REC CENTER.'
+                '<32>{#p/mettaton}* MUITA COISA PRA LEVAR, HUH?',
+                '<32>{#p/mettaton}* BEM, NÃO TEMA.\n* SEUS PRÊMIOS ESTARÃO DISPONÍVEIS NO REC CENTER.'
             ],
             moneyOutro1: [
-                "<32>{#p/mettaton}* DEAR VIEWERS, IF YOU'D LIKE TO WIN PRIZES ON LIVE TV LIKE THESE...",
-                "<32>* THEN DON'T HESITATE TO CONTACT ME VIA THE OUTERNET!",
-                "<32>* OTHERWISE, THAT'LL BE ALL...",
-                '<32>* STAY TUNED FOR THE NEXT EPISODE, TITLED \"A DANCE WITH DESTINY!\"',
-                '<32>{#z3}* AND, OF COURSE, STAY FABULOUS!'
+                "<32>{#p/mettaton}* QUERIDOS ESPECTADORES, SE VOCÊ GOSTA DE GANHAR PRÊMIOS NA TV IGUAL A ESSES...",
+                "<32>* ENTÃO NÃO HESITE EM NOS CONTATAR-ME VIA OUTERNET!",
+                "<32>* NO MAIS, ISSO É TUDO...",
+                '<32>* ESTEJA PRONTO PARA O PRÓXIMO EPISÓDIO, CHAMADO \"A DANÇA DO DESTINO!\"',
+                '<32>{#z3}* E, É CLARO, FIQUE FABULOSA!'
             ],
             moneyWhisper1: () => [
-                '<32>{#p/napstablook}* (psst... hey...)',
-                '<32>* (i, um...)',
+                '<32>{#p/napstablook}* (psst... ei...)',
+                '<32>* (eu, um...)',
                 ...(SAVE.data.b.f_state_blookbetray
-                    ? ["<32>* (i know you... probably wish i wasn't here, but...)"]
+                    ? ["<32>* (eu, você sabe... provavelmente desejava não estar aqui, mas...)"]
                     : SAVE.data.n.state_wastelands_napstablook === 2
-                        ? ["<32>* (i know you... probably don't like me, but...)"]
+                        ? ["<32>* (eu sei que você... provavelmente não gosta de mim, mas...)"]
                         : SAVE.data.n.state_wastelands_napstablook === 4
-                            ? ["<32>* (i know we... aren't on the best of terms, but...)"]
+                            ? ["<32>* (eu sei que nós... não estão nos melhores termos, mas ...)"]
                             : SAVE.data.n.state_foundry_blookdate > 1
-                                ? ["<32>* (i hope it's not too much to ask, even if we're friends, but...)"]
-                                : ["<32>* (i hope it's not too much to ask, but...)"]),
-                '<32>* (i think that... after the show...)',
-                '<32>* (we should return the mew mew doll to alphys)',
+                                ? ["<32>* (espero que não seja pedir muito, mesmo que sejamos amigos, mas...)"]
+                                : ["<32>* (espero que não seja pedir muito, mas...)"]),
+                '<32>* (eu acho que... depois do show...)',
+                '<32>* (nós deveríamos retornar a boneca mew mew para a alphys.)',
                 ...(SAVE.data.n.state_foundry_undyne === 1
                     ? [
-                        "<32>* (she's been feeling kind of down today, and...)",
-                        "<32>* (well...... it'd be nice to give it back to her, don't you think?)"
+                        "<32>* (ela tem se sentido meio para baixo hoje e...)",
+                        "<32>* (bem... seria legal devolver isso para ela, você não acha?)"
                     ]
                     : [
-                        '<32>* (i watched mew mew space adventure with her one time...)',
-                        '<32>* (she was... so happy......)'
+                        '<32>* (eu assisti mew mew aventura no espaço com ela uma vez...)',
+                        '<32>* (ela estava... tão feliz.....)'
                     ]),
                 choicer.create('* (O que você diz?)', 'Sim', 'Não')
             ],
-            moneyWhisper2a: ['<32>{#p/napstablook}* (thanks...)'],
+            moneyWhisper2a: ['<32>{#p/napstablook}* (obrigado...)'],
             moneyWhisper2b: ['<32>{#p/napstablook}* (..................)'],
-            moneyWhisper3: ["<32>{#p/mettaton}* WHAT'S THE HOLDUP?"],
+            moneyWhisper3: ["<32>{#p/mettaton}* O QUE HÁ COM A DEMORA?"],
             moneyWhisper4: [
-                '<32>{#p/napstablook}* (i guess... we should make a guess now...)',
+                '<32>{#p/napstablook}* (eu acho... que deveríamos decidir agora...)',
                 '<32>{#p/napstablook}* (heh)'
             ],
-            napchat0: ['<32>{#p/human}* (You gave the Mew Mew Doll to Napstablook.)'],
+            napchat0: ['<32>{#p/human}* (você entrega a Boneca Mew Mew para o Napstablook.)'],
             napchat1: () =>
                 SAVE.data.n.state_foundry_undyne === 1
-                    ? ["<32>{#p/napstablook}* i'll make sure she knows what you did for her"]
-                    : ["<32>{#p/napstablook}* i'll get this back to her as soon as i can"],
-            napchat2a: ['<32>{#p/napstablook}* until next time............'],
+                    ? ["<32>{#p/napstablook}* eu vou garantir que ela saiba o que você fez por ela..."]
+                    : ["<32>{#p/napstablook}* vou devolver isso para ela assim que eu conseguir"],
+            napchat2a: ['<32>{#p/napstablook}* até a próxima..........'],
             napchat2b: [
-                "<32>* there's... another thing i want to talk to you about........",
-                '<32>* meet me up ahead, by the big mettaton fountain',
-                '<32>* cya there............'
+                "<32>* tem... outra coisa que eu gostaria de conversar com você...",
+                '<32>* me encontre lá em cima, na grande fonte do mettaton.',
+                '<32>* te vejo lá............'
             ],
             truemtt3: [
                 '<32>{#p/basic}* Blooky...',
                 '<32>* ...',
-                '<32>* I get the feeling things could turn serious here.'
+                '<32>* Eu tenho a sensação de que as coisas vão ficar sérias agora.'
             ],
             moneyX1: [
                 '<32>{#p/event}* Ring, ring...',
-                '<32>{#p/mettaton}* OH DEAR, IS THAT...\n* IS THAT WHAT IT LOOKS LIKE?',
-                "<32>* OH, I DO BELIEVE THAT IT'S...",
-                '<32>* A TRAP!',
-                '<32>* AND, OF COURSE...'
+                '<32>{#p/mettaton}* O QUERIDO, ISSO É...\n* O QUE PARECE QUE É?',
+                "<32>* AH, EU ACREDITO QUE SEJA...",
+                '<32>* UMA ARMADILHA!',
+                '<32>* E CLARO...'
             ],
             moneyX2a: [
-                "<32>* YOU'RE ON LIVE TV AGAIN!",
-                '<32>* HOW WILL YOU TWO ESCAPE THE ROOM THIS TIME?',
+                "<32>* VOCÊ ESTÁ NA TV AO VIVO DE NOVO!",
+                '<32>* COMO VOCÊS DOIS VÃO ESCAPAR DA SALA DESSA VEZ?',
                 '<32>* HAHAHA...'
             ],
-            moneyX2b: ['<32>* ONLY -TIME- WILL TELL...{%200}'],
+            moneyX2b: ['<32>* APENAS O -TEMPO- DIRÁ...{%200}'],
             moneyX3: () =>
                 [
                     [
                         '<25>{#p/asriel2}{#f/10}* Hmm...{%100}',
-                        '<25>* The control console is up on that platform...{%100}',
+                        '<25>* O controle do console tá lá na plataforma...{%100}',
                         '<25>{#f/16}* ...{%100}',
-                        '<25>{#f/13}* This is going to be a little embarrassing, but...{%100}',
-                        '<25>{#f/13}* If I kneel in front of the platform...{%100}',
-                        '<25>{#f/16}* You can... maybe climb onto me to get up there and cancel the timer.{%100}',
-                        '<25>{#f/15}* I hope this works...{%100}'
+                        '<25>{#f/13}* Isso vai ser um pouco embaraçoso, mas...{%100} ',
+                        '<25>{#f/13}* Se eu me ajoelhar em frente a plataforma...{%100}',
+                        '<25>{#f/16}* Você pode... talvez subir em mim para chegar lá e cancelar o cronômetro. {%100}',
+                        '<25>{#f/15}* Espero que funcione...{%100}'
                     ],
-                    ['<25>{#p/asriel2}{#f/13}* ...{%100}', '<25>{#f/4}* You know what we have to do, $(name).{%100}']
+                    ['<25>{#p/asriel2}{#f/13}* ...{%100}', '<25>{#f/4}* Você sabe o que temos que fazer, $(name).{%100}']
                 ][Math.min(SAVE.flag.n.ga_asrielMoneyX3++, 1)],
             moneyT1: (i: number) =>
                 [
-                    ['<25>{#p/asriel2}{#f/15}* Are we...\n* ... going to do this?{%200}'],
-                    ["<25>{#p/asriel2}{#f/16}* ... we don't have time for this.{%200}"],
-                    ['<25>{#p/asriel2}{#f/15}* Not again.{%200}'],
+                    ['<25>{#p/asriel2}{#f/15}* Nós vamos...\n* ... fazer?{%200}'],
+                    ["<25>{#p/asriel2}{#f/16}* ... nós não temos tempo para isso.{%200}"],
+                    ['<25>{#p/asriel2}{#f/15}* Não de novo.{%200}'],
                     []
                 ][Math.min(i, 3)],
             moneyT2: (i: number) =>
                 [
-                    ['<25>{#p/asriel2}{#f/16}* Or are we just going to stand here.{%200}'],
-                    ["<25>{#p/asriel2}{#f/13}* $(name), please...\n* Don't do this again...{%200}"],
+                    ['<25>{#p/asriel2}{#f/16}* Ou vamos só ficar parados aqui.{%200}'],
+                    ["<25>{#p/asriel2}{#f/13}* $(name), por favor...\n* Não faz isso de novo...{%200}"],
                     []
                 ][Math.min(i, 2)],
             moneyT3: (i: number) =>
                 [
-                    ['<25>{#p/asriel2}{#f/13}* I guess we are.{%200}'],
-                    ['<25>{#p/asriel2}{#f/3}* ...\n* This is so stupid.{%200}'],
+                    ['<25>{#p/asriel2}{#f/13}* Eu acho que sim.{%200}'],
+                    ['<25>{#p/asriel2}{#f/3}* ...\n* Isso é tão idiota.{%200}'],
                     []
                 ][Math.min(i, 2)],
             moneyT4: (i: number) =>
                 [
                     [
-                        "<25>{#p/asriel2}{#f/5}* So how's your day been, huh?{%200}",
-                        '<25>{#p/asriel2}{#f/13}* Pretty good?\n* ...{%200}'
+                        "<25>{#p/asriel2}{#f/5}* Então, como tá indo seu dia, huh?{%200}",
+                        '<25>{#p/asriel2}{#f/13}* Bem do bom?\n* ...{%200}'
                     ],
                     []
                 ][Math.min(i, 1)],
             moneyT5: (i: number) =>
-                [["<25>{#p/asriel2}{#f/4}* I'm amazed at how you can just stand there without getting bored.{%200}"], []][
+                [["<25>{#p/asriel2}{#f/4}* Eu acho incrível sua capacidade de só ficar aí sem fazer nada.{%200}"], []][
                 Math.min(i, 1)
                 ],
             moneyT6: (i: number) => [['<25>{#p/asriel2}{#f/3}* ...\n* $(name)?{%200}'], []][Math.min(i, 1)],
             moneyT7: (i: number) => [['<25>{#p/asriel2}{#f/13}* $(name).{%200}'], []][Math.min(i, 1)],
             moneyT8: (i: number) =>
-                [["<25>{#p/asriel2}{#f/7}* We could've been off the outpost by this point.{%200}"], []][Math.min(i, 1)],
+                [["<25>{#p/asriel2}{#f/7}* Nós estaríamos fora do Outpost com esse tempo todo.{%200}"], []][Math.min(i, 1)],
             moneyT9: (i: number) =>
-                [['<25>{#p/asriel2}{#f/6}* ...\n* Please.{%200}'], ['<25>{#p/asriel2}{#f/15}* Almost there...']][
+                [['<25>{#p/asriel2}{#f/6}* ...\n* Por favor.{%200}'], ['<25>{#p/asriel2}{#f/15}* Quase lá...']][
                 Math.min(i, 1)
                 ],
             moneyX4: () =>
-                [['<25>{#p/asriel2}{#f/13}* Uh... ready.{%200}'], ['<25>{#p/asriel2}{#f/13}* Come on...{%200}']][
+                [['<25>{#p/asriel2}{#f/13}* Uh... pronto.{%200}'], ['<25>{#p/asriel2}{#f/13}* Vamos lá...{%200}']][
                 Math.min(SAVE.flag.n.ga_asrielMoneyX4++, 1)
                 ],
-            moneyX4a: ['<25>{#p/asriel2}{#f/1}* There.'],
-            moneyX4b: ['<25>{#p/asriel2}{#f/6}* ...', '<25>{#p/asriel2}{#f/7}* Did we seriously just wait for that?'],
+            moneyX4a: ['<25>{#p/asriel2}{#f/1}* Aí.'],
+            moneyX4b: ['<25>{#p/asriel2}{#f/6}* ...', '<25>{#p/asriel2}{#f/7}* Esperamos isso tudo pra nada?'],
             moneyX5a: [
                 '<32>{#p/event}* Ring, ring...',
-                '<32>{#p/mettaton}* DO MY SENSORS DECIEVE?', 
-                "<32>* DEAR VIEWERS, WE MIGHT HAVE TO CHANGE THIS SHOW'S RATING...",
-                '<32>* FROM \"SHAMEFUL\" TO \"ULTRA SHAMEFUL\" OF COURSE!',
-                "<32>* I CAN'T SAY MANY IN YOUR PLACE WOULD BE WILLING TO HUMILIATE THEMSELVES LIKE THAT."
+                '<32>{#p/mettaton}* MEUS SENSORES ESTÃO DETECTANDO?', 
+                "<32>* QUERIDOS ESPECTADORES, NÓS DEVEMOS MUDAR O RATING DESTE SHOW...",
+                '<32>* DE \"VERGONHOSO\" PARA \"ULTRA VERGONHOSO\" É CLARO!',
+                "<32>* NÃO POSSO DIZER QUE MUITOS NO SEU LUGAR ESTARIAM DISPOSTOS A SE HUMILHAR DESTA FORMA."
             ],
             moneyX5b: [
                 '<32>{#p/event}* Ring, ring...',
-                '<32>{#p/mettaton}* WELL, THAT WAS...',
-                "<32>* UH... I DON'T REALLY KNOW WHAT TO CALL THAT.",
-                '<32>* THANKS FOR WAITING, I GUESS?',
-                '<32>* IT SURE MADE MY JOB A WHOLE LOT EASIER.'
+                '<32>{#p/mettaton}* BEM, ISSO FOI...',
+                "<32>* UH... EU NEM SEI DIZER O QUE FOI ISSO.",
+                '<32>* OBRIGADO POR ESPERAR, EU ACHO?',
+                '<32>* COM CERTEZA FACILITOU MEU TRABALHO.'
             ],
             moneyX5c: [
                 '<32>* ...',
-                '<32>* MY PREPARATIONS ARE NEARLY COMPLETE.',
-                '<32>* IF YOU HAVE ANY LAST WORDS FOR THE RESIDENTS OF THE OUTPOST...',
-                '<32>* NOW WOULD BE THE PERFECT TIME TO SHARE THEM.'
+                '<32>* MINHAS PREPARAÇÕES ESTÃO QUASE CONCLUÍDAS.',
+                '<32>* SE VOCÊS TEM ÚLTIMAS PALAVRAS PARA OS RESIDENTES DO OUTPOST...',
+                '<32>* AGORA SERIA O MOMENTO PERFEITO PARA COMPARTILHAR.'
             ],
             moneyX6a: ['<25>{#p/asriel2}{#f/15}* ...'],
             moneyX6b: ['<25>{#f/2}* Nah.'],
-            moneyX7: ['<25>{#p/asriel2}{#f/6}* Come on, get down.'],
-            moneyX8: ['<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/6}* Onward to the elevator.'],
-            rg2a: ["<32>{#p/basic}{#x1}* Halt!\n* You've gone far enough!{#x3}"],
+            moneyX7: ['<25>{#p/asriel2}{#f/6}* Vamos, desce.'],
+            moneyX8: ['<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/6}* Avante para o elevador.'],
+            rg2a: ["<32>{#p/basic}{#x1}* Alto!\n* Você foi longe demais!{#x3}"],
             rg2b: () =>
                 world.genocide
-                    ? ["<32>{#p/basic}{#x1}* We aren't going to let you get away that easily, are we, girl?{#x3}"]
+                    ? ["<32>{#p/basic}{#x1}* Não vamos deixar ele fugir tão facilmente, né garota?{#x3}"]
                     : [
                         ...(iFancyYourVilliany()
                             ? [
-                                '<32>{#p/basic}{#x1}* So, you\'re the kid going by \"$(moniker2)\" now, huh?{#x3}',
+                                '<32>{#p/basic}{#x1}* Então, você é criança que se chama \"$(moniker2)\", huh?{#x3}',
                                 iRespeccYourVilliany()
-                                    ? '<32>{#x2}* Yeah, we saw.\n* We also saw how easily Undyne gave up on stopping you.{#x3}'
-                                    : "<33>{#x2}* Yeah, we saw.\n* We also know you're not as tough as you may seem.{#x3}",
-                                "<32>{#x1}* Pathetic, isn't it?{#x3}"
+                                    ? '<32>{#x2}* É, nós vimos.\n* Nós também vimos o quão facilmente a Undyne desistiu de te matar.{#x3}'
+                                    : "<33>{#x2}* É, nós vimos.\n* Também sabemos que você não é tão durão quanto parece.{#x3}",
+                                "<32>{#x1}* Patético, né?{#x3}"
                             ]
                             : [
-                                "<32>{#p/basic}{#x1}* Word is there's a human roaming around this area.{#x3}",
-                                "<32>{#x2}* We wouldn't normally suspect anything, but kid, you were just on live TV...{#x3}",
-                                "<32>{#x1}* It's a little hard to ignore a thing like that, now, isn't it?{#x3}"
+                                "<32>{#p/basic}{#x1}* Disseram que tinha um humano dando uma volta nesta área.{#x3}",
+                                "<32>{#x2}* Normalmente nem acreditamos, mas neném, você estava na TV ao vivo...{#x3}",
+                                "<32>{#x1}* É meio difícil ignorar coisas assim, certo?{#x3}"
                             ]),
                         '<32>* ...',
-                        "<32>{#x2}* That's what I thought.{#x3}"
+                        "<32>{#x2}* Foi o que eu pensei.{#x3}"
                     ],
-            rg2c1: ["<32>{#p/basic}{#x1}* Girl, you thinkin' what I'm thinkin'?{#x3}"],
-            rg2c2: ['<32>{#p/basic}* ...', '<32>{#p/basic}{#x1}{#x2}* Oh, for sure.{#x3}', '<32>{#p/basic}* ...'],
+            rg2c1: ["<32>{#p/basic}{#x1}* Amiga, cê tá pensando o que eu to pensando?{#x3}"],
+            rg2c2: ['<32>{#p/basic}* ...', '<32>{#p/basic}{#x1}{#x2}* Oh, mas é claro.{#x3}', '<32>{#p/basic}* ...'],
             rg2c3: ['<32>{#p/basic}* ...'],
             rg2d: () =>
                 world.genocide
                     ? [
-                        "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show Undyne what we're worth...{#x3}",
-                        '<32>{#x1}{#x2}* ... and whoop some traitor backside.{#x3}'
+                        "<32>{#p/basic}{#x1}* Vamos lá, garota.\n* Vamos mostrar para a Undyne o nosso valor...{#x3}",
+                        '<32>{#x1}{#x2}* ... e chutar a bunda de um traidor.{#x3}'
                     ]
                     : [
-                        "<32>{#p/basic}{#x1}* Come on, girl.\n* Let's show Undyne what we're worth...{#x3}",
+                        "<32>{#p/basic}{#x1}* Vamos lá, garota.\n* Vamos mostrar para a Undyne o nosso valor...{#x3}",
                         iFancyYourVilliany()
-                            ? '<32>{#x1}{#x2}* ... and whoop some bully backside.{#x3}'
-                            : '<32>{#x1}{#x2}* ... and whoop some human backside.{#x3}'
+                            ? '<32>{#x1}{#x2}* ... e chutar a bunda de um bully.{#x3}'
+                            : '<32>{#x1}{#x2}* ... e chutar a bunda de um humano.{#x3}'
                     ],
-            rg2e: ['<32>{#p/basic}* Wow.\n* That was...', '<32>{#p/basic}* ... something.'],
+            rg2e: ['<32>{#p/basic}* Wow.\n* Isso foi...', '<32>{#p/basic}* ... algo.'],
             rg2f: [
-                '<32>{#p/basic}{#x1}* Girl, this human thing might not be worth the trouble.{#x3}',
-                "<32>{#x2}* Yeah, we'll let the boys handle this one... if Undyne thinks they're up for it.{#x3}"
+                '<32>{#p/basic}{#x1}* Amiga, talvez essa coisa de humano não vale a dor de cabeça.{#x3}',
+                "<32>{#x2}* Vamos deixar os garotos cuidarem disso... se a Undyne acha que eles conseguem.{#x3}"
             ],
             hapsta1: () => [
-                '<32>{#p/napstablook}* so, uh...',
-                '<32>* do you think...\n* you can you help me with something...?',
-                "<33>* it's... kind of important......",
+                '<32>{#p/napstablook}* então, uh...',
+                '<32>* você acha quem...\n* pode me ajudar com uma coisa...?',
+                "<33>* é... bem importante......",
                 choicer.create('* (O que você diz?)', 'Sim', 'Não')
             ],
-            hapsta1a: ['<32>{#p/napstablook}* okay.........', '<32>* this way.........'],
-            hapsta1b: ['<32>{#p/napstablook}* oh.........', "<32>* i'll get out of your way, then........."],
-            hapsta2: ['<32>{#p/napstablook}* well... here we are', "<32>* as for why we're here......"],
+            hapsta1a: ['<32>{#p/napstablook}* okay.........', '<32>* por aqui.........'],
+            hapsta1b: ['<32>{#p/napstablook}* oh.........', "<32>* eu vou sair do seu caminho, então........."],
+            hapsta2: ['<32>{#p/napstablook}* bem... aqui estamos', "<32>* e por que estamos aqui......"],
             hapsta3a: [
-                "<32>{#p/napstablook}* i've been thinking more and more that mettaton is my long lost cousin.........",
-                "<32>* ever since he disappeared, i've been worried about him"
+                "<32>{#p/napstablook}* eu venho pensando bastante sobre meu primo perdido, mettaton...",
+                "<32>* desde que ele desapareceu, eu vim pensando sobre ele..."
             ],
-            hapsta3b: ['<32>* i just want him to be okay.'],
-            hapsta4: ['<32>{#p/napstablook}* take a look at this'],
-            hapsta5: ["<32>{#p/napstablook}* it's a private recording i found at the royal lab."],
+            hapsta3b: ['<32>* eu só quero que ele fique bem.'],
+            hapsta4: ['<32>{#p/napstablook}* de uma olhada nisso.'],
+            hapsta5: ["<32>{#p/napstablook}* é uma gravação privada que eu encontrei no laboratório real."],
             hapsta6: [
-                '<32>{#p/alphys}* Completing your final body is going to take some time...',
-                '<32>* Are you sure you want this right now?',
-                "<32>{#p/hapstablook}* i'm ready, doctor.",
-                "<32>{#p/alphys}* Okay... I'm b-bringing Mettaton online right now.",
-                '<32>* This control chip will allow you to use any body I build for you...',
-                "<32>* When I finish your new body, I'll just t-transfer it there.",
-                '<32>* Will that, uh, work?',
-                "<32>{#p/hapstablook}* it's marvelous, doctor.\n* marvelous!",
-                "<32>{#p/alphys}* Heh... that's...\n* Very nice of you...",
-                '<32>{#p/hapstablook}* so when do i get to start?',
-                '<32>{#p/alphys}* O-oh, um, you can try right now if you like?',
-                "<32>* It's a universal chip, so you don't need to fuse with it to control it.",
+                '<32>{#p/alphys}* Completar seu corpo vai levar um tempo...',
+                '<32>* Você tem certeza que quer isso agora?',
+                "<32>{#p/hapstablook}* eu estou pronta, doutora.",
+                "<32>{#p/alphys}* Okay... Eu v-vou ativar o Mettaton agora.",
+                '<32>* Este chip de controle vai autorizar que você use qualquer corpo que eu construir...',
+                "<32>* Quando eu finalizar seu corpo, eu só irei t-transferi-lo.",
+                '<32>* Isso vai, uh, funcionar?',
+                "<32>{#p/hapstablook}* é maravilhoso, doutora.\n* maravilhoso!",
+                "<32>{#p/alphys}* heh... isso...\n* foi bem legal da sua parte...",
+                '<32>{#p/hapstablook}* então, quando eu começo?',
+                '<32>{#p/alphys}* O-oh, você pode tentar agora se quiser?',
+                "<32>* É um controle universal, então você não precisa se fundir a ele para controlar.",
                 '<32>{#p/hapstablook}* oooh, fancy...',
-                '<32>{#p/hapstablook}* being able to upgrade my body will be useful on my path to superstardom!',
-                '<32>{#s/echostop}{#p/event}* Playback complete.'
+                '<32>{#p/hapstablook}* ser capaz de atualizar meu corpo será útil no meu caminho para o estrelato!',
+                '<32>{#s/echostop}{#p/event}* Playback completo.'
             ],
             hapsta7: [
-                "<32>{#p/napstablook}* well, that's it",
-                "<32>{|}{#p/napstablook}* if i didn't know any better, i'd say that's- {%}"
+                "<32>{#p/napstablook}* bem, é isso",
+                "<32>{|}{#p/napstablook}* se eu não soubesse melhor, eu diria que- {%}"
             ],
-            hapsta8: ["<32>{#p/finalghost}* Sorry, I'm late."],
-            hapsta9: ['<32>* Oh.\n* Hello, human.'],
-            hapsta10: ['<32>* Cousin Blooky.\n* Why is the human here?'],
-            hapsta11: ['<32>{#p/napstablook}* i thought......\n* they might be able to help......'],
+            hapsta8: ["<32>{#p/finalghost}* Desculpa, estou atrasado."],
+            hapsta9: ['<32>* Oh.\n* Olá, humano.'],
+            hapsta10: ['<32>* Primo Blooky.\n* Por que o humano está aqui?'],
+            hapsta11: ['<32>{#p/napstablook}* eu pensei.......\n* Que eles poderiam ajudar.'],
             hapsta12a: () => [
                 ...[
-                    ['<32>{#p/finalghost}* Hm.\n* It would be nice to have them on our side.'],
-                    ["<32>{#p/finalghost}* Hm.\n* They'll have to curtail their violent side."],
-                    ["<32>{#p/finalghost}* Hm.\n* We can only hope they don't run away this time."],
+                    ['<32>{#p/finalghost}* Hm.\n* Será bom tê-los do nosso lado.'],
+                    ["<32>{#p/finalghost}* Hm.\n* Ele terá que reduzir seu lado violento."],
+                    ["<32>{#p/finalghost}* Hm.\n* Só podemos esperar que ele não fuja desta vez."],
                     [
-                        "<32>{#p/finalghost}* Hm.\n* Last time I saw them, they didn't seem very intelligent.",
-                        '<32>* But who knows.'
+                        "<32>{#p/finalghost}* Hm.\n* Da última vez que os vi, eles não pareciam muito inteligentes.",
+                        '<32>* Mas quem sabe.'
                     ],
-                    ['<32>{#p/finalghost}* Hm.\n* They were pretty nice to me...'],
-                    ['<32>{#p/finalghost}* Hm.\n* We can only hope they keep their hands to themself.'],
-                    ["<32>{#p/finalghost}* Hm.\n* They'll need to keep their flirtatious attitude in check."]
+                    ['<32>{#p/finalghost}* Hm.\n* Eles foram bem legais comigo...'],
+                    ['<32>{#p/finalghost}* Hm.\n* Podemos apenas desejar que eles mantenham suas mãos em si mesmos.'],
+                    ["<32>{#p/finalghost}* Hm.\n* Eles vão precisar manter essa atitude de flerte para si."]
                 ][SAVE.data.n.state_wastelands_dummy]
             ],
-            hapsta12b: ['<32>* Are we ready to make the call?'],
-            hapsta13: ['<32>{#p/napstablook}* well, hold on...', "<32>{|}* where's- {%}"],
-            hapsta14: ['<32>{#p/basic}* RIGHT HERE, BOZO!'],
-            hapsta15: ['<32>{#p/finalghost}* Do you always have to do that.'],
+            hapsta12b: ['<32>* Estamos prontos para ligar?'],
+            hapsta13: ['<32>{#p/napstablook}* bem, espera aí...', "<32>{|}* onde es- {%}"],
+            hapsta14: ['<32>{#p/basic}* BEM AQUI, MANÉ!'],
+            hapsta15: ['<32>{#p/finalghost}* Você sempre precisa fazer isso?'],
             hapsta16: [
-                '<32>{#p/basic}* Human.\n* Human!\n* HUMAN!!!',
-                '<32>* WHAT HAVE YOU DONE TO MY COUSIN THIS TIME!?'
+                '<32>{#p/basic}* Humano.\n* Humano!\n* HUMANO!!!',
+                '<32>* O QUE VOCÊ FEZ COM MEU PRIMO DESSA VEZ?'
             ],
-            hapsta17: ["<32>{#p/finalghost}* They didn't do anything to me.\n* You're overreacting."],
-            hapsta18: ['<32>{#p/basic}* Jeez, I was only kidding...'],
-            hapsta19: ['<32>{#p/finalghost}* Sure you were.\n* Now, for the matter at hand...'],
-            hapsta20: ["<32>{#p/finalghost}* We all know why we're here.\n* Our cousin is..."],
-            hapsta21: ["<32>{#p/basic}* Our cousin's a SELLOUT."],
+            hapsta17: ["<32>{#p/finalghost}* Ele não fez nada comigo, você só tá exagerando."],
+            hapsta18: ['<32>{#p/basic}* Qual foi, eu só estava brincando...'],
+            hapsta19: ['<32>{#p/finalghost}* Claro que estava.\n* Agora, para o que importa.'],
+            hapsta20: ["<32>{#p/finalghost}* Todos sabemos o motivo de estarmos aqui.\n* Nosso primo..."],
+            hapsta21: ["<32>{#p/basic}* Nosso primo é um VENDIDO."],
             hapsta22: [
                 '<32>{#p/finalghost}* ...',
-                '<32>* Our cousin is many things, but a \"sellout\" is not one of them.',
-                '<32>* In fact, after Blooky and I read his diaries... I fear we may be the ones at fault.'
+                '<32>* Nosso primo é muitas coisas, mas \"vendido\" não é uma delas.',
+                '<32>* Em fato, após eu e Blooky lermos o diário dele... sinto que somos os culpados.'
             ],
-            hapsta23: ['<32>{#p/napstablook}* .........\n* ......... should we call him?'],
-            hapsta24: ["<32>{#p/finalghost}* I don't see a reason not to."],
+            hapsta23: ['<32>{#p/napstablook}* .........\n* ......... deveríamos ligar?'],
+            hapsta24: ["<32>{#p/finalghost}* Eu não vejo o motivo de não fazer isso."],
             hapsta25: [
                 '<32>{#p/event}* Ring, ring...',
-                '<32>{#p/mettaton}* BLOOKY!\n* WHAT A WONDERFUL SURPRISE!\n* WHAT IS IT YOU NEED?',
-                '<32>{#p/napstablook}* um... i wanted to talk to you about something',
-                '<32>{#p/mettaton}* WELL, HEY, WE CAN DO IT RIGHT HERE, WHAT DO YOU NEED?',
-                '<32>{#p/napstablook}* in private.........',
+                '<32>{#p/mettaton}* BLOOKY!\n* QUE SURPRESA MARAVILHOSA!\n* O QUE VOCÊ PRECISA?',
+                '<32>{#p/napstablook}* hm... eu preciso conversar com você sobre algo',
+                '<32>{#p/mettaton}* OLHA SÓ, PODEMOS FAZER ISSO AGORA, QUE TAL?',
+                '<32>{#p/napstablook}* em particular.........',
                 '<32>{#p/mettaton}* AH.',
-                "<32>{#p/mettaton}* I'M AFRAID I CAN'T DO THAT RIGHT NOW SINCE I'M PREPARING FOR ANOTHER SHOW.",
-                "<32>* HOW ABOUT WE MEET UP ONCE THAT'S OVER WITH?"
+                "<32>{#p/mettaton}* EU TEMO QUE NÃO POSSA FAZER ISSO AGORA JÁ QUE ESTOU ME PREPARANDO PARA OUTRO SHOW.",
+                "<32>* QUE TAL NOS ENCONTRARMOS APÓS EU FINALIZAR?"
             ],
-            hapsta26: ['<32>{|}{#p/basic}* Anything to avoid- {%}'],
-            hapsta27: ['<32>{#p/finalghost}* Quiet!'],
+            hapsta26: ['<32>{|}{#p/basic}* Qualquer coisa para evi- {%}'],
+            hapsta27: ['<32>{#p/finalghost}* Quieto!'],
             hapsta28: [
-                '<32>{#p/napstablook}* that works...',
-                '<32>{#p/mettaton}* FABULOUS, DARLING.',
-                "<32>* I'LL CATCH UP WITH YOU THEN!"
+                '<32>{#p/napstablook}* pode ser...',
+                '<32>{#p/mettaton}* FABULOSO, QUERIDO.',
+                "<32>* EU TE ENCONTRO LÁ, ENTÃO!"
             ],
             hapsta29: [
-                '<32>{#p/basic}* I knew it.\n* I knew it!\n* I KNEW IT!',
-                '<32>* This was doomed to fail from the very beginning.'
+                '<32>{#p/basic}* Eu sabia.\n* Eu sabia!\n* EU SABIA!',
+                '<32>* Isso estava fadado ao fracasso do começo.'
             ],
             hapsta30: [
-                "<32>{#p/finalghost}* Just because Mettaton isn't here right now doesn't mean we've failed.",
-                "<32>* We'll just have to be patient."
+                "<32>{#p/finalghost}* Só porque o Mettaton não quer conversar agora, não significa que falhamos.",
+                "<32>* Só precisamos ter paciência."
             ],
-            hapsta31: ['<32>{#p/basic}* Fine...'],
+            hapsta31: ['<32>{#p/basic}* Certo...'],
             hapsta32: () => [
-                '<32>{#p/finalghost}* Well, it was nice to talk to you again.',
-                "<32>* We'll see each other soon."
+                '<32>{#p/finalghost}* Bem, foi legal falar com vocês de novo.',
+                "<32>* Bem, nos vemos mais tarde."
             ],
             hapsta34: () => [
                 '<32>{#p/napstablook}* heh...',
                 ...(SAVE.data.b.oops
-                    ? ['<32>{#p/napstablook}* see you then, i guess']
+                    ? ['<32>{#p/napstablook}* te vejo depois, eu acho']
                     : [
-                        '<32>{#p/napstablook}* and $(namel)?',
+                        '<32>{#p/napstablook}* s $(namel)?',
                         '<32>{#p/basic}* ...?',
-                        '<32>{#p/napstablook}* .........\n* thanks for sticking around.'
+                        '<32>{#p/napstablook}* .........\n* valeu por estar aqui.'
                     ])
             ],
-            hapsta35: ['<32>{#p/basic}* I just hope I can be useful for once...'],
+            hapsta35: ['<32>{#p/basic}* Eu só espero poder ajudar...'],
             opera1: () =>
                 SAVE.data.n.state_foundry_undyne === 1
                     ? [
                         '<25>{#p/alphys}{#g/alphysSideSad}* ... hey, uh...',
-                        "<25>{#f/30}* I'm sorry I ran off like that earlier.",
-                        "<25>{#f/32}* It's just... been really hard...",
-                        '<25>{#f/20}* After seeing you leave Undyne behind on the platform like that.',
-                        "<25>{#f/5}* Still, I...\n* I get that it probably wasn't your fault.",
-                        '<25>{#f/20}* You were trying to run away from someone chasing you.',
-                        '<25>{#f/31}* I just... had a hard time accepting what had happened to her.',
+                        "<25>{#f/30}* Desculpa por sair correndo mais cedo.",
+                        "<25>{#f/32}* Só... tem sido difícil...",
+                        '<25>{#f/20}* Depois de te ver deixar Undyne na plataforma daquele jeito.',
+                        "<25>{#f/5}* Ainda assim, eu...\n* Eu sinto que não foi sua culpa.",
+                        '<25>{#f/20}* Você estava tentando correr que alguém que estava te seguindo.',
+                        '<25>{#f/31}* Eu só... tenho tido um tempo difícil aceitando o que ocorreu com ela.',
                         '<25>{#f/31}* ...',
-                        '<25>{#f/20}* Well, we should probably head up to the rec center now.'
+                        '<25>{#f/20}* Bem, provavelmente deveríamos ir direto pro rec center agora.'
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ah, there you are!',
+                        '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ah, aí está você!',
                         ...(world.bad_lizard === 1
                             ? [
-                                "<25>{#g/alphysSideSad}* I've been... worried, about what you'd do if I didn't escort you.",
-                                "<25>{#g/alphysOhGodNo}* Uh, not that you'd do anything bad!",
-                                '<25>{#g/alphysWorried}* Just...',
-                                "<25>{#g/alphysCutscene2}* I feel like it's important that I help you, you know?",
+                                "<25>{#g/alphysSideSad}* Eu estive preocupada... sobre o que você faria se eu não tivesse te escortado.",
+                                "<25>{#g/alphysOhGodNo}* Uh, não que você faria algo ruim!",
+                                '<25>{#g/alphysWorried}* É só que...',
+                                "<25>{#g/alphysCutscene2}* Eu só sinto que seja importante eu te ajudar, sabe?",
                                 '<25>{#g/alphysCutscene2}* ...',
-                                "<25>{#g/alphysWelp}* One thing's for sure, those guards were NOT supposed to attack you."
+                                "<25>{#g/alphysWelp}* Uma coisa é certeza, aqueles guardas NÃO deveriam ter te atacado."
                             ]
                             : [
-                                "<25>{#g/alphysSideSad}* I've been really w-worried about you...",
-                                '<25>{#g/alphysSideSad}* About the puzzles, and about Mettaton, and...',
+                                "<25>{#g/alphysSideSad}* Eu estive bem p-preocupada com você...",
+                                '<25>{#g/alphysSideSad}* Sobre os desafios, e o Mettaton, e...',
                                 '<25>{#g/alphysHaveSomeCompassion}* ...',
-                                '<25>{#g/alphysHaveSomeCompassion}* Those guards were NOT supposed to attack you.'
+                                '<25>{#g/alphysHaveSomeCompassion}* Aqueles guardas que NÃO deveriam ter te atacado.'
                             ]),
-                        "<25>{#g/alphysUhButHeresTheDeal}* Maybe my royal memos didn't reach them???\n* For some reason???",
-                        '<25>{#g/alphysTheFactIs}* I mean, they WERE only just hired today...',
+                        "<25>{#g/alphysUhButHeresTheDeal}* Talvez minhas ordens reais não chegaram neles???\n* Por alguma razão?",
+                        '<25>{#g/alphysTheFactIs}* Quer dizer, eles FORAM contratados hoje...',
                         ...(SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew || SAVE.data.b.mewget
                             ? [
-                                "<25>{#g/alphysWelp}* Well, uh, anyway, it looks like you're fine, so...",
-                                '<25>{#g/alphysCutscene2}* I guess we can go.'
+                                "<25>{#g/alphysWelp}* Bem, de toda forma, parece que você está bem...",
+                                '<25>{#g/alphysCutscene2}* Acho que podemos ir.'
                             ]
                             : [
-                                "<25>{#g/alphysWelp}* Well, uh, anyway, it looks like you're fine.",
-                                "<25>{#g/alphysFR}* Apart from that Mew Mew doll that doesn't belong to you."
+                                "<25>{#g/alphysWelp}* Bem, uh, de toda forma, acho que você está bem.",
+                                "<25>{#g/alphysFR}* Tirando isso, aquela Boneca Mew Mew que não te pertence."
                             ])
                     ],
-            opera2: ['<25>{#p/alphys}{#g/alphysInquisitive}* Are you coming?'],
+            opera2: ['<25>{#p/alphys}{#g/alphysInquisitive}* Você vem?'],
             opera3: ['<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}'],
             opera4: () =>
                 world.genocide
-                    ? ["<25>{#p/asriel2}{#f/1}* It's time to end this."]
+                    ? ["<25>{#p/asriel2}{#f/1}* É hora de acabar com isso."]
                     : world.bad_lizard === 1
-                        ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Here we are.']
+                        ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Aqui vamos nós.']
                         : [
-                            "<25>{#p/alphys}{#g/alphysCutscene1}* Okay, we're here!",
-                            '<25>{#g/alphysSmileSweat}* B-better stay behind me while we get through security.'
+                            "<25>{#p/alphys}{#g/alphysCutscene1}* Okay, lá vamos nós!",
+                            '<25>{#g/alphysSmileSweat}* M-melhor ficar atrás de mim enquanto nós passamos pela segurança.'
                         ],
-            opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* H-hiya.', "<32>{#p/basic}{#x1}* 'Sup.{#x3}"],
-            opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* O-oh, I guess there is no security.'],
-            opera6: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Uh, y-yeah!\n* Hi!'],
+            opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* O-oi.', "<32>{#p/basic}{#x1}* Salve.{#x3}"],
+            opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* A-ah, a-acho que não tem seguranças.'],
+            opera6: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Uh, s-sim!\n* Salve!'],
             opera7: () =>
                 world.bad_lizard === 1
                     ? [
-                        "<25>{#p/alphys}{#g/alphysWelp}* It's a good thing you didn't attack the human earlier...",
-                        "<25>{#g/alphysNeutralSweat}* If you had, they might've..."
+                        "<25>{#p/alphys}{#g/alphysWelp}* É bom que vocês não tenham atacado o humano mais cedo...",
+                        "<25>{#g/alphysNeutralSweat}* Se vocês tivessem, eles teriam..."
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysWelp}* Well uh, thanks for... not attacking the human earlier.',
-                        '<25>{#g/alphysGarbo}* The other guards didn\'t really \"get the memo,\" so to speak.'
+                        '<25>{#p/alphys}{#g/alphysWelp}* Bem uh, obrigado por... não atacar o humano mais cedo.',
+                        '<25>{#g/alphysGarbo}* Os outros guardas Reais recebem \"minhas ordens\", foi preocupante.'
                     ],
-            opera8: ['<32>{#p/basic}{#x1}* ... human?{#x3}', '<32>{#x1}* What human?{#x3}'],
+            opera8: ['<32>{#p/basic}{#x1}* ... humano?{#x3}', '<32>{#x1}* Que humano?{#x3}'],
             opera9: [
-                "<25>{|}{#p/alphys}{#g/alphysTheFactIs}* Uhhhhh I don't know I'm just trying to escor- {%}",
-                "<32>{#p/basic}{#x1}* Alphys, you're like, the second highest authority on the outpost.{#x3}",
-                "<32>{#x2}* Yeah, you don't need to ask us for permission, haha.{#x3}",
-                "<32>{#p/basic}{#x1}{#x2}* We haven't even made it out of guard training yet!{#x3}"
+                "<25>{|}{#p/alphys}{#g/alphysTheFactIs}* Uhhhhh eu não sei, eu só estou tentando escor- {%}",
+                "<32>{#p/basic}{#x1}* Alphys, você é a segunda maior autoridade do Outpost.{#x3}",
+                "<32>{#x2}* Pois é, você não precisa pedir permissão pra gente, haha.{#3}",
+                "<32>{#p/basic}{#x1}{#x2}* Nós nem terminamos nossos treinamentos ainda!{#x3}"
             ],
             opera10: [
-                '<25>{#p/alphys}{#g/alphysNervousLaugh}* Oh.\n* I see.',
-                "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll be on our way through, then!"
+                '<25>{#p/alphys}{#g/alphysNervousLaugh}* Oh.\n* Eu entendo.',
+                "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Nós vamos indo então!"
             ],
-            opera11: ['<32>{#p/basic}{#x1}* (Bro... is she okay?){#x3}', '<32>{#x2}* (You tell me...){#x3}'],
-            opera12: ['<32>{#p/basic}* Meanwhile...'],
+            opera11: ['<32>{#p/basic}{#x1}* (Mano... ela tá bem?){#x3}', '<32>{#x2}* (Nem me fala...){#x3}'],
+            opera12: ['<32>{#p/basic}* Enquanto isso...'],
             opera13: [
-                "<25>{#p/alphys}{#g/alphysSideSad}* It's so dark in here...",
-                '<25>* Maybe we should turn back. Find another way.',
-                "<25>{|}* Unless it's- {%}"
+                "<25>{#p/alphys}{#g/alphysSideSad}* Está tão escuro isso...",
+                '<25>* Talvez devêssemos voltar. Achar outro caminho.',
+                "<25>{|}* Ah não ser q- {%}"
             ],
             opera14a: ['<32>{#p/alphys}{#g/alphysGarbo}* Mettaton.'],
             opera14b: ['<32>{#p/mettaton}* OH MY...'],
-            opera14c: ['<32>* WHAT DO WE HAVE HERE?'],
+            opera14c: ['<32>* O QUE TEMOS AQUI?'],
             opera15: () =>
                 iFancyYourVilliany()
-                    ? ['<32>{#p/mettaton}* COULD IT BE?', '<32>* THE NEMESIS OF MY DREAMS...?']
-                    : ['<32>{#p/mettaton}* COULD IT BE?', '<32>* MY ONE TRUE LOVE...?'],
+                    ? ['<32>{#p/mettaton}* PODERIA SER?', '<32>* O NEMESIS DOS MEUS SONHOS...?']
+                    : ['<32>{#p/mettaton}* PODERIA SER?', '<32>* MEU ÚNICO E VERDADEIRO AMOR...?'],
             opera16: [
-                '<25>{*}{#p/alphys}{#g/alphysGarbo}* What the heck are you doing to them now...{^30}{%}',
-                '<32>{*}{#p/mettaton}{#x1}* EXCUSE ME?{^30}{%}',
-                "<32>{*}{#x2}* I'M TRYING TO RUN A SHOW HERE.{^30}{%}",
+                '<25>{*}{#p/alphys}{#g/alphysGarbo}* O que caramba você vai fazer com ele agora...{^30}{%}',
+                '<32>{*}{#p/mettaton}{#x1}* COM LI-CEN-ÇA?{^30}{%}',
+                "<32>{*}{#x2}* EU ESTOU TENTANDO APRESENTAR UM SHOW AQUI.{^30}{%}",
                 '<25>{*}{#p/alphys}{#g/alphysWTF}* ...{^30}{%}'
             ],
             opera16b: [
                 '<32>{*}* MY, MY...{^30}{%}',
-                "<32>{*}{#x1}* IT'S A SHAME ALPHYS ISN'T HERE TO SEE THIS.{^30}{%}",
-                "<32>{*}{#x2}* SHE WOULD'VE LOVED IT.{^30}{%}"
+                "<32>{*}{#x1}* LAMENTÁVEL QUE ALPHYS NÃO ESTEJA AQUI.{^30}{%}",
+                "<32>{*}{#x2}* ELA AMARIA ISSO.{^30}{%}"
             ],
             opera17: () =>
-                world.genocide ? 'Oh |my |friends...' : iFancyYourVilliany() ? 'Oh |how |sad...' : 'Oh |my |love...',
+                world.genocide ? 'Oh |meus |amigos...' : iFancyYourVilliany() ? 'Oh |que |triste isso...' : 'Oh |meu |amor...',
             opera18: () =>
                 world.genocide
-                    ? "Time's |run|ning |thin..."
+                    ? "Tempo |voa|para |acabar..."
                     : iFancyYourVilliany()
-                        ? 'It |is |to |see...'
-                        : 'Please |run |a|way...',
+                        ? 'Que |é |ver...'
+                        : 'Por |favor |vá|fugir...',
             opera19: () =>
                 world.genocide
-                    ? "Soon |you'll |wish..."
+                    ? "Logo |você |desejará..."
                     : iFancyYourVilliany()
-                        ? 'Some |one |waste... '
-                        : 'Mon|ster |king...',
+                        ? 'Alguém |desperdiçou... '
+                        : 'O|rei |monstro...',
             opera20: () =>
                 world.genocide
-                    ? "You |ha|dn't |sinned..."
+                    ? "Que |você|não |pecasse..."
                     : iFancyYourVilliany()
-                        ? 'Their |time |on |me...'
-                        : 'For|bids |your |stay...',
+                        ? 'Seu |tempo |em |mim...'
+                        : 'Proí|be |sua |estadia...',
             opera20a: () =>
                 iFancyYourVilliany()
                     ? ['<25>{*}{#p/alphys}{#g/alphysInquisitive}* Huh?{^40}{%}']
-                    : ['<25>{*}{#p/alphys}{#g/alphysWelp}* Hey, this is actually pretty good...{^40}{%}'],
+                    : ['<25>{*}{#p/alphys}{#g/alphysWelp}* Ei, esse som é até que bem legal...{^40}{%}'],
             opera21: () =>
-                world.genocide ? 'But |be|fore...' : iFancyYourVilliany() ? "I'll |ad|mit..." : 'Hu|mans |must...',
+                world.genocide ? 'Mas |an|tes...' : iFancyYourVilliany() ? "Eu vou |ad|mitir..." : 'Hu|manos |devem...',
             opera22: () =>
                 world.genocide
-                    ? 'I |kill |you |dead...'
+                    ? 'Você |ser |morto...'
                     : iFancyYourVilliany()
-                        ? 'I |was |in|trigued...'
-                        : 'Live |far |a|part...',
+                        ? 'Eu |fiquei |in|trigado...'
+                        : 'Viva |longe |a|parte...',
             opera23: () =>
-                world.genocide ? "Let's |re|hearse..." : iFancyYourVilliany() ? "But |you're |just..." : 'E|ven |if...',
+                world.genocide ? "Vamos |en|saiar" : iFancyYourVilliany() ? "Mas |você |está..." : 'Mes|mo |se...',
             opera24: () =>
                 world.genocide
-                    ? "The |life |you've |led..."
+                    ? "A |vida |que você |levou..."
                     : iFancyYourVilliany()
-                        ? 'Not |in |my |league...'
-                        : 'It |breaks |my |heart...',
+                        ? 'Não |na |minha|liga...'
+                        : 'Isso |quebra |meu |coração...',
             opera25: () =>
                 world.genocide
-                    ? 'Born |a |prince...'
+                    ? 'Nascido |um |príncipe...'
                     : iFancyYourVilliany()
-                        ? 'You |should |find...'
-                        : "They'll |cast |you...",
+                        ? 'Você |deve |achar...'
+                        : "Eles vão |lançar |você...",
             opera25a: () =>
                 iFancyYourVilliany()
-                    ? ['<25>{*}{#p/alphys}{#g/alphysGarboCenter}* Jeez.{^40}{%}']
-                    : ['<25>{*}{#p/alphys}{#g/alphysCutscene1}* The sakura leaves...!{^40}{%}'],
+                    ? ['<25>{*}{#p/alphys}{#g/alphysGarboCenter}* Senhor.{^40}{%}']
+                    : ['<25>{*}{#p/alphys}{#g/alphysCutscene1}* A sakura sai...! {^40}{%}'],
             opera26: () =>
                 world.genocide
-                    ? 'We |were |con|vinced...'
+                    ? 'Nós |estávamos |conven|cidos...'
                     : iFancyYourVilliany()
-                        ? 'Some|one |more |kind...'
-                        : 'Out |in|to |space...',
+                        ? 'Al|guém |mais |bondoso...'
+                        : 'Fora |para |o |espaço...',
             opera27: () =>
                 world.genocide
-                    ? "That |you'd |see..."
+                    ? "Isso |você |veria..."
                     : iFancyYourVilliany()
-                        ? 'At |least |then...'
-                        : "I|t'll |suck...|\n(quite |literally)",
+                        ? 'Pelo |menos |então...'
+                        : "Eu |vou me ferrar ...|\n(bastante, |literalmente)",
             opera28: () =>
                 world.genocide
-                    ? 'Our |king|dom |free...'
+                    ? 'Nosso |rei|no |livre...'
                     : iFancyYourVilliany()
-                        ? "You |woul|dn't\n|have |to |die."
-                        : "And |then |you'll\n|die |a |lot.",
+                        ? "Você não\n|teria |que |morrer."
+                        : "E |então |você\n|morrerá.",
             opera28a: () =>
                 iFancyYourVilliany()
                     ? ['<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}']
-                    : ["<25>{*}{#p/alphys}{#g/alphysGarbo}* Oh, so this is where it's going.{^40}{%}"],
-            opera29: () => (world.genocide ? 'Then |one |day...' : 'Real|ly |sad...'),
-            opera30: () => (world.genocide ? 'You |lost |your |way...' : "You're |gon|na |die..."),
-            opera31: () => (world.genocide ? 'Now |my |friends... ' : 'Cry |cry |cry...'),
-            opera31a: ['<25>{*}{#p/alphys}{#g/alphysCutscene3}* We get the point...{^40}{%}'],
+                    : ["<25>{*}{#p/alphys}{#g/alphysGarbo}* Ah, então é isso onde vai chegar.{^40}{%}"],
+            opera29: () => (world.genocide ? 'Então |um |dia...' : 'Real|mente |triste...'),
+            opera30: () => (world.genocide ? 'Você |perde |seu |caminho...' : "Você |vai |morrer..."),
+            opera31: () => (world.genocide ? 'Agora |meus |amigos... ' : 'Chora |chora |chora...'),
+            opera31a: ['<25>{*}{#p/alphys}{#g/alphysCutscene3}* Nós já entendemos...{^40}{%}'],
             opera32: () =>
                 world.genocide
-                    ? "Let's |bring |this\n|to |an |end."
+                    ? "Vamos |trazer |isto\n|para |um |fim."
                     : iFancyYourVilliany()
-                        ? "That's |what |you\n|get |for |being a\ndirty rotten meatbag"
-                        : "So |sad |it's\n|hap|pen|ing.",
+                        ? "Isso é |o que |você\n|ganha |por |ser um\nsaco de carne podre"
+                        : "Tão |triste |que\n|acon|te|cera.",
             opera33: () =>
                 iFancyYourVilliany()
-                    ? ['<32>{#p/mettaton}* TOO BAD.', '<32>{#p/mettaton}* TOO BAD YOU HAD TO GO AND PLAY THE VILLAIN.']
-                    : ['<32>{#p/mettaton}* SO SAD.', "<32>{#p/mettaton}* SO SAD YOU'RE GOING TO BE EJECTED."],
+                    ? ['<32>{#p/mettaton}* TÃO TRISTE.', '<32>{#p/mettaton}* TÃO TRISTE QUE VOCÊ DEU UMA DE VILÃO.']
+                    : ['<32>{#p/mettaton}* TÃO TRISTE.', "<32>{#p/mettaton}* TÃO TRISTE QUE VOCÊ SERÁ EJETADO."],
             opera34: () =>
                 !world.badder_lizard
                     ? [
-                        '<25>{#p/alphys}{#g/alphysGarboCenter}* You done now?',
-                        '<32>{#p/mettaton}{#x1}* WELL, HOLD ON...',
-                        '<32>{|}{#x2}* I STILL HAVE TO- {%}'
+                        '<25>{#p/alphys}{#g/alphysGarboCenter}* Acabou?',
+                        '<32>{#p/mettaton}{#x1}* BEM, SEGURE AÍ...',
+                        '<32>{|}{#x2}* EU AINDA TENHO Q- {%}'
                     ]
-                    : ['<32>{#p/mettaton}{#x1}* GET READY, HUMAN...', "<32>{|}{#x2}* 'CAUSE I'M ABOUT TO BLOW YOUR- {%}"],
+                    : ['<32>{#p/mettaton}{#x1}* PREPARA-TE HUMANO...', "<32>{|}{#x2}* PORQUE EU ESTOU PRESTES A EXPLODIR SUA- {%}"],
             opera35: () => [
                 ...(SAVE.data.b.killed_glyde
                     ? [
                         !world.badder_lizard
-                            ? "<32>{#p/mettaton}{#x0}* ... I'M NOT SURPRISED ALPHYS RAN AWAY FROM YOU JUST NOW."
-                            : "<32>{#p/mettaton}{#x0}* ... NO WONDER ALPHYS DOESN'T WANT TO BE AROUND YOU.",
-                        '<32>{#x1}* DO YOU HAVE NO SHAME?',
-                        "<32>{#x0}* I HAD TO CUT THE LIVE TV FEED JUST TO PROTECT MY PRECIOUS VIEWERS' EYES!",
+                            ? "<32>{#p/mettaton}{#x0}* ... EU NÃO ESTOU QUE A ALPHYS FUGIU DE VOCÊ AGORA MESMO."
+                            : "<32>{#p/mettaton}{#x0}* ... TOTALMENTE COMPREENSÍVEL QUE ALPHYS NÃO QUEIRA ESTAR CONTIGO.",
+                        '<32>{#x1}* VOCÊ NÃO TEM PIEDADE?',
+                        "<32>{#x0}* TIVE QUE CORTAR A TRANSMISSÃO DA TV AO VIVO APENAS PARA PROTEGER OS OLHOS DOS MEUS PRECIOSOS ESPECTADORES!",
                         !world.badder_lizard
-                            ? "<32>{#x0}* HOW UNFORTUNATE...\n* BUT DON'T YOU BREAK A SWEAT!"
-                            : "<32>{#x0}* HOW DISGRACEFUL...\n* BUT DON'T YOU BREAK A SWEAT!"
+                            ? "<32>{#x0}* QUE LAMENTÁVEL...\n* MAS NÃO SUE A CAMISA!"
+                            : "<32>{#x0}* QUE DESGRAÇA...\n* MAS NÃO TEMA!"
                     ]
                     : [
                         ...(!world.badder_lizard
-                            ? ['<25>{#p/alphys}{#g/alphysWelp}* S-so... what now?', '<32>{#p/mettaton}{#x0}* WHAT NOW?']
+                            ? ['<25>{#p/alphys}{#g/alphysWelp}* En-então... o que agora?', '<32>{#p/mettaton}{#x0}* O QUE AGORA?']
                             : []),
-                        '<32>{#p/mettaton}{#x0}* WELL, AS MUCH AS I WOULD HAVE LOVED TO FINISH THAT EPISODE...',
-                        '<32>{#x2}* AND BELIEVE ME DARLING, I DEFINITELY WOULD HAVE...'
+                        '<32>{#p/mettaton}{#x0}* BEM, POR MAIS QUE EU AMARIA FINALIZAR ESTE EPISÓDIO...',
+                        '<32>{#x2}* E ACREDITE EM MIM QUERIDO, EU DEFINITIVAMENTE TERIA...'
                     ]),
                 ...(world.bad_robot
                     ? [
-                        "<32>{#x1}* THERE'S SOMETHING I NEED TO DO BEFORE OUR NEXT AND FINAL EPISODE.",
-                        '<32>{#x3}* SOON, DARLING...',
-                        "<32>{*}* SOON, I'LL MAKE YOU WISH YOU'D NEVER MET ME.{^30}{#x4}{%}"
+                        "<32>{#x1}* TEM ALGO QUE EU PRECISO FAZER ANTES DO NOSSO PRÓXIMO E ÚLTIMO EPISÓDIO.",
+                        '<32>{#x3}* LOGO, AMOR...',
+                        "<32>{*}* LOGO, EU FAREI VOCÊ DESEJAR JAMAIS TER ME CONHECIDO.{^30}{#x4}{%}"
                     ]
                     : [
-                        "<32>{#x1}* THERE'S SOMETHING MUCH, -MUCH- MORE EXCITING IN STORE COMING VERY SOON.",
-                        '<32>{#x3}* SO, UNTIL THE NEXT AND FINAL EPISODE...',
-                        '<32>{*}* STAY FABULOUS!{^30}{#x4}{%}'
+                        "<32>{#x1}* A ALGO MUITO, -MUITO- MAIS ANIMADOR GUARDADO PARA O SHOW.",
+                        '<32>{#x3}* ENTÃO, ATÉ O PRÓXIMO E ÚLTIMO EPISÓDIO...',
+                        '<32>{*}* CONTINUE FABULOSO!{^30}{#x4}{%}'
                     ])
             ],
             
             hapsta36: () => [
-                "<32>{#p/mettaton}{#e/mettaton/0}* OH... RIGHT.\n* I'D FORGOTTEN ABOUT THAT.",
+                "<32>{#p/mettaton}{#e/mettaton/0}* OH... CERTO.\n* EU TINHA ME ESQUECIDO DISSO.",
                 ...(SAVE.data.b.killed_glyde || SAVE.data.b.bad_lizard
                     ? [
-                        "<32>{#p/mettaton}{#e/mettaton/5}* ... I SUGGEST WE GO TO ANOTHER AREA FIRST, THOUGH.\n* IT'S NOT SAFE HERE."
+                        "<32>{#p/mettaton}{#e/mettaton/5}* ... EU SUGIRO QUE DEVEMOS IR PARA OUTRO LUGAR, PELO MENOS.\n* NÃO É SEGURO AQUI."
                     ]
                     : [])
             ],
             hapsta37: () =>
                 SAVE.data.b.killed_glyde || SAVE.data.b.bad_lizard
-                    ? ['<32>{#p/napstablook}* well, alright......\n* if you really want to, we can do it alone......']
+                    ? ['<32>{#p/napstablook}* tudo bem......\n* se você realmente quer, podemos fazer isso sozinhos.....']
                     : [
-                        '<32>{#p/napstablook}* hey, um......',
-                        '<32>{#p/napstablook}* i was looking through old lab recordings, and...'
+                        '<32>{#p/napstablook}* ei, um......',
+                        '<32>{#p/napstablook}* eu estava olhando por antigas gravações do velho laboratório, e...'
                     ],
-            hapsta38: ['<32>{#p/mettaton}{#e/mettaton/34}* YES...?'],
+            hapsta38: ['<32>{#p/mettaton}{#e/mettaton/34}* SIM...?'],
             hapsta39: [
-                '<32>{#p/napstablook}* well, there was this voice that sounded like......',
-                '<32>{#p/napstablook}* like......'
+                '<32>{#p/napstablook}* bem, tinha esta uma voz que parecia...',
+                '<32>{#p/napstablook}* parecia......'
             ],
-            hapsta40: ["<33>{#p/mettaton}{#e/mettaton/11}* WE DON'T HAVE ALL DAY, DARLING."],
+            hapsta40: ["<33>{#p/mettaton}{#e/mettaton/11}* NÃO TEMOS O DIA TODO, QUERIDO."],
             hapsta41: [
-                '<32>{#p/napstablook}* it was you',
-                '<32>{#p/napstablook}{#e/mettaton/3}* .........\n* the real you.'
+                '<32>{#p/napstablook}* era você',
+                '<32>{#p/napstablook}{#e/mettaton/3}* .........\n* o verdadeiro você.'
             ],
             hapsta42: [
-                '<32>{#p/mettaton}{#e/mettaton/2}* THE \"REAL ME\" EH?',
-                "<32>{#e/mettaton/0}* NOW HOLD ON, LET'S NOT JUMP TO CONCLUSIONS HERE."
+                '<32>{#p/mettaton}{#e/mettaton/2}* O \"VERDADEIRO EU\" EH?',
+                "<32>{#e/mettaton/0}* PERA LÁ, NÃO VAMOS SÓ CHEGAR CONCLUINDO COISAS AQUI."
             ],
-            hapsta43: ["<32>{#p/finalghost}* They're telling the truth."],
-            hapsta44: ['<32>{#p/mettaton}{#e/mettaton/6}* ... AND NOW THE GHOSTS ARE GANGING UP ON ME.\n* LOVELY.'],
-            hapsta45: ['<25>{#p/alphys}{#g/alphysTheFactIs}* Uh, I s-swear I had nothing to do with this...'],
+            hapsta43: ["<32>{#p/finalghost}* Ele está dizendo a verdade."],
+            hapsta44: ['<32>{#p/mettaton}{#e/mettaton/6}* ... E AGORA A GANGUE DE FANTASMAS SE UNIU CONTRA MIM.\n* AMÁVEL.'],
+            hapsta45: ['<25>{#p/alphys}{#g/alphysTheFactIs}* Uh, eu juro que n-não tenho nada haver com isso...'],
             hapsta46: [
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}{#e/mettaton/3}* I-I'll just, get out of your guys' way..."
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}{#e/mettaton/3}* E-eu vou só deixar vocês resolverem isso..."
             ],
             hapsta47: [
-                "<32>{#p/basic}* Excuse me, WHERE do you think you're going?",
-                "<32>{#p/basic}* You're the one who started all this in the first place!",
-                "<32>{#p/basic}* If it wasn't for your stupid tape, I wouldn't have to be here right now."
+                "<32>{#p/basic}* Com licença, ONDE você pensa que vai?",
+                "<32>{#p/basic}* Você foi quem começou isso tudo em primeiro lugar!",
+                "<32>{#p/basic}* Se não fosse por sua fita estúpida, eu não teria que estar aqui agora."
             ],
-            hapsta48: ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Whoops.'],
+            hapsta48: ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Woops.'],
             hapsta49a: [
-                "<32>{#p/mettaton}{#e/mettaton/9}* SO THAT'S IT, THEN.",
-                "<32>{#e/mettaton/7}* YOU'RE ALL HERE... NO DOUBT TO BRING ME BACK HOME."
+                "<32>{#p/mettaton}{#e/mettaton/9}* É ISSO ENTÃO.",
+                "<32>{#e/mettaton/7}* VOCÊS ESTÃO TODOS AQUI... PRONTOS PARA ME LEVAR PARA CASA."
             ],
-            hapsta49b: ['<32>{#e/mettaton/8}* SO MUCH FOR \"CHASING YOUR DREAMS,\" EH BLOOKY?'],
-            hapsta50: ['<32>{|}{#p/napstablook}* cousin, i- {%}'],
-            hapsta51a: ['<32>{#p/mettaton}{#e/mettaton/18}* OH, DON\'T \"COUSIN\" ME.'],
+            hapsta49b: ['<32>{#e/mettaton/8}* TÃO ERRADO POR \"CAÇAR\" OS SEUS SONHOS, HEIN BLOOKY?'],
+            hapsta50: ['<32>{|}{#p/napstablook}* primo, eu- {%}'],
+            hapsta51a: ['<32>{#p/mettaton}{#e/mettaton/18}* AH, SEM ESSA DE \"PRIMO\".'],
             hapsta51b: [
-                "<32>{#p/mettaton}{#e/mettaton/20}* IF IT WASN'T FOR YOU, I MIGHT'VE ACTUALLY ENJOYED THE QUIET LIFE...",
-                '<32>{#p/mettaton}{#e/mettaton/17}* ... BUT NO.\n* YOU JUST -HAD- TO GET ME IN ON THE FAMILY BUSINESS.',
-                '<32>{#p/mettaton}{#e/mettaton/19}* A BUSINESS, MIGHT I ADD, WHOSE SALES FIGURES HAVE BEEN IN THE RED SINCE DAY ONE.'
+                "<32>{#p/mettaton}{#e/mettaton/20}* SE NÃO FOSSE POR VOCÊ, TALVEZ EU TIVESSE GOSTADO DA VIDA CALMA...",
+                '<32>{#p/mettaton}{#e/mettaton/17}* ... MAS NÃO.\n* VOCÊ -TINHA- QUE SE METER NOS NEGÓCIOS DE FAMÍLIA.',
+                '<32>{#p/mettaton}{#e/mettaton/19}* UM NEGÓCIO, DEVO ACRESCENTAR, CUJOS NÚMEROS DE VENDAS ESTÃO NO VERMELHO DESDE O PRIMEIRO DIA.'
             ],
-            hapsta52: ['<32>{#p/napstablook}{#e/mettaton/3}* .........\n* i know.'],
+            hapsta52: ['<32>{#p/napstablook}{#e/mettaton/3}* .........\n* eu sei.'],
             hapsta53: [
-                '<32>{#p/mettaton}{#e/mettaton/17}* OH, REALLY NOW?\n* DO YOU REALLY KNOW WHAT IT WAS LIKE FOR ME?'
+                '<32>{#p/mettaton}{#e/mettaton/17}* AH, ENTÃO VOCÊ SABE?\n* VOCÊ REALMENTE SABE COMO ERA PARA MIM?'
             ],
-            hapsta54: ["<32>{#p/finalghost}* Considering we've all read your diaries, I'm sure they do..."],
+            hapsta54: ["<32>{#p/finalghost}* Considerando que todos nós lemos seu diario, tenho certeza que eles também..."],
             hapsta55a: [
-                "<32>{#p/mettaton}{#e/mettaton/19}* I DON'T CARE IF THEY'VE READ MY DIARIES, I WANT THEM TO HEAR IT FROM ME.",
-                '<32>{#p/mettaton}{#e/mettaton/3}* ...\n* LISTEN, \"COUSIN.\"\n* THE WORK WAS NEVER THE ISSUE.',
-                '<32>{#p/mettaton}{#e/mettaton/14}* SNAIL FARMING MAY NOT BE THE MOST GLAMOROUS PASS TIME, BUT I LIKED IT FOR WHAT IT WAS.',
-                "<32>{#p/mettaton}{#e/mettaton/13}* NO... IT ONLY STARTED BECOMING A PROBLEM WHEN EVERY SECOND I WASN'T ON THE FARM...",
-                "<32>{#p/mettaton}* ... WAS A SECOND YOU PEOPLE DIDN'T SEEM TO CARE ABOUT ME."
+                "<32>{#p/mettaton}{#e/mettaton/19}* EU NÃO LIGO PRA QUEM LEU MEU DIÁRIO, EU QUERO QUE OUÇAM ISSO VINDO DE MIM.",
+                '<32>{#p/mettaton}{#e/mettaton/3}* ...\n* ESCUTA AQUI, \"PRIMO.\"\n* O TRABALHO NUNCA FOI UM PROBLEMA.',
+                '<32>{#p/mettaton}{#e/mettaton/14}* FAZENDA DE LESMAS PODIA NÃO SER O TRABALHO MAIS PRAZEROSO, MAS EU GOSTAVA PELO QUE ELE ERA.',
+                "<32>{#p/mettaton}{#e/mettaton/13}* NÃO... APENAS SE TORNOU UM PROBLEMA QUANDO TODO SEGUNDO QUE EU NÃO ESTIVESSE NA FAZENDA...",
+                "<32>{#p/mettaton}* ... FOI UM SEGUNDO QUE VOCÊS NÃO PARECIAM SE IMPORTAR COMIGO."
             ],
             hapsta55b: [
-                '<32>{#p/mettaton}{#e/mettaton/16}* NO CALLS, NO VISITS... JUST THE OCCASIONAL \"HEY, WHEN ARE YOU COMING BACK TO WORK?\"',
-                "<32>{#p/mettaton}{#e/mettaton/15}* IT WAS PRETTY OBVIOUS TO ME THAT AT SOME POINT, I'D BECOME NOTHING BUT A TOOL...",
-                '<32>{#p/mettaton}{#e/mettaton/11}* A MERE COG IN THE GRAND BLOOK FAMILY MACHINE.'
+                '<32>{#p/mettaton}{#e/mettaton/16}* SEM LIGAÇÃO, SEL VISITA... SÓ O PADRÃO \"EI, QUANDO VOCÊ VOLTA PARA TRABALHAR?\"',
+                "<32>{#p/mettaton}{#e/mettaton/15}* ESTAVA BEM ÓBVIO PARA MIM QUE EU NÃO ERA NADA ALÉM DE UMA FERRAMENTA...",
+                '<32>{#p/mettaton}{#e/mettaton/11}* APENAS UM TRABALHADOR NA GRANDE MAQUINA DA FAMÍLIA BLOOK.'
             ],
             hapsta56: ['<32>{#p/napstablook}* ...............'],
-            hapsta57a: ['<32>{#p/mettaton}{#e/mettaton/2}* NOTHING TO SAY?\n* NO, NO, I EXPECTED AS MUCH.'],
+            hapsta57a: ['<32>{#p/mettaton}{#e/mettaton/2}* NADA A DIZER?\n* NÃO, NÃO, EU ESPERAVA ISSO.'],
             hapsta57b: [
-                "<32>{#p/mettaton}{#e/mettaton/5}* HONESTLY, THOUGH, I COULDN'T CARE LESS ABOUT WHAT YOU HAVE TO SAY.",
-                "<32>{#p/mettaton}{#e/mettaton/10}* I'VE GOT EVERYTHING I WANT IN LIFE, AND LOOK AT YOU...",
-                '<32>{#p/mettaton}{#e/mettaton/12}* CLINGING TO TRAINING DUMMIES AND BEGGING FOR SCRAPS.'
+                "<32>{#p/mettaton}{#e/mettaton/5}* HONESTAMENTE, EU NÃO PODERIA ME IMPORTAR MENOS COM O QUE VOCÊ TEM PRA DIZER.",
+                "<32>{#p/mettaton}{#e/mettaton/10}* EU JÁ TENHO TUDO QUE EU SEMPRE QUIS NA VIDA, E OLHA PRA VOCÊ...",
+                '<32>{#p/mettaton}{#e/mettaton/12}* AGARRANDO-SE A BONECOS DE TREINAMENTO E IMPLORANDO POR RESTOS.'
             ],
-            hapsta58: ["<32>{#p/finalghost}* You say you don't care about us, yet you invite us onto your shows."],
+            hapsta58: ["<32>{#p/finalghost}* Você diz que não se importa com a gente, mas continua nos chamando para os shows."],
             hapsta59: [
-                '<32>* You even gave Blooky special treatment during that last show...',
-                "<32>* Kicking that other contestant so it'd be them against the human in the final round."
+                '<32>* Você até deu ao Blooky um tratamento especial no último show...',
+                "<32>* Colocando os outros competidores para fora, assim ficaria ele com o humano."
             ],
-            hapsta60: ['<32>{#p/mettaton}{#e/mettaton/5}* ... THAT WAS ONLY OUT OF PITY.'],
-            hapsta61: ['<32>{#p/basic}* Or... part of you secretly wants to come back!'],
-            hapsta62: ['<32>{#p/mettaton}{#e/mettaton/11}* HAHAHA...\n* NOT A CHANCE IN THE GALAXY.'],
-            hapsta63: ["<32>{#p/napstablook}* i'm sorry, cousin."],
+            hapsta60: ['<32>{#p/mettaton}{#e/mettaton/5}* ... ISSO FOI APENAS UMA COINCIDÊNCIA.'],
+            hapsta61: ['<32>{#p/basic}* Ou... parte de você ainda quer secretamente voltar.'],
+            hapsta62: ['<32>{#p/mettaton}{#e/mettaton/11}* HAHAHA...\n* SEM CHANCES NESSA GALAXIA.'],
+            hapsta63: ["<32>{#p/napstablook}* me desculpa, primo."],
             hapsta64: ['<32>{#p/mettaton}{#e/mettaton/21}* ... OH?'],
             hapsta65a: [
-                "<32>{#p/napstablook}* after you left, we couldn't keep up with our customers...",
-                "<32>{#p/napstablook}{#e/mettaton/15}* we had to scale down\n* the farm... isn't what it was......"
+                "<32>{#p/napstablook}* depois que você foi embora, nós nem conseguimos manter os clientes...",
+                "<32>{#p/napstablook}{#e/mettaton/15}* tivemos que diminuir\n* a fazenda... não é mais a mesma......"
             ],
-            hapsta65b: ['<32>{#p/napstablook}* and i never realized how much you did for us...... until you were gone'],
-            hapsta65c: ["<32>{#p/napstablook}{#e/mettaton/4}* so... i'm sorry.\n* for everything........."],
+            hapsta65b: ['<32>{#p/napstablook}* e eu nunca percebi tudo que você fez pela gente...... até você ir embora.'],
+            hapsta65c: ["<32>{#p/napstablook}{#e/mettaton/4}* então... me desculpa.\n* por tudo........."],
             hapsta66a: [
-                '<32>{#p/mettaton}* I SEE.',
-                '<32>{#p/mettaton}{#e/mettaton/6}* ... I SEE.',
-                "<32>{#p/mettaton}{#e/mettaton/5}* SO YOU'RE THE TYPE TO APOLOGIZE ONLY -AFTER- YOU'VE BEEN CALLED OUT, HUH?"
+                '<32>{#p/mettaton}* ENTENDO.',
+                '<32>{#p/mettaton}{#e/mettaton/6}* ... ENTENDO.',
+                "<32>{#p/mettaton}{#e/mettaton/5}* ENTÃO VOCÊ É O TIPO QUE PEDE DESCULPAS -APENAS- DEPOIS DE FAZER BESTEIRA, HUH?"
             ],
-            hapsta66b: ['<32>{#p/mettaton}{#e/mettaton/0}* I SHOULD HAVE KNOWN.'],
-            hapsta67: ["<32>{|}{#p/napstablook}* that's not- {%}"],
+            hapsta66b: ['<32>{#p/mettaton}{#e/mettaton/0}* EU DEVERIA SABER.'],
+            hapsta67: ["<32>{|}{#p/napstablook}* isso não é- {%}"],
             hapsta68a: [
-                '<32>{#p/mettaton}{#e/mettaton/3}* NO, I GET IT. YOU WANT ME TO FORGIVE YOU AND MOVE ON FROM IT LIKE NOTHING HAPPENED.',
-                "<32>{#p/mettaton}{#e/mettaton/5}* WELL, I'M AFRAID THAT'S NOT HOW THINGS WORK ANYMORE, BLOOKY."
+                '<32>{#p/mettaton}{#e/mettaton/3}* SILÊNCIO. VOCÊ QUER QUE EU TE PERDOE E VOLTE PARA CASA COMO SE NADA TIVESSE ACONTECIDO.',
+                "<32>{#p/mettaton}{#e/mettaton/5}* SINTO QUE AS COISAS NÃO FUNCIONEM ASSIM MAIS, BLOOKY."
             ],
-            hapsta68b: ["<32>{#p/mettaton}{#e/mettaton/6}* ... ANYWAY, I'VE GOT A GRAND FINALE TO PREPARE..."],
-            hapsta68c: ["<32>{#p/mettaton}{#e/mettaton/11}* SO, IF YOU DON'T MIND, I'LL BE ON MY WAY NOW."],
-            hapsta69: ['<32>{#p/basic}* Get back here.\n* Get back here!\n* GET BACK HERE!!!'],
-            hapsta70: ["<33>{#p/finalghost}* I don't think he's coming back."],
+            hapsta68b: ["<32>{#p/mettaton}{#e/mettaton/6}* ... DE TODA FORMA, EU TENHO UM GRANDE FINAL PARA PREPARAR..."],
+            hapsta68c: ["<32>{#p/mettaton}{#e/mettaton/11}* BEM, SE VOCÊ NÃO SE IMPORTA, EU VOU SEGUIR MEU CAMINHO."],
+            hapsta69: ['<32>{#p/basic}* Volta aqui.\n* Volta aqui!\n* VOLTA AQUI!!!'],
+            hapsta70: ["<33>{#p/finalghost}* Eu não acho que ele vai voltar."],
             hapsta71: [
-                '<32>{#p/napstablook}* maybe... he just needs a little space......',
-                '<32>{#p/napstablook}* we have to give him a chance.........'
+                '<32>{#p/napstablook}* talvez... ele só precise de espaço...',
+                '<32>{#p/napstablook}* precisamos dar para ele uma chance.........'
             ],
-            hapsta72: ["<32>{#p/basic}* What a giant waste of time.\n* I'm going back to Undyne's house now."],
-            hapsta73: ['<32>{#p/finalghost}* It was a nice try, Blooky.', '<32>{#p/finalghost}* A nice try.'],
-            hapsta74: ['<32>{#p/napstablook}* no............'],
+            hapsta72: ["<32>{#p/basic}* Que grande perda de tempo.\n* Eu vou voltar para a casa da Undyne agora."],
+            hapsta73: ['<32>{#p/finalghost}* Foi uma boa tentativa, Blooky.', '<32>{#p/finalghost}* Uma boa tentativa.'],
+            hapsta74: ['<32>{#p/napstablook}* não............'],
             hapsta75: () =>
                 SAVE.data.b.oops
                     ? [
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* Hey...\n* Don't listen to them.",
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* I've known Mettaton f-for quite a while now...",
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* He wouldn't leave like that unless he needed time to think.",
-                        '<32>{#p/napstablook}* yeah...',
-                        '<32>{#p/napstablook}* i guess......'
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Ei...\n* Não dá ouvidos pra eles.",
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Eu já conheço Mettaton f-faz um tempinho.",
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Ele não sairia dessa forma se não precisasse de um tempo pra pensar.",
+                        '<32>{#p/napstablook}* é...',
+                        '<32>{#p/napstablook}* eu acho......'
                     ]
                     : [
-                        "<32>{#p/basic}* You know he's done this in the past, right?",
-                        "<32>{#p/basic}* He'll be back.",
+                        "<32>{#p/basic}* Você sabe que ele já fez isso antes, certo?",
+                        "<32>{#p/basic}* Ele vai voltar.",
                         '<32>{#p/napstablook}* heh...\n* $(namel)......',
                         '<25>{#p/alphys}{#g/alphysInquisitive}* $(name)...?',
-                        "<32>{#p/napstablook}* uh, it's a long story",
-                        '<25>{#p/alphys}{#g/alphysWelp}* ... I guess you can tell me later.',
-                        '<32>{#p/napstablook}* ...\n* thank you, $(namel)\n* for everything......',
-                        "<32>* you've done so much for our family just by being here",
-                        "<32>* even if... it's not the family you really wanted......",
-                        '<32>{#p/basic}* Blooky, I...',
-                        '<32>{#p/napstablook}* $(namel), if...\n* no, when you see him again...',
-                        "<32>* don't ever let him forget how much you cared about him in life... alright?"
+                        "<32>{#p/napstablook}* uh, é uma longa história",
+                        '<25>{#p/alphys}{#g/alphysWelp}* ... Eu acho que você pode me ligar depois.',
+                        '<32>{#p/napstablook}* ...\n* obrigado, $(namel)\n* por tudo......',
+                        "<32>* você fez muito por nossa família apenas por estar aqui",
+                        "<32>* mesmo que... não seja a família que você realmente queria...",
+                        '<32>{#p/basic}* Blooky, eu...',
+                        '<32>{#p/napstablook}* $(namel), se você...\n* não, quando você ver ele de novo...',
+                        "<32>* não deixe ele esquecer o quanto você se importava com ele em vida... tudo bem?"
                     ],
             hapsta76: [
-                "<32>{#p/napstablook}* here's your mew mew doll",
-                "<32>* i hope i wasn't too late......",
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* No, i-it's okay.\n* Thank you."
+                "<32>{#p/napstablook}* aqui está a boneco mew mew",
+                "<32>* espero que não seja tarde......",
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* Não, t-tudo bem.\n* Obrigado."
             ],
-            hapsta77: ['<32>{#p/napstablook}* well, cya......'],
+            hapsta77: ['<32>{#p/napstablook}* bem, te vejo por aí......'],
             opera36a: () => [
-                '<25>{#p/alphys}{#g/alphysWelp}* That was certainly an unexpected turn of events.',
+                '<25>{#p/alphys}{#g/alphysWelp}* Isso com certeza foi uma virada de eventos inesperada.',
                 ...(SAVE.data.b.a_state_hapstablook && !SAVE.data.b.oops
                     ? [
-                        '<25>{#p/alphys}{#g/alphysInquisitive}* Not to mention the whole \"$(name)\" thing...',
-                        "<25>* Last I checked, they've been dead for a hundred years...",
-                        "<25>{#g/alphysWelp}* Oh well.\n* I guess they'll tell me about it later.",
-                        "<25>{#g/alphysWelp}{#x5}* Speaking of which, you'll probably want to get going..."
+                        '<25>{#p/alphys}{#g/alphysInquisitive}* sem mencionar todo o \"$(name)\"...',
+                        "<25>* Da última vez que olhei, ele já está morto faz centenas de anos...",
+                        "<25>{#g/alphysWelp}* ah bem.\n* Eu acho que eles vão me falar sobre isso depois.",
+                        "<25>{#g/alphysWelp}{#x5}* Falando em vontades, você provavelmente já quer ir..."
                     ]
                     : [
-                        "<25>{#p/alphys}{#g/alphysInquisitive}* Looks like we're in the clear, though...",
-                        "<25>{#g/alphysWelp}{#x5}* Which means... you'll probably want to get going..."
+                        "<25>{#p/alphys}{#g/alphysInquisitive}* Parece que estamos livres, no entanto...",
+                        "<25>{#g/alphysWelp}{#x5}* O que significa... que você já quer ir indo..."
                     ]),
-                '<25>{#g/alphysTheFactIs}{#x6}* And I should probably get back to the lab...',
-                '<25>{#g/alphysNervousLaugh}{#x5}* So... see you around, I guess?',
+                '<25>{#g/alphysTheFactIs}{#x6}* E eu deveria voltar para o laboratório...',
+                '<25>{#g/alphysNervousLaugh}{#x5}* Então... te vejo depois, eu acho?',
                 ...(SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew || SAVE.data.b.mewget
                     ? [
-                        "<25>{#g/alphysUhButHeresTheDeal}* Uh, b-but don't worry!\n* I'll ring you as soon as you...",
-                        '<25>{#g/alphysNervousLaugh}* You...',
-                        "<25>{#g/alphysHellYeah}* I-I'll stay in contact!"
+                        "<25>{#g/alphysUhButHeresTheDeal}* Uh, M-mas não se preocupe!\n* Eu vou te ligar o momento que eu puder...",
+                        '<25>{#g/alphysNervousLaugh}* Você...',
+                        "<25>{#g/alphysHellYeah}* E-eu vou ficar em contato!"
                     ]
                     : [
                         ...(!SAVE.storage.inventory.has('tvm_mewmew') && // NO-TRANSLATE
@@ -2835,442 +2835,442 @@ export default {
                             ? ((SAVE.data.b.mewget = true),
                                 [
                                     '<25>{#g/alphysNervousLaugh}* ...',
-                                    '<25>{#g/alphysFR}* ... actually, before I go, I thought you should know.',
-                                    '<25>{#f/33}* I found the Mew Mew doll you let go of.',
-                                    "<25>{#g/alphysCutscene3}* It's mine now.\n* And I'm never letting it go again.",
-                                    '<25>{#g/alphysHellYeah}* S-so yeah!'
+                                    '<25>{#g/alphysFR}* ... na verdade, antes de ir, eu acho que você deveria saber.',
+                                    '<25>{#f/33}* Eu achei a Boneca Mew Mew que você largou.',
+                                    "<25>{#g/alphysCutscene3}* É minha agora.\n* E eu vou esconder no lugar mais secreto que puder.",
+                                    '<25>{#g/alphysHellYeah}* En-então é!'
                                 ])
                             : [
-                                '<25>{#g/alphysNeutralSweat}{#x5}* But, uh, b-before I go...',
-                                '<25>{#f/10}* Would you mind... giving me back my Mew Mew doll?',
-                                '<25>{#f/3}* Please?',
-                                choicer.create('* (Give back the Mew Mew doll?)', 'Sim', 'Não')
+                                '<25>{#g/alphysNeutralSweat}{#x5}* Mas, uh, a-antes de eu ir...',
+                                '<25>{#f/10}* Você se importaria... de devolver minha Boneca Mew Mew?',
+                                '<25>{#f/3}* Por favor?',
+                                choicer.create('* (Devolver a Boneca Mew Mew?)', 'Sim', 'Não')
                             ])
                     ])
             ],
             opera36b1: [
-                '<32>{#p/human}* (You gave the Mew Mew Doll to Alphys.)',
-                '<25>{#p/alphys}{#g/alphysCutscene2}* Thanks.'
+                '<32>{#p/human}* (Você devolve a Boneca Mew Mew para a Alphys.)',
+                '<25>{#p/alphys}{#g/alphysCutscene2}* Valeu.'
             ],
             opera36b2: [
-                '<32>{#p/human}* (You decide not to give.)',
+                '<32>{#p/human}* (Você decide não devolver.)',
                 '<25>{#p/alphys}{#g/alphysWTF}* ...',
-                '<25>{#g/alphysCutscene2}* Okay, you know what?\n* You can keep it.',
-                "<25>{#g/alphysCutscene2}* It's all yours.",
-                "<25>{#f/33}* What?\n* It's not like I care about it or anything."
+                '<25>{#g/alphysCutscene2}* Tá, quer saber?\n* Fica com ela.',
+                "<25>{#g/alphysCutscene2}* É sua.",
+                "<25>{#f/33}* O que?\n* Não é como se eu realmente me importasse com uma boneca."
             ],
             opera37: (gib: boolean) =>
                 SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew
-                    ? ['<25>{#p/alphys}{#g/alphysSmileSweat}* T-take care!!']
+                    ? ['<25>{#p/alphys}{#g/alphysSmileSweat}* F-fica bem!!']
                     : gib
-                        ? ["<25>{#p/alphys}{#f/10}* I-I'll stay in contact."]
-                        : ['<25>{#p/alphys}{#f/3}* N-not at all!!'],
+                        ? ["<25>{#p/alphys}{#f/10}* E-eu vou manter contato."]
+                        : ['<25>{#p/alphys}{#f/3}* N-não mesmo!!'],
             opera38: [
-                '<32>{#p/basic}* ... now I understand why Blooky feels how they do all the time.',
-                "<32>* That guilt, thinking you could've done more to care about someone...",
-                "<32>* Hmph.\n* Maybe there's something more I can do to help here.",
-                '<32>* Remember what happened with Toriel?',
-                '<32>* The way you called out for me, and I was able to talk?',
-                '<32>* I know things about monsters.\n* Things that could help us get through more quickly.',
-                '<32>* So, if I think of something...',
-                '<32>* Call out for me like you did before, okay?'
+                '<32>{#p/basic}* ... agora eu entendo por que Blooky se sente como ele se sente o tempo todo.',
+                "<32>* A culpa, de pensar que você poderia ter cuidado melhor de alguém...",
+                "<32>* Hmph.\n* Talvez tenha algo a mais que eu possa fazer para ajudar aqui.",
+                '<32>* Lembra o que aconteceu com a Toriel?',
+                '<32>* A forma como você me chamou e eu fui capaz de falar?',
+                '<32>* Eu sei uma coisa sobre monstros.\n* Uma coisa que pode nos ajudar a lidar com isso mais facilmente.',
+                '<32>* Então, se eu pensar sobre algo...',
+                '<32>* Me chama como você fez antes, beleza?'
             ],
             operaX1: () =>
                 [
-                    ['<25>{#p/asriel2}{#f/8}* Hello?'],
-                    ['<25>{#p/asriel2}{#f/8}* Here we go.'],
+                    ['<25>{#p/asriel2}{#f/8}* Alô?'],
+                    ['<25>{#p/asriel2}{#f/8}* Aí vamos nós.'],
                     ['<25>{#p/asriel2}{#f/8}* ...']
                 ][Math.min(SAVE.flag.n.ga_asriel53++, 1)],
             operaX2: () => [
                 ...[
-                    ['<32>{#p/mettaton}* HELLO, DARLING.'],
-                    ['<32>{#p/mettaton}* HERE WE GO INDEED, DARLING!'],
-                    ['<32>{#p/mettaton}* WHY HELLO!']
+                    ['<32>{#p/mettaton}* OLÁ, QUERIDO.'],
+                    ['<32>{#p/mettaton}* AÍ VAMOS NÓS REALMENTE, QUERIDO!'],
+                    ['<32>{#p/mettaton}* POIS BEM, OLÁ!']
                 ][Math.min(SAVE.flag.n.ga_asriel53 - 1, 2)],
-                "<32>* WHY DON'T YOU TWO COME INTO THE LIMELIGHT?"
+                "<32>* POR QUE VOCÊS DOIS NÃO VEM PARA O PALCO?"
             ],
             operaX3: [
-                "<32>{#p/mettaton}* THAT'S BETTER...",
-                '<32>{#p/mettaton}* NOW, ALLOW ME TO SING YOU TWO A LITTLE SONG.'
+                "<32>{#p/mettaton}* BEM MELHOR...",
+                '<32>{#p/mettaton}* AGORA, DEIXE-ME CANTAR UM PEQUENO SOM PARA VOCÊS.'
             ],
             operaX4: () =>
                 [
                     [
-                        "<25>{*}{#p/asriel2}{#f/10}* So tell me, what's this little song about?{^30}{%}",
+                        "<25>{*}{#p/asriel2}{#f/10}* Então me diz, sobre o que é esse som?{^30}{%}",
                         '<32>{*}{#p/mettaton}{#x1}* OH, ASRIEL...{^30}{%}',
-                        '<32>{*}{#x2}* HAVEN\'T YOU HEARD OF A THING CALLED \"SPOILERS?\"{^30}{%}',
-                        '<25>{*}{#p/asriel2}{#f/6}* Figures.{^30}{%}'
+                        '<32>{*}{#x2}* NUNCA OUVIU FALAR SOBRE \"SPOILERS\", QUERIDO?{^30}{%}',
+                        '<25>{*}{#p/asriel2}{#f/6}* Sei.{^30}{%}'
                     ],
                     [
-                        "<25>{*}{#p/asriel2}{#f/7}* I already know this show's just about me.{^30}{%}",
-                        '<32>{*}{#p/mettaton}{#x1}* OH, DO YOU NOW?{^30}{%}',
-                        "<32>{*}{#x2}* WELL, I'M AFRAID THAT WON'T STOP ME FROM DOING IT.{^30}{%}",
+                        "<25>{*}{#p/asriel2}{#f/7}* Eu já sei que esse show é sobre mim.{^30}{%}",
+                        '<32>{*}{#p/mettaton}{#x1}* AH, VOCÊ SABE?{^30}{%}',
+                        "<32>{*}{#x2}* BEM, SINTO QUE ISSO NÃO VAI ME IMPEDIR DE FAZÊ-LO.{^30}{%}",
                         '<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}'
                     ]
                 ][Math.min(SAVE.flag.n.ga_asriel54++, 1)],
             operaX5: () => [
-                "<32>{#p/mettaton}* WELL, THAT'S ALL.",
-                "<32>{#x1}* OH, AND, I FORGOT TO MENTION THAT I'M NOT REALLY HERE.",
-                '<32>* MY CONTROL CHIP IS ALREADY INSTALLED IN THE NEW BODY.',
+                "<32>{#p/mettaton}* BEM, ISSO É TUDO.",
+                "<32>{#x1}* OH, E, EU ESQUECI DE MENCIONAR QUE NÃO ESTOU AQUI DE VERDADE.",
+                '<32>* MEU CHIP DE CONTROLE JÁ FOU INSTALADO EM UM NOVO CORPO.',
                 ...(SAVE.flag.n.ga_asriel55++ < 1
                     ? [
-                        '<25>{#p/asriel2}{#f/10}* ... a new body?',
-                        '<32>{#p/mettaton}* OH, YOU WANT TO SEE IT?',
-                        "<32>* WELL.\n* YOU WON'T HAVE TO WAIT MUCH LONGER."
+                        '<25>{#p/asriel2}{#f/10}* ... um novo corpo?',
+                        '<32>{#p/mettaton}* VOCÊ QUER VER?',
+                        "<32>* BEM.\n* VOCÊ NÃO TERÁ QUE ESPERAR MUITO."
                     ]
                     : []),
-                '<32>{#p/mettaton}* SEE YOU SOON...'
+                '<32>{#p/mettaton}* LOGO NOS VEREMOS...'
             ],
-            operaX7: ["<25>{#p/asriel2}{#f/8}* Something tells me this won't be as easy as we'd hoped."],
-            operaY1: ['<25>{*}{#p/asriel2}{#f/13}* What are you- {%}'],
-            operaY2: ['<25>{*}{#p/asriel2}{#f/15}* $(name).\n* What are you doing.{^40}{%}'],
-            operaY3: ["<25>{*}{#p/asriel2}{#f/15}* This can't go on...{^40}{%}"],
-            operaY4: ['<25>{*}{#p/asriel2}{#f/16}* Thanks anyway, $(name).{^40}{%}'],
+            operaX7: ["<25>{#p/asriel2}{#f/8}* Algo me diz que isso não será tão fácil quanto esperamos."],
+            operaY1: ['<25>{*}{#p/asriel2}{#f/13}* O que você- {%}'],
+            operaY2: ['<25>{*}{#p/asriel2}{#f/15}* $(name).\n* O que você tá fazendo.{^40}{%}'],
+            operaY3: ["<25>{*}{#p/asriel2}{#f/15}* Não dá pra continuar assim...{^40}{%}"],
+            operaY4: ['<25>{*}{#p/asriel2}{#f/16}* Obrigado de toda forma, $(name).{^40}{%}'],
             end1: (rgk: boolean) => [
-                '<32>{#p/mettaton}* AT LAST...',
+                '<32>{#p/mettaton}* NO FIM...',
                 ...(world.mttvar
                     ? [
-                        '<32>* AT LAST WE MEET ON THIS FATEFUL...',
+                        '<32>* FINALMENTE NOS ENCONTRAMOS NESTE FATÍDICO...',
                         '<32>{#e/mettaton/4}* ...',
-                        "<32>{#e/mettaton/25}* MY SENSORS TELL ME YOU'RE LOOKING OVER MY SHOULDER.",
+                        "<32>{#e/mettaton/25}* MEUS SENSORES ME DIZEM QUE VOCÊ ESTÁ OLHANDO POR CIMA DO MEU OMBRO.",
                         iFancyYourVilliany()
-                            ? '<32>{#e/mettaton/30}* YOU MUST BE EAGER TO FLIP THAT SWITCH OF MINE, EH \"$(moniker2u)?\"'
-                            : '<32>{#e/mettaton/30}* YOU MUST BE EAGER TO FLIP THAT SWITCH OF MINE, EH DARLING?',
+                            ? '<32>{#e/mettaton/30}* VOCÊ DEVE ESTAR COÇANDO AS MÃOS PARA APERTAR AQUELE BOTÃO, NÉ \"$(moniker2u)?\"'
+                            : '<32>{#e/mettaton/30}* VOCÊ DEVE ESTAR QUERENDO MUITO APERTAR AQUELE BOTÃO, NÉ QUERIDO?',
                         ...(!world.badder_lizard
                             ? [
-                                '<32>{#e/mettaton/28}* A SWITCH YOU NO DOUBT KNOW ABOUT THANKS TO ALPHYS SHARING MY SECRETS WITH YOU.',
-                                '<32>{#e/mettaton/3}* HOW PREDICTABLE...'
+                                '<32>{#e/mettaton/28}* UM BOTÃO DO QUAL VOCÊ COM CERTEZA JÁ SABE POR CONTA DA BOCA GRANDE DA ALPHYS.',
+                                '<32>{#e/mettaton/3}* QUE PREVISÍVEL...'
                             ]
                             : [
-                                '<32>{#e/mettaton/28}* A SWITCH YOU NO DOUBT LEARNED OF BY SPELUNKING INTO THE ROYAL LAB RECORDINGS.',
-                                '<32>{#e/mettaton/3}* HOW PREDICTABLE...'
+                                '<32>{#e/mettaton/28}* UM BOTÃO QUE VOCÊ SEM DÚVIDA APRENDEU AO EXPLORAR AS GRAVAÇÕES DO LAB REAL.',
+                                '<32>{#e/mettaton/3}* QUE PREVISÍVEL...'
                             ]),
-                        "<32>{#e/mettaton/12}* SUFFICE IT TO SAY, I WON'T WASTE YOUR TIME WITH A MONOLOGUE.",
+                        "<32>{#e/mettaton/12}* QUE ÓTIMO, EU NÃO FAREI VOCÊ PERDER TEMPO COM MONÓLOGO.",
                         ...(SAVE.data.b.a_state_hapstablook
-                            ? ["<32>{#e/mettaton/3}* JUST KNOW THAT I'M NOT IN THE MOOD FOR GAMES."]
+                            ? ["<32>{#e/mettaton/3}* SÓ SAIBA QUE EU NÃO ESTOU NO CLIMA PARA JOGOS."]
                             : iFancyYourVilliany()
-                                ? ["<32>{#e/mettaton/31}* JUST KNOW THAT I WON'T GO EASY ON YOU FOR A SECOND!"]
+                                ? ["<32>{#e/mettaton/31}* SÓ SAIBA QUE EU NÃO VOU PEGAR LEVE CONTIGO NEM UM SEGUNDO!"]
                                 : !world.badder_lizard
-                                    ? ["<32>{#e/mettaton/31}* JUST KNOW THAT I'M COUNTING ON YOU TO BRING YOUR A-GAME!"]
-                                    : ["<32>{#e/mettaton/19}* JUST KNOW THAT I COULDN'T CARE LESS ABOUT WHAT HAPPENS TO YOU."])
+                                    ? ["<32>{#e/mettaton/31}* SÓ SAIBA QUE EU ESTOU CONTANDO CONTIGO PARA TRAZER UM VERDADEIRO JOGO!"]
+                                    : ["<32>{#e/mettaton/19}* SÓ SAIBA QUE EU NÃO PODERIA ME IMPORTAR MENOS COM O QUE ACONTECE CONTIGO."])
                     ]
                     : [
-                        '<32>* AT LAST WE MEET ON THIS FATEFUL STAGE.',
+                        '<32>* FINALMENTE NOS ENCONTRAMOS NESTE ESTÁGIO FATÍDICO.',
                         ...(iFancyYourVilliany()
                             ? [
-                                '<32>{#e/mettaton/3}* WELL THEN.',
-                                "<32>{#e/mettaton/35}* IT -IS- INCREDIBLE HOW YOU'VE MANAGED TO KEEP UP THE ACT FOR SO LONG...",
-                                '<32>{#e/mettaton/6}* BUT NOW, COMES THE MOMENT WHERE YOUR MASK IS SURE TO SLIP.',
-                                '<32>{#e/mettaton/5}* DID YOU REALLY THINK I WAS GOING TO GO EASY ON YOU, DEAR \"$(moniker2u)?\"',
-                                "<32>{#e/mettaton/0}* WELL, OF COURSE YOU DIDN'T.\n* BUT YOU STILL WON'T BE READY FOR WHAT COMES NEXT.",
-                                '<32>{#e/mettaton/10}* IF YOU THINK YOU HAVE WHAT IT TAKES, THEN DO BE MY GUEST...',
-                                "<32>{#e/mettaton/31}* JUST DON'T BLAME -ME- FOR YOUR DEFEAT WHEN IT FINALLY HAPPENS!"
+                                '<32>{#e/mettaton/3}* BEM.',
+                                "<32>{#e/mettaton/35}* É INCRÍVEL COMO VOCÊ CONSEGUIU MANTER O ATO POR TANTO TEMPO...",
+                                '<32>{#e/mettaton/6}* MAS AGORA, É O MOMENTO QUE SUA MÁSCARA FINALMENTE CAIRÁ.',
+                                '<32>{#e/mettaton/5}* VOCÊ REALMENTE ACHA QUE EU IRIA PEGAR LEVE CONTIGO, QUERIDO \"$(moniker2u)?\"',
+                                "<32>{#e/mettaton/0}* BEM, É CLARO QUE VOCÊ NÃO.\n* MAS ACHO QUE VOCÊ NÃO ESTÁ PRONTO PARA O QUE VIRÁ DEPOIS.",
+                                '<32>{#e/mettaton/10}* SE VOCÊ ACHA QUE TEM O QUE É PRECISO, ENTÃO FIQUE À VONTADE...',
+                                "<32>{#e/mettaton/31}* SÓ NÃO ME CULPE POR TE -DERROTAR- QUANDO ISSO ACONTECER!"
                             ]
                             : [
-                                '<32>{#e/mettaton/4}* BUT THEN...',
-                                '<32>{#e/mettaton/34}* WHERE WOULD I BE WITHOUT YOU?',
-                                "<32>{#e/mettaton/5}* FOR BETTER OR WORSE, YOU'VE GIVEN US BOTH THE OPPORTUNITY TO SHINE OUR BEST.",
-                                "<32>{#e/mettaton/6}* BUT NOW, COMES THE MOMENT YOU'VE BEEN DYING FOR.",
-                                '<32>{#e/mettaton/23}* THOUGH, I MUST ADMIT...',
+                                '<32>{#e/mettaton/4}* MAS ENTÃO...',
+                                '<32>{#e/mettaton/34}* ONDE EU ESTARIA SEM VOCÊ?',
+                                "<32>{#e/mettaton/5}* PARA O BEM OU MAU, VOCÊ NOS DEU A CHANCE DE MOSTRAR O MELHOR DE AMBOS.",
+                                "<32>{#e/mettaton/6}* MAS AGORA, VEM O MOMENTO PELO QUAL VOCÊ ESTEVE ANSIOSO.",
+                                '<32>{#e/mettaton/23}* PORÉM, EU DEVO ADMITIR...',
                                 ...(SAVE.data.b.a_state_hapstablook
                                     ? [
-                                        "<32>{#e/mettaton/5}* THINGS DIDN'T QUITE WORK OUT THE WAY I EXPECTED.",
-                                        '<32>{#e/mettaton/6}* ALL THIS OLD FAMILY NONSENSE COMING BACK OUT OF THE BLUE...',
-                                        "<32>* ... ISN'T SOMETHING I'M PARTICULARLY HAPPY ABOUT.",
-                                        "<32>{#e/mettaton/11}* STILL, I'VE GOT A GRAND FINALE TO PERFORM, SO I MIGHT AS WELL GET IT OVER WITH.",
-                                        '<32>{#e/mettaton/5}* TRY NOT TO BE TOO MUCH OF A BORE, WILL YOU?',
-                                        '<32>{#e/mettaton/6}* THE AUDIENCE IS STARVING FOR SOME GENUINE ACTION.'
+                                        "<32>{#e/mettaton/5}* AS COISAS NÃO FORAM COMO EU ESPERAVA.",
+                                        '<32>{#e/mettaton/6}* TODA ESSA COISA DE FAMILIA APARECENDO DO NADA EM MINHA VIDA...',
+                                        "<32>* ... NÃO É ALGO DO QUAL EU ESTOU PARTICULARMENTE FELIZ.",
+                                        "<32>{#e/mettaton/11}* MAS, EU AINDA TENHO UM GRANDE FINAL PARA PERFORMAR, ENTÃO EU DEVO RESOLVER ISSO TAMBÉM.",
+                                        '<32>{#e/mettaton/5}* TENTE NÃO ATRAPALHAR, BELEZA?',
+                                        '<32>{#e/mettaton/6}* A AUDIÊNCIA ESTÁ ENCARANDO POR UMA RAZÃO GENUÍNA.'
                                     ]
                                     : !world.badder_lizard
                                         ? [
-                                            "<32>{#e/mettaton/25}* I'M COUNTING ON YOU TO MAKE IT PAST ME IN ONE PIECE.",
-                                            "<32>{#e/mettaton/0}* DON'T GET ME WRONG, I'D LOVE TO TAKE A HUMAN SOUL AND BECOME HUMANITY'S STAR.",
-                                            '<32>{#e/mettaton/3}* BUT TAKING -YOUR- SOUL WOULD BE... BITTERSWEET.',
-                                            "<32>{#e/mettaton/6}* WE'VE BEEN THROUGH SO MUCH TOGETHER, WHAT WITH ALL THE SHOWS AND ALL.",
-                                            "<32>{#e/mettaton/4}* PLUS, FOR A HUMAN WHO HAS TO DEAL WITH ALL THESE SHORT- SIGHTED MONSTERS' ANTICS...",
-                                            "<33>{#e/mettaton/0}* YOU'VE BEEN VERY UNDERSTANDING.",
-                                            '<32>{#e/mettaton/5}* OH WELL.\n* IF YOU DO KICK THE BUCKET, YOU CAN REST ASSURED...',
-                                            "<32>* YOUR SOUL WON'T GO TO WASTE.",
-                                            "<32>{#e/mettaton/10}* NOW, SHOW ME YOU'VE GOT WHAT IT TAKES TO BE A -REAL- SUPERSTAR!"
+                                            "<32>{#e/mettaton/25}* EU CONTO COM VOCÊ PARA PASSAR POR MIM SEM SE MACHUCAR.",
+                                            "<32>{#e/mettaton/0}* NÃO ME ENTENDA ERRADO, EU AMARIA TOMAR SUA ALMA E ME TORNAR A ESTRELA DA HUMANIDADE.",
+                                            '<32>{#e/mettaton/3}* MAS TIRAR -SUA- ALMA SERIA... AGRIDOCE.',
+                                            "<32>{#e/mettaton/6}* NÓS FIZEMOS MUITAS COISAS JUNTOS, COM TODOS OS SHOW JUNTOS.",
+                                            "<32>{#e/mettaton/4}* ALIAS, PARA UM HUMANO QUE TEM SIDO PERSEGUIDO POR TANTOS MONSTROS...",
+                                            "<33>{#e/mettaton/0}* VOCÊ TEM AGUENTADO BASTANTE BEM.",
+                                            '<32>{#e/mettaton/5}* OH BEM.\n* SE VOCÊ CHUTAR O BALDE, PODE FICAR TRANQUILO...',
+                                            "<32>* SUA ALMA NÃO SERÁ DESPERDIÇADA.",
+                                            "<32>{#e/mettaton/10}* AGORA, ME MOSTRE QUE VOCÊ É CAPAZ DE SE TORNAR UMA -VERDADEIRA- SUPER ESTRELA!"
                                         ]
                                         : [
-                                            '<32>{#e/mettaton/5}* AT FIRST, I CONSIDERED GOING HARD ON YOU.',
+                                            '<32>{#e/mettaton/5}* DE INÍCIO, EU CONSIDEREI PEGAR PESADO CONTIGO.',
                                             ...(SAVE.data.n.bad_lizard < 2
                                                 ? [
                                                     ...(SAVE.data.n.state_foundry_undyne === 1
                                                         ? [
-                                                            '<32>{#e/mettaton/10}* AFTER ALL... YOU DID DO SOMETHING WHICH HURT A FRIEND OF MINE VERY DEARLY.',
-                                                            '<32>{#e/mettaton/3}* BUT THEN I REMEMBERED YOUR BETTER HALF.',
-                                                            '<32>{#e/mettaton/6}* AND THE FACT THAT, FOR THE MOST PART, YOU -HAVE- BEEN DOING FAIRLY WELL.',
-                                                            "<32>{#e/mettaton/2}* GRANTED, I HAVEN'T BEEN KEEPING AS CLOSE AN EYE ON YOU LATELY...",
-                                                            "<32>{#e/mettaton/12}* BUT JUDGING BY HOW YOU WERE BEFORE, I DOUBT YOU'D DO ANYTHING RASH."
+                                                            '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FEZ ALGO QUE FERIU MUITO UM AMIGO MEU.',
+                                                            '<32>{#e/mettaton/3}* MAS ENTÃO EU LEMBREI A SUA PARTE BOA.',
+                                                            '<32>{#e/mettaton/6}* E DE FATO, VOCÊ TEM FEITO A COISA CERTA POR MUITO TEMPO.',
+                                                            "<32>{#e/mettaton/2}* GARANTIDO, EU TENHO MANTIDO UMA CERTA VIGIA EM VOCÊ...",
+                                                            "<32>{#e/mettaton/12}* MAS A JULGAR POR COMO VOCÊ ERA ANTES, DUVIDO QUE VOCÊ FARIA ALGO PRECIPITADO."
                                                         ]
                                                         : [
-                                                            "<32>{#e/mettaton/10}* AFTER ALL... YOU HAVEN'T REALLY BEEN THE GREATEST PERSON.",
-                                                            '<32>{#e/mettaton/3}* BUT THEN I REMEMBERED YOUR BETTER HALF.',
-                                                            '<32>{#e/mettaton/6}* AND THE FACT THAT, FOR A TIME, YOU -WERE- DOING REALLY WELL THERE.'
+                                                            "<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ NÃO TEM SIDO A MELHOR PESSOA.",
+                                                            '<32>{#e/mettaton/3}* MAS ENTÃO EU LEMBREI A SUA PARTE BOA.',
+                                                            '<32>{#e/mettaton/6}* E O FATO, DE QUE POR UM TEMPO, VOCÊ TEM FEITO MUITO BEM.'
                                                         ]),
-                                                    "<32>{#e/mettaton/5}* WHO KNOWS.\n* MAYBE I'M GIVING YOU TOO MUCH CREDIT.",
-                                                    '<32>{#e/mettaton/0}* OR MAYBE I JUST WANT TO AVOID ANY UNNECESSARY TROUBLE.',
-                                                    "<32>{#e/mettaton/20}* STILL, THAT DOESN'T MEAN WE'RE BEST FRIENDS ALL OF A SUDDEN."
+                                                    "<32>{#e/mettaton/5}* QUEM SABE.\n* TALVEZ EU ESTEJA TE DANDO MUITO CRÉDITO.",
+                                                    '<32>{#e/mettaton/0}* OU TALVEZ EU SÓ QUEIRA EVITAR CONFUSÃO DESNECESSÁRIA.',
+                                                    "<32>{#e/mettaton/20}* AINDA ASSIM, NÃO SIGNIFICA QUE SOMOS MELHORES AMIGOS DO NADA."
                                                 ]
                                                 : [
                                                     ...(SAVE.data.n.state_starton_papyrus === 1
                                                         ? SAVE.data.n.state_foundry_undyne === 2
                                                             ? rgk
                                                                 ? [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL JUST ABOUT EVERYBODY I COULD LIST OFF BY NAME.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU TODO MUNDO QUE EU CONHEÇO POR NOME.'
                                                                 ]
                                                                 : [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL PAPYRUS, AS WELL AS UNDYNE.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU O PAPYRUS, COMO A UNDYNE.'
                                                                 ]
                                                             : rgk
                                                                 ? [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL PAPYRUS, ALONG WITH SEVERAL ROYAL GUARD MEMBERS.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU PAPYRUS, JUNTO COM A VIDA DE MUITOS GUARDAS REAIS.'
                                                                 ]
-                                                                : ['<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL PAPYRUS.']
+                                                                : ['<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU O PAPYRUS.']
                                                         : SAVE.data.n.state_foundry_undyne === 2
                                                             ? rgk
                                                                 ? [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL UNDYNE, ALONG WITH SEVERAL ROYAL GUARD MEMBERS.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ MATOU A UNDYNE JUNTO COM A VIDA DE MUITOS GUARDAS REAIS.'
                                                                 ]
-                                                                : ['<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL UNDYNE.']
+                                                                : ['<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU A UNDYNE.']
                                                             : rgk
                                                                 ? [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL SEVERAL ROYAL GUARD MEMBERS.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU VÁRIOS GUARDAS REAIS.'
                                                                 ]
                                                                 : [
-                                                                    '<32>{#e/mettaton/10}* AFTER ALL... YOU DID GO AND KILL ALL THOSE PEOPLE.'
+                                                                    '<32>{#e/mettaton/10}* ATÉ PORQUE... VOCÊ FOI LÁ E MATOU TODA ESSA GENTE.'
                                                                 ]),
-                                                    '<32>{#e/mettaton/3}* BUT THEN I REMEMBERED THE WARNING I GAVE YOU AT THE LAB.',
-                                                    "<32>{#e/mettaton/6}* AND THE FACT THAT, SINCE THEN, YOU'VE BEEN BEHAVING MUCH BETTER.",
-                                                    '<32>{#e/mettaton/5}* WELL, WELL.\n* IT SEEMS YOU CAN CHANGE YOUR WAYS AFTER ALL.',
-                                                    '<32>{#e/mettaton/0}* GOOD ON YOU.',
-                                                    "<32>{#e/mettaton/20}* BUT DON'T THINK THAT MEANS I'M JUST GOING TO FORGET ABOUT WHAT YOU DID."
+                                                    '<32>{#e/mettaton/3}* MAS EU ME LEMBRO DO AVISO QUE TE DEI NO LABORATÓRIO REAL.',
+                                                    "<32>{#e/mettaton/6}* E O FATO DE QUE DESDE ENTÃO VOCÊ TEM SE COMPORTADO BEM MELHOR.",
+                                                    '<32>{#e/mettaton/5}* BEM, BEM.\n* PAREVE QUE AS PESSOAS PODEM MUDAR DEPOIS DE TUDO.',
+                                                    '<32>{#e/mettaton/0}* BOM PRA VOCÊ.',
+                                                    "<32>{#e/mettaton/20}* MAS ISSO NÃO SIGNIFICA QUE EU SÓ VOU ESQUECER O QUE VOCÊ FEZ."
                                                 ]),
-                                            '<32>{#e/mettaton/29}* ONLY THAT, FOR THE SAKE OF PUTTING ON A GOOD SHOW...',
-                                            "<32>{#e/mettaton/26}* I'LL AGREE TO PLAY FAIR.",
-                                            "<32>{#e/mettaton/5}* ... MAYBE, BY THE END, YOU'LL EVEN EARN MY RESPECT.",
-                                            "<32>{#e/mettaton/35}* NOW.\n* SHOW ME YOU'RE MORE THAN A RUTHLESS KILLER.",
-                                            "<32>{#e/mettaton/31}* SHOW ME YOU'VE GOT WHAT IT TAKES TO BE A -REAL- SUPERSTAR!"
+                                            '<32>{#e/mettaton/29}* APENAS, PELA SUA CAPACIDADE DE TRAZER UM BOM SHOW...',
+                                            "<32>{#e/mettaton/26}* EU CONCORDO EM JOGAR JUSTO.",
+                                            "<32>{#e/mettaton/5}* ... TALVEZ, NO FIM, VOCÊ POSSA GANHAR MEU RESPEITO.",
+                                            "<32>{#e/mettaton/35}* AGORA.\n* ME MOSTRA QUE VOCÊ É MAIS DO QUE UM ASSASSINO.",
+                                            "<32>{#e/mettaton/31}* ME MOSTRA QUE VOCÊ TEM O QUE CAPAZ PARA SER UMA -VERDADEIRA- SUPER ESTRELA!"
                                         ])
                             ])
                     ])
             ],
-            end2: ['<32>{#e/mettaton/11}* PRODUCERS!\n* GET THOSE CAMERAS ROLLING!'],
+            end2: ['<32>{#e/mettaton/11}* PRODUTORES!\n* COLOQUEM AS CÂMERAS PARA FUNCIONAR!'],
             endX1: [
-                '<32>{#p/mettaton}* MY, MY...\n* IT SURE TOOK -YOU- LONG ENOUGH, EH \"DARLING?\"',
-                '<32>* BUT THE TIME FOR SURFACE-LEVEL DIALOGUE IS BEHIND US.',
-                '<32>* ... WHAT?\n* DID YOU REALLY THINK I LIKED YOU ALL THIS TIME?',
-                '<32>* YOU POOR, NAIVE CHILD.',
-                '<32>* ALL I WANTED WAS TO PUT ON A SHOW, AND THAT I DID.',
-                '<32>* SAYING ALL THE RIGHT WORDS, MAKING ALL THE RIGHT MOVES...',
-                "<32>* THAT'S WHAT SHOWBUSINESS IS -REALLY- ABOUT.",
-                '<32>* IT HAS NOTHING TO DO WITH \"FUN\" OR \"FRIENDSHIP...\"',
-                '<32>* ALL THAT MATTERS IS POWER, AND THE UNASSAILABLE MIGHT OF ROBOTICS!',
-                '<32>* ...\n* NOW YOU LISTEN TO ME.',
-                "<32>* AFTER WHAT YOU DID OUT THERE, THERE'S NO WAY I'M LETTING YOU GET PAST ME.",
-                '<32>* YOU CAN SCREAM.\n* YOU CAN STRUGGLE.\n* YOU CAN BEG FOR YOUR LIFE.',
-                '<32>* YOU CAN DO WHATEVER YOU WANT.',
-                "<32>* WHEN I'M DONE WITH YOU, YOU'LL BE NOTHING MORE THAN A STAIN ON THE CUTTING ROOM FLOOR.",
-                "<32>* SEE, I'VE RIGGED THE CORE TO DELIVER POWER STRAIGHT TO MY BODY.",
-                "<32>* IT'S NOT HOW ALPHYS AND I ORIGINALLY PLANNED IT, BUT IT'LL DO JUST AS WELL.",
-                '<32>* WHEN I GIVE THE SIGNAL, THE CABLES WILL FALL, AND THE BATTLE WILL ALREADY BE OVER.',
-                "<32>* HONESTLY, YOU SHOULD'VE SEEN THIS COMING...",
-                "<32>* BUT MAYBE THAT'S EXPECTING TOO MUCH FROM SOMEONE WHO ONLY KNOWS HOW TO KILL."
+                '<32>{#p/mettaton}* MY, MY...\n* COM CERTEZA -VOCÊ- TOMOU SEU TEMPO, HEIN \"QUERIDO\"?',
+                '<32>* MAS O DIALOGO SOBRE A SUPERFÍCIE ESTÁ ATRÁS DE NÓS.',
+                '<32>* ... O QUE?\n* VOCÊ ACHOU QUE EU GOSTAVA DE VOCÊ ESTE TEMPO TODO?',
+                '<32>* SUA POBRE E PATÉTICA CRIANÇA.',
+                '<32>* TUDO QUE EU QUERIA ERA FAZER UM SHOW, E EU CONSEGUI.',
+                '<32>* DIZENDO TODAS AS PALAVRAS CORRETAS, FAZENDO TODOS OS MOVIMENTOS PERFEITOS...',
+                "<32>* É SOBRE ISSO QUE SHOWBUSINESS É.",
+                '<32>* NÃO TEM NADA HAVER COM \"FELICIDADE\" OU \"AMIZADE...\"',
+                '<32>* TODO QUE IMPORTA É O PODER E A INSUPERÁVEL SUPERIORIDADE DOS ROBÔS!',
+                '<32>* ...\n* AGORA ME ESCUTA.',
+                "<32>* DEPOIS DE TUDO QUE VOCÊ FEZ, NÃO TEM CHANCE ALGUMA DE EU DEIXAR VOCÊ PASSAR.",
+                '<32>* VOCÊ PODE GRITAR.\n* VOCÊ PODE LUTAR.\n* VOCÊ PODE CHAMAR POR MISERICÓRDIA.',
+                '<32>* VOCÊ PODE FAZER O QUE QUISER.',
+                "<32>* QUANDO EU TE MATAR, VOCÊ NÃO SERÁ NADA ALÉM DE PANO PARA PASSAR NO CHÃO.",
+                "<32>* VEJA, EU ME UNI AO CORE E PASSEI SEU PODER DIRETAMENTE PARA MEU CORPO.",
+                "<32>* NÃO É COMO EU E A ALPHYS PLANEJAMOS DE COMEÇO, MAS VAI SERVIR BEM.",
+                '<32>* QUANDO EU DER O SINAL, OS CABOS IRÃO CAIR, E A BATALHA JÁ TERÁ ACABADO.',
+                "<32>* HONESTAMENTE, VOCÊ DEVE TER VISTO ISSO CHEGANDO...",
+                "<32>* MAS ISSO DEVE SER ESPERAR DEMAIS DE ALGUÉM QUE SÓ SABE MATAR."
             ],
             endX1x: [
                 '<32>{#p/mettaton}* MY, MY...',
                 '<32>* ...',
-                '<32>* ... WHY THE LONG FACE?\n* ARE YOU REALLY THAT DESPERATE TO GET BEATEN TO A PULP?',
-                '<32>* YOU ARE?\n* WELL, IF YOU INSIST...'
+                '<32>* ... POR QUE A CARONA?\n* VOCÊ ESTÁ TÃO DESESPERADO PARA SER SURRADO ATÉ A MORTE?',
+                '<32>* VOCÊ ESTÁ?\n* BEM, JÁ QUE INSISTE...'
             ],
-            endX2: ["<32>{#e/mettaton/17}* NOW, ALPHYS!\n* GIVE IT EVERYTHING YOU'VE GOT!"],
+            endX2: ["<32>{#e/mettaton/17}* AGORA, ALPHYS!\n* ME ENTREGUE TUDO QUE TEM!"],
             endY1: [
-                '<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you made it!',
-                '<25>{#f/3}* Eheh... that was more difficult than it had to be, huh?',
-                "<25>{#g/alphysYeahYouKnowWhatsUp}* I mean, not for you, since, y'know...",
-                '<25>{#g/alphysNeutralSweat}* You, uh... seem content with just about anything.',
+                '<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, você conseguiu!',
+                '<25>{#f/3}* Eheh... isso foi mais difícil do que deveria ter sido, hein?',
+                "<25>{#g/alphysYeahYouKnowWhatsUp}* Quer dizer, não pra você, já que...",
+                '<25>{#g/alphysNeutralSweat}* Você, uh... parece satisfeito com basicamente qualquer coisa.',
                 '<25>* ...',
-                '<25>{#g/alphysTheFactIs}* ... a-anyway, we should probably head towards the Citadel now.',
-                '<25>{#g/alphysIDK}* The elevator should be fixed by now, so...'
+                '<25>{#g/alphysTheFactIs}* ... olha, devemos ir para a Cidadela agora.',
+                '<25>{#g/alphysIDK}* O elevador deve estar arrumado agora, então...'
             ],
             endY2: [
-                "<25>{#p/alphys}{#g/alphysWelp}* Y-you know what, I'll just let you decide.",
-                "<25>{#g/alphysSmileSweat}* If you want to go now, so be it!\n* Going later's fine too!",
-                '<25>* Whatever \"powers your ship,\" am I right?',
-                '<25>{#g/alphysTheFactIs}* Like, you know, how ships need certain fuel to...',
-                '<25>{#g/alphysNeutralSweat}* A-and how you tend to be specific in how you...',
-                '<26>{#g/alphysWelp}* Uh, you get what I mean.'
+                "<25>{#p/alphys}{#g/alphysWelp}* Q-quer saber, eu vou deixar você decidir.",
+                "<25>{#g/alphysSmileSweat}* Se você quiser ir agora, então vamos!\n* Ir mais tarde está tudo bem também!",
+                '<25>* A onde a \"vela do navio te levar,\" não é?',
+                '<25>{#g/alphysTheFactIs}* Sabe, como os navios antigos precisavam do vento nas velas...',
+                '<25>{#g/alphysNeutralSweat}* E você tende a especificar como...',
+                '<26>{#g/alphysWelp}* Uh, você me entendeu.'
             ],
-            endY3: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Well, see ya!'],
+            endY3: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Bem, te vejo logo!'],
             end3: () => [
-                '<32>{#e/mettaton/6}* BEAUTIES AND GENTLEBEAUTIES...',
+                '<32>{#e/mettaton/6}* DAMAS E CAVALHEDAMAS...',
                 world.mttvar
-                    ? "<33>{#e/mettaton/11}* IT'S TIME FOR THE GRAND FINALE!"
-                    : '<32>{#e/mettaton/10}* ARE YOU READY FOR THE GRAND FINALE!?!?'
+                    ? "<33>{#e/mettaton/11}* É HORA DO GRANDE FINAL!"
+                    : '<32>{#e/mettaton/10}* VOCÊS ESTÃO PRONTOS PARA O GRANDE FINAL!?!?'
             ],
             end4: [
-                '<32>{*}{#e/mettaton/11}* REAL DRAMA!!\n* REAL ROMANCE!!\n* REAL BLOODSHED!!{^20}{%}',
-                '<32>{*}{#e/mettaton/20}* ON OUR NEW SHOW...{^20}{%}',
-                '<32>{*}{#e/mettaton/17}* \"ATTACK OF THE KILLER ROBOT!\"{^20}{%}'
+                '<32>{*}{#e/mettaton/11}* DRAMA REAL!!\n* ROMANCE REAL!!\n* SANGUE DERRAMADO REAL!!{^20}{%}',
+                '<32>{*}{#e/mettaton/20}* NO NOSSO NOVO SHOW...{^20}{%}',
+                '<32>{*}{#e/mettaton/17}* \"ATAQUE DO ROBÔ ASSASSINO!\"{^20}{%}'
             ],
             end5: () =>
                 SAVE.data.b.killed_mettaton
                     ? !world.badder_lizard
-                        ? ['<25>{#p/alphys}{#g/alphysOhGodNo}* Oh my god, are you guys...']
+                        ? ['<25>{#p/alphys}{#g/alphysOhGodNo}* Oh meu sentir, vocês...']
                         : [
                             '<25>{#p/alphys}{#g/alphysWelp}* ...',
-                            '<25>{#g/alphysInquisitive}* What are you looking at me for?',
+                            '<25>{#g/alphysInquisitive}* Por que você tá olhando pra mim?',
                             SAVE.data.n.bad_lizard === 1 && SAVE.data.b.bad_lizard
-                                ? "<26>{#g/alphysCutscene3}* I wasn't away for..."
-                                : "<25>{#g/alphysCutscene3}* I'm only here to..."
+                                ? "<26>{#g/alphysCutscene3}* Eu não estava longe por..."
+                                : "<25>{#g/alphysCutscene3}* Eu estou aqui apenas para..."
                         ]
                     : !world.badder_lizard
-                        ? ['<25>{#p/alphys}{#g/alphysOhGodNo}* Oh my god, are you guys alright??']
+                        ? ['<25>{#p/alphys}{#g/alphysOhGodNo}* Oh meu senhor, vocês estão bem??']
                         : [
                             '<25>{#p/alphys}{#g/alphysWelp}* ...',
-                            '<25>{#g/alphysInquisitive}* What are you looking at me for?',
+                            '<25>{#g/alphysInquisitive}* Por que você tá olhando pra mim?',
                             SAVE.data.n.bad_lizard === 1 && SAVE.data.b.bad_lizard
-                                ? "<26>{#g/alphysCutscene3}* I wasn't away for THAT long."
-                                : "<25>{#g/alphysCutscene3}* I'm only here to check on Mettaton."
+                                ? "<26>{#g/alphysCutscene3}* Eu não estive longe por TANTO tempo."
+                                : "<25>{#g/alphysCutscene3}* Eu só estou aqui para olhar o Mettaton."
                         ],
             end6: () =>
                 SAVE.data.b.killed_mettaton
-                    ? ["<25>{#p/alphys}{#f/10}* Wh... where's Mettaton?", '<25>{#p/alphys}{#f/3}* D-did you...']
+                    ? ["<25>{#p/alphys}{#f/10}* Ca...cadê o Mettaton?", '<25>{#p/alphys}{#f/3}* V-você m...']
                     : !world.badder_lizard
                         ? [
-                            '<25>{#p/alphys}{#g/alphysInquisitive}* Hmm, you look okay...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* Sorry about vanishing on the phone earlier, by the way.',
-                            "<25>{#g/alphysWelp}* The phone signal wouldn't reach here for some reason."
+                            '<25>{#p/alphys}{#g/alphysInquisitive}* Hmm, você parece bem...',
+                            '<25>{#p/alphys}{#g/alphysWelp}* Desculpe por ter desaparecido no telefone mais cedo, a propósito.',
+                            "<25>{#g/alphysWelp}* O sinal não chega aqui por algum motivo."
                         ]
                         : [
                             '<25>{#g/alphysHaveSomeCompassion}* ...',
-                            '<25>{#g/alphysHaveSomeCompassion}* Look, just... come with me into the next room.',
+                            '<25>{#g/alphysHaveSomeCompassion}* Olha, só... vem comigo para a próxima sala.',
                             world.baddest_lizard
-                                ? "<25>{#g/alphysNeutralSweat}* Th-there's something I need to tell you."
-                                : "<25>{#g/alphysNeutralSweat}* W-when you're ready, of course."
+                                ? "<25>{#g/alphysNeutralSweat}* Tem algo que eu preciso te dizer."
+                                : "<25>{#g/alphysNeutralSweat}* Q-quando você estiver pronto, claro."
                         ],
             end7: () =>
                 SAVE.data.b.killed_mettaton
                     ? [
-                        "<25>{#p/alphys}{#f/10}* I-I'm sorry.\n* I don't think I should be here right now.",
-                        "<25>{*}{#p/alphys}{#f/3}* D-don't come after me!{%}"
+                        "<25>{#p/alphys}{#f/10}* M-ME desculpa.\n* Eu não acho que deveria estar aqui agora.",
+                        "<25>{*}{#p/alphys}{#f/3}* N-não vem atrás de mim!{%}"
                     ]
                     : [
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* Well, uh, d-don't worry about Mettaton, I can fix his power supply.",
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* He's only fused with the control chip, after all."
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Bem, uh, não se preocupe com o Mettaton, eu posso dar energia pra ele de novo.",
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Ele está fundido apenas com o chip de controle, de toda forma."
                     ],
             end8: [
-                '<25>{#p/alphys}{#g/alphysWelp}* I should get going now.',
-                '<25>{#g/alphysNeutralSweat}* B-but, uh, I kind of need you to come with me.',
-                '<25>{#g/alphysNervousLaugh}* The future of monsterkind might... d-depend on it...'
+                '<25>{#p/alphys}{#g/alphysWelp}* Eu deveria ir indo.',
+                '<25>{#g/alphysNeutralSweat}* M-mas, uh, eu meio que preciso de vocês vindo comigo.',
+                '<25>{#g/alphysNervousLaugh}* O futuro da raça monstro... depende de d-disso...'
             ],
             end9: [
-                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Just...\n* W-when you're ready...",
-                '<25>{#g/alphysNeutralSweat}* Come with me into the next room.',
+                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Só...\n* Q-quando você estiver pronto...",
+                '<25>{#g/alphysNeutralSweat}* Vem comigo para a próxima sala.',
                 '<25>{#g/alphysSideSad}* ...',
-                "<25>{#g/alphysNeutralSweat}* I-I'm sorry.\n* There's no other way."
+                "<25>{#g/alphysNeutralSweat}* D-desculpa.\n* Não tem outra forma."
             ],
             end10: () => [
                 world.baddest_lizard
-                    ? "<32>{#p/mettaton}* Well, darling...\n* It'd probably be a good idea to go along with her."
-                    : "<32>{#p/mettaton}* Don't worry, darling, it's probably just a new season of a sci-fi anime she likes.",
-                '<32>* As for me?',
-                '<32>* ...\n* After Alphys puts me back in my old body...',
+                    ? "<32>{#p/mettaton}* Bem, querido...\n* Acho que deve ser uma boa ideia ir com ela."
+                    : "<32>{#p/mettaton}* Não tema, provavelmente é só uma nova temporada do anime sci-fi que ela gosta.",
+                '<32>* Já para mim?',
+                '<32>* ...\n* Depois que Alphys me por em meu antigo corpo...',
                 SAVE.data.b.a_state_hapstablook
-                    ? '<32>* I should go pay my family a visit.'
+                    ? '<32>* Eu devo ir ver minha família.'
                     : SAVE.data.n.state_starton_papyrus === 1
-                        ? "<32>* I'm not really sure what I'm going to do."
-                        : "<32>* I'm going to have some business to attend to.",
+                        ? "<32>* Eu não tenho certeza do que fazer."
+                        : "<32>* Eu tenho alguns negócios dos quais devo tratar.",
                 ...(SAVE.data.b.oops
                     ? []
                     : [
-                        '<32>* Oh, and by the way, $(name)...',
+                        '<32>* Oh, e a propósito, $(name)...',
                         '<32>{#p/basic}* Huh?',
-                        '<32>{#p/mettaton}* ... I wish you luck with your family business as well.',
-                        '<32>{#p/basic}* My... oh.',
-                        '<32>{#p/basic}* Yeah.',
-                        '<32>{#p/basic}* ... thanks, Mettaton.'
+                        '<32>{#p/mettaton}* ... Te desejo boa sorte com seus assuntos de família também.',
+                        '<32>{#p/basic}* Cara... oh.',
+                        '<32>{#p/basic}* Certo.',
+                        '<32>{#p/basic}* ... valeu, Mettaton.'
                     ]),
                 '<32>{#p/mettaton}* Heh...',
                 world.bad_lizard > 1
-                    ? '<32>* Until next time...\n* ...\n* ... brat.'
+                    ? '<32>* Até a próxima...\n* ...\n* ... humano.'
                     : iFancyYourVilliany()
-                        ? '<32>* Thanks for the ride...\n* ...\n* ... $(moniker2).'
-                        : '<32>* See you around...\n* ...\n* ... darling.'
+                        ? '<32>* Obrigado pelo show...\n* ...\n* ... $(moniker2).'
+                        : '<32>* Te vejo por aí...\n* ...\n* ... Querido.'
             ],
             end11: () => [
-                '<32>{#p/human}* (You hear a sigh.)',
-                '<32>{#p/basic}* ... all this family stuff with Mettaton has been hitting a little close to home.',
-                "<32>* Blooky's... not the only one who's made those kinds of mistakes with people.",
+                '<32>{#p/human}* (Você escuta um chorinho.)',
+                '<32>{#p/basic}* ... todas essas coisas de família com Mettaton estão batendo um pouco perto de casa.',
+                "<32>* Blooky... não foi o único que cometeu esse tipo de erro com as pessoas.",
                 '<32>* ...',
-                "<32>* I guess, for now, I'll just have to do my best to keep moving forward...",
-                '<32>* ...\n* Come on, partner.',
-                "<32>* Let's go home."
+                "<32>* Eu acho, que por agora.\nEu só vou ter que fazer meu melhor para continuar seguindo em frente...",
+                '<32>* ...\n* Vamos lá, parceiro.',
+                "<32>* Vamos para casa."
             ],
             endwalk0: () => [
                 ...(SAVE.data.b.water
                     ? [
-                        "<25>{#p/alphys}{#g/alphysFR}* Don't tell me you're bringing that thing all the way to the Citadel.",
+                        "<25>{#p/alphys}{#g/alphysFR}* Não me diz que você tá trazendo isso até a Cidadela.",
                         world.badder_lizard ? '<25>{#g/alphysNeutralSweat}* ...' : '<25>{#g/alphysWelp}* ...'
                     ]
                     : []),
                 world.badder_lizard
-                    ? '<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Follow me.'
-                    : '<25>{#p/alphys}{#g/alphysWelp}* This way.'
+                    ? '<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Siga-me.'
+                    : '<25>{#p/alphys}{#g/alphysWelp}* Por aqui.'
             ],
             endwalk1: () =>
                 !world.badder_lizard
                     ? [
-                        '<25>{#p/alphys}{#g/alphysCutscene2}* So... Mettaton, huh?',
-                        "<25>* Eheh... that was sure something, wasn't it?",
-                        "<25>{#g/alphysSideSad}* I-I mean, I'd hoped his batteries would last longer, but...",
-                        "<25>{#g/alphysUhButHeresTheDeal}* Well, i-it's just a tiny oversight, really.\n* Easily fixed!",
-                        "<25>{#g/alphysWelp}* ... but that's not why you're here."
+                        '<25>{#p/alphys}{#g/alphysCutscene2}* Então... Mettaton, huh?',
+                        "<25>* Eheh... isso com certeza foi algo louco, não foi?",
+                        "<25>{#g/alphysSideSad}* Q-quer dizer, eu pensei que as baterias iriam durar mais, mas...",
+                        "<25>{#g/alphysUhButHeresTheDeal}* Bem, d-deve ser só um problema de modelo.\n* Fácil para arrumar.",
+                        "<25>{#g/alphysWelp}* ... mas é pra isso que você está aqui."
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... look, I...',
+                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... Olha, eu...',
                         ...(world.alphys_percieved_kills < 10
                             ? [
-                                "<25>{#g/alphysHaveSomeCompassion}* I'm sorry for running away like that.",
+                                "<25>{#g/alphysHaveSomeCompassion}* Me desculpa por sair correndo daquela forma.",
                                 ...(SAVE.data.n.state_foundry_undyne === 0
-                                    ? ["<25>{#g/alphysSideSad}* It's just... after those deaths in Aerialis, I..."]
+                                    ? ["<25>{#g/alphysSideSad}* É só que... depois daquelas mortes em Aerialis, eu..."]
                                     : world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-                                        ? ["<25>{#g/alphysSideSad}* It's just... after Undyne's d-death, I..."]
+                                        ? ["<25>{#g/alphysSideSad}* É só que... d-depois da morte da Undyne, eu..."]
                                         : [
-                                            "<25>{#g/alphysSideSad}* It's just... after Undyne's d-death, and...",
-                                            '<25>{#g/alphysSideSad}* After those deaths in Aerialis, I...'
+                                            "<25>{#g/alphysSideSad}* É só que... depois da m-morte da Undyne, e...",
+                                            '<25>{#g/alphysSideSad}* Depois daquelas mortes em Aerialis, eu...'
                                         ]),
-                                "<25>{#g/alphysThatSucks}* ... I didn't know what to do."
+                                "<25>{#g/alphysThatSucks}* ... Eu não sabia o que fazer."
                             ]
                             : [
-                                "<25>{#g/alphysHaveSomeCompassion}* I know you've killed a lot of people.",
+                                "<25>{#g/alphysHaveSomeCompassion}* Eu sei que você matou muitas pessoas.",
                                 ...(SAVE.data.n.kills_aerialis / 2 +
                                     SAVE.data.n.corekills +
                                     (SAVE.data.b.killed_knightknight ? 1 : 0) +
                                     (SAVE.data.b.killed_madjick ? 1 : 0) >
                                     2
                                     ? [
-                                        "<25>{#g/alphysSideSad}* Even after I left the lab, I've s-still been watching you...",
-                                        '<25>{#g/alphysSideSad}* Through the staging area...\n* Through the CORE...'
+                                        "<25>{#g/alphysSideSad}* Mesmo após fugir do laboratório, eu c-continuei te assistindo...",
+                                        '<25>{#g/alphysSideSad}* Da área dos estágios...\n* Pelo CORE...'
                                     ]
                                     : [
-                                        "<25>{#g/alphysSideSad}* From the lab, I'd b-been watching you since you appeared...",
-                                        '<25>{#g/alphysSideSad}* Through Starton...\n* Through the Foundry...'
+                                        "<25>{#g/alphysSideSad}* Desde o laboratório, eu t-tenho te assistido desde que você apareceu...",
+                                        '<25>{#g/alphysSideSad}* Por Starton...\n* Pela Foundry...'
                                     ]),
-                                "<25>{#g/alphysNeutralSweat}* Didn't you ever stop to think about those monsters' lives?",
-                                '<25>{#g/alphysThatSucks}* About what their... f-friends and family might think?',
+                                "<25>{#g/alphysNeutralSweat}* Em algum momento você pensou na vida daqueles monstros?",
+                                '<25>{#g/alphysThatSucks}* Sobre o que os... a-amigos e famílias pensariam?',
                                 ...(world.alphys_percieved_kills < 20
                                     ? [
                                         '<25>{#g/alphysNeutralSweat}* ...',
-                                        '<25>{#g/alphysNeutralSweat}* I know I could have done a better job escorting you, so...',
-                                        "<25>{#g/alphysHaveSomeCompassion}* Maybe I'm partly at fault for that."
+                                        '<25>{#g/alphysNeutralSweat}* Eu sei que poderia ter feito um trabalho melhor te escoltando, então...',
+                                        "<25>{#g/alphysHaveSomeCompassion}* Talvez eu tenha parte da culpa no que aconteceu."
                                     ]
                                     : [
-                                        "<25>{#g/alphysIDK3}* Because I've been thinking about it a lot.",
-                                        '<25>{#g/alphysHaveSomeCompassion}* I blamed myself for letting this happen, but...',
-                                        '<25>{#g/alphysIDK2}* Is it really my fault that you chose to kill all those people?'
+                                        "<25>{#g/alphysIDK3}* Eu tenho pensado muito sobre isso.",
+                                        '<25>{#g/alphysHaveSomeCompassion}* Eu culpo a mim mesma por deixar acontecer, mas...',
+                                        '<25>{#g/alphysIDK2}* É realmente minha culpa que você tenha matado todas essas pessoas?'
                                     ])
                             ])
                     ],
@@ -3278,90 +3278,90 @@ export default {
                 !world.baddest_lizard
                     ? [
                         ...(!world.badder_lizard
-                            ? ["<25>{#p/alphys}{#g/alphysWelp}* Look, I'll just get to the point."]
+                            ? ["<25>{#p/alphys}{#g/alphysWelp}* Olha, eu só vou chegar logo no ponto."]
                             : [
-                                "<25>{#p/alphys}{#f/3}* But, uh, I don't really want to dwell on that right now, so...",
-                                "<25>{#p/alphys}{#f/20}* ... I'll just get to the point."
+                                "<25>{#p/alphys}{#f/3}* Mas, uh, eu realmente não quero me debruçar sobre isso agora, então...",
+                                "<25>{#p/alphys}{#f/20}* ... eu só vou chegar logo no ponto."
                             ]),
-                        "<25>{#g/alphysNeutralSweat}* There's... a reason I've been watching over you like this.",
+                        "<25>{#g/alphysNeutralSweat}* Tem uma... razão pela qual eu tenho te assistindo por todo esse tempo.",
                         '<25>* ...',
-                        '<25>{#g/alphysFR}* To put it simply...',
-                        "<25>{#g/alphysFR}* ASGORE's got a {@fill=#003cff}secret{@fill=#fff}."
+                        '<25>{#g/alphysFR}* Pra colocar mais simplesmente...',
+                        "<25>{#g/alphysFR}* ASGORE tem um {@fill=#003cff}segredo{@fill=#fff}."
                     ]
                     : [
                         ...(SAVE.data.n.state_foundry_undyne === 2
                             ? [
                                 ...(world.alphys_percieved_kills < 10
                                     ? ['<25>{#p/alphys}{#g/alphysIDK3}* ...']
-                                    : ['<25>{#p/alphys}{#g/alphysIDK3}* What hurts most of all, though, is... Undyne.']),
-                                '<25>{#p/alphys}{#g/alphysIDK3}* If there was one monster who wanted us to go free...',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* More than anyone else, it was her.',
-                                '<25>{#p/alphys}{#g/alphysSideSad}* She stood for freedom, and for justice...',
+                                    : ['<25>{#p/alphys}{#g/alphysIDK3}* O que mais me dói é... Undyne.']),
+                                '<25>{#p/alphys}{#g/alphysIDK3}* Se tinha um monstro que mais desejava nossa liberdade...',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* Mais do que qualquer outro, era ela.',
+                                '<25>{#p/alphys}{#g/alphysSideSad}* Ela sempre lutou por nossa liberdade, e por justiça...',
                                 ...(world.alphys_percieved_kills < 10
                                     ? [
-                                        '<25>{#p/alphys}{#g/alphysSmileSweat}* And maybe she was a little harsh towards you...',
-                                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... but...'
+                                        '<25>{#p/alphys}{#g/alphysSmileSweat}* E talvez ela tenho sido meio violenta contigo...',
+                                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... mas...'
                                     ]
                                     : [
-                                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* And it's like you didn't even care.",
+                                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* E é como se você nem ligasse.",
                                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...'
                                     ]),
-                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* She was my hero.',
-                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* A person I... looked up to.',
-                                '<25>{#p/alphys}{#g/alphysNeutralSweat}* A person who gave me hope.',
-                                '<25>{#p/alphys}{#g/alphysThatSucks}* ... but to see her be killed so easily, it was like...',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* ... like watching that hope be torn away.',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* Ripped to pieces.',
-                                '<25>{#p/alphys}{#g/alphysIDK3}* Gone forever.',
-                                "<25>{#p/alphys}{#g/alphysIDK3}* And you're the one who made that happen.",
+                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* Ela foi minha heroína.',
+                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* Uma pessoa que eu... sempre quis proteger.',
+                                '<25>{#p/alphys}{#g/alphysNeutralSweat}* Uma pessoa que me deu liberdade.',
+                                '<25>{#p/alphys}{#g/alphysThatSucks}* ... mas ver ela ser morta tão facilmente, foi como...',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* ... como ver aquela esperança se tornar em poeira.',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* Quebrada em pedaços.',
+                                '<25>{#p/alphys}{#g/alphysIDK3}* Perdida pra sempre.',
+                                "<25>{#p/alphys}{#g/alphysIDK3}* E foi você quem fez isso acontecer.",
                                 '<25>{#p/alphys}{#g/alphysIDK2}* ...'
                             ]
                             : ['<25>{#p/alphys}{#g/alphysThatSucks}* ...']),
-                        "<25>* In any case, there's... nothing else I can do.",
-                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* What happens now isn't up to me anymore."
+                        "<25>* De toda forma, não... tem nada que eu possa fazer.",
+                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* O que acontece agora já não está mais em minhas mãos."
                     ],
             endwalk3: () =>
                 !world.baddest_lizard
                     ? [
-                        "<25>{#p/alphys}{#g/alphysSideSad}* I... can't say much about it now, but...",
-                        '<25>{#g/alphysNeutralSweat}* As royal scientist, my duty is to escort you safely to the king.',
-                        "<26>{#g/alphysWorried}* If anyone f-found out, they'd think we're against our own freedom.",
-                        "<25>{#g/alphysHaveSomeCompassion}* ...\n* We're just trying to do the right thing."
+                        "<25>{#p/alphys}{#g/alphysSideSad}* Eu... não posso dizer muito sobre, agora...",
+                        '<25>{#g/alphysNeutralSweat}* Como cientista real, meu trabalho é te escoltar com segurança até o rei.',
+                        "<26>{#g/alphysWorried}* Se qualquer pessoa d-descobrir, eles vão pensar que estamos contra nossa própria liberdade.",
+                        "<25>{#g/alphysHaveSomeCompassion}* ...\n* Nós estamos apenas tentando fazer a coisa certa."
                     ]
                     : world.alphys_percieved_kills < 10
                         ? [
-                            "<25>{#p/alphys}{#g/alphysIDK2}* ... not that I'm complaining or anything.",
-                            "<25>{#p/alphys}{#g/alphysIDK3}* I wasn't fit to escort you anyway."
+                            "<25>{#p/alphys}{#g/alphysIDK2}* ... não que eu esteja reclamando ou coisa do tipo.",
+                            "<25>{#p/alphys}{#g/alphysIDK3}* Eu não estava apta para acompanhá-lo de qualquer maneira."
                         ]
                         : world.alphys_percieved_kills < 20 || SAVE.data.n.state_foundry_undyne !== 2
                             ? [
-                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* ... not that I'm complaining or anything.",
-                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* I don't really want to be around you."
+                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* ... não que eu esteja reclamando ou coisa do tipo.",
+                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* Eu não quero realmente estar perto de você."
                             ]
                             : [
-                                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* ... you're lucky, you know.",
-                                "<26>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* If it wasn't my job to protect you, I'd kill you myself."
+                                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* ... você tem sorte, sabe?",
+                                "<26>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* Se não fosse meu trabalho te proteger, eu teria te matado por conta própria."
                             ],
             endwalk4: () =>
                 !world.baddest_lizard
                     ? [
-                        "<25>{#p/alphys}{#g/alphysWelp}* ... you go on ahead.\n* I'll try not to get too far behind.",
-                        "<25>{#g/alphysSide}* Everything's gonna be fine, alright?",
+                        "<25>{#p/alphys}{#g/alphysWelp}* ... você pode ir em frente.\n* Eu vou tentar não ficar tão atrás.",
+                        "<25>{#g/alphysSide}* Tudo vai ficar bem, tudo bem?",
                         ...(world.postnoot
                             ? world.nootflags.has('undyne') // NO-TRANSLATE
 
-                                ? ['<25>{#g/alphysWelp}* ... despite the malfunctioning atmospheric system.']
-                                : ["<25>{#g/alphysInquisitive}* ... even if there's something strange in the air..."]
+                                ? ['<25>{#g/alphysWelp}* ... ah não ser pelo mal funcionamento do sistema atmosférico.']
+                                : ["<25>{#g/alphysInquisitive}* ... mesmo que tenha algo estranho com o ar..."]
                             : [])
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysThatSucks}* ... go.\n* Do whatever ASGORE wants you to do.',
-                        "<25>{#g/alphysNeutralSweat}* You're not my problem anymore.",
+                        '<25>{#p/alphys}{#g/alphysThatSucks}* ... vá.\n* Faça seja lá o que o ASGORE quer que você faça.',
+                        "<25>{#g/alphysNeutralSweat}* Você não é mais meu problema.",
                         ...(world.postnoot
                             ? world.nootflags.has('undyne') // NO-TRANSLATE
 
-                                ? ['<25>{#g/alphysFR}* ... the atmospheric system, though...']
-                                : ["<25>{#g/alphysFR}* ... whatever's in the air, though..."]
+                                ? ['<25>{#g/alphysFR}* ... já o sistema atmosférico...']
+                                : ["<25>{#g/alphysFR}* ... seja o que tiver no ar..."]
                             : [])
                     ]
         },
@@ -3369,79 +3369,79 @@ export default {
             DINNERTIME: () =>
                 SAVE.data.b.svr
                     ? [
-                        "<32>{#p/human}* (You bend over and look at the table from the side.)\n* (It's flatter than it seems.)",
+                        "<32>{#p/human}* (Você se inclina e olha para a mesa de lado.)\n* (É mais fina do que parece.)",
                         ...[
                             [
-                                "<26>{#p/asriel1}{#f/20}* Yeah.\n* There aren't actually any dishes here...",
-                                '<26>{#f/15}* Mettaton, uh, had some plans for this room.'
+                                "<26>{#p/asriel1}{#f/20}* É.\n* Não tem nenhuma louça aqui.",
+                                '<26>{#f/15}* Mettaton, uh, tinha alguns planos para essa sala.'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/13}* If I remember correctly... he wanted to host a sitcom here.',
-                                '<25>{#f/15}* About dinner parties.',
-                                "<25>{#f/16}* ... it would've been just as boring as it sounds."
+                                '<25>{#p/asriel1}{#f/13}* Se eu me lembro corretamente... ele queria apresentar um sitcom aqui.',
+                                '<25>{#f/15}* Sobres nossas festas de jantar.',
+                                "<25>{#f/16}* ... seria tão entediante quanto soa."
                             ],
                             [
-                                "<26>{#p/asriel1}{#f/17}* Fortunately, most monster food doesn't need real dishes to eat.",
-                                '<25>{#f/20}* When they do, the dishes are usually part of the food...',
-                                "<25>{#f/17}* But I guess you'd be used to that by now."
+                                "<26>{#p/asriel1}{#f/17}* Felizmente, boa parte das comidas de monstro não precisam de louças para serem ingeridas.",
+                                '<25>{#f/20}* E quando precisam, as louças também fazem parte da comida...',
+                                "<25>{#f/17}* Mas acho que você já está acostumado com isso a essa altura."
                             ],
-                            ['<25>{#p/asriel1}{#f/4}* Just be glad that awful show never happened.']
+                            ['<25>{#p/asriel1}{#f/4}* Só esteja feliz que aquele show horrível nunca aconteceu.']
                         ][Math.min(asrielinter.dinnertime++, 3)]
                     ]
-                    : ["<32>{#p/basic}* It's a table.\n* The plates and cutlery are painted on."],
+                    : ["<32>{#p/basic}* É uma mesa.\n* Os pratos e talheres são pintados."],
             doublefridge1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You place your ear against the fridge door.)\n* (A fizzing can be heard.)']
-                    : ["<32>{#p/basic}* It's a high-security fridge.\n* Both sides are filled with orange soda."],
+                    ? ['<32>{#p/human}* (Você coloca seu ouvido contra a porta do freezer.)\n* (Um vento pode ser escutado.)']
+                    : ["<32>{#p/basic}* É um freezer de alta segurança.\n* Ambos os lados contém suco de laranja."],
             doublefridge2: () => [
                 ...(SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (It sounds like one of the bottles inside was opened...)']
-                    : ['<32>{#p/basic}* One of the bottles has already been opened...']),
-                choicer.create('* (Take the opened bottle?)', 'Sim', 'Não')
+                    ? ['<32>{#p/human}* (Parece que uma das latas dentro já foi aberto...)']
+                    : ['<32>{#p/basic}* Uma das latas já foi aberta...']),
+                choicer.create('* (Pegar a lata aberta?)', 'Sim', 'Não')
             ],
             doublefridge3: ["<32>{#p/human}* (Você está carregando muito.)"],
-            doublefridge4: ['<32>{#p/human}* (You got the Orange Soda.)'],
+            doublefridge4: ['<32>{#p/human}* (Você pegou o suco de laranja.)'],
             doublefridge5: ['<32>{#p/human}* (Você decide não pegar nada.)'],
             labcamera2: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The display appears to be completely offline.)']
+                        ? ['<32>{#p/human}* (Parece estar completamente offline.)']
                         : SAVE.data.n.plot === 72
                             ? world.darker
-                                ? ["<32>{#p/basic}* It's offline."]
-                                : ['<32>{#p/basic}* Anonymity at last.']
-                            : ["<32>{#p/basic}* It's probably best not to question how this works."],
-            labdisplay: 'The Human\nEXP $(x)\nHP  $(y)\nG   $(z)\nDIS $(w)',
+                                ? ["<32>{#p/basic}* Está offline."]
+                                : ['<32>{#p/basic}* Anonimato finalmente.']
+                            : ["<32>{#p/basic}* É provavelmente para o melhor não questionar como isso funciona."],
+            labdisplay: 'O Humano\nEXP $(x)\nHP  $(y)\nG   $(z)\nDIS $(w)',
             exofountain1: () => [
                 SAVE.data.b.svr
-                    ? '<32>{#p/human}* (You feel the urge to drink from a fountain of punch.)'
-                    : '<32>{#p/basic}* This extravagant fountain is filled with exoberry punch.',
-                choicer.create('* (Take a sip?)', 'Sim', 'Não')
+                    ? '<32>{#p/human}* (Você sente vontade de beber de uma fonte de ponche.)'
+                    : '<32>{#p/basic}* A fonte extravagante está cheia de ponche exuberante.',
+                choicer.create('* (Dar uma golada?)', 'Sim', 'Não')
             ],
-            exofountain2a: ['<32>{#p/human}* (You chose not to take a sip.)'],
+            exofountain2a: ['<32>{#p/human}* (Você decide não provar.)'],
             exofountain2b: () => [
-                '<32>{#p/human}* (You drink from the fountain.)\n* (HP fully restored.)',
+                '<32>{#p/human}* (Você bebe da fonte.)\n* (HP totalmente restaurado.)',
                 ...(world.genocide && SAVE.flag.n.ga_asrielDrink++ < 1
-                    ? ['<25>{#p/asriel2}{#f/15}* You are properly crazy.']
+                    ? ['<25>{#p/asriel2}{#f/15}* Você é bem maluco.']
                     : [])
             ],
             kneeler: [
-                "<32>{#p/human}* (You check Asriel's head to make sure it's safe to climb up.)",
-                '<25>{#p/asriel2}{#f/16}* Why are you like this.'
+                "<32>{#p/human}* (Você checa a cabeça de Asriel para ter certeza que é seguro subir.)",
+                '<25>{#p/asriel2}{#f/16}* Por que você é assim.'
             ],
-            kneeler2: ['<25>{#p/asriel2}{#f/8}* Thanks, I guess.'],
+            kneeler2: ['<25>{#p/asriel2}{#f/8}* Obrigado, eu acho.'],
             topdesk1: () =>
                 SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
-                    ? ["<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n* (It must be daydreaming.)"]
+                    ? ["<32>{#p/human}* (Você se maravilha com as imagens na tela do computador.)\n* (Deve ser devaneio.)"]
                     : [
-                        '<32>{#p/basic}* The computer is on standby.\n* Turn it on?',
-                        choicer.create('* (Turn on the computer?)', 'Sim', 'Não')
+                        '<32>{#p/basic}* O computador está no modo descanso.\n* Ligar?',
+                        choicer.create('* (Ligar o computador?)', 'Sim', 'Não')
                     ],
-            topdesk2: ['<32>{#p/human}* (You decide not to turn it on.)'],
-            topdesk3: ["<32>{#p/basic}* It's opened to a video game emulator of some kind."],
-            labstationA: ["<32>{#p/basic}* It's opened to a control panel for a telescope network."],
-            labstationB: ["<32>{#p/basic}* It's opened to a set of design plans for a holographic environment."],
+            topdesk2: ['<32>{#p/human}* (Você decidiu não ligar.)'],
+            topdesk3: ["<32>{#p/basic}* Está aberto em algum tipo de emulador de vídeo game."],
+            labstationA: ["<32>{#p/basic}* Está aberto em um controle de painel para a linha de telescópio."],
+            labstationB: ["<32>{#p/basic}* Está aberto a um conjunto de planos de design para um ambiente holográfico."],
             laserbarrrier1: () =>
                 world.darker
                     ? ["<32>{#p/basic}* It's a security field."]
@@ -3563,7 +3563,7 @@ export default {
             mettacrafter2c: ['<32>{#p/mettaton}* NICE WORK!\n* NOW PLACE THE LAST ITEM ON THE COUNTER TO MY LEFT.'],
             platformDeny: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : [
                         "<32>{#p/basic}* You'll need a special pass to access the liftgate network.",
                         ...(world.goatbro
@@ -3636,7 +3636,7 @@ export default {
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The elevator appears to be powered down.)']
                         : postSIGMA()
-                            ? ["<32>{#p/basic}* It's out of service."]
+                            ? ["<32>{#p/basic}* Está fora de serviço."]
                             : [
                                 "<32>{#p/basic}* It's de-activated.",
                                 ...(world.goatbro && (citadel ? SAVE.flag.n.ga_asrielLiftC++ : SAVE.flag.n.ga_asrielLift++) < 1
@@ -3672,7 +3672,7 @@ export default {
             },
             terminal1: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3695,7 +3695,7 @@ export default {
                             ],
             terminal2: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3714,7 +3714,7 @@ export default {
                                 ],
             terminal3: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3728,7 +3728,7 @@ export default {
                             ],
             terminal4: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3744,7 +3744,7 @@ export default {
                             ],
             terminal5: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : [
@@ -4271,9 +4271,9 @@ export default {
                     ],
             spycamera1: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The display appears to be completely offline.)']
+                        ? ['<32>{#p/human}* (Parece estar completamente offline.)']
                         : SAVE.data.n.plot === 72 && !world.runaway
                             ? ['<32>{#p/basic}* Privacy at last.']
                             : [
@@ -6276,7 +6276,7 @@ export default {
         onionsan4x: ['<25>{#p/asriel2}{#f/8}* Sure, whatever.'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Está fora de serviço."]
                 : [
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
@@ -6532,7 +6532,7 @@ export default {
             1 <= battler.exp
                 ? [
                     '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                    corefriendly() ? '<25>* D-did you... really have to do that?' : '<32>{#p/human}* (You hear a sigh.)'
+                    corefriendly() ? '<25>* D-did you... really have to do that?' : '<32>{#p/human}* (Você escuta um chorinho.)'
                 ]
                 : SAVE.data.b.a_state_nooted1
                     ? [

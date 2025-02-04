@@ -34,159 +34,159 @@ export default {
             '<25>{#p/kidd}{#f/3}* Aqui.\n* Pega isso.',
             '<32>{#s/equip}{#p/human}* (Um Voucher Premium de Membro foi adicionado ao seu chaveiro.)',
             '<25>{#p/kidd}{#f/7}* Agora você pode usar qualquer telescópio, até os \"premium\"!',
-            '<25>{#f/1}* That short skeleton gave me a bunch of these earlier.',
-            '<25>{#f/2}* He also gave me some digital thing with a lot of money...',
-            '<25>{#f/1}* I guess he really likes me, haha.'
+            '<25>{#f/1}* Aquele esqueleto pequeno me deu um monte desses mais cedo.',
+            '<25>{#f/2}* Ele também me deu uma parada digital cheia de dinheiro...',
+            '<25>{#f/1}* Acho que ele realmente gosta de mim, haha.'
         ],
         telescopeMeetup4: [
-            '<25>{#p/kidd}{#f/3}* Anyway, I kinda just wanted to give you the voucher.',
-            '<25>{#f/1}* I hope you see something cool with it, though!'
+            '<25>{#p/kidd}{#f/3}* Bem, eu só queria te dar o voucher.',
+            '<25>{#f/1}* Espero que você veja algo incrível com ele!'
         ],
-        telescopeMeetup5: ["<25>{#p/kidd}{#f/1}* I'll be in town!"],
+        telescopeMeetup5: ["<25>{#p/kidd}{#f/1}* Eu estarei na cidade!"],
         telescope2: () =>
             SAVE.data.b.svr
-                ? ['<25>{#p/asriel1}{#f/17}* See anything you like?']
+                ? ['<25>{#p/asriel1}{#f/17}* Viu algo que gostou?']
                 : SAVE.data.b.oops || SAVE.data.b.s_state_chargazer
-                    ? ['<32>{#p/basic}* Stargazing in space...\n* Truly, this is some outside- the-box thinking.']
+                    ? ['<32>{#p/basic}* Explorar o espaço...\n* Realmente, é algo fora da caixa de se pensar.']
                     : ((SAVE.data.b.s_state_chargazer = true),
                         [
                             '<32>{#p/basic}* ...',
-                            '<32>* Asriel and I had a telescope just like this.',
-                            "<32>* We'd point it in random directions, hoping to see something exciting...",
-                            '<32>* ... we never saw much at all.',
-                            "<32>* Despite that, it didn't seem to matter to him...",
-                            '<32>* While I was focused on looking outward, he was just happy to spend time with me.',
+                            '<32>* Asriel e eu tínhamos eu telescópio igual a esse.',
+                            "<32>* Nós apontamos em direções aleatórias na esperança de ver algo animador...",
+                            '<32>* ... nunca vimos nada demais.',
+                            "<32>* Além disso, ele não parecia ligar muito...",
+                            '<32>* Enquanto eu ficava procurando por algo, ele parecia apenas feliz por estar comigo.',
                             '<32>* ...',
-                            '<32>{#p/human}* (You hear a sigh.)',
-                            "<32>{#p/basic}* ... uh, let's just get back to what we were doing."
+                            '<32>{#p/human}* (Você escuta um chorinho.)',
+                            "<32>{#p/basic}* ... uh, vamos só voltar para o que estávamos fazendo."
                         ]),
-        notv: ["<32>{#p/basic}* It doesn't seem like there's anything interesting to watch."],
-        nicecreamScoreReaction1a: ['<32>{#p/basic}* Not bad for your first try...'],
-        nicecreamScoreReaction1b: ['<32>{#p/basic}* Not bad for your first try.'],
-        nicecreamScoreReaction2a: ['<32>{#p/basic}* You can do better than that...'],
-        nicecreamScoreReaction2b: ['<32>{#p/basic}* You can do better than that.'],
+        notv: ["<32>{#p/basic}* Parece que não tem nada de interessante para ver."],
+        nicecreamScoreReaction1a: ['<32>{#p/basic}* Nada mal para sua primeira tentativa...'],
+        nicecreamScoreReaction1b: ['<32>{#p/basic}* Nada mal para a primeira tentativa.'],
+        nicecreamScoreReaction2a: ['<32>{#p/basic}* Você pode fazer melhor que isso...'],
+        nicecreamScoreReaction2b: ['<32>{#p/basic}* Você pode fazer melhor que isso.'],
         nicecreamScoreReaction3a: [
-            "<32>{#p/basic}* You beat the top scorer...?\n* I don't think I've ever seen anyone do that..."
+            "<32>{#p/basic}* Você consegue bater o recorde...?\n* Eu acho que nunca vi ninguém fazendo isso..."
         ],
         nicecreamScoreReaction3b: [
-            "<32>{#p/basic}* You beat the top scorer?\n* I don't think I've ever seen anyone do that!"
+            "<32>{#p/basic}* Você bateu o recorde?\n* Eu não acho que já vi alguém fazendo isso!"
         ],
-        nicecreamScoreReaction4a: ['<33>{#p/basic}* You seem pretty good at this...'],
-        nicecreamScoreReaction4b: ['<32>{#p/basic}* You seem pretty good at this.'],
-        nicecreamScoreReaction5a: ['<32>{#p/basic}* You beat your high score...?'],
-        nicecreamScoreReaction5b: ['<32>{#p/basic}* Look at that, new high score!'],
-        nicecreamScoreReaction6a: ['<32>{#p/basic}* For a second, I thought you were going to beat the top scorer...'],
+        nicecreamScoreReaction4a: ['<33>{#p/basic}* Você parece muito bom nisso...'],
+        nicecreamScoreReaction4b: ['<32>{#p/basic}* Você parece muito bom nisso.'],
+        nicecreamScoreReaction5a: ['<32>{#p/basic}* Você bateu o recorde...?'],
+        nicecreamScoreReaction5b: ['<32>{#p/basic}* Olha o novo recorde!'],
+        nicecreamScoreReaction6a: ['<32>{#p/basic}* Por um segundo eu pensei que você iria conseguir bater o recorde...'],
         nicecreamScoreReaction6b: [
-            "<32>{#p/basic}* Woah, you could've beaten the top scorer!\n* Can you go all the way?"
+            "<32>{#p/basic}* Woah, você poderia ter batido o recorde!\n* Será se você consegue?"
         ],
-        nicecreamScoreReaction7a: ['<32>{#p/basic}* Looks like you could use some practice...'],
-        nicecreamScoreReaction7b: ['<32>{#p/basic}* Looks like you could use some practice.'],
-        nicecreamScoreReaction8a: ["<32>{#p/basic}* That's better..."],
-        nicecreamScoreReaction8b: ["<32>{#p/basic}* That's more like it."],
+        nicecreamScoreReaction7a: ['<32>{#p/basic}* Parece que você pode conseguir com prática...'],
+        nicecreamScoreReaction7b: ['<32>{#p/basic}* Acho que você pode dar uma praticada.'],
+        nicecreamScoreReaction8a: ["<32>{#p/basic}* Está melhor..."],
+        nicecreamScoreReaction8b: ["<32>{#p/basic}* Assim tá bem melhor."],
         nicecreamScoreReaction9a: [
-            '<32>{#p/basic}* You beat the top scorer on your first try...?\n* How in the world...'
+            '<32>{#p/basic}* Você bateu o recorde na primeira tentativa?\n* Qual é chance...'
         ],
-        nicecreamScoreReaction9b: ["<32>{#p/basic}* You beat the top scorer on your first try?\n* You're a natural!"],
-        nicecreamScoreReaction10a: ["<32>{#p/basic}* For a first try, that's pretty good..."],
-        nicecreamScoreReaction10b: ["<32>{#p/basic}* For a first try, that's pretty good!"],
-        nicecreamScoreReaction11a: ['<32>{#p/basic}* You keep getting so close...'],
-        nicecreamScoreReaction11b: ['<32>{#p/basic}* Darn, you almost beat the top scorer again...\n* You can do it!'],
-        noteleport: ["<32>{#p/human}* (It doesn't seem to be powered on anymore.)"],
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
-        shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
-        jukebox0: ["<32>{#p/basic}* It's out of service."],
+        nicecreamScoreReaction9b: ["<32>{#p/basic}* Você bateu o recorde na primeira tentativa?\n* Você é bom naturalmente!"],
+        nicecreamScoreReaction10a: ["<32>{#p/basic}* Para a primeira tentativa, isso foi muito bom..."],
+        nicecreamScoreReaction10b: ["<32>{#p/basic}* Para uma primeira tentativa, isso foi muito bom!"],
+        nicecreamScoreReaction11a: ['<32>{#p/basic}* Você tá cada vez mais perto...'],
+        nicecreamScoreReaction11b: ['<32>{#p/basic}* Droga, você quase bateu o recorde...\n* Você consegue!'],
+        noteleport: ["<32>{#p/human}* (Não parece estar funcionando mais.)"],
+        evac: ['<32>{#p/human}* (Você sente a presença dos monstros próximos diminuindo.)'],
+        shopclosed: ['<32>{#p/human}* (Porém, não havia mais nada para fazer aqui.)'],
+        jukebox0: ["<32>{#p/basic}* Está fora de serviço."],
         jukebox1: () => [
             SAVE.data.b.svr
-                ? '<32>{#p/human}* (You reach for the jukebox...)'
-                : "<32>{#p/basic}* This jukebox only plays music you've heard before.",
+                ? '<32>{#p/human}* (Você pega a jukebox...)'
+                : "<32>{#p/basic}* Está jukebox só toca sons que você escutou antes.",
             choicer.create(
-                '* (Play a song?)',
+                '* (Tocar uma música?)',
                 SAVE.data.b.napsta_performance ? 'Track 01' : '???',
                 2 <= SAVE.data.n.state_foundry_swansong ? 'Track 02' : '???',
                 2 <= SAVE.data.n.state_starton_trashprogress ? 'Track 03' : '???',
-                'Cancel'
+                'Cancelar'
             )
         ],
         jukebox1x1: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (But you couldn't play a song you didn't know yet.)"]
-                : ["<32>{#p/basic}* The cover depicts a spooky DJ playing to the crowd.\n* You can't know this song."],
+                ? ["<32>{#p/human}* (Mas você não pode tocar um som que ainda não conhece.)"]
+                : ["<32>{#p/basic}* A capa mostra um DJ assustador tocando para a multidão.\n* Você não pode conhecer essa música."],
         jukebox1x2: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (But you couldn't play a song you didn't know yet.)"]
-                : ["<33>{#p/basic}* The cover depicts a spooky DJ at their computer.\n* You can't know this song."],
+                ? ["<32>{#p/human}* (Mas você não pode tocar um som que ainda não conhece.)"]
+                : ["<33>{#p/basic}* A capa mostra um DJ assustador em seu computador.\n* Você não pode conhecer essa música"],
         jukebox1x3: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (But you couldn't play a song you didn't know yet.)"]
+                ? ["<32>{#p/human}* (Mas você não pode tocar um som que ainda não conhece.)"]
                 : [
-                    "<32>{#p/basic}* The cover depicts a little white dog surrounded by trash.\n* You can't know this song."
+                    "<32>{#p/basic}* A capa mostra um cachorrinho branco cercado por lixo.\n* Você não pode conhecer essa música."
                 ],
-        jukebox1y: ['<32>{*}{#p/human}* (You select the disc...){^40}{%}'],
+        jukebox1y: ['<32>{*}{#p/human}* (Você seleciona o disco...){^40}{%}'],
         jukebox2: () => [
             SAVE.data.b.svr
-                ? '<32>{#p/human}* (It sounds like a song is currently playing.)'
+                ? '<32>{#p/human}* (Parece que já tem um som tocando.)'
                 : [
-                    '<32>{#p/basic}* Currently playing \"Track 01\"',
-                    '<32>{#p/basic}* Currently playing \"Track 02\"',
-                    '<32>{#p/basic}* Currently playing \"Track 03\"'
+                    '<32>{#p/basic}* Tocando agora \"Track 01\"',
+                    '<32>{#p/basic}* Tocando agora \"Track 02\"',
+                    '<32>{#p/basic}* Tocando agora \"Track 03\"'
                 ][SAVE.data.n.state_starton_jukebox - 1],
-            choicer.create('* (Stop playback?)', 'Sim', 'Não')
+            choicer.create('* (Parar de tocar?)', 'Sim', 'Não')
         ],
-        jukebox3a1: ["<32>{#p/basic}{#npc/a}* That's more like it!"],
-        jukebox3a2: ['<32>{#p/basic}{#npc/a}* (We love this kind of music.)'],
-        jukebox3b: ['<32>{#p/basic}{#npc/a}* Is that the song making the rounds at the dance club?'],
+        jukebox3a1: ["<32>{#p/basic}{#npc/a}* Gostei mais dessa!"],
+        jukebox3a2: ['<32>{#p/basic}{#npc/a}* (Amamos este tipo de música.)'],
+        jukebox3b: ['<32>{#p/basic}{#npc/a}* Está é a música que está fazendo os clubes de dança lotarem?'],
         jukebox3c: [
             '<32>{#p/basic}* ...\n* ...\n* ...',
-            "<32>{#npc/a}* Grillbz says he's heard this song somewhere before."
+            "<32>{#npc/a}* Grillbz disse que já ouviu está música antes em algum lugar."
         ],
         jukebox3d: [
-            '<32>{#p/basic}{#npc/a}* You sure know a lot of music offhand, kid...',
-            '<32>* You must be really tasty.'
+            '<32>{#p/basic}{#npc/a}* Você com certeza conhece um monte de músicas, criança...',
+            '<32>* Você deve ser realmente conhecedor.'
         ],
         shockpapyrus0a: [
-            '<15>{#p/papyrus}{#e/papyrus/27}WHAT ON KRIOS IS GOING ON HERE??',
-            '<15>{#p/papyrus}{#e/papyrus/21}I ANSWER A PHONE CALL FROM MY BALCONY...',
-            '<15>{#p/papyrus}{#e/papyrus/19}AND THIS IS WHERE IT LEADS ME!?',
-            "<15>{#p/papyrus}{#e/papyrus/14}I'LL HAVE YOU KNOW, I'M A SHOE-IN FOR THE ROYAL GUARD.",
-            '<15>{#p/papyrus}{#e/papyrus/15}SO, WHATEVER YOU TWO ARE PLANNING...'
+            '<15>{#p/papyrus}{#e/papyrus/27}O QUE EM KRIOS ESTÁ HAVENDO AQUI??',
+            '<15>{#p/papyrus}{#e/papyrus/21}EU SÓ RESPONDI UMA LIGAÇÃO DO MEU BALCÃO...',
+            '<15>{#p/papyrus}{#e/papyrus/19}E AQUI ONDE ISSO ME LEVA!?',
+            "<15>{#p/papyrus}{#e/papyrus/14} SÓ PARA VOCÊ SABER, EU SOU UM CONCORRENTE PARA ENTRAR NA GUARDA REAL.",
+            '<15>{#p/papyrus}{#e/papyrus/15}ENTÃO, SEJA LÁ O QUE VOCÊS DOIS ESTÃO PLANEJANDO...'
         ],
         shockpapyrus0b: [
-            '<15>{#p/papyrus}{#e/papyrus/24}... WAIT, THAT VOICE...',
-            '<15>{#p/papyrus}{#e/papyrus/22}ARE YOU THE ONE WHO CALLED ME ON THE PHONE EARLIER!?'
+            '<15>{#p/papyrus}{#e/papyrus/24}... ESPERA, ESSA VOZ...',
+            '<15>{#p/papyrus}{#e/papyrus/22} FOI VOCÊ QUEM ME LIGOU MAIS CEDO?'
         ],
         shockpapyrus0c: [
-            '<15>{#p/papyrus}{#e/papyrus/20}... OF COURSE!\nTHAT EXPLAINS EVERYTHING!',
-            "<15>{#p/papyrus}{#e/papyrus/10}WELL THEN.\nI'M GLAD TO HAVE FINALLY MET YOU.",
-            '<15>{#p/papyrus}{#e/papyrus/24}TO BE HONEST, YOU KIND OF REMIND ME OF...',
-            '<15>{#p/papyrus}{#e/papyrus/20}... HEY, WAIT A SECOND!!',
-            '<15>{#p/papyrus}{#e/papyrus/22}DID YOU BRING A -HUMAN- WITH YOU!?!?',
-            '<15>{#p/papyrus}{#e/papyrus/10}WOWIE!!\nTHIS JUST GETS BETTER AND BETTER!!',
-            '<15>{#p/papyrus}{#e/papyrus/20}SO, WHAT ARE WE DOING HERE ANYWAY?'
+            '<15>{#p/papyrus}{#e/papyrus/20}... É CLARO!\n* ISSO EXPLICA TUDO!',
+            "<15>{#p/papyrus}{#e/papyrus/10}QUE BOM ENTÃO.\nESTOU FELIZ EM FINALMENTE TE VER.",
+            '<15>{#p/papyrus}{#e/papyrus/24}PARA SER SINCERO, VOCÊ ME LEMBRA DO...',
+            '<15>{#p/papyrus}{#e/papyrus/20}... EI, ESPERA UM SEGUNDO!!',
+            '<15>{#p/papyrus}{#e/papyrus/22}VOCÊ TROUXE UM HUMANO CONTIGO!?!?',
+            '<15>{#p/papyrus}{#e/papyrus/10}WOWIE!!\nISSO AQUI ESTÁ CADA VEZ MELHOR!!',
+            '<15>{#p/papyrus}{#e/papyrus/20}ENTÃO, O QUE ESTAMOS FAZENDO AQUI?'
         ],
         shockpapyrus1: () =>
             [
                 [
-                    '<32>{#p/asriel2}* Ready, $(name)?',
-                    choicer.create('* (What should Asriel do?)', 'Mercy', 'Act', 'Magic', 'Fight')
+                    '<32>{#p/asriel2}* Pronto, $(name)?',
+                    choicer.create('* (O que Asriel deveria fazer?)', 'Piedade', 'Agir', 'Magia', 'Lutar')
                 ],
-                ["<32>{#p/asriel2}* Let's just get this over with."]
+                ["<32>{#p/asriel2}* Vamos só acabar logo com isso."]
             ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
         shockpapyrus2a: [
-            '<32>{#p/asriel2}* Mercy, huh?',
-            '<32>{#p/asriel2}* Mercy... I think I like that word.',
-            '<32>{#p/asriel2}* Let\'s show him some \"Mercy.\"'
+            '<32>{#p/asriel2}* Piedade, huh?',
+            '<32>{#p/asriel2}* Piedade... Acho que eu gosto dessa palavra.',
+            '<32>{#p/asriel2}* Vamos mostrar a \"Piedade\" pra ele.'
         ],
         shockpapyrus2b: [
-            "<32>{#p/asriel2}* Act...?\n* I'll show you how to act.",
-            '<32>{#p/asriel2}* First, you raise your arm...',
-            '<32>{#p/asriel2}* Then...!'
+            "<32>{#p/asriel2}* Agir...?\n* Vou te mostrar como agir.",
+            '<32>{#p/asriel2}* Primeiro, você levanta seu braço...',
+            '<32>{#p/asriel2}* Então...!'
         ],
         shockpapyrus2c: [
-            '<32>{#p/asriel2}* Magic.\n* The force that binds us monsters together.',
-            '<32>{#p/asriel2}* Or, in this case...',
-            '<33>{#p/asriel2}* The force that rips them apart.'
+            '<32>{#p/asriel2}* Magia.\n* A força que carrega os monstros juntos.',
+            '<32>{#p/asriel2}* Ou, nesse caso...',
+            '<33>{#p/asriel2}* A força que os corta no meio.'
         ],
-        shockpapyrus2d: ['<32>{#p/asriel2}* Fight... the ideal choice.', '<32>{#p/asriel2}* Hee hee hee...'],
+        shockpapyrus2d: ['<32>{#p/asriel2}* Lutar... a escolha ideal.', '<32>{#p/asriel2}* Hee hee hee...'],
         sansDeath1: ["<15>{#p/papyrus}{#e/papyrus/27}SANS!\nYOU'RE HURT!"],
         sansDeath2: ["<20>{#p/sans}papyrus, didn't i tell you to stay at home?", '{*}{#e/papyrus/21}{%}'],
         sansDeath3: ["<20>{#p/sans}... don't worry bro, it's just yamok sauce.", '{*}{#e/papyrus/26}{%}'],
@@ -373,7 +373,7 @@ export default {
         beddoor3: ['<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Está fora de serviço."]
                 : [
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
@@ -2417,7 +2417,7 @@ export default {
                     ? SAVE.data.b.svr
                         ? ['<32>{#p/human}* (But you already completed this puzzle beforehand.)']
                         : ['<32>{#p/basic}* The terminal is now in an unlocked state.']
-                    : ["<32>{#p/basic}* It's out of service."],
+                    : ["<32>{#p/basic}* Está fora de serviço."],
             microwave0: ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nothing useful here.'],
             microwave1: () =>
                 SAVE.data.b.svr
@@ -2507,7 +2507,7 @@ export default {
                         : ['<32>{#p/basic}* Once the home of a truly out- of-this-world creation.'],
             xtower1: () => [
                 ...(postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? [
                             '<32>{#p/human}* (The terminal appears to have been powered off.)',
@@ -2616,7 +2616,7 @@ export default {
             0,
             () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : [
                         ...(roomready()
                             ? [
@@ -2632,7 +2632,7 @@ export default {
                     ],
             () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : [
                         SAVE.data.b.svr
                             ? '<32>{#p/human}* (You move towards the computer...)'
@@ -4428,7 +4428,7 @@ export default {
                     : SAVE.data.b.s_state_puzzlenote || (!world.genocide && world.edgy)
                         ? ["<32>{#p/basic}* It's un-activated."]
                         : postSIGMA()
-                            ? ["<32>{#p/basic}* It's out of service."]
+                            ? ["<32>{#p/basic}* Está fora de serviço."]
                             : ['<32>{#p/basic}* What an unfortunate outcome.'],
             s_secret_sign: () =>
                 SAVE.data.b.svr

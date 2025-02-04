@@ -3692,7 +3692,7 @@ export default {
             "<25>{#p/twinkly}{#f/11}* Come se pensassi che mi sarei dimenticato di quello che hai fatto...",
             '<25>{#f/7}* Sporco schiva frammenti.'
         ],
-        twinkly7: ['<25>{#p/twinkly}{#f/7}* Posso giocare a questo gioco tutto il giorno, idiota'],
+        twinkly7: ['<25>{#p/twinkly}{#f/7}* Posso giocare a questo gioco tutto il giorno, idiota.'],
         twinkly8: ["<25>{#f/11}* Comunque, visto che sai già cosa succederà...{%15}"],
         twinkly9: [
             '<25>{#p/twinkly}{#f/6}* Buondì.',
@@ -3747,27 +3747,27 @@ export default {
         twinkly11: [
             "<20>{*}{#x2}{#f/5}Qua giù, il LOVE è diffuso tramite... {#f/8}piccoli bianchi... {#f/11}'frammenti della felicità.'",
             "<20>{*}{#f/5}Per iniziare al meglio, condividerò un po' del mio AMORE",
-            '<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}'
+            '<20>{*}{#f/5}Prova a prenderne più che puoi!{^20}{*}{#x1}{%}'
         ],
         twinkly12: [
-            "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-            "<20>{*}{#f/5}But that's okay!",
-            '<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}'
+            "<20>{*}{#f/8}Ops, penso che tu li abbia mancati...",
+            "<20>{*}{#f/5}Ma va bene!",
+            '<20>{*}{#x2}{#f/10}Ecco, ne arrivano altri.{^20}{*}{#x1}{%}'
         ],
         twinkly13: [
-            '<20>{*}{#f/12}What the-... are you braindead or something??',
-            '<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}'
+            '<20>{*}{#f/12}Ma che-... sei stupido o cosa??',
+            '<20>{*}{#x2}VAI. VERSO. I. PROIETTILI!!!{^20}{*}{#x1}{^999}'
         ],
-        twinkly14: 'RUN. INTO. THE. happiness shards~',
+        twinkly14: 'VAI. VERSO. I. frammenti della felicità~!!!',
         twinkly15: [
             '<20>{#v/1}Hee hee hee...',
-            "<20>In this world, it's KILL or BE killed.",
-            '<20>Imagine, a SOUL like yours crash-landing on my doorstep...',
-            "<20>Did you really think I'd pass up such a golden opportunity?"
+            "<20>In questo mondo, è UCCIDERE o ESSERE uccisi.",
+            '<20>Immagina, un\' ANIMA come la tua schiantarsi davanti la mia porta...',
+            "<20>Pensavi davvero che avrei rinunciato a un'occasione d'oro?"
         ],
         twinkly16: [
-            "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-            "<20>You just wanted to torment little old Twinkly, didn'tcha?",
+            "<20>{#f/7}Nah, tu sai cosa sta succedendo, non è vero?",
+            "<20>Volevi solo tormentare il piccolo vecchio Twinkly, non è vero?",
             "<20>Golly... you must have no idea who you're messing with.",
             '<20>{#f/11}Hee hee hee...'
         ],

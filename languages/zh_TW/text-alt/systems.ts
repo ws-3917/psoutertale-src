@@ -30,7 +30,7 @@ export default {
                 header: '忽略',
                 resume: '點擊此處忽略錯誤'
             },
-            blurb: '遊戲出現錯誤！當前版本號：V70\n請截圖傳送給漢化組（QQ：797416533）。'
+            blurb: '遊戲出現錯誤！當前版本號：V71\n請截圖傳送給漢化組（QQ：797416533）。'
         },
         control: {
             tab: '快捷功能',
@@ -237,6 +237,7 @@ export default {
                 'spacey_432',
                 '',
                 '§fill=#ff0§< 文本編寫 >§fill=#fff§',
+                'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
                 'Dischnie',
@@ -245,7 +246,6 @@ export default {
                 'InvincibleRacoon',
                 'Jojoton56',
                 'Kiwi \"Quinn\"',
-                'My Aster',
                 'neo9174',
                 'Rise'
             ],
@@ -297,11 +297,12 @@ export default {
                 '§fill=#ff0§< 遊戲測試 >§fill=#fff§',
                 'Alden',
                 'Aspey',
-                'Balgamlı Kedi',
-                'Bilge \"mnwary\"'
+                'Aster',
+                'Balgamlı Kedi'
             ],
             [
                 '§fill=#ff0§< 遊戲測試 >§fill=#fff§',
+                'Bilge \"mnwary\"',
                 'blue',
                 'Brad',
                 'brayjamin',
@@ -314,11 +315,11 @@ export default {
                 'Efe Kaya',
                 'Emurry',
                 'Enzolos',
-                'EvanGamesGoodman',
-                'Fired'
+                'EvanGamesGoodman'
             ],
             [
                 '§fill=#ff0§< 遊戲測試 >§fill=#fff§',
+                'Fired',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -331,17 +332,16 @@ export default {
                 'InvincibleRacoon',
                 'Jago128',
                 'Joe98912',
-                'Jojoton56',
-                'Jonkler'
+                'Jojoton56'
             ],
             [
                 '§fill=#ff0§< 遊戲測試 >§fill=#fff§',
+                'Jonkler',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
                 'MSBen',
                 'Murder--Sans_MDR',
-                'My Aster',
                 'Nanorasmus',
                 'neo9174',
                 'NepAnime',
@@ -389,7 +389,7 @@ export default {
             ],
             [
                 '§fill=#ff0§< 特別鳴謝 >§fill=#fff§',
-                'My Aster',
+                'Aster',
                 '§fill=#808080§你是第一個支援我夢想的人，\n也是我最暖心的夥伴。\n在你的激勵下，\n我才能完成這款遊戲。§fill=#fff§'
             ],
             [
@@ -424,6 +424,7 @@ export default {
             "1個渣渣",
             "braing",
             "errosia",
+            "Hola amigo!",
             "Murder--Sans_MDR",
             "R.o.C.t.D./π/3.1415⑨",
             "Wasneet Potato",
@@ -442,7 +443,7 @@ export default {
             "§fill=#ff7§【精神支援&推廣】§fill=#fff§",
             "AX暗星233",
             "幻-_-風",
-            "屑moons月亮君"
+            "屑moons月亮君",
         ],
         [
             "§fill=#ff0§< 漢化組成員 >§fill=#fff§",

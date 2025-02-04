@@ -10739,20 +10739,19 @@ renderer.on('tick', () => {
             const right = keyState.right;
             const down = keyState.down;
             const base = player.position.value();
-            const mSpeed =
-                (game.sprint && keyState.special ? 3 : SAVE.flag.b.$option_running && keyState.special ? 2 : 1) *
-                player.metadata.speed;
+            const mSpeed = (keyState.special ? game.sprint ? 3 : SAVE.flag.b.$option_running ? 2 : 1 : 1) * player.metadata.speed;
             game.mspeed = mSpeed;
             if (mSpeed > 0) {
                 game.mspeed_last = mSpeed;
             }
-            // WS3917 - solving the running problem
-            // try 1: modify -= 3 += 3 to +=/-= 1
-            for (let i = 0; i < mSpeed * 3; i++) {
+            let mSpeedPool = mSpeed * 3;
+            while (mSpeedPool !== 0) {
+                const s = Math.min(mSpeedPool, 3);
+                mSpeedPool -= s;
                 player.move(
                     {
-                        x: left ? -1 : right ? 1 : 0,
-                        y: player.metadata.reverse ? (down ? 1 : up ? -1 : 0) : up ? -1 : down ? 1 : 0
+                        x: left ? -s : right ? s : 0,
+                        y: player.metadata.reverse ? (down ? s : up ? -s : 0) : up ? -s : down ? s : 0
                     },
                     renderer,
                     ['below', 'main'],
@@ -10795,7 +10794,7 @@ renderer.on('tick', () => {
             if (!game.noclip) {
                 let tick = true;
                 if (player.position.x !== base.x || player.position.y !== base.y) {
-                    SAVE.data.n.steps++;
+                    SAVE.data.n.steps += Math.round(mSpeed);
                     if (events.fire('step').includes(true)) {
                         tick = false;
                     }

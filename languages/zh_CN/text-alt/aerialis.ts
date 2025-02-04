@@ -1148,7 +1148,7 @@ export default {
                             '<25>{#g/alphysTheFactIs}* 哦，还-还有，\n  那个喵喵玩偶...',
                             '<25>* 嗯...',
                             SAVE.data.b.item_tvm_mewmew
-                                ? "<25>{#g/alphysUhButHeresTheDeal}* 我待会再跟你聊。"
+                                ? "<25>{#g/alphysUhButHeresTheDeal}* 待会我再和你谈谈。"
                                 : "<25>{#g/alphysUhButHeresTheDeal}* 其实都不在你手上，\n  没事了。",
                             '<25>{|}{#g/alphysCutscene3}* 总之电梯见，\n  拜拜啦啊啊- {%}'
                         ]),
@@ -1233,10 +1233,10 @@ export default {
                     ],
             cooker7c: ['<32>{#p/mettaton}* 等等，这很可能让人丧命。'],
             cooker7d: [
-                "<32>{#p/mettaton}* 等下！这可不对...",
-                "<32>{#p/mettaton}* 这压根就不是镁塔牌的\n  {@fill=#003cff}欢乐微笑膏{@fill=#fff}！",
+                "<32>{#p/mettaton}* 等等！不对劲...",
+                "<32>{#p/mettaton}* 这压根就不是镁塔牌的\n  {@fill=#003cff}乐乐史莱姆{@fill=#fff}！",
                 '<32>{#p/mettaton}* 这...这是{@fill=#f00}塑性炸药{@fill=#fff}！',
-                "<32>{#p/mettaton}* 我们的特邀嘉宾一定是\n  把材料掉包了！",
+                "<32>{#p/mettaton}* 肯定是我们的特邀嘉宾\n  把材料掉包了！",
                 '<32>{#p/mettaton}* 怎么能搞这种小动作呢...\n* 为人也太阴险了点吧！'
             ],
             cooker8a1: () =>
@@ -9132,11 +9132,11 @@ export default {
         flirtText9: ['<32>{#p/human}* （你告诉傲娇飞船，\n  它的顶铲是完美无缺的。）'],
         flirtText10: ['<32>{#p/human}* （你告诉傲娇飞船，\n  它有一个令人惊叹的机翼。）'],
         flirtText11: ['<32>{#p/human}* （你告诉傲娇飞船，\n  它拥有迷人的光管。）'],
-        flirtText12: ["<32>{#p/human}* （你告诉傲娇飞船，\n  你想去一个没有人类\n  去过的地方。）"],
+        flirtText12: ["<32>{#p/human}* （你告诉傲娇飞船，\n  你想去一个没有人类\n  到过的地方。）"],
         stealText: ['<32>{#p/human}* （你靠近了傲娇飞船，\n  并抽取它的电池能量。）'],
         upgradeText1: ["<32>{#p/human}* （你激活了傲娇飞船引擎的\n  滑流飞行模块。）"],
         upgradeText2: ["<32>{#p/human}* （你激活了傲娇飞船大炮的\n  超相位发射机制。）"],
-        upgradeText3: ["<32>{#p/human}* （你激活了傲娇飞船护盾的\n  自适应调节。）"],
+        upgradeText3: ["<32>{#p/human}* （你激活了傲娇飞船护盾的\n  自适应调节功能。）"],
         upgradeText4: [
             "<33>{#p/human}* （你无法再激活了。）\n* （傲娇飞船的主体部位\n  已全部激活。）"
         ],
@@ -9188,7 +9188,7 @@ export default {
         status4: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* 傲娇飞船。']
-                : ['<32>{#p/story}* 傲娇飞船将大炮\n  设定为“晕眩”。'],
+                : ['<32>{#p/story}* 傲娇飞船将大炮模式\n  设定为“晕眩”。'],
         status5: () =>
             world.goatbro ? ['<32>{#p/asriel2}* 傲娇飞船。'] : ['<32>{#p/story}* 闻起来像太空仙人掌。'],
         status6: () =>

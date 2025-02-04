@@ -237,6 +237,7 @@ export default {
                 'spacey_432',
                 '',
                 '§fill=#ff0§< SCHRIFTSTELLER >§fill=#fff§',
+                'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
                 'Dischnie',
@@ -245,7 +246,6 @@ export default {
                 'InvincibleRacoon',
                 'Jojoton56',
                 'Kiwi \"Quinn\"',
-                'My Aster',
                 'neo9174',
                 'Rise'
             ],
@@ -297,11 +297,12 @@ export default {
                 '§fill=#ff0§< TESTER >§fill=#fff§',
                 'Alden',
                 'Aspey',
-                'Balgamlı Kedi',
-                'Bilge \"mnwary\"'
+                'Aster',
+                'Balgamlı Kedi'
             ],
             [
                 '§fill=#ff0§< TESTER >§fill=#fff§',
+                'Bilge \"mnwary\"',
                 'blue',
                 'Brad',
                 'brayjamin',
@@ -314,11 +315,11 @@ export default {
                 'Efe Kaya',
                 'Emurry',
                 'Enzolos',
-                'EvanGamesGoodman',
-                'Fired'
+                'EvanGamesGoodman'
             ],
             [
                 '§fill=#ff0§< TESTER >§fill=#fff§',
+                'Fired',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -331,17 +332,16 @@ export default {
                 'InvincibleRacoon',
                 'Jago128',
                 'Joe98912',
-                'Jojoton56',
-                'Jonkler'
+                'Jojoton56'
             ],
             [
                 '§fill=#ff0§< TESTER >§fill=#fff§',
+                'Jonkler',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
                 'MSBen',
                 'Murder--Sans_MDR',
-                'My Aster',
                 'Nanorasmus',
                 'neo9174',
                 'NepAnime',
@@ -389,7 +389,7 @@ export default {
             ],
             [
                 '§fill=#ff0§< BESONDERER DANK >§fill=#fff§',
-                'My Aster',
+                'Aster',
                 '§fill=#808080§Dafür, dass du einer der freundlichsten\nMenschen bist, die ich kenne, der erste Mensch,\nder an meine Vision glaubt und\nmich dazu inspiriert hast, das Spiel fertigzustellen.§fill=#fff§'
             ],
             [

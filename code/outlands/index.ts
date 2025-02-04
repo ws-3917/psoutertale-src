@@ -346,7 +346,7 @@ export function walkHer(
         await renderer.on('tick');
         // WS3917 - added speed parameter to allow for different speeds
         // depends on player's speed
-        let delta = renderer.speed.value * game.mspeed_last;
+        let delta = renderer.speed.value * (game.movement ? game.mspeed_last : 1);
         while (delta > 0) {
             if (entity.metadata.stopped === true) {
                 entity.move({ x: 0, y: 0 }, renderer);
@@ -1747,6 +1747,7 @@ export const outlandsScript = async (subscript: string, ...args: string[]): Prom
                         tension.stop();
                         content.amTension.unload();
                     });
+                    game.mspeed_last = 1;
                     walkHer(tori, { x: 0, y: -4.5 }, position => position.y > 555).then(async () => {
                         await walkHer(tori, { x: -4.5, y: -4.5 }, position => position.y > 380);
                         await walkHer(tori, { x: 4.5, y: -4.5 }, position => position.x < 320);
@@ -4361,6 +4362,14 @@ events.on('drop', async key => {
                 );
                 await dialogue('auto', ...text.a_outlands[`drop_${key}`]);
                 talker.end();
+            }
+            break;
+        case 'starbertA':
+            if (game.room === 'w_puzzle4' && player.position.y < 230) {
+                const n = instance('main', 'w_manana');
+                if (n) {
+                    await n.talk('n1', talkFinder(), 'auto', ...text.a_outlands.mananaY);
+                }
             }
             break;
     }

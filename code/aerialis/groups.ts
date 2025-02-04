@@ -470,10 +470,7 @@ const groups = {
             battler.overlay.detach(battler.volatile[0].container);
             battler.volatile[0].alive = false;
             const volatile2 = battler.volatile[1];
-            const bad = world.bad_robot;
-            if (bad) {
-                volatile2.hp = opponents.mettaton2.hp = 400;
-            }
+            volatile2.hp = opponents.mettaton2.hp = 400;
             const spr = volatile2.container.objects[0] as CosmosSprite;
             spr.metadata.leftLegIndex = 5;
             spr.metadata.rightLegIndex = 5;

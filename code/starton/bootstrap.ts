@@ -1,5 +1,6 @@
 import commonText from '../../languages/default/text/common';
 import text from '../../languages/default/text/starton';
+import values from '../../languages/default/text/values';
 import { faces, quickCall } from '../common/api';
 import { content, context, soundOpts, soundRouter, sounds } from '../systems/assets';
 import { atlas, events, game, items, keys, maps, renderer, rooms, speech } from '../systems/core';
@@ -58,7 +59,6 @@ import s_start from '../../rooms/s_start.json';
 import s_taxi from '../../rooms/s_taxi.json';
 import s_town1 from '../../rooms/s_town1.json';
 import s_town2 from '../../rooms/s_town2.json';
-import values from '../../languages/default/text/values';
 
 export const startonMap = new OutertaleMap(imStarton$info, new CosmosImage(imStarton));
 startonMap.name = 'maps::starton';

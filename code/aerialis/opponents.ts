@@ -91,10 +91,12 @@ export async function fancyIntro(fd = fader({ fill: 0xffffff, alpha: 0, priority
         })
     );
     const volatile2 = battler.volatile[battler.add(opponents.mettaton2, { x: 160, y: 120 })];
-    volatile2.hp = opponents.mettaton2.hp = 400;
+    const bad = world.bad_robot;
+    if (bad) {
+        volatile2.hp = opponents.mettaton2.hp = 400;
+    }
     volatile2.container.objects[0].tint = 0;
     volatile2.flirted = SAVE.data.b.flirt_mettaton;
-    const bad = world.bad_robot;
     if (bad) {
         const spr = volatile2.container.objects[0] as CosmosSprite;
         spr.metadata.leftLegIndex = 5;

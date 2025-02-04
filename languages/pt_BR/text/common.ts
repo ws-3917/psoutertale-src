@@ -412,94 +412,94 @@ export default {
                             '<25>{#p/alphys}{#f/30}* Mas o que ela fez depois foi bem pior do que eu... imaginava.',
                             '<32>{#p/basic}{@fill=#d4bbff}* Isso... isso é quando ela...',
                             '<25>{#p/alphys}{#f/31}* Quando Undyne achou o arquivo e MATOU os humanos dentro.',
-                            "<25>{#p/alphys}{#f/32}* In that moment, I didn't know WHAT to feel anymore.",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Gosh, I don't blame you.",
-                            "<32>{#p/basic}{@fill=#d4bbff}* It's like she was only thinking about herself!!!",
-                            '<25>{#p/alphys}{#f/17}* She said she \"got\" what Asgore was going for...',
-                            '<25>{#p/alphys}{#f/24}* But that she \"couldn\'t allow it to go on.\"',
-                            '<25>{#p/alphys}{#f/13}* ...\n* I was pretty upset about it, but...',
-                            '<25>{#p/alphys}{#f/10}* At least we still just needed one more SOUL.\n* We still had hope.',
-                            "<32>{#p/basic}{@fill=#ffbbdc}* ... until you didn't.",
-                            "<25>{#p/alphys}{#f/20}* Right.\n* Until we didn't.",
-                            '<25>{#p/alphys}{#f/21}* Because Undyne, in her INFINITE WISDOM...',
+                            "<25>{#p/alphys}{#f/32}* Naquele momento, eu nem sabia o que sentir mais.",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* senhor, eu não te culpo.",
+                            "<32>{#p/basic}{@fill=#d4bbff}* É como se ela só estivesse pensando em si mesma.",
+                            '<25>{#p/alphys}{#f/17}* Ela disse que \"entendeu\" onde Asgore estava tendo chegar...',
+                            '<25>{#p/alphys}{#f/24}* Mas que aquele plano era falho.',
+                            '<25>{#p/alphys}{#f/13}* ...\n* Eu estava com muita raiva, mas...',
+                            '<25>{#p/alphys}{#f/10}* Pelo menos precisamos de apenas mais uma ALMA.\n* Ainda temos esperança.',
+                            "<32>{#p/basic}{@fill=#ffbbdc}* ... até não ter mais.",
+                            "<25>{#p/alphys}{#f/20}* Exatamente.\n* Até não ter mais.",
+                            '<25>{#p/alphys}{#f/21}* Porque a Undyne, em sua INFINITA SABEDORIA...',
                             
-                            '<25>{#p/alphys}{#f/22}* Had NO FREAKING IDEA HOW TO STORE THE HUMAN SOULS PROPERLY.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* And now they're all...",
-                            '<25>{#p/alphys}{#f/24}* ... gone.',
-                            '<25>{#p/alphys}{#f/6}* At that point, I just gave up.',
-                            "<25>{#p/alphys}{#f/8}* I didn't care what she did after that.",
-                            '<25>{#p/alphys}{#f/10}* I quit my job.\n* Threw my experiments in the garbage.',
-                            '<25>{#p/alphys}{#f/33}* And then...',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* You came back to us.',
-                            '<32>{#p/basic}{@fill=#d4bbff}* You became an interstellar trash hunter again!',
-                            "<25>{#p/alphys}{#f/29}* That's right.",
-                            "<25>{#p/alphys}{#f/28}* And I'm GOOD at it.\n* Heck, I'm the best in the business.",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Now there's a fact if I've ever heard one.",
-                            '<25>{#p/alphys}{#f/10}* Like, honestly, who CARES about getting out of here anyway?',
-                            '<25>{#p/alphys}{#f/28}* With all this space junk that comes through...',
-                            "<25>{#p/alphys}{#f/18}* There's no reason to leave at all!",
-                            '<32>{#p/basic}{@fill=#ffbbdc}* But nobody else knows about the human stuff.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* Yeah, it's like, our new super duper big secret.",
-                            '<25>{#p/alphys}{#f/23}* Well, Undyne can lie to them all she wants.',
-                            '<25>{#p/alphys}{#f/23}* She can build her arms factories, and her watchtowers...',
-                            '<25>{#p/alphys}{#f/25}* If she thinks going all \"military\" will sell her story, okay.',
-                            '<25>{#p/alphys}{#f/26}* She can do whatever she sees fit.'
+                            '<25>{#p/alphys}{#f/22}* Não TINHA A MENOR IDEIA DE COMO CONTROLAR AS ALMAS HUMANAS PROPRIAMENTE.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* e agora elas estão todas...",
+                            '<25>{#p/alphys}{#f/24}* ... mortas.',
+                            '<25>{#p/alphys}{#f/6}* Neste ponto eu só desisti.',
+                            "<25>{#p/alphys}{#f/8}* Eu não me importei com o que ela fez depois.",
+                            '<25>{#p/alphys}{#f/10}* eu saí do meu trabalho.\n* Joguei meus experimentos no lixo.',
+                            '<25>{#p/alphys}{#f/33}* E então...',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Você voltou para a gente.',
+                            '<32>{#p/basic}{@fill=#d4bbff}* Você se tornou uma catadora de lixo interestelar novamente!',
+                            "<25>{#p/alphys}{#f/29}* Exatamente.",
+                            "<25>{#p/alphys}{#f/28}* E eu sou BOA nisso.\n* Hein, a melhor neste negócio.",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Agora aí está uma coisa que eu nunca ouvi alguém dizer.",
+                            '<25>{#p/alphys}{#f/10}* Tipo, honestamente, quem se IMPORTA de sair daqui de toda forma?',
+                            '<25>{#p/alphys}{#f/28}* Com todo esse lixo espacial que entra...',
+                            "<25>{#p/alphys}{#f/18}* Não a nenhuma razão pra ir embora!",
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Mas ninguém sabe sobre a parada dos humanos.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* É tipo, o nosso novo super duper grande segredo.",
+                            '<25>{#p/alphys}{#f/23}* Bem, Undyne não vai conseguir mentir para todos eles.',
+                            '<25>{#p/alphys}{#f/23}* Ela pode fazer armas nas indústrias, e torres de controle...',
+                            '<25>{#p/alphys}{#f/25}* Se ela pensa que entrar na era \"militar\" vai vender sua história, beleza.',
+                            '<25>{#p/alphys}{#f/26}* Ela pode fazer o que ela achar melhor.'
                         ]);
                         if (!dtoriel) {
                             addB([
-                                "<32>{#p/basic}{@fill=#d4bbff}* Oh yeah, didn't she, like, forcibly take over the Outlands or something?",
-                                '<26>{#p/alphys}{#f/24}* Ugh, that pissed me off.',
-                                '<25>{#p/alphys}{#f/30}* The former queen tried to stand up to it, and...',
-                                "<25>{#p/alphys}{#f/31}* ... she got absolutely curb-stomped by Undyne's supporters.",
-                                "<25>{#p/alphys}{#f/21}* Undyne STILL hasn't taken responsibility for that.",
-                                "<32>{#p/basic}{@fill=#ffbbdc}* Gosh, that's just sad."
+                                "<32>{#p/basic}{@fill=#d4bbff}* Ah é, ela meio que, tomou a força as Outlands, né?",
+                                '<26>{#p/alphys}{#f/24}* Ugh, isso me irritou muito.',
+                                '<25>{#p/alphys}{#f/30}* A verdadeira rainha tentou impedir, e...',
+                                "<25>{#p/alphys}{#f/31}* ... ela foi totalmente pisoteada pelo apoiadores da Undyne.",
+                                "<25>{#p/alphys}{#f/21}* Undyne ainda não tomou responsabilidade por aquilo.",
+                                "<32>{#p/basic}{@fill=#ffbbdc}* Senhor, isso é apenas triste."
                             ]);
                         } else {
                             addB([
-                                "<32>{#p/basic}{@fill=#d4bbff}* Oh yeah, didn't she, like, draft people into the Royal Guard or something?",
-                                '<25>{#p/alphys}{#f/24}* Ugh, that was stupid.',
-                                '<25>{#p/alphys}{#f/30}* All those people being forced to stand around all day...',
-                                '<25>{#p/alphys}{#f/31}* Watching for a human that may NEVER come...',
-                                "<25>{#p/alphys}{#f/21}* It's like she forgot the telescope network exists.",
-                                "<32>{#p/basic}{@fill=#ffbbdc}* Wow, she didn't think that through at all."
+                                "<32>{#p/basic}{@fill=#d4bbff}* Ah é, e ela meio que fez a Guarda Real como trabalho obrigatório?",
+                                '<25>{#p/alphys}{#f/24}* Ugh, aquilo foi estúpido.',
+                                '<25>{#p/alphys}{#f/30}* Todas aquelas pessoas forçadas a vigiarem o dia inteiro...',
+                                '<25>{#p/alphys}{#f/31}* Procura do por um humano que talvez NUNCA venha...',
+                                "<25>{#p/alphys}{#f/21}* É como se ela tivesse esquecido que a rede de telescópio existe.",
+                                "<32>{#p/basic}{@fill=#ffbbdc}* Uau, ela realmente não pensou nisso."
                             ]);
                         }
-                        addB(['<32>{#p/basic}{@fill=#d4bbff}* Yeah...']);
+                        addB(['<32>{#p/basic}{@fill=#d4bbff}* É...']);
                         if (!dpapyrus) {
                             addB([
-                                '<25>{#p/alphys}{#f/20}* And she did it in spite of Papyrus BEGGING her not to.',
-                                '<25>{#p/alphys}{#f/31}* ... I stopped caring about her entirely after that.'
+                                '<25>{#p/alphys}{#f/20}* E ela fez tudo isso mesmo com Papyrus IMPLORANDO pra ela não fazer.',
+                                '<25>{#p/alphys}{#f/31}* ... Eu parei de me importar com ela completamente depois de tudo.'
                             ]);
                         } else {
                             addB([
-                                "<25>{#p/alphys}{#f/20}* Maybe, if Papyrus was around, he could've stopped her.",
-                                "<25>{#p/alphys}{#f/18}* ... but we all know why that didn't happen, don't we?"
+                                "<25>{#p/alphys}{#f/20}* Talvez, se o Papyrus tivesse por perto, ele poderia ter parado ela.",
+                                "<25>{#p/alphys}{#f/18}* ... mas nós sabemos que isso não aconteceria, não é mesmo?"
                             ]);
                         }
                         if (hkills > 19) {
                             addB([
-                                '<25>{#p/alphys}{#f/17}* ...\n* Oh well.\n* It is what it is.',
-                                "<25>{#p/alphys}{#f/27}* Either way, it's thanks to all the people you killed...",
-                                '<25>{#p/alphys}{#f/26}* That any of this happened in the first place.',
-                                "<25>{#p/alphys}{#f/18}* So, I'm blaming it all on you."
+                                '<25>{#p/alphys}{#f/17}* ...\n* Ah bem.\n* É o que é.',
+                                "<25>{#p/alphys}{#f/27}* De toda forma, é por causa de todas as pessoas que você matou...",
+                                '<25>{#p/alphys}{#f/26}* Que tudo isso aconteceu primeiramente.',
+                                "<25>{#p/alphys}{#f/18}* Então, eu coloco a culpa toda em você."
                             ]);
                         } else {
                             addB([
-                                '<25>{#p/alphys}{#f/17}* ...\n* Oh well.\n* It is what it is.',
-                                "<25>{#p/alphys}{#f/26}* And even if you didn't kill THAT many people...",
-                                '<25>{#p/alphys}{#f/23}* Even if Mettaton and I overreacted...',
-                                "<25>{#p/alphys}{#f/18}* It's still totally your fault."
+                                '<25>{#p/alphys}{#f/17}* ...\n* Ah bem.\n* É o que é.',
+                                "<25>{#p/alphys}{#f/26}* E mesmo se você não tiver MATADO tantas pessoas...",
+                                '<25>{#p/alphys}{#f/23}* Mesmo se eu e Mettaton tivermos exagerado...',
+                                "<25>{#p/alphys}{#f/18}* Ainda é totalmente sua culpa."
                             ]);
                         }
                         addB([
-                            "<32>{#p/basic}{@fill=#ffbbdc}* You tell 'em, Alphys.",
-                            '<32>{#p/basic}{@fill=#d4bbff}* Yeah, in your face, loser!',
-                            "<25>{#p/alphys}{#f/33}* ... anyway.\n* That's all I've got.",
-                            '<25>{#p/alphys}{#f/1}* Bye now!',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* Until next time, pip-squeak.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* Bratty, are you sure there's going to BE a next time?",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Oh, shoot, you're right.\n* The phone's, like, outta batteries anyway.",
-                            '<32>{#p/basic}{@fill=#d4bbff}* ... later, alligator!!!\n* Nya ha ha!!!',
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Fala pra ele Alphys.",
+                            '<32>{#p/basic}{@fill=#d4bbff}* É, fala pra ele, aquele perdedor!',
+                            "<25>{#p/alphys}{#f/33}* ... pois bem.\n* Isso é tudo que eu tenho.",
+                            '<25>{#p/alphys}{#f/1}* Até logo!',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Até a próxima, covarde.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* Bratty, tem certeza que vai ter uma próxima vez?",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Ah é, você tá certa.\n* A bateria do telefone tá acabando de toda forma.",
+                            '<32>{#p/basic}{@fill=#d4bbff}* ... até, traidor!!!\n* Nya ha ha!!!',
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]);
                     }
@@ -510,613 +510,613 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
-                            "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                            '<25>{#p/sans}{#f/0}* opa.',
+                            "<25>{#p/sans}{#f/3}* já faz um tempo, huh?"
                         ]);
                         addB([
-                            '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                            '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                            '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
-                            "<25>{#p/sans}{#f/3}* the outpost's power systems were in total disarray.",
-                            "<25>{#p/sans}{#f/3}* both the atmosphere and the gravity broke down.\n* it... wasn't pretty.",
-                            '<25>{#p/sans}{#f/0}* just from her call, i could tell things were pretty bad.',
-                            '<25>{#p/sans}{#f/0}* but by the time i got to the citadel...',
-                            '<25>{#p/sans}{#f/3}* a power surge killed the humans in the archive as well.',
-                            "<25>{#p/sans}{#f/3}* ... i'd never seen her in worse shape.",
-                            '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                            '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                            '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                            "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
-                            "<25>{#p/sans}{#f/0}* ... right away, we knew we'd have to protect the human souls.",
-                            '<25>{#p/sans}{#f/0}* so, we repurposed some old lab junk and built a containment system.',
-                            "<25>{#p/sans}{#f/3}* after that, we realized we'd need someone to guard it."
+                            '<25>{#p/sans}{#f/0}* depois que você fugiu, alphys... meio que entrou em pânico.',
+                            '<25>{#p/sans}{#f/0}* não apenas asgore e undyne se foram...',
+                            '<25>{#p/sans}{#f/0}* mas por conta de um plano estúpido envolvendo mettaton e o core...',
+                            "<25>{#p/sans}{#f/3}* o sistema de energia do Outpost começou a quebrar.",
+                            "<25>{#p/sans}{#f/3}* tanto a atmosfera quando a gravidade foram destruídas.\n* não foi... nada bonito.",
+                            '<25>{#p/sans}{#f/0}* só pela ligação que ela fez, eu já entendi que as coisas estavam horríveis.',
+                            '<25>{#p/sans}{#f/0}* mas até eu chegar na cidadela...',
+                            '<25>{#p/sans}{#f/3}* um poder surgiu e matou todos os humanos nos arquivos também.',
+                            "<25>{#p/sans}{#f/3}* ... eu nunca a vi em um estado tão ruim.",
+                            '<25>{#p/sans}{#f/0}* ainda assim, eu sabia desde que éramos parceiros de laboratório...',
+                            '<25>{#p/sans}{#f/2}* que ela tinha um plano caso tudo desse errado.',
+                            '<25>{#p/sans}{#f/0}* então, eu sentei com ela, e a dei uma chance de processar tudo...',
+                            "<26>{#p/sans}{#f/3}* no fim ela tomou responsabilidade e aceitou a coroa do rei asgore.",
+                            "<25>{#p/sans}{#f/0}* ... de começo, já sabíamos que deveríamos proteger as almas dos humanos.",
+                            '<25>{#p/sans}{#f/0}* então, não pegamos algumas tralhas do velho laboratório e criamos contêineres.',
+                            "<25>{#p/sans}{#f/3}* depois disso, nós percebemos que precisávamos protegê-las."
                         ]);
                         if (!dtoriel) {
                             addB([
-                                '<25>{#p/sans}{#f/0}* when the former queen returned, shortly thereafter...',
-                                '<25>{#p/sans}{#f/2}* she seemed like the ideal candidate.',
-                                '<25>{#p/sans}{#f/0}* but then, she saw the human souls for herself...',
-                                '<25>{#p/sans}{#f/3}* and just went on a tirade about us being \"part of his agenda.\"',
-                                '<25>{#p/sans}{#f/0}* we tried to explain what happened, and that asgore was innocent...',
-                                "<25>{#p/sans}{#f/3}* but she wasn't having it in the slightest.",
-                                '<25>{#p/sans}{#f/3}* needless to say, she declined the job.'
+                                '<25>{#p/sans}{#f/0}* quando a rainha voltou, pouco depois de tudo...',
+                                '<25>{#p/sans}{#f/2}* ela parecia ser a candidata ideal.',
+                                '<25>{#p/sans}{#f/0}* mas então, ela viu as almas humanas em si mesma...',
+                                '<25>{#p/sans}{#f/3}* e apenas fez um discurso sobre nós sermos \"parte de sua agenda.\"',
+                                '<25>{#p/sans}{#f/0}* nós tentamos explicar o que aconteceu e dizer que asgore era inocente...',
+                                "<25>{#p/sans}{#f/3}* mas ela não acreditou no que dissemos.",
+                                '<25>{#p/sans}{#f/3}* infelizmente, ela acabou recusando o trabalho.'
                             ]);
                         }
                         if (!dpapyrus) {
                             if (!dtoriel) {
                                 addB([
-                                    "<25>{#p/sans}{#f/0}* luckily, the same couldn't be said about papyrus.",
-                                    '<25>{#p/sans}{#f/3}* after toriel declined, i called him next, and... well.'
+                                    "<25>{#p/sans}{#f/0}* felizmente, o mesmo não pôde ser dito sobre o papyrus.",
+                                    '<25>{#p/sans}{#f/3}* depois da toriel rejeitar, eu liguei para ele e... bem.'
                                 ]);
                             } else {
-                                addB(['<25>{#p/sans}{#f/3}* luckily, since papyrus was around, i called him up, and... well.']);
+                                addB(['<25>{#p/sans}{#f/3}* com sorte, já que papyrus estava por perto, eu liguei pra ele e... bem.']);
                             }
                             if (royals === 1) {
                                 addB([
-                                    '<25>{#p/sans}{#f/2}* he pretty much took the job on the spot.',
-                                    '<18>{#p/papyrus}{#f/4}... FOR A WHILE, ANYWAY.',
-                                    "<25>{#p/sans}{#f/0}* ah, there you are.\n* how'd the session go just now?",
-                                    '<18>{#p/papyrus}{#f/0}OH, IT WENT WELL!\nEVERYONE SEEMS TO BE GETTING ALONG.',
-                                    '<25>{#p/sans}{#f/3}* heh.\n* glad to hear it.',
-                                    '<18>{#p/papyrus}{#f/0}BY THE WAY, WHO ARE YOU TALKING TO?'
+                                    '<25>{#p/sans}{#f/2}* ele aceitou o trabalho bem facilmente.',
+                                    '<18>{#p/papyrus}{#f/4}... POR AGORA, ENTRETANTO.',
+                                    "<25>{#p/sans}{#f/0}* ah, aí está você.\n* como foi a sessão hoje?",
+                                    '<18>{#p/papyrus}{#f/0}AH, ESTÁ INDO BEM!\nTODO MUNDO PARECE ESTAR SE DANDO BEM.',
+                                    '<25>{#p/sans}{#f/3}* heh.\n* feliz em ouvir isso.',
+                                    '<18>{#p/papyrus}{#f/0}ALIÁS, COM QUEM VOCÊ ESTÁ CONVERSANDO?'
                                 ]);
                             } else {
                                 addB([
-                                    '<25>{#p/sans}{#f/2}* he pretty much took the job on the spot.',
-                                    "<18>{#p/papyrus}{#f/0}HELLO, SANS!\nI'VE COMPLETED MY SHIFT FOR TODAY.",
-                                    '<18>{#p/papyrus}{#f/9}NO INTRUDERS OR MALFUNCTIONS TO REPORT!',
-                                    '<25>{#p/sans}{#f/0}* great work, papyrus.\n* keep it up.',
-                                    "<18>{#p/papyrus}{#f/6}I'LL BE SURE TO!!!",
-                                    "<18>{#p/papyrus}{#f/0}SO, WHO'S THAT YOU'RE TALKING TO?"
+                                    '<25>{#p/sans}{#f/2}* ele aceitou o trabalho bem facilmente.',
+                                    "<18>{#p/papyrus}{#f/0}OLÁ, SANS! EU CONCLUI MEU TRABALHO POR HOJE.",
+                                    '<18>{#p/papyrus}{#f/9}SEM INVASORES OU MAL FUNCIONAMENTO RELATADOS!',
+                                    '<25>{#p/sans}{#f/0}* bom trabalho, papyrus.\n* mantenha-se assim.',
+                                    "<18>{#p/papyrus}{#f/6}TEREI CERTEZA QUE SIM!!!",
+                                    "<18>{#p/papyrus}{#f/0}ENTÃO, COM QUEM VOCÊ ESTÁ CONVERSANDO?"
                                 ]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/2}* oh, y'know.\n* just another human, nobody important.",
-                                '<18>{#p/papyrus}{#f/4}BUT ALL THE HUMANS ARE...',
-                                '<18>{#p/papyrus}{#f/7}... WAIT!!\nGIVE ME THAT!!',
-                                '<25>{#p/sans}{#f/0}* here you go.',
-                                '<18>{#p/papyrus}{#f/0}HELLO, HUMAN!',
-                                '<18>{#p/papyrus}{#f/4}IT SURE HAS BEEN A WHILE...',
+                                "<25>{#p/sans}{#f/2}* ah, você sabe.\n* só outro humano, ninguém importante.",
+                                '<18>{#p/papyrus}{#f/4}MAS TODOS OS HUMANOS ESTÃO...',
+                                '<18>{#p/papyrus}{#f/7}... ESPERA!!\n* ME DA ISSO AQUI!!',
+                                '<25>{#p/sans}{#f/0}* aqui está.',
+                                '<18>{#p/papyrus}{#f/0}OLÁ, HUMANO!',
+                                '<18>{#p/papyrus}{#f/4}JÁ FAZ MUITO TEMPO...',
                                 '<18>{#p/papyrus}{#f/5}...'
                             ]);
                             if (royals === 1) {
                                 k = 'dark_alphys_therapy'; // NO-TRANSLATE
 
                                 addB([
-                                    "<18>{#p/papyrus}{#f/5}THERE'S... A STORY I'D LIKE TO TELL YOU, ACTUALLY.",
-                                    '<15>{#f/6}IT\'LL EXPLAIN THE WHOLE \"FOR A WHILE\" THING.',
-                                    '<25>{#p/sans}{#f/3}* ... ah.\n* here we go.',
+                                    "<18>{#p/papyrus}{#f/5}TEM... UMA HISTÓRIA QUE EU GOSTARIA DE TE CONTAR.",
+                                    '<15>{#f/6}VAI EXPLICAR TODO O \"POR AGORA\".',
+                                    '<25>{#p/sans}{#f/3}* ... ah.\n* aí vai.',
                                     '<18>{#p/papyrus}{#f/7}SHH!!!',
-                                    "<18>{#p/papyrus}{#f/5}SO... I'M DOING MY JOB AS USUAL ONE DAY.",
-                                    '<18>{#p/papyrus}{#f/0}MAKING SURE THE HUMAN SOULS REMAIN SAFE AND SOUND.',
-                                    '<18>{#p/papyrus}{#f/4}THEN...\nOUT OF NOWHERE...'
+                                    "<18>{#p/papyrus}{#f/5}ENTÃO... EU ESTOU FAZENDO MEU TRABALHO COMO SEMPRE.",
+                                    '<18>{#p/papyrus}{#f/0}TENDO CERTEZA DE QUE AS ALMAS HUMANOS ESTÃO SEGURAS E PROTEGIDAS.',
+                                    '<18>{#p/papyrus}{#f/4}ENTÃO...\nDO NADA...'
                                 ]);
                                 if (!ddoggo) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A LOUD KNOCK AT THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, A STRANGE, BLIND DOG HAD RUN INTO IT!',
-                                        '<18>{#p/papyrus}{#f/5}I WAS QUITE CONFUSED AT FIRST...',
-                                        '<18>{#p/papyrus}{#f/5}BUT AFTER TALKING TO HIM, THE REASON BECAME CLEAR.',
-                                        '<18>{#p/papyrus}{#f/6}HE WAS LOOKING FOR HIS CANINE UNIT COMRADES.',
-                                        '<18>{#p/papyrus}{#f/0}FORTUNATELY, I WAS HAPPY TO HELP.',
-                                        '<18>{#p/papyrus}{#f/4}SO, AFTER THE END OF MY SHIFT...',
-                                        '<18>{#p/papyrus}{#f/0}WE WENT OUT TOGETHER TO BEGIN OUR SEARCH.',
-                                        '<18>{#p/papyrus}{#f/5}FROM THE EDGE OF THE NOW-OPEN OUTLANDS...',
-                                        '<18>{#p/papyrus}{#f/5}TO THE TALLEST SKYSCRAPERS IN THE CITADEL...',
-                                        "<18>{#p/papyrus}{#f/6}IT WAS SAFE TO SAY WE'D SEEN IT ALL.",
-                                        '<18>{#p/papyrus}{#f/5}... ALL EXCEPT THE CANINES WE WERE LOOKING FOR.',
+                                        '<18>{#p/papyrus}{#f/5}EU ESCUTEI UM GRANDE BATIDO NA PORTA DE MANUTENÇÃO.',
+                                        '<18>{#p/papyrus}{#f/6}ACABOU QUE ERA UM ESTRANHO CACHORRO CEGO QUE HAVIA BATIDO NELA!',
+                                        '<18>{#p/papyrus}{#f/5}EU ESTAVA CONFUSO NO COMEÇO...',
+                                        '<18>{#p/papyrus}{#f/5}MAS APÓS FALAR COM ELE, TUDO FICOU CLARO.',
+                                        '<18>{#p/papyrus}{#f/6}ELE ESTAVA PROCURANDO PELOS SEUS CAMARADAS DA UNIDADE CANINA.',
+                                        '<18>{#p/papyrus}{#f/0}FELIZMENTE, EU ESTAVA FELIZ PARA AJUDAR.',
+                                        '<18>{#p/papyrus}{#f/4}ENTÃO, APÓS O FINAL DO MEU EXPEDIENTE...',
+                                        '<18>{#p/papyrus}{#f/0}NÓS SAÍMOS JUNTOS PARA PROCURAR.',
+                                        '<18>{#p/papyrus}{#f/5}DESDE DE A PONTA DA AGORA ABERTA OUTLANDS...',
+                                        '<18>{#p/papyrus}{#f/5}ATÉ O MAIS ALTO ARRANHA CÉU DA CIDADELA...',
+                                        "<18>{#p/papyrus}{#f/6}É SEGURO DIZER QUE ENCONTRAMOS TUDO QUE TINHA PARA ENCONTRAR.",
+                                        '<18>{#p/papyrus}{#f/5}... TUDO MENOS A UNIDADE CANINA NA QUAL ESTÁVAMOS PROCURANDO.',
                                         '<25>{#p/sans}{#f/0}* hmm...',
-                                        '<25>{#p/sans}{#f/3}* did you ever find the other dogs?',
-                                        '<18>{#p/papyrus}{#f/5}WELL... NO.',
-                                        '<18>{#p/papyrus}{#f/5}BY THE TIME WE MADE IT BACK TO THE ROYAL ANNEX...',
-                                        '<18>{#p/papyrus}{#f/5}ALPHYS WAS AWAKE, AND TOLD US WHAT HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<25>{#p/sans}{#f/3}* você encontrou os outros cachorros por qualquer chance?',
+                                        '<18>{#p/papyrus}{#f/5}BEM... NÃO.',
+                                        '<18>{#p/papyrus}{#f/5}PELO TEMPO QUE NÓS CHEGAMOS DE NOVO NO ANEXO REAL...',
+                                        '<18>{#p/papyrus}{#f/5}ALPHYS ESTAVA ACORDADA E NOS CONTOU O QUE ACONTECEU.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}DOGGO TOOK THE NEWS PRETTY HARD.',
-                                        "<18>{#p/papyrus}{#f/6}BUT ALPHYS AND I, WE DIDN'T LET HIM GIVE UP!",
-                                        '<18>{#p/papyrus}{#f/6}IN HIS TIME OF NEED, WE COMFORTED HIM OURSELVES!',
-                                        "<18>{#p/papyrus}{#f/5}WE PROMISED HIM HE'D HAVE A HOME HERE.",
-                                        '<25>{#p/sans}{#f/0}* hmm... i see.',
-                                        "<25>{#p/sans}{#f/2}* that explains the dog hair on asgore's couch."
+                                        '<18>{#p/papyrus}{#f/5}DOGGO LEVOU ESSAS NOTÍCIAS PARA O CORAÇÃO.',
+                                        "<18>{#p/papyrus}{#f/6}MAS ALPHYS E EU, NÓS NÃO DEIXAMOS ELE DESISTIR!",
+                                        '<18>{#p/papyrus}{#f/6}ENQUANTO ELE PRECISOU, NÓS CONFORTAMOS ELE!',
+                                        "<18>{#p/papyrus}{#f/5}NÓS O PROMETEMOS UMA CASA AQUI.",
+                                        '<25>{#p/sans}{#f/0}* hmm... eu entendo.',
+                                        "<25>{#p/sans}{#f/2}* isso explica o pelo de cachorro no travesseiro do asgore."
                                     ]);
                                 } else if (!dlesserdog) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A BUNCH OF KNOCKS AT THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, A SHORT-NECKED DOG WANTED MY COMPANY!',
-                                        '<18>{#p/papyrus}{#f/5}I WAS QUITE CONFUSED AT FIRST...',
-                                        '<18>{#p/papyrus}{#f/5}BUT AFTER PETTING IT SEVERAL TIMES, IT ALL MADE SENSE.',
-                                        '<18>{#p/papyrus}{#f/6}ITS NECK... BEGAN TO SPELL OUT A MESSAGE.',
-                                        '<18>{#p/papyrus}{#f/6}AND THAT MESSAGE WAS \"ALONE.\"',
-                                        "<18>{#p/papyrus}{#f/8}I FELT SO BAD!!\nI COULDN'T HELP BUT CRY!!",
-                                        '<18>{#p/papyrus}{#f/5}ANYWAY, I ASKED ALPHYS ABOUT IT LATER, AND...',
-                                        '<18>{#p/papyrus}{#f/5}SHE TOLD ME WHAT HAD HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}EU ESCUTEI UM MONTE DE BATIDOS NA PORTA DE MANUTENÇÃO.',
+                                        '<18>{#p/papyrus}{#f/6}O QUE ERA BASICAMENTE UM CACHORRO DE PESCOÇO PEQUENO QUERENDO COMPANHIA!',
+                                        '<18>{#p/papyrus}{#f/5}EU ESTAVA CONFUSO NO COMEÇO...',
+                                        '<18>{#p/papyrus}{#f/5}MAS APÓS ACARICIAR ELE ALGUMAS VEZES, TUDO FEZ SENTIDO.',
+                                        '<18>{#p/papyrus}{#f/6}SEU PESCOÇO... COMEÇOU A CRESCER E MOSTRAR UMA MENSAGEM.',
+                                        '<18>{#p/papyrus}{#f/6}E A MENSAGEM ERA \"SOZINHO.\"',
+                                        "<18>{#p/papyrus}{#f/8}EU ME SENTI TÃO MAL!!\nNÃO PUDE AJUDAR SE NÃO CHORAR!!",
+                                        '<18>{#p/papyrus}{#f/5}DE TODA FORMA, EU PERGUNTEI A ALPHYS SOBRE ISSO MAIS TARDE E...',
+                                        '<18>{#p/papyrus}{#f/5}ELA ME CONTOU O QUE ACONTECEU.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}IT WAS HARD HEARING THAT NEWS, BUT...',
-                                        '<18>{#p/papyrus}{#f/6}KNOWING HOW CANIS MINOR MUST HAVE FELT...',
-                                        '<18>{#p/papyrus}{#f/5}FROM THEN ON, I GAVE IT ALL THE ATTENTION I COULD.',
-                                        "<25>{#p/sans}{#f/3}* well... if it's any consolation...",
-                                        '<25>{#p/sans}{#f/0}* i think you did the right thing.'
+                                        '<18>{#p/papyrus}{#f/5}FOI BEM DIFÍCIL SABER DESSAS NOTÍCIAS, MAS...',
+                                        '<18>{#p/papyrus}{#f/6}SABENDO COMO MINOR CANIS DEVE SE SENTIR...',
+                                        '<18>{#p/papyrus}{#f/5}DESDE ENTÃO, EU DEI A ELE TODA MINHA ATENÇÃO.',
+                                        "<25>{#p/sans}{#f/3}* bem... se serve como consolação...",
+                                        '<25>{#p/sans}{#f/0}* eu acho que você fez a coisa certa.'
                                     ]);
                                 } else if (!ddogs) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A BANGING SOUND FROM THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, TWO DOGS WITH AXES HAD WHALED ON IT!',
-                                        '<18>{#p/papyrus}{#f/5}I WAS QUITE CONCERNED AT FIRST...',
-                                        '<18>{#p/papyrus}{#f/5}BUT AFTER WHAT THEY TOLD ME...',
-                                        '<18>{#p/papyrus}{#f/5}THAT FEELING HAD TURNED TO SADNESS.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}EU ESCUTEI UM SOM DE BATIDA NA PORTA DA SALA DE MANUTENÇÃO.',
+                                        '<18>{#p/papyrus}{#f/6}ACABOU QUE ERAM DOIS CACHORROS COM MACHADOS!',
+                                        '<18>{#p/papyrus}{#f/5}EU ESTAVA MEIO PREOCUPADO NO COMEÇO...',
+                                        '<18>{#p/papyrus}{#f/5}MAS APÓS O QUE ELES ME DISSERAM...',
+                                        '<18>{#p/papyrus}{#f/5}O SENTIMENTO SE TORNOU TRISTEZA.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}DOGAMY AND DOGARESSA, THEY...',
-                                        '<18>{#p/papyrus}{#f/5}THEY QUESTIONED IF THEIR MARRIAGE WAS WORTH MAINTAINING.',
+                                        '<18>{#p/papyrus}{#f/5}DOGAMY E DOGARESSA, ELES...',
+                                        '<18>{#p/papyrus}{#f/5}ELES ESTAVAM SE QUESTIONANDO SE AINDA VALIAM A PENA MANTER SEU CASAMENTO.',
                                         '<25>{#p/sans}{#f/0}* hmm...',
-                                        '<25>{#p/sans}{#f/3}* ... surely you convinced them to stay together.',
+                                        '<25>{#p/sans}{#f/3}* ... conhecendo você, eu sei que fez eles se manterem juntos.',
                                         '<18>{#p/papyrus}{#f/4}...',
-                                        '<18>{#p/papyrus}{#f/4}YOU KNOW ME TOO WELL.',
-                                        '<18>{#p/papyrus}{#f/5}ANYWAY, THEY JUST WANTED SOME ALONE TIME AFTER THAT.',
-                                        "<18>{#p/papyrus}{#f/5}SO... I DROPPED THEM OFF AT ASGORE'S PLACE.",
-                                        '<25>{#p/sans}{#f/0}* actually, i heard they still live there.',
-                                        '<25>{#p/sans}{#f/2}* something tells me that extra room will come in handy soon.'
+                                        '<18>{#p/papyrus}{#f/4}VOCÊ ME CONHECE MUITO BEM.',
+                                        '<18>{#p/papyrus}{#f/5}DE TODA FORMA, ELES SÓ QUERIAM UM TEMPO A SOS DEPOIS DE TUDO ISSO.',
+                                        "<18>{#p/papyrus}{#f/5}ENTÃO... EU OS DEIXEI FICAR NA CASA DO ASGORE.",
+                                        '<25>{#p/sans}{#f/0}* na verdade, eu fiquei sabendo que eles ainda vivem lá.',
+                                        '<25>{#p/sans}{#f/2}* algo me diz que aquele quarto de criança servirá muito bem logo, logo.'
                                     ]);
                                 } else if (!dgreatdog) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A KNOCK OF SORTS AT THE MAINTENANCE DOOR.',
-                                        "<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, IT WAS JUST A BIG DOG'S LOUD BARK.",
-                                        '<18>{#p/papyrus}{#f/5}THEN THE DOG TOOK OFF ITS ARMOR, AND BECAME SMALL.',
-                                        '<18>{#p/papyrus}{#f/6}AND THEN IT RAN UP TO ME, AND WANTED TO PLAY!',
-                                        '<18>{#p/papyrus}{#f/6}IT SEEMED... MORE DESPERATE THAN EVER.',
-                                        "<18>{#p/papyrus}{#f/6}LIKE IT HADN'T PLAYED WITH ANYONE IN YEARS!",
-                                        '<18>{#p/papyrus}{#f/4}I GET THAT DOG-TIME CAN BE WEIRD, BUT...',
-                                        '<18>{#p/papyrus}{#f/6}STILL, I WONDERED IF SOMETHING HAD GONE AWRY!',
-                                        '<18>{#p/papyrus}{#f/5}SO I ASKED ALPHYS ABOUT IT LATER, AND...',
-                                        '<18>{#p/papyrus}{#f/5}SHE TOLD ME WHAT HAD HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}EU ESCUTEI UM BARULHO DE ARRANHO NA PORTA DA SALA DE MANUTENÇÃO.',
+                                        "<18>{#p/papyrus}{#f/6}ACABOU QUE ERA APENAS UM GRANDE CACHORRO LATINDO ALTO.",
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO O CACHORRO TIROU SUA ARMADURA E SE TORNOU PEQUENO.',
+                                        '<18>{#p/papyrus}{#f/6}E ENTÃO ELE VEIO ATÉ MIM, QUERENDO BRINCAR!',
+                                        '<18>{#p/papyrus}{#f/6}ELE PARECIA... MAIS DESESPERADO DO QUE NUNCA.',
+                                        "<18>{#p/papyrus}{#f/6}NUNCA VI TANTO ELE QUERER BRINCAR DESSA FORMA!",
+                                        '<18>{#p/papyrus}{#f/4}EU SEI QUE O TEMPO DOS CACHORROS É DIFERENTE, MAS...',
+                                        '<18>{#p/papyrus}{#f/6}AINDA ASSIM, EU ME PERGUNTEI SE ALGO ESTAVA ERRADO!',
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO EU PERGUNTEI PARA ALPHYS MAIS TARDE SOBRE E...',
+                                        '<18>{#p/papyrus}{#f/5}ELA ME CONTOU O QUE ACONTECEU.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}IT WAS HARD HEARING THAT NEWS, BUT...',
-                                        '<18>{#p/papyrus}{#f/6}KNOWING HOW CANIS MAJOR MUST HAVE FELT...',
-                                        '<18>{#p/papyrus}{#f/5}FROM THEN ON, I PLAYED WITH IT AS MUCH AS I COULD.',
-                                        "<25>{#p/sans}{#f/3}* well... if it's any consolation...",
-                                        '<25>{#p/sans}{#f/0}* i think you did the right thing.'
+                                        '<18>{#p/papyrus}{#f/5}FOI BEM DIFÍCIL SABER DESSAS NOTÍCIAS, MAS...',
+                                        '<18>{#p/papyrus}{#f/6}SABENDO COMO O MAJOR CANIS DEVE SE SENTIR...',
+                                        '<18>{#p/papyrus}{#f/5}DESDE ENTÃO EU BRINQUEI COM ELE O MÁXIMO QUE PUDE.',
+                                        "<25>{#p/sans}{#f/3}* bem... se serve como consolação...",
+                                        '<25>{#p/sans}{#f/0}* eu acho que você fez a coisa certa.'
                                     ]);
                                 } else if (!ddoge) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I GET A CALL FROM A HIGH-RANKING GUARD MEMBER.',
-                                        '<18>{#p/papyrus}{#f/6}AND A DISTRESSING ONE AT THAT.',
-                                        "<18>{#p/papyrus}{#f/5}AS A FRIEND OF UNDYNE'S, SHE TOLD ME TO MEET HER...",
-                                        '<18>{#p/papyrus}{#f/6}TO DISCUSS A MATTER OF \"GREAT IMPORTANCE.\"',
-                                        '<18>{#p/papyrus}{#f/6}I WAS A LITTLE NERVOUS WHEN I GOT THERE...',
-                                        '<18>{#p/papyrus}{#f/5}BUT SHE REALLY DID JUST WANT TO TALK.',
-                                        '<18>{#p/papyrus}{#f/4}ADMITTEDLY, SHE WAS BEING CRYPTIC ABOUT IT...',
-                                        '<18>{#p/papyrus}{#f/5}THOUGH, WITH ENOUGH TIME, I CRACKED THE CODE.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}EU RECEBI UMA LIGAÇÃO DE UM ALTO MEMBRO DA GUARDA REAL.',
+                                        '<18>{#p/papyrus}{#f/6}E UM ANGUSTIANTE.',
+                                        "<18>{#p/papyrus}{#f/5}UMA AMIGA DA UNDYNE, DIZENDO QUE QUERIA ME VER...",
+                                        '<18>{#p/papyrus}{#f/6}PARA FALAR SOBRE UM ASSUNTO DE \"GRANDE IMPORTÂNCIA.\"',
+                                        '<18>{#p/papyrus}{#f/6}EU ESTAVA MEIO NERVOSO QUANDO CHEGUEI LÁ...',
+                                        '<18>{#p/papyrus}{#f/5}MAS ELA REALMENTE SÓ QUERIA CONVERSAR.',
+                                        '<18>{#p/papyrus}{#f/4}ELA ESTAVA SENDO BEM ENIGMÁTICA EM RELAÇÃO A ISSO...',
+                                        '<18>{#p/papyrus}{#f/5}BEM, COM UM TEMPO EU QUEBREI O CÓDIGO.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}DOGE QUESTIONED THE VIABILITY OF HER PURPOSE.',
-                                        '<18>{#p/papyrus}{#f/6}THAT OF PROTECTING MONSTERKIND.',
-                                        '<18>{#p/papyrus}{#f/5}IF THE ROYAL GUARD COULD BE WIPED OUT BY ONE HUMAN...',
-                                        '<18>{#p/papyrus}{#f/6}WHAT WOULD SHE ALONE BE ABLE TO DO?',
-                                        '<18>{#p/papyrus}{#f/5}...\nI TOOK HER TO THE CITADEL.',
-                                        '<18>{#p/papyrus}{#f/5}I SHOWED HER THE HUMAN SOULS.',
-                                        '<18>{#p/papyrus}{#f/6}AND I TURNED TO HER AND SAID...',
-                                        '<18>{#p/papyrus}{#f/6}\"JUST ONE MORE.\"',
-                                        '<18>{#p/papyrus}{#f/5}THEN, SHE LOOKED BACK AT ME, CLOSED HER EYES...',
-                                        '<18>{#p/papyrus}{#f/6}AND REPLIED \"I UNDERSTAND.\"',
-                                        '<25>{#p/sans}{#f/0}* jeez.\n* sounds intense.',
-                                        "<25>{#p/sans}{#f/3}* for what it's worth, that probably motivated her quite a bit."
+                                        '<18>{#p/papyrus}{#f/5}DOGE QUESTIONOU O PROPÓSITO DA SUA VIDA.',
+                                        '<18>{#p/papyrus}{#f/6}O PROPÓSITO DE PROTEGER A VIDA DOS MONSTROS.',
+                                        '<18>{#p/papyrus}{#f/5}SE A GUARDA REAL PÔDE SER DESTRUÍDA POR UM HUMANO...',
+                                        '<18>{#p/papyrus}{#f/6}O QUE ELA SOZINHA SERIA CAPAZ DE FAZER?',
+                                        '<18>{#p/papyrus}{#f/5}...\nEU A LEVEI PARA A CIDADELA.',
+                                        '<18>{#p/papyrus}{#f/5}EU A MOSTREI AS ALMAS HUMANAS.',
+                                        '<18>{#p/papyrus}{#f/6}E ENTÃO EU VIREI PARA ELA E DISSE...',
+                                        '<18>{#p/papyrus}{#f/6}\"SÓ MAIS UMA.\"',
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO, ELA OLHOU PARA MIM, FECHOU OS OLHOS...',
+                                        '<18>{#p/papyrus}{#f/6}E RESPONDEU \"EU ENTENDO.\"',
+                                        '<25>{#p/sans}{#f/0}* caramba.\n* parece intenso.',
+                                        "<25>{#p/sans}{#f/3}* pelo que você fez, aquilo provavelmente a motivou."
                                     ]);
                                 } else if (!droyalguards) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I GET A CALL FROM TWO NUMBERED GUARD MEMBERS.',
-                                        '<18>{#p/papyrus}{#f/6}AND A DISTRESSING ONE AT THAT.',
-                                        '<18>{#p/papyrus}{#f/5}AS SOMEONE THEY SHARED ICE CREAM WITH...',
-                                        '<18>{#p/papyrus}{#f/6}THEY ASKED ME TO MEET WITH THEM TO DISCUSS SOMETHING.',
-                                        '<25>{#p/sans}{#f/0}* if i had to guess...',
-                                        "<25>{#p/sans}{#f/3}* i'd say this particular meeting wasn't about ice cream.",
-                                        '<18>{#p/papyrus}{#f/6}SADLY NOT.',
-                                        '<18>{#p/papyrus}{#f/5}INSTEAD, THEY... HAD SOME BAD NEWS.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}EU RECEBI UMA LIGAÇÃO DE DOIS MEMBROS DA GUARDA NUMERADOS.',
+                                        '<18>{#p/papyrus}{#f/6}E UM ANGUSTIANTE.',
+                                        '<18>{#p/papyrus}{#f/5}ELES QUERIAM DIVIDIR SORVETE COMIGO...',
+                                        '<18>{#p/papyrus}{#f/6}ENTÃO ME PEDIRAM PARA ENCONTRÁ-LOS E CONVERSAR SOBRE ALGO.',
+                                        '<25>{#p/sans}{#f/0}* se eu tiver que adivinhar...',
+                                        "<25>{#p/sans}{#f/3}* eu diria que a conversa particular não era sobre sorvete.",
+                                        '<18>{#p/papyrus}{#f/6}INFELIZMENTE NÃO.',
+                                        '<18>{#p/papyrus}{#f/5}NA VERDADE, ELES... TINHAM PÉSSIMAS NOTÍCIAS.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}AFTER HAVING ONLY JUST BEEN PROMOTED, THEY...',
-                                        '<18>{#p/papyrus}{#f/6}THEY FELT LIKE ALL THEIR TRAINING HAD BEEN FOR NOTHING.',
-                                        '<18>{#p/papyrus}{#f/6}BUT...!\nI SAID I COULD GET THEM A NEW JOB!!',
-                                        '<18>{#p/papyrus}{#f/5}SO, I WENT THROUGH A FEW IDEAS.',
-                                        '<18>{#p/papyrus}{#f/4}MOST OF THEM WERE REJECTED, BUT WEIRDLY ENOUGH...',
-                                        '<18>{#p/papyrus}{#f/4}THEY LOVED MY IDEA OF THEM JOINING A SWIMMING TEAM.',
-                                        "<25>{#p/sans}{#f/0}* so you're saying 01 and 02 became professional swimmers?",
-                                        "<25>{#p/sans}{#f/3}* well, as long as they're happy doing what they're doing.",
-                                        "<18>{#p/papyrus}{#f/4}OH, DON'T WORRY.\nNOT ONLY ARE THEY HAPPY...",
-                                        "<18>{#p/papyrus}{#f/0}THEY'RE ALSO INCREDIBLY POPULAR!",
-                                        "<18>{#p/papyrus}{#f/5}...\nSTILL, KNOWING WHY THEY'RE THERE...",
-                                        '<18>{#p/papyrus}{#f/5}DOES MAKE ME FEEL A LITTLE SAD.'
+                                        '<18>{#p/papyrus}{#f/5}DEPOIS DE SEREM PROMOVIDOS, ELES...',
+                                        '<18>{#p/papyrus}{#f/6}SENTIRAM QUE TODO AQUELE TREINO FOI PARA NADA.',
+                                        '<18>{#p/papyrus}{#f/6}MAS...!\nEU DISSE QUE PODERIA ENCONTRAR PARA ELES UM NOVO TRABALHO!!',
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO, VIEMOS COM ALGUMAS IDEIAS.',
+                                        '<18>{#p/papyrus}{#f/4}MAIOR PARTE DELAS FORAM REJEITADAS, MAS ESTRANHAMENTE...',
+                                        '<18>{#p/papyrus}{#f/4}ELES AMARAM A IDEIA DE SE JUNTAR AO TIME DE NATAÇÃO.',
+                                        "<25>{#p/sans}{#f/0}* então você está dizendo que o 01 e 02 se tornaram nadadores profissionais?",
+                                        "<25>{#p/sans}{#f/3}* bem, com tanto que eles estejam felizes com o que estão fazendo.",
+                                        "<18>{#p/papyrus}{#f/4}OH, NÃO SE PREOCUPE.\nNÃO APENAS ELES ESTÃO FELIZES...",
+                                        "<18>{#p/papyrus}{#f/0}ELES TAMBÉM ESTÃO INCRIVELMENTE POPULARES!",
+                                        "<18>{#p/papyrus}{#f/5}...\nMAS, SABENDO O MOTIVO DE ESTAREM ALI...",
+                                        '<18>{#p/papyrus}{#f/5}FAZ COM QUE EU ME SINTA TRISTE.'
                                     ]);
                                 } else if (!dmadjick) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}A STRANGE WIZARD APPEARED IN THE MAINTENANCE ROOM.',
-                                        '<18>{#p/papyrus}{#f/6}AND ASKED ME ABOUT THE MEANING OF LIFE.',
-                                        '<18>{#p/papyrus}{#f/4}WE... HAD TO SCALE THE CONVERSATION BACK A BIT.',
-                                        '<18>{#p/papyrus}{#f/4}TO SAY THE LEAST.',
-                                        '<25>{#p/sans}{#f/3}* i can imagine.',
-                                        '<25>{#p/sans}{#f/0}* so did you learn anything after that?',
-                                        '<18>{#p/papyrus}{#f/5}WELL, YES.\nI LEARNED ABOUT A LOT OF THINGS.',
-                                        '<18>{#p/papyrus}{#f/6}ITS FEARS, ITS ANXIETIES...',
-                                        '<18>{#p/papyrus}{#f/5}AND...  A LOSS FAR GREATER THAN I HAD ANTICIPATED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}UM ESTRANHO MAGO APARECEU NA SALA DE MANUTENÇÃO.',
+                                        '<18>{#p/papyrus}{#f/6}E ME PERGUNTOU SOBRE O SENTIDO DA VIDA.',
+                                        '<18>{#p/papyrus}{#f/4}NÓS... ACABAMOS ESCALANDO A CONVERSA UM POUCO.',
+                                        '<18>{#p/papyrus}{#f/4}PARA DIZER O MÍNIMO.',
+                                        '<25>{#p/sans}{#f/3}* posso imaginar.',
+                                        '<25>{#p/sans}{#f/0}* então você aprendeu algo após tudo isso?',
+                                        '<18>{#p/papyrus}{#f/5}BEM, SIM.\nEU APRENDI SOBRE MUITAS COISAS.',
+                                        '<18>{#p/papyrus}{#f/6}OS MEDOS, AS ANSIEDADES...',
+                                        '<18>{#p/papyrus}{#f/5}E ELE TEVE...  UMA PERDA MUITO MAIOR DO QUE EU ESPERAVA.',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}LOSING ITS MENTOR, TERRESTRIA, HIT PARTICULARLY HARD.',
-                                        '<18>{#p/papyrus}{#f/6}COZMO HAD WORKED TO IMPRESS HER ALL ITS LIFE...',
-                                        '<18>{#p/papyrus}{#f/5}AND YET, NEVER FELT IT DID ENOUGH TO MAKE HER PROUD.',
-                                        '<18>{#p/papyrus}{#f/6}WELL, I DISAGREED!',
-                                        "<18>{#p/papyrus}{#f/5}I KNEW SHE'D JUST BE GLAD IT WAS STILL ALIVE.",
-                                        '<18>{#p/papyrus}{#f/4}AND SINCE IT KNEW HER BETTER THAN ANYONE ELSE...',
-                                        '<18>{#p/papyrus}{#f/5}IT WAS ONLY RIGHT IT SHOULD CARRY ON WITH HER LEGACY.',
-                                        '<18>{#p/papyrus}{#f/0}THE CONVERSATION THAT FOLLOWED WAS HIGHLY ENCHANTING!',
-                                        "<18>{#p/papyrus}{#f/6}WE TALKED FOR SO LONG, I'M AMAZED I EVEN KEPT UP!",
-                                        '<18>{#p/papyrus}{#f/0}ONCE WE WERE DONE, WE PARTED WAYS FEELING SATISFIED.',
-                                        '<18>{#p/papyrus}{#f/5}THOUGH... I KNEW THERE WAS STILL SOMETHING WRONG.'
+                                        '<18>{#p/papyrus}{#f/5}PERDER SUA MENTORA, TERRESTRIA, DOEU MUITO.',
+                                        '<18>{#p/papyrus}{#f/6}COZMO TRABALHOU A VIDA TODA PARA IMPRESSIONAR ELA...',
+                                        '<18>{#p/papyrus}{#f/5}E MESMO ASSIM NUNCA SENTIU TER FEITO O SUFICIENTE PARA DEIXA ORGULHOSA.',
+                                        '<18>{#p/papyrus}{#f/6}BEM, EU DISCORDO!',
+                                        "<18>{#p/papyrus}{#f/5}EU SEI QUE ELA FICARIA ORGULHOSA DE VÊ-LO VIVO.",
+                                        '<18>{#p/papyrus}{#f/4}E DESDE QUE ELE CONHECIA ELA MELHOR DO QUE NINGUÉM...',
+                                        '<18>{#p/papyrus}{#f/5}ELE ERA A PESSOA CERTA PARA CARREGAR O LEGADO DELA.',
+                                        '<18>{#p/papyrus}{#f/0}A CONVERSA QUE SEGUIU FOI BEM ENCANTADORA!',
+                                        "<18>{#p/papyrus}{#f/6}NÓS CONVERSAMOS TANTO QUE EU FIQUEI SURPRESO DE CONSEGUIR ACOMPANHAR!",
+                                        '<18>{#p/papyrus}{#f/0}UMA VEZ QUE TERMINAMOS, AMBOS ESTÁVAMOS SATISFEITOS.',
+                                        '<18>{#p/papyrus}{#f/5}EMBORA... EU SOUBESSE QUE AINDA HAVIA ALGO ERRADO.'
                                     ]);
                                 } else {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}A POLITE, GENTLE KNOCK GRACED THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/4}I TRIED TO INVITE -WHOEVER IT WAS- INSIDE, BUT...',
-                                        '<18>{#p/papyrus}{#f/5}IT APPEARED -SHE- WAS TOO LARGE TO GET THROUGH.',
-                                        '<18>{#p/papyrus}{#f/5}SO, TO ACCOMMODATE THE TOWERING, ARMORED KNIGHT...',
-                                        '<18>{#p/papyrus}{#f/6}I MOVED ALL THE MAINTENANCE ROOM FURNITURE OUTSIDE.',
-                                        '<18>{#p/papyrus}{#f/4}AFTER THAT... HER AND I HAD A TALK.',
-                                        '<18>{#p/papyrus}{#f/5}A TALK...',
-                                        '<18>{#p/papyrus}{#f/6}... ABOUT DEATH.',
-                                        '<18>{#p/papyrus}{#f/6}NOT MY FAVORITE SUBJECT, BUT...',
-                                        '<18>{#p/papyrus}{#f/5}I COULD TELL SHE NEEDED TO TALK ABOUT IT.',
-                                        '<18>{#p/papyrus}{#f/6}ABOUT... HOW SOMEONE WHO LIVES AS LONG AS HER...',
-                                        '<18>{#p/papyrus}{#f/6}LIVES TO SEE EVERYONE ELSE DIE.',
-                                        '<18>{#p/papyrus}{#f/5}AND THEN...',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}UMA BATIDA GENTIL NA PORTA DA SALA DE MANUTENÇÃO.',
+                                        '<18>{#p/papyrus}{#f/4}EU TENTEI CONVIDAR SEJA LÁ QUEM ESTIVE BATENDO PARA ENTRAR, MAS...',
+                                        '<18>{#p/papyrus}{#f/5}MAS ELA ERA GRANDE DEMAIS PARA CABER DENTRO.',
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO, PARA ACOMODAR A GRANDE CAVALEIRA DE ARMADURA...',
+                                        '<18>{#p/papyrus}{#f/6}EU TIREI TODOS OS EQUIPAMENTOS DA SALA DE MANUTENÇÃO PARA FORA.',
+                                        '<18>{#p/papyrus}{#f/4}DEPOIS DISSO... EU E ELA TIVEMOS UMA CONVERSA.',
+                                        '<18>{#p/papyrus}{#f/5}UMA CONVERSA...',
+                                        '<18>{#p/papyrus}{#f/6}... SOBRE A MORTE.',
+                                        '<18>{#p/papyrus}{#f/6}NÃO É MEU TÓPICO FAVORITO, MAS...',
+                                        '<18>{#p/papyrus}{#f/5}EU SEI QUE ELA PRECISAVA CONVERSAR SOBRE AQUILO.',
+                                        '<18>{#p/papyrus}{#f/6}COMO... ALGUÉM QUE VIVE TANTO QUANDO ELA...',
+                                        '<18>{#p/papyrus}{#f/6}ACABA POR ASSISTIR TODOS AO SEU REDOR MORREREM.',
+                                        '<18>{#p/papyrus}{#f/5}E ENTÃO...',
+                                        '<18>{#p/papyrus}{#f/3}... TODOS AQUELES GUARDAS REAIS...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}I TRIED TO MAKE HER FEEL BETTER, BUT...',
-                                        "<18>{#p/papyrus}{#f/6}NO MATTER WHAT I SAID, TERRESTRIA WOULDN'T CHEER UP!",
-                                        '<18>{#p/papyrus}{#f/5}SO INSTEAD...',
-                                        '<18>{#p/papyrus}{#f/5}I JUST GAVE HER A BIG, LONG HUG.',
-                                        '<18>{#p/papyrus}{#f/6}WE HELD EACH OTHER FOR HOURS...',
-                                        "<18>{#p/papyrus}{#f/6}I'M SURPRISED I WAS ABLE TO GO FOR THAT LONG!!",
-                                        "<18>{#p/papyrus}{#f/5}AFTER THAT, SHE LEFT AND SAID SHE'D BE OKAY.",
-                                        "<18>{#p/papyrus}{#f/4}PART OF ME DOESN'T BELIEVE HER, BUT...",
-                                        "<18>{#p/papyrus}{#f/5}IT'S BEST IF I RESPECT HER WISHES NOW.",
-                                        '<25>{#p/sans}{#f/3}* well... hey.',
-                                        "<25>{#p/sans}{#f/0}* if she needs you again, she'll let you know.",
-                                        '<18>{#p/papyrus}{#f/5}I SURE HOPE SO.'
+                                        '<18>{#p/papyrus}{#f/5}EU TENTEI FAZER ELA SE SENTIR MELHOR, MAS...',
+                                        "<18>{#p/papyrus}{#f/6}NÃO IMPORTAVA O QUE EU DIZIA, TERRESTRIA NÃO SE ANIMAVA!",
+                                        '<18>{#p/papyrus}{#f/5}ENTÃO, AO INVÉS...',
+                                        '<18>{#p/papyrus}{#f/5}EU DEI A ELA UM GRANDE E DEMORADO ABRAÇO.',
+                                        '<18>{#p/papyrus}{#f/6}NOS ABRAÇAMOS POR HORAS...',
+                                        "<18>{#p/papyrus}{#f/6}EU ESTOU SURPRESO QUE SEGUREI POR TANTO TEMPO!!",
+                                        "<18>{#p/papyrus}{#f/5}DEPOIS DISSO ELA SAIU E DISSE QUE FICARIA BEM.",
+                                        "<18>{#p/papyrus}{#f/4}PARTE DE MIM NÃO ACREDITOU NELA, MAS...",
+                                        "<18>{#p/papyrus}{#f/5}É MELHOR QUE EU RESPEITE OS DESEJOS DELA.",
+                                        '<25>{#p/sans}{#f/3}* bem... ei.',
+                                        "<25>{#p/sans}{#f/0}* se ela precisar de você de novo, ela vai te falar.",
+                                        '<18>{#p/papyrus}{#f/5}EU ESPERO QUE SIM.'
                                     ]);
                                 }
                                 addB([
                                     '<18>{#p/papyrus}{#f/5}...',
-                                    "<18>{#p/papyrus}{#f/5}FINDING OUT WHAT YOU DID... WASN'T EASY FOR ME.",
-                                    "<18>{#p/papyrus}{#f/6}THOUGH, I GUESS I CAN'T -FULLY- BLAME YOU.",
-                                    "<18>{#p/papyrus}{#f/6}THE ROYAL GUARD'S JOB WAS TO CAPTURE HUMANS, AND...",
-                                    "<18>{#p/papyrus}{#f/5}I'M ONLY JUST STARTING TO GRASP WHAT THAT MEANS.",
-                                    '<18>{#p/papyrus}{#f/5}IT MUST BE HARD... KNOWING WHAT YOU HAD TO DO.',
-                                    '<18>{#p/papyrus}{#f/3}KNOWING... WHO YOU HAD TO DESTROY.',
+                                    "<18>{#p/papyrus}{#f/5}DESCOBRIR O QUE VOCÊ FEZ... NÃO FOI FÁCIL PARA MIM.",
+                                    "<18>{#p/papyrus}{#f/6}MAS, EU NÃO ACHO QUE POSSO TE CULPAR.",
+                                    "<18>{#p/papyrus}{#f/6}O TRABALHO DA GUARDA REAL ERA CAPTURAR HUMANOS, E...",
+                                    "<18>{#p/papyrus}{#f/5}EU ESTOU APENAS TENTANDO ENTENDER O QUE ISSO SIGNIFICOU.",
+                                    '<18>{#p/papyrus}{#f/5}DEVE TER SIDO DIFÍCIL... SABENDO O QUE VOCÊ TINHA QUE FAZER.',
+                                    '<18>{#p/papyrus}{#f/3}SABENDO QUE VOCÊ... TINHA QUE NOS DESTRUIR.',
                                     '<18>{#p/papyrus}{#f/31}...',
-                                    "<18>{#p/papyrus}{#f/5}PERHAPS IT'S FOR THE BEST I NEVER BECAME A GUARD.",
-                                    '<18>{#p/papyrus}{#f/6}PERHAPS... UNDYNE WAS JUST TRYING TO PROTECT ME.',
-                                    "<18>{#p/papyrus}{#f/5}... I'M NOT SURE HOW TO FEEL ABOUT THAT.",
-                                    "<25>{#p/sans}{#f/0}* hey, aren't you gonna tell them what happened next?",
-                                    '<18>{#p/papyrus}{#f/6}OH, RIGHT!!!',
-                                    '<18>{#p/papyrus}{#f/0}SO THAT WHOLE ORDEAL HAD ME FEELING TIRED.',
-                                    "<18>{#p/papyrus}{#f/4}NOW, DON'T JUDGE ME, BUT...",
-                                    '<18>{#p/papyrus}{#f/4}I MAY HAVE CLOSED MY EYES FOR LONGER THAN ANTICIPATED.'
+                                    "<18>{#p/papyrus}{#f/5}TALVEZ TENHA SIDO PARA O MELHOR QUE EU NUNCA TENHA ME TORNADO UM GUARDA.",
+                                    '<18>{#p/papyrus}{#f/6}TALVEZ... UNDYNE SÓ ESTIVESSE TENTANDO ME PROTEGER.',
+                                    "<18>{#p/papyrus}{#f/5}... EU NEM SEI COMO ME SENTIR SOBRE ISSO.",
+                                    "<25>{#p/sans}{#f/0}* ei, você não vai nos contar o que aconteceu depois?",
+                                    '<18>{#p/papyrus}{#f/6}AH, CERTO!!!',
+                                    '<18>{#p/papyrus}{#f/0}ENTÃO TODA ESSA PROVAÇÃO ME DEIXOU CANSADO.',
+                                    "<18>{#p/papyrus}{#f/4}AGORA, NÃO ME JULGUE, MAS...",
+                                    '<18>{#p/papyrus}{#f/4}EU TALVEZ TENHA FECHADO MEUS OLHOS POIS MAIS TEMPO DO QUE ANTECIPADO.'
                                 ]);
                                 if (!ddoggo || !dlesserdog || !ddogs || !dgreatdog || !dknightknight) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/6}IN FACT, I ONLY OPENED THEM AFTER ANOTHER KNOCK!',
-                                        '<18>{#p/papyrus}{#f/0}THIS TIME ON THE FRONT DOOR OF MY HOUSE.'
+                                        '<18>{#p/papyrus}{#f/6}NA VERDADE, EU SÓ OS ABRI APÓS MAIS UMA BATIDA!',
+                                        '<18>{#p/papyrus}{#f/0} DESSA VEZ NA PORTA DA FRENTE DE MINHA CASA.'
                                     ]);
                                 } else if (!ddoge || !droyalguards) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/6}IN FACT, I ONLY OPENED THEM AFTER ANOTHER CALL!',
-                                        '<18>{#p/papyrus}{#f/0}THIS TIME WHILE I WAS AT HOME.'
+                                        '<18>{#p/papyrus}{#f/6}NA VERDADE, EU SÓ OS ABRI APÓS OUTRA LIGAÇÃO!',
+                                        '<18>{#p/papyrus}{#f/0}DESSA VEZ, ENQUANTO EU ESTAVA EM CASA.'
                                     ]);
                                 } else {
                                     addB([
-                                        '<19>{#p/papyrus}{#f/6}IN FACT, I ONLY OPENED THEM AFTER ANOTHER APPEARANCE!',
-                                        '<18>{#p/papyrus}{#f/0}THIS TIME AT MY OWN HOUSE.'
+                                        '<19>{#p/papyrus}{#f/6}NA VERDADE, EU SÓ OS ABRI APÓS OUTRA PESSOA APARECER!',
+                                        '<18>{#p/papyrus}{#f/0}DESSA VEZ, NA MINHA CASA.'
                                     ]);
                                 }
                                 addB([
-                                    '<18>{#p/papyrus}{#f/5}IT WAS SOMEONE ELSE WHO WANTED MY HELP...',
-                                    '<18>{#p/papyrus}{#f/0}FORTUNATELY, I HAD ALL THE ENERGY I NEEDED NOW!',
-                                    '<18>{#p/papyrus}{#f/0}AND SO, I HELPED THEM, TOO.',
-                                    '<18>{#p/papyrus}{#f/4}THE NEXT DAY, SOMEONE ELSE CAME LOOKING FOR ME.',
-                                    '<18>{#p/papyrus}{#f/5}THE DAY AFTER THAT, TWO PEOPLE WANTED ME.',
-                                    '<18>{#p/papyrus}{#f/6}THEN THREE!\nTHEN FIVE!!\nTHEN SEVEN!!!',
-                                    '<25>{#p/sans}{#f/2}* then eleven?',
-                                    '<18>{#p/papyrus}{#f/4}NO, UNFORTUNATELY THE NON-COMPOSITES STOPPED THERE.',
-                                    '<18>{#p/papyrus}{#f/6}DESPITE THAT, I DID MY BEST TO HELP THEM ALL!!',
-                                    '<18>{#p/papyrus}{#f/5}AS MY POPULARITY GREW, I REALIZED...',
-                                    "<18>{#p/papyrus}{#f/6}I'D HAVE TO TAKE THINGS TO THE NEXT LEVEL!!",
-                                    '<18>{#p/papyrus}{#f/9}SO I MADE SLOGANS!\nBOUGHT BUILDINGS!\nHIRED EMPLOYEES!',
-                                    '<18>{#p/papyrus}{#f/4}EVENTUALLY, I QUIT MY JOB LOOKING AFTER THE HUMANS.',
-                                    '<18>{#p/papyrus}{#f/6}THE ROYAL GUARD I HELPED ORIGINALLY DOES THAT NOW!!',
-                                    '<18>{#p/papyrus}{#f/0}AND SO MY FOCUS SHIFTED TO WORKING AT MY COMPANY.',
-                                    '<18>{#p/papyrus}{#f/0}CALLED \"THERAPYRUS INDUSTRIES.\"',
-                                    '<18>{#p/papyrus}{#f/9}\"DEALING WITH YOUR EMOTIONS SO -YOU- DON\'T HAVE TO!\"',
-                                    '<25>{#p/sans}{#f/0}* love that tagline.',
-                                    '<18>{#p/papyrus}{#f/0}ALSO, SANS IS MY RECEPTIONIST.',
-                                    "<18>{#p/papyrus}{#f/9}HE'S GREAT AT MAKING SURE I HAVE TIME FOR EVERYONE!",
-                                    '<18>{#p/papyrus}{#f/5}FOR ONCE, MY BROTHER IS GREAT AT SOMETHING...',
-                                    "<18>{#p/papyrus}{#f/0}I'VE NEVER BEEN SO PROUD OF HIM!!",
-                                    '<25>{#p/sans}{#f/0}* yeah, this company really brought out the best in us.',
-                                    '<18>{#p/papyrus}{#f/9}YEAH, IT MIGHT EVEN BE OUR TRUE CALLING!!!',
-                                    '<25>{#p/sans}{#f/2}* heheh, calling.',
-                                    "<18>{#p/papyrus}{#f/6}WHAT!?\nWHAT'S SO FUNNY?",
-                                    '<25>{#p/sans}{#f/3}* oh, nothing.',
-                                    "<18>{#p/papyrus}{#f/4}YOU HAVEN'T CHANGED A BIT.",
-                                    '<18>{#p/papyrus}{#f/5}...\nWELL, ANYWAY...',
-                                    "<18>{#p/papyrus}{#f/6}DESPITE WHAT YOU'VE DONE, I...",
-                                    '<18>{#p/papyrus}{#f/5}I HOPE YOU FIND YOUR TRUE CALLING TOO, ONE DAY.',
-                                    '<18>{#p/papyrus}{#f/4}AND IF YOU EVER NEED SOMEONE TO TALK TO...',
-                                    '<18>{#p/papyrus}{#f/6}YOU KNOW EXACTLY WHO TO...',
-                                    '<18>{#p/papyrus}{#f/4}... OH, I GET IT.\nVERY FUNNY, SANS.',
-                                    '<25>{#p/sans}{#f/2}* glad you finally picked up on that one.',
-                                    '<18>{#p/papyrus}{#f/7}ANYWAY, YOU KNOW WHO TO CALL!!!'
+                                    '<18>{#p/papyrus}{#f/5}ERA MAIS ALGUÉM PEDINDO AJUDA...',
+                                    '<18>{#p/papyrus}{#f/0}FELIZMENTE, EU TINHA TODA A ENERGIA QUE PRECISAVA!',
+                                    '<18>{#p/papyrus}{#f/0}E ENTÃO, EU OS AJUDEI TAMBÉM!',
+                                    '<18>{#p/papyrus}{#f/4}NO PRÓXIMO DIA, MAIS ALGUÉM VEIO PROCURANDO POR MIM.',
+                                    '<18>{#p/papyrus}{#f/5}NO DIA APÓS ISSO, DUAS PESSOAS ME QUISERAM.',
+                                    '<18>{#p/papyrus}{#f/6}ENTÃO TRÊS!\nENTÃO CINCO!\nENTÃO SETE!',
+                                    '<25>{#p/sans}{#f/2}* então onze?',
+                                    '<18>{#p/papyrus}{#f/4}NÃO, INFELIZMENTE PAROU POR AÍ.',
+                                    '<18>{#p/papyrus}{#f/6}MESMO COM MEU ESFORÇO PARA AJUDAR TODOS ELES!!',
+                                    '<18>{#p/papyrus}{#f/5}ENQUANTO MINHA POPULARIDADE CRESCEU, EU ENTENDI...',
+                                    "<18>{#p/papyrus}{#f/6}QUE EU TINHA QUE LEVAR AS COISAS PARA O PRÓXIMO NÍVEL!",
+                                    '<18>{#p/papyrus}{#f/9}ENTÃO EU FIZ SLOGANS!\nCOMPREI CONSTRUÇÕES!\nCONTRATEI TRABALHADORES!',
+                                    '<18>{#p/papyrus}{#f/4}EVENTUALMENTE, LARGUEI MEU EMPREGO CUIDANDO DOS HUMANOS.',
+                                    '<18>{#p/papyrus}{#f/6}A GUARDA REAL QUE EU AJUDEI ORIGINALMENTE, AGORA FAZ ISSO!!',
+                                    '<18>{#p/papyrus}{#f/0}E EU FOQUEI MINHA MENTE EM TRABALHAR PELA COMPANHIA.',
+                                    '<18>{#p/papyrus}{#f/0}CHAMADA \"TERAPYRUS INDÚSTRIAS.\"',
+                                    '<18>{#p/papyrus}{#f/9}\"LIDANDO COM SUAS EMOÇÕES, ENTÃO -VOCÊ- NÃO PRECISA!\"',
+                                    '<25>{#p/sans}{#f/0}* amei a linha de marketing.',
+                                    '<18>{#p/papyrus}{#f/0}E O SANS É MEU RECEPCIONISTA.',
+                                    "<18>{#p/papyrus}{#f/9}ELE É ÓTIMO EM GARANTIR QUE EU TENHA TEMPO PARA TODOS!",
+                                    '<18>{#p/papyrus}{#f/5}PELA PRIMEIRA VEZ, MEU IRMÃO É BOM EM ALGUMA COISA...',
+                                    "<18>{#p/papyrus}{#f/0}EU NUNCA ESTIVE TÃO ORGULHOSO DELE!!",
+                                    '<25>{#p/sans}{#f/0}* é, essa companhia realmente trouxe o melhor de nós.',
+                                    '<18>{#p/papyrus}{#f/9}É, PODE SER O NOSSO VERDADEIRO PROPÓSITO!!!',
+                                    '<25>{#p/sans}{#f/2}* heheh, propósito.',
+                                    "<18>{#p/papyrus}{#f/6}O QUE!?\nO QUE É TÃO ENGRAÇADO?",
+                                    '<25>{#p/sans}{#f/3}* uh, nada.',
+                                    "<18>{#p/papyrus}{#f/4}VOCÊ NÃO MUDOU NADA.",
+                                    '<18>{#p/papyrus}{#f/5}...\n* DE TODA FORMA...',
+                                    "<18>{#p/papyrus}{#f/6}MESMO COM TUDO QUE VOCÊ FEZ, EU...",
+                                    '<18>{#p/papyrus}{#f/5}EU ESPERO QUE VOCÊ ENCONTRE SEU PROPÓSITO, UM DIA.',
+                                    '<18>{#p/papyrus}{#f/4}E SE VOCÊ PRECISAR CONVERSAR COM ALGUÉM...',
+                                    '<18>{#p/papyrus}{#f/6}VOCÊ SABE EXATAMENTE PARA QUEM...',
+                                    '<18>{#p/papyrus}{#f/4}... AH, EU ENTENDI AGORA.\nBEM ENGRAÇADO, SANS.',
+                                    '<25>{#p/sans}{#f/2}* agradecido por você ter entendido.',
+                                    '<18>{#p/papyrus}{#f/7}BEM É ISSO, VOCÊ SABE QUEM LIGAR!!!'
                                 ]);
                             } else {
                                 k = 'dark_alphys_virtual'; // NO-TRANSLATE
 
                                 addB([
-                                    "<18>{#p/papyrus}{#f/5}I KEEP THINKING... ABOUT THOSE WHO'VE DISAPPEARED.",
-                                    "<18>{#p/papyrus}{#f/6}ASGORE, WHO I'D SWAP STORIES WITH SOMETIMES...",
-                                    "<18>{#p/papyrus}{#f/6}UNDYNE, WHO'D GIVE ME WARRIOR TRAINING...",
-                                    "<18>{#p/papyrus}{#f/5}THE ROYAL GUARD, WHO'D GREET ME ON THEIR WAY TO WORK.",
-                                    '<18>{#p/papyrus}{#f/6}I USED TO SPEND SO MUCH TIME WITH THEM, BUT NOW...',
-                                    "<18>{#p/papyrus}{#f/5}THEY'RE GONE.",
-                                    "<18>{#p/papyrus}{#f/5}AND I DON'T KNOW WHEN THEY'RE COMING BACK.",
-                                    "<18>{#p/papyrus}{#f/7}... IT'S HIGHLY INFURIATING!!!",
-                                    "<18>{#p/papyrus}{#f/4}HAVEN'T ANY OF THEM HEARD OF A SCHEDULE?",
-                                    '<18>{#p/papyrus}{#f/6}OR A CALENDAR!?',
-                                    "<18>{#p/papyrus}{#f/5}ANYTHING TO TELL ME WHEN THEY'RE COMING BACK!",
-                                    "<25>{#p/sans}{#f/3}* hey, i miss 'em too.",
-                                    "<25>{#p/sans}{#f/0}* but you can't spend all your life thinking about 'em.",
-                                    '<25>{#p/sans}{#f/2}* maybe you could talk about something else?',
-                                    '<18>{#p/papyrus}{#f/4}HMM...\nSOMETHING ELSE...',
-                                    '<18>{#p/papyrus}{#f/0}OH, I KNOW!\nTHE ARCHIVE WORLD!',
-                                    '<25>{#p/sans}{#f/2}* of course.\n* you and alphys spend a lot of time there.',
-                                    '<18>{#p/papyrus}{#f/9}AND FOR GOOD REASON!',
-                                    '<18>{#p/papyrus}{#f/0}OKAY, SO, LET ME EXPLAIN.',
-                                    '<18>{#p/papyrus}{#f/4}WITH NOTHING TO DO EXCEPT GUARD THE HUMAN SOULS...',
-                                    '<18>{#p/papyrus}{#f/0}I STARTED HAVING A LOT OF FREE TIME.',
-                                    '<18>{#p/papyrus}{#f/6}BUT WHAT WOULD I DO WITH IT!?',
-                                    '<18>{#p/papyrus}{#f/0}ONE DAY, IN A STORAGE CLOSET, I FOUND... A THING.',
-                                    '<18>{#p/papyrus}{#f/5}I ASKED ALPHYS WHAT THE THING WAS, AND...',
-                                    '<18>{#p/papyrus}{#f/6}BOY DID SHE HAVE A LOT TO SAY!!',
-                                    '<18>{#p/papyrus}{#f/0}APPARENTLY, IT WAS USED TO SIMULATE VIRTUAL WORLDS.',
-                                    '<18>{#p/papyrus}{#f/5}I ASKED HER IF WE COULD TRY IT, AND...',
-                                    '<18>{#p/papyrus}{#f/4}BEING JUST AS BORED AS I WAS, SHE SAID YES.',
-                                    "<18>{#p/papyrus}{#f/0}THE ARCHIVE DIDN'T HAVE A WORLD LOADED, THOUGH.",
-                                    '<18>{#p/papyrus}{#f/0}SO SHE DOWNLOADED A POPULAR SCI-FI ANIME...',
-                                    '<18>{#p/papyrus}{#f/0}AND LET THE SYSTEM \"EXTRAPOLATE\" THE WORLD WITHIN.',
-                                    '<18>{#p/papyrus}{#f/5}THEN SHE TOLD ME TO PUT ON THIS WEIRD HEADSET...',
-                                    '<18>{#p/papyrus}{#f/6}I WAS NERVOUS, BUT I DID IT IN THE NAME OF SCIENCE!!',
-                                    '<18>{#p/papyrus}{#f/4}THE NEXT THING I KNEW, I WAS TRANSPORTED...',
-                                    "<18>{#p/papyrus}{#f/9}TO A WORLD BEYOND ANYTHING I'D SEEN BEFORE!!!",
-                                    '<18>{#p/papyrus}{#f/5}I EXPLORED THIS NEW REALM FOR HOURS...',
-                                    '<18>{#p/papyrus}{#f/5}WANDERING FROM PLANET TO PLANET, MEETING PEOPLE...',
-                                    "<18>{#p/papyrus}{#f/0}OF COURSE, I KNOW THEY'RE NOT REAL.",
-                                    '<18>{#p/papyrus}{#f/6}BUT WHEN ONE OF THEM GOT HURT, I FELT BAD!',
-                                    '<18>{#p/papyrus}{#f/5}SO, I MADE IT MY MISSION TO SAVE EVERYONE I COULD.',
-                                    '<18>{#p/papyrus}{#f/0}EVENTUALLY, ALPHYS JOINED IN AS MY SIDEKICK!',
-                                    "<18>{#p/papyrus}{#f/0}WE'VE BEEN ADVENTURING EVER SINCE.",
-                                    "<25>{#p/sans}{#f/0}* she's in there right now, isn't she?",
-                                    '<25>{#p/sans}{#f/2}* maybe you should go check on her.',
-                                    '<18>{#p/papyrus}{#f/9}YEAH, I THINK I WILL!',
-                                    '<18>{#p/papyrus}{#f/0}SORRY, HUMAN.\nADVENTURE WAITS FOR NO SKELETON!',
+                                    "<18>{#p/papyrus}{#f/5}EU CONTINUO PENSANDO SOBRE... AQUELES QUE DESAPARECERAM.",
+                                    "<18>{#p/papyrus}{#f/6}ASGORE, COM QUEM EU COMPARTILHAVA HISTÓRIAS AS VEZES...",
+                                    "<18>{#p/papyrus}{#f/6}UNDYNE, QUE ME DAVA UM TREINO DE GUERRA...",
+                                    "<18>{#p/papyrus}{#f/5}A GUARDA REAL, QUE ME CUMPRIMENTAVA RUMO AO TRABALHO.",
+                                    '<18>{#p/papyrus}{#f/6}EU COSTUMAVA PASSAR TANTO TEMPO COM ELES, MAS AGORA...',
+                                    "<18>{#p/papyrus}{#f/5}ELES SE FORAM.",
+                                    "<18>{#p/papyrus}{#f/5}E EU NÃO SEI SE ELES VÃO VOLTAR.",
+                                    "<18>{#p/papyrus}{#f/7}... É MUITO FRUSTRANTE!!!",
+                                    "<18>{#p/papyrus}{#f/4}ELES NUNCA OUVIRAM FALAR DE SAUDADES?",
+                                    '<18>{#p/papyrus}{#f/6}OU CALENDÁRIO?',
+                                    "<18>{#p/papyrus}{#f/5}QUALQUER COISA PARA ME DIZER QUANDO E SE VÃO VOLTAR!",
+                                    "<25>{#p/sans}{#f/3}* ei, eu sinto falta deles também.",
+                                    "<25>{#p/sans}{#f/0}* mas você não pode passar o dia inteiro pensando neles.",
+                                    '<25>{#p/sans}{#f/2}* talvez você possa falar sobre alguma outra coisa?',
+                                    '<18>{#p/papyrus}{#f/4}HMM...\nALGUMA OUTRA COISA...',
+                                    '<18>{#p/papyrus}{#f/0}OH, EU SEI!\nO MUNDO NO ARQUIVO!',
+                                    '<25>{#p/sans}{#f/2}* É CLARO.\n* VOCÊ E A ALPHYS PASSAM MUITO TEMPO LÁ.',
+                                    '<18>{#p/papyrus}{#f/9}E POR UMA BOA RAZÃO!',
+                                    '<18>{#p/papyrus}{#f/0}OKAY, ENTÃO, DEIXE-ME EXPLICAR.',
+                                    '<18>{#p/papyrus}{#f/4}COM NADA PARA FAZER ALÉM DE GUARDAR AS ALMAS HUMANAS...',
+                                    '<18>{#p/papyrus}{#f/0}EU COMECEI A PASSAR MUITO TEMPO ALÍ.',
+                                    '<18>{#p/papyrus}{#f/6}MAS O QUE EU FARIA COM AQUILO!?',
+                                    '<18>{#p/papyrus}{#f/0}UM DIA, EM UM ARMÁRIO DE ARMAZENAMENTO, ENCONTREI... UMA COISA.',
+                                    '<18>{#p/papyrus}{#f/5}EU PERGUNTEI PARA ALPHYS O QUE ERA AQUILO E...',
+                                    '<18>{#p/papyrus}{#f/6}MEU, ELA TINHA MUITO PARA FALAR!!',
+                                    '<18>{#p/papyrus}{#f/0} APARENTEMENTE, AQUILO FOI USADO PARA SIMULAR MUNDOS VIRTUAIS.',
+                                    '<18>{#p/papyrus}{#f/5}EU PERGUNTEI PRA ELA SE PODIAMOS TENTAR E...',
+                                    '<18>{#p/papyrus}{#f/4}ESTANDO TÃO ENTEDIADA QUANTO EU, ELA DISSE SIM.',
+                                    "<18>{#p/papyrus}{#f/0}ENTRETANTO, O ARQUIVO NÃO TINHA UM MUNDO CARREGADO.",
+                                    '<18>{#p/papyrus}{#f/0}ENTÃO ELA FEZ O DOWNLOAD DE UM ANIME SCI-FI POPULAR...',
+                                    '<18>{#p/papyrus}{#f/0}E DEIXOU O SISTEMA \"EXTRAPOLAR\" O MUNDO A VONTADE.',
+                                    '<18>{#p/papyrus}{#f/5}ENTÃO ELA ME FALOU PRA COLOCAR AQUELE FONE ESQUISITO...',
+                                    '<18>{#p/papyrus}{#f/6}EU ESTAVA NERVOSO, MAS O FIZ EM NOME DA CIÊNCIA!!',
+                                    '<18>{#p/papyrus}{#f/4}A PRÓXIMA COISA QUE ACONTECEU, EU FUI TRANSPORTADO...',
+                                    "<18>{#p/papyrus}{#f/9}PARA UM MUNDO ALÉM DE QUALQUER COISA QUE EH JÁ TENHA VISTO!!!",
+                                    '<18>{#p/papyrus}{#f/5}EU EXPLOREI ESTA NOVA TERRA POR HORAS...',
+                                    '<18>{#p/papyrus}{#f/5}INDO DE LUGAR PARA LUGAR, CONHECENDO PESSOAS...',
+                                    "<18>{#p/papyrus}{#f/0}CLARO, EU SEI QUE ELES NÃO SÃO REAIS.",
+                                    '<18>{#p/papyrus}{#f/6}MAS QUANDO UM DELES FOI FERIDO, EU ME SENTI TRISTE?',
+                                    '<18>{#p/papyrus}{#f/5}ENTÃO, EU FIZ UMA MISSÃO DE SALVAR TODOS QUE EU CONSEGUISSE.',
+                                    '<18>{#p/papyrus}{#f/0} EVENTUALMENTE, ALPHYS JUNTOU-SE A MIM COMO COADJUVANTE!',
+                                    "<18>{#p/papyrus}{#f/0}ESTAMOS NOS AVENTURANDO DESDE ENTÃO.",
+                                    "<25>{#p/sans}{#f/0}* ela está lá agora, não está?",
+                                    '<25>{#p/sans}{#f/2}* talvez você deva ir dar uma olhada nela.',
+                                    '<18>{#p/papyrus}{#f/9}É, ACHO QUE VOU FAZER ISSO!',
+                                    '<18>{#p/papyrus}{#f/0} DESCULPE-ME HUMANO. A AVENTURA ESPERA ESTE ESQUELETO!',
                                     '<25>{#p/sans}{#f/3}* ...',
-                                    "<25>{#p/sans}{#f/3}* i'm just glad he's got a distraction from what's going on.",
-                                    "<25>{#p/sans}{#f/0}* people aren't doing all that well right now.",
-                                    '<25>{#p/sans}{#f/0}* losing the royal guard, having all those power issues...',
-                                    '<25>{#p/sans}{#f/3}* a lot of folks have nobody to turn to.',
-                                    "<25>{#p/sans}{#f/0}* and, even if they do, it's hard to will up the courage...",
-                                    '<25>{#p/sans}{#f/3}* to admit to anyone how miserable they are.',
+                                    "<25>{#p/sans}{#f/3}* eu só estou feliz que ele tenha uma distração para tudo que está acontecendo.",
+                                    "<25>{#p/sans}{#f/0}* as pessoas não tem estado muito bem esses tempos.",
+                                    '<25>{#p/sans}{#f/0}* perder a guarda real, todos esses problemas com a energia...',
+                                    '<25>{#p/sans}{#f/3}* muitas pessoas nem estão tendo no que se inspirar.',
+                                    "<25>{#p/sans}{#f/0}* E, mesmo se eles tiverem, é difícil se encorajar por muito tempo...",
+                                    '<25>{#p/sans}{#f/3}* ou admitir pra qualquer um o miserável eles estão.',
                                     '<25>{#p/sans}{#f/3}* ...'
                                 ]);
                                 if (hkills > 19) {
                                     addB([
-                                        "<25>{#p/sans}{#f/3}* it's no surprise people aren't fans of humanity these days.",
-                                        '<25>{#p/sans}{#f/0}* you may have spared my brother, but...',
-                                        '<25>{#p/sans}{#f/3}* you killed a lot of people, many of them important.'
+                                        "<25>{#p/sans}{#f/3}* não é surpresa alguma que as pessoas não são muito fãs da humanidade hoje em dia.",
+                                        '<25>{#p/sans}{#f/0}* você pode até ter poupado meu irmão, mas...',
+                                        '<25>{#p/sans}{#f/3}* você matou gente demais, muitos deles importantes.'
                                     ]);
                                 } else {
                                     addB([
-                                        "<25>{#p/sans}{#f/3}* i'm not saying you're a bad person.",
-                                        "<25>{#p/sans}{#f/0}* you spared my brother, and you didn't kill that many people.",
-                                        '<25>{#p/sans}{#f/3}* but the people you did kill were pretty important.'
+                                        "<25>{#p/sans}{#f/3}* eu não estou dizendo que você é a pior pessoa do universo.",
+                                        "<25>{#p/sans}{#f/0}* você poupou meu irmão e não matou tantas pessoas.",
+                                        '<25>{#p/sans}{#f/3}* mas as pessoas que você matou eram bem importantes.'
                                     ]);
                                 }
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* ... as much as i disagreed with their ways...',
-                                    '<25>{#p/sans}{#f/0}* the royal guard offered citizens a sense of stability and security.',
-                                    "<25>{#p/sans}{#f/3}* but that's gone now.",
-                                    "<25>{#p/sans}{#f/3}* heck, even mettaton's not around anymore.",
-                                    '<25>{#p/sans}{#f/0}* no more tv shows, no more tacky little trinkets...',
-                                    '<25>{#p/sans}{#f/0}* without someone like him, the outpost loses a bit of its spark.'
+                                    '<25>{#p/sans}{#f/0}* ... por mais que discordo dos seus caminhos...',
+                                    '<25>{#p/sans}{#f/0}* a guarda real dava aos cidadãos a sensação de segurança e estabilidade.',
+                                    "<25>{#p/sans}{#f/3}* mas isso agora se foi.",
+                                    "<25>{#p/sans}{#f/3}* pois é, nem o mettaton está mais por aí.",
+                                    '<25>{#p/sans}{#f/0}* sem mais show de tv, sem mais diversões por Aerialis...',
+                                    '<25>{#p/sans}{#f/0}* ao perder alguém como ele, também perdemos parte do brilho do outpost.'
                                 ]);
                                 if (hkills > 19) {
                                     addB([
-                                        "<25>{#p/sans}{#f/3}* honestly, the truth is that you're just not a great person.",
-                                        '<25>{#p/sans}{#f/3}* plain and simple.',
-                                        '<25>{#p/sans}{#f/0}* ... anyway.\n* i should probably end the call here.',
-                                        '<25>{#p/sans}{#f/3}* sorry, buddo.',
+                                        "<25>{#p/sans}{#f/3}* honestamente, a verdade é que você não é uma boa pessoa.",
+                                        '<25>{#p/sans}{#f/3}* simples e bem explicado.',
+                                        '<25>{#p/sans}{#f/0}* ... de toda forma.\n* eu deveria desligar agora.',
+                                        '<25>{#p/sans}{#f/3}* foi mal, mano.',
                                         '<25>{#p/sans}{#f/3}* ...'
                                     ]);
                                 } else {
                                     addB([
-                                        "<25>{#p/sans}{#f/3}* honestly, i'm not sure what to say about you.",
-                                        "<25>{#p/sans}{#f/3}* i can't say you're a bad person, but i don't like you, either.",
-                                        '<25>{#p/sans}{#f/0}* ... anyway.\n* i should probably end the call here.',
-                                        '<25>{#p/sans}{#f/3}* sorry, buddo.',
-                                        '<25>{#p/sans}{#f/3}* have a safe journey, and all that.'
+                                        "<25>{#p/sans}{#f/3}* honestamente, eu não sei muito bem o que dizer sobre você.",
+                                        "<25>{#p/sans}{#f/3}* eu não posso te dizer que você é de todo mau, mas também não gosto de você.",
+                                        '<25>{#p/sans}{#f/0}* ... de toda forma.\n* eu deveria desligar agora.',
+                                        '<25>{#p/sans}{#f/3}* foi mal, mano.',
+                                        '<25>{#p/sans}{#f/3}* boa jornada aí fora.'
                                     ]);
                                 }
                                 addB(['<32>{#s/equip}{#p/event}* Click...']);
                             }
                         } else {
                             if (!dtoriel) {
-                                addB(['<25>{#p/sans}{#f/0}* which meant it was back to the drawing board.']);
+                                addB(['<25>{#p/sans}{#f/0}*, o que significava que estava de volta à prancheta.']);
                             } else {
-                                addB(["<25>{#p/sans}{#f/0}* i couldn't think of anyone off the top of my head, so..."]);
+                                addB(["<25>{#p/sans}{#f/0}* eu não conseguia pensar em mais ninguém, então..."]);
                             }
-                            addB(['<25>{#p/sans}{#f/0}* ... we started asking around, looking for someone we could trust.']);
+                            addB(['<25>{#p/sans}{#f/0}* ... começamos a perguntar pessoas em todos os lados, a procura de alguém de confiança.']);
                             if (!ddoggo) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about doggo...',
-                                    '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/2}* luckily, he was more than happy to take the job.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Doggo...?'
+                                    '<25>{#p/sans}{#f/3}* bem rapidamente, encontramos o doggo...',
+                                    '<25>{#p/sans}{#f/0}* um membro da unidade canina que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/2}* felizmente, ele estava bem feliz em tomar o trabalho.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o Doggo...?'
                                 ]);
                             } else if (!dlesserdog) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about canis minor...',
-                                    '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/2}* luckily, it was more than happy to take the job.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Canis Minor...?'
+                                    '<25>{#p/sans}{#f/3}* bem rapidamente, encontramos o canis minor...',
+                                    '<25>{#p/sans}{#f/0}* um membro da unidade canina que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/2}* felizmente, ele estava mais do que feliz em tomar o trabalho.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o Canis Minor...?'
                                 ]);
                             } else if (!ddogs) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about dogamy and dogaressa...',
-                                    '<25>{#p/sans}{#f/0}* two canine unit members who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/2}* luckily, they were more than happy to take the job.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Dogamy and Dogaressa?'
+                                    '<25>{#p/sans}{#f/3}* bem rapidamente, encontramos dogamy e dogaressa...',
+                                    '<25>{#p/sans}{#f/0}* dois membros da unidade canina que sobreviveram a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/2}* com sorte, eles estavam felizes em tomar o trabalho.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o Dogamy e a Dogaressa?'
                                 ]);
                             } else if (!dgreatdog) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about canis major...',
-                                    '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/2}* luckily, it was more than happy to take the job.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Canis Major?'
+                                    '<25>{#p/sans}{#f/3}* rapidamente, encontramos o major canis...',
+                                    '<25>{#p/sans}{#f/0}* um membro da unidade canina que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/2}* felizmente, ele estava mais do que feliz em tomar o trabalho.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o major canis?'
                                 ]);
                             } else if (!ddoge) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about doge...',
-                                    '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/3}* she gathered her belongings, and took the job in short order.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Doge?'
+                                    '<25>{#p/sans}{#f/3}* rapidamente, encontramos Doge...',
+                                    '<25>{#p/sans}{#f/0}* um membro do esquadrão de elite que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/3}* ela reuniu seus pertences e aceitou o trabalho em pouco tempo.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre a Doge?'
                                 ]);
                             } else if (!droyalguards) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about 01 and 02...',
-                                    '<25>{#p/sans}{#f/0}* two patrol officers who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/3}* the pair cast off their armor, and took the job in stride.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about 01 and 02?'
+                                    '<25>{#p/sans}{#f/3}* rapidamente, acabamos encontrando 01 e 02...',
+                                    '<25>{#p/sans}{#f/0}* dois oficiais de patrulha que sobreviveram a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/3}* eles pegaram suas armaduras e aceitaram o trabalho.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o 01 e o 02?'
                                 ]);
                             } else if (!dmadjick) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about cozmo...',
-                                    '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/3}* it seemed confused at first, but adjusted to the job quickly.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Cozmo?'
+                                    '<25>{#p/sans}{#f/3}* rapidamente, encontramos o cozmo...',
+                                    '<25>{#p/sans}{#f/0}* um membro do esquadrão de elite que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/3}* ele parecia confuso no início, mas se adaptou ao trabalho com facilidade.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre o Cozmo?'
                                 ]);
                             } else {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* pretty soon, we found out about terrestria...',
-                                    '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                                    '<25>{#p/sans}{#f/3}* of course, she accepted the job with reverence and dignity.',
-                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Terrestria?'
+                                    '<25>{#p/sans}{#f/3}* rapidamente, nós encontramos terrestria...',
+                                    '<25>{#p/sans}{#f/0}* um membro do esquadrão de elite que sobreviveu a queda da guarda real.',
+                                    '<25>{#p/sans}{#f/3}* é claro, ela aceitou o trabalho com reverência e dignidade.',
+                                    '<25>{#p/alphys}{#f/27}* Huh?\n* Com quem você está falando sobre a terrestria?'
                                 ]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* oh, hey alphys.\n* i'm leaving a message for the human.",
-                                '<25>{#p/alphys}{#f/17}* Oh, right.\n* You said you were going to do that.'
+                                "<25>{#p/sans}{#f/0}* ah, oi alphys.\n* estou deixando uma mensagem para o humano.",
+                                '<25>{#p/alphys}{#f/17}* Oh, certo.\n* Você disse mesmo que iria fazer isso.'
                             ]);
                             if (!ddoggo) {
                                 addB([
-                                    "<25>{#p/alphys}{#f/6}* Yeah, Doggo can get nervous sometimes, but I've helped him before.",
-                                    '<25>{#p/alphys}{#f/8}* Just having me around seems to make him happy to do his job.'
+                                    "<25>{#p/alphys}{#f/6}* É, Doggo pode ficar nervoso algumas vezes, mas eu já o ajudei antes.",
+                                    '<25>{#p/alphys}{#f/8}* Só de me ter por perto já o faz feliz o suficiente para trabalhar.'
                                 ]);
                             } else if (!dlesserdog) {
                                 addB([
-                                    '<25>{#p/alphys}{#f/6}* Yeah, that neck can be a problem sometimes, but it does a good job.',
-                                    '<25>{#p/alphys}{#f/8}* All it asks for in return is to be pet many, many times.'
+                                    '<25>{#p/alphys}{#f/6}* É, aquele pescoço pode dar trabalho de vez em quando, mas faz um ótimo trabalho.',
+                                    '<25>{#p/alphys}{#f/8}* Tudo que ele pedia em retorno era ser acariciado várias e várias vezes.'
                                 ]);
                             } else if (!ddogs) {
                                 addB([
-                                    "<25>{#p/alphys}{#f/6}* Yeah, those dogs do alright as long as they're together.",
-                                    '<25>{#p/alphys}{#f/8}* All they ask for in return is... well, lots of \"alone time.\"'
+                                    "<25>{#p/alphys}{#f/6}* É, aqueles cachorros se saem bem com tanto que estejam unidos.",
+                                    '<25>{#p/alphys}{#f/8}* Tudo que eles pediram em retorno era... bem, um \"longo tempo\" a sós.'
                                 ]);
                             } else if (!dgreatdog) {
                                 addB([
-                                    '<25>{#p/alphys}{#f/6}* Yeah, not only does that dog do its job, but it does so eagerly.',
-                                    '<25>{#p/alphys}{#f/8}* All it asks for in return is a copious amount of headpats.'
+                                    '<25>{#p/alphys}{#f/6}* É, não apenas ele faz seu trabalho, mas faz com felicidade.',
+                                    '<25>{#p/alphys}{#f/8}* Tudo o que ele pede em troca é uma grande quantidade de tapinhas na cabeça.'
                                 ]);
                             } else if (!ddoge) {
                                 addB([
-                                    "<25>{#p/alphys}{#f/6}* Yeah, Doge can be a little cold, but she knows what she's doing.",
-                                    '<25>{#p/alphys}{#f/8}* We usually reward her with a cold shower.\n* A bit odd, but okay.'
+                                    "<25>{#p/alphys}{#f/6}* É, Doge pode ser fria, mas ela sabe o que faz.",
+                                    '<25>{#p/alphys}{#f/8}* Normalmente recompensamos ela com um banho frio.\n* Meio coincidente, mas tudo bem.'
                                 ]);
                             } else if (!droyalguards) {
                                 addB([
-                                    '<26>{#p/alphys}{#f/6}* Yeah, 01 and 02 are cute, and... also happen to do a good job.',
-                                    '<25>{#p/alphys}{#f/8}* We usually reward them with ice cream.\n* They love that stuff.'
+                                    '<26>{#p/alphys}{#f/6}* É, 01 e 03 são fofos, e... eles tem feito um ótimo trabalho.',
+                                    '<25>{#p/alphys}{#f/8}* Normalmente os compensamos com sorvete.\n* Eles amam.'
                                 ]);
                             } else if (!dmadjick) {
                                 addB([
-                                    "<25>{#p/alphys}{#f/6}* Yeah, it can get antsy at times, but it's done well overall.",
-                                    '<25>{#p/alphys}{#f/8}* We usually reward it with poems.\n* It likes those.'
+                                    "<25>{#p/alphys}{#f/6}* É, ele pode ficar confuso as vezes, mas faz um ótimo trabalho.",
+                                    '<25>{#p/alphys}{#f/8}* Normalmente o compensamos com poemas encontrados.\n* Ele os ama.'
                                 ]);
                             } else {
                                 addB([
-                                    "<25>{#p/alphys}{#f/6}* Yeah, she's... done a really good job.",
-                                    '<25>{#p/alphys}{#f/8}* We usually reward her with lullabies.\n* She finds them calming.'
+                                    "<25>{#p/alphys}{#f/6}* É, ela... tem feito um ótimo trabalho.",
+                                    '<25>{#p/alphys}{#f/8}* Costumamos recompensá-la com canções de ninar.\n* Ela as acha acalmantes.'
                                 ]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* yup, it's a pretty good arrangement.",
-                                "<25>{#p/sans}{#f/3}* everyone gets what they want, and everyone's happy.",
+                                "<25>{#p/sans}{#f/0}* Sim, foi um bom arranjo.",
+                                "<25>{#p/sans}{#f/3}* todo mundo ganha o que quer, todo mundo está feliz.",
                                 '<25>{#p/sans}{#f/3}* ...',
-                                '<25>{#p/sans}{#f/3}* well, i say everyone.',
-                                '<25>{#p/alphys}{#f/15}* ... right...',
-                                "<25>{#p/alphys}{#f/10}* I'm just... gonna let you two keep talking.",
-                                '<25>{#p/sans}{#f/0}* actually, we were almost done.',
+                                '<25>{#p/sans}{#f/3}* bem, eu disse todo mundo.',
+                                '<25>{#p/alphys}{#f/15}* ... certo...',
+                                "<25>{#p/alphys}{#f/10}* Eu vou só... deixar vocês dois conversarem.",
+                                '<25>{#p/sans}{#f/0}* na verdade, estamos quase finalizando.',
                                 '<25>{#p/alphys}{#f/17}* ... oh.',
-                                "<25>{#p/sans}{#f/3}* look, it hasn't been easy for a single person on the outpost.",
-                                '<25>{#p/sans}{#f/0}* not for me, not for alphys...',
-                                '<25>{#p/sans}{#f/3}* ... not for anyone.',
-                                "<25>{#p/alphys}{#f/24}* Yep, because that's what happens when you kill a bunch of people.",
-                                '<25>{#p/alphys}{#f/25}* Who would have thought.'
+                                "<25>{#p/sans}{#f/3}* olha, não tem sido fácil para uma única pessoa no outpost.",
+                                '<25>{#p/sans}{#f/0}* nem pra mim, nem pra alphys...',
+                                '<25>{#p/sans}{#f/3}* ... pra ninguém.',
+                                "<25>{#p/alphys}{#f/24}* Pois é, é isso que acontece quando você mata tantas pessoas.",
+                                '<25>{#p/alphys}{#f/25}* Quem poderia imaginar.'
                             ]);
                             if (hkills > 19) {
                                 addB([
-                                    '<25>{#p/sans}{#f/3}* except it was more than just \"a bunch of people.\"',
-                                    '<25>{#p/sans}{#f/0}* it was... a lot of important people.',
-                                    '<25>{#p/sans}{#f/0}* people whose loss impacted everyone on the outpost.',
-                                    '<25>{#p/sans}{#f/3}* ... and, there was one person you killed...'
+                                    '<25>{#p/sans}{#f/3}* exceto de que foi mais do que um \"tanto de pessoas.\"',
+                                    '<25>{#p/sans}{#f/0}* foram... pessoas muito importantes.',
+                                    '<25>{#p/sans}{#f/0}* pessoas que a perda impactou todos no outpost.',
+                                    '<25>{#p/sans}{#f/3}* ... e tem uma pessoa que você matou...'
                                 ]);
                             } else {
                                 addB([
-                                    "<25>{#p/sans}{#f/3}* to be fair, it could've been a lot worse.",
-                                    '<25>{#p/sans}{#f/0}* i can understand defending yourself against the royal guard.',
-                                    '<25>{#p/sans}{#f/0}* and, even outside of that, you were mostly alright.',
-                                    '<25>{#p/sans}{#f/3}* ... but, there was one person you killed...'
+                                    "<25>{#p/sans}{#f/3}* para ser sincero, poderia ter sido bem pior.",
+                                    '<25>{#p/sans}{#f/0}* eu entendo você se defender contra a guarda real.',
+                                    '<25>{#p/sans}{#f/0}* e mesmo fora disso, maior parte do que você fez estava correto.',
+                                    '<25>{#p/sans}{#f/3}* ... mas, existe uma pessoa que você matou...'
                                 ]);
                             }
-                            addB(['<25>{#p/sans}{#f/0}* that i know for certain you had no reason to.']);
+                            addB(['<25>{#p/sans}{#f/0}* que eu tenho certeza que não havia motivos.']);
                             if (
                                 world.edgy ||
                                 (world.population_area('s') <= 0 && !world.bullied_area('s')) // NO-TRANSLATE
 
                             ) {
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* someone who only wanted you to be a better person.',
-                                    '<25>{#p/sans}{#f/3}* before you struck him down and declared your true nature.'
+                                    '<25>{#p/sans}{#f/0}* alguém que só queria que você fosse uma pessoa melhor.',
+                                    '<25>{#p/sans}{#f/3}* antes de você mata-lo brutalmente e revelar sua natureza.'
                                 ]);
                             } else {
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* someone who would have never hurt you, no matter what.',
-                                    '<25>{#p/sans}{#f/3}* whereas you seemed almost eager to end his life.'
+                                    '<25>{#p/sans}{#f/0}* alguém que jamais iria te ferir de verdade, não importava o que.',
+                                    '<25>{#p/sans}{#f/3}* mas parece que você se esforçou muito para acabar com a vida dele.'
                                 ]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* don't lie to yourself.\n* you know exactly who i'm referring to.",
-                                '<25>{#p/alphys}{#f/20}* I certainly do.',
-                                "<25>{#p/sans}{#f/3}* ...\n* if you're out there, somewhere...",
-                                "<25>{#p/sans}{#f/0}* i hope you realize how bad you've made things here.",
-                                '<25>{#p/sans}{#f/0}* no asgore, or undyne.\n* no royal guard.\n* no mettaton.',
-                                '<25>{#p/sans}{#f/3}* ... no reason to keep this phone call going any longer.',
+                                "<25>{#p/sans}{#f/0}* não minta para si mesmo.\n* você sabe exatamente de quem estou falando.",
+                                '<25>{#p/alphys}{#f/20}* Eu certamente sei.',
+                                "<25>{#p/sans}{#f/3}* ...\n* se você está aí fora, em algum lugar...",
+                                "<25>{#p/sans}{#f/0}* eu espero que você perceba o desastre que fez aqui.",
+                                '<25>{#p/sans}{#f/0}* sem asgore, ou undyne.\n* sem guarda real.\n* sem mettaton.',
+                                '<25>{#p/sans}{#f/3}* ... sem razões para manter essa ligação por qualquer tempo a mais que seja.',
                                 '<32>{#s/equip}{#p/event}* Click...'
                             ]);
                         }
@@ -1127,58 +1127,58 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
-                            '<25>{#p/sans}{#f/4}* is anyone there?',
-                            "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+                            '<25>{#p/sans}{#f/0}* opa.',
+                            '<25>{#p/sans}{#f/4}* tem alguém aí?',
+                            "<25>{#p/sans}{#f/2}* não?\n* bem, eu vou só deixar uma mensagem."
                         ]);
                         addB([
-                            '<25>{#p/sans}{#f/0}* so, after you left, things kind of just got worse and worse.',
-                            '<25>{#p/sans}{#f/3}* asgore was gone, undyne was gone...',
-                            '<25>{#p/sans}{#f/0}* and due to a botched plan involving mettaton and the core...',
-                            '<25>{#p/sans}{#f/3}* issues with the power occured, killing many in the process.',
-                            '<25>{#p/sans}{#f/3}* even the humans in the archive got hit by a power surge.',
-                            '<25>{#p/sans}{#f/0}* long story short, alphys and i put their souls in a safe place.',
-                            '<25>{#p/sans}{#f/3}* but who would we hire to watch over them?',
-                            '<25>{#p/sans}{#f/0}* well, the only person we called who was available...',
-                            '<25>{#p/sans}{#f/0}* a former elite squad member...',
-                            '<25>{#p/sans}{#f/3}* turned out to be a massive trojan horse.',
-                            '<25>{#p/sans}{#f/0}* the moment they were left alone with the souls...',
-                            '<25>{#p/sans}{#f/3}* they took them, and turned themselves from a dummy...',
-                            '<25>{#p/sans}{#f/3}* into mad mew mew, from mew mew starfire.',
-                            '<25>{#p/sans}{#f/0}* also known as the best movie in the mew mew franchise.',
-                            "<25>{#p/sans}{#f/2}* which i definitely didn't say because i'm afraid for my life.",
-                            '<25>{#p/sans}{#f/0}* anyway, as you can tell, things are just wonderful here!',
-                            '<25>{#p/sans}{#f/0}* rather than doing any important work, we all just play games.',
-                            "<25>{#p/sans}{#f/0}* ... which we definitely aren't forced into doing.",
-                            '<25>{#p/sans}{#f/3}* i mean, hey.\n* at least the games are always fair.',
-                            "<25>{#p/sans}{#f/0}* no, really.\n* that's not even a lie.",
-                            "<25>{#p/sans}{#f/0}* 'cause, even when she acts like she WANTS them to be unfair...",
-                            "<25>{#p/sans}{#f/3}* it's like...",
-                            "<25>{#p/sans}{#f/3}* something within her won't let her go that far.",
-                            '<25>{#p/sans}{#f/0}* something stops her.\n* she hesitates, or even backpedals at times.',
-                            '<25>{#p/sans}{#f/0}* there was this one time where, she had an idea...',
-                            "<25>{#p/sans}{#f/3}* for a game where we'd all fight to the death in rounds.",
-                            '<25>{#p/sans}{#f/0}* but just as the match was about to start...',
-                            '<25>{#p/sans}{#f/3}* she changed the rules to make it a fight to knockout instead.',
-                            '<25>{#p/sans}{#f/3}* so...\n* if i had to guess...',
-                            "<25>{#p/sans}{#f/2}* i'd say the human souls gave her more than she bargained for.",
-                            '<25>{#p/sans}{#f/0}* maybe some part of them remains conscious...?',
-                            "<25>{#p/alphys}{#f/17}* Uh, not to interrupt, but it's your move.",
+                            '<25>{#p/sans}{#f/0}* então, após você ir embora as coisas ficaram piores e piores.',
+                            '<25>{#p/sans}{#f/3}* asgore se foi, undyne se foi...',
+                            '<25>{#p/sans}{#f/0}* e devido a um plano estúpido envolvendo mettaton e o core...',
+                            '<25>{#p/sans}{#f/3}* tivemos problemas no suprimento de energia, matando muitos no processo.',
+                            '<25>{#p/sans}{#f/3}* até mesmo os humanos no arquivo foram acertados por um certo poder.',
+                            '<25>{#p/sans}{#f/0}* para encurtar a loga história, eu e a alphys colocamos as almas em lugares seguros.',
+                            '<25>{#p/sans}{#f/3}* mas quem iríamos chamar para olha-las?',
+                            '<25>{#p/sans}{#f/0}* bem, a única pessoa que chamamos que estava viva...',
+                            '<25>{#p/sans}{#f/0}* um membro formal do esquadrão de elite...',
+                            '<25>{#p/sans}{#f/3}* acabou sendo um enorme cavalo de tróia.',
+                            '<25>{#p/sans}{#f/0}* o momento em que foi deixado sozinho com as almas...',
+                            '<25>{#p/sans}{#f/3}* ele pegou para si, transformou-se de um boneco...',
+                            '<25>{#p/sans}{#f/3}* para uma mad mew mew, de mew mew Starfire.',
+                            '<25>{#p/sans}{#f/0}* também conhecido como o melhor filme da franquia mew mew.',
+                            "<25>{#p/sans}{#f/2}* o que eu definitivamente não estou dizendo por temer pela minha vida.",
+                            '<25>{#p/sans}{#f/0}* tanto faz, como você pode ver, as coisas estão maravilhosas aqui!',
+                            '<25>{#p/sans}{#f/0}* mais do que fazer qualquer trabalho importante, só jogamos o dia inteiro.',
+                            "<25>{#p/sans}{#f/0}* ... o que definitivamente não somos forçados a fazer.",
+                            '<25>{#p/sans}{#f/3}* quer dizer, ei.\n* pelo menos os jogos são bem justos.',
+                            "<25>{#p/sans}{#f/0}* não, sérião.\n* essa parte nem é mentira.",
+                            "<25>{#p/sans}{#f/0}* porque, mesmo quando ela age como se quisesse ser injusta...",
+                            "<25>{#p/sans}{#f/3}* é como se...",
+                            "<25>{#p/sans}{#f/3}* algo dentro dela não a permite ir tão longe.",
+                            '<25>{#p/sans}{#f/0}* algo para ela.\n* ela hesita ou até mesmo recua as vezes.',
+                            '<25>{#p/sans}{#f/0}* teve uma vez em que ela teve uma ideia...',
+                            "<25>{#p/sans}{#f/3}* de um jogo onde todos nós lutamos até a morte por turnos.",
+                            '<25>{#p/sans}{#f/0}* mas assim que as lutas estavam para começar...',
+                            '<25>{#p/sans}{#f/3}* ela mudou as regras para apenas desmaiar o adversário.',
+                            '<25>{#p/sans}{#f/3}* então...\n* se eu pudesse adivinhar...',
+                            "<25>{#p/sans}{#f/2}* eu acho que as almas humanas deram a ela mais do que apenas poder.",
+                            '<25>{#p/sans}{#f/0}* talvez parte delas ainda estão conscientes...?',
+                            "<25>{#p/alphys}{#f/17}* Uh, sem querer interromper, mas é sua vez.",
                             '<25>{#p/sans}{#f/0}* huh?',
-                            "<25>{#p/alphys}{#f/18}* The game's all in your hands now!",
-                            '<25>{#p/sans}{#f/3}* ... i see.',
+                            "<25>{#p/alphys}{#f/18}* O jogo está na sua mão agora.",
+                            '<25>{#p/sans}{#f/3}* ... certo.',
                             
-                            '<25>{#p/sans}{#f/0}* i guess i better get out there, then.',
-                            '<25>{#p/alphys}{#f/6}* That would probably be a good idea.',
-                            '<25>{#p/alphys}{#f/23}* For all our sakes.',
-                            '<25>{#p/sans}{#f/0}* but before i go.',
-                            '<25>{#p/sans}{#f/0}* if this call ever reaches you...',
-                            '<25>{#p/sans}{#f/3}* i suggest not letting another human get near us.',
-                            "<25>{#p/sans}{#f/3}* mew mew's planning something big.\n* i can feel it.",
-                            '<25>{#p/sans}{#f/0}* if she succeeds, the whole galaxy might be in danger.',
-                            "<25>{#p/sans}{#f/2}* ... just thought i'd give you a heads up.",
-                            "<25>{#p/alphys}{#f/23}* Come on, let's go!",
-                            "<25>{#p/sans}{#f/0}* i'm on my way.",
+                            '<25>{#p/sans}{#f/0}* eu acho melhor eu vazar daqui, então.',
+                            '<25>{#p/alphys}{#f/6}* Essa provavelmente é uma boa ideia.',
+                            '<25>{#p/alphys}{#f/23}* Pelo bem de todo mundo.',
+                            '<25>{#p/sans}{#f/0}* mas antes de eu ir.',
+                            '<25>{#p/sans}{#f/0}* se essa ligação conseguir te alcançar...',
+                            '<25>{#p/sans}{#f/3}* eu sugiro não deixar outro humano chegar aqui.',
+                            "<25>{#p/sans}{#f/3}* mew mew está planejando algo muito grande.\n* posso sentir.",
+                            '<25>{#p/sans}{#f/0}* se ela conseguir, toda a galáxia estará em perigo.',
+                            "<25>{#p/sans}{#f/2}* ... apenas pensei em te avisar",
+                            "<25>{#p/alphys}{#f/23}* Vai, vamos logo!",
+                            "<25>{#p/sans}{#f/0}* estou indo.",
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]);
                     } else {
@@ -1188,45 +1188,45 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
-                            '<25>{#p/sans}{#f/4}* is anyone there?',
-                            "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+                            '<25>{#p/sans}{#f/0}* opa.',
+                            '<25>{#p/sans}{#f/4}* tem alguém aí?',
+                            "<25>{#p/sans}{#f/2}* não?\n* bem, eu vou só deixar uma mensagem."
                         ]);
                         addB([
-                            "<25>{#p/sans}{#f/0}* so, after you left, things weren't too great at first.",
-                            '<25>{#p/sans}{#f/3}* asgore was gone, undyne was gone...',
-                            '<25>{#p/sans}{#f/0}* and due to a botched plan involving mettaton and the core...',
-                            '<25>{#p/sans}{#f/3}* issues with the power occured, killing many in the process.',
-                            '<25>{#p/sans}{#f/3}* even the humans in the archive got hit by a power surge.',
-                            '<25>{#p/sans}{#f/0}* long story short, alphys and i put their souls in a safe place.',
-                            '<25>{#p/sans}{#f/4}* but who would we hire to watch over them?',
-                            '<25>{#p/sans}{#f/0}* well, of all the people we called, only charles took the job.',
-                            '<25>{#p/sans}{#f/2}* a little mouse with a spotless service record at the core.',
-                            '<25>{#p/sans}{#f/0}* now, charles had worked at the core for so long...',
-                            '<25>{#p/sans}{#f/0}* that it grew accustomed with its routine.',
-                            '<25>{#p/sans}{#f/0}* take a power cell out, put a new one back in...',
-                            '<25>{#p/sans}{#f/3}* except now, instead of power cells, it was human souls.',
-                            '<25>{#p/sans}{#f/0}* ... so, when it accidentally absorbed those souls...',
-                            '<25>{#p/sans}{#f/3}* it was only because charles was just doing what it knew best.',
-                            '<25>{#p/sans}{#f/3}* i know.\n* it sounds bad.',
-                            '<25>{#p/sans}{#f/0}* without the human souls, how would we escape?',
-                            '<25>{#p/sans}{#f/0}* but when that little mouse realized its new godlike power...',
-                            "<25>{#p/sans}{#f/2}* it used that power to make everyone's dreams come true.",
-                            '<18>{#p/papyrus}{#f/0}HELLO, HUMAN!\nIT IS I, THE GREAT PAPYRUS!',
-                            '<18>{#p/papyrus}{#f/6}WHAT!?!?\nYOU THOUGHT I WAS DEAD!?',
-                            "<18>{#p/papyrus}{#f/7}... UGH, THAT'S RIDICULOUS!\nI COULD NEVER DIE!",
-                            '<18>{#p/papyrus}{#f/4}FOR I HAVE BEEN RE-INCARNATED...',
-                            '<18>{#p/papyrus}{#f/9}BY OUR ONE TRUE OVERLORD, KING CHARLES!!!',
-                            "<25>{#p/sans}{#f/3}* ... so, as you can see, there's no reason for anyone to be sad.",
-                            '<25>{#p/sans}{#f/2}* who cares about leaving the outpost, am i right?',
-                            "<18>{#p/papyrus}{#f/0}YEAH, WE DON'T NEED TO SEE THE STARS!",
-                            "<18>{#p/papyrus}{#f/9}WE'RE LIVING OUT OUR BEST LIVES RIGHT HERE!",
-                            '<25>{#p/sans}{#f/2}* my thoughts exactly.',
-                            '<25>{#p/sans}{#f/0}* ... anyway, thanks for being the reason all of this happened.',
-                            '<25>{#p/sans}{#f/0}* if you ever get bored of flying around out there...',
-                            "<25>{#p/sans}{#f/3}* just know you're always welcome to return.",
-                            '<18>{#p/papyrus}{#f/0}YEAH, THEN YOU CAN LIVE OUT YOUR BEST LIFE, TOO!',
-                            '<25>{#p/sans}{#f/2}* heh.\n* we can only hope.',
+                            "<25>{#p/sans}{#f/0}* então, após você sair, as coisas não foram as melhores no começo.",
+                            '<25>{#p/sans}{#f/3}* asgore se foi, undyne se foi...',
+                            '<25>{#p/sans}{#f/0}* e devido a um plano estúpido envolvendo mettaton e o core...',
+                            '<25>{#p/sans}{#f/3}* tivemos problemas no suprimento de energia, matando muitos no processo.',
+                            '<25>{#p/sans}{#f/3}* até mesmo os humanos no arquivo foram acertados por um certo poder.',
+                            '<25>{#p/sans}{#f/0}* para encurtar a loga história, eu e a alphys colocamos as almas em lugares seguros.',
+                            '<25>{#p/sans}{#f/4}* mas quem nós iríamos contratar para olha-las?',
+                            '<25>{#p/sans}{#f/0}* bem, de todas as pessoas que ligamos, apenas o charles pegou o trabalho.',
+                            '<25>{#p/sans}{#f/2}* um pequeno rato com uma rifle que trabalhava no core.',
+                            '<25>{#p/sans}{#f/0}* agora, o charles tem trabalhado a tanto tempo no core...',
+                            '<25>{#p/sans}{#f/0}* que se acostumou totalmente a sua rotina.',
+                            '<25>{#p/sans}{#f/0}* tira uma célula de energia, coloca uma nova de volta...',
+                            '<25>{#p/sans}{#f/3}* exceto que agora, ao invés de células, eram as almas humanas.',
+                            '<25>{#p/sans}{#f/0}* ... então, ele acidentalmente absorver as almas...',
+                            '<25>{#p/sans}{#f/3}* foi só porque charles sabia que estava dando seu melhor.',
+                            '<25>{#p/sans}{#f/3}* eu sei.\n* parece ruim.',
+                            '<25>{#p/sans}{#f/0}* sem as almas humanas, como poderíamos escapar?',
+                            '<25>{#p/sans}{#f/0}* mas quando o ratinho descobriu seu novo poder...',
+                            "<25>{#p/sans}{#f/2}* ele usou este poder para fazer com que o sonho de todos se tornasse realidade.",
+                            '<18>{#p/papyrus}{#f/0}OLÁ, HUMANO!\nSOU EU, O GRANDE PAPYRUS!',
+                            '<18>{#p/papyrus}{#f/6}O QUE!?!?\nVOCÊ PENSOU QUE EU ESTAVA MORTO!?',
+                            "<18>{#p/papyrus}{#f/7}... UGH, ISSO É RIDÍCULO!\nEU NUNCA MORRERIA!",
+                            '<18>{#p/papyrus}{#f/4}EU FUI REENCARNADO...',
+                            '<18>{#p/papyrus}{#f/9}PELO NOSSO UNICO E AMADO, REI CHARLES!!!',
+                            "<25>{#p/sans}{#f/3}* ... então, como você pode ver, não a razão para a tristeza de ninguém.",
+                            '<25>{#p/sans}{#f/2}* quem se importa de sair do outpost, não estou certo?',
+                            "<18>{#p/papyrus}{#f/0}É, NÃO PRECISAMOS VER AS ESTRELAS!",
+                            "<18>{#p/papyrus}{#f/9}ESTAMOS VIVENDO NOSSAS MELHORES VIDAS BEM AQUI!",
+                            '<25>{#p/sans}{#f/2}* meu exato pensamento.',
+                            '<25>{#p/sans}{#f/0}* ... bem, obrigado por ser a razão de tudo isso acontecer.',
+                            '<25>{#p/sans}{#f/0}* se você acabar por ficar no tédio de voar por aí...',
+                            "<25>{#p/sans}{#f/3}* só saiba que você é sempre bem vindo a voltar.",
+                            '<18>{#p/papyrus}{#f/0}É, VOCÊ PODE VIVER A SUA MELHOR VIDA AQUI, TAMBÉM!',
+                            '<25>{#p/sans}{#f/2}* heh.',
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]);
                     }
@@ -1236,160 +1236,160 @@ export default {
 
                     addA([
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<25>{#p/sans}{#f/0}* heya.',
-                        "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                        '<25>{#p/sans}{#f/0}* opa.',
+                        "<25>{#p/sans}{#f/3}* já faz um tempo, huh?"
                     ]);
                     addB([
-                        '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                        '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                        '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
-                        "<26>{#p/sans}{#f/3}* the royal guard had to rush to fix the outpost's power systems.",
-                        '<25>{#p/sans}{#f/0}* alphys called me, and asked me to come up and meet her.',
-                        "<25>{#p/sans}{#f/3}* when i got there, i could tell she wasn't doing well.",
-                        '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                        '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                        '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                        "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
-                        '<25>{#p/sans}{#f/0}* ... after that, things seemed to settle down.',
-                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Sans, do we get to go to the swimming pool?',
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* It's okay if you can't take us...",
-                        "<25>{#p/sans}{#f/0}* woah there, what's got you kids all worked up?",
-                        "<25>{#p/sans}{#f/3}* sure, i can take ya.\n* after i'm all done on the phone.",
-                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Deal.',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Sounds good!',
-                        '<25>{#p/alphys}{#f/10}* Ahah, s-sorry about that, I...',
-                        '<25>{#p/alphys}{#f/20}* I... had to attend a meeting with the Royal Defense Agency.',
-                        "<25>{#p/alphys}{#f/6}* Come on guys, let's let Sans finish his phone call.",
-                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Alright.',
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* We're sorry we got in your way...",
-                        "<25>{#p/sans}{#f/2}* heh.\n* don't sweat it, kid.\n* i won't be THAT long.",
+                        '<25>{#p/sans}{#f/0}* depois que você fugiu, alphys... meio que entrou em pânico.',
+                        '<25>{#p/sans}{#f/0}* não apenas asgore e undyne se foram...',
+                        '<25>{#p/sans}{#f/0}* mas por conta de um plano estúpido envolvendo mettaton e o core...',
+                        "<26>{#p/sans}{#f/3}* a guarda real teve que correr para arrumar o problema dos suprimentos de energia.",
+                        '<25>{#p/sans}{#f/0}* alphys me ligou e pediu para me encontrar com ela.',
+                        "<25>{#p/sans}{#f/3}* quando cheguei lá, poderia dizer apenas ao ver, que ela não estava bem.",
+                        '<25>{#p/sans}{#f/0}* ainda assim, eu sabia desde que éramos parceiros de laboratório...',
+                        '<25>{#p/sans}{#f/2}* que ela tinha um plano caso tudo desse errado.',
+                        '<25>{#p/sans}{#f/0}* então, eu sentei com ela, e a dei uma chance de processar tudo...',
+                        "<26>{#p/sans}{#f/3}* no fim ela tomou responsabilidade e aceitou a coroa do rei asgore.",
+                        '<25>{#p/sans}{#f/0}* ... depois disso, ela acabou por me explicar.',
+                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Sans, podemos ir à piscina?',
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Está tudo bem se você não puder nos levar...",
+                        "<25>{#p/sans}{#f/0}* olha aí, o que deixou vocês crianças tão animadas?",
+                        "<25>{#p/sans}{#f/3}* claro que eu posso levá-las.\n* quando eu finalizar aqui no telefone.",
+                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Feito.',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Parece bom!',
+                        '<25>{#p/alphys}{#f/10}* Ahahah, d-desculpa por isso, eu...',
+                        '<25>{#p/alphys}{#f/20}* Eu... tive que atender a um chamado da Agência de Defesa Real.',
+                        "<25>{#p/alphys}{#f/6}* Vamos lá pessoal, deixem o Sans finalizar a conversa no telefone.",
+                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Tudo bem.',
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Desculpa por ter te atrapalhado...",
+                        "<25>{#p/sans}{#f/2}* heh.\n* não se preocupe, amiguinho.\n* não vai tomar muito tempo.",
                         '<25>{#p/sans}{#f/0}* ...',
-                        '<25>{#p/sans}{#f/0}* after alphys became queen, she started making some changes.',
-                        '<25>{#p/sans}{#f/0}* for one, the royal guard became the royal defense agency.',
-                        '<25>{#p/sans}{#f/0}* a technologically- oriented version of the royal guard.',
-                        "<25>{#p/sans}{#f/3}* they've got high-tech visors, long-range tracking...",
-                        '<25>{#p/sans}{#f/2}* perfect for finding and escorting whatever kid crash-lands here next.'
+                        '<25>{#p/sans}{#f/0}* após a alphys se tornar rainha, ela fez algumas mudanças.',
+                        '<25>{#p/sans}{#f/0}* primeiramente, a guarda real se tornou a agência de defesa real.',
+                        '<25>{#p/sans}{#f/0}* uma versão tecnologicamente orientada da guarda real.',
+                        "<25>{#p/sans}{#f/3}* eles têm viseiras de alta tecnologia, rastreamento de longo alcance.",
+                        '<25>{#p/sans}{#f/2}* perfeito para encontrar e escoltar qualquer criança que chegar aqui.'
                     ]);
                     if (!dpapyrus) {
                         addB([
-                            "<25>{#p/sans}{#f/0}* heck, even papyrus landed a position with 'em.",
-                            "<25>{#p/sans}{#f/3}* he's the leader of a squadron tasked with handling the more..."
+                            "<25>{#p/sans}{#f/0}* bem legal, até papyrus tem uma posição com eles.",
+                            "<25>{#p/sans}{#f/3}* ele é o líder de um esquadrão encarregado de lidar com os mais..."
                         ]);
                     } else {
                         addB([
-                            '<25>{#p/sans}{#f/0}* and the original royal guards from before the rebrand?',
-                            '<25>{#p/sans}{#f/3}* they put together a squadron tasked with handling the more...'
+                            '<25>{#p/sans}{#f/0}* e os guardas reais originais de antes da reformulação da marca?',
+                            '<25>{#p/sans}{#f/3}* eles foram colocados juntos em um esquadrão para lidar com os mais...'
                         ]);
                     }
                     addB([
-                        '<25>{#p/sans}{#f/3}* ... rowdy types.',
-                        '<26>{#p/sans}{#f/0}* we learned a lot about those since you were here.',
-                        "<25>{#p/sans}{#f/0}* the defense agency's got people analyzing your data every day.",
-                        '<25>{#p/sans}{#f/3}* looking for patterns, finding weak points...',
-                        "<25>{#p/sans}{#f/2}* with any luck, we won't have to use them.",
-                        '<25>{#p/sans}{#f/0}* but... you never know.'
+                        '<25>{#p/sans}{#f/3}* ... tipos turbulentos',
+                        '<26>{#p/sans}{#f/0}* aprendemos muito sobre isso desde que você esteve aqui.',
+                        "<25>{#p/sans}{#f/0}* a agência de defesa tem pessoas analisando seus dados todo dia.",
+                        '<25>{#p/sans}{#f/3}* procurando por padrões, achando pontos de fraqueza...',
+                        "<25>{#p/sans}{#f/2}* com sorte, não vamos precisar usar isso.",
+                        '<25>{#p/sans}{#f/0}* mas... nunca se sabe.'
                     ]);
                     if (!dpapyrus) {
                         addB([
-                            '<18>{#p/papyrus}{#f/0}HELLO, SANS!\nBEEN UP TO ANYTHING LATELY?',
-                            '<26>{#p/sans}{#f/3}* eh, not really.',
-                            '<26>{#p/sans}{#f/0}* you on break right now?',
-                            '<18>{#p/papyrus}{#f/9}INDEED I AM!',
-                            "<18>{#p/papyrus}{#f/5}I DON'T TAKE BREAKS OFTEN, SO...",
-                            '<18>{#p/papyrus}{#f/0}I MIGHT AS WELL USE THE ONES I DO WISELY.',
-                            '<26>{#p/sans}{#f/3}* hmm... lemme guess.',
-                            '<25>{#p/sans}{#f/2}* was alphys the one who made you take it?',
+                            '<18>{#p/papyrus}{#f/0}OLÁ, SANS!!\n* O QUE TEM FEITO?',
+                            '<26>{#p/sans}{#f/3}* eh, nada demais.',
+                            '<26>{#p/sans}{#f/0}* você está descansando agora?',
+                            '<18>{#p/papyrus}{#f/9}PODE SE DIZER QUE SIM!',
+                            "<18>{#p/papyrus}{#f/5}EU NÃO DESCANSO MUITO, ENTÃO...",
+                            '<18>{#p/papyrus}{#f/0}EU DEVO USAR ESTE COM SABEDORIA.',
+                            '<26>{#p/sans}{#f/3}* hmm... deixa eu adivinhar.',
+                            '<25>{#p/sans}{#f/2}* foi a alphys que te fez descansar?',
                             '<18>{#p/papyrus}{#f/4}...',
-                            "<18>{#p/papyrus}{#f/4}I DIDN'T HAVE A CHOICE IN THE MATTER.",
-                            '<18>{#p/papyrus}{#f/0}ANYWAY, THAT SHOULD BE ENOUGH BREAK TIME.',
-                            '<18>{#p/papyrus}{#f/9}BACK TO WORK NOW!',
-                            '<25>{#p/sans}{#f/0}* huh?\n* come on bro, you were barely here.',
-                            '<18>{#p/papyrus}{#f/6}NO TIME TO LOSE!!\nA HUMAN COULD ARRIVE ANY SECOND!',
-                            "<25>{#p/sans}{#f/3}* ... well, you're right.",
-                            "<25>{#p/sans}{#f/0}* it'd just be nice if you weren't so busy anymore."
+                            "<18>{#p/papyrus}{#f/4}EU NÃO TIVE ESCOLHA ALGUMA.",
+                            '<18>{#p/papyrus}{#f/0}DE TODA FORMA, JÁ DEVE SER TEMPO O SUFICIENTE DE DESCANSO.',
+                            '<18>{#p/papyrus}{#f/9}HORA DE VOLTAR AO TRABALHO!',
+                            '<25>{#p/sans}{#f/0}* huh?\n* qual foi mano, você mal chegou aqui.',
+                            '<18>{#p/papyrus}{#f/6}SEM TEMPO A PERDER!!\nUM HUMANO PODE APARECER A QUALQUER SEGUNDO!',
+                            "<25>{#p/sans}{#f/3}* ... é, você tá certo.",
+                            "<25>{#p/sans}{#f/0}* só seria legal se você não ficasse tão ocupado."
                         ]);
                     }
                     addB(['<25>{#p/sans}{#f/0}* ...']);
                     if (!dtoriel) {
                         if (!dpapyrus) {
                             addB([
-                                '<25>{#p/sans}{#f/3}* at least alphys seems to have a lot of free time.',
-                                '<25>{#p/sans}{#f/0}* since, when the former queen returned...',
-                                '<25>{#p/sans}{#f/4}* she offered to help look after the humans.'
+                                '<25>{#p/sans}{#f/3}* pelo menos a alphys parece ter bastante tempo livre.',
+                                '<25>{#p/sans}{#f/0}* já que, desde que a verdadeira rainha retornou...',
+                                '<25>{#p/sans}{#f/4}* ela ajuda a olhar os humanos.'
                             ]);
                         } else {
                             addB([
-                                '<25>{#p/sans}{#f/3}* at least the humans who came before you are pretty cool.',
-                                '<25>{#p/sans}{#f/0}* heck, when the former queen returned...',
-                                '<25>{#p/sans}{#f/4}* she even offered to help look after them.'
+                                '<25>{#p/sans}{#f/3}* pelo menos os humanos que vieram antes de você são bem legais.',
+                                '<25>{#p/sans}{#f/0}* quando a verdadeira rainha retornou...',
+                                '<25>{#p/sans}{#f/4}* ela se ofereceu para ajudar a olha-las.'
                             ]);
                         }
                         addB([
-                            '<25>{#p/sans}{#f/3}* she still thinks asgore was a bad person, but...',
-                            "<25>{#p/sans}{#f/0}* maybe one day, she'll forgive him.",
-                            "<25>{#p/sans}{#f/0}* it's hard to tell.",
-                            "<25>{#p/sans}{#f/3}* ... though, i know one person she'll never forgive."
+                            '<25>{#p/sans}{#f/3}* ela ainda pensa que asgore era uma pessoa ruim, mas...',
+                            "<25>{#p/sans}{#f/0}* talvez um dia, ela o perdoe.",
+                            "<25>{#p/sans}{#f/0}* é difícil dizer.",
+                            "<25>{#p/sans}{#f/3}* ... tirando ele, eu sei uma pessoa que ela jamais vai perdoar."
                         ]);
                     } else {
                         if (!dpapyrus) {
-                            addB(["<25>{#p/sans}{#f/3}* at least he's happy.\n* he really enjoys what he does."]);
+                            addB(["<25>{#p/sans}{#f/3}* pelo menos ele está feliz.\n* ele gosta do que faz."]);
                             if (hkills > 19) {
-                                addB(['<25>{#p/sans}{#f/0}* which is more than i can say about a lot of people these days.']);
+                                addB(['<25>{#p/sans}{#f/0}* o que é basicamente o que posso dizer de muitas pessoas hoje em dia.']);
                             } else {
-                                addB(['<25>{#p/sans}{#f/0}* which is good, because not everyone can say the same.']);
+                                addB(['<25>{#p/sans}{#f/0}* o que é bom, já que nem todos podem dizer o mesmo.']);
                             }
                         } else {
-                            addB(["<25>{#p/sans}{#f/3}* life's been kind of lonely lately, you know?"]);
+                            addB(["<25>{#p/sans}{#f/3}* a vida tem sido meio sozinha, sabe?"]);
                             if (hkills > 19) {
-                                addB(['<25>{#p/sans}{#f/0}* not just for me, but for a lot of people these days.']);
+                                addB(['<25>{#p/sans}{#f/0}* não apenas para mim, mas para muitos hoje em dia.']);
                             } else {
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* not everyone has the luxury of carrying on like nothing happened.'
+                                    '<25>{#p/sans}{#f/0}* nem todos tem o luxo de carregar a vida como se nada tivesse acontecido.'
                                 ]);
                             }
                         }
                     }
                     addB([
-                        "<25>{#p/alphys}{#f/20}* S-sans, I'm sorry.\n* But you have to take the kids to the pool.",
-                        "<25>{#p/alphys}{#f/3}* They're driving me crazy back here!",
-                        '<25>{#p/sans}{#f/3}* ... welp.',
-                        "<25>{#p/sans}{#f/0}* i guess i'll let alphys finish this one off for me.",
-                        '<25>{#p/alphys}{#f/27}* Finish what off?',
+                        "<25>{#p/alphys}{#f/20}* S-sans, me desculpa.\n* Mas você tem que levar as crianças para a piscina.",
+                        "<25>{#p/alphys}{#f/3}* Elas estão me deixando maluca!",
+                        '<25>{#p/sans}{#f/3}* ... tá bom.',
+                        "<25>{#p/sans}{#f/0}* acho que vou deixar a alphys finalizar essa conversa pra mim.",
+                        '<25>{#p/alphys}{#f/27}* Finalizar o que?',
                         '<25>{#p/alphys}{#f/21}* ...',
-                        "<25>{#p/alphys}{#f/21}* So it's you.",
-                        '<25>{#p/alphys}{#f/24}* Well.\n* He said he was planning on calling you.',
-                        "<25>{#p/alphys}{#f/25}* Personally, I don't have much to say."
+                        "<25>{#p/alphys}{#f/21}* Então é você.",
+                        '<25>{#p/alphys}{#f/24}* Bem.\n* Ele disse que estava planejando te ligar.',
+                        "<25>{#p/alphys}{#f/25}* Pessoalmente, eu não tenho muito a dizer."
                     ]);
                     if (hkills > 19) {
-                        addB(["<25>{#p/alphys}{#f/25}* You're a killer, a coward, and better off gone."]);
+                        addB(["<25>{#p/alphys}{#f/25}* Você é um assassino, um covarde e bem melhor longe daqui."]);
                         if (!dpapyrus) {
-                            addB(['<25>{#p/alphys}{#f/24}* And no matter what good you do now...']);
+                            addB(['<25>{#p/alphys}{#f/24}* E não importa o bem que você faça agora...']);
                         } else {
-                            addB(['<25>{#p/alphys}{#f/24}* And worst of all...']);
+                            addB(['<25>{#p/alphys}{#f/24}* E o pior de tudo...']);
                         }
                     } else {
-                        addB(["<25>{#p/alphys}{#f/25}* You might not have killed many people, but you're still awful."]);
+                        addB(["<25>{#p/alphys}{#f/25}* Você pode não ter matado tantas pessoas, mas ainda é tão deprimente."]);
                         if (!dpapyrus) {
-                            addB(['<25>{#p/alphys}{#f/24}* No matter what good you do now, though...']);
+                            addB(['<25>{#p/alphys}{#f/24}* Não importa o bem que você faça agora, no entanto...']);
                         } else {
-                            addB(['<25>{#p/alphys}{#f/24}* Worst of all, though...']);
+                            addB(['<25>{#p/alphys}{#f/24}* Pior de tudo...']);
                         }
                     }
                     if (!dpapyrus) {
                         addB([
-                            "<25>{#p/alphys}{#f/25}* It'll never make up for the damage you've already done.",
+                            "<25>{#p/alphys}{#f/25}* Isso nunca irá apagar o mau que você já fez.",
                             '<25>{#p/alphys}{#f/24}* ...',
-                            '<25>{#p/alphys}{#f/24}* On behalf of everyone living on the outpost...'
+                            '<25>{#p/alphys}{#f/24}* Em nome de todos que vivem no Outpost...'
                         ]);
                     } else {
                         addB([
-                            '<25>{#p/alphys}{#f/25}* You killed someone important to my closest friend.',
+                            '<25>{#p/alphys}{#f/25}* Você matou alguém importante para meu amigo mais próximo.',
                             '<25>{#p/alphys}{#f/24}* ...',
-                            '<25>{#p/alphys}{#f/24}* On his behalf...'
+                            '<25>{#p/alphys}{#f/24}* Em seu nome...'
                         ]);
                     }
                     addB([
-                        '<25>{#p/alphys}{#f/16}* I hope you fall into a black hole and die.',
+                        '<25>{#p/alphys}{#f/16}* Eu espero que você caia em um buraco negro e morra.',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]);
                 }
@@ -1400,220 +1400,220 @@ export default {
                 if (dmettaton) {
                     addA([
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<32>{#p/napstablook}* hey',
-                        '<32>{#p/napstablook}* is anyone there?',
-                        "<32>{#p/napstablook}* i think... there's something i need to tell you.",
-                        "<32>{#p/napstablook}* if it's not too much trouble."
+                        '<32>{#p/napstablook}* opa',
+                        '<32>{#p/napstablook}* tem alguém aí?',
+                        "<32>{#p/napstablook}* eu acho... que tem algo que eu preciso te dizer.",
+                        "<32>{#p/napstablook}* não é nada demais."
                     ]);
                     addB([
-                        '<32>{#p/napstablook}* so, even before you left the outpost...',
-                        '<32>{#p/napstablook}* things were already going downhill for me',
-                        '<32>{#p/napstablook}* people were dead... others were hurt, or scared...',
-                        '<32>{#p/napstablook}* and then...... when mettaton died during his grand finale, i......',
-                        "<32>{#p/napstablook}* .........\n* i didn't know what to do",
-                        '<32>{#p/napstablook}* it felt like... my whole world came crashing down......',
-                        '<32>{#p/napstablook}* and all i could do......... was watch it happen............',
+                        '<32>{#p/napstablook}* então, antes mesmo de você sair do Outpost.',
+                        '<32>{#p/napstablook}* as coisas estavam indo de mal a pior para mim.',
+                        '<32>{#p/napstablook}* pessoas morreram... outras estavam mortas, ou feridas...',
+                        '<32>{#p/napstablook}* e então... quando mettaton morreu no meu grande final, eu...',
+                        "<32>{#p/napstablook}* .........\n* eu não sabia o que fazer",
+                        '<32>{#p/napstablook}* é como se... meu mundo tivesse desabado...',
+                        '<32>{#p/napstablook}* e tudo que eu poderia fazer........ era assistir ele cair...........',
                         '<32>{#p/napstablook}* ...............',
-                        '<32>{#p/napstablook}* as it turns out, though, a lot of people felt the same way.',
-                        '<32>{#p/napstablook}* and all of us who did formed a support group for fans of mettaton.',
-                        '<32>{#p/napstablook}* remember his last words?',
-                        '<32>{#p/napstablook}* \"you\'ll realize not everything\'s going to go your way!\"',
-                        '<32>{#p/napstablook}* ... of course, he was wrong.',
-                        '<32>{#p/napstablook}* you escaped, and got away with what you did.',
-                        "<32>{#p/napstablook}* even king asgore couldn't stop you.",
-                        "<32>{#p/napstablook}* but those nine words... became our group's mantra.",
-                        '<32>{#p/napstablook}* we became united in our dislike for you, and what you got away with.',
-                        "<32>{#p/napstablook}* you're not just a human who did some bad things.",
-                        "<32>{#p/napstablook}* you're an interloper who spat in the face of our way of life."
+                        '<32>{#p/napstablook}* quando isso aconteceu, muitas pessoas sumiram no mesmo dia.',
+                        '<32>{#p/napstablook}* e todos nós que formamos um grupo de apoio para os fãs de mettaton.',
+                        '<32>{#p/napstablook}* lembra das suas últimas palavras?',
+                        '<32>{#p/napstablook}* \"você vai perceber que nunca tudo irá como deseja!\"',
+                        '<32>{#p/napstablook}* ... é claro, ele estava errado.',
+                        '<32>{#p/napstablook}* você escapou, e acabou se livrando de tudo que fez.',
+                        "<32>{#p/napstablook}* nem mesmo o rei asgore conseguiu te parar.",
+                        "<32>{#p/napstablook}* mas aquelas palavras... se tornaram nossa motivação.",
+                        '<32>{#p/napstablook}* nós nos unimos pelo desgosto a você e como você escapou das consequências.',
+                        "<32>{#p/napstablook}* você não é apenas um humano que fez algumas coisas ruins.",
+                        "<32>{#p/napstablook}* você é um assassino que pisou na cara do nosso modo de vida."
                     ]);
                     if (!dundyne) {
                         addB([
-                            '<32>{#p/napstablook}* the new queen, undyne, would agree with us.',
-                            '<32>{#p/napstablook}* ... she took over after asgore disappeared.',
-                            "<32>{#p/napstablook}* it's not like she was the biggest fan of mettaton, but...",
-                            '<32>{#p/napstablook}* she definitely got behind what he said in the end.'
+                            '<32>{#p/napstablook}* a nova rainha, undyne, provavelmente concorda conosco.',
+                            '<32>{#p/napstablook}* ... ela tomou o poder após asgore desaparecer.',
+                            "<32>{#p/napstablook}* ela não era lá uma fã do mettaton, mas...",
+                            '<32>{#p/napstablook}* ela definitivamente apoiou o que ele disse no final.'
                         ]);
                         if (!dtoriel) {
                             addB([
-                                '<32>{#p/napstablook}* heh...... when toriel returned and begged undyne to defend you......',
-                                '<32>{#p/napstablook}* she got laughed all the way back to the outlands.',
-                                '<32>{#p/napstablook}* ... people are pretty much united in their dislike for you now.'
+                                '<32>{#p/napstablook}* heh...... quando toriel retornou e implorou undyne para te defender......',
+                                '<32>{#p/napstablook}* ela foi desprezada e feita de palhaça até voltar para as outlands.',
+                                '<32>{#p/napstablook}* ... todos estão bem unidos no desgosto por você, agora.'
                             ]);
                         } else {
-                            addB(['<32>{#p/napstablook}* just like everyone else does nowadays.']);
+                            addB(['<32>{#p/napstablook}* assim como todo mundo faz hoje em dia.']);
                         }
                     } else if (!dtoriel) {
                         addB([
-                            '<32>{#p/napstablook}* the new queen, toriel, might disagree with us.',
-                            '<32>{#p/napstablook}* ... she took over after asgore disappeared.',
-                            "<32>{#p/napstablook}* it's not like she was against what mettaton said, but...",
-                            '<32>{#p/napstablook}* she seemed to have a stubborn soft spot for humanity.',
-                            "<32>{#p/napstablook}* .........\n* honestly, it's fine.",
-                            "<32>{#p/napstablook}* it hasn't stopped people from being united in their dislike for you."
+                            '<32>{#p/napstablook}* a nova rainha, toriel, talvez discorde da gente.',
+                            '<32>{#p/napstablook}* ... ela tomou o poder após asgore desaparecer.',
+                            "<32>{#p/napstablook}* não é como se ela estivesse contra o mettaton, mas...",
+                            '<32>{#p/napstablook}* ela parece ter uma fé inabalável pela humanidade.',
+                            "<32>{#p/napstablook}* .........\n* sinceramente, está tudo bem.",
+                            "<32>{#p/napstablook}* isso não impediu as pessoas de se unirem para odiar você."
                         ]);
                     } else {
                         addB([
-                            '<32>{#p/napstablook}* eventually, our group noticed that asgore had yet to be replaced',
-                            '<32>{#p/napstablook}* so...... one of our own members suggested we take the throne ourselves.',
-                            '<32>{#p/napstablook}* as the \"face\" of the group, i was appointed as the outpost\'s official leader...',
-                            '<32>{#p/napstablook}* but, in reality... we all kind of make decisions together.',
-                            "<32>{#p/napstablook}* it's pretty cool, actually.",
-                            '<32>{#p/napstablook}* a little weird having all these people look up to me, but......',
-                            '<32>{#p/napstablook}* at least none of us have to do this thing alone.'
+                            '<32>{#p/napstablook}* eventualmente, nosso grupo percebeu que o asgore precisava ser substituído',
+                            '<32>{#p/napstablook}* então... um dos nossos membros sugeriu tomarmos conta do trono por nós mesmos.',
+                            '<32>{#p/napstablook}* como o \"cara\" do grupo, eu fui apontado para ser o líder oficial do outpost...',
+                            '<32>{#p/napstablook}* mas, na realidade... nós todos meio que decidimos juntos as coisas.',
+                            "<32>{#p/napstablook}* é bem legal, na verdade.",
+                            '<32>{#p/napstablook}* meio estranho ter todas essas pessoas ao meu redor, mas......',
+                            '<32>{#p/napstablook}* pelo menos nenhum de nós tem que fazer isso sozinhos.'
                         ]);
                     }
                     addB([
-                        '<32>{#p/napstablook}* anyway, i just wanted you to know......',
-                        "<32>{#p/napstablook}* i'm fine now.",
-                        '<32>{#p/napstablook}* better than fine, in fact.',
-                        "<32>{#p/napstablook}* because, what you did... didn't hurt us.",
-                        '<32>{#p/napstablook}* it only made us stronger.',
-                        '<32>{#p/napstablook}* and one day... when we all escape from the outpost......',
+                        '<32>{#p/napstablook}* de toda forma, eu só queria que você soubesse......',
+                        "<32>{#p/napstablook}* que eu estou bem.",
+                        '<32>{#p/napstablook}* melhor que bem, na verdade.',
+                        "<32>{#p/napstablook}* porque o que você fez... não nos feriu.",
+                        '<32>{#p/napstablook}* apenas nos fez mais fortes.',
+                        '<32>{#p/napstablook}* e um dia... vamos todos escapar do outpost.........',
                         '<32>{#p/napstablook}* .........',
-                        "<32>{#p/napstablook}* our group vows to hunt you down and make sure you pay for what you've done.",
+                        "<32>{#p/napstablook}* nosso grupo vai te caçar e fazê-lo pagar pelo que fez aqui.",
                         '<32>{#p/napstablook}* heh......',
-                        '<32>{#p/napstablook}* ......\n* i hope you die a painful death',
+                        '<32>{#p/napstablook}* ......\n* eu espero que você morra de uma forma bem dolorosa',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]);
                 } else {
                     addA([
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<32>{#p/mettaton}* EXCUSE ME, HUMAN...',
-                        "<32>{#p/mettaton}* THERE'S A FEW THINGS I'D LIKE TO SAY TO YOU.",
-                        '<32>{#p/mettaton}* ARE YOU THERE?',
-                        "<32>{#p/mettaton}* ... I GUESS IT'LL BE A MESSAGE, THEN."
+                        '<32>{#p/mettaton}* COM LICENÇA, HUMANO...',
+                        "<32>{#p/mettaton}* EXISTEM ALGUMAS COISAS QUE EU GOSTARIA DE TE DIZER.",
+                        '<32>{#p/mettaton}* VOCÊ ESTÁ AÍ?',
+                        "<32>{#p/mettaton}* ... EU ACHO QUE SERÁ UMA MENSAGEM, ENTÃO."
                     ]);
                     if (SAVE.data.b.ubershortcut) {
                         addB([
-                            "<32>{#p/mettaton}* TO START, I'LL SAY THAT I -AM- HAPPY YOU FOLLOWED ALPHYS'S INSTRUCTIONS.",
-                            '<32>{#p/mettaton}* AVOIDING UNDYNE, AND A LARGE PART OF AERIALIS...?',
-                            '<32>{#p/mettaton}* IT SAVED BOTH HER AND MYSELF A LOT OF POTENTIAL HEADACHE.'
+                            "<32>{#p/mettaton}* PARA COMEÇAR, DEVO DIZER QUE ESTOU FELIZ QUE VOCÊ TENHA SEGUIDO AS INSTRUÇÕES DA ALPHYS.",
+                            '<32>{#p/mettaton}* EVITAR UM CONFRONTO COM UNDYNE E BOA PARTE DE AERIALIS...?',
+                            '<32>{#p/mettaton}* ISSO SALVOU PARA MIM E PARA ELA UMA GRANDE DOR DE CABEÇA.'
                         ]);
                     } else if (royals < 4 && hkills > 19) {
                         addB([
-                            "<32>{#p/mettaton}* TO BE HONEST, I'M NOT SURE WHERE TO BEGIN.",
-                            '<32>{#p/mettaton}* YOU KILLED CITIZENS, YOU KILLED ROYAL GUARDS...',
-                            '<32>{#p/mettaton}* YOU WERE INDISCRIMINATE IN YOUR KILLING.',
-                            '<32>{#p/mettaton}* I -DO- APPRECIATE THAT YOUR BEHAVIOR IMPROVED LATER ON...'
+                            "<32>{#p/mettaton}* PARA SER SINCERO, EU NÃO SEI EXATAMENTE POR ONDE COMEÇAR.",
+                            '<32>{#p/mettaton}* VOCÊ MATOU CIDADÃOS, MATOU GUARDAS REAIS...',
+                            '<32>{#p/mettaton}* VOCÊ FOI ZERO PRECONCEITOS NA SUA FORMA DE MATAR.',
+                            '<32>{#p/mettaton}* EU APRECIO QUE SEU COMPORTAMENTO TENHO MELHORADO MAIS TARDE...'
                         ]);
                     } else if (royals < 4) {
                         addB([
-                            "<32>{#p/mettaton}* LET'S GET ONE THING STRAIGHT.",
-                            '<32>{#p/mettaton}* YOU OUTRIGHT -SLAUGHTERED- THE ROYAL GUARD.',
-                            '<32>{#p/mettaton}* YOU WERE SOMEWHAT MORE MERCIFUL TOWARDS REGULAR CITIZENS...',
-                            '<32>{#p/mettaton}* AND YOUR BEHAVIOR DID IMPROVE AFTER MY WARNING...'
+                            "<32>{#p/mettaton}* VAMOS DEIXAR ALGO CLARO.",
+                            '<32>{#p/mettaton}* VOCÊ BASICAMENTE -ELIMINOU- A GUARDA REAL.',
+                            '<32>{#p/mettaton}* VOCÊ DE ALGUMA FORMA FOI MAIS PIEDOSO COM OS CIDADÃOS...',
+                            '<32>{#p/mettaton}* E SEU COMPORTAMENTO MELHOROU APÓS MEU AVISO...'
                         ]);
                     } else if (hkills > 19) {
                         addB([
-                            "<32>{#p/mettaton}* LET'S GET ONE THING STRAIGHT.",
-                            '<32>{#p/mettaton}* WHEN IT CAME TO CITIZENS, YOU SHOWED -NO- REMORSE.',
-                            '<32>{#p/mettaton}* YOU WERE SOMEWHAT MORE MERCIFUL TOWARDS THE ROYAL GUARD...',
-                            '<32>{#p/mettaton}* AND YOUR BEHAVIOR DID IMPROVE AFTER MY WARNING...'
+                            "<32>{#p/mettaton}* VAMOS DEIXAR ALGO CLARO.",
+                            '<32>{#p/mettaton}* QUANDO SE TRATOU DOS CIDADÃOS, VOCÊ -NÃO-DEMONSTROU PIEDADE.',
+                            '<32>{#p/mettaton}* VOCÊ DE ALGUMA FORMA FOI MAIS PIEDOSO COM A GUARDA REAL...',
+                            '<32>{#p/mettaton}* E SEU COMPORTAMENTO MELHOROU APÓS MEU AVISO...'
                         ]);
                     } else {
                         addB([
-                            "<32>{#p/mettaton}* TO START, I'LL ADMIT YOU WEREN'T AS BAD AS I FIRST THOUGHT.",
-                            '<32>{#p/mettaton}* YOU SPARED MANY OF THE ROYAL GUARDS, AND A FAIR FEW CITIZENS, TOO.',
-                            '<32>{#p/mettaton}* NOT TO MENTION HOW YOU IMPROVED YOUR BEHAVIOR AFTER MY WARNING.'
+                            "<32>{#p/mettaton}* PARA COMEÇAR, DEVI ADMITIR QUE VOCÊ NÃO É TÃO RUIM QUANTO EU PENSEI QUE SERIA.",
+                            '<32>{#p/mettaton}* VOCÊ POUPOU A GUARDA REAL E MUITOS DOS CIDADÃOS, TAMBÉM.',
+                            '<32>{#p/mettaton}* SEM MENCIONAR A SUA MELHORA DE COMPORTAMENTO APÓS MEU AVISO.'
                         ]);
                     }
-                    addB(["<32>{#p/mettaton}* BUT DON'T THINK FOR A SECOND THAT IT EXCUSES ANYTHING OTHERWISE."]);
+                    addB(["<32>{#p/mettaton}* MAS NÃO PENSE NEM POR UM SEGUNDO QUE ISSO PERDOA QUALQUER ATITUDE."]);
                     if (SAVE.data.b.ubershortcut) {
                         addB([
-                            '<32>{#p/mettaton}* SINCE ASGORE DISAPPEARED, ALPHYS HAS HAD HER HANDS FULL AS THE QUEEN.',
-                            '<32>{#p/mettaton}* I WAS SURPRISED TO SEE HER TAKE ON THE ROLE, BUT...',
-                            '<32>{#p/mettaton}* I GUESS HER SUCCESS IN ESCORTING YOU BOOSTED HER CONFIDENCE.',
-                            "<32>{#p/mettaton}* STILL, IT HASN'T BEEN EASY.",
-                            "<32>{#p/mettaton}* EVER SINCE SHE GUIDED YOU TO SAFETY, UNDYNE'S BEEN QUITE UPSET AT HER.",
-                            '<32>{#p/mettaton}* THE INCUMBENT GUARD CAPTAIN QUESTIONS HER EVERY DECISION, GIVING HER DOUBTS.',
-                            '<32>{#p/mettaton}* AND WHILE SHE STILL BELIEVES YOU TO BE REDEEMABLE...',
-                            '<32>{#p/mettaton}* THE PEOPLE WANT HUMANS DEAD.'
+                            '<32>{#p/mettaton}* DESDE QUE ASGORE DESAPARECEU, ALPHYS TEM ESTADO CHEIA DE TRABALHOS COMO A RAINHA.',
+                            '<32>{#p/mettaton}* EU ESTAVA SURPRESA EM VÊ-LA TOMAR O CONTROLE, MAS...',
+                            '<32>{#p/mettaton}* EU ACHO QUE O SUCESSO DELA EM TE ESCOLTAR A DEU BASTANTE CONFIANÇA.',
+                            "<32>{#p/mettaton}* AINDA ASSIM, NÃO TEM SIDO FÁCIL.",
+                            "<32>{#p/mettaton}* DESDE QUE ELA TE GUIOU PARA A SEGURANÇA, UNDYNE TEM ESTADO IRADA COM ELA.",
+                            '<32>{#p/mettaton}* A CAPITÃ DA GUARDA QUESTIONA CADA DECISÃO DA RAINHA, A DANDO DÚVIDAS.',
+                            '<32>{#p/mettaton}* E MESMO QUE ELA ACREDITE EM SUA REDENÇÃO...',
+                            '<32>{#p/mettaton}* AS PESSOAS QUEREM A MORTE DOS HUMANOS.'
                         ]);
                         if (!dtoriel) {
                             addB([
-                                "<32>{#p/mettaton}* EVEN THE FORMER QUEEN TORIEL COULDN'T CHANGE THEIR MINDS UPON HER RETURN.",
-                                '<32>{#p/mettaton}* BY THEN, ALPHYS HAD LOST HER APPETITE FOR POLITICS.'
+                                "<32>{#p/mettaton}* NEM MESMO A VERDADEIRA RAINHA TORIEL NÃO CONSEGUIU MUDAR A MENTE DAS PESSOAS.",
+                                '<32>{#p/mettaton}* DESDE ENTÃO, ALPHYS PERDEU O APETITE POR POLÍTICA.'
                             ]);
                         }
                     } else if (!dundyne) {
                         addB([
-                            '<32>{#p/mettaton}* SINCE ASGORE DISAPPEARED, UNDYNE HAS HAD HER HANDS FULL AS THE QUEEN.',
-                            '<32>{#p/mettaton}* AND ALPHYS?\n* WELL, SHE -WAS- SUPPOSED TO BE THE NEXT IN LINE...',
-                            "<32>{#p/mettaton}* BUT I DON'T BLAME HER FOR RUNNING OFF.",
-                            "<32>{#p/mettaton}* THE PEOPLE WANT HUMANS DEAD.\n* AND, FRANKLY, THEY'RE MORE THAN JUSTIFIED."
+                            '<32>{#p/mettaton}* DESDE QUE ASGORE DESAPARECEU, UNDYNE TEM TIDO MUITO TRABALHO COMO RAINHA.',
+                            '<32>{#p/mettaton}* E A ALPHYS?\n* BEM, ELA -ERA- SUPOSTAMENTE PARA SER A PRÓXIMA NA LINHA...',
+                            "<32>{#p/mettaton}* MAS EU NÃO A CULPO POR CORRER DO CARGO.",
+                            "<32>{#p/mettaton}* AS PESSOAS QUEREM OS HUMANOS MORTOS.\n* E, SINCERAMENTE, ELES TEM MAIS DO QUE A JUSTIFICATIVA."
                         ]);
                         if (!dtoriel) {
                             addB([
-                                "<32>{#p/mettaton}* EVEN THE FORMER QUEEN TORIEL COULDN'T CHANGE THEIR MINDS UPON HER RETURN.",
-                                "<32>{#p/mettaton}* LET ALONE UNDYNE'S."
+                                "<32>{#p/mettaton}* NEM MESMO A VERDADEIRA RAINHA TORIEL NÃO CONSEGUIU MUDAR A MENTE DAS PESSOAS.",
+                                "<32>{#p/mettaton}* MUITO MENOS UNDYNE."
                             ]);
                         }
                     } else if (!dtoriel) {
                         addB([
-                            '<32>{#p/mettaton}* SINCE ASGORE DISAPPEARED, TORIEL HAS HAD HER HANDS FULL AS THE QUEEN.',
-                            '<32>{#p/mettaton}* AND ALPHYS?\n* WELL, SHE -WAS- SUPPOSED TO BE THE NEXT IN LINE...',
-                            "<32>{#p/mettaton}* BUT I DON'T BLAME HER FOR RUNNING OFF.",
-                            "<32>{#p/mettaton}* THE PEOPLE WANT HUMANS DEAD.\n* AND, FRANKLY, THEY'RE MORE THAN JUSTIFIED.",
-                            "<32>{#p/mettaton}* EVEN TORIEL HERSELF COULDN'T CONVINCE THEM TO CALM DOWN.\n* BELIEVE ME, SHE TRIED."
+                            '<32>{#p/mettaton}* DESDE QUE ASGORE DESAPARECEU, TORIEL TEM TIDO SUAS MÃOS CHEIAS COMO RAINHA.',
+                            '<32>{#p/mettaton}* E A ALPHYS?\n* BEM, ELA -ERA- SUPOSTAMENTE PARA SER A PRÓXIMA NA LINHA...',
+                            "<32>{#p/mettaton}* MAS EU NÃO A CULPO POR CORRER DO CARGO.",
+                            "<32>{#p/mettaton}* AS PESSOAS QUEREM OS HUMANOS MORTOS.\n* E, SINCERAMENTE, ELES TEM MAIS DO QUE A JUSTIFICATIVA.",
+                            "<32>{#p/mettaton}* NEM MESMO A PRÓPRIA TORIEL CONSEGUIU ACALMA-LOS.\n* ELA TENTOU MUITO, ACREDITE."
                         ]);
                     } else {
                         addB([
-                            '<32>{#p/mettaton}* SINCE ASGORE DISAPPEARED, THINGS HAVE GOTTEN WORSE BY THE DAY.',
-                            '<32>{#p/mettaton}* ALPHYS WAS SUPPOSED TO TAKE OVER FOR HIM, BUT SHE RAN OFF.',
-                            '<32>{#p/mettaton}* DO I BLAME HER?\n* NOT AT ALL.',
-                            '<32>{#p/mettaton}* BUT IT MEANT I HAD NO CHOICE EXCEPT TO TAKE OVER MYSELF.',
-                            '<32>{#p/mettaton}* I HAVE MIXED FEELINGS ABOUT HUMANS, AFTER DISCOVERING THE ARCHIVE...',
-                            '<32>{#p/mettaton}* BUT THE PEOPLE ARE COMPLETELY JUSTIFIED IN FEELING THE WAY THEY DO ABOUT YOU.'
+                            '<32>{#p/mettaton}* DESDE QUE ASGORE DESAPARECEU AS COISAS FICARAM CADA VEZ PIORES.',
+                            '<32>{#p/mettaton}* ALPHYS ERA SUPOSTAMENTE PARA TOMAR O PODER, MAS ELA FUGIU.',
+                            '<32>{#p/mettaton}* EU A CULPO?\n* DE JEITO ALGUM.',
+                            '<32>{#p/mettaton}* MAS ISSO SIGNIFICA QUE EU NÃO TINHA OUTRA ESCOLHA SE NÃO TOMAR O PODER PARA MIM.',
+                            '<32>{#p/mettaton}* EU TENHO SENTIMENTOS MISTURADOS PELO HUMANOS DESDE QUE DESCOBRI O ARQUIVO...',
+                            '<32>{#p/mettaton}* MAS AS PESSOAS ESTÃO TOTALMENTE CORRETAS SOBRE SEUS SENTIMENTOS EM RELAÇÃO A VOCÊ.'
                         ]);
                     }
                     addB([
-                        "<32>{#p/mettaton}* YOUR ACTIONS PROVED THAT, NO MATTER HOW MUCH I'D LIKE TO BELIEVE IN HUMANITY...",
-                        "<32>{#p/mettaton}* THERE WILL ALWAYS BE THOSE OF YOU OUT THERE WHO DON'T DESERVE THAT BELIEF.",
-                        "<32>{#p/mettaton}* AND THAT'S THE BIGGEST SHAME OF THEM ALL.",
-                        "<32>{#p/mettaton}* HUMANS AND MONSTERS SHOULDN'T HAVE TO BE AT ODDS.",
-                        '<32>{#p/mettaton}* IN A PERFECT UNIVERSE, OUR TWO SPECIES CO-EXIST IN PEACE.',
-                        "<32>{#p/mettaton}* BUT IT'S NOT A PERFECT UNIVERSE, IS IT?",
-                        '<32>{#p/mettaton}* AFTER ALL, PEOPLE LIKE YOU STILL EXIST WITHIN IT.',
+                        "<32>{#p/mettaton}* SUAS AÇÕES PROVARAM QUE, NÃO IMPORTA O QUANTO EU GOSTARIA DE ACREDITAR NA HUMANIDADE...",
+                        "<32>{#p/mettaton}* SEMPRE EXISTIRÁ AQUELES COMO VOCÊ LÁ FORA QUE NÃO MERECEM ESSA CRENÇA.",
+                        "<32>{#p/mettaton}* E ESSA É A MAIOR TRISTEZA DE TODAS.",
+                        "<32>{#p/mettaton}* HUMANOS E MONSTROS NÃO DEVERIAM SER INIMIGOS.",
+                        '<32>{#p/mettaton}* EM UM UNIVERSO PERFEITO, NOSSAS DUAS ESPÉCIES COEXISTEM EM PAZ.',
+                        "<32>{#p/mettaton}* MAS ESTE NÃO É UM UNIVERSO PERFEITO, OU É?",
+                        '<32>{#p/mettaton}* ATÉ PORQUE, PESSOAS COMO VOCÊ EXISTEM NELE.',
                         '<32>{#p/napstablook}* uh...\n* mettaton?',
-                        '<32>{#p/napstablook}* are you okay?',
-                        '<32>{#p/mettaton}* ...\n* WHAT DOES IT SOUND LIKE.',
+                        '<32>{#p/napstablook}* você está bem?',
+                        '<32>{#p/mettaton}* ...\n* O QUE VOCÊ ACHA.',
                         '<32>{#p/napstablook}* .........',
-                        '<32>{#p/napstablook}* mettaton, who are you talking to?',
-                        "<32>{#p/mettaton}* BLOOKY, IT'S NOT IMPORTANT.",
-                        '<32>{#p/napstablook}* let me see......',
+                        '<32>{#p/napstablook}* mettaton, com quem você está falando?',
+                        "<32>{#p/mettaton}* BLOOKY, NÃO É IMPORTANTE.",
+                        '<32>{#p/napstablook}* deixa eu ver......',
                         '<32>{#p/napstablook}* ...\n* oh...',
-                        '<32>{#p/napstablook}* hey, uh... you made my cousin pretty upset',
-                        "<32>{#p/napstablook}* ever since i found out he was my cousin, i've been looking after him..."
+                        '<32>{#p/napstablook}* ei, uh... você deixou meu primo com muita raiva.',
+                        "<32>{#p/napstablook}* desde que eu descobri que ele era meu primo, eu estive cuidando dele..."
                     ]);
                     if (SAVE.data.b.ubershortcut || !dundyne || !dtoriel) {
-                        addB(['<32>{#p/napstablook}* no matter what good you may have done, he......']);
+                        addB(['<32>{#p/napstablook}* não importa as coisas boas que você fez, ele......']);
                     } else {
-                        addB(['<32>{#p/napstablook}* regardless of the other humans being innocent, he......']);
+                        addB(['<32>{#p/napstablook}* mesmo que os outros humanos sejam inocentes, ele......']);
                     }
                     addB([
-                        "<32>{#p/napstablook}* he's been getting angrier at you than ever lately",
-                        "<32>{#p/napstablook}* i'm...... really worried",
-                        "<32>{#p/mettaton}* ARE YOU SAYING I SHOULDN'T BE ANGRY?\n* THAT I SHOULD BE CALM?",
-                        '<32>{#p/mettaton}* THE PEOPLE THAT HUMAN KILLED ARE NEVER COMING BACK.',
-                        '<32>{#p/mettaton}* THEIR FAMILIES WILL NEVER SEE THEM AGAIN.',
-                        "<32>{#p/mettaton}* I'LL BE DAMNED IF I'M GOING TO REMAIN CALM IN THE FACE OF WHAT THEY DID!",
-                        '<32>{#p/napstablook}* well... i just wanted you to know...',
-                        '<32>{#p/napstablook}* ......\n* i hope you die a painful death',
-                        '<32>{#p/mettaton}* B... BLOOKY, COME ON...',
-                        "<32>{#p/mettaton}* IT'S NOT LIKE YOU TO SAY THINGS LIKE THAT.",
-                        "<32>{#p/mettaton}* YOU'RE JUST SAYING THAT TO MAKE ME FEEL BETTER, RIGHT?",
-                        "<32>{#p/napstablook}* ......\n* ...... i don't know",
-                        "<36>{#p/mettaton}* I APPRECIATE WHAT YOU'RE DOING, BUT I THINK IT'D BE BEST IF YOU STAYED OUT OF THIS.",
-                        '<32>{#p/napstablook}* you know...',
-                        '<32>{#p/napstablook}* if you did die like that......',
-                        "<32>{#p/napstablook}* i don't know if i would feel bad for you or not",
-                        "<32>{#p/napstablook}* so...... that's all",
+                        "<32>{#p/napstablook}* ele tem estado com mais raiva de você a cada dia.",
+                        "<32>{#p/napstablook}* eu... estou bem preocupado",
+                        "<32>{#p/mettaton}* VOCÊ ESTÁ DIZENDO QUE NÃO DEVERIA TER RAIVA?\n* QUE DEVERIA ESTAR CALMO?",
+                        '<32>{#p/mettaton}* AS PESSOAS QUE O HUMANO MATOU NUNCA VÃO VOLTAR.',
+                        '<32>{#p/mettaton}* SUAS FAMILIAS NUNCA OS VERÃO NOVAMENTE.',
+                        "<32>{#p/mettaton}* EU ESTOU MALUCO SE FICAR CALMO ENFRENTANDO TUDO QUE ELE FEZ!",
+                        '<32>{#p/napstablook}* bem... eu só quero que você saiba...',
+                        '<32>{#p/napstablook}* ......\n* eu espero que você morra de uma forma bem dolorosa',
+                        '<32>{#p/mettaton}* B... BLOOKY, NÃO PRECISA...',
+                        "<32>{#p/mettaton}* NÃO É MUITO SEU JEITO DIZER COISAS ASSIM.",
+                        "<32>{#p/mettaton}* VOCÊ SÓ ESTÁ DIZENDO ISSO PARA QUE EU ME SINTA MELHOR, CERTO?",
+                        "<32>{#p/napstablook}* ......\n* ...... eu não sei",
+                        "<36>{#p/mettaton}* EU APRECIO SUA TENTATIVA, MAS É MELHOR QUE VOCÊ FIQUE FORA DISSO.",
+                        '<32>{#p/napstablook}* sabe...',
+                        '<32>{#p/napstablook}* se você morresse assim......',
+                        "<32>{#p/napstablook}* eu não sei se me sentiria mal por você ou não",
+                        "<32>{#p/napstablook}* então... isso é tudo",
                         '<32>{#p/mettaton}* ...\n* ... WOW.',
-                        "<32>{#p/mettaton}* HONESTLY, I THINK I'LL JUST LEAVE IT AT THAT.",
-                        '<32>{#p/mettaton}* I WAS GOING TO TELL YOU MORE ABOUT MY FAMILY, BUT... THAT ABOUT SUMS IT UP.',
-                        '<32>{#p/mettaton}* BESIDES, IT\'S A FITTING END TO THIS \"LEGACY\" YOU\'VE LEFT BEHIND.',
+                        "<32>{#p/mettaton}* HONESTAMENTE, ACHO QUE VOU DEIXAR POR ISSO.",
+                        '<32>{#p/mettaton}* EU IRIA TE FALAR MAIS SOBRE MINHA FAMÍLIA, MAS... TÁ TUDO RESUMIDO.',
+                        '<32>{#p/mettaton}* ALIÁS, É UM FIM QUE TRATA EXATAMENTE SEU \"LEGADO\" COMO ELE DEVE SER TRATADO.',
                         '<32>{#p/mettaton}* ...',
-                        '<32>{#p/mettaton}* WHAT A SHAME...',
+                        '<32>{#p/mettaton}* QUE DESGRAÇA...',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]);
                 }
@@ -1624,158 +1624,158 @@ export default {
                 
                 addA([
                     '<32>{#s/phone}{#p/event}* Ring, ring...',
-                    '<25>{#p/sans}{#f/0}* heya.',
-                    '<25>{#p/sans}{#f/4}* is anyone there?',
-                    "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+                    '<25>{#p/sans}{#f/0}* opa.',
+                    '<25>{#p/sans}{#f/4}* tem alguém aí?',
+                    "<25>{#p/sans}{#f/2}* não?\n* bem, eu vou só deixar uma mensagem."
                 ]);
                 addB([
-                    '<25>{#p/sans}{#f/0}* sooo... where to begin?',
-                    '<25>{#p/sans}{#f/3}* ...\n* after you left, things got... interesting.',
-                    "<25>{#p/sans}{#f/0}* first off, asgore's disappearance hurt the outpost's morale."
+                    '<25>{#p/sans}{#f/0}* entããão... por onde começar?',
+                    '<25>{#p/sans}{#f/3}* ...\n* depois de você ir embora, as coisas ficaram... interessantes.',
+                    "<25>{#p/sans}{#f/0}* primeiramente, o desaparecimento de asgore feriu a moral do outpost."
                 ]);
                 if (dtoriel) {
-                    addB(["<25>{#p/sans}{#f/3}* not to mention the reports of the former queen's death."]);
+                    addB(["<25>{#p/sans}{#f/3}* sem mencionar a trágica notícia da morte da atual rainha."]);
                 }
                 addB([
-                    '<25>{#p/sans}{#f/0}* but alphys, who was next in line for leadership...',
-                    '<25>{#p/sans}{#f/2}* seems to have gained some confidence.',
-                    '<25>{#p/sans}{#f/0}* it was touch and go at first, but she accepted her role as the queen.'
+                    '<25>{#p/sans}{#f/0}* mas alphys, quem deveria tomar a liderança...',
+                    '<25>{#p/sans}{#f/2}* parece ter ganhado certa confiança.',
+                    '<25>{#p/sans}{#f/0}* foi difícil ela seguir esse caminho inicialmente, mas ela acabou aceitando seu cargo de rainha.'
                 ]);
                 if (30 <= SAVE.data.n.bully) {
                     addB([
-                        "<25>{#p/sans}{#f/3}* so... despite people's newfound fear of getting beat up...",
-                        '<26>{#p/sans}{#f/0}* that helped folks relax.'
+                        "<25>{#p/sans}{#f/3}* então... apesar do medo recém-descoberto das pessoas de sofrerem...",
+                        '<26>{#p/sans}{#f/0}* Isso ajudou todos a relaxarem.'
                     ]);
                 } else {
-                    addB(['<25>{#p/sans}{#f/0}* so that helped people move on.']);
+                    addB(['<25>{#p/sans}{#f/0}* então isso ajudou todos a seguirem em frente.']);
                 }
                 addB([
-                    "<25>{#p/sans}{#f/0}* i've been helping to advise her ever since.",
-                    "<25>{#p/sans}{#f/3}* she debated on if she should make the humans' existence public..."
+                    "<25>{#p/sans}{#f/0}* eu tenho ajudado ela com conselhos desde então.",
+                    "<25>{#p/sans}{#f/3}* ela debateu se deveria fazer a existência dos humanos algo público..."
                 ]);
                 if (royals < 6) {
                     addB([
-                        '<25>{#p/sans}{#f/0}* ultimately, we decided not to do it.',
-                        '<25>{#p/sans}{#f/0}* it would have been nice, but with the deaths of those dogs...',
-                        "<25>{#p/sans}{#f/3}* ... well, it wouldn't be wise.",
-                        "<25>{#p/sans}{#f/3}* opinions on humanity aren't all that great right now."
+                        '<25>{#p/sans}{#f/0}* por fim, decidimos não fazer isso.',
+                        '<25>{#p/sans}{#f/0}* seria bom, mas com a morte daqueles cachorros...',
+                        "<25>{#p/sans}{#f/3}* ... bem, não seria inteligente.",
+                        "<25>{#p/sans}{#f/3}* as opiniões em relação a humanos não tem sido as melhores."
                     ]);
                 } else if (SAVE.data.n.exp > 0) {
                     addB([
-                        '<25>{#p/sans}{#f/0}* for now, we decided not to do it.',
-                        "<25>{#p/sans}{#f/0}* at some point, though, we'd like to.",
-                        '<25>{#p/sans}{#f/3}* ... when the people are ready.',
-                        '<25>{#p/sans}{#f/0}* opinions on humanity are still kind of mixed these days.'
+                        '<25>{#p/sans}{#f/0}* por agora, decidimos não fazer isso.',
+                        "<25>{#p/sans}{#f/0}* em algum momento, nós faremos isso.",
+                        '<25>{#p/sans}{#f/3}* ... quando o povo estiver pronto.',
+                        '<25>{#p/sans}{#f/0}* opiniões sobre a humanidade ainda estão muito mixas esses dias.'
                     ]);
                 } else {
                     addB([
-                        '<25>{#p/sans}{#f/0}* at first, we decided not to do it.',
-                        '<25>{#p/sans}{#f/0}* but, eventually, we figured the people would be ready.',
-                        '<25>{#p/sans}{#f/3}* ... luckily, they took it well.',
-                        '<25>{#p/sans}{#f/2}* opinions on humanity turn more positive by the day.'
+                        '<25>{#p/sans}{#f/0}* de primeira, decidimos não fazer isso.',
+                        '<25>{#p/sans}{#f/0}* mas, eventualmente, nós entendemos que as pessoas estão prontas.',
+                        '<25>{#p/sans}{#f/3}* ... felizmente, eles levaram isso bem.',
+                        '<25>{#p/sans}{#f/2}* opiniões sobre a humanidade estão mais positivas.'
                     ]);
                 }
                 addB([
-                    '<25>{#p/sans}{#f/0}* ... anyway.\n* after that decision was made...',
-                    '<25>{#p/sans}{#f/0}* alphys and i set our sights on royal guard reforms.',
-                    "<25>{#p/sans}{#f/3}* yeah... we weren't exactly fans of how it was run before."
+                    '<25>{#p/sans}{#f/0}* ... entretanto.\n* após aquela decisão ter sido feita...',
+                    '<25>{#p/sans}{#f/0}* alphys e eu voltamos nossas atenções para as reformas da guarda real.',
+                    "<25>{#p/sans}{#f/3}* é... não éramos muito fãs de como ela funcionava antes."
                 ]);
                 if (dtoriel) {
-                    addB(['<25>{#p/sans}{#f/0}* suffice it to say, we made some changes.']);
+                    addB(['<25>{#p/sans}{#f/0}* para dizer o mínimo, então fizemos algumas mudanças.']);
                 } else {
                     addB([
-                        "<25>{#p/sans}{#f/0}* even the former queen, who'd returned a while after you left...",
-                        '<25>{#p/sans}{#f/0}* agreed with the changes we wanted to make.'
+                        "<25>{#p/sans}{#f/0}* mesmo a verdadeira rainha, que retornou pouco após você ir embora...",
+                        '<25>{#p/sans}{#f/0}* concordou que deveriam haver mudanças.'
                     ]);
                 }
                 addB([
-                    '<25>{#p/sans}{#f/2}* you can probably guess what the first one was.',
-                    "<18>{#p/papyrus}{#f/9}NYEH HEH HEH!\nTHAT'S RIGHT!",
-                    "<25>{#p/sans}{#f/0}* oh, hey papyrus.\n* so how'd your shift go?",
-                    "<18>{#p/papyrus}{#f/0}I'D SAY IT WENT EXCELLENTLY!"
+                    '<25>{#p/sans}{#f/2}* você provavelmente deve saber qual a primeira seria.',
+                    "<18>{#p/papyrus}{#f/9}NYEH HEH HEH!\nEXATAMENTE!",
+                    "<25>{#p/sans}{#f/0}* oh, ei papyrus.\n* como foi seu turno?",
+                    "<18>{#p/papyrus}{#f/0}DEVO DIZER QUE FOI EXCELENTE!"
                 ]);
                 if (royals < 6) {
                     addB([
-                        '<18>{#p/papyrus}{#f/5}ADMITTEDLY, I WAS LOOKING FORWARD TO WORKING WITH DOGS.',
-                        '<18>{#p/papyrus}{#f/6}BUT... I GUESS EVEN DOGS CAN TAKE VACATIONS.',
-                        "<25>{#p/sans}{#f/3}* hey, it's okay.",
-                        "<25>{#p/sans}{#f/2}* you're still doing as good a job as ever, aren't you?"
+                        '<18>{#p/papyrus}{#f/5}ADMITO QUE EU ESTAVA ANSIOSO PARA TRABALHAR COM CÃES.',
+                        '<18>{#p/papyrus}{#f/6}MAS... ACHO QUE ATÉ CACHORROS PRECISAM DE FÉRIAS.',
+                        "<25>{#p/sans}{#f/3}* ei, tá tudo bem.",
+                        "<25>{#p/sans}{#f/2}* você está fazendo um trabalho bom como sempre, não é?"
                     ]);
                 } else if (royals < 8) {
                     addB([
-                        '<18>{#p/papyrus}{#f/5}ADMITTEDLY, THE ATMOSPHERE THERE FEELS... WEIRD.',
-                        "<18>{#p/papyrus}{#f/6}LIKE THERE'S SOMETHING MISSING.",
-                        "<25>{#p/sans}{#f/3}* hey, it's okay.",
-                        "<25>{#p/sans}{#f/2}* you're still doing as good a job as ever, aren't you?"
+                        '<18>{#p/papyrus}{#f/5}ADMITO, A ATMOSFERA LÁ PARECIA... ESTRANHA.',
+                        "<18>{#p/papyrus}{#f/6}COMO SE TIVESSE ALGO FALTANDO.",
+                        "<25>{#p/sans}{#f/3}* ei, tá tudo bem.",
+                        "<25>{#p/sans}{#f/2}* você está fazendo um trabalho bom como sempre, não é?"
                     ]);
                 } else {
                     addB([
-                        "<18>{#p/papyrus}{#f/5}UNDYNE'S STILL GETTING USED TO ME BEING HERE...",
-                        '<18>{#p/papyrus}{#f/0}BUT, APART FROM THAT, THINGS ARE OKAY.',
-                        '<25>{#p/sans}{#f/2}* glad to hear it.'
+                        "<18>{#p/papyrus}{#f/5}UNDYNE AINDA ESTÁ SE ACOSTUMADO COMIGO AQUI...",
+                        '<18>{#p/papyrus}{#f/0}MAS, ANTES DISSO, ESTÁ TUDO BEM.',
+                        '<25>{#p/sans}{#f/2}* feliz em ouvir isso.'
                     ]);
                 }
                 addB([
-                    "<18>{#p/papyrus}{#f/4}I MEAN, IT'S ONLY NATURAL I'D TRY MY BEST.",
-                    '<18>{#p/papyrus}{#f/9}AFTER ALL, I DID CAPTURE A HUMAN TO EARN MY POSITION!',
-                    "<18>{#p/papyrus}{#f/0}I'M NOT GOING TO GET LAZY AND LOSE IT AFTER THAT.",
-                    '<25>{#p/sans}{#f/0}* of course not.\n* keeping a job like that takes dedication.',
-                    "<18>{#p/papyrus}{#f/4}... IT'S NO WONDER YOU LOST YOURS.",
-                    '<18>{#p/papyrus}{#f/5}THOUGH, YOU ARE DOING WELL IN YOUR NEW JOB, SO...',
-                    "<18>{#p/papyrus}{#f/0}I'LL LET IT SLIDE.",
-                    '<25>{#p/sans}{#f/0}* thanks.\n* advising the queen is no easy task.',
-                    '<25>{#p/sans}{#f/3}* she can be a little neurotic at times.',
-                    '<25>{#p/sans}{#f/3}* she can be... quick to make big decisions.',
-                    "<25>{#p/sans}{#f/0}* and that's before you throw mettaton into the mix.",
-                    "<18>{#p/papyrus}{#f/6}METTATON!?\nWHAT'S -HE- DOING?",
-                    '<25>{#p/sans}{#f/0}* oh, after alphys became queen, he figured he\'d \"tag along.\"',
-                    "<25>{#p/sans}{#f/3}* but his advice... isn't very helpful.",
-                    '<25>{#p/sans}{#f/0}* he just wants to turn the outpost into an entertainment complex.',
-                    '<25>{#p/sans}{#f/0}* with his tv shows being front and center, of course.',
-                    "<25>{#p/sans}{#f/3}* it's all a bit of a mess, really.",
-                    '<18>{#p/papyrus}{#f/4}SOUNDS LIKE HE NEEDS A STERN TALKING-TO.',
-                    "<25>{#p/sans}{#f/0}* maybe.\n* but aren't you like, his biggest fan?",
-                    "<18>{#p/papyrus}{#f/7}NOT WHEN HE'S INTERFERING WITH YOUR WORK I'M NOT!",
-                    "<18>{#p/papyrus}{#f/9}... I'LL BE BACK.",
+                    "<18>{#p/papyrus}{#f/4}QUER DIZER, É NATURAL QUE EU DÊ O MEI MELHOR.",
+                    '<18>{#p/papyrus}{#f/9}DEPOIS DE TUDO, EU APRENDI A CAPTURAR UM HUMANO PARA MERECER MINHA POSIÇÃO!',
+                    "<18>{#p/papyrus}{#f/0}EU NÃO VOU FICAR PREGUIÇOSO E PERDER DEPOIS DE TUDO QUE EU PASSEI.",
+                    '<25>{#p/sans}{#f/0}* claro que não.\n* manter um trabalho assim requer dedicação.',
+                    "<18>{#p/papyrus}{#f/4}... VEJO PORQUE VOCÊ PERDEU O SEU.",
+                    '<18>{#p/papyrus}{#f/5}ENTRETANTO, VOCÊ ESTÁ INDO BEM EM SEU NOVO TRABALHO, ENTÃO...',
+                    "<18>{#p/papyrus}{#f/0}EU VOU DEIXAR PASSAR.",
+                    '<25>{#p/sans}{#f/0}* obrigado.\n* conselheiro da rainha não é trabalho fácil.',
+                    '<25>{#p/sans}{#f/3}* ela pode ser um pouco neurótica as vezes.',
+                    '<25>{#p/sans}{#f/3}* ela pode ser... rápida demais fazendo grandes decisões.',
+                    "<25>{#p/sans}{#f/0}* e isso foi antes de você jogar mettaton na jogada.",
+                    "<18>{#p/papyrus}{#f/6}METTATON!?!?\n* O QUE -ELE- ESTÁ FAZENDO?",
+                    '<25>{#p/sans}{#f/0}* oh, depois que alphys se tornou rainha, ele pensou em \"ir junto.\"',
+                    "<25>{#p/sans}{#f/3}* mas seus conselhos... não são dos melhores.",
+                    '<25>{#p/sans}{#f/0}* ele só queria tornar o outpost em um complexo de entretenimento.',
+                    '<25>{#p/sans}{#f/0}* com seus shows de TV estando na frente e sendo centro, é claro.',
+                    "<25>{#p/sans}{#f/3}* é bem bagunçado, sinceramente.",
+                    '<18>{#p/papyrus}{#f/4}PARECE QUE ELE PRECISA DE UMA CONVERSA INDIVIDUAL.',
+                    "<25>{#p/sans}{#f/0}* talvez.\n* mas você não é tipo, o maior fã dele?",
+                    "<18>{#p/papyrus}{#f/7}NÃO QUANDO ELE ESTÁ INTERFERINDO COM SEU TRABALHO!",
+                    "<18>{#p/papyrus}{#f/9}... EU ESTAREI DE VOLTA.",
                     '<25>{#p/sans}{#f/0}* ...',
-                    "<25>{#p/sans}{#f/3}* i should probably go make sure he doesn't cause any trouble.",
-                    '<25>{#p/sans}{#f/0}* but, before i go...'
+                    "<25>{#p/sans}{#f/3}* eu provavelmente deveria ir e garantir que ele não se meta em bagunça.",
+                    '<25>{#p/sans}{#f/0}* mas, antes de eu ir...'
                 ]);
                 if (hkills > 9) {
                     addB([
-                        '<25>{#p/sans}{#f/0}* you may have killed a lot of people, but...',
-                        '<25>{#p/sans}{#f/3}* in the end, you surrendered and did the right thing.'
+                        '<25>{#p/sans}{#f/0}* você talvez tenha matado muitas pessoas, mas...',
+                        '<25>{#p/sans}{#f/3}* no fim, você se rendeu e fez a coisa certa.'
                     ]);
                 } else if (30 <= SAVE.data.n.bully) {
                     if (SAVE.data.n.exp > 0) {
                         addB([
-                            '<25>{#p/sans}{#f/0}* regardless of the people you hurt and killed...',
-                            '<25>{#p/sans}{#f/3}* in the end, you surrendered and did the right thing.'
+                            '<25>{#p/sans}{#f/0}* mesmo com as pessoas que você feriu e matou...',
+                            '<25>{#p/sans}{#f/3}* no fim, você se rendeu e fez a coisa certa.'
                         ]);
                     } else {
                         addB([
-                            '<25>{#p/sans}{#f/0}* you may have hurt a lot of people, but...',
-                            '<25>{#p/sans}{#f/3}* in the end, you surrendered and did the right thing.'
+                            '<25>{#p/sans}{#f/0}* você pode ter ferido muitas pessoas, mas...',
+                            '<25>{#p/sans}{#f/3}* no fim, você se rendeu e fez a coisa certa.'
                         ]);
                     }
                 } else if (SAVE.data.n.exp > 0) {
                     addB([
-                        '<25>{#p/sans}{#f/0}* you may have made some mistakes, but...',
-                        "<25>{#p/sans}{#f/3}* overall, you're not half bad."
+                        '<25>{#p/sans}{#f/0}* você pode ter cometido alguns erros, mas...',
+                        "<25>{#p/sans}{#f/3}* sobre tudo, você não é de todo ruim."
                     ]);
                 } else {
                     addB([
-                        '<25>{#p/sans}{#f/0}* even if not everybody likes humanity...',
-                        '<25>{#p/sans}{#f/2}* i and many others are more positive about them because of you.'
+                        '<25>{#p/sans}{#f/0}* mesmo que nem todos amem a humanidade...',
+                        '<25>{#p/sans}{#f/2}* eu e muitos outros estão positivos em relação a eles, por sua causa.'
                     ]);
                 }
                 addB([
-                    "<25>{#p/sans}{#f/0}* so, don't worry.",
-                    '<25>{#p/sans}{#f/3}* whatever happens to you out there...',
-                    '<25>{#p/sans}{#f/2}* just know that you have my full support.',
-                    '<25>{#p/sans}{#f/0}* ...\n* take care of yourself out there, ok?',
+                    "<25>{#p/sans}{#f/0}* então, não se preocupe.",
+                    '<25>{#p/sans}{#f/3}* seja lá o que acontecer contigo aí fora...',
+                    '<25>{#p/sans}{#f/2}* só saiba que você tem toda minha proteção.',
+                    '<25>{#p/sans}{#f/0}* ...\n* se cuida aí fora, beleza?',
                     '<25>{#p/sans}{#f/3}* ...',
-                    "<25>{#p/sans}{#f/3}* see ya 'round.",
+                    "<25>{#p/sans}{#f/3}* te vejo por aí.",
                     '<32>{#s/equip}{#p/event}* Click...'
                 ]);
             } else if (SAVE.data.n.exp > 0 || SAVE.data.n.state_foundry_undyne === 1) {
@@ -1785,357 +1785,357 @@ export default {
                     
                     addA([
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<25>{#p/alphys}{#f/4}* H-hiya...',
-                        '<25>{#p/alphys}{#f/20}* Is anyone there?',
-                        "<25>{#p/alphys}{#f/11}* ... I hope it's not too much trouble...",
-                        '<25>{#p/alphys}{#f/4}* I just... w-wanted to let you know how things are going out here.'
+                        '<25>{#p/alphys}{#f/4}* O-oi...',
+                        '<25>{#p/alphys}{#f/20}* Tem alguém aí?',
+                        "<25>{#p/alphys}{#f/11}* ... espero que não seja muito incomodo...",
+                        '<25>{#p/alphys}{#f/4}* eu só... queria que você soubesse como as coisas andam por aqui.'
                     ]);
                     addB([
-                        '<25>{#p/alphys}{#f/20}* So... after you left, the king sort of... d-disappeared.',
-                        "<25>{#p/alphys}{#f/14}* When I broke the news, it... hurt the people's morale pretty badly.",
-                        '<25>{#p/alphys}{#f/10}* Technically, as royal scientist, I was meant to replace him, but...',
-                        "<25>{#p/alphys}{#f/4}* I didn't really feel like I'd be the best fit for the job."
+                        '<25>{#p/alphys}{#f/20}* Então... após você fugir, o rei meio que... d-desapareceu.',
+                        "<25>{#p/alphys}{#f/14}* Quando eu contei a notícia... isso feriu a moral das pessoas.",
+                        '<25>{#p/alphys}{#f/10}* Tecnicamente, como cientista real, eu deveria tomar o lugar dele, mas...',
+                        "<25>{#p/alphys}{#f/4}* Eu não pensei que seria o melhor para o trabalho."
                     ]);
                     if (dmettaton) {
-                        addB(['<25>{#p/alphys}{#f/4}* Especially after what I... let happen to Mettaton.']);
+                        addB(['<25>{#p/alphys}{#f/4}* especialmente depois do que eu... deixei acontecer com o Mettaton.']);
                     }
                     addB([
-                        '<26>{#p/alphys}{#f/20}* Well, Undyne approached me with an offer to take over, and...',
-                        '<25>{#p/alphys}{#f/20}* I agreed, and appointed her as the queen.'
+                        '<26>{#p/alphys}{#f/20}* Bem, Undyne se aproximou e ofereceu tomar controle...',
+                        '<25>{#p/alphys}{#f/20}* Eu concordei e a nomeei como rainha.'
                     ]);
                     if (dpapyrus) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Papyrus's death..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu fiquei preocupada que ela iria surtar pela morte do Papyrus..."]);
                         if (royals < 2) {
-                            addB(['<26>{#p/alphys}{#f/13}* ... not to mention the collapse of the guard...']);
+                            addB(['<26>{#p/alphys}{#f/13}* ... sem mencionar o colapso da guarda real...']);
                         } else if (royals < 7) {
-                            addB(['<25>{#p/alphys}{#f/13}* ... not to mention the loss of those guards...']);
+                            addB(['<25>{#p/alphys}{#f/13}* ... sem mencionar a perda daqueles guardas...']);
                         }
                     } else if (royals < 2) {
-                        addB(["<26>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the collapse of the guard..."]);
+                        addB(["<26>{#p/alphys}{#f/13}* ... eu fiquei preocupada que ela enlouqueceria com o colapso da guarda real..."]);
                     } else if (royals < 7) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of those guards..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda daqueles guardas..."]);
                     } else if (ddoggo) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doggo..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda do Doggo..."]);
                     } else if (dlesserdog) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Minor..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda do Canis Minor..."]);
                     } else if (ddogs) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those married dogs' deaths..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda do casal de cachorros..."]);
                     } else if (dgreatdog) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Major..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda do Major Canis..."]);
                     } else if (ddoge) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doge..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda de Doge..."]);
                     } else if (droyalguards) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to 03 and 04's deaths..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela perda da 03 e 04..."]);
                     } else if (dmadjick) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Cozmo..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte do Cozmo..."]);
                     } else if (dknightknight) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Terrestria..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte da Terrestria..."]);
                     } else if (dtoriel) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the former queen's death..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada ela se perderia a mente pela morte da verdadeira rainha..."]);
                     } else if (dmuffet) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the spider queen's death..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte da rainha das aranhas..."]);
                     } else if (dmettaton) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Mettaton's death..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte do Mettaton..."]);
                     } else if (hkills > 1) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those monsters' deaths..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte daqueles monstros..."]);
                     } else {
-                        addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that one monster's death..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte daquele monstro..."]);
                     }
                     if (royals < 2) {
-                        addB(['<25>{#p/alphys}{#f/17}* But all she did was re- establish the Royal Guard and its forces.']);
+                        addB(['<25>{#p/alphys}{#f/17}* Mas tudo que ela fez foi reestabelecer a Guarda Real e suas forças.']);
                     } else {
-                        addB(["<25>{#p/alphys}{#f/17}* But all she did was bolster the Royal Guard's forces."]);
+                        addB(["<25>{#p/alphys}{#f/17}* Mas tudo que ela fez foi aumentar a força da Guarda Real."]);
                     }
                     if (SAVE.data.b.undyne_respecc) {
-                        addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are dishonorable warriors.']);
+                        addB(['<25>{#p/alphys}{#f/19}* E... fazer uma fala sobre como humanos são guerreiros sem honra.']);
                     } else if (2.1 <= SAVE.data.n.plot_date) {
-                        addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are backstabbing traitors.']);
+                        addB(['<25>{#p/alphys}{#f/19}* E... fazer uma fala sobre humanos são traidores que apunhalam as costas de quem os confiou.']);
                     } else {
-                        addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are irredeemable killers.']);
+                        addB(['<25>{#p/alphys}{#f/19}* E... fazer uma fala sobre como humanos são assassinos sem remorso.']);
                     }
                     if (royals < 6 || mdeaths > 9) {
-                        addB(['<25>{#p/alphys}{#f/20}* A speech that... actually got a lot of people on her side.']);
+                        addB(['<25>{#p/alphys}{#f/20}* Uma fala que... colocou muitas pessoas do lado dela.']);
                         if (30 <= SAVE.data.n.bully) {
-                            addB(["<25>{#p/alphys}{#f/26}* ... beating everyone up certainly didn't help your case."]);
+                            addB(["<25>{#p/alphys}{#f/26}* ... sair surrando todo mundo não te ajudou muito."]);
                         } else {
                             addB([
-                                '<25>{#p/alphys}{#f/5}* ... monsters are pretty wary of humans these days because of that.'
+                                '<25>{#p/alphys}{#f/5}* ... monstros não confiam nem um pouco mais em humanos após tudo que aconteceu.'
                             ]);
                         }
                     } else {
-                        addB(['<25>{#p/alphys}{#f/20}* A speech that only got people on her side...']);
+                        addB(['<25>{#p/alphys}{#f/20}* Uma fala que colocou muitas pessoas do lado dela...']);
                         if (30 <= SAVE.data.n.bully) {
-                            addB(['<25>{#p/alphys}{#f/26}* ... after they were reminded of your bullying.']);
+                            addB(['<25>{#p/alphys}{#f/26}* ... depois de eles se lembrarem da forma que você os espancou.']);
                         } else {
                             addB([
-                                "<25>{#p/alphys}{#f/20}* ... after she mentioned the circumstances of ASGORE's disappearance."
+                                "<25>{#p/alphys}{#f/20}* ... depois que ela mencionou o estado do desaparecimento de ASGORE."
                             ]);
                         }
                     }
                     addB([
-                        '<25>{#p/alphys}{#f/10}* As for the actual humans still alive on the outpost...?',
-                        "<25>{#p/alphys}{#f/4}* Well, after what she said, I... didn't want to take any chances.",
-                        '<25>{#p/alphys}{#f/20}* So... I had the archive moved to a spire house in Aerialis.',
-                        '<25>{#p/alphys}{#f/20}* In secret.',
-                        '<25>{#p/alphys}{#f/5}* ... Undyne saw the lack of humans, or... human SOULs, and...',
-                        "<25>{#p/alphys}{#f/10}* Assumed they'd been lost, too."
+                        '<25>{#p/alphys}{#f/10}* Já para os humanos ainda vivos no Outpost...?',
+                        "<25>{#p/alphys}{#f/4}* Bem, após o que ela disse, eu... não queria tomar nenhuma chance.",
+                        '<25>{#p/alphys}{#f/20}* Então... eu mandei o arquivo para uma casa de pináculo em Aerialis.',
+                        '<25>{#p/alphys}{#f/20}* Em segredo.',
+                        '<25>{#p/alphys}{#f/5}* ... Undyne viu a falta de humanos, ou... ALMAS humanas, e...',
+                        "<25>{#p/alphys}{#f/10}* Assumiu que elas tinham se perdido, também."
                     ]);
                     if (dtoriel) {
                         addB([
-                            '<25>{#p/alphys}{#f/3}* I, ahah, tried to talk her out of announcing it in public, but...',
-                            '<25>{#p/alphys}{#f/3}* ... there was nothing I could do...!',
-                            "<25>{#p/alphys}{#f/30}* ...\n* Everyone thinks we're back at square one now."
+                            '<25>{#p/alphys}{#f/3}* Eu, ahah, tentei falar com ela sobre seu anúncio em público, mas...',
+                            '<25>{#p/alphys}{#f/3}* ... eu não pude fazer nada...!',
+                            "<25>{#p/alphys}{#f/30}* ...\n* Todo mundo pensa que voltamos para verdadeiro foco agora."
                         ]);
                         if (dpapyrus) {
                             addB([
-                                "<25>{#p/alphys}{#f/31}* Many have lost hope that we'll... ever get out of here.",
+                                "<25>{#p/alphys}{#f/31}* Muitos perderam a esperança de que um dia sairemos daqui.",
                                 '<25>{#p/alphys}{#f/31}* ...',
-                                "<25>{#p/alphys}{#f/30}* People are angry.\n* They're scared, and they all want to leave.",
-                                "<25>{#p/alphys}{#f/31}* I don't know how much longer I can keep this secret from everyone.",
-                                '<25>{#p/sans}{#f/0}* hey, you still talking to yourself in there?',
-                                "<25>{#p/sans}{#f/3}* c'mon, the humans are due for their daily checkup.",
-                                '<25>{#p/alphys}{#f/20}* Uh... could you come in for just a moment?',
-                                '<25>{#p/sans}{#f/0}* on it.',
-                                "<25>{#p/sans}{#f/0}* ... and i'm here.",
-                                "<25>{#p/alphys}{#f/20}* So... I'm not really talking to myself.",
-                                "<25>{#p/alphys}{#f/19}* Actually, I'm leaving a message for the human.\n* It's recording now...",
-                                '<25>{#p/sans}{#f/0}* hmm... i see.',
-                                '<25>{#p/sans}{#f/2}* mind if i take over while you go look after the kids?',
-                                "<26>{#p/alphys}{#f/5}* S-sure, I'll... go do that.",
+                                "<25>{#p/alphys}{#f/30}* Pessoas estão com raiva.\n* Elas estão com medo e elas querem ser livres.",
+                                "<25>{#p/alphys}{#f/31}* Eu não sei por quanto tempo conseguirei manter este segredo de todo mundo.",
+                                '<25>{#p/sans}{#f/0}* ei, você ainda está falando sozinha aí?',
+                                "<25>{#p/sans}{#f/3}* vamos lá, os humanos precisam do seu check diário.",
+                                '<25>{#p/alphys}{#f/20}* Uh... poderia vir aqui só um momento?',
+                                '<25>{#p/sans}{#f/0}* aqui vou.',
+                                "<25>{#p/sans}{#f/0}* ... e aqui estou.",
+                                "<25>{#p/alphys}{#f/20}* Então... eu não estou falando sozinha na verdade.",
+                                "<25>{#p/alphys}{#f/19}* Na verdade eu estou deixando uma mensagem para o humano.\n* Está gravando agora...",
+                                '<25>{#p/sans}{#f/0}* hmm... eu entendo.',
+                                '<25>{#p/sans}{#f/2}* tem problema eu pegar aí, enquanto você cuida das crianças?',
+                                "<26>{#p/alphys}{#f/5}* C-claro, eu... vou lá fazer isso.",
                                 '<25>{#p/sans}{#f/3}* ...',
-                                "<25>{#p/sans}{#f/0}* ok, look, i won't take up much of your time.",
-                                '<25>{#p/sans}{#f/0}* to be honest, i just took over the phone so i could hang it up.',
-                                '<25>{#p/sans}{#f/3}* alphys has a habit of making phone calls that stress her out.',
-                                '<25>{#p/sans}{#f/0}* but... before i go.',
-                                "<25>{#p/sans}{#f/0}* undyne's announcement wasn't the only bad news we received.",
-                                "<26>{#p/sans}{#f/3}* reports of the former queen's death hit people pretty hard, too.",
-                                '<25>{#p/sans}{#f/0}* shops closed down, people quit their jobs...',
-                                "<25>{#p/sans}{#f/0}* they're saying morale is the lowest it's ever been.",
-                                "<25>{#p/sans}{#f/2}* ... on the bright side, at least grillby's gets a lot of business now.",
-                                '<25>{#p/sans}{#f/3}* but no amount of junk food can make up for the loss of my...',
-                                '<26>{#p/sans}{#f/3}* ... well, i think you know who i mean.',
+                                "<25>{#p/sans}{#f/0}* ok, olha, eu não vou tomar muito do seu tempo.",
+                                '<25>{#p/sans}{#f/0}* pra ser sincero, eu só peguei o telefone pra poder desligar a ligação.',
+                                '<25>{#p/sans}{#f/3}* alphys tem esse hábito de fazer ligações que só estressam ela.',
+                                '<25>{#p/sans}{#f/0}* mas... antes de eu ir.',
+                                "<25>{#p/sans}{#f/0}* as falas da undyne não foram as únicas notícias ruins que recebemos.",
+                                "<26>{#p/sans}{#f/3}* as notícias da verdadeira rainha estar morta acertou todos no peito.",
+                                '<25>{#p/sans}{#f/0}* lojas fecharam, pessoas saíram de seus trabalhos...',
+                                "<25>{#p/sans}{#f/0}* eles dizem que a moral está mais baixa do que nunca.",
+                                "<25>{#p/sans}{#f/2}* ... no lado bom, pelo menos o grillbys tem muitos clientes agora.",
+                                '<25>{#p/sans}{#f/3}* mas nenhuma quantidade de comida industrializada pode compensar a perda do meu...',
+                                '<26>{#p/sans}{#f/3}* ... bem, acho que você sabe quem.',
                                 '<26>{#p/sans}{#f/0}* ...',
-                                "<25>{#p/sans}{#f/0}* humanity's reputation is honestly pretty terrible now.",
-                                '<25>{#p/sans}{#f/0}* alphys and i will do our best to protect the next human who comes...',
-                                "<25>{#p/sans}{#f/3}* but i wouldn't be surprised if they end up getting killed.",
-                                "<25>{#p/sans}{#f/0}* ... that's just the way things are now.",
-                                '<25>{#p/alphys}{#f/27}* Uh, hey, sorry to interrupt, but...',
-                                '<26>{#p/alphys}{#f/20}* I think we may have a... b-bit of a problem.',
-                                '<25>{#p/sans}{#f/0}* eh, i said all i wanted to, anyway.',
-                                "<25>{#p/sans}{#f/0}* i'm hanging up the phone now.",
-                                '<25>{#p/sans}{#f/3}* ... goodbye.',
+                                "<25>{#p/sans}{#f/0}* a reputação da humanidade está bem terrível, agora.",
+                                '<25>{#p/sans}{#f/0}* alphys e eu vamos fazer nosso melhor para proteger o próximo humano que vier...',
+                                "<25>{#p/sans}{#f/3}* mas eu não vou ficar surpreso se ele acabar sendo morto.",
+                                "<25>{#p/sans}{#f/0}* ... é assim que as coisas são agora.",
+                                '<25>{#p/alphys}{#f/27}* Uh, ei, desculpa interromper, mas...',
+                                '<26>{#p/alphys}{#f/20}* Eu acho que temos um... p-pequeno problema.',
+                                '<25>{#p/sans}{#f/0}* eh, eu já disse tudo que eu queria.',
+                                "<25>{#p/sans}{#f/0}* eu vou desligar agora.",
+                                '<25>{#p/sans}{#f/3}* ... adeus.',
                                 '<32>{#s/equip}{#p/event}* Click...'
                             ]);
                         } else {
                             addB([
-                                '<18>{#p/papyrus}{#f/0}EVERYONE EXCEPT FOR YOU, ME, AND MY BROTHER!',
-                                '<25>{#p/alphys}{#f/27}* Oh, hey Papyrus.\n* I take it the archive is still working?',
-                                '<18>{#p/papyrus}{#f/0}INDEED IT IS!',
-                                '<18>{#p/papyrus}{#f/9}I ALSO GAVE THE HUMANS THEIR DAILY CHECKUP!',
-                                '<25>{#p/alphys}{#f/10}* Awesome, thanks.',
-                                "<25>{#p/alphys}{#f/10}* ... maybe... you'd like to say a few things to the human...?",
-                                "<25>{#p/alphys}{#f/5}* I'm leaving a message about what's happened since they left.",
-                                '<18>{#p/papyrus}{#f/0}OH, SURE THING!',
-                                "<18>{#p/papyrus}{#f/0}... HELLO, HUMAN.\nI TRUST YOU'RE DOING WELL.",
-                                "<18>{#p/papyrus}{#f/5}IT'S BEEN HARD KEEPING SECRETS FROM EVERYONE...",
-                                "<18>{#p/papyrus}{#f/6}ESPECIALLY WHEN THEY'RE ALL JUST SO SAD!!!",
-                                "<18>{#p/papyrus}{#f/5}ALL THOSE PEOPLE THINKING THEY'LL NEVER ESCAPE...",
-                                '<18>{#p/papyrus}{#f/5}WONDERING IF THEY STILL HAVE A FUTURE...',
-                                "<18>{#p/papyrus}{#f/0}BUT HEY!!\nIT'LL BE ALRIGHT!!",
-                                "<18>{#p/papyrus}{#f/5}ONE DAY, THEY'LL COME TO KNOW THE TRUTH...",
-                                '<18>{#p/papyrus}{#f/0}AND THE TRUTH WILL SET THEM FREE.',
-                                "<25>{#p/alphys}{#f/8}* Papyrus, why don't you tell them about your new job?",
-                                '<18>{#p/papyrus}{#f/0}OH RIGHT!!\nHOW COULD I FORGET ABOUT THAT!?',
-                                '<18>{#p/papyrus}{#f/0}... UNDYNE FINALLY LET ME JOIN THE ROYAL GUARD.',
-                                "<18>{#p/papyrus}{#f/4}TECHNICALLY, I'M THE GUARD'S MORALE OFFICER...",
-                                '<18>{#p/papyrus}{#f/0}BUT I STILL DO A VERY IMPORTANT JOB!',
-                                "<18>{#p/papyrus}{#f/5}YOU SEE, A GUARD CAN'T DO THEIR BEST...",
-                                "<18>{#p/papyrus}{#f/5}IF THEY'RE DOWN IN THE DUMPS.",
-                                "<18>{#p/papyrus}{#f/0}SO... THAT'S WHERE I COME IN!",
-                                '<18>{#p/papyrus}{#f/4}UM, METAPHORICALLY OF COURSE.',
-                                "<18>{#p/papyrus}{#f/4}I WOULDN'T ACTUALLY GO DOWN INTO A DUMP.",
-                                "<18>{#p/papyrus}{#f/7}... THERE'S ENOUGH PEOPLE DOING THAT ALREADY!!!",
-                                "<18>{#p/papyrus}{#f/5}IT'S STRANGE...\nTHEY NEVER SEEM TO COME BACK.",
-                                "<25>{#p/alphys}{#f/10}* Eheh, I wouldn't worry about that.",
-                                '<25>{#p/alphys}{#f/3}* They must just be so obsessed with trash, they never leave!',
-                                '<18>{#p/papyrus}{#f/0}YEAH...\nTHAT MUST BE IT.',
+                                '<18>{#p/papyrus}{#f/0}TODOS, EXCETO VOCÊ, EU E MEU IRMÃO!',
+                                '<25>{#p/alphys}{#f/27}* Oh, ei Papyrus.\n* Eu recebo isso, o arquivo ainda está funcionando?',
+                                '<18>{#p/papyrus}{#f/0}CLARO QUE ESTÁ!',
+                                '<18>{#p/papyrus}{#f/9}EU TAMBÉM DEI AOS HUMANOS SEU CHECK DIÁRIO!',
+                                '<25>{#p/alphys}{#f/10}* Incrível, obrigada.',
+                                "<25>{#p/alphys}{#f/10}* ... talvez... você queira falar algumas coisas para o humano...?",
+                                "<25>{#p/alphys}{#f/5}* Eu estou deixando uma mensagem sobre o que aconteceu desde que eles se foram.",
+                                '<18>{#p/papyrus}{#f/0}OH, MAS QUE BOM!',
+                                "<18>{#p/papyrus}{#f/0}... OLÁ, HUMANO.\nACREDITO QUE VOCÊ ESTEJA BEM.",
+                                "<18>{#p/papyrus}{#f/5}TEM SIDO DIFÍCIL MANTER SEGREDO DE TODO MUNDO...",
+                                "<18>{#p/papyrus}{#f/6}ESPECIALMENTE QUANDO ESTÁ TODO MUNDO TÃO TRISTE!!!",
+                                "<18>{#p/papyrus}{#f/5}TODAS ESSAS PESSOAS PENSANDO QUE NUNCA IRÃO SER LIVRES...",
+                                '<18>{#p/papyrus}{#f/5}PERGUNTANDO SE AINDA TEM FUTURO...',
+                                "<18>{#p/papyrus}{#f/0}MAS EI!!\nTUDO FICARÁ BEM!!",
+                                "<18>{#p/papyrus}{#f/5}UM DIA, ELES IRÃO DESCOBRIR A VERDADE...",
+                                '<18>{#p/papyrus}{#f/0}E A VERDADE OS LIBERTARÁ.',
+                                "<25>{#p/alphys}{#f/8}* Papyrus, por que você não fala para eles sobre seu novo trabalho?",
+                                '<18>{#p/papyrus}{#f/0}AH, CLARO!!\nCOMO EU PODERIA ME ESQUECER!?',
+                                '<18>{#p/papyrus}{#f/0}... UNDYNE FINALMENTE PERMITIU MINHA ENTRADA NA GUARDA REAL.',
+                                "<18>{#p/papyrus}{#f/4}TECNICAMENTE, SOU O OFICIAL DE MORAL DA GUARDA...",
+                                '<18>{#p/papyrus}{#f/0}MAS AINDA FAÇO UM TRABALHO BEM IMPORTANTE!',
+                                "<18>{#p/papyrus}{#f/5}ENTENDA, UM GUARDA NÃO PODE FAZER SEU MELHOR...",
+                                "<18>{#p/papyrus}{#f/5}SE ELE ESTIVER DEPRIMIDO.",
+                                "<18>{#p/papyrus}{#f/0}ENTÃO... É AÍ QUE EU ENTRO!",
+                                '<18>{#p/papyrus}{#f/4}HM, METAFORICAMENTE É CLARO.',
+                                "<18>{#p/papyrus}{#f/4}EU NÃO VOU ENTRAR DE VERDADE EM NINGUÉM.",
+                                "<18>{#p/papyrus}{#f/7}... ISSO SERIA BEM ESTRANHO!!!",
+                                "<18>{#p/papyrus}{#f/5}É ESTRANHO...\nELAS NUNCA PARECEM VOLTAR.",
+                                "<25>{#p/alphys}{#f/10}* Eheh, não se preocupe sobre isso.",
+                                '<25>{#p/alphys}{#f/3}* Elas devem estar tão obcecadas com o lixo que nunca vão embora!',
+                                '<18>{#p/papyrus}{#f/0}É...\nDEVE SER ISSO.',
                                 '<18>{#p/papyrus}{#f/5}...',
-                                "<18>{#p/papyrus}{#f/5}IT'S STILL KIND OF CONCERNING, THOUGH.",
-                                '<25>{#p/alphys}{#f/31}* ... yeah.',
-                                "<25>{#p/sans}{#f/0}* oh.\n* hey guys.\n* sorry i'm late...",
-                                '<25>{#p/sans}{#f/2}* the people on the floor below us want me to make breakfast.',
-                                "<25>{#p/alphys}{#f/25}* Well aren't they just a needy bunch.",
-                                '<18>{#p/papyrus}{#f/7}UGH... LIVING IN A SPIRE HOUSE MUST BE SO ANNOYING!!',
-                                '<18>{#p/papyrus}{#f/4}DO THEY NOT KNOW HOW TO COOK FOR THEMSELVES?',
-                                "<25>{#p/sans}{#f/0}* i mean, i can't say i blame 'em.",
-                                "<25>{#p/sans}{#f/0}* after undyne's announcement about our progress, and...",
-                                "<25>{#p/sans}{#f/0}* those reports of the former queen's death...?",
-                                "<25>{#p/sans}{#f/3}* i'd probably want someone else to cook for me, too.",
-                                "<25>{#p/sans}{#f/2}* but hey.\n* that's why i have you.",
-                                '<18>{#p/papyrus}{#f/0}YEAH!!\nWHO NEEDS SOMEONE ELSE TO COOK...',
-                                '<18>{#p/papyrus}{#f/9}... WHEN YOU HAVE THE ONE AND ONLY GREAT PAPYRUS!',
+                                "<18>{#p/papyrus}{#f/5}EU AINDA ESTOU MEU CONFUSO.",
+                                '<25>{#p/alphys}{#f/31}* ... é.',
+                                "<25>{#p/sans}{#f/0}* oh.\n* ei pessoal.\n* desculpa pelo atraso.",
+                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo do nosso queriam que eu fizesse café da manhã.',
+                                "<25>{#p/alphys}{#f/25}* Bem, não seriam eles apenas uns necessitados por comida.",
+                                '<18>{#p/papyrus}{#f/7}UGH... MORAR EM UMA CASA DE PINÁCULO DEVE SER TÃO IRRITANTE!!',
+                                '<18>{#p/papyrus}{#f/4}ELES NÃO SABEM COZINHAR POR CONTA PRÓPRIA?',
+                                "<25>{#p/sans}{#f/0}* quer dizer, eu não posso culpa-los.",
+                                "<25>{#p/sans}{#f/0}* após o anúncio da undyne sobre nosso progresso e...",
+                                "<25>{#p/sans}{#f/0}* aquelas notícias sobre a morte da verdadeira rainha...?",
+                                "<25>{#p/sans}{#f/3}* eu provavelmente gostaria que alguém cozinhasse para mim, também.",
+                                "<25>{#p/sans}{#f/2}* mas ei.\n* é por isso que eu tenho você.",
+                                '<18>{#p/papyrus}{#f/0} EXATAMENTE!\nQUEM PRECISA DE ALGUÉM PARA COZINHAR...',
+                                '<18>{#p/papyrus}{#f/9}... QUANDO VOCÊ TEM O PRIMEIRO E ÚNICO GRANDE PAPYRUS!',
                                 '<26>{#p/sans}{#f/0}* heh.',
-                                '<26>{#p/sans}{#f/0}* well, i should probably get started on that breakfast now.',
-                                '<26>{#p/sans}{#f/3}* papyrus, would you mind coming with me?',
-                                "<18>{#p/papyrus}{#f/0}OF COURSE!\nI'LL GO WITH YOU RIGHT AWAY!",
-                                '<26>{#p/sans}{#f/0}* alrighty, then.\n* ... on we go!',
-                                '<25>{#p/alphys}{#f/17}* Have fun.',
+                                '<26>{#p/sans}{#f/0}* bem, eu provavelmente deveria ir naquele café da manhã, agora.',
+                                '<26>{#p/sans}{#f/3}* papyrus, você se importaria de vir comigo?',
+                                "<18>{#p/papyrus}{#f/0}MAS É CLARO!\nESTAREI LOGO ATRÁS DE VOCÊ!",
+                                '<26>{#p/sans}{#f/0}* certo, então.\n* ... lá vamos nós!',
+                                '<25>{#p/alphys}{#f/17}* boa sorte.',
                                 '<25>{#p/alphys}{#f/17}* ...',
-                                '<25>{#p/alphys}{#f/5}* I guess I should probably hang up the phone now.',
-                                '<25>{#p/alphys}{#f/6}* Just, if this ever gets to you, then...',
-                                "<25>{#p/alphys}{#f/14}* I hope you're doing better than we are right now.",
+                                '<25>{#p/alphys}{#f/5}* Eu acho que vou desligar agora.',
+                                '<25>{#p/alphys}{#f/6}* Olha, se isso chegar até você, então...',
+                                "<25>{#p/alphys}{#f/14}* Eu espero que você esteja melhor do que a gente agora.",
                                 '<25>{#p/alphys}{#f/20}* ...',
-                                '<25>{#p/alphys}{#f/20}* See you later.',
+                                '<25>{#p/alphys}{#f/20}* Até mais.',
                                 '<32>{#s/equip}{#p/event}* Click...'
                             ]);
                         }
                     } else {
                         addB([
-                            '<25>{#p/alphys}{#f/5}* F-fortunately, the former queen returned, and...',
-                            '<25>{#p/alphys}{#f/5}* Managed to convince her not to make an announcement about it.',
-                            '<25>{#p/alphys}{#f/10}* There was some tension between them at first, but...',
-                            "<25>{#p/alphys}{#f/6}* ... things feel like they're kind of back to normal, now."
+                            '<25>{#p/alphys}{#f/5}* F-felizmente, a verdadeira rainha voltou e...',
+                            '<25>{#p/alphys}{#f/5}* Eu consegui convencer ela a não fazer um anúncio sobre isso.',
+                            '<25>{#p/alphys}{#f/10}* Teve uma tensão entre elas no começo, mas...',
+                            "<25>{#p/alphys}{#f/6}* ... as coisas parecem estar de volta ao normal, agora."
                         ]);
                         if (dpapyrus) {
                             addB([
-                                '<25>{#p/alphys}{#f/4}* The only difference from before is...',
-                                '<25>{#p/alphys}{#f/17}* ... I have to keep the archive a secret.',
-                                "<25>{#p/alphys}{#f/20}* Well, I guess that's not really much of a difference.",
-                                "<25>{#p/alphys}{#f/14}* It's just weird not having... anyone around to help anymore.",
-                                '<25>{#p/sans}{#f/0}* didja forget about me?',
-                                "<25>{#p/alphys}{#f/2}* O-oh, uh, that's not what I meant!",
-                                "<25>{#p/sans}{#f/3}* hey, i get it.\n* it's not the same as it was with asgore.",
-                                "<25>{#p/sans}{#f/0}* but i'd like to think i do a good job.",
-                                '<25>{#p/alphys}{#f/6}* Yeah... you do.',
-                                '<26>{#p/alphys}{#f/5}* I just miss having him around and stuff.',
-                                '<25>{#p/sans}{#f/3}* ... by the way...',
-                                '<25>{#p/sans}{#f/0}* you should probably go give the humans their daily checkup.',
-                                "<25>{#p/sans}{#f/2}* i can take over on the phone while you're gone.",
-                                "<26>{#p/alphys}{#f/6}* Sounds good.\n* I'll go do that now.",
+                                '<25>{#p/alphys}{#f/4}* A única diferença de antes é...',
+                                '<25>{#p/alphys}{#f/17}* ... eu tive que manter o arquivo em segredo.',
+                                "<25>{#p/alphys}{#f/20}* Bem, acho que isso não é muita diferença.",
+                                "<25>{#p/alphys}{#f/14}* É só muito estranho não ter... ninguém por perto para ajudar.",
+                                '<25>{#p/sans}{#f/0}* Ei, cê se esqueceu de mim?',
+                                "<25>{#p/alphys}{#f/2}* O-oh, uh, isso não é o que eu quis dizer!",
+                                "<25>{#p/sans}{#f/3}* ei, eu entendo.\n* não é a mesma coisa que era com o asgore.",
+                                "<25>{#p/sans}{#f/0}* mas eu gosto de pensar que faço um ótimo trabalho.",
+                                '<25>{#p/alphys}{#f/6}* É... você faz.',
+                                '<26>{#p/alphys}{#f/5}* Eu só sinto falta de tê-lo por perto e tudo.',
+                                '<25>{#p/sans}{#f/3}* ... por sinal...',
+                                '<25>{#p/sans}{#f/0}* você provavelmente deveria dar aos humanos o check diário.',
+                                "<25>{#p/sans}{#f/2}* eu posso ficar com o celular enquanto você vai lá.",
+                                "<26>{#p/alphys}{#f/6}* Parece bom.\n* Eu vou fazer isso.",
                                 '<25>{#p/sans}{#f/3}* ...'
                             ]);
                             if (hkills === 1) {
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* so here we are, then.',
-                                    "<25>{#p/sans}{#f/0}* now, since you left, i've been asking myself...",
-                                    '<25>{#p/sans}{#f/3}* \"why would they go out of their way solely to kill him?\"',
-                                    "<25>{#p/sans}{#f/0}* and i'm not talking about asgore.",
+                                    '<25>{#p/sans}{#f/0}* Aqui estamos, então.',
+                                    "<25>{#p/sans}{#f/0}* Agora que você foi embora, eu tenho me perguntado...",
+                                    '<25>{#p/sans}{#f/3}* \"Por que eles se esforçariam apenas para matá-lo?\"',
+                                    "<25>{#p/sans}{#f/0}* e eu não estou falando do asgore.",
                                     '<25>{#p/sans}{#f/3}* ...',
-                                    '<25>{#p/sans}{#f/3}* i think we both know the reason.',
-                                    "<25>{#p/sans}{#f/3}* i think we both know it wasn't out of self- defense.",
-                                    "<25>{#p/sans}{#f/0}* come on.\n* let's be honest with ourselves here.",
-                                    "<25>{#p/sans}{#f/0}* you just did it to see what'd happen.",
-                                    "<25>{#p/sans}{#f/0}* to see what i'd have to say about it.",
-                                    '<25>{#p/sans}{#f/0}* well, congratulations!\n* you got your answer, bucko!',
-                                    "<25>{#p/sans}{#f/0}* i hope you're happy with the outcome.",
-                                    "<27>{#p/sans}{#f/3}* just kidding.\n* i don't really hope that.",
-                                    "<27>{#p/sans}{#f/0}* ... well, that's all.",
+                                    '<25>{#p/sans}{#f/3}* eu acho que ambos sabemos o motivo.',
+                                    "<25>{#p/sans}{#f/3}* eu acho que ambos sabemos que não foi defesa pessoal.",
+                                    "<25>{#p/sans}{#f/0}* vamos lá.\n* sejamos honestos aqui.",
+                                    "<25>{#p/sans}{#f/0}* você só fez isso pra saber o que iria acontecer.",
+                                    "<25>{#p/sans}{#f/0}* pra ver o que eu teria pra dizer.",
+                                    '<25>{#p/sans}{#f/0}* bem, parabéns!\n* tá aí sua resposta, mané!',
+                                    "<25>{#p/sans}{#f/0}* espero que você esteja feliz com o que aconteceu.",
+                                    "<27>{#p/sans}{#f/3}* brincadeira.\n* eu não espero isso.",
+                                    "<27>{#p/sans}{#f/0}* ... bem, isso é tudo.",
                                     '<27>{#p/darksans}{#f/1}{#i/5}* ...',
                                     '<32>{#s/equip}{#p/event}* Click...'
                                 ]);
                             } else {
                                 addB([
-                                    "<25>{#p/sans}{#f/0}* hey.\n* hope you're doing well.",
-                                    "<25>{#p/sans}{#f/0}* for the most part, we're doing well, too.",
-                                    '<25>{#p/sans}{#f/3}* people are still going about their lives, day after day...',
-                                    '<25>{#p/sans}{#f/0}* waiting for the next human to come along and set us free.'
+                                    "<25>{#p/sans}{#f/0}* ei.\n* espero que você esteja bem.",
+                                    "<25>{#p/sans}{#f/0}* em boa parte, estamos indo bem, também.",
+                                    '<25>{#p/sans}{#f/3}* pessoas ainda seguem com suas vidas, dia após dia...',
+                                    '<25>{#p/sans}{#f/0}* esperando pelo próximo humano que virá e nos dará liberdade.'
                                 ]);
                                 if (hkills > 9) {
                                     addB([
-                                        '<25>{#p/sans}{#f/0}* ... i just wish i could say the same about my brother.',
-                                        '<25>{#p/sans}{#f/3}* and the other people you killed, for that matter.'
+                                        '<25>{#p/sans}{#f/0}* ... eu só queria poder dizer o mesmo ao meu irmão.',
+                                        '<25>{#p/sans}{#f/3}* e as outras pessoas que você matou.'
                                     ]);
                                 } else {
-                                    addB(['<25>{#p/sans}{#f/3}* ... i just wish i could say the same about my brother.']);
+                                    addB(['<25>{#p/sans}{#f/3}* ... eu só queria poder dizer o mesmo sobre meu irmão.']);
                                 }
                                 addB([
                                     '<25>{#p/sans}{#f/3}* ...',
-                                    '<25>{#p/sans}{#f/3}* hmm...\n* what else should i mention?',
-                                    '<26>{#p/sans}{#f/0}* ... right.\n* new living arrangements.',
-                                    '<25>{#p/sans}{#f/3}* so, after the former queen returned...',
-                                    '<25>{#p/sans}{#f/0}* she and i recognized each other and got to talking.',
-                                    '<25>{#p/sans}{#f/0}* one thing led to another, and...',
-                                    '<25>{#p/sans}{#f/0}* she agreed to move in with me to my house in starton town.',
-                                    "<25>{#p/sans}{#f/0}* ... sure.\n* there's a lot we were excited about.",
-                                    '<25>{#p/sans}{#f/3}* the books i gave her, the recipes she tried to teach me...',
-                                    "<25>{#p/sans}{#f/0}* but... y'know...",
-                                    '<25>{#p/sans}{#f/3}* none of that stuff ever made up for what happened to papyrus.',
-                                    '<25>{#p/sans}{#f/3}* she still feels pretty bad about that.',
-                                    '<25>{#p/sans}{#f/0}* not just because she cares about me, but also...',
-                                    '<25>{#p/sans}{#f/0}* because she cared about you.',
-                                    "<25>{#p/sans}{#f/3}* you can imagine how she felt when she realized what you'd done.",
-                                    '<25>{#p/sans}{#f/0}* spoiler alert.\n* not good.',
-                                    "<25>{#p/sans}{#f/3}* ... and the public at large doesn't seem to feel much better.",
-                                    '<25>{#p/sans}{#f/0}* at least in terms of your reputation.',
-                                    '<25>{#p/sans}{#f/0}* still.\n* could be worse.',
-                                    '<25>{#p/sans}{#f/0}* at the very least, alphys and i are confident...',
-                                    '<25>{#p/sans}{#f/3}* in our ability to escort the next human to safety.',
-                                    "<25>{#p/sans}{#f/0}* so that's something.",
-                                    '<25>{#p/alphys}{#f/27}* Uh, hey, sorry to interrupt, but...',
-                                    '<26>{#p/alphys}{#f/20}* I think we may have a... b-bit of a problem.',
-                                    "<25>{#p/sans}{#f/3}* welp.\n* looks like i'll have to cut this short.",
-                                    "<25>{#p/sans}{#f/0}* just... think about what i've said, ok?",
+                                    '<25>{#p/sans}{#f/3}* hmm...\n* o que mais eu deveria mencionar?',
+                                    '<26>{#p/sans}{#f/0}* ... certo.\n* as novas formas de viver.',
+                                    '<25>{#p/sans}{#f/3}* então, depois da verdadeira rainha retornar...',
+                                    '<25>{#p/sans}{#f/0}* eu e ela nos reconhecemos e começamos a conversar.',
+                                    '<25>{#p/sans}{#f/0}* uma coisa levou a outra, e...',
+                                    '<25>{#p/sans}{#f/0}* ela concordou em se mudar comigo para minha casa na cidade de Starton.',
+                                    "<25>{#p/sans}{#f/0}* ... claro.\n* ficamos bem animados em relação a isso.",
+                                    '<25>{#p/sans}{#f/3}* os livros que eu dei pra ela, as receitas que ela tentou me ensinar...',
+                                    "<25>{#p/sans}{#f/0}* mas... você sabe...",
+                                    '<25>{#p/sans}{#f/3}* nada disso preencheu a falta que papyrus faz.',
+                                    '<25>{#p/sans}{#f/3}* ela ainda se sente muito mau em relação a isso.',
+                                    '<25>{#p/sans}{#f/0}* não apenas porque ela se importa comigo, mas também...',
+                                    '<25>{#p/sans}{#f/0}* porque ela se importava com você.',
+                                    "<25>{#p/sans}{#f/3}* você pode imaginar como ela se sentiu quando descobriu o que você fez.",
+                                    '<25>{#p/sans}{#f/0}* alerta de spoiler.\n* nada bem.',
+                                    "<25>{#p/sans}{#f/3}* ... e o público também não pareceu se sentir muito bem.",
+                                    '<25>{#p/sans}{#f/0}* pelo menos para os termos da sua reputação.',
+                                    '<25>{#p/sans}{#f/0}* ainda assim.\n* poderia ter sido pior.',
+                                    '<25>{#p/sans}{#f/0}* pelo lá no fim, alphys e eu estamos muito confiantes...',
+                                    '<25>{#p/sans}{#f/3}* em nossa habilidade de escoltar o próximo humano com segurança.',
+                                    "<25>{#p/sans}{#f/0}* então, isso foi alguma coisa.",
+                                    '<25>{#p/alphys}{#f/27}* Uh, ei, desculpa interromper, mas...',
+                                    '<26>{#p/alphys}{#f/20}* Eu acho que temos um... p-pequeno problema.',
+                                    "<25>{#p/sans}{#f/3}* pois bem.\n* parece que vamos ter que cortar isso mais cedo.",
+                                    "<25>{#p/sans}{#f/0}* só... pensa sobre o que eu falei, beleza?",
                                     '<25>{#p/sans}{#f/0}* ...',
-                                    "<25>{#p/sans}{#f/0}* ... well, that's all.",
+                                    "<25>{#p/sans}{#f/0}* ... bem, isso é tudo.",
                                     '<32>{#s/equip}{#p/event}* Click...'
                                 ]);
                             }
                         } else {
                             addB([
-                                "<18>{#p/papyrus}{#f/0}YEAH!!\nTHEY'RE REALLY NOT THAT BAD!",
-                                '<18>{#p/papyrus}{#f/5}ASIDE FROM ALL THE SECRET-KEEPING.',
-                                '<18>{#p/papyrus}{#f/5}NOT A BIG FAN OF THAT PARTICULAR THING.',
-                                '<25>{#p/alphys}{#f/11}* But if Undyne were to find out, then...',
-                                "<18>{#p/papyrus}{#f/4}YES, YES, I KNOW WHAT YOU'RE GOING TO SAY.",
-                                "<18>{#p/papyrus}{#f/4}SHE'LL GET UPSET AND TRY TO TAKE THE HUMANS' SOULS.",
-                                "<18>{#p/papyrus}{#f/7}YOU DON'T HAVE TO REMIND ME!!",
-                                "<25>{#p/alphys}{#f/23}* He's been arguing with me about this for a while.",
-                                '<18>{#p/papyrus}{#f/5}(SIGH...)',
-                                '<18>{#p/papyrus}{#f/5}I FEEL LIKE WE COULD CONVINCE HER IF WE JUST TRIED.',
-                                "<25>{#p/alphys}{#f/3}* ... Papyrus, why don't you tell them about your new job?",
-                                '<18>{#p/papyrus}{#f/0}OH RIGHT!!\nHOW COULD I FORGET ABOUT THAT!?',
-                                '<18>{#p/papyrus}{#f/0}... UNDYNE FINALLY LET ME JOIN THE ROYAL GUARD.',
-                                "<18>{#p/papyrus}{#f/9}I'M THE GUARD'S NEWEST TRAINING EXPERT!",
-                                '<18>{#p/papyrus}{#f/0}SO... WHILE UNDYNE TRAINS THE OTHER GUARDS...',
-                                "<18>{#p/papyrus}{#f/0}I'M RESPONSIBLE FOR KEEPING THEM ALL MOTIVATED.",
-                                "<18>{#p/papyrus}{#f/9}TURNS OUT I'M PRETTY DARN GOOD AT IT, TOO!",
-                                '<18>{#p/papyrus}{#f/2}HER WORDS -AND- MINE.',
-                                "<25>{#p/alphys}{#f/5}* Sounds like fun.\n* Maybe I'll visit you on the job sometime.",
-                                "<18>{#p/papyrus}{#f/0}SURE, I'LL LET YOU VISIT.",
-                                '<18>{#p/papyrus}{#f/4}AFTER YOU AGREE TO TELL UNDYNE OUR SECRET.',
+                                "<18>{#p/papyrus}{#f/0}É!!\nELE REALMENTE NÃO É DE TODO MAU!",
+                                '<18>{#p/papyrus}{#f/5}TIRANDO DE TODA A GUARDA DE SEGREDOS.',
+                                '<18>{#p/papyrus}{#f/5}NÃO MUITO FÃ DESSA COISA EM PARTICULAR.',
+                                '<25>{#p/alphys}{#f/11}* Mas se Undyne acabar descobrindo, então...',
+                                "<18>{#p/papyrus}{#f/4}SIM, SIM, EU SEI O QUE VOCÊ VAI DIZER.",
+                                "<18>{#p/papyrus}{#f/4}ELA FICARIA IRADA E TOMARIA AS ALMAS HUMANAS.",
+                                "<18>{#p/papyrus}{#f/7}VOCÊ NÃO PRECISA ME RELEMBRAR!!",
+                                "<25>{#p/alphys}{#f/23}* Ele tem argumentado comigo bastante sobre isso.",
+                                '<18>{#p/papyrus}{#f/5}(CHORINHO...)',
+                                '<18>{#p/papyrus}{#f/5}EU SINTO QUE PODERÍAMOS CONVENCER ELA SE TENTÁSSEMOS.',
+                                "<25>{#p/alphys}{#f/3}* ... Papyrus, por que você não conta sobre seu novo trabalho?",
+                                '<18>{#p/papyrus}{#f/0}AH, CLARO!!\nCOMO EU PODERIA ME ESQUECER!?',
+                                '<18>{#p/papyrus}{#f/0}... UNDYNE FINALMENTE PERMITIU MINHA ENTRADA NA GUARDA REAL.',
+                                "<18>{#p/papyrus}{#f/9}EU SOU O MAIS NOVO EXPERT TREINADOR DA GUARDA!",
+                                '<18>{#p/papyrus}{#f/0}ENTÃO... ENQUANTO UNDYNE TREINA OS GUARDAS...',
+                                "<18>{#p/papyrus}{#f/0}EU SOU RESPONSÁVEL POR MANTÊ-LOS MOTIVADOS!",
+                                "<18>{#p/papyrus}{#f/9}ACABA QUE EU SOU MUITO BOM NISSO, TAMBÉM!",
+                                '<18>{#p/papyrus}{#f/2}SUAS PALAVRAS E A MINHA.',
+                                "<25>{#p/alphys}{#f/5}* Parece legal.\n* Talvez eu te visite no trabalho qualquer hora.",
+                                "<18>{#p/papyrus}{#f/0}CLARO, EU TE DEIXO VISITAR.",
+                                '<18>{#p/papyrus}{#f/4}DEPOIS DE VOCÊ CONCORDAR EM ME CONTAR A UNDYNE NOSSO SEGREDO.',
                                 '<25>{#p/alphys}{#f/20}* ...',
-                                '<18>{#p/papyrus}{#f/0}SO, HOW ABOUT IT?\nYOU, ME, UNDYNE, CONVINCING?',
-                                "<25>{#p/sans}{#f/0}* ... huh?\n* what's this about?",
-                                "<25>{#p/sans}{#f/3}* sorry i'm late, by the way.",
-                                '<25>{#p/sans}{#f/2}* the people on the floor above us want me to make dinner.',
-                                "<25>{#p/alphys}{#f/25}* Well aren't they just a needy bunch.",
-                                "<18>{#p/papyrus}{#f/4}AREN'T YOU GOING TO TELL HIM WHAT WE TALKED ABOUT?",
+                                '<18>{#p/papyrus}{#f/0}ENTÃO, QUE TAL ISSO?\nEU, VOCÊ, UNDYNE, CONVENCIMENTO?',
+                                "<25>{#p/sans}{#f/0}* ... huh?\n* sobre o que seria isso?",
+                                "<25>{#p/sans}{#f/3}* desculpa por estar atrasado, aliás.",
+                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo da gente queriam que eu fizesse café da manhã.',
+                                "<25>{#p/alphys}{#f/25}* Bem, não seriam eles apenas uns necessitados por comida.",
+                                "<18>{#p/papyrus}{#f/4}VOCÊ NÃO VAI CONTAR PRA ELES SOBRE O QUE CONVERSAMOS?",
                                 '<25>{#p/alphys}{#f/32}* ...',
-                                '<25>{#p/alphys}{#f/3}* Papyrus thinks we should tell Undyne the truth.',
-                                "<25>{#p/sans}{#f/3}* you really think that'd go well, bro?",
-                                '<18>{#p/papyrus}{#f/0}WELL, AS A MEMBER OF THE ROYAL GUARD...',
-                                '<18>{#p/papyrus}{#f/0}MY OPINION -SHOULD- CARRY SOME REAL WEIGHT!',
-                                "<25>{#p/sans}{#f/0}* hmm... normally i'd say no to something like this, but...",
-                                '<25>{#p/sans}{#f/0}* undyne does seem to have a certain respect for you.',
-                                "<25>{#p/sans}{#f/3}* besides, i've been thinking about it too.",
-                                "<25>{#p/alphys}{#f/22}* W-WELL DON'T GO SAYING ANYTHING UNTIL I GIVE THE OKAY!",
-                                "<25>{#p/sans}{#f/2}* wouldn't dream of it.",
-                                "<18>{#p/papyrus}{#f/0}YEAH!!\nWE'LL JUST PICTURE IT IN OUR HEADS.",
-                                '<18>{#p/papyrus}{#f/5}UNLESS THAT ALSO COUNTS AS DREAMING.',
+                                '<25>{#p/alphys}{#f/3}* Papyrus pensa que deveríamos contar a verdade para Undyne.',
+                                "<25>{#p/sans}{#f/3}* você realmente acha que isso daria certo, mano?",
+                                '<18>{#p/papyrus}{#f/0}BEM, COMO UM MEMBRO DA GUARDA REAL...',
+                                '<18>{#p/papyrus}{#f/0}MINHA OPINIÃO -DEVE- TER ALGUM PESO!',
+                                "<25>{#p/sans}{#f/0}* hmm... normalmente eu diria não para algo assim, mas...",
+                                '<25>{#p/sans}{#f/0}* undyne parece ter certo respeito por você.',
+                                "<25>{#p/sans}{#f/3}* aliás, eu venho pensando sobre isso também.",
+                                "<25>{#p/alphys}{#f/22}* B-BEM NÃO VÁ DIZENDO NADA ATÉ EU DAR OKAY!",
+                                "<25>{#p/sans}{#f/2}* eu nem sonharia com isso.",
+                                "<18>{#p/papyrus}{#f/0}EXATO!!\nVAMOS SÓ IMAGINAR O CENÁRIO EM NOSSAS CABEÇAS.",
+                                '<18>{#p/papyrus}{#f/5}AH NÃO SER QUE ISSO CONTE COMO SONHAR.',
                                 '<26>{#p/sans}{#f/0}* heh.',
-                                '<26>{#p/sans}{#f/0}* well, i should probably get started on that dinner now.',
-                                '<26>{#p/sans}{#f/3}* papyrus, would you mind coming with me?',
-                                "<18>{#p/papyrus}{#f/0}OF COURSE!\nI'LL GO WITH YOU RIGHT AWAY!",
-                                '<26>{#p/sans}{#f/0}* alrighty, then.\n* ... on we go!',
-                                '<25>{#p/alphys}{#f/17}* Have fun.',
+                                '<26>{#p/sans}{#f/0}* bem, eu provavelmente deveria ir fazer aquela comida agora.',
+                                '<26>{#p/sans}{#f/3}* papyrus, você se importaria de vir comigo?',
+                                "<18>{#p/papyrus}{#f/0}MAS É CLARO!\nESTAREI LOGO ATRÁS DE VOCÊ!",
+                                '<26>{#p/sans}{#f/0}* certo, então.\n* ... lá vamos nós!',
+                                '<25>{#p/alphys}{#f/17}* boa sorte.',
                                 '<25>{#p/alphys}{#f/17}* ...',
-                                '<25>{#p/alphys}{#f/5}* To be honest...',
-                                '<25>{#p/alphys}{#f/5}* It would be nice to not have to hide all of this anymore.',
-                                "<25>{#p/alphys}{#f/6}* So... maybe, if there's really a chance this could succeed...",
+                                '<25>{#p/alphys}{#f/5}* Pra ser honesta...',
+                                '<25>{#p/alphys}{#f/5}* Seria ótimo não precisar esconder tudo isso.',
+                                "<25>{#p/alphys}{#f/6}* Então... talvez, se existe realmente qualquer chance disso dar certo...",
                                 '<25>{#p/alphys}{#f/6}* ...',
-                                "<25>{#p/alphys}{#f/8}* I-I'll think about it after I hang up the phone.",
+                                "<25>{#p/alphys}{#f/8}* E-eu vou pensar sobre isso após eu desligar o telefone.",
                                 '<25>{#p/alphys}{#f/10}* ...',
-                                '<25>{#p/alphys}{#f/16}* T-take care!!',
+                                '<25>{#p/alphys}{#f/16}* C-cuide-se!',
                                 '<32>{#s/equip}{#p/event}* Click...'
                             ]);
                         }
@@ -2147,217 +2147,217 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/toriel}{#f/1}* Hello?',
-                            '<25>{#p/toriel}{#f/5}* This is... Toriel.',
-                            '<25>{#p/toriel}{#f/1}* ... I know we did not part ways on the best of terms, but...',
-                            '<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since your departure.'
+                            '<25>{#p/toriel}{#f/1}* Olá?',
+                            '<25>{#p/toriel}{#f/5}* Aqui é... Toriel.',
+                            '<25>{#p/toriel}{#f/1}* ... Eu sei que não nos separamos da melhor forma, mas...',
+                            '<25>{#p/toriel}{#f/5}* Eu sinto que você precisa entender tudo que aconteceu desde que se foi.'
                         ]);
                         addB([
-                            '<25>{#p/toriel}{#f/9}* After you ran away from me, I reconsidered my own decisions.',
-                            '<25>{#p/toriel}{#f/13}* I felt... guilty.\n* For trying to keep you in the Outlands.',
-                            '<25>{#p/toriel}{#f/13}* For trying to keep ALL the humans there.',
-                            '<25>{#p/toriel}{#f/9}* I decided I could stay there no longer.',
-                            '<26>{#p/toriel}{#f/13}* I worked up the courage to leave, and returned to the Citadel.',
-                            '<25>{#p/toriel}{#f/18}* ... when I saw that the humans were trapped in those boxes...',
-                            '<25>{#p/toriel}{#f/13}* I released them without a second thought.',
-                            '<26>{#p/toriel}{#f/10}* I did not want them to be trapped any more than I wanted you to be.',
-                            '<25>{#p/toriel}{#f/9}* ... but this decision was not without its consequences.',
-                            "<25>{#p/toriel}{#f/13}* Not only were the humans traumatized by ASGORE's archive...",
-                            '<25>{#p/toriel}{#f/13}* But one of them ran off, and was discovered by the public.',
-                            '<25>{#p/toriel}{#f/18}* I did not want to keep them here against their will, but...',
-                            "<25>{#p/toriel}{#f/9}* The death of the Royal Guard's captain, and loss of the king...",
-                            "<25>{#p/toriel}{#f/9}* ... placed humanity's reputation in a rather difficult position.",
-                            '<25>{#p/toriel}{#f/13}* With the public knowing the truth about the humans...',
-                            '<25>{#p/toriel}{#f/9}* I had no choice but to do whatever I could to safeguard them.',
-                            '<25>{#p/alphys}{#f/15}* Uh, not to interrupt, but... you have a visitor.',
-                            '<25>{#p/toriel}{#f/10}* Let me guess.\n* Sans?',
+                            '<25>{#p/toriel}{#f/9}* Depois que você foi embora, eu reconsiderei minhas decisões.',
+                            '<25>{#p/toriel}{#f/13}* Eu senti... culpa.\n* Por tentar te manter nas Outlands.',
+                            '<25>{#p/toriel}{#f/13}* Por tentar manter TODOS OS humanos lá.',
+                            '<25>{#p/toriel}{#f/9}* Eu decide não ficar por lá mais nem um segundo.',
+                            '<26>{#p/toriel}{#f/13}* Eu trabalhei muito na coragem para sair, e retornei a Cidadela.',
+                            '<25>{#p/toriel}{#f/18}* ... quando eu vi que os humanos estavam presos naquelas caixas...',
+                            '<25>{#p/toriel}{#f/13}* Eu os libertei sem pensar.',
+                            '<26>{#p/toriel}{#f/10}* Eu não queria que eles estivessem presos como eu quis que você estivesse.',
+                            '<25>{#p/toriel}{#f/9}* ... mas essa decisão não veio sem consequências.',
+                            "<25>{#p/toriel}{#f/13}* Não apenas os humanos estavam traumatizados pelo arquivo de ASGORE...",
+                            '<25>{#p/toriel}{#f/13}* Mas um deles fugiu e foi descoberto pelo povo.',
+                            '<25>{#p/toriel}{#f/18}* Eu não queria mantê-los aqui contra sua vontade, mas...',
+                            "<25>{#p/toriel}{#f/9}* A morte da capitã da Guarda Real e a perda do rei...",
+                            "<25>{#p/toriel}{#f/9}* ... colocou a reputação da humanidade em uma posição bastante difícil.",
+                            '<25>{#p/toriel}{#f/13}* Com o público sabendo a verdade em relação aos humanos...',
+                            '<25>{#p/toriel}{#f/9}* Eu não tive chances se não esconde-los aonde estariam seguros.',
+                            '<25>{#p/alphys}{#f/15}* Uh, sem querer interromper, mas... você tem visita.',
+                            '<25>{#p/toriel}{#f/10}* Deixa eu adivinhar.\n* Sans?',
                             '<25>{#p/alphys}{#f/3}* ...',
-                            '<25>{#p/toriel}{#f/0}* There is no need to be so formal when he is the one at the gate.',
-                            '<25>{#p/toriel}{#f/9}* System, unlock the gate, authorization Toriel PIE-1-1-0.',
-                            "<25>{#p/sans}{#f/0}* ...\n* it's about time.",
-                            '<25>{#p/sans}{#f/0}* you still on the phone with the human?',
-                            '<25>{#p/alphys}{#f/23}* On the WHAT!?',
-                            '<25>{#p/toriel}{#f/0}* Yes, I thought it would be nice if they heard from you, Sans.',
-                            '<25>{#p/toriel}{#f/1}* Perhaps Alphys would like to join us as well?',
+                            '<25>{#p/toriel}{#f/0}* Não há necessidade de ser tão formal quando ele é quem está no portão.',
+                            '<25>{#p/toriel}{#f/9}* Sistema, destrave o portão, autorização Toriel TORTA-1-1-0.',
+                            "<25>{#p/sans}{#f/0}* ...\n* já era hora.",
+                            '<25>{#p/sans}{#f/0}* você ainda está no telefone com o humano?',
+                            '<25>{#p/alphys}{#f/23}* No O QUE!?',
+                            '<25>{#p/toriel}{#f/0}* Sim, eu pensei que seria legal se ele ouvisse de você, Sans.',
+                            '<25>{#p/toriel}{#f/1}* Talvez Alphys queira se juntar também?',
                             '<25>{#p/alphys}{#f/21}* ...',
-                            '<25>{#p/alphys}{#f/21}* No.\n* Alphys would not.',
-                            '<25>{#p/alphys}{#f/21}* In fact, Alphys would like to leave now.',
-                            "<25>{#p/alphys}{#f/24}* ... I'll be outside if you need me.",
+                            '<25>{#p/alphys}{#f/21}* Não.\n* Alphys não quer.',
+                            '<25>{#p/alphys}{#f/21}* Na verdade, Alphys gostaria de se retirar agora.',
+                            "<25>{#p/alphys}{#f/24}* ... Ei estarei lá fora se você precisar de mim.",
                             '<25>{#p/sans}{#f/0}* ...',
                             '<25>{#p/toriel}{#f/5}* ...'
                         ]);
                         if (SAVE.data.n.state_foundry_undyne === 1) {
-                            addB(["<25>{#p/sans}{#f/3}* she's... still pretty upset about what happened to undyne."]);
+                            addB(["<25>{#p/sans}{#f/3}* ela... ainda está com muita raiva sobre o que aconteceu com a undyne."]);
                         } else {
-                            addB(["<25>{#p/sans}{#f/3}* she's... still pretty angry about what you did to undyne."]);
+                            addB(["<25>{#p/sans}{#f/3}* ela... ainda está com muita raiva em relação ao que você fez com undyne."]);
                         }
                         if (dmettaton) {
-                            addB(['<25>{#p/sans}{#f/0}* not to mention her friend, mettaton.']);
+                            addB(['<25>{#p/sans}{#f/0}* sem mencionar o amigo dela, mettaton.']);
                         } else {
-                            addB(["<25>{#p/sans}{#f/0}* about what she's had to do as a result."]);
+                            addB(["<25>{#p/sans}{#f/0}* sobre o que ela teve que fazer como resultado."]);
                         }
                         if (dpapyrus) {
                             addB([
-                                '<25>{#p/sans}{#f/3}* and you know what?',
-                                '<25>{#p/sans}{#f/0}* i really get it.',
-                                '<25>{#p/sans}{#f/0}* i know what alphys must be going through right now.',
-                                '<25>{#p/sans}{#f/0}* after all...',
-                                "<25>{#p/sans}{#f/3}* she's not the only one who lost someone."
+                                '<25>{#p/sans}{#f/3}* e você sabe o que?',
+                                '<25>{#p/sans}{#f/0}* eu já entendi.',
+                                '<25>{#p/sans}{#f/0}* eu sei pelo que a alphys está passando agora.',
+                                '<25>{#p/sans}{#f/0}* depois de tudo...',
+                                "<25>{#p/sans}{#f/3}* ela não é a única que perdeu alguém."
                             ]);
                         } else {
                             if (SAVE.data.n.state_foundry_undyne === 1) {
                                 if (dmettaton) {
                                     addB([
-                                        "<25>{#p/sans}{#f/3}* and while i wouldn't blame you for what you did, or didn't do..."
+                                        "<25>{#p/sans}{#f/3}* e enquanto eu não te culpo pelo que você fez, ou não fez..."
                                     ]);
                                 } else {
-                                    addB(["<25>{#p/sans}{#f/3}* and while i wouldn't blame you for running away..."]);
+                                    addB(["<25>{#p/sans}{#f/3}* e enquanto eu não te culpo por fugir..."]);
                                 }
                             } else {
-                                addB(["<25>{#p/sans}{#f/3}* and while i wouldn't blame you for trying to defend yourself..."]);
+                                addB(["<25>{#p/sans}{#f/3}* e enquanto eu não te culpo por tentar se defender..."]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* i can't help but wonder if there was a better way to go about things.",
-                                '<25>{#p/sans}{#f/0}* if, maybe somehow, this all could have been avoided.',
-                                '<25>{#p/sans}{#f/3}* but i digress.',
-                                "<25>{#p/sans}{#f/0}* there's too much at stake in the present to worry about the past."
+                                "<25>{#p/sans}{#f/0}* eu me pergunto se não existe outra forma melhor das quais as coisas poderiam ter acontecido.",
+                                '<25>{#p/sans}{#f/0}* se, de alguma forma, isso tudo poderia ter sido evitado.',
+                                '<25>{#p/sans}{#f/3}* mas eu dúvido.',
+                                "<25>{#p/sans}{#f/0}* a muito o que fazer no presente para se preocupar com o passado."
                             ]);
                         }
                         if (royals < 2) {
                             addB([
                                 '<25>{#p/sans}{#f/0}* ...',
-                                "<25>{#p/sans}{#f/0}* it's been difficult without the royal guard to protect us.",
-                                '<25>{#p/sans}{#f/3}* not that i was a big fan of those guys before, but...',
-                                "<25>{#p/sans}{#f/0}* at a time like this, it'd be nice to have them around.",
-                                '<25>{#p/toriel}{#f/13}* Yes, sadly, I am inclined to agree.',
-                                '<25>{#p/toriel}{#f/13}* It seems not a day goes by without an angered citizen at the gate.',
-                                '<25>{#p/toriel}{#f/9}* But it cannot be helped.',
-                                '<25>{#p/toriel}{#f/9}* There are few who share my willingness to treat humans as individuals.',
-                                '<32>{#p/human}{#v/1}{@fill=#42fcff}* Toriel, are we in danger?',
-                                '<25>{#p/toriel}{#f/1}* ... oh, hello!',
-                                '<25>{#p/toriel}{#f/0}* Do not worry, my child.\n* I will always be here to protect you.',
-                                '<32>{#p/human}{#v/1}{@fill=#42fcff}* ... thank you...',
-                                '<25>{#p/toriel}{#f/0}* Now, please go back and wait with the others.',
-                                '<25>{#p/toriel}{#f/0}* I will be with you shortly.',
-                                "<32>{#p/human}{#v/1}{@fill=#42fcff}* Okay, I'll go...",
-                                '<25>{#p/toriel}{#f/10}* ... very good.',
+                                "<25>{#p/sans}{#f/0}* tem sido difícil sem a presença da Guarda Real para nos proteger.",
+                                '<25>{#p/sans}{#f/3}* não que eu fosse super fã desses caras, mas...',
+                                "<25>{#p/sans}{#f/0}* em tempos assim, era ótimo tê-los por perto.",
+                                '<25>{#p/toriel}{#f/13}* Sim, infelizmente, sou tentada a concordar.',
+                                '<25>{#p/toriel}{#f/13}* Não tem um dia sequer em que não apareça um cidadão com raiva no portão.',
+                                '<25>{#p/toriel}{#f/9}* Mas não há como ajudar.',
+                                '<25>{#p/toriel}{#f/9}* Há poucos que compartilham minha disposição de tratar os humanos como indivíduos.',
+                                '<32>{#p/human}{#v/1}{@fill=#42fcff}* Toriel, estamos em perigo?',
+                                '<25>{#p/toriel}{#f/1}* ... oh, olá!',
+                                '<25>{#p/toriel}{#f/0}* Não se preocupe, minha criança.\n* Eu sempre estarei aqui para te proteger.',
+                                '<32>{#p/human}{#v/1}{@fill=#42fcff}* ... obrigado.',
+                                '<25>{#p/toriel}{#f/0}* Agora, por favor volte e espere com os outros.',
+                                '<25>{#p/toriel}{#f/0}* Eu estarei contigo o mais cedo possível.',
+                                "<32>{#p/human}{#v/1}{@fill=#42fcff}* Certo, eu vou indo...",
+                                '<25>{#p/toriel}{#f/10}* ... muito bem.',
                                 '<25>{#p/toriel}{#f/9}* ...'
                             ]);
                             if (dpapyrus) {
                                 addB([
-                                    '<25>{#p/toriel}{#f/10}* I suppose I cannot judge the citizens too harshly...',
-                                    '<25>{#p/toriel}{#f/9}* ... knowing the sorts of choices you made during your time here.',
-                                    '<25>{#p/toriel}{#f/13}* It was... difficult, even for me, to accept what you had done.'
+                                    '<25>{#p/toriel}{#f/10}* Suponho que não posso julgar os cidadãos com muita severidade...',
+                                    '<25>{#p/toriel}{#f/9}* ... sabendo os tipos de decisões que você fez durante o tempo em que esteve aqui.',
+                                    '<25>{#p/toriel}{#f/13}* Foi difícil... mesmo para mim, para aceitar o que você fez.'
                                 ]);
                             } else {
-                                addB(['<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.']);
+                                addB(['<25>{#p/toriel}{#f/13}* Foi... uma situação infeliz com a quais nos encontramos.']);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* y'know...",
-                                "<25>{#p/sans}{#f/0}* i wanted to go to grillby's the other day, but...",
-                                '<25>{#p/sans}{#f/3}* their entire stock got raided last week.',
-                                '<25>{#p/sans}{#f/0}* turns out grillby was a pro-human supporter.',
-                                '<25>{#p/toriel}{#f/13}* I am... sorry to hear that, Sans.\n* You liked going there.',
-                                '<25>{#p/sans}{#f/3}* yeah, being pro-human is basically a death sentence these days.',
-                                '<25>{#p/sans}{#f/0}* at least where your business is concerned.',
-                                '<25>{#p/toriel}{#f/12}* ... this is not the only instance of this happening.',
-                                '<25>{#p/toriel}{#f/11}* Many others have had the same fate.',
-                                '<25>{#p/sans}{#f/0}* yeah, but you know what the worst part is?',
-                                "<25>{#p/sans}{#f/3}* this isn't what monsters are supposed to be like.",
-                                '<25>{#p/sans}{#f/0}* the homeworld was said to be peaceful, and even during the war...',
-                                '<25>{#p/sans}{#f/0}* at least we were still united as a species.',
-                                "<25>{#p/sans}{#f/3}* now, it just feels like... people can't get along."
+                                "<25>{#p/sans}{#f/0}* sabe de uma coisa...",
+                                "<25>{#p/sans}{#f/0}* eu queria ir ao grillbys outro dia, mas...",
+                                '<25>{#p/sans}{#f/3}* todo o estoque dele foi roubado semana passada.',
+                                '<25>{#p/sans}{#f/0}* O que aconteceu porque o grillbys era um grande apoiador dos humanos.',
+                                '<25>{#p/toriel}{#f/13}* Eu... Lamento ouvir isso, Sans.\n* Você gostou de ir lá?',
+                                '<25>{#p/sans}{#f/3}* Sim, ser um pro-humano nos dias de hoje é sentença de morte.',
+                                '<25>{#p/sans}{#f/0}* pelo menos os seus negócios estarão mortos.',
+                                '<25>{#p/toriel}{#f/12}* ... está não foi a única vez que isso aconteceu.',
+                                '<25>{#p/toriel}{#f/11}* Muitos monstros já tiveram o mesmo destino.',
+                                '<25>{#p/sans}{#f/0}* sim, mas você sabe a pior parte?',
+                                "<25>{#p/sans}{#f/3}* Isto não é o que os monstros deveriam ser ou agir.",
+                                '<25>{#p/sans}{#f/0}* O mundo natal era considerado uma paz, e mesmo durante a guerra...',
+                                '<25>{#p/sans}{#f/0}* pelo menos ainda estavámos unidos como espécie.',
+                                "<25>{#p/sans}{#f/3}* agora, só parece que... pessoas não conseguem se dar bem."
                             ]);
                             if (dpapyrus) {
-                                addB(["<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now."]);
+                                addB(["<25>{#p/sans}{#f/0}* eu realmente poderia usar a animação do meu irmão agora."]);
                             } else {
-                                addB(['<25>{#p/sans}{#f/0}* and that really stinks.']);
+                                addB(['<25>{#p/sans}{#f/0}* e isso realmente me destrói.']);
                             }
                             addB([
-                                '<25>{#p/alphys}{#f/3}* Uh... guys?',
-                                '<25>{#p/alphys}{#f/3}* I think you need to come see this.',
-                                '<25>{#p/toriel}{#f/3}* What is that rumbling?\n* Do you hear that?',
-                                '<25>{#p/alphys}{#f/23}* You need to look outside.',
-                                '<25>{#p/sans}{#f/0}* toriel, did you lock the gate after i got through?',
+                                '<25>{#p/alphys}{#f/3}* Uh... pessoal?',
+                                '<25>{#p/alphys}{#f/3}* eu acho que vocês precisam ver isso.',
+                                '<25>{#p/toriel}{#f/3}* Que estrondo é esse?\n* Você ouviu isso?',
+                                '<25>{#p/alphys}{#f/23}* Você precisa olhar lá fora.',
+                                '<25>{#p/sans}{#f/0}* toriel, você fechou o portão após eu entrar?',
                                 '<25>{#p/toriel}{#f/2}* ...',
-                                '<25>{#p/alphys}{#f/22}* Come outside, NOW!!',
-                                '<25>{|}{#p/toriel}{#f/2}* I... I am sorry!\n* I have to- {%}',
+                                '<25>{#p/alphys}{#f/22}* Entrem pra dentro, AGORA!!',
+                                '<25>{|}{#p/toriel}{#f/2}* Me... me desculpa!\n* Eu tenho que- {%}',
                                 '<32>{#s/equip}{#p/event}* Click...'
                             ]);
                         } else {
                             addB([
                                 '<25>{#p/sans}{#f/0}* ...',
-                                '<25>{#p/sans}{#f/0}* at least we have the royal guard around to back us up.',
-                                "<25>{#p/sans}{#f/3}* what's left of it, anyway.",
-                                '<25>{#p/toriel}{#f/14}* It is fortunate we have their support.',
-                                '<25>{#p/toriel}{#f/13}* I do not know how we would fare without it.',
-                                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Yeah!\n* That Royal Guard is awesome!',
+                                '<25>{#p/sans}{#f/0}* pelo menos ainda temos a guarda real para nos proteger.',
+                                "<25>{#p/sans}{#f/3}* o que restou dela, pelo menos.",
+                                '<25>{#p/toriel}{#f/14}* É uma sorte que tenhamos seu apoio.',
+                                '<25>{#p/toriel}{#f/13}* Eu não sei como iríamos aguentar sem eles.',
+                                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Isso aí\n* A Guarda Real é incrível!',
                                 '<25>{#p/toriel}{#f/2}* ... huh!?',
-                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* You'll see!",
-                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* When I'm older, I'm gonna join them and protect everyone!",
-                                '<25>{#p/toriel}{#f/0}* Hee hee.\n* Perhaps you will.',
+                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* Exatamente!",
+                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* Quando eu for mais velho, irei me juntar a eles para proteger todo mundo!",
+                                '<25>{#p/toriel}{#f/0}* Hee hee.\n* Talvez você vá.',
                                 '<25>{#p/toriel}{#f/1}* Hmm...',
-                                '<25>{#p/toriel}{#f/0}* For now, your orders are to return to and guard the others first.',
-                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* Aye aye, captain!\n* I'll do so right away!",
-                                '<25>{#p/toriel}{#f/0}* Stay safe!',
-                                "<25>{#p/sans}{#f/0}* heh.\n* don't push 'em too hard out there.",
-                                "<25>{#p/sans}{#f/3}* they've... still got all that archive stuff to deal with.",
-                                '<26>{#p/toriel}{#f/5}* That IS true, however...',
-                                '<25>{#p/toriel}{#f/0}* It does not mean they must focus on it all the time.',
-                                '<25>{#p/toriel}{#f/1}* They are still only children, are they not?',
-                                '<25>{#p/sans}{#f/2}* ... welp, you know more about these things than me.',
+                                '<25>{#p/toriel}{#f/0}* Por agora, você deve retornar e guardar os outros primeiro.',
+                                "<32>{#p/human}{#v/2}{@fill=#ff993d}* Aye aye, capitã!\n* Eu estou a caminho!",
+                                '<25>{#p/toriel}{#f/0}* Fique em segurança!',
+                                "<25>{#p/sans}{#f/0}* heh.\n* não os coloque em tanto esforço por aí.",
+                                "<25>{#p/sans}{#f/3}* eles ainda... tem toda a coisa do arquivo pra lidar.",
+                                '<26>{#p/toriel}{#f/5}* Isso É verdade, entretanto...',
+                                '<25>{#p/toriel}{#f/0}* Isso não significa que eles devem focar nisso o tempo todo.',
+                                '<25>{#p/toriel}{#f/1}* Eles ainda são apenas crianças, não são?',
+                                '<25>{#p/sans}{#f/2}* ... bem, você sabe mais sobre essas coisas do que eu.',
                                 '<25>{#p/toriel}{#f/9}* ...',
-                                '<25>{#p/toriel}{#f/9}* I do still worry about the outpost overall.',
-                                '<26>{#p/toriel}{#f/13}* The Royal Guard has helped to keep it in check, but...',
-                                '<25>{#p/toriel}{#f/18}* Many people still do not see the value in what we are doing.'
+                                '<25>{#p/toriel}{#f/9}* Eu ainda me preocupo com o Outpost acima de tudo.',
+                                '<26>{#p/toriel}{#f/13}* A Guarda Real tem mantido tudo seguro, mas...',
+                                '<25>{#p/toriel}{#f/18}* Muitos ainda não vêem o valor no que estamos fazendo.'
                             ]);
                             if (dpapyrus) {
                                 addB([
-                                    '<25>{#p/toriel}{#f/10}* Though, I suppose I cannot judge them too harshly...',
-                                    '<25>{#p/toriel}{#f/9}* ... knowing the sorts of choices you made during your time here.',
-                                    '<25>{#p/toriel}{#f/13}* It was... difficult, even for me, to accept what you had done.'
+                                    '<25>{#p/toriel}{#f/10}* Embora, suponho que não posso julgá-los com muita severidade...',
+                                    '<25>{#p/toriel}{#f/9}* ... sabendo os tipos de decisões que você fez durante o tempo em que esteve aqui.',
+                                    '<25>{#p/toriel}{#f/13}* Foi difícil... mesmo para mim, para aceitar o que você fez.'
                                 ]);
                             } else {
-                                addB(['<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.']);
+                                addB(['<25>{#p/toriel}{#f/13}* Foi... uma situação infeliz com a quais nos encontramos.']);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/0}* y'know...",
-                                "<25>{#p/sans}{#f/0}* i wanted to go to grillby's the other day, but...",
-                                '<25>{#p/sans}{#f/3}* the place was utterly full of protesters.',
-                                '<25>{#p/sans}{#f/0}* turns out grillby was a pro-human supporter.',
-                                '<25>{#p/toriel}{#f/13}* I am... sorry to hear that, Sans.\n* Was a guard not there?',
-                                "<25>{#p/sans}{#f/3}* well, yeah, but it's not like they can kick 'em out.",
-                                '<25>{#p/sans}{#f/0}* they WERE still paying customers.',
-                                '<25>{#p/toriel}{#f/1}* ... that does not seem like an effective means of protest.',
-                                '<25>{#p/toriel}{#f/6}* But I wish them well.',
-                                "<25>{#p/sans}{#f/0}* yeah, i guess that's kinda funny.\n* but at the same time...",
-                                "<25>{#p/sans}{#f/3}* this isn't what monsters are supposed to be like.",
-                                '<25>{#p/sans}{#f/0}* the homeworld was said to be peaceful, and even during the war...',
-                                '<25>{#p/sans}{#f/0}* at least we were still united as a species.',
-                                "<25>{#p/sans}{#f/3}* now, it just feels like... people can't get along."
+                                "<25>{#p/sans}{#f/0}* sabe de uma coisa...",
+                                "<25>{#p/sans}{#f/0}* eu queria ir ao grillbys outro dia, mas...",
+                                '<25>{#p/sans}{#f/3}* o lugar estava bem cheio de protestantes.',
+                                '<25>{#p/sans}{#f/0}* O que aconteceu porque o grillbys era um grande apoiador dos humanos.',
+                                '<25>{#p/toriel}{#f/13}* Eu... sinto muito em ouvir isso, Sans. \n* Não tinha um guarda lá?',
+                                "<25>{#p/sans}{#f/3}* bem, sim, mas não é como se ele conseguisse fazer algo sozinho.",
+                                '<25>{#p/sans}{#f/0}* eles ainda ERAM clientes pagantes.',
+                                '<25>{#p/toriel}{#f/1}* ... estes não parecem meios efetivos de protesto.',
+                                '<25>{#p/toriel}{#f/6}* Mas espero que todos estejam bem.',
+                                "<25>{#p/sans}{#f/0}* Sim, acho que isso é meio engraçado.\n* Mas ao mesmo tempo...",
+                                "<25>{#p/sans}{#f/3}* Isto não é o que os monstros deveriam ser ou agir.",
+                                '<25>{#p/sans}{#f/0}* O mundo natal era considerado uma paz, e mesmo durante a guerra...',
+                                '<25>{#p/sans}{#f/0}* pelo menos ainda estavámos unidos como espécie.',
+                                "<25>{#p/sans}{#f/3}* agora, só parece que... pessoas não conseguem se dar bem."
                             ]);
                             if (dpapyrus) {
-                                addB(["<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now."]);
+                                addB(["<25>{#p/sans}{#f/0}* eu realmente poderia usar a animação do meu irmão agora."]);
                             } else {
-                                addB(['<25>{#p/sans}{#f/0}* and that really stinks.']);
+                                addB(['<25>{#p/sans}{#f/0}* e isso realmente me destrói.']);
                             }
                             addB([
-                                '<25>{#p/alphys}{#f/27}* Uh, Toriel?\n* I think you left the security gate open.',
-                                "<25>{#p/alphys}{#f/20}* Don't worry, I closed it for you.\n* Again.",
-                                '<25>{#p/toriel}{#f/1}* Oh, um, thank you...',
-                                "<26>{#p/alphys}{#f/23}* Maybe don't do that\n  next time?\n* It's there for a reason.",
+                                '<25>{#p/alphys}{#f/27}* Uh, Toriel?\n* Eu acho que você deixou o portão de segurança aberto.',
+                                "<25>{#p/alphys}{#f/20}* Não se preocupe, eu fechei ele pra você.\n* De novo.",
+                                '<25>{#p/toriel}{#f/1}* Oh, um, obrigada...',
+                                "<26>{#p/alphys}{#f/23}* Não faça isso da próxima vez?\n* Está lá por um motivo.",
                                 '<25>{#p/toriel}{#f/5}* ...',
-                                '<25>{#p/toriel}{#f/9}* Perhaps now would be a good time to end this message.',
-                                '<25>{#p/sans}{#f/0}* yeah, sounds good.',
-                                "<25>{#p/sans}{#f/3}* sorry, bucko... can't talk to you forever."
+                                '<25>{#p/toriel}{#f/9}* Talvez agora seja um bom momento para finalizar a mensagem.',
+                                '<25>{#p/sans}{#f/0}* claro, parece bom.',
+                                "<25>{#p/sans}{#f/3}* foi mal, mané... não posso falar contigo pra sempre."
                             ]);
                             if (dpapyrus) {
                                 addB([
-                                    '<25>{#p/sans}{#f/0}* fly safe out there, i guess...',
-                                    "<25>{#p/sans}{#f/3}* ... or not.\n* i don't really care."
+                                    '<25>{#p/sans}{#f/0}* voe com segurança por aí, eu acho...',
+                                    "<25>{#p/sans}{#f/3}* ... ou não. \n* eu não ligo."
                                 ]);
                             } else {
-                                addB(['<25>{#p/sans}{#f/0}* fly safe out there, will ya?', '<25>{#p/sans}{#f/3}* ...']);
+                                addB(['<25>{#p/sans}{#f/0}* voe com segurança por aí, beleza?', '<25>{#p/sans}{#f/3}* ...']);
                             }
                             addB(['<32>{#s/equip}{#p/event}* Click...']);
                         }
@@ -2368,77 +2368,77 @@ export default {
                         if (SAVE.data.n.state_wastelands_toriel === 0) {
                             addA([
                                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                                '<25>{#p/toriel}{#f/1}* Hello?',
-                                '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
-                                '<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally have, but...',
-                                '<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since your departure.'
+                                '<25>{#p/toriel}{#f/1}* Olá?',
+                                '<25>{#p/toriel}{#f/0}* ...\n* Aqui é a toriel.',
+                                '<25>{#p/toriel}{#f/1}* Eu sei que este não é o ligação que normalmente nós teríamos, mas...',
+                                '<25>{#p/toriel}{#f/5}* Eu sinto que você precisa entender tudo que aconteceu desde que se foi.'
                             ]);
-                            addB(['<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Apesar de nossos arranjos, não pude deixar de me preocupar.']);
                         } else {
                             addA([
                                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                                '<25>{#p/toriel}{#f/1}* Hello?',
-                                '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
-                                '<25>{#p/toriel}{#f/1}* The circumstances may not be ideal at the moment, but...',
-                                '<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since your departure.'
+                                '<25>{#p/toriel}{#f/1}* Olá?',
+                                '<25>{#p/toriel}{#f/0}* ...\n* Aqui é a toriel.',
+                                '<25>{#p/toriel}{#f/1}* As circunstâncias podem não ser as ideais no momento, mas...',
+                                '<25>{#p/toriel}{#f/5}* Eu sinto que você precisa entender tudo que aconteceu desde que se foi.'
                             ]);
-                            addB(['<25>{#p/toriel}{#f/9}* After our time in the Outlands, I could not help but worry.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Após nosso tempo nas Outlands, eu não pude me ajudar se não ficar preocupada.']);
                         }
                         addB([
-                            '<25>{#p/toriel}{#f/5}* I knew you were the last human ASGORE would have needed.',
-                            '<25>{#p/toriel}{#f/1}* Despite my fear of leaving the Outlands...',
-                            '<25>{#p/toriel}{#f/5}* I knew I could not afford to remain there any longer.',
-                            '<25>{#p/toriel}{#f/9}* I ran to the Citadel as fast as I could to stop him from hurting you.',
-                            '<25>{#p/toriel}{#f/10}* But when I got there...',
-                            '<25>{#p/toriel}{#f/9}* I realized I had been wrong about him this whole time.',
-                            '<25>{#p/toriel}{#f/5}* He was not the killer I had made him out to be.',
+                            '<25>{#p/toriel}{#f/5}* Eu sabia que você era o último humano que o ASGORE precisava.',
+                            '<25>{#p/toriel}{#f/1}* Mesmo com meu medo de deixar as Outlands...',
+                            '<25>{#p/toriel}{#f/5}* Eu sabia que não poderia ficar alí por muito mais tempo.',
+                            '<25>{#p/toriel}{#f/9}* Eu corri para a Cidadela o mais rápido que pude para impedi-lo de te ferir.',
+                            '<25>{#p/toriel}{#f/10}* Mas quando cheguei lá...',
+                            '<25>{#p/toriel}{#f/9}* Eu percebi que estava errada sobre ele este tempo todo.',
+                            '<25>{#p/toriel}{#f/5}* Ele não era o assassino do qual eu o acusei ser.',
                             '<25>{#p/toriel}{#f/1}* ...',
-                            '<25>{#p/toriel}{#f/1}* I had a talk with Alphys later that day.',
-                            '<25>{#p/toriel}{#f/1}* We discussed ASGORE, the humans...',
-                            '<25>{#p/toriel}{#f/3}* As well as something about a \"Mew Mew Space Adventure?\"',
-                            '<25>{#p/toriel}{#f/4}* I still do not know what that means.',
-                            "<25>{#p/toriel}{#f/0}* Anyhoo, to summarize... she wasn't ready to become the queen.",
-                            '<25>{#p/toriel}{#f/1}* And she agreed to appoint me instead.',
-                            "<25>{#p/toriel}{#f/5}* Only then, did I hear about the Royal Guard captain's death..."
+                            '<25>{#p/toriel}{#f/1}* Eu conversei com a Alphys mais tarde daquele dia.',
+                            '<25>{#p/toriel}{#f/1}* Nós discutimos ASGOREA, os humanos...',
+                            '<25>{#p/toriel}{#f/3}* E também algo sobre \"Mew Mew Aventura no Espaço?\"',
+                            '<25>{#p/toriel}{#f/4}* Eu ainda não sei o que significa.',
+                            "<25>{#p/toriel}{#f/0}* De toda forma, para você entender... ela não estava pronta para se tornar rainha.",
+                            '<25>{#p/toriel}{#f/1}* E ela concordou em me colocar lá.',
+                            "<25>{#p/toriel}{#f/5}* Apenas então, eu ouvi sobre a morte da capitã da Guarda Real..."
                         ]);
                         if (hkills === 0) {
-                            addB(['<25>{#p/toriel}{#f/9}* And the fact that, had you acted, you might have saved her.']);
+                            addB(['<25>{#p/toriel}{#f/9}* E o fato é, a forma que você agiu, pode acabar tendo salvo ela.']);
                         } else if (hkills === 1 && SAVE.data.n.state_foundry_undyne === 2) {
-                            addB(['<25>{#p/toriel}{#f/9}* And the fact that you were the one to have killed her.']);
+                            addB(['<25>{#p/toriel}{#f/9}* E o fato de que você foi aquele quem matou ela.']);
                         } else if (dmettaton) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the death of the TV star, Mettaton.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Junto com a morte da estrela de TV, Mettaton.']);
                             if (royals < 2) {
                                 addB([
-                                    '<26>{#p/toriel}{#f/9}* ... and the deaths of most of the Royal Guard beyond that.',
-                                    "<25>{#p/toriel}{#f/5}* Mettaton's death in particular was difficult, however."
+                                    '<26>{#p/toriel}{#f/9}* ... e a morte da boa parte da Guarda Real.',
+                                    "<25>{#p/toriel}{#f/5}* A morte do Mettaton em particular foi difícil para as pessoas."
                                 ]);
                             } else if (royals < 7) {
                                 addB([
-                                    '<26>{#p/toriel}{#f/9}* ... and the deaths of Royal Guard members beyond that.',
-                                    "<25>{#p/toriel}{#f/5}* Mettaton's death in particular was difficult, however."
+                                    '<26>{#p/toriel}{#f/9}* ... e a morte da Guarda Real junto disso.',
+                                    "<25>{#p/toriel}{#f/5}* A morte do Mettaton em particular foi difícil para as pessoas."
                                 ]);
                             } else {
-                                addB(['<25>{#p/toriel}{#f/5}* Learning of his death was... difficult for me.']);
+                                addB(['<25>{#p/toriel}{#f/5}* Saber sobre a morte dele foi... bem difícil pra mim.']);
                             }
                         } else if (dpapyrus) {
-                            addB(["<25>{#p/toriel}{#f/9}* As well as the death of Sans's brother, Papyrus."]);
+                            addB(["<25>{#p/toriel}{#f/9}* Junto com a morte do irmão de Sans, Papyrus."]);
                             if (royals < 2) {
-                                addB(['<26>{#p/toriel}{#f/9}* ... and the deaths of most of the Royal Guard beyond that.']);
+                                addB(['<26>{#p/toriel}{#f/9}* ... e a morte da boa parte da Guarda Real.']);
                             } else if (royals < 7) {
-                                addB(['<26>{#p/toriel}{#f/9}* ... and the deaths of Royal Guard members beyond that.']);
+                                addB(['<26>{#p/toriel}{#f/9}* ... e a morte da Guarda Real junto disso.']);
                             }
                         } else if (royals < 2) {
-                            addB(['<26>{#p/toriel}{#f/9}* As well as the deaths of the rest of the Royal Guard.']);
+                            addB(['<26>{#p/toriel}{#f/9}* Bem como as mortes do resto da Guarda Real.']);
                         } else if (royals < 7) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the deaths of other Royal Guard members.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Bem como as mortes de outros membros da Guarda Real.']);
                         } else if (ddoggo) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Doggo.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Bem como a morte de um membro da unidade canina Doggo.']);
                         } else if (dlesserdog) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Minor.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Bem como a morte de um membro da unidade canina, Canis Minor.']);
                         } else if (ddogs) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit members Dogamy and Dogaressa.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Bem como a morte dos membros da unidade canina Dogamy e Dogaressa.']);
                         } else if (dgreatdog) {
-                            addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Major.']);
+                            addB(['<25>{#p/toriel}{#f/9}* Bem como a morte do membro da unidade canina Major Canis.']);
                         } else if (ddoge) {
                             addB(['<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Doge']);
                         } else if (droyalguards) {
@@ -3044,7 +3044,7 @@ export default {
                         '<25>{#p/sans}{#f/0}* actually, i just got off from work.',
                         "<25>{#p/sans}{#f/3}* it's a holiday today.",
                         '<18>{#p/papyrus}{#f/4}A HOLIDAY, EH?',
-                        '<18>{#p/papyrus}{#f/5}(SIGH...)',
+                        '<18>{#p/papyrus}{#f/5}(CHORINHO...)',
                         "<18>{#p/papyrus}{#f/5}EVER SINCE YOU STARTED WORKING AT GRILLBY'S...",
                         "<18>{#p/papyrus}{#f/4}THEY'VE BEEN GIVING YOU MORE OF THOSE THINGS.",
                         "<25>{#p/sans}{#f/3}* nah, don't worry.\n* you'll like this one...",
@@ -3123,8 +3123,8 @@ export default {
                     
                     addA([
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<25>{#p/sans}{#f/0}* heya.',
-                        "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                        '<25>{#p/sans}{#f/0}* opa.',
+                        "<25>{#p/sans}{#f/3}* já faz um tempo, huh?"
                     ]);
                     addB([
                         '<25>{#p/sans}{#f/0}* after you left, the king vanished into thin air.',
@@ -3189,9 +3189,9 @@ export default {
                     '<25>{#p/alphys}{#f/5}* I just wanted to let you know how things are going out here.'
                 ]);
                 addB([
-                    '<25>{#p/alphys}{#f/20}* So... after you left, the king sort of... d-disappeared.',
-                    "<25>{#p/alphys}{#f/14}* When I broke the news, it... hurt the people's morale pretty badly.",
-                    '<25>{#p/alphys}{#f/10}* Technically, as royal scientist, I was meant to replace him, but...',
+                    '<25>{#p/alphys}{#f/20}* Então... após você fugir, o rei meio que... d-desapareceu.',
+                    "<25>{#p/alphys}{#f/14}* Quando eu contei a notícia... isso feriu a moral das pessoas.",
+                    '<25>{#p/alphys}{#f/10}* Tecnicamente, como cientista real, eu deveria tomar o lugar dele, mas...',
                     "<25>{#p/alphys}{#f/11}* I didn't really feel like I'd be the best fit for the job.",
                     '<26>{#p/alphys}{#f/5}* Well, I had a talk with some of the royal guards, and...',
                     '<25>{#p/alphys}{#f/6}* We agreed Terrestria should be appointed as the queen instead.',

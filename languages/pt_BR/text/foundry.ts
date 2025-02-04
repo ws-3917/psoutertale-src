@@ -29,505 +29,505 @@ import { SAVE } from '../../../code/systems/save';
 
 export default {
     a_foundry: {
-        locketseller: ['<32>{#p/basic}* ...', "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        locketseller: ['<32>{#p/basic}* ...', "<32>{#p/basic}* Eu vou pretender que você não vendeu o que eu vi que você vendeu."],
+        noequip: ['<32>{#p/human}* (Você decide não equipar.)'],
         darktoriel1: [
-            "<32>{#p/human}* (You grab Toriel's hand.)",
-            '<25>{#p/toriel}{#f/2}* Oh my...!\n* F-frisk, is that you?',
-            "<25>{#f/1}* It's a little hard to see in here..."
+            "<32>{#p/human}* (Você segura a mão da Toriel.)",
+            '<25>{#p/toriel}{#f/2}* oh meu senhor...!\n* F-frisk, é você?',
+            "<25>{#f/1}* Está meio difícil de enxergar aqui."
         ],
         darktoriel2: [
-            '<25>{#p/toriel}{#f/9}* I apologize. You must have been looking all over for me.',
-            '<25>{#f/9}* If you tried to call me, I had my phone turned off.',
+            '<25>{#p/toriel}{#f/9}* Eu peço desculpas. Você provavelmente procurou por mim em todos os lugares.',
+            '<25>{#f/9}* Se você tentou me ligar, eu desliguei meu telefone.',
             '<25>{#f/13}* ...',
-            '<25>{#f/13}* I am sorry for all that I did, little one.',
-            '<25>{#f/13}* Even if you forgive me, it would be difficult to accept it.',
-            '<25>{#f/9}* I am only beginning to come to terms with my behavior in the past.',
+            '<25>{#f/13}* Me desculpe por tudo que eu fiz, pequeno.',
+            '<25>{#f/13}* Mesmo se você me perdoar, será difícil de aceitar.',
+            '<25>{#f/9}* Eu estou apenas começando a aprender com o meu passado.',
             '<25>{#f/10}* ...',
-            '<25>{#f/10}* I suppose it is nice to see you here.'
+            '<25>{#f/10}* Eu suponho que seja muito legal te ver aqui.'
         ],
         darktoriel3: [
-            '<25>{#p/toriel}{#f/5}* ... huh?\n* You wanted me to call... Sans?',
-            '<25>{#f/1}* Let me turn it on...'
+            '<25>{#p/toriel}{#f/5}* ... huh?\n* Você queria me ligar... Sans?',
+            '<25>{#f/1}* Deixa eu colocar pra funcionar...'
         ],
         darktoriel4a: [
-            '<32>{#s/phone}{#p/event}* Dialing...',
-            '<25>{#p/toriel}{#f/3}* ... oh, right.\n* My phone does not work very well here.'
+            '<32>{#s/phone}{#p/event}* Discando...',
+            '<25>{#p/toriel}{#f/3}* ... ah, certo.\n* Meu celular não funciona tão bem aqui.'
         ],
         darktoriel4b: [
-            '<25>{#f/4}* I will have to go up there and talk to him myself.',
-            '<25>{#f/5}* Er... I will do so.\n* But not now.',
+            '<25>{#f/4}* Eu vou ter que ir lá e falar com ele.',
+            '<25>{#f/5}* Er... eu vou fazer então.\n* Mas não agora.',
             '<25>{#f/5}* ...'
         ],
         darktoriel5a: [
-            '<25>{#p/toriel}{#f/5}* ... huh?\n* You have something else to tell me?',
-            '<32>{#p/human}* (You repeat the advice given to you by Toriel in Archive Six.)',
+            '<25>{#p/toriel}{#f/5}* ... huh?\n* Você tem algo pra me dizer?',
+            '<32>{#p/human}* (Você repete o conselho dado por Toriel para você no Arquivo Seis.)',
             '<25>{#p/toriel}{#f/2}* ...',
-            '<25>{#f/1}* Those words...',
-            '<25>{#f/1}* How could you possibly have heard them...?',
-            '<25>{#f/0}* It has been nearly a century since I have spoken those words.',
+            '<25>{#f/1}* Essas palavras...',
+            '<25>{#f/1}* Como você já ouviu elas...?',
+            '<25>{#f/0}* Já faz quase um século que eu falei estás palavras.',
             '<25>{#f/5}* ...',
-            '<25>{#f/1}* Well...\n* I will keep what you have told me in mind.'
+            '<25>{#f/1}* Bem...\n* Eu vou manter o que você disse em mente.'
         ],
-        darktoriel5b: ['<25>{#p/toriel}{#f/1}* Well, it would be a good time for you to go.'],
+        darktoriel5b: ['<25>{#p/toriel}{#f/1}* Bem, acho que agora é um bom momento para você ir.'],
         darktoriel6: [
-            '<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss it.',
-            '<25>{#f/9}* For now, however, I must collect my thoughts.',
-            '<25>{#f/1}* ... thank you for being good, Frisk.\n* You have been the best.'
+            '<25>{#f/5}* Eu sei que o ônibus vai sair logo, e eu não vou deixar de ir.',
+            '<25>{#f/9}* Por agora, entretanto, eu devo ficar com meus pensamentos.',
+            '<25>{#f/1}* ... obrigado por ser bom, Frisk.\n* Você foi o melhor.'
         ],
         darktoriel7: () =>
             SAVE.data.b.c_state_secret1_used
                 ? [
-                    '<25>{#p/toriel}{#f/10}* Do not worry, Frisk.\n* I will be okay.',
-                    '<25>{#f/1}* I will see you on the transport ship.\n* Alright?'
+                    '<25>{#p/toriel}{#f/10}* Não se preocupe, Frisk.\n* Eu vou ficar bem.',
+                    '<25>{#f/1}* Eu te vejo na nave espacial.\n* Tudo bem?'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/5}* Frisk, you must allow me time to process.',
-                    '<25>{#f/1}* I will see you on the transport ship.\n* Alright?'
+                    '<25>{#p/toriel}{#f/5}* Frisk, me dê um tempo para processar tudo.',
+                    '<25>{#f/1}* Eu te vejo na nave espacial.\n* Tudo bem?'
                 ],
         ghostpartymusic1: [
-            '<32>{#p/finalghost}* Ah, the classic.\n* Not just \"a\" spooktune, but \"the\" spooktune.',
-            '<32>* The original, you might say.'
+            '<32>{#p/finalghost}* Ah, o clássico.\n* Não apenas \"um\" spooktune, mas \"o\" spooktune',
+            '<32>* O original, como eu posso dizer.'
         ],
         ghostpartymusic2: [
-            '<32>{#p/mettaton}{#e/mettaton/9}* NOW THIS IS SOMETHING I CAN REALLY \"VIBE\" TO, AS BLOOKY WOULD SAY.',
-            "<32>{#e/mettaton/36}* IT'S GOT JUST THE RIGHT MIX OF ELEMENTS...",
-            '<32>{#e/mettaton/8}* AND THE BREAKDOWN?',
-            '<32>{#e/mettaton/9}* NOT WHAT I WOULD HAVE GONE FOR, BUT DECENT NONETHELESS.'
+            '<32>{#p/mettaton}{#e/mettaton/9}* AGORA ISSO SIM É ALGO DO QUAL EU POSSO SENTIR A \"VIBE\", COMO BLOOKY DIRIA.',
+            "<32>{#e/mettaton/36}* É BASICAMENTE O MELHOR MIX ELEMENTOS...",
+            '<32>{#e/mettaton/8}* E O ÁPICE?',
+            '<32>{#e/mettaton/9}* NÃO É O QUE EU TERIA ESCOLHIDO, MAS DECENTE MESMO ASSIM.'
         ],
         ghostpartymusic3: [
-            '<32>{#p/basic}{#e/maddummy/1}* I always thought this one felt really slow, you know?',
-            '<32>* Just... super... duper... slow.',
-            "<32>{#e/maddummy/0}* But that's just me."
+            '<32>{#p/basic}{#e/maddummy/1}* Eu sempre achei esse aqui um pouco lento, sabe?',
+            '<32>* Tipo... super... duper... devagar.',
+            "<32>{#e/maddummy/0}* Mas isso só sou eu."
         ],
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
-        shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
-        starKILLER: ['<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought.'],
+        evac: ['<32>{#p/human}* (Você sente a presença dos monstros próximos diminuindo.)'],
+        shopclosed: ['<32>{#p/human}* (Porém não havia mais nada para ser feito aqui.)'],
+        starKILLER: ['<32>{#p/basic}{#npc/a}* A grama está morrendo mais rápido do que eu pensava.'],
         quicksolve3: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Está fora de serviço."]
                 : SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                    ? ['<32>{#p/human}* (O terminal parece estar desligado.)']
                     : [
-                        '<32>{#p/human}* (You activate the terminal.)',
-                        '<32>{#p/basic}* \"Pathway unlocked!\"\n* \"No further action required.\"'
+                        '<32>{#p/human}* (Você ativou o terminal.)',
+                        '<32>{#p/basic}* \"Caminho desbloqueado!\"\n* \"Nenhuma ação adicional é necessária.\"'
                     ],
-        quicksolve4: ['<32>{#p/human}* (You activate the terminal.)', '<32>{#p/basic}* \"Enter override code!\"'],
+        quicksolve4: ['<32>{#p/human}* (Você ativou o terminal.)', '<32>{#p/basic}* \"Digite o código para substituir!\"'],
         quicksolve5: [
             '<32>{#p/basic}* ...',
-            '<32>{#p/basic}* If only you knew a puzzle aficionado who could tell you what that code might be.'
+            '<32>{#p/basic}* Se ao menos você soubesse um quebra-cabeça que pudesse te dizer qual o código.'
         ],
-        quicksolve6: () => ['<32>{#p/basic}* ...', choicer.create('* (Enter the code?)', 'Yes', 'No')],
-        quicksolve7: ['<32>{#p/human}* (You decide not to enter.)'],
-        quicksolve8: ["<32>{#p/basic}* Well, that's a mercy."],
+        quicksolve6: () => ['<32>{#p/basic}* ...', choicer.create('* (Colocar o código?)', 'Sim', 'Não')],
+        quicksolve7: ['<32>{#p/human}* (Você decide não colocar.)'],
+        quicksolve8: ["<32>{#p/basic}* Bem, isso foi piedade."],
         escape: [
             '<32>{#p/event}* Ring, ring...',
-            '<32>{#p/alphys}* H-hey... are you there?',
-            '<32>* I know you want to keep going forward, but...',
-            "<32>* If you do, she'll... try to kill you...",
-            "<32>* I tried to stop her... b-but she wouldn't listen to me!",
-            "<32>* Now she's...",
+            '<32>{#p/alphys}* E-ei... você tá aí?',
+            '<32>* Eu sei que você quer continuar indo em frente, mas...',
+            "<32>* Se você fizer, ela... vai tentar te matar...",
+            "<32>* Eu tentei impedi-la... M-mas ela não me escuta!",
+            "<32>* Agora ela...",
             '<32>* ...',
-            "<32>* But, uh, it's okay!\n* Because...",
-            "<32>* B-because there's another way to get past her!",
-            "<32>* I know it'd be kind of...\n* Inconvenient...",
-            "<32>* But it's the only way you'll make it out alive...!",
-            '<32>* T-trust me... okay?',
-            '<32>* Go back to the balcony j-just before the pylon puzzle.',
-            "<32>* If you don't, I...",
-            '<32>* I...',
-            "<32>* I'll... let you go now.",
+            "<32>* Mas, uh, tudo bem!\n* Porque...",
+            "<32>* P-porque eu sei um jeito de passar por ela!",
+            "<32>* Eu sei que é meio que...\n* Inconveniente...",
+            "<32>* Mas é a única forma de você sair vivo...!",
+            '<32>* Confia em mim... tá?',
+            '<32>* Volta para trás a-até antes dos pilares.',
+            "<32>* Se você não, eu...",
+            '<32>* eu...',
+            "<32>* Eu... vou te deixar ir.",
             '<32>{#s/equip}{#p/event}* Click...'
         ],
-        artifact1: ['<32>{#p/human}* (You got the Legendary Artifact.)'],
-        artifact2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        artifact1: ['<32>{#p/human}* (Você pegou o Artefato Lendário.)'],
+        artifact2: ["<32>{#p/human}* (Você está carregando muito pra levar isso.)"],
         artifact3: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (The inscription describes a riddle of ivories and melodies.)']
+                ? ['<32>{#p/human}* (A inscrição descreve um enigma de marfins e melodias.)']
                 : [
-                    '<32>{#p/basic}* There is an inscription engraved on the pedestal.',
-                    '<32>* \"Two halves, split by the ivories.\"',
-                    '<32>* \"If the prince\'s is your left, then whose is your right?',
-                    '<32>* \"And what is their melody?\"'
+                    '<32>{#p/basic}* (A uma inscrição marcada no pedestal.)',
+                    '<32>* \"Duas metades, divididas pelos marfins.\"',
+                    '<32>* \"Se o príncipe está a sua esquerda, quem estará a sua direita?\"',
+                    '<32>* \"E qual é sua melodia?\"'
                 ],
-        tome0: () => ['<32>{#p/basic}* The tome is attached firmly to the pedestal.'],
-        tome1: () => ['<32>{#p/human}* (You acquired The Epiphany.)'],
-        tome2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        tome0: () => ['<32>{#p/basic}* O tomo está firmemente preso ao pedestal.'],
+        tome1: () => ['<32>{#p/human}* (Você adquiriu A Epifania.)'],
+        tome2: ["<32>{#p/human}* (Você está carregando muito pra levar isso.)"],
         tome3: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (The inscription speaks of peace and good intentions.)']
+                ? ['<32>{#p/human}* (A escritura fala sobre paz e boas intenções.)']
                 : [
-                    '<32>{#p/basic}* There is a inscription engraved on the pedestal.',
-                    '<32>* \"To those who are worthy, to those who are kind.\"',
-                    '<32>* \"To those who wish well, in both heart and mind.\"',
-                    '<32>* \"May peace follow you on your journey home.\"'
+                    '<32>{#p/basic}* A uma inspiração gravada no pedestal.',
+                    '<32>* \"Aqueles que são dignos, aqueles que são bons.\"',
+                    '<32>* \"Aqueles que desejam o bem, no coração e na mente.',
+                    '<32>* \"Que a paz siga você em sua jornada para casa.\"'
                 ],
         tome4: () => [
             choicer.create(
-                '* (What do you intend to do?)',
-                'Spare',
+                '* (O que você pretende fazer?)',
+                'Poupar',
                 world.meanie
-                    ? 'Bully'
+                    ? 'Bullinar'
                     : SAVE.data.b.oops && world.flirt > 9
-                        ? 'Flirt'
+                        ? 'Flertar'
                         : SAVE.data.b.oops
-                            ? 'Befriend'
-                            : 'Hug',
-                'Kill',
-                'Take Gold'
+                            ? 'Ser Amigo'
+                            : 'Abraçar',
+                'Matar',
+                'Tomar Ouro'
             )
         ],
-        tome5a: '<32>{#p/human}* (You focus your mind on the intent to spare.)',
+        tome5a: '<32>{#p/human}* (Você foca sua mente na intenção de poupar.)',
         tome5b: () =>
             world.meanie
-                ? '<32>{#p/human}* (You focus your mind on the intent to bully.)'
+                ? '<32>{#p/human}* (Você foca sua mente na intenção de bullinar.)'
                 : SAVE.data.b.oops && world.flirt > 9
-                    ? '<32>{#p/human}* (You focus your mind on the intent to flirt.)'
+                    ? '<32>{#p/human}* (Você foca sua mente na intenção de flertar.)'
                     : SAVE.data.b.oops
-                        ? '<32>{#p/human}* (You focus your mind on the intent to befriend.)'
-                        : '<32>{#p/human}* (You focus your mind on the intent to hug.)',
-        tome5c: '<32>{#p/human}* (You focus your mind on the intent to kill.)',
-        tome5d: '<32>{#p/human}* (You focus your mind on the intent to take gold.)',
-        tome5e: '<32>{#p/basic}* Suddenly...!',
-        tome5f: '\n* (Nothing happens.)',
+                        ? '<32>{#p/human}* (Você foca sua mente na intenção de ser amigo.)'
+                        : '<32>{#p/human}* (Você foca sua mente na intenção de abraçar.)',
+        tome5c: '<32>{#p/human}* (Você foca sua mente na intenção de matar.)',
+        tome5d: '<32>{#p/human}* (Você foca sua mente na intenção de tomar ouro.)',
+        tome5e: '<32>{#p/basic}* De repente...!',
+        tome5f: '\n* (Nada acontece.)',
         astrofood0: () => [
-            "<32>{#p/human}* (You can't make out what's in the box...)",
-            choicer.create('* (Take something out?)', 'Yes', 'No')
+            "<32>{#p/human}* (Você não sabe o que tem na caixa...)",
+            choicer.create('* (Pegar alguma coisa?)', 'Sim', 'Não')
         ],
         astrofood1: () =>
             [
                 [
-                    '<32>{#p/basic}* There are three portions of Space Tofu in the box.',
-                    choicer.create('* (Take one?)', 'Yes', 'No')
+                    '<32>{#p/basic}* A três porções de Tofu Espacial na caixa.',
+                    choicer.create('* (Pegar um?)', 'Sim', 'Não')
                 ],
                 [
-                    '<32>{#p/basic}* There are two portions of Space Tofu left in the box.',
-                    choicer.create('* (Take one?)', 'Yes', 'No')
+                    '<32>{#p/basic}* A duas porções de Tofu Espacial na caixa.',
+                    choicer.create('* (Pegar um?)', 'Sim', 'Não')
                 ],
                 [
-                    '<32>{#p/basic}* There is one portion of Space Tofu left in the box.',
-                    choicer.create('* (Take it?)', 'Yes', 'No')
+                    '<32>{#p/basic}* A uma porção restante de Tofu Espacial na caixa.',
+                    choicer.create('* (Pegar?)', 'Sim', 'Não')
                 ]
             ][SAVE.data.n.state_foundry_astrofood],
-        astrofood2: ['<32>{#p/human}* (You got the Space Tofu.)'],
-        astrofood3: ["<32>{#p/human}* (You're carrying too much.)"],
-        astrofood4: () => ['<32>{#p/human}* (You decide not to take anything.)'],
+        astrofood2: ['<32>{#p/human}* (Você pegou o Tofu Espacial.)'],
+        astrofood3: ["<32>{#p/human}* (Você está carregando demais.)"],
+        astrofood4: () => ['<32>{#p/human}* (Você decide não pegar nada.)'],
         astrofood5: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (But you couldn't find anything inside.)"]
-                : ['<32>{#p/basic}* The box is empty.'],
+                ? ["<32>{#p/human}* (Mas não tinha nada dentro restando.)"]
+                : ['<32>{#p/basic}* A caixa está vazia.'],
         bird1: () => [
-            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* This small bird wants to carry you across the gap.']),
-            choicer.create("* (Accept the bird's offer?)", 'Yes', 'No')
+            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* Este pequeno pássaro deseja te carregar através do abismo.']),
+            choicer.create("* (Aceitar a oferta do pássaro?)", 'Sim', 'Não')
         ],
         blookdate1: () =>
             world.sad_ghost || world.population === 0
                 ? [
-                    '<32>{#p/napstablook}* oh...\n* hi there...',
-                    "<32>* sorry, i...\n* wasn't expecting you to follow me here.",
-                    '<32>* uh...\n* make yourself at home...?'
+                    '<32>{#p/napstablook}* oh...\n* olá...',
+                    "<32>* desculpa, eu...\n* não estava esperando você me seguir para cá.",
+                    '<32>* uh...\n* sinta-se em casa...?'
                 ]
                 : [
-                    '<32>{#p/napstablook}* oh...\n* you actually came...',
-                    "<32>* sorry, i...\n* wasn't expecting that.",
-                    "<32>* it's not much, but make yourself at home."
+                    '<32>{#p/napstablook}* oh...\n* você realmente veio...',
+                    "<32>* desculpa, eu...\n* não imaginei.",
+                    "<32>* não é muito, mas sinta-se em casa."
                 ],
         blookdate2: () => [
             ...(world.sad_ghost || world.population === 0
-                ? ['<32>{#p/napstablook}* oh... you want my food...', '<32>* let me see what i have...']
+                ? ['<32>{#p/napstablook}* oh... você quer comer...', '<32>* vamos ver o que eu tenho...']
                 : SAVE.data.b.f_state_ghostsleep
-                    ? ['<32>{#p/napstablook}* okay, so...', "<32>* let me show you what's in the fridge"]
-                    : ['<32>{#p/napstablook}* are you hungry?', '<32>* i think i have something in the fridge...'])
+                    ? ['<32>{#p/napstablook}* certo, então...', "<32>* deixe-me ver o que tem na geladeira"]
+                    : ['<32>{#p/napstablook}* você está com fome?', '<32>* eu acho que tem algo na geladeira...'])
         ],
         blookdate2x: pager.create(
             0,
             () =>
                 SAVE.data.b.svr
                     ? [
-                        "<32>{#p/human}* (You inspect the fridge.)\n* (It doesn't seem like you can exactly see the contents.)"
+                        "<32>{#p/human}* (Você olha na geladeira.)\n* (Mas você não vê nada! Talvez seja comida fantasma.)"
                     ]
                     : [
-                        '<32>{#p/human}* (You inspect the fridge.)',
-                        "<32>{#p/basic}* It's difficult to make out what's inside.",
+                        '<32>{#p/human}* (Você olha na geladeira.)',
+                        "<32>{#p/basic}* É difícil ver o que tem dentro.",
                         ...(ghostpartyCondition()
                             ? [
-                                "<32>{#p/mettaton}{#e/mettaton/8}* THERE'S PROBABLY NOTHING BUT GHOST FOOD IN THERE, DARLING.",
-                                "<32>{#p/mettaton}{#e/mettaton/9}* IF YOU TRIED TO EAT IT, IT'D JUST PHASE THROUGH YOU."
+                                "<32>{#p/mettaton}{#e/mettaton/8}* NÃO DEVE TER NADA ALÉM DE COMIDA FANTASMA AÍ, QUERIDO.",
+                                "<32>{#p/mettaton}{#e/mettaton/9}* SE VOCÊ TENTAR COMER, VAI SÓ PASSAR PELO SEU CORPO."
                             ]
                             : [])
                     ],
             () =>
                 SAVE.data.b.svr
                     ? [
-                        "<32>{#p/human}* (You inspect the fridge.)\n* (It doesn't seem like you can exactly see the contents.)"
+                        "<32>{#p/human}* (Você olha na geladeira.)\n* (Mas você não vê nada! Talvez seja comida fantasma.)"
                     ]
                     : [
-                        '<32>{#p/human}* (You inspect the fridge.)',
-                        "<32>{#p/basic}* It's difficult to make out what's inside."
+                        '<32>{#p/human}* (Você olha na geladeira.)',
+                        "<32>{#p/basic}* É difícil ver o que tem dentro."
                     ]
         ),
         blookdate3: () => [
-            "<32>{#p/napstablook}* it's a ghost sandwich...",
-            '<32>* do you want to try it...',
-            choicer.create('* (Take a bite?)', 'Yes', 'No')
+            "<32>{#p/napstablook}* é um sanduíche fantasma...",
+            '<32>* você quer tentar...',
+            choicer.create('* (Dar uma mordida?)', 'Sim', 'Não')
         ],
         blookdate4a: [
-            '<32>{#p/human}* (You attempt to bite into the ghost sandwich.)',
-            '<32>{#p/human}* (You phase right through it.)',
+            '<32>{#p/human}* (Você tenta morder o sanduíche.)',
+            '<32>{#p/human}* (Ele passa pelo seu corpo.)',
             '<32>{#p/napstablook}* oh...',
-            '<32>* nevermind...'
+            '<32>* esquece...'
         ],
         blookdate4b: ['<32>{#p/napstablook}* oh...........'],
         blookdate5: () => [
-            '<32>{#p/napstablook}* after a great meal i like to lie on the ground and feel like garbage...',
-            "<32>* it's a family tradition...",
-            '<32>* do you want...\n* ... to join me...?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            '<32>{#p/napstablook}* após uma boa refeição, eu gosto de me deixar no chão e me sentir igual lixo...',
+            "<32>* é uma tradição de família...",
+            '<32>* você quer...\n* ... se juntar a mim...?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
-        blookdate6a: ['<32>{#p/napstablook}* okay...\n* follow my lead...'],
-        blookdate6b: ['<32>{#p/napstablook}* oh......................', "<32>* i'll just be outside then"],
+        blookdate6a: ['<32>{#p/napstablook}* certo...\n* me segue...'],
+        blookdate6b: ['<32>{#p/napstablook}* oh......................', "<32>* eu vou lá pra fora, então"],
         blookdate7: [
-            "<32>{#p/napstablook}* here we go...\n* you'll lie down as long as you don't move.",
-            '<32>* so...\n* only move around when you want to get up, i guess.'
+            "<32>{#p/napstablook}* lá vamos nós...\n* fique aí com tanto que você não se mova.",
+            '<32>* então...\n* apenas se mova quando quiser parar, eu acho.'
         ],
-        blookdate8: ['<32>{#p/napstablook}* well, that was nice...', '<32>* thank you...'],
-        blookdate8x: ['<32>{#p/napstablook}* well, that was fast......', '<32>* thanks for trying, though......'],
-        blookdate8y: ['<32>{#p/napstablook}* well, that was that', '<32>* ............'],
+        blookdate8: ['<32>{#p/napstablook}* bem, isso foi legal...', '<32>* obrigado...'],
+        blookdate8x: ['<32>{#p/napstablook}* bem, isso foi rápido...', '<32>* obrigado por tentar......'],
+        blookdate8y: ['<32>{#p/napstablook}* bem, foi isso', '<32>* ............'],
         blookdate9: [
-            "<32>{#p/napstablook}* i'll be outside...\n* feel free to join me...\n* or not...",
-            "<32>* it's up to you..."
+            "<32>{#p/napstablook}* eu vou estar lá fora...\n* Sinta-se livre para juntar-se a mim...\n* ou não...",
+            "<32>* vai de você..."
         ],
-        blookmusic0: ["<32>{#p/basic}* It's out of service."],
+        blookmusic0: ["<32>{#p/basic}* Está fora de serviço."],
         blookmusic1: () => [
             SAVE.data.b.svr
-                ? '<32>{#p/human}* (You reach for the sound system...)'
-                : '<32>{#p/basic}* There is currently no music playing.',
-            choicer.create('* (Play a song?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Cancel')
+                ? '<32>{#p/human}* (você olha o sistema de música.)'
+                : '<32>{#p/basic}* Não tem nenhuma música para tocar.',
+            choicer.create('* (Tocar música?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Cancelar')
         ],
-        blookmusic1y: ['<32>{*}{#p/human}* (You turn the dial...){^40}{%}'],
+        blookmusic1y: ['<32>{*}{#p/human}* (Você vira o toca disco...){^40}{%}'],
         blookmusic2: () => [
             SAVE.data.b.svr
-                ? '<32>{#p/human}* (It sounds like a song is currently playing.)'
+                ? '<32>{#p/human}* (Parece que tem um som tocando agora.)'
                 : [
-                    '<32>{#p/basic}* Currently playing \"Spooktune\"',
-                    '<32>{#p/basic}* Currently playing \"Spookwave\"',
-                    '<32>{#p/basic}* Currently playing \"Spookwaltz\"'
+                    '<32>{#p/basic}* Tocando agora \"Spooktune\"',
+                    '<32>{#p/basic}* Tocando agora \"Spookwave\"',
+                    '<32>{#p/basic}* Tocando agora \"Spookwaltz\"'
                 ][SAVE.data.n.state_foundry_blookmusic - 1],
-            choicer.create('* (Stop playback?)', 'Yes', 'No')
+            choicer.create('* (Parar de tocar?)', 'Sim', 'Não')
         ],
         blookmusic3a: [
-            '<32>{#p/napstablook}* oh...\n* a classic spooktune...',
-            "<32>* they really don't make music like this anymore..."
+            '<32>{#p/napstablook}* oh...\n* o clássico spooktune...',
+            "<32>* não se fazem músicas assim hoje em dia..."
         ],
-        blookmusic3b: ['<32>{#p/napstablook}* dang, that ambience...', "<32>* it's like my whole body is being spooked"],
+        blookmusic3b: ['<32>{#p/napstablook}* irmão, essa ambientação...', "<32>* todo meu corpo fica bem amedrontado"],
         blookmusic3c: [
-            "<32>{#p/napstablook}* this one's kinda slow...",
-            "<32>* but once you get into the groove, it's pretty good"
+            "<32>{#p/napstablook}* está é bem lenta...",
+            "<32>* mas assim que você entra no ritmo, se torna muito legal"
         ],
         blookmusic3d: [
-            '<32>{#p/napstablook}* hey...\n* you really like listening to that old playlist, huh',
-            "<32>* i mean......\n* i've made better stuff since then.....",
-            '<32>* but still, i appreciate it',
-            '<32>* so... thanks, heh'
+            '<32>{#p/napstablook}* ei...\n* você realmente gosta de ouvir essa playlist antiga, huh',
+            "<32>* quer dizer......\n* eu já fiz coisas melhores.....",
+            '<32>* mas, eu agradeço por apreciar meu trabalho antigo',
+            '<32>* então... valeuzão, heh'
         ],
         blooksnail1: pager.create(
             0,
             () => [
-                "<32>{#p/napstablook}* do you want to play a game?\n* it's called electrosnail.",
-                '<32>* the snails will race, and if the yellow snail wins, you win.',
-                "<32>* it's 10G to play.",
-                choicer.create('* (Play the game?)', 'Yes', 'No')
+                "<32>{#p/napstablook}* quer jogar um jogo?\n* se chama electrosnail.",
+                '<32>* as lesmas vão correr, e se a lesma amarela ganhar, você ganha.',
+                "<32>* é 10G pra jogar.",
+                choicer.create('* (Apostar uma corrida?)', 'Sim', 'Não')
             ],
-            () => ['<32>{#p/napstablook}* did you change your mind?', choicer.create('* (Play the game?)', 'Yes', 'No')]
+            () => ['<32>{#p/napstablook}* você trocou de ideia?', choicer.create('* (Apostar uma corrida?)', 'Sim', 'Não')]
         ),
         blooksnail1i: () => [
-            '<32>{#p/napstablook}* do you want to play again?',
-            choicer.create('* (Play the game?)', 'Yes', 'No')
+            '<32>{#p/napstablook}* você quer jogar novamente?',
+            choicer.create('* (Apostar uma corrida?)', 'Sim', 'Não')
         ],
         blooksnail2a: [
-            "<32>{#p/napstablook}* um...\n* you don't have enough money......",
-            "<32>* n-no, you can still play, don't worry about it..."
+            "<32>{#p/napstablook}* um...\n* você não tem o dinheiro suficiente......",
+            "<32>* n-não, você ainda pode jogar, fica tranquilo em relação a isso..."
         ],
         blooksnail2b: ['<32>{#p/napstablook}* oh...........'],
-        blooksnail2b0: ['<32>{#p/napstablook}* alright...........'],
-        blooksnail3: ['<32>{#p/napstablook}* okay...\n* press [Z] repeatedly to encourage your snail.', '<32>* ready?'],
-        blooksnail3i: ['<32>{#p/napstablook}* okay...\n* remember, you can always encourage your snail.', '<32>* ready?'],
+        blooksnail2b0: ['<32>{#p/napstablook}* beleza...........'],
+        blooksnail3: ['<32>{#p/napstablook}* okay...\n* pressione [z] repetidamente para encorajar sua lesma.', '<32>* pronto?'],
+        blooksnail3i: ['<32>{#p/napstablook}* okay...\n* Lembre-se, você sempre pode encorajar sua lesma.', '<32>* pronto?'],
         blooksnail4a: [
-            '<32>{#p/napstablook}* you won... congratulations.',
-            '<32>* i hope the prize is enough...',
-            '<32>{#s/equip}{#p/human}* (You got 20G.)'
+            '<32>{#p/napstablook}* você ganhou... parabéns.',
+            '<32>* espero que o ganho seja o suficiente...',
+            '<32>{#s/equip}{#p/human}* (Você ganhou 20G.)'
         ],
         blooksnail4b: [
-            '<32>{#p/napstablook}* your snail lost by a thin margin.',
-            '<32>* wait...\n* the snail is under the false belief that it won...',
-            '<32>* oh no... the snail is going to be sad...',
-            "<32>* here, i'll just give you some money...\n* act like you won...",
-            '<32>{#s/equip}{#p/human}* (You got 40G.)'
+            '<32>{#p/napstablook}* sua lesma perdeu por pouco.',
+            '<32>* espera...\n* A lesma está sob a falsa crença de que venceu...',
+            '<32>* ah não... a lesma vai ficar triste...',
+            "<32>* aqui, eu só vou te dar o dinheiro...\n* aja como se tivesse vencido...",
+            '<32>{#s/equip}{#p/human}* (Você ganhou 40G.)'
         ],
         blooksnail4c: [
-            '<32>{#p/napstablook}* oh...........\n* you both tried your best...',
-            '<32>* the snail looks discouraged...',
-            "<32>* i guess her best wasn't good enough...",
+            '<32>{#p/napstablook}* oh...........\n* vocês dois tentaram seu melhor...',
+            '<32>* a lesma parecia desencorajada...',
+            "<32>* eu acho que o melhor dela não foi o suficiente...",
             '<32>* oh...........'
         ],
         blooksnail4d: [
-            '<32>{#p/napstablook}* oh...........\n* looks like you encouraged your snail a little too much...',
-            '<32>* all that pressure to succeed...\n* really got to her...',
+            '<32>{#p/napstablook}* oh...........\n* parece que você encorajou a lesma demais...',
+            '<32>* toda aquela pressão para vencer...\n* entrou na mente dela...',
             '<32>* oh...........'
         ],
         blooksnail4e: [
-            '<32>{#p/napstablook}* oh...........\n* looks like you encouraged your snail too much...',
-            "<32>* she won't even look at you...",
+            '<32>{#p/napstablook}* oh...........\n* parece que você encorajou a lesma demais...',
+            "<32>* ela nem quer olhar pra você...",
             '<32>* oh...........'
         ],
         blooksnail4f: [
-            '<32>{#p/napstablook}* oh...........\n* looks like you encouraged your snail way too much...',
-            "<32>* now she's... just gone...",
+            '<32>{#p/napstablook}* oh...........\n* parece que você encorajou a lesma para caramba...',
+            "<32>* agora ela... se foi...",
             '<32>* oh...........'
         ],
         blooksnailX: {
             a: '3...',
             b: '2...',
             c: '1...',
-            d: 'GO!',
-            e: 'RACE END'
+            d: 'VALENDO!',
+            e: 'FIM DA CORRIDA'
         },
         blooksorry1: () => [
             '<32>{#p/napstablook}* ...?',
-            "<32>* you...\n* you're...",
-            '<32>* ... are you sure?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            "<32>* você...\n* você...",
+            '<32>* ... tem certeza?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         blooksorry2: () => [
-            '<32>{#p/napstablook}* i...',
-            "<32>* i never thought you'd...",
-            '<32>* ... um...',
-            '<32>* ... are you absolutely sure?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            '<32>{#p/napstablook}* eu...',
+            "<32>* eu nunca pensei que você...",
+            '<32>* ... hmmm...',
+            '<32>* ... você tem total certeza?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         blooksorry3: [
-            '<32>{#p/napstablook}* you...',
-            "<32>* you really mean it, don't you?",
+            '<32>{#p/napstablook}* você...',
+            "<32>* você realmente quer dizer isso, não é?",
             '<32>* ...\n* heh...',
             '<32>* okay...',
-            "<32>* i'll try to forget about what you did before..."
+            "<32>* eu vou tentar esquecer o que você fez antes..."
         ],
         blooksorryX: ['<32>{#p/napstablook}* oh...........\n* ...........\n* ...........'],
         blooksorryY: ['<32>{#p/napstablook}* ...'],
         blooktouch1: () =>
             world.sad_ghost
                 ? [
-                    '<32>{#p/napstablook}* what do you want......',
-                    choicer.create('* (What do you say?)', 'Sorry', 'Nothing')
+                    '<32>{#p/napstablook}* o que você quer......',
+                    choicer.create('* (O que você acha?)', 'Desculpa', 'Nada')
                 ]
                 : [
-                    '<32>{#p/napstablook}* oh, do you need anything?',
-                    choicer.create('* (What do you say?)', 'Hug', 'Sleep', 'Music', 'Nothing')
+                    '<32>{#p/napstablook}* ah, você precisa de algo?',
+                    choicer.create('* (O que você acha?)', 'Abraçar', 'Dormir', 'Música', 'Nada')
                 ],
         blooktouch2a1: [
-            '<32>{#p/napstablook}* you... want to...\n* umm...',
-            '<32>* you want me to give you a hug?',
-            "<32>* well...\n* if it'll make you happy...",
-            '<32>{#p/basic}* Napstablook attempts to give you a big hug.',
-            '<32>* They pass right through you.',
+            '<32>{#p/napstablook}* você... quer...\n* Hmmm...',
+            '<32>* você quer que eu te dê um abraço?',
+            "<32>* bem...\n* se isso vai te fazer feliz...",
+            '<32>{#p/basic}* Napstablook tenta te dar um grande abraço.',
+            '<32>* ele te atravessa.',
             '<32>{#p/napstablook}* oh...........',
-            "<32>* i guess...........\n* i can't do it..........."
+            "<32>* eu acho...........\n* que não consigo........."
         ],
         blooktouch2a2: [
-            "<32>{#p/napstablook}* you really need a hug, don't you...",
-            "<32>* i'm sorry...\n* i wish i could..."
+            "<32>{#p/napstablook}* você realmente precisa de um abraço, não é...",
+            "<32>* me desculpa...\n* eu queria conseguir..."
         ],
         blooktouch2b1: [
-            '<32>{#p/napstablook}* do you need a place to sleep?',
-            "<32>* umm... i don't really have a bed in here...",
+            '<32>{#p/napstablook}* você precisa de um lugar para dormir?',
+            "<32>* hmmm... eu não tenho uma cama aqui...",
             '<32>* hmm...',
-            "<32>* go to the fridge and see if there's anything to eat...",
-            '<32>* after that, we can lie down on the ground...',
-            "<32>* you'll see..."
+            "<32>* vai lá na geladeira e vê se tem qualquer coisa para comer...",
+            '<32>* depois disso a gente pode deitar no chão...',
+            "<32>* você verá..."
         ],
-        blooktouch2b2: ['<32>{#p/napstablook}* the fridge...'],
+        blooktouch2b2: ['<32>{#p/napstablook}* a geladeira...'],
         blooktouch2c1: [
-            "<32>{#p/napstablook}* if you wanna listen to music, there's some on my stereo...",
-            '<32>* feel free to take a look...\n* or not...'
+            "<32>{#p/napstablook}* se você quer ouvir música, a um pouco no meu toca disco...",
+            '<32>* Sinta-se livre para dar uma olhada...\n* ou não...'
         ],
         blooktouch2c2: () => [
-            '<32>{#p/napstablook}* is the stereo...\n* ... not to your liking...',
-            "<32>* maybe...\n* i could show you a new song i've been working on...",
-            "<32>* it's way different than my usual stuff...",
-            '<32>* do you want to hear it?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            '<32>{#p/napstablook}* o toca disco...\n* ... que você não deve gostar...',
+            "<32>* talvez...\n* eu possa te mostrar um novo som no qual estou trabalhando...",
+            "<32>* é bem diferente da minha parada normal...",
+            '<32>* você quer ouvir?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         blooktouch2c2x: () => [
-            '<32>{#p/napstablook}* want to hear my new song?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            '<32>{#p/napstablook}* você quer ouvir meu novo som?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
-        blooktouch2c3a: ['<32>{#p/napstablook}* oh...\n* well, let me know if you change your mind...'],
-        blooktouch2c3b: ['<32>{#p/napstablook}* okay...\n* let me put it on...'],
+        blooktouch2c3a: ['<32>{#p/napstablook}* oh...\n* bem, me conta se você mudar de ideia...'],
+        blooktouch2c3b: ['<32>{#p/napstablook}* okay...\n* eu vou ligar agora...'],
         blooktouch2c4: () => [
-            '<32>{#p/napstablook}* so... what did you think',
-            choicer.create('* (What do you say?)', 'Good', 'Bad')
+            '<32>{#p/napstablook}* então... o que você acha',
+            choicer.create('* (O que você acha?)', 'Bom', 'Ruim')
         ],
         blooktouch2c5a: [
-            "<32>{#p/napstablook}* it's... not bad?",
-            '<32>* oh-\n* umm... thank you...',
-            "<32>* i'll...\n* i'll tell you when it's done!"
+            "<32>{#p/napstablook}* não é ruim?",
+            '<32>* oh-\n* hmmm... obrigado...',
+            "<32>* eu...\n* eu vou te dizer quando estiver pronto!"
         ],
-        blooktouch2c5b: ["<32>{#p/napstablook}* oh.........\n* you're probably right........."],
-        blooktouch2d1: ["<32>{#p/napstablook}* sorry...\n* that's all the music i have for now..."],
-        blooktouch2d2: ["<32>{#p/napstablook}* sorry...\n* i'll try to make something better next time..."],
+        blooktouch2c5b: ["<32>{#p/napstablook}* oh.........\n* você está certo........."],
+        blooktouch2d1: ["<32>{#p/napstablook}* desculpa...\n* essa é toda a música que eu tenho por agora..."],
+        blooktouch2d2: ["<32>{#p/napstablook}* desculpa...\n* eu vou tentar fazer algo melhor da próxima vez..."],
         blookyard1: pager.create(
             0,
             () =>
                 SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
 
                     ? [
-                        '<32>{#p/napstablook}* you can keep your mew mew doll',
-                        '<32>{#p/napstablook}* thanks for...\n* not being helpful, i guess'
+                        '<32>{#p/napstablook}* você pode ficar com a boneca mew mew',
+                        '<32>{#p/napstablook}* obrigado por...\n* não ajudar, eu acho'
                     ]
                     : 65 <= SAVE.data.n.plot
                         ? SAVE.data.b.a_state_hapstablook
                             ? 68 <= SAVE.data.n.plot
                                 ? [
-                                    '<32>{#p/napstablook}* hey, mettaton came by a little while ago.',
-                                    "<32>* we talked for a bit about what we've been up to...",
-                                    '<32>* about the family...',
-                                    "<32>* well, i don't think i've ever been this happy before.",
-                                    '<32>* what you did for us back there... it means a lot.'
+                                    '<32>{#p/napstablook}* ei, mettaton veio aqui a pouco tempo',
+                                    "<32>* nós conversamos um pouco sobre o que estávamos fazendo da vida...",
+                                    '<32>* sobre família...',
+                                    "<32>* bem, eu nunca me senti tão feliz assim.",
+                                    '<32>* o que você fez pela gente... significa muito.'
                                 ]
                                 : [
-                                    "<32>{#p/napstablook}* hey... sorry things didn't work out the way we hoped...",
-                                    '<32>* it was nice to have you there, though......'
+                                    "<32>{#p/napstablook}* ei... desculpa, as coisas não foram do jeito que queríamos...",
+                                    '<32>* mas, foi legal te ver lá...'
                                 ]
                             : [
-                                '<32>{#p/napstablook}* with every day that goes by, i feel a little further away from happiness......'
+                                '<32>{#p/napstablook}* todo dia que passa, eu me sinto um passo mais longe da felicidade...'
                             ]
                         : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
-                            ? ['<32>* oh...\n* hey......', '<32>* i just came back here to keep an eye on the snails......']
+                            ? ['<32>* oh...\n* ei......', '<32>* eu voltei aqui para manter os olhos nas lesmas...']
                             : 60 <= SAVE.data.n.plot
                                 ? [
-                                    "<32>{#p/napstablook}* being a contestant on one of mettaton's shows was a dream come true...",
-                                    "<32>* i wonder if i'll ever get to do it again"
+                                    "<32>{#p/napstablook}* Ser um competidor em um dos programas de mettaton foi um sonho que se tornou realidade...",
+                                    "<32>* eu me pergunto se farei algo assim de novo."
                                 ]
                                 : 49 <= SAVE.data.n.plot
                                     ? [
-                                        '<32>{#p/napstablook}* dang, you sure get around',
-                                        '<32>* i mean...',
-                                        '<32>* i guess i do too...',
-                                        "<32>* but, i'm kind of incorporeal, so it's not that impressive for me"
+                                        '<32>{#p/napstablook}* caramba, você consegue se livrar',
+                                        '<32>* quer dizer...',
+                                        '<32>* eu acho que faço isso também...',
+                                        "<32>* mas, eu sou meio que incorporio, então não é muito impressionante pra mim"
                                     ]
                                     : [
-                                        '<32>{#p/napstablook}* welcome to blook family snail farm...',
-                                        "<32>* ... yeah.\n* i'm the only employee.",
+                                        '<32>{#p/napstablook}* seja bem vindo a fazenda de lesmas da família blook...',
+                                        "<32>* ... é.\n* eu sou o único dono.",
                                         ...(world.killed0
                                             ? [
-                                                "<32>* hey, that's weird...",
-                                                '<32>* my snails disappeared...',
-                                                '<32>* maybe they were picked up by that guy with a beard...'
+                                                "<32>* ei, que estranho...",
+                                                '<32>* todos os caracóis se foram...',
+                                                '<32>* talvez aquele cara barbado levou elas...'
                                             ]
                                             : [
-                                                '<32>* this place used to get a lot of business...',
-                                                '<32>* but our main customer disappeared one day...',
-                                                "<32>* now it's just some hairy guy who shows up once in a while..."
+                                                '<32>* esse local normalmente tinha muitas vendas...',
+                                                '<32>* mas nosso principal cliente acabou sumindo um dia...',
+                                                "<32>* agora é só um cara cabeludo que aparece de vez em quando..."
                                             ])
                                     ],
             () =>
@@ -537,41 +537,41 @@ export default {
                     : 65 <= SAVE.data.n.plot
                         ? SAVE.data.b.a_state_hapstablook
                             ? 68 <= SAVE.data.n.plot
-                                ? ["<32>{#p/napstablook}* hopefully next time you won't have to risk your life."]
-                                : ['<32>{#p/napstablook}* it is what it is...']
-                            : ['<32>{#p/napstablook}* it is what it is...']
+                                ? ["<32>{#p/napstablook}* com sorte da próxima vez você não vai precisar arriscar sua vida."]
+                                : ['<32>{#p/napstablook}* é assim que é...']
+                            : ['<32>{#p/napstablook}* é assim que é...']
                         : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
-                            ? ["<33>{#p/napstablook}* don't worry, they're alright...", '<32>* at least, i hope so......']
+                            ? ["<33>{#p/napstablook}* não se preocupe, eles estão bem...", '<32>* pelo menos, eu espero que sim......']
                             : 60 <= SAVE.data.n.plot
-                                ? ["<32>{#p/napstablook}* hopefully next time he's a little nicer to the contestants........."]
+                                ? ["<32>{#p/napstablook}* espero que da próxima vez ele seja um pouco mais legal com os competidores........."]
                                 : 49 <= SAVE.data.n.plot
                                     ? [
-                                        '<32>{#p/napstablook}* oh yeah, i saw you on that talent show earlier...',
+                                        '<32>{#p/napstablook}* ah é, eu te vi naquele show de talentos mais cedo...',
                                         ...(SAVE.data.n.state_aerialis_talentfails === 0
                                             ? [
-                                                "<32>{#p/napstablook}* that was quite a performance... you didn't even mess up once",
-                                                "<32>* i don't think i've ever someone do that before......"
+                                                "<32>{#p/napstablook}* foi uma bela performance... você não errou nenhuma vez",
+                                                "<32>* eu acho que nunca vi alguém fazer isso daquela forma......"
                                             ]
                                             : SAVE.data.n.state_aerialis_talentfails < 15
                                                 ? [
-                                                    "<32>{#p/napstablook}* even if your performance wasn't perfect, you did pretty good",
-                                                    "<32>* most of mettaton's contestants don't even make it halfway...",
-                                                    '<32>* including me......'
+                                                    "<32>{#p/napstablook}* mesmo que sua performance não tenha sido perfeita, você foi bem",
+                                                    "<32>* maior parte dos competidores do mettaton não chegam nem na metade do caminho...",
+                                                    '<32>* inclusive eu......'
                                                 ]
                                                 : [
-                                                    "<32>{#p/napstablook}* even if your performance wasn't the greatest, i could tell you were trying your best",
-                                                    '<32>* and besides, you made it to the end...',
-                                                    '<32>* unlike me......'
+                                                    "<32>{#p/napstablook}* mesmo que sua performance não tenha sua a melhor, eu sei que você tentou seu melhor",
+                                                    '<32>* e aliás, você chegou até o fim...',
+                                                    '<32>* diferente de mim......'
                                                 ])
                                     ]
                                     : world.killed0
                                         ? [
-                                            "<32>{#p/napstablook}* oh hey...\n* that rhymed, didn't it...",
-                                            '<32>* i guess i could make a song about this... or not...'
+                                            "<32>{#p/napstablook}* oh ei...\n* isso aí rimou, não é...",
+                                            '<32>* eu acho que vou fazer um som sobre isso isso... ou não...'
                                         ]
                                         : [
-                                            '<32>{#p/napstablook}* a friend of mine recently told me it was the king...',
-                                            "<32>* but that can't be true\n* he wouldn't even know me..."
+                                            '<32>{#p/napstablook}* um amigo meu recentemente me disse que era o rei...',
+                                            "<32>* mas deve ser mentira\n* o rei não me conheceria..."
                                         ],
             () =>
                 SAVE.storage.inventory.contents.includes('tvm_mewmew') // NO-TRANSLATE
@@ -579,749 +579,749 @@ export default {
                     ? ['<32>{#p/napstablook}* ............']
                     : 65 <= SAVE.data.n.plot
                         ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
-                            ? ['<32>{#p/napstablook}* i wish i had more to say...']
-                            : ['<32>{#p/napstablook}* it is what it is...']
+                            ? ['<32>{#p/napstablook}* eu queria ter mais pra dizer...']
+                            : ['<32>{#p/napstablook}* é assim que é...']
                         : 60 <= SAVE.data.n.plot
                             ? ['<32>{#p/napstablook}* .........']
                             : 49 <= SAVE.data.n.plot
                                 ? SAVE.data.n.state_aerialis_talentfails === 0
-                                    ? ['<32>{#p/napstablook}* congratulations, i guess']
+                                    ? ['<32>{#p/napstablook}* parabéns, eu acho']
                                     : ['<32>{#p/napstablook}* ......']
-                                : ['<32>{#p/napstablook}* i wish i had more to say...']
+                                : ['<32>{#p/napstablook}* eu queria ter mais pra dizer...']
         ),
         boots1: () => [
-            '<32>{#p/human}* (You got the Hoverboots.)',
-            choicer.create('* (Equip the Hoverboots?)', 'Yes', 'No')
+            '<32>{#p/human}* (Você pegou as Botas Flutuantes.)',
+            choicer.create('* (Equipar as Botas Flutuantes?)', 'Sim', 'Não')
         ],
-        boots2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
-        bruh: ['<32>{*}{#p/undyne}* See you soon.{^20}{%}'],
+        boots2: ["<32>{#p/human}* (Você está carregando muito pra levar isso.)"],
+        bruh: ['<32>{*}{#p/undyne}* Te vejo mais tarde.{^20}{%}'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Está fora de serviço."]
                 : SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You approach the vending machine.)',
-                        choicer.create('* (What will you make?)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
+                        '<32>{#p/human}* (Você se aproxima da máquina de venda.)',
+                        choicer.create('* (O que você vai fazer?)', 'Alcaçuz', 'Chisps', 'Ração', 'Nada')
                     ]
                     : [
-                        '<32>{#p/basic}* Synthesize something with the vending machine?',
-                        choicer.create('* (What will you make?)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
+                        '<32>{#p/basic}* Sintetizar algo na máquina de venda?',
+                        choicer.create('* (O que você vai fazer?)', 'Alcaçuz', 'Chisps', 'Ração', 'Nada')
                     ],
-        candy2: ['<32>{#p/human}* (You got the $(x).)'],
-        candy3: () => [choicer.create('* (Buy the $(x) for $(y)G?)', 'Yes', 'No')],
-        candy4: ["<32>{#p/human}* (You don't have enough G.)"],
-        candy5: ['<32>{#p/human}* (You decide not to buy.)'],
-        candy6: ["<32>{#p/human}* (You're carrying too much.)"],
-        candy7: ['<32>{#p/human}* (You decide not to make anything.)'],
+        candy2: ['<32>{#p/human}* (Você pegou o $(x).)'],
+        candy3: () => [choicer.create('* (Comprar o $(x) por $(y)G?)', 'Sim', 'Não')],
+        candy4: ["<32>{#p/human}* (Você não tem G suficiente.)"],
+        candy5: ['<32>{#p/human}* (Você decide não comprar.)'],
+        candy6: ["<32>{#p/human}* (Você está carregando demais.)"],
+        candy7: ['<32>{#p/human}* (Você decide não fazer nada.)'],
         deathReaction: {
-            f_bird: ['<32>{#p/basic}* This small bird no longer wants to carry you across the gap.'],
+            f_bird: ['<32>{#p/basic}* O pássaro agora não deseja mais te carregar através do abismo.'],
             
             f_blooky: [
-                '<32>{#p/basic}{#npc/a}* Did you hear about Undyne?',
-                '<32>{#p/basic}{#npc/a}* Oh, not at all!',
-                "<32>{#p/basic}{#npc/a}* I heard she's doing well.",
-                '<32>{#p/basic}{#npc/a}* Sounds good to me!',
-                '<32>{#p/basic}{#npc/a}* Undyne will never die.',
-                '<32>{#p/basic}{#npc/a}* Indeed not!'
+                '<32>{#p/basic}{#npc/a}* Você ouviu sobre a Undyne?',
+                '<32>{#p/basic}{#npc/a}* Oh, não mesmo!',
+                "<32>{#p/basic}{#npc/a}* Ouvi dizer que ela está indo bem.",
+                '<32>{#p/basic}{#npc/a}* Parece bom pra mim!',
+                '<32>{#p/basic}{#npc/a}* Undyne não vai morrer.',
+                '<32>{#p/basic}{#npc/a}* De fato não!'
             ],
             f_dummy: [
-                '<32>{#p/basic}{#npc/a}* Fatal energy signature detected.',
-                '<32>* Name... Undyne.',
-                '<32>* Relationship status... \"BESTIES!!!\"',
-                '<32>* Last interaction... asked about humans.',
-                '<32>* Time to compensate for loss...',
-                '<32>* Indeterminate.'
+                '<32>{#p/basic}{#npc/a}* Assinatura de energia fatal detectada.',
+                '<32>* Nome... Undyne.',
+                '<32>* Status de relacionamento... \"BESTIES!!!\"',
+                '<32>* Última interação... perguntou sobre o humano.',
+                '<32>* Hora de compensar a perda...',
+                '<32>* Indeterminado.'
             ],
             f_hub: [
-                "<32>{#p/basic}{#npc/a}* Wh...\n* What've you done!?",
-                "<32>* Ole' Gerson's not gonna be a happy camper after that..."
+                "<32>{#p/basic}{#npc/a}* O...\n* O que você fez!?",
+                "<32>* Velho Gerson não será um campista feliz depois disso..."
             ],
             f_snail: () => [
                 '<32>{#p/basic}* ...',
                 SAVE.data.b.f_state_thundersnail_win
-                    ? "<32>* I'll make sure you NEVER win another game of electrosnail."
-                    : "<32>* I'll make sure you NEVER win a game of electrosnail."
+                    ? "<32>* eu vou garantir que você JAMAIS vença outro jogo de electrosnail."
+                    : "<32>* Eu vou ter certeza de você NUNCA ganhar outro jogo de electrosnail."
             ],
             f_undyne: [
-                '<32>{#p/basic}* No.\n* No!\n* NO!!!',
-                '<32>* What. Have. You. DONE???',
-                '<32>* She was...',
-                '<32>* She was my FAVORITE bully!\n* How dare you take her away from me like that!?'
+                '<32>{#p/basic}* Não.\n* Não!\n* NÃO!!!',
+                '<32>* O que. Você.\nFEZ???',
+                '<32>* Ela estava...',
+                '<32>* Ela era minha Bully favorita!\n* Como ousa tomar ela de mim dessa forma!?'
             ]
         },
         dummy1x: () =>
             SAVE.data.b.flirt_maddummy
                 ? [
                     SAVE.data.n.state_wastelands_dummy === 4
-                        ? "<32>{#p/basic}* Gah!\n* You're even worse than I thought you'd be!!"
-                        : '<32>{#p/basic}* Gah!\n* Just how awful ARE you!?',
-                    '<32>* Not only did you hug someone with haphephobia....',
-                    '<32>* But the way you did it!?',
-                    '<32>* Revolting.\n* Revolting!\n* REVOLTING!!!!'
+                        ? "<32>{#p/basic}* Gah!\n* Você é pior do que eu imaginei que você seria!!"
+                        : '<32>{#p/basic}* Gah!\n* O quão terrível é você!?',
+                    '<32>* Você não apenas abraçou alguém com fobia....',
+                    '<32>* Mas o jeito que você fez!?',
+                    '<32>* Revoltante.\n* Revoltante!\n* REVOLTANTE!!!!'
                 ]
                 : SAVE.data.n.state_wastelands_dummy === 4
                     ? [
-                        '<32>{#p/basic}* Gah!\n* I just KNEW you were going to do that!!',
-                        '<32>* What an IMBECILE!!!\n* You just hugged someone with haphephobia!!!!',
-                        "<32>* Guooohh, you're gonna PAY."
+                        '<32>{#p/basic}* Gah!\n* Eu SABIA que você estava fazendo isso!!',
+                        '<32>* Que IMBECIL!!!\n* Você abraçou alguém com fobia!!!!',
+                        "<32>* Guooohh, você vai PAGAR."
                     ]
                     : [
-                        '<32>{#p/basic}* Gah!\n* Why would you EVER do that!?',
-                        "<32>* Don't you know who I am!?!?\n* You just hugged someone with haphephobia!!!!",
-                        "<32>* Guooohh, you're gonna PAY."
+                        '<32>{#p/basic}* Gah!\n* Por que você faria isso!?',
+                        "<32>* Você não sabe quem eu sou!?!?\n* Você abraçou alguem com fobia!!!!",
+                        "<32>* Guooohh, você vai PAGAR."
                     ],
         dummy1a: () =>
             SAVE.data.n.state_wastelands_dummy === 2
-                ? ["<32>{#p/basic}* HA!\n* Of course you'd run away.", '<32>* Whatever, DUMMY.']
-                : ['<32>{#p/basic}* You DARE enter my territory and WALK PAST me?', '<32>* FOOL!'],
+                ? ["<32>{#p/basic}* HA!\n* Claro que você correria.", '<32>* TANTO FAZ, BURRO.']
+                : ['<32>{#p/basic}* Você OUSA entrar no meu território e PASSAR POR mim?', '<32>* IDIOTA!'],
         dummy1b: () =>
             SAVE.data.n.state_wastelands_dummy === 1
-                ? ['<32>{#p/basic}* Too intimidated to fight...?', '<32>* I see how it is.']
-                : ['<32>{#p/basic}* You DARE enter my territory and STARE at me?', '<32>* FOOL!'],
+                ? ['<32>{#p/basic}* Intimidado demais para lutar...?', '<32>* Eu entendo como é.']
+                : ['<32>{#p/basic}* Você OUSA passar em meu território e me ENCARAR?', '<32>* IDIOTA!'],
         dummy1c: () =>
             SAVE.data.n.state_wastelands_dummy === 1
-                ? ['<32>{#p/basic}* I thought you might do that.', '<32>* Predictable.\n* Predictable!\n* PREDICTABLE!!!']
+                ? ['<32>{#p/basic}* Eu pensei que você faria isso.', '<32>* Previsível.\n* Previsível!\n* PREVISÍVEL!!!']
                 : [
-                    "<32>{#p/basic}* Well well well, I see there's more to you than just talk.",
-                    "<32>* Not that it'll do you much good when I STOMP you!"
+                    "<32>{#p/basic}* Hora hora hora, vejo que a mais para você do que conversa.",
+                    "<32>* Não que isso vá te fazer muito bem quando eu QUEBRAR!"
                 ],
         dummy2: () => [
-            '<32>{#p/basic}* Those ELITE bozos failed to take your SOUL, but they lack something I have in SPADES!',
-            "<32>* That's right, human...\n* I'm INCORPOREAL!",
-            '<32>* I am a ghost that lives inside a dummy!',
-            '<32>* My cousin also lived inside a dummy, UNTIL...!',
+            '<32>{#p/basic}* Aqueles manés da ELITE falharam em tomar sua ALMA, mas eles esqueceram algo que eu tenho na manga!',
+            "<32>* Exato, humano...\n* Eu sou INCORPOREO! ",
+            '<32>* Eu sou um fantasma que vive dentro de um boneco!',
+            '<32>* Meu primo também vivia dentro de um boneco, ATÉ...!',
             ...(SAVE.data.n.state_wastelands_toriel === 0
                 ? [
-                    '<32>* Until...!',
-                    '<32>* Until...',
-                    '<32>{#x1}* ... well, actually, they left it on their own accord...',
-                    '<32>* Apparently, this really nice woman decided to take care of them in the Outlands?',
-                    '<32>* They said a human helped her feel better.',
-                    "<32>* That was you, wasn't it?",
-                    '<32>* ... shucks.\n* I guess you can go peacefully...'
+                    '<32>* Até...!',
+                    '<32>* Até...',
+                    '<32>{#x1}* ... bem, na verdade, eles deixaram por conta própria...',
+                    '<32>* Aparentemente, uma mulher muito gente boa decidiu tomar conta dele nas Outlands?',
+                    '<32>* Ela disse que um humano fez ela se sentir melhor.',
+                    "<32>* Foi você, não foi?",
+                    '<32>* ... Poxa.\n* Acho que você pode ir...'
                 ]
                 : [
-                    '<32>* YOU CAME ALONG!!!',
+                    '<32>* VOCÊ APARECER!!!',
                     ...(16 <= SAVE.data.n.kills_wastelands
                         ? [
-                            '<32>* Not only did YOUR actions cause them to leave their home...',
-                            '<32>* But now all of their neighbors are gone, too!',
-                            '<32>* Despicable.\n* Despicable!\n* DESPICABLE!!!',
-                            "<32>{#x1}* You're the worst person I've ever met!\n* I've NEVER been more mad!!!",
-                            '<32>* Guooooohhhh!!!\n* My mannequin levels are going OFF THE CHARTS!!!'
+                            '<32>* Não apenas SUAS ações o fizeram sair de sua casa...',
+                            '<32>* Mas agora todos os seus vizinhos se foram, também!',
+                            '<32>* Desprezível.\n* Desprezível!\n* DESPREZÍVEL!!!',
+                            "<32>{#x1}* Você é a pior pessoa que eu já conheci!\n* Eu NUNCA estive tão bravo!!!",
+                            '<32>* Guooooohhhh!!!\n* Meu poder de manequim está FORA DOS LIMITES!!!'
                         ]
                         : SAVE.data.n.state_wastelands_dummy === 3
                             ? [
-                                '<32>* YOU... you...',
-                                '<32>* Shucks!\n* You were really boring!',
-                                '<32>* They got annoyed and flew away like any self-respecting spectre.',
-                                '<32>* Well then.\n* Well then!\n* WELL THEN!',
-                                "<32>* I guess I'll just have to entertain MYSELF!",
-                                "<32>* Buckle up, sleepyhead!\n* It's time to put on a show!"
+                                '<32>* VOCÊ... você...',
+                                '<32>* Nossa!\n* Você é bem entediante!',
+                                '<32>* Eles ficaram irritados e voaram para longe como qualquer espectro que se preze.',
+                                '<32>* Que seja.\n* Que seja!\n* QUE SEJA!',
+                                "<32>* Eu acho que eu só vou me entreter SOZINHO!",
+                                "<32>* Aperte o cinto, dorminhoco!\n* É hora de dar um show!"
                             ]
                             : SAVE.data.n.state_wastelands_dummy === 4
                                 ? [
-                                    '<32>* YOU... you...',
-                                    '<32>* Shucks!\n* You were really nice!',
-                                    '<32>* So nice, in fact, that after your encounter, they developed a HUGGING addiction!!',
-                                    '<32>* In desperation, they left their body, hoping to get their fix from me.',
-                                    "<32>* They know I'm afraid of hugs, but they won't quit asking me!\n* It's INFURIATING!",
-                                    "<32>* You'll SUFFER for this, HUMAN!!!"
+                                    '<32>* VOCÊ... você...',
+                                    '<32>* Nossa!\n* Você é muito legal!',
+                                    '<32>* Tão legal, de fato, após o seu encontro, eles desenvolveram uma adicção a ABRAÇOS!!',
+                                    '<32>* Em desespero, eles deixaram o corpo, na esperança de conseguir sua dose de mim.',
+                                    "<32>* Eles sabem que eu tenho medo de abraços, mas eles não deixam de me perguntar!\n* É FRUSTRANTE!",
+                                    "<32>* Você SOFRERÁ por isso, HUMANO!!!"
                                 ]
                                 : [
                                     ...(SAVE.data.n.state_wastelands_dummy === 0
                                         ? [
-                                            '<32>* When you talked with them, they were hoping for a nice chat...',
-                                            '<32>* But the things you said...!',
-                                            '<32>* Horrible.\n* Shocking!\n* UNBELIEVABLE!',
-                                            '<32>* You spooked them right out of their dummy!',
+                                            '<32>* Quando você conversou com eles, eles esperavam uma bela conversa...',
+                                            '<32>* Mas as coisas que você disse...!',
+                                            '<32>* Horrível.\n* Chocante!\n* INACREDITÁVEL!',
+                                            '<32>* Você os assustou de seus corpos!',
                                             '<32>* Grr...'
                                         ]
                                         : SAVE.data.n.state_wastelands_dummy === 1
                                             ? [
-                                                '<32>* Us ghosts spend our whole lives looking for a proper vessel.',
-                                                '<32>* Slowly, slowly, we grow closer to our new bodies, until one day...',
-                                                '<32>* We too may become corporeal beings, able to laugh, love, and dance like any other.',
-                                                "<32>* But YOU!!!\n* My cousin's future...\n* You snatched it all away!",
+                                                '<32>* Nós fantasmas passam as vidas procurando por um corpo apropriado.',
+                                                '<32>* Devagar e devagar, nós vamos nos aproximando do nosso corpo, até que um dia...',
+                                                '<32>* Nós nos tornamos seres corporais, com capacidade para rir, amar, e dançar como qualquer outro.',
+                                                "<32>* Mas VOCÊ!!\n* O futuro do meu primo...\n* Você arrebatou tudo!",
                                                 '<32>* Uraaahhhhh!!!'
                                             ]
                                             : SAVE.data.n.state_wastelands_dummy === 2
                                                 ? [
-                                                    '<32>* They were a shy sort.\n* Living a lonely life in the Outlands...',
-                                                    '<32>* They saw you and HOPED you might TALK to them.',
-                                                    '<32>* But NO!\n* You ran away!',
-                                                    '<32>* Pathetic.\n* Pathetic!\n* PATHETIC!!!',
-                                                    "<32>* Nobody breaks my cousin's HEART and GETS AWAY with it!"
+                                                    '<32>* Era tímido.\n* Vivendo uma vida sozinho nas Outlands...',
+                                                    '<32>* Eles te viram e ESPERAVAM que você talvez CONVERSASSE com eles.',
+                                                    '<32>* Mas NÃO!\n* Você fugiu!',
+                                                    '<32>* Patético.\n* Patético!\n* PATÉTICO!!!',
+                                                    "<32>* Ninguém quebra o coração do meu primo e SE LIVRA DAS CONSEQUÊNCIAS!"
                                                 ]
                                                 : SAVE.data.n.state_wastelands_dummy === 5
                                                     ? [
-                                                        '<32>* When you first showed up, they were so excited to talk...',
-                                                        '<32>* And then you went and SLAPPED them in the FACE!',
-                                                        '<32>* Not just once.\n* Not just twice!',
-                                                        '<32>* But THREE TIMES!!',
-                                                        '<32>* How AWFUL do you have to BE!?'
+                                                        '<32>* Quando você apareceu eles estavam prontos para uma conversa...',
+                                                        '<32>* E então você foi lá e BATEU na cara DELE!',
+                                                        '<32>* Não apenas uma vez.\n* Não apenas duas!',
+                                                        '<32>* Mas TRÊS VEZES!!',
+                                                        '<32>* O quão MAU você pode ser!?'
                                                     ]
                                                     : SAVE.data.n.state_wastelands_dummy === 6
                                                         ? [
-                                                            '<32>* My cousin is a nice fellow.',
-                                                            "<32>* But that doesn't mean you can just GO AROUND and FLIRT with them!",
-                                                            '<32>* Your stupid advances weirded them out SO MUCH...',
-                                                            "<32>* ... they just couldn't take it anymore!!",
-                                                            '<32>* Disgusting.\n* Disgusting!\n* DISGUSTING!!!'
+                                                            '<32>* Meu primo é um cara legal.',
+                                                            "<32>* Mas isso não significa que você pode só chegar do nada e FLERTAR com ele!",
+                                                            '<32>* Seus avanços estúpidos deixaram ele com tanta vergonha...',
+                                                            "<32>* ... que ele nem conseguiu aguentar!!",
+                                                            '<32>* Nojento.\n* Nojento!\n* NOJENTO!!!'
                                                         ]
                                                         : []),
-                                    "<32>* You'll DIE for this, HUMAN!!!!"
+                                    "<32>* Você MORRERÁ por isso, HUMANO!!!"
                                 ])
                 ])
         ],
         dummy3: [
             '<32>{#p/basic}* ...?',
-            '<32>* This...\n* This feeling...?',
+            '<32>* Essa...\n* Essa sensação...?',
             '<32>{#x3}* Eureka.\n* Eureka!\n* EUREKA!!!',
-            '<32>* Human.\n* That moment of unbridled emotion.',
-            '<32>* It allowed me to finally fuse with my body!',
-            "<32>* I'm fully corporeal now!\n* Am I... dreaming?\n* Is this real???",
-            "<32>* Well, in return, I guess I won't stomp you.",
-            "<32>* How's that sound?"
+            '<32>* Humano.\n* Aquele momento de emoção indescritível.',
+            '<32>* Me permitiu fundir com meu corpo, finalmente!',
+            "<32>* Eu sou totalmente corporal agora!\n* Eu estou... sonhando?\n* Isso é real???",
+            "<32>* Bem, em retorno. Eu acho que não vou te esmagar.",
+            "<32>* O que acha?"
         ],
         dummy4: (mover: boolean) => [
             ...(mover
                 ? [
                     SAVE.data.n.state_foundry_maddummy === 1
-                        ? '<32>{#p/napstablook}* hey...\n* i thought i heard someone being attacked...'
-                        : '<32>{#p/napstablook}* hey...\n* i thought i heard someone yelling...',
-                    "<32>{#p/napstablook}* but i guess you're alright",
-                    '<32>* i was actually about to head home...'
+                        ? '<32>{#p/napstablook}* ei...\n* eu acho que ouvi alguém sendo atacado...'
+                        : '<32>{#p/napstablook}* ei...\n* eu acho que escutei alguém gritando...',
+                    "<32>{#p/napstablook}* mas eu acho que você está bem",
+                    '<32>* eu estava prestes a ir para casa...'
                 ]
-                : ["<32>{#p/napstablook}* well...\n* i'm going to head home now..."]),
+                : ["<32>{#p/napstablook}* bem...\n* eu acho que vou pra casa agora..."]),
             ...(world.sad_ghost || world.population === 0
                 ? [
-                    '<32>* just warning you...',
-                    "<32>* so you don't accidentally follow me to my house...",
-                    "<32>* you probably wouldn't like that..."
+                    '<32>* só te avisando...',
+                    "<32>* então você não me segue acidentalmente para casa...",
+                    "<32>* você provavelmente não iria gostar..."
                 ]
                 : [
-                    '<32>* so... um...\n* feel free to \"come with\" if you want...',
-                    '<32>* but no pressure...',
-                    "<32>* i understand if you're busy...",
-                    "<32>* it's fine...",
-                    '<32>* no worries...',
-                    "<32>* just thought i'd offer..."
+                    '<32>* então... hmmm...\n* Sinta-se livre para \"brotar\" se você quiser...',
+                    '<32>* mas sem pressão...',
+                    "<32>* eu entendo se você estiver ocupado...",
+                    "<32>* tá tudo bem...",
+                    '<32>* sem preocupação...',
+                    "<32>* só pensei em oferecer.."
                 ])
         ],
         dummypunch1: () =>
             SAVE.data.b.oops
                 ? [
-                    "<32>{#p/basic}* It's a training dummy.\n* Beat it up?",
-                    choicer.create('* (Beat up the dummy?)', 'Yes', 'No')
+                    "<32>{#p/basic}* é um boneco de treino.\n* Dar uma surra nele?",
+                    choicer.create('* (Dar uma surra no boneco?)', 'Sim', 'Não')
                 ]
-                : ["<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create('* (Hug the dummy?)', 'Yes', 'No')],
-        dummypunch2a: ['<32>{#p/human}* (You decide not to do anything.)'],
+                : ["<32>{#p/basic}* É um boneco de treino.\n* Abraçar?", choicer.create('* (Abraçar o boneco?)', 'Sim', 'Não')],
+        dummypunch2a: ['<32>{#p/human}* (Você decide não fazer nada.)'],
         dummypunch2b: () =>
             world.genocide || world.meanie
-                ? ['<32>{#p/human}* (You punched the dummy as hard as you could.)']
+                ? ['<32>{#p/human}* (Você soca o boneco o mais forte que pode.)']
                 : SAVE.data.n.exp > 0
-                    ? ['<32>{#p/human}* (You beat up the dummy.)']
+                    ? ['<32>{#p/human}* (Você soca o boneco.)']
                     : SAVE.data.b.oops
-                        ? ['<32>{#p/human}* (You poked the dummy.)']
+                        ? ['<32>{#p/human}* (Você cutucou o boneco.)']
                         : SAVE.data.b.flirt_maddummy
-                            ? ['<32>{#p/human}* (You tenderly embraced the dummy.)']
-                            : ['<32>{#p/human}* (You hugged the dummy.)'],
+                            ? ['<32>{#p/human}* (Você abraçou ternamente o boneco.)']
+                            : ['<32>{#p/human}* (Você abraçou o boneco.)'],
         dummypunch3: () =>
             SAVE.data.b.f_state_dummypunch
-                ? ["<32>{#p/basic}* It's a beat-up training dummy."]
+                ? ["<32>{#p/basic}* É um boneco de treino surrado."]
                 : SAVE.data.b.flirt_maddummy
-                    ? ["<32>{#p/basic}* It's a red-faced hugging dummy."]
-                    : ["<32>{#p/basic}* It's a happy hugging dummy."],
+                    ? ["<32>{#p/basic}* É um boneco de rosto vermelho."]
+                    : ["<32>{#p/basic}* É um boneco abraçado feliz."],
         epicreaction: () =>
             [
-                ['<25>{#p/kidd}{#f/7}* What was THAT!?'],
+                ['<25>{#p/kidd}{#f/7}* O que foi ISSO!?'],
                 ['<25>{#p/kidd}{#f/7}* Ack!!'],
-                ['<25>{#p/kidd}{#f/7}* Not again!'],
-                ['<25>{#p/kidd}{#f/7}* How many of those things are there!'],
-                ['<25>{#p/kidd}{#f/7}* Seriously!?'],
-                ['<25>{#p/kidd}{#f/7}* Jeez!!'],
-                ["<25>{#p/kidd}{#f/4}* We've gotta find a way outta here..."],
+                ['<25>{#p/kidd}{#f/7}* De novo não!'],
+                ['<25>{#p/kidd}{#f/7}* Quantos desse tem!'],
+                ['<25>{#p/kidd}{#f/7}* Sério!?'],
+                ['<25>{#p/kidd}{#f/7}* Senhor!!'],
+                ["<25>{#p/kidd}{#f/4}* precisamos achar um jeito de sair daqui..."],
                 ['<25>{#p/kidd}{#f/4}* ...']
             ][Math.min(SAVE.data.n.state_foundry_kiddreaction++, 7)],
-        fallenfish: ['<33>{#p/basic}* Electricity permeates the body.'],
-        fallenfish2: ["<32>{#p/basic}* She's fallen down."],
-        fallenfish3: ['<32>{#p/basic}* ... but nothing happened.'],
+        fallenfish: ['<33>{#p/basic}* Eletricidade permeia o corpo.'],
+        fallenfish2: ["<32>{#p/basic}* Ela caiu."],
+        fallenfish3: ['<32>{#p/basic}* ... mas nada aconteceu.'],
         finalfish1: ['<25>{#p/undyne}{#f/19}* Ngah...'],
-        finalfish2: ['<25>{#p/undyne}{#f/19}* Stupid...\n* Interference...'],
-        finalpre: () => [choicer.create('* (Continue to Aerialis?)', 'Yes', 'No')],
+        finalfish2: ['<25>{#p/undyne}{#f/19}* Interferência...\n* Estúpida...'],
+        finalpre: () => [choicer.create('* (Continuar para Aerialis?)', 'Sim', 'Não')],
         genotext: {
             asgoreFinal1: () =>
                 SAVE.flag.n.genocide_milestone < 5
                     ? SAVE.flag.n.ga_asrielStutter < 1
                         ? [
-                            '<25>{#p/asgore}{#f/15}* So you still ended up with him in the end...',
-                            '<25>{#p/asriel2}{#f/7}* $(name) and I are inseparable, Asgore.\n* You should know that.',
-                            '<25>{#p/asgore}{#f/15}* $(name)... o-of course.\n* So... w-what are you doing with the kid?',
-                            "<25>{#p/asriel2}{#f/8}* That's honestly none of your business.",
-                            "<25>{#p/asgore}{#f/15}* (Ugh... should've seen that coming...)",
-                            "<25>{#p/asriel2}{#f/6}* To summarize, though...\n* We're going on a little trip together.",
-                            "<25>{#f/6}* Just the three of us.\n* And surprise, surprise, you're not invited.",
-                            '<25>{#p/asgore}{#f/15}* D-do I look like I want to be invited??',
-                            '<25>{#p/asriel2}{#f/6}* You tell me.',
-                            "<25>{#p/asgore}{#f/15}* Well, I just wanted to check on you.\n* That's all.",
-                            "<26>{#p/asriel2}{#f/10}{#x1}* ...\n* Something's wrong.",
-                            '<25>{#p/asriel2}{#f/10}* Dr. Alphys?\n* Is that you...?'
+                            '<25>{#p/asgore}{#f/15}* Então você acabou voltando para ele no final...',
+                            '<25>{#p/asriel2}{#f/7}* $(name) e eu somos inseparáveis, Asgore. Você deveria saber disso.',
+                            '<25>{#p/asgore}{#f/15}* $(name)... M-mas é claro.\n* Então... o que v-você está fazendo com a criança?',
+                            "<25>{#p/asriel2}{#f/8}* Sinceramente, isso não te importa.",
+                            "<25>{#p/asgore}{#f/15}* (Ugh... deveria ter visto isso chegando...)",
+                            "<25>{#p/asriel2}{#f/6}* Só para dizer, então...\n* Estamos indo em uma pequena aventura juntos.",
+                            "<25>{#f/6}* Só nós três.\n* E surpresa, surpresa, você não está convidado.",
+                            '<25>{#p/asgore}{#f/15}* E-eu pareço querer ser convidado??',
+                            '<25>{#p/asriel2}{#f/6}* Me diz você.',
+                            "<25>{#p/asgore}{#f/15}* Bem, eu só queria checar onde você estava.\n* Isso é tudo.",
+                            "<26>{#p/asriel2}{#f/10}{#x1}* ...\n* Tem algo errado.",
+                            '<25>{#p/asriel2}{#f/10}* Dr. Alphys?\n* Essa é você...?'
                         ]
                         : [
-                            '<25>{#p/asgore}{#f/15}* So you still ended up with him in the end...',
-                            '<25>{#p/asriel2}{#f/8}* $(name) and I are inseparable, ALPHYS.',
-                            "<25>{#p/asriel2}{#f/7}* But YOU won't know anything about that, would you?"
+                            '<25>{#p/asgore}{#f/15}* Então você acabou voltando para ele no final...',
+                            '<25>{#p/asriel2}{#f/8}* $(name) e eu somos inseparáveis, ALPHYS.',
+                            "<25>{#p/asriel2}{#f/7}* Mas VOCÊ não saberia nada sobre isso, certo?"
                         ]
                     : [
-                        '<25>{#p/asgore}{#f/15}* So you still ended up with him in the end...',
-                        '<25>{#p/asriel2}{#f/8}* $(name) and I are inseparable, ALPHYS.',
+                        '<25>{#p/asgore}{#f/15}* Então você acabou voltando para ele no final...',
+                        '<25>{#p/asriel2}{#f/8}* $(name) e eu somos inseparáveis, ALPHYS.',
                         ...(SAVE.flag.n.ga_asrielQuestion < 1
-                            ? ["<25>{#p/asriel2}{#f/7}* Like I don't already know you're planning to kill us."]
-                            : ['<25>{#p/asriel2}{#f/7}* Do you really think you can stop us?'])
+                            ? ["<25>{#p/asriel2}{#f/7}* Como se eu não soubesse que você planeja nos matar."]
+                            : ['<25>{#p/asriel2}{#f/7}* Você realmente acha que pode nos parar?'])
                     ],
             asgoreFinal2: () =>
                 SAVE.flag.n.genocide_milestone < 5
                     ? [
-                        '<25>{#p/alphys}{#g/alphysThatSucks}* ... no fooling you, huh?',
-                        '<25>{#p/asriel2}{#f/3}* Guess not.',
-                        "<25>{#p/alphys}{#g/alphysGarbo}* ...\n* At least you're honest.",
-                        '<25>{#p/asriel2}{#f/13}* You must be distraught over the death of your dear friend...',
-                        "<25>{#p/asriel2}{#f/16}* I can't imagine how that feels for you.",
+                        '<25>{#p/alphys}{#g/alphysThatSucks}* ... ninguém te engana, huh?',
+                        '<25>{#p/asriel2}{#f/3}* Acho que não.',
+                        "<25>{#p/alphys}{#g/alphysGarbo}* ...\n* Pelo menos é honesto.",
+                        '<25>{#p/asriel2}{#f/13}* Você deve estar arrasada com a morte do seu querido amigo...',
+                        "<25>{#p/asriel2}{#f/16}* Nem consigo imaginar como isso deve ser pra você.",
                         '<25>{#p/alphys}{#g/alphysIDK}* ...',
                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* This was a b-bad idea.',
-                        "<25>{|}{#p/asriel2}{#f/8}* Don't tell me you're- {%}"
+                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* Isso não f-foi uma boa ideia.',
+                        "<25>{|}{#p/asriel2}{#f/8}* Não me diga que você vai fu- {%}"
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysOhGodNo}* What?',
-                        "<25>* I...\n* I-I wouldn't stand a chance against you!",
+                        '<25>{#p/alphys}{#g/alphysOhGodNo}* Que?',
+                        "<25>* Eu...\n* E-eu não teria chance contra você!",
                         ...(SAVE.flag.n.ga_asrielQuestion < 1
-                            ? ['<25>{#p/asriel2}{#f/10}* ... you sure?', '<25>{#p/alphys}{#g/alphysIDK}* ...']
+                            ? ['<25>{#p/asriel2}{#f/10}* ... tem certeza?', '<25>{#p/alphys}{#g/alphysIDK}* ...']
                             : ['<25>{#p/asriel2}{#f/7}* ...']),
                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* This was a b-bad idea.'
+                        '<25>{#p/alphys}{#g/alphysNeutralSweat}* Isso não f-foi uma boa ideia.'
                     ],
             asgoreFinal3: () =>
                 SAVE.flag.n.genocide_milestone < 5
-                    ? ['<25>{#p/asriel2}{#f/7}* Coward.']
+                    ? ['<25>{#p/asriel2}{#f/7}* Covarde.']
                     : [
-                        ["<25>{#p/asriel2}{#f/15}* Huh... I guess it's too early in the timeline."],
-                        ['<25>{#p/asriel2}{#f/15}* Oh well.']
+                        ["<25>{#p/asriel2}{#f/15}* Huh... acho que isso é cedo demais na linha do tempo."],
+                        ['<25>{#p/asriel2}{#f/15}* Pois bem.']
                     ][Math.min(SAVE.flag.n.ga_asrielQuestion++, 1)],
             asgoreMK1: [
-                '<25>{#p/kidd}{#f/7}* Woah, is that... no way...',
-                "<25>{#f/1}* It's the KING!",
-                '<25>* King Asgore, dude!\n* What the heck are you doing way out here!?',
+                '<25>{#p/kidd}{#f/7}* Uau, aquele é... sem chance...',
+                "<25>{#f/1}* É o REI!",
+                '<25>* Rei Asgore, cara!\n* O que você tá fazendo por aqui!?',
                 '<25>{#p/asgore}{#f/3}* ...',
-                '<25>{#f/3}* It is... a long story.',
+                '<25>{#f/3}* É... uma longa história.',
                 '<25>{#p/kidd}{#f/4}* Oh...',
-                '<25>{#f/1}* Well, you can tell me!',
-                '<25>{#p/asgore}{#f/7}* Heh.\n* No, I cannot.',
-                '<25>{#f/6}* But I can ask you a question.',
+                '<25>{#f/1}* Bem, você pode me contar!',
+                '<25>{#p/asgore}{#f/7}* Heh.\n* Não, eu não posso.',
+                '<25>{#f/6}* Mas eu posso te perguntar uma coisa.',
                 '<25>{#p/kidd}{#f/3}* ...?',
-                '<25>{#p/asgore}{#f/7}* Has this human been a good friend to you?',
-                '<25>{#p/kidd}{#f/1}* Well... yeah!',
-                '<25>{#f/4}* But, there was this other kid with them...',
-                "<25>{#f/8}* He wasn't as friendly.",
-                "<25>{#p/asgore}{#f/1}* So it's him, then.\n* Just him...",
+                '<25>{#p/asgore}{#f/7}* Esse humano tem sido um bom amigo pra você?',
+                '<25>{#p/kidd}{#f/1}* Bem... sim!',
+                '<25>{#f/4}* Mas, tinha uma outra criança com ele...',
+                "<25>{#f/8}* Ele não foi tão legal.",
+                "<25>{#p/asgore}{#f/1}* É ele então.\n* Apenas ele...",
                 '<25>{#p/kidd}{#f/4}* Huh?',
-                '<25>{#p/asgore}{#f/6}* Erm, never mind.\n* I should not trouble you with this.',
-                '<25>{#f/3}* As for you, human...',
-                '<25>{#f/2}* You and that \"other kid\" have done a lot of damage.',
-                '<25>{#f/1}* Countless monsters are... well, you know.',
+                '<25>{#p/asgore}{#f/6}* Erm, nada.\n* Eu não deveria te incomodar com isso.',
+                '<25>{#f/3}* Já para você, humano...',
+                '<25>{#f/2}* Você e aquela \"outra criança\" fizeram um dano irreversível.',
+                '<25>{#f/1}* Inúmeros monstros estão... bem, você sabe.',
                 '<25>{#p/kidd}{#f/4}* ... huh?',
-                '<25>{#p/asgore}{#f/7}* Nothing, nothing.\n* I just...',
-                '<25>{#f/5}* I want to believe that there is more to you than... this.',
-                '<25>{#f/5}* That, maybe somehow... Papyrus was right.',
-                '<25>{#f/6}* If your \"friend\" has chosen to abandon you...',
-                '<25>* Then this could be your chance to start anew.',
-                "<25>{#p/kidd}{#f/1}* And I'll help them!",
-                '<25>{#p/asgore}{#f/6}* Heh, perhaps you can, little one.\n* Perhaps you can.',
-                '<25>{#f/5}* Since we last met, I have been thinking very hard about everything.',
-                '<25>{#f/2}* It is difficult to say it, but...\n* He is too far gone.',
-                '<25>{#f/2}* My son... he will never be whole again.',
-                "<25>{#p/kidd}{#f/4}* I'm just gonna let you guys talk about this...",
-                '<25>{#p/asgore}{#f/1}* No, no, that is alright. We were just about to end it.',
-                '<25>{#f/1}* Think about my words carefully, human.',
-                '<25>{#f/1}* That is all I ask.'
+                '<25>{#p/asgore}{#f/7}* Nada. Nada.\n* Eu só...',
+                '<25>{#f/5}* Eu quero acreditar que exista mais que isso... para você.',
+                '<25>{#f/5}* Que, talvez de alguma forma... Papyrus estivesse certo.',
+                '<25>{#f/6}* Se seu \"amigo\" decidiu te abandonar...',
+                '<25>* Então talvez essa seja sua chance de começar algo novo.',
+                "<25>{#p/kidd}{#f/1}* E eu irei ajudá-los!",
+                '<25>{#p/asgore}{#f/6}* Heh, talvez você possa, pequeno.\n* Talvez você possa.',
+                '<25>{#f/5}* Desde a última vez que nos vimos, eu tenho pensado muito sobre tudo.',
+                '<25>{#f/2}* É difícil de concluir, mas...\n* Ele já foi longe demais.',
+                '<25>{#f/2}* Meu filho... ele nunca será o mesmo de novo.',
+                "<25>{#p/kidd}{#f/4}* Eu vou deixar vocês falarem sobre isso...",
+                '<25>{#p/asgore}{#f/1}* Não, não, está tudo bem. Nós já estamos finalizando.',
+                '<25>{#f/1}* Pense sobre minhas palavras com cautela, humano.',
+                '<25>{#f/1}* É tudo que eu peço.'
             ],
             asgoreMK2: [
-                "<25>{#p/kidd}{#f/2}* Woah... he's AMAZING!",
-                "<25>{#f/1}* I've heard stories about the king's speeches, but WOW!",
-                '<25>{#f/3}* I wish he was MY dad...'
+                "<25>{#p/kidd}{#f/2}* Uau... ele é INCRÍVEL!",
+                "<25>{#f/1}* Eu tinha ouvido histórias sobre as falas do rei, mas CARA!",
+                '<25>{#f/3}* Queria que ele fosse MEU pai...'
             ],
             asriel32: [
                 '<25>{#p/asgore}{#f/15}* ...',
-                '<25>{#f/16}* I see you have ignored my advice.',
-                '<25>{#p/asriel2}{#f/3}* I sure did.',
+                '<25>{#f/16}* Eu vejo que você ignorou o meu aviso.',
+                '<25>{#p/asriel2}{#f/3}* Claro que sim.',
                 '<25>{#p/asgore}{#f/1}* ...',
-                '<25>{#f/16}* You know, I have been wondering.',
-                '<25>{#f/16}* You may not claim to be my son now, but you were...',
-                '<25>{#f/15}* Once upon a time.',
-                '<25>{#p/asriel2}{#f/10}* And your point is?',
+                '<25>{#f/16}* Sabe, eu vim me perguntando.',
+                '<25>{#f/16}* Você pode dizer não ser meu filho, mas você era...',
+                '<25>{#f/15}* A muito tempo atrás.',
+                '<25>{#p/asriel2}{#f/10}* E seu ponto é?',
                 '<25>{#p/asgore}{#f/12}* ...',
-                '<25>{#p/asgore}{#f/12}* Well... what changed?',
-                '<25>{#f/12}* What made you into this... stranger... standing here now?',
-                '<26>{#p/asriel2}{#f/6}* You REALLY wanna know?',
+                '<25>{#p/asgore}{#f/12}* Bem... o que mudou?',
+                '<25>{#f/12}* O que te transformou neste... estranho... em pé na minha frente?',
+                '<26>{#p/asriel2}{#f/6}* Você REALMENTE quer saber?',
                 '<26>{#p/asgore}{#f/7}* ...',
-                '<26>{#p/asriel2}{#f/7}* Be honest.',
-                '<26>{#p/asgore}{#f/1}* ...\n* Well, no...\n* Not really...',
-                "<26>{#p/asriel2}{#f/8}* Tch.\n* Now that's more like the Asgore I know.",
-                "<26>{#f/6}* You'd rather pretend everything's juuuust fine, ain't that right?",
-                "<26>{#f/7}* Well, guess what, pal.\n* You're overdue for a wakeup call.",
-                "<26>{#f/8}* (I'd give you one right now if you weren't a freakin' hologram...)",
+                '<26>{#p/asriel2}{#f/7}* Seja honesto.',
+                '<26>{#p/asgore}{#f/1}* ...\n* Bem, não...\n* Não de verdade...',
+                "<26>{#p/asriel2}{#f/8}* Tch.\n* Agora sim, isso é mais o Asgore que eu conheço.",
+                "<26>{#f/6}* Você prefere pretender que tudo está suuuuper bem, não é mesmo?",
+                "<26>{#f/7}* Bem, adivinhe, amigo.\n* Você está atrasado para o despertar.",
+                "<26>{#f/8}* (Eu te daria um agora se você não fosse a merda de um holograma...)",
                 '<26>{#p/asgore}{#f/12}* ...',
                 '<26>{#p/asriel2}{#f/8}* ...',
-                '<26>{#p/asgore}{#f/15}* You know... I sometimes wonder how I got here.',
-                '<25>{#f/16}* No homeworld, no children... trapped here by the humans...',
-                '<25>{#f/15}* And now, the outpost is going to fall and all I can do is watch.',
-                "<25>{#p/asriel2}{#f/15}* If you're asking ME for insight, you must be really desperate...",
-                '<25>{#f/16}* Small word of advice.\n* Next time, try not to start a war...',
+                '<26>{#p/asgore}{#f/15}* Sabe... as vezes eu me pergunto como cheguei aqui.',
+                '<25>{#f/16}* Sem mundo, sem filhos... preso aqui pelos humanos...',
+                '<25>{#f/15}* E agora, o Outpost vai cair e tudo que eu posso fazer é assistir.',
+                "<25>{#p/asriel2}{#f/15}* Se você está me pedindo por piedade, deve estar muito desesperado...",
+                '<25>{#f/16}* Pequeno conselho.\n* Da próxima vez, tente não começar uma guerra...',
                 '<25>{#p/asgore}{#f/2}* ...',
-                '<25>{#f/4}* You...',
+                '<25>{#f/4}* Você...',
                 '<25>{#f/2}* ...',
-                '<25>{#f/6}* You know what, Asriel?\n* Forget it.',
-                "<25>{#f/7}* Because you're right...",
-                '<25>{#f/5}* Reasoning with you is a total waste of time.',
-                "<25>{#p/asriel2}{#f/15}* ... wow.\n* I'm impressed.",
-                '<25>{#f/16}* You finally said something intelligent for once.',
+                '<25>{#f/6}* Sabe de uma coisa, Asriel?\n* Esquece.',
+                "<25>{#f/7}* Você está certo...",
+                '<25>{#f/5}* Conversar com você é uma total perda de tempo.',
+                "<25>{#p/asriel2}{#f/15}* ... wow.\n* Estou impressionado.",
+                '<25>{#f/16}* Você finalmente disse algo inteligente.',
                 '<25>{#p/asgore}{#f/1}* ...',
-                "<25>{#p/asriel2}{#f/10}* So what now?\n* What's next for the aspiring king?",
-                '<25>{#p/asgore}{#f/15}* To be honest?',
+                "<25>{#p/asriel2}{#f/10}* E o que agora?\n* Qual o próximo movimento para o grande rei?",
+                '<25>{#p/asgore}{#f/15}* Pra ser sincero?',
                 '<25>{#f/15}* ...',
-                '<25>{#f/16}* I have no idea, Asriel.'
+                '<25>{#f/16}* Eu não faço ideia, Asriel.'
             ],
-            asriel33: ['<25>{#p/asriel2}{#f/10}* Did I detect a hint of anger...?'],
+            asriel33: ['<25>{#p/asriel2}{#f/10}* Eu detectei uma emoção de raiva...?'],
             
             asriel34: [
-                "<25>{#p/asriel2}{#f/3}* I've gotta take care of some things, so I'll leave you two alone.",
-                '<25>{#p/kidd}{#f/3}* Will you be back?\n* You gotta tell me more about Undyne...',
-                "<25>{#p/asriel2}{#f/4}* I promised, didn't I?",
-                "<25>{#f/1}* Don't worry.\n* I'll be back before you know it.",
+                "<25>{#p/asriel2}{#f/3}* Eu vou ter que cuidar de algumas coisas, então deixarei vocês sozinhos.",
+                '<25>{#p/kidd}{#f/3}* Você vai voltar?\n* Você precisa me contar mais sobre a Undyne...',
+                "<25>{#p/asriel2}{#f/4}* Eu prometi, não foi?",
+                "<25>{#f/1}* Não se preocupe.\n* Eu estarei de volta antes de você perceber.",
                 '<25>{#p/kidd}{#f/4}* Okay...'
             ],
-            asriel34x: ['<25>{#p/asriel2}{#f/3}* Hey, stop here.'],
+            asriel34x: ['<25>{#p/asriel2}{#f/3}* Ei, para um pouco.'],
             asriel35: () =>
                 SAVE.flag.n.undying > 0
                     ? [
                         [
-                            '<25>{#p/asriel2}{#f/6}* Well, here we are again, $(name).',
-                            "<25>{#f/7}* ... look, I know Undyne won't die when the kid attacks her.",
-                            "<25>{#f/15}* From what I can see, though, it's our best way forward for now.",
-                            "<25>{#f/16}* Let's just stick to the script, okay?"
+                            '<25>{#p/asriel2}{#f/6}* Bem, aqui estamos de novo, $(name).',
+                            "<25>{#f/7}* ... olha, eu sei que a Undyne não vai morrer quando a criança atacar ela.",
+                            "<25>{#f/15}* Mas pelo que eu vejo, é a melhor forma de passar por ela.",
+                            "<25>{#f/16}* Vamos só nos manter na linha do tempo, okay?"
                         ],
                         []
                     ][Math.min(SAVE.flag.n.ga_asrielUndying++, 1)]
                     : [
                         [
-                            '<25>{#p/asriel2}{#f/1}* Howdy, $(name).',
-                            '<25>{#f/13}* Did you miss me?',
-                            '<25>{#f/4}* Heh.\n* Sorry I had to leave your side again.',
-                            "<25>{#f/3}* But I haven't been doing it for nothing.",
-                            "<25>{#f/13}* I see you've parted ways with your little friend...",
-                            '<25>{#f/16}* You must be soooo lonely, right $(name)?'
+                            '<25>{#p/asriel2}{#f/1}* Olá, $(name).',
+                            '<25>{#f/13}* Sentiu minha falta?',
+                            '<25>{#f/4}* Heh.\n* Desculpa ter saído do seu lado de novo.',
+                            "<25>{#f/3}* Mas eu não fiz isso por nada.",
+                            "<25>{#f/13}* Vejo que você se separou do seu amiguinho.",
+                            '<25>{#f/16}* Você deve estar tão sozinho, não é $(name)?'
                         ],
                         []
                     ][Math.min(SAVE.flag.n.ga_asriel35++, 1)],
             asriel37: () => [
-                '<25>{#p/asriel2}{#f/1}* And thus, your little friend has returned!',
-                "<25>{#f/17}* You'd do anything for me, wouldn't you?",
+                '<25>{#p/asriel2}{#f/1}* E alas, seu amiguinho voltou!',
+                "<25>{#f/17}* Você faria qualquer coisa por mim, não faria?",
                 '<25>{#p/kidd}{#f/9}* Mhm...'
             ],
             asriel38: () => [
                 ...[
                     [
                         
-                        '<25>{#p/asriel2}{#f/17}* Well, whaddya think?',
-                        "<25>{#f/16}* They weren't easy to get ahold of, you know.",
+                        '<25>{#p/asriel2}{#f/17}* Bem, o que você acha?',
+                        "<25>{#f/16}* Não foi fácil tomar controle sobre ele, sabe.",
                         ...(SAVE.data.n.state_foundry_muffet === 1
                             ? [
-                                '<25>{#f/15}* They kept saying they wanted to be forgotten...',
-                                '<25>{#f/10}* Golly, $(name).\n* What did you do to them while I was gone?'
+                                '<25>{#f/15}* Ele ficava dizendo que queria ser esquecido.',
+                                '<25>{#f/10}* Nossa, $(name).\n* O que você fez com ele enquanto eu estava fora?'
                             ]
                             : [
-                                "<25>{#f/15}* They wouldn't stop asking me where you were...",
-                                '<25>{#f/10}* Golly, $(name).\n* What were you two doing while I was gone?'
+                                "<25>{#f/15}* Ele não parava de me perguntar onde você estava...",
+                                '<25>{#f/10}* Nossa, $(name).\n* O que vocês dois estavam fazendo enquanto eu estive fora?'
                             ]),
-                        "<25>{#f/3}* Uh, don't answer that.\n* They're here now, and that's what matters."
+                        "<25>{#f/3}* Uh, não precisa responder.\n* Ele tá aqui agora, é o que importa."
                     ],
-                    ["<25>{#p/asriel2}{#f/3}* Well, at least that's outta the way now."]
+                    ["<25>{#p/asriel2}{#f/3}* Bem, pelo menos isso está fora do caminho agora."]
                 ][Math.min(SAVE.flag.n.ga_asriel38++, 1)]
             ],
             asriel39: [
-                '<25>{#p/asriel2}{#f/8}* Wait.\n* Think you can do me a favor, kid?',
+                '<25>{#p/asriel2}{#f/8}* Espera.\n* Pode me fazer um favor, criança?',
                 '<25>{#p/kidd}{#f/9}* ...?',
-                '<25>{#p/asriel2}{#f/6}* Solve the puzzle.'
+                '<25>{#p/asriel2}{#f/6}* Resolve o problema.'
             ],
             asriel40: () =>
                 SAVE.flag.n.ga_asriel40++ < 1
                     ? [
-                        '<25>{#p/asriel2}{#f/10}* Done already?\n* Golly...',
-                        '<25>{#f/3}* This is the potential monsters deny themselves, $(name).',
-                        '<25>{#f/16}* Hope, fear, empathy...\n* They cling to these pointless emotions.',
-                        "<25>{#f/15}* Imagine how much better they'd be if they were all like this."
+                        '<25>{#p/asriel2}{#f/10}* Já?\n* Nossa...',
+                        '<25>{#f/3}* Este é o potencial que os monstros recusam ter, $(name).',
+                        '<25>{#f/16}* Esperança, medo, empatia...\n* Eles se agarram a essas emoções inúteis.',
+                        "<25>{#f/15}* Imagine se todos eles fossem assim."
                     ]
-                    : ['<25>{#p/asriel2}{#f/4}* Right on schedule.'],
-            asriel41: ['<25>{#p/asriel2}{#f/3}* Back with us now, kid.'],
-            asriel42: ["<25>{#p/asriel2}{#f/4}* If we keep this up, we'll be over and done with in no time."],
+                    : ['<25>{#p/asriel2}{#f/4}* Bem no tempo.'],
+            asriel41: ['<25>{#p/asriel2}{#f/3}* Volta pra cá, criança.'],
+            asriel42: ["<25>{#p/asriel2}{#f/4}* Se continuarmos assim, vamos estar prontos e fora daqui em pouco tempo."],
             asriel43: () =>
                 [
                     [
-                        "<25>{#p/asriel2}{#f/16}* It's over, $(name)...",
-                        "<25>{#f/3}* We've done it.",
-                        '<25>{#f/2}* The captain of the Royal Guard...',
-                        '<25>{#f/15}* Did she REALLY think she stood a chance?',
+                        "<25>{#p/asriel2}{#f/16}* Acabou, $(name)...",
+                        "<25>{#f/3}* Nós conseguimos.",
+                        '<25>{#f/2}* A capitã da Guarda Real...',
+                        '<25>{#f/15}* Ela realmente PENSOU ter alguma chance?',
                         SAVE.flag.n.undying > 2
-                            ? '<25>{#f/8}* Granted, it took us a few runs...'
+                            ? '<25>{#f/8}* Claro, nos tomou algumas tentativas...'
                             : SAVE.flag.n.undying > 1
-                                ? '<25>{#f/8}* Granted, it took us an extra run...'
-                                : '<25>{#f/8}* Granted, she did put up a valiant stand...',
-                        '<25>{#f/7}* But in the end, we both knew what was destined to happen.'
+                                ? '<25>{#f/8}* Claro, nos tomou uma tentativa...'
+                                : '<25>{#f/8}* Claro, ela lutou com tudo que tinha...',
+                        '<25>{#f/7}* Mas no fim nós sabíamos que estava destinado a acontecer.'
                     ],
                     [
-                        '<25>{#p/asriel2}{#f/3}* ... if only that victory felt as good as it did the first time.',
-                        '<25>{#f/4}* Oh well.'
+                        '<25>{#p/asriel2}{#f/3}* ... se essa vitória fosse tão deliciosa como foi da primeira vez.',
+                        '<25>{#f/4}* Pois bem.'
                     ],
-                    ['<25>{#p/asriel2}{#f/6}* Killing Undyne is quickly becoming our hobby.'],
+                    ['<25>{#p/asriel2}{#f/6}* Matar a Undyne já está virando nosso hobby.'],
                     ['<25>{#p/asriel2}{#f/6}* ...']
                 ][Math.min(SAVE.flag.n.ga_asriel43++, 3)],
-            asriel44: ['<25>{#p/asriel2}{#f/13}* Uh, you can take the lead, $(name).'],
+            asriel44: ['<25>{#p/asriel2}{#f/13}* Lidere o caminho, $(name).'],
             asriel45: [
-                '<25>{#p/asriel2}{#f/13}* Well, well, well...{%40}',
-                "<25>{#f/16}* I can't express how grateful I am for all your help.{%40}",
-                "<25>{#f/1}* This body might not be perfect, but for what it's worth...?{%40}",
-                "<25>{#f/2}* I won't miss being a stupid talking star.{%40}"
+                '<25>{#p/asriel2}{#f/13}* Hora, hora, hora...{%40}',
+                "<25>{#f/16}* Eu não consigo expressar o quão grato sou por sua ajuda.{%40}",
+                "<25>{#f/1}* Este corpo pode não ser perfeito, mas pelo que ele vale...?{%40}",
+                "<25>{#f/2}* Eu não vou sentir falta de ser uma estúpida estrela falante.{%40}"
             ],
             asrielHug1: ['<25>{#p/asriel2}{#f/13}* ...'],
             asrielHug2: ['<25>{*}{#p/asriel2}{#f/13}* $(name)...{^100}{%}'],
-            asrielHug3: ['<25>{#p/asriel2}{#f/13}* Er...\n* Thanks, $(name).'],
+            asrielHug3: ['<25>{#p/asriel2}{#f/13}* Er...\n* Obrigado, $(name).'],
             bombshell1: [
-                '<32>{*}{#p/alphys}* Talking... star...?',
-                '<32>{*}* But that experiment...\n* It f-failed...',
-                '<32>{*}* Unless...'
+                '<32>{*}{#p/alphys}* Estrela... falante...?',
+                '<32>{*}* Mas aquele experimento...\n* Ele f-falhou...',
+                '<32>{*}* Ah não ser que...'
             ],
-            bombshell2: ['<32>{*}* No...', '<32>{*}{@random=1.1/1.1}* No...'],
+            bombshell2: ['<32>{*}* Não...', '<32>{*}{@random=1.1/1.1}* Não...'],
             bombshell3: [
                 '<32>{*}{@random=1.1/1.1}* Toriel...\n* Sans...\n* Papyrus...',
                 '<32>{*}{@random=1.1/1.1}* Undyne...',
-                "<32>{*}{@random=1.1/1.1}* It's all m-my fault...",
-                '<32>{*}{@random=1.1/1.1}{#i/4}* Oh... g-god...'
+                "<32>{*}{@random=1.1/1.1}* É tudo minha culpa...",
+                '<32>{*}{@random=1.1/1.1}{#i/4}* Oh... não...'
             ],
-            bombshell4: ["<32>{*}{@random=1.1/1.1}{#i/5}* I've killed you all..."],
+            bombshell4: ["<32>{*}{@random=1.1/1.1}{#i/5}* Eu matei todos vocês..."],
             kidd1: [
-                '<25>{#p/kidd}{#f/4}* What did he say your name was?\n* $(name)...?',
-                '<25>{#f/3}* Well $(name), just between you and me, he kinda makes me feel...',
-                '<25>{#f/4}* Uncomfortable.'
+                '<25>{#p/kidd}{#f/4}* Qual ele disse que era seu nome?\n* $(name)...?',
+                '<25>{#f/3}* Bem $(name), só entre eu e você, ele me faz sentir...',
+                '<25>{#f/4}* Desconfortável.'
             ],
             kiddFinal1: [
                 '<25>{#p/kidd}{#f/11}* ...!',
-                "<25>{#p/asriel2}{#f/5}* I know.\n* Exciting, isn't it?",
+                "<25>{#p/asriel2}{#f/5}* Eu sei.\n* Excitante, não é?",
                 '<25>{#p/kidd}{#f/9}* ...',
-                "<25>{|}{#f/12}* I don't- {%}",
-                "<25>{#p/asriel2}{#f/4}* Shh...\n* It's okay.",
-                '<25>{#p/asriel2}{#f/3}* Just remember what we came here for.'
+                "<25>{|}{#f/12}* Eu não- {%}",
+                "<25>{#p/asriel2}{#f/4}* Shh...\n* Tá tudo bem.",
+                '<25>{#p/asriel2}{#f/3}* Só lembre-se o motivo de estarmos aqui.'
             ],
             kiddFinal2: () => [
                 '<25>{#p/kidd}{#f/9}* Undyne...',
                 '<25>{#p/asriel2}{#f/10}* ...?',
-                '<25>{#f/6}* ... let me guess.\n* Still having doubts?',
-                "<25>{|}{#p/kidd}{#f/12}* I'm sorry, I- {%}",
-                "<25>{#p/asriel2}{#f/13}* Undyne, schmundyne...\n* She's not the hero you take her for.",
-                '<25>{#p/asriel2}{#f/4}* No... the REAL heroes are people who can use their minds.',
+                '<25>{#f/6}* ... Deixa eu adivinhar.\n* Ainda tendo dúvidas?',
+                "<25>{|}{#p/kidd}{#f/12}* Me desculpa, eu- {%}",
+                "<25>{#p/asriel2}{#f/13}* Undyne, filé de undyne...\n* Ela não é a heroína pela qual você pensa que é.",
+                '<25>{#p/asriel2}{#f/4}* Não... os VERDADEIROS heróis são aqueles que sabem usar suas mentes.',
                 SAVE.flag.n.genocide_milestone < 5
                     ? SAVE.flag.n.ga_asrielKiddFinal1++ < 1
-                        ? '<26>{#f/15}* People like...\n* Well, people unlike her.'
-                        : '<25>{#f/15}* People unlike her.'
-                    : '<26>{#f/3}* People like Alphys.',
-                '<25>{#p/kidd}{#f/12}* Is she... really...'
+                        ? '<26>{#f/15}* Pessoas tipo...\n* Bem, pessoas que não são igual a ela.'
+                        : '<25>{#f/15}* Pessoas diferentes dela.'
+                    : '<26>{#f/3}* Pessoas como a Alphys.',
+                '<25>{#p/kidd}{#f/12}* Ela... realmente...'
             ],
             kiddFinal3: () => [
                 '<25>{#p/kidd}{#f/10}* ...',
-                "<25>{#f/10}* Undyne won't die.",
-                '<25>* Even if I do this, she...',
-                "<25>* She'll be fine.\n* She'll be strong...",
+                "<25>{#f/10}* Undyne não vai morrer.",
+                '<25>* Mesmo que eu faça isso, ela...',
+                "<25>* Ela vai ficar bem.\n* Ela será forte...",
                 ...(SAVE.flag.n.ga_asrielKiddFinal3a < 1
-                    ? ['<25>{#p/asriel2}{#f/8}* (Yeah, whatever makes you feel better...)']
+                    ? ['<25>{#p/asriel2}{#f/8}* (Claro, o que te fizer sentir melhor...)']
                     : []),
-                "<25>{#p/kidd}{#f/9}* 'Cause, like...\n* She's... stronger than any other monster...",
-                "<25>{#f/12}* She's {@fill=#ff0}determined{@fill=#fff}...",
+                "<25>{#p/kidd}{#f/9}* Porque, tipo...\n* Ela é mais forte que qualquer mostro...",
+                "<25>{#f/12}* Ela tem {@fill=#ff0} determinação{@fill=#fff}...",
                 ...(SAVE.flag.n.ga_asrielKiddFinal3a++ < 1
-                    ? ['<25>{#p/asriel2}{#f/10}* Uh... okay?\n* (Golly, what is this kid on about?)']
+                    ? ['<25>{#p/asriel2}{#f/10}* Tá?\n* (Cara, o que tem com essa criança?)']
                     : SAVE.flag.n.undying > 0 && SAVE.flag.n.ga_asrielKiddFinal3b++ < 1
-                        ? ['<25>{#p/asriel2}{#f/8}* (How did they KNOW?)']
+                        ? ['<25>{#p/asriel2}{#f/8}* (Como ele SABIA?)']
                         : ['<25>{#p/asriel2}{#f/10}* ...'])
             ],
-            kiddFinal4: ['<32>{#p/asriel2}{#f/6}* There she is.'],
-            kiddFinal5: ['<32>{#f/6}* Now.', '<32>{#f/7}* ...'],
-            kiddFinal6: ['<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* Do it.{%100}'],
+            kiddFinal4: ['<32>{#p/asriel2}{#f/6}* Aí está ela.'],
+            kiddFinal5: ['<32>{#f/6}* Agora.', '<32>{#f/7}* ...'],
+            kiddFinal6: ['<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* Faça.{%100}'],
             kiddFinal7: [
                 '<25>{#p/kidd}{#f/12}* ...',
-                '<25>{#p/undyne}{#f/13}* What the HELL?\n* What are you doing all the way out here!?',
-                '<25>{|}{#f/13}* And why does your eye look like- {%}'
+                '<25>{#p/undyne}{#f/13}* Mas que merda?\n* O que é que você tá fazendo aqui!?',
+                '<25>{|}{#f/13}* E por que seu olho parece que- {%}'
             ]
         },
         goatreaction: () =>
             [
-                ['<25>{#p/asriel2}{#f/15}* Careful, $(name).'],
+                ['<25>{#p/asriel2}{#f/15}* Cuidado, $(name).'],
                 ['<25>{#p/asriel2}{#f/15}* $(name)...'],
-                ['<25>{#p/asriel2}{#f/15}* Really now?'],
-                ["<25>{#p/asriel2}{#f/15}* We're trying not to die here, $(name)..."],
-                ["<25>{#p/asriel2}{#f/16}* I'm really starting to get worried."],
-                ['<25>{#p/asriel2}{#f/8}* Are you blind or something?'],
-                ['<25>{#p/asriel2}{#f/7}* Come on!'],
+                ['<25>{#p/asriel2}{#f/15}* Sério isso?'],
+                ["<25>{#p/asriel2}{#f/15}* Estamos tentando não morrer aqui, $(name)..."],
+                ["<25>{#p/asriel2}{#f/16}* Eu estou ficando realmente preocupado."],
+                ['<25>{#p/asriel2}{#f/8}* Você é cego ou alguma coisa?'],
+                ['<25>{#p/asriel2}{#f/7}* Vamos!'],
                 ['<25>{#p/asriel2}{#f/7}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielEpic++, 7)],
         hapstadoor1: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (But you didn't have the key.)"] : ["<32>{#p/basic}* It's locked."],
-        hapstadoor2: ['<32>{#p/human}* (You use the Mystery Key.)'],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (Mas você não tem a chave.)"] : ["<32>{#p/basic}* Está trancando."],
+        hapstadoor2: ['<32>{#p/human}* (Você usa a chave misteriosa.)'],
         jumpsuit1: () => [
-            '<32>{#p/human}* (You got the Flight Suit.)',
-            choicer.create('* (Equip the Flight Suit?)', 'Yes', 'No')
+            '<32>{#p/human}* (Você tem o Traje de Voo.)',
+            choicer.create('* (Equipar o Traje de Voo?)', 'Sim', 'Não')
         ],
-        jumpsuit2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        jumpsuit2: ["<32>{#p/human}* (Você está carregando muito pra levar isso.)"],
         kiddStatue: [
-            '<25>{#p/kidd}{#f/1}* Yo, I remember this place!',
-            '<25>{#f/3}* My, uh, Mom took me here one time, haha.',
-            "<25>{#f/1}* If we both stand on a switch, it lights up.\n* Isn't that awesome!?"
+            '<25>{#p/kidd}{#f/1}* Yo, eu lembro desse lugar!',
+            '<25>{#f/3}* Minha, uh, mãe me trouxe aqui uma vez.',
+            "<25>{#f/1}* Se nós dois nos colocarmos nos pisos, a luz acende.\n* Não é legal!?"
         ],
         kitchencall: () => [
             '<32>{#p/event}* Ring, ring...',
-            '<18>{#p/papyrus}HUMAN!\nI WAS THINKING.',
+            '<18>{#p/papyrus}HUMANO!\nEU ESTIVE PENSANDO.',
             ...(SAVE.data.n.plot_date < 1
                 ? [
                     SAVE.data.b.flirt_papyrus
-                        ? '<18>WE SHOULD TOTALLY DATE SOMETIME!'
-                        : '<18>WE SHOULD TOTALLY HANG OUT SOMETIME!',
-                    "<18>{#f/5}AND BESIDES... I HAVEN'T SEEN YOU IN A WHILE.",
-                    "<18>{#f/0}IT'LL BE GOOD TO CATCH UP!",
-                    "<18>{#f/0}WELL, MEET ME AT MY HOUSE WHEN YOU'RE READY."
+                        ? '<18>NÓS DEVERÍAMOS SAIR EM UM ENCONTRO!'
+                        : '<18>NÓS DEVERÍAMOS DAR UMA ROLÊ!',
+                    "<18>{#f/5}E ALIÁS... FAZ TEMPO QUE EU NÃO TE VEJO.",
+                    "<18>{#f/0}VAI SER LEGAL SE ENCONTRAR!",
+                    "<18>{#f/0}BEM, TE VEJO NA MINHA CASA QUANDO VOCÊ ESTIVER PRONTO."
                 ]
                 : [
-                    '<18>SO, YOU KNOW HOW WE SPENT TIME TOGETHER?',
-                    '<18>{#f/5}WELL... I THINK UNDYNE NEEDS TO DO THE SAME.',
-                    '<18>{#f/4}BESIDES, I BET YOU TWO WOULD BE GREAT FRIENDS...',
-                    SAVE.data.b.flirt_papyrus ? '<18>{#f/6}... JUST FRIENDS!' : '<18>{#f/0}JUST LIKE WE WERE!',
-                    "<18>{#f/0}WELL, MEET ME AT UNDYNE'S HOUSE WHEN YOU'RE READY."
+                    '<18>ENTÃO, SABE COMO A GENTE PASSOU UM TEMPO JUNTOS?',
+                    '<18>{#f/5}BEM... ACHO QUE A UNDYNE PRECISA DO MESMO.',
+                    '<18>{#f/4}ACHO QUE VOCÊS DOIS SERIAM GRANDES AMIGOS...',
+                    SAVE.data.b.flirt_papyrus ? '<18>{#f/6}... APENAS AMIGOS!' : '<18>{#f/0}ASSIM COMO NÓS SOMOS!',
+                    "<18>{#f/0}BEM, ME ENCONTRE NA CASA DA UNDYNE QUANDO ESTIVER PRONTO."
                 ]),
-            '<18>{#f/9}THIS IS GOING TO BE FANTASTIC!',
+            '<18>{#f/9}SERÁ FANTASTICO!',
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         madfish1: () => [
             ...(SAVE.flag.n.ga_asrielUndyneX++ < 1
-                ? ['<25>{#p/asriel2}{#f/8}* Here comes the over- dramatic speech...']
+                ? ['<25>{#p/asriel2}{#f/8}* Lá vem o discurso dramático...']
                 : []),
-            '<32>{#p/undyne}* You.',
-            '<32>{#x1}* You think you can just waltz around, MURDERING all those innocent monsters?',
-            '<32>* Well guess what, punks.',
-            '<32>* That ends NOW.',
-            '<32>{#x2}* You may have scraped by Doge, but let me be clear...',
-            "<32>{#x3}* Once the rest of ELITE squad nails you, you're in for a world of hurt."
+            '<32>{#p/undyne}* Você.',
+            '<32>{#x1}* Você pensa que pode rastejar por aí, MATANDO todas essas pessoas inocentes?',
+            '<32>* Bem, adivinhem o que, miseráveis.',
+            '<32>* Isso acaba AGORA.',
+            '<32>{#x2}* Você pode ter derrotado Doge, mas deixa eu ser bem clara...',
+            "<32>{#x3}* Assim que o resto do esquadrão de ELITE encontrar vocês, a única coisa que conhecerão é a dor."
         ],
         madfish2: () =>
             SAVE.flag.n.genocide_milestone < 5
                 ? [
-                    '<32>* Nothing to say?\n* Feh.',
-                    "<32>{#x4}* I don't have time to deal with you right now, Alphys needs my help evacuating people.",
-                    "<32>{#x5}* Fuhuhu...\n* Have fun trying to progress.\n* You won't get far."
+                    '<32>* Nada a dizer?\n* Há.',
+                    "<32>{#x4}* Eu não tenho tempo para lidar com vocês agora, Alphys precisa da minha ajuda para evacuar pessoas.",
+                    "<32>{#x5}* Fuhuhu...\n* Divirtam-se tentando progredir.\n* Não vão chegar longe."
                 ]
                 : [
-                    '<32>* Nothing to say?\n* Feh.',
-                    "<32>{#x4}{|}* I don't have time to deal with you right now, Alphys needs my help- {%}",
-                    "<25>{#x5}{#p/asriel2}{#f/8}* Alphys is stronger than you, y'know.",
-                    "<25>{#f/2}* I've already seen what happens in this timeline...",
-                    '<25>{#f/1}* Your fight is NOTHING compared to hers.',
-                    '<32>{#p/undyne}* Is that so?',
-                    "<32>* ... well.\n* You'll still have to get through me first.",
-                    '<32>{#p/asriel2}{#f/6}* Oh, BELIEVE me.\n* We will.',
-                    "<32>{#p/undyne}* We'll see about that."
+                    '<32>* Nada a dizer?\n* Há.',
+                    "<32>{#x4}{|}* Eu não tenho tempo para lidar com vocês agora, Alphys precisa da minha aju- {%}",
+                    "<25>{#x5}{#p/asriel2}{#f/8}* Alphys é mais forte que você, sabia?",
+                    "<25>{#f/2}* Eu já sei o que acontece nessa linha do tempo...",
+                    '<25>{#f/1}* Lutar contra você não é NADA comparado a ela.',
+                    '<32>{#p/undyne}* Ah é?',
+                    "<32>* Você terá que passar por mim primeiro, de toda forma.",
+                    '<32>{#p/asriel2}{#f/6}* Ah, acredita em mim.\n* Nós vamos.',
+                    "<32>{#p/undyne}* Veremos."
                 ],
         madfish3: () =>
             SAVE.flag.n.genocide_milestone < 5
                 ? SAVE.flag.n.ga_asrielMadfish++ < 1
-                    ? ['<25>{#p/asriel2}{#f/8}* Whatever you say.']
+                    ? ['<25>{#p/asriel2}{#f/8}* O que você quiser.']
                     : ['<25>{#p/asriel2}{#f/8}* ...']
                 : ['<25>{#p/asriel2}{#f/8}* Tch.'],
         muffet1: () =>
             badSpider()
-                ? ['<32>{#p/basic}* Ahuhuhuhu...', '<32>* Tell her she should increase my payout next time.']
+                ? ['<32>{#p/basic}* Ahuhuhuhu...', '<32>* Diga para ela que deve aumentar meu pagamento da próxima vez.']
                 : SAVE.data.b.flirt_muffet
-                    ? ['<32>{#p/basic}* Ahuhuhuhu...', "<32>* Let's just pretend this never happened, shall we, dearies?"]
-                    : ['<32>{#p/basic}* Ahuhuhuhu...', '<32>* That was fun!\n* See you again, dearies!'],
+                    ? ['<32>{#p/basic}* Ahuhuhuhu...', "<32>* Vamos só pretender que isso nunca aconteceu, que tal, amores?"]
+                    : ['<32>{#p/basic}* Ahuhuhuhu...', '<32>* Isso foi legal!\n* Vejo vocês depois, amores!'],
         muffet2: () =>
             badSpider()
-                ? ['<25>{#p/kidd}{#f/4}* Yo... that was weird...']
+                ? ['<25>{#p/kidd}{#f/4}* Yo... Isso foi estranho...']
                 : SAVE.data.b.flirt_muffet
-                    ? ["<25>{#p/kidd}{#f/4}* Yo... at least it's over now?"]
-                    : ['<25>{#p/kidd}{#f/4}* Yo... that was not fun at ALL.'],
+                    ? ["<25>{#p/kidd}{#f/4}* Yo... pelo menos acabou, agora?"]
+                    : ['<25>{#p/kidd}{#f/4}* Yo... não foi nem um pouco legal.'],
         muffetGeno1: () =>
             SAVE.data.n.state_foundry_kidddeath < 1
-                ? ['<25>{#p/kidd}{#f/4}* Yo...\n* What just happened?', '<25>* Did she... {%}']
+                ? ['<25>{#p/kidd}{#f/4}* Yo...\n* O que aconteceu?', '<25>* Ela... {%}']
                 : [
-                    '<25>{#p/kidd}{#f/4}* Yo... did she just...',
-                    '<25>* How come monsters keep disappearing like that? {%}'
+                    '<25>{#p/kidd}{#f/4}* Yo... ela acabou de...',
+                    '<25>* Como que os monstros continuam desaparecendo assim? {%}'
                 ],
-        muffetGeno1x: ["<32>{#p/basic}* She's dead."],
+        muffetGeno1x: ["<32>{#p/basic}* Ela está morta."],
         muffetGeno2: [
-            "<25>{#p/kidd}{#f/7}* N-no...\n* I didn't mean...",
-            "<25>{#f/7}* S-she's not... no...\n* She was...",
-            "<25>{#f/4}* No, it...\n* It c-can't be...",
-            '<25>{#f/4}* She was just...',
-            '<25>{#f/8}* Just...'
+            "<25>{#p/kidd}{#f/7}* N-não...\n* Eu não queria...",
+            "<25>{#f/7}* E-ela não... não...\n* Ela estava...",
+            "<25>{#f/4}* Não, isso...\n* N-não pode serm...",
+            '<25>{#f/4}* Ela estava...',
+            '<25>{#f/8}* Estava...'
         ],
-        muffetGeno3: ['<25>{#f/8}* ...', '<25>{#f/8}* ... what have I done...'],
-        mushroomdance1: ['<32>{#p/basic}* Mushroom dance\n* Mushroom dance\n* Whatever could it mean'],
+        muffetGeno3: ['<25>{#f/8}* ...', '<25>{#f/8}* ... o que eu fiz...'],
+        mushroomdance1: ['<32>{#p/basic}* Dança do cogumelo\n* Dança do Cogumelo\n* O que pode significar'],
         mushroomdance2: () =>
             SAVE.data.n.plot === 72
                 ? SAVE.data.b.f_state_mushroomdanceEpilogue
-                    ? ['<32>{#p/basic}* It means the future is very uncertain indeed.']
+                    ? ['<32>{#p/basic}* Isso significa que o futuro é realmente muito incerto.']
                     : SAVE.data.b.f_state_mushroomdanceGeno
                         ? [
-                            "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
-                            '<32>* But why should you care?\n* Unless...',
-                            '<32>* ... unless you have absolved yourself of sin?'
+                            "<32>{#p/basic}* Significa que estou livre.\n* Eles vão me transplantar para o novo mundo.",
+                            '<32>* Mas por que você deveria se importar?\n* A menos que...',
+                            '<32>* ... A não ser que você tenha absolvido sua alma dos pecados?'
                         ]
                         : [
-                            "<32>{#p/basic}* It means I'm going free.\n* They're going to transplant me to the new homeworld.",
-                            '<32>{#p/basic}* Goodbye, old outpost, for you have been my abode...'
+                            "<32>{#p/basic}* Significa que estou livre.\n* Eles vão me transplantar para o novo mundo.",
+                            '<32>{#p/basic}* Adeus, velho Outpost, pois você tem sido minha morada...'
                         ]
                 : world.meanie || SAVE.data.s.state_foundry_deathroom === 'f_village' // NO-TRANSLATE
 
                     ? SAVE.data.b.f_state_mushroomdanceGeno
-                        ? ["<32>{#p/basic}* It means... don't talk to me."]
+                        ? ["<32>{#p/basic}* Significa... não fale comigo."]
                         : [
-                            "<32>{#p/basic}* It means you've lived a life of sin.",
-                            ...(SAVE.data.b.f_state_mushroomdance ? ["<32>* Wait.\n* Weren't you nicer before?"] : [])
+                            "<32>{#p/basic}* Significa que você viveu uma vida de pecados.",
+                            ...(SAVE.data.b.f_state_mushroomdance ? ["<32>* Pera aí.\n* Você não foi legal antes?"] : [])
                         ]
                     : SAVE.data.b.f_state_mushroomdance
                         ? [
-                            '<32>{#p/basic}* If only I could see the galaxy beyond.',
-                            '<32>* But even if the force field was destroyed, how would I leave...?'
+                            '<32>{#p/basic}* Se apenas eu pudesse ver além da galáxia.',
+                            '<32>* Mas mesmo se o escudo de força for destruído, como eu poderia sair...?'
                         ]
                         : [
-                            '<32>{#p/basic}* It symbolizes my inner torment, trapped here by my hyphae.',
-                            '<32>* My struggle to pull away.\n* My struggle to escape.\n* But alas, to no avail.'
+                            '<32>{#p/basic}* Isso significa minha tormenta interna, preso aqui por minhas hifas.',
+                            '<32>* Minha luta para me afastar.\n* Minha luta para escapar.\n* Mas, infelizmente, sem sucesso.'
                         ],
         musicbox: [
-            '<18>{#p/asriel1}{#v/1}{#i/4}It sounds like it came from over here...',
-            "<18>Oh! You've crash- landed, haven't you...",
-            '<18>Are you okay?',
-            '<18>Here, get up...',
+            '<18>{#p/asriel1}{#v/1}{#i/4}Parece que veio daqui...',
+            "<18>Oh! Você caiu aqui, não foi...",
+            '<18>Você está bem?',
+            '<18>Aqui, levanta...',
             '<18>...',
             '<18>$(name), huh?',
-            "<18>That's a nice name.",
-            '<18>{*}{#x1}{#p/asriel3}{#i/18}My name is   {%}'
+            "<18>Este é um lindo nome.",
+            '<18>{*}{#x1}{#p/asriel3}{#i/18}Meu nome é   {%}'
         ],
         napcomputer1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Está fora de serviço."]
                 : [
                     SAVE.data.b.svr
-                        ? '<32>{#p/human}* (You move towards the computer...)'
-                        : '<32>{#p/basic}* The computer is currently open to a music-sharing application.',
-                    choicer.create('* (View the opened application?)', 'Yes', 'No')
+                        ? '<32>{#p/human}* (Você se move até o computador...)'
+                        : '<32>{#p/basic}* O computador está atualmente aberto em um compartilhador de música.',
+                    choicer.create('* (Olhar no aplicador?)', 'Sim', 'Não')
                 ],
-        napcomputer2: ['<32>{#p/human}* (You decide not to look.)'],
+        napcomputer2: ['<32>{#p/human}* (Você decidiu não olhar.)'],
         napcomputer3: {
             a: () => [
                 'MTT Tunes - Solarwave.kwac',
@@ -1337,158 +1337,158 @@ export default {
                 SAVE.data.n.plot === 72 ? '_Sp4ceAdv3ntur3r_' : '_K1ll3rMann3qu1n_',
                 'ALPHYS',
                 'lazybones.',
-                '(Unknown)'
+                '(Desconhecido)'
             ]
         },
         napcomputer4: {
             a: () => ['Ghost Rave.kwac', 'Spooktune Mashup.kwac'],
             b: () => ['NAPSTABLOOK22', 'NAPSTABLOOK22']
         },
-        noTem: ["<32>{#p/tem}* oh no, it's a... FISHES!!!"],
-        noShroom: ["<32>{#p/basic}* Watch out\n* Watch out\n* There's a fish running about"],
+        noTem: ["<32>{#p/tem}* oh não, é um... PEIXES!!"],
+        noShroom: ["<32>{#p/basic}* Se liga\n* Se liga\n* Tem um peixe correndo"],
         noTortoise: () =>
-            world.population === 0 ? ['<32>{#p/basic}* Wa ha ha...'] : ['<32>{#p/basic}* Run while ya still can, kid!'],
+            world.population === 0 ? ['<32>{#p/basic}* Wa ha ha...'] : ['<32>{#p/basic}* Corra enquanto você pode, criança!'],
         npc86x: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (The robot appears to be asleep.)']
-                : ["<32>{#p/basic}* It's in sleep mode."],
+                ? ['<32>{#p/human}* (O robô parece estar dormindo.)']
+                : ["<32>{#p/basic}* Está no modo de sono."],
         npc86z: () =>
             [
                 [
-                    '<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.',
-                    '<32>{#p/basic}* Recommended action... run.'
+                    '<32>{#p/basic}{#npc/a}* Energia familiar detectada em combate.',
+                    '<32>{#p/basic}* Ação recomendada... correr.'
                 ],
                 [
-                    '<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.',
-                    '<32>{#p/basic}* Recommended action... stand still.'
+                    '<32>{#p/basic}{#npc/a}* Energia familiar detectada em combate.',
+                    '<32>{#p/basic}* Ação recomendada... continuar parado.'
                 ],
                 [
-                    '<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.',
-                    '<32>{#p/basic}* Recommended action... unknown.'
+                    '<32>{#p/basic}{#npc/a}* Energia familiar detectada em combate.',
+                    '<32>{#p/basic}* Ação recomendada... desconhecida.'
                 ],
                 [
-                    '<32>{#p/basic}{#npc/a}* Familiar energy signature detected in combat.',
-                    '<32>{#p/basic}* Recommended action... hide.'
+                    '<32>{#p/basic}{#npc/a}* Energia familiar detectada em combate.',
+                    '<32>{#p/basic}* Ação recomendada... esconder.'
                 ]
             ][(SAVE.data.n.state_foundry_npc86_feelings || 3) - 1],
         npc86a: () => [
-            '<32>{#p/basic}{#npc/a}* Foreign energy signature detected.',
-            '<32>* Name... unknown.',
-            '<32>* Relationship status... stranger.',
-            SAVE.data.n.plot < 42.1 ? '<32>* Last interaction... none.' : '<32>* Last interaction... observed in battle.',
-            '<32>* Processing...\n* Processing...\n* Processing...',
-            '<32>* Hello, stranger.\n* I am eight-six, the all- purpose delivery bot.',
-            '<32>* It is far from my intended function, but would you like to complete a survey today?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            '<32>{#p/basic}{#npc/a}* Energia desconhecida detectada.',
+            '<32>* Nome... desconhecido.',
+            '<32>* Status de relacionamento... estranho.',
+            SAVE.data.n.plot < 42.1 ? '<32>* Última interação... inexistente.' : '<32>* Última interação... observando em batalha.',
+            '<32>* Processando...\n* Processando...\n* Processando...',
+            '<32>* Olá, estranho.\n* Eu sou oito-seis, o bot de entrega para todos os fins',
+            '<32>* É longe da minha verdadeira função, mas você gostaria de completar um questionário?',
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         npc86b: () => [
-            '<32>{#p/basic}{#npc/a}* Thank you.\n* The question is as follows.',
-            '<32>* \"Out of the colors red, green, and blue, which do you prefer?\"',
-            choicer.create('* (What do you say?)', 'Red', 'Green', 'Blue', 'Not sure')
+            '<32>{#p/basic}{#npc/a}* Muito obrigado.\n* As próximas questões seguem.',
+            '<32>* \"Das cores vermelha, verde, e azul, qual você prefere?\"',
+            choicer.create('* (O que você acha?)', 'Vermelho', 'Verde', 'Azul', 'Não sei')
         ],
         npc86c: [
-            '<32>{#p/basic}* Thank you.\n* Your choice will be inscribed deeply into my memory bank.',
-            '<32>{#p/basic}{#npc/a}* Your relationship status is now set to \"acquaintance.\"'
+            '<32>{#p/basic}* Muito obrigado.\n* Sua escolha será gravada no meu banco de memória.',
+            '<32>{#p/basic}{#npc/a}* Seu relacionamento agora está configurado para \"conhecido\".'
         ],
         npc86d: () => [
-            '<32>{#p/basic}{#npc/a}* Familiar energy signature detected.',
-            '<32>* Name... unknown.',
-            '<32>* Relationship status... acquaintance.',
+            '<32>{#p/basic}{#npc/a}* Energia familiar detectada.',
+            '<32>* Nome... desconhecido.',
+            '<32>* Status de relacionamento... conhecido.',
             SAVE.data.n.state_foundry_npc86 === 1
-                ? '<32>* Last interaction... survey declined.'
-                : '<32>* Last interaction... survey taken.',
-            '<32>* Processing...\n* Processing...\n* Processing...',
-            '<32>* Hello again, acquaintance.\n* How is your day today?',
-            choicer.create('* (What do you say?)', 'Good', 'Bad', 'Neutral', 'Not sure')
+                ? '<32>* Última interação... questionário recusado.'
+                : '<32>* Última interação... questionário aceito.',
+            '<32>* Processando...\n* Processando...\n* Processando...',
+            '<32>* Olá de novo, conhecido.\n* Como está indo seu dia?',
+            choicer.create('* (O que você acha?)', 'Bom', 'Ruim', 'Normal', 'Não sei')
         ],
         npc86e: () => [
             ...[
-                ['<32>{#p/basic}{#npc/a}* Good?\n* That is good to hear.'],
-                ['<32>{#p/basic}{#npc/a}* Bad?\n* I hope things get better.'],
-                ['<32>{#p/basic}{#npc/a}* Neutral?\n* That is understandable.'],
-                ['<32>{#p/basic}{#npc/a}* Not sure?\n* That is... understandable.']
+                ['<32>{#p/basic}{#npc/a}* Bem?\n* Isso é ótimo de ouvir.'],
+                ['<32>{#p/basic}{#npc/a}* Ruim?\n* Espero que as coisas fiquem melhor.'],
+                ['<32>{#p/basic}{#npc/a}* Normal?\n* É compreensível.'],
+                ['<32>{#p/basic}{#npc/a}* Não tem certeza?\n* É... compreensível.']
             ][choicer.result],
-            '<32>{#p/basic}{#npc/a}* Your relationship status is now set to \"friend.\"'
+            '<32>{#p/basic}{#npc/a}* Seu status de relacionamento agora foi configurado para \"amigo\".'
         ],
         npc86f: () => [
-            '<32>{#p/basic}{#npc/a}* Familiar energy signature detected.',
-            '<32>* Name... unknown.',
-            '<32>* Relationship status... friend.',
-            '<32>* Last interaction... asked about mood.',
-            '<32>* Processing...\n* Processing...\n* Processing...',
+            '<32>{#p/basic}{#npc/a}* Energia familiar detectada.',
+            '<32>* Nome... desconhecido.',
+            '<32>* Status de relacionamento... amigo.',
+            '<32>* Última interação... perguntado sobre o dia.',
+            '<32>* Processando...\n* Processando...\n* Processando...',
             [
-                '<32>* Hello again, friend.\n* I hope your mood has remained since our last interaction.',
-                '<32>* Hello again, friend.\n* I hope your mood has improved since our last interaction.',
-                '<32>* Hello again, friend.\n* Based on our last interaction...',
-                '<32>* Hello again, friend.\n* Based on our last interaction...'
+                '<32>* Olá de novo, amigo.\n* Espero que seu humor tenha se mantido desde nossa última interação.',
+                '<32>* Olá de novo, amigo.\n* Espero que seu humor tenha melhorado desde nossa última interação.',
+                '<32>* Olá de novo, amigo.\n* Baseado na nossa última interação...',
+                '<32>* Olá de novo, amigo.\n* Baseado na nossa última interação...'
             ][SAVE.data.n.state_foundry_npc86_mood - 1],
-            '<32>* It appears you have a great deal of interest towards me.',
-            '<32>* What emotion do you most commonly feel about me?',
-            choicer.create('* (What do you say?)', 'Love', 'Disgust', 'None', 'Not sure')
+            '<32>* Parece que você tem muito interesse por mim.',
+            '<32>* Que emoção você normalmente sente em relação a mim?',
+            choicer.create('* (O que você acha?)', 'Amor', 'Desprezo', 'Nenhuma', 'Não sei')
         ],
         npc86g: () =>
             [
                 [
                     '<32>{#p/basic}{#npc/a}* ...',
-                    '<32>* Your relationship status is now set to \"bestie.\"',
-                    '<32>* I love you too, bestie.'
+                    '<32>* Seu relacionamento foi configurado para \"bestie\".',
+                    '<32>* Eu também te amo, bestie.'
                 ],
                 [
                     '<32>{#p/basic}{#npc/a}* ...',
-                    '<32>* Your relationship status is now set to \"enemy.\"',
-                    '<32>* I have no further need for you, enemy.'
+                    '<32>* Seu relacionamento foi configurado para \"inimigo\".',
+                    '<32>* Eu necessito mais de você, inimigo.'
                 ],
                 [
                     '<32>{#p/basic}{#npc/a}* ...',
-                    '<32>* Your relationship status is now set to \"acquaintance.\"',
-                    '<32>* Perhaps this was not a good idea, acquaintance.'
+                    '<32>* Seu relacionamento foi alterado de volta para \"conhecido\".',
+                    '<32>* Talvez essa não tenha sido uma boa ideia, conhecido.'
                 ],
                 [
                     '<32>{#p/basic}{#npc/a}* ...',
-                    '<32>* Your relationship status is unchanged.',
+                    '<32>* Seu status de relacionamento não foi alterado.',
                     ...(SAVE.data.n.state_foundry_npc86 === 5 && SAVE.data.n.state_foundry_npc86_feelings === 4
-                        ? ['<32>* Expected reply to all questions is now set to \"Not sure.\"']
+                        ? ['<32>* A resposta esperada para todas as perguntas agora está definida como \"Não tenho certeza.\"']
                         : [])
                 ]
             ][choicer.result],
         npc86h: () => [
-            '<32>{#p/basic}{#npc/a}* Familiar energy signature detected.',
-            '<32>* Name... unknown.',
+            '<32>{#p/basic}{#npc/a}* Energia familiar detectada.',
+            '<32>* Nome... desconhecido.',
             [
-                '<32>* Relationship status... bestie.',
-                '<32>* Relationship status... enemy.',
-                '<32>* Relationship status... acquaintance.',
-                '<32>* Relationship status... friend.'
+                '<32>* Status de relacionamento... bestie.',
+                '<32>* Status de relacionamento... inimigo.',
+                '<32>* Status de relacionamento... conhecido.',
+                '<32>* Status de relacionamento... amigo.'
             ][SAVE.data.n.state_foundry_npc86_feelings - 1],
             SAVE.data.b.f_state_done86
                 ? [
-                    '<32>* Last interaction... showed appreciation.',
-                    '<32>* Last interaction... declined conversation.',
-                    '<32>* Last interaction... made small talk.',
-                    '<32>* Last interaction... gave advice.'
+                    '<32>* Última interação... demonstrando apreciação.',
+                    '<32>* Última interação... recusou conversar.',
+                    '<32>* Última interação... conversou um pouco.',
+                    '<32>* Última interação... conselho entregue.'
                 ][SAVE.data.n.state_foundry_npc86_feelings - 1]
-                : '<32>* Last interaction... asked about feelings.',
-            '<32>* Processing...\n* Processing...\n* Processing...',
+                : '<32>* Última interação... questionado sobre sentimentos.',
+            '<32>* Processando...\n* Processando...\n* Processando...',
             [
                 [
-                    '<32>* Hello again, bestie.\n* I hope you are doing well.',
-                    '<32>* Hello again, bestie.\n* I love you very much.',
-                    '<32>* Hello again, bestie.\n* It is good to see you today.'
+                    '<32>* Olá de novo, bestie.\n* Eu espero que você esteja bem.',
+                    '<32>* Olá de novo, bestie.\n* Eu te amo de verdade.',
+                    '<32>* Olá de novo, bestie.\n* É bom te ver novamente.'
                 ],
                 [
-                    '<32>* ...\n* Do not speak to me again.',
-                    '<32>* ...\n* Do not speak to me again.',
-                    '<32>* ...\n* Do not speak to me again.'
+                    '<32>* ...\n* Não volte a falar comigo.',
+                    '<32>* ...\n* Não volte a falar comigo.',
+                    '<32>* ...\n* Não volte a falar comigo.'
                 ],
                 [
-                    '<32>* Hello again, acquaintance.\n* The factory is musty today.',
-                    '<32>* Hello again, acquaintance.\n* The starlight is glimmering today.',
-                    '<32>* Hello again, acquaintance.\n* The steam is humid today.'
+                    '<32>* Olá de novo, conhecido.\n* A fábrica está mofada hoje.',
+                    '<32>* Olá de novo, conhecido.\n* A luz das estrelas estão glamourosas hoje.',
+                    '<32>* Olá novamente, conhecido.\n* O vapor está úmido hoje.'
                 ],
                 [
-                    '<32>* Hello again, friend.\n* Remember to eat something.',
-                    '<32>* Hello again, friend.\n* Remember to take breaks.',
-                    '<32>* Hello again, friend.\n* Remember to talk things out.'
+                    '<32>* Olá de novo, amigo.\n* Lembre-se de comer alguma coisa.',
+                    '<32>* Olá de novo, amigo.\n* Lembre-se de descansar as vezes.',
+                    '<32>* Olá de novo, amigo.\n* Lembre-se de desabafar quando preciso.'
                 ]
             ][SAVE.data.n.state_foundry_npc86_feelings - 1][rng.dialogue.int(3)]
         ],
@@ -1500,28 +1500,28 @@ export default {
                         ? [
                             ...(world.population < 6 && world.bullied
                                 ? [
-                                    "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* No matter how many monsters you've bullied, your payment to me is all that matters~"
+                                    "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Não ligo para quantos monstros você bullinou, com esse dinheiro, eu faço o que bem entendo~"
                                 ]
                                 : [
-                                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Your payment to me means more than you can possibly imagine~'
+                                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Seu pagamento para mim significa mais do que você imagina~'
                                 ]),
-                            '<32>* Thank you for your generous donation, dearie~',
-                            '<32>* If you or your little armless friend need anything, you just let me know~'
+                            '<32>* Obrigado por suas generosas doações, amorzinho~',
+                            '<32>* Se você ou seu amigo sem braço precisarem de qualquer coisa, é só me dizer~'
                         ]
                         : [
-                            "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* It's a shame I wasn't able to capture you the first time around~",
+                            "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* É uma tristeza que não consegui te capturar da primeira vez~",
                             ...(world.population < 6 && world.bullied
-                                ? ['<32>* A little bully like you would have been a wonderful prize~']
-                                : ["<32>* Oh well~\n* Now that the force field's gone, I won't have to~"])
+                                ? ['<32>* Um bully como você teria sido um prêmio maravilhoso~']
+                                : ["<32>* Pois bem~\n* Agora que o escudo de força se foi, eu não terei que fazer isso~"])
                         ],
                 [
-                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, dearie~\n* When the spider clans arrive on the new homeworld...',
-                    "<32>* There'll be so many natural resouces to exploit~",
-                    "<32>* We're going to build the largest tea empire this new world has ever seen~"
+                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, querido~\n* Quando o clã das aranhas aterrissar no novo mundo...',
+                    "<32>* Teremos tantos recursos naturais para explorar~",
+                    "<32>* Nós iremos construir o maior império de chá que o novo mundo vai ver~"
                 ],
                 [
-                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, and if I can help it...',
-                    "<32>* It'll be the only tea empire this new world will ever see~\n* Ahuhuhu~"
+                    '<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Oh, e se eu puder fazer acontecer...',
+                    "<32>* Ele será o único império de chá que o novo mundo verá~\n* Ahuhuhu~"
                 ],
                 ['<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* Ahuhuhu~']
             ),
@@ -1532,805 +1532,805 @@ export default {
                         ? [
                             ...(world.population < 6 && world.bullied
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* I know you have been violent, but I appreciate the compassion you have shown me.'
+                                    '<32>{#p/basic}{#npc/a}* Eu sei que você tem sido violento, mas eu aprecio a compaixão demonstrada por mim.'
                                 ]
-                                : ['<32>{#p/basic}{#npc/a}* Thank you for the compassion you have shown me.']),
-                            '<32>* It is what I needed to see the error in my choice of career.',
-                            "<33>* Still, I'm keeping the uniform.\n* It suits me well."
+                                : ['<32>{#p/basic}{#npc/a}* Obrigado pela compaixão que você tem mostrado pra mim.']),
+                            '<32>* É o que eu precisava para ver o erro na minha escolha de carreira.',
+                            "<33>* Ainda vou manter o uniforme.\n* Ele fica bem em mim."
                         ]
                         : [
-                            "<32>{#p/basic}{#npc/a}* I regretted letting you get past me, but after what you've done, I'm fine with that.",
+                            "<32>{#p/basic}{#npc/a}* Eu me arrependo de ter deixado você passar por mim, mas após o que você fez, tudo bem.",
                             ...(world.population < 6 && world.bullied
-                                ? ['<32>* I shall overlook your rather... violent tendencies for the moment.']
-                                : ['<32>* I shall recall your name for many centuries to come.'])
+                                ? ['<32>* Eu irei apagar da minha mente suas... tendências violentas por um momento.']
+                                : ['<32>* Recordarei o teu nome por muitos séculos.'])
                         ],
                 [
-                    '<32>{#p/basic}{#npc/a}* I do apologize for mis- judging you, Frisk.',
-                    '<32>* As a member of the ELITE squad, it was difficult for me to see the good in you.'
+                    '<32>{#p/basic}{#npc/a}* Eu me desculpo por ter te julgado de forma errônea, Frisk.',
+                    '<32>* Como um membro do esquadrão de ELITE, era difícil para mim ver o bem em você.'
                 ],
                 [
-                    '<32>* Well.\n* There is much for me to reflect on, now.',
-                    '<32>* I would appreciate if you gave me the time and space to do so.',
-                    '<33>* Thank you for the conversation.'
+                    '<32>* Bom.\n* A muito do que eu devo refletir, agora.',
+                    '<32>* Eu apreciarei se você me der o tempo e o espaço para tal.',
+                    '<33>* Obrigado pela conversa.'
                 ],
-                ['<32>{#p/basic}{#npc/a}* Until next time.']
+                ['<32>{#p/basic}{#npc/a}* Até a próxima.']
             ),
             f_clamgirl: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* How silly...\n* As soon as I choose to stay somewhere, we all have to go.',
-                            '<32>* The irony of the situation has not escaped me.\n* Still, it is for the best.',
-                            "<32>* On our new homeworld...\n* I'm sure to find lots of new neighbors for myself."
+                            '<32>{#p/basic}{#npc/a}* Que bobo...\n* Assim que eu decido ficar em um lugar, nós todos vamos embora.',
+                            '<32>* A ironia da situação ainda não me espaçou.\n* Ainda assim, é pelo melhor.',
+                            "<32>* No novo mundo...\n* Eu vou ter certeza de encontrar muitos novos vizinhos para mim."
                         ]
                         : SAVE.data.n.plot === 47.2
-                            ? ["<32>{#p/basic}{#npc/a}* Er, she's still after you..."]
+                            ? ["<32>{#p/basic}{#npc/a}* Er, ela ainda está atrás de você."]
                             : SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-                                ? ['<32>{#p/basic}{#npc/a}* You should never have come.']
+                                ? ['<32>{#p/basic}{#npc/a}* Você não deveria ter vindo.']
                                 : SAVE.data.n.state_foundry_undyne === 1
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...',
-                                        "<32>* You really shouldn't have left that girl alone."
+                                        '<32>{#p/basic}{#npc/a}* Eu sinto um distúrbio na aura próxima...',
+                                        "<32>* Você realmente não deveria ter deixado aquela garota sozinha."
                                     ]
                                     : SAVE.data.n.state_foundry_undyne === 2
                                         ? [
-                                            '<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...',
-                                            '<32>* You really should have left that girl alone.'
+                                            '<32>{#p/basic}{#npc/a}* Eu sinto um distúrbio na aura próxima...',
+                                            '<32>* Você deveria ter deixado aquela garota em paz.'
                                         ]
                                         : 2 <= SAVE.data.n.plot_date
                                             ? [
-                                                '<32>{#p/basic}{#npc/a}* I sense a disturbance in the nearby aura...',
-                                                '<32>* You and my new neighbor are getting along, I see.'
+                                                '<32>{#p/basic}{#npc/a}* Eu sinto um distúrbio na aura próxima...',
+                                                '<32>* Você e meu novo vizinho estão se dando bem.'
                                             ]
                                             : SAVE.data.n.plot > 47.2 && SAVE.data.n.plot_date > 1
                                                 ? world.trueKills > 0
-                                                    ? ['<32>{#p/basic}{#npc/a}* Papyrus is waiting nearby.', "<32>* Isn't he brave?"]
-                                                    : ['<32>{#p/basic}{#npc/a}* Papyrus is waiting nearby.', "<32>* Won't you meet my new neighbor?"]
+                                                    ? ['<32>{#p/basic}{#npc/a}* Papyrus está esperando aqui perto.', "<32>* Ele não é corajoso?"]
+                                                    : ['<32>{#p/basic}{#npc/a}* Papyrus está esperando aqui perto.', "<32>* Você não vai conhecer meu novo vizinho?"]
                                                 : [
-                                                    "<32>{#p/basic}{#npc/a}* I'm visiting the Foundry from the Citadel, by the way.",
-                                                    "<32>* There, I hardly knew anyone, but here, I've met several friendly neighbors already.",
-                                                    "<32>* I don't think I'll be leaving here any time soon."
+                                                    "<32>{#p/basic}{#npc/a}* Eu estou visitando a Foundry da Cidadela, por acaso.",
+                                                    "<32>* Lá, eu mal conhecia pessoas, mas aqui, eu já fiz tantos vizinhos amigáveis.",
+                                                    "<32>* Eu não acho que vou sair daqui tão cedo."
                                                 ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* Won't that be splendid?"]
+                        ? ["<32>{#p/basic}{#npc/a}* Não seria esplêndido?"]
                         : SAVE.data.n.plot === 47.2
-                            ? ["<32>{#p/basic}{#npc/a}* Er, she's still after you..."]
+                            ? ["<32>{#p/basic}{#npc/a}* Er, ela ainda está atrás de você."]
                             : SAVE.data.n.state_foundry_undyne > 0
                                 ? ['<32>{#p/basic}{#npc/a}* ...']
                                 : 2 <= SAVE.data.n.plot_date
-                                    ? ['<32>{#p/basic}{#npc/a}* Good neighbors have been quite difficult to find.']
+                                    ? ['<32>{#p/basic}{#npc/a}* Bons vizinhos são difíceis de se encontrar.']
                                     : SAVE.data.n.plot > 47.2 && SAVE.data.n.plot_date > 1
                                         ? world.trueKills > 0
                                             ? ['<32>{#p/basic}{#npc/a}* ...']
                                             : [
-                                                "<32>{#p/basic}{#npc/a}* Go on. She won't bite.\n* She might throw a few spears at you, though."
+                                                "<32>{#p/basic}{#npc/a}* Vai lá. Ela não vai te morder.\n* Talvez ela te jogue algumas lanças, mas faz parte."
                                             ]
-                                        : ['<32>{#p/basic}{#npc/a}* Having neighbors is nice.']
+                                        : ['<32>{#p/basic}{#npc/a}* Ter vizinhos é legal.']
             ),
             f_echo1: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/undyne}* Citizens of the Foundry...',
-                        '<32>* ... you should all know what happened to you by now.',
-                        "<32>* It's time to go, and you damn well know it.",
-                        "<32>* So let's get going.",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/undyne}* Cidadãos da Foundry...',
+                        '<32>* ... Todos vocês já deveriam saber o que aconteceu com vocês agora.',
+                        "<32>* É hora de ir, e vocês sabem muito bem disso, caramba.",
+                        "<32>* Então vamos indo.",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/undyne}* Listen up, everyone!\n* The force field's gone!\n* We can all go home!",
-                            "<32>* If you're still down there dawdling by the time we leave...",
-                            "<32>* Then... we'll probably just come back for you later.",
-                            "<32>* But don't make us do that!",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/undyne}* Escutem, todos vocês!\n* O escudo de força se foi!\n* Podemos todos ir para casa!",
+                            "<32>* Se você ainda estiver por aí vacilando quando já tivermos ido embora...",
+                            "<32>* Então... provavelmente vamos voltar para te buscar mais tarde.",
+                            "<32>* Mas não nos obrigue a isso!",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/undyne}* Citizens of the Foundry!\n* If you're hearing this, then get the heck outta here!",
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/undyne}* Cidadãos da Foundry!\n* Se vocês estão ouvindo isso, então sumam daí agora!",
                                 world.genocide
-                                    ? "<32>* There's a pair of killers on the loose, and they WON'T show mercy!"
-                                    : "<32>* There's a killer on the loose, and they WON'T show mercy!",
-                                "<32>* You've been warned!!",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                                    ? "<32>* A um par de assassinos na região e eles NÃO mostrarão piedade!"
+                                    : "<32>* A um assassino na região e ele NÃO mostrará piedade!",
+                                "<32>* Vocês foram avisados!!",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielEcho1++ < 1
-                                    ? ['<25>{#p/asriel2}{#f/2}* Thanks, Undyne.\n* I was getting tired of running into people.']
+                                    ? ['<25>{#p/asriel2}{#f/2}* Obrigado, Undyne.\n* Eu estava me cansando de avançar em pessoas.']
                                     : [])
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* Skrubby of foundry crew.\n* Need u to check pipe for leak.',
-                                "<32>{#p/alphys}* Oh- uh... s-sorry, ah!\n* I'm a little busy at the moment!",
-                                '<32>{#p/basic}* Okie.\n* I ask Raddy instead.\n* Thx for nothing.',
-                                "<32>{#p/alphys}* Y-you're welcome??",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* Skrubby da equipe de fundição.\n* Precisa de você para verificar se há fuga na tubulação.',
+                                "<32>{#p/alphys}* Oh-uh... d-desculpa, ah!\n* Eu estava meio ocupada no momento!",
+                                '<32>{#p/basic}* Okie.\n* Eu perguntar pra Raddy.\n* Bigado por nada.',
+                                "<32>{#p/alphys}* D-de nada?",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo2: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/basic}* Hey... everything's gonna be okay, kiddo.",
-                        '<32>* (Gerson?)\n* (Is that you again?)',
-                        '<32>* Oh, I dunno.\n* Is that really you, Burgie?\n* Wa ha ha.',
-                        "<32>* (Yeah, yeah.)\n* (I'm just a little scared... like everyone else.)",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/basic}* Ei... tudo vai ficar bem, carinha.",
+                        '<32>* (Gerson?)\n* (É você de novo?)',
+                        '<32>* Oh, eu não sei.\n* É realmente você, Burgie?\n* Wa ha ha.',
+                        "<32>* (É, é.)\n* (Eu só estou um pouco assustado... igual todo mundo.)",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/basic}* Well, you heard her!\n* Time for us to go, kiddo!',
-                            "<32>{#p/basic}* ... wa ha ha.\n* In truth, we've still got the rest of the day.",
-                            "<32>{#p/basic}* (Yeah, I'm gonna hang out here for a bit longer.)",
-                            "<32>{#p/basic}* (Who knows?)\n* (Maybe Frisk'll come by.)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/basic}* Bem, você a ouviu!\n* Hora de ir, carinha!',
+                            "<32>{#p/basic}* ... wa ha ha.\n* Na verdade, ainda temos o resto do dia.",
+                            "<32>{#p/basic}* (É, eu vou ficar aqui por um pouco mais de tempo.)",
+                            "<32>{#p/basic}* (Quem sabe?)\n* (Talvez Frisk venha.)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* Hey kiddo, did ya catch the warning broadcast?',
-                                '<32>* (Keep your voice down!)\n* (... so are they like, a human or something?)',
-                                '<32>* No doubt about it.',
-                                "<32>* (Figures.)\n* (It's gonna suck having to evacuate, though.)",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* Ei criança, você ouviu o aviso na transmissão?',
+                                '<32>* (Abaixa sua voz!)\n* (... então ele é tipo, um humano ou alguma coisa?)',
+                                '<32>* Sem dúvidas.',
+                                "<32>* (Que figura.)\n* (É bem paia ter que evacuar.)",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                                 '<32>{#s/phone}* Ring, ring...',
-                                '<32>{#p/basic}* Hey kiddo!\n* Just wanted to check in on how that new shop of yours is.',
-                                "<32>* I hear you're doin' pretty well!",
-                                "<32>* (...)\n* (It's kinda hard for me to talk right now.)",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#p/basic}* Ei garoto!\n* Só queria verificar como está essa sua nova loja.',
+                                "<32>* Ouvi dizer que ocê está indo muito do bem!",
+                                "<32>* (...)\n* (É meio difícil pra mim falar agora.)",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo3: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/basic}* I hear ya.\n* Hey, maybe it'd help if ya told me what ya saw.",
-                        '<32>* From your point of view.',
-                        '<32>* (Well...)\n* (It all started when...)',
-                        '<32>* (I was at the force field with a bunch of others.)',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/basic}* Tô ouvindo.\n* Ei, talvez eu possa ajudar se ocê me dizer o que viu.",
+                        '<32>* Do seu ponto de vista.',
+                        '<32>* (Bem...)\n* (Tudo começou quando...)',
+                        '<32>* (Eu estava no escudo de força com vários outros.)',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* That'd be a treat!\n* I know I'd sure as hell like to see 'em.",
-                            "<32>{#p/basic}* It's kind of hard to imagine, isn't it?\n* Being saved by a human?",
-                            "<32>{#p/basic}* (I know, right?)\n* (And those other humans... they're alive, too.)",
-                            "<32>{#p/basic}* (What a crazy day it's been.)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Isso seria um prazer!\n* Eu sei que com certeza gostaria de vê-los.",
+                            "<32>{#p/basic}* É meio difícil de imaginar, não é?\n* Ser salvo por um humano?",
+                            "<32>{#p/basic}* (Eu sei, correto?)\n* (E todos aqueles outros humanos... estão vivos, também.)",
+                            "<32>{#p/basic}* (Que dia maluco esse tem sido.)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* Evacuate? Not a chance!\n* You'll be just fine right where you are, actually.",
-                                "<32>* (Uh...)\n* (You do realize I'm out in the open here, right?)",
-                                "<32>* That may be true.\n* But there's a little thing I happen to know...",
-                                "<32>* Somethin' that keeps us humble shopkeepers safe.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* Evacuar? Sem chance!\n* Tu tá muito bem onde tu tá, na verdade.",
+                                "<32>* (Uh...)\n* (Você entende que eu estou literalmente a mercê aqui, certo?)",
+                                "<32>* Isso pode ser verdade.\n* Mas tem uma coisa da qual eu sei...",
+                                "<32>* Uma coisa que mantém nós vendedores seguros.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* Huh?\n* What's the problem?",
-                                "<32>* (... don't you know?)",
-                                '<32>* Wait...',
-                                "<32>* (It's THAT menace.)",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* Huh?\n* Qual o problema?",
+                                "<32>* (... você não sabe?)",
+                                '<32>* Espera...',
+                                "<32>* (É AQUELE maluco.)",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo4: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* (We were all there to see the force field be taken down.)',
-                        "<32>* (We'd been told something like that could happen, but when we got there...)",
-                        '<32>* (The same talking star who told us to go there was holding monsters hostage.)',
-                        '<32>* Little star, huh?\n* I have heard stories of a little yellow star...',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* (Estávamos todos lá para ver o campo de força ser derrubado.)',
+                        "<32>* (Disseram-nos que algo assim poderia acontecer, mas quando chegamos lá...)",
+                        '<32>* (A mesma estrela que nós disse para ir ela, estava segurando monstros como vítimas.)',
+                        '<32>* Pequena estrela, huh?\n* Eu escutei histórias sobre uma pequena estrela amarela...',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* (I wonder what we'll do when we arrive on the new homeworld.)",
-                            "<32>{#p/basic}* (Maybe the two of us could open a shop together!)\n* (You'd sell the trinkets...)",
-                            "<32>{#p/basic}* And you'd sell the food.\n* I like the way you think about it, kiddo!",
-                            "<32>{#p/basic}* But it'd likely be better if one of us sells, and the other tracks the finances.",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* (Eu me pergunto o que faremos quando chegarmos ao novo mundo.)",
+                            "<32>{#p/basic}* (Talvez nós dois possamos abrir um mercado juntos!)\n* (Você venderia as bugigangas...)",
+                            "<32>{#p/basic}* E você venderia a comida.\n* Eu gosto do jeito que você pensa sobre isso, garoto!",
+                            "<32>{#p/basic}* Mas seria melhor se um de nós vendesse, e o outro cuidasse das finanças.",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* (What?)\n* (That's the dumbest thing I've ever heard.)",
-                                "<32>* It's true!\n* I could demonstrate it, if you'd like.",
-                                "<32>* (Uh, n-no thanks!)\n* (I'll take your word for it, old b-buddy!)",
-                                "<32>* Wa ha ha.\n* Y'learn something new every day, don'tcha!",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* (O quê?)\n* (Essa é a coisa mais besta que eu já ouvi.)",
+                                "<32>* É verdade!\n* Eu posso demonstrar se você quiser.",
+                                "<32>* (Uh, n-não valeu!)\n* (Eu vou seguir o conselho do meu velho a-amigo!)",
+                                "<32>* Wa ha ha.\n* Da pra aprender coisa nova todo dia, num é memo!",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* ... wa ha ha.\n* It's the fella who goes around selling steak, ain't it?",
-                                '<32>* (What am I gonna do!)',
-                                "<32>* Shhhh.\n* It's alright, kiddo.\n* That shop's got a backdoor!",
-                                '<32>* (It does!?!?)',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* ... wa ha ha.\n* É o caba que sai por aí vendendo carne, não é?",
+                                '<32>* (O que eu vou fazer?)',
+                                "<32>* Shhhh.\n* Tá tudo bem, carinha.\n* Aquele mercado tem uma porta atrás!",
+                                '<32>* (Tem!?!?)',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo5: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/basic}* (Well, he's real.)\n* (And we thought we'd helped the human beat him...)",
-                        "<32>* (But he just ended up taking everyone's SOULs anyway.)",
-                        "<32>* That must've been the bright light I saw...\n* I just couldn't shake it.",
-                        "<32>* (Yeah, and it was even brighter at the source.)\n* (We didn't stand a chance.)",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/basic}* (Bem, ele é real.)\n* (E ele pensa que ajudamos o humano a derrota-lo...)",
+                        "<32>* (Mas ele só acabou pegando as ALMAS de todo mundo, de toda forma.)",
+                        "<32>*É aquele super luz branca que eu vi...\n* Eu nem podia me mexer.",
+                        "<32>* (Pois é, e parecia bem mais claro na raiz do problema.) \n* (Nós não tínhamos chance.)",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* (Ha. We'll take turns, then.)",
-                            "<32>{#p/basic}* (Doing the same thing all the time would get boring, don't you think?)",
-                            "<32>{#p/basic}* Wa ha ha.\n* Maybe I'm just old, but I don't mind doing finances.",
-                            '<32>{#p/basic}* You can have the fun job all to yourself, kiddo!',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* (Ha. Vamos nos revezar, então.)",
+                            "<32>{#p/basic}* (Fazer a mesma coisa o tempo todo fica chato, você não acha?)",
+                            "<32>{#p/basic}* Wa ha ha.\n* Talvez eu só esteja velho, mas eu não reclamaria de fazer finanças.",
+                            '<32>{#p/basic}* Você pode ter a parte divertida do trabalho, carinha!',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* (I guess we really are doomed to live here forever, huh?)',
-                                "<32>* Hey, don't underestimate the Royal Guard.\n* They're tough stuff!",
-                                '<32>* (Do you really think they can stop someone like that?)',
-                                "<32>* One human child?\n* I dunno kiddo, maybe that's just too much to handle.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* (Acho que estamos condenados a viver aqui para sempre, huh?)',
+                                "<32>* Ei, não subestime a Guarda Real.\n* Eles são fortes!",
+                                '<32>* (Você realmente pensa que eles podem parar alguém assim?)',
+                                "<32>* Uma criança humana?\n* Eu não sei carinha, talvez seja demais pra aguentar.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielEcho4++ < 1
                                     ? ['<25>{#p/asriel2}{#f/5}* Hee hee hee...']
                                     : [])
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* (Woah...)\n* (This door leads to a balcony on the outside!)',
-                                '<32>{#p/basic}* (I swear the stars have never looked this bright...)',
-                                '<32>* Huh.\n* Must be a distortion field or something.',
-                                '<32>* Take a minute, and enjoy it while ya can!',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* (Woah...)\n* (Essa porta leva para o balcão do lado de fora!)',
+                                '<32>{#p/basic}* (Eu juro que as estrelas nunca estiveram tão brilhantes...)',
+                                '<32>* Huh.\n* Deve ser um campo de distorção ou algo assim.',
+                                '<32>* Tome um momento e aprecie enquanto pode!',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo6: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* So what happened next?',
-                        '<32>* (Well, you should know.)\n* (This is the part that everyone knows.)',
-                        '<32>* (From our perspective, we saw a human fending off attacks...)',
-                        '<32>* (Whatever that star turned himself into was relentlessly attacking the human.)',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* Então, o que aconteceu depois?',
+                        '<32>* (Bem, você deveria saber.) \n* (Essa é a parte que todo mundo sabe.)',
+                        '<32>* (Da nossa perspectiva, nós vimos um humano parando ataques...)',
+                        '<32>* (Seja lá no que aquela estrela se tornou, estava atacando o humano sem parar.)',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* I do feel like a part of me's going to miss this old place.",
-                            '<32>{#p/basic}* We really made it our own.',
-                            "<32>{#p/basic}* (You're kidding, right?)\n* (I won't miss this old dump for a second.)",
-                            "<32>{#p/basic}* (But I guess I've also had it pretty bad up here.)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Eu sinto que parte de mim vai sentir falta desse lugar.",
+                            '<32>{#p/basic}* Nós realmente fizemos ele do nosso jeito.',
+                            "<32>{#p/basic}* (Você tá brincando, certo?)\n* (Eu não sentir falta desse lugar nem por um segundo.)",
+                            "<32>{#p/basic}* (Mas acho que também tive muito mal aqui.)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* Bad news, kiddo.\n* The human came through not too long ago.',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* Mas notícias.\n* O humano passou por aqui, não faz muito tempo.',
                                 ...(world.genocide
                                     ? [
-                                        "<32>{#p/basic}* ... they had a partner with 'em, too.",
-                                        '<32>{#p/basic}* (What?)\n* (Who was it?)',
-                                        "<32>{#p/basic}* Wa ha ha...\n* You wouldn't believe me."
+                                        "<32>{#p/basic}* ... eles tinham um parceiro junto deles, também.",
+                                        '<32>{#p/basic}* (Que?)\n* (Quem era?)',
+                                        "<32>{#p/basic}* Wa ha ha...\n* Você não vai acreditar."
                                     ]
                                     : [
-                                        '<32>{#p/basic}* (Are they on their way here?)',
-                                        "<32>{#p/basic}* Sure, but it'll be a while until ya see 'em.\n* Not to mention Undyne...",
-                                        "<32>{#p/basic}* (Yeah, she'll stop them.)\n* (She's in charge of the Royal Guard, after all...)"
+                                        '<32>{#p/basic}* (Eles estão a caminho então?)',
+                                        "<32>{#p/basic}* Claro, mas vai demorar até você vê-los.\n* Sem mencionar a Undyne...",
+                                        "<32>{#p/basic}* (Exato, ela vai para-los.)\n* (Ela está no comando da guarda real, a final...)"
                                     ]),
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                                 '<32>{#s/phone}* Ring, ring...',
-                                "<32>{#p/basic}* Sorry about that, the phone signal here isn't the greatest.",
-                                '<32>* You seen anything interesting so far?',
-                                '<32>* (... well...)',
-                                '<32>* (How about a shooting star?)',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                "<32>{#p/basic}* Desculpa por isso, o sinal de telefone aqui é bem ruim.",
+                                '<32>* Você viu algo interessante até o momento?',
+                                '<32>* (... bem...)',
+                                '<32>* (Que tal uma estrela cadente?)',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo7: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* (Eventually, though, the human mustered some kind of power...)',
-                        '<32>* (And then...)',
-                        '<32>* (... IT... happened.)',
-                        '<32>* Yeah... that.\n* The moment where it all turned upside-down, huh?',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* (Eventualmente, porém, o humano reuniu algum tipo de poder...)',
+                        '<32>* (E então...)',
+                        '<32>* (... Aquilo... Aconteceu.)',
+                        '<32>* Isso... aquilo.\n* O momento em que tudo virou de ponta cabeça, não é?',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* Hey, it's alright.",
-                            "<32>{#p/basic}* On a new homeworld... you'll be able to go wherever you want.",
-                            '<32>{#p/basic}* (Really? I thought I was going to settle down with you.)',
-                            '<32>{#p/basic}* Oh, did you now?\n* Wa ha ha.',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Ei, tá tudo bem.",
+                            "<32>{#p/basic}* Em um novo mundo natal... você será capaz fazer o que quiser.",
+                            '<32>{#p/basic}* (Sério? Eu pensei que ficaria com você.)',
+                            '<32>{#p/basic}* Ah, ocê sabia?\n* Wa ha ha.',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                                 ...(world.genocide
                                     ? [
-                                        "<32>{#p/basic}* (So you're telling me this kid's been resurrected from the dead?)",
-                                        '<32>{#p/basic}* (Wow.)\n* (I knew you were a crazy old coot, but this is something!)',
-                                        '<32>{#p/basic}* ... would I lie to you?',
-                                        '<32>{#p/basic}* (Well... knowing you... I guess... probably not.)\n* (Hmph.)'
+                                        "<32>{#p/basic}* (Então, você está me dizendo que essa criança voltou da morte?)",
+                                        '<32>{#p/basic}* (Wow.)\n* (Eu sabia que você era maluco, mas isso é outro nível!)',
+                                        '<32>{#p/basic}* ... eu mentiria pra você?',
+                                        '<32>{#p/basic}* (Bem... te conhecendo... eu acho... que não.)\n* (Hmph.)'
                                     ]
                                     : [
-                                        '<32>{#p/basic}* (So what are we supposed to do in the meantime?)',
-                                        "<32>{#p/basic}* Oh, y'know, just the usual jiggery-pokery, I'd guess.",
-                                        '<32>{#p/basic}* (You and your weird sayings.)',
-                                        '<32>{#p/basic}* Wa ha ha, you know it!'
+                                        '<32>{#p/basic}* (O que devemos fazer no meio tempo?)',
+                                        "<32>{#p/basic}* Oh, você sabe, apenas o habitual jiggery-pokery, eu acho.",
+                                        '<32>{#p/basic}* (Você e seu jeito estranho de dizer.)',
+                                        '<32>{#p/basic}* Wa ha ha, você sabe!'
                                     ]),
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* Oh!\n* Make a wish, kiddo!',
-                                "<32>* (...)\n* (It'd never come true.)",
-                                '<32>* ... freedom, huh?\n* Wa ha ha... I might have some good news for you.',
-                                '<32>* I saw a human come through just a little while ago.',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* Oh!\n* Faça um pedido, carinha!',
+                                "<32>* (...)\n* (Nunca se torna realidade.)",
+                                '<32>* ... liberdade, huh?\n* Wa ha ha... eu tenho boas notícias para você.',
+                                '<32>* Eu acabei de ver um humano passar por aqui.',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo8: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* I remember that bit.\n* The power changed hands... the human was in control.',
-                        '<32>* (Yeah, and then they started attacking us!)\n* (I thought we were all...)',
-                        '<32>* Going to die?',
-                        "<32>* (Yeah, and it's like I could feel their fear.)\n* (Everyone was so afraid.)",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* Eu lembro um pouco.\n* O poder mudou de mãos... o humano estava em controle.',
+                        '<32>* (É, e então ele começou a nos atacar!)\n* (Eu pensei que estávamos...)',
+                        '<32>* Mortos?',
+                        "<32>* (É, e é como se eu pudesse sentir aquele medo.)\n* (Todos estavam temendo.)",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/basic}* (Who else am I gonna go to?)\n* (The girls?)',
-                            '<32>{#p/basic}* Hmm...\n* I see your point.',
-                            "<32>{#p/basic}* (You're the only one I feel like I can rely on, old buddy.)",
-                            "<32>{#p/basic}* (Using this shop to make fun of Mettaton was a blast, but it's time for a change.)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/basic}* (Para quem mais eu vou?)\n* (As meninas?)',
+                            '<32>{#p/basic}* Hmm...\n* Eu entendo seu ponto.',
+                            "<32>{#p/basic}* (Você é o único com o qual eu posso desabafar, velho amigo.)",
+                            "<32>{#p/basic}* (Construir esta loja para fazer graça do Mettaton foi divertido, mas é hora de uma mudança.)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/basic}* (Hey... if we ever manage to get out of this...)',
-                                '<32>* (Maybe... we could go for some lunch together?)',
-                                "<32>* Huh?\n* Sure, kiddo!\n* I don't see why not!",
-                                "<32>* It'll give us somethin' to look forward to.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/basic}* (Ei... se nós nunca sair daqui...)',
+                                '<32>* (Talvez... podemos sair para um almoço juntos?)',
+                                "<32>* Huh?\n* Claro, carinha!\n* Eu não vejo o porquê não!",
+                                "<32>* Isso nos dará algo pelo que esperar.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* (So it's true...)\n* (Freedom really is coming.)",
-                                '<32>* One would assume.',
-                                "<32>* (Guess it's all up to the king, then, huh?)",
-                                '<32>* ... if it comes to that.',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* (Então é verdade...)\n* (A liberdade realmente está vindo.)",
+                                '<32>* Assumo que sim.',
+                                "<32>* (Acho que tudo graças ao rei, então, huh?)",
+                                '<32>* ... se for esse o caso.',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echo9: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* Yeah... I remember.',
-                        "<32>* (Look, whatever happens...)\n* (I'm just glad you're safe, ya fat old mole-rat.)",
-                        "<32>* Wa ha ha... that's my boy.",
-                        '<32>* (... when we get to the new homeworld, would you... like to go out for dinner?)',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* É... eu me lembro.',
+                        "<32>* (Olha, aconteça o que acontecer...)\n* (Estou feliz que você esteja seguro, seu velho tartaruga gordo.)",
+                        "<32>* Wa ha ha... meu garoto.",
+                        '<32>* (... quando formos para o novo mundo, você gostaria de... ir jantar?)',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* That robot... I don't know if he'll be able to stay popular on the new homeworld.",
-                            '<32>{#p/basic}* But hey, if he gets poor, we can always remind him how much better off we are.',
-                            "<32>{#p/basic}* (Jeez, you're even more ruthless than I am when it comes to him!)",
-                            "<32>{#p/basic}* (... if he comes to our shop, we'll charge him double.)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Aquele robô... não sei se ele vai conseguir manter popularidade no novo mundo.",
+                            '<32>{#p/basic}* Mas ei, se ele ficar pobre, podemos lembrá-lo de o quão bem estamos sem seus shows.',
+                            "<32>{#p/basic}* (Senhor, você é ainda mais duro que eu quando se trata dele!)",
+                            "<32>{#p/basic}* (... se ele vier a nossa loja, nós cobraremos dele o dobro.)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* (Thanks, old buddy...)\n* (... for a second there, I'd forgotten our troubles.)",
-                                '<32>* Wa ha ha...\n* Glad I could help out.',
-                                '<32>* And even if we never do make it outta here...',
-                                '<32>* ... maybe we could go for lunch anyway.',
-                                "<32>* (Yeah...)\n* (That'd be nice.)",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* (Obrigado, velho amigo...)\n* (... por um segundo eu esqueci nossos problemas.)",
+                                '<32>* Wa ha ha...\n* Prazer em poder ajudar.',
+                                '<32>* E mesmo se nunca sairmos daqui...',
+                                '<32>* ... talvez possamos ir em um almoço de toda forma.',
+                                "<32>* (É...)\n* (Seria legal.)",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/basic}* (If it comes to that...?)\n* (What's the alternative, let them go free?)",
-                                '<32>* I dunno.\n* I wish I had all the answers.',
-                                "<32>* (Wait...)\n* (Is there something the king hasn't been telling us!?)",
-                                '<32>* Wa ha ha...\n* Talk to ya later, kiddo.',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/basic}* (Se chegar a isso...?)\n* (Qual é a alternativa, deixar-los livres?)",
+                                '<32>* Eu não sei.\n* Deseja ter todas as respostas.',
+                                "<32>* (Espera...)\n* (Existe algo que o rei não tenha nos contado!?)",
+                                '<32>* Wa ha ha...\n* Falo com você depois, carinha.',
                                 '<32>* (... huh!?!?)',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echoAbyss1: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/basic}* I don't know where I am...",
-                        '<32>* I was just doing my laundry, but then there was this bright light...',
-                        "<32>* Now it's like... I'm in some kind of limbo...",
-                        '<32>* Please... help me...',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/basic}* Eu não sei onde estou...",
+                        '<32>* Eu estava só lavando a louça, mas do nada apareceu essa luz branca...',
+                        "<32>* Agora é como... se eu estivesse em um tipo de limbo...",
+                        '<32>* Por favor... me ajuda...',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/13}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* I think there's a b-b-b-bogey comin' towards me as we speak...",
-                            '<32>{#p/undyne}* Doggo?\n* That you?',
-                            "<32>{#p/basic}* Yeah... they're almost here...\n* Woah!",
-                            '<32>{#p/basic}* (Ahem!)\n* Did something move?\n* Was it my imagination?',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Eu acho que tem um bicho papão vindo na nossa direção...",
+                            '<32>{#p/undyne}* Doggo?\n* É você?',
+                            "<32>{#p/basic}* É... eles estão quase lá...\n* Woah!",
+                            '<32>{#p/basic}* (Ahem!)\n* Alguma coisa se moveu?\n* Foi minha imaginação?',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/radio}{#v/1}* Helloooooo everyone!\n* You are listening to The Midnight Rush!',
-                            '<32>{#p/alphys}* (What the-)\n* (What is this!?)',
-                            '<32>{#p/radio}{#v/1}* It is the fifteenth of September two-thousand, and well, not much happened today.',
-                            "<32>{#p/alphys}* (Some kind of communications system... must've been dormant for hundreds of years!)",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/radio}{#v/1}* Oooooooooolá todo mundo!\n* Vocês estão escutando A Corrida da Meia-Noite!',
+                            '<32>{#p/alphys}* (Mas que-)\n* (O que é isso?)',
+                            '<32>{#p/radio}{#v/1}* É o dia quinze de setembro de dois mil e, bem, não aconteceu muita coisa hoje.',
+                            "<32>{#p/alphys}* (É um tipo de sistema de comunicação... deve ser datado de centenas de anos!)",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ],
             f_echoAbyss2: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* Gosh, where could I be...',
-                        '<32>* We were out hunting for trash, but then this bright white light came in.',
-                        "<32>* Catty thinks we're in some sort of shared dream...",
-                        "<32>* But, like, wouldn't we be able to wake ourselves up?",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* Senhor, onde eu poderia estar...',
+                        '<32>* Nós estávamos fora caçando lixo, mas do nada veio essa luz.',
+                        "<32>* Catty pensa que estamos em algum tipo de sonho compartilhado...",
+                        "<32>* Mas, tipo, não seríamos capazes de acordar?",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/15}* ...'] : [])
                     ]
                     : world.genocide
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<23>{#p/papyrusnt}UNDYNE, ARE YOU THERE?\nMY BROTHER...\nHE'S...",
-                            '<33>{#p/undyne}* What is it, Papyrus?',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<23>{#p/papyrusnt}UNDYNE, VOCÊ ESTÁ AÍ?\nMEU IRMÃO...\nELE...",
+                            '<33>{#p/undyne}* O que foi, Papyrus?',
                             '<23>{#p/papyrusnt}...',
                             '<32>{#p/undyne}* Papyrus?',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/sans}{#f/7}* hey, not to bother ya, but you should probably have starton evacuated.',
-                                "<32>{#p/undyne}* Huh?\n* What's this about?",
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/sans}{#f/7}* ei, sem querer incomodar você, mas acho que Starton já deveria estar evacuada.',
+                                "<32>{#p/undyne}* Huh?\n* É sobre isso?",
                                 '<32>{#p/sans}{#f/7}* ...',
-                                '<32>{#p/undyne}* Not... particularly liking the silent treatment...',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#p/undyne}* Não... gostando exatamente do tratamento de silêncio...',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/radio}{#v/0}* Not much happened!?\n* You're outta your mind.",
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/radio}{#v/0}* Nada demais aconteceu!?\n* Você perdeu a cabeça.",
                                 '<32>{#p/alphys}* (Hmm...)',
-                                '<32>{#p/radio}{#v/0}* ALIENS from the neighboring planet are due to arrive today!',
-                                "<32>{#p/alphys}* (I guess I'll let it play out, then. Ehehe.)",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                                '<32>{#p/radio}{#v/0}* ALIENS do mundo vizinho irão vir visitar o planeta hoje!',
+                                "<32>{#p/alphys}* (Acho que eu vou ouvir um pouquinho, Ehehe.)",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                                 ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd2
                                     ? ((SAVE.data.b.f_state_dc_kidd2 = true),
                                         [
-                                            '<25>{#p/kidd}{#f/7}* Neighboring planet?\n* Could that mean...',
-                                            '<25>{#f/2}* ... n-no way.'
+                                            '<25>{#p/kidd}{#f/7}* Planeta vizinho?\n* Poderia isso ser...',
+                                            '<25>{#f/2}* ... s-sem chance.'
                                         ])
                                     : [])
                             ],
             f_echoAbyss3: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/toriel}{#f/21}* My child... are you there?',
-                        '<32>* That Twinkly...',
-                        "<32>* I should have known he'd cause some sort of trouble, but...",
-                        "<32>* Once again... I've failed to see the reality that lay right in front of me...",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/toriel}{#f/21}* Minha criança... você está aí?',
+                        '<32>* Aquele Twinkly...',
+                        "<32>* Eu deveria saber que ele causaria problemas, mas...",
+                        "<32>* Mais uma vez... eu falhei em ver a realidade que estava em minha frente.",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/16}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                             ...(SAVE.data.b.s_state_chilldrake
                                 ? [
-                                    "<32>{#p/basic}* Help!\n* My friend Stardrake's gone missing...",
-                                    '<32>{#p/basic}* They went off to find some inspiration for new jokes, but they never came back!',
-                                    "<32>{#p/undyne}* Sit tight, kiddo.\n* I'll send out a search party right away."
+                                    "<32>{#p/basic}* Ajuda!\n* Meu amigo Stardrake sumiu...",
+                                    '<32>{#p/basic}* Ele saiu para encontrar inspiração para piadas, e nunca mais voltou!',
+                                    "<32>{#p/undyne}* Fique aqui, criança.\n* Eu vou mandar uma equipe de procura."
                                 ]
                                 : [
-                                    "<32>{#p/basic}* Help!\n* My friend Stardrake's in danger...",
-                                    '<32>{#p/basic}* They said they saw a human on the loose out here!',
-                                    '<32>{#p/undyne}* Sit tight, kiddo.\n* The Royal Guard will take care of this.'
+                                    "<32>{#p/basic}* Ajuda!\n* Meu amigo Stardrake está em perigo...",
+                                    '<32>{#p/basic}* Ele disse ter visto um humano lá fora!',
+                                    '<32>{#p/undyne}* Fique aqui, criança.\n* A Guarda Real vai cuidar disso.'
                                 ]),
-                            '<32>{#p/basic}* Thank you... Undyne...',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                            '<32>{#p/basic}* Muito obrigado... Undyne...',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                             ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd3
                                 ? ((SAVE.data.b.f_state_dc_kidd3 = true),
-                                    ['<25>{#p/kidd}{#f/3}* Woah, uh... this is kinda scary, haha...', '<25>{#f/4}* ...'])
+                                    ['<25>{#p/kidd}{#f/3}* Woah, uh... isso é meio assustador, haha...', '<25>{#f/4}* ...'])
                                 : [])
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/radio}{#v/1}* Okay, nobody panic!\n* We're not just gonna let 'em walk all over us, right?",
-                            '<32>{#v/0}* You say that like you mean it literally.',
-                            '<32>{#v/1}* What if I do?',
-                            '<32>{#v/0}* Well, I think these aliens could be great allies.\n* They seem pretty nice.',
-                            '<32>{#v/0}* They even brought that translation field thing so we can understand them!',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/radio}{#v/1}* Okay, mas sem pânico!\n* Nós não vamos deixá-los passar por nós dessa forma, certo?",
+                            '<32>{#v/0}* Você diz isso como se dissesse literalmente.',
+                            '<32>{#v/1}* E se eu estiver?',
+                            '<32>{#v/0}* Bem, eu acho que esses aliens podem ser bons aliens.\n* Eles parecem bem legais.',
+                            '<32>{#v/0}* Eles trouxeram aquela máquina de tradução então podemos entende-los!',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ],
             f_echoAbyss4: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<23>{#p/papyrusnt}HUH? WHAT'S WRONG WITH THINKING EVERYTHING'S JUST FINE?",
-                        '<33>{#p/without}* well, the way i see it...',
-                        "<32>{#p/without}* you're just a-{@fill=#ff0}void{@fill=#fff}-ing the problem.",
-                        "<23>{#p/papyrusnt}UGH... MAYBE YOU'RE RIGHT. THINGS DO SEEM PRETTY... {@fill=#ff0}DARK{@fill=#fff}.",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<23>{#p/papyrusnt}HUH? O QUE TEM DE ERRADO EM PENSAR QUE TUDO ESTÁ BEM?",
+                        '<33>{#p/without}* bem, pelo que eu vejo...',
+                        "<32>{#p/without}* Você só está evitando o problema.",
+                        "<23>{#p/papyrusnt}UGH... TALVEZ VOCÊ ESTEJA CERTO. AS COISAS PARECEM BEM... {@fill=#ff0}TENEBROSAS{@fill=#fff}.",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/23}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/undyne}* You don't get it, this isn't some rowdy teen... get outta there before you get hurt!",
-                            "<32>{#p/basic}* I don't care what it is.\n* I'm doing my duty for the good of the outpost!",
-                            "<32>{#p/basic}* If you wanna fight 'em so bad, why don't you come out here yourself!?",
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/undyne}* Isso não é um treinamento, nem qualquer bobeira... saí daí antes de ser ferido!",
+                            "<32>{#p/basic}* Eu não me importo com o que seja.\n* Eu vou fazer minha batalha pelo bem do Outpost!",
+                            "<32>{#p/basic}* Se você quer tanto assim lutar, por que você não vem aqui e faz isso logo?",
                             '<32>{#p/undyne}* Dogamy!!',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                             ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd4
                                 ? ((SAVE.data.b.f_state_dc_kidd4 = true),
                                     [
-                                        "<25>{#p/kidd}{#f/1}* Man, isn't the Royal Guard brave or what?",
-                                        "<25>{#f/3}* I'm glad we have them to protect us...!"
+                                        "<25>{#p/kidd}{#f/1}* Cara, a Guarda Real não é brava?",
+                                        "<25>{#f/3}* Estou feliz que temos eles para nos proteger...!"
                                     ])
                                 : [])
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/radio}{#v/1}* Yeah, yeah...\n* If we're gonna be all lovey-dovey with E.T. here...",
-                            '<32>{#v/1}* We\'re gonna have to do better than just walking up and saying \"Howdy.\"',
-                            "<32>{#v/0}* ... isn't that Erogot's preferred way of saying Hello?",
-                            "<32>{#v/0}* The dude's clearly into western movies, no doubt.",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/radio}{#v/1}* É, E...\n* Se vamos ser todos paz e amor com os E.T. aqui...",
+                            '<32>{#v/1}* Vamos ter que fazer melhor do só chegar andando e dizer \"Olá.\"',
+                            "<32>{#v/0}* ... esse não era o jeito favorito do Erogot de dizer oi?",
+                            "<32>{#v/0}* Ele com certeza tem algo com filmes ocidentais, sem dúvida.",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                             ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd4
                                 ? ((SAVE.data.b.f_state_dc_kidd4 = true),
-                                    ['<25>{#p/kidd}{#f/1}* Erogot?', '<25>{#f/1}* KING Erogot!?', '<25>{#f/3}* Dude...'])
+                                    ['<25>{#p/kidd}{#f/1}* Erogot?', '<25>{#f/1}* REI Erogot!?', '<25>{#f/3}* Cara...'])
                                 : [])
                         ],
             f_echoAbyss5: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/kidding}* Yo... what is this place?',
-                        "<32>* It's really dark, and I can't see anything in here...",
-                        "<32>* I'm scared...",
-                        '<32>* Is anyone there?\n* Please... someone help me...',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/kidding}* Yo... que lugar é esse?',
+                        "<32>* É muito escuro, não consigo ver nada...",
+                        "<32>* Eu estou com medo...",
+                        '<32>* Tem alguém aí?\n* Por favor... alguém me ajuda...',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/22}* ...'] : [])
                     ]
                     : world.genocide
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/alphys}* How's that new body coming?",
-                            '<32>{#p/mettaton}* QUITE WELL, ACTUALLY.\n* I WAS JUST ABOUT TO SEARCH FOR PARTS DOWN IN MECHANICAL.',
-                            "<32>{#p/alphys}* S-sounds good.\n* I'll keep working on improving the power distribution.",
-                            "<32>{#p/mettaton}* DON'T WORRY, DOCTOR.\n* WE'VE GOT PLENTY OF TIME.",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/alphys}* Como está indo o novo corpo?",
+                            '<32>{#p/mettaton}* ATÉ QUE BOM, NA VERDADE.\n* EU ESTAVA PRESTES A PROCURAR POR PARTES MECÂNICAS LÁ EM BAIXO.',
+                            "<32>{#p/alphys}* Parece b-bom.\n* Eu vou continuar trabalhando na distribuição de poder.",
+                            "<32>{#p/mettaton}* NÃO SE PREOCUPE DOUTORA.\n* TEMOS TEMPO DE SOBRA.",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/alphys}* How can I just...\n* Sit here and let it happen?',
-                                "<32>{#p/mettaton}* WELL... WHAT ELSE CAN YOU DO?\n* YOU'RE NOT A FIGHTER.",
-                                "<32>{#p/mettaton}* IF YOU GO OUT THERE NOW, YOU MIGHT DIE, AND WE'D LOSE A VALUABLE PERSON.",
-                                '<32>{#p/alphys}* Why... why does this always happen to me...',
-                                "<32>{#p/mettaton}* ... TO BE FAIR, WATCHING PEOPLE DIE HASN'T ACTUALLY HAPPENED TO YOU BEFORE.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/alphys}* Como eu posso...\n* Só sentar aqui e deixar acontecer?',
+                                "<32>{#p/mettaton}* BEM... O QUE MAIS VOCÊ PODE FAZER?\n* VOCÊ NÃO SABE LUTAR.",
+                                "<32>{#p/mettaton}* SE VOCÊ FOR LÁ FORA AGORA, VOCÊ MORRERÁ, E PERDEREMOS ALGUÉM DE MUITO VALOR.",
+                                '<32>{#p/alphys}* Por que... por que isso sempre acontece comigo...',
+                                "<32>{#p/mettaton}* ... PARA SER JUSTO, ASSISTIR PESSOAS MORRENDO NUNCA ACONTECEU CONTIGO.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<33>{#p/radio}{#v/0}* Just between us, some of them are pretty cute.',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<33>{#p/radio}{#v/0}* Só entre nós, alguns deles são fofos.',
                                 '<32>{#v/1}* Uh... okay?',
-                                "<32>{#v/0}* What?\n* I don't mean like THAT.\n* I just mean they're adorable.",
-                                '<32>{#v/0}* The same way a pet might be.',
-                                "<32>{#v/1}* ...\n* We've got a listener calling into the station.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                "<32>{#v/0}* O que?\n* Eu não disse desse jeito.\n* Eu só quis dizer que eles são adoráveis.",
+                                '<32>{#v/0}* Do mesmo jeito que um pet seria.',
+                                "<32>{#v/1}* ...\n* Nós temos um ouvinte escutando a estação.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echoAbyss6: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/alphys}* How strange...',
-                        '<32>* So our SOULs have been absorbed into another being.',
-                        '<32>* This could be a kind of \"separate plane\" where we\'re held before...',
-                        '<32>* ... wait.\n* There m-might be a way I could contact the others!',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/alphys}* Que estranho...',
+                        '<32>* Então nossas ALMAS foram absorvidas dentro de outro ser.',
+                        '<32>* Este poderia ser um tipo de \"plano separado\" onde somos mantidos antes...',
+                        '<32>* ... espera.\n* Deve haver o-outra forma de contatar os outros!',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/10}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                             world.genocide
-                                ? "<32>{#p/basic}* Asriel and the human are on their way. I'll intercept them as soon as they come through."
-                                : "<32>{#p/basic}* The human's on their way.\n* I'll intercept them as soon as they come through.",
-                            "<32>{#p/undyne}* I trust you know what you're getting into, Doge.",
+                                ? "<32>{#p/basic}* Asriel e o humano estão a caminho. Eu vou confronta-los assim que eles passarem."
+                                : "<32>{#p/basic}* O humano está a caminho.\n* Eu vou confronta-lo assim que ele passar aqui.",
+                            "<32>{#p/undyne}* Eu confio que você sabe onde está se metendo, Doge.",
                             dogex()
-                                ? '<32>{#p/basic}* They are responsible for the deaths in Starton.\n* I will show no mercy!'
+                                ? '<32>{#p/basic}* Eles são responsáveis pelas mortes em Starton.\n* Eu não mostrarei piedade!'
                                 : world.dead_canine
-                                    ? "<32>{#p/basic}* They are responsible for my colleagues' deaths.\n* I will show no mercy!"
-                                    : '<32>{#p/basic}* This is the moment I have long prepared myself for.\n* I will not falter!',
-                            "<32>{#p/undyne}* Yeah!! Get out there and show 'em what the ELITE squad are all about!!",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                    ? "<32>{#p/basic}* Aqueles responsáveis pela morte dos meus companheiros não sentirão o sabor da piedade!"
+                                    : '<32>{#p/basic}* Este é o momento pelo qual preparei toda minha vida!\n* Eu não irei recuar!',
+                            "<32>{#p/undyne}* Isso aí! Vai lá e mostra do que o esquadrão de ELITE é feito!",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/radio}{#v/0}* Welcome, dear caller, to The Midnight Rush!\n* Got anything for us?',
-                            "<32>{#p/human}* Yeah, I've got a few words.\n* The fact is, us humans aren't ready for this sorta thing.",
-                            "<32>{#p/radio}{#v/0}* Just what are you implying?\n* That we're too dumb to comprehend alien concepts?",
-                            "<32>{#p/human}* ... you're so naive.\n* It's not us I'm really worried for, but rather... the aliens.",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/radio}{#v/0}* Olá, querido ligador, A Corrida da Meia-Noite.\n* Tem algo para gente?',
+                            "<32>{#p/human}* É, eu tenho algumas palavras.\n* Na verdade, nós humanos não estamos preparados para esse tipo de coisa.",
+                            "<32>{#p/radio}{#v/0}* O que você quer dizer?\n* Que nós humanos não somos capazes de compreender conceitos aliens?",
+                            "<32>{#p/human}* ... você é inocente.\n* Eu não estou preocupado com os humanos, mas sim... com os aliens.",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ],
             f_echoAbyss7: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* Where am I?\n* What is this... place?',
-                        "<32>{#p/alphys}* Hello?\n* I'm Dr. Alphys, and I'm... t-trying something!",
-                        "<32>{#p/basic}* Dr. Alphys!\n* I'm here, can you hear me?",
-                        "<32>{#p/alphys}* Yes... yes!\n* I just have to think about them... and I'm there!",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* Onde estou?\n* Que lugar é esse?',
+                        "<32>{#p/alphys}* Alô?\n* É a Doutora Alphys, eu estou... tentando algo!",
+                        "<32>{#p/basic}* Dr. Alphys!\n* Eu estou aqui, pode me ouvir?",
+                        "<32>{#p/alphys}* Sim... sim!\n* Eu só tenho que pensar sobre eles... e eu estou lá!",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/21}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/basic}* Skrubby of foundry crew.\n* Concerned over circumstances regarding human.',
-                            '<32>{#p/alphys}* H-hey, uh...\n* Undyne can probably help... a lot better than I can...',
-                            '<32>{#p/basic}* Agreed.\n* U are very unhelpful.',
-                            '<32>{#p/alphys}* R-rude...',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/basic}* Skrubby da equipe de fundição.\n* Preocupado com as circunstâncias em relação ao ser humano.',
+                            '<32>{#p/alphys}* E-ei, uh...\n* Undyne deve ajudar muito melhor... do que eu...',
+                            '<32>{#p/basic}* Concordo.\n* Você é bem inútil.',
+                            '<32>{#p/alphys}* G-grosso...',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/radio}{#v/1}* Oh, come on.\n* We're not a threat to them.\n* They hold all the cards!",
-                            "<32>{#p/human}* Sure, but have you seen the way they act?\n* They're too nice...",
-                            "<32>* I know you two won't do any harm, but some human is going to take advantage of that.",
-                            '<32>{#p/radio}{#v/1}* Yeah... well...',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/radio}{#v/1}* Ah, qual foi.\n* Nós não somos ameaça para eles.\n* Eles tem todas as cartas!",
+                            "<32>{#p/human}* Claro, mas você vê o jeito que eles agem?\n* São legais demais...",
+                            "<32>* Eu sei que vocês dois não vão fazer nada, mas algum humano vai tomar vantagem disso.",
+                            '<32>{#p/radio}{#v/1}* É... sim...',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ],
             f_echoAbyss8: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        '<32>{#p/basic}* My name is Thomas Roman.\n* Royal scientist, and trusted associate of the crown.',
-                        "<32>{#p/alphys}* Professor Roman?\n* But you're...",
-                        '<32>{#p/basic}* My name is Thomas Roman.\n* Royal scientist, and trusted associate of the crown.',
-                        "<32>{#p/alphys}* He's repeating...\n* It must just be the professor in everyone's memory.",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        '<32>{#p/basic}* Meu nome é Thomas Roman.\n* Cientista real e associado de confiança da coroa.',
+                        "<32>{#p/alphys}* Professor Roman?\n* Mas você...",
+                        '<32>{#p/basic}* Meu nome é Thomas Roman.\n* Cientista real e associado de confiança da coroa.',
+                        "<32>{#p/alphys}* Ele está repetindo...\n* Deve ser o professor na mente de todos.",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/3}* ...'] : [])
                     ]
                     : world.genocide
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<23>{#p/papyrusnt}THIS IS PAPYRUS.\nFEEL FREE TO LEAVE A MESSAGE AT THE TONE!',
-                            '<33>{#p/undyne}* Damn it...',
-                            '<33>{#p/undyne}* I should never have let this happen to you, Papyrus.',
-                            '<33>{#p/undyne}* You and your brother deserved better than this.',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<23>{#p/papyrusnt}AQUI É O PAPYRUS.\nSINTA-SE LIVRE PARA DEIXAR UMA MENSAGEM!',
+                            '<33>{#p/undyne}* Mas que droga...',
+                            '<33>{#p/undyne}* Eu jamais deveria ter deixado isso acontecer com você, Papyrus.',
+                            '<33>{#p/undyne}* Você e seu irmão merecem mais do que isso.',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/undyne}* ... and even Doge has failed to capture the human.',
-                                "<32>{#p/sans}{#f/7}* i'll be honest, this doesn't sound good.\n* evacuate the foundry?",
-                                "<33>{#p/undyne}* At this point, everyone knows about what's going on.\n* They'll evacuate.",
-                                "<32>{#p/sans}{#f/7}* i feel like it's better to be safe than sorry.\n* but what do i know.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/undyne}* ... e até mesmo Doge falhou em capturar o humano.',
+                                "<32>{#p/sans}{#f/7}* Eu vou ser honesto, isso não é bom.\n* Evacuar a Foundry?",
+                                "<33>{#p/undyne}* Neste ponto todo mundo sabe o que está acontecendo.\n* Eles vão evacuar.",
+                                "<32>{#p/sans}{#f/7}* Eu sinto que é melhor estar seguro do que lamentar depois.\n* Mas do que eu sei?",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/radio}{#v/0}* Hey, cheer up.\n* Don't let that guy bring you down, alright?",
-                                "<32>{#v/1}* But he's got a point...\n* For many, this situation might be overwhelming.",
-                                "<32>* And not everybody's intentions are as pure as you and your... pet obsession.",
-                                '<32>{#v/0}* Now wait just a minute!',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/radio}{#v/0}* Ei, anime-se.\n* Não deixe aquele cara abaixar seu humor, certo?",
+                                "<32>{#v/1}* Mas ele tem um ponto...\n* Para muitos, essa situação deve ser preocupante.",
+                                "<32>* E nem a intenção de todo mundo é como a sua... obsessão por pet.",
+                                '<32>{#v/0}* Não, espera um pouco!',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ],
             f_echoAbyss9: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/alphys}* Yeah, just think of who you'd like to see, and you'll be with them.",
-                        '<32>{#p/asgore}* Asriel... are you there?',
-                        "<32>{#p/alphys}* Huh, it's not working...\n* Maybe there's not enough of him left in us?",
-                        '<32>{#p/asgore}* Please... come back...',
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/alphys}* Sim, pense em quem você gostaria de ver e você estará com eles.",
+                        '<32>{#p/asgore}* Asriel... você está aí?',
+                        "<32>{#p/alphys}* Huh, não está funcionando...\n* Talvez não a muito dele restante em nós?",
+                        '<32>{#p/asgore}* Por favor... volte...',
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/25}* ...'] : [])
                     ]
                     : geno()
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/undyne}* Mind if I ask you a favor?',
-                            '<32>{#p/basic}* Ahuhuhu~\n* Anything for the one who now occupies the old nest~',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/undyne}* Posso te pedir um favor?',
+                            '<32>{#p/basic}* Ahuhuhu~\n* Qualquer coisa para a capitã da Guarda Real~',
                             world.genocide
-                                ? "<33>{#p/undyne}* Track down the human and their accomplice. Take them to me.\n* Biggest payout you've ever had."
-                                : "<33>{#p/undyne}* Track down the human and take them to me.\n* Biggest payout you've ever had.",
-                            "<32>{#p/basic}* Hmmm...\n* I'll see what I can do~",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                                ? "<33>{#p/undyne}* Prenda o humano e seu cúmplice. Traga-os até mim.\n* Maior pagamento da sua vida."
+                                : "<33>{#p/undyne}* Prenda o humano e traga-o até mim.\n* Maior pagamento da sua vida.",
+                            "<32>{#p/basic}* Hmmm...\n* Eu vejo o que posso fazer.",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                             ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd9
-                                ? ((SAVE.data.b.f_state_dc_kidd9 = true), ['<25>{#p/kidd}{#f/4}* Not THAT spider...'])
+                                ? ((SAVE.data.b.f_state_dc_kidd9 = true), ['<25>{#p/kidd}{#f/4}* Não AQUELA aranha...'])
                                 : [])
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/radio}{#v/1}* Now, now.\n* There's no shame in admitting what you like.",
-                            "<32>{#v/0}* It's not like that at all!",
-                            "<32>{#v/1}* Speaking of love, queue the jazz tune that's been blowing up in clubs everywhere...",
-                            '<32>{#v/1}* \"Married to an Alien!\"',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/radio}{#v/1}* Calma, calma.\n* Não existe vergonha em admitir do que você gosta.",
+                            "<32>{#v/0}* Não é desse jeito!",
+                            "<32>{#v/1}* Falando em amor, enfileire a música de jazz que está explodindo em clubes em todos os lugares...",
+                            '<32>{#v/1}* \"Casado com um Alien!\"',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                             ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd9
                                 ? ((SAVE.data.b.f_state_dc_kidd9 = true),
-                                    ['<25>{#p/kidd}{#f/2}* Pfft, only a human could come up with a title like THAT.'])
+                                    ['<25>{#p/kidd}{#f/2}* Pfft, apenas um humano pra vir com um título ASSIM.'])
                                 : [])
                         ],
             f_echoAbyss10: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/undyne}* I can't keep holding on...",
-                        '<32>{#p/undyne}* The others... have already slipped away...',
-                        "<32>{#p/undyne}* It's like they don't know who they are anymore...",
-                        "<32>{#p/undyne}* No... no!\n* Not like this...\n* I can't forget who I am!",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/undyne}* Não consigo continuar segurando...",
+                        '<32>{#p/undyne}* Os outros... já escaparam...',
+                        "<32>{#p/undyne}* É como se eles já não soubessem quem são...",
+                        "<32>{#p/undyne}* Não... não!\n* Não assim...\n* Não posso esquecer quem eu sou!",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/21}* ...'] : [])
                     ]
                     : world.genocide
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/mettaton}* OH, DOCTOR...',
-                            "<32>{#p/mettaton}* I SHOULD HAVE KNOWN YOU'D RUN OFF LIKE THIS...",
-                            '<32>{#p/mettaton}* ...\n* DAMN IT...',
-                            "<32>{#p/mettaton}* DON'T YOU UNDERSTAND?",
-                            "<32>{#p/mettaton}* I CAN'T PERFECT THOSE DEFENSES WITHOUT YOU...",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/mettaton}* OH, DOUTORA...',
+                            "<32>{#p/mettaton}* EU DEVERIA SABER QUE VOCÊ FUGIRIA DESSA FORMA...",
+                            '<32>{#p/mettaton}* ...\n* MAS QUE DROGA...',
+                            "<32>{#p/mettaton}* VOCÊ NÃO ENTENDE?",
+                            "<32>{#p/mettaton}* NÃO POSSO APERFEIÇOAR ESSAS DEFESAS SEM VOCÊ...",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
                             ? [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                "<32>{#p/mettaton}* WELL, THEY'LL BE HERE SOON.\n* I DON'T KNOW WHAT I'D DO IF I WERE YOU, BUT...",
-                                '<32>{#p/mettaton}* WHETHER YOU STAND YOUR GROUND HERE, OR RETREAT...',
-                                "<33>{#p/mettaton}* I'LL DO MY BEST TO SUPPORT YOU.",
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                "<32>{#p/mettaton}* BEM, ELES ESTARÃO AQUI LOGO.\n* EU NÃO SEI O QUE FARIA SE FOSSE VOCÊ, MAS...",
+                                '<32>{#p/mettaton}* SEJA MANTER-SE AQUI E LUTAR, OU RECUAR...',
+                                "<33>{#p/mettaton}* EU FAREI O MELHOR PARA TE AJUDAR.",
                                 '<32>{#p/alphys}* ... ehehe...',
-                                '<33>* The same goes to you, Mettaton.',
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                '<33>* O mesmo vale para você, Mettaton.',
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
                             : [
-                                '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                                '<32>{#p/alphys}* Wait, wait!\n* This would be perfect for my date with Undyne...',
-                                '<32>{#p/mettaton}* OH WOULD IT NOW?',
-                                "<32>{#p/alphys}* Mettaton!?\n* Where did you...\n* ... I'm not d-dating anyone!",
-                                "<32>{#p/mettaton}* OH, DON'T YOU WORRY.\n* YOUR SECRET'S SAFE WITH ME...\n* ... PROBABLY.",
-                                '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.',
+                                '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                                '<32>{#p/alphys}* Espera, espera! \n* Isso seria perfeito para um date com a Undyne...',
+                                '<32>{#p/mettaton}* OH, ISSO SERIA?',
+                                "<32>{#p/alphys}* Mettaton!?\n* De onde você...\n* ... Eu não estou s-saindo com ninguém!",
+                                "<32>{#p/mettaton}* AH, NÃO SE PREOCUPE.\n* SEU SEGREDO ESTÁ SEGURO COMIGO...\n* ... PROVAVELMENTE.",
+                                '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.',
                                 ...(world.kiddo && !SAVE.data.b.f_state_dc_kidd10
                                     ? ((SAVE.data.b.f_state_dc_kidd10 = true),
                                         [
-                                            '<25>{#p/kidd}{#f/1}* Alphys wants to marry UNDYNE!?',
-                                            '<25>{#f/6}* You really DO learn something new every day...'
+                                            '<25>{#p/kidd}{#f/1}* Alphys quer casar com a UNDYNE!?',
+                                            '<25>{#f/6}* Você realmente aprende algo novo todo dia...'
                                         ])
                                     : [])
                             ],
@@ -2339,99 +2339,99 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* With a new world comes new kinds of stars.',
-                            '<32>* These signal stars may be the least of our worries...'
+                            '<32>{#p/basic}{#npc/a}* Com um novo mundo também vem novas estrelas.',
+                            '<32>* Essas estrelas sinalizadoras podem ser a menor de nossas preocupações...'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* This is a signal star.\n* When it picks up a signal, it repeats it over and over...'
+                            '<32>{#p/basic}{#npc/a}* Está é uma estrela sinalizadora.\n* Quando ela pega um sinal, ela repete de novo e de novo...'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Hopefully the stars out there are more honest.']
-                        : ['<32>{#p/basic}{#npc/a}* Never trust a star.', '<32>* Dishonesty is their one defining trait.']
+                        ? ['<32>{#p/basic}{#npc/a}* Com esperança as estrelas lá fora são mais honestas.']
+                        : ['<32>{#p/basic}{#npc/a}* Nunca confie em uma estrela.', '<32>* Desonestidade é o primeiro de seus princípios.']
             ),
             f_echoLobby: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                        "<32>{#p/basic}* Raddy of the foundry crew.\n* We've no time to keep running the show here.",
-                        "<32>* Don't worry about pipes, unless you're slidin' through em to escape!",
-                        '<32>* Got it, Skrubby?\n* Large lata?\n* My teeny tini?',
-                        "<32>* We've gotta go, right away.",
-                        '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                        '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                        "<32>{#p/basic}* Raddy da equipe de fundição.\n* Nós não temos tempo para apresentar um show aqui.",
+                        "<32>* Não se preocupe com canos, a menos que você esteja deslizando por eles para escapar!",
+                        '<32>* Entendeu, Skrubby?\n* Lata grande?\n* Meu pequenino?',
+                        "<32>* Nós temos que ir, possivelmente agora.",
+                        '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            "<32>{#p/basic}* Raddy of the foundry crew.\n* Everyone, you've done a real great job so far.",
-                            "<32>* Now that we're free, we can all give it a rest!",
-                            '<32>* Ya hear that, Skrubby?\n* Large lata?\n* My teeny tini?',
-                            "<32>* It's time for a totally tubular celebration!",
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            "<32>{#p/basic}* Raddy da equipe de fundição.\n* Todos, vocês tem feito um ótimo trabalho.",
+                            "<32>* Agora que estamos livres, podemos todos descansar!",
+                            '<32>* Você ouviu isso, Skrubby?\n* Grande lata?\n* Meu pequeno?',
+                            "<32>* É hora de uma celebração totalmente tubular!",
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : [
-                            '<32>{#s/echostart}{#p/event}{#npc/a}* Signal start...',
-                            '<32>{#p/basic}* Skrubby of foundry crew.\n* Reporting on success of maintenance with Raddy.',
+                            '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
+                            '<32>{#p/basic}* Skrubby da equipe de fundição.\n* Relatórios sobre o sucesso da manutenção com Raddy.',
                             geno()
-                                ? "<32>{#p/alphys}* That's... g-great...\n* Look, I-I can't deal with this right now, so just..."
-                                : '<32>{#p/alphys}* Uh... g-glad you could fix it!',
-                            '<32>{#p/basic}* No problem, thx for being one hundred percent useless.',
-                            '<32>{#p/alphys}* ... any time.',
-                            '<32>{#s/echostop}{#p/event}{#npc}* Signal stop.'
+                                ? "<32>{#p/alphys}* Isso é... o-ótimo...\n* Olha, e-eu não posso lidar com isso agora, então..."
+                                : '<32>{#p/alphys}* Uh... f-feliz que deu tudo certo!',
+                            '<32>{#p/basic}* Sem problemas, obrigado por sem cem porcento inútil.',
+                            '<32>{#p/alphys}* ... qualquer hora.',
+                            '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ],
             f_kidd: pager.create(
                 0,
                 () =>
                     world.genocide
                         ? [
-                            '<25>{#p/kidd}{#npc/a}{#f/3}* H... hey...',
-                            '<25>{#p/asriel2}{#f/15}{#npc}* Weirdo.',
-                            '<25>{#p/kidd}{#npc/a}{#f/1}* ... y-yeah, hi!\n* Uh, haha!'
+                            '<25>{#p/kidd}{#npc/a}{#f/3}* e-ei...',
+                            '<25>{#p/asriel2}{#f/15}{#npc}* Esquisito.',
+                            '<25>{#p/kidd}{#npc/a}{#f/1}* ... e-ei, oi!\n* Uh, haha!'
                         ]
                         : SAVE.data.n.plot === 33
                             ? [
-                                '<25>{#p/kidd}{#npc/a}{#f/1}* How was lunch?',
-                                '<25>{#f/1}* Did that short skeleton make everyone laugh again?'
+                                '<25>{#p/kidd}{#npc/a}{#f/1}* Como foi o almoço?',
+                                '<25>{#f/1}* Aquele esqueleto baixinho fez todo mundo rir de novo?'
                             ]
                             : [
-                                '<25>{#p/kidd}{#npc/a}{#f/2}* Yo, are you here to see her too?',
-                                "<25>{#f/1}* Haha.\n* She's the coolest!!",
-                                '<25>{#f/2}* I wanna be just like her when I grow up...'
+                                '<25>{#p/kidd}{#npc/a}{#f/2}* Yo, você tá tentando ver ela também?',
+                                "<25>{#f/1}* Haha.\n* Ela é a mais da hora!!",
+                                '<25>{#f/2}* Eu quero ser igual ela quando eu crescer...'
                             ],
                 () =>
                     world.genocide
                         ? ['<25>{#p/kidd}{#npc/a}{#f/4}* ...']
                         : SAVE.data.n.plot === 33
-                            ? ['<25>{#p/kidd}{#npc/a}{#f/3}* He always gets kicked out for pulling awful pranks.']
-                            : ['<25>{#p/kidd}{#npc/a}{#f/1}* You go on ahead.', "<25>{#f/1}* I'll catch up with you soon!"]
+                            ? ['<25>{#p/kidd}{#npc/a}{#f/3}* Ele sempre é expulso por fazer brincadeiras de mau gosto.']
+                            : ['<25>{#p/kidd}{#npc/a}{#f/1}* Pode ir na frente.', "<25>{#f/1}* Eu te encontro mais tarde!"]
             ),
             f_longsy: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* My friend Shortsy and I plan to become the new world's premiere architects.",
-                            "<32>* We'll build bridges, spires, space stations... if you can imagine it, we can build it!",
-                            "<32>* As always, I'll be in charge of carrying the tools."
+                            "<32>{#p/basic}{#npc/a}* Meu amigo Shortsy e eu planejamos nos tornar arquitetos especialistas no novo mundo.",
+                            "<32>* Nós construímos pontes, espirais, estações espaciais... o que você conseguir imaginar, nós podemos construir!",
+                            "<32>* Como sempre, eu fico encarregado de trazer as ferramentas."
                         ]
                         : SAVE.data.n.plot < 48
                             ? [
-                                '<32>{#p/basic}{#npc/a}* My friend Shortsy and I plan to build a bridge.',
-                                "<32>* He's got his reasons, but personally, I'm just tired of using that unstable raft.",
-                                "<32>* Let's hope we can do something a little better than that."
+                                '<32>{#p/basic}{#npc/a}* Meu amigo Shortsy e eu planejamos construir uma ponte.',
+                                "<32>* Ele tem as razões dele, eu pessoalmente só estou cansado de usar aquela plataforma.",
+                                "<32>* Vamos esperar que nossa construção fique um pouco melhor que aquilo."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* How'd you like our bridge?\n* Was it stable?\n* Was it gravitationally secure?",
-                                "<32>* Well, Shortsy said it's fine, and they're kinda the expert here.",
-                                "<32>* I'm mostly just here to carry around the tools!"
+                                "<32>{#p/basic}{#npc/a}* O que você achou da ponte?\n* Estável?\n* Gravitacionalmente seguro?",
+                                "<32>* Bem, Shortsy disse que está boa, e ele é meio que o especialista aqui.",
+                                "<32>* Eu basicamente só estou aqui para carregar as ferramentas!"
                             ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Shortsy told me about a new kind of tool recently...']
+                        ? ['<32>{#p/basic}{#npc/a}* Shortsy me contou sobre um tipo de ferramenta recentemente...']
                         : SAVE.data.n.plot < 48
-                            ? ["<32>{#p/basic}{#npc/a}* Instability and I don't get along very well.\n* That's just how I am."]
+                            ? ["<32>{#p/basic}{#npc/a}* Instabilidade e eu não nos damos muito nem.\n* Isso é como eu sou."]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Don't get it twisted.\n* I'm a fantastic tool-toter.\n* That's just what I do."
+                                "<32>{#p/basic}{#npc/a}* Não me entenda errado.\n* Eu sou um fantástico manejador de ferramentas.\n* Esse é apenas quem eu sou."
                             ]
             ),
             f_shortsy: pager.create(
@@ -2439,321 +2439,321 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* My buddy Longsy and I want to become full-time architects.',
-                            "<32>* I've invented a brand new tool for Longsy to use...",
-                            "<32>* ... called the builder's wand."
+                            '<32>{#p/basic}{#npc/a}* Meu parceiro Longsy e eu queremos ser arquitetos em tempo integral.',
+                            "<32>* Eu trouxe uma nova ferramenta para o Longsy usar...",
+                            "<32>* ... chamada de varinha do construtor."
                         ]
                         : SAVE.data.n.plot < 48
                             ? [
-                                '<32>{#p/basic}{#npc/a}* My buddy Longsy and I want to build a new bridge to impress the king.',
-                                "<32>* It'll be the straightest, most sturdy bridge you've ever seen.",
-                                "<32>* I'll make sure of it!"
+                                '<32>{#p/basic}{#npc/a}* Meu parceiro Longsy e eu queremos construir uma ponte para impressionar o rei.',
+                                "<32>* Vai ser a mais reta e bem estruturada ponte que você já viu.",
+                                "<32>* Eu vou ter certeza disso!"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Take a look at our newest bridge.',
-                                '<32>* Longsy and I figure this will be enough to impress the king...',
-                                "<32>* It needs to be if we're going to work alongside him!"
+                                '<32>{#p/basic}{#npc/a}* Dá uma olhada na nossa mais nova ponte.',
+                                '<32>* Longsy e eu entendemos que isso será o suficiente para impressionar o rei...',
+                                "<32>* Precisa ser assim se nós desejamos trabalhar ao lado dele!"
                             ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* With enough power, it could create anything you can imagine...']
+                        ? ['<32>{#p/basic}{#npc/a}* Com poder o suficiente, poderemos criar tudo que você imaginar...']
                         : SAVE.data.n.plot < 48
-                            ? ["<32>{#p/basic}{#npc/a}* I'm set on doing nothing less than the best.\n* That's just how I am."]
+                            ? ["<32>{#p/basic}{#npc/a}* Eu estou pronto para fazer nada além do melhor.\n* Esse sou eu."]
                             : [
-                                "<32>{#p/basic}{#npc/a}* No need to thank us, it's only a community service.\n* That's just what I do."
+                                "<32>{#p/basic}{#npc/a}* Não a necessidade de agradecer, é apenas o serviço para a comunidade."
                             ]
             ),
             f_snail1: () =>
                 SAVE.data.n.plot === 72
-                    ? ["<32>{#p/basic}{#npc/a}* (Snail snail...)\n* Everyone's leaving, it seems."]
-                    : ['<32>{#p/basic}{#npc/a}* (Snail snail...)\n* Optimism, any day...'],
+                    ? ["<32>{#p/basic}{#npc/a}* (Lesma, lesma...)\n* Todo está indo embora, é o que parece."]
+                    : ['<32>{#p/basic}{#npc/a}* (Lesma, lesma...)\n* Otimismo todo dia...'],
             f_snail2: () =>
                 SAVE.data.n.plot === 72
-                    ? ["<32>{#p/basic}{#npc/a}* (Snail snail...)\n* It's time for us to go."]
-                    : ["<32>{#p/basic}{#npc/a}* (Snail snail...)\n* All's well that ends well..."],
+                    ? ["<32>{#p/basic}{#npc/a}* (Lesma, lesma...)\n* É hora de irmos."]
+                    : ["<32>{#p/basic}{#npc/a}* (Lesma, lesma...)\n* No fim tudo acabou bem..."],
             f_starkiller: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* The smell of grass grows ever closer now...',
-                            '<33>* Soon, I will see it for myself.'
+                            '<32>{#p/basic}{#npc/a}* O cheiro de grama cresce cada vez mais próximo...',
+                            '<33>* Logo, eu irei vê-la por conta própria.'
                         ]
                         : SAVE.data.n.state_foundry_undyne !== 0
-                            ? ['<32>{#p/basic}{#npc/a}* I feel the grass has faded.', "<32>* Don't you...?"]
+                            ? ['<32>{#p/basic}{#npc/a}* Sinto que a grama desbotou.', "<32>* Você não acha...?"]
                             : roomKills().f_telescope > 0
-                                ? ['<32>{#p/basic}{#npc/a}* The grass may already be too far gone.', '<32>* Or am I wrong...?']
+                                ? ['<32>{#p/basic}{#npc/a}* A grama talvez já tenha acabado a muito tempo.', '<32>* Ou eu estou errado...?']
                                 : [
-                                    "<32>{#p/basic}{#npc/a}* What's grass?",
+                                    "<32>{#p/basic}{#npc/a}* O que é grama?",
                                     ...(world.genocide
-                                        ? ['<32>* Can it find you?', '<32>* Can it eat you?', '<32>* Can it kill you?']
-                                        : ['<32>* Can you find it?', '<32>* Can you eat it?', '<32>* Can you kill it?']),
+                                        ? ['<32>* Ela pode te achar?', '<32>* Pode te comer?', '<32>* Pode te matar?']
+                                        : ['<32>* Você pode encontrar?', '<32>* Você pode comer?', '<32>* Você pode matar?']),
                                     '<32>* ...',
-                                    '<32>* Are you made of grass?'
+                                    '<32>* Você é feito de grama?'
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* The grass may not always be greener, but who says it has to be?',
-                            '<32>* A new world may have any number of colors in its grass.'
+                            '<32>{#p/basic}{#npc/a}* A grama pode não sempre estar verde, mas quem disse que precisa ser?',
+                            '<32>* Um novo mundo deve ter tantos números de cores para grama.'
                         ]
-                        : ["<32>{#p/basic}{#npc/a}* The grass isn't always greener on the other side."]
+                        : ["<32>{#p/basic}{#npc/a}* A grama do vizinho nem sempre é a mais verde."]
             ),
             f_temmie1: () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/tem}{#npc/a}* woa... tem hear news...\n* VERY GOODS!!!']
-                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* im temmie!!!', '<32>* and dis is my friend...\n* temmie!!!'],
+                    ? ['<32>{#p/tem}{#npc/a}* woa... tem ouviu notícias...\n* MUITO BOAS!!!']
+                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* sou temmie!!!', '<32>* e está é mi amiga...\n* temmie!!!'],
             f_temmie2: () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/tem}{#npc/a}* yaYA!!!\n* tems can go free!!']
-                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* im temmie!!!', '<32>* and dis is my friend...\n* temmie!!!'],
+                    ? ['<32>{#p/tem}{#npc/a}* yaYA!!!\n* tems vão ser livre!!!']
+                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* sou temmie!!!', '<32>* e está é mi amiga...\n* temmie!!!'],
             f_temmie3: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/tem}{#npc/a}* woa...\n* if tems can go to new homeworld, can make,',
-                        '<32>{#p/tem}{#npc/a}* LOT OF TEMS HISTORY!!!'
+                        '<32>{#p/tem}{#npc/a}* woa...\n* se tems podem ir para novo mundo, podem fazer,',
+                        '<32>{#p/tem}{#npc/a}* MUITAS HISTÓRIAS TEM!!!'
                     ]
-                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* im temmie!!!', '<32>* don forget my friend!'],
+                    : ['<32>{#p/tem}{#npc/a}* hOI!!\n* sou temmie!!!', '<32>* Naum esquecer minha amiga!'],
             f_temmie4: () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/tem}{#npc/a}* A pleasing development, no?']
+                    ? ['<32>{#p/tem}{#npc/a}* Um belo desenvolvimento, não?']
                     : world.genocide || 10 <= world.trueKills
                         ? [
-                            ['<32>{*}{#p/tem}{#i/5}{#s.stop}* I know what you did.', '{*}{#s.resume}{%}'],
-                            ['<32>{#p/tem}{#npc/a}* Hi.', "<32>* I'm Bob."]
+                            ['<32>{*}{#p/tem}{#i/5}{#s.stop}* Eu sei o que você fez.', '{*}{#s.resume}{%}'],
+                            ['<32>{#p/tem}{#npc/a}* Oi.', "<32>* Sou Bob."]
                         ][Math.min(SAVE.flag.n._bob++, 1)]
                         : SAVE.data.n.plot === 47.2
-                            ? ['<32>{#p/tem}{#npc/a}* Hi.', "<32>* I'm afraid for your life."]
-                            : ['<32>{#p/tem}{#npc/a}* Hi.', "<32>* I'm Bob."],
+                            ? ['<32>{#p/tem}{#npc/a}* Oi.', "<32>* Eu estou com medo da sua vida."]
+                            : ['<32>{#p/tem}{#npc/a}* Oi.', "<32>* Sou Bob."],
             f_temmie5: () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/tem}{#npc/a}* awawawawah!!', '<32>* humans...\n* such a...', '<32>* HEROES!!!!']
-                    : ['<32>{#p/tem}{#npc/a}* awawawawah!!', '<32>* humans...\n* such a...', '<32>* CUTE!!!!'],
+                    ? ['<32>{#p/tem}{#npc/a}* awawawawah!!', '<32>* humanos...\n* são tão...', '<32>* HERÓICOS!!!!']
+                    : ['<32>{#p/tem}{#npc/a}* awawawawah!!', '<32>* humanos...\n* são tão...', '<32>* FOFOS!!!!'],
             f_temmie6: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/tem}{#npc/a}* everyones go free...\n* BUT TEM!!!',
-                        '<32>* TEM NOT LEAV!!!\n* TEM WATCH EG!!!',
-                        '<32>* tem will be happily fambily,'
+                        '<32>{#p/tem}{#npc/a}* todos estão livres...\n* MAS A TEM!!!',
+                        '<32>* TEM NÃO QUER IR!!!\n* TEM QUE OVIN!!!',
+                        '<32>* tem terá fabilia febiz,'
                     ]
                     : [
-                        '<32>{#p/tem}{#npc/a}* tem... WATCH EGG!!!',
-                        '<32>* eg... wil HATCH!!!',
-                        '<32>* tem... PROUD PARENT!!'
+                        '<32>{#p/tem}{#npc/a}* tem... VER OVO!!!',
+                        '<32>* OVIN... vou VER!!!',
+                        '<32>* tem... PARENTE FELIZ!!'
                     ]
         },
         punchcard0: () =>
-            SAVE.data.b.svr ? ['<32>{#p/human}* (But the box was empty.)'] : ['<32>{#p/basic}* The box is empty.'],
-        punchcard1: ['<32>{#p/basic}* There is one postcard in the box.'],
-        punchcard2: ['<32>{#p/basic}* There are multiple postcards in the box.'],
-        punchcard3: () => [choicer.create('* (Take a postcard?)', 'Yes', 'No')],
-        punchcard4: ['<32>{#p/human}* (You got the Postcard.)'],
+            SAVE.data.b.svr ? ['<32>{#p/human}* (Mas a caixa está vazia.)'] : ['<32>{#p/basic}* A caixa está vazia.'],
+        punchcard1: ['<32>{#p/basic}* Há um cartão postal na caixa.'],
+        punchcard2: ['<32>{#p/basic}* A vários cartões postais na caixa.'],
+        punchcard3: () => [choicer.create('* (Pegar cartão postal?)', 'Sim', 'Não')],
+        punchcard4: ['<32>{#p/human}* (Você pegou cartão postal.)'],
         punchcardX: () => [
-            "<32>{#p/human}* (You can't make out what's in the box...)",
-            choicer.create('* (Take something out?)', 'Yes', 'No')
+            "<32>{#p/human}* (Você não sabe o que tem na caixa...)",
+            choicer.create('* (Pegar alguma coisa?)', 'Sim', 'Não')
         ],
         puzzle1switch: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to use the switch anymore.)"]
+                ? ["<32>{#p/human}* (Você parece não conseguir usar mais a alavanca.)"]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's stuck, like always."]
-                    : ['<32>{#p/basic}* The switch, quite shockingly, is stuck.', '<32>* What a turn of events!'],
+                    ? ["<32>{#p/basic}* Está emperrado, como sempre."]
+                    : ['<32>{#p/basic}* A alavanca, meio que surpreendentemente, está emperrado.', '<32>* Que giro de eventos!'],
         puzzle2switch: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to use the switch anymore.)"]
+                ? ["<32>{#p/human}* (Você parece não conseguir usar mais a alavanca.)"]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's stuck, like always."]
-                    : ['<32>{#p/basic}* The switch is stuck.\n* Naturally.'],
+                    ? ["<32>{#p/basic}* Está emperrado, como sempre."]
+                    : ['<32>{#p/basic}* A alavanca está presa.\n* Naturalmente.'],
         puzzle3switch: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to use the switch anymore.)"]
+                ? ["<32>{#p/human}* (Você parece não conseguir usar mais a alavanca.)"]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's stuck, like always."]
+                    ? ["<32>{#p/basic}* Está emperrado, como sempre."]
                     : [
-                        '<32>{#p/basic}* Believe it or not...',
-                        "<32>* The switch isn't stuck, it's just out of service.\n* Oh wait."
+                        '<32>{#p/basic}* Acredite ou não...',
+                        "<32>* A alavanca não está emperrada, só fora de serviço.\n* Que?"
                     ],
         quiche1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (The note attached to this cheesecake describes how it was abandoned.)',
-                    choicer.create('* (Take the cheesecake?)', 'Yes', 'No')
+                    '<32>{#p/human}* (Uma nota preso no cheesecake descreve como foi abandonado.)',
+                    choicer.create('* (Pegar o cheesecake?)', 'Sim', 'Não')
                 ]
                 : [
-                    "<32>{#p/basic}* There's a piece of cheesecake here with a note attached.",
-                    '<32>* \"I just couldn\'t handle the responsibility.\"',
-                    choicer.create('* (Take the cheesecake?)', 'Yes', 'No')
+                    "<32>{#p/basic}* Tem um pedaço de cheesecake aqui com uma nota presa.",
+                    '<32>* \"Eu só não pude aguentar a responsabilidade.\"',
+                    choicer.create('* (Pegar o cheesecake?)', 'Sim', 'Não')
                 ],
-        quiche2: ["<32>{#p/human}* (You're carrying too much.)"],
-        quiche3: ['<32>{#p/human}* (You got the Cheesecake.)'],
+        quiche2: ["<32>{#p/human}* (Você está carregando demais.)"],
+        quiche3: ['<32>{#p/human}* (Você pegou o cheesecake.)'],
         quiche4: () =>
             SAVE.data.b.svr
                 ? [
                     [
-                        '<25>{#p/asriel1}{#f/24}* Before we moved out, $(name) used to sit here all the time...',
-                        "<25>{#f/23}* We'd swap stories about our hopes and our dreams...",
-                        '<25>{#f/22}* And bring the telescope out and watch for stars sometimes.',
-                        '<25>{#f/13}* Even as a star...\n* I wished I could return to those moments...'
+                        '<25>{#p/asriel1}{#f/24}* Antes de nos movermos, $(name) costumava sentar aqui toda hora...',
+                        "<25>{#f/23}* Nós trocamos histórias sobre nossos sonhos e nossas esperanças...",
+                        '<25>{#f/22}* E trazíamos o telescópio e observavamos as estrelas às vezes.',
+                        '<25>{#f/13}* Mesmo como estrela...\n* Eu desejei ter voltado para estes momentos...'
                     ],
                     [
-                        '<25>{#p/asriel1}{#f/23}* Look at me, getting all sentimental over a random bench.',
-                        "<25>{#f/17}* But hey.\n* At least it's sturdy.",
-                        "<25>{#f/3}* Heck, even Asgore's tremendous figure couldn't break it.",
-                        '<25>{#f/4}* Back when we all lived here, I mean.'
+                        '<25>{#p/asriel1}{#f/23}* Olha pra mim, ficando todo sentimental por causa de um banco aleatório.',
+                        "<25>{#f/17}* Mas ei.\n* Pelo menos é resistente.",
+                        "<25>{#f/3}* Pois é, nem o grande Asgore pode quebrar.",
+                        '<25>{#f/4}* De volta para quando todos vivíamos aqui.'
                     ],
                     [
-                        "<25>{#p/asriel1}{#f/13}* It's kind of funny to think about...",
-                        '<25>{#f/13}* The house we used to live in is now lived in by Undyne.',
-                        '<25>{#f/17}* Or was, until the force field was destroyed.',
-                        "<25>{#f/13}* And... it's not your usual kind of house.\n* It's a monster."
+                        "<25>{#p/asriel1}{#f/13}* É engraçado pensar sobre...",
+                        '<25>{#f/13}* A casa em que costumávamos viver, agora é a casa da Undyne.',
+                        '<25>{#f/17}* Ou era, até o escudo de força ser destruído.',
+                        "<25>{#f/13}* E... não é o seu tipo habitual de casa.\n* É um monstro."
                     ],
-                    ['<25>{#p/asriel1}{#f/15}* ... all the other monster homes were lost in the war.']
+                    ['<25>{#p/asriel1}{#f/15}* ... todas as casa monstro foram perdidas na guerra.']
                 ][Math.min(asrielinter.quiche4++, 3)]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's a bench."]
+                    ? ["<32>{#p/basic}* É um banco."]
                     : SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}* Coming back to give a lonely bench some company...\n* The gesture is appreciated.']
-                        : ['<32>{#p/basic}* Just a lonely bench out in the middle of a factory.\n* Nothing weird about that!'],
-        quiche5: ['<32>{#p/human}* (You decide not to take anything.)'],
-        run1: ['<32>{*}{#p/undyne}* Run.{^20}{%}'],
-        run2a1: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* I'll go check."],
-        run2b1: ['<32>{#p/undyne}* (Stupid spiders...)'],
-        run2a2: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* I'm a little busy right now."],
+                        ? ['<32>{#p/basic}* Voltando para dar companhia a um banco solitário...\n* O jesto é apreciado.']
+                        : ['<32>{#p/basic}* Apenas um banco solitário perdido no meio da fábrica.\n* Nada estranho em relação a isso!'],
+        quiche5: ['<32>{#p/human}* (Você decide não pegar nada.)'],
+        run1: ['<32>{*}{#p/undyne}* Corra.{^20}{%}'],
+        run2a1: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* Eu vou olhar."],
+        run2b1: ['<32>{#p/undyne}* (Aranhas estúpidas...)'],
+        run2a2: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* Eu estou um pouco ocupada."],
         run2b2: ['<32>{#p/undyne}* (Ugh...)'],
-        run3: ["<25>{*}{#p/kidd}{#f/13}{#x1}* I'll save you!{#x2}{^20}{%}"],
-        run4: ["<25>{*}{#p/kidd}{#f/1}{#x1}* Sorry, I, uh... don't really know how to land this thing!{#x2}{^20}{%}"],
-        run5: ['<25>{*}{#p/kidd}{#f/7}{#x1}* What the...{#x2}{^20}{%}'],
-        run6: ['<25>{*}{#p/kidd}{#f/7}{#x1}* Help!!!{#x2}{^20}{%}'],
+        run3: ["<25>{*}{#p/kidd}{#f/13}{#x1}* Eu vou te salvar!{#x2}{^20}{%}"],
+        run4: ["<25>{*}{#p/kidd}{#f/1}{#x1}* Desculpa, eu, uh... não sei mesmo aterrissar essa coisa!{#x2}{^20}{%}"],
+        run5: ['<25>{*}{#p/kidd}{#f/7}{#x1}* Mas o que...{#x2}{^20}{%}'],
+        run6: ['<25>{*}{#p/kidd}{#f/7}{#x1}* Me ajuda!!!{#x2}{^20}{%}'],
         run6a: [
-            '<25>{*}{#p/kidd}{#f/7}{#x1}* Quit {@fill=#ff0}standing around{@fill=#fff} and {@fill=#ff0}get over here{@fill=#fff}, dude!!!{#x2}{^20}{%}'
+            '<25>{*}{#p/kidd}{#f/7}{#x1}* Para{@fill=#ff0} de olhar{@fill=#fff} e{@fill=#ff0}} vem aqui{@fill=#fff}, cara!! {#x2}{^20}{%}'
         ],
-        run6b: ['<25>{*}{#p/kidd}{#f/7}{#x1}* Come on, please!!!{#x2}{^20}{%}'],
-        run6c: ["<25>{*}{#p/kidd}{#f/7}{#x1}* I...\n* I-I can't stop it...!{#x2}{^20}{%}"],
+        run6b: ['<25>{*}{#p/kidd}{#f/7}{#x1}* Vai, por favor!!!{#x2}{^20}{%}'],
+        run6c: ["<25>{*}{#p/kidd}{#f/7}{#x1}* Eu...\n* E-eu não consigo parar...!{#x2}{^20}{%}"],
         run6d: [
-            '<25>{*}{#p/kidd}{#f/7}{#x1}* What are you doing!?{#x2}{^20}{%}',
+            '<25>{*}{#p/kidd}{#f/7}{#x1}* O que você tá fazendo!?{#x2}{^20}{%}',
             '<25>{*}{#p/kidd}{#f/7}{#x1}* Ah...!{#x2}{^20}{%}'
         ],
         run7: [
-            '<25>{#p/kidd}{#f/4}* Y... y... yo... dude...',
-            '<25>* If...\n* If y-you wanna hurt my friend...',
-            "<25>* You're gonna have to get through me, first."
+            '<25>{#p/kidd}{#f/4}* Y... y... yo... cara...',
+            '<25>* Se...\n* Se v-você quer ferir meu amigo...',
+            "<25>* Você vai ter que passar por mim primeiro."
         ],
         run8: [
-            "<25>{#p/kidd}{#f/3}* She's gone...",
-            '<25>{#f/1}* Yo, you really saved my skin.',
-            '<25>{#f/3}* Even if I was trying to save yours instead.',
+            "<25>{#p/kidd}{#f/3}* Ela se foi...",
+            '<25>{#f/1}* Yo, você realmente me salvou.',
+            '<25>{#f/3}* Mesmo que fosse eu quem estivesse tentando te salvar.',
             '<25>{#f/2}* Haha.',
-            "<25>{#f/3}* ... man, I've never been so TIRED...",
-            '<25>{#f/4}* Guess I should probably go home.',
-            '<25>{#f/7}* I...\n* I bet my parents are worried sick about me!'
+            "<25>{#f/3}* ... mano, eu nunca estive tão CANSADO...",
+            '<25>{#f/4}* Acho que eu deveria ir pra casa.',
+            '<25>{#f/7}* Eu...\n* Eu aposto que meus pais estão super preocupados comigo!'
         ],
-        run9: ['<25>{#p/kidd}{#f/13}* L... later, dude!'],
+        run9: ['<25>{#p/kidd}{#f/13}* A... até mais, cara!'],
         run10: [
-            '<32>{#p/kidd}* Undyne...\n* You....\n* You saved me!',
-            '<32>* Huh?\n* They ran away?',
-            "<32>* Yo, you're wrong...",
-            '<32>* They went to get help!',
-            "<32>* They'll be back any second!!",
+            '<32>{#p/kidd}* Undyne...\n* Você....\n* Você me salvou!',
+            '<32>* Huh?\n* Ele fugiu?',
+            "<32>* Yo, você tá errada...",
+            '<32>* Ele foi buscar ajuda!',
+            "<32>* Ele vai voltar logo, logo!!",
             '<32>* ...',
-            "<32>* O-okay, I'll go home..."
+            "<32>* O-okay, eu vou pra casa..."
         ],
         run11: (charged: boolean) => [
             '<32>{#p/kidd}* Undyne...',
-            '<32>* You saved me...?',
-            '<32>* Yo... I...\n* I thought I was a goner.\n* Haha...',
-            '<32>* ... wait, are you okay?\n* It looks like you hit the ceiling pretty hard...',
-            '<32>* Th-this is my fault.\n* I should have stayed away from them, like you said.',
+            '<32>* Você me salvou...?',
+            '<32>* Yo... I...\n* Eu pensei que iria morrer.\n* Haha...',
+            '<32>* ... espere, você está bem?\n* Parece que você bateu no teto com muita força ',
+            '<32>* É m-minha culpa.\n* Eu deveria ter ficado longe dele, que nem você disse.',
             charged
-                ? '<32>* They just went straight to fight you instead of helping me...'
-                : '<32>* They just stood there...\n* Watching...\n* Waiting for me to disappear.',
-            '<32>* I was so scared, and you...',
-            "<32>* What?\n* You're gonna go fight them now?",
-            '<32>* But you look hurt...\n* You should rest, haha...',
+                ? '<32>* Ele foi direto lutar contigo ao invés de me ajudar.'
+                : '<32>* Ele só ficou lá...\n* Assistindo...\n* Me esperando sumir.',
+            '<32>* Eu estava assustado, e você...',
+            "<32>* O que?\n* Você vai lutar com ele agora?",
+            '<32>* Mas você está ferida...\n* Deveria descansar, haha...',
             '<32>* ...',
-            "<32>* W-warriors don't rest, huh?",
-            "<32>* Undyne...\n* You're really cool."
+            "<32>* G-guerreiros não descansam, huh?",
+            "<32>* Undyne...\n* Você é muito legal."
         ],
         sansSentry: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (This sentry station strikes you as rather unnecessary.)']
+                ? ['<32>{#p/human}* (Essa estação de sentinela perto de você é bem desnecessária.)']
                 : world.darker
-                    ? ["<32>{#p/basic}* It's a sentry station."]
-                    : ["<32>{#p/basic}* Sans's second sentry station...", "<32>* As if the first one wasn't already enough."],
+                    ? ["<32>{#p/basic}* É uma estação de sentinela."]
+                    : ["<32>{#p/basic}* Sans segunda estação de sentinela...", "<32>* Como se uma já não fosse o suficiente."],
         sansSentryBack: () =>
             !world.genocide && SAVE.data.n.state_starton_papyrus === 1
-                ? ['<32>{#p/human}* (You look under the shelf...)', "<32>{#p/basic}* It's a box of bones."]
+                ? ['<32>{#p/human}* (Você olha embaixo da prateleira...)', "<32>{#p/basic}* É uma caixa de ossos."]
                 : [
-                    '<32>{#p/human}* (You look under the shelf...)',
+                    '<32>{#p/human}* (Você olha embaixo da prateleira...)',
                     ...(SAVE.data.b.svr
                         ? [
                             [
-                                '<25>{#p/asriel1}{#f/13}* The notes in here are actually really interesting.',
-                                "<25>{#f/17}* Don't you know anything about time travel?",
-                                '<25>{#f/15}* I had a theory that my power to RESET was time travel...',
-                                '<25>{#f/13}* ... but I never did prove it.'
+                                '<25>{#p/asriel1}{#f/13}* As notas aqui na verdade são bem interessantes.',
+                                "<25>{#f/17}* Você não sabe nada sobre viagem no tempo?",
+                                '<25>{#f/15}* Eu tinha uma teoria que meu poder de RESETAR era viagem no tempo.',
+                                '<25>{#f/13}* ... mas eu nunca consegui provar.'
                             ],
                             [
-                                "<25>{#p/asriel1}{#f/13}* There's a lot of different theories I've tried to prove.",
-                                '<25>{#f/13}* Quantum gravity, simulation theory, the Skasis paradigm...',
-                                '<25>{#f/17}* In hindsight, I might have spent a little too much time on them.',
-                                '<25>{#f/20}* Not that it made it any less interesting!'
+                                "<25>{#p/asriel1}{#f/13}* Tem várias formas diferentes das quais eu tentei provar.",
+                                '<25>{#f/13}* Gravidade quântica, teoria da simulação, o paradigma do Skasis...',
+                                '<25>{#f/17}* Por outro lado, eu talvez tenha colocado tempo demais nelas.',
+                                '<25>{#f/20}* Não que isso tenha feito elas menos interessantes!'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/16}* I am surprised that Sans even keeps this around.',
-                                '<25>{#f/3}* He used to work at the lab, though, so...',
-                                '<25>{#f/4}* I guess it could just be a sentimental thing.'
+                                '<25>{#p/asriel1}{#f/16}* Eu estou surpreso que o Sans mantém isso por aí.',
+                                '<25>{#f/3}* Mas ele costumava trabalhar no laboratório, então...',
+                                '<25>{#f/4}* Acho que pode ser uma parada sentimental.'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/13}* I never used to understand why monsters are so sentimental...',
-                                '<25>{#f/17}* ... but my years as a star changed that forever.'
+                                '<25>{#p/asriel1}{#f/13}* Eu nunca entendi o por que dos monstros serem tão sentimentais....',
+                                '<25>{#f/17}* ... mas meus anos como estrela mudaram isso para sempre.'
                             ]
                         ][Math.min(asrielinter.sansSentryBack++, 3)]
-                        : ["<32>{#p/basic}* It's a series of notes on time travel."])
+                        : ["<32>{#p/basic}* É uma série de notas sobre viagem no tempo."])
                 ],
         secretcallA: [
             '<32>{#s/phone}{#p/event}* Ring, ring...',
-            '<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!',
-            '<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE.',
-            "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE...",
-            '<18>{#f/4}BECAUSE IF YOU ARE...',
-            "<19>{#f/9}I'D HAVE TO COME OVER THERE AND DO SOMETHING ABOUT IT!",
-            "<18>{#f/6}... WHICH I CAN'T DO, BECAUSE OF THE CURRENT SITUATION.",
-            "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!",
+            '<18>{#p/papyrus}{#f/9}PSST, AQUI É O PAPYRUS!',
+            '<18>{#f/0}NO MOMENTO AINDA ESTOU ESCONDIDO NO MEU LUGAR SEGURO.',
+            "<18>{#f/4}EU ESPERO QUE VOCÊ NÃO ESTEJA SE METENDO EM CONFUSÃO...",
+            '<18>{#f/4}PORQUE SE VOCÊ ESTIVER...',
+            "<19>{#f/9}EU VOU TER QUE IR AÍ E FAZER ALGO EM RELAÇÃO A ISSO!",
+            "<18>{#f/6}... O QUE EU NÃO POSSO, POR CAUSA DA SITUAÇÃO ATUAL.",
+            "<18>{#f/7}ENTÃO NÃO SE META EM CONFUSÃO!",
             '<18>{#f/5}...',
-            '<18>{#f/5}PAPYRUS OUT...',
+            '<18>{#f/5}PAPYRUS DESLIGANDO...',
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         secretcallB: [
             '<32>{#s/phone}{#p/event}* Ring, ring...',
-            "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN.",
-            '<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW.',
-            '<18>{#f/6}ARE YOU WELL?\nHAS ANYONE ELSE BEEN... KILLED?',
-            '<18>{#f/5}THESE ARE THE QUESTIONS I ASK MYSELF EVERY DAY.',
-            "<18>{#f/4}GRANTED, I'VE ONLY BEEN IN HIDING FOR A SHORT TIME.",
-            '<18>{#f/7}BUT STILL!!!',
+            "<18>{#p/papyrus}{#f/0}PSST, É O PAPYRUS DE NOVO.",
+            '<18>{#f/5}WOWIE... DEVE ESTAR FICANDO TARDE POR AGORA.',
+            '<18>{#f/6}VOCÊ ESTÁ BEM?\nMAIS ALGUÉM FOI... MORTO?',
+            '<18>{#f/5}ESSAS SÃO AS PERGUNTAS QUE ME FAÇO TODOS OS DIAS.',
+            "<18>{#f/4}É CLARO, EU SÓ ESTOU ESCONDIDO A UM POUCO DE TEMPO.",
+            '<18>{#f/7}MAS AINDA ASSIM!!!',
             '<18>{#f/5}...',
-            '<18>{#f/4}... YOU MUST BE NEARLY OUT OF THE FOUNDRY BY NOW.',
-            '<18>{#f/5}I WISH I COULD DO MORE TO HELP, BUT ALAS...',
-            '<18>{#f/3}IT WOULD BE UNSAFE FOR ME TO RETURN RIGHT NOW.',
-            "<18>{#f/9}S-STILL!!!\nI KNOW YOU WON'T LET ME DOWN!",
+            '<18>{#f/4}... VOCÊ DEVE ESTAR PRÓXIMO DA SAIDA DA FOUNDRY NESTE MOMENTO.',
+            '<18>{#f/5}EU DESEJAVA PODER FAZER MAIS PARA AJUDAR, MAS ALAS...',
+            '<18>{#f/3}SERIA INSEGURO SAIR AGORA E RETORNAR.',
+            "<18>{#f/9}A-AINDA ASSIM!!!\nEU SEI QUE VOCÊ NÃO VAI ME DECEPCIONAR!",
             '<18>{#f/5}...',
-            '<18>{#f/5}PAPYRUS OUT...',
+            '<18>{#f/5}PAPYRUS DESLIGANDO...',
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         spider1: () => ['<32>{#p/basic}* ... huh?'],
         spider2: () =>
             badSpider()
-                ? ["<32>{#p/basic}* There's something advancing in the dark."]
-                : ["<32>{#p/basic}* There's someone roving in the dark."],
-        spider3: () => (badSpider() ? ['<32>{#p/basic}* Something powerful...'] : ['<32>{#p/basic}* Someone curious...']),
+                ? ["<32>{#p/basic}* Tem algo avançando no escuro."]
+                : ["<32>{#p/basic}* Há alguém vagando no escuro."],
+        spider3: () => (badSpider() ? ['<32>{#p/basic}* Algo poderoso...'] : ['<32>{#p/basic}* Alguém curioso...']),
         spider4: () =>
-            badSpider() ? ['<32>{#p/basic}* Something dangerous...'] : ['<32>{#p/basic}* Someone mysterious...'],
-        spider5: () => (badSpider() ? ['<32>{#p/basic}* Something...'] : ['<32>{#p/basic}* Someone...']),
+            badSpider() ? ['<32>{#p/basic}* Algo perigoso...'] : ['<32>{#p/basic}* Alguém misterioso...'],
+        spider5: () => (badSpider() ? ['<32>{#p/basic}* Algo...'] : ['<32>{#p/basic}* Alguém...']),
         spider6: () =>
             badSpider()
                 ? [
-                    '<32>{#p/basic}* ... that should not be allowed to live.',
-                    '<32>* You think you can just get away with all this, dearies?',
+                    '<32>{#p/basic}* ... que não deveria ser permitido viver.',
+                    '<32>* Vocês acham que podem se livrar de tudo isso, queridos?',
                     '<32>* Ahuhuhu~\n* You have a lot to answer for!'
                 ]
                 : [
@@ -2786,9 +2786,9 @@ export default {
                 '<25>{#f/2}* well... i consider that a {@fill=#ff0}great victory{@fill=#fff}.',
                 "<25>{#f/0}* whaddya say we celebrate the occasion at grillby's?",
                 "<25>{#f/3}* getting in papyrus's good books earns you a spot in mine.",
-                choicer.create('* (What do you say?)', 'Yeah', 'Nah')
+                choicer.create('* (O que você acha?)', 'Yeah', 'Nah')
             ],
-            () => ["<25>{#p/sans}* my offer remains.\n* grillby's?", choicer.create('* (What do you say?)', 'Yeah', 'Nah')]
+            () => ["<25>{#p/sans}* my offer remains.\n* grillby's?", choicer.create('* (O que você acha?)', 'Yeah', 'Nah')]
         ),
         spookydate2a: () => ["<25>{#p/sans}* alrighty then, just for you, i'll pry myself away from my work..."],
         spookydate2b: () => [
@@ -2821,14 +2821,14 @@ export default {
             '<25>{#p/sans}* whoops, watch where you sit down in here.',
             '<25>{#f/2}* some weirdo musta put a whoopee cushion on the seat.',
             "<25>{#f/0}* ... anyway, let's order.\n* whaddya want?",
-            choicer.create('* (What do you say?)', "Flamin'\nGrillbys", '\nSliders'),
+            choicer.create('* (O que você acha?)', "Flamin'\nGrillbys", '\nSliders'),
             "<26>{#p/sans}{#f/2}* hey, that's pretty good."
         ],
         spookydate12a: ["<25>{#p/sans}* grillby, we'll have two flamin' versions of yourself."],
         spookydate12b: ["<25>{#p/sans}* grillby, we'll have two sets of sliders."],
         spookydate13: () => [
             "<25>{#p/sans}* so, what'd you think of my brother's attacks?",
-            choicer.create('* (What do you say?)', 'Easy', 'Hard')
+            choicer.create('* (O que você acha?)', 'Easy', 'Hard')
         ],
         spookydate14a: [
             '<25>{#p/sans}* easy?\n* get outta here.',
@@ -2858,7 +2858,7 @@ export default {
         spookydate17: ["<25>{#p/sans}* oh yeah, there's something i've been meaning to ask ya."],
         spookydate18: () => [
             '<25>{#p/sans}{#f/3}* have you ever heard of a {@fill=#ff0}talking star{@fill=#fff}?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         spookydate19a: [
             '<25>{#p/sans}* so you know all about it, then.',
@@ -2903,9 +2903,9 @@ export default {
                     ? '<25>{#f/2}* but, with that premium membership voucher, you can use it early.'
                     : '<25>{#f/2}* but, since i know you, you can use it early.',
                 '<25>{#f/0}* howzzabout it?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (O que você acha?)', 'Sim', 'Não')
             ],
-            () => ['<25>{#p/sans}{#f/2}* wanna try my telescope?', choicer.create('* (What do you say?)', 'Yes', 'No')]
+            () => ['<25>{#p/sans}{#f/2}* wanna try my telescope?', choicer.create('* (O que você acha?)', 'Sim', 'Não')]
         ),
         telescopeY: () =>
             SAVE.data.b.voucher
@@ -2977,7 +2977,7 @@ export default {
                 ? ['<32>{#p/human}* (The sign emphasizes the fame of the statue.)']
                 : ['<32>{#p/basic}* \"Statue of tem... very famus\"\n* \"VERY!!!!!!!!!\"'],
         shard1: ['<32>{#p/basic}* A pile of glass shards.'],
-        shard2: () => [choicer.create('* (Stomp on them?)', 'Yes', 'No')],
+        shard2: () => [choicer.create('* (Stomp on them?)', 'Sim', 'Não')],
         shard3: ['<32>{#p/human}* (You decide not to stomp.)'],
         shard4: ['<32>{#p/basic}* With the might of your indomitable soles, you charged up the ultimate power move!'],
         shard5: () => [
@@ -3777,12 +3777,12 @@ export default {
                     '<25>{#f/17}* What, you thought I had a bedroom back there or something?',
                     '<25>{#f/8}* Pfft, hah!\n* Everyone knows I sleep on a cold, hard floor.',
                     SAVE.data.b.oops
-                        ? "<32>{#p/basic}* It's locked."
+                        ? "<32>{#p/basic}* Está trancando."
                         : '<32>{#p/basic}* I get the feeling there\'s more to this \"closet\" than snacks.'
                 ],
                 () => [
                     SAVE.data.b.oops
-                        ? "<32>{#p/basic}* It's locked."
+                        ? "<32>{#p/basic}* Está trancando."
                         : '<32>{#p/basic}* I get the feeling there\'s more to this \"closet\" than snacks.'
                 ]
             ),
@@ -3945,7 +3945,7 @@ export default {
                         : [
                             '<18>{#f/4}ARE YOU UP FOR THE DAUNTING TASK...',
                             '<18>{#f/1}OF BEFRIENDING THE CAPTAIN OF THE ROYAL GUARD!?!?',
-                            choicer.create('* (Befriend Undyne?)', 'Yes', 'No')
+                            choicer.create('* (Befriend Undyne?)', 'Sim', 'Não')
                         ])
                 ],
         unddate0x: () =>
@@ -3956,7 +3956,7 @@ export default {
                 ]
                 : [
                     '<18>{#p/papyrus}{#f/0}OKAY!\nALL READIED UP TO HANG OUT?',
-                    choicer.create('* (Befriend Undyne?)', 'Yes', 'No')
+                    choicer.create('* (Befriend Undyne?)', 'Sim', 'Não')
                 ],
         
         unddate1a: ['<18>{#p/papyrus}{#f/0}OKAY!\nSTAND BEHIND ME!'],
@@ -4033,14 +4033,14 @@ export default {
                             '<25>* To humiliate me even further?'
                         ]),
                     '<25>{#f/4}* IS THAT IT?',
-                    choicer.create('* (What do you say?)', 'Yes', 'No')
+                    choicer.create('* (O que você acha?)', 'Sim', 'Não')
                 ],
         unddate11a: () => [
             '<25>{#p/undyne}{#f/11}* Then why are you here?',
             '<25>{#f/1}* Wait, I get it.',
             "<25>* You think that I'm gonna be friends with you, huh?",
             '<25>{#f/17}* Right???',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         unddate11a1a: [
             '<25>{#p/undyne}{#f/14}* Really?\n* How delightful!\n* I accept!',
@@ -4090,7 +4090,7 @@ export default {
             SAVE.data.b.undyne_respecc
                 ? '<25>{#p/undyne}{#f/1}* Need anything?'
                 : '<25>{#p/undyne}{#f/14}* Need anything?',
-            choicer.create('* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+            choicer.create('* (O que você acha?)', 'Hungry', 'Book', 'Home', 'Nada')
         ],
         unddate13a1: [
             '<25>{#p/undyne}{#f/1}* You want a snack or something?',
@@ -4098,7 +4098,7 @@ export default {
         ],
         unddate13a2: ['<25>{#p/undyne}{#f/1}* Ah... this should do nicely.'],
         unddate13a3: ['<25>{#p/undyne}{#f/14}* All yours...\n* Fuhuhu.'],
-        unddate13a4a: ["<32>{#p/human}* (You're carrying too much.)"],
+        unddate13a4a: ["<32>{#p/human}* (Você está carregando demais.)"],
         unddate13a4b: ['<32>{#p/human}* (You got the Odd Snack.)'],
         unddate13a5: () =>
             SAVE.data.b.drop_snack
@@ -4161,7 +4161,7 @@ export default {
                 ? "<25>{#p/undyne}{#f/1}* Well, alright.\n* Remember, I'm here if you change your mind."
                 : "<25>{#p/undyne}{#f/14}* Well, alright.\n* Remember, I'm here if you change your mind!"
         ],
-        unddate14: () => [choicer.create('* (Sit down?)', 'Yes', 'No')],
+        unddate14: () => [choicer.create('* (Sit down?)', 'Sim', 'Não')],
         unddate15a: () => [
             '<25>{#p/undyne}{#f/14}* Comfortable?',
             SAVE.data.b.undyne_respecc
@@ -4279,7 +4279,7 @@ export default {
                 ["<25>{#p/undyne}{#f/17}* It's not for sale."]
             )
         ],
-        unddate21: () => [choicer.create('* (Choose this drink?)', 'Yes', 'No')],
+        unddate21: () => [choicer.create('* (Choose this drink?)', 'Sim', 'Não')],
         unddate22: [
             ['<25>{#p/undyne}{#f/16}* Okay, I guess...'],
             ["<25>{#p/undyne}{#f/1}* Let's fruit-punch your ticket to hydration!"],
@@ -5079,7 +5079,7 @@ export default {
                         : ["<25>{#p/undyne}{#f/1}* That's it, then...!", '<25>{#f/17}* No more running away!'])
         ],
         undynefinal3x: ['<25>{#f/7}{*}* HERE I COME!!!!!!!{#x1}{^999}'],
-        undynehouse1: ["<32>{#p/basic}* It's locked."],
+        undynehouse1: ["<32>{#p/basic}* Está trancando."],
         undynehouse2: () =>
             SAVE.data.b.svr || world.runaway
                 ? ["<32>{#p/human}* (You can't seem to find a way in.)"]
@@ -5214,7 +5214,7 @@ export default {
                     "<32>{#p/basic}* It's a cooler full of electro- dampening fluid with an oddly specific warning label.",
                     '<32>{#p/basic}* \"Use only to negate electro- static interference with portable jetpacks.\"'
                 ]),
-            choicer.create('* (Get a cup?)', 'Yes', 'No')
+            choicer.create('* (Get a cup?)', 'Sim', 'Não')
         ],
         watercooler2a: ['<32>{#p/human}* (You now hold a cup of the electro-dampening fluid.)'],
         watercooler2b: ['<32>{#p/human}* (You decide not to get a cup.)'],
@@ -5481,9 +5481,9 @@ export default {
                 : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                     ? ['<32>{#p/kidding}* This seems kinda weird.']
                     : ['<32>{#p/story}* Smells like a jell-o store.'],
-        act_imitate: ['<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* Suddenly...!'],
-        act_flirt: ['<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* Suddenly...!'],
-        act_slap: ['<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* Suddenly...!']
+        act_imitate: ['<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* De repente...!'],
+        act_flirt: ['<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* De repente...!'],
+        act_slap: ['<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* De repente...!']
     },
     b_opponent_shyren: {
         act_check: ['<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by her own shame.'],
@@ -7280,14 +7280,14 @@ export default {
     i_astrofood: {
         battle: {
             description: 'Not for the faint of teeth.',
-            name: 'Licorice'
+            name: 'Alcaçuz'
         },
         drop: ['<32>{#p/human}* (You throw away the Licorice.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (24 HP.)']
                 : ['<32>{#p/basic}* \"Licorice\" Heals 24 HP\n* Not for the faint of teeth.'],
-        name: 'Licorice',
+        name: 'Alcaçuz',
         use: ['<32>{#p/human}* (You gnawed at the Licorice.)']
     },
     i_sap: {
@@ -7438,14 +7438,14 @@ export default {
     i_rations: {
         battle: {
             description: 'Standard-issue rations.\nGreat for emergencies.',
-            name: 'Rations'
+            name: 'Ração'
         },
         drop: ['<32>{#p/human}* (You throw away the Rations.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (30 HP.)']
                 : ['<32>{#p/basic}* \"Rations\" Heals 30 HP\n* Standard-issue rations.\n* Great for emergencies.'],
-        name: 'Rations',
+        name: 'Ração',
         use: ['<32>{#p/human}* (You consume the Rations.)']
     },
     i_tea: {

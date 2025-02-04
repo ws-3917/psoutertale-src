@@ -3292,8 +3292,6 @@ export class CosmosAnimation<
         return this;
     }
 }
-
-// TODO: update to follow outertale code conventions
 export class CosmosCircle<
     A extends CosmosBaseEvents = CosmosBaseEvents,
     B extends CosmosMetadata = CosmosMetadata
@@ -3453,8 +3451,6 @@ export class CosmosHitbox<
         return false;
     }
 }
-
-// TODO: update to follow outertale code conventions
 export class CosmosLine<
     A extends CosmosBaseEvents = CosmosBaseEvents,
     B extends CosmosMetadata = CosmosMetadata

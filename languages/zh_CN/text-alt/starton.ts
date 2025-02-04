@@ -8266,7 +8266,7 @@ export default {
         s_robot: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}作为一个建筑机器人\n生活一定很艰难吧。',
+                '<18>{#p/papyrus}{#f/5}作为一个建筑机器人，\n生活一定很艰难吧。',
                 '<18>{#p/papyrus}{#f/5}对那些智能\n比较人工的家伙\n好一点。',
                 ...(solo()
                     ? []

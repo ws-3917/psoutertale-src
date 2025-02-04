@@ -1,11 +1,14 @@
-// TODO: update to follow outertale code conventions
-
 import { isMobile } from 'pixi.js';
 import { keys } from './core';
 import { CosmosKeyboardInput } from './storyteller';
 
+import ieButton0 from '../../assets/images/extras/button0.png?url';
+import ieButton1 from '../../assets/images/extras/button1.png?url';
 import ieButton1N from '../../assets/images/extras/button1N.png?url';
 import ieButton1P from '../../assets/images/extras/button1P.png?url';
+import ieButton2 from '../../assets/images/extras/button2.png?url';
+import ieButton3 from '../../assets/images/extras/button3.png?url';
+import ieButton4 from '../../assets/images/extras/button4.png?url';
 import ieButton5N from '../../assets/images/extras/button5N.png?url';
 import ieButton5P from '../../assets/images/extras/button5P.png?url';
 import ieButtonC from '../../assets/images/extras/buttonC.png?url';
@@ -17,11 +20,6 @@ import ieButtonRK from '../../assets/images/extras/buttonRK.png?url';
 import ieButtonTR from '../../assets/images/extras/buttonTR.png?url';
 import ieButtonX from '../../assets/images/extras/buttonX.png?url';
 import ieButtonZ from '../../assets/images/extras/buttonZ.png?url';
-import ieButton0 from '../../assets/images/extras/button0.png?url';
-import ieButton1 from '../../assets/images/extras/button1.png?url';
-import ieButton2 from '../../assets/images/extras/button2.png?url';
-import ieButton3 from '../../assets/images/extras/button3.png?url';
-import ieButton4 from '../../assets/images/extras/button4.png?url';
 
 export const mobileAssets = {
     ieButtonC,
@@ -284,10 +282,15 @@ export class mobileJoystk {
             const key = [keys.rightKey, keys.downKey, keys.leftKey, keys.upKey];
             const keyCode = ['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp'];
             this.keyState.forEach((isPressed, index) => {
-                if (isPressed && !OriginalKeyState[index]) { key[index].down(keyCode[index]); }
-                else if (!isPressed && OriginalKeyState[index]) { key[index].up(keyCode[index]); }
+                if (isPressed && !OriginalKeyState[index]) {
+                    key[index].down(keyCode[index]);
+                } else if (!isPressed && OriginalKeyState[index]) {
+                    key[index].up(keyCode[index]);
+                }
             });
-        } else { this.resetJoystick(); }
+        } else {
+            this.resetJoystick();
+        }
         this.draw();
     }
     resetJoystick() {
@@ -371,7 +374,9 @@ export class mobileJoystk {
         // RIGHT, UP, LEFT, DOWN
         this.keyState = [false, false, false, false];
         this.keyState[((primaryAngle + Math.PI * 2) % (Math.PI * 2)) / (Math.PI / 2)] = true;
-        if ((this.angle * Math.PI) / 180 >= Math.abs(secondaryAngle - currentAngle)) { this.keyState[((secondaryAngle + Math.PI * 2) % (Math.PI * 2)) / (Math.PI / 2)] = true; }
+        if ((this.angle * Math.PI) / 180 >= Math.abs(secondaryAngle - currentAngle)) {
+            this.keyState[((secondaryAngle + Math.PI * 2) % (Math.PI * 2)) / (Math.PI / 2)] = true;
+        }
     }
     setPos(x: number, y: number) {
         this.x += x;
@@ -709,10 +714,10 @@ if (isMobile.any) {
 
 export {
     mobileArrowBtns,
+    mobileConfigBtns,
     mobileDebugBtn,
     mobileDefaultCfg,
     mobileDiagBtns,
-    mobileConfigBtns,
     mobileFullScrBtn,
     mobileFuncBtns,
     mobileJoystk0,

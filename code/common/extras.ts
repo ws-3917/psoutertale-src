@@ -132,7 +132,13 @@ export function pms() {
                         : []),
                     ...(foundryKill || eliteKill
                         ? startonKill || sentryKill || papyrusKill
-                            ? ['alphysY8B16', 'alphysY8B17', foundryKill ? 'alphysY8B18' : 'alphysY8B18x', 'alphysY8B19', 'alphysY8B20']
+                            ? [
+                                'alphysY8B16',
+                                'alphysY8B17',
+                                foundryKill ? 'alphysY8B18' : 'alphysY8B18x',
+                                'alphysY8B19',
+                                'alphysY8B20'
+                            ]
                             : [
                                 'alphysY8C1',
                                 ['alphysY8C2a', 'alphysY8C2b', 'alphysY8C2c'][

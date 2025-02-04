@@ -1637,1056 +1637,1056 @@ export default {
                                     : ['<32>* Heh.', '<32>* Como eu estava dizendo...'])
                             ]
                             : []),
-                        '<32>* You will determine the future of monsterkind.',
-                        "<32>* That's then.",
-                        '<32>* Now.',
-                        '<32>* You will be judged.',
-                        '<32>* You will be judged for your every action.',
-                        "<32>* You will be judged for every EXP you've earned.",
-                        "<32>* What's EXP?",
-                        "<32>* It's an acronym.",
-                        '<32>* It stands for \"{@fill=#f00}execution points{@fill=#fff}.\"',
-                        '<32>* A way of quantifying the pain you have inflicted on others.',
-                        '<32>* When you kill someone, your EXP increases.',
-                        '<32>* When you have enough EXP, your LOVE increases.',
-                        '<32>* LOVE, too, is an acronym.',
-                        '<32>* It stands for \"{@fill=#f00}Level of Violence{@fill=#fff}.\"',
-                        "<32>* A way of measuring someone's capacity to hurt.",
-                        '<32>* The more you kill, the easier it becomes to distance yourself.',
-                        '<32>* The more you distance yourself, the less you will hurt.',
-                        '<32>* The more easily you can bring yourself to hurt others.'
+                        '<32>* Você determinará o futuro dos monstros.',
+                        "<32>* Isso é depois.",
+                        '<32>* Agora.',
+                        '<32>* Você será julgado.',
+                        '<32>* Você será julgado por cada ação que tomou.',
+                        "<32>* Você será julgado por cada EXP que ganhou.",
+                        "<32>* O que é EXP?",
+                        "<32>* É um acrônimo.",
+                        '<32>* Significa \"{@fill=#f00}Pontos de EXecução{@fill=#fff}.\"',
+                        '<32>* Um jeito de quantificar a dor que você causa aos outros.',
+                        '<32>* Quando você mata alguém, seu EXP aumenta.',
+                        '<32>* Quando você tem EXP o suficiente, seu LOVE aumenta.',
+                        '<32>* LOVE, também é um acrônimo.',
+                        '<32>* Significa \"{@fill=#f00}Level Obtido por ViolEncia{@fill=#fff}.\"',
+                        "<32>* Uma forma de quantificar a capacidade de infringir dor.",
+                        '<32>* Quando mais você mata, mais fácil tornar-se de distanciar-se de tudo.',
+                        '<32>* Quando mais você se distância, menos dor você irá sentir.',
+                        '<32>* E assim, se torna mais fácil causar dor aos outros.'
                     ])
             ],
             jspeechU1: () => [
                 '<25>{#p/sans}{#f/3}* ...',
                 ...[
                     [
-                        '<25>{#f/0}* wow, buddo.\n* how could you do such a thing to yourself.',
-                        "<25>{#f/3}* don't get me wrong.\n* i like shortcuts as much as the next guy.",
-                        "<25>{#f/2}* but don't you think you should take some time to reflect?"
+                        '<25>{#f/0}* uau, cara.\n* como você pôde fazer algo assim consigo mesmo.',
+                        "<25>{#f/3}* não me entenda errado.\n* eu gosto de atalhos tanto quanto o cara depois de mim.",
+                        "<25>{#f/2}* mas você não acha que deveria levar um tempo para refletir?"
                     ],
                     [
-                        "<25>{#f/0}* by your expression, i can tell this isn't even your first time.",
-                        "<25>{#f/3}* ... i don't blame you.\n* getting around quickly can be a ton of fun.",
-                        "<25>{#f/2}* but you still have to take time to reflect!\n* it's important."
+                        "<25>{#f/0}* pela sua expressão, eu consigo dizer que essa não é sua primeira vez.",
+                        "<25>{#f/3}* ... eu não te culpo de forma alguma.\n* se sair de uma situação rapidamente deve ser legal.",
+                        "<25>{#f/2}* mas ainda assim você precisa pegar um tempo para refletir!\n* de fato é importante."
                     ]
                 ][Math.min(SAVE.flag.n.meet3++, 1)]
             ],
             jspeechU2: [
-                '<25>{#p/sans}* tell you what.',
-                "<25>{#f/3}* while i'm having this delicious ice cream...",
-                '<25>{#f/2}* you can use that time to think about how you ended up here.'
+                '<25>{#p/sans}* vou te dizer uma coisa.',
+                "<25>{#f/3}* enquanto eu tomo esse sorvete delicioso...",
+                '<25>{#f/2}* você pode tomar este tempo para pensar sobre como você chegou aqui.'
             ],
             jspeechU3: [
-                '<25>{#p/sans}* salmon-flavored, huh?',
-                '<25>{#p/sans}* i hear this is popular with the royal guard.'
+                '<25>{#p/sans}* sabor salmão, huh?',
+                '<25>{#p/sans}* ouvi dizer que a guarda real gosta bastante.'
             ],
             jspeechU4: [
-                "<25>{#p/sans}{#f/3}* oh yeah.\n* i'm DEFINITELY telling papyrus about this.",
-                "<25>{#f/0}* it'll be helpful for him to get to know what kind of food they like.",
-                '<25>{#f/2}* and by \"they\" i mean the royal guard he\'s soon to be a member of.'
+                "<25>{#p/sans}{#f/3}* hmm nossa.\n* papyrus com certeza deve saber disso.",
+                "<25>{#f/0}* vai ajudar ele a fazer sobre o tipo de comida que eles gostam.",
+                '<25>{#f/2}* e quando eu digo \"eles\" eu estou falando sobre a guarda real, logo ele se tornará um membro.'
             ],
             jspeechU5: [
-                '<25>{#p/sans}{#f/0}* yeah... turns out capturing a human does have its perks.',
-                "<25>{#f/3}* ... don't worry.\n* i won't be much longer.",
-                "<25>{#f/2}* i'm at LEAST halfway done by now."
+                '<25>{#p/sans}{#f/0}* é... acaba que capturar um humano tem realmente seus momentos de alucinação.',
+                "<25>{#f/3}* ... não tenha preocupação.\n* eu já estou acabando.",
+                "<25>{#f/2}* metade do caminho já."
             ],
             jspeechU6: () => [
-                '<25>{#p/sans}{#f/0}* i wonder if that \"ice dream\" guy would mind selling this flavor.',
+                '<25>{#p/sans}{#f/0}* eu me pergunto se aquele \"cara do sorvete\" aceitaria comercializar este sabor.',
                 ...(SAVE.data.n.state_starton_nicecream < 1
-                    ? ["<25>{#f/2}* it'd certainly get him the customers he's been lacking."]
-                    : ["<25>{#f/2}* it'd certainly get him a few new customers."])
+                    ? ["<25>{#f/2}* isso com certeza traria para ele alguns clientes a mais."]
+                    : ["<25>{#f/2}* com certeza traria uma boa clientela."])
             ],
             jspeechU7: [
-                '<26>{#p/sans}{#f/0}* ah... nothing like a good scoop of salmon- flavored ice cream.',
-                '<25>{#f/2}* now for the cone.'
+                '<26>{#p/sans}{#f/0}* ah... nada como uma boa bola de sorvete sabor salmão.',
+                '<25>{#f/2}* agora a casquinha.'
             ],
             jspeechU8: [
-                "<26>{#p/sans}{#f/3}* it's amazing what replication technology can do these days.",
-                "<25>{#f/0}* in the past, you'd be lucky to get something edible...",
-                '<25>{#f/2}* but now, both ice cream AND cone come out perfectly every time.'
+                "<26>{#p/sans}{#f/3}* é incrível o que o replicador consegue fazer estes dias.",
+                "<25>{#f/0}* no passado, se você fosse sortudo, conseguiria algo com 50% do sabor original.",
+                '<25>{#f/2}* mas agora, tanto o sorvete como a casquinha são perfeitamente saborosos.'
             ],
-            jspeechU9: ['<25>{#p/sans}{#f/0}* ...', '<25>{#f/3}* ... guess i should actually finish this now.'],
+            jspeechU9: ['<25>{#p/sans}{#f/0}* ...', '<25>{#f/3}* ... hora de terminar.'],
             jspeechU10: (funni: boolean) => [
-                "<25>{#p/sans}{#f/0}* well, that's all.",
+                "<25>{#p/sans}{#f/0}* bem, isso é tudo.",
                 ...(funni
-                    ? ['<25>{#f/2}* i only hope you can find your way out from behind that pillar.']
-                    : ["<25>{#f/2}* i only hope you've used your time wisely."])
+                    ? ['<25>{#f/2}* Só espero que você possa encontrar o caminho para sair de trás desse pilar.']
+                    : ["<25>{#f/2}* espero que você tenha usado seu tempo bem."])
             ],
             jspeech2: (funni: boolean) => [
                 '<25>{#p/sans}{#f/3}* ...',
-                "<25>{#f/0}* lv0, huh?\n* what's that?",
-                "<25>{#f/3}* this wasn't in gerson's human combat handbook.",
-                "<25>{#f/0}* normally i'd say something here, like...",
-                '<25>{#f/4}* not being perfect, but still doing the right thing?',
-                '<25>{#f/0}* but i guess you really are different.',
-                '<25>{#f/3}* ...\n* tell you what.',
-                "<25>{#f/4}* i'll spare you the long, agonizing speech i was preparing...",
-                '<25>{#f/0}* and just let you get on your way.',
-                '<25>{#f/3}* after all, someone as good as you...',
-                "<25>{#f/2}* shouldn't have to sit through a lecture about hard choices.",
+                "<25>{#f/0}* lv0, huh?\n* o que é isso?",
+                "<25>{#f/3}* isso não estava no livro do gerson sobre combate humano.",
+                "<25>{#f/0}* normalmente eu diria algo como...",
+                '<25>{#f/4}* não ser perfeito, mas ainda assim fazer a coisa certa?',
+                '<25>{#f/0}* mas eu acho que você realmente é diferente.',
+                '<25>{#f/3}* ...\n* vou te dizer uma coisa.',
+                "<25>{#f/4}* eu vou te poupar da longa, agonizante e entediante palestra que eu preparei...",
+                '<25>{#f/0}* e só vou te deixar ir logo.',
+                '<25>{#f/3}* até porque, alguém tão bom como você...',
+                "<25>{#f/2}* não deveria ficar ouvindo sobre como as escolhas da vida são difíceis.",
                 ...(world.flirt < world.flirt_state1.length
                     ? [
                         '<25>{#f/3}* ...',
-                        '<25>{#f/0}* good luck, buddo.',
+                        '<25>{#f/0}* boa sorte, carinha.',
                         ...(funni
-                            ? ["<25>{#f/2}* i'll move you back behind the pillar now."]
-                            : ["<26>{#f/2}* not that you'll need it."])
+                            ? ["<25>{#f/2}* eu vou para trás da pilastra agora."]
+                            : ["<26>{#f/2}* não que você precise saber disso."])
                     ]
                     : [
-                        '<25>{#f/3}* ... oh, right.\n* i almost forgot.',
-                        '<25>{#f/0}* you may have noticed how difficult it is to flirt with alphys.',
-                        "<25>{#f/2}* but i know a trick that'll get 'er right in the heart.",
-                        "<25>{#f/0}* if you're truly devoted to being a legendary flirt master...",
-                        "<25>{#f/0}* you'll whisper this in her ear.",
-                        '<32>{#p/human}* (Sans whispered something in your ear.)',
+                        '<25>{#f/3}* ... ah é, verdade.\n* eu quase esqueci.',
+                        '<25>{#f/0}* você deve ter percebido o quão difícil é flertar com a alphys.',
+                        "<25>{#f/2}* mas eu sei um truque pra atingir o coraçãozinho dela.",
+                        "<25>{#f/0}* se você realmente quer ser a lenda do flerte...",
+                        "<25>{#f/0}* você vai falar isso no ouvido dela.",
+                        '<32>{#p/human}* (Sans te falou algo no ouvido.)',
                         ...(funni
-                            ? ['<25>{#p/sans}{#f/2}* try not to stand behind a pillar when you say it to her.']
-                            : ['<25>{#p/sans}{#f/2}* good luck.'])
+                            ? ['<25>{#p/sans}{#f/2}* tente não ficar atrás de um pilar enquanto diz isso pra ela.']
+                            : ['<25>{#p/sans}{#f/2}* boa sorte.'])
                     ])
             ],
             jspeech3: (funni: boolean) => [
                 '<25>{#p/sans}{#f/3}* ...',
-                '<25>{#f/0}* ... but you.\n* you never gained any LOVE.',
-                "<25>* ... hey, what's that look for?",
-                "<25>{#f/2}* lv1's OBVIOUSLY the lowest you can go.\n* everybody knows that.",
-                "<25>{#f/0}* anyway, that doesn't mean you're completely innocent or naive.",
+                '<25>{#f/0}* ... mas você.\n* você nunca ganhou nenhum LOVE.',
+                "<25>* ... ei, que olhar é esse?",
+                "<25>{#f/2}* lv1 é obviamente o mais baixo que dá pra chegar.\n* todo mundo sabe disso.",
+                "<25>{#f/0}* de toda forma, isso não significa que você é totalmente inocente ou sem pecados.",
                 ...(SAVE.data.n.bully < 15
                     ? SAVE.data.n.state_foundry_undyne > 0
                         ? [
-                            "<25>{#f/0}* when you had the chance to save someone's life...",
-                            '<25>{#f/0}* you left them behind to save your own instead.',
-                            '<25>{#f/3}* maybe you felt you were in danger.\n* maybe you were afraid.',
-                            "<25>{#f/0}* but don't you think you could have done a little better?",
+                            "<25>{#f/0}* quando você teve a chance de salvar a vida de alguém...",
+                            '<25>{#f/0}* você a deixou para trás, pois assim poderia salvar sua própria.',
+                            '<25>{#f/3}* talvez você se sentiu com medo.\n* talvez você temia o que poderia acontecer.',
+                            "<25>{#f/0}* mas você não acha que poderia ter feito melhor?",
                             '<25>{#f/0}* ...',
-                            "<25>{#f/0}* for what it's worth...",
-                            '<25>{#f/3}* you never went out of your way to kill anyone.',
-                            "<25>{#f/0}* even when you ran away, you didn't do it out of malice.",
-                            '<25>{#f/0}* you never gained LOVE, but you had love.',
-                            '<25>{#f/0}* does that make sense?',
-                            '<25>{#f/0}* maybe not.'
+                            "<25>{#f/0}* mas pelo que eu vejo...",
+                            '<25>{#f/3}* você nunca saiu da linha e acabou matando alguém.',
+                            "<25>{#f/0}* mesmo quando você fugiu, você não o fez por maldade",
+                            '<25>{#f/0}* você nunca ganhou love, mas ganhou amor.',
+                            '<25>{#f/0}* faz sentido?',
+                            '<25>{#f/0}* acho que não.'
                         ]
                         : [
-                            '<25>* just that you kept a certain tenderness in your heart.',
-                            '<25>* no matter the struggles or hardships you faced...',
-                            '<25>* you strived to do the right thing.',
+                            '<25>* é só que você manteve uma certa ternura em seu coração.',
+                            '<25>* não importa as dificuldades ou as tempestades que você enfrentou...',
+                            '<25>* você tomou a decisão correta.',
                             ...(world.flirt < 20
                                 ? [
-                                    '<25>* you refused to hurt anyone.',
-                                    '<25>* even when you ran away, you did it with a smile.',
-                                    '<25>* you never gained LOVE, but you gained love.',
-                                    '<25>* does that make sense?',
-                                    '<25>* maybe not.'
+                                    '<25>* você se recusou a ferir qualquer um.',
+                                    '<25>* mesmo quando você correu, você o fez com um sorriso no rosto.',
+                                    '<25>* você nunca ganhou love, mas ganhou amor.',
+                                    '<25>* faz sentido?',
+                                    '<25>* talvez não.'
                                 ]
                                 : [
-                                    "<25>* in fact, i hear you're quite the romantic.",
-                                    '<25>* not only did you not hurt anyone, you went right for their hearts.',
-                                    '<25>{#f/2}* you really like to make things hard on yourself, huh?'
+                                    "<25>* aliás, ouvi dizer que você é bem do romântico.",
+                                    '<25>* não apenas você não feriu ninguém, como também tocou seus corações.',
+                                    '<25>{#f/2}* você realmente gosta de fazer as coisas do jeito difícil, huh?'
                                 ])
                         ]
                     : [
                         SAVE.data.n.bully < 30
-                            ? "<25>{#f/0}* you hurt people out there, didn't you?"
-                            : "<25>{#f/0}* you hurt a lot of people out there, didn't you?",
+                            ? "<25>{#f/0}* você feriu pessoas por aí, não é?"
+                            : "<25>{#f/0}* você feriu muitas pessoas, não foi?",
                         ...(SAVE.data.n.state_foundry_undyne > 0
                             ? [
-                                "<25>{#f/0}* plus, when you had the chance to save someone's life...",
-                                '<25>{#f/0}* you left them behind to save your own instead.',
-                                '<25>{#f/3}* maybe you felt you were in danger.\n* maybe you were afraid.',
-                                '<25>{#f/3}* but a lot of other people feel that way, too.',
-                                '<25>{#f/0}* just something to keep in mind.'
+                                "<25>{#f/0}* aliás, quando você teve a chance de salvar a vida de alguém...",
+                                '<25>{#f/0}* você a deixou para trás, pois assim poderia salvar sua própria.',
+                                '<25>{#f/3}* talvez você se sentiu com medo.\n* talvez você temia o que poderia acontecer.',
+                                '<25>{#f/3}* mas muitas outras pessoas também se sentem assim.',
+                                '<25>{#f/0}* apenas algo para manter na mente.'
                             ]
                             : world.flirt < 20
                                 ? [
-                                    '<25>{#f/0}* even if you never killed them, you threatened their lives.',
-                                    '<25>{#f/3}* was it justified?\n* or was it just out of self-defense?',
-                                    "<25>{#f/0}* i guess that's something only you can know."
+                                    '<25>{#f/0}* mesmo nunca tendo matado ninguém, você ameaçou suas vidas.',
+                                    '<25>{#f/3}* foi justificado?\n* ou você pensou estar cometendo defesa pessoal?',
+                                    "<25>{#f/0}* eu acho que isso é algo que só você sabe."
                                 ]
                                 : [
-                                    '<25>{#f/0}* then, you flirted with them as if to have your way with them.',
-                                    '<25>{#f/3}* is that really what you meant to do?\n* or... am i wrong?',
-                                    "<25>{#f/0}* i guess that's something only you can know."
+                                    '<25>{#f/0}* então, você flertou com eles como se quisesse fazer o que é bom.',
+                                    '<25>{#f/3}* foi realmente o que você tentou fazer?\n* ou... eu estou errado?',
+                                    "<25>{#f/0}* eu acho que isso é algo que só você sabe."
                                 ])
                     ]),
-                '<25>{#f/3}* ...\n* now.',
-                "<25>{#f/0}* you're about to make the greatest decision of your entire journey.",
-                '<25>* your choice here...',
-                '<25>* will determine the fate of the entire galaxy.',
-                '<25>* if you refuse to enter the archive...',
-                '<25>* monsters will remain trapped on the outpost.',
-                '<25>* asgore will do his best to look after you, but...',
-                '<25>* we may never get a shot at freedom again.',
-                '<25>{#f/3}* however.\n* if you do decide to follow his plan...',
-                "<25>{#f/0}* there's a chance things could go wrong.",
-                "<25>* not to mention, you'd be risking your life again, and...",
-                '<25>* well.',
-                '<25>* what will you choose?',
+                '<25>{#f/3}* ...\n* agora.',
+                "<25>{#f/0}* você está prestes a tomar a maior decisão de toda sua jornada.",
+                '<25>* sua decisão aqui...',
+                '<25>* vai determinar o futuro de toda a galáxia.',
+                '<25>* se você se recusar a entrar no arquivo...',
+                '<25>* os monstros continuaram presos no Outpost.',
+                '<25>* asgore fará o melhor para te convencer, mas...',
+                '<25>* talvez nunca mais tenhamos a chance da liberdade novamente.',
+                '<25>{#f/3}* de toda forma.\n* se você decidir seguir seu plano...',
+                "<25>{#f/0}* a uma chance que as coisas dêem errado.",
+                "<25>* sem mencionar, que você estaria arriscando sua vida mais uma vez, e...",
+                '<25>* bem.',
+                '<25>* o que você vai escolher?',
                 '<25>{#f/3}* ...',
-                '<25>* if i were you, i would have thrown in the towel by now.',
-                "<25>{#f/2}* but you didn't get this far by giving up, did you?",
-                "<25>{#f/0}* that's right.",
-                '<25>* you have something called \"{@fill=#ff0}determination.{@fill=#fff}\"',
+                '<25>* se eu fosse você, já teria desistido faz muito tempo.',
+                "<25>{#f/2}* mas você não chegou até aqui desistindo, não foi?",
+                "<25>{#f/0}* exatamente.",
+                '<25>* você tem algo chamado \"{@fill=#ff0}determinação.{@fill=#fff}\"',
                 ...(SAVE.data.n.bully < 15
                     ? [
-                        '<25>* so as long as you hold on...',
-                        "<25>* so as long as you do what's in your heart...",
-                        '<25>* i believe you can do the right thing.',
+                        '<25>* então com tanto que você mantenha o ritmo...',
+                        "<25>* com tanto que você mantenha a ternura em seu coração...",
+                        '<25>* eu confio que você fará a coisa certa.',
                         ...(SAVE.data.n.state_foundry_undyne > 0 || world.flirt < world.flirt_state1.length
                             ? [
-                                '<25>{#f/3}* alright.',
-                                "<25>{#f/0}* we're all counting on you, buddo.",
+                                '<25>{#f/3}* certo.',
+                                "<25>{#f/0}* estamos todos contando com você, carinha.",
                                 ...(funni
-                                    ? ["<25>{#f/2}* i'll move you back behind the pillar now."]
-                                    : ['<25>{#f/2}* good luck.'])
+                                    ? ["<25>{#f/2}* eu vou para trás da pilastra agora."]
+                                    : ['<25>{#f/2}* boa sorte.'])
                             ]
                             : [
-                                '<25>{#f/3}* oh, right.\n* i almost forgot.',
-                                '<25>{#f/0}* you may have noticed how difficult it is to flirt with her.',
-                                '<25>{#f/0}* alphys, i mean.',
-                                "<25>{#f/2}* but i know a trick that'll get 'er right in the heart.",
-                                "<25>{#f/0}* if you're truly devoted to being a legendary flirt master...",
-                                "<25>{#f/0}* you'll whisper this in her ear.",
-                                '<32>{#p/human}* (Sans whispered something in your ear.)',
+                                '<25>{#f/3}* ah, certo.\n* eu quase esqueci.',
+                                '<25>{#f/0}* você deve ter percebido o quão difícil é flertar com ela.',
+                                '<25>{#f/0}* com a alphys.',
+                                "<25>{#f/2}* mas eu sei um truque pra atingir o coraçãozinho dela.",
+                                "<25>{#f/0}* se você realmente quer ser a lenda do flerte...",
+                                "<25>{#f/0}* você vai falar isso no ouvido dela.",
+                                '<32>{#p/human}* (Sans te falou algo no ouvido.)',
                                 ...(funni
-                                    ? ['<25>{#p/sans}{#f/2}* try not to stand behind a pillar when you say it to her.']
-                                    : ['<25>{#p/sans}{#f/2}* good luck.'])
+                                    ? ['<25>{#p/sans}{#f/2}* tente não ficar atrás de um pilar enquanto diz isso pra ela.']
+                                    : ['<25>{#p/sans}{#f/2}* boa sorte.'])
                             ])
                     ]
                     : [
-                        "<26>* no matter what you've used it for up to now...",
-                        "<25>* i know you have it in you to do what's right when it matters most.",
+                        "<26>* não importa para que você tenha usado até agora...",
+                        "<25>* eu sei que você fez o certo quando mais foi necessário.",
                         '<25>{#f/3}* ...',
-                        '<25>{#f/3}* be good, alright?',
-                        ...(funni ? ['<25>{#f/2}* ... and try not to stand behind any more pillars.'] : [])
+                        '<25>{#f/3}* seja bom, beleza?',
+                        ...(funni ? ['<25>{#f/2}* ... e tenta não ficar atrás de pilares.'] : [])
                     ])
             ],
             
             jspeech4: [
-                '<25>{#p/darksans}* Now, you understand.',
-                "<25>* It's time to begin your judgment.",
-                '<25>* Look inside yourself.',
-                '<25>* Have you really done the right thing?',
-                "<25>* And, considering what you've done...",
-                '<25>* What will you do now?',
-                '<25>* Take a moment to think about this.'
+                '<25>{#p/darksans}* agora, você entende.',
+                "<25>* está na hora de começar o seu julgamento.",
+                '<25>* olhe dentro de si mesmo.',
+                '<25>* você realmente fez a coisa certa?',
+                "<25>* e, considerando o que você fez...",
+                '<25>* o que fará agora?',
+                '<25>* tome um momento pra pensar sobre isso.'
             ],
             jspeech5a: [
                 '<25>{#p/sans}{#f/3}* ...',
-                "<25>{#f/0}* truthfully, it doesn't really matter which conclusion you came to.",
-                "<25>* all that's important is that you were honest with yourself."
+                "<25>{#f/0}* verdadeiramente, não importa a que conclusão você chegou.",
+                "<25>* o que importa é que você foi sincero consigo mesmo."
             ],
 
             
             jspeech5b1: (funni: boolean) => [
-                '<25>{#p/sans}{#f/3}* what happens now...',
-                '<25>{#f/0}* we leave up to you.',
-                ...(funni ? ['<25>{#f/2}* ... just as soon as i move you back behind that pillar.'] : [])
+                '<25>{#p/sans}{#f/3}* o que acontece agora...',
+                '<25>{#f/0}* deixamos em suas mãos.',
+                ...(funni ? ['<25>{#f/2}* ... assim que eu te mover de volta para trás daquele pilar'] : [])
             ],
 
             
             jspeech5b2: () => [
-                '<25>{#p/sans}{#f/3}* though...',
-                '<25>{#f/0}* one thing about you always struck me as kinda odd.',
-                '<25>* now, i understand acting in self-defense.',
-                '<25>* you were thrown into those situations against your will.',
-                '<25>* but...',
-                '<25>* sometimes...',
-                "<25>* you act like you know what's gonna happen.",
-                "<25>* like you've already experienced it all before.",
-                '<25>* this is an odd thing to say, but...',
-                '<25>* if you have some sort of {@fill=#ff0}special power{@fill=#fff}...',
-                "<25>* isn't it your responsibility to do the right thing?",
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                '<25>{#p/sans}{#f/3}* embora...',
+                '<25>{#f/0}* uma coisa sobre você sempre me deixou meio pensativo.',
+                '<25>* olha, eu entendo agir em autodefesa.',
+                '<25>* você foi jogado nestas situações contra sua vontade.',
+                '<25>* mas...',
+                '<25>* algumas vezes...',
+                "<25>* você age como se já soubesse o que iria acontecer.",
+                "<25>* como se você já tivesse vivido isso tudo antes.",
+                '<25>* é uma coisa meio estranha de dizer, mas...',
+                '<25>* se você tem algum tipo de {@fill=#ff0}poder especial{@fill=#fff}...',
+                "<25>* não é sua responsabilidade fazer a coisa certa?",
+                choicer.create('* (O que você acha?)', 'Sim', 'Não')
             ],
-            jspeech5b3a: ['<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* i see.'],
+            jspeech5b3a: ['<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* eu entendo.'],
             jspeech5b3b: [
                 '<25>{#p/sans}{#f/4}* heh.',
-                "<25>{#f/0}* well, that's your viewpoint.",
-                "<25>{#f/2}* i won't judge you for it."
+                "<25>{#f/0}* bem, esse é seu ponto de vista.",
+                "<25>{#f/2}* não vou te julgar por isso."
             ],
             jspeech5b3c: ['<25>{#p/sans}{#f/3}* ...'],
 
             
             
-            jspeech5b4a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill my brother?"],
-            jspeech5b4b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty brother killer.'],
-            jspeech5b5a: ["<25>{#p/sans}{#f/3}* ... guess toriel wasn't worth the effort, then, huh?"],
-            jspeech5b5b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to toriel.'],
-            jspeech5b6a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill all those people?"],
-            jspeech5b6b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty serial killer.'],
-            jspeech5b7a: ["<25>{#p/sans}{#f/3}* ... guess undyne wasn't worth the effort, then, huh?"],
-            jspeech5b7b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to undyne.'],
-            jspeech5b8a: ["<25>{#p/sans}{#f/3}* ... guess mettaton wasn't worth the effort, then, huh?"],
-            jspeech5b8b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to mettaton.'],
-            jspeech5b9a: ["<25>{#p/sans}{#f/3}* ... guess the people you killed don't matter, then, huh?"],
-            jspeech5b9b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to those people.'],
-            jspeech5b10a: ["<25>{#p/sans}{#f/3}* ... guess the person you killed don't matter, then, huh?"],
-            jspeech5b10b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to that person.'],
+            jspeech5b4a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... então por que você matou meu irmão?"],
+            jspeech5b4b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... seu assassino de irmãos.'],
+            jspeech5b5a: ["<25>{#p/sans}{#f/3}* ... acho que a toriel não valia o esforço, então?"],
+            jspeech5b5b: ['<25>{#p/sans}{#f/3}* ... mesmo que eu devesse, depois do que você fez com toriel.'],
+            jspeech5b6a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... então por que você matou o meu irmão?"],
+            jspeech5b6b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... seu assassino maldito.'],
+            jspeech5b7a: ["<25>{#p/sans}{#f/3}* ... acho que undyne não valia o esforço, então?"],
+            jspeech5b7b: ['<25>{#p/sans}{#f/3}* ... mesmo que eu desse, depois do que você fez com a undyne.'],
+            jspeech5b8a: ["<25>{#p/sans}{#f/3}* ... acho que Mettaton não valia o esforço, então?"],
+            jspeech5b8b: ['<25>{#p/sans}{#f/3}* ... mesmo que eu devesse, depois do que você fez com o mettaton.'],
+            jspeech5b9a: ["<25>{#p/sans}{#f/3}* ... acho que a pessoa que você matou não importava, então?"],
+            jspeech5b9b: ['<25>{#p/sans}{#f/3}* ... mesmo que eu devesse, depois do que você fez.'],
+            jspeech5b10a: ["<25>{#p/sans}{#f/3}* ... acho que a pessoa que você matou não importava, então?"],
+            jspeech5b10b: ['<25>{#p/sans}{#f/3}* ... mesmo que eu devesse, após o que você fez.'],
 
             
             jspeech6a: [
-                '<25>{#p/sans}{#f/4}* huh?\n* you look bored.',
-                "<25>* i get the feeling you aren't gonna learn anything from this.",
-                '<25>{#f/0}* well, guess i gotta judge you then.'
+                '<25>{#p/sans}{#f/4}* huh?\n* você parece entediado.',
+                "<25>* eu tenho a sensação de que você não vai aprender nada com isso.",
+                '<25>{#f/0}* bem, acho que eu vou te julgar então.'
             ],
 
             
             jspeech6b1: [
-                '<26>{#p/sans}* lv2...\n* seems like you messed\n  up the slightest amount.',
-                "<25>{#f/4}* welp.\n* that's pretty sad.",
-                "<25>{#f/3}* you probably weren't even aware of what you were doing...",
-                '<25>* and when you learned, it was too late.',
-                '<25>{#f/2}* nah, just kidding.',
-                '<25>{#f/4}* who gets to lv2 on accident?\n* get outta here.'
+                '<26>{#p/sans}* lv2...\n* parece que você ferrou tudo da maneira mais mínima possível.',
+                "<25>{#f/4}* bem.\n* isso foi bem triste.",
+                "<25>{#f/3}* você provavelmente nem sabia o que estava fazendo...",
+                '<25>* e quando entendeu, já era tarde.',
+                '<25>{#f/2}* nah, brincadeira.',
+                '<25>{#f/4}* quem chega no lv2 por acidente?\n* mete o pé daqui.'
             ],
 
             jspeech6b2: [
-                '<25>{#p/sans}* lv3...\n* not bad.',
-                "<25>{#f/4}* three's not such a scary number, is it?",
-                "<25>{#f/0}* i'll give you a pass.",
-                '<25>{#f/3}* but, hey...',
-                '<25>{#f/2}* you could still do better, right?'
+                '<25>{#p/sans}* lv3...\n* nada mal.',
+                "<25>{#f/4}* três não é um número muito assustador, é?",
+                "<25>{#f/0}* eu vou te deixar passar.",
+                '<25>{#f/3}* mas, ei...',
+                '<25>{#f/2}* você pode fazer melhor, certo?'
             ],
 
             jspeech6b3: [
                 '<25>{#p/sans}* lv4...\n* huh.',
-                '<25>{#f/4}* i mean, what can i say?',
-                "<25>{#f/0}* if it were any higher, i'd think you'd killed people on purpose.",
-                "<25>{#f/3}* but i guess i'll give you a pass.",
-                '<25>{#f/2}* just this once.'
+                '<25>{#f/4}* quer dizer, o que eu posso falar?',
+                "<25>{#f/0}* se fosse mais alto que isso, eu pensaria que você estava matando pessoas de propósito.",
+                "<25>{#f/3}* mas eu acho que vou te deixar passar.",
+                '<25>{#f/2}* só dessa vez.'
             ],
 
             jspeech6b4: [
                 '<25>{#p/sans}{#f/4}* lv5?',
-                "<25>{#f/0}* now that's dangerous territory right there.",
-                '<25>{#f/4}* believe me, i wanna give you the benefit of the doubt...',
-                '<25>{#f/0}* but that gets harder and harder to do the higher this goes.',
-                '<25>{#f/3}* ... oh well.'
+                "<25>{#f/0}* isso é um verdadeiro território perigoso.",
+                '<25>{#f/4}* acredite em mim, eu quero te dar o direito da dúvida...',
+                '<25>{#f/0}* mas se torna muito difícil de fazer conforme você aumenta.',
+                '<25>{#f/3}* ... oh bem.'
             ],
 
             jspeech6b5: [
                 '<25>{#p/sans}{#f/4}* lv6?',
-                '<25>{#f/0}* humans often say six is a scary number.',
-                "<25>{#f/4}* now, i don't claim to be superstitious...",
-                "<25>{#f/0}* but i'd be lying if i said i wasn't suspicious.",
-                '<25>{#f/3}* ... oh well.'
+                '<25>{#f/0}* humanos normalmente dizem que seis é um número do mau.',
+                "<25>{#f/4}* agora, eu não quero ser supersticioso...",
+                "<25>{#f/0}* mas eu estaria mentindo se eu dissesse que isso não é suspeito.",
+                '<25>{#f/3}* ... oh bem.'
             ],
 
             jspeech6b6: [
                 '<25>{#p/sans}{#f/4}* lv7, huh?',
-                "<25>* isn't that what humans call a lucky number?",
-                '<25>{#f/0}* well gee, i dunno about you, but...',
-                '<25>{#f/3}* i doubt much luck was involved in how you got to this point.',
-                '<25>{#f/0}* ... just saying.'
+                "<25>* não é esse o tal do número da sorte dos humanos?",
+                '<25>{#f/0}* bem, nossa, eu não sei sobre você, mas...',
+                '<25>{#f/3}* eu dúvido muito que a questão foi sorte quando se trata de chegar a esse ponto.',
+                '<25>{#f/0}* ... só dizendo.'
             ],
 
             jspeech6b7: [
                 '<25>{#p/sans}{#f/4}* lv8, huh?',
-                "<25>* don't humans use this number to predict the future or something?",
-                '<25>{#f/0}* well gee, i dunno about you, but...',
-                "<25>{#f/3}* that'd be a pretty good explanation for how you've been acting.",
-                '<25>{#f/0}* ... just saying.'
+                "<25>* os humanos não usam este humano para prever o futuro ou algo assim?",
+                '<25>{#f/0}* bem, nossa, eu não sei sobre você, mas...',
+                "<25>{#f/3}* isso explica bastante o motivo de você estar agindo assim.",
+                '<25>{#f/0}* ... só dizendo.'
             ],
 
             jspeech6b8: [
                 '<25>{#p/sans}{#f/3}* ... lv9.',
-                "<25>{#f/0}* that's pretty bad.",
-                '<25>{#f/3}* but hey, look on the bright side...',
-                "<25>{#f/2}* ... at least you're still in single-digits."
+                "<25>{#f/0}* isso passou o limite da desculpa.",
+                '<25>{#f/3}* mas ei, olhando pelo lado bom...',
+                "<25>{#f/2}* ... pelo menos você ainda está nos dígitos únicos."
             ],
 
             jspeech6b9: [
                 '<25>{#p/sans}{#f/3}* ... lv10.',
-                "<25>{#f/0}* that's pretty bad.",
-                '<25>{#f/3}* but hey, look on the bright side...',
-                "<25>{#f/2}* ... at least it's a nice, even number you can be proud of."
+                "<25>{#f/0}* isso passou o limite da desculpa.",
+                '<25>{#f/3}* mas ei, olhando pelo lado bom...',
+                "<25>{#f/2}* ... pelo menos é legal, um número do qual você deve se orgulhar."
             ],
 
             jspeech6b10: [
                 '<25>{#p/sans}{#f/3}* ... lv11.',
-                "<25>{#f/4}* or in gambler's terms, snake eyes.",
-                '<25>{#f/0}* truth be told, if i had a chance to re-roll the dice...',
-                "<25>{*}{#p/darksans}{#f/1}{#i/5}* I'd probably take it right about now.",
-                "<25>{#p/sans}{#f/3}* ... but that's just me."
+                "<25>{#f/4}* ou em termos de jogador, olhos de cobra.",
+                '<25>{#f/0}* verdade seja dita, se eu tivesse a chance de rolar o dado novamente...',
+                "<25>{*}{#p/darksans}{#f/1}{#i/5}* eu provavelmente faria isso agora mesmo.",
+                "<25>{#p/sans}{#f/3}* ... mas isso só sou eu."
             ],
 
             jspeech6b11: [
                 '<25>{#p/sans}{#f/3}* ... lv12.',
-                "<25>{#f/4}* or in timekeeper's terms, a full rotation.",
-                '<25>{#f/0}* truth be told, if i had a chance to turn back the clock...',
-                "<25>{*}{#p/darksans}{#f/1}{#i/5}* I'd probably take it right about now.",
-                "<25>{#p/sans}{#f/3}* ... but that's just me."
+                "<25>{#f/4}* ou, em termos de geometria, uma rotação completa.",
+                '<25>{#f/0}* verdade seja dita, se eu tivesse a chance de voltar no tempo com base na circunferência...',
+                "<25>{*}{#p/darksans}{#f/1}{#i/5}* eu provavelmente faria isso agora mesmo.",
+                "<25>{#p/sans}{#f/3}* ... mas isso só sou eu."
             ],
 
             jspeech6b12: [
                 '<25>{#p/sans}{#f/3}* ... lv13.',
-                "<25>{#f/4}* or in baker's terms, a dozen.",
-                '<25>{#f/0}* truth be told, if i had a chance to start bakery-fresh...',
-                "<25>{*}{#p/darksans}{#f/1}{#i/5}* I'd probably take it right about now.",
-                "<25>{#p/sans}{#f/3}* ... but that's just me."
+                "<25>{#f/4}* ou nos termos do padeiro, uma dúzia.",
+                '<25>{#f/0}* verdade seja dita, se eu tivesse a chance de assar esse pão de novo...',
+                "<25>{*}{#p/darksans}{#f/1}{#i/5}* eu provavelmente faria isso agora mesmo.",
+                "<25>{#p/sans}{#f/3}* ... mas isso só sou eu."
             ],
 
             jspeech6b13: [
                 '<25>{#p/sans}{#f/3}* ... lv14.',
-                "<25>{#f/4}* i'll be honest...",
-                "<25>{#f/0}* i didn't think you'd be able to kill that many people that quickly.",
-                '<25>{*}{#p/darksans}{#f/1}{#i/5}* Guess you learn something new every day.',
+                "<25>{#f/4}* eu vou ser sincero...",
+                "<25>{#f/0}* eu não pensei que você seria capaz de matar tantas pessoas tão rapidamente.",
+                '<25>{*}{#p/darksans}{#f/1}{#i/5}* acho que você aprende algo novo todo dia.',
                 '<25>{#p/sans}{#f/3}* ...'
             ],
 
             
             jspeech6c: [
-                '<25>{#p/sans}{#f/4}* huh?\n* you STILL look bored.',
-                '<25>{#f/0}* ok then, consider our session over.'
+                '<25>{#p/sans}{#f/4}* huh?\n* você ainda parece entediado.',
+                '<25>{#f/0}* tá bom, considere a sessão de terapia encerrada.'
             ],
 
             
             jspeech7: (funni: boolean) => [
                 '<25>{#p/sans}{#f/3}* ...',
-                '<25>{#f/0}* wait a second.',
-                '<25>{#f/4}* that look on your face while i was talking...',
-                "<25>{#f/0}* you've already heard my spiel, haven't you?",
-                '<25>{#f/3}* i suspected something like this.',
-                "<25>{#f/3}* you act like you know what's going to happen in advance sometimes.",
-                "<25>{#f/3}* like you've seen certain things before.",
-                '<25>{#f/0}* so... hey.',
-                "<25>{#f/0}* i've got a request for you.",
-                '<25>{#f/2}* i kind of have a {@fill=#ff0}secret codephrase{@fill=#fff} that only i would know.',
-                "<25>{#f/4}* so, i'll know that if someone tells it to me...",
-                "<25>{#f/0}* they'd have to be a time traveler.",
-                '<25>{#f/2}* crazy, right?',
-                '<25>{#f/3}* anyway, here it is...',
-                '<32>{#p/human}* (Sans whispered something to you.)',
-                "<25>{#p/sans}{#f/0}* i'm counting on you to come back here and tell me that.",
-                ...(funni ? ["<25>{#f/2}* i'll move you back behind the pillar now."] : ['<25>{#f/2}* see you... earlier.'])
+                '<25>{#f/0}* espera um pouco.',
+                '<25>{#f/4}* esse olhar no seu rosto enquanto eu falava...',
+                "<25>{#f/0}* você já escutou esse discurso, não é?",
+                '<25>{#f/3}* eu suspeitei no princípio.',
+                "<25>{#f/3}* você age como se já soubesse o que iria acontecer em antecipação.",
+                "<25>{#f/3}* como se você já tivesse visto certas coisas.",
+                '<25>{#f/0}* então... ei.',
+                "<25>{#f/0}* eu tenho um pedido pra você.",
+                '<25>{#f/2}* eu tenho um {@fill=#ff0}código secreto{@fill=#fff} que apenas eu sei.',
+                "<25>{#f/4}* então, eu saberia se alguém me contasse.",
+                "<25>{#f/0}* essa pessoa tem que ser um viajante no tempo.",
+                '<25>{#f/2}* loucura, né?',
+                '<25>{#f/3}* de toda forma, aí vai...',
+                '<32>{#p/human}* (Sans falou algo para você.)',
+                "<25>{#p/sans}{#f/0}* eu estou contando que você vai voltar no tempo e vir aqui me dizer.",
+                ...(funni ? ["<25>{#f/2}* eu vou para trás da pilastra agora."] : ['<25>{#f/2}* te vejo... mais cedo.'])
             ],
 
             
             jspeech8: (funni: boolean) => [
                 '<25>{#p/sans}{#f/3}* ...',
-                '<25>{#f/4}* huh?\n* do you have something to say to me?',
-                '<32>{#p/human}* (You told Sans the secret codephrase.)',
-                '<25>{#p/sans}{#f/2}* what? a codephrase?\n* can you speak a little louder?',
-                '<32>{#p/human}* (You told Sans the secret codephrase, but louder.)',
-                '<25>{#p/sans}{#f/0}* did you...',
-                '<25>{#f/4}* ... just say to \"reverse the polarity of the neutron flow?\"',
-                "<25>{#f/2}* wow.\n* i can't believe you would say that.",
-                '<25>{#f/4}* not only is that complete nonsense...',
-                "<25>{#f/2}* it's also my secret codephrase.",
-                '<25>{#f/0}* so... you really are a time traveler, huh?',
-                "<25>{#f/3}* well, alright.\n* i guess that means you're qualified.",
-                "<25>{#f/0}* here's the key to my room.",
-                '<32>{#p/human}* (The Skeleton Key was added to your keyring.)',
-                "<25>{#p/sans}{#f/0}* it's time...",
+                '<25>{#f/4}* huh?\n* você tem algo pra me dizer?',
+                '<32>{#p/human}* (Você disse para Sans o código secreto.)',
+                '<25>{#p/sans}{#f/2}* o quê? um código secreto?\n* da pra me contar isso um pouco mais alto?',
+                '<32>{#p/human}* (Você diz ao Sans o código secreto, porém mais alto.)',
+                '<25>{#p/sans}{#f/0}* você...',
+                '<25>{#f/4}* ... me disse para \"inverter a polaridade do fluxo de nêutrons?\"',
+                "<25>{#f/2}* wow.\n* eu não acredito que você disse isso.",
+                '<25>{#f/4}* não apenas isso não faz o menor sentido...',
+                "<25>{#f/2}* como também é meu código secreto.",
+                '<25>{#f/0}* então... você é um viajante do tempo, né?',
+                "<25>{#f/3}* bem, legal.\n* isso significa que você é qualificado.",
+                "<25>{#f/0}* aqui está a chave para meu quarto.",
+                '<32>{#p/human}* (A Chave de Esqueleto foi adicionada ao seu chaveiro.)',
+                "<25>{#p/sans}{#f/0}* é hora...",
                 ...(funni
-                    ? ['<25>{#f/2}* you walked back out from behind that pillar.']
-                    : ['<25>{#f/2}* you understood the {@fill=#003cff}real truth{@fill=#fff}.'])
+                    ? ['<25>{#f/2}* você saiu de trás daquele pilar.']
+                    : ['<25>{#f/2}* você entendeu a {@fill=#003cff}realidade{@fill=#fff}.'])
             ],
 
             
             jspeech9: (funni: boolean) => [
                 '<25>{#p/sans}{#f/3}* ...',
-                '<25>{#f/0}* wait a second.',
-                '<25>{#f/4}* that look on your face while i was talking...',
-                "<25>{#f/0}* you've already heard my spiel, haven't you?",
-                '<25>{#f/3}* i suspected something like this.',
-                "<25>{#f/3}* you act like you know what's going to happen in advance sometimes.",
-                "<25>{#f/3}* like you've seen certain things before.",
-                '<25>{#f/0}* so...',
-                '<25>{#f/0}* ... wait.\n* have you heard this before, too?',
-                '<25>{#f/3}* wow, you really ARE a time traveler.',
-                "<25>{#f/2}* guess there's not much else to say, then.",
-                '<32>{#s/equip}{#p/human}* (The Skeleton Key was added to your keyring.)',
-                ...(funni ? ['<25>{#p/sans}{#f/2}* ... apart from \"i\'ll move you back behind the pillar now.\"'] : [])
+                '<25>{#f/0}* espera um pouco.',
+                '<25>{#f/4}* esse olhar no seu rosto enquanto eu falava...',
+                "<25>{#f/0}* você já escutou esse discurso, não é?",
+                '<25>{#f/3}* eu suspeitei no princípio.',
+                "<25>{#f/3}* você age como se já soubesse o que iria acontecer em antecipação.",
+                "<25>{#f/3}* como se você já tivesse visto certas coisas.",
+                '<25>{#f/0}* então...',
+                '<25>{#f/0}* ... espera.\n* você já escutou isso antes também?',
+                '<25>{#f/3}* uau, você realmente é um viajante do tempo.',
+                "<25>{#f/2}* acho que não a muito mais para ser dito.",
+                '<32>{#s/equip}{#p/human}* (A Chave de Esqueleto foi adicionada ao seu chaveiro.)',
+                ...(funni ? ['<25>{#p/sans}{#f/2}* ... além de \"vou movê-lo de volta para trás do pilar agora.\"'] : [])
             ],
 
             
-            jspeech10a: ['<25>{#p/sans}{#f/0}* behind you.'],
+            jspeech10a: ['<25>{#p/sans}{#f/0}* atrás de você.'],
             jspeech10b: [
-                '<25>{#p/sans}* so this is it, huh?',
-                '<25>* this is where your journey ends?',
+                '<25>{#p/sans}* é isso então, huh?',
+                '<25>* é aqui que sua jornada acaba?',
                 '<25>{#f/3}* ...',
-                "<25>* look.\n* i don't know what asgore's going to do.",
-                "<25>{#f/0}* i had a talk with him about what you've done, but, chances are...",
-                "<25>{#f/0}* ... it won't be what you expect.",
-                '<25>* but, just think for a moment...',
-                "<25>* everything you've done up until now.",
-                '<25>* was it worth it?'
+                "<25>* olha.\n* eu não sei o que o asgore vai fazer.",
+                "<25>{#f/0}* eu conversei com ele sobre o que você fez, mas, as chances são...",
+                "<25>{#f/0}* ... que não será exatamente o que você espera.",
+                '<25>* mas, pense por um momento...',
+                "<25>* tudo que você fez até agora.",
+                '<25>* valeu a pena?'
             ],
             jspeech10c: [
-                "<25>{#p/sans}{#f/3}* i don't know what's going through your mind right now.",
-                "<25>{#f/0}* i mean, i can't even see your face.",
+                "<25>{#p/sans}{#f/3}* eu não sei o que se passa pela sua mente agora.",
+                "<25>{#f/0}* quer dizer, eu nem posso ver seu rosto.",
                 '<25>* ...',
-                "<25>{#f/3}* maybe that's for the best.",
-                '<25>{#f/0}* but i do know that for you to have done all this...',
-                '<25>* you had to have cared about us at some point, right?',
-                "<25>{#f/3}* ... i guess there's every chance that's not true.",
-                "<25>{#f/0}* still, people don't just act like this towards strangers.",
-                "<25>* i'll bet somewhere, deep down, you really do care about us.",
-                '<25>* you certainly cared enough to make it this far, right?'
+                "<25>{#f/3}* talvez isso seja para o melhor.",
+                '<25>{#f/0}* mas eu sei que após tudo isso que você fez...',
+                '<25>* em algum ponto, você deve ter se importado conosco, certo?',
+                "<25>{#f/3}* ... eu sei que existe a chance de isso nem ser verdade.",
+                "<25>{#f/0}* ainda assim, ninguém age dessa forma com estranhos por motivo nenhum.",
+                "<25>* eu sei que em algum lugar, lá no fundo, você realmente se importou com a gente.",
+                '<25>* você se importou, se não nem teria chegado tão longe assim, correto?'
             ],
             jspeech10d: [
-                '<25>{#p/sans}{#f/3}* i know. the whole \"appeal to emotion\" isn\'t really my style.',
-                '<25>{#f/0}* but what else am i supposed to do?',
-                '<25>* when someone goes as far as you have...',
-                "<25>* intimidation just doesn't seem appropriate anymore.",
-                "<25>{#f/3}* so i'm trying something different.",
+                '<25>{#p/sans}{#f/3}* eu sei que. toda essa coisa de \"apego a emoção\" não é muito comigo.',
+                '<25>{#f/0}* mas o que mais eu posso dizer?',
+                '<25>* quando alguém vai tão longe como você...',
+                "<25>* intimidar só não parece mais apropriado.",
+                "<25>{#f/3}* então eu estou tentando algo diferente.",
                 '<25>{#f/0}* ...',
-                '<25>{#f/3}* now.\n* if this is really how it ends...',
-                '<25>* so be it.',
-                "<25>{#f/0}* kindness isn't exactly your thing, and i get that.",
-                "<25>* but if, by chance, you've got a {@fill=#ff0}certain power{@fill=#fff}...",
-                '<25>* then why not?',
-                '<25>* just this once, just at the end...',
-                '<25>{#f/3}* just be kind.',
+                '<25>{#f/3}* agora.\n* se realmente tudo vai acabar assim...',
+                '<25>* que seja.',
+                "<25>{#f/0}* bondade simplesmente não é sua parada, e eu entendi.",
+                "<25>* mas, se por qualquer chance você tem um {@fill=#ff0}certo poder{@fill=#fff}...",
+                '<25>* por que não?',
+                '<25>* só dessa vez, no fim de tudo...',
+                '<25>{#f/3}* seja bom.',
                 '<25>* ...',
-                '<25>{#f/3}* well.',
-                "<25>{#f/3}* that's all."
+                '<25>{#f/3}* bem.',
+                "<25>{#f/3}* isso é tudo."
             ],
 
             choice0: () => [
                 ...(SAVE.data.n.state_foundry_undyne === 0 && !world.badder_lizard
                     ? [
-                        '<25>{#p/alphys}{#g/alphysCutscene1}* You made it!',
-                        '<25>{#g/alphysCutscene2}* ...\n* So this is Archive Six.',
-                        '<25>{#f/15}* Ever since it was built, the humans have been guided here...',
-                        '<25>{#f/15}* Held in stasis...',
-                        '<25>{#f/15}* In a time-accelerated virtual world...',
-                        "<25>{#f/10}* ... isn't it awesome!?",
-                        "<25>{#f/1}* It's incredible what Professor Roman was able to achieve!",
-                        "<25>{|}{#f/15}* Like, I don't know if he's into sci-fi anime, but there's this one {%}",
-                        '<99>{|}{#f/15}  about a movie where you\n  have to put on virtual\n  reality goggles to {%}',
-                        '<99>{|}{#f/23}  watch it but everyone\n  who does gets trapped\n  in the movie world and {%}',
-                        '<99>{|}{#f/23}  they all have to figure\n  out how to advance the\n  plot to escape and {%}',
-                        '<99>{|}{#f/18}  the main character\n  figures out how to get\n  to the end and they do {%}',
-                        '<99>{|}{#f/18}  and then they set\n  everyone free!!!',
+                        '<25>{#p/alphys}{#g/alphysCutscene1}* você chegou!',
+                        '<25>{#g/alphysCutscene2}* ...\n* Este é o Arquivo Seis.',
+                        '<25>{#f/15}* Desde que foi construído, os humanos foram guiados até aqui...',
+                        '<25>{#f/15}* Mantido em estase...',
+                        '<25>{#f/15}* Em um tempo acelerado de mundo virtual...',
+                        "<25>{#f/10}* ... não é legal?",
+                        "<25>{#f/1}* É incrível o que o Professor Roman conseguiu alcançar!",
+                        "<25>{|}{#f/15}* Tipo, eu não sei se ele gosta de anime sci-fi, mas tem este um {%}",
+                        '<99>{|}{#f/15}  em que você tinha que colocar óculos de realidade virtual para {%}',
+                        '<99>{|}{#f/23} assista, mas todos\n  quem fica preso\n  no mundo do cinema e {%}',
+                        '<99>{|}{#f/23} todos eles têm que descobrir\n  como avançar o\n  plot para escapar e {%}',
+                        '<99>{|}{#f/18} o personagem principal\n  descobre como chegar\n  até o fim e eles fazem {%}',
+                        '<99>{|}{#f/18} e então eles conseguem deixar\n  todos livres!!!',
                         '<25>{#f/18}* ...',
-                        '<25>{#f/20}* So, uh, I think he was inspired by that.',
-                        "<25>{#f/18}* A-anyway!!\n* Asgore's waiting for you at the force field!"
+                        '<25>{#f/20}* Então, uh, eu acho que eles foram inspirados por isso.',
+                        "<25>{#f/18}* B-bem!!\n* Asgore estará te esperando no escudo de força!"
                     ]
                     : [
-                        '<25>{#p/alphys}{#g/alphysCutscene1}* You made it!',
+                        '<25>{#p/alphys}{#g/alphysCutscene1}* você chegou!',
                         '<25>{#g/alphysCutscene2}* ...',
-                        "<25>{#g/alphysSmileSweat}* W-well, Asgore's waiting for you at the force field."
+                        "<25>{#g/alphysSmileSweat}* B-bem, Asgore está te esperando no escudo de força."
                     ]),
-                '<25>{#g/alphysNeutralSweat}* In... case you were wondering.',
-                "<25>{#g/alphysOhGodNo}* But, if you weren't!!\n* Then...",
-                "<25>{#g/alphysTheFactIs}* I'm... not sure why you're here.",
-                "<26>{#g/alphysCutscene2}* So yeah.\n* That's about it, really."
+                '<25>{#g/alphysNeutralSweat}* Caso... você esteja se perguntando.',
+                "<25>{#g/alphysOhGodNo}* Mas, caso não!!\n* Então...",
+                "<25>{#g/alphysTheFactIs}* Eu... não sei porque você está aqui.",
+                "<26>{#g/alphysCutscene2}* Então é.\n* É sobre isso!"
             ],
-            choice0x: ["<25>{#p/alphys}{#g/alphysCutscene2}* Uh, I'll just be over here for now."],
-            choice0y: ['<25>{#p/alphys}{#g/alphysInquisitive}* Having second thoughts...?'],
+            choice0x: ["<25>{#p/alphys}{#g/alphysCutscene2}* Uh, eu só vou ficar por aqui, agora."],
+            choice0y: ['<25>{#p/alphys}{#g/alphysInquisitive}* Tendo dúvidas...?'],
             choice1: [
-                '<26>{#p/asgore}{#f/1}* This is the force field.',
-                '<25>{#f/2}* It is what keeps us trapped on the outpost.',
-                '<25>{#f/1}* An unthinking, unfeeling boundary...',
-                '<25>{#f/2}* Through which nobody, monster or otherwise, may pass.'
+                '<26>{#p/asgore}{#f/1}* Este é o Escudo de Força.',
+                '<25>{#f/2}* Isso é o que nos mantém presos no Outpost.',
+                '<25>{#f/1}* Um limite irrefletido, insensível...',
+                '<25>{#f/2}* Que ninguém, monstro ou qualquer outro, consegue passar.'
             ],
             choice1a: () => [
-                '<25>{#p/asgore}{#f/1}* For many years, I lamented that we would never reach the stars.',
-                '<25>* I feared that, one day, a human would arrive and doom us all.',
+                '<25>{#p/asgore}{#f/1}* Por anos eu pensei que jamais iríamos chegar as estrelas.',
+                '<25>* Eu temia que, um dia, um humano apareceria e mataria a todos nós.',
                 ...(world.bad_robot || world.trueKills > 29
                     ? [
                         '<25>{#f/1}* ...',
-                        '<25>{#f/2}* It seems... this fear was justified.',
-                        '<25>{#f/3}* Alphys has already informed me of your... violent tendencies.',
+                        '<25>{#f/2}* E parece... que o medo foi justificado.',
+                        '<25>{#f/3}* Alphys já me informou das suas... tendências violentas.',
                         ...(world.alphys_percieved_kills < 20
-                            ? ['<25>{#f/2}* Though, she did say you spared plenty of our kind as well.']
+                            ? ['<25>{#f/2}* Mas, ela disse que você também poucos muitos do nosso povo.']
                             : [
-                                '<25>{#f/16}* ...\n* Tell me, young one.',
-                                '<25>{#f/12}* Did it begin as self- defense, and devolve into something worse?',
-                                '<25>{#f/12}* Or was this your plan from the start?'
+                                '<25>{#f/16}* ...\nDiga-me, pequeno.',
+                                '<25>{#f/12}* Aquilo começou como defesa pessoal e se desenvolveu para algo pior?',
+                                '<25>{#f/12}* Ou este era seu plano desde o início?'
                             ]),
                         '<25>{#f/5}* ...',
-                        '<26>{#f/16}* Regardless.\n* You place me in a difficult position.',
-                        '<25>{#f/15}* To trust you with our one key to freedom...',
-                        '<25>{#f/16}* Or to take your SOUL by force, and enter the archive myself.',
+                        '<26>{#f/16}* Desta forma.\n* Você me põe em uma posição difícil.',
+                        '<25>{#f/15}* Acreditar a você nossa única chave para a liberdade...',
+                        '<25>{#f/16}* Ou tomar sua ALMA por força e entrar no arquivo por conta própria.',
                         '<25>{#f/3}* ...',
                         ...(world.alphys_percieved_kills < 20
                             ? [
-                                '<25>{#f/3}* As terrible as you may have been, I do not wish to harm you.',
-                                '<25>{#f/4}* You could have been far worse to us...',
-                                '<25>{#f/2}* ... yet you were not.',
-                                '<25>{#f/1}* It would be wrong to assume that you are irredeemable.',
-                                '<25>{#f/2}* You may simply be a very frightened young child.'
+                                '<25>{#f/3}* Por mais terrível que isso possa parecer, eu não quero te alarmar.',
+                                '<25>{#f/4}* Você poderia ter sido muito pior para nós...',
+                                '<25>{#f/2}* ... ainda assim, você não foi.',
+                                '<25>{#f/1}* Seria errado admitir que não a volta para você.',
+                                '<25>{#f/2}* Você talvez seja apenas uma criança que decidiu lutar pela vida.'
                             ]
-                            : ['<25>{#f/3}* Words cannot express how unfortunate this situation has become.'])
+                            : ['<25>{#f/3}* As palavras não podem explicar o quão infeliz é está situação.'])
                     ]
                     : (world.bad_lizard > 0 && world.alphys_percieved_kills > 0) || 2 <= world.alphys_percieved_kills
                         ? [
                             '<25>{#f/1}* ...',
-                            '<25>{#f/1}* All things considered, you have behaved well.',
+                            '<25>{#f/1}* Com tudo sido considerado, você se comportou bem.',
                             ...(world.bad_lizard > 0
-                                ? ["<25>{#f/2}* Though, Alphys did mention that you've... taken lives."]
-                                : ['<25>{#f/2}* Though, Alphys did mention that you might have... taken lives.']),
+                                ? ["<25>{#f/2}* Mesmo que a Alphys tenha mencionado que você... tomou vidas."]
+                                : ['<25>{#f/2}* Alphys mencionou que você talvez... tenha tomado vidas.']),
                             '<25>{#f/3}* ...',
                             ...(SAVE.data.b.ultrashortcut
                                 ? [
-                                    '<25>{#f/3}* It is fortunate you were captured and delivered here quickly.',
-                                    '<25>{#f/2}* The outpost can be a dangerous place, as I am sure you are aware.',
-                                    '<25>{#f/5}* However, now that you are here, you will be protected.'
+                                    '<25>{#f/3}* É bom que você tenha sido capturado e trago para cá rapidamente.',
+                                    '<25>{#f/2}* O Outpost pode ser perigoso, como tenho certeza que você está ciente.',
+                                    '<25>{#f/5}* Entretanto, agora que você está aqui, será protegido.'
                                 ]
                                 : [
-                                    '<25>{#f/3}* I only have myself to blame for this.',
-                                    '<25>{#f/2}* My keeping of secrets has made it difficult to escort you quickly.',
-                                    "<25>{#f/5}* Especially since this is Alphys's first time doing this."
+                                    '<25>{#f/3}* Eu sou o único que deve ser culpado por isso.',
+                                    '<25>{#f/2}* Manter meus segredos tornou difícil te escoltar até aqui.',
+                                    "<25>{#f/5}* Especialmente por essa ser a primeira vez da Alphys fazendo isso."
                                 ]),
                             '<25>{#f/15}* ...',
-                            '<25>{#f/16}* The archive lies ahead of you now.',
-                            '<26>{#f/1}* The other human\n  children all chose to enter the archive, so...',
-                            '<25>* ... now, it is now your turn to make that same choice.'
+                            '<25>{#f/16}* O arquivo está a frente de você agora.',
+                            '<26>{#f/1}* Todas as outras crianças humanas decidiram entrar no arquivo, então...',
+                            '<25>* ... agora, é a sua vez de tomar está decisão.'
                         ]
                         : [
-                            '<25>{#f/1}* Then, one by one, the children of earth came.',
-                            '<25>* All were anxious.\n* All faced challenges on their journeys here.',
-                            '<26>{#f/6}* But, deep down, they let their brightest traits shine through.',
-                            '<25>* The patient, and the brave.',
-                            '<25>* The truth-teller and the survivor.',
-                            '<25>{#f/2}* The kind one...',
-                            '<25>{#f/4}* And the one who sought justice above all.',
-                            '<25>{#f/1}* When given the choice to stay, or to enter the archive...',
-                            '<25>* They all eventually chose the latter.',
+                            '<25>{#f/1}* Então, uma por uma, as crianças da terra vieram.',
+                            '<25>* Todas estavam ansiosos.\n* Todas enfrentaram desafios em suas jornadas aqui.',
+                            '<26>{#f/6}* Mas, no fundo, eles deixaram transparecer seus traços mais brilhantes.',
+                            '<25>* O paciente, o corajoso.',
+                            '<25>* O verdadeiro, o sobrevivente.',
+                            '25>{#f/2}* O bondoso...',
+                            '<25>{#f/4}* E aquele que desejava justiça acima de tudo.',
+                            '<25>{#f/1}* Quando dada a chance para ficar, ou entrar no arquivo...',
+                            '<25>* Eles eventualmente escolheram a segunda opção.',
                             ...(SAVE.data.b.ultrashortcut
                                 ? [
-                                    '<25>{#f/5}* ... now, regardless of the circumstances in which you arrived...',
-                                    '<25>{#f/1}* It is your turn to make that same choice.'
+                                    '<25>{#f/5}* ... agora, remetente as circunstâncias as quais você chegou...',
+                                    '<25>{#f/1}* É sua vez de fazer a mesma escolha.'
                                 ]
-                                : ['<25>* ... now, it is your turn to make that same choice.'])
+                                : ['<25>* ... agora, se tornou a sua vez de fazer a mesma escolha.'])
                         ])
             ],
             choice1b: () =>
                 world.bad_robot || world.trueKills > 29
                     ? [
-                        '<25>{#p/asgore}{#f/1}* In any case, I cannot ask you to enter the archive.',
-                        '<25>{#f/2}* It would be unrealistic to expect you to take such a responsibility.',
+                        '<25>{#p/asgore}{#f/1}* Em todo caso, eu não posso te pedir para entrar no arquivo.',
+                        '<25>{#f/2}* Seria tolo da minha parte esperar que você tomasse tal responsabilidade.',
                         '<25>{#f/5}* ...',
-                        '<25>{#f/5}* Return to my home.',
-                        '<25>{#f/5}* I will decide what to do with you later.'
+                        '<25>{#f/5}* Retorne para minha casa.',
+                        '<25>{#f/5}* Eu decidirei seu destino mais tarde.'
                     ]
                     : [
                         [
-                            '<25>{#p/asgore}{#f/6}* As the last to enter, you would act as a vessel.',
-                            "<25>* Borrowing the others' SOUL power as your own.",
-                            '<26>* With all powers combined, you will\n  destroy the force field.',
-                            '<25>* Then...',
-                            '<25>* Monsterkind will search for a new home planet.',
-                            '<25>{#f/1}* ... however.',
-                            '<25>* If you do not want such a responsibility...',
-                            '<25>* You may stay with us on the outpost until you change your mind.',
-                            '<25>{#f/6}* Whatever you decide, I will support you.',
+                            '<25>{#p/asgore}{#f/6}* Como o último a entrar, você agiria como um embarcador.',
+                            "<25>* Trazendo todas as outras ALMAS com seus poderes para si.",
+                            '<26>* Com todos os poderes combinados, você irá destruir o escudo de força.',
+                            '<25>* Então...',
+                            '<25>* A população monstro finalmente irá procurar por um novo planeta para chamar de casa.',
+                            '<25>{#f/1}* ... entretanto.',
+                            '<25>* Se você não deseja tal responsabilidade...',
+                            '<25>* Você deve ficar conosco no Outpost até mudar de ideia.',
+                            '<25>{#f/6}* Seja lá o que você decidir, eu irei apoiar.',
                             '<25>{#f/1}* ...',
-                            '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            '<25>* Você entrará no arquivo?',
+                            choicer.create('* (O que você acha?)', 'Sim', 'Não')
                         ],
                         [
-                            '<26>{#p/asgore}{#f/6}* I see you have returned.',
+                            '<26>{#p/asgore}{#f/6}* Vejo que você voltou.',
                             '<25>{#f/1}* ...',
-                            '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            '<25>* Você entrará no arquivo?',
+                            choicer.create('* (O que você acha?)', 'Sim', 'Não')
                         ],
                         [
                             '<25>{#p/asgore}{#f/1}* ...',
-                            '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            '<25>* Você entrará no arquivo?',
+                            choicer.create('* (O que você acha?)', 'Sim', 'Não')
                         ]
                     ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
             choice2a: [
                 '<25>{#p/asgore}{#f/4}* ...',
-                '<25>{#f/6}* Follow me, young one.',
-                '<25>{#f/21}* There is much to do.'
+                '<25>{#f/6}* Me siga, pequeno.',
+                '<25>{#f/21}* A muito para ser feito.'
             ],
             choice2b: () =>
                 [
                     [
-                        '<25>{#p/asgore}{#f/2}* ... I understand.',
-                        '<25>{#f/1}* Perhaps it was wrong of me to assume you would be like the others.',
+                        '<25>{#p/asgore}{#f/2}* ... eu entendo.',
+                        '<25>{#f/1}* Talvez eu tenha errado em acreditar que você seria como os outros.',
                         SAVE.data.b.ultrashortcut
-                            ? '<25>{#f/5}* You did arrive quickly, and I have done little to earn your trust.'
-                            : '<25>{#f/5}* You may not be ready, and I have done little to earn your trust.',
-                        '<25>{#f/1}* If you change your mind, you may return to me here...',
-                        '<25>{#f/2}* Otherwise, I shall not press you further.'
+                            ? '<25>{#f/5}* Você chegou muito rápido e eu fiz pouco para merecer sua confiança.'
+                            : '<25>{#f/5}* Você talvez não esteja pronto, e eu fiz pouco para ganhar sua confiança.',
+                        '<25>{#f/1}* Se você mudar de ideia, deve retornar até mim...',
+                        '<25>{#f/2}* Eu não irei pressiona-lo.'
                     ],
-                    ['<25>{#p/asgore}{#f/2}* ... I understand.']
+                    ['<25>{#p/asgore}{#f/2}* ... eu entendo.']
                 ][Math.min(SAVE.data.n.state_citadel_refuse++, 1)],
-            choice3a: ['<25>{#p/asgore}{#f/6}* It is time.'],
+            choice3a: ['<25>{#p/asgore}{#f/6}* É a hora.'],
             choice4a: ['<25>{#p/asgore}{#f/5}* Alphys?'],
             choice4b: [
-                '<25>{#p/alphys}{#g/alphysOhGodNo}* Uh, y-yeah!\n* Sorry!',
-                '<25>{#p/alphys}{#g/alphysCutscene3}* Just getting everything ready and all...'
+                '<25>{#p/alphys}{#g/alphysOhGodNo}* Uh, c-certo! \n* Desculpa!',
+                '<25>{#p/alphys}{#g/alphysCutscene3}* só deixando tudo pronto e tals...'
             ],
-            choice5: ['<25>{#p/alphys}{#g/alphysCutscene2}* There.\n* We should be set for the procedure.'],
-            choice6a: ["<25>{#p/alphys}{#g/alphysWelp}* Okay, looks like they're in the system."],
+            choice5: ['<25>{#p/alphys}{#g/alphysCutscene2}* Pronto.\n* Nós estamos prontos para o proceder.'],
+            choice6a: ["<25>{#p/alphys}{#g/alphysWelp}* Okay, parece que ele está no sistema."],
             choice6b: [
-                "<25>{#p/asgore}{#f/6}* Don't worry.",
-                '<25>{#p/asgore}{#f/7}* When this archive was created...',
-                '<25>{#p/asgore}{#f/6}* We made sure to provide the ideal environment for the humans.',
-                '<25>{#p/asgore}{#f/21}* Lush forests, rolling hills, rivers as far as the eye can see...',
-                '<25>{#p/asgore}{#f/6}* All the trappings of a beautiful earth vista.',
-                '<25>{#p/asgore}{#f/4}* ... we are counting on you, young one.',
-                '<25>{#p/asgore}{#f/6}* Please, be safe, and do not take too long.'
+                "<25>{#p/asgore}{#f/6}* Não temas.",
+                '<25>{#p/asgore}{#f/7}* Quando o arquivo foi criado...',
+                '<25>{#p/asgore}{#f/6}* Nós tivemos certeza de prover o mundo ideal para os humanos.',
+                '<25>{#p/asgore}{#f/21}* Grandes florestas, colinas, rios tão longos quanto a visão dos olhos...',
+                '<25>{#p/asgore}{#f/6}* Todos os prazeres de uma linda vista de um mundo.',
+                '<25>{#p/asgore}{#f/4}* ... nós contamos contigo, pequeno.',
+                '<25>{#p/asgore}{#f/6}* Por favor, fique seguro, e não tome muito tempo.'
             ],
             choice7: [
-                "<32>{#p/basic}* Yeah, I'm still here...",
-                "<32>* ... though, I don't think I can follow you inside.",
-                '<33>* Subconscious and all that.',
-                "<32>* But whatever happens, I trust you'll do the right thing.",
+                "<32>{#p/basic}* É, eu ainda estou aqui...",
+                "<32>* ... mas, eu não acho que posso te seguir para dentro.",
+                '<33>* Subconsciente e toda essa coisa.',
+                "<32>* Mas seja lá o que acontecer, eu confio em você para fazer a coisa certa.",
                 '<32>* ...',
-                '<32>* Stay safe, alright?'
+                '<32>* Fique seguro, beleza?'
             ],
             choice8: [
                 '<25>{#p/asgore}{#f/1}* ...',
-                '<25>{#p/asgore}{#f/2}* So you have arrived.',
+                '<25>{#p/asgore}{#f/2}* Então você chegou.',
                 '<32>{#p/human}* (...)',
-                '<25>{#p/asgore}{#f/1}* ...\n* I suppose you would not have much to say.',
-                '<25>{#f/2}* Unlike myself, who has many questions to ask of you.',
-                '<25>{#f/4}* Yet, despite our differences...',
-                '<25>{|}{#f/7}* I still think we can- {%}'
+                '<25>{#p/asgore}{#f/1}* ...\n* Eu suponho que você não tenha muito para dizer.',
+                '<25>{#f/2}* Diferente da minha pessoa, da qual tem muito o que te questionar.',
+                '<25>{#f/4}* Assim, mesmo com nossas diferenças...',
+                '<25>{|}{#f/7}* Eu ainda acho que pode- {%}'
             ],
             
-            clover1: ["<32>{#p/human}{#v/6}{@fill=#faff29}* Isn't it pretty...?"],
+            clover1: ["<32>{#p/human}{#v/6}{@fill=#faff29}* Não é fantástica...?"],
             clover2: [
-                "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* Well, that's what he would have said, anyway.",
-                '<32>{@fill=#faff29}* Places like this were the norm here, once...',
-                '<32>{@fill=#faff29}* ... before I arrived and ruined it all.',
-                '<32>{@fill=#faff29}* My bionic implant gave us top- level access to the system.',
-                '<32>{@fill=#faff29}* Anything we wanted, we could have... with a cost.',
-                "<32>{@fill=#faff29}* You've seen the aftermath.\n* You've been to every world we created here...",
-                "<32>{@fill=#faff29}* The XM you've gained is proof of that.",
-                '<32>{@fill=#faff29}* XM...\n* It\'s an acronym, of course.\n* It stands for \"exotic matter.\"',
-                "<32>{@fill=#faff29}* It's the stuff that links all of our SOULs together.",
-                "<32>{@fill=#faff29}* It's what you need to break the force field."
+                "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* Bem, isso é o que ele teria dito.",
+                '<32>{@fill=#faff29}* Lugares assim eram bem normais, eram...',
+                '<32>{@fill=#faff29}* ... antes de eu aparecer e arruinar tudo.',
+                '<32>{@fill=#faff29}* Meu implante biônico nos dá acesso máximo ao sistema.',
+                '<32>{@fill=#faff29}* Tudo que queríamos, poderíamos ter... com um custo.',
+                "<32>{@fill=#faff29}* Você viu o pós vida.\n* Você esteve em cada mundo que nós criamos...",
+                "<32>{@fill=#faff29}* O XM que você ganhou é a prova disso.",
+                '<32>{@fill=#faff29}* XM...\n* É um acrônimo, óbvio.\n* Ele significa \"Matéria eXótica.\"',
+                "<32>{@fill=#faff29}* É basicamente aquilo que une todas as nossas ALMAS.",
+                "<32>{@fill=#faff29}* É o que você precisa para quebrar o escudo de força."
             ],
             clover3: [
-                "<32>{#p/human}{#v/6}{@fill=#faff29}* I don't know if we'll be aware of what happened here.",
-                '<32>{@fill=#faff29}* This is only a subconscious realm, after all.',
-                '<32>{@fill=#faff29}* Still, even when a nightmare like ours comes to an end...',
-                '<32>{@fill=#faff29}* Is it ever truly forgotten?'
+                "<32>{#p/human}{#v/6}{@fill=#faff29}* Eu não sei se estaremos cientes do que aconteceu aqui.",
+                '<32>{@fill=#faff29}* Está é apenas uma terra no subconsciente, depois de tudo.',
+                '<32>{@fill=#faff29}* Ainda assim, mesmo quando pesadelos como os nossos chegam a um fim.',
+                '<32>{@fill=#faff29}* Da realmente para esquecer verdadeiramente?'
             ],
             clover4: () => [
-                "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* It's time for you to go.",
-                '<32>{@fill=#faff29}* You can find the exit terminal at the end of the prime pathway.',
+                "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* Está na hora de você ir.",
+                '<32>{@fill=#faff29}* Você pode encontrar o terminal de saída no final do caminho principal.',
                 ...(SAVE.data.b.oops
-                    ? ['<32>{@fill=#faff29}* ... take care...', '<32>{@fill=#faff29}* Got it?']
+                    ? ['<32>{@fill=#faff29}* ... cuide-se...', '<32>{@fill=#faff29}* Entendeu?']
                     : [
-                        '<32>{@fill=#faff29}* ... but before you go...',
-                        "<32>{@fill=#faff29}* Frisk?\n* That's your name, isn't it?",
-                        "<32>{@fill=#faff29}* Forgive me.\n* I couldn't help but wonder what was on your mind.",
-                        "<32>{@fill=#faff29}* ...\n* You're a good person, Frisk.",
-                        '<32>{@fill=#faff29}* And from what I can tell...',
-                        "<32>{@fill=#faff29}* So is the one who's been making all those choices for you.",
+                        '<32>{@fill=#faff29}* ... mas antes de você ir...',
+                        "<32>{@fill=#faff29}* Frisk?\n* Esse é seu nome, não é?",
+                        "<32>{@fill=#faff29}* Me perdoe.\n* Eu devo me perguntar o que se passa em sua mente.",
+                        "<32>{@fill=#faff29}* ...\n* Você é uma boa pessoa, Frisk.",
+                        '<32>{@fill=#faff29}* E pelo que eu consigo dizer...',
+                        "<32>{@fill=#faff29}* Assim é a pessoa que faz todas as escolhas por você.",
                         '<32>{@fill=#faff29}* ...',
-                        "<32>{@fill=#faff29}* Frisk and I won't remember this conversation, but there's a chance you might.",
-                        "<32>{@fill=#faff29}* If you're really out there somewhere, listening...",
-                        "<32>{@fill=#faff29}* ... don't forget about the lives we've led in this place.",
-                        "<32>{@fill=#faff29}* No matter the world, real or virtual, memories like ours don't deserve to be forgotten."
+                        "<32>{@fill=#faff29}* Frisk e eu não vamos lembrar dessa conversa, mas existe uma pequena chance.",
+                        "<32>{@fill=#faff29}* Se você realmente está aí fora, ouvindo...",
+                        "<32>{@fill=#faff29}* ... não esqueça das vidas que deixamos neste lugar.",
+                        "<32>{@fill=#faff29}* Não importa o mundo, real ou virtual, memórias como as nossas não merecem ser esquecidas."
                     ])
             ],
 
             smasher1: (haha: boolean) => [
-                "<25>{#p/alphys}{#g/alphysWelp}* I'll be waiting for you at the force field.",
+                "<25>{#p/alphys}{#g/alphysWelp}* Eu vou te esperar no escudo de força.",
                 ...(haha
                     ? [
-                        '<25>{#p/alphys}{#g/alphysFR}* ... also, I took the Mew Mew doll from you while you were asleep.',
-                        "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
+                        '<25>{#p/alphys}{#g/alphysFR}* ... aliás, eu peguei a boneca Mew Mew de você enquanto dormia.',
+                        "<25>{#p/alphys}{#g/alphysHellYeah}* Quem está rindo agora!"
                     ]
                     : !SAVE.data.b.failshow && SAVE.data.b.item_tvm_mewmew && !SAVE.data.b.mewget
                         ? ((SAVE.data.b.mewget = true),
                             [
-                                '<25>{#p/alphys}{#g/alphysFR}* ... also, I found the Mew Mew doll you let go of earlier.',
-                                "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
+                                '<25>{#p/alphys}{#g/alphysFR}* ... aliás, eu achei a boneca Mew Mew que você jogou fora antes.',
+                                "<25>{#p/alphys}{#g/alphysHellYeah}* Quem está rindo agora!"
                             ])
                         : [])
             ],
-            smasher2: ['<25>{*}{#p/alphys}{#g/alphysSmileSweat}* Ready?{^40}{%}'],
+            smasher2: ['<25>{*}{#p/alphys}{#g/alphysSmileSweat}* Pronto?{^40}{%}'],
 
             bad1: () =>
                 [
                     world.bad_robot || world.trueKills > 29
                         ? world.alphys_percieved_kills < 20
                             ? [
-                                '<25>{*}{#p/twinkly}{#f/8}* Indecisive, eh Asgore?',
-                                '<25>{*}{#f/5}* I know.\n* Choices can be difficult sometimes.',
-                                "<25>{*}{#f/11}* But that's okay!",
-                                "<25>{*}{#f/7}* You won't have to make them anymore.",
-                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                                '<25>{*}* ... doing...',
-                                '<25>{*}{#p/twinkly}{#f/8}* Oh, nothing, Asgore...'
+                                '<25>{*}{#p/twinkly}{#f/8}* Indeciso, eh Asgore? ',
+                                '<25>{*}{#f/5}* Eu sei.\n* Escolhas podem ser difíceis.',
+                                "<25>{*}{#f/11}* Mas tudo bem!",
+                                "<25>{*}{#f/7}* Você não irá precisar fazer elas mais.",
+                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                                '<25>{*}* ... está fazendo...',
+                                '<25>{*}{#p/twinkly}{#f/8}* Ah, nada, Asgore...'
                             ]
                             : [
-                                '<25>{*}{#p/twinkly}{#f/5}* Golly, Asgore...',
-                                "<25>{*}{#f/11}* You could've killed them, and nobody would have complained.",
-                                "<25>{*}{#f/7}* But now, you've missed your chance.",
-                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                                '<25>{*}* ... doing...',
-                                "<25>{*}{#p/twinkly}{#f/5}* Killing people isn't THAT bad, Asgore...",
-                                '<25>{*}{#f/9}* You just have to learn how to have fun with it!'
+                                '<25>{*}{#p/twinkly}{#f/5}* Senhor, Asgore...',
+                                "<25>{*}{#f/11}* Você poderia tê-lo matado, e ninguém teria reclamado.",
+                                "<25>{*}{#f/7}* Mas agora, você perdeu sua chance.",
+                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                                '<25>{*}* ... está fazendo...',
+                                "<25>{*}{#p/twinkly}{#f/5}* Matar pessoas não é DE TODO mau, Asgore...",
+                                '<25>{*}{#f/9}* Você só precisa aprender a se divertir!'
                             ]
                         : SAVE.data.b.ultrashortcut
                             ? [
-                                '<25>{*}{#p/twinkly}{#f/5}* Well, well...',
-                                "<26>{*}{#f/11}* Weren't you clever to get here so quickly.",
-                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                                '<25>{*}* ... doing...',
-                                "<25>{*}{#p/twinkly}{#f/5}* Didja think you'd be able to slip past me that easily?",
-                                "<25>{*}{#f/7}* Don't be ridiculous."
+                                '<25>{*}{#p/twinkly}{#f/5}* Bem, bem...',
+                                "<26>{*}{#f/11}* Você foi bem para chegar aqui.",
+                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                                '<25>{*}* ... está fazendo...',
+                                "<25>{*}{#p/twinkly}{#f/5}* Cê realmente achou que fugiria de mim tão facilmente?",
+                                "<25>{*}{#f/7}* Não seja ridículo."
                             ]
                             : [
-                                '<25>{*}{#p/twinkly}{#f/5}* Howdy, Asgore.',
-                                "<26>{*}{#f/11}* There's a lot that needs done before we can save monsterkind.",
-                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                                '<25>{*}* ... doing...',
-                                '<25>{*}{#p/twinkly}{#f/5}* I know this came out of nowhere, but come on!',
-                                "<25>{*}{#f/7}* I'm only trying to have fun, Asgore."
+                                '<25>{*}{#p/twinkly}{#f/5}* Olá, Asgore.',
+                                "<26>{*}{#f/11}* Tem muito o que ser feito antes de podermos salvar os monstros.",
+                                '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                                '<25>{*}* ... está fazendo...',
+                                '<25>{*}{#p/twinkly}{#f/5}* Eu sei que isso veio do nada, mas qual foi!',
+                                "<25>{*}{#f/7}* Eu só estou tentando me divertir, Asgore."
                             ],
                     [
-                        "<25>{*}{#p/twinkly}{#f/7}* Like I'd ever let you escape so easily.",
+                        "<25>{*}{#p/twinkly}{#f/7}* Como se eu fosse deixar você escapar tão facilmente.",
                         SAVE.data.b.ultrashortcut
-                            ? '<25>{*}{#f/8}* Poor $(name)... always so eager to take the shortcuts in life...'
-                            : '<25>{*}{#f/8}* Poor $(name)... always so desperate to have things your way...',
-                        '<25>{*}{#f/5}* But not this time.',
-                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                        '<25>{*}* ... doing...',
-                        "<25>{*}{#p/twinkly}{#f/5}* From now on, I'll be the one calling the shots.",
-                        '<25>{*}{#f/7}* And you just have to live with it.'
+                            ? '<25>{*}{#f/8}* Pobre $(name)... sempre querendo pegar atalhos na vida...'
+                            : '<25>{*}{#f/8}* Pobre $(name)... sempre desesperado para ter as coisas do seu jeito...',
+                        '<25>{*}{#f/5}* Mas não dessa vez.',
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                        '<25>{*}* ... está fazendo...',
+                        "<25>{*}{#p/twinkly}{#f/5}* De agora em diante, eu serei quem vai decidir o futuro.",
+                        '<25>{*}{#f/7}* E você só vai ter que lidar com isso.'
                     ],
                     [
-                        '<25>{*}{#p/twinkly}{#f/11}* Come now, $(name)...',
-                        '<25>{*}{#f/5}* This resistance of yours is pointless!',
+                        '<25>{*}{#p/twinkly}{#f/11}* Vamos lá, $(name)...',
+                        '<25>{*}{#f/5}* Resistir é inútil!',
                         SAVE.data.b.ultrashortcut
-                            ? "<25>{*}{#f/7}* No matter how fast you try to go, I'll always be one step ahead."
-                            : "<25>{*}{#f/7}* No matter what you do, I'll always be one step ahead.",
-                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ... what are you...',
-                        '<25>{*}* ... doing...',
-                        "<25>{*}{#p/twinkly}{#f/5}* Shh... it's alright.",
-                        '<25>{*}{#f/5}* My friend $(name) here just needs to be taught a lesson.'
+                            ? "<25>{*}{#f/7}* Não importa o quão rápido você vá, eu sempre estarei um passo a frente."
+                            : "<25>{*}{#f/7}* Não importa o que você faça, eu sempre estarei um passo a frente.",
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ... o quê você...',
+                        '<25>{*}* ... está fazendo...',
+                        "<25>{*}{#p/twinkly}{#f/5}* Shh... tá tudo bem.",
+                        '<25>{*}{#f/5}* Meu amigo $(name) aqui precisa aprender uma lição.'
                     ]
                 ][Math.min(SAVE.flag.n.neutral_twinkly_loop1++, 2)],
             bad2: [
-                "<25>{*}{#g/twinklyNice}* ... by the way, my name's Twinkly.{^30}{%}",
-                '<25>{*}{#g/twinklySassy}* Twinkly the star.{^30}{%}'
+                "<25>{*}{#g/twinklyNice}* ... aliás, meu nome é Twinkly.{^30}{%}",
+                '<25>{*}{#g/twinklySassy}* Twinkly a estrela.{^30}{%}'
             ],
             bad3: ['<25>{*}{#p/asgore}{#g/asgoreBreak1}* AAAARGH...!{^999}'],
             bad4: [
-                "<25>{*}{#p/twinkly}{#g/twinklyWink}* Gosh, you're so cute when you're screaming in agony!{^30}{%}",
+                "<25>{*}{#p/twinkly}{#g/twinklyWink}* Nossa, você é tão fofo quando gritando em agonia!{^30}{%}",
                 '<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}'
             ],
-            bad5: ["<25>{*}{#p/twinkly}{#f/7}* Let's hear it again.{^20}{%}"],
+            bad5: ["<25>{*}{#p/twinkly}{#f/7}* Vamos ouvir de novo.{^20}{%}"],
             bad6: ['<25>{*}{#p/asgore}{#g/asgoreBreak2}* AAAAAAAARGH...!{^999}'],
-            bad7: ['<25>{*}{#p/twinkly}{#f/11}* And again!{^5}{%}'],
-            bad8: ['<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* And again!!!{^5}{%}'],
-            bad9: ['<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* AND AGAIN!!!{^5}{%}'],
-            bad10: ['<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* AND AGAIN!!!{^5}{%}'],
+            bad7: ['<25>{*}{#p/twinkly}{#f/11}* E de novo!{^5}{%}'],
+            bad8: ['<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* E de novo!!!{^5}{%}'],
+            bad9: ['<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* E DE NOVO!!!{^5}{%}'],
+            bad10: ['<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* E DE NOVO!!!{^5}{%}'],
             bad11: [
-                '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND {%}',
+                '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* E DE NOVO E DE NOVO E DE NOVO E DE NOVO E DE NOVO E DE NOVO E DE NOVO{%}',
                 '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* AAAAHAHAHAHAHAHAHAHAHAHAHAH\n  AHAHAHAHAHAHAHAHAHAHAHAHAHA\n  HAHAHAHAHAHAHAHAHAHAHAHAHAH{^20}{%}'
             ],
-            bad12: ['<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ... die.{^10}{%}'],
+            bad12: ['<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ... morra.{^10}{%}'],
             bad13: () => [
                 ...[
                     [
-                        '<99>{#p/twinkly}{#v/1}Hello, $(name).{^100}{%}',
-                        '<99>{#p/twinkly}{#v/1}Welcome to your new reality.{^100}{%}'
+                        '<99>{#p/twinkly}{#v/1}Olá, $(name).{^100}{%}',
+                        '<99>{#p/twinkly}{#v/1}Bem vindo a sua nova realidade.{^100}{%}'
                     ],
                     [
-                        '<99>{#p/twinkly}{#v/1}Welcome back, $(name).{^100}{%}',
-                        "<99>{#p/twinkly}{#v/1}It's good to see you here again.{^100}{%}"
+                        '<99>{#p/twinkly}{#v/1} Bem vindo de novo, $(name).{^100}{%}',
+                        "<99>{#p/twinkly}{#v/1}É bom te ver aqui novamente.{^100}{%}"
                     ],
                     [
                         '<99>{#p/twinkly}{#v/1}Oh, $(name)...{^100}{%}',
-                        '{#p/twinkly}{#v/1}How could you abandon me so.{^100}{%}'
+                        '{#p/twinkly}{#v/1}Como você pode me abandonar.{^100}{%}'
                     ]
                 ][Math.min(SAVE.flag.n.neutral_twinkly_loop2, 2)],
-                '<99>{#p/twinkly}{#v/1}Do you feel... alone?{^100}{%}',
-                '<99>{#p/twinkly}{#v/1}Do you feel... trapped?{^100}{%}',
+                '<99>{#p/twinkly}{#v/1}Você se sente... sozinho?{^100}{%}',
+                '<99>{#p/twinkly}{#v/1}Você se sente... preso?{^100}{%}',
                 '<99>{#p/twinkly}{#v/1}Hee hee hee...{^100}{%}',
-                "<99>{#p/twinkly}{#v/1}... there's no escape!{^100}{%}",
-                '<99>{#p/twinkly}{#v/1}Asgore\'s precious \"archive...\"{^100}{%}',
-                "<99>{#p/twinkly}{#v/1}I've brought it into the real world!{^100}{%}",
-                '<99>{#p/twinkly}{#v/1}All you can do is walk forward...{^100}{%}',
-                '<99>{#p/twinkly}{#v/1}Closer, and closer...{^100}{%}',
-                "<99>{#p/twinkly}{#v/1}... you aren't afraid, are you?{^100}{%}",
-                "<99>{#p/twinkly}{#v/1}You aren't going to run away?{^100}{%}",
-                '<99>{#p/twinkly}{#v/1}Good.{^100}{%}',
-                '<99>{#p/twinkly}{#v/1}Very good.{^100}{%}',
-                '<99>{#p/twinkly}{#v/1}You are a very good sibling.{^100}{%}',
+                "<99>{#p/twinkly}{#v/1}... não existe fuga!{^100}{%}",
+                '<99>{#p/twinkly}{#v/1}O precioso \"arquivo...\" do Asgore.{^100}{%}',
+                "<99>{#p/twinkly}{#v/1}Eu trouxe esse para o mundo real!{^100}{%}",
+                '<99>{#p/twinkly}{#v/1}Tudo que você pode fazer é seguir em frente...{^100}{%}',
+                '<99>{#p/twinkly}{#v/1}Próximo, mas próximo...{^100}{%}',
+                "<99>{#p/twinkly}{#v/1}... você não está com medo, está?{^100}{%}",
+                "<99>{#p/twinkly}{#v/1}Você não vai fugir?{^100}{%}",
+                '<99>{#p/twinkly}{#v/1}Bom.{^100}{%}',
+                '<99>{#p/twinkly}{#v/1}Muito bom.{^100}{%}',
+                '<99>{#p/twinkly}{#v/1}Você é um ótimo irmão.{^100}{%}',
                 '<99>{#p/twinkly}{#v/1}...{^100}{%}',
-                "<99>{#p/twinkly}{#v/1}You're almost there...!{^100}{%}",
-                '<99>{#p/twinkly}{#v/1}Just a little further, $(name)...{^100}{%}'
+                "<99>{#p/twinkly}{#v/1}Você está quase lá...!{^100}{%}",
+                '<99>{#p/twinkly}{#v/1}Só mais um pouco, $(name)...{^100}{%}'
             ],
             bad14: [
-                '<99>{#p/human}{#v/1}{@fill=#42fcff}Your long nightmare is over now.{^80}{%}',
-                '<99>{#p/human}{#v/2}{@fill=#ff993d}Your world will be restored!{^80}{%}',
-                '<99>{#p/human}{#v/3}{@fill=#003cff}But first, you must make a choice.{^80}{%}',
-                '<99>{#p/human}{#v/4}{@fill=#d535d9}Will you destroy what lies ahead?{^80}{%}',
-                '<99>{#p/human}{#v/5}{@fill=#00c000}Or will you show compassion?{^80}{%}',
-                '<99>{#p/human}{#v/6}{@fill=#faff29}The judgement is yours to make.{^80}{%}'
+                '<99>{#p/human}{#v/1}{@fill=#42fcff}Seu longo pesadelo acabou agora.{^80}{%}',
+                '<99>{#p/human}{#v/2}{@fill=#ff993d}Seu mundo será restaurado!{^80}{%}',
+                '<99>{#p/human}{#v/3}{@fill=#003cff}Mas antes, você precisa fazer uma escolha.{^80}{%}',
+                '<99>{#p/human}{#v/4}{@fill=#d535d9}Você destruirá o que está a frente?{^80}{%}',
+                '<99>{#p/human}{#v/5}{@fill=#00c000}Ou você terá piedade?{^80}{%}',
+                '<99>{#p/human}{#v/6}{@fill=#faff29}O julgamento é seu para fazer.{^80}{%}'
             ],
             bad15: [
                 [
                     '<99>{*}{#p/twinkly}...',
-                    '<99>{*}... what are you doing?',
-                    "<99>{*}Do you really think I've learned...",
-                    '<99>{*}... anything from this?',
-                    '<99>{*}No.'
+                    '<99>{*}... O quê você está fazendo?',
+                    "<99>{*}Você realmente acha que eu aprendi...",
+                    '<99>{*}... qualquer coisa com isso?',
+                    '<99>{*}Não.'
                 ],
-                ["<99>{*}{#p/twinkly}If you don't end this now...", "{*}I'll come back."],
-                ["<99>{*}{#p/twinkly}I'll consume you."],
-                ["<99>{*}{#p/twinkly}I'll destroy everything."],
-                ["<99>{*}{#p/twinkly}I'll make it so you never existed!"],
+                ["<99>{*}{#p/twinkly}Se você não acabar com isso agora...", "{*}Eu irei voltar."],
+                ["<99>{*}{#p/twinkly}Eu vou te consumir."],
+                ["<99>{*}{#p/twinkly}Eu irei destruir tudo."],
+                ["<99>{*}{#p/twinkly}Eu farei com que você nunca tenha existido!"],
                 ['<99>{*}{#p/twinkly}...'],
                 ['<99>{*}{#p/twinkly}...?'],
-                ['<99>{*}{#p/twinkly}... why?'],
-                ['<99>{*}{#p/twinkly}... why are you being...', '{*}{#p/twinkly}... so nice to me?'],
-                ["<99>{*}{#p/twinkly}... I can't understand..."],
-                ["<99>{*}{#p/twinkly}I can't understand!"]
+                ['<99>{*}{#p/twinkly}... Porquê?'],
+                ['<99>{*}{#p/twinkly}... por que você está sendo...', '{*}{#p/twinkly}... tão legal comigo?'],
+                ["<99>{*}{#p/twinkly}... eu não consigo entender..."],
+                ["<99>{*}{#p/twinkly}Eu não consigo entender!"]
             ],
-            bad16a: ["<99>{*}{#p/twinkly}{#i/4}... I just can't understand...{^30}{%}"],
-            bad16b: ['<99>{*}{#p/twinkly}{#i/3}Goodbye, $(name).{^30}{%}'],
+            bad16a: ["<99>{*}{#p/twinkly}{#i/4}... Eu só não consigo entender...{^30}{%}"],
+            bad16b: ['<99>{*}{#p/twinkly}{#i/3}Adeus, $(name).{^30}{%}'],
             bad17: [
                 
-                '<32>{*}{#p/event}{#i/5}Twinkly ran away.'
+                '<32>{*}{#p/event}{#i/5}Twinkly fugiu.'
             ],
             sad0: () =>
-                world.runaway ? ['<25>{#p/asriel1}{#f/30}* I surrender!'] : ["<25>{#p/asriel1}{#f/25}* I'm so sorry."],
+                world.runaway ? ['<25>{#p/asriel1}{#f/30}* Eu me rendo!'] : ["<25>{#p/asriel1}{#f/25}* Me desculpa."],
             sad1: () => [
                 ...(world.runaway
-                    ? ['<25>{#p/asriel1}{#f/23}* I guess you win again, huh, $(name)?']
+                    ? ['<25>{#p/asriel1}{#f/23}* Eu acho que você ganhou de novo, huh, $(name)?']
                     : [
-                        "<25>{#p/asriel1}{#f/23}* I always was a crybaby, wasn't I, $(name)?",
+                        "<25>{#p/asriel1}{#f/23}* Eu sempre fui um bebê chorão, né, $(name)?",
                         ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asriel...'])
                     ]),
                 '<25>{#p/asriel1}{#f/22}* ...',
-                '<25>{#f/21}* ... I know.',
-                "<25>{#f/23}* You're not actually $(name), are you?",
-                "<25>{#f/22}* $(name)'s been gone for a long time.",
+                '<25>{#f/21}* ... Eu sei.',
+                "<25>{#f/23}* Você não é $(name), é?",
+                "<25>{#f/22}* $(name) já se foi a muito tempo.",
                 '<25>{#f/15}* ...',
-                '<25>{#f/15}* Um... what...',
-                '<25>{#f/10}* What IS your name?'
+                '<25>{#f/15}* Hm... qual seu nome?',
+                '<25>{#f/10}* Qual é seu nome?'
             ],
             sad2: () => [
-                '<32>{#p/human}* (...)\n* (You tell Asriel your name.)',
+                '<32>{#p/human}* (...)\n* (Você diz a Asriel seu nome.)',
                 ...(world.runaway
                     ? [
                         '<25>{#p/asriel1}{#f/21}* Frisk, huh?',
-                        '<25>{#f/23}* Well, I guess you win again, Frisk.',
+                        '<25>{#f/23}* Pois bem, eu acho que você ganhou novamente, Frisk.',
                         '<25>{#f/22}* ...',
-                        "<25>{#f/13}* It's strange...",
-                        "<25>{#f/16}* As a star, I'd forgotten how it felt to be... truly afraid.",
-                        "<25>{#f/15}* I'd gotten used to making other people feel that way.",
-                        "<25>{#f/13}* But now, with everyone's SOULs inside me...",
-                        '<25>{#f/15}* ... I...',
-                        "<25>{#f/16}* I can't escape that feeling anymore.",
-                        "<25>{#f/15}* Ever since you started attacking me back there, it's like...",
-                        '<25>{#f/15}* They understand the kind of person you are now.',
-                        '<25>{#f/13}* You never killed anyone, but deep down...',
-                        '<25>{#f/13}* The thought of you bringing them to the brink of death...',
-                        '<25>{#f/15}* Over, and over, and over...',
+                        "<25>{#f/13}* É estranho...",
+                        "<25>{#f/16}* Como uma estrela eu tinha me esquecido como era estar... verdadeiramente com medo.",
+                        "<25>{#f/15}* Eu fiquei acostumado a fazer outros se sentirem dessa forma.",
+                        "<25>{#f/13}* Mas agora, com a ALMA de todos dentro de mim.",
+                        '<25>{#f/15}* Eu...',
+                        "<25>{#f/16}* Eu não consigo escapar desse sentimento.",
+                        "<25>{#f/15}* Desde que você decidiu começar a me atacar, é como...",
+                        '<25>{#f/15}* Se eles entendessem o tipo de pessoa que você é agora.',
+                        '<25>{#f/13}* Você nunca matou, mas lá no fundo...',
+                        '<25>{#f/13}* O pensamento de você os trazendo para a ponta da morte...',
+                        '<25>{#f/15}* Várias e várias vezes...',
                         '<25>{#f/16}* ...',
-                        "<25>{#f/21}* They're terrified of you, Frisk.",
-                        '<26>{#f/23}* And... I guess I am too.',
+                        "<25>{#f/21}* Eles tem medo de você, Frisk.",
+                        '<26>{#f/23}* E... eu acho que eu tenho também.',
                         '<25>{#f/22}* ...'
                     ]
                     : [
                         '<25>{#p/asriel1}{#f/17}* Frisk, huh?',
-                        "<25>{#f/17}* That's...",
-                        '<25>{#f/23}* ... a nice name.',
+                        "<25>{#f/17}* Este é...",
+                        '<25>{#f/23}* ... um nome legal.',
                         '<25>{#f/22}* ...',
                         '<25>{#f/13}* Frisk...',
                         ...(SAVE.flag.n.killed_sans > 0
                             ? [
-                                '<25>{#p/asriel1}{#f/13}* What we did back there, I...',
+                                '<25>{#p/asriel1}{#f/13}* O que nós fizemos antes, eu...',
                                 '<25>{#f/15}* ...',
-                                "<25>{#f/16}* I'm just sorry for dragging you into it.",
-                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... wait a second...']),
+                                "<25>{#f/16}* Eu sinto muito em te trazer para aquilo.",
+                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... espera um segundo...']),
                                 ...(SAVE.flag.n.genocide_milestone > 0
                                     ? [
                                         [
-                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus...\n* Even the canine unit...',
-                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Even the Royal Guard...',
-                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* And Mettaton, too...',
-                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Mettaton and Alphys...'
+                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus...\n* Até a unidade canina...',
+                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Criança Monstro, Undyne...\n* Até a Guarda Real...',
+                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Criança Monstro, Undyne...\n* E Mettaton, também...',
+                                            '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Criança Monstro, Undyne...\n* Mettaton e Alphys...'
                                         ][Math.ceil((SAVE.flag.n.genocide_milestone - 1) / 2)],
-                                        "<25>{#f/21}* All those people I now know you'd do anything to protect..."
+                                        "<25>{#f/21}* Todos aqueles que eu sei que você faria tudo para proteger..."
                                     ]
                                     : [
-                                        "<25>{#p/asriel1}{#f/21}* I know we didn't get far...",
-                                        '<25>{#f/15}* ... but still...',
-                                        '<25>{#f/21}* It was wrong of me to force you along like that.',
-                                        "<25>{#f/21}* Especially now that I know you'd do anything to protect them."
+                                        "<25>{#p/asriel1}{#f/21}* Eu sei que não chegamos longe...",
+                                        '<25>{#f/15}* ... mas mesmo assim...',
+                                        '<25>{#f/21}* Foi errado de mim te forçar a chegar tão longe.',
+                                        "<25>{#f/21}* Especialmente agora que eu sei que você faria tudo para protege-los."
                                     ]),
                                 ...(SAVE.data.b.oops
                                     ? []
-                                    : ['<32>{#p/basic}* ... is that the \"murder timeline\" he was talking about before?']),
-                                "<25>{#p/asriel1}{#f/23}* Just... please, don't blame yourself, okay?",
-                                "<25>{#f/22}* Not only did you undo what you'd done before...",
-                                '<25>{#f/17}* But you went up against impossible odds just to save your friends.',
-                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Yeah.']),
-                                "<25>{#p/asriel1}{#f/13}* Plus, and maybe it's just my imagination, but...",
-                                '<25>{#f/13}* ... thinking back on it now...',
-                                '<25>{#f/15}* You never really seemed interested in what we were doing.',
-                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Yeah, exactly.']),
-                                '<25>{#p/asriel1}{#f/23}* In fact... if anything...',
-                                '<25>{#f/22}* It almost looked like you were trying to resist it.',
+                                    : ['<32>{#p/basic}* ... essa é a \"linha do tempo assassina\" da qual ele estava falando?']),
+                                "<25>{#p/asriel1}{#f/23}* Só... não se culpe, tudo bem?",
+                                "<25>{#f/22}* Não apenas você desfez o que tinha feito antes...",
+                                '<25>{#f/17}* Mas você também enfrentou o impossível para salvar seus amigos.',
+                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* É.']),
+                                "<25>{#p/asriel1}{#f/13}* Aliás, e talvez seja só minha imaginação, mas...",
+                                '<25>{#f/13}* ... pensando mais atrás...',
+                                '<25>{#f/15}* Você nunca parecia tão interessado no que estávamos fazendo.',
+                                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* É, exatamente.']),
+                                '<25>{#p/asriel1}{#f/23}* De fato... se qualquer coisa...',
+                                '<25>{#f/22}* Quase pareceu como se você estivesse tentando resistir aquilo.',
                                 ...(SAVE.data.b.oops
                                     ? []
-                                    : ["<32>{#p/basic}* Yeah, you're not that kind of person at all."]),
-                                '<25>{#p/asriel1}{#f/15}* All I know is... despite what happened...',
-                                '<25>{#f/15}* Despite what you did... or, what I wanted you to do...',
-                                "<25>{#f/16}* You're still a better person than I ever was.",
+                                    : ["<32>{#p/basic}* É, você não é esse tipo de pessoa."]),
+                                '<25>{#p/asriel1}{#f/15}* Tudo que eu sei... apesar do que aconteceu...',
+                                '<25>{#f/15}* Apesar do que você fez... ou, o que quis que você fizesse...',
+                                "<25>{#f/16}* Você ainda é uma pessoa melhor do que jamais fui.",
                                 ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Hmph.']),
-                                "<25>{#p/asriel1}{#f/21}* ...\n* But I'm getting ahead of myself."
+                                "<25>{#p/asriel1}{#f/21}* ...\n* Mas eu estou ficando triste."
                             ]
                             : [
-                                "<25>{#f/13}* I haven't felt like this for a long time.",
-                                '<25>{#f/16}* As a star, I was... soulless.',
-                                '<25>{#f/15}* I lacked the power to love other people.',
-                                "<25>{#f/13}* However, with everyone's SOULs inside me...",
-                                '<25>{#f/13}* I not only have my own compassion back...',
-                                "<25>{#f/23}* But I can feel every other monster's as well.",
-                                '<25>{#f/17}* They all care about each other so much.',
+                                "<25>{#f/13}* Eu não me sentia assim a tanto tempo.",
+                                '<25>{#f/16}* Como estrela, eu não tinha... alma.',
+                                '<25>{#f/15}* Eu tinha perdido o poder de amar os outros.',
+                                "<25>{#f/13}* Mas, com o as ALMAS de todos dentro de mim...",
+                                '<25>{#f/13}* Eu não apenas tenho minha compaixão de volta...',
+                                "<25>{#f/23}* Mas eu posso sentir todos os monstros também.",
+                                '<25>{#f/17}* Eles todos se importaram tanto um com o outro.',
                                 ...(30 <= SAVE.data.n.bully
                                     ? [
-                                        '<25>{#f/23}* And... uh...\n* As for you, they...',
+                                        '<25>{#f/23}* E... uh...\n* Já para você, eles...',
                                         '<25>{#f/22}* ...',
                                         ...(20 <= world.flirt
                                             ? [
-                                                '<25>{#f/15}* ... well, they seem to be kind of conflicted...',
-                                                "<25>{#f/10}* It's like... they like you, but dislike you at the same time?"
+                                                '<25>{#f/15}* ... bem, eles parecem estar em um conflito....',
+                                                "<25>{#f/10}* É como se eles gostassem... e não gostassem ao mesmo tempo de ti."
                                             ]
                                             : [
-                                                "<25>{#f/15}* ... well, some of them don't seem to like you...",
+                                                "<25>{#f/15}* ... bem, alguns deles parecem não gostar de você...",
                                                 ...(SAVE.data.b.undyne_respecc
                                                     ? [
-                                                        '<25>{#f/10}* Except Undyne.\n* She seems to like you a lot for some reason.'
+                                                        '<25>{#f/10}* Exceto a Undyne.\n* Ela parece gostar muito de você por algum motivo.'
                                                     ]
-                                                    : ["<25>{#f/10}* Though, I'm not sure why."])
+                                                    : ["<25>{#f/10}* Mas, eu não sei o porquê."])
                                             ]),
-                                        '<25>{#f/23}* ... how strange.',
+                                        '<25>{#f/23}* ... que estranho.',
                                         '<25>{#f/22}* ...'
                                     ]
                                     : [
-                                        '<25>{#f/23}* And... they care about you too, Frisk.',
+                                        '<25>{#f/23}* E... eles se importam com você também, Frisk.',
                                         '<25>{#f/22}* ...',
                                         ...(20 <= world.flirt
                                             ? [
-                                                '<25>{#f/15}* ... wow, they... they really care about you a lot...',
-                                                '<25>{#f/15}* Uh...\n* Frisk, this is...',
-                                                '<25>{#f/17}* ... golly...',
-                                                "<25>{#f/20}* I, uh, really shouldn't tell you what they're feeling right now."
+                                                '<25>{#f/15}* ... uau, eles... eles se importam muito com você...',
+                                                '<25>{#f/15}* Uh...\n* Frisk, isso é...',
+                                                '<25>{#f/17}* ... senhor...',
+                                                "<25>{#f/20}* Eu, uh, não deveria me dizer como eles se sentem agora."
                                             ]
                                             : [
-                                                '<25>{#p/asriel1}{#f/13}* I wish I could tell you how everyone feels about you.',
+                                                '<25>{#p/asriel1}{#f/13}* Eu desejava poder te contar como todos se sentem.',
                                                 '<25>{#f/17}* Toriel... Asgore...\n* Sans... Papyrus...\n* Undyne... Alphys...',
                                                 ...(!SAVE.data.b.f_state_kidd_betray
-                                                    ? ['<25>{#f/15}* ... Monster Kid?\n* Is that their name?']
+                                                    ? ['<25>{#f/15}* ... Criança Monstro?\n* Este é o nome dele?']
                                                     : world.happy_ghost && SAVE.data.b.a_state_hapstablook
-                                                        ? ['<25>{#f/23}* ... Napstablook, and... all their cousins.']
+                                                        ? ['<25>{#f/23}* ... Napstablook, e... todos os primos dele.']
                                                         : SAVE.data.n.state_starton_nicecream > 0
-                                                            ? ['<25>{#f/23}* ... even the Ice Dream guy.']
-                                                            : ['<25>{#f/23}* ... even that little mouse who works at the CORE.']),
-                                                '<25>{#f/17}* Monsters are weird.',
-                                                '<25>{#f/15}* Even though they barely know you...',
-                                                '<25>{#f/17}* It feels like they all really love you.',
+                                                            ? ['<25>{#f/23}* ... até o cara do sorvete.']
+                                                            : ['<25>{#f/23}* ... até mesmo aquele pequeno rato que trabalha no CORE.']),
+                                                '<25>{#f/17}* Monstros são estranhos.',
+                                                '<25>{#f/15}* Mesmo que eles mal te conheçam...',
+                                                '<25>{#f/17}* Parece que eles realmente te amam.',
                                                 '<25>{#f/23}* Haha.',
                                                 '<25>{#f/22}* ...'
                                             ])
@@ -2697,227 +2697,227 @@ export default {
             sad3: () =>
                 world.runaway
                     ? [
-                        "<26>{#p/asriel1}{#f/13}* Still, I...\n* I know I've made far worse mistakes.",
-                        "<25>{#f/16}* I know... you're not the only one to blame for what happened here.",
+                        "<26>{#p/asriel1}{#f/13}* Eu...\n* Eu sei que cometi erros muito piores.",
+                        "<25>{#f/16}* Eu sei... que você não é o único a se culpar pelo que aconteceu.",
                         ...(SAVE.flag.n.killed_sans > 0
                             ? [
                                 '<25>{#f/15}* ...',
-                                '<25>{#f/15}* Dragging you into some backwards plan to destroy the outpost...',
-                                '<25>{#f/16}* Just so I could pretend you were my long-dead sibling...'
+                                '<25>{#f/15}* Te empurrar em um plano para destruir o Outpost...',
+                                '<25>{#f/16}* Já que assim eu poderia pretender que você é meu irmão a muito tempo morto.'
                             ]
                             : [
                                 '<25>{#f/15}* ...',
-                                '<25>{#f/15}* Turning myself into that... faceless entity...',
-                                '<25>{#f/16}* Just so I could torture you in a nightmare of my own making...'
+                                '<25>{#f/15}* Tornando a mim mesmo naquela... entidade sem face...',
+                                '<25>{#f/16}* Só para que eu pudesse te torturar em um pesadelo criado por mim...'
                             ]),
-                        "<25>{#f/13}* That's the kind of thing I'm talking about.",
-                        "<25>{#f/22}* ... just the fact I'm still alive is probably less than I deserve.",
-                        choicer.create('* (What will you do?)', 'Protest', 'Do not')
+                        "<25>{#f/13}* Esse é o tipo de coisa da qual eu estou falando.",
+                        "<25>{#f/22}* ... só o fato de eu estar vivo é bem menos do que eu mereço.",
+                        choicer.create('* (O que você fará?)', 'Protestar', 'Não fazer nada')
                     ]
                     : [
                         SAVE.flag.n.killed_sans > 0
-                            ? "<25>{#p/asriel1}{#f/13}* I understand if you can't forgive me."
-                            : "<25>{#p/asriel1}{#f/13}* Frisk... I...\n* I understand if you can't forgive me.",
-                        '<25>{#f/13}* I understand if you... want me gone.',
-                        ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... don't say that!"]),
-                        '<25>{#p/asriel1}{#f/15}* I acted so strange and horrible.',
-                        '<25>{#f/15}* I hurt you.',
-                        '<25>{#f/16}* I hurt so many people.',
-                        '<25>{#f/13}* Friends, family, bystanders...',
-                        "<25>{#f/22}* There's no excuse for what I've done.",
+                            ? "<25>{#p/asriel1}{#f/13}* Eu entendo se você não puder me perdoar."
+                            : "<25>{#p/asriel1}{#f/13}* Frisk... eu...\n* Eu entendo se você não puder me perdoar.",
+                        '<25>{#f/13}* Eu entendo se você quiser que eu vá embora.',
+                        ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... não diga isso!"]),
+                        '<25>{#p/asriel1}{#f/15}* eu agi tão estranho e horrivelmente.',
+                        '<25>{#f/15}* Eu te feri.',
+                        '<25>{#f/16}* Eu feri tantas pessoas.',
+                        '<25>{#f/13}* Amigos, família...',
+                        "<25>{#f/22}* Não existe desculpa para o que eu fiz.",
                         ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asriel...']),
-                        choicer.create('* (What will you do?)', 'Forgive', 'Do not')
+                        choicer.create('* (O que você fará?)', 'Perdoar', 'Não fazer nada')
                     ],
             sad4a: () => [
                 ...(world.runaway
                     ? [
-                        '<25>{#p/asriel1}{#f/25}* Wh... what?',
+                        '<25>{#p/asriel1}{#f/25}* O... o quê?',
                         '<25>{#f/21}* ...',
-                        "<25>{#f/21}* I guess... you really don't want anyone to die, huh?",
-                        '<25>{#f/22}* You just want to beat people up... nothing more.',
-                        '<25>{#f/21}* ... still... even if you do want me to stay...'
+                        "<25>{#f/21}* Eu acho... que você realmente não quer que ninguém morra, huh?",
+                        '<25>{#f/22}* Você só quer socar as pessoas... nada mais.',
+                        '<25>{#f/21}* ... mas... mesmo que você queira que eu fique...'
                     ]
                     : [
-                        '<25>{#p/asriel1}{#f/25}* Wh... what?',
-                        '<25>{#f/17}* ... Frisk, come on.',
-                        "<25>{#f/23}* You're...\n* You're gonna make me cry again.",
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... t-tell me about it...']),
-                        '<25>{#p/asriel1}{#f/21}* ... besides, even if you do forgive me...'
+                        '<25>{#p/asriel1}{#f/25}* O... o quê?',
+                        '<25>{#f/17}* ... Frisk, por favor.',
+                        "<25>{#f/23}* Você me...\n* Você me fará chorar de novo.",
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... n-nem me fala...']),
+                        '<25>{#p/asriel1}{#f/21}* ... e, por mais que você me perdoe...'
                     ]),
-                "<25>{#f/15}* I can't keep these SOULs inside of me forever.",
-                '<25>{#f/16}* So... the least I can do is return them.'
+                "<25>{#f/15}* Eu não posso manter essas ALMAS dentro de mim para sempre.",
+                '<25>{#f/16}* Então... o mínimo que posso fazer é retorná-las.'
             ],
             sad4b: () =>
                 world.runaway
                     ? [
                         '<25>{#p/asriel1}{#f/21}* ...',
-                        '<25>{#f/21}* Well, anyway.\n* I did promise that if you defeated me...',
-                        '<25>{#f/23}* I\'d give you your \"happy ending.\"',
-                        "<25>{#f/15}* ... so, since I can't keep these SOULs inside of me forever...",
-                        "<25>{#f/16}* I'll return them, and do just that."
+                        '<25>{#f/21}* Bem.\n* Eu prometi que se você me derrotasse...',
+                        '<25>{#f/23}* Eu te daria seu \"final feliz\".',
+                        "<25>{#f/15}* ... então, já que eu não posso manter essas ALMAS dentro de mim para sempre...",
+                        "<25>{#f/16}* Eu irei retorná-las e fazer isso."
                     ]
                     : [
-                        '<25>{#p/asriel1}{#f/22}* ... right.',
-                        '<25>{#f/21}* I understand.',
-                        '<25>{#f/15}* I just hope that...',
-                        '<25>{#f/16}* I can make up for it a little right now.',
-                        "<25>{#p/asriel1}{#f/15}* ... of course, since I can't keep these SOULs inside of me forever...",
-                        '<25>{#f/16}* The least I can do is return them.'
+                        '<25>{#p/asriel1}{#f/22}* ... certo.',
+                        '<25>{#f/21}* Eu entendo.',
+                        '<25>{#f/15}* Eu só espero que...',
+                        '<25>{#f/16}* Que eu possa compensar um pouco agora.',
+                        "<25>{#p/asriel1}{#f/15}* ... claro, desde que eu não posso manter essas ALMAS dentro de mim para sempre...",
+                        '<25>{#f/16}* O mínimo que eu posso fazer é devolvê-las.'
                     ],
             sad4c: () => [
                 '<25>{#p/asriel1}{#f/16}* ...',
-                '<25>{#f/6}* But first...',
-                "<25>{#f/29}* There's something else I have to do.",
-                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... what now?']),
-                "<25>{#p/asriel1}{#f/29}* Right now, I can feel everyone's minds working as one.",
-                "<25>{#f/6}* They're all racing with the same intention.",
-                "<26>{#f/6}* With everyone's power... with everyone's determination...",
-                "<25>{#f/6}* It's time for monsters...",
-                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* To finally go free.']),
-                '<25>{#p/asriel1}{#f/29}* To finally go free.',
-                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... knew it.'])
+                '<25>{#f/6}* Mas antes...',
+                "<25>{#f/29}* Tem mais uma coisa que eu preciso fazer.",
+                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... e agora o quê?']),
+                "<25>{#p/asriel1}{#f/29}* Agora mesmo, eu posso sentir a mente de todos trabalhando como uma.",
+                "<25>{#f/6}* Eles estão todos correndo para a mesma intenção.",
+                "<26>{#f/6}* Com o poder de todos... com a determinação de todo mundo...",
+                "<25>{#f/6}* É hora dos monstros...",
+                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Finalmente serem livres.']),
+                '<25>{#p/asriel1}{#f/29}* Finalmente serem livres.',
+                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... sabia.'])
             ],
-            abreak: '{*}{#p/event}{#i/3}The force field was\neradicated.',
+            abreak: '{*}{#p/event}{#i/3}O escudo de força foi erradicado.',
             sad5: () => [
                 '<25>{#p/asriel1}{#f/21}* Frisk...',
-                '<25>{#f/21}* I have to go now.',
-                ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... huh?\n* But you can't just..."]),
-                "<25>{#p/asriel1}{#f/15}* Without the power of everyone's SOULs...",
-                "<25>{#f/22}* I can't keep maintaining this form.",
-                '<25>{#f/21}* In a little while...',
-                "<25>{#f/22}* I'll turn back into a star.",
-                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* But... you...']),
-                "<25>{#p/asriel1}{#f/15}* I'll stop being myself.",
+                '<25>{#f/21}* Eu tenho que ir agora.',
+                ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... huh?\n* Mas você não pode..."]),
+                "<25>{#p/asriel1}{#f/15}* Sem os poderes das ALMAS de todo mundo...",
+                "<25>{#f/22}* Eu não poderei manter essa forma.",
+                '<25>{#f/21}* Em pouco tempo...',
+                "<25>{#f/22}* Eu voltarei a ser uma estrela.",
+                ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Mas... você...']),
+                "<25>{#p/asriel1}{#f/15}* Eu irei parar de ser eu mesmo.",
                 ...(world.runaway
                     ? [
-                        "<25>{#f/15}* ... but maybe that's for the best.",
+                        "<25>{#f/15}* ... Mas talvez isso seja para o melhor.",
                         '<25>{#f/23}* Ha... Frisk.',
-                        "<25>{#f/21}* There's no reason for you to stick around anymore.",
-                        "<25>{#f/22}* Don't waste any more time on me."
+                        "<25>{#f/21}* Não tem mais necessidade de você estar aqui.",
+                        "<25>{#f/22}* Não perca mais seu tempo em mim."
                     ]
                     : [
-                        "<25>{#f/15}* I'll stop being able to feel love again.",
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... no...']),
-                        '<25>{#p/asriel1}{#f/23}* So... Frisk.',
-                        "<25>{#f/17}* It's best if you just forget about me, okay?",
-                        ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* No! You can't just walk away!"]),
-                        '<25>{#p/asriel1}{#f/23}* Just go be with the people who love you.'
+                        "<25>{#f/15}* Eu não serei capaz de sentir amor novamente.",
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... não...']),
+                        '<25>{#p/asriel1}{#f/23}* Então... Frisk.',
+                        "<25>{#f/17}* É melhor que você só esqueça de mim, okay?",
+                        ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Não! Você não pode só ir embora!"]),
+                        '<25>{#p/asriel1}{#f/23}* Só vá com as pessoas que você ama.'
                     ]),
-                choicer.create('* (What will you do?)', 'Comfort him', 'Do not')
+                choicer.create('* (O que você fará?)', 'Conforta-lo', 'Não fazer nada')
             ],
             sad6: () =>
                 world.runaway
                     ? [
                         '<25>{#p/asriel1}{#f/25}* ...!',
                         '<25>{#f/21}* ...',
-                        '<25>{#f/21}* Frisk, I...',
-                        "<25>{#f/15}* ... I just can't right now, okay?",
-                        "<25>{#f/22}* I... I'm sorry."
+                        '<25>{#f/21}* Frisk, Eu...',
+                        "<25>{#f/15}* ... Eu só não posso agora, tá bom?",
+                        "<25>{#f/22}* Eu... Eu sinto muito."
                     ]
                     : [
                         '<25>{#p/asriel1}{#i/4}{#f/23}* Ha... ha...',
-                        "<25>{#f/23}{#i/4}* I don't want to let go...",
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (It sounds like someone is crying...)'])
+                        "<25>{#f/23}{#i/4}* Eu não quero deixar ir...",
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (Parece que tem alguém chorando...)'])
                     ],
             sad7: () =>
                 world.runaway
                     ? [
                         '<25>{#p/asriel1}{#f/13}* Frisk...',
-                        '<25>{#f/15}* Whatever you do...',
-                        '<25>{#f/21}* Just... try to be careful, okay?',
-                        '<25>{#f/21}* No matter who you... nearly beat to death.',
-                        '<25>{#f/23}* Golly.\n* What are they even going to do with you.'
+                        '<25>{#f/15}* Seja lá o que você fizer...',
+                        '<25>{#f/21}* Só... toma cuidado, okay?',
+                        '<25>{#f/21}* Não importa quem você... bata até a quase morte.',
+                        '<25>{#f/23}* Senhor.\n* O que será que eles vão fazer com você?'
                     ]
                     : [
                         '<25>{#p/asriel1}{#f/21}* Frisk...',
-                        "<25>{#f/23}* You're...",
-                        "<25>{#f/17}* You're going to do a great job, okay?",
-                        '<25>{#f/21}* No matter what you do.',
-                        '<25>{#f/23}* Everyone will be there for you, okay?',
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* No... please...'])
+                        "<25>{#f/23}* Você...",
+                        "<25>{#f/17}* Você fará um bom trabalho, tudo bem?",
+                        '<25>{#f/21}* Não importa o que você faça.',
+                        '<25>{#f/23}* Todo mundo estará lá por você, tudo bem?',
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Não... por favor...'])
                     ],
-            sad8: ["<25>{#p/asriel1}{#f/21}* Well...\n* My time's running out.", '<25>{#f/22}* So... goodbye.'],
-            sad8x: ["<32>{*}{#p/basic}* ... don't go...{^50}{%}"],
+            sad8: ["<25>{#p/asriel1}{#f/21}* ...\n* O tempo está acabando.", '<25>{#f/22}* Então... adeus.'],
+            sad8x: ["<32>{*}{#p/basic}* ... não vá...{^50}{%}"],
             sad9: () =>
                 world.runaway
                     ? [
-                        '<25>{#p/asriel1}{#f/21}* By the way...',
+                        '<25>{#p/asriel1}{#f/21}* Por sinal...',
                         '<25>{#f/22}* Frisk.',
-                        "<25>{#f/21}{#x1}* ... don't beat yourself up over this, okay?"
+                        "<25>{#f/21}{#x1}* ... não acabe se espancando por isso, certo?"
                     ]
                     : [
-                        '<25>{#p/asriel1}{#f/21}* By the way...',
+                        '<25>{#p/asriel1}{#f/21}* Por sinal...',
                         '<25>{#f/23}* Frisk.',
-                        '<25>{#f/17}{#x1}* ... take care of Mom and Dad for me, okay?'
+                        '<25>{#f/17}{#x1}* ... cuida da mamãe e do papai pra mim, tudo bem?'
                     ],
             sad9x: ['<32>{#p/basic}* ...'],
             sad10: () =>
                 world.runaway
-                    ? ['<32>{#p/human}* (The sound of a spacecraft can be heard fading into the distance.)']
-                    : ['<25>{#p/kidd}{#f/4}* Hello?', '<25>{#f/4}* Is someone there...?'],
+                    ? ['<32>{#p/human}* (O som de um ônibus espacial consegue ser ouvido afastando-se para o vasto.)']
+                    : ['<25>{#p/kidd}{#f/4}* Alô?', '<25>{#f/4}* Tem alguém aí...?'],
             sad11: () =>
                 SAVE.data.b.f_state_kidd_betray
                     ? [
-                        "<25>{#p/kidd}{#f/5}* ... oh, it's just you.",
-                        "<25>{#f/4}* Well... when you're ready...",
-                        "<25>{#f/5}* Everyone's waiting for you at Asgore's place.",
-                        "<25>{#f/4}* I'll... just be out of your way now."
+                        "<25>{#p/kidd}{#f/5}* ... ah, é só você.",
+                        "<25>{#f/4}* Bom... quando você estiver pronto...",
+                        "<25>{#f/5}* Todo mundo está te esperando na casa do Asgore.",
+                        "<25>{#f/4}* Eu vou... sair do seu caminho agora."
                     ]
                     : [
-                        '<25>{#p/kidd}{#f/2}* Yo!\n* Where have YOU been all this time!?',
-                        "<25>{#f/1}* They've been looking ALL over for you, dude!",
-                        "<25>{#f/2}* Like, there's this big hangout going on at Asgore's, and...",
-                        "<25>{#f/1}* Everyone's been wondering when you'd show up!",
-                        "<25>{#f/1}* ... come on, dude!\n* Come and join in before it's too late!"
+                        '<25>{#p/kidd}{#f/2}* Yo!\n* Onde você esteve esse tempo todo!?',
+                        "<25>{#f/1}* Estavam te procurando por todos os lados, cara!",
+                        "<25>{#f/2}* Tipo, tem uma grande refeição final acontecendo na casa do Asgore, e...",
+                        "<25>{#f/1}* Todo mundo estava se perguntando quando você iria aparecer!",
+                        "<25>{#f/1}* ... vamos lá, cara!\n* Junte-se enquanto não é tarde demais!"
                     ],
             sad11x: [
                 '<32>{#p/basic}* ... Frisk, eu...',
-                "<33>* I can't just let him walk away.",
-                "<32>* It's all too much...",
-                "<32>* These things I've been holding onto for years...",
-                "<32>* If I don't get to talk to him soon, I...",
-                '<32>* I...',
-                "<32>* I just need to see him before he's... gone for good."
+                "<33>* Eu não posso só deixar ele ir.",
+                "<32>* Isso tudo é coisa demais...",
+                "<32>* Essas coisas nas quais eu tenho me segurado por anos...",
+                "<32>* Se eu não puder falar com ele logo, eu...",
+                '<32>* Eu...',
+                "<32>* Eu só preciso vê-lo antes que ele seja... se vá para sempre"
             ],
             epilogue1: () =>
                 world.runaway
                     ? [
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<18>{#p/papyrus}{#f/6}SORRY IF YOU TRIED TO CALL US BEFORE...',
-                        "<18>{#p/papyrus}{#f/6}THE LINES AREN'T DOWN OR ANYTHING, WE JUST...",
-                        "<18>{#p/papyrus}{#f/5}... WE'VE BEEN IGNORING YOU.",
-                        "<18>{#f/5}IT'S STRANGE... WE ALL SORT OF KNOW YOUR NAME NOW.",
-                        "<18>{#f/6}WE'RE ALL... KIND OF TERRIFIED OF YOU.",
-                        '<18>{#f/4}... WELL, MOST OF US, ANYWAY.',
-                        '<25>{#p/undyne}{#f/12}* Yeah.\n* What he said.',
+                        '<18>{#p/papyrus}{#f/6}DESCULPA SE VOCÊ TENTOU NOS LIGAR ANTES...',
+                        "<18>{#p/papyrus}{#f/6}AS LINHAS NÃO CAÍRAM NEM NADA DO TIPO, NÓS SÓ...",
+                        "<18>{#p/papyrus}{#f/5}... ESTAMOS TE IGNORANDO.",
+                        "<18>{#f/5}É ESTRANHO... TODOS SABEMOS SEU NOME AGORA.",
+                        "<18>{#f/6}NÓS ESTAMOS TODOS... ATERRORIZADOS DE VOCÊ.",
+                        '<18>{#f/4}... BEM, MAIOR PARTE DE NÓS.',
+                        '<25>{#p/undyne}{#f/12}* É.\n* O que ele disse.',
                         '<18>{#p/papyrus}{#f/5}...',
-                        "<18>{#p/papyrus}{#f/5}... TO BE HONEST, I THINK SHE'S AFRAID, TOO.",
-                        '<25>{#p/undyne}{#f/17}* Am not!',
+                        "<18>{#p/papyrus}{#f/5}... PRA SER SINCERO, ACHO QUE ELA ESTÁ COM MEDO, TAMBÉM.",
+                        '<25>{#p/undyne}{#f/17}* Não estou!',
                         '<18>{#p/papyrus}{#f/5}...',
-                        "<18>{#f/5}IT WASN'T AN EASY CHOICE TO MAKE, BUT...",
-                        "<18>{#f/31}WE'VE ALREADY LEFT TO LOOK FOR OUR NEW HOMEWORLD.",
-                        "<18>{#f/6}I KNOW, I KNOW!\nBUT DON'T WORRY...",
-                        "<18>{#f/5}... YOU'LL STILL HAVE THE CORE TO KEEP YOU COMPANY.",
-                        '<25>{#p/undyne}{#f/12}* Until that runs out of power, of course.',
-                        "<18>{#p/papyrus}{#f/5}JUST... DON'T COME AFTER US, OKAY?",
-                        "<18>{#f/31}IT'S PROBABLY FOR THE BEST THAT WE NEVER MEET AGAIN.",
+                        "<18>{#f/5}NÃO FOI UMA ESCOLHA FÁCIL DE SE FAZER, MAS...",
+                        "<18>{#f/31}NÓS TODOS JÁ DEIXAMOS O OUTPOST E VIEMOS PARA UM NOVO MUNDO.",
+                        "<18>{#f/6}EU SEI, EU SEI!\n* MAS NÃO SE PREOCUPA!",
+                        "<18>{#f/5} VOCÊ AINDA TEM O CORE PARA TE FAZER COMPANHIA.",
+                        '<25>{#p/undyne}{#f/12}* Até a energia dele acabar, é claro.',
+                        "<18>{#p/papyrus}{#f/5}SÓ... NÃO VEM ATRÁS DA GENTE, TÁ BOM?",
+                        "<18>{#f/31}É MELHOR QUE A GENTE NUNCA SE VEJA NOVAMENTE.",
                         '<18>{#f/3}...',
-                        '<18>{#f/3}WELL... GOODBYE.',
-                        '<25>{#p/undyne}{#f/1}* Enjoy the solitude!!',
+                        '<18>{#f/3}BEM... ADEUS.',
+                        '<25>{#p/undyne}{#f/1}* Aproveite a solitude!!',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]
                     : [
                         '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        "<18>{#p/papyrus}{#f/0}HEY, HUMAN!\nI HOPE YOU'RE DOING OKAY!",
-                        "<18>{#f/5}WE'VE BEEN VERY WORRIED ABOUT YOU, YOU KNOW.",
-                        '<18>{#f/6}WHEN WE CALLED YOU BEFORE, THERE WAS NO RESPONSE!',
-                        '<18>{#f/0}THANKFULLY, YOUR FRIEND CAME BY, AND...',
-                        '<18>{#f/0}WELL, WE CAN ALL BREATHE A SIGH OF RELIEF NOW.',
-                        "<18>{#f/0}... FRISK?\nTHAT'S YOUR NAME, RIGHT?",
-                        "<18>{#f/5}IT'S STRANGE... WE ALL SORT OF KNOW YOUR NAME NOW.",
-                        "<18>{#f/0}BUT THAT'S OKAY.\nIT'S STRANGE IN AN UPLIFTING WAY.",
-                        "<25>{#p/sans}{#f/0}* careful bro, don't overcook it.",
-                        "<18>{#p/papyrus}{#f/7}SANS!!!\nI KNOW WHAT I'M DOING!!!",
+                        "<18>{#p/papyrus}{#f/0}EI, HUMANO!\nESPERO QUE VOCÊ ESTEJA BEM!",
+                        "<18>{#f/5}ESTÁVAMOS BEM PREOCUPADOS COM VOCÊ, SABE.",
+                        '<18>{#f/6}QUANDO TE LIGAMOS ANTES, NÃO HOUVE RESPOSTA!',
+                        '<18>{#f/0}FELIZMENTE SEU AMIGO VEIO E...',
+                        '<18>{#f/0}AGORA PODEMOS TODOS RESPIRAR DE ALÍVIO.',
+                        "<18>{#f/0}... FRISK?\nÉ SEU NOME, CERTO?",
+                        "<18>{#f/5}É ESTRANHO... TODOS SABEMOS SEU NOME AGORA.",
+                        "<18>{#f/0}MAS TUDO BEM.\nÉ ESTRANHO DE UMA FORMA EDIFICANTE.",
+                        "<25>{#p/sans}{#f/0}* cuidado mano, não queime a comida.",
+                        "<18>{#p/papyrus}{#f/7}SANS!!!\nEU SEI O QUE ESTOU FAZENDO!!!",
                         '<25>{#p/sans}{#f/2}* just making sure.',
                         "<18>{#p/papyrus}{#f/6}SO... TURNS OUT ASGORE'S A BIG FAN OF SPAGHETTI.",
                         '<18>{#p/papyrus}{#f/4}AFTER MY FIRST DISH, HE WAS HOOKED...',
@@ -3399,19 +3399,19 @@ export default {
             ),
             giftbox1a: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's a weapon inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Sim', 'Não')
             ],
             giftbox1b: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's armor inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Sim', 'Não')
             ],
             giftbox2a: () => [
                 '<32>{#p/human}* (You got the Big Dipper.)',
-                choicer.create('* (Equip the Big Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Big Dipper?)', 'Sim', 'Não')
             ],
             giftbox2b: () => [
                 '<32>{#p/human}* (You got the Heart Locket.)',
-                choicer.create('* (Equip the Heart Locket?)', 'Yes', 'No')
+                choicer.create('* (Equip the Heart Locket?)', 'Sim', 'Não')
             ],
             giftbox3: () =>
                 SAVE.data.b.svr
@@ -3434,7 +3434,7 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                        choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                        choicer.create('* (Crawl inside?)', 'Sim', 'Não')
                     ]
                     : [
                         SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3442,7 +3442,7 @@ export default {
                             : "<32>{#p/basic}* Asgore's fireplace.\n* It's not too hot, just pleasantly warm.",
                         ...(world.darker
                             ? []
-                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Sim', 'Não')])
                     ],
             fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
             fireplace2b: () => [
@@ -3494,7 +3494,7 @@ export default {
                         ["<32>* My god... it's so much..."],
                         ['<32>* ...']
                     ][Math.min(SAVE.data.n.chocolates, 11)]),
-                choicer.create('* (Take a Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take a Chocolate Bar?)', 'Sim', 'Não')
             ],
             fridgetrap3: ['<32>{#p/human}* (You decide not to take anything.)'],
             fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
@@ -3593,7 +3593,7 @@ export default {
                 '<32>{#p/human}* (You activate the terminal.)',
                 '<32>{#p/event}* Procedure complete.\n* All subjects have successfully tethered.',
                 '<33>{#p/event}* Would you also like to exit?',
-                choicer.create('* (Exit Archive Six?)', 'Yes', 'No')
+                choicer.create('* (Exit Archive Six?)', 'Sim', 'Não')
             ],
             cw_vender1: [
                 '<32>{#p/human}* (You tap on the panel.)',

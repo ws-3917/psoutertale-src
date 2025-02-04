@@ -1264,9 +1264,11 @@ export const erndyne = new CosmosCharacter({
             break;
         case 20:
             renderer.detach('menu', this.metadata.notifier);
-            this.metadata.chaser ??= music.undynefast.instance(renderer);
-            if (game.room === 'f_napstablook' && SAVE.data.n.state_foundry_blookmusic !== 0) {
-                this.metadata.chaser.gain.value = 0;
+            if (this.metadata.chaser === null) {
+                this.metadata.chaser = music.undynefast.instance(renderer);
+                if (game.room === 'f_napstablook' && SAVE.data.n.state_foundry_blookmusic !== 0) {
+                    this.metadata.chaser.gain.value = 0;
+                }
             }
             break;
     }

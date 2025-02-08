@@ -1022,97 +1022,97 @@ export default {
             ],
             [
                 '<18>{#p/papyrus}{#f/4}(SANS, O QUE O HUMANO ESTÁ FAZENDO??)',
-                '<25>{#p/sans}* they could just be studying the pattern.',
-                '<18>{#p/papyrus}{#f/4}(OH, TRUE.)',
-                '<18>{#f/9}IN THAT CASE, PROCEED WHEN READY!'
+                '<25>{#p/sans}* Ele deve estar estudando o padrão.',
+                '<18>{#p/papyrus}{#f/4}(AH, VERDADE.)',
+                '<18>{#f/9}NESTE CASO, PROSSIGA QUANDO PRONTO!'
             ]
         ],
         maze8: () =>
             world.edgy
-                ? ['<25>{#p/sans}{#f/0}* whoops.\n* nice try, though.']
+                ? ['<25>{#p/sans}{#f/0}* whoops.\n* Boa tentativa.']
                 : [
-                    '<18>{#p/papyrus}NYEH HEH HEH!\nWELL THEN.',
-                    "<18>{#f/9}IT SEEMS YOU'VE BEEN JAPED BY THE GREAT PAPYRUS!",
-                    '<18>{#f/0}BUT FRET NOT!',
-                    '<18>FOR YOU SEE, MY TRAPS ARE NO SLOUCH.',
-                    "<18>{#f/9}YOU CAN'T BE BLAMED FOR FAILING ONE SO EASILY!!"
+                    '<18>{#p/papyrus}NYEH HEH HEH!\nPOIS BEM.',
+                    "<18>{#f/9}PARECE QUE VOCÊ FOI TAPEADO PELO GRANDE PAPYRUS!",
+                    '<18>{#f/0}MAS NÃO FIQUE COM RAIVA!',
+                    '<18>COMO VOCÊ PODE VER, MINHAS ARMADILHAS NÃO SÃO DESLEIXADAS.',
+                    "<18>{#f/9}VOCÊ NÃO PODE SE CULPAR POR FALHAR TÃO FACILMENTE!!"
                 ],
         maze9: () =>
             world.edgy
-                ? ["<25>{#p/sans}{#f/0}* huh.\n* guess you're smarter than you look."]
+                ? ["<25>{#p/sans}{#f/0}* huh.\n* acho que você é mais esperto do que parece."]
                 : [
-                    '<18>{#p/papyrus}{#f/1}WHAT!?',
-                    '<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?',
-                    '<18>THAT WAS SUPPOSED TO BE TOTALLY IMPOSSIBLE!',
-                    '<18>{#f/9}... WELL THEN!\nI SHALL HAVE TO STEP UP MY GAME!'
+                    '<18>{#p/papyrus}{#f/1}QUÊ!?',
+                    '<18>{#f/7}COMO VOCÊ CONSEGUIU FAZER ISSO!?!?',
+                    '<18>ISSO ERA SUPOSTAMENTE PARA SER IMPOSSÍVEL!',
+                    '<18>{#f/9}... POIS BEM!\nEU DEVEREI AUMENTAR O NÍVEL DO MEU JOGO!'
                 ],
         maze10: () =>
             world.edgy
                 ? [
-                    "<25>{#p/sans}{#f/0}* well, that's it.",
-                    '<25>{#p/sans}{#f/3}* ... thanks for playing along, at least.',
-                    "<25>{#p/sans}{#f/0}* in the meantime, i've got another puzzle to set up.",
-                    "<25>{#p/sans}{#f/2}* we'll be seeing each other again."
+                    "<25>{#p/sans}{#f/0}* bem, é isso.",
+                    '<25>{#p/sans}{#f/3}* ... obrigado por jogar, pelo menos.',
+                    "<25>{#p/sans}{#f/0}* No meio tempo, eu tenho outro quebra-cabeça para preparar.",
+                    "<25>{#p/sans}{#f/2}* Nós, nos veremos de novo."
                 ]
                 : [
-                    '<18>{#f/4}IN ANY CASE...',
-                    '<18>{#f/0}I AM EXCITED FOR WHAT COMES NEXT!',
-                    '<18>{#f/4}A PUZZLE SO CONFOUNDING...',
-                    "<18>{#f/1}EVEN TERRESTRIA HERSELF COULDN'T SOLVE IT!!!",
-                    "<25>{#p/sans}* terrestria?\n* isn't she literally the oldest monster alive?",
-                    '<18>{|}{#p/papyrus}{#f/1}UH...\nWELL YES, BUT- {%}',
-                    "<25>{#p/sans}* dang, i didn't know you thought THAT highly of me.",
-                    '<18>{#p/papyrus}{#f/4}WHAT.',
-                    "<25>{|}{#p/sans}* like, if even SHE can't do it, then- {%}",
-                    '<18>{#p/papyrus}{#f/7}{#x3}I GET THE POINT!!'
+                    '<18>{#f/4}EM TODO CASO...',
+                    '<18>{#f/0}EU ESTOU EXCITADO PARA O QUE VIRÁ DEPOIS!',
+                    '<18>{#f/4}UM QUEBRA-CABEÇA TÃO CONFUSO...',
+                    "<18>{#f/1}NEM MESMO A PRÓPRIA TERRESTRIA CONSEGUIU RESOLVER!!!",
+                    "<25>{#p/sans}* terrestria?\n* ela não é tipo o monstro mais antigo vivo?",
+                    '<18>{|}{#p/papyrus}{#f/1}UH...\nBEM SIM, MAS- {%}',
+                    "<25>{#p/sans}* droga, eu não sabia que você pensava ISSO logo de mim.",
+                    '<18>{#p/papyrus}{#f/4}QUE.',
+                    "<25>{|}{#p/sans}* tipo, se nem ela consegue fazer, então- {%}",
+                    '<18>{#p/papyrus}{#f/7}{#x3}EU JÁ ENTENDI O PONTO!!'
                 ],
-        maze11: ['<18>{#p/papyrus}{#f/7}SANS, WE HAVE PUZZLES TO PREPARE!!', '<18>COME ON!'],
+        maze11: ['<18>{#p/papyrus}{#f/7}SANS, TEMOS ARMADILHAS PARA PREPARAR!!', '<18>VAMOS!'],
 
         nicecreamSc1: [
-            "<32>{#p/basic}* I don't understand why these aren't selling...",
-            "<32>* It's the perfect place for something nice..."
+            "<32>{#p/basic}* Eu não entendo porque não estão vendendo...",
+            "<32>* É o lugar perfeito para algo doce..."
         ],
         nicecreamSc2: () => [
             SAVE.data.n.plot > 20.2
-                ? '<32>{#p/basic}* OH!!!!\n* ... you came back!'
+                ? '<32>{#p/basic}* OH!!!!\n* ... você voltou!'
                 : SAVE.data.b.s_state_scorereaction1 || SAVE.data.n.plot === 20.2
-                    ? "<32>{#p/basic}* WAIT!!!!\n* Maybe YOU'D like something!"
-                    : '<32>{#p/basic}* OH!!!!\n* A CUSTOMER!!',
-            '<32>* Hello!\n* Would you like an Ice Dream?',
+                    ? "<32>{#p/basic}* PERA!!!!\n* Talvez VOCÊ queira algo!"
+                    : '<32>{#p/basic}* OH!!!!\n* UM CLIENTE!!',
+            '<32>* Olá!\n* Você gostaria de um Sorvete Sonho?',
             SAVE.data.b.s_state_million
-                ? '<32>* As the top scorer here, you get a handy discount!\n* 6G per Ice Dream!'
-                : "<32>* It's the frozen treat that'll set your mind ablaze!\n* Now just 12G."
+                ? '<32>* Como um querido comprador, você ganha um desconto!\n* 6G por Sorvete Sonho!'
+                : "<32>* É a guloseima congelada que vai incendiar sua mente!\n* Agora apenas 12G."
         ],
         nicecreamSc3: () => [
-            "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
-            SAVE.data.b.s_state_million ? '<32>* For you, 6G!' : '<32>* Now just 12G.'
+            "<32>{#p/basic}* Sorvete Sonho!\n* É a guloseima congelada que vai incendiar sua mente!",
+            SAVE.data.b.s_state_million ? '<32>* Para você, 6G!' : '<32>* Agora por 12G.'
         ],
-        nicecreamPrompt1: () => [choicer.create('* (Buy the Ice Dream for $(x)G?)', 'Sim', 'Não')],
-        nicecreamPrompt2: () => [choicer.create('* (Get an Ice Dream?)', 'Sim', 'Não')],
+        nicecreamPrompt1: () => [choicer.create('* (Comprar Sorvete Sonho por $(x)G?)', 'Sim', 'Não')],
+        nicecreamPrompt2: () => [choicer.create('* (Pegar um Sorvete Sonho?)', 'Sim', 'Não')],
         nicecreamSc4: [
-            '<32>{#p/basic}* Well then...\n* Tell your friends...',
-            "<32>* There's ice cream out here...\n* In the middle of nowhere..."
+            '<32>{#p/basic}* Bom, então...\n* Conte aos seus amigos...',
+            "<32>* Que tem Sorvete Sonho aqui...\n* No meio do nada..."
         ],
-        nicecreamFc1: ['<32>{#p/basic}* I relocated my stand, but there are still no customers...'],
+        nicecreamFc1: ['<32>{#p/basic}* Eu desloquei meu carrinho, mas ainda assim nada de clientes...'],
         nicecreamFc2: [
-            "<32>{#p/basic}* Fortunately, I've thought of a solution!!",
-            '<32>* Postcards!',
-            '<32>* Every time you buy an Ice Dream, you can take a postcard from the box.',
+            "<32>{#p/basic}* Felizmente, eu pensei em uma solução!",
+            '<32>* Cartões Postais!',
+            '<32>* Toda vez que você comprar um Sorvete Sonho, você ganha um cartão da caixa.',
             '<32>* If you have three postcards, you can trade them for a free Ice Dream!',
             "<32>* They're sure to get the customers to come back!",
             '<32>* Oh, um, would you like an Ice Dream?',
             "<32>* It's the frozen treat that'll set your mind ablaze!\n* Now just 10G."
         ],
         nicecreamFc3a: [
-            "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
+            "<32>{#p/basic}* Sorvete Sonho!\n* É a guloseima congelada que vai incendiar sua mente!",
             "<32>* You've got three postcards, would you like to redeem them?"
         ],
         nicecreamFc3b: [
-            "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
+            "<32>{#p/basic}* Sorvete Sonho!\n* É a guloseima congelada que vai incendiar sua mente!",
             '<32>* Now just 10G.'
         ],
         nicecreamFc4: [
-            '<32>{#p/basic}* Well then...\n* Tell your friends...',
+            '<32>{#p/basic}* Bom, então...\n* Conte aos seus amigos...',
             '<32>* Four Ice Dreams for the price of three...'
         ],
         nicecreamFc5: ["<32>{#p/basic}* Don't forget to take a postcard from the box!"],
@@ -3514,7 +3514,7 @@ export default {
             '<18>{#f/4}AND THEN, WHEN YOU LEAST EXPECT IT...',
             '<19>{#f/9}WHAM!\nCAPTURED!\nOFF TO THE CITADEL!',
             '<18>{#f/9}OUR BATTLE WILL BE AS LEGENDARY AS THEY COME!',
-            '<18>{#f/4}IN ANY CASE...',
+            '<18>{#f/4}EM TODO CASO...',
             '<18>{#f/9}CONTINUE... ONLY IF YOU DARE!!!'
         ],
         papyrus4: ['<18>{#f/0}NYEH HEH HEH HEH HEH HEH HEH HEH!!!'],

@@ -3723,1520 +3723,1520 @@ export default {
         twinkly9a5: ['<25>{#f/6}{#v/0}* Tudo que precisávamos fazer era passar pela Cidadela!'],
         twinkly9a6: ['<25>{#f/6}{#v/0}* Tudo que precisávamos fazer era MATAR aquele pedaço de lixo nerd!'],
         twinkly9a7: ['<25>{#f/6}{#v/0}* Tudo que precisávamos fazer era andar até o fim!', '<25>* Estávamos tão perto!'],
-        twinkly9a8: ['<25>{#f/8}{#v/0}* Coward...'],
+        twinkly9a8: ['<25>{#f/8}{#v/0}* Covarde...'],
         twinkly9b: [
             '<25>{#p/twinkly}{#f/5}* $(name)...?',
-            "<25>{#f/6}* I'm not really sure what just happened.",
-            '<25>{#f/8}* We were on the shuttle, and then...',
+            "<25>{#f/6}* Eu não tenho exata certeza do que acabou de acontecer.",
+            '<25>{#f/8}* Nós estávamos na nave e então...',
             '<25>{#f/8}* ...',
-            '<25>{#f/6}* I...',
-            '<25>{#f/8}* I have to go...'
+            '<25>{#f/6}* Eu...',
+            '<25>{#f/8}* Eu tenho que ir...'
         ],
         twinkly9c: [
-            "<25>{#p/twinkly}{#f/7}* So, we're back at the beginning, are we?",
-            "<26>{#f/5}* I've been expecting you.\n* I wonder how you'll do this time around.",
-            "<25>{#f/11}* Who knows?\n* Maybe it'll be easier for you now.",
-            '<25>{#f/7}* It certainly was when I had your powers.',
+            "<25>{#p/twinkly}{#f/7}* Então, de volta ao começo estamos?",
+            "<26>{#f/5}* Eu estava te esperando.\n* Eu me pergunto como você vai se sair dessa vez.",
+            "<25>{#f/11}* Quem sabe?\n* Talvez seja mais fácil dessa vez.",
+            '<25>{#f/7}* Certamente foi para mim quando eu tinha seus poderes.',
             '<25>{#f/6}* ...',
-            '<25>{#f/5}* Well, good luck!'
+            '<25>{#f/5}* Boa sorte!'
         ],
         twinkly10: [
-            "<20>{#f/5}See that heart? That's your SOUL, the very culmination of your being!",
-            '<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain itself.'
+            "<20>{#f/5}Vê esse coração? Essa é sua ALMA, a culminância do seu ser!",
+            '<20>{#f/5}Sua ALMA é uma parte importante de você e precisa de LOVE para se sustentar.'
         ],
         twinkly11: [
-            "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... {#f/11}'happiness shards.'",
-            "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own LOVE.",
-            '<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}'
+            "<20>{*}{#x2}{#f/5}Por aqui, o \nLOVE é compartilhado através de... {#f/8}branquinhos... {#f/11}'fragmentos de felicidade.'",
+            "<20>{*}{#f/5}Para te colocar no caminho correto, eu vou começar compartilhando parte do meu LOVE contigo.",
+            '<20>{*}{#f/5}Tente pegar o máximo que conseguir!{^20}{*}{#x1}{%}'
         ],
         twinkly12: [
-            "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-            "<20>{*}{#f/5}But that's okay!",
-            '<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}'
+            "<20>{*}{#f/8}Ops, eu acho que você os perdeu...",
+            "<20>{*}{#f/5}Mas tudo bem!",
+            '<20>{*}{#x2}{#f/10}Aqui, pega mais um pouco.{^20}{*}{#x1}{%}'
         ],
         twinkly13: [
-            '<20>{*}{#f/12}What the-... are you braindead or something??',
-            '<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}'
+            '<20>{*}{#f/12}Mas o que-... você tem demência ou coisa do tipo?',
+            '<20>{*}{#x2}CORRA. PARA. AS. BALAS!!!{^20}{*}{#x1}{^999}'
         ],
-        twinkly14: 'RUN. INTO. THE. happiness shards~',
+        twinkly14: 'CORRA. PARA. OS. fragmentos da amizade~',
         twinkly15: [
             '<20>{#v/1}Hee hee hee...',
-            "<20>In this world, it's KILL or BE killed.",
-            '<20>Imagine, a SOUL like yours crash-landing on my doorstep...',
-            "<20>Did you really think I'd pass up such a golden opportunity?"
+            "<20>Neste mundo, é MATAR ou MORRER.",
+            '<20>Imagine, uma ALMA como a sua aparecendo na minha porta...',
+            "<20>Você realmente pensou que eu deixaria passar essa oportunidade?"
         ],
         twinkly16: [
-            "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-            "<20>You just wanted to torment little old Twinkly, didn'tcha?",
-            "<20>Golly... you must have no idea who you're messing with.",
+            "<20>{#f/7}Nah, você sabe o que está acontecendo aqui, não sabe?",
+            "<20>Você só queria tormentar um pouco seu velho amigo Twinkly, não é?",
+            "<20>Senhor... você não deve fazer ideia com quem está mexendo.",
             '<20>{#f/11}Hee hee hee...'
         ],
-        twinkly17: ["<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...'],
-        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
-        twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
+        twinkly17: ["<20>{#v/1}Que tal só irmos direto ao ponto, não é mesmo?", '<20>Hee hee hee...'],
+        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}MORRA.{^20}{%}'],
+        twinkly19: ['<20>{#p/toriel}Que criatura terrível, torturando uma pobre e inocente criança...'],
         twinkly20: [
-            '<20>Have no fear, little one.',
-            '<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the {@fill=#f00}OUTLANDS{@fill=#000}.',
-            '<20>I come by every day to check for those who have been stranded here.',
-            '<20>Follow me, child.\nThere is much I intend to teach you.'
+            '<20>Não tenha medo, pequeno.',
+            '<20>Eu sou {@fill=#003cff}TORIEL{@fill=#000}, protetora das {@fill=#f00}OUTLANDS{@fill=#000}.',
+            '<20>Eu venho aqui todo dia para olhar se alguém pode ter batido a nave.',
+            '<20>Siga-me, criança.\nTem muito que eu preciso te ensinar.'
         ],
         twinkly21: [
-            '<25>{#p/toriel}{#f/1}* Oh my!\n* Where did you come from, little one?',
-            '<25>{#f/1}* Are you injured?',
-            '<25>{#f/0}* ...\n* Forgive me for asking so many questions.',
-            '<25>{#f/0}* I am {@fill=#003cff}TORIEL{@fill=#fff}, overseer of the {@fill=#f00}OUTLANDS{@fill=#fff}.',
-            '<26>{#f/0}* I come by every day to check for those who\n  have been stranded here.',
-            '<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you.'
+            '<25>{#p/toriel}{#f/1}* Oh!\n* De onde você veio, pequeno?',
+            '<25>{#f/1}* Você está ferido?',
+            '<25>{#f/0}* ...\n* Me perdoe por perguntar tantas coisas.',
+            '<25>{#f/0}* Eu sou {@fill=#003cff}TORIEL{@fill=#fff}, protetora das {@fill=#f00}OUTLANDS{@fill=#fff}.',
+            '<26>{#f/0}* Eu venho aqui todos os dias para ver se alguém não caiu.',
+            '<25>{#f/0}* Siga-me, criança.\n* A muito que eu preciso te ensinar.'
         ],
-        twinkly22: ['<25>{#f/0}* This way.'],
+        twinkly22: ['<25>{#f/0}* Por aqui.'],
         w_coffin0: () => [
-            '<32>{#p/human}* (You feel it would be best to leave this be.)',
+            '<32>{#p/human}* (Você sente que seria melhor deixar isso assim.)',
             ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/13}* ...'] : [])
         ],
         w_coffin1: () => [
-            '<32>{#p/basic}* This coffin is very old.\n* There is nothing remarkable about it.',
+            '<32>{#p/basic}* Este cofre é bem velho.\n* Não tem nada memorável sobre isso.',
             ...(world.goatbro && SAVE.flag.n.ga_asrielCoffin++ < 1
                 ? [
-                    '<25>{#p/asriel2}{#f/13}* Oh, look at that.\n* They made one just for you, $(name).',
-                    '<25>{#p/asriel2}{#f/5}* How touching.'
+                    '<25>{#p/asriel2}{#f/13}* Oh, olha pra isso.\n* Eles fizeram um só para você, $(name).',
+                    '<25>{#p/asriel2}{#f/5}* Que tocante.'
                 ]
                 : [])
         ],
         w_coffin2: pager.create(
             0,
             () => [
-                '<32>{#p/basic}* This coffin dates back to December 251X.',
-                '<32>* There is an old record-keeping manifest stashed next to it...',
-                choicer.create('* (Access the manifest?)', 'Sim', 'Não')
+                '<32>{#p/basic}* Este cofre é datado em dezembro de 251X.',
+                '<32>* Há um antigo manifesto de manutenção de registros escondido ao lado dele...',
+                choicer.create('* (Acessar o manifesto?)', 'Sim', 'Não')
             ],
             () => [
-                '<32>{#p/human}* (You once again pick up the manifest.)',
-                choicer.create('* (Access the manifest?)', 'Sim', 'Não')
+                '<32>{#p/human}* (Você pega o manifesto novamente.)',
+                choicer.create('* (Acessar o manifesto?)', 'Sim', 'Não')
             ]
         ),
-        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Sim', 'Não')],
-        w_coffin4: ['<32>{#p/human}* (But there were no further pages to be read.)'],
-        w_coffin5: ['<32>{#p/human}* (You put the manifest back where it belongs.)'],
+        w_coffin3: () => [choicer.create('* (Ler a próxima página?)', 'Sim', 'Não')],
+        w_coffin4: ['<32>{#p/human}* (Porém não havia mais nada para ler.)'],
+        w_coffin5: ['<32>{#p/human}* (Você põe o manifesto de volta a onde ele pertence.)'],
         w_dummy1: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)']
-                : ['<32>{#p/basic}* A training dummy, circa 251X.\n* CITADEL standard-issue.'],
+                ? ['<32>{#p/human}* (Você põe suas mãos no boneco.)\n* (Parece muito desgastado.)']
+                : ['<32>{#p/basic}* Um boneco de treino, circa 251X.\n* Edição padrão da CIDADELA.'],
         wonder1: [
-            '<32>{#p/basic}* Can you hear it?\n* The song of the stars?',
-            "<32>* At certain places on the outpost, like this one... it's there.",
-            '<32>* You just have to be listening for it.',
-            '<32>* Pretty cool, right?'
+            '<32>{#p/basic}* Pode ouvir isso? \n* O som das estrelas?',
+            "<32>* Em certos lugares no Outpost, como este aqui... é aqui.",
+            '<32>* Você só precisa estar ouvindo.',
+            '<32>* Bem legal, certo?'
         ]
     },
 
     b_group_outlands: {
-        froggitWhimsun: ['<32>{#p/story}* Space frogs and Starflies!\n* Or something of the like.'],
-        froggitWhimsun2a: ['<32>{#p/story}* Space frogs...?'],
+        froggitWhimsun: ['<32>{#p/story}* Sapos espaciais e Starflies!\n* Ou algo parecido.'],
+        froggitWhimsun2a: ['<32>{#p/story}* Sapos espaciais...?'],
         froggitWhimsun2b: ['<32>{#p/story}* Starflies...?'],
-        looxMigospWhimsun: ["<32>{#p/story}* It's the troublesome trio!"],
-        looxMigospWhimsun2: ['<32>{#p/story}* The trio has become a duo.'],
-        looxMigospWhimsun3: ['<32>{#p/story}* Only one remains.'],
-        moldsmalMigosp: ['<32>{#p/story}* Silente and company present themselves!']
+        looxMigospWhimsun: ["<32>{#p/story}* É o trio dos problemas!"],
+        looxMigospWhimsun2: ['<32>{#p/story}* O trio se tornou um duo.'],
+        looxMigospWhimsun3: ['<32>{#p/story}* Só mais um.'],
+        moldsmalMigosp: ['<32>{#p/story}* Silente e companhia se apresentam!']
     },
 
     b_opponent_froggit: {
-        act_check: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is difficult for this monster.'],
-        act_check2: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is getting better for this monster.'],
-        act_check3: ["<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life just doesn't seem to get easier for this monster."],
-        act_check4: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is very confusing for this monster.'],
-        act_check5: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life seems to be very lovely for this monster.'],
+        act_check: ['<32>{#p/story}* FROGGIT - ATQ 4 DEF 5\n* A vida é difícil para esse monstro.'],
+        act_check2: ['<32>{#p/story}* FROGGIT - ATQ 4 DEF 5\n* A vida está ficando melhor para este monstro.'],
+        act_check3: ["<32>{#p/story}* FROGGIT - ATQ 4 DEF 5\n* A vida não parece ficar mais fácil para este monstro."],
+        act_check4: ['<32>{#p/story}* FROGGIT - ATQ 4 DEF 5\n* A vida é bem confusa para este monstro.'],
+        act_check5: ['<32>{#p/story}* FROGGIT - ATQ 4 DEF 5\n* A vida parece ser um amor confuso para este monstro.'],
         act_threat: [
-            '<32>{#p/human}* (You threaten Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Você ameaçou Froggit.)',
+            "<32>{#p/basic}* Froggit não entendeu o que você disse..."
         ],
         act_threat2: [
-            '<32>{#p/human}* (You threaten Froggit again.)',
-            "<32>{#p/basic}* Froggit recalls the previous threat and decides it's time to run away."
+            '<32>{#p/human}* (Você ameaçou o Froggit novamente.)',
+            "<32>{#p/basic}* Froggit lembrou-se das ameaças passadas e decidiu que é hora de fugir."
         ],
         act_compliment: [
-            '<32>{#p/human}* (You compliment Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Você cumprimentou Froggit.)',
+            "<32>{#p/basic}* Froggit não entendeu o que você disse..."
         ],
         act_flirt: [
-            '<32>{#p/human}* (You flirt with Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Você flertou com Froggit.)',
+            "<32>{#p/basic}* Froggit não entendeu o que você disse..."
         ],
-        act_translate0: ["<32>{#p/human}* (But you haven't said anything to translate yet.)"],
+        act_translate0: ["<32>{#p/human}* (Mas você não disse nada para traduzir isso.)"],
         act_translate1: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is flattered.'
+            '<32>{#p/human}* (Você traduziu o que disse.)\n* (Froggit parece entender agora.)',
+            '<32>{#p/basic}* Froggit está abismado.'
         ],
         act_translate1x: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is hesitant to continue this battle.'
+            '<32>{#p/human}* (Você traduziu o que disse.)\n* (Froggit parece entender agora.)',
+            '<32>{#p/basic}* Froggit está hesitante em relação a continuar está batalha.'
         ],
         act_translate1y: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>* Thoroughly threatened, Froggit runs away!'
+            '<32>{#p/human}* (Você traduziu o que disse.)\n* (Froggit parece entender agora.)',
+            '<32>* Sentindo-se ameaçado, Froggit corre da batalha!'
         ],
         act_translate1z: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit shows no sign of fear.'
+            '<32>{#p/human}* (Você traduziu o que disse.)\n* (Froggit parece entender agora.)',
+            '<32>{#p/basic}* Froggit não mostra sinais de medo.'
         ],
         act_translate2: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is blushing, if only on the inside.'
+            '<32>{#p/human}* (Você traduziu o que disse.)\n* (Froggit parece entender agora.)',
+            '<32>{#p/basic}* Froggit está corando, mesmo que apenas por dentro.'
         ],
         confuseText: ['<08>{#p/basic}{~}Ribbit, ribbit?'],
-        flirtText: ['<08>{#p/basic}{~}(Blushes deeply.)\nRibbit..'],
+        flirtText: ['<08>{#p/basic}{~}(Fica vermelho.)\nRibbit...'],
         idleText1: ['<08>{#p/basic}{~}Ribbit, ribbit.'],
         idleText2: ['<08>{#p/basic}{~}Croak, croak.'],
         idleText3: ['<08>{#p/basic}{~}Hop, hop.'],
         idleText4: ['<08>{#p/basic}{~}Meow.'],
-        mercyStatus: ['<32>{#p/story}* Froggit seems reluctant to fight you.'],
+        mercyStatus: ['<32>{#p/story}* Froggit parece relutante sobre lutar com você.'],
         name: '* Froggit',
-        meanText: ['<08>{#p/basic}{~}(Shiver, shake.)\nRibbit..'],
-        niceText: ['<08>{#p/basic}{~}(Blushes softly.)\nRibbit..'],
-        perilStatus: ['<32>{#p/story}* Froggit is trying to run away.'],
-        status1: ['<32>{#p/story}* Froggit hops near!'],
-        status2: ['<32>{#p/story}* The battlefield is filled with the smell of crystherium utilia.'],
-        status3: ["<32>{#p/story}* Froggit doesn't seem to know why it's here."],
-        status4: ['<32>{#p/story}* Froggit hops to and fro.']
+        meanText: ['<08>{#p/basic}{~}(Arrepio, agitação.)\nRibbit...'],
+        niceText: ['<08>{#p/basic}{~}(Cora suavemente.)\nRibbit...'],
+        perilStatus: ['<32>{#p/story}* Froggit está tentando fugir.'],
+        status1: ['<32>{#p/story}* Froggit pular perto!'],
+        status2: ['<32>{#p/story}* O campo de batalha está cheio do cheiro de crystherium utilia.'],
+        status3: ["<32>{#p/story}* Froggit parece não enteder o motivo de estar aqui."],
+        status4: ['<32>{#p/story}* Froggit pula e gira.']
     },
     b_opponent_whimsun: {
-        act_check: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster has only just learned how to fly...'],
-        act_check2: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster wishes it had stayed on the ground.'],
+        act_check: ['<32>{#p/story}* FLUTTERLYTE - ATQ 5 DEF 0\n* Este monstro acabou de aprender a voar...'],
+        act_check2: ['<32>{#p/story}* FLUTTERLYTE - ATQ 5 DEF 0\n* Este monstro desejava ter ficado no chão.'],
         act_console: [
-            '<32>{#p/human}* (You help Flutterlyte fly higher into the air.)',
-            '<32>{#p/basic}* Flutterlyte thanks you, and flies away...'
+            '<32>{#p/human}* (Você ajuda Flutterlyte a voar mais alto no ar.)',
+            '<32>{#p/basic}* Flutterlyte te agradece, e voa para longe...'
         ],
         act_flirt: [
-            '<32>{#p/human}* (You flirt with Flutterlyte.)',
-            '<32>{#p/basic}* Unable to handle your compliment, Flutterlyte bursts into tears and flies away...'
+            '<32>{#p/human}* (Você flerta com Flutterlyte.)',
+            '<32>{#p/basic}* Sem capacidade de aguentar seu cumprimento, Flutterlyte se acaba em choro e voa...'
         ],
         act_terrorize: [
-            '<32>{#p/human}* (You weep and wail and gnash your teeth.)',
-            '<32>{#p/basic}* Flutterlyte panicks and flies away...'
+            '<32>{#p/human}* (Você chora, lamenta e range os dentes.)',
+            '<32>{#p/basic}* Flutterlyte entra em pânico e voa longe...'
         ],
-        idleTalk1: ['<08>{#p/basic}{~}Why is this so hard..'],
-        idleTalk2: ['<08>{#p/basic}{~}Please help me..'],
-        idleTalk3: ["<08>{#p/basic}{~}I'm scared.."],
-        idleTalk4: ["<08>{#p/basic}{~}I can't do this.."],
+        idleTalk1: ['<08>{#p/basic}{~}Por que isso é tão difícil...'],
+        idleTalk2: ['<08>{#p/basic}{~}Por favor me ajude...'],
+        idleTalk3: ["<08>{#p/basic}{~}Eu tenho medo..."],
+        idleTalk4: ["<08>{#p/basic}{~}Eu não consigo..."],
         idleTalk5: ['<08>{#p/basic}{~}\x00*sniff sniff*'],
         name: '* Flutterlyte',
-        perilStatus: ['<32>{#p/story}* Flutterlyte is barely keeping itself in the air.'],
-        status1: ['<32>{#p/story}* Flutterlyte comes forth!'],
-        status2: ['<32>{#p/story}* Flutterlyte continues to mutter apologies.'],
-        status3: ['<32>{#p/story}* Flutterlyte hovers meekly.'],
-        status4: ['<32>{#p/story}* The smell of fresh peaches permeates the air.'],
-        status5: ['<32>{#p/story}* Flutterlyte is hyperventilating.'],
-        status6: ['<32>{#p/story}* Flutterlyte avoids eye contact.']
+        perilStatus: ['<32>{#p/story}* Flutterlyte mal consegue se manter no ar.'],
+        status1: ['<32>{#p/story}* Flutterlyte aparece!'],
+        status2: ['<32>{#p/story}* Flutterlyte continua pedindo desculpas.'],
+        status3: ['<32>{#p/story}* Flutterlyte paira mansamente.'],
+        status4: ['<32>{#p/story}* O cheiro de pêras frescas permeia pelo ar.'],
+        status5: ['<32>{#p/story}* Flutterlyte está hiperventilando.'],
+        status6: ['<32>{#p/story}* Flutterlyte evita contato visual.']
     },
     b_opponent_loox: {
-        act_check: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* Staring contest master.\n* Family name: Eyewalker'],
+        act_check: ['<32>{#p/story}* OCULOUX - ATQ 6 DEF 6\n* Mestre na competição de encarar.\n* Nome de família: Eyewalker'],
         act_check2: [
-            "<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This bully is trying very hard to pretend it's not flattered."
+            "<32>{#p/story}* OCULOUX - ATQ 6 DEF 6\n* Este Bully está tentando muito pretender que não está lisonjeado."
         ],
-        act_check3: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This monster is honored to be in your line of sight.'],
+        act_check3: ['<32>{#p/story}* OCULOUX - ATQ 6 DEF 6\n* Este monstro está honrado por estar no seu campo de vista.'],
         act_dontpick: [
-            '<32>{#p/human}* (You stare at Oculoux.)\n* (Oculoux stares back harder.)',
-            "<32>{#p/human}* (Oculoux's eye becomes increasingly strained, and eventually...)",
-            '<32>{#p/human}* (... Oculoux bows.)'
+            '<32>{#p/human}* (Você encara Oculoux.)\n* (Oculoux encara com mais precisão.)',
+            "<32>{#p/human}* (O olho de Oculoux fica cada vez mais tenso e, eventualmente...)",
+            '<32>{#p/human}* (... Oculoux desiste.)'
         ],
-        act_flirt: ['<32>{#p/human}* (You flirt with Oculoux.)'],
-        act_pick: ['<32>{#p/human}* (You rudely lecture Oculoux about staring at people.)'],
-        checkTalk1: ['<08>{#p/basic}{~}Do you dare to stare?'],
-        dontDeny1: ['<08>{#p/basic}{~}Look who changed their mind.'],
-        dontTalk1: ['<99>{#p/basic}{~}The gaze\nis\nstrong\nwith\nthis one.'],
-        flirtDeny1: ['<08>{#p/basic}{~}How tsundere of you.'],
-        flirtTalk1: ['<08>{#p/basic}{~}What? N-no way!'],
-        hurtStatus: ['<32>{#p/story}* Oculoux is watering.'],
-        idleTalk1: ["<08>{#p/basic}{~}I've got my eye on you."],
-        idleTalk2: ["<08>{#p/basic}{~}Don't tell me what to do."],
-        idleTalk3: ['<08>{#p/basic}{~}Staring is caring.'],
-        idleTalk4: ['<08>{#p/basic}{~}What an eyesore.'],
-        idleTalk5: ['<08>{#p/basic}{~}How about a staring contest?'],
+        act_flirt: ['<32>{#p/human}* (Você flerta com Oculoux.)'],
+        act_pick: ['<32>{#p/human}* (Você rudemente crítica Oculoux por encarar pessoas.)'],
+        checkTalk1: ['<08>{#p/basic}{~}Você ousa encarar?'],
+        dontDeny1: ['<08>{#p/basic}{~}Olha quem mudou de opinião.'],
+        dontTalk1: ['<99>{#p/basic}{~}O olhar\né\nforte\ncom\neste.'],
+        flirtDeny1: ['<08>{#p/basic}{~}Que tsundere da sua parte.'],
+        flirtTalk1: ['<08>{#p/basic}{~}Que? S-sem chance!'],
+        hurtStatus: ['<32>{#p/story}* Oculoux está regando.'],
+        idleTalk1: ["<08>{#p/basic}{~}Eu tenho meus olhos em você."],
+        idleTalk2: ["<08>{#p/basic}{~}Não me diga o que fazer."],
+        idleTalk3: ['<08>{#p/basic}{~}Encarar é cuidar.'],
+        idleTalk4: ['<08>{#p/basic}{~}Que monstruosidade.'],
+        idleTalk5: ['<08>{#p/basic}{~}Que tal uma competição de encaradas?'],
         name: '* Oculoux',
-        pickTalk1: ['<08>{#p/basic}{~}How dare you question our way of life!'],
-        spareStatus: ["<32>{#p/story}* Oculoux doesn't care about fighting anymore."],
-        status1: ['<32>{#p/story}* A pair of Oculoux walked in!'],
-        status2: ['<32>{#p/story}* Oculoux is staring right through you.'],
-        status3: ['<32>{#p/story}* Oculoux gnashes its teeth.'],
-        status4: ['<32>{#p/story}* Smells like eyedrops.'],
-        status5: ['<32>{#p/story}* Oculoux has gone bloodshot.'],
-        status6: ['<32>{#p/story}* Oculoux is gazing at you.'],
-        status7: ['<32>{#p/story}* Oculoux is now alone.']
+        pickTalk1: ['<08>{#p/basic}{~}Como você ousa questionar nosso método de vida!'],
+        spareStatus: ["<32>{#p/story}* Oculoux não parece mais se importar com a luta."],
+        status1: ['<32>{#p/story}* Um par de Oculoux se aproximam!'],
+        status2: ['<32>{#p/story}* Oculoux está encarando você diretamente.'],
+        status3: ['<32>{#p/story}* Oculoux range os dentes.'],
+        status4: ['<32>{#p/story}* Cheira a gotas de lágrimas.'],
+        status5: ['<32>{#p/story}* Oculoux ficou vermelho.'],
+        status6: ['<32>{#p/story}* Oculoux está olhando para você.'],
+        status7: ['<32>{#p/story}* Oculoux está sozinho agora.']
     },
     b_opponent_migosp: {
-        act_check: ["<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems evil, but it's just with the wrong crowd..."],
-        act_check2: ['<33>{#p/story}* SILENTE - ATK 7 DEF 5\n* Now alone, it joyfully expresses itself through dance.'],
-        act_check3: ['<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems comfortable with you.\n* VERY comfortable.'],
-        act_check4: ["<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* Despite its tough act, it's clearly in pain..."],
-        act_flirt: ['<32>{#p/human}* (You flirt with Silente.)'],
+        act_check: ["<32>{#p/story}* SILENTE - ATQ 7 DEF 5\n* Parece malvado, mas só está com a plateia errada..."],
+        act_check2: ['<33>{#p/story}* SILENTE - ATQ 7 DEF 5\n* Agora sozinho, ele expressa seu amor pela dança.'],
+        act_check3: ['<32>{#p/story}* SILENTE - ATQ 7 DEF 5\n* Ele parece confortável com você.\n* MUITO confortável.'],
+        act_check4: ["<32>{#p/story}* SILENTE - ATQ 7 DEF 5\n* Mesmo parecendo durão, ele claramente está em dor..."],
+        act_flirt: ['<32>{#p/human}* (Você flerta com Silente.)'],
         flirtTalk: ['<08>{#p/basic}{~}Hiya~'],
-        groupInsult: ["<32>{#p/human}* (You try insulting Silente, but it's too focused on the others.)"],
-        groupStatus1: ['<32>{#p/story}* Silente is whispering to the others.'],
-        groupStatus2: ["<32>{#p/story}* It's starting to smell like a roach motel."],
-        groupTalk1: ['<08>{#p/basic}FILTHY SINGLE MINDER\n..'],
-        groupTalk2: ['<08>{#p/basic}OBEY THE OVERMIND\n..'],
-        groupTalk3: ['<08>{#p/basic}LEGION! WE ARE LEGION!'],
-        groupTalk4: ['<08>{#p/basic}HEED THE SWARM\n..'],
-        groupTalk5: ['<08>{#p/basic}IN UNISON, NOW\n..'],
-        groupTalk6: ["<08>{#p/basic}I DON'T CARE."],
+        groupInsult: ["<32>{#p/human}* (Você tenta insultar Silente, mas ele está focado demais nos outros.)"],
+        groupStatus1: ['<32>{#p/story}* Silente está sussurrando para os outros.'],
+        groupStatus2: ["<32>{#p/story}* Está começando a cheirar a um hotel barato."],
+        groupTalk1: ['<08>{#p/basic}MENTE SOLTEIRA IMUNDA\n..'],
+        groupTalk2: ['<08>{#p/basic}OBEDEÇA A MENTE MAIOR\n..'],
+        groupTalk3: ['<08>{#p/basic}LEGIÃO! NÓS SOMOS A LEGIÃO!'],
+        groupTalk4: ['<08>{#p/basic}PRESTE ATENÇÃO AO ENXAME\n..'],
+        groupTalk5: ['<08>{#p/basic}EM UNÍSSONO, AGORA \n..'],
+        groupTalk6: ["<08>{#p/basic}EU NÃO LIGO."],
         name: '* Silente',
-        perilStatus: ['<32>{#p/story}* Silente refuses to give up.'],
-        soloInsult: ["<32>{#p/human}* (You try insulting Silente, but it's too happy to care.)"],
-        soloStatus: ["<32>{#p/story}* Silente doesn't have a care in the cosmos."],
-        soloTalk1: ["<08>{#p/basic}{~}Bein' me is the best!"],
-        soloTalk2: ['<08>{#p/basic}{~}La la~ Just be your- self~'],
-        soloTalk3: ["<08>{#p/basic}{~}Nothin' like alone time!"],
+        perilStatus: ['<32>{#p/story}* Silente recusa desistir.'],
+        soloInsult: ["<32>{#p/human}* (Você tenta insultar Silente, mas ele tá muito feliz pra ligar.)"],
+        soloStatus: ["<32>{#p/story}* Silente não parece se importar no cosmos."],
+        soloTalk1: ["<08>{#p/basic}{~}Ser eu é muito legal!"],
+        soloTalk2: ['<08>{#p/basic}{~}La la~ Só seja vo- cê~'],
+        soloTalk3: ["<08>{#p/basic}{~}Nada como um tempo sozinho!"],
         soloTalk4: ['<08>{#p/basic}{~}Mmm, cha cha cha!'],
-        soloTalk5: ['<08>{#p/basic}{~}Swing your arms, baby~']
+        soloTalk5: ['<08>{#p/basic}{~}Balance os braços, bebê~']
     },
     b_opponent_mushy: {
         act_challenge: [
-            '<32>{#p/human}* (You challenge Mushy to a duel.)',
-            "<33>{#p/story}* Mushy's SPEED up for this turn!"
+            '<32>{#p/human}* (Você desafia Mushy para um duelo.)',
+            "<33>{#p/story}* Mushy aumenta sua VELOCIDADE para este turno!"
         ],
-        act_check: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Gunslinger.'],
-        act_check2: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Even the sexy ones.'],
-        act_check3: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed.'],
-        act_flirt: ['<32>{#p/human}* (You flirt with Mushy.)'],
-        act_taunt: ['<32>{#p/human}* (You taunt Mushy.)'],
-        challengeStatus: ['<32>{#p/story}* Mushy awaits your next challenge.'],
-        challengeTalk1: ["<08>{#p/basic}{~}Let's see what you got."],
-        challengeTalk2: ['<08>{#p/basic}{~}Think you can take me?'],
-        flirtStatus1: ['<32>{#p/story}* Mushy, the confused and the aroused.'],
-        flirtTalk1: ['<08>{#p/basic}{~}H-hey, knock it off!'],
-        hurtStatus: ['<32>{#p/story}* Mushy makes a last stand.'],
+        act_check: ['<32>{#p/story}* MUSHY - ATQ 6 DEF 6\n* Grande fã de cowboys do espaço.\n* Pistoleiro.'],
+        act_check2: ['<32>{#p/story}* MUSHY - ATQ 6 DEF 6\n* Grande fã de cowboys do espaço.\n* Até mesmo os fortões.'],
+        act_check3: ['<32>{#p/story}* MUSHY - ATQ 6 DEF 6\n* Após dar tudo de si, este pistoleiro está impressionado.'],
+        act_flirt: ['<32>{#p/human}* (Você flerta com Mushy.)'],
+        act_taunt: ['<32>{#p/human}* (Você zomba de Mushy.)'],
+        challengeStatus: ['<32>{#p/story}* Mushy aguarda o próximo desafio.'],
+        challengeTalk1: ["<08>{#p/basic}{~}Vamos ver o que você tem."],
+        challengeTalk2: ['<08>{#p/basic}{~}Você acha que pode me vencer?'],
+        flirtStatus1: ['<32>{#p/story}* Mushy, o confuso e o despertado.'],
+        flirtTalk1: ['<08>{#p/basic}{~}H-hey, para com isso!'],
+        hurtStatus: ['<32>{#p/story}* Mushy faz um último levante.'],
         idleTalk1: ['<08>{#p/basic}{~}Bang!\nBang!\nBang!'],
-        idleTalk2: ['<08>{#p/basic}{~}Saddle up!'],
-        idleTalk3: ["<08>{#p/basic}{~}All in a day's."],
+        idleTalk2: ['<08>{#p/basic}{~}Segura essa!'],
+        idleTalk3: ["<08>{#p/basic}{~}Tudo em dia."],
         name: '* Mushy',
-        spareStatus: ['<32>{#p/story}* Mushy bows out of respect.'],
-        status1: ['<32>{#p/story}* Mushy stormed in!'],
-        status2: ['<32>{#p/story}* Mushy adjusts their stance.'],
-        status3: ['<32>{#p/story}* Mushy is preparing for a grand standoff.'],
-        status4: ['<32>{#p/story}* Mushy reaches for their holster.'],
-        status5: ['<32>{#p/story}* Smells like petrichor.'],
-        tauntStatus1: ["<32>{#p/story}* Mushy pretends they aren't bothered by your taunts."],
-        tauntTalk1: ["<08>{#p/basic}{~}As if that'll work on me."]
+        spareStatus: ['<32>{#p/story}* Mushy se curva em respeito.'],
+        status1: ['<32>{#p/story}* Mushy invade!'],
+        status2: ['<32>{#p/story}* Mushy ajusta sua postura.'],
+        status3: ['<32>{#p/story}* Mushy se prepara para uma grande batalha.'],
+        status4: ['<32>{#p/story}* Mushy segura o coldre.'],
+        status5: ['<32>{#p/story}* Cheira a pólvora.'],
+        tauntStatus1: ["<32>{#p/story}* Mushy pretende não estar aborrecido por suas provocações."],
+        tauntTalk1: ["<08>{#p/basic}{~}Como se tudo isso fosse funcionar em mim."]
     },
     b_opponent_napstablook: {
-        act_check: ["<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook."],
+        act_check: ["<32>{#p/story}* NAPSTABLOOK - ATQ 10 DEF 255\n* É o Napstablook."],
         act_check2: [
-            "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It doesn't seem like they want to be here anymore."
+            "<32>{#p/story}* NAPSTABLOOK - ATQ 10 DEF 255\n* Não parece que ele quer estar aqui por mais tempo."
         ],
-        act_check3: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* Hopeful, for the first time in a while...'],
-        act_check4: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* The romantic tension is at an all-time high.'],
-        awkwardTalk: ['<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}okay, i guess...?'],
-        checkTalk: ["<11>{#p/napstablook}{~}that's me..."],
-        cheer0: ['<32>{#p/human}* (You try to console Napstablook.)'],
-        cheer1: ['<32>{#p/human}* (You give Napstablook a patient smile.)'],
-        cheer2: ['<32>{#p/human}* (You tell Napstablook a little joke.)'],
-        cheer3: ["<32>{#p/human}* (You show adoration for Napstablook's top hat.)"],
+        act_check3: ['<32>{#p/story}* NAPSTABLOOK - ATQ 10 DEF 255\n* Com esperança, pela primeira vez em um tempo...'],
+        act_check4: ['<32>{#p/story}* NAPSTABLOOK - ATQ 10 DEF 255\n* A tensão romântica está no seu auge.'],
+        awkwardTalk: ['<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}okay, eu acho...?'],
+        checkTalk: ["<11>{#p/napstablook}{~}sou eu..."],
+        cheer0: ['<32>{#p/human}* (Você tenta consolar Napstablook.)'],
+        cheer1: ['<32>{#p/human}* (Você da a Napstablook um sorriso simpático.)'],
+        cheer2: ['<32>{#p/human}* (Você conta para Napstablook uma pequena piada.)'],
+        cheer3: ["<32>{#p/human}* (Você demonstra adoração pelo chapéu de Napstablook.)"],
         cheerTalk1: ['<11>{#p/napstablook}{~}...?'],
         cheerTalk2: ['<11>{#p/napstablook}{~}heh heh...'],
         cheerTalk3: [
-            '<11>{*}{#p/napstablook}{~}let me {#x1}try...{^20}{#x2}{^20}{%}',
-            "<11>{*}{#p/napstablook}{~}i call it {#x3}'dapper blook'{^40}{%}",
-            '<11>{*}{#p/napstablook}{~}do you like it?{^40}{%}'
+            '<11>{*}{#p/napstablook}{~}deixe-me {#x1}tentar...{^20}{#x2}{^20}{%}',
+            "<11>{*}{#p/napstablook}{~}eu chamo de {#x3}'dapper blook'{^40}{%}",
+            '<11>{*}{#p/napstablook}{~}você gostou?{^40}{%}'
         ],
-        cheerTalk4: ['<11>{#p/napstablook}{~}oh gee.....'],
-        consoleTalk1: ['<11>{#p/napstablook}{~}yeah, yeah...'],
-        consoleTalk2: ['<11>{#p/napstablook}{~}not buying it...'],
-        consoleTalk3: ["<11>{#p/napstablook}{~}you're not sorry..."],
+        cheerTalk4: ['<11>{#p/napstablook}{~}oh meu.....'],
+        consoleTalk1: ['<11>{#p/napstablook}{~}claro, claro...'],
+        consoleTalk2: ['<11>{#p/napstablook}{~}não entendo...'],
+        consoleTalk3: ["<11>{#p/napstablook}{~}você não sente muito..."],
         deadTalk: [
-            "<11>{#p/napstablook}{~}umm... you do know you can't kill ghosts, right...",
-            "<11>{~}we're sorta incorporeal and all",
-            "<11>{~}i was just lowering my hp because i didn't want to be rude",
-            '<11>{~}sorry... i just made this more awkward...',
-            '<11>{~}pretend you beat me...',
+            "<11>{#p/napstablook}{~}umm... você sabe que não pode matar fantasmas, certo...?",
+            "<11>{~}nós somos meio que incorpóreos e tals",
+            "<11>{~}eu estava abaixando minha vida só pra não ser rude",
+            '<11>{~}desculpa... eu só fiz disso mais estranho...',
+            '<11>{~}vamos pretender que você me venceu...',
             '<11>{~}ooooooooo'
         ],
-        flirt1: ['<32>{#p/human}* (You flirt with Napstablook.)'],
-        flirt2: ['<32>{#p/human}* (You try your best pickup line on Napstablook.)'],
-        flirt3: ['<32>{#p/human}* (You give Napstablook a heartfelt compliment.)'],
-        flirt4: ['<32>{#p/human}* (You reassure Napstablook of your feelings towards them.)'],
-        flirtTalk1: ["<11>{#p/napstablook}{~}i'd just weigh you down"],
-        flirtTalk2: ["<11>{#p/napstablook}{~}oh.....\ni've heard that one....."],
-        flirtTalk3: ['<11>{#p/napstablook}{~}uh... you really think so?'],
-        flirtTalk4: ["<11>{#p/napstablook}{~}oh, you're serious...", '<11>{~}oh no.....'],
-        idleTalk1: ["<11>{#p/napstablook}{~}i'm fine, thanks"],
-        idleTalk2: ['<11>{#p/napstablook}{~}just pluggin along...'],
-        idleTalk3: ['<11>{#p/napstablook}{~}just doing my thing...'],
-        insultTalk1: ['<11>{#p/napstablook}{~}i knew it...'],
-        insultTalk2: ['<11>{#p/napstablook}{~}whatever...'],
-        insultTalk3: ['<11>{#p/napstablook}{~}say what you will...'],
-        insultTalk4: ['<11>{#p/napstablook}{~}let it all out...'],
+        flirt1: ['<32>{#p/human}* (Você flerta com Napstablook.)'],
+        flirt2: ['<32>{#p/human}* (Você tenta sua melhor fala no Napstablook.)'],
+        flirt3: ['<32>{#p/human}* (Você faz um elogio sincero a Napstablook.)'],
+        flirt4: ['<32>{#p/human}* (Você tranquiliza Napstablook de seus sentimentos em relação a eles.)'],
+        flirtTalk1: ["<11>{#p/napstablook}{~}eu só te faria mal"],
+        flirtTalk2: ["<11>{#p/napstablook}{~}oh.....\neu já escutei essa..."],
+        flirtTalk3: ['<11>{#p/napstablook}{~}uh... você acha mesmo?'],
+        flirtTalk4: ["<11>{#p/napstablook}{~}oh, você está falando sério...", '<11>{~}oh não.....'],
+        idleTalk1: ["<11>{#p/napstablook}{~}eu estou bem, obrigado"],
+        idleTalk2: ['<11>{#p/napstablook}{~}apenas conectando...'],
+        idleTalk3: ['<11>{#p/napstablook}{~}Só fazendo minhas coisas...'],
+        insultTalk1: ['<11>{#p/napstablook}{~}eu sabia...'],
+        insultTalk2: ['<11>{#p/napstablook}{~}tanto faz...'],
+        insultTalk3: ['<11>{#p/napstablook}{~}diga o que quiser...'],
+        insultTalk4: ['<11>{#p/napstablook}{~}jogue tudo pra fora...'],
         name: '* Napstablook',
         silentTalk: ['<11>{#p/napstablook}{~}...'],
-        sincere: ["<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)"],
-        sincereTalk: ['<11>{#p/napstablook}{~}heh... thanks'],
-        status1: ['<32>{#p/story}* Here comes Napstablook.'],
-        status2: ['<32>{#p/story}* Napstablook looks just a little better.'],
-        status3: ['<32>{#p/story}* Napstablook wants to show you something.'],
-        status3a: ['<32>{#p/story}* Napstablook awaits your reply.'],
-        status4: ["<32>{#p/story}* Napstablook's eyes are glistening."],
-        status5: ['<32>{#p/story}* Napstablook is clearly not sure how to handle this.'],
-        status5a: ['<32>{#p/story}* Napstablook is questioning their very being.'],
-        status6: ['<32>{#p/story}* Napstablook is biding their time.'],
-        status7: ['<32>{#p/story}* Napstablook is waiting for your next move.'],
-        status8: ['<32>{#p/story}* Napstablook is staring off into the distance.'],
-        status9: ["<32>{#p/story}* Napstablook is wishing they weren't here."],
-        status10: ['<32>{#p/story}* Napstablook is trying their best to ignore you.'],
-        suck: ['<32>{#p/human}* (You tell Napstablook their hat sucks bad.)'],
-        threat: ['<32>{#p/human}* (You threaten Napstablook.)']
+        sincere: ["<32>{#p/human}* (Você faz um comentário de flerte sobre o chapéu de Napstablook.)"],
+        sincereTalk: ['<11>{#p/napstablook}{~}heh... valeu'],
+        status1: ['<32>{#p/story}* Aí vem Napstablook.'],
+        status2: ['<32>{#p/story}* Napstablook parece um pouco melhor.'],
+        status3: ['<32>{#p/story}* Napstablook parece querer te mostrar algo.'],
+        status3a: ['<32>{#p/story}* Napstablook espera uma resposta.'],
+        status4: ["<32>{#p/story}* Os olhos de Napstablook estão brilhando."],
+        status5: ['<32>{#p/story}* Napstablook claramente não sabe lidar com essa situação.'],
+        status5a: ['<32>{#p/story}* Napstablook está questionando a si mesmo.'],
+        status6: ['<32>{#p/story}* Napstablook está ganhando tempo.'],
+        status7: ['<32>{#p/story}* Napstablook espera pelo seu próximo movimento.'],
+        status8: ['<32>{#p/story}* Napstablook está olhando para a distância.'],
+        status9: ["<32>{#p/story}* Napstablook desejava não estar aqui."],
+        status10: ['<32>{#p/story}* Napstablook está tentando de tudo para te ignorar.'],
+        suck: ['<32>{#p/human}* (Você fala para Napstablook que o chapéu dele é uma merda.)'],
+        threat: ['<32>{#p/human}* (Você ameaça Napstablook.)']
     },
     b_opponent_toriel: {
-        spannerText: ['<32>{#p/human}* (You throw the spanner.)\n* (Toriel picks it up and returns it to you.)'],
-        spannerTalk: ['<11>{#p/toriel}{#f/22}That will accomplish nothing, my child.'],
+        spannerText: ['<32>{#p/human}* (Você joga a chave inglesa.)\n* (Toriel pega e devolve para você.)'],
+        spannerTalk: ['<11>{#p/toriel}{#f/22}Isso não fará nada, minha criança.'],
         spannerTalkRepeat: ['<11>{#p/toriel}{#f/22}...'],
-        act_check: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Knows best for you.'],
-        act_check2: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Seems to be holding back.'],
-        act_check3: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Looks pre-occupied.'],
-        act_check4: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Just wants the best for you.'],
-        act_check5: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Thinks you are \"adorable.\"'],
+        act_check: ['<32>{#p/story}* TORIEL - ATQ 80 DEF 80\n* Sabe o melhor pra você.'],
+        act_check2: ['<32>{#p/story}* TORIEL - ATQ 80 DEF 80\n* Parece estar se segurando.'],
+        act_check3: ['<32>{#p/story}* TORIEL - ATQ 80 DEF 80\n* Parece pré-ocupada.'],
+        act_check4: ['<32>{#p/story}* TORIEL - ATQ 80 DEF 80\n* Só quer o melhor pra você.'],
+        act_check5: ['<32>{#p/story}* TORIEL - ATQ 80 DEF 80\n* Só quer o melhor pra você.'],
         precrime: ['<20>{#p/asriel2}...'],
         criminal1: (reveal: boolean) => [
-            '<20>{#p/asriel2}{#f/3}Howdy, $(name).',
-            "<20>{#f/1}It's good to be back.",
-            "<20>{#f/2}What's that?\nYou didn't expect to see me again?",
+            '<20>{#p/asriel2}{#f/3}Olá, $(name).',
+            "<20>{#f/1}É bom estar de volta.",
+            "<20>{#f/2}O que?\nVocê não esperava me ver novamente?",
             '<20>{#f/13}...\nOh, $(name)...',
             ...(reveal
-                ? ["<20>{#f/1}I've been waiting for this for a long time."]
+                ? ["<20>{#f/1}Eu tenho esperado por isso faz muito tempo."]
                 : [
-                    "<20>{#f/15}I've been trapped inside a star for so long, I...",
+                    "<20>{#f/15}Eu estive preso dentro de uma estrela por tanto tempo, eu...",
                     '<20>{#f/15}...',
-                    "<20>{#f/16}Well, that's not important now.",
-                    '<20>{#f/1}What matters is that things are back to how they should be.'
+                    "<20>{#f/16}Bem, isso não importa agora.",
+                    '<20>{#f/1}O que importa é que as coisas voltaram a como deveriam ser.'
                 ]),
             '<20>{#f/1}Hee hee hee...',
-            "<20>{#f/2}I know you're empty inside, just like me.",
-            "<20>{#f/5}We're still inseparable after all these years...",
-            "<20>{#f/1}Listen.\nI have a plan that'll bring us closer than ever.",
-            '<20>{#f/1}With me, you, and our stolen SOULs...',
-            "<20>{#f/1}Let's destroy everything on this wretched outpost.",
-            '<21>{#f/2}Anyone who dares to stand in the way of our perfect future...',
-            "<20>{#f/1}Let's turn 'em all to dust."
+            "<20>{#f/2}Eu sei que você é vazio por dentro, assim como eu.",
+            "<20>{#f/5}Ainda somos inseparáveis após todos estes anos...",
+            "<20>{#f/1}Escuta.\nEu tenho um plano que vai nos trazer mais próximos que nunca.",
+            '<20>{#f/1}Comigo, você, e nossas ALMAS roubadas...',
+            "<20>{#f/1}Vamos destruir tudo neste Outpost abandonado.",
+            '<21>{#f/2}Qualquer um que tentar ficar no caminho do nosso futuro perfeito...',
+            "<20>{#f/1}Vamos transformá-lo em poeira."
         ],
-        criminal2: ['<20>{#p/asriel2}{#f/3}Welcome back, $(name).', '<20>{#f/1}Ready to pick up where we last left off?'],
-        criminal3: ['<20>{#p/asriel2}{#f/3}Well then.', '<20>{#f/3}...', "<20>{#f/4}Let's just get going."],
+        criminal2: ['<20>{#p/asriel2}{#f/3}Bem-vindo de volta, $(name).', '<20>{#f/1}Pronto para começar de onde paramos?'],
+        criminal3: ['<20>{#p/asriel2}{#f/3}Pois bem.', '<20>{#f/3}...', "<20>{#f/4}Só vamos indo logo."],
         cutscene1: [
-            "<32>{#p/basic}* Maybe because I'm the only one you'll listen to.",
+            "<32>{#p/basic}* Talvez porque eu seja o único que você vai escutar.",
             '<25>{#p/toriel}{#f/16}* ...!?',
-            "<32>{#p/basic}* But what do I know, huh?\n* I'm just a sweet, innocent little child."
+            "<32>{#p/basic}* Mas o que eu sei, huh?\n* Eu sou só uma doce e inocente criança."
         ],
         cutscene2: [
             '<25>{#p/toriel}{#f/3}* ...',
-            '<25>{#p/toriel}{#f/4}* This is impossible...',
-            '<25>{#f/0}* I must be dreaming.\n* Or hallucinating.\n* Or maybe...',
-            '<32>{#p/basic}* No.',
-            '<32>{#p/basic}* This is real.',
-            '<25>{#p/toriel}{#f/5}* But you died, $(name).',
-            '<25>{#f/5}* You cannot possibly be speaking to me.',
-            "<32>{#p/basic}* Pretend it's a dream, then.",
-            '<32>{#p/basic}* If that works for you.',
+            '<25>{#p/toriel}{#f/4}* Isso é impossível...',
+            '<25>{#f/0}* Eu devo estar sonhando.\n* Ou alucinando.\n* Ou talvez...',
+            '<32>{#p/basic}* Não.',
+            '<32>{#p/basic}* Isso é real.',
+            '<25>{#p/toriel}{#f/5}* Mas você morreu, $(name).',
+            '<25>{#f/5}* Você não pode possivelmente estar falando comigo.',
+            "<32>{#p/basic}* Pretenda que é um sonho, então.",
+            '<32>{#p/basic}* Se isso funciona pra você.',
             '<25>{#p/toriel}{#f/5}* ...',
-            '<25>{#p/toriel}{#f/9}* What do you want?',
+            '<25>{#p/toriel}{#f/9}* O que você quer?',
             '<32>{#p/basic}* Toriel...',
-            "<32>{#p/basic}* You know how I feel about humanity, don't you?",
-            '<25>{#p/toriel}{#f/13}* Right.',
-            '<32>{#p/basic}* Wrong.',
-            '<32>{#p/basic}* ... not about this human.',
-            "<32>* Ever since they got here, I've been following them...",
-            "<32>* And now they're asking me to reach out to you.",
-            '<32>* What do you think that means?',
+            "<32>{#p/basic}* Você sabe com eu me sinto em relação a humanidade, não sabe?",
+            '<25>{#p/toriel}{#f/13}* Claro.',
+            '<32>{#p/basic}* Errado.',
+            '<32>{#p/basic}* ... não é o caso com esse humano.',
+            "<32>* Desde que ele chegou aqui, eu estive o seguindo...",
+            "<32>* E agora ele está me pedindo para te alcançar.",
+            '<32>* O que você acha que isso significa?',
             '<25>{#p/toriel}{#f/13}* ...',
-            '<32>{#p/basic}* It means you have to let them go.',
-            '<25>{#p/toriel}{#f/12}* ... do you not understand what is at stake?',
-            '<25>{#f/11}* If I let them go, they will surely die.',
-            '<32>{#p/basic}* ... come on.',
-            "<32>{#p/basic}* That's not really why you're doing this, is it?",
-            '<25>{#p/toriel}{#f/12}* With that attitude, perhaps you really are $(name).',
-            '<25>{#p/toriel}{#f/11}* You always did question my authority.',
-            '<32>{#p/basic}* I think I have every right to.',
-            '<32>{#p/basic}* You wish to keep them here because you are afraid of what lies beyond the Outlands.',
-            "<33>{#p/basic}* But things aren't the same as they were a hundred years ago.",
-            "<33>{#p/basic}* You're only ignorant about it because you're too afraid to go see for yourself.",
+            '<32>{#p/basic}* Significa que você deve deixá-lo ir.',
+            '<25>{#p/toriel}{#f/12}* ... você não entende o que está em jogo aqui?',
+            '<25>{#f/11}* Seu eu deixá-lo ir, ele com certeza vai morrer.',
+            '<32>{#p/basic}* ... não vai.',
+            "<32>{#p/basic}* E não é por isso que você está fazendo toda essa briga, ou é?",
+            '<25>{#p/toriel}{#f/12}* Com essa atitude, talvez você realmente seja $(name).',
+            '<25>{#p/toriel}{#f/11}* Você sempre questionou minha autoridade.',
+            '<32>{#p/basic}* Eu acho que tenho todo o direito.',
+            '<32>{#p/basic}* Você deseja mantê-lo aqui por medo do que tem depois das Outlands.',
+            "<33>{#p/basic}* Mas as coisas não são as mesmas de cem anos atrás.",
+            "<33>{#p/basic}* Você só é ignorante e tem medo de ir ver como as coisas estão por conta própria.",
             '<25>{#p/toriel}{#f/13}* ...',
-            "<25>{#p/toriel}{#f/13}* ... but if I let them go, I won't be able to...",
-            '<32>{#p/basic}* Be there for them?',
-            '<32>{#p/basic}* Hey, I know the feeling.',
-            '<32>{#p/basic}* But keeping them here would be dooming them to death anyway.',
-            "<32>{#p/basic}* What's a life if it doesn't get to do anything worth living for?",
+            "<25>{#p/toriel}{#f/13}* ... mas se eu deixar ele ir, eu não serei capaz de...",
+            '<32>{#p/basic}* Estar lá por ele?',
+            '<32>{#p/basic}* Ei, eu sei o sentimento.',
+            '<32>{#p/basic}* Mas prender ele aqui será condená-lo a morte para sempre.',
+            "<32>{#p/basic}* Que vida é essa da qual não se pode fazer nada que valha a pena vive-la?",
             '<25>{#p/toriel}{#f/13}* ...',
-            '<25>{#p/toriel}{#f/13}* $(name), I...',
-            '<32>{#p/basic}* You gave them a spare cell phone, remember?',
-            "<32>{#p/basic}* Keep the line open, and maybe they'll give you a call.",
-            '<25>{#p/toriel}{#f/9}* ... and what about you?',
-            "<32>{#p/basic}* Look.\n* I'll be alright.",
-            "<32>{#p/basic}* All I ask is that you don't forget about THEM after they're gone.",
+            '<25>{#p/toriel}{#f/13}* $(name), eu...',
+            '<32>{#p/basic}* Você deu pra ele um telefone, lembra?',
+            "<32>{#p/basic}* Mantenha a linha aberta, e talvez ele possa te fazer uma ligação.",
+            '<25>{#p/toriel}{#f/9}* ... e você?',
+            "<32>{#p/basic}* Olha.\n* Eu vou ficar bem.",
+            "<32>{#p/basic}* Tudo que eu peço é que você não o esqueça após ir embora.",
             '<25>{#p/toriel}{#f/13}* ...',
-            '<32>{#p/basic}* Goodbye, Toriel.',
-            '<25>{#p/toriel}{#f/14}* ... goodbye, $(name).'
+            '<32>{#p/basic}* até mais, Toriel.',
+            '<25>{#p/toriel}{#f/14}* ... até, $(name).'
         ],
         death1: [
             '<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Urgh...',
-            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}To strike me down at my weakest moment...',
+            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Me acertar no meu momento de maior fraqueza...',
             '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}...',
             '<11>{#v/2}{#i/4}{#x2}{@random=1.1/1.1}Ha...\nHa...',
-            '<11>{#v/2}{#i/4}{#x2}{@random=1.1/1.1}It seems, young one...',
-            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}I was a fool for trusting you... all along...'
+            '<11>{#v/2}{#i/4}{#x2}{@random=1.1/1.1}Parece, pequeno...',
+            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}Que foi um erro acreditar em você... desde o início...'
         ],
         death2: [
             '<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Urgh...',
-            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}To think I was protecting you from them...',
+            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}E pensar que eu estava te protegendo deles...',
             '<11>{#v/1}{#i/3}{#x4}{@random=1.1/1.1}...',
             '<11>{#v/2}{#i/4}{#x2}{@random=1.1/1.1}Ha...\nHa...',
-            '<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}It seems, young one...',
-            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}I was actually protecting them... from you...'
+            '<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}Parece, pequeno...',
+            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}Que eu estava protegendo eles... de você...'
         ],
         death3: [
             '<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Urgh...',
-            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}You are stronger than I thought...',
-            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Listen to me, young one...',
-            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}In a few moments, I will turn to dust...',
-            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}When that happens, you must take my SOUL...',
-            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}It is the only real way you can escape this place.',
-            "<11>{#v/2}{#i/4}{#x3}{@random=1.1/1.1}You cannot... allow ASGORE's plan to... succeed...",
+            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Você é mais forte do que eu pensava...',
+            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Me escute, pequeno...',
+            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Em poucos momentos eu irei me tornar em poeira...',
+            '<11>{#v/1}{#i/3}{#x3}{@random=1.1/1.1}Quando isso acontecer, tome a minha ALMA...',
+            '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}É a única forma de escapar deste lugar.',
+            "<11>{#v/2}{#i/4}{#x3}{@random=1.1/1.1}Você não pode... permitir que o plano de ASGORE... tenha sucesso...",
             '<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}...',
-            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}My child...',
-            "<11>{#v/3}{#i/5}{#x4}{@random=1.2/1.2}Be good... won't you?"
+            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2} Minha criança...',
+            "<11>{#v/3}{#i/5}{#x4}{@random=1.2/1.2}Seja boa... tudo bem?"
         ],
-        magic1: ['<20>{#p/asriel2}{#f/3}Follow me.'],
+        magic1: ['<20>{#p/asriel2}{#f/3}Me siga.'],
         name: '* Toriel',
         spareTalk1: ['<11>{#p/toriel}{#f/11}...'],
         spareTalk2: ['<11>{#p/toriel}{#f/11}...\n...'],
         spareTalk3: ['<11>{#p/toriel}{#f/11}...\n...\n...'],
         spareTalk4: ['<11>{#p/toriel}{#f/17}...?'],
-        spareTalk5: ['<11>{#p/toriel}{#f/17}What are you doing?'],
+        spareTalk5: ['<11>{#p/toriel}{#f/17}O que você está fazendo?'],
         spareTalk6: ['<11>{#p/toriel}{#f/17}...'],
-        spareTalk7: ['<11>{#p/toriel}{#f/17}What are you trying to prove?'],
+        spareTalk7: ['<11>{#p/toriel}{#f/17}O que você está tentando provar?'],
         spareTalk8: ['<11>{#p/toriel}{#f/17}...'],
-        spareTalk9: ['<11>{#p/toriel}{#f/12}Fight me or leave!'],
-        spareTalk10: ['<11>{#p/toriel}{#f/12}Stop looking at me that way!'],
-        spareTalk11: ['<11>{#p/toriel}{#f/12}Go away!'],
+        spareTalk9: ['<11>{#p/toriel}{#f/12}Lute comigo ou fuja!'],
+        spareTalk10: ['<11>{#p/toriel}{#f/12}Pare de me olhar desta forma!'],
+        spareTalk11: ['<11>{#p/toriel}{#f/12}Vá embora!'],
         spareTalk12: ['<11>{#p/toriel}{#f/13}...'],
         spareTalk13: ['<11>{#p/toriel}{#f/13}...\n...'],
         spareTalk14: ['<11>{#p/toriel}{#f/13}...\n...\n...'],
         spareTalk15: [
-            '<11>{#p/toriel}{#f/13}I know you want to go home...',
-            '<11>{#p/toriel}{#f/9}But the path to get there would be dangerous.'
+            '<11>{#p/toriel}{#f/13}Eu sei que você deseja ir pra casa...',
+            '<11>{#p/toriel}{#f/9}Mas o caminho a frente é muito perigoso.'
         ],
-        spareTalk16: ['<11>{#p/toriel}{#f/14}So please... go back the other way.'],
+        spareTalk16: ['<11>{#p/toriel}{#f/14}Então por favor... volte para casa.'],
         spareTalk17: [
-            '<11>{#p/toriel}{#f/13}I know we do not have much...',
-            '<11>{#p/toriel}{#f/10}But we can still have a good life.'
+            '<11>{#p/toriel}{#f/13}Eu sei que não temos muito...',
+            '<11>{#p/toriel}{#f/10}Mas nós podemos ter uma boa vida aqui.'
         ],
         spareTalk18: [
-            '<11>{#p/toriel}{#f/13}You and I, like a family...',
-            '<11>{#p/toriel}{#f/10}Does that not sound good?'
+            '<11>{#p/toriel}{#f/13}Eu e você, como uma família...',
+            '<11>{#p/toriel}{#f/10}Isso não parece bom?'
         ],
         spareTalk19: ['<11>{#p/toriel}{#f/21}...'],
-        spareTalk20: ['<11>{#p/toriel}{#f/18}Why are you making this so difficult?'],
+        spareTalk20: ['<11>{#p/toriel}{#f/18}Por que você está tornando isso tão difícil?'],
         spareTalk21: ['<11>{#p/toriel}{#f/21}...'],
-        spareTalk22: ['<11>{#p/toriel}{#f/18}Please, just...', '<11>{#p/toriel}{#f/9}Go back the other way.'],
+        spareTalk22: ['<11>{#p/toriel}{#f/18}Por favor, só...', '<11>{#p/toriel}{#f/9}Volte para dentro.'],
         spareTalk23: ['<11>{#p/toriel}{#f/21}...'],
-        spareTalk24: ['<11>{#p/toriel}{#f/18}Oh, child...'],
+        spareTalk24: ['<11>{#p/toriel}{#f/18}Oh, criança...'],
         spareTalk28b: [
-            '<11>{#p/toriel}{#f/9}Maybe it was foolish of me...',
-            '<11>{#f/13}Trying to stop you like this...',
-            '<11>{#f/9}Maybe I should have just let you go.'
+            '<11>{#p/toriel}{#f/9}Talvez foi tolo da minha parte...',
+            '<11>{#f/13}Tentar te parar dessa forma...',
+            '<11>{#f/9}Talvez eu devesse ter deixado você ir.'
         ],
-        spareTalk28c: ['<11>{#p/toriel}{#f/17}...?', '<11>{#f/17}Why are you calling out for \"$(name)?\"'],
-        status1: ['<32>{#p/story}* Toriel now stands before you.'],
-        status2: ['<32>{#p/story}* Toriel prepares a magical attack.'],
-        status3: ['<32>{#p/story}* Toriel is acting aloof.'],
-        status4: ['<32>{#p/story}* Toriel is looking through you.'],
+        spareTalk28c: ['<11>{#p/toriel}{#f/17}...?', '<11>{#f/17}Por que você está chamando por \"$(name)?\"'],
+        status1: ['<32>{#p/story}* Toriel está na sua frente.'],
+        status2: ['<32>{#p/story}* Toriel prepara um ataque mágico.'],
+        status3: ['<32>{#p/story}* Toriel está agindo de forma indiferente.'],
+        status4: ['<32>{#p/story}* Toriel te encara nos olhos.'],
         status5: ['<32>{#p/story}* ...'],
-        assistStatus: ['<32>{#p/basic}* There must be another way...'],
-        talk1: ['<32>{#p/human}* (You ask Toriel to let you through.)\n* (No effect.)'],
-        talk2: ["<32>{#p/human}* (You ask Toriel why she's really doing this.)\n* (She winces briefly.)"],
-        talk3: ['<32>{#p/human}* (You begged Toriel to stop.)\n* (She hesitates.)'],
+        assistStatus: ['<32>{#p/basic}* Talvez tenha outro caminho...'],
+        talk1: ['<32>{#p/human}* (Você pede para Toriel te deixar passar.)\n* (Sem efeito.)'],
+        talk2: ["<32>{#p/human}* (Você pergunta a Toriel o porque dela realmente estar fazendo isso.)\n* (Seus olhos brilham.)"],
+        talk3: ['<32>{#p/human}* (Você implora para Toriel parar.)\n* (Ela hesita.)'],
         talk4: [
-            '<32>{#p/human}* (You once again begged Toriel to stop.)',
-            '<32>{#p/basic}* ... perhaps there is too much at stake for her.'
+            '<32>{#p/human}* (Você novamente implora para Toriel parar.)',
+            '<32>{#p/basic}* ... talvez haja muito em jogo para ela.'
         ],
-        talk5: ['<32>{#p/human}* (You yell at Toriel.)\n* (She closes her eyes and takes a deep breath.)'],
+        talk5: ['<32>{#p/human}* (Você grita com Toriel.)\n* (Ela fecha os olhos e respira fundo.)'],
         talk6: [
-            '<32>{#p/human}* (You once again yell at Toriel.)',
-            "<32>{#p/basic}* ... perhaps talking won't do anymore good."
+            '<32>{#p/human}* (Você grita com Toriel mais uma vez.)',
+            "<32>{#p/basic}* ... conversar não fará mais nenhum bem."
         ],
-        talk7: ["<32>{#p/human}* (But you couldn't think of anything else to say.)"],
-        talk8: ['<32>{#p/human}* (But there was no sense in doing that now.)'],
-        theft: ['<20>{*}{#p/twinkly}Mine.{^15}{%}']
+        talk7: ["<32>{#p/human}* (Mas não tinha nada para ser dito.)"],
+        talk8: ['<32>{#p/human}* (Mas não havia sentido em fazer isso agora.)'],
+        theft: ['<20>{*}{#p/twinkly}Minha.{^15}{%}']
     },
 
     c_name_outlands: {
-        hello: 'Say Hello',
-        about: 'About Yourself',
-        mom: 'Call Her \"Mom\"',
-        flirt: 'Flirt',
-        toriel: "Toriel's Phone",
-        puzzle: 'Puzzle Help',
-        insult: 'Insult'
+        hello: 'Dizer Olá',
+        about: 'Sobre Você',
+        mom: 'Chamar ela de \"Mãe\"',
+        flirt: 'Flertar',
+        toriel: "Toriel Telefone",
+        puzzle: 'Ajuda Quebra-cabeça',
+        insult: 'Insultar'
     },
 
     c_call_outlands: {
         about1: [
-            '<25>{#p/toriel}{#f/1}* You want to know more about me...?',
-            '<25>{#f/0}* Well, I am afraid there is not much to say.',
-            '<25>{#f/0}* I am but a silly old lady who worries too often!'
+            '<25>{#p/toriel}{#f/1}* Você quer saber mais sobre mim...?',
+            '<25>{#f/0}* Bem, eu temo que não a muito o que dizer.',
+            '<25>{#f/0}* Eu não sou nada além de uma velha senhora que se preocupa demais!'
         ],
         about2: [
-            '<25>{#p/toriel}{#f/1}* If you really want to know more about me...',
-            '<25>{#f/1}* Why not take a look around...?',
-            '<25>{#f/0}* I have built or at least helped to build much of what you see.'
+            '<25>{#p/toriel}{#f/1}* Se você realmente quer saber mais sobre mim...',
+            '<25>{#f/1}* Que tal dar uma olhada ao redor...?',
+            '<25>{#f/0}* Eu construí ou pelo menos ajudei a construir boa parte do que você vê.'
         ],
         about3: [
-            '<25>{#p/toriel}{#f/1}* If you really want to know more about me...',
-            '<25>{#f/2}* You should think twice about insulting me over the phone!'
+            '<25>{#p/toriel}{#f/1}* Se você realmente quer saber mais sobre mim...',
+            '<25>{#f/2}* Você deveria pensar duas vezes antes de me insultar pelo telefone!'
         ],
         flirt1: [
             '<25>{#p/toriel}{#f/7}* ... huh?',
             '<25>{#f/1}* Oh, heh... heh...',
-            '<25>{#f/6}* Hahaha!\n* I could pinch your cheek!',
-            '<25>{#f/0}* You can certainly find better than an old woman like me.'
+            '<25>{#f/6}* Hahaha!\n* Eu poderia apertar sua bochecha!',
+            '<25>{#f/0}* Você consegue vai encontrar alguém melhor do que essa velha senhora.'
         ],
         flirt2: [
-            '<25>{#p/toriel}{#f/7}* ...\n* Oh dear, are you serious...?',
-            '<25>{#f/1}* My child, I do not know if this is pathetic or endearing.'
+            '<25>{#p/toriel}{#f/7}* ...\n* Oh senhor, você está falando sério...?',
+            '<25>{#f/1}* Minha criança, não sei se isso é patético ou cativante.'
         ],
         flirt3: [
-            '<25>{#p/toriel}{#f/7}* ...\n* Oh dear, are you serious...?',
-            '<25>{#f/5}* And after you called me \"Mother...\"',
-            '<25>{#f/1}* Well then.\n* You are a very \"interesting\" child.'
+            '<25>{#p/toriel}{#f/7}* ...\n* Oh senhor, você está falando sério...?',
+            '<25>{#f/5}* E depois de você me chamar de \"Mãe...\"',
+            '<25>{#f/1}* Pois bem.\n* Você é uma criança muito \"interessante\".'
         ],
-        flirt4: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#p/toriel}{#f/4}* I cannot begin to understand you.'],
+        flirt4: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#p/toriel}{#f/4}* Eu não consigo te entender.'],
         hello: [
             [
-                '<25>{#p/toriel}* This is Toriel.',
-                '<25>{#f/1}* You only wanted to say hello...?',
-                '<25>{#f/0}* Well then.\n* \"Hello!\"',
-                '<25>{#f/0}* I hope that suffices.\n* Hee hee.'
+                '<25>{#p/toriel}* Aqui é a Toriel.',
+                '<25>{#f/1}* Você só queria dizer oi...?',
+                '<25>{#f/0}* Pois bem.\n* \"Oi!\"',
+                '<25>{#f/0}* Eu espero que seja o suficiente.\n* Hee hee.'
             ],
             [
-                '<25>{#p/toriel}* This is Toriel.',
-                '<25>{#f/1}* You wanted to say hello again?',
-                '<25>{#f/0}* \"Salutations\" it is!',
-                '<25>{#f/1}* Is that enough?'
+                '<25>{#p/toriel}* Aqui é a Toriel.',
+                '<25>{#f/1}* Você queria dizer oi novamente?',
+                '<25>{#f/0}* \"Saudações\" eu diria!',
+                '<25>{#f/1}* É o suficiente?'
             ],
             [
-                '<25>{#p/toriel}{#f/1}* Are you bored?',
-                '<25>{#f/0}* My apologies.\n* I should have given you something to do.',
-                '<25>{#f/1}* Why not use your imagination to distract yourself?',
-                '<25>{#f/0}* Pretend you are... a fighter pilot!',
-                '<25>{#f/1}* Twisting and twirling, doing barrel rolls at light speed...',
-                '<25>{#f/1}* Can you do that for me?'
+                '<25>{#p/toriel}{#f/1}* Você está entediado?',
+                '<25>{#f/0}* Mil perdões.\n* Eu deveria ter te dado algo para fazer.',
+                '<25>{#f/1}* Por que não usar sua imaginação para distrair-se?',
+                '<25>{#f/0}* Pretenda que você é... um piloto lutador!',
+                '<25>{#f/1}* Torcendo e girando, fazendo rolos na velocidade da luz...',
+                '<25>{#f/1}* Pode fazer isso por mim?'
             ],
             [
-                '<25>{#p/toriel}{#f/5}* Hello, small one.',
-                '<25>{#f/9}* I am sorry, but I do not have much else to say.',
-                '<25>{#f/1}* It was nice to hear your voice, though...'
+                '<25>{#p/toriel}{#f/5}* Olá, pequeno.',
+                '<25>{#f/9}* Me desculpe, mas eu não tenho muito mais o que dizer.',
+                '<25>{#f/1}* Mas é ótimo ouvir sua voz...'
             ]
         ],
-        helloX: ['<25>{#p/toriel}{#g/torielLowConcern}* Hello?'],
+        helloX: ['<25>{#p/toriel}{#g/torielLowConcern}* Alô?'],
         mom1: [
             '<25>{#p/toriel}* ...',
-            '<25>{#f/7}* Huh?\n* Did you just call me \"Mom?\"',
-            '<25>{#f/1}* Well...\n* I suppose...',
-            '<25>{#f/1}* Would that make you happy?',
-            '<25>{#f/1}* To call me...\n* \"Mother?\"',
-            '<25>{#f/0}* Well then.\n* Call me whatever you like!'
+            '<25>{#f/7}* Huh?\n* Você acabou de me chamar de \"Mãe?\"',
+            '<25>{#f/1}* Bom...\n* Eu suponho...',
+            '<25>{#f/1}* Que isso te fará feliz?',
+            '<25>{#f/1}* Me chamar de...\n* \"Mãe?\"',
+            '<25>{#f/0}* Tudo bem.\n* Me chame do que quiser!'
         ],
-        mom2: ['<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?', '<25>{#f/0}* Hee hee...\n* You are a very sweet child.'],
+        mom2: ['<25>{#p/toriel}{#f/7}* ...\n* Oh meu... de novo?', '<25>{#f/0}* Hee hee...\n* Você é uma criança muito fofa.'],
         mom3: [
-            '<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?',
-            '<25>{#f/5}* And after you flirted with me...',
-            '<25>{#f/1}* Well then.\n* You are a very \"interesting\" child.'
+            '<25>{#p/toriel}{#f/7}* ...\n* Oh meu... de novo?',
+            '<25>{#f/5}* E depois de ter flertado comigo...',
+            '<25>{#f/1}* Pois bem.\n* Você é uma criança muito \"interessante\".'
         ],
         mom4: ['<25>{#p/toriel}{#f/5}* ...'],
         puzzle1: [
-            '<25>{#p/toriel}{#f/1}* Help with a puzzle...?',
-            '<25>{#f/1}* You have not left the room yet, have you?',
-            '<25>{#f/0}* Wait for me to return, and we can solve it together.'
+            '<25>{#p/toriel}{#f/1}* Ajuda com um quebra-cabeça...?',
+            '<25>{#f/1}* Você não saiu da sala, saiu?',
+            '<25>{#f/0}* Espere meu retorno e nós resolveremos juntos.'
         ],
         puzzle2: [
-            '<25>{#p/toriel}{#f/1}* Help with a puzzle...?',
-            '<25>{#f/23}* ... something tells me you do not sincerely need my help.'
+            '<25>{#p/toriel}{#f/1}* Ajuda com um quebra-cabeça...?',
+            '<25>{#f/23}* ... algo me diz que você não precisa da minha ajuda.'
         ],
         puzzle3: [
-            '<25>{#p/toriel}{#f/1}* Help with a puzzle...?',
-            '<25>{#f/5}* ...\n* I am afraid I cannot help you at this time.',
-            '<25>{#f/0}* Wait for me to return, and we can solve it together.'
+            '<25>{#p/toriel}{#f/1}* Ajuda com um quebra-cabeça...?',
+            '<25>{#f/5}* ...\n* Infelizmente eu não posso te ajudar agora.',
+            '<25>{#f/0}* Espere meu retorno e nós resolveremos juntos.'
         ],
         insult1: (sus: boolean) =>
             sus
                 ? [
-                    '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+                    '<25>{#p/toriel}{#f/0}* Olá?\n* Aqui é...',
                     '<25>{#f/2}* ...!',
-                    '<25>{#f/3}* Would you mind repeating that for me?'
+                    '<25>{#f/3}* Você poderia repetir isso para mim?'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+                    '<25>{#p/toriel}{#f/0}* Olá?\n* Aqui é...',
                     '<25>{#f/2}* ...!',
-                    '<25>{#f/1}* My child... I do not think that means what you think it means.'
+                    '<25>{#f/1}* Minha criança... eu não acho que você sabe o que isso significa.'
                 ],
         insult2: (sus: boolean) =>
             sus
-                ? ['<25>{#p/toriel}{#f/15}* ...', '<25>{#f/12}* I am going to pretend you did not just say that to me.']
-                : ['<25>{#p/toriel}{#f/1}* My child...']
+                ? ['<25>{#p/toriel}{#f/15}* ...', '<25>{#f/12}* Eu vou pretender que você não disse isso pra mim.']
+                : ['<25>{#p/toriel}{#f/1}* Minha criança...']
     },
 
     i_candy: {
         battle: {
-            description: 'Has a distinct, non-licorice flavor.',
+            description: 'Tem um sabor distinto, sem alcaçuz.',
             name: 'Doce'
         },
-        drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora o Doce Monstro.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 HP.)']
-                : ['<32>{#p/basic}* \"Monster Candy\" Heals 10 HP\n* Has a distinct, non-licorice flavor.'],
-        name: 'Monster Candy',
-        use: ['<32>{#p/human}* (You eat the Monster Candy.)']
+                : ['<32>{#p/basic}* \"Doce Monstro\" Cura 10 HP\n* Tem um sabor distinto, sem alcaçuz'],
+        name: 'Doce Monstro',
+        use: ['<32>{#p/human}* (Você come o Doce Monstro.)']
     },
     i_water: {
         battle: {
-            description: 'Smells like Dihydrogen Monoxide.',
+            description: 'Cheira a Monóxido de Hidrogênio.',
             name: 'Água'
         },
-        drop: ['<32>{#p/human}* (You throw away the Water.)'],
+        drop: ['<32>{#p/human}* (Você jogou a água fora.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (12 HP.)']
-                : ['<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide.'],
+                : ['<32>{#p/basic}* \"Água\" Cura 12 HP\n* Cheira a Monóxido de Hidrogênio.'],
         name: 'Água',
         use: () => [
-            '<32>{#p/human}* (You drink the Water.)',
-            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* (You're filled with hydration.)"]) 
+            '<32>{#p/human}* (Você bebe a Água.)',
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* (Você está cheio de hidratação.)"]) 
         ]
     },
     i_chocolate: {
         battle: {
-            description: 'A well-deserved chocolate bar.',
+            description: 'Uma totalmente merecida barra de chocolate.',
             name: 'Chocolate'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Chocolate Bar.)',
-            ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* ... oh well.'])
+            '<32>{#p/human}* (Você jogou fora a barra de Chocolate.)',
+            ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* ... oh bem.'])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (19 HP. This item seems to remind you of someone.)']
-                : ['<32>{#p/basic}* \"Chocolate Bar\" Heals 19 HP\n* It\'s a well-deserved treat.'],
-        name: 'Chocolate Bar',
+                ? ['<32>{#p/human}* (19 HP. Este ítem parece te lembrar de alguém.)']
+                : ['<32>{#p/basic}* \"Barra de Chocolate\" Cura 19 HP\n* É uma barra de chocolate bem merecida.'],
+        name: 'Barra de Chocolate',
         use: () => [
-            '<32>{#p/human}* (You eat the Chocolate Bar.)',
+            '<32>{#p/human}* (Você comeu uma Barra Chocolate.)',
             ...(battler.active && battler.alive[0].opponent.metadata.reactChocolate
-                ? ['<32>{#p/basic}* Toriel recognizes the scent, and smiles a little.']
+                ? ['<32>{#p/basic}* Toriel reconhece o cheiro e sorri um pouco.']
                 : [])
         ]
     },
     i_delta: {
         battle: {
-            description: 'This substance is said to have highly relaxing properties.',
+            description: 'Está substância é dita ter altas propriedades relaxantes.',
             name: 'Δ-9'
         },
-        drop: ['<32>{#p/human}* (You throw away the Δ-9.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora Δ-9.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (5 HP. You feel strangely about this item.)']
-                : ['<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n* This substance is said to have highly relaxing properties.'],
+                ? ['<32>{#p/human}* (5 HP. Você se sente estranho em relação a este ítem.)']
+                : ['<32>{#p/basic}* \"Δ-9\" Cura 5 HP\n* Está substância é dita ter altas propriedades relaxantes.'],
         name: 'Δ-9',
-        use: ['<32>{#p/human}* (You ingest the Δ-9.)']
+        use: ['<32>{#p/human}* (Você ingeriu Δ-9.)']
     },
     i_halo: {
         battle: {
-            description: 'A headband with its own gravity field.',
+            description: 'Uma bandana com seu próprio campo de gravidade',
             name: 'Halo'
         },
-        drop: ['<32>{#p/human}* (You fling the Halo away like a frisbee.)'],
+        drop: ['<32>{#p/human}* (Você joga o Halo para longe como um frisbee.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (3 DF.)']
-                : ['<32>{#p/basic}* \"Halo\" (3 DF)\n* A headband with its own gravity field.'],
+                : ['<32>{#p/basic}* \"Halo\" (3 DF)\n* Uma bandana com seu próprio campo de gravidade.'],
         name: 'Halo',
         use: () => [
-            '<32>{#p/human}* (You don the Halo.)',
+            '<32>{#p/human}* (Você coloca o Halo.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom && asrielinter.i_halo_use++ < 1
-                ? ['<25>{#p/asriel1}{#f/20}* I think it suits you.']
+                ? ['<25>{#p/asriel1}{#f/20}* Acho que combina com você.']
                 : [])
         ]
     },
     i_little_dipper: {
         battle: {
-            description: 'A whacking spoon.',
-            name: 'Dipper'
+            description: 'Uma colher amassada.',
+            name: 'Concha'
         },
-        drop: ['<32>{#p/human}* (You throw away the Little Dipper.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Pequena Concha.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (3 AT.)']
-                : ['<32>{#p/basic}* \"Little Dipper\" (3 AT)\n* A whacking spoon.'],
-        name: 'Little Dipper',
-        use: ['<32>{#p/human}* (You equip the Little Dipper.)']
+                : ['<32>{#p/basic}* \"Pequena Concha\" (3 AT)\n* Uma colher esmagada.'],
+        name: 'Pequena Concha',
+        use: ['<32>{#p/human}* (Você equipou a Pequena Concha.)']
     },
     i_pie: {
         battle: {
-            description: 'Homemade butterscotch-cinnamon pie, one slice.',
-            name: 'Pie'
+            description: 'Uma torta de canela com caramelo, um pedaço.',
+            name: 'Torta'
         },
-        drop: ['<32>{#p/human}* (You throw away the Butterscotch Pie.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Torta de Canela.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (99 HP.)']
-                : ['<32>{#p/basic}* \"Butterscotch Pie\" Heals 99 HP\n* Homemade butterscotch-cinnamon pie, one slice.'],
-        name: 'Butterscotch Pie',
-        use: ['<32>{#p/human}* (You eat the Butterscotch Pie.)']
+                : ['<32>{#p/basic}* \"Torta de Canela\" Cura 99 HP\n* Uma torta de canela com caramelo, um pedaço.'],
+        name: 'Torta de Canela',
+        use: ['<32>{#p/human}* (Você come a Torta de Canela.)']
     },
     i_pie2: {
         battle: {
-            description: 'Classic family recipe.',
-            name: 'Snail Pie'
+            description: 'Receita clássica de família.',
+            name: 'Torta de Lesma'
         },
-        drop: ['<32>{#p/human}* (You throw away the Snail Pie.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Torta de Lesma.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (99 HP.)']
-                : ['<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe.'],
-        name: 'Snail Pie',
-        use: ['<32>{#p/human}* (You eat the Snail Pie.)']
+                : ['<32>{#p/basic}* \"Torta de Lesma\" Cura 99 HP\n* Receita clássica de família.'],
+        name: 'Torta de Lesma',
+        use: ['<32>{#p/human}* (Você come a Torta de Lesma.)']
     },
     i_pie3: {
         battle: {
-            description: 'Despite being soup-ified, the pie remains delicious.',
-            name: 'Pie Soup'
+            description: 'Apesar de ser sopa, a torta continua deliciosa.',
+            name: 'Torta de Sopa'
         },
-        drop: ['<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)'],
-        info: ['<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious.'],
-        name: 'Pie Soup',
-        use: ['<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)']
+        drop: ['<32>{#p/human}* (Você joga fora a sopa de torta e a colher que veio com ela.)'],
+        info: ['<32>{#p/basic}* \"Torta de Sopa\" Cura 49 HP\n* Apesar de ser sopa, a torta continua deliciosa.'],
+        name: 'Torta de Sopa',
+        use: ['<32>{#p/human}* (Você consome a Torta de Sopa com a colher que veio junto dela.)']
     },
     i_pie4: {
         battle: {
-            description: 'Actions do have their consequences...',
-            name: 'Burnt Pie'
+            description: 'Ações tem suas consequências...',
+            name: 'Torta Queimada'
         },
-        drop: ['<32>{#p/human}* (You toss the Burnt Pie to the side like it never existed.)'],
-        info: ['<32>{#p/basic}* \"Burnt Pie\" Heals 39 HP\n* Actions do have their consequences...'],
-        name: 'Burnt Pie',
-        use: ['<32>{#p/human}* (You eat the Burnt Pie.)']
+        drop: ['<32>{#p/human}* (Você joga a Torta Queimada para fora como se ela nunca existisse.)'],
+        info: ['<32>{#p/basic}* \"Torta Queimada\" Cura 39 HP\n* Ações tem suas consequências...'],
+        name: 'Torta Queimada',
+        use: ['<32>{#p/human}* (Você come a Torta Queimada.)']
     },
     i_snails: {
         battle: {
-            description: 'A plate of fried snails.\nFor breakfast, of course.',
-            name: 'Snails'
+            description: 'Um prato de lesmas fritas.\nPara café da manhã.',
+            name: 'Lesmas'
         },
-        drop: ['<32>{#p/human}* (You throw away the Fried Snails.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora as Lesmas Fritas.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (19 HP.)']
-                : ['<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course.'],
-        name: 'Fried Snails',
-        use: ['<32>{#p/human}* (You eat the Fried Snails.)']
+                : ['<32>{#p/basic}* \"Lesmas Fritas\" Cura 19 HP\n* Um prato de lesmas fritas.\n* Para café da manhã.'],
+        name: 'Lesmas Fritas',
+        use: ['<32>{#p/human}* (Você comeu as Lesmas Fritas.)']
     },
     i_soda: {
         battle: {
-            description: 'A sickly, dark yellow liquid.',
-            name: 'Soda'
+            description: 'Um estranho, líquido amarelo escuro.',
+            name: 'Refri'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Fizzli Soda.)',
-            ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* Good riddance.'])
+            '<32>{#p/human}* (Você joga fora o Refri Fizzli.)',
+            ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* Boa viagem.'])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (8 HP.)']
-                : ['<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid.'],
-        name: 'Fizzli Soda',
+                : ['<32>{#p/basic}* \"Refri Fizzli\" Cura 8 HP\n* Um estranho, líquido amarelo escuro.'],
+        name: 'Refri Fizzli',
         use: () => [
-            '<32>{#p/human}* (You drink the Fizzli Soda.)',
+            '<32>{#p/human}* (Você bebeu o Refri Fizzli.)',
             ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* Yuck!'])
         ]
     },
     i_spacesuit: {
         battle: {
-            description: 'It came with the craft you crash-landed in.',
-            name: 'Spacesuit'
+            description: 'Isso veio com a nave que você bateu.',
+            name: 'Traje Espacial'
         },
-        drop: ['<32>{#p/human}* (You throw away the Worn Spacesuit.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Traje Espacial usado.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)']
-                : ['<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in.'],
-        name: 'Worn Spacesuit',
-        use: ['<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)']
+                ? ['<32>{#p/human}* (20 HP. O último fragmento restante da nave espacial voou para o exílio.)']
+                : ['<32>{#p/basic}* \"Traje Espacial\" Curo 20 HP\n* Isso veio junto com a nave espacial que você bateu.'],
+        name: 'Traje Espacial',
+        use: ['<33>{#p/human}* (Depois de usar seu último pacote de cura, o Traje Espacial se desfez.)']
     },
     i_spanner: {
         battle: {
-            description: 'A rusty old wrench.',
-            name: 'Spanner'
+            description: 'Uma chave velha e enferrujada.',
+            name: 'Chave'
         },
-        drop: ['<32>{#p/human}* (You throw away the Rusty Spanner.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a chave enferrujada.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)"]
-                : ['<32>{#p/basic}* A rusty old wrench.'],
-        name: 'Rusty Spanner',
+                ? ["<32>{#p/human}* (Uma ferramente confiável forjada nos confins da galáxia.)"]
+                : ['<32>{#p/basic}* Uma chave inglesa velha e enferrujada.'],
+        name: 'Chave Enferrujada',
         use: () => [
             ...(battler.active && battler.alive[0].opponent.metadata.reactSpanner
                 ? []
-                : ['<32>{#p/human}* (You toss the spanner into the air.)\n* (Nothing happens.)'])
+                : ['<32>{#p/human}* (Você joga a chave inglesa no ar.)\n* (Nada acontece.)'])
         ]
     },
     i_starbertA: {
         battle: {
-            description: 'The first of a limited run of Super Starwalker comics.',
+            description: 'A primeira de uma edição limita dos quadrinhos do Super Starwalker.',
             name: 'Starwalker 1'
         },
-        drop: ['<32>{#p/human}* (You throw away Super Starwalker 1.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora o Super Starwalker 1.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (It seems like the beginning of a journey.)']
-                : ['<32>{#p/basic}* The first of a limited run of Super Starwalker comics.'],
+                ? ['<32>{#p/human}* (Isso parece o começo de uma jornada.)']
+                : ['<32>{#p/basic}* A primeira de uma edição dos quadrinhos do Super Starwalker.'],
         name: 'Super Starwalker 1',
-        use: () => (battler.active ? ['<32>{#p/human}* (You read Super Starwalker 1.)', '<32>* (Nothing happens.)'] : [])
+        use: () => (battler.active ? ['<32>{#p/human}* (Você lê o Super Starwalker 1.)', '<32>* (Nada acontece.)'] : [])
     },
     i_starbertB: {
         battle: {
-            description: 'The second of a limited run of Super Starwalker comics.',
+            description: 'O segundo de uma edição limitada dos quadrinhos do Super Starwalker.',
             name: 'Starwalker 2'
         },
-        drop: ['<32>{#p/human}* (You throw away Super Starwalker 2.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Super Starwalker 2.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (It seems like the middle of a journey.)']
-                : ['<32>{#p/basic}* The second of a limited run of Super Starwalker comics.'],
+                ? ['<32>{#p/human}* (Parece o meio de uma jornada.)']
+                : ['<32>{#p/basic}* O segundo de uma edição limitada dos quadrinhos do Super Starwalker.'],
         name: 'Super Starwalker 2',
         use: () =>
             battler.active
                 ? [
-                    '<32>{#p/human}* (You read Super Starwalker 2.)',
+                    '<32>{#p/human}* (Você lê o Super Starwalker 2.)',
                     ...(SAVE.data.b.stargum
-                        ? ['<32>* (Nothing happens.)']
+                        ? ['<32>* (Nada acontece.)']
                         : [
-                            '<32>* (You found a piece of gum taped to the comic strip.)',
-                            choicer.create('* (Use the gum?)', 'Sim', 'Não')
+                            '<32>* (Você encontrou um chiclete colado na história em quadrinhos.)',
+                            choicer.create('* (Comer o chiclete?)', 'Sim', 'Não')
                         ])
                 ]
                 : []
     },
     i_starbertC: {
         battle: {
-            description: 'The third of a limited run of Super Starwalker comics.',
+            description: 'O terceiro de uma edição limitada dos quadrinhos do Super Starwalker.',
             name: 'Starwalker 3'
         },
-        drop: ['<32>{#p/human}* (You throw away Super Starwalker 3.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora o Super Starwalker 3.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)']
-                : ['<32>{#p/basic}* The third of a limited run of Super Starwalker comics.'],
+                ? ['<32>{#p/human}* (Parece o fim de uma jornada... ou seria um novo começo?)']
+                : ['<32>{#p/basic}* O terceiro de uma edição limitada dos quadrinhos do Super Starwalker.'],
         name: 'Super Starwalker 3',
-        use: () => (battler.active ? ['<32>{#p/human}* (You read Super Starwalker 3.)', '<32>* (Nothing happens.)'] : [])
+        use: () => (battler.active ? ['<32>{#p/human}* (Você lê o Super Starwalker 3.)', '<32>* (Nada acontece.)'] : [])
     },
     i_steak: {
         battle: {
-            description: 'Questionable at best.',
-            name: 'Steak'
+            description: 'Questionável pra dizer o melhor.',
+            name: 'Bife'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Sizzli Steak.)',
+            '<32>{#p/human}* (Você joga fora o Bife Sizzli.)',
             ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                 ? []
-                : ["<32>{#p/basic}* Well, that won't be missed."])
+                : ["<32>{#p/basic}* Bem, não vai fazer falta."])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (14 HP.)']
-                : ['<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable.'],
-        name: 'Sizzli Steak',
+                : ['<32>{#p/basic}* \"Bife Sizzli\" Cura 14 HP\n* Questionável.'],
+        name: 'Bife Sizzli',
         use: () => [
-            '<32>{#p/human}* (You eat the Sizzli Steak.)',
-            ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : ['<32>{#p/basic}* Gross!'])
+            '<32>{#p/human}* (Você comeu o Bife Sizzli.)',
+            ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : ['<32>{#p/basic}* Nojento!'])
         ]
     },
 
     k_coffin: {
-        name: 'Secret Key',
+        name: 'Chave Secreta',
         description: () =>
             SAVE.data.b.w_state_secret
-                ? 'Used to access a hidden room in the Outlands.'
-                : "Acquired from the sock drawer in Toriel's room."
+                ? 'Usada para acessar um quarto escondido nas Outlands.'
+                : "Adquirida na gaveta de meias do quarto de Toriel."
     },
 
     c_call_toriel: <Partial<CosmosKeyed<CosmosProvider<string[]>, string>>>{
         w_start: [
-            '<25>{#p/toriel}{#f/0}* Ah, of course.\n* That must be where you crash-landed.',
-            '<25>{#f/0}* The other humans who came here landed there, too.',
-            '<25>{#f/1}* There must be something about the force field...',
-            '<25>{#f/0}* ... which always makes incoming craft fly in on this vector.'
+            '<25>{#p/toriel}{#f/0}* Ah, claro.\n* Deve ser onde você acabou batendo.',
+            '<25>{#f/0}* Os outros humanos que vieram aqui, também.',
+            '<25>{#f/1}* Deve ser um ponto fraco no escudo de força.',
+            '<25>{#f/0}* ... que acaba atraindo naves para essa região específica.'
         ],
         w_twinkly: () =>
             SAVE.data.b.toriel_twinkly
                 ? [
-                    '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                    '<25>{#f/5}* That talking star who tormented you has been a pest for some time.',
-                    '<25>{#f/1}* I have tried to reason with him before, but...',
-                    '<25>{#f/9}* My efforts never truly got anywhere.'
+                    '<25>{#p/toriel}{#f/1}* Foi aqui onde eu te encontrei?',
+                    '<25>{#f/5}* Aquela estrela falante que o atormentou tem sido uma praga há algum tempo.',
+                    '<25>{#f/1}* Eu já tentei conversar com ele antes, mas...',
+                    '<25>{#f/9}* Meus esforços nunca chegaram a lugar nenhum.'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                    '<25>{#f/5}* All alone out there, by yourself...',
-                    '<25>{#f/0}* It is a good thing I was there to bring you in.'
+                    '<25>{#p/toriel}{#f/1}* Foi aqui onde eu te encontrei?',
+                    '<25>{#f/5}* Sozinho lá fora, por si mesmo...',
+                    '<25>{#f/0}* É bom que estava lá para te trazer.'
                 ],
         w_entrance: [
-            '<25>{#p/toriel}{#f/1}* The entrance to the Outlands...',
-            '<25>{#f/0}* Indeed, the area before this is not actually part of it.',
-            '<25>{#f/5}* It is... more of an unmarked crash site.',
-            '<25>{#f/1}* After the first human crashed directly INTO the Outlands...',
-            '<25>{#f/0}* A separate platform seemed an obvious addition.'
+            '<25>{#p/toriel}{#f/1}* A entrada para as Outlands...',
+            '<25>{#f/0}* A área antes dessa, não faz parte disso.',
+            '<25>{#f/5}* É... mais um local de acidente não marcado.',
+            '<25>{#f/1}* Após o primeiro humano cair nas Outlands...',
+            '<25>{#f/0}* Um plataforma separada parecia uma adição óbvia.'
         ],
         w_lobby: [
-            '<25>{#p/toriel}{#f/0}* The puzzle in this room works well for demonstrations.',
-            '<25>{#f/1}* After all, why else would I build it?',
-            '<25>{#f/5}* Unfortunately, not every human understood this.',
-            '<25>{#f/3}* One of them even tried running at the security field directly...',
-            '<25>{#f/0}* ... suffice it to say, the use of healing magic was required.'
+            '<25>{#p/toriel}{#f/0}* O quebra-cabeça nesta sala funciona perfeitamente como demonstração.',
+            '<25>{#f/1}* Até porque, qual seria outro motivo para construí-lo?',
+            '<25>{#f/5}* Infelizmente, nem todos os humanos entenderam isso.',
+            '<25>{#f/3}* Um deles tentou correr contra o escudo de segurança...',
+            '<25>{#f/0}* ... para dizer o mínimo, o uso da minha mágica de cura foi requerida.'
         ],
         w_tutorial: [
-            '<25>{#p/toriel}* If this puzzle is not my favorite, I do not know what is!',
-            '<25>* The way it teaches collaboration is a most valuable quality.',
-            '<25>{#f/1}* Since my dream job IS to become a teacher...',
-            '<25>{#f/0}* I am always looking for ways to impart these important lessons.'
+            '<25>{#p/toriel}* Se este aqui não é meu favorito, eu não sei qual é!',
+            '<25>* A forma na qual ensina como colaboração é uma das maiores qualidades.',
+            '<25>{#f/1}* Desde que meu trabalho dos sonhos É se tornar professora...',
+            '<25>{#f/0}* Eu sempre procuro formas de demonstrar estas importantes lições.'
         ],
         w_dummy: () => [
-            '<25>{#p/toriel}{#f/1}* The training room...?',
+            '<25>{#p/toriel}{#f/1}* A sala de treinamento...?',
             ...(SAVE.data.n.plot < 42
                 ? [
                     [
-                        '<25>{#f/0}* Hee hee, I am still proud of the way you handled that lesson.',
-                        '<25>{#f/1}* A friendly conversation is preferable to the alternative...',
-                        '<25>{#f/0}* And not just because it helps you make friends!'
+                        '<25>{#f/0}* Hee hee, eu estou orgulhosa da forma que você lidou com essa lição.',
+                        '<25>{#f/1}* Uma conversa amigável é preferível para está situação...',
+                        '<25>{#f/0}* E não só por te ajudar a fazer amigos!'
                     ],
                     [],
                     [
                         '<25>{#f/5}* ...',
-                        '<25>{#f/5}* Although you did not handle that lesson in the way I intended...',
-                        '<25>{#f/0}* At the very least, you avoided the conflict.',
-                        '<25>{#f/0}* Considering the alternatives, it was... a preferable outcome.'
+                        '<25>{#f/5}* Você não lidou com essa lição da forme que eu esperei...',
+                        '<25>{#f/0}* Pelo menos no fim, você evitou o conflito.',
+                        '<25>{#f/0}* Considerando as alternativas, essa foi... uma escolha preferível.'
                     ],
                     [
                         '<25>{#f/0}* ... hmm.',
-                        '<25>{#f/0}* Truthfully, I still do not know how to react to what happened.',
-                        '<25>{#f/1}* It was mesmerising to watch, though...',
-                        '<25>{#f/3}* Just the two of you...\n* Staring at each other...',
+                        '<25>{#f/0}* Verdadeiramente, eu ainda não sei como reagir ao que aconteceu.',
+                        '<25>{#f/1}* Foi hipnotizante de assistir, no entanto...',
+                        '<25>{#f/3}* Só vocês dois...\n* Se encarando...',
                         '<25>{#f/4}* ...'
                     ],
                     [
-                        '<25>{#f/1}* I cannot say I expected what happened, but...',
-                        '<25>{#f/0}* It was still endearing nonetheless.',
-                        '<25>{#f/0}* Surprisingly, you are the first human to try the approach.',
-                        '<25>{#f/1}* And it seemed such an obvious solution in hindsight...'
+                        '<25>{#f/1}* Eu não posso dizer que esperei o que aconteceu, mas...',
+                        '<25>{#f/0}* Ainda é cativante, no entanto.',
+                        '<25>{#f/0}* Surpreendentemente, você é o primeiro humano a tentar se aproximar.',
+                        '<25>{#f/1}* Parecia uma solução tão óbvia...'
                     ],
                     [],
                     [
                         '<25>{#f/5}* ...',
                         '<25>{#f/7}* ...',
-                        '<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!',
-                        '<25>{#f/6}* The shamelessness with which you chose to flirt...',
-                        '<25>{#f/1}* Certainly took me by surprise!',
-                        '<25>{#f/0}* Listen to me, my child.',
-                        '<25>{#f/9}* Flirting with your adversaries may not always be ideal.',
-                        '<25>{#f/10}* But, if you can do it like THAT again...',
-                        '<25>{#f/0}* There is no telling what you can accomplish this way.'
+                        '<25>{#f/8}* Hahaha!\n* Ah, eu não consigo fazer nada além de rir!',
+                        '<25>{#f/6}* A falta de vergonha com que você escolheu flertar...',
+                        '<25>{#f/1}* Certamente me pegou de surpresa!',
+                        '<25>{#f/0}* Me escute, minha criança.',
+                        '<25>{#f/9}* Flertar com seus adversários pode não ser a melhor escolha.',
+                        '<25>{#f/10}* Mas, se você conseguir fazer DAQUELA forma novamente...',
+                        '<25>{#f/0}* Não há como dizer o que você não pode chegar a um lugar dessa maneira.'
                     ]
                 ][SAVE.data.n.state_wastelands_dummy]
                 : [
-                    '<25>{#p/toriel}{#f/0}* Oh, right, about that.',
-                    '<25>{#p/toriel}{#f/0}* I recently discovered that a ghost was hiding in the dummy.',
-                    '<25>{#p/toriel}{#f/1}* They seemed bothered about something, but...',
-                    '<25>{#p/toriel}{#f/0}* After a little talk, I helped to calm them down.',
-                    '<25>{#p/toriel}{#f/1}* Hmm... I wonder where Lurksalot is now?'
+                    '<25>{#p/toriel}{#f/0}* Ah, certo, sobre isso.',
+                    '<25>{#p/toriel}{#f/0}* Eu recentemente descobri que um fantasma estava se escondendo no boneco.',
+                    '<25>{#p/toriel}{#f/1}* Eles pareciam irritados com alguma coisa, mas...',
+                    '<25>{#p/toriel}{#f/0}* Após alguma conversa, eu os ajudei a se acalmar.',
+                    '<25>{#p/toriel}{#f/1}* Hmm... me pergunto onde Lurksalot está agora?'
                 ])
         ],
         w_coffin: [
             '<25>{#p/toriel}{#f/5}* ...',
-            '<25>{#f/5}* In times like this, it is important that we show respect.',
-            '<25>{#f/10}* ... do you understand?',
-            '<25>{#f/9}* It is a lesson more important than that of puzzles or encounters.'
+            '<25>{#f/5}* Em momentos como esse, é importante saber demonstrar respeito.',
+            '<25>{#f/10}* ... você entende?',
+            '<25>{#f/9}* É uma lição mais importante do que aprender sobre armadilhas ou lutas.'
         ],
         w_danger: () =>
             SAVE.data.n.state_wastelands_froggit === 3
                 ? [
-                    '<25>{#p/toriel}{#f/1}* The riddle offered by the terminal in that room...',
-                    '<25>{#f/0}* Was based on something I found in an old Earth legend.',
-                    '<25>{#f/1}* It involved a series of many intricate puzzles...',
-                    '<25>{#f/0}* And a certain deceptive baked good.',
+                    '<25>{#p/toriel}{#f/1}* O enigma oferecido pelo terminal nesta sala...',
+                    '<25>{#f/0}* Foi baseado em algo que eu encontrei em uma antiga lenda da Terra.',
+                    '<25>{#f/1}* Ela envolve uma série de quebras-cabeças intrigantes...',
+                    '<25>{#f/0}* E um certo assado enganoso.',
                     SAVE.data.b.w_state_riddleskip
-                        ? '<25>{#f/5}* It is a shame you refused to solve it.'
-                        : '<25>{#f/0}* Seeing you solve it was quite gratifying.'
+                        ? '<25>{#f/5}* É triste você não querer ter resolvido.'
+                        : '<25>{#f/0}* Te ver resolver foi bem gratificante.'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* As overseer of the Outlands, I took it upon myself...',
-                    '<25>{#f/0}* To ensure the other monsters did not attack you.',
-                    '<25>{#f/0}* Both they and I have a mutual understanding about this.',
-                    '<25>{#f/0}* That is why the Froggit left so readily.'
+                    '<25>{#p/toriel}{#f/1}* Como protetora das Outlands, eu tomei isso para mim mesma...',
+                    '<25>{#f/0}* Para ter certeza que os outros monstros não te atacariam.',
+                    '<25>{#f/0}* Mas eles e eu temos um entendimento mútuo sobre isso.',
+                    '<25>{#f/0}* É por isso que o Froggit partiu tão prontamente.'
                 ],
         w_zigzag: [
-            '<25>{#p/toriel}{#f/1}* My idea with building this room to be so long and windy...',
-            '<25>{#f/0}* ... was that I felt a straight room would be too boring.',
-            '<25>{#f/1}* After all, who wants to walk in a straight line all their life?',
-            '<25>{#f/0}* A little change of pace can be quite nice.'
+            '<25>{#p/toriel}{#f/1}* Minha ideia ao construir está sala era que ela fosse longa e com ondas...',
+            '<25>{#f/0}* ... eu senti que uma sala reta seria tão entediante.',
+            '<25>{#f/1}* Até porque, quem deseja andar em linha reta por toda a vida?',
+            '<25>{#f/0}* Uma pequena mudança no passo pode ser bem divertido.'
         ],
         w_froggit: [
-            '<25>{#p/toriel}* From this room forward, more monsters may be found.',
-            '<25>{#f/0}* They often like to \"hang out\" here.\n* Nice, is it not?',
-            '<25>{#f/1}* It tended to be a quiet place, until recently...',
-            '<25>{#f/0}* When a monster began teaching the others how to flirt.',
-            '<25>{#f/0}* This new element has greatly altered the social atmosphere.'
+            '<25>{#p/toriel}* Dessa sala em diante, mais monstros podem ser encontrados.',
+            '<25>{#f/0}* Eles gostam de \"dar uma volta\" por aqui.\n* Legal, não é mesmo?',
+            '<25>{#f/1}* Normalmente era um lugar bem quieto, mas recentemente...',
+            '<25>{#f/0}* Quando um monstro começou a ensinar os outros como flertar.',
+            '<25>{#f/0}* Este novo sentimento começou a mudar a atmosfera social.'
         ],
         w_candy: () => [
             SAVE.data.n.state_wastelands_candy < 4
-                ? '<25>{#p/toriel}{#f/1}* The vending machine has yet to break down?'
-                : '<25>{#p/toriel}{#f/1}* Oh dear, is the vending machine broken again?',
-            '<25>{#f/5}* Well, it has happened more times than I can count.',
-            '<25>{#f/3}* On the positive side, it DOES save power...',
-            '<25>{#f/0}* ... so perhaps it is not all bad.'
+                ? '<25>{#p/toriel}{#f/1}* A máquina de venda quebrou?'
+                : '<25>{#p/toriel}{#f/1}* Oh senhor, a máquina de venda quebrou de novo?',
+            '<25>{#f/5}* Bem, já aconteceu mais vezes do que eu consigo contar.',
+            '<25>{#f/3}* No lado positivo, ISTO salva bastante energia...',
+            '<25>{#f/0}* ... então talvez não seja de todo mal.'
         ],
         w_puzzle1: [
-            '<25>{#p/toriel}{#f/1}* To ease the process of retrying the puzzle...',
-            '<25>{#f/0}* I installed a system to move you back to the start.',
-            '<25>{#f/5}* The scientist who helped to install it is long gone now...',
-            '<25>{#f/0}* But his work continues to be of use every day.'
+            '<25>{#p/toriel}{#f/1}* Para facilitar o processo de repetição do quebra-cabeça...',
+            '<25>{#f/0}* Instalei um sistema para movê-lo de volta ao início.',
+            '<25>{#f/5}* O cientista que me ajudou a instalar já se foi a muito tempo...',
+            '<25>{#f/0}* Mas seus trabalhos ainda são usados até o dia de hoje.'
         ],
         w_puzzle2: [
-            '<25>{#p/toriel}{#f/1}* Ah, a most unique form of puzzle exists here.',
-            '<25>{#f/0}* One that tests patience over memorization.',
-            '<25>{#f/1}* For the most part, the other humans complained about it...',
-            '<25>{#f/0}* Though, one did appreciate the value it provides.'
+            '<25>{#p/toriel}{#f/1}* Ah, a mais única forma de quebra-cabeça que existe aqui.',
+            '<25>{#f/0}* Um que testa a paciência acima da memorização.',
+            '<25>{#f/1}* Na maior parte, os outros humanos reclamaram sobre...',
+            '<25>{#f/0}* Mas, um deles apreciou o valor que ele provê.'
         ],
         w_puzzle3: [
-            '<25>{#p/toriel}{#f/1}* A little trick you may find helpful for this puzzle...',
-            '<25>{#f/0}* Is that you can start moving even as the sequence is shown.',
-            '<25>{#f/5}* ... I suppose that is not of much use to you now.',
-            '<25>{#f/1}* But, if for some reason you need to solve it again...',
-            '<25>{#f/0}* You may try the advice I have just given.'
+            '<25>{#p/toriel}{#f/1}* Uma pequena dica que pode te ajudar neste quebra-cabeça...',
+            '<25>{#f/0}* É que você pode se mexer mesmo enquanto a sequência está sendo apresentada.',
+            '<25>{#f/5}* ... Eu suponho que não exista muito utilidade para está informação agora.',
+            '<25>{#f/1}* Mas, se por alguma razão você precisar resolver isso de novo...',
+            '<25>{#f/0}* Tente o conselho que eu acabei de te dar.'
         ],
         w_puzzle4: [
-            '<25>{#p/toriel}{#f/1}* It has come to my attention that, recently...',
-            '<25>{#f/0}* Old editions of a now- defunct comic series are being sold.',
-            '<25>{#f/0}* Perhaps, if you are bored, you could buy one.',
-            '<25>{#f/0}* Children your age tend to be rather fond of these things!'
+            '<25>{#p/toriel}{#f/1}* Tem chamado minha atenção que, recentemente...',
+            '<25>{#f/0}* Edições antigas de uma série de quadrinhos agora extinta estão sendo vendidas.',
+            '<25>{#f/0}* Talvez, se você estiver entediado, pode acabar comprando uma.',
+            '<25>{#f/0}* Crianças da sua idade se divertem muito com essas coisas!'
         ],
         w_mouse: [
-            '<25>{#p/toriel}{#f/1}* As a matter of principle, I find it important...',
-            '<25>{#f/0}* That there be a room designated for stopping and resting.',
-            '<25>{#f/0}* In my own life, I often find breaks to be a useful asset.',
-            '<25>{#f/1}* The stærmite who resides here would certainly agree...'
+            '<25>{#p/toriel}{#f/1}* Por uma questão de princípio, acho importante...',
+            '<25>{#f/0}* Aqui tem uma sala designada para descanso.',
+            '<25>{#f/0}* Em minha própria vida, muitas vezes acho que as pausas são um recurso útil.',
+            '<25>{#f/1}* O stærmite que reside aqui certamente concordaria...'
         ],
         w_blooky: () =>
             SAVE.data.b.killed_mettaton
                 ? [
-                    '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                    '<25>{#f/5}* Has been feeling worse than ever lately.',
-                    '<25>{#f/1}* I tried to ask them why, but they would not say...',
-                    '<25>{#f/5}* ... I have not seen them since.'
+                    '<25>{#p/toriel}{#f/1}* Por alguma razão, o fantasma que vem aqui as vezes...',
+                    '<25>{#f/5}* Tem se sentido mais triste do que nunca ultimamente.',
+                    '<25>{#f/1}* Eu tentei questiona-lo o motivo, mas ele não me disse...',
+                    '<25>{#f/5}* ... Eu não o vi desde então.'
                 ]
                 : !SAVE.data.b.a_state_hapstablook || SAVE.data.n.plot < 68
                     ? [
-                        '<25>{#p/toriel}{#f/0}* That ghost who called earlier often inhabits this area.',
+                        '<25>{#p/toriel}{#f/0}* Aquele fantasma que ligou mais cedo habita essa área com frequência.',
                         ...(SAVE.data.b.napsta_performance
-                            ? ['<25>{#f/1}* I thought they would be happier after their performance...']
-                            : ['<25>{#f/1}* I have tried to lift their spirits in the past...']),
-                        '<25>{#f/5}* But their troubles may not be so easy to resolve.',
-                        '<25>{#f/1}* If only I knew what was holding them down...'
+                            ? ['<25>{#f/1}* Eu pensei que ele ficaria feliz após a performance...']
+                            : ['<25>{#f/1}* Tentei levantar o ânimo dele no passado...']),
+                        '<25>{#f/5}* Mas os seus problemas não devem ser fáceis de se resolver.',
+                        '<25>{#f/1}* Se ao menos eu soubesse o que os preocupa...'
                     ]
                     : [
-                        '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                        '<25>{#f/0}* Has been feeling a lot better lately.',
-                        '<25>{#f/0}* They even came to my house to tell me so themselves.',
-                        '<25>{#f/1}* Apparently you had something to do with this...?',
-                        '<25>{#f/0}* Well then.\n* I am very proud of you, my child.'
+                        '<25>{#p/toriel}{#f/1}* Por alguma razão, o fantasma que vem aqui as vezes...',
+                        '<25>{#f/0}* Tem se sentido bem melhor ultimamente.',
+                        '<25>{#f/0}* Ele até veio a minha casa contar como estava bem.',
+                        '<25>{#f/1}* Aparentemente foi por sua causa...?',
+                        '<25>{#f/0}* Que bom.\n* Eu estou muito orgulhosa de ti, minha criança.'
                     ],
         w_party: [
-            '<25>{#p/toriel}{#f/0}* The activities room.\n* We host all kinds of performances there.',
-            '<25>{#f/0}* Drama, dance nights...\n* And, most important of all, the arts.',
-            '<25>{#f/0}* It is always good to see people expressing themselves.',
-            '<25>{#f/1}* I once attended a comedy show in that very room.',
-            '<25>{#f/0}* It was the hardest I have ever laughed in my life!'
+            '<25>{#p/toriel}{#f/0}* A sala de atividades.\n* Nós fazemos todos os tipos de performance aqui.',
+            '<25>{#f/0}* Drama, noites de dança, romance...\n* E o mais importante de tudo, as artes.',
+            '<25>{#f/0}* É sempre maravilhoso ver as pessoas se expressando.',
+            '<25>{#f/1}* Eu uma vez vi um show de comédia naquela mesma sala.',
+            '<25>{#f/0}* Nunca ri tanto na minha vida!'
         ],
         w_pacing: () => [
             SAVE.data.b.toriel_twinkly
-                ? '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with that talking star.'
-                : '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with a talking star.',
-            '<25>{#f/1}* One of the Froggits, I presume...?',
-            "<25>{#f/1}* To say I am worried for that monsters' safety...",
-            '<25>{#f/5}* Would be quite the understatement.'
+                ? '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém aí fez \"amizade\" com uma estrela falante.'
+                : '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém fez \"amizade\" com uma estrela falante.',
+            '<25>{#f/1}* Um dos Froggits, eu presumo...?',
+            "<25>{#f/1}* Eu estou bem preocupada com a segurança daquele monstro...",
+            '<25>{#f/5}* Mas isso é um eufemismo.'
         ],
         w_junction: [
-            '<25>{#p/toriel}{#f/1}* The junction room...',
-            '<25>{#f/0}* In the past, we had planned a community area of sorts here.',
-            '<25>{#f/0}* Outlands visitors would be met with a warm, welcoming atmosphere.',
-            '<25>{#f/1}* Over time, though, we realized not many people would come...',
-            '<25>{#f/0}* And so, the design was altered into what you see today.',
-            '<25>{#f/5}* A little boring, but I suppose not every room can be grand...'
+            '<25>{#p/toriel}{#f/1}* A sala de junção...',
+            '<25>{#f/0}* No passado, nós planejemos uma área de comunidades aqui.',
+            '<25>{#f/0}* Visitantes das Outlands iriam ser apresentados a fresca e aconchegada atmosfera.',
+            '<25>{#f/1}* Depois de um tempo, percebemos que não muitos gostariam de vir aqui...',
+            '<25>{#f/0}* Por isso, o design foi alterado para o que você vê hoje.',
+            '<25>{#f/5}* Um pouco entediante, mas eu suponho que nem todas as salas podem ser grandes...'
         ],
         w_annex: [
-            '<25>{#p/toriel}* From here, the all- important taxi stop can be reached.',
-            '<25>{#f/1}* Not only are other areas of the outpost accessible...',
-            '<25>{#f/0}* But other subsections of the Outlands are, too.',
-            '<25>{#f/1}* Seeing as you are but a small child, however...',
-            '<25>{#f/5}* It is unlikely the driver would offer that as an option to you.',
-            '<25>{#f/0}* The shops and business there are mostly just for grown-ups.'
+            '<25>{#p/toriel}* Daqui, o todo- importante ponto de táxi pode ser alcançado.',
+            '<25>{#f/1}* Não apenas outras áreas do Outpost são acessíveis...',
+            '<25>{#f/0}* Mas outras subseções das Outlands também.',
+            '<25>{#f/1}* Mas como você é uma criança, entretanto...',
+            '<25>{#f/5}* É bem difícil que o taxi te ofereça esta opção.',
+            '<25>{#f/0}* O mercado e trabalhos oferecidos lá são mais para adultos.'
         ],
         w_wonder: () => [
-            '<25>{#p/toriel}{#f/1}* A little mushroom greeted me on my way back from shopping...',
+            '<25>{#p/toriel}{#f/1}* Um pequeno cogumelo me cumprimentou no caminho de volta para casa...',
             SAVE.data.b.snail_pie
-                ? '<25>{#f/0}* ... as I returned with ingredients for that snail pie.'
-                : '<25>{#f/0}* ... as I returned with ingredients for that butterscotch pie.',
-            '<25>{#f/3}* Strangely, it was floating above the doorway...',
-            '<25>{#f/0}* The gravity must be weak in that room.',
-            '<25>{#f/1}* Perhaps the presence of the taxi has some kind of effect...?'
+                ? '<25>{#f/0}* ... quando eu retornava com os ingredientes para a torta de lesma.'
+                : '<25>{#f/0}* ... quando eu retornava com os ingredientes para a torta de canela.',
+            '<25>{#f/3}* Estranhamente, estava voando acima da porta...',
+            '<25>{#f/0}* A gravidade deve estar fraca naquela sala.',
+            '<25>{#f/1}* Talvez a presença do táxi tenha algum efeito...?'
         ],
         w_courtyard: [
-            '<25>{#p/toriel}{#f/0}* Ah.\n* The courtyard.',
-            '<25>{#f/1}* Admittedly, it is a little lacking...',
-            '<25>{#f/5}* In terms of being a place for children like you to play.',
-            '<25>{#f/1}* With every human who came, I thought of fixing that...',
-            '<25>{#f/5}* But they always left before I had the chance.'
+            '<25>{#p/toriel}{#f/0}* Ah.\n* O pátio.',
+            '<25>{#f/1}* Admito, é vem vazio...',
+            '<25>{#f/5}* Nem mesmo uma criança gostaria de brincar aí.',
+            '<25>{#f/1}* Com cada humano que veio, eu pensei em arrumar isso...',
+            '<25>{#f/5}* Mas eles sempre se foram antes que eu tivesse a chance.'
         ],
         w_alley1: [
-            '<25>{#p/toriel}{#f/9}* ... the room in which I lectured you about leaving.',
-            '<25>{#f/5}* I thought, if I spoke of the force field...',
-            '<25>{#f/5}* I might convince you to stay.',
-            '<25>{#f/1}* ... I remember telling the other humans the same, but...',
-            '<25>{#f/5}* It was as effective for you as it was for them.'
+            '<25>{#p/toriel}{#f/9}* ... a sala na qual eu te avisei sobre ir embora.',
+            '<25>{#f/5}* Eu pensei, se eu falasse do campo de força...',
+            '<25>{#f/5}* Eu talvez te convenceria a ficar.',
+            '<25>{#f/1}* ... Eu me lembro de falar para os outros humanos fazerem o mesmo, mas...',
+            '<25>{#f/5}* Teve tanto efeito em você como teve para eles.'
         ],
         w_alley2: [
-            '<25>{#p/toriel}{#f/9}* ... the room in which I warned you of the dangers ahead.',
-            '<25>{#f/5}* I have been told my beliefs about them are misguided, but...',
-            '<25>{#f/5}* I felt it unwise to take that chance.',
-            '<25>{#f/9}* ... perhaps it is time I re-considered my viewpoint.'
+            '<25>{#p/toriel}{#f/9}* ... a sala na qual eu te avisei dos perigos a frente.',
+            '<25>{#f/5}* Disseram-me que minhas crenças sobre ele são equivocadas, mas...',
+            '<25>{#f/5}* Eu senti como um erro tomar a chance.',
+            '<25>{#f/9}* ... talvez seja hora de reconsiderar meu ponto de vista.'
         ],
         w_alley3: [
-            '<25>{#p/toriel}{#f/9}* ... I truly regret the way I acted towards you here.',
-            '<25>{#f/5}* It was wrong of me to attempt to force you to stay...',
-            '<25>{#f/5}* Merely acting on my own silly desires.',
-            '<25>{#f/1}* I am sure you have already forgiven me, though...',
-            '<25>{#f/5}* Regardless of whether or not I deserve it...'
+            '<25>{#p/toriel}{#f/9}* ... Eu realmente me arrependo pela forma da qual te tratei aqui.',
+            '<25>{#f/5}* Foi erro de mim tentar te manter a força aqui...',
+            '<25>{#f/5}* Meramente agindo sob meus próprios desejos.',
+            '<25>{#f/1}* Eu tenho certeza que você já me perdoou...',
+            '<25>{#f/5}* Eu merecendo isso ou não...'
         ],
         w_alley4: () =>
             SAVE.data.b.w_state_fightroom
                 ? [
-                    '<32>{#s/phone}{#p/event}* Dialing...',
-                    '<25>{#p/toriel}{#f/1}* Although that room may not evoke the best of feelings for us...',
-                    '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
-                    '<25>{#f/1}* There is a certain someone who visits sometimes...',
-                    '<25>{#f/6}* Perhaps you are already aware of him.',
+                    '<32>{#s/phone}{#p/event}* Discagem...',
+                    '<25>{#p/toriel}{#f/1}* Mesmo que essa sala não nos traga os melhores sentimentos...',
+                    '<25>{#f/0}* Ainda é um dos meus lugares favoritos nas Outlands.',
+                    '<25>{#f/1}* Tem um certo alguém que me visita as vezes...',
+                    '<25>{#f/6}* Talvez você já saiba quem ele é.',
                     '<32>{#s/equip}{#p/event}* Click...'
                 ]
                 : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
 
                     ? [
-                        '<32>{#s/phone}{#p/event}* Dialing...',
-                        '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                        '<25>{#f/0}* ... I have not even gotten back to the house yet!',
-                        '<25>{#f/0}* Please, wait a moment before calling again.',
+                        '<32>{#s/phone}{#p/event}* Discagem...',
+                        '<25>{#p/toriel}{#f/1}* Já me ligando...?',
+                        '<25>{#f/0}* ... Eu ainda nem cheguei em casa!',
+                        '<25>{#f/0}* Por favor, espere um pouco antes de ligar novamente.',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]
                     : [
-                        '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',
-                        '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                        '<25>{#f/0}* ... I have not even left the room yet!',
-                        '<25>{#f/2}* A moment to breathe would be nice!',
+                        '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Discando...',
+                        '<25>{#p/toriel}{#f/1}* Já me ligando...?',
+                        '<25>{#f/0}* ... Eu ainda nem saí da sala onde estamos!',
+                        '<25>{#f/2}* Um momento para respirar seria ótimo!',
                         '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click...'
                     ],
         w_bridge: [
-            '<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost...',
-            '<25>{#f/5}* It is a shame to think I almost destroyed it.',
-            '<25>{#f/0}* Of course, the taxi still would have been around.',
-            '<25>{#f/3}* But I doubt that would have been very reliable.',
-            '<25>{#f/1}* Let us be glad this bridge is still in place.'
+            '<25>{#p/toriel}{#f/1}* A ponte para o resto do Outpost...',
+            '<25>{#f/5}* É uma lástima pensar que eu quase a destruí.',
+            '<25>{#f/0}* É claro, o táxi ainda estaria por aí.',
+            '<25>{#f/3}* Mas duvido que isso tenha sido muito acreditável.',
+            '<25>{#f/1}* Vamos ficar felizes que a ponte ainda está aí.'
         ],
         w_exit: () =>
             SAVE.data.n.plot < 16
                 ? [
-                    '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
-                    '<25>{#f/0}* Then... I want you to remember something.',
-                    '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
-                    '<25>{#f/0}* I want you to know that I have faith in you.',
-                    '<25>{#f/0}* That I know you can do the right thing.',
-                    '<25>{#f/1}* Remember that, alright?'
+                    '<25>{#p/toriel}{#f/1}* Minha criança, se você está saindo das Outlands...',
+                    '<25>{#f/0}* Então... eu quero que se lembre de algo.',
+                    '<25>{#f/1}* Seja lá o que te acontecer, não importa o quanto pareça difícil...',
+                    '<25>{#f/0}* Eu quero que você saiba que eu tenho esperança em você.',
+                    '<25>{#f/0}* Eu sei que você fará a coisa certa.',
+                    '<25>{#f/1}* Lembre-se disso, tudo bem?'
                 ]
                 : SAVE.data.n.plot < 17.001
                     ? [
-                        '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
-                        '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
-                        '<25>{#f/1}* You may leave at any time, of course...',
-                        '<25>{#f/0}* But, for the moment, it is nice to see you.'
+                        '<25>{#p/toriel}{#f/1}* Retornando para as Outlands tão cedo...?',
+                        '<25>{#f/0}* Bem.\n* Eu não posso dizer que me oponho a isso.',
+                        '<25>{#f/1}* Você pode sair quando quiser, é claro...',
+                        '<25>{#f/0}* Mas, por agora, é muito bom te ver.'
                     ]
                     : [
-                        '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
-                        '<25>{#f/1}* Did you come back all this way just to call me?',
-                        '<25>{#f/0}* ... silly goose.',
-                        '<25>{#f/0}* If you would like to call, there is no need to go back this far.'
+                        '<25>{#p/toriel}{#f/2}* Por quanto tempo você está em pé aí!?',
+                        '<25>{#f/1}* Você voltou este caminho todo só para me ligar?',
+                        '<25>{#f/0}* ... Bobinho.',
+                        '<25>{#f/0}* Se você quiser me ligar, não a necessidade de voltar tão longe.'
                     ],
         w_toriel_front: [
-            '<25>{#p/toriel}{#f/1}* Did you know that this house is a re-creation of another?',
-            '<25>{#f/1}* In the past, I lived in the Citadel...',
-            '<25>{#f/0}* In a house that this one was made to resemble.',
-            '<25>{#f/5}* Once in a while, I forget that I am not really there...'
+            '<25>{#p/toriel}{#f/1}* Você sabia que essa casa é uma re-criação de outra?',
+            '<25>{#f/1}* No passado, eu vivi na Cidadela...',
+            '<25>{#f/0}* De onde a cópia dessa casa veio.',
+            '<25>{#f/5}* De vez em quando, eu me esqueço que não estou realmente lá...'
         ],
         w_toriel_hallway: [
-            '<25>{#p/toriel}{#f/0}* There is not much to say about the hallway.',
-            '<26>{#f/1}* Though, you can take a look in the mirror, if you like...',
-            '<25>{#f/0}* I hear self-reflection can be a powerful thing.'
+            '<25>{#p/toriel}{#f/0}* Não há muito o que dizer sobre o corredor.',
+            '<26>{#f/1}* Mas, você pode dar uma olhada no espelho, se quiser...',
+            '<25>{#f/0}* Eu ouvi dizer que refletir sobre si pode ser algo poderoso.'
         ],
         w_toriel_asriel: [
-            '<25>{#p/toriel}{#f/0}* Ah, it is your room!',
-            '<25>{#f/5}* Your... room...',
+            '<25>{#p/toriel}{#f/0}* Ah, é seu quarto!',
+            '<25>{#f/5}* Seu... quarto...',
             '<25>{#f/9}* ...',
-            '<25>{#f/5}* Perhaps it is no longer as such.',
+            '<25>{#f/5}* Talvez já não seja mais.',
             '<25>{#f/1}* ...',
-            '<25>{#f/1}* Actually, I will leave that decision to you...',
-            '<25>{#f/0}* You may still rest any time you like.'
+            '<25>{#f/1}* Na verdade, eu vou deixar essa decisão para você...',
+            '<25>{#f/0}* Você pode descansar sempre que puder.'
         ],
         w_toriel_toriel: [
-            '<25>{#p/toriel}{#f/0}* So you have stumbled into my room.',
-            '<25>{#f/0}* If you like, you may read a book from my bookshelf.',
-            '<25>{#f/0}* But, please, do not forget to put it back.',
-            "<25>{#f/23}* And don't you dare open that sock drawer!"
+            '<25>{#p/toriel}{#f/0}* Então você entrou no meu quarto.',
+            '<25>{#f/0}* Se você gostar, você pode ler um dos meus livros na prateleira.',
+            '<25>{#f/0}* Mas, por favor, não esqueça de colocar de volta.',
+            "<25>{#f/23}* E nem ouse abrir essa gaveta de meias."
         ],
         w_toriel_living: () =>
             toriCheck()
-                ? ['<25>{#p/toriel}{#f/3}* There is no need to call me when I am right here, little one.']
+                ? ['<25>{#p/toriel}{#f/3}* Não tem necessidade de me ligar quando eu estou bem aqui, pequenino.']
                 : [
-                    '<25>{#p/toriel}{#f/1}* Rummaging around in the living room, are we?',
-                    '<25>{#f/0}* Say.\n* Have you read all of the books yet?',
-                    '<25>{#f/1}* I thought about reading you the snail fact book...',
-                    '<25>{#f/0}* But I decided it might be a little too repetitive for you.'
+                    '<25>{#p/toriel}{#f/1}* Dando uma voltinha na sala de estar, estamos?',
+                    '<25>{#f/0}* Me diga.\n* Você já leu todos os livros?',
+                    '<25>{#f/1}* Eu pensei sobre ler um livro sobre fatos de lesmas para ti...',
+                    '<25>{#f/0}* Mas deve ser repetitivo demais para alguém tão jovem.'
                 ],
         w_toriel_kitchen: [
-            '<25>{#p/toriel}{#f/1}* The kitchen...?',
-            '<25>{#f/0}* I left a chocolate bar in the fridge for you.',
-            '<25>{#f/0}* I hear it is... an old favorite of humans.',
+            '<25>{#p/toriel}{#f/1}* A cozinha...?',
+            '<25>{#f/0}* Eu deixei uma barra de chocolate no freezer para você.',
+            '<25>{#f/0}* Eu sei que é... um grande favorito dos humanos.',
             '<25>{#f/1}* Espero que você goste...'
         ],
         s_start: () =>
             SAVE.data.n.plot < 17.001
                 ? [
-                    '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                    '<26>{#f/0}* Do not fear, little one.',
-                    '<25>{#f/1}* Keep going...'
+                    '<25>{#p/toriel}{#f/0}* Seu eu estou certa, um amigo meu deve estar logo a frente.',
+                    '<26>{#f/0}* Não temas, pequeno.',
+                    '<25>{#f/1}* Continue indo...'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
-                    '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
-                    '<25>{#f/0}* Of course, that never came to pass.',
-                    '<25>{#f/2}* One town was more than enough!'
+                    '<25>{#p/toriel}{#f/1}* Do que eu me lembro, esta longa sala...',
+                    '<26>{#f/0}* ... teria sido a base para uma cidade nos arredores de Starton.',
+                    '<25>{#f/0}* Obviamente, nunca passou disso.',
+                    '<25>{#f/2}* Uma cidade é mais que o suficiente!'
                 ],
         s_sans: () =>
             SAVE.data.n.plot < 17.001
                 ? [
-                    '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                    '<26>{#f/0}* Do not fear, little one.',
-                    '<25>{#f/1}* Keep going...'
+                    '<25>{#p/toriel}{#f/0}* Seu eu estou certa, um amigo meu deve estar logo a frente.',
+                    '<26>{#f/0}* Não temas, pequeno.',
+                    '<25>{#f/1}* Continue indo...'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
-                    '<26>{#f/0}* It is a device Sans has told me all about.',
-                    '<25>{#f/1}* Apparently, there is another world up there...',
-                    '<25>{#f/0}* A place where things do not always face the right way up.'
+                    '<25>{#p/toriel}{#f/1}* Eu presumo que agora você já tenha ouvido falar do \"inversor de gravidade?\"',
+                    '<26>{#f/0}* É um aparelho do qual Sans me contou.',
+                    '<25>{#f/1}* Aparentemente, tem outro mundo lá em cima...',
+                    '<25>{#f/0}* Um lugar que as coisas nem sempre olham para a direção correta.'
                 ],
         s_crossroads: [
-            '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',
-            '<25>{#f/1}* Supply ships coming and going...',
-            '<25>{#f/1}* Ready to aid in whatever was being built next...',
-            '<25>{#f/5}* It is a shame the outpost seems to have stopped expanding.',
-            '<25>{#f/0}* For a while, building new areas defined our culture!'
+            '<25>{#p/toriel}{#f/1}* Esta antiga plataforma de pouso já foi um cruzamento movimentado...',
+            '<25>{#f/1}* Naves de suprimento indo e voltando...',
+            '<25>{#f/1}* Prontos para ajudar em seja o que fosse construído em seguida...',
+            '<25>{#f/5}* É bem triste que o Outpost parou de expandir.',
+            '<25>{#f/0}* Por um tempo, construir novas áreas definiu nossa cultura!'
         ],
         s_human: [
-            "<25>{#p/toriel}* I heard Sans's brother wants to join the Royal Guard someday.",
-            '<25>{#f/1}* Such an aspirational young skeleton...',
-            '<25>{#f/0}* Despite my feelings about the guard, it is good for him to dream.',
-            '<25>{#f/5}* I worry that too many have given up on their dreams lately...',
-            '<25>{#f/0}* But not him!\n* That skeleton knows what is best for him.'
+            "<25>{#p/toriel}* Eu ouvi dizer que o irmão de Sans deseja se unir a Guarda Real um dia.",
+            '<25>{#f/1}* Que jovem esqueleto inspirador...',
+            '<25>{#f/0}* Apesar dos meus sentimentos sobre a guarda, é bom para ele ter sonhos.',
+            '<25>{#f/5}* Eu me preocupo que muitos tem desistido de seus sonhos ultimamente...',
+            '<25>{#f/0}* Mas não ele!\n* Esse esqueleto sabe o que é melhor para si.'
         ],
         s_papyrus: [
-            '<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his station.',
-            '<25>{#f/1}* First, a handle, so he can \"swing\" into duty...',
-            '<25>{#f/1}* A so-called \"sky wrench\" used to get a \"fix\" on the stars...',
-            '<25>{#f/0}* And a screen attachment to keep track of his many responsibilities.',
-            '<25>{#f/6}* With inventions like these, you would think he works at a lab.'
+            '<25>{#p/toriel}* Sans me contou sobre todas as gravações e utensílios que o Papyrus adicionou a sua estação.',
+            '<25>{#f/1}* Primeiro, uma alça, para que ele possa \"balançar\" para o serviço...',
+            '<25>{#f/1}* Uma chamada \"chave inglesa do céu\" usada para obter uma \"correção\" nas estrelas...',
+            '<25>{#f/0}* E um tablet para poder anotar cada uma de suas muitas responsabilidades.',
+            '<25>{#f/6}* Com invenções como essa, você poderia pensar que ele trabalha no laboratório.'
         ],
         s_doggo: [
-            '<25>{#p/toriel}{#f/5}* Is the Royal Guard giving you too much trouble?',
-            '<25>{#f/0}* Sans did say he would warn you of potential encounters.',
+            '<25>{#p/toriel}{#f/5}* A Guarda Real está te dando muito trabalho?',
+            '<25>{#f/0}* Sans disse que te alertaria de potenciais encontros.',
             '<25>{#f/1}* ...',
-            '<25>{#f/1}* Perhaps I should be more worried, but...',
-            '<25>{#f/0}* Something tells me you will be alright.',
-            '<25>{#f/0}* I have faith in that skeleton to look out for you.'
+            '<25>{#f/1}* Talvez eu devesse estar mais preocupada, porém...',
+            '<25>{#f/0}* Algo me diz que você ficará bem.',
+            '<25>{#f/0}* Eu tenho fé que aquele esqueleto te protegerá.'
         ],
         s_robot: [
-            '<25>{#p/toriel}{#f/1}* Ah, what a lovely sound...',
-            '<25>{#f/0}* I would recognize a builder bot anywhere.',
-            '<25>{#f/5}* After the ban on AI programs, we had most of them disabled...',
-            '<25>{#f/1}* But the two whose sentience did not corrupt them...',
-            '<25>{#f/0}* Were allowed a more graceful retirement.',
-            '<25>{#f/0}* It is nice to know that they have survived to this day.'
+            '<25>{#p/toriel}{#f/1}* Ah, que som amável...',
+            '<25>{#f/0}* Eu reconheceria um bot construtor em qualquer lugar.',
+            '<25>{#f/5}* Após o banimento das IA, nós tivemos maior parte delas desligadas...',
+            '<25>{#f/1}* Mas os dois cuja senciência não os corrompeu...',
+            '<25>{#f/0}* Nós os deixamos para um desligamento mais pacífico.',
+            '<25>{#f/0}* É legal saber que eles estão sobrevivendo até hoje.'
         ],
         s_maze: [
-            "<25>{#p/toriel}* Sans has told me all about his brother's fondness for puzzles.",
-            '<25>{#f/1}* I hear he has even created some of his own...?',
-            '<25>{#f/0}* I am most curious about the \"wall of fire.\"',
-            '<25>{#f/1}* Are the flames hot?\n* Or are they merely pleasantly warm?',
-            '<25>{#f/5}* For your sake, I would hope it is the latter.'
+            "<25>{#p/toriel}* Sans me contou sobre a apreciação do seu irmão por armadilhas.",
+            '<25>{#f/1}* Eu ouvi dizer que ele criou algumas ele mesmo...?',
+            '<25>{#f/0}* Estou super curiosa sobre a \"Parede de Fogo.\"',
+            '<25>{#f/1}* As chamas estão quentes?\n* Ou elas são apenas agradavelmente quentes?',
+            '<25>{#f/5}* Pelo seu bem, eu espero que seja o último.'
         ],
         s_dogs: [
-            '<25>{#p/toriel}{#f/1}* I hear the Royal Guard employs a pair of married dogs.',
-            '<25>{#f/3}* To be married at the same time as being a royal guard...',
-            '<25>{#f/4}* That relationship must have some \"interesting\" motivations.',
-            '<25>{#f/6}* But what do I know.\n* As Sans would say, I am merely a \"goat!\"'
+            '<25>{#p/toriel}{#f/1}* Eu ouvi que a Guarda Real emprega um par de cachorros casados.',
+            '<25>{#f/3}* Ser casado ao mesmo tempo em que está na Guarda Real...',
+            '<25>{#f/4}* Esses relacionamento deve ter motivações \"interessantes\".',
+            '<25>{#f/6}* Mas do que eu sei.\n* Como diria Sans, eu sou após uma mera \"cabra!\"'
         ],
         s_lesser: [
-            '<25>{#p/toriel}* I wonder what kind of food is sold in Starton these days.',
-            '<25>{#f/1}* When I was last here, everyone loved to eat ghost fruit...',
-            '<25>{#f/0}* A strange food which could be eaten both by ghosts and non-ghosts.',
-            '<26>{#f/0}* Whatever the favorite\n  is now, I am sure I could never dream of it.'
+            '<25>{#p/toriel}* Eu me pergunto que tipo de comida é vendida em Starton nos dias de hoje.',
+            '<25>{#f/1}* Quando eu vim aqui pela última vez, todo mundo amava comer fruta fantasma...',
+            '<25>{#f/0}* Uma estranha comida que poderia ser experimentada tanto por fantasmas como por não-fantasmas.',
+            '<26>{#f/0}* Seja lá qual for a favorita de hoje em dia, eu nem consigo imaginar qual.'
         ],
         s_bros: [
-            "<25>{#p/toriel}{#f/1}* Sans's fondness for spot-the-difference puzzles...",
-            '<25>{#f/0}* Well, it has never really made sense to me.',
-            '<25>{#f/1}* How could such a simple puzzle be appealing to him?',
-            '<26>{#f/3}* ... more specifically...',
-            '<25>{#f/1}* Where is the humor in such a puzzle?'
+            "<25>{#p/toriel}{#f/1}* O gosto de Sans por quebra-cabeças de detectar as diferenças...",
+            '<25>{#f/0}* Nunca fez muito sentido para mim.',
+            '<25>{#f/1}* Como algo tão simples poderia apegar ele?',
+            '<26>{#f/3}* ... mais especificamente...',
+            '<25>{#f/1}* Onde está o humor neste tipo de quebra-cabeça?'
         ],
         s_spaghetti: [
-            "<25>{#p/toriel}* Sans has often spoken of Papyrus's interest in spaghetti dishes.",
-            '<25>{#f/6}* But why stop there?\n* Just imagine the PASTABILITIES...',
+            "<25>{#p/toriel}* Sans fala bastante do interesse de Papyrus por espaguete.",
+            '<25>{#f/6}* Mas por que parar aí?\n* Só imagine todas as PASTABILIDADES...',
             '<25>{#f/8}* Rigatoni!\n* Fettuccine!\n* Acini di Pepe!',
-            '<25>{#f/0}* Some variety could really help him go FARFALLE.',
-            '<25>{#f/2}* ... in other words, go BIGOLI or go home!'
+            '<25>{#f/0}* Tantas variedades poderiam ajudá-lo a ir mais LONGUINE.',
+            '<25>{#f/2}* ... Em outras palavras, trabalhe na massa ou vá para casa!'
         ],
         s_puzzle1: [
-            '<25>{#p/toriel}{#f/1}* Whatever the puzzles in Starton are like now, I am sure...',
-            '<25>{#f/0}* They are nothing like the ones that were here when I left.',
-            '<25>{#f/5}* A level of difficulty so unrealistic...',
-            '<25>{#f/5}* It is a wonder anyone could solve them at all.'
+            '<25>{#p/toriel}{#f/1}* Seja lá como os quebra-cabeças em Starton se pareçam, eu tenho certeza...',
+            '<25>{#f/0}* Eles não são nada parecidos com os que temos aqui quando eu saí.',
+            '<25>{#f/5}* Um nível de dificuldade tão irrealista...',
+            '<25>{#f/5}* É uma grande conquista caso alguém possa resolver todos eles.'
         ],
         s_puzzle2: [
-            '<25>{#p/toriel}{#f/1}* They say some puzzles have secret solutions...',
-            '<25>{#f/0}* ... a statement I find utterly unbelievable!',
-            '<25>{#f/0}* A secret solution would defeat the whole purpose of a puzzle.',
-            '<25>{#f/1}* Puzzles, at least ones with realistic difficulty...',
-            '<25>{#f/2}* Should be solved the intended way only!'
+            '<25>{#p/toriel}{#f/1}* Os mesmo quebra-cabeças tem soluções secretas...',
+            '<25>{#f/0}* ... uma declaração que acho totalmente inacreditável!',
+            '<25>{#f/0}* Uma solução secreta destrói todo o sentido de um desafios.',
+            '<25>{#f/1}* Quebras-cabeças, pelo menos os de dificuldade realista...',
+            '<25>{#f/2}* Devem ser resolvidos apenas da forma correta!'
         ],
         s_jenga: [
-            '<25>{#p/toriel}* To my knowledge, Dr. Alphys is the current royal scientist.',
-            '<25>{#f/1}* She may never replace the experience of her predecessor, but...',
-            '<25>{#f/0}* I am sure she is more than capable of finding her own path forward.',
-            '<25>{#f/0}* This may surprise you, but I have a certain respect for scientists.',
-            '<25>{#f/2}* Such brilliant minds!'
+            '<25>{#p/toriel}* Do meu conhecimento, Dr. Alphys é a atual cientista real.',
+            '<25>{#f/1}* Ela provavelmente nunca irá substituir a experiência de seu antecessor, mas...',
+            '<25>{#f/0}* Eu tenho certeza que ela é capaz de encontrar o próprio caminho na ciência.',
+            '<25>{#f/0}* Isso pode te surpreender, mas eu tenho bastante respeito por cientistas.',
+            '<25>{#f/2}* Mentes tão brilhantes!'
         ],
         s_pacing: [
-            '<25>{#p/toriel}{#f/1}* You would be wise to steer clear of dubious salesfolk...',
-            '<25>{#f/0}* For you never know what strings they may pull.',
-            '<25>{#f/0}* Or what moon rocks may end up falling into your lap.',
-            '<25>{#f/3}* It is a lesson I have learned the hard way, unfortunately...'
+            '<25>{#p/toriel}{#f/1}* Você seria sábio em ficar longe de vendedores duvidosos...',
+            '<25>{#f/0}* Nunca se sabe os truques que eles podem colocar na manga.',
+            '<25>{#f/0}* Tome cuidado ou pedaços da lua podem cair no seu colo.',
+            '<25>{#f/3}* É uma lição que eu aprendi do jeito difícil, infelizmente...'
         ],
         s_puzzle3: [
-            '<25>{#p/toriel}{#f/1}* The puzzle in this room is one of memorization, is it not?',
-            '<25>{#f/1}* Sans mentioned that his brother often updates the pattern...',
-            '<25>{#f/0}* ... to maintain a strong \"rotating password.\"',
-            '<25>{#f/6}* How silly!',
-            '<25>{#f/0}* In the Outlands, our memorization puzzles update on-demand.'
+            '<25>{#p/toriel}{#f/1}* O quebra-cabeça nesta sala é sobre memorização, não é mesmo?',
+            '<25>{#f/1}* Sans disse que seu irmão atualiza o padrão de vez em quando...',
+            '<25>{#f/0}* ... para manter uma forte \"rotação de senha.\"',
+            '<25>{#f/6}* Que interessante!',
+            '<25>{#f/0}* Nas Outlands, nossos quebra-cabeças de memorização são atualizados sob demanda.'
         ],
         s_greater: [
-            '<25>{#p/toriel}{#f/1}* The old owner of that doghouse, Canis Maximus...',
-            '<25>{#f/0}* ... retired from the guard a long while ago.',
-            '<25>{#f/7}* Fortunately, its new owner is said to be a bundle of puppy energy!',
-            '<25>{#f/0}* Clearly, it has learned well from such a wise master.'
+            '<25>{#p/toriel}{#f/1}* O antigo dono dessa casa de cachorro, Canis Maximus...',
+            '<25>{#f/0}* ... retirou-se da guarda a muito tempo atrás.',
+            '<25>{#f/7}* Felizmente, seu novo dono é dito por ser um fofo cheio de energia!',
+            '<25>{#f/0}* Claramente ele aprendeu muito com seu mestre ancião.'
         ],
         s_math: [
-            '<25>{#p/toriel}{#f/1}* Please, can somebody explain \"dog justice?\"',
-            '<25>{#f/0}* It is an odd phrase I continue to hear every so often.',
-            '<25>{#f/5}* I do know of one little puppy that visits the Outlands sometimes...',
-            '<25>{#f/0}* Perhaps that is who is deserving of justice.'
+            '<25>{#p/toriel}{#f/1}* Por favor, alguém pode explicar \"justiça canina?\"',
+            '<25>{#f/0}* É uma frase que eu tenho escutado bastante todo momento.',
+            '<25>{#f/5}* Eu sei de um cachorrinho que visita as Outlands as vezes...',
+            '<25>{#f/0}* Talvez seja ele quem precisa da tal justiça.'
         ],
         s_bridge: [
-            '<25>{#p/toriel}{#f/1}* When this bridge was first constructed...',
-            "<25>{#f/0}* Its precarious nature prompted an upgrade to the outpost's systems.",
-            '<25>{#f/0}* In short time, the aptly-named \"gravity guardrails\" were added.',
-            '<25>{#f/0}* These are what prevent you from falling off the platforms.'
+            '<25>{#p/toriel}{#f/1}* Quando está ponte foi construída...',
+            "<25>{#f/0}* Sua natureza precária trouxe grandes atualizações para os sistemas do Outpost.",
+            '<25>{#f/0}* Em um pequeno tempo, os então nomeados \"Voa-corpos de gravidade\" foram adicionados.',
+            '<25>{#f/0}* Foram construídos para prevenção de qualquer pessoa se acidentar ao cair da plataforma.'
         ],
         s_town1: [
-            '<25>{#p/toriel}{#f/0}* Ah...\n* The town of Starton.',
-            '<25>{#f/1}* I have heard much about a \"Grillby\'s\" there...',
-            '<25>{#f/0}* ... and its diverse array of patrons both new and old.',
-            '<25>{#f/0}* Sans often goes there to eat, you see.',
-            '<25>{#f/7}* I hear the bartender is quite \"hot.\"'
+            '<25>{#p/toriel}{#f/0}* Ah...\n* A cidade de Starton.',
+            '<25>{#f/1}* Eu ouvi muito falar sobre um tal \"Grillby\" por aí...',
+            '<25>{#f/0}* ... e sua gama diversificada de clientes novos e antigos.',
+            '<25>{#f/0}* Sans vai lá para comer muitas vezes, sabe?',
+            '<25>{#f/7}* E também ouvi dizer que o atendente é bem \"quente.\"'
         ],
         s_taxi: [
-            '<25>{#p/toriel}{#f/1}* A taxi stop near town?',
+            '<25>{#p/toriel}{#f/1}* Uma parada de táxi perto da cidade?',
             '<25>{#f/1}* ... hmm...',
-            '<25>{#f/0}* I wonder if it is any different from the one in the Outlands.',
-            '<25>{#f/1}* Of course, I would have no way of knowing until I saw it...',
-            '<25>{#f/0}* Which I have no way of doing without a fancy telescope.',
-            '<25>{#f/0}* I wonder where I could find one of those.'
+            '<25>{#f/0}* Me pergunto se ele tem alguma diferença do que temos aqui nas Outlands.',
+            '<25>{#f/1}* Claro, na tem como eu saber antes de ver...',
+            '<25>{#f/0}* O que não tem como eu fazer sem um telescópio extravagante.',
+            '<25>{#f/0}* Onde será que dá pra encontrar um desses?'
         ],
         s_town2: [
-            '<25>{#p/toriel}{#f/1}* Napstablook recently told me they opened a shop...',
-            '<25>{#f/5}* ... on the \"south side\" of town.',
-            '<25>{#f/1}* What could this mean?',
-            '<25>{#f/0}* The town I remember organizing was a large, unified square.',
-            '<25>{#f/1}* Perhaps there was a split at some point?',
-            '<25>{#f/5}* That would be a shame, considering the original vision...'
+            '<25>{#p/toriel}{#f/1}* Napstablook recentemente me disse que eles abriram uma loja...',
+            '<25>{#f/5}* ... no lado \"sul\" da cidade.',
+            '<25>{#f/1}* O que isso poderia significar?',
+            '<25>{#f/0}* A cidade que eu lembro organizar era um único e grande quadrado.',
+            '<25>{#f/1}* Talvez ela aumentou de tamanho em algum momento?',
+            '<25>{#f/5}* Seria uma pena, considerando a visão original...'
         ],
         s_battle: [
-            '<25>{#p/toriel}{#f/1}* The thing Sans seemed most eager to warn me about...',
-            '<25>{#f/0}* Was his brother\'s so- called \"special attack.\"',
-            '<25>{#f/1}* If Papyrus chooses to spar with you, you must avoid it at all costs.',
-            '<25>{#f/2}* I repeat, avoid the special attack!\n* At all costs!',
-            '<25>{#f/0}* That is all I have to say on this matter.'
+            '<25>{#p/toriel}{#f/1}* Uma das coisas das quais Sans mais parecia querer me avisar...',
+            '<25>{#f/0}* Era um então chamado \"ataque especial\" do seu irmão.',
+            '<25>{#f/1}* Se Papyrus decidir lutar contra você, é preciso evitar isso a todo custo.',
+            '<25>{#f/2}* Digo e repito, evite seu ataque especial!\n* A todo custo!',
+            '<25>{#f/0}* Isso é tudo que eu tenho para dizer.'
         ],
         s_exit: [
-            '<25>{#p/toriel}{#f/1}* If you ever decide to leave Starton, you must understand...',
-            '<25>{#f/5}* My phone is old, and can only reach certain rooms in the factory.',
-            '<25>{#f/9}* It would be difficult to call me until you find your way out.',
-            '<25>{#f/1}* Forgive me.\n* I just thought that I should let you know.'
+            '<25>{#p/toriel}{#f/1}* Se você decidir deixar Starton, eu devo te avisar sobre algo...',
+            '<25>{#f/5}* Meu celular é antigo, é pode apenas acessar algumas partes da fábrica.',
+            '<25>{#f/9}* Vai ser difícil me ligar até você sair de lá.',
+            '<25>{#f/1}* Me desculpe.\n* Eu apenas senti que você precisava saber.'
         ],
         f_entrance: [
-            '<25>{#p/toriel}{#f/7}* So you found a place in the factory with good reception...?',
-            '<25>{#f/1}* ... that must mean you are somewhere unenclosed...',
-            '<25>{#f/0}* Which also implies the nearby presence of synth-bushes.',
-            '<25>{#f/3}* Those things are terrible to get stuck in...',
-            '<25>{#f/4}* Getting you all itchy and scratchy...',
-            '<25>{#f/0}* Fortunately, I know you are smart enough not to run into them.'
+            '<25>{#p/toriel}{#f/7}* Então você achou um lugar na fábrica onde o sinal é bom...?',
+            '<25>{#f/1}* ... isso deve significar que de alguma forma você está em um lugar aberto...',
+            '<25>{#f/0}* O que também implica a presença próxima de arbustos sintéticos.',
+            '<25>{#f/3}* Essas coisas são horríveis de ficar preso...',
+            '<25>{#f/4}* Deixando você com coceira e coceira...',
+            '<25>{#f/0}* Felizmente, eu sei que você é inteligente o suficiente para não chegar perto delas.'
         ],
         f_bird: () =>
             SAVE.data.n.plot !== 47.2 && SAVE.data.n.plot > 42 && SAVE.data.s.state_foundry_deathroom !== 'f_bird' // NO-TRANSLATE
 
                 ? [
-                    '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
-                    '<25>{#f/1}* Even when it still lived within a bucket of water...',
-                    '<25>{#f/1}* It would fly its mighty little wings...',
-                    '<25>{#f/1}* Taking us places...',
-                    '<25>{#f/0}* I used its services to carry groceries often.',
-                    '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
+                    '<25>{#p/toriel}{#f/0}* Não existe nada como a força daquele passarinho sem medo.',
+                    '<25>{#f/1}* Mesmo quando ele vivia apenas em um balde d\'água...',
+                    '<25>{#f/1}* Ele voava com suas pequenas asinhas...',
+                    '<25>{#f/1}* Nos levando para os lugares...',
+                    '<25>{#f/0}* Eu usava seus serviços para carregar compras no passado.',
+                    '<25>{#f/5}* ... quando quase todos nós vivíamos naquela antiga fábrica.'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
-                    '<25>{#f/5}* Almost like there is something missing.',
-                    '<25>{#f/5}* Something important...',
-                    '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
+                    '<25>{#p/toriel}{#f/5}* Parece estranhamente silencioso onde você está...',
+                    '<25>{#f/5}* Como se tivesse algo faltando.',
+                    '<25>{#f/5}* Algo importante...',
+                    '<25>{#f/0}* Bem, não importa.\n* Minha imaginação vai longe as vezes.',
                     '<25>{#f/1}* ...',
                     '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
                 ],
         f_taxi: [
-            "<25>{#p/toriel}{#f/1}* So you found the factory's taxi stop...?",
-            '<25>{#f/0}* Perhaps you could use it to escape that Royal Guard captain.',
-            '<25>{#f/1}* A visitor here once spoke of her obsession with spears...',
-            '<25>{#f/0}* How odd.\n* The captain I knew was into sabers.'
+            "<25>{#p/toriel}{#f/1}* Então você achou o ponto de táxi na fábrica...?",
+            '<25>{#f/0}* Talvez você possa usar isso para escapar da capitã da Guarda Real.',
+            '<25>{#f/1}* Um visitante aqui uma vez falou da sua obsessão por lanças...',
+            '<25>{#f/0}* Que interessante.\n* O capitão que eu conhecia gostava mais de sabres.'
         ],
         f_battle: [
-            '<25>{#p/toriel}{#f/0}* Ah, there you are.',
-            "<25>{#f/0}* You're at the edge of the factory there.",
-            '<26>{#f/1}* From this point forward, I do not know what lies ahead of you...',
-            '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
-            '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
-            '<25>{#f/23}* ... I wonder who came up with THAT name.'
+            '<25>{#p/toriel}{#f/0}* Ah, aí está você.',
+            "<25>{#f/0}* Você está na borda da fábrica.",
+            '<26>{#f/1}* Desde ponto para frente eu não sei o que te espera...',
+            '<25>{#f/5}* Antes de ir embora, havia apenas um elevador direto para a Cidadela.',
+            '<25>{#f/1}* Agora, entretanto, existe essa tal área chamada \"Aerialis...\"',
+            '<25>{#f/23}* ... Me pergunto quem teve a ideia DESSE nome.'
         ],
         f_exit: toriel_aerialis,
         a_start: toriel_aerialis,
@@ -5277,129 +5277,129 @@ export default {
         c_call_toriel_early: () =>
             game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-                ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
+                ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Volte para casa agora mesmo!']
                 : [
                     3 <= SAVE.data.n.cell_insult
-                        ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
+                        ? '<25>{#p/toriel}{#f/23}* Você não está exausto de como se comportou comigo?'
                         : SAVE.data.n.state_wastelands_napstablook === 5
-                            ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
-                            : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
+                            ? '<25>{#p/toriel}{#f/1}* Você não está exausto de esperar por tanto tempo?'
+                            : '<25>{#p/toriel}{#f/1}* Você não está exausto após tudo que passou?',
                     3 <= SAVE.data.n.cell_insult
                         ? game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                            ? '<25>{#f/0}* Perhaps you should see the bed I made for you in the guest room.'
-                            : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
+                            ? '<25>{#f/0}* Talvez você deva ver a cama que eu fiz para você no quarto de visitas.'
+                            : '<25>{#f/0}* Talvez você deva ver a cama que eu fiz para você na casa.'
                         : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                            ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
-                            : '<25>{#f/0}* Come to the house, and I will show you something.'
+                            ? '<25>{#f/0}* Venha para o corredor e eu lhe mostrarei uma coisa.'
+                            : '<25>{#f/0}* Venha para casa e eu vou te mostrar uma coisa.'
                 ],
         c_call_toriel_late: () =>
             SAVE.data.n.plot === 8.1
-                ? ['<32>{#p/human}* (But the line was busy.)']
+                ? ['<32>{#p/human}* (Mas a linha está ocupada.)']
                 : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-                    ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
+                    ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Volte para casa agora mesmo!']
                     : [
-                        '<25>{#p/toriel}{#f/1}* There is no need to call me over the phone, my child.',
+                        '<25>{#p/toriel}{#f/1}* Não tem necessidade de me ligar pelo telefone, minha criança.',
                         3 <= SAVE.data.n.cell_insult
-                            ? '<26>{#f/23}* We already know what that tends to result in.'
+                            ? '<26>{#f/23}* Já sabemos em que isso tende a resultar.'
                             : game.room === 'w_toriel_living' // NO-TRANSLATE
 
                                 ? toriCheck()
-                                    ? '<25>{#f/0}* After all, I am here in the room with you.'
-                                    : '<25>{#f/0}* I will be done in just a moment.'
+                                    ? '<25>{#f/0}* Até porque, eu estou aqui com você.'
+                                    : '<25>{#f/0}* Eu vou acabar daqui a pouco.'
                                 : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
                                     ? toriCheck()
-                                        ? '<25>{#f/0}* If you want to see me, you can come to the living room.'
-                                        : '<25>{#f/0}* If you want to see me, you can wait in the living room.'
-                                    : '<25>{#f/0}* If you want to see me, you can come to the house.'
+                                        ? '<25>{#f/0}* Se você quiser me ver, pode vir até a sala de estar.'
+                                        : '<25>{#f/0}* Se você quiser me ver, pode esperar na sala de estar.'
+                                    : '<25>{#f/0}* Se você quiser me ver, pode vir até em casa.'
                     ],
         c_call_asriel: () =>
             [
                 [
-                    "<25>{#p/asriel2}{#f/3}* Just so you know, I'm not picking that up.",
-                    '<25>{#p/asriel2}{#f/4}* We have better things to do.'
+                    "<25>{#p/asriel2}{#f/3}* Só pra você saber, eu não vou atender.",
+                    '<25>{#p/asriel2}{#f/4}* Temos coisas melhores pra fazer.'
                 ],
                 ['<25>{#p/asriel2}{#f/4}* ...'],
-                ['<25>{#p/asriel2}{#f/4}* ... seriously?'],
-                ['<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored.'],
+                ['<25>{#p/asriel2}{#f/4}* ... sério?'],
+                ['<25>{#p/asriel2}{#f/3}* Você deve estar muito, MUITO entediado.'],
                 []
             ][Math.min(SAVE.flag.n.ga_asrielCall++, 4)]
     },
     s_save_outlands: {
         w_courtyard: {
-            name: 'Outlands - Courtyard',
+            name: 'Outlands - Patio',
             text: () =>
                 SAVE.data.n.plot > 16
                     ? [
                         6 <= world.population
-                            ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
-                            : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
+                            ? '<32>{#p/human}* (Mesmo quando visitando, está pequena casa te enche de determinação.)'
+                            : '<32>{#p/human}* (Mesmo quando visitando, está casa te enche de determinação.)'
                     ]
                     : 6 <= world.population
-                        ? ['<32>{#p/human}* (This cute little home fills you with determination.)']
-                        : ['<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)']
+                        ? ['<32>{#p/human}* (Está casa fofinha te enche de determinação.)']
+                        : ['<32>{#p/human}* (Uma casa em meio às paredes metálicas o enche de determinação.)']
         },
         w_entrance: {
-            name: 'Outlands - Entrance',
+            name: 'Outlands - Entrada',
             text: () =>
                 world.runaway
                     ? [
-                        '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
+                        '<32>{#p/human}* (As industriosas Outlands ficam em silêncio, enchendo você de determinação.)',
                         '<32>{#p/human}* (HP totalmente restaurado.)'
                     ]
                     : SAVE.data.n.plot < 48
                         ? [
-                            '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
+                            '<32>{#p/human}* (As insdustriosas Outlands está a frente, enchendo você de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
                         : [
-                            '<32>{#p/human}* (Returning to where it all began, after so long...)',
-                            '<32>{#p/human}* (This fills you with determination.)',
+                            '<32>{#p/human}* (Retornando onde tudo começou, após tanto tempo...)',
+                            '<32>{#p/human}* (Isso te enche de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
         },
         w_froggit: {
-            name: 'Outlands - Rest Area',
+            name: 'Outlands - Área de Descanso',
             text: () =>
                 SAVE.data.n.state_wastelands_toriel === 2 || world.runaway || roomKills().w_froggit > 0
                     ? SAVE.data.n.plot < 8.1
                         ? [
-                            '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
+                            '<32>{#p/human}* (O ar se torna viciante.)\n* (De alguma forma, isso te enche de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
                         : [
-                            '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
+                            '<32>{#p/humano}* (O ar secou completamente.)\n* (Dessa forma, isso o enche de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
                     : SAVE.data.b.svr
                         ? [
-                            '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
-                            '<32>{#p/human}* (This, of course, fills you with determination.)',
+                            '<32>{#p/human}* (A área parece desocupada, mas o ar continua fresco.)',
+                            '<32>{#p/human}* (Isso, é claro, te enche de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
                         : [
-                            '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
+                            '<32>{#p/human}* (A presença de estranhas e maravilhosas criaturas te enche de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
         },
         w_mouse: {
-            name: 'Outlands - Stærmite Hole',
+            name: 'Outlands - Buraco Stærmite',
             text: () =>
                 world.population > 5 && !SAVE.data.b.svr && !world.runaway
                     ? [
-                        '<32>{#p/human}* (Knowing that the stærmite will one day emerge...)',
-                        '<32>{#p/human}* (The thought fills you with determinætion.)'
+                        '<32>{#p/human}* (Sabendo que o stærmite um dia surgirá...)',
+                        '<32>{#p/human}* (O pensamento te enche de determinæção.)'
                     ]
                     : [
-                        '<32>{#p/human}* (Even if the stærmite may never emerge again...)',
-                        '<32>{#p/human}* (The situation fills you with determinætion.)'
+                        '<32>{#p/human}* (Mesmo que o stærmite jamais volte a aparecer...)',
+                        '<32>{#p/human}* (A situação te enche de determinæção.)'
                     ]
         },
         w_start: {
-            name: 'Crash Site',
+            name: 'Local do Acidente',
             text: []
         }
     }

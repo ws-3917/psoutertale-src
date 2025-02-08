@@ -3444,133 +3444,133 @@ export default {
             labstationB: ["<32>{#p/basic}* Está aberto a um conjunto de planos de design para um ambiente holográfico."],
             laserbarrrier1: () =>
                 world.darker
-                    ? ["<32>{#p/basic}* It's a security field."]
-                    : ["<32>{#p/basic}* As per the crafter's guild standard, an impassable force field surrounds the area."],
+                    ? ["<32>{#p/basic}* É um escudo de segurança."]
+                    : ["<32>{#p/basic}* De acordo com o padrão da guilda dos artesãos, um campo de força intransponível circunda a área."],
             
             laserbarrrier2: pager.create(
                 0,
-                ['<32>{#p/basic}* Only one way forward now.'],
-                ["<32>{#p/basic}* There's nothing special here."],
+                ['<32>{#p/basic}* Apenas um caminho a frente agora.'],
+                ["<32>{#p/basic}* Não tem nada especial aqui."],
                 ['<32>{#p/basic}* ...'],
                 ['<32>{#p/basic}* ...'],
-                ['<32>{#p/basic}* Really now.'],
+                ['<32>{#p/basic}* Sério agora.'],
                 ['<32>{#p/basic}* ...'],
                 ['<32>{#p/basic}* ...'],
-                ["<32>{#p/basic}* Don't you have anything more intelligent to do?"]
+                ["<32>{#p/basic}* Você não tem nada mais inteligente pra fazer?"]
             ),
-            barricade: ['<32>{#p/basic}* The barricade blocks your way.'],
+            barricade: ['<32>{#p/basic}* A barricada bloqueia seu caminho.'],
             puzzle1done: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stare into the blank screen of the terminal.)']
-                    : ["<32>{#p/basic}* It's inert."],
+                    ? ['<32>{#p/human}* (Você olha para a tela preta do terminal.)']
+                    : ["<32>{#p/basic}* É inerte."],
             lablizard: {
                 a: pager.create(
                     0,
                     () =>
                         SAVE.data.n.plot < 51
                             ? [
-                                '<25>{#p/alphys}{#g/alphysSideSad}* Sorry about all that stuff with Mettaton...',
-                                '<25>{#g/alphysSideSad}* He, uh...',
-                                '<25>{#g/alphysNervousLaugh}* He can get a little antsy at times, ehehe.'
+                                '<25>{#p/alphys}{#g/alphysSideSad}* Desculpa por toda essa coisa com o Mettaton...',
+                                '<25>{#g/alphysSideSad}* Ele, uh...',
+                                '<25>{#g/alphysNervousLaugh}* Ele pode ficar um pouco agitado as vezes, ehehe.'
                             ]
                             : SAVE.data.n.plot < 52
                                 ? [
-                                    "<25>{#p/alphys}{#g/alphysCutscene2}* Thank GOD those guards didn't attack you.",
-                                    "<25>{#g/alphysNeutralSweat}* I've been trying to put out a royal memo to get them off your back...",
-                                    '<25>{#g/alphysWelp}* Hopefully it, uh, actually r-reached them.'
+                                    "<25>{#p/alphys}{#g/alphysCutscene2}* Graças a tudo aqueles guardas não te atacaram.",
+                                    "<25>{#g/alphysNeutralSweat}* Eu tentei colocar um memorial real para mantê-los longe de você...",
+                                    '<25>{#g/alphysWelp}* Com esperança, uh, deve t-ter alcançado eles.'
                                 ]
                                 : SAVE.data.n.plot < 54
                                     ? [
-                                        "<25>{#p/alphys}{#g/alphysInquisitive}* L-look, I don't know the answers in here any more than out there...",
-                                        "<25>{#g/alphysSmileSweat}* I'll call you when you get back to the barricades."
+                                        "<25>{#p/alphys}{#g/alphysInquisitive}* O-olha, eu não sei as respostas aqui melhor do lá fora...",
+                                        "<25>{#g/alphysSmileSweat}* Eu vou te ligar quando vocês voltar para as barricadas."
                                     ]
                                     : SAVE.data.n.plot < 56
                                         ? [
-                                            "<25>{#p/alphys}{#g/alphysSideSad}* The p-puzzles in Aerialis haven't been upgraded yet...",
-                                            "<25>{#g/alphysWelp}* It's just so hard to find the time when I'm this busy with my work."
+                                            "<25>{#p/alphys}{#g/alphysSideSad}* Os quebras-cabeças em Aerialis não foram atualizados ainda...",
+                                            "<25>{#g/alphysWelp}* É bem difícil encontrar tempo quando estou ocupada com meu trabalho."
                                         ]
                                         : SAVE.data.n.plot < 58
                                             ? [
-                                                '<25>{#p/alphys}{#g/alphysCutscene1}* I have a habit of forgetting to turn off m-my experiments.',
-                                                "<25>{#g/alphysCutscene2}* For a second there, I thought that habit might've saved you!",
-                                                '<25>{#g/alphysUhButHeresTheDeal}* But, uh, I guess Mettaton had a backup plan.'
+                                                '<25>{#p/alphys}{#g/alphysCutscene1}* Eu tenho o hábito de esquecer de desligar m-meus experimentos.',
+                                                "<25>{#g/alphysCutscene2}* Por um segundo, eu pensei que esse hábito poderia ter salvo você!",
+                                                '<25>{#g/alphysUhButHeresTheDeal}* Mas, uh, acho que o Mettaton tinha um plano B.'
                                             ]
                                             : SAVE.data.n.plot < 59
                                                 ? [
-                                                    '<25>{#p/alphys}{#g/alphysWelp}* Don\'t tell me.\n* Sans is selling his weird \"hotdogs\" again.',
-                                                    "<25>{#g/alphysCutscene2}* Yeah, that's like... a thing he does.\n* It's perfectly normal."
+                                                    '<25>{#p/alphys}{#g/alphysWelp}* Não me fala.\n* Sans está vendendo seu \"cachorros quente\" de novo.',
+                                                    "<25>{#g/alphysCutscene2}* É, isso é... basicamente o que ele faz.\n* É perfeitamente normal."
                                                 ]
                                                 : SAVE.data.n.plot < 60
                                                     ? [
-                                                        "<25>{#p/alphys}{#g/alphysCutscene2}* I think Mettaton's getting ready for another show.",
-                                                        "<25>{#g/alphysTheFactIs}* I'd... be c-careful if I were you..."
+                                                        "<25>{#p/alphys}{#g/alphysCutscene2}* Eu sinto que o Mettaton está se preparando para outro show.",
+                                                        "<25>{#g/alphysTheFactIs}* Eu... t-tomaria cuidado se fosse você."
                                                     ]
                                                     : SAVE.data.n.plot < 61
                                                         ? SAVE.data.b.a_state_moneyitemC
-                                                            ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>{#g/alphysFR}* I know what you did.']
+                                                            ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>{#g/alphysFR}* Eu sei o que você fez.']
                                                             : [
                                                                 '<25>{#p/alphys}{#g/alphysCutscene3}* ...',
-                                                                '<25>* Mettaton is becoming more and more reckless by the day.'
+                                                                '<25>* Mettaton está se tornando mais e mais imprudente.'
                                                             ]
                                                         : SAVE.data.n.plot < 66.1
                                                             ? [
                                                                 '<25>{#p/alphys}{#g/alphysCutscene3}* ...',
-                                                                "<25>{#g/alphysCutscene1}* Isn't it amazing when royal guards don't follow my orders!"
+                                                                "<25>{#g/alphysCutscene1}* Não é super legal quando a Guarda Real não segue minhas ordens?!"
                                                             ]
                                                             : SAVE.data.n.plot < 67.1
-                                                                ? ["<25>{#p/alphys}{#g/alphysWelp}* At this rate, you're never getting through the CORE."]
+                                                                ? ["<25>{#p/alphys}{#g/alphysWelp}* Nesse ritmo, você nunca vai chegar no CORE."]
                                                                 : [
-                                                                    "<25>{#p/alphys}{#g/alphysCutscene2}* Yeah, I'm... s-still here and all.",
-                                                                    '<25>{#g/alphysWelp}* Not that I have much left to do.'
+                                                                    "<25>{#p/alphys}{#g/alphysCutscene2}* É, eu... ainda estou a-aqui e tals.",
+                                                                    '<25>{#g/alphysWelp}* Não que tenha restado muito o que eu possa fazer.'
                                                                 ],
                     () =>
                         SAVE.data.n.plot < 51
                             ? [
-                                "<26>{#p/alphys}{#g/alphysWelp}* Can't blame him, though.",
-                                "<25>{#g/alphysWelp}* He's the biggest fan of humanity you'll ever meet out here."
+                                "<26>{#p/alphys}{#g/alphysWelp}* Não posso culpa-lo.",
+                                "<25>{#g/alphysWelp}* Ele é o maior fã da humanidade que você vai conhecer."
                             ]
                             : SAVE.data.n.plot < 52
-                                ? ['<25>{#p/alphys}{#g/alphysCutscene3}* You never know these days...']
+                                ? ['<25>{#p/alphys}{#g/alphysCutscene3}* Você nunca sabe nos dias de hoje...']
                                 : SAVE.data.n.plot < 54
                                     ? [
-                                        '<25>{#p/alphys}{#g/alphysWelp}* I guess if things really go wrong, I can just override them.',
-                                        "<25>{#g/alphysNeutralSweat}* B-but that'd put them out of action for a while."
+                                        '<25>{#p/alphys}{#g/alphysWelp}* Eu acho que se as coisas realmente derem errado, eu posso simplesmente substituí-las.',
+                                        "<25>{#g/alphysNeutralSweat}* M-mas aquilo os coloca fora de ação por um tempo."
                                     ]
                                     : SAVE.data.n.plot < 56
-                                        ? ["<25>{#p/alphys}{#g/alphysWelp}* You wouldn't believe how long I've been stuck on this level."]
+                                        ? ["<25>{#p/alphys}{#g/alphysWelp}* Você não acreditaria no tempo que eu fiquei presa nesse nível."]
                                         : SAVE.data.n.plot < 58
                                             ? SAVE.data.n.state_aerialis_crafterresult === 0
-                                                ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Shame you never checked your new phone...']
-                                                : ['<25>{#p/alphys}{#g/alphysCutscene2}* Not gonna lie, seeing you use that jetpack was great.']
+                                                ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Uma tristeza que você nunca olhou seu novo celular...']
+                                                : ['<25>{#p/alphys}{#g/alphysCutscene2}* Não vou mentir, te ver usar a mochila a jato foi muito da hora.']
                                             : SAVE.data.n.plot < 59
-                                                ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>{#g/alphysFR}* Perfectly normal.']
+                                                ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>{#g/alphysFR}* Perfeitamente normal.']
                                                 : SAVE.data.n.plot < 60
-                                                    ? ["<25>{#p/alphys}{#g/alphysWelp}* Who knows what kind of antics he'll pull."]
+                                                    ? ["<25>{#p/alphys}{#g/alphysWelp}* Quem sabe que tipo de travessuras ele vai fazer."]
                                                     : SAVE.data.n.plot < 61
                                                         ? SAVE.data.b.a_state_moneyitemC
                                                             ? ['<25>{#p/alphys}{#g/alphysFR}* ...']
                                                             : ['<25>{#p/alphys}{#g/alphysCutscene3}* ...']
                                                         : SAVE.data.n.plot < 67.1
-                                                            ? ['<25>{#p/alphys}{#g/alphysFR}* It\'s called \"sarcasm.\"']
-                                                            : ['<25>{#p/alphys}{#g/alphysCutscene3}* Mettaton must be waiting so patiently right now.']
+                                                            ? ['<25>{#p/alphys}{#g/alphysFR}* Se chama \"sarcasmo\".']
+                                                            : ['<25>{#p/alphys}{#g/alphysCutscene3}* Mettaton deve estar esperando cheio da paciência agora.']
                 )
             },
-            mettacrafter1a: ['<32>{#p/mettaton}* NO TIME LIKE THE PRESENT!'],
-            mettacrafter1b: ["<32>{#p/mettaton}* I THINK YOU'RE STILL MISSING SOME THINGS."],
-            mettacrafter1c: ["<32>{#p/mettaton}* I THINK YOU'RE STILL MISSING SOMETHING."],
-            mettacrafter2a: ['<32>{#p/mettaton}* NICE WORK!\n* NOW PLACE EVERYTHING ON THE COUNTER TO MY LEFT.'],
-            mettacrafter2b: ['<32>{#p/mettaton}* NICE WORK!\n* NOW PLACE THE REST ON THE COUNTER TO MY LEFT.'],
-            mettacrafter2c: ['<32>{#p/mettaton}* NICE WORK!\n* NOW PLACE THE LAST ITEM ON THE COUNTER TO MY LEFT.'],
+            mettacrafter1a: ['<32>{#p/mettaton}* NÃO A TEMPO IGUAL AO PRESENTE!'],
+            mettacrafter1b: ["<32>{#p/mettaton}* EU ACHO QUE VOCÊ AINDA ESTÁ ESQUECENDO ALGUMAS COISAS."],
+            mettacrafter1c: ["<32>{#p/mettaton}* EU ACHO QUE VOCÊ AINDA ESTÁ ESQUECENDO ALGUMAS COISAS."],
+            mettacrafter2a: ['<32>{#p/mettaton}* BELO TRABALHO!\n* AGORA COLOCA TUDO AQUI NA MESA DO MEU LADO.'],
+            mettacrafter2b: ['<32>{#p/mettaton}* BELO TRABALHO!\n* AGORA COLOCA O RESTANTE NA MESA DO MEU LADO.'],
+            mettacrafter2c: ['<32>{#p/mettaton}* BELO TRABALHO!\n* AGORA COLOQUE O ÚLTIMO ITEM AQUI NA MESA DO MEU LADO.'],
             platformDeny: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : [
-                        "<32>{#p/basic}* You'll need a special pass to access the liftgate network.",
+                        "<32>{#p/basic}* Você vai precisar de um passe especial para acessar essa rede.",
                         ...(world.goatbro
                             ? SAVE.data.n.plot < 49
                                 ? !SAVE.flag.b.asriel_phone && SAVE.flag.n.ga_asrielGate++ < 1
                                     ? [
-                                        "<25>{#p/asriel2}{#f/3}* No doubt a pass will be in Alphys's lab.\n* Let's go there first."
+                                        "<25>{#p/asriel2}{#f/3}* Sem dúvidas que terá um passe no laboratório da Alphys.\n* Vamos lá primeiro."
                                     ]
                                     : [] 
                                 : SAVE.flag.b.asriel_phone
@@ -3579,636 +3579,636 @@ export default {
                                         ? 
                                         SAVE.flag.n.ga_asrielGetThePhone2++ < 1
                                             ? [
-                                                "<25>{#p/asriel2}{#f/6}* Seriously, $(name)?\n* You know where Alphys's spare cell phone is.",
-                                                '<25>{#p/asriel2}{#f/7}* Go back to her desk and grab it.'
+                                                "<25>{#p/asriel2}{#f/6}* Sério, $(name)?\n* Você sabe onde o celular reserva da Alphys está.",
+                                                '<25>{#p/asriel2}{#f/7}* Volta lá no desk dela e pega logo.'
                                             ]
                                             : 
                                             []
                                         : 
                                         SAVE.flag.n.ga_asrielGetThePhone2++ < 1
                                             ? [
-                                                "<25>{#p/asriel2}{#f/3}* Remember, we need that cell phone from Alphys's lab.",
-                                                "<25>{#p/asriel2}{#f/4}* I'm pretty sure it was on her desk..."
+                                                "<25>{#p/asriel2}{#f/3}* Lembre-se, nós precisamos do celular da Alphys no laboratório.",
+                                                "<25>{#p/asriel2}{#f/4}* Eu tenho certeza que está no desk dela..."
                                             ]
                                             : 
-                                            ["<25>{#p/asriel2}{#f/3}* Remember, the cell phone from Alphys's lab."]
+                                            ["<25>{#p/asriel2}{#f/3}* Lembre-se, o celular da Alphys no laboratório."]
                                     : 
                                     [
                                         [
-                                            '<25>{#p/asriel2}{#f/3}* Alphys usually keeps liftgate passes on her cell phones.',
-                                            '<25>* I think I saw one back in the lab.\n* Go get it.'
+                                            '<25>{#p/asriel2}{#f/3}* Alphys normalmente deixa os passes das máquinas de vôo no celular.',
+                                            '<25>* Eu acho que vi um lá no laboratório.\n* Vá pegar.'
                                         ],
                                         [
-                                            "<25>{#p/asriel2}{#f/7}* $(name), we can't make progress without that pass.",
-                                            '<25>{#f/6}* Find it.'
+                                            "<25>{#p/asriel2}{#f/7}* $(name), nós não conseguiremos continuar sem o passe.",
+                                            '<25>{#f/6}* Vamos encontrar.'
                                         ],
                                         ['<25>{#p/asriel2}{#f/13}* Uh... $(name)?'],
                                         ['<25>{#p/asriel2}{#f/13}* ...']
                                     ][Math.min(SAVE.flag.n.ga_asrielGetThePhone++, 3)]
                             : world.bad_lizard > 1 && 49 <= SAVE.data.n.plot
-                                ? ["<32>* Wasn't there a spare cell phone on Alphys's desk?"]
+                                ? ["<32>* Não tinha um celular reserva no desk da Alphys?"]
                                 : SAVE.data.n.bad_lizard < 2 && SAVE.data.n.state_foundry_undyne === 1 && 49 <= SAVE.data.n.plot
-                                    ? ["<32>* ... maybe there'd be one in the lab somewhere?"]
+                                    ? ["<32>* ... talvez tenha um no laboratório em algum lugar?"]
                                     : [])
                     ],
             lift: {
                 elevatorStory1: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Cancelar')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Cancelar')],
+                        ? [choicer.create('* (Onde você gostaria de ir?)', 'Piso R2', 'Cancelar')]
+                        : [choicer.create('* (Onde você gostaria de ir?)', 'Piso R2', 'Piso L2', 'Piso L3', 'Cancelar')],
                 elevatorStory2: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Cancelar')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Cancelar')],
+                        ? [choicer.create('* (Onde você gostaria de ir?)', 'Piso R1', 'Cancelar')]
+                        : [choicer.create('* (Onde você gostaria de ir?)', 'Piso R1', 'Piso L2', 'Piso L3', 'Cancelar')],
                 elevatorStory3: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Cancelar')
+                    choicer.create('* (Onde você gostaria de ir?)', 'Piso L3', 'Piso R1', 'Piso R2', 'Cancelar')
                 ],
                 elevatorStory4: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Cancelar')
+                    choicer.create('* (Onde você gostaria de ir?)', 'Piso L2', 'Piso R1', 'Piso R2', 'Cancelar')
                 ],
                 elevatorStory5: () => [
-                    "<32>{#p/basic}* It's de-activated.",
+                    "<32>{#p/basic}* Está desativado.",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielLiftE++ < 1
-                        ? ["<25>{#p/asriel2}{#f/8}* Guess there's only one way forward now."]
+                        ? ["<25>{#p/asriel2}{#f/8}* Acho que só tem um caminho agora."]
                         : [])
                 ],
                 elevatorStory6: (citadel = false) =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The elevator appears to be powered down.)']
+                        ? ['<32>{#p/human}* (O elevador parece ter parado de funcionar.)']
                         : postSIGMA()
                             ? ["<32>{#p/basic}* Está fora de serviço."]
                             : [
-                                "<32>{#p/basic}* It's de-activated.",
+                                "<32>{#p/basic}* Está desativado.",
                                 ...(world.goatbro && (citadel ? SAVE.flag.n.ga_asrielLiftC++ : SAVE.flag.n.ga_asrielLift++) < 1
                                     ? citadel
-                                        ? ['<25>{#p/asriel2}{#f/8}* No elevator for us.']
-                                        : ["<25>{#p/asriel2}{#f/8}* Guess we'll have to find another way up."]
+                                        ? ['<25>{#p/asriel2}{#f/8}* Sem elevador pra gente.']
+                                        : ["<25>{#p/asriel2}{#f/8}* Acho que vamos ter que encontrar outro caminho."]
                                     : [])
                             ],
                 elevator1: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Cancelar', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Piso L1', 'Cancelar', 'Piso L2', 'Piso R2', 'Piso L3', 'Piso R3')
                 ],
                 elevator2: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Cancelar', 'Floor L3', 'Floor R3')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Piso L1', 'Piso R1', 'Piso L2', 'Cancelar', 'Piso L3', 'Piso R3')
                 ],
                 elevator3: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Cancelar', 'Floor R2', 'Floor L3', 'Floor R3')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Piso L1', 'Piso R1', 'Cancelar', 'Piso R2', 'Piso L3', 'Piso R3')
                 ],
                 elevator4: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Cancelar', 'Floor R3')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Piso L1', 'Piso R1', 'Piso L2', 'Piso R2', 'Cancelar', 'Piso R3')
                 ],
                 elevator5: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Cancelar')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Piso L1', 'Piso R1', 'Piso L2', 'Piso R2', 'Piso L3', 'Cancelar')
                 ],
                 elevator6: () => [
-                    '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Cancelar', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    '<32>{#p/human}* (Onde você gostaria de ir?)',
+                    choicer.create('', 'Cancelar', 'Piso R1', 'Piso L2', 'Piso R2', 'Piso L3', 'Piso R3')
                 ]
             },
             terminal1: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                        ? ['<32>{#p/human}* (O terminal parece ter desligado.)']
                         : SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and read the info logs.)',
-                                '<32>{#p/basic}* \"Activity log, K-615.09\"',
-                                '<32>* \"Automated data analysis confirms several sudden shifts in the positions of stars.\"',
-                                '<32>* \"Conclusion... the logical flow of time within the force field was disrupted.\"',
-                                '<32>* \"Estimated time differential places real date at roughly K-625.09, ten orbits later.\"'
+                                '<32>{#p/human}* (Você ativa o terminal e lê os registros de informações.)',
+                                '<32>{#p/basic}* \"Registro de atividades, K-615.09\"',
+                                '<32>* \"A análise automatizada de dados confirma várias mudanças repentinas nas posições das estrelas.\"',
+                                '<32>* \"Conclusão... a lógica de passagem do tempo dentro do escudo de força foi interrompido.\"',
+                                '<32>* \"O diferencial de tempo estimado coloca a data real em aproximadamente K-625,09, dez órbitas depois.\"'
                             ]
                             : [
-                                '<32>{#p/human}* (You activate the terminal and read the info logs.)',
-                                '<32>{#p/basic}* \"Activity log, K-615.08\"',
-                                '<32>* \"The subject was left unattended for a short time.\"',
+                                '<32>{#p/human}* (Você ativa o terminal e lê os registros de informações.)',
+                                '<32>{#p/basic}* \"Registro de atividades, K-615.08\"',
+                                '<32>* \"O sujeito foi deixado sem vigilância por um curto período de tempo.\"',
                                 '<32>* \"...\"',
-                                '<32>* \"The flower\'s gone.\"',
+                                '<32>* \"A flor fugiu.\"',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielTerminal1++ < 1
-                                    ? ['<25>{#p/asriel2}{#f/9}* I wonder what happened here.']
+                                    ? ['<25>{#p/asriel2}{#f/9}* Me pergunto o que aconteceu.']
                                     : [])
                             ],
             terminal2: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                        ? ['<32>{#p/human}* (O terminal parece ter desligado.)']
                         : SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                '<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\"'
+                                '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                '<32>{#p/basic}* \"O Lab. Real está fechado!\"\n* \"Obrigado a todos por seus fortes trabalhos e dedicação.\"'
                             ]
                             : world.bad_lizard < 2
                                 ? [
-                                    '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                    '<#32>{#p/basic}* \"Kahaha, Glyde was here!\"\n  - Glyde'
+                                    '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                    '<#32>{#p/basic}* \"Kahaha, Glyde esteve aqui!\"\n  - Glyde'
                                 ]
                                 : [
-                                    '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                    '<32>{#p/basic}* \"I\'m sorry, everyone...\"'
+                                    '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                    '<32>{#p/basic}* \"Me desculpe, todo mundo...\"'
                                 ],
             terminal3: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                        ? ['<32>{#p/human}* (O terminal parece ter desligado.)']
                         : SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                '<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\"'
+                                '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                '<32>{#p/basic}* \"O Lab. Real está fechado!\"\n* \"Obrigado a todos por seus fortes trabalhos e dedicação.\"'
                             ]
                             : [
-                                '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                '<32>{#p/basic}* \"Dear employees of the Royal Lab, please place waste in the appropriate receptacles.\"'
+                                '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                '<32>{#p/basic}* \"Queridos trabalhadores do Laboratório Real, por favor depositar restos de pesquisa no local correto.\"'
                             ],
             terminal4: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                        ? ['<32>{#p/human}* (O terminal parece ter desligado.)']
                         : SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and read the message.)',
-                                '<32>{#p/basic}* \"The Royal Lab is closed!\"\n* \"Thank you everyone for your hard work and dedication.\"'
+                                '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
+                                '<32>{#p/basic}* \"O Lab. Real está fechado!\"\n* \"Obrigado a todos por seus fortes trabalhos e dedicação.\"'
                             ]
                             : [
-                                '<32>{#p/human}* (You activate the terminal and read the message.)',
+                                '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
                                 ...(world.bad_lizard > 1 || world.genocide
-                                    ? ['<32>{#p/basic}* \"The Royal Lab is no longer safe. Evacuation procedure in effect.\"']
-                                    : ['<32>{#p/basic}* \"Welcome to the Royal Lab.\"'])
+                                    ? ['<32>{#p/basic}* \"O Lab. Real não é mais seguro. Procedência de evacuação em andamento.\"']
+                                    : ['<32>{#p/basic}* \"Bem-vindo ao Laboratório Real.\"'])
                             ],
             terminal5: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
+                        ? ['<32>{#p/human}* (O terminal parece ter desligado.)']
                         : [
-                            '<32>{#p/human}* (You activate the terminal and read the message.)',
+                            '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
                             ...(world.bad_lizard < 2 && SAVE.data.n.plot < 72
                                 ? [
                                     [
-                                        '<32>{#p/basic}* Tower two, clocking out.',
-                                        "<32>* We'll be at the rec center...",
-                                        "<32>* ... won't we, girl?"
+                                        '<32>{#p/basic}* Torre dois, marcando ponto.',
+                                        "<32>* Nós estaremos no rec center...",
+                                        "<32>* ... não estaremos, garota?"
                                     ],
                                     [
-                                        '<32>{#p/basic}* Tower two, reporting in.',
-                                        "<32>* We've spotted the human heading towards the elevator.",
-                                        '<32>* Sorry, Alphys...',
-                                        "<32>* ... we didn't train to capture humans all this time just to protect them."
+                                        '<32>{#p/basic}* Torre dois, reportando.',
+                                        "<32>* Nós vimos o humano entrando em um elevador.",
+                                        '<32>* Desculpa, Alphys...',
+                                        "<32>* ... nós não treinamos para capturar um humano este tempo todo só para protegê-lo."
                                     ]
                                 ][SAVE.data.n.state_aerialis_royalguards]
-                                : ['<32>{#p/basic}* \"No data available.\"'])
+                                : ['<32>{#p/basic}* \"Sem data acessível.\"'])
                         ],
             recycler: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the recycle bin...)"]
-                    : ["<32>{#p/basic}* It's a recycle bin."],
-            recyclerX: ['<32>{#p/human}* (You discarded the electro- dampening fluid.)'],
+                    ? ["<32>{#p/human}* (Você não consegue ver o que está na lixeira...)"]
+                    : ["<32>{#p/basic}* É uma lixeira."],
+            recyclerX: ['<32>{#p/human}* (Você descartou o fluido de eletro-amortecimento.)'],
             ingredient1: () =>
                 iFancyYourVilliany()
-                    ? ['<32>{#p/human}* (You found the happy powder.)']
-                    : ['<32>{#p/human}* (You found the hexogen.)'],
+                    ? ['<32>{#p/human}* (Você encontrou o pó feliz.)']
+                    : ['<32>{#p/human}* (Você encontrou o hexógeno.)'],
             ingredient2: () =>
                 iFancyYourVilliany()
-                    ? ['<32>{#p/human}* (You found the tingle serum.)']
-                    : ['<32>{#p/human}* (You found the dioctyl adipate.)'],
+                    ? ['<32>{#p/human}* (Você encontrou o soro de formigamento.)']
+                    : ['<32>{#p/human}* (Você encontrou o adipato de dioctilo.)'],
             ingredient3: () =>
                 iFancyYourVilliany()
-                    ? ['<32>{#p/human}* (You found the love oil.)']
-                    : ['<32>{#p/human}* (You found the mineral oil.)'],
+                    ? ['<32>{#p/human}* (Você encontrou o óleo do amor.)']
+                    : ['<32>{#p/humano}* (Você encontrou o óleo mineral.)'],
             boop: () =>
                 [
-                    ['<25>{#p/asriel2}{#f/13}* $(name), uh...', '<25>{#p/asriel2}{#f/18}* What are you doing...?'],
-                    ['<25>{#p/asriel2}{#f/18}* Wh-\n* $(name)!', '<25>{#p/asriel2}{#f/18}* Did you just... poke my snout?'],
-                    ['<25>{#p/asriel2}{#f/18}* Ah-\n* Stop that!'],
-                    ['<25>{#p/asriel2}{#f/18}* Cut it out!'],
+                    ['<25>{#p/asriel2}{#f/13}* $(name), uh...', '<25>{#p/asriel2}{#f/18}* O que você está fazendo...?'],
+                    ['<25>{#p/asriel2}{#f/18}* Qu-\n* $(name)!', '<25>{#p/asriel2}{#f/18}* Você acabou de... cutucar meu focinho?'],
+                    ['<25>{#p/asriel2}{#f/18}* Ah-\n* Para com isso!'],
+                    ['<25>{#p/asriel2}{#f/18}* Sério para!'],
                     ['<25>{#p/asriel2}{#f/13}* ... $(name)?'],
                     ['<25>{#p/asriel2}{#f/15}* $(name).'],
-                    ['<25>{#p/asriel2}{#f/13}* Are you okay, $(name)?'],
-                    ["<25>{#p/asriel2}{#f/16}* ... I'll wait."],
+                    ['<25>{#p/asriel2}{#f/13}* Você está bem, $(name)?'],
+                    ["<25>{#p/asriel2}{#f/16}* ... Eu vou esperar."],
                     ['<25>{#p/asriel2}{#f/15}* ...']
                 ][Math.min(SAVE.flag.n.ga_asrielBoop++, 8)],
             nuzzle: () =>
                 [
-                    ['<25>{#p/asriel1}{#f/13}* Frisk...?', '<25>{#p/asriel1}{#f/17}* Personal space...'],
-                    ['<25>{#p/asriel1}{#f/18}* Wh-\n* Frisk!', '<25>{#p/asriel1}{#f/18}* Did you just... nuzzle my snout?'],
-                    ['<25>{#p/asriel1}{#f/18}* Ah-\n* That tickles, Frisk!'],
+                    ['<25>{#p/asriel1}{#f/13}* Frisk...?', '<25>{#p/asriel1}{#f/17}* Espaço pessoal...'],
+                    ['<25>{#p/asriel1}{#f/18}* Qu-\n* Frisk!', '<25>{#p/asriel1}{#f/18}* Você acabou de... acariciar meu focinho?'],
+                    ['<25>{#p/asriel1}{#f/18}* Ah-\n* Isso coça, Frisk!'],
                     ['<25>{#p/asriel1}{#f/18}* Friiisk...!'],
-                    ['<25>{#p/asriel1}{#f/17}* ... Frisk...\n* ... have mercy...'],
-                    ["<25>{#p/asriel1}{#f/20}* ... you're too sweet, Frisk."],
-                    ['<25>{#p/asriel1}{#f/13}* Uh, Frisk, you can stop that now.'],
-                    ["<25>{#p/asriel1}{#f/16}* I guess there's nothing I can do about this."],
+                    ['<25>{#p/asriel1}{#f/17}* ... Frisk...\n* ... tenha piedade...'],
+                    ["<25>{#p/asriel1}{#f/20}* ... você é muito fofo, Frisk."],
+                    ['<25>{#p/asriel1}{#f/13}* Uh, Frisk, você pode parar agora.'],
+                    ["<25>{#p/asriel1}{#f/16}* Acho que não a nada que eu possa fazer."],
                     ['<25>{#p/asriel1}{#f/15}* ...']
                 ][Math.min(SAVE.data.n.svr_nuz++, 8)]
         },
         trivia: {
-            a_bbox: ["<32>{#p/basic}* A bastion box.\n* There's a human inside..."],
+            a_bbox: ["<32>{#p/basic}* Uma caixa bastião.\n* Tem um humano dentro..."],
             a_wishflower: pager.create(
                 0,
                 (power = false) =>
                     SAVE.data.b.svr
                         ? [
-                            "<32>{#p/human}* (You take in the wish flower's aura.)",
+                            "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                             power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                         ]
-                        : ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
+                        : ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
                 pager.create(
                     2,
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
-                                : ['<32>{#p/basic}* Just any old wish flower.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                : ['<32>{#p/basic}* Só uma flor do desejo qualquer.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
                                 : [
-                                    '<32>{#p/basic}* This wish flower wishes to remain a wish flower.',
+                                    '<32>{#p/basic}* Esta flor do desejo deseja permanecer uma flor do desejo.',
                                     power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                                 ],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
-                                : ['<32>{#p/basic}* A wishy-washy wish flower.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                : ['<32>{#p/basic}* Uma flor do desejo insossa.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
                                 : [
-                                    "<33>{#p/basic}* Wish upon a flower.\n* Wait, that doesn't sound right.",
+                                    "<33>{#p/basic}* Desejo de uma flor.\n* Espera, isso não parece certo.",
                                     power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                                 ],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
                                 : [
-                                    '<32>{#p/basic}* How many wishes can a wish flower flower?',
+                                    '<32>{#p/basic}* Quantos desejos uma flor do desejo pode desejar?',
                                     power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                                 ],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
-                                : ['<32>{#p/basic}* A flower... made of wishes.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                : ['<32>{#p/basic}* Uma flor... faz desejos.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'],
                     (power = false) =>
                         SAVE.data.b.svr
                             ? [
-                                "<32>{#p/human}* (You take in the wish flower's aura.)",
+                                "<32>{#p/human}* (Você cheira a aura da flor do desejo.)",
                                 power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}'
                             ]
                             : world.darker
-                                ? ["<32>{#p/basic}* It's a wish flower.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
-                                : ['<32>{#p/basic}* Yet another wish flower.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                ? ["<32>{#p/basic}* É uma flor do desejo.", power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
+                                : ['<32>{#p/basic}* Mais uma flor do desejo.', power ? '{*}{#d.sysx}{%}' : '{*}{#d.sys}{%}']
                 )
             ),
             signposter1: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You glance at the poster.)',
+                        '<32>{#p/human}* (Você olha para o pôster.)',
                         ...[
                             [
-                                "<25>{#p/asriel1}{#f/7}* This really was a new low for Mettaton's ad department.",
-                                '<26>{#f/15}* I mean, you could have at least given credit...',
-                                '<26>{#f/20}* For the most obvious sci-fi anime inspiration of all time.'
+                                "<25>{#p/asriel1}{#f/7}* Esta foi realmente uma nova baixa para o departamento de publicidade do Mettaton.",
+                                '<26>{#f/15}* Quer dizer, você poderia ao menos dar o crédito...',
+                                '<26>{#f/20}* Para a mais óbvia inspiração de anime sci-fi de todos os tempos.'
                             ],
                             [
-                                "<25>{#p/asriel1}{#f/13}* It's based on a scene from season two, episode seventeen.",
-                                '<25>{#f/13}* Called \"Mew Mew\'s all- in-one kitchen.\"',
-                                "<25>{#f/15}* ... let's just say the species she encountered that day...",
-                                '<25>{#f/15}* ... had an unhealthy obsession with kitchen appliances.'
+                                "<25>{#p/asriel1}{#f/13}* É baseado na cena da segunda temporada, episódio dezessete.",
+                                '<25>{#f/13}* Chamado \"Mew Mew tudo em uma cozinha.\"',
+                                "<25>{#f/15}* ... digamos apenas a espécie que ela encontrou naquele dia...",
+                                '<25>{#f/15}* ... tinha uma obsessão nada saudável com utensílios de cozinha.'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/10}* What?\n* I lived a hundred years worth of lifetimes.',
+                                '<25>{#p/asriel1}{#f/10}* Que?\n* Eu vivi centenas de anos.',
                                 8 <= SAVE.flag.n.ga_asrielMonologue
-                                    ? "<25>{#f/16}* We've been over this before, Frisk.\n* Come on."
-                                    : '<25>{#f/10}* You think I just sat around doing nothing when I got bored?'
+                                    ? "<25>{#f/16}* Nós já fizemos isso antes, Frisk.\n* Vamos lá."
+                                    : '<25>{#f/10}* Você acha que eu só fico fazendo nada quando estou entediado?'
                             ],
                             [
                                 8 <= SAVE.flag.n.ga_asrielMonologue
-                                    ? '<25>{#p/asriel1}{#f/13}* You should know me by now.'
-                                    : '<25>{#p/asriel1}{#f/16}* ... you WOULD think about it like that...'
+                                    ? '<25>{#p/asriel1}{#f/13}* Você já deveria me conhecer a essa altura.'
+                                    : '<25>{#p/asriel1}{#f/16}* ... você pensar nisso como...'
                             ]
                         ][Math.min(asrielinter.signposter1++, 3)]
                     ]
                     : world.darker
-                        ? ['<33>{#p/basic}* Just a pointless advertisement.']
+                        ? ['<33>{#p/basic}* Apenas um anúncio inútil.']
                         : [
-                            "<32>{#p/basic}* It's an advertisement for a fancy MTT-brand stove...",
+                            "<32>{#p/basic}* É um anúncio para uma marca de fogão chique da marca MTT...",
                             SAVE.data.n.plot === 72
-                                ? '<32>{#p/basic}* A great appliance, for life on any homeworld.'
-                                : '<32>{#p/basic}* How delightfully over the top.'
+                                ? '<32>{#p/basic}* Um grande utensílio, para a vida em qualquer mundo.'
+                                : '<32>{#p/basic}* Que deliciosamente exagerado.'
                         ],
             signposter2: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You glance at the poster.)',
+                        '<32>{#p/human}* (Você olha para o pôster.)',
                         ...[
                             [
-                                "<25>{#p/asriel1}{#f/17}* Hey look, it's you.",
-                                '<25>{#f/13}* And Mettaton.',
-                                '<25>{#f/17}* Kind of cute, honestly.'
+                                "<25>{#p/asriel1}{#f/17}* Ei olha, é você.",
+                                '<25>{#f/13}* E o Mettaton.',
+                                '<25>{#f/17}* Meio que fofo, honestamente.'
                             ],
                             SAVE.flag.b.asriel_earpull
                                 ? [
-                                    "<25>{#p/asriel1}{#f/13}* I'll admit, I never understood why you...",
-                                    '<25>{#f/15}* Uh, did what you did when we went through here.',
-                                    '<25>{#f/17}* I guess that was your way of saying...',
-                                    '<25>{#f/13}* ... you wanted to be friends?'
+                                    "<25>{#p/asriel1}{#f/13}* Eu vou admitir, eu nunca entendi o porque...",
+                                    '<25>{#f/15}* Uh, fez o que você fez quando nós passamos aqui.',
+                                    '<25>{#f/17}* Eu acho que foi sua forma de dizer...',
+                                    '<25>{#f/13}* ... que você queria ser amigo?'
                                 ]
                                 : [
-                                    "<25>{#p/asriel1}{#f/17}* I'll admit, I got a kick out of watching you do this show.",
-                                    '<25>{#f/15}* The way you just stood completely still...\n* Doing nothing...',
-                                    "<25>{#f/13}* It was very weird.\n* But you're very weird in general.",
-                                    '<25>{#f/13}* Like me, I guess.'
+                                    "<25>{#p/asriel1}{#f/17}* Eu admito, eu me diverti muito vendo você fazer esse show.",
+                                    '<25>{#f/15}* O jeito que você só ficou aí parado...\n* Fazendo nada...',
+                                    "<25>{#f/13}* Foi bem estranho.\n* Mas você é bem estranho de modo geral.",
+                                    '<25>{#f/13}* Tipo eu, eu acho.'
                                 ],
                             SAVE.flag.b.asriel_earpull
                                 ? [
-                                    '<25>{#p/asriel1}{#f/17}* ... thanks, Frisk.',
-                                    '<25>{#f/23}* For trying so hard to be my friend.'
+                                    '<25>{#p/asriel1}{#f/17}* ... valeu, Frisk.',
+                                    '<25>{#f/23}* Por tentar tanto ser meu amigo.'
                                 ]
                                 : [
-                                    "<25>{#p/asriel1}{#f/2}* From now on, we'll have to call ourselves...",
-                                    '<25>{#f/1}* \"The Proud Weirdo Collective.\"',
-                                    '<25>{#f/15}* Actually, that sounded better in my head.\n* Never mind.'
+                                    "<25>{#p/asriel1}{#f/2}* De agora em diante, nós deveremos nos chamar...",
+                                    '<25>{#f/1}* \"O Coletivo de Esquisitos Orgulhosos.\"',
+                                    '<25>{#f/15}* Na verdade, isso soou melhor na minha mente.\n* Esquece.'
                                 ],
-                            ['<25>{#p/asriel1}{#f/20}* You really like this poster, huh?']
+                            ['<25>{#p/asriel1}{#f/20}* Você realmente gosta desse poster, né?']
                         ][Math.min(asrielinter.signposter2++, 3)]
                     ]
                     : world.darker
-                        ? ['<33>{#p/basic}* Just a pointless advertisement.']
+                        ? ['<33>{#p/basic}* Apenas um anúncio inútil.']
                         : SAVE.data.n.plot < 65
                             ? [
-                                "<32>{#p/basic}* It's an advertisement for an upcoming show...",
+                                "<32>{#p/basic}* É um anúncio para um show que vai acontecer...",
                                 iFancyYourVilliany()
-                                    ? "<32>{#p/basic}* Naturally, you're the villain."
-                                    : "<32>{#p/basic}* Naturally, you're the star."
+                                    ? "<32>{#p/basic}* Naturalmente, você é o vilão."
+                                    : "<32>{#p/basic}* Naturalmente, você é a estrela."
                             ]
                             : [
-                                "<32>{#p/basic}* It's an advertisement for an already-aired show...",
+                                "<32>{#p/basic}* É um anúncio de um programa já exibido...",
                                 SAVE.data.n.plot === 72
-                                    ? '<32>{#p/basic}* We can only hope a new homeworld brings new entertainment.'
-                                    : '<32>{#p/basic}* Naturally, you were great.'
+                                    ? '<32>{#p/basic}* Nós apenas podemos esperar que o novo mundo traga novos entretenimentos.'
+                                    : '<32>{#p/basic}* Naturalmente, você foi ótimo.'
                             ],
             powerline: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You touch the power node.)\n* (It feels tingly.)']
+                    ? ['<32>{#p/human}* (Você toca no nó de energia.)\n* (Parece formigamento.)']
                     : SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}* It's a power node... that's mostly been powered down."]
-                        : ["<32>{#p/basic}* It's a power node."],
+                        ? ["<32>{#p/basic}* É um nó de energia... que foi parcialmente desligado."]
+                        : ["<32>{#p/basic}* É um nó de energia."],
             a_virt: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (O terminal está acima do seu nível de acesso.)']
                     : SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}* It's a virtualasium.\n* Maybe one day you'll have the access level required."]
-                        : ["<32>{#p/basic}* It's a virtualasium.\n* You don't have the access level required to use it."],
+                        ? ["<32>{#p/basic}* É um virtualismo.\n* Talvez algum dia você tenha o nível de acesso requerido."]
+                        : ["<32>{#p/basic}* É um virtualismo.\n* Você não tem o nível de acesso requerido para usar."],
             metposter: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You look closely at the promotional poster.)']
+                    ? ['<32>{#p/human}* (Você olha com mais proximidade para um pôster promocional.)']
                     : SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}* It's a promotional poster for Mettaton's initial premiere.",
-                            '<32>* A signed note has been scrawled out and replaced with a correction...',
-                            '<32>* \"I\'m sorry I\'ve been such a burden to you.\"'
+                            "<32>{#p/basic}* É um pôster promocional para a estreia inicial de Mettaton.",
+                            '<32>* Uma nota assinada foi rabiscada e substituída por uma correção...',
+                            '<32>* \"Sinto muito por ter sido um fardo para você.\"'
                         ]
                         : [
-                            "<32>{#p/basic}* It's a promotional poster for Mettaton's initial premiere.",
-                            "<32>* Though difficult to read, there's a signed note from Mettaton...",
-                            '<32>* \"Thank you for making my dreams come true.\"'
+                            "<32>{#p/basic}* É um pôster promocional para a estreia inicial de Mettaton.",
+                            "<32>* Mesmo com dificuldade para ler, tem uma nota assinada por Mettaton aqui...",
+                            '<32>* \"Obrigado por tornar meus sonhos realidade.\"'
                         ],
             bedbox: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You shrug at the sight of such an ordinary box.)']
+                    ? ['<32>{#p/human}* (Você encolhe os ombros ao ver uma caixa tão comum.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* An unremarkable box.']
+                        ? ['<32>{#p/basic}* Uma caixa muito normal.']
                         : SAVE.data.n.plot === 72
                             ? [
-                                "<32>{#p/basic}* To be honest, this isn't actually a non-euclidian housing unit.",
-                                "<32>* It's a non-euclidian box-life mansion deluxe!"
+                                "<32>{#p/basic}* Para ser honesto, esta não é realmente uma unidade habitacional não euclidiana.",
+                                "<32>* É uma caixa mansão de luxo não euclidiana!"
                             ]
                             : [
-                                '<32>{#p/basic}* This seemingly ordinary box is a state-of-the-art non- euclidian housing unit.',
-                                "<33>* ... it's smaller on the outside."
+                                '<32>{#p/basic}* Esta caixa aparentemente comum é uma unidade habitacional não euclidiana de última geração.',
+                                "<33>* ... é menor do lado de fora."
                             ],
             a_lab_books1: pager.create(
                 1,
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
+                        ? ['<32>{#p/human}* (Os livros nessa prateleira consistem em vários conteúdos não relacionados.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* \"A monster\'s body is a reflection of its SOUL.\"',
-                            '<32>* \"Normally, parents decide what kind of monsters their children will be...\"',
-                            '<32>* \"Imprinting their will into the very essence of the child.\"',
-                            '<32>* \"But what would happen if another being, like a human, absorbed a SOUL instead?\"',
-                            '<32>* \"Legends speak of humans who absorbed the SOULs of dead boss monsters in the war...\"',
-                            '<32>* \"In one particular account, a human was said to have taken the form of a plane.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>{#p/basic}* \"O corpo de um monstro é o reflexo de sua ALMA.\"',
+                            '<32>* \"Normalmente, os pais decidem que tipo de monstro sua criança será...\"',
+                            '<32>* \"Imprimindo seus valores na essência da criança.\"',
+                            '<32>* \"Mas o que aconteceria se outro ser, como um humano, absorvesse a ALMA ao invés disso?\"',
+                            '<32>* \"As lendas falam que os humanos que absorveram as ALMAS de boss monstros mortos na guerra...\"',
+                            '<32>* \"Em um relato particular, um humano foi dito ter assumido a forma de um avião.\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
+                        ? ['<32>{#p/human}* (Os livros nessa prateleira consistem em vários conteúdos não relacionados.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* \"So you wanna design a robot, huh? Well, Fabulous Faraday\'s got you covered!\"',
-                            '<32>* \"You see, here on Earth, we like to do things with a dash of flavor.\"',
-                            '<32>* \"You can\'t just build a metal box and call it a day, you catch my drift?\"',
-                            '<32>* \"You\'ve got to give it style, features dazzling and dynamic, like wheels and dials!\"',
-                            '<32>* \"And, for maximum razz, do something creative with its mobility!\"',
-                            '<32>* \"Like, I dunno, a unicycle?\"\n* \"Yeah, something like that.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>{#p/basic}* \"Então você quer fazer um design de robô, huh? Bem, Fabulous Faraday tem tudo o que você precisa!\"',
+                            '<32>* \"Veja, aqui na Terra, gostamos de fazer as coisas com uma pitada de sabor.\"',
+                            '<32>* \"Você não pode só construir uma caixa de metal e chamar de revolução, entendeu o que eu disse?\"',
+                            '<32>* \"Você tem que dar estilo, características deslumbrantes e dinâmicas, como rodas e mostradores!\"',
+                            '<32>* \"E, para o máximo de aproveitamento, adicionar algo criativo a sua mobilidade!\"',
+                            '<32>* \"Tipo, eu não sei, um uniciclo?\"\n* \"É, algo tipo isso.\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
+                        ? ['<32>{#p/human}* (Os livros nessa prateleira consistem em vários conteúdos não relacionados.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>* \"Unfortunately, monsters do not deal with illness very well.\"',
-                            '<32>* \"When a monsters\' death is imminent, they lie down, immobile.\"',
-                            '<32>* \"We call this state \'Fallen Down.\'\"',
-                            '<32>* \"During the war, this confusing situation was all too familiar...\"',
-                            '<32>* \"Death, in those times, was sadly unavoidable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>* \"Infelizmente, monstros não lidam com doenças muito bem.\"',
+                            '<32>* \"Quando a morte de um monstro é eminente, ele apenas se deita no chão, imóvel.\"',
+                            '<32>* \"Chamamos esse estado de \'Caído.\'\"',
+                            '<32>* \"Durante a guerra, essa situação era toda muito familiar...\"',
+                            '<32>* \"Morte, em tempos daquele, eram infelizmente inevitáveis.\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ]
             ),
             paperbook: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The book details a somewhat unrealistic story involving an intrepid adventurer.)']
+                    ? ['<32>{#p/human}* (A detalhes no livro sobre alguma história irrealista de um aventureiro intrépido.)']
                     : [
-                        '<32>{#p/human}* (You pick up the book...)',
-                        '<32>{#p/basic}* \"MMSA: Dreams (Fanmade Story)\"',
-                        '<32>* \"... and that\'s when Mew Mew finally saw it with her own two eyes.\"',
-                        '<32>* \"It was quite a sight, standing alone in deep space, seemingly abandoned...\"',
-                        '<32>* \"... but Mew Mew knew better!\"\n* \"And it wasn\'t long before she learned of our plight.\"',
-                        '<32>* \"With a single blast of her infamous LAZER DELUXE, she punched through with ease!\"',
-                        '<32>* \"And so it was that Mew Mew became monsterkind\'s savior.\"',
-                        '<32>{#p/human}* (You put the book back on the table.)'
+                        '<32>{#p/human}* (Você pega o livro...)',
+                        '<32>{#p/basic}* \"MMSA: Sonhos (História criada por fã)\"',
+                        '<32>* \"... e isso foi quando Mew Mew finalmente viu com seus dois únicos olhos.\"',
+                        '<32>* \"Era meio triste, parado sozinho no espaço, basicamente abandonado...\"',
+                        '<32>* \"... mas Mew Mew sabia bem!\"\n* \"E não demorou muito para que ela soubesse de nossa situação.\"',
+                        '<32>* \"Com apenas um único tiro do seu poderoso LAZER DELUXE, ela esmurra com facilidade!\"',
+                        '<32>* \"E assim Mew Mew se torna a salvadora dos monstros.\"',
+                        '<32>{#p/human}* (Você coloca o livro de volta na mesa.)'
                     ],
             a_lab_books2: pager.create(
                 1,
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
+                        ? ['<32>{#p/human}* (Os livros nesta estante consistem em uma série de notas.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* \"Professor\'s notes, page 76.\"',
-                            '<32>* \"The CORE is now online, and outpost construction plans are already underway.\"',
-                            '<32>* \"I\'m not sure how to feel about this development...\"',
-                            '<32>* \"It will be nice to make our lives more comfortable out here, however...\"',
-                            '<32>* \"By settling in like this, are we admitting that we can\'t escape without human SOULs?\"',
-                            '<32>* \"Since I was appointed as the royal scientist, I\'ve set my mind on breaking us free.\"',
-                            '<32>* \"Now, I fear the other monsters have acquiesced to waiting...\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>{#p/basic}* \"Notas do professor, página 76.\"',
+                            '<32>* \"O CORE está ativo agora, e as construções planejadas para o Outpost estão a caminho.\"',
+                            '<32>* \"Eu não sei como me sentir em relação a esse desenvolvimento...\"',
+                            '<32>* \"Será bom fazer nossas vidas mais confortáveis por aqui, entretanto...\"',
+                            '<32>* \"Após definir dessa forma, estamos admitindo que não podemos escapar sem a ajuda das ALMAS humanas?\"',
+                            '<32>* \"Desde que fui apontado como cientista real, eu trabalho constantemente com objetivo de nos trazer liberdade.\"',
+                            '<32>* \"Agora, temo que os outros monstros tenham concordado em esperar...\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
+                        ? ['<32>{#p/human}* (Os livros nesta estante consistem em uma série de notas.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* \"Professor\'s notes, page 195.\"',
-                            '<32>* \"It\'s a dark day for monsterkind, the royal family is in pieces.\"',
-                            '<32>* \"Queen Toriel has abandoned the throne over a few rushed words from Asgore.\"',
-                            '<32>* \"But those words may have long-lasting implications for us...\"',
-                            '<32>* \"Now, everyone expects him to take the human SOULs by force.\"',
-                            '<32>* \"This is a disaster.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>{#p/basic}* \"Notas do professor, página 195.\"',
+                            '<32>* \"É um dia de desgraça para a sociedade monstro, a família real está em pedaços.\"',
+                            '<32>* \"A rainha Toriel abandonou seu trono após algumas palavras de ódio do rei Asgore.\"',
+                            '<32>* \"Mas essas palavras talvez tenham longa aplicação para nós...\"',
+                            '<32>* \"Agora, todos esperam que ele tome as ALMAS humanas à força.\"',
+                            '<32>* \"É um desastre.\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
+                        ? ['<32>{#p/human}* (Os livros nesta estante consistem em uma série de notas.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* \"Professor\'s notes, page 310.\"',
-                            '<32>* \"Well, he\'s agreed to the plan... of course, I was almost certain he would.\"',
-                            '<32>* \"The timing is fortunate.\"\n* \"The first human since $(name) arrived on the outpost today.\"',
-                            "<32>* \"We don't know if it'll be able to contain them yet, but we'll find out soon enough...\"",
-                            '<32>* \"Fingerbones crossed.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<32>{#p/basic}* \"Notas do professor, página 310.\"',
+                            '<32>* \"Bem, ele concordou com o plano... é claro, eu já imaginei que ele o faria.\"',
+                            '<32>* \"O momento é de sorte.\"\n* \"O primeiro humano desde $(name) chegou ao Outpost hoje.\"',
+                            "<32>* \"Nós não sabemos se aquilo será capaz de conte-los ainda, mas vamos descobrir o mais cedo possível...\"",
+                            '<32>* \"Ossos dos dedos cruzados.\"',
+                            '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ]
             ),
             cream_machine: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You wonder what kind of ice cream this ice cream machine produces.)']
+                    ? ['<32>{#p/human}* (Você se questiona que tipo de sorvete essa máquina de sorvete faz.)']
                     : SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}* This overly complicated ice cream machine doesn't look like it'll get any more use."]
-                        : ["<32>{#p/basic}* It's an overly complicated ice cream machine."],
+                        ? ["<32>{#p/basic}* Essa máquina de sorvete super complicada não terá mais nenhum uso."]
+                        : ["<32>{#p/basic}* É uma máquina de sorvete muito complicada."],
             cream_bucket: () =>
                 SAVE.data.b.svr
                     ? [
-                        "<32>{#p/human}* (You dip your hands into the bucket of ice cream.)\n* (It's rather cold.)",
+                        "<32>{#p/human}* (Você coloca suas mãos no balde de sorvete.)\n* (Está bem gelado.)",
                         ...[
                             [
-                                "<25>{#p/asriel1}{#f/15}* Uh, just don't get any of that stuff on me.",
-                                "<25>{#p/asriel1}{#f/15}* I'd have to shake myself like a dog to get it off."
+                                "<25>{#p/asriel1}{#f/15}* Uh, só não passa essa coisa em mim.",
+                                "<25>{#p/asriel1}{#f/15}* Eu teria que me balançar igual cachorro pra tirar isso fora."
                             ],
-                            ['<25>{#p/asriel1}{#f/8}* ...', "<26>{#p/asriel1}{#f/31}* Don't you get any ideas."],
+                            ['<25>{#p/asriel1}{#f/8}* ...', "<26>{#p/asriel1}{#f/31}* Você não tem nenhuma ideia."],
                             ['<25>{#p/asriel1}{#f/31}* ...']
                         ][Math.min(asrielinter.cream_bucket++, 2)]
                     ]
-                    : ['<32>{#p/basic}* A bucket of ice cream.'],
+                    : ['<32>{#p/basic}* Um balde de sorvete.'],
             mewposter: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (Your eyes follow the poster as it's animated subject bobs up and down.)"]
+                    ? ["<32>{#p/human}* (Seu olho segue o poster animado enquanto o objeto sobe e desce.)"]
                     : SAVE.data.n.state_aerialis_basekill > 29
-                        ? ['<32>{#p/basic}* A large poster for a niche sci-fi anime franchise.']
+                        ? ['<32>{#p/basic}* Um grande poster de uma franquia de anime sci-fi.']
                         : SAVE.data.n.state_aerialis_basekill > 14
-                            ? ['<32>{#p/basic}* A large poster for a sci-fi anime franchise.']
-                            : ['<32>{#p/basic}* A large poster for a popular sci-fi anime franchise.'],
+                            ? ['<32>{#p/basic}* Um grande pôster para uma franquia de anime sci-fi.']
+                            : ['<32>{#p/basic}* Um grande pôster para uma popular franquia de anime sci-fi.'],
             dogfood: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You stare anxiously at the bag of dog food.)',
+                        '<32>{#p/human}* (Você encara com ansiedade o saco de comida para cachorro.)',
                         ...[
-                            ["<25>{#p/asriel1}{#f/24}* Frisk, I know what you're thinking.\n* It's not worth it."],
-                            ["<25>{#p/asriel1}{#f/24}* It's going to taste awful, Frisk.\n* Just don't."],
+                            ["<25>{#p/asriel1}{#f/24}* Frisk, eu sei o que você está pensando. \n* Não vale a pena."],
+                            ["<25>{#p/asriel1}{#f/24}* Vai ter um gosto nojento, Frisk.\n* Só não."],
                             [
-                                '<25>{#p/asriel1}{#f/15}* Listen.',
-                                "<25>* I'm telling you this because I'm your... friend.",
-                                "<25>* ... that felt weird to say, but I guess I'm getting used to it."
+                                '<25>{#p/asriel1}{#f/15}* Escuta.',
+                                "<25>* Eu estou te dizendo isso pois eu sou seu... amigo.",
+                                "<25>* ... isso foi difícil de dizer, mas eu acho que estou aprendendo."
                             ],
-                            ['<25>{#p/asriel1}{#f/16}* You must not have anything better to do.']
+                            ['<25>{#p/asriel1}{#f/16}* Você não deve ter nada melhor pra fazer.']
                         ][Math.min(asrielinter.dogfood++, 3)]
                     ]
                     : SAVE.data.b.oops
-                        ? ["<32>{#p/basic}* It's a half-empty bag of dog food."]
-                        : ["<32>{#p/basic}* It's a bag of dog food.\n* It's half-full."],
+                        ? ["<32>{#p/basic}* É um saco meio vazio de comida para cachorro."]
+                        : ["<32>{#p/basic}* É um saco de comida pra cachorro.\n* Está meia vazia."],
             virtsign: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The sign depicts what appears to be a lizard in a virtual environment.)']
-                    : ["<32>{#p/basic}* It's a sign depicting someone in a virtualasium."],
+                    ? ['<32>{#p/human}* (O sinal mostra o que parece ser um lagarto em um ambiente virtual.)']
+                    : ["<32>{#p/basic}* É um sinal que representa alguém em um virtualismo."],
             starlingtable: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
-                    : ['<32>{#p/basic}* Starling flowers.'],
+                    ? ['<32>{#p/human}* (Você para e olha as flores.)']
+                    : ['<32>{#p/basic}* Flores Estreladas.'],
             starling: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
+                    ? ['<32>{#p/human}* (Você para e olha as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* Starling flowers.']
-                        : ['<32>{#p/basic}* A patch of Starling flowers.'],
+                        ? ['<32>{#p/basic}* Flores Estreladas.']
+                        : ['<32>{#p/basic}* Um buquê de Flores Estreladas.'],
             starling2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
+                    ? ['<32>{#p/human}* (Você para e olha as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* Starling flowers.']
-                        : ['<32>{#p/basic}* A little trio of Starling flowers.'],
+                        ? ['<32>{#p/basic}* Flores Estreladas.']
+                        : ['<32>{#p/basic}* Um pequeno trio de Flores Estreladas.'],
             starling3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
+                    ? ['<32>{#p/human}* (Você para e olha as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* Starling flowers.']
-                        : ['<32>{#p/basic}* A densely-packed group of Starling flowers.'],
+                        ? ['<32>{#p/basic}* Flores Estreladas.']
+                        : ['<32>{#p/basic}* Um grupo densamente compactado de Flores Estreladas.'],
             starling5: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
+                    ? ['<32>{#p/human}* (Você para e olha as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* Starling flowers.']
-                        : ['<32>{#p/basic}* A Starling flower couple.\n* Cute...?'],
+                        ? ['<32>{#p/basic}* Flores Estreladas.']
+                        : ['<32>{#p/basic}* Um casal de Flores Estreladas.\n* Fofo...?'],
             dttubes: () =>
                 SAVE.data.b.svr
-                    ? [["<25>{#p/asriel1}{#f/3}* This stuff?\n* Ha... don't remind me."], ['<25>{#p/asriel1}{#f/4}* ...']][
+                    ? [["<25>{#p/asriel1}{#f/3}* Essa coisa?\n* Ha... não me lembra."], ['<25>{#p/asriel1}{#f/4}* ...']][
                     Math.min(asrielinter.dttubes++, 1)
                     ]
                     : [
-                        '<32>{#p/basic}* A set of test tubes with an unknown substance.',
+                        '<32>{#p/basic}* Um bocado de tubos de teste com uma substância desconhecida.',
                         ...(world.genocide
                             ? world.goatbro &&
                                 (SAVE.flag.n.genocide_milestone < 5
@@ -4218,56 +4218,56 @@ export default {
                                         : SAVE.flag.n.ga_asrielLab5++) < 1
                                 ? SAVE.flag.n.genocide_milestone < 5
                                     ? [
-                                        '<25>{#p/asriel2}{#f/10}* Funny, the syringe she used on me is missing...',
-                                        '<26>{#f/4}* Maybe she threw it away.'
+                                        '<25>{#p/asriel2}{#f/10}* Engraçado, a seringa que ela usava em mim sumiu...',
+                                        '<26>{#f/4}* Talvez ela jogou fora.'
                                     ]
                                     : SAVE.flag.n.genocide_milestone < 6
                                         ? [
-                                            '<25>{#p/asriel2}{#f/15}* The missing syringe...',
-                                            '<25>{#f/10}* Is this why she was so strong against us?'
+                                            '<25>{#p/asriel2}{#f/15}* A seringa faltando...',
+                                            '<25>{#f/10}* É por isso que ela estava tão forte contra a gente?'
                                         ]
                                         : [
-                                            '<25>{#p/asriel2}{#f/2}* She really thought this stuff would save her...',
-                                            '<25>{#f/1}* What an IDIOT.'
+                                            '<25>{#p/asriel2}{#f/2}* Ela realmente pensou que isso iria salva-la...',
+                                            '<25>{#f/1}* Que IDIOTA.'
                                         ]
                                 : []
-                            : ['<32>{#p/basic}* There is also a used syringe with trace amounts of the same substance.'])
+                            : ['<32>{#p/basic}* Tenho outra seringa usada com bastante quantidade da mesma substância.'])
                     ],
             papertable: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The plans on the table describe some form of energy conversion process.)']
-                    : ["<32>{#p/basic}* It's a work table with some nondescript plans on it."],
+                    ? ['<32>{#p/human}* (Os planos na mesa descrevem algum processo de conversão de energia.)']
+                    : ["<32>{#p/basic}* É uma mesa de trabalho com planos não descritos nela."],
             vender1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)']
-                    : ['<32>{#p/basic}* A vacuum-sealed storage unit.\n* Inside are vials of various unknown substances.'],
+                    ? ['<32>{#p/human}* (Você observa o conteúdo misterioso por trás do vidro da unidade de armazenamento.)']
+                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo.\n* Dentro estão frascos de várias substâncias desconhecidas.'],
             vender2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You observe the mysterious contents behind the glass of the storage unit.)']
-                    : ['<32>{#p/basic}* A vacuum-sealed storage unit.\n* Inside are vials of various unknown substances.'],
+                    ? ['<32>{#p/human}* (Você observa o conteúdo misterioso por trás do vidro da unidade de armazenamento.)']
+                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo.\n* Dentro estão frascos de várias substâncias desconhecidas.'],
             toolrack: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/27}* As far as I know, those tools were never used at all.',
-                            "<25>* In fact, I think they're just for decoration."
+                            '<25>{#p/asriel1}{#f/27}* Pelo que eu sei, essas ferramentas nunca foram usadas de verdade.',
+                            "<25>* De fato, eu acho que elas são apenas decoração."
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/13}* Tools like these aren't necessary when you can just use magic.",
-                            '<25>{#f/17}* Like, that mouse who works at the CORE?\n* Charles, I think?',
-                            '<25>{#f/15}* That little mouse has the power of telekinesis.',
-                            "<25>{#f/16}* Don't ask me how I know that."
+                            "<25>{#p/asriel1}{#f/13}* Ferramentas assim são inúteis quando você pode usar magia.",
+                            '<25>{#f/17}* Tipo, aquele camundongo que trabalha no CORE? \n* Charles, eu acho?',
+                            '<25>{#f/15}* Aquele pequeno camundongo tem o poder da telecinese.',
+                            "<25>{#f/16}* Não me pergunte como eu sei disso."
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* Uh, let me put it this way...',
-                            '<25>{#f/16}* When I screwed around in the past, I learned to avoid that one.',
-                            '<25>{#f/15}* That kind of power makes it difficult to... do anything.'
+                            '<25>{#p/asriel1}{#f/13}* Uh, vamos deixar isso de lado...',
+                            '<25>{#f/16}* Quando eu ferrei tudo no passado, eu aprendi a evitar este aí.',
+                            '<25>{#f/15}* Que tipo de poder torna difícil fazer... qualquer coisa.'
                         ],
-                        ["<25>{#p/asriel1}{#f/16}* ... let's just leave it at that."]
+                        ["<25>{#p/asriel1}{#f/16}* ... vamos deixar isso assim."]
                     ][Math.min(asrielinter.toolrack++, 3)]
                     : [
-                        "<32>{#p/basic}* A rack of dusty old tools.\n* Doesn't look like they've been used in years.",
-                        ...(SAVE.data.n.plot === 72 ? ['<33>* ... and now they never will be.'] : [])
+                        "<32>{#p/basic}* Um amontoado de ferramentas velhas e enferrujadas.\n* Parecem não ter sido usadas a anos.",
+                        ...(SAVE.data.n.plot === 72 ? ['<33>* ... e agora jamais serão.'] : [])
                     ],
             spycamera1: () =>
                 postSIGMA()
@@ -4275,297 +4275,297 @@ export default {
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (Parece estar completamente offline.)']
                         : SAVE.data.n.plot === 72 && !world.runaway
-                            ? ['<32>{#p/basic}* Privacy at last.']
+                            ? ['<32>{#p/basic}* Privacidade a final.']
                             : [
-                                '<32>{#p/basic}* This monitor is calibrated to follow your movement.',
+                                '<32>{#p/basic}* Este monitor está calibrado para seguir seus movimentos.',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielLab1++ < 1
-                                    ? ["<25>{#p/asriel2}{#f/5}* If only we could've seen Alphys's face as she watched us..."]
+                                    ? ["<25>{#p/asriel2}{#f/5}* Se eu pelo menos pudesse ver a cara da Alphys nos assistindo..."]
                                     : [])
                             ],
             gameshow_terminal1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You place your hands on the humorous console.)']
+                    ? ['<32>{#p/human}* (Você coloca as mãos no console humorístico.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A game show console.']
+                        ? ['<32>{#p/basic}* Um console com game show.']
                         : SAVE.data.b.a_state_moneyfish
-                            ? ['<32>{#p/basic}* A game show console.\n* The first-hand witness to an awesome competition.']
-                            : ['<32>{#p/basic}* A game show console.\n* The unfortunate first-hand witness to an awful pun.'],
+                            ? ['<32>{#p/basic}* Um console de game show.\n* A testemunha em primeira mão de uma competição incrível.']
+                            : ['<32>{#p/basic}* Um console de game show.\n* A infeliz testemunha em primeira mão de um trocadilho horrível.'],
             gameshow_terminal2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You place your hands on the sympathetic console.)']
+                    ? ['<32>{#p/human}* (Você coloca suas mãos no console simpático.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A game show console.']
-                        : ['<32>{#p/basic}* A game show console.\n* This console seems specially- equipped for ghosts.'],
+                        ? ['<32>{#p/basic}* Um console com game show.']
+                        : ['<32>{#p/basic}* Um console de game show.\n* Este console parece especialmente equipado para fantasmas.'],
             gameshow_terminal3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You place your hands on the familiar console.)']
+                    ? ['<32>{#p/human}* (Você coloca suas mãos no console familiar.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A game show console.']
-                        : ["<33>{#p/basic}* A game show console.\n* This one's tailor-made for you."],
+                        ? ['<32>{#p/basic}* Um console com game show.']
+                        : ["<33>{#p/basic}* Um console de game show.\n* Este é feito sob medida para você."],
             gameshow_terminal4: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You place your hands on the friendly console.)']
+                    ? ['<32>{#p/human}* (Você coloca suas mãos no console amigável.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A game show console.']
+                        ? ['<32>{#p/basic}* Um console com game show.']
                         : SAVE.data.n.state_foundry_muffet === 1
-                            ? ['<32>{#p/basic}* A game show console.\n* Smells like... a substitution.']
-                            : ['<32>{#p/basic}* A game show console.\n* Who needs arms with consoles like these?'],
+                            ? ['<32>{#p/basic}* Um console com game show.\n* Cheira a... uma substituição.']
+                            : ['<32>{#p/basic}* Um console de game show.\n* Quem precisa de braços com consoles como esses?'],
             a_path2_sign: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The sign establishes a limit for the number of monsters a liftgate can hoist.)']
+                    ? ['<32>{#p/human}* (O sinal estabiliza um número limite de monstros que a máquina pode suportar.)']
                     : [
-                        '<32>{#p/basic}* \"Please be aware that at most, a liftgate may only hoist two monsters at a time.\"',
+                        '<32>{#p/basic}* \"Por favor tenham em mente que boa parte dessas máquinas só suportam dois monstros por vez.\"',
                         ...(world.genocide && SAVE.flag.n.ga_asrielSkySign1++ < 1
-                            ? ['<25>{#p/asriel2}{#f/1}* Works for us.']
+                            ? ['<25>{#p/asriel2}{#f/1}* Ótimo pra gente.']
                             : [])
                     ],
             a_path4_sign: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The sign informs people of the closure of a collection agency.)']
+                    ? ['<32>{#p/human}* (A placa informa as pessoas sobre o fechamento de uma agência de cobrança.)']
                     : SAVE.data.n.plot === 72
-                        ? ['<#32>{#p/basic}* \"Sorry, but the collection agency is closed for good!\"\n  - Bratty and Catty']
-                        : ['<#32>{#p/basic}* \"Leave your junk here, and we\'ll find a way to sell it!\"\n  - Bratty and Catty'],
+                        ? ['<#32>{#p/basic}* \"Desculpe, mas a agência de cobrança está sendo fechada para o bem!\"\n  - Bratty and Catty']
+                        : ['<#32>{#p/basic}* \"Deixe suas tralhas aqui e nós daremos um jeito de vende-la!\n  - Bratty and Catty'],
             a_puzzle1_sign: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (The sign's contents seem to have been crossed out.)"]
+                    ? ["<32>{#p/human}* (Os conteúdos dos sinal parecem ter sido riscados.)"]
                     : SAVE.data.n.plot < 68
-                        ? ['<32>{#p/basic}* \"Warning: Television filming may be in progress nearby.\"']
-                        : ['<32>{#p/basic}* \"Update: Television filming on indefinite hiatus.\"'],
+                        ? ['<32>{#p/basic}* \"Alerta: filmagem para televisão pode estar em progresso por perto.\"']
+                        : ['<32>{#p/basic}* \"Atualização: Filmagem da televisão em hiato indefinido.\"'],
             labcounter: (mtt: boolean) =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You run your hands across the countertop.)\n* (It's pleasantly smooth.)"]
+                    ? ["<32>{#p/human}* (Você passa as mãos pela bancada.)\n* (É agradavelmente suave.)"]
                     : [
                         world.darker
-                            ? "<32>{#p/basic}* It's just a countertop."
+                            ? "<32>{#p/basic}* É só uma bancada."
                             : SAVE.data.n.plot === 72
-                                ? "<32>{#p/basic}* Ah, the humble countertop.\n* No better place to go after you've won the day!"
-                                : "<32>{#p/basic}* Ah, the humble countertop.\n* No better place to practice your arts 'n' crafts!",
-                        ...(mtt ? ["<32>{#p/mettaton}* THAT'S WHERE THE INGREDIENTS GO."] : [])
+                                ? "<32>{#p/basic}* Ah, uma bela bancada.\n* Não tem lugar melhor para ir após vencer o dia!"
+                                : "<32>{#p/basic}* Ah, a humilde bancada.\n* Não há lugar melhor para praticar suas artes e ofícios!",
+                        ...(mtt ? ["<32>{#p/mettaton}* ISSO É ONDE OS INGREDIENTES VÃO."] : [])
                     ],
             chesstable: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (It appears this game board is entirely empty.)']
+                    ? ['<32>{#p/human}* (Parece que o game board está basicamente vazio.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a chess board."]
+                        ? ["<32>{#p/basic}* É um tabuleiro de xadrez."]
                         : SAVE.data.n.plot < 65 || SAVE.data.b.ubershortcut || world.genocide
-                            ? ["<32>{#p/basic}* It's a chess board.\n* It's empty."]
-                            : ["<32>{#p/basic}* It's a chess board.\n* It's black's turn, but there's no good moves to play..."],
+                            ? ["<32>{#p/basic}* É um tabuleiro de xadrez.\n* Está vazio."]
+                            : ["<32>{#p/basic}* É um tabuleiro de xadrez.\n* É o turno das pretas, mas não tem movimentos bons para serem feitos..."],
             roomtable: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The guidebook explains, in detail, the nature of multi- dimensional living.)']
+                    ? ['<32>{#p/human}* (O guia do livro explica, em detalhes, a natureza da vida multi-dimensional.)']
                     : [
-                        "<32>{#p/basic}* It's a guidebook for multi- dimensional living.",
-                        '<32>* You open it to the bookmarked page...',
-                        '<32>* \"... which is to say your room exists at the same point in three-dimensional space...\"',
-                        '<32>* \"... but on a different point along the fourth dimension.\"',
-                        '<32>* \"This fourth-dimensional positioning is more commonly referred to as phasing.\"',
-                        '<32>* \"Phasing is a complex process which involves re-saturating the negative field of the...\"',
-                        '<33>* Thankfully, the page ends here.'
+                        "<32>{#p/basic}* É um livro de guia para a vida multi-dimensional.",
+                        '<32>* Você abre na página marcada...',
+                        '<32>* \"...o que basicamente significa que seu quarto existe em três espaços dimensionais iguais...\"',
+                        '<32>* \"... mas em um ponto diferente na quarta dimensão.\"',
+                        '<32>* \"Este posicionamento tetradimensional é mais comumente referido como faseamento.\"',
+                        '<32>* \"O faseamento é um processo complexo que envolve a resaturação do campo negativo do...\"',
+                        '<33>* Amém, a página acaba aqui.'
                     ],
             flowertable: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flower.)']
+                    ? ['<32>{#p/human}* (Você para e observa as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A Starling flower.']
-                        : ['<32>{#p/basic}* Beware, the lone Starling flower.'],
+                        ? ['<32>{#p/basic}* Uma Flor Estrelada.']
+                        : ['<32>{#p/basic}* Adiante, a Flor Estrelada solitária.'],
             coredoor: ["<32>{#p/basic}* Está trancado."],
-            deadbot: ["<32>{#p/basic}* It's just a husk."],
-            deadbot2: ["<32>{#p/basic}* He's all out of juice."],
+            deadbot: ["<32>{#p/basic}* É apenas uma casca."],
+            deadbot2: ["<32>{#p/basic}* Ele está sem óleo."],
             corenote1: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Toriel.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                '<32>{#p/alphys}* Asgore has told me a lot about you.',
-                '<32>* Your pies, your stories, even the way you made him laugh...',
-                '<32>* And your loving care for the humans who come here.',
-                '<32>* Despite your misconceptions about Asgore, you tried to be a positive light.',
-                "<32>* Because of me, you'll never get to share that light again."
+                '<32>{#p/basic}* Há uma gravação no chão rotulada \"Toriel.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                '<32>{#p/alphys}* Asgore me contou muito sobre você.',
+                '<32>* Suas tortas, suas histórias, até mesmo a forma que você o faz rir...',
+                '<32>* E seu amoroso cuidado pelos humanos que vieram aqui.',
+                '<32>* Mesmo com seu julgamento errado sobre Asgore, você tentou ser uma luz positiva.',
+                "<32>* Por minha culpa, você nunca será capaz de demonstrar aquela luz novamente."
             ],
             corenote2: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Sans.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                "<32>{#p/alphys}* I'll never forget those days where we worked together on projects...",
-                '<32>* Or that time I helped you pull a prank on Papyrus...',
-                '<32>* Or even the time we went garbage-hunting with Bratty and Catty.',
-                '<32>* You might not have stuck around, but you always came back when it really mattered.',
-                "<32>* Because of me, you'll never be able to come back."
+                '<32>{#p/basic}* Há uma gravação no chão rotulada \"Sans.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                "<32>{#p/alphys}* Eu nunca vou esquecer aqueles dias onde nós trabalhamos juntos em projetos...",
+                '<32>* Ou aquela vez em que eu te ajudei a pregar uma pegadinha em Papyrus...',
+                '<32>* Ou mesmo aquela vez em que fomos caçar lixo com a Bratty e Catty.',
+                '<32>* Você pôde não ficar mais por perto, mas quando tudo importava você esteve ali.',
+                "<32>* Por minha culpa, você jamais será capaz de voltar."
             ],
             corenote3: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Papyrus.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                "<32>{#p/alphys}* Our shared love of puzzles is something I'll always be fond of.",
-                '<32>* When we were kids, you inspired me to do so many things...',
-                '<32>* If not for you, I might not be a scientist at all.',
-                "<32>* Though I couldn't bring myself to watch, I know you stayed true to yourself to the end.",
-                "<32>* Because of me, you'll never be yourself again."
+                '<32>{#p/basic}* Há uma gravação no chão rotulada \"Papyrus.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                "<32>{#p/alphys}* Nosso amor compartilhado por quebra-cabeças é algo que sempre me cativou.",
+                '<32>* Quando éramos crianças você me inspirou a fazer tantas coisas...',
+                '<32>* Se não fosse por você, eu talvez jamais fosse uma cientista.',
+                "<32>* Eu não pude te assistir partir, mas sei que você manteve-se verdadeiro a si mesmo no fim.",
+                "<32>* Por minha culpa, você nunca será si mesmo novamente."
             ],
             corenote4: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Undyne.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                '<32>{#p/alphys}* Undyne...\n* We were going to do so much together when we escaped...',
-                '<32>* I can picture it now.\n* A cruise around the galaxy, with nobody to get in our way.',
-                '<32>* Whenever I felt sad or lonely, you were always there to cheer me up.',
-                "<32>* Even if you and I disagreed on some things, you didn't let it get in the way of friendship.",
-                "<32>* Because of me, you'll never get to explore the galaxy."
+                '<32>{#p/basic}* Há uma gravação no chão rotulada como \"Undyne.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                '<32>{#p/alphys}* Undyne...\n* Nós faríamos tanto juntos quando escapassemos...',
+                '<32>* Eu posso imaginar agora.\n* Cruzando a galáxia, sem ninguém pra entrar no nosso caminho.',
+                '<32>* Sempre que eu me sentia triste ou sozinha, você sempre estava lá para me animar.',
+                "<32>* Mesmo que eu e você discordamos em certos pontos, você nunca deixou isso impedir nossa amizade.",
+                "<32>* Por minha culpa, você nunca será capaz de explorar a galáxia."
             ],
             corenote5: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Mettaton.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                "<32>{#p/alphys}* I know we got off to a rough start, but I wouldn't be the same person without you.",
-                "<32>* If you're hearing this, Mettaton, I want you to know that you're beautiful.",
-                "<32>* There's not another monster on the outpost I'd rather design a new body for.",
-                "<32>* Well, maybe Napstablook.\n* But they're not really the fighting type.",
-                '<32>* Good luck, Mettaton.'
+                '<32>{#p/basic}* Há uma gravação no chão chamada \"Mettaton.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                "<32>{#p/alphys}* Eu sei que passamos por um começo agitado, mas eu jamais seria a mesma sem sua pessoa.",
+                "<32>* Se você está ouvindo isso Mettaton, eu quero você saiba que eu te acho perfeita.",
+                "<32>* Não há outro monstro no Outpost do qual eu desejaria fazer um novo corpo.",
+                "<32>* Bem, talvez Napstablook.\n* Mas ele não é muito do tipo lutador.",
+                '<32>* Boa sorte, Mettaton.'
             ],
             corenote6: () => [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Asgore.\"',
-                '<32>{#p/human}* (You play the recording...)',
-                "<32>{#p/alphys}* I know I haven't always been the best at my job, but...",
-                '<32>* You always made me feel like I was contributing something.',
-                '<32>* And, even though those experiments were risky...',
-                '<32>* I had the support of the whole outpost to find us a faster way out of here.',
-                "<32>* Well, boss... we did it.\n* You won't have to live another day on this stupid outpost.",
-                '<32>* I should have known something would go wrong...',
-                '<32>* I should have noticed the dust on that Starling flower...',
-                '<32>* I should have contained it while I had the chance...',
-                "<32>* But I didn't.",
-                '<32>* Because of me, and my hubris, that child has carved a path of destruction.',
-                "<32>* I've lost so many people that I care about already...",
-                '<32>* Seeing them die from the comfort of my own lab, while I do nothing to stop it.',
-                "<32>* Mettaton's going to give it his all, but if he fails...",
-                "<32>* ... you're next.",
-                "<32>* I don't know what I'd do if I had to watch another one of my friends die.",
-                "<32>* I don't know how I'd feel if I knew I could have done something to save you.",
-                "<32>* I do know you're not going to fight back, and I do know they're not going to care.",
-                "<32>* If I don't do something before it's too late...",
+                '<32>{#p/basic}* Há uma gravação no chão chamada \"Asgore.\"',
+                '<32>{#p/human}* (Você da início a gravação...)',
+                "<32>{#p/alphys}* Eu sei que nem sempre fui a melhor no meu trabalho, mas...",
+                '<32>* Você sempre me fez sentir como se eu estivesse contribuindo com algo.',
+                '<32>* E, mesmo que aqueles experimentos fossem arriscados...',
+                '<32>* Eu sempre tive o apoio de todo o Outpost para encontrar o caminho mais rápido fora daqui.',
+                "<32>* Bem, chefe... nós conseguimos.\n* Você não vai precisar viver nem mais um dia nesse posto avançado estúpido.",
+                '<32>* Eu deveria imaginar que algo daria errado...',
+                '<32>* Eu deveria ter notado a poeira naquela Flor Estrelada...',
+                '<32>* Eu deveria ter contido enquanto ainda tinha chance...',
+                "<32>* Mas eu não o fiz.",
+                '<32>* Por minha causa e da minha arrogância, aquela criança abriu um caminho de destruição.',
+                "<32>* Eu já perdi tantas pessoas das quais eu me importo...",
+                '<32>* Vê-las morrer do conforto do meu laboratório, enquanto eu não fazia nada para impedir.',
+                "<32>* Mettaton vai tentar seu melhor, mas se ele falhar...",
+                "<32>* ... você é o próximo.",
+                "<32>* Eu não sei o que fazer se tiver que assistir mais um dos meus amigos morrer.",
+                "<32>* Eu não sei o que farei se sentir que eu sabia que poderia ter feito algo pra ti salvar.",
+                "<32>* O que eu sei é que você não vai lutar, e eu sei que eles não vão se importar.",
+                "<32>* E caso eu não faça nada antes que seja tarde demais...",
                 '<32>* ...',
-                '<32>{#p/human}* (You hear Alphys drop the recorder and run into the elevator.)',
+                '<32>{#p/human}* (Você ouve Alphys largar o gravador e correr para o elevador.)',
                 ...(SAVE.flag.n.genocide_milestone < 5
                     ? SAVE.flag.n.ga_asrielCorenote++ < 1
                         ? [
-                            '<25>{#p/asriel2}{#f/3}* Alphys running away as always, I take it.',
-                            '<25>{#p/asriel2}{#f/4}* A pity.'
+                            '<25>{#p/asriel2}{#f/3}* Alphys correndo da luta como sempre, eu já imaginava.',
+                            '<25>{#p/asriel2}{#f/4}* Uma vergonha.'
                         ]
                         : []
                     : SAVE.flag.n.ga_asrielAlphysCom4++ < 1
-                        ? ['<25>{#p/asriel2}{#f/8}* If only I knew what she was doing the first time around...']
+                        ? ['<25>{#p/asriel2}{#f/8}* Se pelo menos eu soubesse o que ela estava fazendo da primeira vez...']
                         : [])
             ],
             coresign1: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The sign prohibits any unauthorized presence in the area.)',
-                        '<25>{#p/asriel1}{#f/4}* For obvious reasons, you can ignore this warning.'
+                        '<32>{#p/human}* (O sinal proíbe qualquer presença não autorizada na área.)',
+                        '<25>{#p/asriel1}{#f/4}* Por razões óbvias, você pode ignorar isso.'
                     ]
-                    : ['<32>{#p/basic}* \"Any unauthorized presence in this area is strictly prohibited.\"'],
+                    : ['<32>{#p/basic}* \"Qualquer presença não autorizada nesta área é estritamente proibida.\"'],
             coresign2: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The sign describes the longest- sustained accident- free period of time here.)',
-                        "<25>{#p/asriel1}{#f/3}* If not for that one builder bot incident, it'd be flawless..."
+                        '<32>{#p/human}* (O sinal descreve o período de tempo mais longo e livre de acidentes sustentados aqui.)',
+                        "<25>{#p/asriel1}{#f/3}* Se não fosse pelo acidente daquele um bot construtor, seria perfeito..."
                     ]
-                    : ['<32>{#p/basic}* \"Longest streak without an accident: 38690 days.\"'],
+                    : ['<32>{#p/basic}* \"Maior quantia de dias desde o último acidente: 38690 dias.\"'],
             coresign3: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The sign congratulates the current worker of the year.)',
+                        '<32>{#p/human}* (A placa parabeniza o atual funcionário do ano.)',
                         ...[
-                            ['<25>{#p/asriel1}{#f/17}* That little guy has the biggest heart...'],
+                            ['<25>{#p/asriel1}{#f/17}* Aquele carinha tem o maior coração...'],
                             [
-                                '<25>{#p/asriel1}{#f/17}* Back when I was trying to be nice to everyone...',
-                                '<25>{#f/17}* I asked it to come along with me, and it just did.',
-                                '<25>{#f/20}* No questions asked.',
-                                "<25>{#f/18}* I couldn't believe it!"
+                                '<25>{#p/asriel1}{#f/17}* Antes quando eu estava tentando ser legal com todo mundo...',
+                                '<25>{#f/17}* Eu pedi para que ele viesse comigo, e ele só veio.',
+                                '<25>{#f/20}* Sem perguntar nada.',
+                                "<25>{#f/18}* Eu nem pude acreditar!"
                             ],
                             [
-                                "<25>{#p/asriel1}{#f/13}* Despite all I've done, people like Charles have something I...",
-                                '<25>{#f/15}* Something I could never get back on my own.',
-                                '<25>{#f/23}* ... a pure and true form of happiness.',
-                                '<25>{#f/22}* But maybe with you...'
+                                "<25>{#p/asriel1}{#f/13}* Mesmo com tudo que eu fiz, pessoas como o Charles tem algo que eu...",
+                                '<25>{#f/15}* Algo que eu nunca vou poder sentir sozinho.',
+                                '<25>{#f/23}* ... a pura e verdadeiro fórmula para a felicidade.',
+                                '<25>{#f/22}* Mas talvez com você...'
                             ],
-                            ['<25>{#p/asriel1}{#f/13}* I really hope this works out, Frisk.']
+                            ['<25>{#p/asriel1}{#f/13}* Eu realmente espero que isso funcionei, Frisk.']
                         ][Math.min(asrielinter.coresign3++, 3)]
                     ]
                     : [
-                        '<32>{#p/basic}* \"Worker of the year: Charles\"\n* \"Thank you for your continued effort and dedication.\"'
+                        '<32>{#p/basic}* \"Trabalhador do ano\" Charles\"\n* \"Muito obrigado por seu continuo esforço e dedicação.\"'
                     ],
             coresign4: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The plaque dedicates itself to a certain individual.)',
+                        '<32>{#p/human}* (A placa é dedicada a um certo indivíduo.)',
                         ...[
                             [
-                                '<25>{#p/asriel1}{#f/13}* You might find this surprising, but...',
-                                '<26>{#f/27}* I never really knew him.',
-                                '<25>{#f/4}* He died before Alphys brought me back, so...',
-                                '<25>{#f/3}* My only memories of him are from when I was born.'
+                                '<25>{#p/asriel1}{#f/13}* Você talvez ache isso surpreendente, mas...',
+                                '<26>{#f/27}* Eu nunca o conheci de verdade.',
+                                '<25>{#f/4}* Ele morreu antes da Alphys me reencarnar, então...',
+                                '<25>{#f/3}* Minhas únicas memórias sobre ele são de quando eu era bebê.'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/13}* Yeah... monsters may have infinite space for memories...',
-                                "<25>{#f/17}* But we can't remember something if it never happened.",
-                                '<25>{#f/20}* Kind of hard to get around THAT limitation.'
+                                '<25>{#p/asriel1}{#f/13}* É... monstros podem ter espaços infinitos para memória...',
+                                "<25>{#f/17}* Mas não podemos lembrar de algo que nunca aconteceu.",
+                                '<25>{#f/20}* Meio difícil de passar por ESSA limitação.'
                             ],
                             [
-                                '<25>{#p/asriel1}{#f/17}* I did hear he nearly perfected wormhole travel...',
-                                '<25>{#f/13}* Maybe, if that technology could be compacted down...',
-                                "<25>{#f/15}* ... implanted in monsters' minds...",
-                                '<25>{#f/16}* ... you could pull memories from other places.'
+                                '<25>{#p/asriel1}{#f/17}* Uma coisa que sei é que ele quase chegou a conclusão perfeita de viagem com buraco de minhoca...',
+                                '<25>{#f/13}* Talvez, se aquela tecnologia conseguisse ser criada...',
+                                "<25>{#f/15}* ... implantada na mente dos monstros...",
+                                '<25>{#f/16}* ... você poderia trazer memórias de outros lugares.'
                             ],
-                            ['<25>{#p/asriel1}{#f/20}* I must be crazy.']
+                            ['<25>{#p/asriel1}{#f/20}* Deve ser loucura.']
                         ][Math.min(asrielinter.coresign4++, 3)]
                     ]
-                    : ['<32>{#p/basic}* \"This plaque is dedicated to Professor T. N. Roman.\"\n* \"May your legacy live on.\"'],
+                    : ['<32>{#p/basic}* \"Esta placa é dedicada ao Professor T. N. Roman.\"\n* \"Que seu legado seja eternizado.\"'],
             coresign5: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The sign lists off what lies in each direction.)']
-                    : ['<32>{#p/basic}* \"Left - Stage Four\"\n* \"Right - Elevator\"'],
+                    ? ['<32>{#p/human}* (O sinal lista o que tem em casa direção.)']
+                    : ['<32>{#p/basic}* \"Esquerda - Estágio Quatro\"\n* \"Direita - Elevador\"'],
             pottedtable: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You get the sense you've seen this table somewhere else before.)"]
+                    ? ["<32>{#p/human}* (Você tem o sentimento de que viu essa mesa em algum lugar antes.)"]
                     : SAVE.data.n.plot === 72 && !world.runaway
-                        ? ["<32>{#p/basic}* A familiar-looking table.\n* Don't you recognize where this table is from?"]
-                        : ['<32>{#p/basic}* A familiar-looking table.'],
+                        ? ["<32>{#p/basic}* Uma mesa familiar.\n* Você não reconhece de onde vem essa mesa?"]
+                        : ['<32>{#p/basic}* Uma mesa familiar.'],
             potchair: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You get the sense you've seen this chair somewhere else before.)"]
+                    ? ["<32>{#p/human}* (Você tem o sentimento de que já viu essa cadeira em algum lugar.)"]
                     : SAVE.data.n.plot === 72 && !world.runaway
-                        ? ['<32>{#p/basic}* A familiar-looking chair.\n* They really know how to vary up the design.']
-                        : ['<32>{#p/basic}* A familiar-looking chair.'],
+                        ? ['<32>{#p/basic}* Uma cadeira familiar.\n* Eles realmente sabem como variar o design.']
+                        : ['<32>{#p/basic}* Uma cadeira familiar.'],
             cardboard1: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
+                    ? ["<32>{#p/human}* (Você não entende o que tem na caixa...)"]
                     : [
-                        "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
-                        '<32>{#p/basic}* This dull box has a few test tubes lying at the bottom.'
+                        "<32>{#p/basic}* É um monte de caixas de papelão quase vazias.",
+                        '<32>{#p/basic}* Esta caixa sem graça tem alguns tubos de ensaio na parte inferior.'
                     ],
             cardboard2: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
+                    ? ["<32>{#p/human}* (Você não entende o que tem na caixa...)"]
                     : [
-                        "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
-                        '<32>{#p/basic}* This tall box reeks of exotic chemicals.'
+                        "<32>{#p/basic}* É um monte de caixas de papelão quase vazias.",
+                        '<32>{#p/basic}* Esta caixa alta cheira a produtos químicos exóticos.'
                     ],
             cardboard3: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
+                    ? ["<32>{#p/human}* (Você não entende o que tem na caixa...)"]
                     : [
-                        "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
-                        '<32>{#p/basic}* This small box contains papers all written in an odd font.'
+                        "<32>{#p/basic}* É um monte de caixas de papelão quase vazias.",
+                        '<32>{#p/basic}* Está pequena caixa contém papéis com escritas em todas as fontes possíveis.'
                     ],
             labchem: (mtt: boolean) =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (This setup strikes you as rather dangerous.)']
+                    ? ['<32>{#p/human}* (Este setup te parece bem perigoso.)']
                     : [
                         world.darker
-                            ? '<32>{#p/basic}* Chemicals on conveyor belts.'
+                            ? '<32>{#p/basic}* Produtos químicos em correias transportadoras.'
                             : SAVE.data.n.plot === 72
-                                ? "<32>{#p/basic}* Chemicals on conveyor belts.\n* Somehow, nothing's ever gone wrong with this."
-                                : '<32>{#p/basic}* Chemicals on conveyor belts.\n* What could possibly go wrong?',
+                                ? "<32>{#p/basic}* Produtos químicos em correias transportadoras.\n* De alguma forma, nada nunca deu errado."
+                                : '<32>{#p/basic}* Produtos químicos em correias transportadoras.\n* O que poderia dar errado?',
                         ...(mtt
                             ? [
-                                '<32>{#p/mettaton}* NOTHING LIKE THE CALMING WHIR OF AN MTT-TRIPLE-A-SAFE-RATED CONVEYOR BELT!',
-                                '<32>* NOT ONLY DOES IT SAVE YOU FROM HAVING TO REACH AN EXTRA TWO MICRONS TO GRAB THINGS...',
-                                '<32>* BUT WHEN FLASKS FALL OFF THE SIDE AND VIOLENTLY BREAK OPEN...',
-                                '<32>* YOU GET A SURPRISE CHEMICAL REACTION, FREE OF CHARGE!'
+                                '<32>{#p/mettaton}* NADA COMO O ZUMBIDO CALMANTE DE UMA CORREIA TRANSPORTADORA COM CLASSIFICAÇÃO MTT-TRIPLE-A-SAFE!',
+                                '<32>* NÃO APENAS TE SALVA TEMPO DE TER QUE ALCANÇAR OUTROS DOIS EXTRAS MICRONS PARA SEGURAR COISAS...',
+                                '<32>* MAS QUANDO FRASCOS CAEM VIOLENTAMENTE PARA O LADO E SE QUEBRAM...',
+                                '<32>* VOCÊ GANHA UMA REAÇÃO QUÍMICA SURPRESA, CHEIA DE ENERGIA!'
                             ]
                             : [])
                     ],
@@ -4573,85 +4573,85 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/13}* This is Krios...\n* A simple representation of it, anyway.',
-                            "<25>{#f/17}* I hear it's more colorful than it looks from outer space."
+                            '<25>{#p/asriel1}{#f/13}* Este é Krios...\n* Uma representação simples dele, entretanto.',
+                            "<25>{#f/17}* Eu ouvi dizer que é mais colorido do que parece no espaço sideral."
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* So, one time, out of desperate curiosity...',
-                            '<25>{#f/17}* I managed to organize the construction of a new outpost section.',
-                            '<26>{#f/20}* And when I say organize, it was more like...\n* I kinda forced them to.',
-                            '<25>{#f/13}* It was... a re-creation of a part of the homeworld.'
+                            '<25>{#p/asriel1}{#f/13}* Então, uma vez, desesperado de curiosidade...',
+                            '<25>{#f/17}* Eu fui capaz de organizar a construção de um novo setor no Outpost.',
+                            '<26>{#f/20}* E quando eu digo organizar, foi mais tipo...\n* Eu obrigando todos a construírem.',
+                            '<25>{#f/13}* Foi basicamente, uma re-criação de uma parte do mundo natal.'
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/13}* The re-creation wasn't perfect...",
-                            '<25>{#f/15}* Probably because nobody really wanted to build it...',
-                            '<25>{#f/17}* But I understood why that old world is so highly spoken of.',
-                            "<25>{#f/23}* It was... beautiful.\n* I'd never seen anything like it."
+                            "<25>{#p/asriel1}{#f/13}* A re-criação não estava perfeita.",
+                            '<25>{#f/15}* Provavelmente porque ninguém queria construir...',
+                            '<25>{#f/17}* Mas eu entendo o motivo de falarem tanto desse planeta.',
+                            "<25>{#f/23}* Ele era... lindo.\n* Eu nunca vi nada igual a ele."
                         ],
-                        ["<25>{#p/asriel1}{#f/17}* I'll always remember the re-creation of the sky..."]
+                        ["<25>{#p/asriel1}{#f/17}* Eu sempre me lembro da re-criação do céu..."]
                     ][Math.min(asrielinter.labglobe++, 3)]
                     : [
                         world.darker
-                            ? "<32>{#p/basic}* It's a globe."
+                            ? "<32>{#p/basic}* É um globo."
                             : SAVE.data.n.plot === 72
-                                ? "<32>{#p/basic}* It's a globe of monsterkind's... former homeworld."
-                                : "<32>{#p/basic}* It's a globe of monsterkind's great homeworld.",
+                                ? "<32>{#p/basic}* É um globo de monstros... antigo Planeta Natal."
+                                : "<32>{#p/basic}* É um globo do grande planeta natal dos monstros.",
                         ...(mtt
                             ? [
-                                "<32>{#p/mettaton}* IT WOULDN'T BE A SCIENCE LAB WITHOUT THE OBLIGATORY GLOBE.",
-                                "<32>* UNLIKE MOST OF WHAT'S HERE, IT'S NOT AN MTT-BRAND ITEM.",
-                                '<32>* STILL, SINCE ALPHYS MADE IT FOR ME, AND MADE -ME- MYSELF...',
-                                "<32>* THERE'S NO REASON TO DOUBT ITS QUALITY FOR A SECOND!"
+                                "<32>{#p/mettaton}* NÃO SERIA UM LABORATÓRIO SEM O OBRIGATÓRIO GLOBO.",
+                                "<32>* DIFERENTE DA MAIOR PARTE DO QUE ESTÁ AQUI, ELE NÃO É UM ITEM DA MARCA MTT.",
+                                '<32>* AINDA, DESDE QUE FOI ALPHYS QUEM FEZ ISSO PRA MIM, E ME FEZ ELA MESMA...',
+                                "<32>* NÃO A RAZÃO PARAR DUVIDAR DA QUALIDADE NEM POR UM SEGUNDO!"
                             ]
                             : [])
                     ],
             labrando: (mtt: boolean) =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You interact with the device, but it does nothing of use.)']
+                    ? ['<32>{#p/human}* (Você interage com o dispositivo, mas ele não faz nada.)']
                     : [
                         world.darker
-                            ? '<33>{#p/basic}* A device with no clear purpose.'
+                            ? '<33>{#p/basic}* Um dispositivo sem propósito claro.'
                             : SAVE.data.n.plot === 72
-                                ? '<32>{#p/basic}* Disappointingly, the passage of time has not given this device a greater purpose.'
-                                : '<32>{#p/basic}* The purpose of this device is explicitly unclear.',
+                                ? '<32>{#p/basic}* De forma desapontante, a passagem do tempo não deu utilidade a esse dispositivo.'
+                                : '<32>{#p/basic}* O propósito desse dispositivo é explicitamente não esclarecido.',
                         ...(mtt
                             ? [
-                                '<32>{#p/mettaton}* AH YES, THE EVER-HANDY MTT-BRAND NEUTRON FLOW POLARIZER.',
-                                '<32>* A DEVICE SO USEFUL, IT GETS ACCESSED AT LEAST TEN TIMES...',
-                                '<32>* PER YEAR!!!'
+                                '<32>{#p/mettaton}* AH SIM, O ÚTIL PARA TODA HORA POLARIZADOR DE FLUXO DE NÊUTRONS DA MARCA MTT.',
+                                '<32>* UM APARELHO TÃO ÚTIL, ELE ELA ACESSADO AO MENOS DEZ VEZES...',
+                                '<32>* POR ANO!!!'
                             ]
                             : [])
                     ],
             labsink: (mtt: boolean) =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You run the nigh-invisible water over your hands.)']
+                    ? ['<32>{#p/human}* (Você joga a água quase invisível sobre suas mãos.)']
                     : [
-                        "<32>{#p/basic}* It's a sink with a replicator- powered water supply.",
+                        "<32>{#p/basic}* É uma pia com um suprimento de água alimentado por replicador.",
                         ...(mtt
                             ? [
-                                '<32>{#p/mettaton}* THE MORE COMPLEX THE MATERIAL, THE MORE POWER IT TAKES TO REPLICATE.',
-                                '<32>* THE CORE ONLY PROVIDES SO MUCH POWER, AFTER ALL.',
-                                '<32>* THANKFULLY, WATER IS ONE OF THE SIMPLEST SUBSTANCES AROUND!'
+                                '<32>{#p/mettaton}* QUANTO MAIS COMPLEXO O MATERIAL, MAIS COMPLEXO PARA REPLICAR SE TORNA.',
+                                '<32>* O CORE SÓ PROVE TANTA ENERGIA, DEPOIS DE TUDO.',
+                                '<32>* FELIZMENTE, ÁGUA É UMA DAS SUBSTÂNCIAS MAIS SIMPLES DE TODAS!'
                             ]
                             : [])
                     ],
             labscope: (mtt: boolean) =>
                 SAVE.data.b.svr
                     ? [
-                        "<32>{#p/human}* (You point the microscope at Asriel's face...)",
-                        '<32>* (Through the lens, you witness a dazzling array of bright, glowing particles.)',
+                        "<32>{#p/human}* (Você aponta o microscópio para a cara do Asriel...)",
+                        '<32>* (Através da lente, você testemunha uma variedade deslumbrante de partículas brilhantes e luminosas.)',
                         ...[
-                            ['<25>{#p/asriel1}{#f/17}* Monsters are only made of magic, Frisk.\n* You know that, right?'],
-                            ['<25>{#p/asriel1}{#f/13}* You can probably stop doing that now.'],
+                            ['<25>{#p/asriel1}{#f/17}* Monstros são feitos de magia, Frisk.\n* Você sabe disso, certo?'],
+                            ['<25>{#p/asriel1}{#f/13}* Você já pode parar de fazer isso agora.'],
                             ['<25>{#p/asriel1}{#f/15}* ...']
                         ][Math.min(asrielinter.labscope++, 2)]
                     ]
                     : [
-                        '<32>{#p/basic}* A standard-issue CITADEL high- precision electron microscope, circa 261X.',
+                        '<32>{#p/basic}* Um microscópio eletrônico de alta precisão padrão da CIDADELA, circa 261X.',
                         ...(mtt
                             ? [
-                                '<32>{#p/mettaton}* THESE ADVANCED MICROSCOPES WERE ONLY RELEASED A FEW YEARS AGO.',
-                                '<32>* JUST ANOTHER EXAMPLE OF HOW MTT-BRAND PRODUCTS NEVER FAIL TO STAY UP TO DATE!'
+                                '<32>{#p/mettaton}* ESSES MICROSCÓPIOS AVANÇADOS FORAM CRIADOS A POUCOS ANOS ATRÁS.',
+                                '<32>* SÓ MAIS UM EXEMPLO DE COMO PRODUTOS DA MARCA MTT NUNCA FALHAM EM ESTAR ATUALIZADOS!'
                             ]
                             : [])
                     ]
@@ -4663,15 +4663,15 @@ export default {
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
-                            "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
+                            '<25>{#p/alphys}{#g/alphysShocked}* Woah, para!!',
+                            "<25>{#g/alphysOhGodNo}* Você vai cair do p-plano normal...",
                             '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
                             '<25>{#g/alphysThatSucks}* Sorry...',
                             '<32>{#s/equip}{#p/event}* Clique...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
+                            '<25>{#p/alphys}{#g/alphysShocked}* Woah, para!!',
                             "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                             "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
                             "<26>{#f/10}* S-so don't be stupid!",
@@ -6090,19 +6090,19 @@ export default {
             ]
         ),
         elevator1: () => [
-            choicer.create('* (Where would you like to go?)', 'Cancelar', 'CORE Start', 'CORE End', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Cancelar', 'CORE Start', 'CORE End', 'The Citadel')
         ],
-        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Cancelar')],
+        elevatorStory1: () => [choicer.create('* (Onde você gostaria de ir?)', 'CORE Start', 'Cancelar')],
         elevator2: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancelar', 'CORE End', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'Cancelar', 'CORE End', 'The Citadel')
         ],
-        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancelar')],
+        elevatorStory2: () => [choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'Cancelar')],
         elevator3: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Cancelar', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Start', 'Cancelar', 'The Citadel')
         ],
-        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Cancelar')],
+        elevatorStory3: () => [choicer.create('* (Onde você gostaria de ir?)', 'The Citadel', 'Cancelar')],
         elevator4: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancelar')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancelar')
         ],
         dinnerdate1: pager.create(
             0,

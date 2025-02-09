@@ -10746,7 +10746,7 @@ renderer.on('tick', () => {
             }
             let mSpeedPool = mSpeed * 3;
             while (mSpeedPool !== 0) {
-                const s = Math.min(mSpeedPool, 3);
+                const s = Math.min(mSpeedPool, 1);
                 mSpeedPool -= s;
                 player.move(
                     {

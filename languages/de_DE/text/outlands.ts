@@ -1183,16 +1183,17 @@ export default {
             '<25>{#p/toriel}* In diesem Raum liegt eine neue Art von Rätsel.',
             [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
                 ? '<25>{#f/3}* Vielleicht wirst du hier besser abschneiden als beim Dummie.'
-                : '<25>{#f/1}* Do you think you can solve it?'
+                : '<25>{#f/1}* Denkst du, dass du es lösen kannst?'
         ],
         danger_puzzle2: () =>
             world.darker
-                ? ["<32>{#p/basic}* It's too tall for you to reach."]
-                : ["<32>{#p/basic}* This terminal's staggering height towers over you, blocking your eager approach."],
+                ? ["<32>{#p/basic}* Es ist zu hoch, als dass du es erreichen könntest."]
+                : ['<32>{#p/basic}* Die schwindelerregende Höhe dieses Terminals ragt über dir auf und ',
+'<32>{#p/basic}* versperrt deinen eifrigen Zugang.'],
         danger_puzzle3: () => [
             [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
-                ? '<25>{#p/toriel}{#f/3}* What is it now...'
-                : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
+                ? '<25>{#p/toriel}{#f/3}* Was ist denn nun...'
+                : '<25>{#p/toriel}{#f/1}* Was ist das Problem?\n* Brauchst du Hilfe?'
         ],
         danger_puzzle4: () => [
             ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy)

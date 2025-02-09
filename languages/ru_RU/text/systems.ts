@@ -2,25 +2,25 @@
 
 export default {
     battle: {
-        death0: ['(You take a deep breath.)', "(You're filled with determination.)"],
-        death1: ['You cannot give up just yet...', '$(name)!\nStay determined...'],
-        death2: ['Our fate rests upon you...', '$(name)!\nStay determined...'],
-        death3: ["You're going to be alright!", '$(name)!\nStay determined...'],
-        death4: ["Don't lose hope!", '$(name)!\nStay determined...'],
-        death5: ['It cannot end now!', '$(name)!\nStay determined...'],
+        death0: ['(Вы делаете глубокий вдох.)', "(Вы наполняетесь решимостью.)"],
+        death1: ['Ты не можешь сдаться сейчас...', '$(name)!\nСохраняй решимость...'],
+        death2: ['Наша судьба в твоих руках...', '$(name)!\nСохраняй решимость...'],
+        death3: ["Ты будешь в порядке!", '$(name)!\nСохраняй решимость...'],
+        death4: ["Не теряй надежды!", '$(name)!\nСохраняй решимость...'],
+        death5: ['Это ещё не конец!', '$(name)!\nСохраняй решимость...'],
 
-        flee1: '    * Escaped...',
-        flee2: "    * I'm outta here.",
-        flee3: "    * I've got better to do.",
-        flee4: "    * Don't slow me down.",
+        flee1: '    * Пора уходить...',
+        flee2: "    * Я сваливаю.",
+        flee3: "    * У меня есть дела поважнее.",
+        flee4: "    * Не задерживайте меня.",
         flee5: '    * Ran away with $(x) EXP\n      and $(y)G.',
 
         mercy_assist: '* Assist',
         mercy_flee: '* Flee',
         mercy_spare: '* Spare',
 
-        victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.',
-        victory2: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased.'
+        victory1: '<32>{#p/story}* ВЫ ПОБЕДИЛИ!\n* Вы получили $(x) ОП и $(y)М.',
+        victory2: '<32>{#p/story}* ВЫ ПОБЕДИЛИ!\n* Вы получили $(x) ОП и $(y)М.\n* Ваш УР повышен.'
     },
 
     developer: {

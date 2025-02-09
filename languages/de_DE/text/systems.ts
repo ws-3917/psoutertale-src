@@ -236,7 +236,7 @@ export default {
                 '§fill=#ff0§< ENTWICKLER >§fill=#fff§',
                 'spacey_432',
                 '',
-                '§fill=#ff0§< SCHRIFTSTELLER >§fill=#fff§',
+                '§fill=#ff0§< SCHREIBER >§fill=#fff§',
                 'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
@@ -250,7 +250,7 @@ export default {
                 'Rise'
             ],
             [
-                '§fill=#ff0§< SCHRIFTSTELLER >§fill=#fff§',
+                '§fill=#ff0§< SCHREIBER >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 'Turbulation',
                 'Zaxento The Greedy',

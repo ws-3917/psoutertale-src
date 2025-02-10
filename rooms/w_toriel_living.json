@@ -37,7 +37,7 @@
                         ]
                     },
                     {
-                        "name": "teleport",
+                        "name": "outlands",
                         "position": {
                             "x": 47,
                             "y": -15
@@ -47,10 +47,7 @@
                             "y": 20
                         },
                         "args": [
-                            "w_toriel_kitchen",
-                            "up",
-                            "127.5",
-                            "230"
+                            "w_kitchenwall"
                         ]
                     }
                 ],
@@ -219,30 +216,6 @@
             }
         ],
         "main": [
-            {
-                "tags": [
-                    "w_kitchenwall"
-                ],
-                "triggers": [
-                    {
-                        "position": {
-                            "x": 46,
-                            "y": 0
-                        },
-                        "size": {
-                            "x": 40,
-                            "y": 30
-                        },
-                        "name": "outlands",
-                        "args": [
-                            "triviabarrier",
-                            "w_kitchenwall",
-                            "0",
-                            "3"
-                        ]
-                    }
-                ]
-            },
             {
                 "attachments": [
                     {

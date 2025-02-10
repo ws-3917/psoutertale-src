@@ -376,7 +376,7 @@ export default {
                 "<25>{#f/17}* 如果那家伙愿意，\n  可以和我们在一起啊。\n* 我会很高兴的。",
                 "<25>{#f/15}* 但如果那家伙不想，\n  我也能理解。",
                 '<25>{#f/16}* 那家伙\n  已经“赢”了这把游戏。',
-'<25>{#f/16}* 那家伙\n  应该不想再\n  和我“玩”了。'
+                '<25>{#f/16}* 那家伙\n  应该不想再\n  和我“玩”了。'
             ],
             e5: [
                 "<25>{#p/asriel1}{#f/13}* ...$(name)...\n* 如果你还能听到的话...",
@@ -952,7 +952,7 @@ export default {
             '<25>{#f/0}* “‘来吧，人类，到我这里来。\n    最后一次和我在一起。’”',
             '<25>{#f/9}* “人类走了过去。”',
             '<25>{#f/10}* “怪物... 十分快乐。”'
-            
+
         ],
         chair2c7: ['<25>{#f/0}{#n1}* 嗯，故事讲完了。', '<25>{#f/1}* 希望你能喜欢这个故事...'],
         chair2c8: ['<25>{#f/0}{#n1}* 嗯，讲完了。'],
@@ -2412,7 +2412,7 @@ export default {
                             ]
             )
         },
-        
+
         socks0: ['<32>{#p/human}* （你往里面瞅了瞅。）', '<32>{#p/human}* （看来抽屉里是空的。）'],
         socks1: () =>
             world.darker
@@ -2631,7 +2631,7 @@ export default {
             '<25>{#f/1}* ...我相信你会\n  做出正确的事的...'
         ],
         latetoriel2: ['<25>{#p/toriel}{#npc/a}{#f/5}* ...去吧...'],
-        
+
         lateasriel: () =>
             [
                 ['<25>{#p/asriel1}{#f/13}* 就让我一个人待着吧，\n  Frisk...', "<25>{#f/15}* 我不能跟你一起回去，\n  明白吗？"],
@@ -2730,6 +2730,18 @@ export default {
                 []
             ][Math.min(SAVE.data.n.lateasriel++, 8)],
         securefield: ['<33>{#p/basic}* 这里有一道安保屏障。\n* 已被激活。'],
+
+        kitchenwall: () => [
+
+        ],
+        toriwall: () => [
+            "<32>{#p/basic}* 锁住了。",
+            toriSV()
+                ? SAVE.data.n.plot < 17.001
+                    ? '<32>{#p/basic}* 听起来Toriel在哭...'
+                    : '<32>{#p/basic}* 听起来Toriel睡着了...'
+                : '<32>{#p/basic}* 听起来Toriel在写东西...'
+        ],
         trivia: {
             w_security: ["<32>{#p/basic}* 一道安保屏障。"],
             photoframe: () =>
@@ -2798,10 +2810,6 @@ export default {
                                 "<32>{#p/basic}* 这是外太空的一景。",
                                 '<32>* 这附近肯定不缺这种东西，\n  是吧？'
                             ],
-            w_kitchenwall: () =>
-                SAVE.data.n.plot === 9
-                    ? ['<26>{#p/toriel}{#f/1}* 再等等就好，我的孩子！']
-                    : ['<26>{#p/toriel}{#f/1}* 给我点时间...'],
             w_lobby1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （牌子上讲述了\n  在困境中要保持意志坚定。）']
@@ -3201,7 +3209,7 @@ export default {
                     : SAVE.data.n.plot === 72
                         ? ['<32>{#p/basic}* 垃圾桶被清空了，\n  还挺有象征意义的。']
                         : ['<32>{#p/basic}* 里面有一张揉皱的星花茶配方。'],
-            
+
             w_tl_azzychair: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （你注意到这把餐椅相当之大。）']
@@ -3263,7 +3271,7 @@ export default {
                             '<32>{#p/human}* （你把书放回了书架。）'
                         ]
             ),
-            
+
             w_tl_goreychair: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （你注意到这把餐椅相对较小。）']
@@ -3304,7 +3312,7 @@ export default {
                             '<25>{#p/asriel1}{#f/13}* 这一切都源于\n  我们把拨火棍\n  当成了乐器...',
                             '<25>{#f/17}* 人们常说任何东西\n  都能变成乐器。',
                             '<25>{#f/13}* ...',
-                            "<25>{#f/15}* 等下...\n* 我也是个“东西”..." 
+                            "<25>{#f/15}* 等下...\n* 我也是个“东西”..."
                         ],
                         ["<25>{#p/asriel1}{#f/20}* 拜托，\n  可别把我也当成乐器了。"]
                     ][Math.min(asrielinter.w_tl_tools++, 3)]
@@ -3323,21 +3331,13 @@ export default {
                                 "<32>* 很难说，这些工具给人的感觉好像...",
                                 '<32>* 是在前哨站建立之前就做出来了的。'
                             ],
-            
+
             w_tl_torichair: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （你注意到这把餐椅异常之大。）']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* 餐椅王。']
                         : ["<32>{#p/basic}* Toriel家有几把餐椅，\n  这把，是国王的餐椅。"],
-            w_toriel_toriel: () => [
-                "<32>{#p/basic}* 锁住了。",
-                toriSV()
-                    ? SAVE.data.n.plot < 17.001
-                        ? '<32>{#p/basic}* 听起来Toriel在哭...'
-                        : '<32>{#p/basic}* 听起来Toriel睡着了...'
-                    : '<32>{#p/basic}* 听起来Toriel在写东西...'
-            ],
             w_tt_bed: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （床看起来让人觉得\n  比以前小了不少。）']
@@ -4406,7 +4406,7 @@ export default {
         name: '水',
         use: () => [
             '<32>{#p/human}* （你喝了一瓶水。）',
-            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* （你充满了一氧化二氢的力量。）"]) 
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* （你充满了一氧化二氢的力量。）"])
         ]
     },
     i_chocolate: {
@@ -4817,7 +4817,7 @@ export default {
         ],
         w_puzzle4: [
             '<25>{#p/toriel}{#f/1}* 我注意到...\n  最近有人在卖\n  已经停刊的旧漫画书。',
-            
+
             '<25>{#f/0}* 要是你闲着没事干，\n  可以去买一本看看。',
             '<25>{#f/0}* 你这个年纪的孩子\n  一般都挺喜欢\n  这些东西的！'
         ],
@@ -4883,7 +4883,7 @@ export default {
             '<25>{#f/0}* 毕竟那边的\n  商店和公司什么的，\n  都是大人才会去的地方。'
         ],
         w_wonder: () => [
-            
+
             SAVE.data.b.snail_pie
                 ? '<25>{#p/toriel}{#f/0}* 我买完做蜗牛派的材料\n  回来的时候...\n  碰到了个小蘑菇。'
                 : '<25>{#p/toriel}{#f/0}* 我买完做奶油糖肉桂派的\n  材料，回来的时候...\n  碰到了个小蘑菇。',

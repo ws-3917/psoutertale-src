@@ -38,7 +38,7 @@
                         ]
                     },
                     {
-                        "name": "teleport",
+                        "name": "outlands",
                         "position": {
                             "x": 366,
                             "y": 97
@@ -48,10 +48,7 @@
                             "y": 20
                         },
                         "args": [
-                            "w_toriel_toriel",
-                            "up",
-                            "129.5",
-                            "230"
+                            "torielwall"
                         ]
                     },
                     {
@@ -297,30 +294,6 @@
                         "name": "trivia",
                         "args": [
                             "photoframe"
-                        ]
-                    }
-                ]
-            },
-            {
-                "tags": [
-                    "w_toriwall"
-                ],
-                "triggers": [
-                    {
-                        "position": {
-                            "x": 363,
-                            "y": 106
-                        },
-                        "size": {
-                            "x": 33,
-                            "y": 14
-                        },
-                        "name": "outlands",
-                        "args": [
-                            "triviabarrier",
-                            "w_toriel_toriel",
-                            "0",
-                            "3"
                         ]
                     }
                 ]

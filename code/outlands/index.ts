@@ -4273,16 +4273,40 @@ export const outlandsScript = async (subscript: string, ...args: string[]): Prom
                 game.movement = true;
                 break;
             }
-            case 'triviabarrier': {
-                await trivia(
-                    ...CosmosUtils.provide(text.a_outlands.trivia[args[0] as keyof typeof text.a_outlands.trivia])
-                );
-                // WS3917 - now player move speed when triggered hitbox will be multiplied by mspeed
-                player.move(
-                    { x: +args[1] * Math.max(game.mspeed_last, 1), y: +args[2] * Math.max(game.mspeed_last, 1) },
-                    renderer
-                );
+            case 'kitchenwall': {
+                game.movement = false;
+                if (SAVE.data.n.plot === 9 || (3 <= SAVE.data.n.cell_insult && SAVE.data.n.plot === 7)) {
+                    await dialogue('auto', ...text.a_outlands.kitchenwall());
+                    player.position.y += 3 * Math.max(1, game.mspeed_last);
+                    player.face = 'down';
+                    game.movement = true;
+                    break;
+                }
+                await teleport('w_toriel_kitchen', 'up', 127.5, 230, world);
+                game.movement = true;
                 break;
+            }
+            case 'torielwall': {
+                game.movement = false;
+                if (!(
+                    SAVE.data.n.plot < 14 ||
+                    SAVE.data.n.state_wastelands_toriel === 2 ||
+                    outlandsKills() > 10 ||
+                    SAVE.data.b.w_state_lateleave
+                ) &&
+                    (toriSV()
+                        ? SAVE.data.n.plot < 48
+                        : SAVE.data.n.plot < 17.001 && !SAVE.data.b.w_state_catnap)) {
+                    await dialogue('auto', ...text.a_outlands.torielwall());
+                    player.position.y += 3 * Math.max(1, game.mspeed_last);
+                    player.face = 'down';
+                    game.movement = true;
+                    break;
+                }
+                await teleport('w_toriel_toriel', 'up', 129.5, 230, world);
+                game.movement = true;
+                break;
+
             }
             case 'x-elevation': {
                 const pos = player.position;
@@ -5140,21 +5164,6 @@ export async function outlandsTPE(from: string, to: string) {
                 }),
                 'base'
             );
-            const toriwall = instance('below', 'w_toriwall')!.object.objects[0];
-            if (
-                SAVE.data.n.plot < 14 ||
-                SAVE.data.n.state_wastelands_toriel === 2 ||
-                outlandsKills() > 10 ||
-                SAVE.data.b.w_state_lateleave
-            ) {
-                toriwall.metadata.trigger = false; // before battle or :cold_face:
-            } else if (toriSV()) {
-                toriwall.metadata.trigger = SAVE.data.n.plot < 48; // toriel is in her room on LV1 or above
-            } else if (SAVE.data.n.plot < 17.001) {
-                toriwall.metadata.trigger = !SAVE.data.b.w_state_catnap; // toriel is alive, just after battle completes
-            } else {
-                toriwall.metadata.trigger = false; // LV0
-            }
             if (SAVE.data.n.plot < 8 && SAVE.data.n.cell_insult < 3) {
                 SAVE.data.n.plot = 8;
                 teleporter.movement = false;
@@ -5448,10 +5457,6 @@ export async function outlandsTPE(from: string, to: string) {
             if (!roomState.active) {
                 roomState.active = true;
                 SAVE.data.n.state_toriel_food === 2 && (SAVE.data.n.state_toriel_food = 3);
-                objectsByTag(tags => tags.includes('w_kitchenwall'))[0].objects[0].on('tick', function () {
-                    this.metadata.trigger =
-                        SAVE.data.n.plot === 9 || (3 <= SAVE.data.n.cell_insult && SAVE.data.n.plot === 7);
-                });
             }
             const chairAnim = instance('main', 'theOneAndOnlyChairiel')!.object.objects[0] as CosmosAnimation;
             if (toriCheck() || (SAVE.data.n.plot === 9 && SAVE.data.n.state_toriel_food === 3)) {

@@ -2729,6 +2729,18 @@ export default {
                 []
             ][Math.min(SAVE.data.n.lateasriel++, 8)],
         securefield: ['<33>{#p/basic}* Burada bir güvenlik kalkanı var.\n* Aktif.'],
+        kitchenwall: () =>
+            SAVE.data.n.plot === 9
+                ? ['<26>{#p/toriel}{#f/1}* Sabret, çocuğum!']
+                : ['<26>{#p/toriel}{#f/1}* Bu biraz zaman alabilir...'],
+        torielwall: () => [
+            "<32>{#p/basic}* Kilitli.",
+            toriSV()
+                ? SAVE.data.n.plot < 17.001
+                    ? '<32>{#p/basic}* Toriel ağlıyor gibi görünüyor...'
+                    : '<32>{#p/basic}* Toriel uyuyor gibi görünüyor...'
+                : '<32>{#p/basic}* Toriel yazıyor gibi görünüyor...'
+        ],
         trivia: {
             w_security: ["<32>{#p/basic}* Bu bir güvenlik kalkanı."],
             photoframe: () =>
@@ -2797,10 +2809,6 @@ export default {
                                 "<32>{#p/basic}* Dış uzayın bir görüntüsü.",
                                 '<32>* Buralarda onlardan hiç eksik yok, değil mi?'
                             ],
-            w_kitchenwall: () =>
-                SAVE.data.n.plot === 9
-                    ? ['<26>{#p/toriel}{#f/1}* Sabret, çocuğum!']
-                    : ['<26>{#p/toriel}{#f/1}* Bu biraz zaman alabilir...'],
             w_lobby1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Tabela, sıkıntılı zamanlarda iradenin gücünden bahsediyor.)']
@@ -3329,14 +3337,6 @@ export default {
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* Bir kral boyu yemek sandalyesi.']
                         : ["<32>{#p/basic}* Toriel'in yemek sandalyelerinden biri.\n* Bir krala göre."],
-            w_toriel_toriel: () => [
-                "<32>{#p/basic}* Kilitli.",
-                toriSV()
-                    ? SAVE.data.n.plot < 17.001
-                        ? '<32>{#p/basic}* Toriel ağlıyor gibi görünüyor...'
-                        : '<32>{#p/basic}* Toriel uyuyor gibi görünüyor...'
-                    : '<32>{#p/basic}* Toriel yazıyor gibi görünüyor...'
-            ],
             w_tt_bed: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Yatak, eskiden olduğundan çok daha küçük görünüyor.)']

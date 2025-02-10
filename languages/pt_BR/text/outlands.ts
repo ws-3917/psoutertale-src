@@ -2729,6 +2729,18 @@ export default {
                 []
             ][Math.min(SAVE.data.n.lateasriel++, 8)],
         securefield: ['<33>{#p/basic}* Tem um escudo de segurança aqui.\n* Está ativo.'],
+        kitchenwall: () =>
+            SAVE.data.n.plot === 9
+                ? ['<26>{#p/toriel}{#f/1}* Paciência, minha criança!']
+                : ['<26>{#p/toriel}{#f/1}* Isso talvez tome um tempo...'],
+        torielwall: () => [
+            "<32>{#p/basic}* Está trancado.",
+            toriSV()
+                ? SAVE.data.n.plot < 17.001
+                    ? '<32>{#p/basic}* Parece que a Toriel está chorando...'
+                    : '<32>{#p/basic}* Parece que a Toriel está dormindo...'
+                : '<32>{#p/basic}* Parece que a Toriel está escrevendo...'
+        ],
         trivia: {
             w_security: ["<32>{#p/basic}* É um escudo de força."],
             photoframe: () =>
@@ -2797,10 +2809,6 @@ export default {
                                 "<32>{#p/basic}* É uma vista do espaço sideral.",
                                 '<32>* Certamente não faltam por aqui, não é?'
                             ],
-            w_kitchenwall: () =>
-                SAVE.data.n.plot === 9
-                    ? ['<26>{#p/toriel}{#f/1}* Paciência, minha criança!']
-                    : ['<26>{#p/toriel}{#f/1}* Isso talvez tome um tempo...'],
             w_lobby1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/humano}* (O sinal fala da força de vontade em tempos de angústia.)']
@@ -3329,14 +3337,6 @@ export default {
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* Uma cadeira de rei para jantar.']
                         : ["<32>{#p/basic}* Uma das cadeiras de jantar da Toriel.\n* Cabe um rei."],
-            w_toriel_toriel: () => [
-                "<32>{#p/basic}* Está trancado.",
-                toriSV()
-                    ? SAVE.data.n.plot < 17.001
-                        ? '<32>{#p/basic}* Parece que a Toriel está chorando...'
-                        : '<32>{#p/basic}* Parece que a Toriel está dormindo...'
-                    : '<32>{#p/basic}* Parece que a Toriel está escrevendo...'
-            ],
             w_tt_bed: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (A cama parece ser bem menor do que costumava parecer.)']

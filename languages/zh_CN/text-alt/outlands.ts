@@ -2730,6 +2730,18 @@ export default {
                 []
             ][Math.min(SAVE.data.n.lateasriel++, 8)],
         securefield: ['<33>{#p/basic}* 这里有一道安保屏障。\n* 已被激活。'],
+        kitchenwall: () =>
+            SAVE.data.n.plot === 9
+                ? ['<26>{#p/toriel}{#f/1}* 再等等就好，我的孩子！']
+                : ['<26>{#p/toriel}{#f/1}* 给我点时间...'],
+        torielwall: () => [
+            "<32>{#p/basic}* 锁住了。",
+            toriSV()
+                ? SAVE.data.n.plot < 17.001
+                    ? '<32>{#p/basic}* 听起来托丽尔在哭...'
+                    : '<32>{#p/basic}* 听起来托丽尔睡着了...'
+                : '<32>{#p/basic}* 听起来托丽尔在写东西...'
+        ],
         trivia: {
             w_security: ["<32>{#p/basic}* 一道安保屏障。"],
             photoframe: () =>
@@ -2798,10 +2810,6 @@ export default {
                                 "<32>{#p/basic}* 这是外太空的一景。",
                                 '<32>* 这附近肯定不缺这种东西，\n  是吧？'
                             ],
-            w_kitchenwall: () =>
-                SAVE.data.n.plot === 9
-                    ? ['<26>{#p/toriel}{#f/1}* 再等等就好，我的孩子！']
-                    : ['<26>{#p/toriel}{#f/1}* 给我点时间...'],
             w_lobby1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （牌子上讲述了\n  在困境中要保持意志坚定。）']
@@ -3330,14 +3338,6 @@ export default {
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* 餐椅王。']
                         : ["<32>{#p/basic}* 托丽尔家有几把餐椅，\n  这把，是国王的餐椅。"],
-            w_toriel_toriel: () => [
-                "<32>{#p/basic}* 锁住了。",
-                toriSV()
-                    ? SAVE.data.n.plot < 17.001
-                        ? '<32>{#p/basic}* 听起来托丽尔在哭...'
-                        : '<32>{#p/basic}* 听起来托丽尔睡着了...'
-                    : '<32>{#p/basic}* 听起来托丽尔在写东西...'
-            ],
             w_tt_bed: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* （床看起来让人觉得\n  比以前小了不少。）']

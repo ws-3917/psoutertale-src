@@ -4899,59 +4899,59 @@ export default {
                             : [
                                 '<32>{#p/basic}{#npc/a}* Quero dizer, neste ponto, se eu fosse descobrir que tipo de planta eu realmente sou...',
                                 '<32>* ... a realização de um fato tão retido por tanto tempo seria...',
-                                '<32>* ... explosive.'
+                                '<32>* ... explosivo.'
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Maybe, if I was actually a bomb, I'd be envious of it.",
-                                "<32>* But I'm not, so... I'm not.",
-                                "<32>* I'm mostly just pissed off about it, really."
+                                "<32>{#p/basic}{#npc/a}* Talvez, se eu realmente fosse uma bomba, teria inveja.",
+                                "<32>* Mas eu não sou, então... não.",
+                                "<32>* Eu estou mais irritado em relação a isso, sério."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Turns out I'm supposed to look like a rare homeworld plant.",
-                                '<32>* That old-timer who came by to talk to Burgie last week said it in passing, I think.',
-                                "<32>* ... oh, what I'd give to understand what I really am..."
+                                "<32>{#p/basic}{#npc/a}* Acaba que era pra eu supostamente parecer uma planta do raro mundo natal.",
+                                '<32>* Aquele velho senhor que veio conversar com o Burgie semana passada disse isso de passagem, eu acho.',
+                                "<32>* ... oh, o que eu daria pra entender o que realmente sou..."
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ["<32>{#p/basic}{#npc/a}* ... still don't blame 'em, though."]
-                            : ["<32>{#p/basic}{#npc/a}* ... it's better to stick to what you know."]
+                            ? ["<32>{#p/basic}{#npc/a}* ... mas ainda não os culpo."]
+                            : ["<32>{#p/basic}{#npc/a}* ... é melhor se manter ao que você sabe."]
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* ... you're lucky I don't explode on you right now."]
-                            : ["<32>{#p/basic}{#npc/a}* ... don't you ever wonder what you really are?"]
+                            ? ["<32>{#p/basic}{#npc/a}* ... você tem sorte de eu não explodir na sua cara agora."]
+                            : ["<32>{#p/basic}{#npc/a}* ... você nunca se perguntou o que realmente é?"]
             ),
             a_blackfire: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* So we're free now, huh?\n* What crazy times we must be living in.",
-                            "<32>* Without my job at the Royal Lab, I'll have to find work elsewhere...",
-                            '<32>* ... or, we could just establish a new Royal Lab on the homeworld.'
+                            "<32>{#p/basic}{#npc/a}* Então estamos livres agora, huh?\n* Que tempos loucos estes em que vivemos.",
+                            "<32>* Sem meu trabalho no Laboratório Real, eu terei que encontrar trabalho em outro lugar...",
+                            '<32>* ... ou, poderíamos apenas estabilizar um novo Laboratório Real no novo mundo.'
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Normally, I do astronomical research at the Royal Lab.',
-                                '<32>* I was planning on returning to work after today...',
-                                "<32>* But, after what happened to Mettaton, I'm not so sure."
+                                '<32>{#p/basic}{#npc/a}* Normalmente, eu faço pesquisas astronômicas no Laboratório Real.',
+                                '<32>* Eu estava planejando em voltar ao trabalho amanhã...',
+                                "<32>* Mas, depois do que aconteceu com Mettaton, eu não tenho certeza."
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Normally, I do astronomical research at the Royal Lab.',
-                                '<32>* Earlier, though, Alphys told us we can take the day off.',
-                                '<32>* I wonder why...'
+                                '<32>{#p/basic}{#npc/a}* Normalmente, eu faço pesquisas astronômicas no Laboratório Real.',
+                                '<32>* Mais cedo, porém, Alphys disse que poderíamos tirar um dia de folga.',
+                                '<32>* Me pergunto o por que...'
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Imagine how much better it'll be to stargaze with solid ground to roast on."
+                            "<32>{#p/basic}{#npc/a}* Imagine como será muito melhor observar as estrelas com terra firme para pisar."
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Maybe, somewhere out there, his heart still lives on in those constellations...'
+                                '<32>{#p/basic}{#npc/a}* Talvez, em algum lugar aí fora, seu coração ainda vive nas constelações...'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Being an astronomer can be fun, but it never hurts to stargaze with your own eyes.'
+                                '<32>{#p/basic}{#npc/a}* Ser um astrônomo é divertido, mas observar as estrelas a olho não tem preço.'
                             ]
             ),
             a_businessdude: pager.create(
@@ -4960,79 +4960,79 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 6
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Yeah, sometimes I wonder how a person like ya can exist.',
-                                "<32>* Ya saved us in the end, but what's it worth if we're all scared to leave our homes?",
-                                "<32>* I'm not judgin' ya or anything, but ya DO see the irony in that, right?"
+                                '<32>{#p/basic}{#npc/a}* É, as vezes eu me questiono como uma pessoa igual você pode existir.',
+                                "<32>* Cê nos salvou no final, mas de que vale se estamos todos com medo de deixar nossas casas?",
+                                "<32>* Eu não estou julgando ocê nem nada, mas ocê entende a ironia nisso, certo?"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Our virtualasium project never got off the ground, but maybe...',
-                                "<32>* ... that's just a sign of things to come?",
-                                "<32>* After all, on a new homeworld, it won't have to leave the ground."
+                                '<32>{#p/basic}{#npc/a}* Nosso projeto no virtualismo nunca saiu do chão, mas talvez...',
+                                "<32>* ... este seja apenas um sinal de coisas a vir?",
+                                "<32>* Até porque, em um novo planeta natal, não vamos precisar sair do chão."
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* What a tragedy, huh?',
-                                "<32>* ... it's a good thing most people don't know what ya look like up close."
+                                '<32>{#p/basic}{#npc/a}* Que tragédia, hein?',
+                                "<32>* ... é uma boa coisa que a maioria das pessoas não sabem como ocê se parece de perto."
                             ]
                             : roomKills().a_elevator1 > 0
-                                ? ["<32>{#p/basic}{#npc/a}* Ya heard me.\n* Quit while ya're ahead."]
+                                ? ["<32>{#p/basic}{#npc/a}* Ocê me ouviu.\n* Saia enquanto ocê ainda pode."]
                                 : SAVE.data.n.plot < 58
                                     ? iFancyYourVilliany()
                                         ? [
-                                            '<32>{#p/basic}{#npc/a}* So, ya go by \"$(moniker2)\" now, huh kid?',
-                                            "<32>* ... that's pretty cool."
+                                            '<32>{#p/basic}{#npc/a}* Então, ocê se chama \"$(moniker2)\" agora, criança?',
+                                            "<32>* ... isso é bem da hora."
                                         ]
                                         : [
                                             [
-                                                '<32>{#p/basic}{#npc/a}* Boy, ya really missed the mark on that one, huh kid?',
-                                                "<32>* ... that's a cryin' shame."
+                                                '<32>{#p/basic}{#npc/a}* Garoto, ocê realmente errou o alvo, hein criança?',
+                                                "<32>* ... isso é lamentável de chorar."
                                             ],
                                             [
-                                                '<32>{#p/basic}{#npc/a}* Kid, I got one question for ya, and one question only.',
-                                                '<32>* ... were ya even trying?'
+                                                '<32>{#p/basic}{#npc/a}* Criança, eu tenho uma pergunta pra ocê, e só uma.',
+                                                '<32>* ... você estava ao menos tentando?'
                                             ],
                                             [
-                                                "<32>{#p/basic}{#npc/a}* Hey, don't feel bad.\n* Ya gave it ya best shot.",
-                                                "<32>* ... still sucks that ya didn't make it to the end, though."
+                                                "<32>{#p/basic}{#npc/a}* Ei, não se sinta mal.\n* Ocê deu o seu melhor.",
+                                                "<32>* ... ainda é bem paia que você não conseguiu chegar até o fim, de toda forma."
                                             ],
                                             [
-                                                "<32>{#p/basic}{#npc/a}* Gee, talk about cuttin' it close, huh kid?",
-                                                "<32>* That's an ending for the ages!"
+                                                "<32>{#p/basic}{#npc/a}* Puxa, fale sobre cortar perto, hein garoto?",
+                                                "<32>* Esse é um fim para anos!"
                                             ],
                                             [
-                                                '<32>{#p/basic}{#npc/a}* Ya did pretty well for someone with no real practice.',
-                                                "<32>* ... beginner's luck, perhaps?"
+                                                '<32>{#p/basic}{#npc/a}* Ocê se saiu muito bem para alguém sem prática.',
+                                                "<32>* ... sorte de principiante, talvez?"
                                             ]
                                         ][SAVE.data.n.state_aerialis_crafterresult]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Workin' at the lab is a treat, I tell ya.",
-                                        '<32>* Have ya ever been inside the virtualasium?',
-                                        "<32>* Wonderful place.\n* Though they say ya shouldn't go out of bounds."
+                                        "<32>{#p/basic}{#npc/a}* Trabalhar no laboratório é um perigo, vou te dizer.",
+                                        '<32>* Ocê já esteve dentro do virtualismo?',
+                                        "<32>* Lugar maravilhoso.\n* Mas dizem que você não deve passar das bordas."
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 6
-                            ? ["<32>{#p/basic}{#npc/a}* Why don't ya go find someone else to bully, eh?"]
+                            ? ["<32>{#p/basic}{#npc/a}* Por que ocê não procura outra pessoa para espancar, hein?"]
                             : [
-                                '<32>{#p/basic}{#npc/a}* I only hope we can expand our userbase past that one eccentric skeleton fellow.'
+                                '<32>{#p/basic}{#npc/a}* Só espero que possamos expandir nossa base de usuários além daquele esqueleto excêntrico.'
                             ]
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* If they did, ya'd be in some deep doo-doo by now."]
+                            ? ["<32>{#p/basic}{#npc/a}* Se o fizessem, vocês já estariam em algum doo-doo profundo."]
                             : roomKills().a_elevator1 > 0
-                                ? ["<32>{#p/basic}{#npc/a}* Or don't.\n* Just don't make me say I told ya so, ya got me?"]
+                                ? ["<32>{#p/basic}{#npc/a}* Ou não.\n* Só não me faça dizer que eu te avisei, você entendeu?"]
                                 : SAVE.data.n.plot < 58
                                     ? iFancyYourVilliany()
-                                        ? ["<32>{#p/basic}{#npc/a}* It's not like I had a moniker at ya age or anything."]
+                                        ? ["<32>{#p/basic}{#npc/a}* Não é como se eu tivesse um apelido na sua idade ou algo assim."]
                                         : [
-                                            ["<32>{#p/basic}{#npc/a}* It's a wonder ya even made it here at all."],
-                                            ["<32>{#p/basic}{#npc/a}* Kinda seems like ya weren't."],
-                                            ['<32>{#p/basic}{#npc/a}* Ya might get another chance on the next episode.'],
-                                            ['<32>{#p/basic}{#npc/a}* Maybe next time ya could, I dunno, win more comfortably?'],
-                                            ['<32>{#p/basic}{#npc/a}* Or maybe MTT just went a little easy on ya.']
+                                            ["<32>{#p/basic}{#npc/a}* É incrível como ocê conseguiu chegar até aqui."],
+                                            ["<32>{#p/basic}{#npc/a}* Parecia que ocê não ia."],
+                                            ['<32>{#p/basic}{#npc/a}* Ocê talvez ganhe outra chance no próximo episódio.'],
+                                            ['<32>{#p/basic}{#npc/a}* Talvez da próxima vez ocê poderia, eu num sei, ganhar mais confortavelmente?'],
+                                            ['<32>{#p/basic}{#npc/a}* Ou talvez o MTT só pegou leve com ocê.']
                                         ][SAVE.data.n.state_aerialis_crafterresult]
                                     : [
-                                        '<32>{#p/basic}{#npc/a}* Yeah, ya heard that right.\n* Out of bounds.',
-                                        '<32>* Now what the heck is that supposed to mean?'
+                                        '<32>{#p/basic}{#npc/a}* Sim, ocê ouviu direito.\n* Fora dos limites',
+                                        '<32>* Agora, o que caramba é pra isso significar?'
                                     ]
             ),
             a_greenfire: pager.create(
@@ -5040,60 +5040,60 @@ export default {
                 () =>
                     SAVE.data.n.plot < 56
                         ? [
-                            "<32>{#p/basic}* Don't worry about me, school went well today.",
-                            "<32>* I'm just really looking forward to MTT's next show!",
-                            "<32>{#p/basic}* Do you know when it'll be on?"
+                            "<32>{#p/basic}* Não se preocupe comigo, a escola foi boa hoje.",
+                            "<32>* Eu só estou realmente procurando pelo próximo show da MTT.",
+                            "<32>{#p/basic}* Você sabe quando vai começar?"
                         ]
                         : SAVE.data.n.plot < 68
                             ? [
-                                '<32>{#p/basic}* That show was amazing!\n* The human almost looked real this time!',
-                                '<32>* Wait, have I seen you before?'
+                                '<32>{#p/basic}* Aquele show foi incrível!\n* O humano quase parecia real dessa vez.',
+                                '<32>* Pera, eu já te vi antes?'
                             ]
                             : world.bad_robot
-                                ? ["<32>{#p/basic}* Ack, what a letdown.\n* To think he'd cancel his big show just like that..."]
+                                ? ["<32>{#p/basic}* Ack, que decaída.\n* E pensar que ele cancelou o seu grande show daquela forma..."]
                                 : SAVE.data.b.killed_mettaton
                                     ? [
-                                        '<32>{#p/basic}* Did you... do that?\n* Did you kill Mettaton for real?',
-                                        "<32>{#p/basic}* No... it has to be fake.\n* Mettaton's just too popular to die!"
+                                        '<32>{#p/basic}* Você... fez mesmo?\n* Você matou o Mettaton de verdade?',
+                                        "<32>{#p/basic}* Não... deve ser mentira.\n* Mettaton é muito popular para morrer!"
                                     ]
                                     : [
-                                        '<32>{#p/basic}* So the human WAS real...\n* Wow, Mettaton must be REALLY good at networking!',
-                                        '<32>{#p/basic}* Your performance was great, by the way.'
+                                        '<32>{#p/basic}* Então o humano ERA real...\n* Uau, Mettaton deve ser MUITO bom em propaganda!',
+                                        '<32>{#p/basic}* Aliás, sua performance foi muito boa.'
                                     ],
                 () =>
                     SAVE.data.n.plot < 56
-                        ? ['<32>{#p/basic}* Mettaton usually has a schedule, but he forgot to make one this time.']
+                        ? ['<32>{#p/basic}* Mettaton geralmente tem um cronograma, mas ele se esqueceu de fazer um desta vez.']
                         : SAVE.data.n.plot < 68
-                            ? ['<32>{#p/basic}* I swear you look like the actor Mettaton brought on...']
+                            ? ['<32>{#p/basic}* Eu juro que você parece com aquele ator que o Mettaton trouxe...']
                             : world.bad_robot
-                                ? ['<32>{#p/basic}* Oh well, maybe next time.']
+                                ? ['<32>{#p/basic}* Oh bem, talvez em uma próxima.']
                                 : SAVE.data.b.killed_mettaton
-                                    ? ["<32>{#p/basic}* I can't believe I almost fell for it!"]
-                                    : ["<32>{#p/basic}* I can't believe I didn't notice you were a human before!"]
+                                    ? ["<32>{#p/basic}* Eu não posso acreditar que quase caí pra isso!"]
+                                    : ["<32>{#p/basic}* Eu não posso acreditar que não percebi que você era um humano antes!"]
             ),
             a_harpy: pager.create(
                 0,
                 () =>
                     SAVE.data.b.killed_mettaton
                         ? [
-                            "<32>{#p/basic}* I'm a reporter!\n* Today's news story is one I really don't want to report!",
-                            "<32>{#p/basic}* I'm gonna lose my marbles!!\n* Huhehehaw!"
+                            "<32>{#p/basic}* Eu sou um repórter!\n* A notícia de hoje é uma que realmente não queria dar!",
+                            "<32>{#p/basic}* Vou perder minhas bolinhas de gude!!\n* Huhehehaw!"
                         ]
                         : roomKills().a_sans > 0
                             ? [
-                                "<32>{#p/basic}* I'm a reporter!\n* Today's news story is about death 'n' destruction!",
-                                "<32>{#p/basic}* Did ya know someone's been killed right in front of me??\n* Huhehehaw!"
+                                "<32>{#p/basic}* Eu sou um repórter!\n* A notícia de hoje é sobre morte e destruição!",
+                                "<32>{#p/basic}* Você sabia que alguém foi morto bem na minha frente?\n* Huhehehaw!"
                             ]
                             : !world.badder_lizard
                                 ? [
-                                    "<32>{#p/basic}* I'm a reporter!\n* Today's news story is about metal 'n' magic!",
-                                    "<32>{#p/basic}* Did ya know Mettaton's actually made of it??\n* Huhehehaw!"
+                                    "<32>{#p/basic}* Eu sou um repórter!\n* A notícia de hoje é sobre metal e magia.",
+                                    "<32>{#p/basic}* Você sabia que o Mettaton é feito disso??\n* Huhehehaw!"
                                 ]
                                 : [
-                                    "<32>{#p/basic}* I'm a reporter!\n* Today's news story is about death 'n' destruction!",
-                                    "<32>{#p/basic}* Did ya know I'm likely goin'a die in a few short hours??\n* Huhehehaw!"
+                                    "<32>{#p/basic}* Eu sou um repórter!\n* A notícia de hoje é sobre morte e destruição!",
+                                    "<32>{#p/basic}* Você sabia que eu provavelmente vou morrer em algumas horas??\n* Huhehehaw!"
                                 ],
-                ['<32>{#p/basic}* Oh dear!\n* I really do love my job!']
+                ['<32>{#p/basic}* Oh querido!\n* Eu realmente amo meu trabalho!']
             ),
             a_madguy: pager.create(
                 0,
@@ -5101,137 +5101,137 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Who, me?\n* Someone who'd evacuate?",
-                                '<32>* Never.\n* I only went with them because they said I had to.',
-                                '<32>* I get that you were some kinda bully or something...',
-                                "<32>* ... but it's not as if you were going to kill me."
+                                "<32>{#p/basic}{#npc/a}* Quem, eu?\n* Alguém que evacuou?",
+                                '<32>* Jamais.\n* Eu só fui com eles porque eles disseram que eu tinha que ir.',
+                                '<32>* Eu entendo que você seja um tipo de bully ou sei lá...',
+                                "<32>* ... mas não é como se você fosse me matar."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Everyone else around here's been invited to that hangout.",
-                                "<32>* But me?\n* I'm not even interested.",
-                                "<32>* Sure, I'm glad you went and saved us and all...",
-                                "<32>* ... but that doesn't mean I have to stand around and indulge in the Madrigal plant."
+                                "<32>{#p/basic}{#npc/a}* Todo mundo aqui por perto foi convidado para aquele rolê.",
+                                "<32>* Mas eu?\n* Eu nem estou interessado.",
+                                "<32>* Claro, eu estou feliz que você veio e salvou todos nós...",
+                                "<32>* ... mas isso não significa que eu tenha que ficar parado e me entregar à planta Madrigal."
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Poor, poor Mettaton, whatever will you do.',
+                                '<32>{#p/basic}{#npc/a}* Pobre, pobre Mettaton, seja o que você for fazer.',
                                 '<32>* ...',
-                                "<32>* Oh, that's right.\n* Nothing."
+                                "<32>* Ah, é verdade.\n* Nada."
                             ]
                             : world.bad_robot && 68 <= SAVE.data.n.plot
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* For once, Mettaton did the right thing, and cancelled a show.',
-                                    "<32>* That grand finale wouldn't have ended well for him.",
-                                    '<32>* Why?\n* Just a feeling.'
+                                    '<32>{#p/basic}{#npc/a}* Pelo menos uma vez Mettaton fez a coisa certa e cancelou o show.',
+                                    "<32>* Aquele grande finale não terminaria bem pra ele.",
+                                    '<32>* Porquê?\n* Eu só tenho essa sensação.'
                                 ]
                                 : SAVE.data.n.bad_lizard < 2
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* I was one of the builders of the ORIGINAL fountain here.',
-                                        "<32>* Y'know.\n* Before Mettaton decided to rebuild the whole thing.",
-                                        "<32>* Like, who does that? Who'd rebuild it all just to change a single, tiny detail?",
-                                        '<32>* Kind of petty if you ask me.'
+                                        '<32>{#p/basic}{#npc/a}* Eu sou uma das construtoras da fonte ORIGINAL daqui.',
+                                        "<32>* Sabe.\n* Antes do Mettaton vir reconstruir ela toda.",
+                                        "<32>* Tipo, quem faz isso? Quem reconstrói uma estrutura inteira pra mudar único detalhe?",
+                                        '<32>* Bem ridículo, se você me perguntar.'
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* I can't BELIEVE Mettaton's running his TV shows when there's a killer on the loose.",
-                                        '<32>* Does he not see how dangerous that could be?',
-                                        "<32>* Someone's going to end up getting killed doing that nonsense.",
-                                        '<32>* Kind of idiotic if you ask me.'
+                                        "<32>{#p/basic}{#npc/a}* Eu nem ACREDITO que o Mettaton está administrando um show enquanto tem um assassino na área.",
+                                        '<32>* Ele não percebe o quão perigoso isso é?',
+                                        "<32>* Alguém vai acabar sendo morto fazendo essa loucura.",
+                                        '<32>* Meio que idiotice, se você me pergunta.'
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Like, really, people?',
-                                "<32>* Did you seriously think I'd want to run away like that?",
-                                "<32>* Come on.\n* I'm not THAT soft.",
-                                '<32>* ... ugh, never mind.'
+                                '<32>{#p/basic}{#npc/a}* Tipo, sério, pessoas?',
+                                "<32>* Vocês realmente pensavam que eu queria correr dessa forma?",
+                                "<32>* Qual foi.\n* Eu não sou TÃO mole.",
+                                '<32>* ... ugh, esquece.'
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Mind you.\n* I've never been one for parties.",
-                                '<32>* My main hobbies and interests consist primarily...',
-                                '<32>* ... of pointing out and picking apart poor imitations.',
-                                '<32>* Like this fountain.'
+                                "<32>{#p/basic}{#npc/a}* Eu nunca fui muito de festas.",
+                                '<32>* Meus hobbies e interesses consistem primeiramente em...',
+                                '<32>* ... apontar e separar imitações pobres.',
+                                '<32>* Tipo essa fonte.'
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* As far as I'm concerned, this is all his fault.",
-                                '<32>* He got too over-confident, and he paid the price.',
-                                "<32>* Too bad, so sad, be glad I'm not your dad."
+                                "<32>{#p/basic}{#npc/a}* Pelo que eu sei, isso é tudo culpa dele.",
+                                '<32>* Ele ficou confiante demais e pagou o preço.',
+                                "<32>* \"Que pena, que azar, sorte sua eu não te criar!\""
                             ]
                             : world.bad_robot && 68 <= SAVE.data.n.plot
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* The more he stays out of our lives, the better.',
-                                    "<32>* I'd ask him never to show up again, but...",
-                                    "<32>* ... then I wouldn't have anything to be upset about."
+                                    '<32>{#p/basic}{#npc/a}* Quanto mais ele ficar longe da nossas vidas, melhor.',
+                                    "<32>* Eu o pediria para nunca mais aparecer novamente, mas...",
+                                    "<32>* ... assim eu não teria mais nada com o que reclamar."
                                 ]
                                 : SAVE.data.n.bad_lizard < 2
                                     ? [
-                                        "<32>{#p/basic}{#npc/a}* Mind you.\n* I'm not the only one.",
-                                        '<32>* Ever heard of a \"Mr. Sepluv?\"',
-                                        '<32>* Yeah, he was in charge of the original build project here.',
-                                        '<32>* But now... he sells moon rocks for a living.'
+                                        "<32>{#p/basic}{#npc/a}* Eu não sou o único.",
+                                        '<32>* Já ouviu falar do \"Mr. Sepluv?\"',
+                                        '<32>* É, ele era quem comandava o projeto de construção original.',
+                                        '<32>* Mas agora... ele vende pedaços da lua como modo de vida.'
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Mind you.\n* I'm standing out here, too.",
-                                        "<32>* So I guess I'm just as guilty."
+                                        "<32>{#p/basic}{#npc/a}* Eu estou por aqui, também.",
+                                        "<32>* Então eu acho que sou tão culpado quanto."
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ["<32>{#p/basic}{#npc/a}* Embarrassing, isn't it?"]
-                            : ["<32>{#p/basic}{#npc/a}* Pointless, isn't it?"]
-                        : ["<32>{#p/basic}{#npc/a}* Ironic, isn't it?"]
+                            ? ["<32>{#p/basic}{#npc/a}* Embaraçoso, não é?"]
+                            : ["<32>{#p/basic}{#npc/a}* Inútil, não é?"]
+                        : ["<32>{#p/basic}{#npc/a}* Irônico, não é?"]
             ),
             a_proskater: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot < 60
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Finally got outta school, I don't know why I still go there anymore...",
-                            "<32>* Luckily, I hear Mettaton's got something exciting planned for his next show.",
-                            "<32>* I can't wait, brah..."
+                            "<32>{#p/basic}{#npc/a}* Finalmente saí da escola, eu nem sei porque vou lá ainda...",
+                            "<32>* Felizmente, ouvi dizer que o Mettaton tem algo super legal planejado para o próximo show.",
+                            "<32>* Mal posso esperar, brah..."
                         ]
                         : SAVE.data.n.plot < 68
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Brah... that was crazy.',
-                                '<32>* And... kinda weird?',
-                                '<32>* I mean, some of that stuff looked like junk, but that last item...',
-                                '<32>* ... hot diggity damn!'
+                                '<32>{#p/basic}{#npc/a}* Brah... aquilo foi loucura.',
+                                '<32>* E... meio estranho?',
+                                '<32>* Quer dizer, boa parte daquilo parecia tralha, mas o último item...',
+                                '<32>* ... ouro puro, caramba!'
                             ]
                             : world.bad_robot
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* I'm ruined, brah...\n* Mettaton just uppin' cancelled his latest show.",
-                                    '<32>* Now what excuses will I have to skip class...?'
+                                    "<32>{#p/basic}{#npc/a}* Eu estou arruinado, brah...\n* Mettaton acabou de cancelar seu último show.",
+                                    '<32>* Agora qual serão minhas desculpas pra faltar na aula...?'
                                 ]
                                 : SAVE.data.b.killed_mettaton
                                     ? [
-                                        "<32>{#p/basic}{#npc/a}* Brah.\n* I'm feeling pretty hurt about Mettaton's death.",
-                                        "<32>* I'll have an excuse to skip classes for a little while, but after that, I'm ruined!"
+                                        "<32>{#p/basic}{#npc/a}* Brah.\n* Estou me sentindo muito triste em relação a morte do Mettaton.",
+                                        "<32>* Eu vou ter desculpas para pular a aula mais algumas vezes, porém depois disso, é só ruína!"
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Brah.\n* I'm glad Mettaton's staying around.",
-                                        "<32>* If it weren't for him, I'd have way less excuses to skip class."
+                                        "<32>{#p/basic}{#npc/a}* Brah.\n* Estou feliz que Mettaton vai ficar por aí.",
+                                        "<32>* Se não fosse por ele eu teria bem menos desculpas para pular aula."
                                     ],
                 () =>
                     SAVE.data.n.plot < 60
-                        ? ['<32>{#p/basic}{#npc/a}* I hope he gets interesting contestants this time...']
+                        ? ['<32>{#p/basic}{#npc/a}* Espero que ele consiga competidores interessantes desta vez...']
                         : SAVE.data.n.plot < 68
-                            ? ["<32>{#p/basic}{#npc/a}* Tell me YOU wouldn't want a life-sized sci-fi anime doll."]
+                            ? ["<32>{#p/basic}{#npc/a}* Diga-me que VOCÊ não gostaria de uma boneca de anime de ficção científica em tamanho real."]
                             : world.bad_robot
-                                ? ["<32>{#p/basic}{#npc/a}* It's a cryin' shame, brah."]
+                                ? ["<32>{#p/basic}{#npc/a}* É uma pena, brah."]
                                 : SAVE.data.b.killed_mettaton
-                                    ? ['<32>{#p/basic}{#npc/a}* Real inconsiderate, Mettaton.\n* Real inconsiderate.']
-                                    : ["<32>{#p/basic}{#npc/a}* As a matter of fact, I'm skipping one right now..."]
+                                    ? ['<32>{#p/basic}{#npc/a}* Bem imprudente, Mettaton.\n* Bem imprudente.']
+                                    : ["<32>{#p/basic}{#npc/a}* Aliás, eu estou faltando uma agora..."]
             ),
             a_clamguy: pager.create(
                 0,
                 [
-                    '<32>{#p/basic}{#npc/a}* They say things can get pretty weird if you go too far out in these repeating rooms.',
-                    '<32>* Time tunnels...\n* Invariant spatial flexures...',
-                    "<32>* Eh, don't ask me what any of that means, I just overheard Alphys one time.",
-                    "<32>* If it wasn't her saying it, I'd probably just think it was made up..."
+                    '<32>{#p/basic}{#npc/a}* Eles dizem que as coisas podem ficar muito estranhas se você for longe demais nessa salas de repetição.',
+                    '<32>* Túneis espaciais...\n* Flexões espaciais invariáveis...',
+                    "<32>* E não me pergunte o que isso significa, eu só ouvi a Alphys falando uma vez.",
+                    "<32>* Se não fosse ela falando, eu só pensaria que foi inventado..."
                 ],
-                ["<32>{#p/basic}{#npc/a}* As long as you can still see clearly, you're probably fine."]
+                ["<32>{#p/basic}{#npc/a}* Com tanto que você ainda consiga enxergar bem, você está tranquilo."]
             ),
             a_pyrope: pager.create(
                 0,
@@ -5239,29 +5239,29 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                "<32>{#p/basic}{#npc/a}* You've been a bully in the past, but you might've redeemed yourself...",
-                                '<32>* We just came back to ask, were you really being yourself?',
-                                '<33>* Not everybody likes you, and some are still afraid...',
-                                "<32>* But I guess that's how it goes when you've got violence in your veins."
+                                "<32>{#p/basic}{#npc/a}* Você foi um bully no passado, mas acabou tendo sua redenção...",
+                                '<32>* Nós só voltamos para perguntar, você estava realmente sendo si mesmo?',
+                                '<33>* Nem todo mundo gosta de você e outros ainda estão com medo...',
+                                "<32>* Mas acho que é assim que funciona quando você tem violência correndo nas veias."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* When we get to the new homeworld, we're comin' out straightforward.",
-                                "<32>* With bars and rhymes so toward they'll beat other writers to their foreword.",
-                                "<33>* For anyone who challenges us, we've got but four words...",
-                                '<32>* This is our world.'
+                                "<32>{#p/basic}{#npc/a}* Quando chegarmos ao novo planeta natal, estaremos indo direto.",
+                                "<32>* Com compassos e rimas tão voltados que vencerão outros escritores em seu prefácio.",
+                                "<33>* Para quem nos desafiar, temos apenas quatro palavras...",
+                                '<32>* Este é nosso mundo.'
                             ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Vulkin and I make up the rap group \"The Pyromaniacs.\"',
-                            '<32>* Our beats? Fantastic.\n* Our flows? Pyroclastic.',
-                            "<33>* When I hop on stage, I'm bomb- astically elastic, I make the crowd melt like molten plastic.",
-                            "<32>* And with Vulkin?\n* It's a one-stop shop for hot mic-drop classics."
+                            '<32>{#p/basic}{#npc/a}* Vulkin e eu fizemos um grupo de rap chamado \"Os Piromaniacos.\"',
+                            '<32>* Nossas batidas? Fantásticas.\n* Nossos flows? Piroclásticos.',
+                            "<33>* Quando eu subo no estágio, eu chego bombástico e faço a plateia derreter como plástico elástico.",
+                            "<32>* E com o Vulkin?\n* Ele é um cara incrível para batidas quentes no microfone."
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ["<32>{#p/basic}{#npc/a}* Don't worry.", '<32>* We can forgive your brutish ways.']
-                            : ["<32>{#p/basic}{#npc/a}* Don't worry.", '<32>* Our flows are ALL above board.']
-                        : ["<32>{#p/basic}{#npc/a}* Don't worry.", "<32>* Our measures aren't TOO drastic."]
+                            ? ["<32>{#p/basic}{#npc/a}* Não se preocupe.", '<32>* Podemos esquecer das suas brutalidades.']
+                            : ["<32>{#p/basic}{#npc/a}* Não se preocupe.", '<32>* Nossos fluxos são TODOS honestos.']
+                        : ["<32>{#p/basic}{#npc/a}* Não se preocupe.", "<32>* Nossas medidas não são MUITO drásticas."]
             ),
             a_vulkin: pager.create(
                 0,
@@ -5270,28 +5270,28 @@ export default {
                     () =>
                         SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/basic}{#npc/a}* A new home means new crowds...',
-                                '<32>{#p/basic}{#npc/a}* Even spicier than before.'
+                                '<32>{#p/basic}{#npc/a}* Uma nova casa significa uma nova plateia...',
+                                '<32>{#p/basic}{#npc/a}* Ainda mais picante do que antes.'
                             ]
-                            : ['<32>{#p/basic}{#npc/a}* Oh...\n* When the crowd cheers for us, it feels... so spicey.'],
+                            : ['<32>{#p/basic}{#npc/a}* Oh...\n* Quando a plateia chama pela gente, é tão... picante.'],
                     () =>
                         SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/basic}{#npc/a}* A new home means new crowds...',
-                                '<32>{#p/basic}{#npc/a}* Even nicier than before.'
+                                '<32>{#p/basic}{#npc/a}* Uma nova casa significa uma nova plateia...',
+                                '<32>{#p/basic}{#npc/a}* Tão legal quanto antes.'
                             ]
-                            : ['<32>{#p/basic}{#npc/a}* Oh...\n* When the crowd cheers for us, it feels... so nicey.']
+                            : ['<32>{#p/basic}{#npc/a}* Oh...\n* Quando a plateia chama pela gente, é tão... legal.']
                 ),
                 pager.create(
                     2,
                     () =>
                         SAVE.data.n.plot === 72
-                            ? ['<32>{#p/basic}{#npc/a}* Spicier than before.']
-                            : ['<32>{#p/basic}{#npc/a}* So spicey.'],
+                            ? ['<32>{#p/basic}{#npc/a}* Mais picante do que antes.']
+                            : ['<32>{#p/basic}{#npc/a}* Tão picante.'],
                     () =>
                         SAVE.data.n.plot === 72
-                            ? ['<32>{#p/basic}{#npc/a}* Nicier than before.']
-                            : ['<32>{#p/basic}{#npc/a}* So nicey.']
+                            ? ['<32>{#p/basic}{#npc/a}* Mais legal que antes.']
+                            : ['<32>{#p/basic}{#npc/a}* Tão legal.']
                 )
             ),
             a_heats: pager.create(
@@ -5301,247 +5301,247 @@ export default {
                         ? [
                             ...(world.population < 6
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Those guards who evacuated me disrespected my name...',
-                                    '<32>* So I came back to respect yours, Frisk!'
+                                    '<32>{#p/basic}{#npc/a}* Aqueles guardas que me evacuaram desrespeitaram meu nome...',
+                                    '<32>* Então eu voltei para respeitar o seu, Frisk!'
                                 ]
                                 : [
-                                    '<32>{#p/basic}{#npc/a}* You may or may not know MY name...',
-                                    '<32>* But I know yours, Frisk!'
+                                    '<32>{#p/basic}{#npc/a}* Você pode ou não saber meu nome...',
+                                    '<32>* Mas eu sei o seu, Frisk!'
                                 ]),
-                            '<32>* Ha!\n* I said it!',
-                            "<32>* And I'm never going to forget it!",
-                            '<32>* Not now.',
-                            '<32>* Not ONCE!!',
-                            '<32>* Not EVERRRRR!!!!',
-                            '<32>* I shall NEVER, EVER forget your name, Frisk!!!!!!!!'
+                            '<32>* Ha!\n* Eu disse!',
+                            "<32>* E eu nunca vou esquece-lo!",
+                            '<32>* Não agora.',
+                            '<32>* Não DEPOIS!!',
+                            '<32>* NUNCA!!!!',
+                            '<32>* Eu JAMAIS, NUNCA irei esquecer seu nome, Frisk!!!!!!!!!'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Do YOU know my name!?',
+                            '<32>{#p/basic}{#npc/a}* Você sabe meu nome!?',
                             '<32>* ...',
-                            "<32>* Wait, don't answer that.",
-                            '<32>* You...\n* Y-you LOOK like you know.',
-                            '<32>* You SMELL...\n* ...\n* ... like you know.',
+                            "<32>* Espera, não responde.",
+                            '<32>* Você...\n* V-você parece que sabe.',
+                            '<32>* Você CHEIRA...\n* ...\n* ... como alguém que sabe.',
                             '<32>* ...',
-                            "<32>* I bet if I touched you, it'd FEEL like you know.",
-                            "<32>* (It'd also be way, WAYYYYYY too hot for you.)",
-                            '<32>* But why do you know...?',
-                            '<32>* How... do you know...',
-                            '<32>* This I will never ever know.' 
+                            "<32>* Eu aposto que se tocasse em você, sentiria como se você soubesse.",
+                            "<32>* (Também seria muito, MUITOOOOOOO muito quente para você.)",
+                            '<32>* Mas por que você sabe...?',
+                            '<32>* Como... você sabe...',
+                            '<32>* Isso, apenas você sabe.' 
                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* I. Will. Never. Ever. FORGEEEET!']
-                        : ['<32>{#p/basic}{#npc/a}* I. Will. Never. Ever. KNOWWWW!']
+                        ? ['<32>{#p/basic}{#npc/a}* Eu. Jamais. Irei. Esquecer. JAMAAAAAAIIS!']
+                        : ['<32>{#p/basic}{#npc/a}* Eu. Jamais. Irei. Saber. JAMAAAAAAIIS!']
             ),
             a_slime_father: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* My wife and children have shown me the truth.\n* Life isn't so bad.",
-                            '<32>* You may want to believe yourself to be a certain way, because you have \"matured...\"',
-                            '<32>* But even the most stoic monster or human is just a child on the inside.',
-                            "<32>* Tap into the child.\n* Believe in the child's will.",
-                            '<32>* Even in your darkest moment, make the child a part of you, and you will be happier.'
+                            "<32>{#p/basic}{#npc/a}* Minha esposa e filho me mostraram a verdade.\n* A vida não de todo mau.",
+                            '<32>* Você pode querer acreditar que é de uma certa maneira, porque \"amadureceu...\"',
+                            '<32>* Mas até mesmo o mais estóico monstro ou humano é apenas uma criança por dentro.',
+                            "<32>* Bata na criança.\n* Acredite na vontade da criança.",
+                            '<32>* Mesmo no seu momento mais escuro, faça da criança parte de você, e você será feliz.'
                         ]
-                        : ['<33>{#p/basic}{#npc/a}* Ah, to be young again.\n* The cosmos sure felt boundless.'],
+                        : ['<33>{#p/basic}{#npc/a}* Ah, para ser jovem de novo.\n* O cosmos com certeza parecia limitado.'],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* No matter who you are, it is the truest part of you.']
-                        : ['<32>{#p/basic}{#npc/a}* You look young...', "<32>* Go play!\n* The cosmos aren't so scary."],
+                        ? ['<32>{#p/basic}{#npc/a}* Não importa quem você é, está é a parte mais verdadeira de você.']
+                        : ['<32>{#p/basic}{#npc/a}* Você parece jovem...', "<32>* Vá brincar!\n* O cosmo não é tão assustador!"],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Never forget it...']
-                        : ['<32>{#p/basic}{#npc/a}* Go on...']
+                        ? ['<32>{#p/basic}{#npc/a}* Nunca se esqueça...']
+                        : ['<32>{#p/basic}{#npc/a}* Vá lá...']
             ),
             a_slime_mother: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Hubby's only just begun to learn what he needs.\n* But remember...",
-                            '<32>* You must still try new things, and do so often.',
-                            '<32>* Without that, you will lose yourself behind a mask of your own making again.'
+                            "<32>{#p/basic}{#npc/a}* Hubby está apenas começando a aprender o que precisa.\n* Mas lembre-se...",
+                            '<32>* Você deve tentar coisas novas e constantemente.',
+                            '<32>* Sem isso, você se perderá em uma máscara que criou por conta própria.'
                         ]
                         : [
-                            "<32>{#p/basic}{#npc/a}* Hubby thinks that because he's old, he can't enjoy life anymore.",
-                            "<32>* But really, he just doesn't like trying new things.",
+                            "<32>{#p/basic}{#npc/a}* Hubby pensa que só por ser velho, ele não pode mais curtir a vida.",
+                            "<32>* Mas sério, ele só não gosta de tentar coisas novas.",
                             childEvac()
-                                ? '<33>* We took our kids to a safezone, but it was new for them, so they were happy!'
-                                : '<32>* Our kids try new things all the time, and look how happy they are!'
+                                ? '<33>* Nós levamos nossas crianças para a zona segura, mas como era nova para eles, eles estavam felizes!'
+                                : '<32>* Nossas crianças tentam coisas novas o tempo todo, e olha como elas são felizes!'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Now that we're free, the horizons for new things to try have expanded.",
-                            '<32>* Visit a new world, discover more about the ones you know, or even create one yourself...',
-                            '<32>* Anything is possible.'
+                            "<32>{#p/basic}{#npc/a}* Agora que estamos livres, o horizonte de novas coisas para testar se expandiu.",
+                            '<32>* Visitar um novo mundo, descobrir mais sobre aqueles que você conhece ou criar um você mesmo...',
+                            '<32>* Tudo é possível.'
                         ]
                         : [
-                            "<32>{#p/basic}{#npc/a}* If you're ever bored with life, try something new.",
+                            "<32>{#p/basic}{#npc/a}* Se você acabar entediado com a vida, tente algo novo.",
                             childEvac()
-                                ? '<32>* It could be a movie, a hobby, or even the stress of safe- guarding your children...'
-                                : '<32>* It could be a movie, a hobby, or even a language...',
-                            '<32>* Anything is possible!'
+                                ? '<32>* Pode ser um filme, um hobby, ou o estresse de dar segurança as suas crianças...'
+                                : '<32>* Pode ser um filme, um hobby, ou mesmo uma língua...',
+                            '<32>* Tudo é possível!'
                         ],
-                ['<32>{#p/basic}{#npc/a}* What are you waiting for?']
+                ['<32>{#p/basic}{#npc/a}* O que você está fazendo?']
             ),
             a_slime_kid1: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* Now we'll get to play Monsters...", '<32>* ... and monsters.']
-                        : ['<32>{#p/basic}{#npc/a}* Do you wanna play Monsters and Humans!?'],
+                        ? ["<32>{#p/basic}{#npc/a}* Agora vamos jogar Monstros...", '<32>* ... e monstros.']
+                        : ['<32>{#p/basic}{#npc/a}* Você quer jogar Monstros e Humanos!?'],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* Maybe this isn't a good idea."]
-                        : ["<32>{#p/basic}{#npc/a}* I'll be the human."]
+                        ? ["<32>{#p/basic}{#npc/a}* Talvez essa não seja uma boa ideia."]
+                        : ["<32>{#p/basic}{#npc/a}* Eu serei o humano."]
             ),
             a_slime_kid2: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* I heard Starry's mom say the humans won't be on our new homeworld...",
-                            "<32>* Maybe I'll have to learn how to play smart monster games instead."
+                            "<32>{#p/basic}{#npc/a}* Eu escutei a mamãe dizendo que no novo planeta não terão humanos...",
+                            "<32>* Eu acho que terei que aprender a jogar jogos monstros inteligentes ao invés."
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* I wanna learn how to play smart human games like chess.',
-                            "<32>* Starry's mom over there is the best... she can beat anyone!"
+                            '<32>{#p/basic}{#npc/a}* Eu quero aprender a jogar jogos humanos inteligentes, como xadrez.',
+                            "<32>* Mamãe Starry alí é a melhor... ela pode vencer qualquer um!"
                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* What\'s a \"4-D poker?\"']
-                        : ['<32>{#p/basic}{#npc/a}* What\'s a \"zugzwang?\"']
+                        ? ['<32>{#p/basic}{#npc/a}* O que é \"Pôquer 4-D?\"']
+                        : ['<32>{#p/basic}{#npc/a}* O que é um \"zugzwang?\"']
             ),
             a_diamond1: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* So your name was actually Frisk, huh?',
-                            '<32>* Your performance with Mettaton was cool and all...',
-                            '<32>* But that \"god battle\" of yours was even more insane!'
+                            '<32>{#p/basic}{#npc/a}* Então seu nome era Frisk, huh?',
+                            '<32>* Seu show com o Mettaton foi legal e tudo...',
+                            '<32>* Mas aquela sua \"batalha contra um deus\" foi ainda mais insana!'
                         ]
                         : SAVE.data.b.ubershortcut
                             ? [
-                                "<32>{#p/basic}{#npc/a}* We've only just got here, and Mettaton's already working on his first show!",
-                                '<32>* It\'s called \"The search for humanity\'s star.\"'
+                                "<32>{#p/basic}{#npc/a}* Nós acabamos de chegar aqui e o Mettaton já está preparando seu primeiro show!",
+                                '<32>* É chamado \"A procura pela estrela da humanidade.\"'
                             ]
                             : SAVE.data.n.plot < 68
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* We came to see Mettaton's grand finale, but...",
+                                    "<32>{#p/basic}{#npc/a}* Nós viemos ver o grande finale do Mettaton, mas...",
                                     ...(iFancyYourVilliany()
                                         ? [
-                                            "<32>* I didn't think I'd get to see $(moniker1) up close!",
-                                            '<32>* ... you are $(moniker1), right?'
+                                            "<32>* Eu não achei que veria o $(moniker1) tão de perto!",
+                                            '<32>* ... você é o $(moniker1), certo?'
                                         ]
                                         : [
-                                            "<32>* I didn't think I'd get to see the human up close!",
-                                            '<32>* ... you are the human, right?'
+                                            "<32>* Eu não que conseguiria ver o humano tão de perto!",
+                                            '<32>* ... você é o humano, certo?'
                                         ])
                                 ]
                                 : SAVE.data.b.killed_mettaton
                                     ? [
                                         iFancyYourVilliany()
-                                            ? "<32>{#p/basic}{#npc/a}* So you're $(moniker1), huh?"
-                                            : "<32>{#p/basic}{#npc/a}* So you're the human, huh?",
+                                            ? "<32>{#p/basic}{#npc/a}* Então você é $(moniker1), huh?"
+                                            : "<32>{#p/basic}{#npc/a}* Você é o humano então, huh?",
                                         '<32>* ...'
                                     ]
                                     : [
                                         iFancyYourVilliany()
-                                            ? "<32>{#p/basic}{#npc/a}* Hey, you're $(moniker1), the best TV villain ever!"
-                                            : "<32>{#p/basic}{#npc/a}* Hey, you're the human who beat Mettaton at his own game!",
-                                        '<32>* What a performance!'
+                                            ? "<32>{#p/basic}{#npc/a}* Ei, você é o $(moniker1), o melhor vilão da TV de todos!"
+                                            : "<32>{#p/basic}{#npc/a}* Ei, você é o humano que derrotou Mettaton no próprio jogo!",
+                                        '<32>* Que performance!'
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* The best part is, we all got front row seats!']
+                        ? ['<32>{#p/basic}{#npc/a}* A melhor parte é que todos nós conseguimos assentos na primeira fila!']
                         : SAVE.data.b.ubershortcut
-                            ? ['<32>{#p/basic}{#npc/a}* Where could they be...']
+                            ? ['<32>{#p/basic}{#npc/a}* Onde será que eles estão...']
                             : SAVE.data.n.plot < 68
-                                ? ["<32>{#p/basic}{#npc/a}* I'm rooting for you!"]
+                                ? ["<32>{#p/basic}{#npc/a}* Eu estou torcendo por você!"]
                                 : SAVE.data.b.killed_mettaton
-                                    ? ['<32>{#p/basic}{#npc/a}* ... get away from me.']
-                                    : ['<32>{#p/basic}{#npc/a}* ... do you do autographs?']
+                                    ? ['<32>{#p/basic}{#npc/a}* ... saí de perto de mim.']
+                                    : ['<32>{#p/basic}{#npc/a}* ... você faz autógrafos?']
             ),
             a_diamond2: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Don't you wish you could do that all over again!?",
-                            '<32>* A battle, not just for show, but for the lives of everyone on the outpost...',
-                            '<32>* How cool is that!'
+                            "<32>{#p/basic}{#npc/a}* Você não desejava fazer tudo isso de novo!?",
+                            '<32>* Uma batalha, não só pelo show, mas pela vida de todos no Outpost...',
+                            '<32>* O quão maneiro é isso!'
                         ]
                         : SAVE.data.b.ubershortcut
                             ? [
-                                '<32>{#p/basic}{#npc/a}* After what Burgie did, I thought Mettaton would be done doing TV shows.',
-                                '<32>* But now...'
+                                '<32>{#p/basic}{#npc/a}* Após o que Burgie fez, eu pensei que o Mettaton não faria mais shows de TV.',
+                                '<32>* Mas agora...'
                             ]
                             : SAVE.data.n.plot < 68
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* Aren't you excited for the grand finale!?",
+                                    "<32>{#p/basic}{#npc/a}* Você não está excitado pelo grande final!?",
                                     iFancyYourVilliany()
-                                        ? '<32>* The final showdown between Mettaton and the human villain, $(moniker2)...'
-                                        : '<32>* The final showdown between Mettaton and his human star...',
-                                    '<32>* One last dramatic stand for all the glory in the galaxy!'
+                                        ? '<32>* O grande final entre o Mettaton e o vilão humano $(moniker2)...'
+                                        : '<32>* O grande final entre o Mettaton e sua estrela humana...',
+                                    '<32>* Uma última resistência dramática por toda a glória da galáxia!'
                                 ]
                                 : SAVE.data.b.killed_mettaton
-                                    ? ["<32>{#p/basic}{#npc/a}* He's gone...\n* Mettaton's actually...", '<32>* ...']
+                                    ? ["<32>{#p/basic}{#npc/a}* Ele morreu...\n* O Mettaton, ele...", '<32>* ...']
                                     : [
-                                        '<32>{#p/basic}{#npc/a}* Mettaton really had us there at the end...',
-                                        "<32>{#p/basic}{#npc/a}* For a moment, I thought he'd be leaving for good!"
+                                        '<32>{#p/basic}{#npc/a}* Mettaton realmente nos pegou nesse final...',
+                                        "<32>{#p/basic}{#npc/a}* Por um momento eu pensei que ele iria nos deixar!"
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* It's a shame it didn't last longer."]
+                        ? ["<32>{#p/basic}{#npc/a}* É bem paia não ter furado mais."]
                         : SAVE.data.b.ubershortcut
-                            ? ["<32>{#p/basic}{#npc/a}* It's good to have him back."]
+                            ? ["<32>{#p/basic}{#npc/a}* É bom tê-lo de volta."]
                             : SAVE.data.n.plot < 68
-                                ? ["<32>{#p/basic}{#npc/a}* I'm rooting for Mettaton!"]
+                                ? ["<32>{#p/basic}{#npc/a}* Eu estou torcendo pro Mettaton!"]
                                 : SAVE.data.b.killed_mettaton
-                                    ? ['<32>{#p/basic}{#npc/a}* I wanna go home...']
-                                    : ["<32>{#p/basic}{#npc/a}* I wonder what he'll do next..."]
+                                    ? ['<32>{#p/basic}{#npc/a}* Eu quero ir pra casa...']
+                                    : ["<32>{#p/basic}{#npc/a}* Eu me pergunto o que ele fará agora..."]
             ),
             a_gyftrot: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* If we're settling on a new homeworld, I'll be able to find somewhere cold to live.",
-                            "<32>* It's not like I need to.\n* But at least this bear would stop giving me pity gifts."
+                            "<32>{#p/basic}{#npc/a}* Se nós finalmente estamos indo para um novo mundo, eu vou encontrar um lugar frio pra morar.",
+                            "<32>* Não é como se eu precisasse.\n* Mas pelo menos esse urso vai deixar de me dar presentes de dar pena."
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* This bear insists on gifting me ornaments to put on my head.',
-                            '<32>* I know it means well, but head ornaments are the last thing I need...'
+                            '<32>{#p/basic}{#npc/a}* Este urso insiste em me presentear com enfeites para colocar na minha cabeça.',
+                            '<32>* Eu sei que as intenções são boas, mas enfeites de cabeça são a última coisa que eu preciso...'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* ... hmm, maybe the teenagers weren't so bad."]
-                        : ["<32>{#p/basic}{#npc/a}* ... at least it's not hugging me like the teenagers."]
+                        ? ["<32>{#p/basic}{#npc/a}* ... hmm, talvez jovens não sejam tão ruins."]
+                        : ["<32>{#p/basic}{#npc/a}* ... pelo menos não está me abraçando como os adolescentes."]
             ),
             a_giftbear: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* I am starting to think that my pity for Gyftrot was a reflection of my own sadness.',
-                            '<32>* I have longed for a cold environment myself, for as long as I can remember...',
-                            '<32>* When we reach our destination, I will seek one out.'
+                            '<32>{#p/basic}{#npc/a}* Estou começando a pensar que minha pena por Gyftrot foi um reflexo da minha própria tristeza.',
+                            '<32>* Eu mesmo ansiava por um ambiente frio, desde que me lembro...',
+                            '<32>* Quando chegarmos ao nosso destino eu sairei a procura de um.'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* I feel bad for Gyftrot.\n* It, like many of us, has never lived in its natural habitat.',
-                            '<32>* Alphys has said recently that the force field might be broken soon...',
-                            '<32>* Perhaps when that happens, we may all find some respite.'
+                            '<32>{#p/basic}{#npc/a}* Eu me sinto tão mal pelo Gyftrot.\n* É como se muitos de nós não vivêssemos em nossos habitats naturais.',
+                            '<32>* Alphys disse que o escudo de força talvez quebre logo.',
+                            '<32>* Talvez quando isso acontecer, todos possamos encontrar algum descanso.'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* For now, I'll stay by Gyftrot.\n* Giving gifts is the only way I know how to cope."
+                            "<32>{#p/basic}{#npc/a}* Por agora vou ficar com o Gyftrot.\n* Dar presentes a ele é a única forma que eu sei de contribuir."
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* For now, I will try my best to improve the lives of those less fortunate than I.'
+                            '<32>{#p/basic}{#npc/a}* Por agora eu vou trabalhar para melhorar a vida daqueles menos felizes que eu.'
                         ]
             ),
             a_boomer: pager.create(
@@ -5550,119 +5550,119 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Honestly, chief?\n* I'm thankful you bullied everyone before.",
-                                "<32>* They might've been scared...",
-                                '<33>* But at least they could finally live puzzle-free.'
+                                "<32>{#p/basic}{#npc/a}* Honestamente, chefe?\n* Eu estou agradecido que você bullinou todo mundo antes.",
+                                "<32>* Eles podem estar com medo...",
+                                '<33>* Mas pelo menos agora eles podem ser livre da vida de quebras-cabeças.'
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* The new homeworld's gonna be a riot, chief.",
-                                '<32>* Can you take a guess why?',
-                                "<33>* That's right.\n* No crappy puzzles to be solved."
+                                "<32>{#p/basic}{#npc/a}* O novo planeta natal vai ser uma beleza, chefe.",
+                                '<32>* Você pode chutar o porquê?',
+                                "<33>* Exatamente. Sem quebra-cabeças inúteis pra resolver."
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* I don't get what the fuss is with that Mettaton guy.",
-                                '<32>* You get me, chief?',
-                                "<32>* If you don't know someone personally, why be all upset?"
+                                "<32>{#p/basic}{#npc/a}* Eu não sei qual é a pira com esse cara Mettaton.",
+                                '<32>* Você me entende, chefe?',
+                                "<32>* Se você não conhece alguém pessoalmente, qual o motivo da raiva?"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* You know why I love hanging out here?',
-                                "<32>* It's simple, chief.",
-                                "<32>* There's no crappy puzzles to figure out here."
+                                '<32>{#p/basic}{#npc/a}* Você sabe por que eu amo sair por aqui?',
+                                "<32>* É simples, chefe.",
+                                "<32>* Não tem quebra-cabeças pra resolver aqui."
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Yeah, you heard me.',
-                                "<32>* I'd rather be afraid for my life than have to deal with those puzzles.",
-                                "<32>* That's just how it is, chief."
+                                '<32>{#p/basic}{#npc/a}* É, você me ouviu.',
+                                "<32>* Eu prefiro temer pela minha vida do que ter que lidar com quebra-cabeças.",
+                                "<32>* Isso é só como eu sou, chefe."
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Yeah, I STILL said it.',
-                                '<32>* I STILL said crappy.',
-                                "<32>* It'll ALWAYS be a fact, chief."
+                                '<32>{#p/basic}{#npc/a}* É, eu AINDA sou assim.',
+                                '<32>* SÃO QUEBRA-CABEÇAS HORRÍVEIS.',
+                                "<32>* Isso SEMPRE será fato, chefe."
                             ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* I'm just being honest.",
-                                "<32>* Most of us don't really know who he is as a person.",
-                                "<32>* It's just a fact, chief."
+                                "<32>{#p/basic}{#npc/a}* Eu só estou sendo honesto.",
+                                "<32>* Maior parte de nós nem sabe quem ele é como pessoa.",
+                                "<32>* Só apenas fatos, chefe."
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Yeah, I said it.',
-                                '<32>* I said crappy.',
-                                "<32>* It's just a fact, chief."
+                                '<32>{#p/basic}{#npc/a}* É, eu disse.',
+                                '<32>* Eu disse poh!',
+                                "<32>* Só apenas fatos, chefe."
                             ],
-                ['<32>{#p/basic}{#npc/a}* Chief.']
+                ['<32>{#p/basic}{#npc/a}* Chefe.']
             ),
             a_artgirl: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* I'm an art teacher.\n* But I'm thinking of quitting.",
-                            "<32>* I'd rather have a job where I don't have to criticize people...",
-                            '<32>* A job where all I have to do is make them happy.'
+                            "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes.\n* Mas estou pensando em sair.",
+                            "<32>* Eu prefiro um trabalho onde eu não precise criticar as pessoas...",
+                            '<32>* Um trabalho onde tudo que eu preciso fazer é colocar um sorriso no rosto das pessoas.'
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* I'm an art teacher.\n* Art's supposed to be fun and positive, right?",
-                                '<32>* But one of my students recently started drawing all this sad artwork.',
-                                "<32>* It hurts to look at...\n* I want to help him, but I don't want to stop him, either."
+                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes.\n* Artes é supostamente para ser legal e positivo, certo?",
+                                '<32>* Mas um dos meus estudantes começou a desenhar trabalhos muito tristes.',
+                                "<32>* Dói olhar...\n* Eu quero olhar, mas eu também não quero impedi-lo de se expressar."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* I'm an art teacher.\n* In art, it's said that there's no right or wrong way.",
-                                '<32>* But one of my students thinks that everything he does is a mistake...',
-                                "<32>* He won't stop apologizing...\n* I want to help him, but I'm at a loss for what to do."
+                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes.\n* Na arte, é dito que não existe caminho certo ou errado.",
+                                '<32>* Mas um dos meus estudantes pensa que tudo que ele faz é um erro...',
+                                "<32>* Ele não para de pedir desculpas...\n* Eu quero ajudá-lo, mas eu estou perdida no que fazer."
                             ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* Wouldn't that be nice?"]
+                        ? ["<32>{#p/basic}{#npc/a}* Não seria legal?"]
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* Why can't everyone just make nice things all the time?"]
-                            : ['<33>{#p/basic}{#npc/a}* Why is teaching a subjective subject so objectively difficult?']
+                            ? ["<32>{#p/basic}{#npc/a}* Por que todo mundo não pode fazer coisas legais o tempo todo?"]
+                            : ['<33>{#p/basic}{#npc/a}* Por que ensinar um assunto subjetivo é tão objetivamente difícil?']
             ),
             a_drakemom: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* So. A new homeworld, eh?\n* My son and I will get to do so many great things together.',
-                            "<32>* So many great things.\n* Especially that place the old art teacher's got in mind.",
-                            "<32>* Then, we'll go to dinner, and the movies... and his father can come along, too.",
-                            "<32>* Growing boys have so many needs, don't they?\n* So it's only fair.",
-                            "<32>* I wonder if my son's friends would be interested...?"
+                            '<32>{#p/basic}{#npc/a}* Então. Um novo mundo, né?\n* Meu filho e eu vamos fazer tantas coisas boas juntos.',
+                            "<32>* Tantas coisas boas.\n* Especialmente aquele lugar que a antiga professora de artes tem em mente.",
+                            "<32>* Então, nós iremos pro jantar, filmes... e o pai dele virá, também.",
+                            "<32>* Garotos crescidos tem tantas necessidades, não tem?\n* Então é justo.",
+                            "<32>* Eu me pergunto se o amigo do meu filho estaria interessado...?"
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Did something happen?\n* I've been so focused on this here game, I hadn't noticed.",
-                                "<32>* But that's fine, you see.\n* The game is too important to abandon it now."
+                                "<32>{#p/basic}{#npc/a}* Algo aconteceu?\n* Eu estive focado no jogo aqui, eu não percebi nada.",
+                                "<32>* Mas tá tudo bem.\n* O jogo é importante demais pra abandonar agora."
                             ]
                             : postSIGMA()
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* All the lights went out a little while ago, you see.\n* So I'm in a bit of a pickle.",
-                                    '<32>* If I forfeit now, my opponent might return and steal the win out from under my feathers!'
+                                    "<32>{#p/basic}{#npc/a}* Todas as luzes apagaram agora pouco, sabe.\n* Então, estou um pouco com medo.",
+                                    '<32>* Se eu sair agora, meu oponente pode voltar e roubar a vitória de baixo das minhas asas!'
                                 ]
                                 : SAVE.data.b.ubershortcut || world.population === 0
                                     ? [
-                                        '<33>{#p/basic}{#npc/a}* Well. I sat at this here table.\n* And organized this here game.\n* But my opponent?',
-                                        '<32>* Nowhere! Nowhere to be seen in this fine establishment!'
+                                        '<33>{#p/basic}{#npc/a}* Bem. Eu sentei nesta mesa aqui.\n* E organizei este jogo aqui.\n* Mas meu oponente?',
+                                        '<32>* Não encontro! Não está em lugar nenhum neste belo estabelecimento!'
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Well. I played this here move.\n* Pawn to king's knight four?\n* So my opponent walked off.",
-                                        "<32>* Now, you see, I have to wait.\n* It'll take a while for that clock to run out, for sure."
+                                        "<32>{#p/basic}{#npc/a}* Bem. Eu joguei esse movimento aqui.\n* Peão para o cavalo quatro do rei?\n* Então meu oponente foi embora.",
+                                        "<32>* Agora, eu vou ter que esperar.\n* Sabe, vai demorar um tempo até o relógio apitar."
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Fun for the whole family.']
+                        ? ['<32>{#p/basic}{#npc/a}* Diversão para toda a família.']
                         : SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* All that matters is the game.']
+                            ? ['<32>{#p/basic}{#npc/a}* Tudo que importa é o jogo.']
                             : postSIGMA()
-                                ? ['<32>{#p/basic}{#npc/a}* You never know what sorts of tricks your opponents will pull on you.']
+                                ? ['<32>{#p/basic}{#npc/a}* Você nunca sabe que tipo de truques seu oponente vai jogar.']
                                 : SAVE.data.b.ubershortcut || world.population === 0
-                                    ? ["<32>{#p/basic}{#npc/a}* It's a true disappointment.\n* Immeasurable, even."]
-                                    : ["<32>{#p/basic}{#npc/a}* There's no way I can chronologically recover from this."]
+                                    ? ["<32>{#p/basic}{#npc/a}* É uma verdadeira decepção.\n* Imensurável, até."]
+                                    : ["<32>{#p/basic}{#npc/a}* Sem chances de eu cronologicamente me recuperar disso."]
             ),
             a_drakedad: pager.create(
                 0,
@@ -5670,134 +5670,134 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Yah may have scared us off, but at least yah saved us.',
-                                "<32>* Can't say I'm not a little afraid of yah though."
+                                '<32>{#p/basic}{#npc/a}* Você pode ter nós assustado, mas pelo menos nos salvou no final.',
+                                "<32>* Mas ainda assim não posso dizer que não estou com medo de ti."
                             ]
                             : SAVE.data.b.s_state_chilldrake
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* Apology or not, yah more than made up for mah son's injuries.",
-                                    '<32>* Thank yah for yah kind deed.'
+                                    "<32>{#p/basic}{#npc/a}* Desculpando-se ou não, você fez muito mau ao machucar meu filho.",
+                                    '<32>* Obrigado por sua gentil ação.'
                                 ]
                                 : [
-                                    "<32>{#p/basic}{#npc/a}* Now that we're free, being a waitah may no longer suit me.",
-                                    "<32>* Our Son's returned, so I'll have to find mahself a new job..."
+                                    "<32>{#p/basic}{#npc/a}* Agora que estamos livres, ser um garçom não me serve mais.",
+                                    "<32>* Nosso filho voltou, então eu terei que encontrar um novo trabalho..."
                                 ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Everything around here is falling apart now.\n* People want their stah back.',
-                                "<32>* They've stopped coming to eat at our fancy restaraunt...",
-                                '<32>* In favah of fast food.'
+                                '<32>{#p/basic}{#npc/a}* Tudo aqui está caindo aos pedaços.\n* As pessoas querem o que é deles de volta.',
+                                "<32>* Eles pararam de vir comer no nosso restaurante chique.",
+                                '<32>* Em favor do Fast Food.'
                             ]
                             : SAVE.data.b.s_state_chilldrake
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* I heard about yah from my son's friends, they tell me he's been bruised all ovah...",
-                                    "<32>* Could yah apologize to him latah for me?\n* It'd mean the unahverse."
+                                    "<32>{#p/basic}{#npc/a}* Ouvi falar de você dos amigos do meu filho, eles me disseram que ele está todo machucado...",
+                                    "<32>* Você poderia pedir desculpas para ele por mim?\n* Significaria o universo."
                                 ]
                                 : [
-                                    "<32>{#p/basic}{#npc/a}* I'm a waitah.\n* My wife is a chess playah, and my son is a comedian.",
-                                    '<32>* They say being a waitah is a boring job, but it suits me.',
-                                    "<32>* Of course, I'm also a fathah.\n* I worry about my son, since he doesn't come home often...",
-                                    '<32>* Instead, he tells jokes with his friends in Starton.'
+                                    "<32>{#p/basic}{#npc/a}* Eu sou um garçom.\n* Minha esposa é grão-mestre no xadrez e meu filho comediante.",
+                                    '<32>* Eles dizem que ser garçom é um trabalho entediante, mas ele serve para mim.',
+                                    "<32>* É claro, eu também sou um pai.\n* Eu me preocupo, pois ele não vem pra casa com frequência...",
+                                    '<32>* Invés disso, ele fica contando piadas com seus amigos em Starton.'
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ['<32>{#p/basic}{#npc/a}* Just try to be kindah from now on, will yah?']
+                            ? ['<32>{#p/basic}{#npc/a}* Só tente ser bom partindo de agora, tudo bem?']
                             : SAVE.data.b.s_state_chilldrake
-                                ? ['<32>{#p/basic}{#npc/a}* Thank yah very much.']
-                                : ["<32>{#p/basic}{#npc/a}* Maybe I'll become a bartendah."]
+                                ? ['<32>{#p/basic}{#npc/a}* Muitíssimo obrigado.']
+                                : ["<32>{#p/basic}{#npc/a}* Talvez eu me torne um bartender."]
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* If things keep going like this, I fear I'll be out of a job."]
+                            ? ["<32>{#p/basic}{#npc/a}* Se as coisas continuarem assim, eu temo ter que sair do meu trabalho."]
                             : SAVE.data.b.s_state_chilldrake
-                                ? ['<32>{#p/basic}{#npc/a}* Just prahmise yah will.']
-                                : ['<32>{#p/basic}{#npc/a}* At least the jokes are funny.']
+                                ? ['<32>{#p/basic}{#npc/a}* Só me prometa que você será.']
+                                : ['<32>{#p/basic}{#npc/a}* Pelo menos as piadas são engraçadas.']
             ),
             a_reg: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Security left for the party a while ago, but I decided to stay for now.',
-                            '<32>* After all, why go anywhere else, when you can take in the aura...',
-                            '<32>* ... of a wish flower...'
+                            '<32>{#p/basic}{#npc/a}* O segurança saiu para uma festa faz pouco tempo, mas eu decidi ficar.',
+                            '<32>* Afinal, por que ir a qualquer outro lugar, quando você pode absorver a aura...',
+                            '<32>* ... de uma flor do desejo...'
                         ]
                         : SAVE.data.b.ubershortcut
                             ? [
-                                "<32>{#p/basic}{#npc/a}* I was bored, so I started taking in the wish flowers' auras.",
-                                "<32>* This one's not TOO bad, but there might be a better one somewhere else...",
-                                "<32>* ... maybe I'll stumble across that one later."
+                                "<32>{#p/basic}{#npc/a}* Eu estava entediado então comecei a respirar a aura da flor do desejo.",
+                                "<32>* Essa não é TÃO ruim, mas deve ter alguma por aí...",
+                                "<32>* ... que talvez ultrapasse os limites."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Security kicked me out for taking in the wish flowers' auras.",
+                                "<32>{#p/basic}{#npc/a}* O segurança me expulsou por absorver as auras das flores dos desejos.",
                                 SAVE.data.b.killed_mettaton
-                                    ? '<32>* That famous guy has everyone distracted, so I could probably go back in...'
+                                    ? '<32>* Aquele cara famoso distraiu todo mundo, então agora seria minha chance de voltar...'
                                     : world.genocide
-                                        ? '<32>* The lights went off a while ago, so I could probably go back in...'
-                                        : '<32>* The guards have clocked out, so I could probably go back in...',
-                                "<32>* ... but, ahh, this here's the best one I've found so far..."
+                                        ? '<32>* As luzes apagaram agora pouco, então eu provavelmente poderia voltar pra dentro...'
+                                        : '<32>* Os guardas bateram o ponto, então eu provavelmente poderia voltar...',
+                                "<32>* ... mas, ahh, está é a melhor que eu encontrei em muito tempo..."
                             ],
-                ["<32>{#p/basic}{#npc/a}* Don't worry about me, I'm just here... taking in a wish flower's aura."]
+                ["<32>{#p/basic}{#npc/a}* Não se preocupe comigo, estou só vou ficar aqui... absorvendo a aura de uma flor dos desejos."]
             ),
             a_oni: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* After all our hard work, we've made it out alive.",
-                            "<32>* Frankly, I'm tired of this job.\n* But it's been a good run.",
-                            "<32>* Maybe, when we get to the new homeworld, I'll be a factory worker instead.",
-                            "<32>* And don't tell me that's the same thing as bein' a CORE worker.",
-                            "<32>* For one, we won't have those two girls breathin' down our necks all the time...",
-                            "<32>* No, Catty, I don't want to sleep over with ya!\n* End of story!"
+                            "<32>{#p/basic}{#npc/a}* Após todo nosso trabalho, nós conseguimos sair vivos.",
+                            "<32>* Francamente, estou cansado desse trabalho.\n* Mas foi uma boa jornada.",
+                            "<32>* Talvez, quando chegarmos no novo mundo, eu trabalhe na fábrica.",
+                            "<32>* E não venha me dizer que é a mesma coisa de trabalhar no CORE.",
+                            "<32>* Pelo menos agora, nós não teremos aquelas duas garotas grudadas no nosso cangote...",
+                            "<32>* Não, Catty, eu não quero dormir com você!\n* Fim da história!"
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Long ago, they found a weak spot in the force field, about where the Outlands is now.',
-                            "<32>* It doesn't mean we can escape through it, but it does mean any human who comes here...",
-                            '<32>* ... will have to crash-land right around that area.',
-                            '<32>* So we built the outpost to be long and winding to slow down a potential invasion.',
-                            "<32>* We quickly realized it was a dumb idea, but by then, it'd become a tradition.",
-                            "<32>* Now, you can't go two seconds without getting lost..."
+                            '<32>{#p/basic}{#npc/a}* Muito tempo atrás, foi encontrado um pouco fraco no escudo de força. Onde hoje são as Outlands.',
+                            "<32>* Não significa que podemos escapar por lá, mas todo humano que vier...",
+                            '<32>* ... vai cair mais ou menos por aquela área.',
+                            '<32>* Então, construímos o posto avançado para ser longo, sinuoso e retardar uma invasão em potencial.',
+                            "<32>* Logo descobrimos a burrice da ideia, mas então se tornou uma tradição.",
+                            "<32>* Agora, você não anda dois segundos sem de perder..."
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* She's always been gettin' up on my case like that.",
-                            '<32>* Eh...\n* I guess it could be worse.',
-                            "<32>* We could still be workin' for that dumb robot."
+                            "<32>{#p/basic}{#npc/a}* Ela sempre se levantou no meu caso assim.",
+                            '<32>* Eh...\n* Eu acho que poderia ser pior.',
+                            "<32>* Nós poderíamos ainda estar trabalhando para aquele robô estúpido."
                         ]
                         : [
-                            "<32>{#p/basic}{#npc/a}* At least the CORE wasn't designed with this idea.",
-                            "<32>* Can you imagine how bad it'd be if we had to go through mazes to do maintenance?"
+                            "<32>{#p/basic}{#npc/a}* Pelo menos o CORE não foi construído com essa ideia.",
+                            "<32>* Imagine a tortura que seria andar por labirintos para fazer manutenção?"
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/basic}{#npc/a}* Go on, you two...']
+                        ? ['<32>{#p/basic}{#npc/a}* Vamos lá, vocês dois...']
                         : SAVE.data.n.plot === 72
-                            ? ["<32>{#p/basic}{#npc/a}* Let's just be glad it's over."]
-                            : ['<32>{#p/basic}{#npc/a}* Please and no thank you.']
+                            ? ["<32>{#p/basic}{#npc/a}* Só vamos ficar felizes que finalmente acabou."]
+                            : ['<32>{#p/basic}{#npc/a}* Por favor e não, obrigado.']
             ),
             a_charles: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* So looks like my job is over.\n* No more CORE.',
-                            '<32>* Actually, yes more core.\n* But not for us no more.',
-                            '<32>* Any time now, we leave, and we never return.',
-                            '<32>* What will my future be?',
-                            '<32>* Boy, do I sure wish I knew!'
+                            '<32>{#p/basic}{#npc/a}* Então parece que meu trabalho acabou.\n* Sem mais CORE.',
+                            '<32>* Na verdade, tem core sim.\n* Mas não pra gente.',
+                            '<32>* Qualquer hora agora, iremos ir embora e jamais retornar.',
+                            '<32>* O que será do meu futuro?',
+                            '<32>* Cara, eu com certeza gostaria de saber!'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* I work at the CORE.\n* The floor plan is designed to look like a bird.',
-                            '<32>* Oh! I bet you don\'t know what \"CORE\" stands for!',
-                            '<32>* It stands for \"Charged Onium- ion Refactorization Engine.\"',
-                            '<32>* What does it mean?',
-                            '<32>* I have no idea, no idea at all!'
+                            '<32>{#p/basic}{#npc/a}* Eu trabalho no CORE.\n* Era para o design se parecer com um pássaro.',
+                            '<32>* Oh! Eu aposto que você só sabe o que significa \"CORE\"!',
+                            '<32>* Significa \"Carregado de Ônio com íons de Refatoração Eletrizados.\"',
+                            '<32>* O que isso significa?',
+                            '<32>* Sei lá.'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Perhaps, in an alternate timeline, I could be king.',
+                            '<32>{#p/basic}{#npc/a}* Talvez, em uma linha do tempo alternativa, eu posso ser o rei.',
                             '<32>* It is I the good King Charles at your service!',
                             "<32>* Wouldn't that be nice!"
                         ]

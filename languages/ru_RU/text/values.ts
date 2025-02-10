@@ -49,7 +49,7 @@ export default {
         brave: 'Отважное сердце сослужит хорошую службу на вашем пути.',
         brazen: 'Отважное сердце сослужит хорошую службу на вашем пути.',
         calm: 'Спокойствие ума сотворит чудеса на вашем пути.',
-        clever: 'Пусть ваше мастерство превзойдёт все трудности на вашем пути.',
+        clever: 'Пусть ваше мастерство преодолеет все трудности на вашем пути.',
         cocky: 'A confident mindset will take you far on your journey.',
         crafty: 'May your inginuity surpass the challanges on your journey.',
         crazy: 'May balance come upon you as you embark on your journey.',

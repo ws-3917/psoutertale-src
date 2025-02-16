@@ -2918,455 +2918,455 @@ export default {
                         "<18>{#f/0}MAS TUDO BEM.\nÉ ESTRANHO DE UMA FORMA EDIFICANTE.",
                         "<25>{#p/sans}{#f/0}* cuidado mano, não queime a comida.",
                         "<18>{#p/papyrus}{#f/7}SANS!!!\nEU SEI O QUE ESTOU FAZENDO!!!",
-                        '<25>{#p/sans}{#f/2}* just making sure.',
-                        "<18>{#p/papyrus}{#f/6}SO... TURNS OUT ASGORE'S A BIG FAN OF SPAGHETTI.",
-                        '<18>{#p/papyrus}{#f/4}AFTER MY FIRST DISH, HE WAS HOOKED...',
-                        '<18>{#p/papyrus}{#f/0}NOW, HE WANTS ME TO COOK FOR THE WHOLE PARTY!',
-                        '<18>{#p/papyrus}{#f/9}I, MASTER CHEF PAPYRUS, AM HAPPY TO OBLIGE!',
-                        "<25>{#p/sans}{#f/0}* you're finally getting the respect you deserve, huh?",
-                        '<18>{#p/papyrus}{#f/0}OH, ABSOLUTELY.\nBECAUSE UNTIL NOW...',
-                        "<18>{#p/papyrus}{#f/4}I'VE NEVER SEEN A CUSTOMER GET PAST THE FIRST BITE.",
-                        '<25>{#p/sans}{#f/0}* wow.\n* talk about moving up in the world.',
-                        "<25>{#p/sans}{#f/3}* maybe now, not being in the royal guard... isn't so bad.",
-                        "<25>{#p/sans}{#f/2}* i'm your brother, so i'm proud of you either way.",
-                        "<18>{#p/papyrus}{#f/8}SANS...!\nYOU'RE GOING TO MAKE ME CRY!",
-                        "<18>{#p/papyrus}{#f/7}THE CUSTOMERS WON'T WANT TEARS IN THEIR PASTA!",
-                        '<25>{#p/sans}{#f/3}* whoops.\n* bad timing, i guess.',
-                        '<18>{#p/papyrus}{#f/4}FOR YOU, THIS IS ABOVE AVERAGE TIMING...',
-                        "<18>{#p/papyrus}{#f/0}... ANYWAY, WE'LL BE BUSY IN ASGORE'S KITCHEN.",
-                        '<18>{#p/papyrus}{#f/9}FEEL FREE TO SWING BY WHEN YOU GET THE CHANCE!',
+                        '<25>{#p/sans}{#f/2}* Só tendo certeza.',
+                        "<18>{#p/papyrus}{#f/6}ENTÃO... ASGORE É UM GRANDE FÃ DE ESPAGUETE.",
+                        '<18>{#p/papyrus}{#f/4}APÓS MINHA PRIMEIRA REFEIÇÃO, ELE FICOU ABISMADO...',
+                        '<18>{#p/papyrus}{#f/0}AGORA, ELE QUER QUE EU COZINHE PARA TODA A FESTA!',
+                        '<18>{#p/papyrus}{#f/9}EU, CHEFE MESTRE PAPYRUS, ESTOU FELIZ COM TAL TAREFA!',
+                        "<25>{#p/sans}{#f/0}* você finalmente está ganhando o respeito que merece, huh?",
+                        '<18>{#p/papyrus}{#f/0}OH, ABSOLUTAMENTE.\nPORQUE ATÉ O MOMENTO...',
+                        "<18>{#p/papyrus}{#f/4}EU NUNCA VI UMA PESSOA PASSANDO DA PRIMEIRA MORDIDA.",
+                        '<25>{#p/sans}{#f/0}* wow.\n* falando sobre mover o mundo pra cima.',
+                        "<25>{#p/sans}{#f/3}* talvez agora, não estar na guarda real... não é tão ruim.",
+                        "<25>{#p/sans}{#f/2}* eu sou seu irmão, então estou orgulhoso de ti de toda forma.",
+                        "<18>{#p/papyrus}{#f/8}SANS...!\nVOCÊ VAI ME FAZER CHORAR!",
+                        "<18>{#p/papyrus}{#f/7}AS PESSOAS NÃO VÃO QUERER PASTA COM LÁGRIMAS!",
+                        '<25>{#p/sans}{#f/3}* whoops.\n* momento errado, eu acho.',
+                        '<18>{#p/papyrus}{#f/4}PARA VOCÊ, ISSO É ACIMA DO TEMPO ACEITÁVEL.',
+                        "<18>{#p/papyrus}{#f/0}... DE TODA FORMA, ESTAREMOS NA COZINHA DO ASGORE.",
+                        '<18>{#p/papyrus}{#f/9}SINTA-SE LIVRE PARA VOLTAR QUANDO TIVER A CHANCE!',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ],
             epilogue2: () => [
-                '<25>{#p/sans}{#f/0}* hey, bucko.',
-                "<25>{#f/0}* i've been wondering when you'd swing by this way.",
-                '<25>{#f/3}* some kid blew past me not too long ago, probably to find you.',
-                '<25>{#f/2}* that must be why you finally picked up the phone after ten rings.',
-                "<25>{#f/0}* ... anyway.\n* i've been looking for someone myself, y'know.",
-                "<25>{#f/0}* you probably know her.\n* name's toriel.",
-                "<25>{#f/3}* i've looked in all the obvious places, but no dice.",
-                '<25>{#f/0}* by now, she could be anywhere...',
-                '<25>{#f/3}* if you see her, or hear from her, tell her to call me.',
+                '<25>{#p/sans}{#f/0}* ei, carinha.',
+                "<25>{#f/0}* eu estava me perguntando quando você apareceria por aqui.",
+                '<25>{#f/3}* alguma criança passou por mim a não muito tempo, provavelmente pra te encontrar.',
+                '<25>{#f/2}* deve ser por isso que você atendeu o telefone depois de dez ligações.',
+                "<25>{#f/0}* ... de toda forma.\n* eu estive procurando por alguém também.",
+                "<25>{#f/0}* você provavelmente conhece ela.\n* o nome é toriel.",
+                "<25>{#f/3}* eu a procurei por todos os lados, mas sem sucesso.",
+                '<25>{#f/0}* por agora, ela pode estar em qualquer lugar.',
+                '<25>{#f/3}* se você ver ela, ou ouvir sobre ela, diz pra ela me ligar.',
                 SAVE.data.b.skeleton_key
-                    ? '<25>{#f/2}* ... for all i know, she could be in my closet.'
-                    : '<25>{#f/2}* thanks in advance.'
+                    ? '<25>{#f/2}* ... pela que eu sei ela poderia estar no meu armário.'
+                    : '<25>{#f/2}* Obrigado adiantado.'
             ],
             epilogue3: [
-                '<25>{#p/asgore}{#f/6}* Ah, Frisk!\n* I see you are awake.',
-                '<25>{#f/6}* If you would like, you may join us in our celebration.',
-                '<25>{#f/21}* I am sure the others would be happy to see you.',
-                '<25>{#f/5}* Otherwise, feel free to roam the outpost as you please.',
-                '<25>{#f/5}* Once you are ready to leave, you may return to the throne room.',
-                '<25>{#f/6}{#x1}* I have just opened the door to the hangar by remote for you.'
+                '<25>{#p/asgore}{#f/6}* Ah, Frisk!\n* Que bom que você acordou.',
+                '<25>{#f/6}* Se você gostar, pode se juntar a nós em tal celebração.',
+                '<25>{#f/21}* Eu tenho certeza que os outros estarão felizes em te ver.',
+                '<25>{#f/5}* No mais, sinta-se livre de caminhar pelo Outpost enquanto ainda tem tempo.',
+                '<25>{#f/5}* Assim que quiser ir embora, vá para a sala do trono.',
+                '<25>{#f/6}{#x1}* Eu acabei de abrir a porta para o ônibus por controle remoto para você.'
             ],
             finaltext1: pager.create(
                 0,
                 () =>
                     SAVE.data.b.svr
                         ? [
-                            '<25>{#p/asriel1}{#f/17}* This door will take us to the hangar bay.',
-                            choicer.create('* (Leave the outpost?)', "Don't\nleave", "I'm\nready")
+                            '<25>{#p/asriel1}{#f/17}* Essa porta vai nós levar até a saída.',
+                            choicer.create('* (Deixar o Outpost?)', "Ainda\nNão", "Estou\npronto")
                         ]
                         : [
                             ...(SAVE.data.b.oops
                                 ? [
-                                    '<32>{#p/basic}* If you leave here, your journey will really be over.',
-                                    '<32>{#p/basic}* Your friends will follow you to a new homeworld.'
+                                    '<32>{#p/basic}* Se você sair agora, sua jornada terá chegado ao fim.',
+                                    '<32>{#p/basic}* Seus amigos irão segui-lo para o novo planeta natal.'
                                 ]
-                                : ['<32>{#p/basic}* Frisk...', "<32>* Don't you remember what we have to do?"]),
-                            choicer.create('* (Leave the outpost?)', "Don't\nleave", "I'm\nready")
+                                : ['<32>{#p/basic}* Frisk...', "<32>* Você não se lembra do que temos de fazer?"]),
+                            choicer.create('* (Deixar o Outpost?)', "Ainda\nNão", "Estou\npronto")
                         ],
-                [choicer.create('* (Leave the outpost?)', "Don't\nleave", "I'm\nready")]
+                [choicer.create('* (Deixar o Outpost?)', "Ainda\nNão", "Estou\npronto")]
             ),
-            finaltext2: ['<32>{#p/basic}* Frisk?', choicer.create('* (Leave the outpost?)', "Don't\nleave", "I'm\nready")],
-            finaltext3: ['<32>{#p/basic}* ...', choicer.create('* (Leave the outpost?)', "Don't\nleave", "I'm\nready")],
+            finaltext2: ['<32>{#p/basic}* Frisk?', choicer.create('* (Deixar o Outpost?)', "Ainda\nNão", "Estou\npronto")],
+            finaltext3: ['<32>{#p/basic}* ...', choicer.create('* (Deixar o Outpost?)', "Ainda\nNão", "Estou\npronto")],
             hangar1: () =>
                 SAVE.data.b.svr
                     ? [
-                        "<25>{#p/asriel1}{#f/23}* It's beautiful...",
+                        "<25>{#p/asriel1}{#f/23}* É lindo...",
                         '<25>{#f/22}* ...',
-                        "<25>{#f/13}* Even though I've seen this view since I was born...",
-                        "<26>{#f/17}* There's something special about seeing it without the force field.",
-                        "<25>{#f/17}* Maybe it's just my imagination...",
-                        '<25>{#f/23}* ... but the stars do look a little brighter.'
+                        "<25>{#f/13}* Mesmo que eu tenha tido essa visão desde que nasci...",
+                        "<26>{#f/17}* Tem algo especial em vê-la sem o escudo de força.",
+                        "<25>{#f/17}* Talvez seja só minha imaginação...",
+                        '<25>{#f/23}* ... mas as estrelas parecem um pouco mais brilhantes.'
                     ]
                     : [
-                        '<25>{#p/asgore}{#f/6}* Space...\n* The final frontier.',
-                        '<25>{#f/1}* Millions of unexplored worlds, some teeming with life...',
-                        '<25>{#f/2}* Others... lifeless.',
-                        '<26>{#f/5}* You could say the universe is like... a box of tree saps.',
-                        '<26>{#f/6}* You never know what you are going to get.'
+                        '<25>{#p/asgore}{#f/6}* Espaço... \n* A fronteira final.',
+                        '<25>{#f/1}* Milhões de planetas inexplorados, alguns cheios de vida...',
+                        '<25>{#f/2}* Outros... sem vida alguma.',
+                        '<26>{#f/5}* Você pode dizer que o universo é como um rio cheio de peixes...',
+                        '<26>{#f/6}* Você nunca sabe qual irá encontrar.'
                     ],
             hangar2: () =>
                 SAVE.data.b.svr
                     ? [
                         '<25>{#p/asriel1}{#f/17}* ... haha.',
-                        '<25>{#f/17}* We should get going.',
+                        '<25>{#f/17}* Deveríamos ir.',
                         '<25>{#f/15}* ...',
-                        '<25>{#f/15}* Mom and Dad will want to see me again, so...',
-                        "<25>{#f/17}* I'll go find them once we're on board.",
-                        '<25>{#f/13}* And you...',
-                        '<25>{#f/20}* ... you should probably get some rest, Frisk.',
-                        '<26>{#f/17}* You must be so tired after all of this.',
+                        '<25>{#f/15}* Mãe e Pai vão querer me ver de novo, então...',
+                        "<25>{#f/17}* Eu vou encontrá-los assim que estivermos a bordo.",
+                        '<25>{#f/13}* E você...',
+                        '<25>{#f/20}* ... você provavelmente deveria descansar, Frisk.',
+                        '<26>{#f/17}* Você deve estar muito cansado após tudo isso.',
                         '<25>{#f/13}* ...',
-                        '<25>{#f/13}* Maybe, by the time you wake up...',
-                        "<25>{#f/17}* You'll have a new home and a loving family to support you."
+                        '<25>{#f/13}* Talvez, quando você acordar...',
+                        "<25>{#f/17}* Você terá uma nova casa e uma família que te ama para te apoiar."
                     ]
-                    : ['<25>{|}{#p/asgore}{#f/5}* Huh?\n* Is someone- {%}'],
+                    : ['<25>{|}{#p/asgore}{#f/5}* Huh?\n* Tem algum- {%}'],
             hangar3: () =>
                 SAVE.data.b.svr
-                    ? ['<26>{#p/asriel1}{#f/17}* Ready?']
+                    ? ['<26>{#p/asriel1}{#f/17}* Pronto?']
                     : [
-                        '<25>{#p/toriel}* Oh, there you are, little one!',
+                        '<25>{#p/toriel}* Oh, aí está você, pequeno!',
                         '<25>{#f/5}* ...',
-                        '<25>{#f/5}* ... hello, Asgore.'
+                        '<25>{#f/5}* ... olá, Asgore.'
                     ],
-            hangar4: ['<25>{#p/asgore}{#f/1}* Howdy.'],
+            hangar4: ['<25>{#p/asgore}{#f/1}* Olá.'],
             hangar5: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/asgore}{#f/5}* ...'],
             hangar6: () =>
                 SAVE.data.b.c_state_secret5_used
                     ? [
-                        '<25>{#p/asgore}{#f/6}* Toriel, I...',
-                        '<25>{#p/asgore}{#f/1}* ... I know how you must feel about your actions in the past.',
-                        '<25>{#p/asgore}{#f/2}* About our... parting of the ways.',
-                        '<25>{#p/toriel}{#f/5}* ... you do?'
+                        '<25>{#p/asgore}{#f/6}* Toriel, eu...',
+                        '<25>{#p/asgore}{#f/1}* ... Eu sei como você deve se sentir em relação a suas ações no passado.',
+                        '<25>{#p/asgore}{#f/2}* Sobre nosso... divórcio.',
+                        '<25>{#p/toriel}{#f/5}* ... você sabe?'
                     ]
-                    : ['<25>{#p/asgore}{#f/5}* Well, this is awkward.'],
+                    : ['<25>{#p/asgore}{#f/5}* Bem, é estranho.'],
             hangar7: () =>
                 SAVE.data.b.c_state_secret5_used
                     ? [
-                        '<25>{#p/asgore}{#f/1}* You feel a sense of guilt towards me.',
-                        '<25>{#p/asgore}{#f/1}* You feel that your actions are... beyond reconciliation.',
-                        '<25>{#p/asgore}{#f/2}* ... that you do not deserve to be forgiven.',
-                        '<25>{#p/toriel}{#f/13}* ...\n* ... correct.',
-                        '<25>{#p/asgore}{#f/6}* But I do not believe that to be the case.',
-                        '<25>{#p/asgore}{#f/6}* I believe that you do deserve to be forgiven.',
-                        '<25>{#p/asgore}{#f/6}* That you do deserve to be part of a family again.',
-                        '<25>{#p/asgore}{#f/5}* And even though our feelings for each other have faded...',
-                        '<25>{#p/asgore}{#f/6}* That does not mean we cannot be together!'
+                        '<25>{#p/asgore}{#f/1}* Você sente culpa em relação a mim.',
+                        '<25>{#p/asgore}{#f/1}* Você sente que suas ações estão... acima da reconciliação.',
+                        '<25>{#p/asgore}{#f/2}* ... que você não merece ser perdoada.',
+                        '<25>{#p/toriel}{#f/13}* ...\n* ... correto.',
+                        '<25>{#p/asgore}{#f/6}* Mas eu não acredito que esse seja o caso.',
+                        '<25>{#p/asgore}{#f/6}* Eu acredito que você mereça perdão.',
+                        '<25>{#p/asgore}{#f/6}* Que você merece fazer parte de uma família de novo.',
+                        '<25>{#p/asgore}{#f/5}* E mesmo que nossos sentimentos um pelo outro tenham sumido...',
+                        '<25>{#p/asgore}{#f/6}* Isso não significa que não possamos estar juntos!'
                     ]
                     : SAVE.data.b.c_state_secret1_used
                         ? [
                             '<25>{#p/toriel}{#f/5}* Asgore...',
-                            '<25>{#p/toriel}{#f/5}* I know it may not mean much to you now, but...',
-                            '<25>{#p/toriel}{#f/9}* I am truly sorry for the way I allowed myself to be.',
-                            '<25>{#p/toriel}{#f/13}* I made you out to be a terrible creature.',
-                            '<25>{#p/toriel}{#f/13}* A coward.',
-                            '<25>{#p/toriel}{#f/9}* A child murderer.',
-                            '<25>{#p/toriel}{#f/10}* ... but you are none of those things.',
-                            '<25>{#p/toriel}{#f/1}* In fact...',
-                            '<25>{#p/toriel}{#f/3}* Despite the unforseen consequences of the archive...',
-                            '<25>{#p/toriel}{#f/0}* Protecting those humans was the bravest thing you could have done.'
+                            '<25>{#p/toriel}{#f/5}* Eu sei que isso pode não significar muito para você agora, mas...',
+                            '<25>{#p/toriel}{#f/9}* Eu realmente sinto muito pela forma que agi contra você.',
+                            '<25>{#p/toriel}{#f/13}* Eu te construí em minha mente como uma terrível criatura.',
+                            '<25>{#p/toriel}{#f/13}* Um covarde.',
+                            '<25>{#p/toriel}{#f/9}* Um assassino de crianças.',
+                            '<25>{#p/toriel}{#f/10}* ... mas você não é nenhuma dessas coisas.',
+                            '<25>{#p/toriel}{#f/1}* De fato...',
+                            '<25>{#p/toriel}{#f/3}* Apesar das consequências imprevistas do arquivo...',
+                            '<25>{#p/toriel}{#f/0}* Proteger aqueles humanos foi a coisa mais corajosa que você fez.'
                         ]
-                        : ['<25>{#p/toriel}{#f/1}* Very much so.'],
+                        : ['<25>{#p/toriel}{#f/1}* Muito obrigada por isso.'],
             hangar8: () =>
                 SAVE.data.b.c_state_secret5_used
                     ? SAVE.data.b.c_state_secret1_used
                         ? [
-                            '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
-                            '<25>{#p/toriel}{#f/5}* I am not sure that would be wise...',
-                            '<25>{#p/toriel}{#f/1}* Besides, even if I DID want a family, it has been so long...',
-                            '<25>{#p/toriel}{#f/0}* No, no, this is selfish of me.\n* I cannot.',
-                            '<25>{#p/asgore}{#f/6}* Ah, but you see...',
-                            '<25>{#p/asgore}{#f/6}* Frisk is the one who wanted me to ask you about this.',
+                            '<25>{#p/toriel}{#f/1}* ... Asgore, eu...',
+                            '<25>{#p/toriel}{#f/5}* Eu não tenho certeza se isso seria certo...',
+                            '<25>{#p/toriel}{#f/1}* Além disso, mesmo que EU QUEIRA uma família, já faz muito tempo...',
+                            '<25>{#p/toriel}{#f/0}* Não, não, isso é egocêntrico de minha parte.\n* Eu não posso.',
+                            '<25>{#p/asgore}{#f/6}* Ah, mas veja...',
+                            '<25>{#p/asgore}{#f/6}* Foi Frisk quem me pediu para lhe perguntar sobre isso.',
                             '<25>{#p/toriel}{#f/7}* ... Frisk!?',
-                            '<25>{#p/toriel}{#f/1}* Well... I, umm...',
-                            '<25>{#p/toriel}{#f/5}* I suppose... I could consider it...',
-                            '<32>{#p/human}* (You nod your head, smiling.)',
-                            '<25>{#p/asgore}{#f/21}* See?\n* Frisk clearly wants you to stay with us.',
+                            '<25>{#p/toriel}{#f/1}* Bem... eu, umm...',
+                            '<25>{#p/toriel}{#f/5}* Eu suponho... que eu possa considerar...',
+                            '<32>{#p/human}* (Você acena com a cabeça, sorrindo.)',
+                            '<25>{#p/asgore}{#f/21}* Vê?\n* Frisk claramente deseja que você fique conosco.',
                             '<25>{#p/toriel}{#f/23}* ...',
-                            '<25>{#p/toriel}{#f/1}* I will think about it.'
+                            '<25>{#p/toriel}{#f/1}* Eu vou pensar sobre isso.'
                         ]
                         : [
-                            '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
-                            '<25>{#p/toriel}{#f/5}* I do not believe that it would be wise.',
-                            '<25>{#p/toriel}{#f/10}* I am sorry.\n* I do desire to have a family, but...',
-                            '<25>{#p/toriel}{#f/9}* Given the circumstances, I cannot accept it.',
+                            '<25>{#p/toriel}{#f/1}* ... Asgore, eu...',
+                            '<25>{#p/toriel}{#f/5}* Eu não acredito que seria o certo.',
+                            '<25>{#p/toriel}{#f/10}* Eu sinto muito.\n* Eu desejo sim ter uma família, mas...',
+                            '<25>{#p/toriel}{#f/9}* Dadas as circunstâncias, eu não poderei aceitar.',
                             '<25>{#p/asgore}{#f/1}* ...',
-                            '<25>{#p/asgore}{#f/2}* I understand.'
+                            '<25>{#p/asgore}{#f/2}* Eu entendo.'
                         ]
                     : SAVE.data.b.c_state_secret1_used
                         ? [
                             '<25>{#p/asgore}{#f/20}* ...',
-                            '<25>{#p/asgore}{#f/4}* ... thank you.',
-                            '<25>{#p/asgore}{#f/6}* It means a lot to me to hear you speak those words.',
-                            '<25>{#p/toriel}{#f/9}* And you deserved to hear them.'
+                            '<25>{#p/asgore}{#f/4}* ... obrigado.',
+                            '<25>{#p/asgore}{#f/6}* Significa muito para mim te ouvir dizer tais palavras.',
+                            '<25>{#p/toriel}{#f/9}* E você as merece ouvir.'
                         ]
                         : ['<25>{#p/asgore}{#f/5}* Hmm.'],
             hangar9: [
-                '<18>{#p/papyrus}HEY GUYS!',
-                '<25>{#p/toriel}{#f/1}* ... oh, hello!',
-                "<18>{#p/papyrus}{#f/0}HELLO!\nIT'S VERY NICE TO SEE YOU AGAIN.",
-                '<18>{#p/papyrus}{#f/9}I JUST FINISHED CLEANING UP AT THE HOUSE PARTY!',
-                '<25>{#p/toriel}{#f/1}* ... I see, I see.',
-                '<25>{#p/toriel}{#f/0}* Well then.\n* Perhaps you could join us in our... activity.'
+                '<18>{#p/papyrus}OLÁ PESSOAL!',
+                '<25>{#p/toriel}{#f/1}* ... oh, oi!',
+                "<18>{#p/papyrus}{#f/0}OLÁ!\nÉ ÓTIMO TE VER DE NOVO!",
+                '<18>{#p/papyrus}{#f/9}EU ACABEI DE LIMPAR A FESTA NA CASA!',
+                '<25>{#p/toriel}{#f/1}* ... Que bom, que bom.',
+                '<25>{#p/toriel}{#f/0}* Pois bem. \n* Talvez você queira se juntar a nossa atividade.'
             ],
             hangar10: [
                 '<18>{#p/papyrus}{#f/5}WOWIE...',
-                '<25>{#p/asgore}{#f/21}* Beautiful, is it not?',
-                "<25>{#p/asgore}{#f/5}* Until now, the force field has obscured much of the cosmos' light.",
-                '<25>{#p/asgore}{#f/6}* Indeed... this is how the stars have looked all along.',
-                '<18>{#p/papyrus}{#f/0}HOW FASCINATING!',
-                '<18>{#p/papyrus}{#f/6}... IF ONLY I COULD TELL THE DIFFERENCE.',
-                '<25>{#p/asgore}{#f/5}* If you are having trouble seeing, you may simply be tired.',
-                '<18>{#p/papyrus}{#f/5}I SUPPOSE IT HAS BEEN A LONG DAY...',
-                '<25>{#p/toriel}{#f/1}* Perhaps it would be a good idea to lay down and rest, then.',
-                '<18>{#p/papyrus}{#f/7}WHAT!?\nRESTING!?',
-                '<18>{#p/papyrus}{#f/7}GIVE ME A BREAK!!',
-                "<18>{#p/papyrus}{#f/4}ACTUALLY, DON'T GIVE ME A BREAK.",
-                "<18>{#p/papyrus}{#f/7}I DON'T NEED ONE!!",
+                '<25>{#p/asgore}{#f/21}* É lindo, não é mesmo?',
+                "<25>{#p/asgore}{#f/5}* Até o momento, o escudo de força havia escurecido muita luz do cosmo.",
+                '<25>{#p/asgore}{#f/6}* Interessante... é assim que as estrelas se parecem com todo seu brilho.',
+                '<18>{#p/papyrus}{#f/0}QUE FASCINANTE!',
+                '<18>{#p/papyrus}{#f/6}... SE EU PELO MENOS PUDESSE DIZER A DIFERENÇA.',
+                '<25>{#p/asgore}{#f/5}* Se você estiver tendo dificuldades para jogar a diferença, talvez esteja cansado.',
+                '<18>{#p/papyrus}{#f/5}EU SUPONHO QUE FOI UM LONGO DIA...',
+                '<25>{#p/toriel}{#f/1}* É uma boa ideia deitar e dormir, então.',
+                '<18>{#p/papyrus}{#f/7}O QUE!?\nDESCANSAR!?',
+                '<18>{#p/papyrus}{#f/7}ME DA UMA PAUSA!!',
+                "<18>{#p/papyrus}{#f/4}NA VERDADE, NÃO ME DA UMA PAUSA.",
+                "<18>{#p/papyrus}{#f/7}EU NÃO PRECISO!!",
                 '<18>{#p/papyrus}{#f/5}...',
-                '<18>{#p/papyrus}{#f/5}MY BROTHER, ON THE OTHER HAND...'
+                '<18>{#p/papyrus}{#f/5}MEU IRMÃO POR OUTRO LADO...'
             ],
-            hangar11: ["<25>{#p/sans}{#f/2}* 'sup, bro?"],
-            hangar12: ['<25>{#p/toriel}{#f/0}* Oh!\n* \"\'Sup,\" Sans!', '<25>{#p/asgore}{#f/5}* Howdy...?'],
+            hangar11: ["<25>{#p/sans}{#f/2}* salve, irmão?"],
+            hangar12: ['<25>{#p/toriel}{#f/0}* Oh!\n* \"Salve\", Sans!', '<25>{#p/asgore}{#f/5}* Olá...?'],
             hangar13: [
-                '<18>{#p/papyrus}{#f/4}YOU KNOW WHAT \"SUP,\" BROTHER...',
-                "<18>{#p/papyrus}{#f/0}AND WHAT'S DOWN!\nAND WHAT'S LEFT!\nAND WHAT'S RIGHT!",
-                "<18>{#p/papyrus}{#f/9}IT'S ALL AROUND US, IN FACT!",
+                '<18>{#p/papyrus}{#f/4}VOCÊ SABE O TAL \"SALVE\", IRMÃO...',
+                "<18>{#p/papyrus}{#f/0}E O QUE NÃO TÁ SALVE!\nE O QUE TÁ DE BUENAS!\nE O QUE TÁ TRANQUILEBA!",
+                "<18>{#p/papyrus}{#f/9}ESTÁ TUDO AO NOSSO REDOR!",
                 '<25>{#p/sans}{#f/0}* hmm...',
-                "<25>{#p/sans}{#f/2}* so would you say you're {@fill=#ff0}shooting for the stars{@fill=#fff}, then?",
+                "<25>{#p/sans}{#f/2}* Então você quer dizer que eu estou {@fill=#ff0}voando nas estrelas {@fill=#fff}, então?",
                 '<18>{#p/papyrus}{#f/5}...',
-                '<18>{#p/papyrus}{#f/5}WELL, YES, I SUPPOSE I WOULD.',
-                '<25>{#p/sans}{#f/4}* heheh.\n* glad to hear it.',
-                '<18>{#p/papyrus}{#f/0}SO AM I.'
+                '<18>{#p/papyrus}{#f/5}BEM, DAQUI A POUCO, EU DIREI QUE SIM!',
+                '<25>{#p/sans}{#f/4}* heheh.\n* feliz em ouvir.',
+                '<18>{#p/papyrus}{#f/0}EU TAMBÉM.'
             ],
             hangar14: [
-                '<25>{#p/sans}* by the way, everyone LOVED the spaghetti you made earlier.',
-                "<25>{#p/sans}{#f/2}* in fact, i would've gotten here sooner...",
-                "<25>{#p/sans}{#f/2}* ... if it wasn't for everyone begging me to try it.",
-                '<18>{#p/papyrus}{#f/0}BUT... DID -YOU- LIKE IT!?',
-                '<25>{#p/sans}{#f/3}* heh.\n* of course i did.',
-                "<25>{#p/sans}{#f/0}* you've improved your skills a LOT lately.",
-                '<18>{#p/papyrus}{#f/9}NYEH HEH HEH!\nOF COURSE I HAVE!',
-                "<18>{#p/papyrus}{#f/0}I'VE BEEN FEELING MORE MOTIVATED IN GENERAL...",
-                '<18>{#p/papyrus}{#f/0}... EVER SINCE FRISK ARRIVED.',
-                '<25>{#p/sans}{#f/0}* they seem to have that effect on people, huh?',
-                '<18>{#p/papyrus}{#f/0}YEAH, IT FELT LIKE I HAD A PURPOSE WITH THEM!',
-                '<18>{#p/papyrus}{#f/4}FIRST, AS THEIR INDOMITABLE FOE...',
-                '<18>{#p/papyrus}{#f/5}... AND THEN, LATER, A TRULY GREAT FRIEND.',
-                "<18>{#p/papyrus}{#f/6}MY ONLY WORRY IS THAT, NOW THAT WE'RE FREE...",
-                "<18>{#p/papyrus}{#f/6}IT'LL BE KIND OF HARD TO FIGURE OUT WHAT COMES NEXT.",
-                '<18>{#p/papyrus}{#f/4}ON THE FLIPSIDE, NOW THAT WE -ARE- FREE...',
-                "<18>{#p/papyrus}{#f/9}WE'LL HAVE ALL THE TIME IN THE GALAXY TO DECIDE!",
-                "<18>{#p/papyrus}{#f/0}... I WONDER WHAT I'LL DO FIRST."
+                '<25>{#p/sans}* Por sinal, todos AMARAM o espaguete que você fez mais cedo.',
+                "<25>{#p/sans}{#f/2}* Eu teria chegado aqui mais cedo...",
+                "<25>{#p/sans}{#f/2}* ... se não fosse todo mundo me implorando para provar.",
+                '<18>{#p/papyrus}{#f/0}MAS... VOCÊ GOSTOU!?',
+                '<25>{#p/sans}{#f/3}* heh.\n* é claro que sim.',
+                "<25>{#p/sans}{#f/0}* você tem melhorado bastante suas habilidades.",
+                '<18>{#p/papyrus}{#f/9}NYEH HEH HEH!\nÉ CLARO QUE EU TENHO!',
+                "<18>{#p/papyrus}{#f/0}EU TENHO ME SENTIDO MAIS MOTIVADO DE MODO GERAL...",
+                '<18>{#p/papyrus}{#f/0}... DESDE QUE FRISK CHEGOU.',
+                '<25>{#p/sans}{#f/0}* Ele parece ter um efeito nas pessoas, huh?',
+                '<18>{#p/papyrus}{#f/0}SIM, EU SENTI QUE TINHA UM PROPÓSITO AO LADO DELE!',
+                '<18>{#p/papyrus}{#f/4}PRIMEIRO, COMO SEU INIMIGO INDOMÁVEL...',
+                '<18>{#p/papyrus}{#f/5}... E DEPOIS, COMO UM GRANDE AMIGO.',
+                "<18>{#p/papyrus}{#f/6}MINHA PREOCUPAÇÃO É QUE AGORA QUE ESTAMOS LIVRES...",
+                "<18>{#p/papyrus}{#f/6}É DIFÍCIL IMAGINAR O QUE VIRÁ DEPOIS.",
+                '<18>{#p/papyrus}{#f/4}POR OUTRO LADO, AGORA QUE -ESTAMOS- LIVRES...',
+                "<18>{#p/papyrus}{#f/9}NÓS TEMOS TODO O TEMPO DA GALÁXIA PARA DECIDIR!",
+                "<18>{#p/papyrus}{#f/0}... EU ME PERGUNTO O QUE FAREI PRIMEIRO."
             ],
-            hangar15: ['<25>{#p/undyne}{#f/8}* Fuhuhu!\n* I have an idea!'],
+            hangar15: ['<25>{#p/undyne}{#f/8}* Fuhuhu!\n* Eu tenho uma ideia!'],
             hangar16: [
-                "<25>{#p/alphys}{#g/alphysSmarmyAggressive}* That's right. You're going to help us launch a Mew Mew franchise."
+                "<25>{#p/alphys}{#g/alphysSmarmyAggressive}* Exatamente. Você vai nos ajudar a lançar uma nova franquia Mew Mew."
             ],
             hangar17: ['<25>{#p/toriel}{#f/6}* Pff-\n* Hahaha!'],
-            hangar18: ["<25>{#p/undyne}{#f/12}* I mean, I wouldn't go THAT far, but... sure."],
+            hangar18: ["<25>{#p/undyne}{#f/12}* Quer dizer, eu não iria tão longe, mas... claro."],
             hangar19: () => [
-                "<25>{#p/alphys}{#g/alphysYupEverythingsFine}* So, first, we'll need a spacecraft for Mew Mew to pilot...",
-                "<25>{#p/undyne}{#f/17}* Alphys!!\n* We're not even off the outpost yet!",
+                "<25>{#p/alphys}{#g/alphysYupEverythingsFine}* Então, primeiro, precisaremos de uma espaçonave para Mew Mew pilotar...",
+                "<25>{#p/undyne}{#f/17}* Alphys!! \n* Nós nem saímos do Outpost ainda!",
                 ...(SAVE.data.b.a_state_hapstablook
                     ? [
-                        "<25>{#p/undyne}{#f/16}* And besides, she's... kind of busy right now.",
-                        "<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I forgot there's a real life Mew Mew now.",
-                        '<18>{#p/papyrus}{#f/0}YEAH, I SAW HER AT THE PARTY NOT TOO LONG AGO!',
-                        '<18>{#p/papyrus}{#f/0}SHE SEEMED PRETTY HAPPY, ACTUALLY.',
-                        "<25>{#p/alphys}{#g/alphysInquisitive}* Didn't she used to be some angry dummy or something?",
-                        "<25>{#p/undyne}{#f/7}* It doesn't MATTER!\n* She's beautiful the way she is NOW, dammit!",
-                        '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Oh my god, okay!!'
+                        "<25>{#p/undyne}{#f/16}* E aliás, ela... está meio ocupada agora.",
+                        "<25>{#p/alphys}{#g/alphysWelp}* A-ah é, eu esqueci que agora existe uma Mew Mew de verdade.",
+                        '<18>{#p/papyrus}{#f/0}É, EU VI ELA NÃO MUITO TEMPO ATRÁS NA FESTA!',
+                        '<18>{#p/papyrus}{#f/0}ELA PARECIA BEM FELIZ, SINCERAMENTE.',
+                        "<25>{#p/alphys}{#g/alphysInquisitive}* Ela não era um tal de Boneco Raivoso oh algo assim?",
+                        "<25>{#p/undyne}{#f/7}* Não IMPORTA!\n* Ela é bonita do jeito que é agora, CARALHO!",
+                        '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Nossa, tá booom!?'
                     ]
                     : [
-                        "<25>{#p/undyne}{#f/16}* And besides, it's...",
-                        "<25>{#p/undyne}{#f/17}* Hey, weren't you supposed to be making someone a Mew mew doll?",
-                        '<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I still need to do that.',
-                        '<18>{#p/papyrus}{#f/5}I REMEMBER SOMEONE AT THE PARTY ASKING ABOUT IT...',
-                        '<18>{#p/papyrus}{#f/6}THEY SEEMED KIND OF SHY, THOUGH.',
-                        '<25>{#p/alphys}{#g/alphysCutscene2}* Yeah, I think I know who that was.\n* I gotta finish it...',
-                        '<25>{#p/undyne}{#f/7}* And you better be done BEFORE we get to the new homeworld!',
-                        '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* I will, I will!!'
+                        "<25>{#p/undyne}{#f/16}* E além disso...",
+                        "<25>{#p/undyne}{#f/17}* Ei, não era pra você estar fazendo uma nova Boneca Mew Mew pra alguém?",
+                        '<25>{#p/alphys}{#g/alphysWelp}* A-ah certo, eu ainda tenho que fazer isso.',
+                        '<18>{#p/papyrus}{#f/5}EU LEMBRO DE ALGUÉM NA FESTA PERGUNTANDO SOBRE ISSO...',
+                        '<18>{#p/papyrus}{#f/6}PARECIA MEIO TIMIDO.',
+                        '<25>{#p/alphys}{#g/alphysCutscene2}* Sim, acho que sei quem era.\n* Eu tenho que terminar...',
+                        '<25>{#p/undyne}{#f/7}* E é melhor você terminar antes de chegarmos no novo mundo!',
+                        '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Eu vou, eu vou!!'
                     ])
             ],
             hangar20: [
-                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* A-anyway...',
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* It's good to see you, Asgore.\n* You too, Sans.",
-                '<18>{#p/papyrus}{#f/6}WHAT ABOUT ME??',
-                '<25>{#p/alphys}{#g/alphysSmileSweat}* ... you as well.',
-                '<25>{#p/toriel}{#f/0}* I believe you may be forgetting someone.',
-                '<25>{#p/alphys}{#g/alphysCutscene3}* Ah!\n* S-sorry...!',
-                '<25>{#p/toriel}{#f/6}* Hee hee.\n* I am only teasing you.',
-                '<25>{#p/toriel}{#f/1}* Truth be told, I have heard much about you...',
-                '<25>{#p/toriel}{#f/0}* Being a royal scientist at such a young age is no small feat.',
-                "<25>{#p/undyne}{#f/8}* YEAH!!\n* She's the BEST!",
-                '<25>{#p/alphys}{#g/alphysCutscene2}* ... I try.'
+                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* De toda f-forma...',
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* É bom te ver, Asgore.\n* Você também, Sans.",
+                '<18>{#p/papyrus}{#f/6}E EU?',
+                '<25>{#p/alphys}{#g/alphysSmileSweat}* ... você também.',
+                '<25>{#p/toriel}{#f/0}* Eu acho que você está esquecendo alguém.',
+                '<25>{#p/alphys}{#g/alphysCutscene3}* Ah!\n* D-desculpa...!',
+                '<25>{#p/toriel}{#f/6}* Hee hee.\n* Estou só te enjoando.',
+                '<25>{#p/toriel}{#f/1}* Verdade seja dita, eu ouvi muito sobre você...',
+                '<25>{#p/toriel}{#f/0}* Se tornar cientista real tão jovem, é um grande feito.',
+                "<25>{#p/undyne}{#f/8}* É!!\n* Ela é a MELHOR!",
+                '<25>{#p/alphys}{#g/alphysCutscene2}* ... Eu tento.'
             ],
             hangar21: [
-                '<25>{#p/asgore}{#f/6}* Well, now that we are here, let us all take a deep breath...',
-                '<25>{#p/asgore}{#f/21}* And reflect on the journey that has taken us here.'
+                '<25>{#p/asgore}{#f/6}* Agora que estamos todos aqui, vamos tomar um momento para respirar...',
+                '<25>{#p/asgore}{#f/21}* E refletir sobre a jornada que nos trouxe até aqui.'
             ],
             hangar22: [
-                "<25>{#p/sans}{#f/3}* it's kind of funny, isn't it?",
-                "<25>{#p/sans}{#f/0}* all this time we've spent trapped here...",
-                '<25>{#p/sans}{#f/0}* always able to see the stars, but never touch them...',
-                '<25>{#p/sans}{#f/3}* but... now...',
-                "<25>{#p/sans}{#f/0}* ... i guess that's not really funny, per se.",
-                "<25>{#p/sans}{#f/3}* it's just nice.",
-                '<18>{#p/papyrus}{#f/5}YEAH.',
-                '<18>{#p/papyrus}{#f/5}JUST... NICE.'
+                "<25>{#p/sans}{#f/3}* é meio engraçado, não é?",
+                "<25>{#p/sans}{#f/0}* todo o tempo que estivemos presos aqui...",
+                '<25>{#p/sans}{#f/0}* sempre pudemos ver as estrelas, mas nunca toca-las.',
+                '<25>{#p/sans}{#f/3}* mas... agora...',
+                "<25>{#p/sans}{#f/0}* ... eu acho que isso não tão legal.",
+                "<25>{#p/sans}{#f/3}* só é da hora.",
+                '<18>{#p/papyrus}{#f/5}É.',
+                '<18>{#p/papyrus}{#f/5}SÓ... LEGAL.'
             ],
-            hangar23: ['<32>{#p/napstablook}* hey everyone...'],
+            hangar23: ['<32>{#p/napstablook}* ei todo mundo...'],
             hangar24: [
-                "<32>{#p/napstablook}* i hope i'm not intruding on you guys or anything...",
-                '<25>{#p/undyne}{#f/14}* Pfft, intruding?\n* No way!',
-                "<25>{#p/sans}{#f/0}* yeah, you're cool.",
-                '<18>{#p/papyrus}{#f/6}BUT NOT -TOO- COOL, SANS!',
-                "<18>{#p/papyrus}{#f/4}OTHERWISE, THEY'D BE FREEZING...",
+                "<32>{#p/napstablook}* eu espero não estar atrapalhando vocês ou coisa do tipo...",
+                '<25>{#p/undyne}{#f/14}* Pfft, atrapalhando?\n* Sem chance!',
+                "<25>{#p/sans}{#f/0}* é, você da hora.",
+                '<18>{#p/papyrus}{#f/6}MAS NÃO TÃO -LEGAL-, SANS!',
+                "<18>{#p/papyrus}{#f/4}SE NÃO ELE ESTARIA CONGELANDO...",
                 '<32>{#p/napstablook}* heh...'
             ],
             hangar25: [
-                '<25>{#p/alphys}{#g/alphysCutscene1}* So Blooky!\n* Have you seen the new Mew Mew movie?',
-                "<32>{#p/napstablook}* there's a... new movie?",
-                '<25>{|}{#p/alphys}{#g/alphysHellYeah}* Yeah!!\n* So basically Mew Mew starts to regret what {%}',
-                '<99>{|}{#p/alphys}{#g/alphysHellYeah}  she did in Starfire and\n  wants to fix it by\n  going back in time but {%}',
+                '<25>{#p/alphys}{#g/alphysCutscene1}* Então Blooky!\n* Você viu o novo filme da Mew Mew?',
+                "<32>{#p/napstablook}* tem... um novo?",
+                '<25>{|}{#p/alphys}{#g/alphysHellYeah}* É!\n* Então basicamente a Mew Mew se arrepende do que {%}',
+                '<99>{|}{#p/alphys}{#g/alphysHellYeah} ela fez em Starfire e\n  quer consertar\n  voltando no tempo, mas {%}',
                 '<25>{#p/undyne}{#f/12}* Uh...',
-                '<25>{|}{#p/alphys}{#g/alphysTheFactIs}* To do that she has to use a device that she got by killing a bunch {%}',
-                '<99>{|}{#p/alphys}{#g/alphysTheFactIs}  of people at the end of\n  Starfire and like she\n  gets all flustered and {%}',
+                '<25>{|}{#p/alphys}{#g/alphysTheFactIs}* Para fazer isso, ela tem que usar um dispositivo que ela conseguiu matando um monte {%}',
+                '<99>{|}{#p/alphys}{#g/alphysTheFactIs} de pessoas no final de\n  Starfire e como ela\n  fica toda perturbada e {%}',
                 '<25>{#p/undyne}{#f/17}* Alphys.',
-                "<25>{|}{#p/alphys}{#g/alphysInquisitive}* She has a moral dilemma about if she's actually a good person for using {%}",
-                '<99>{|}{#p/alphys}{#g/alphysInquisitive}  the device to undo all\n  the damage she caused\n  trying to get it and- {%}',
+                "<25>{|}{#p/alphys}{#g/alphysInquisitive}* Ela tem um dilema moral sobre se ela é realmente uma boa pessoa para usar {%}",
+                '<99>{|}{#p/alphys}{#g/alphysInquisitive} o dispositivo para desfazer todos os\n  o dano que ela causou\n  tentando obtê-lo e- {%}',
                 '<25>{#p/undyne}{#f/8}* SPOILERS!!!',
                 '<25>{#p/alphys}{#g/alphysSmileSweat}* ...',
-                '<25>{#p/alphys}{#g/alphysNervousLaugh}* ... sorry.'
+                '<25>{#p/alphys}{#g/alphysNervousLaugh}* ... desculpa.'
             ],
             hangar26: [
-                "<32>{#p/napstablook}* don't worry... you talked so fast that i didn't even hear what you said...",
+                "<32>{#p/napstablook}* não se preocupa... você falou rápido demais para que eu entendesse...",
                 '<25>{#p/alphys}{#g/alphysWelp}* ...',
-                '<25>{#p/alphys}{#g/alphysWelp}* I get that a lot.',
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* ... but that's okay.",
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* Freedom's more important than some sci-fi anime franchise."
+                '<25>{#p/alphys}{#g/alphysWelp}* Sinto que falam isso demais pra mim.',
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* ... mas tudo bem.",
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* Liberdade é mais importante que qualquer franquia de anime."
             ],
-            hangar27: ['<32>{#p/mettaton}* DID SOMEBODY SAY \"FRANCHISE?\"'],
-            hangar28: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ... here we go again.'],
+            hangar27: ['<32>{#p/mettaton}* ALGUÉM DISSE \"FRANQUIA\"?'],
+            hangar28: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ... aí vamos nós de novo.'],
             hangar29: [
-                "<32>{#p/mettaton}* DON'T FRET, DOCTOR!",
-                "<32>{#p/mettaton}* I'M ONLY TRYING TO BRING YOUR -WILDEST- DREAMS TO LIFE!",
-                "<25>{#p/undyne}{#f/12}* You wouldn't be saying that if you knew her ACTUAL wildest dreams.",
-                '<26>{#p/toriel}{#f/1}* Um, perhaps we should save that topic for another time...',
-                '<25>{#p/undyne}{#f/17}* Gee, thanks MOM.',
+                "<32>{#p/mettaton}* NÃO INTERROMPA, DOUTORA!",
+                "<32>{#p/mettaton}* EU APENAS ESTOU TENTANDO TRAZER SEUS MAIS -PERFEITOS- SONHOS A REALIDADE!",
+                "<25>{#p/undyne}{#f/12}* Você não diria se soubesse os VERDADEIROS sonhos dela.",
+                '<26>{#p/toriel}{#f/1}* Um, talvez seja hora de encerrar está conversa...',
+                '<25>{#p/undyne}{#f/17}* Senhor, obrigado MÃE.',
                 '<25>{#p/toriel}{#f/3}* ...',
-                '<25>{#p/toriel}{#f/4}* I do not know how to feel about that...\n* ... statement.',
-                '<32>{#p/mettaton}* AH, YOU MUST BE IN NEED OF AN MTT-BRAND RELATIONSHIP GUIDEBOOK, THEN!',
-                "<32>{#p/mettaton}* DON'T WORRY.\n* I REMEMBER THE STEPS BY HEART.",
-                '<33>{|}{#p/mettaton}* FIRST, PRESS C OR CTRL TO OPEN- {%}',
-                '<25>{#p/toriel}{#f/0}* Another time.',
-                '<32>{#p/mettaton}* ... IT WAS WORTH A SHOT.'
+                '<25>{#p/toriel}{#f/4}* Eu não sei como me sentir em relação a esse...\n* ... título.',
+                '<32>{#p/mettaton}* AH, VOCÊ DEVE ESTAR PRECISANDO DE UM LIVRO GUIANDO SOBRE RELACIONAMENTOS DA MARCA MTT!',
+                "<32>{#p/mettaton}* NÃO TEMAS.\n* EU ME LEMBRO DOS PASSOS NO CORAÇÃO.",
+                '<33>{|}{#p/mettaton}* PRIMEIRO, PRESSIONE C OU CTRL PARA ABRIR- {%}',
+                '<25>{#p/toriel}{#f/0}* Outra hora.',
+                '<32>{#p/mettaton}* ... VALEU A TENTATIVA.'
             ],
             hangar30: [
-                '<32>{#p/mettaton}* I GUESS, ONCE WE GET TO THAT NEW HOMEWORLD...',
-                "<32>{#p/mettaton}* THERE'LL BE AMPLE TIME TO SELL RELATIONSHIP GUIDEBOOKS.",
-                "<32>{#p/mettaton}* UNTIL THEN, WE'LL JUST HAVE TO BE CONTENT WITH OUR FREEDOM...",
-                "<18>{#p/papyrus}{#f/0}DON'T WORRY, METTATON, I'LL BE THERE FOR YOU!",
-                '<18>{#p/papyrus}{#f/5}BECAUSE, WHEN IT COMES TO CONTENTMENT...',
-                "<18>{#p/papyrus}{#f/9}I'M THE {@fill=#ff0}BONE{@fill=#fff}-A-FIDE KING!",
-                '<32>{#p/mettaton}* HAHAHA... YOU KNOW I -ALWAYS- APPRECIATE YOUR ADVICE, PAPYRUS.',
-                "<32>{#p/mettaton}* I'M NOT LIKE THOSE OTHER PEOPLE WHO TREAT YOU LIKE A LITTLE CHILD.",
-                '<25>{#p/undyne}{#f/14}* ... huh?\n* What are you looking at me for?',
-                '<25>{#p/undyne}{#f/17}* What did I do!?'
+                '<32>{#p/mettaton}* UMA VEZ QUE CHEGARMOS AO NOVO MUNDO...',
+                "<32>{#p/mettaton}* TERÁ AMPLOS LUGARES PARA VENDER LIVROS DE RELACIONAMENTO.",
+                "<32>{#p/mettaton}* ATÉ ENTÃO, NÓS SÓ DEVEMOS ESTAR FELIZES COM A LIBERDADE...",
+                "<18>{#p/papyrus}{#f/0}NÃO SE PREOCUPE, METTATON, EU ESTAREI LÁ POR TI!",
+                '<18>{#p/papyrus}{#f/5}PORQUE, QUANDO SE TRATA DE CONTENTAMENTO...',
+                "<18>{#p/papyrus}{#f/9}EU VOU ATÉ O {@fill=#ff0}OSSO{@fill=#fff}!",
+                '<32>{#p/mettaton}* HAHAHA... VOCÊ SABE QUE EU - SEMPRE - APRECIO SEU CONSELHO, PAPYRUS!',
+                "<32>{#p/mettaton}* EU NÃO SOU COMO ESSAS PESSOAS QUE TE TRATAM COMO CRIANÇA.",
+                '<25>{#p/undyne}{#f/14}* ... huh? \n* Tá olhando pra mim, porquê?',
+                '<25>{#p/undyne}{#f/17}* O que eu te eu fiz!?'
             ],
             hangar31: [
-                '<25>{#p/asgore}{#f/6}* I do not mean to cut this short, but...',
-                '<25>{#p/asgore}{#f/6}* I should be escorting Frisk to the transport ship now.',
-                '<25>{#p/asgore}{#f/5}* They must be very tired after all they have been through for us.'
+                '<25>{#p/asgore}{#f/6}* Eu não gostaria de cortar por aqui, mas...',
+                '<25>{#p/asgore}{#f/6}* Eu deveria estar levando Frisk para o ônibus de transporte agora.',
+                '<25>{#p/asgore}{#f/5}* Ele deve estar cansado após tudo que passou.'
             ],
             hangar32: [
-                "<18>{#p/papyrus}{#f/6}W-WELL...\nIF -THEY'RE- GOING ON BOARD...",
-                '<18>{#p/papyrus}{#f/9}... THEN SO AM I!'
+                "<18>{#p/papyrus}{#f/6}B-BEM...\nSE -ELE- JÁ ESTÁ INDO...",
+                '<18>{#p/papyrus}{#f/9}... ENTÃO EU VOU TAMBÉM!'
             ],
-            hangar33: ["<25>{#p/sans}{#f/2}* heh, i'm right behind you, bro."],
-            hangar34: ['<25>{#p/undyne}{#f/7}* YEAH!!\n* Count me in!!'],
-            hangar35: ["<25>{#p/alphys}{#g/alphysHellYeah}* Don't forget about me!"],
+            hangar33: ["<25>{#p/sans}{#f/2}* heh, estou logo atrás de ti, mano."],
+            hangar34: ['<25>{#p/undyne}{#f/7}* ISSO!!\n* Conta comigo!!'],
+            hangar35: ["<25>{#p/alphys}{#g/alphysHellYeah}* Não se esqueçam de mim!"],
             hangar36: [
-                "<32>{#p/mettaton}* I GUESS IT'D BE KIND OF WEIRD TO KEEP HANGING AROUND THIS HANGAR BAY FOR NO REASON.",
-                "<32>{#p/mettaton}* SO... I'LL GO, TOO."
+                "<32>{#p/mettaton}* EU ACHO SERIA ESTRANHO CONTINUAR POR AQUI SEM MOTIVO.",
+                "<32>{#p/mettaton}* ENTÃO... EU JÁ VOU TAMBÉM."
             ],
-            hangar37: ["<25>{#p/napstablook}* don't worry... i'll try not to get too far behind..."],
+            hangar37: ["<25>{#p/napstablook}* eu não vou ficar muito atrás também..."],
             hangar38: [
-                "<25>{#p/kidd}{#f/1}* Hey, where'd everybody go just now!?",
-                '<25>{#p/kidd}{#f/7}* I... I wanna be with Frisk, too!',
-                '<25>{#p/toriel}{#f/0}* Walk back up the corridor towards bay forty-seven.', 
-                '<25>{#f/0}* It is the first door on your left.', 
-                "<25>{#p/kidd}{#f/3}* Thanks, person I swear I've seen before!",
-                "<25>{#p/kidd}{#f/1}* You're the best!"
+                "<25>{#p/kidd}{#f/1}* Ei, onde todo mundo foi agora!?",
+                '<25>{#p/kidd}{#f/7}* Eu... eu quero ir com o Frisk, também!',
+                '<25>{#p/toriel}{#f/0}* Eles estão no ônibus de transporte, volte para o corredor e vire a direita.', 
+                '<25>{#f/0}* É a porta que está lá.', 
+                "<25>{#p/kidd}{#f/3}* Obrigado, pessoa que eu juro ter visto antes!",
+                "<25>{#p/kidd}{#f/1}* Você é a melhor!"
             ],
-            hangar39: ['<25>{#p/toriel}{#f/10}* My child...'],
-            hangar40: ['<25>{#p/toriel}{#f/1}* ... be good, alright?'],
-            returnofchara1: ['<32>{#p/basic}* Frisk...', '<32>* ... are you still there?'],
+            hangar39: ['<25>{#p/toriel}{#f/10}* Minha criança...'],
+            hangar40: ['<25>{#p/toriel}{#f/1}* ... seja boa, tudo bem?'],
+            returnofchara1: ['<32>{#p/basic}* Frisk...', '<32>* ... você ainda está aí?'],
             returnofchara2: [
-                '<32>{#p/basic}* Sorry I disappeared on you so suddenly back there.',
-                '<32>* Doing what I did... took a lot out of me.',
-                "<32>* ... but I've recovered now.",
-                "<32>* I guess, in hindsight, it's kind of obvious I'd survive...",
-                '<32>* When Asriel absorbed my SOUL, all those years ago...',
-                '<32>* I became... a non-physical part of him.\n* An angel on his shoulder.',
-                '<32>* Or a demon.\n* Take your pick.',
-                '<32>* But when he died, that non- physicality remained, and I ended up as a ghost.',
-                "<32>* At least, I think that's what happened..."
+                '<32>{#p/basic}* Desculpa eu sumi e logo você estava de volta.',
+                '<32>* Fazendo o que fiz... tirou muito de mim.',
+                "<32>* ... mas eu me recuperei agora.",
+                "<32>* Eu acho que, em retrospectiva, é meio óbvio que eu sobreviveria...",
+                '<32>* Quando Asriel absorveu minha ALMA, todos esses anos antes...',
+                '<32>* Eu me tornei... um parte não física dele.\n* Um anjo em seu ombro.',
+                '<32>* Ou um demônio.\n* Você escolhe.',
+                '<32>* Mas quando ele morreu, essa minha parte não física continuou, e eu acabei me tornando um fantasma.',
+                "<32>* Pelo menos, eu acho que foi isso que aconteceu..."
             ],
             returnofchara3: [
-                '<32>{#p/basic}* ... you know...',
-                '<32>* All that stuff about me wanting to leave this world...',
-                '<32>* About wanting to say goodbye...',
+                '<32>{#p/basic}* ... sabe...',
+                '<32>* Tudo essa coisa de eu querer deixar esse mundo...',
+                '<32>* Sobre querer dizer adeus...',
                 '<32>* ...',
-                '<33>* At the moment of his death, my SOUL was... separated.\n* From his one.',
-                "<32>* I knew it wouldn't last long, so I just took it without thinking.",
-                "<32>* Looking back, the decision didn't make much sense...",
-                '<32>* Under normal circumstances, the SOUL of a dead boss monster...',
-                "<32>* ... isn't meant to retain the owner's identity.",
-                "<32>* I knew I had a monster SOUL inside of me, but I didn't know it'd still be his.",
-                "<32>* But the circumstances weren't normal at all.",
-                "<32>* If I'd realized that, I...",
+                '<33>* No momento da sua morte, minha ALMA foi... separada.\n* Daquela.',
+                "<32>* Eu sabia que não duraria para sempre, então eu tomei sem nem pensar.",
+                "<32>* Olhando para trás, a decisão não fez muito sentido...",
+                '<32>* Em circunstâncias normais, a ALMA de um boss monstro morto...',
+                "<32>* ... não mantém a identidade do seu antigo dono.",
+                "<32>* Eu sabia que tinha uma ALMA de monstro em minha pessoa, mas eu não sabia que ainda era ele.",
+                "<32>* Mas as circunstâncias não eram normais.",
+                "<32>* Se eu tivesse percebido isso, eu...",
                 '<32>* ...',
-                '<32>* Well.\n* I have no desire to say goodbye anymore.',
-                '<32>* On the contrary.',
-                "<32>* I've never been happier in my life.",
-                "<32>* Knowing I'll get to see him grow up, and live the life I thought I'd taken from him...",
-                '<32>* That means a lot to me.'
+                '<32>* Bem.\n* Não tenho mais vontade de me despedir.',
+                '<32>* Do contrário.',
+                "<32>* Eu nunca estive tão feliz na vida.",
+                "<32>* Saber que ele vai crescer e viver a vida que imaginei ter tomado dele...",
+                '<32>* Isso significa muito para mim.'
             ],
             returnofchara4: [
-                '<32>{#p/basic}* Hey.\n* Do me a favor, will you?',
-                '<32>* ... stop hugging that thing and get up already!',
-                "<32>* You do realize it's just a pillow, right?",
+                '<32>{#p/basic}* Ei.\n* Me faz um favor, tá bom?',
+                '<32>* ... para de abraçar esse negócio e se levanta logo!',
+                "<32>* Você entende que isso é só uma almofada, certo?",
                 '<32>* ...',
-                "<32>* You've got a new home, on a new world, and all you can think to do is sleep.",
-                '<32>* Hmph!\n* Typical human behavior.',
-                '<32>* ... only kidding.',
-                "<32>* I'll let you get the rest you need, Frisk.",
-                '<32>* See you when you wake up.'
+                "<32>* Você tem uma nova casa, em um novo mundo, e tudo que você tá fazendo é dormir.",
+                '<32>* Hmph!\n* Comportamento típico de humano.',
+                '<32>* ... brincadeira.',
+                "<32>* Eu vou deixar você dormir enquanto quiser, Frisk.",
+                '<32>* Te vejo quando acordar.'
             ]
         },
         overworld: {
-            get20: ['<32>{*}{#s/equip}{#p/human}* (The Hangar Bay Access Card was added to your keyring.){^90}{%}'],
+            get20: ['<32>{*}{#s/equip}{#p/human}* (O Cartão de Acesso ao Hangar foi adicionado ao seu chaveiro.){^90}{%}'],
             drop: [
-                '<26>{#p/asgore}{#f/8}* ...!\n* Did you just drop the tea I made for you?',
-                '<25>{#p/asgore}{#f/1}* Hmm...\n* I apologize if it was not to your liking.'
+                '<26>{#p/asgore}{#f/8}* ...!\n* Você acabou de jogar fora o chá que eu te dei?',
+                '<25>{#p/asgore}{#f/1}* Hmm...\n* Eu peço desculpas se não foi o sabor que você gostou.'
             ],
-            use: ['<25>{#p/asgore}{#f/21}* Ah... such a wonderful form of tea, is it not?'],
-            drop_tori: ['<26>{#p/asgore}{#f/5}* Did you drop something?\n* I recognize the scent...'],
-            use_tori: ['<26>{#p/asgore}{#f/5}* What are you eating?\n* The aroma is familiar...'],
-            approachescape: ['<32>{#p/human}* (You hear footsteps fading into the distance.)'],
+            use: ['<25>{#p/asgore}{#f/21}* Ah... uma linda forma de chá, não é mesmo?'],
+            drop_tori: ['<26>{#p/asgore}{#f/5}* Você deixou cair alguma coisa?\n* Eu reconheço o cheiro...'],
+            use_tori: ['<26>{#p/asgore}{#f/5}* O que você está comendo?\n* O aroma é familiar...'],
+            approachescape: ['<32>{#p/human}* (Você escuta passos caminhando para a distância.)'],
             partyguard1: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot_epilogue < 4
                         ? [
-                            '<32>{#p/basic}{#x1}* Huh?\n* Leaving already?{#x3}',
-                            "<32>{#x2}* It's okay, bro.\n* If they wanna go, let 'em go.{#x3}",
-                            "<32>{#x1}* Yeah... you're right.{#x3}"
+                            '<32>{#p/basic}{#x1}* Huh?\n* Já está indo?{#x3}',
+                            "<32>{#x2}* Está tudo bem, irmão. \n* Se ele quer ir, deixe ele ir.{#x3}",
+                            "<32>{#x1}* É... você tá certo.{#x3}"
                         ]
-                        : ['<32>{#p/basic}{#x1}* Hey, good to see you back!{#x3}', '<32>{#x2}* We missed you.{#x3}'],
+                        : ['<32>{#p/basic}{#x1}* Ei, bom te ver de novo!{#x3}', '<32>{#x2}* Sentimos sua falta.{#x3}'],
                 () =>
                     SAVE.data.n.plot_epilogue < 4
                         ? [
-                            '<32>{#p/basic}{#x1}* Sorry, I get, like, super antsy when I see people leaving a hangout early.{#x3}',
-                            '<32>{#x2}* Yeah, he gets antsy about it.\n* Nothing personal.{#x3}'
+                            '<32>{#p/basic}{#x1}* Desculpa, eu fico, super ansioso quando vejo pessoas saindo de rolês cedo.{#x3}',
+                            '<32>{#x2}* É, ele fica ansioso.\n* Nada pessoal.{#x3}'
                         ]
                         : [
-                            "<32>{#p/basic}{#x1}* No pressure, though.\n* Just because we miss you doesn't mean you have to stay.{#x3}",
-                            '<32>{#x2}* Like, for sure, bro.\n* For sure.{#x3}'
+                            "<32>{#p/basic}{#x1}* Mas sem pressão.\n* Não é porque sentimos sua falta que você é obrigado a ficar.{#x3}",
+                            '<32>{#x2}* Tipo, com certeza, mano.\n* Com certeza. {#x3}'
                         ]
             ),
             partyguard2: pager.create(
@@ -3374,301 +3374,301 @@ export default {
                 () =>
                     SAVE.data.n.plot_epilogue < 4
                         ? [
-                            '<32>{#p/basic}{#x2}* This hangout is baller, bro.{#x3}',
-                            '<32>{#x2}* They even brought out the Madrigal plant, right over there on that table!{#x3}'
+                            '<32>{#p/basic}{#x2}* Este ponto de encontro é bem legal, mano.{#x3}',
+                            '<32>{#x2}* Eles até trouxeram a planta Madrigal, bem ali naquela mesa!{#x3}'
                         ]
                         : [
-                            "<32>{#p/basic}{#x2}* If YOU won't try the Madrigal, that's just more for me.{#x3}",
-                            '<32>{#x1}* ... you mean \"us,\" right bro?{#x3}',
-                            '<32>{#x2}* Haha, my bad.{#x3}'
+                            "<32>{#p/basic}{#x2}* Se VOCÊ não experimentar o Madrigal, isso é apenas mais para mim.{#x3}",
+                            '<32>{#x1}* ... você quis dizer para nós, né mano?{#x3}',
+                            '<32>{#x2}* Haha, verdade.{#x3}'
                         ],
                 () =>
                     SAVE.data.n.plot_epilogue < 4
-                        ? ["<32>{#p/basic}{#x2}* It's a monster delicacy.{#x3}"]
-                        : ['<32>{#p/basic}{#x2}* More for us.{#x3}']
+                        ? ["<32>{#p/basic}{#x2}* É um monstro delicado.{#x3}"]
+                        : ['<32>{#p/basic}{#x2}* Mais pra gente.']
             ),
             janet: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}* You'd be smacked in the gob to find out how dirty it was when I first got 'ere.",
-                    "<32>* But seein' as everyone's gonna come on up through here...",
-                    "<32>* It's rather cre-i-ucial to get 'er cleaned up, I'd say.",
-                    "<32>* By the way, thanks for savin' us out there, toots.\n* A real bang-up job ya did."
+                    "<32>{#p/basic}* Você levaria um tapa na cara ao descobrir o quão sujo estava quando eu cheguei pela primeira vez.",
+                    "<32>* Mas vendo como todo mundo vai subir por aqui...",
+                    "<32>* É bem crucial deixar tudo limpinho, eu digo.",
+                    "<32>* Aliás, obrigado por nos salvar lá fora.\n* Um verdadeiro trabalho de herói."
                 ],
-                ["<32>{#p/basic}* Aren't ya gonna go 'n' see what the big guy's got shakin'?"]
+                ["<32>{#p/basic}* Você não vai ver o que grandão tá fazendo?"]
             ),
             giftbox1a: () => [
-                ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's a weapon inside."]),
-                choicer.create('* (Open the box?)', 'Sim', 'Não')
+                ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* Tem uma arma dentro."]),
+                choicer.create('* (Abrir a caixa?)', 'Sim', 'Não')
             ],
             giftbox1b: () => [
-                ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's armor inside."]),
-                choicer.create('* (Open the box?)', 'Sim', 'Não')
+                ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* Tem uma armadura dentro."]),
+                choicer.create('* (Abrir a caixa?)', 'Sim', 'Não')
             ],
             giftbox2a: () => [
-                '<32>{#p/human}* (You got the Big Dipper.)',
-                choicer.create('* (Equip the Big Dipper?)', 'Sim', 'Não')
+                '<32>{#p/human}* (Você pegou a Big Dipper.)',
+                choicer.create('* (Equipar o Big Dipper?)', 'Sim', 'Não')
             ],
             giftbox2b: () => [
-                '<32>{#p/human}* (You got the Heart Locket.)',
-                choicer.create('* (Equip the Heart Locket?)', 'Sim', 'Não')
+                '<32>{#p/human}* (Você pegou o Pingente de Coração.)',
+                choicer.create('* (Equipar o Pingente de Coração?)', 'Sim', 'Não')
             ],
             giftbox3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (But there was nothing left to take.)']
-                    : ["<32>{#p/basic}* It's empty."],
-            giftbox4: ['<32>{#p/human}* (You decide not to open.)'],
+                    ? ['<32>{#p/human}* (Não tem mais nada para ser tomado.)']
+                    : ["<32>{#p/basic}* Está vazio."],
+            giftbox4: ['<32>{#p/human}* (Você decide não abrir.)'],
             tea0: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)']
+                    ? ['<32>{#p/human}* (A nota no envelope pede para que você aprecie este chá.)']
                     : [
-                        "<32>{#p/basic}* There's a note attached to the teacup...",
-                        '<32>{#p/basic}* \"Please, enjoy this cup of tea I have left for you.\"\n* \"Whoever you may be.\"'
+                        "<32>{#p/basic}* Tem uma nota grudada no copo de chá.",
+                        '<32>{#p/basic}* \"Por favor aprecie este copo de chá que deixei para você.\"\n* \"Seja lá quem você for.\"'
                     ],
-            tea1: ['<32>{#p/human}* (You got the Starling Tea.)'],
+            tea1: ['<32>{#p/human}* (Você pegou o Chá Estrelado.)'],
             tea2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You run your hand across the countertop.)']
-                    : ['<32>{#p/basic}* The countertop is clear.'],
+                    ? ['<32>{#p/human}* (Você passa a mão pela bancada.)']
+                    : ['<32>{#p/basic}* A bancada está limpa.'],
             fireplace1: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                        choicer.create('* (Crawl inside?)', 'Sim', 'Não')
+                        '<32>{#p/human}* (Você sente a convidativa e aquecida lareira...)',
+                        choicer.create('* (Entrar dentro?)', 'Sim', 'Não')
                     ]
                     : [
                         SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                            ? '<32>{#p/basic}* Just another fireplace.'
-                            : "<32>{#p/basic}* Asgore's fireplace.\n* It's not too hot, just pleasantly warm.",
+                            ? '<32>{#p/basic}* Só mais uma lareira.'
+                            : "<32>{#p/basic}* Lareira do Asgore.\n* Não é tão quente, apenas quentinha.",
                         ...(world.darker
                             ? []
-                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Sim', 'Não')])
+                            : ['<32>* Você provavelmente até poderia entrar.', choicer.create('* (Entrar dentro?)', 'Sim', 'Não')])
                     ],
-            fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
+            fireplace2a: ['<32>{#p/human}* (Você decide não entrar.)'],
             fireplace2b: () => [
-                '<32>{#p/human}* (You crawl into the fireplace and let its warmth engulf you.)',
-                '<32>{#p/human}* (You are very comfortable.)',
+                '<32>{#p/human}* (Você rasteja para dentro da lareira e deixa seu calor engolir você.)',
+                '<32>{#p/human}* (Você está bem confortável.)',
                 ...(SAVE.data.b.svr
                     ? asrielinter.fireplace2b++ < 1
-                        ? ["<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out."]
+                        ? ["<25>{#p/asriel1}{#f/13}* Eu só vou, uh, esperar você sair daí."]
                         : []
                     : world.goatbro && SAVE.flag.n.ga_asrielFireplace++ < 1
-                        ? ["<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..."]
+                        ? ["<25>{#p/asriel2}{#f/15}* Eu só vou, uh, te esperar sair..."]
                         : [])
             ],
             fireplace2c: [
-                '<32>{#p/basic}* Be careful in there, munchkin!',
-                "<32>* Otherwise, I'd have some terrible, terrible news to report on!",
+                '<32>{#p/basic}* Cuidado aí dentro, bobinho!',
+                "<32>* Caso contrário, eu terei notícias terríveis para reportar!",
                 '<32>* ... huhehehaw!'
             ],
             fridgetrap1: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/13}* One day, Asgore built a chocolate replicator into the fridge.',
-                            '<25>{#f/15}* $(name) was so happy that day...',
-                            '<25>{#f/17}* ... finally, an infinite supply of chocolate.',
-                            '<25>{#f/20}* Their words, not mine.'
+                            '<25>{#p/asriel1}{#f/13}* Um dia, Asgore construiu um replicador de chocolate no freezer.',
+                            '<25>{#f/15}* $(name) estava tão feliz naquele dia...',
+                            '<25>{#f/17}* ... finalmente, um suprimento infinito de chocolate.',
+                            '<25>{#f/20}* Palavras dele, não a minha.'
                         ],
-                        ["<25>{#p/asriel1}{#f/13}* That was after they'd begged for it for two years."]
+                        ["<25>{#p/asriel1}{#f/13}* Isso foi depois dele implorar por um durante dois anos."]
                     ][Math.min(asrielinter.fridgetrap1++, 1)]
                     : world.darker
-                        ? ["<32>{#p/basic}* You really wouldn't like what's in the fridge."]
+                        ? ["<32>{#p/basic}* Você não gostaria do que está na geladeira de forma alguma."]
                         : [
-                            "<32>{#p/basic}* It's a stockpile of brand-name chocolate bars amongst an even bigger pile of snails."
+                            "<32>{#p/basic}* É um estoque de barras de chocolate de marca entre uma pilha ainda maior de caracóis."
                         ],
             fridgetrap2: () => [
                 ...(SAVE.data.b.svr
                     ? []
                     : [
-                        ['<32>{#p/basic}* ...', '<32>* Do you want one?'],
-                        ['<32>{#p/basic}* ...', '<32>* Do you want another one?'],
-                        ['<32>{#p/basic}* ...', '<32>* Do you want yet another one?'],
-                        ['<32>* If you want another one, you can take it...'],
-                        ['<32>* And another, and another, and another...'],
-                        ['<33>* The chocolate goes on and on...'],
-                        ['<32>* Bar after bar...'],
-                        ['<32>* This is an unholy amount of chocolate right here.'],
-                        ['<32>* This much chocolate should be against the law.'],
-                        ['<32>* How long can this go on...'],
-                        ["<32>* My god... it's so much..."],
+                        ['<32>{#p/basic}* ...', '<32>* Você quer uma?'],
+                        ['<32>{#p/basic}* ...', '<32>* Você quer mais uma?'],
+                        ['<32>{#p/basic}* ...', '<32>* Você ainda quer mais uma?'],
+                        ['<32>* Se você quiser mais uma, você pode ter...'],
+                        ['<32>* E outra, e outra, e outra...'],
+                        ['<33>* E lá vai chocolate...'],
+                        ['<32>* Barra após barra...'],
+                        ['<32>* Tem é uma quantidade profana de chocolate aqui.'],
+                        ['<32>* Este tanto de chocolate deveria ser proibido por lei.'],
+                        ['<32>* Por quanto tempo mais isso vai durar...'],
+                        ["<32>* É tanto... socorro..."],
                         ['<32>* ...']
                     ][Math.min(SAVE.data.n.chocolates, 11)]),
-                choicer.create('* (Take a Chocolate Bar?)', 'Sim', 'Não')
+                choicer.create('* (Pegar uma barra de chocolate?)', 'Sim', 'Não')
             ],
-            fridgetrap3: ['<32>{#p/human}* (You decide not to take anything.)'],
-            fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
+            fridgetrap3: ['<32>{#p/human}* (Você decide não fazer nada.)'],
+            fridgetrap4: ['<32>{#p/human}* (Você pega a Barra de Chocolate.)'],
             brocall1: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
-                "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
-                "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
+                '<25>{#p/alphys}{#g/alphysInquisitive}* Ei, você vem?',
+                "<25>{#p/alphys}{#g/alphysWelp}* Eu... não quero deixar Asgore impaciente.",
+                "<25>{#p/alphys}{#g/alphysTheFactIs}* Ele já espera faz centenas de anos...",
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall2: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
-                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
-                '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
+                '<25>{#p/alphys}{#g/alphysCutscene3}* Alô?\n* Você tá aí?',
+                "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* Ainda estamos...\n* Te esperando...",
+                '<25>{#p/alphys}{#g/alphysFR}* Você fugiu ou sei lá?',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall3: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
-                "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
-                '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
+                '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* Você fugiu.\n* Acabei de ver.',
+                "<25>{#p/alphys}{#g/alphysWTF2}* TEMOS COISAS IMPORTANTES PARA FAZER, SABE...",
+                '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... por que isso sempre acontece comigo...',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall4: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<32>{#p/mettaton}* HEY, ALPHYS CALLED ME AND TOLD ME YOU WERE BEING UNCOOPERATIVE.',
-                "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
-                '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
-                '<32>{#p/mettaton}* YOU CAN DO IT, DARLING!',
+                '<32>{#p/mettaton}* EI, ALPHYS ME LIGOU E DISSE QUE VOCÊ NÃO ESTAVA COOPERANDO.',
+                "<32>{#p/mettaton}* COM BASE NO QUE TENHO DISCUTIDO COM O PAPYRUS...",
+                '<32>{#p/mettaton}* EU SUGIRO QUE VOCÊ VIRE SUA BUNDA AGORA MESMO E VOLTE PRA LÁ.',
+                '<32>{#p/mettaton}* VAMOS LÁ, VOCÊ CONSEGUE, QUERIDA!',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall5: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<18>{#p/papyrus}{#f/5}LOOK.\nI KNOW YOU MUST BE APPREHENSIVE...',
-                '<18>{#p/papyrus}{#f/5}FORCE FIELDS CAN BE INTIMIDATING, AFTER ALL.',
-                '<18>{#p/papyrus}{#f/6}BUT FRET NOT!',
-                '<18>{#p/papyrus}{#f/4}IF YOUR BATTLE AGAINST ME PROVED ONE THING...',
-                "<18>{#p/papyrus}{#f/9}IT'S THAT YOU HAVE THE COURAGE TO TAKE ON ANYTHING!",
-                '<18>{#p/papyrus}{#f/0}THE \"IMPENETRABLE\" FORCE FIELD WON\'T STAND A CHANCE!',
+                '<18>{#p/papyrus}{#f/5}OLHA.\nEU SEI QUE VOCÊ DEVE ESTAR APREENSIVO.',
+                '<18>{#p/papyrus}{#f/5}O ESCUDO DE FORÇA PODE SER INTIMIDADOR.',
+                '<18>{#p/papyrus}{#f/6}MAS NÃO TEMAS!',
+                '<18>{#p/papyrus}{#f/4}SE SUA BATALHA CONTRA MIM PROVOU UMA COISA...',
+                "<18>{#p/papyrus}{#f/9}É QUE VOCÊ TEM CORAGEM PARA TUDO!",
+                '<18>{#p/papyrus}{#f/0}O IMPENETRÁVEL ESCUDO DE FORÇA NÃO TERÁ CHANCES!',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall6: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                "<25>{#p/alphys}{#g/alphysWelp}* Hey, um...\n* We've been waiting for a long time.",
-                "<25>{#g/alphysThatSucks}* And I don't just mean right now.",
-                '<25>{#g/alphysSideSad}* Monsters have been stuck here for so long...',
-                "<25>{#g/alphysThatSucks}* Even my family doesn't remember life before... this.",
-                '<25>{#g/alphysSideSad}* I know Asgore and I have been impatient...',
-                "<25>{#g/alphysIDK2}* So, maybe that's why you're avoiding doing this.",
-                "<25>{#g/alphysIDK3}* Well, we're sorry.\n* We didn't mean to rush you so much back there.",
-                "<25>{#g/alphysWorried}* But we're not the only ones waiting.",
-                "<25>{#g/alphysCutscene2}* Everyone you've met, all the friends you've made...",
-                '<25>{#g/alphysCutscene2}* If you think about it...',
-                "<25>{#g/alphysWorried}* It's like we've been waiting our whole lives for you.",
+                "<25>{#p/alphys}{#g/alphysWelp}* Ei, hmm...\n* Estivemos esperando por um bom tempo.",
+                "<25>{#g/alphysThatSucks}* E eu não quero dizer tipo agora.",
+                '<25>{#g/alphysSideSad}* Monstros estão presos aqui faz muito tempo.',
+                "<25>{#g/alphysThatSucks}* Até minha família não lembra da vida antes... disso.",
+                '<25>{#g/alphysSideSad}* Eu sei que Asgore e eu somos impacientes...',
+                "<25>{#g/alphysIDK2}* Então, talvez seja por isso que você está temendo tanto.",
+                "<25>{#g/alphysIDK3}* Pedimos desculpas.\n* Nós não queríamos te apressar tanto lá atrás.",
+                "<25>{#g/alphysWorried}* Mas nós não somos os únicos esperando.",
+                "<25>{#g/alphysCutscene2}* Todo mundo que você conheceu, todos os amigos que fez...",
+                '<25>{#g/alphysCutscene2}* Se você pensa sobre isso...',
+                "<25>{#g/alphysWorried}* É como se estivéssemos esperando toda nossa vida por você.",
                 '<25>{#g/alphysWorried}* ...',
-                '<25>{#g/alphysCutscene2}* ... come back soon...\n* Okay?',
+                '<25>{#g/alphysCutscene2}* ... volta logo...\n* Okay?',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall7: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/toriel}{#f/5}* Hello?\n* This is TORIEL.',
-                '<25>* You must be very far along by now.',
-                '<25>{#f/9}* Far enough that I doubt this message will ever reach you.',
-                '<25>{#f/13}* ... however, if it does, then you must know...',
-                '<25>{#f/9}* I cannot wait in the Outlands any longer.',
-                '<25>{#f/13}* I remained here in the hopes of keeping those like you safe...',
-                '<25>{#f/14}* Child after child, I thought surely I could save at least one...',
-                '<26>{#f/13}* But that did not happen.',
-                '<25>{#f/9}* I allowed my age to get the better of me.',
-                '<25>{#f/10}* I had forgotten how curious children like you can be.',
-                '<25>{#f/14}* Ironic, is it not?',
+                '<25>{#p/toriel}{#f/5}* Olá?\n* Aqui é a Toriel.',
+                '<25>* Você deve estar bem longe agora.',
+                '<25>{#f/9}* Tão longe que eu dúvido muito que essa mensagem te alcance.',
+                '<25>{#f/13}* ... mas se fizer, então você deve saber...',
+                '<25>{#f/9}* Eu não poderei mais esperar nas Outlands.',
+                '<25>{#f/13}* Eu permaneci aqui na esperança de manter aqueles como você seguros...',
+                '<25>{#f/14}* Criança após criança, eu pensei que poderia salvar ao menos uma...',
+                '<26>{#f/13}* Mas não aconteceu.',
+                '<25>{#f/9}* Eu permiti minha idade pegar o melhor de mim.',
+                '<25>{#f/10}* Eu esqueci como crianças iguais a ti são tão curiosas.',
+                '<25>{#f/14}* Irônico, não é mesmo?',
                 '<25>{#f/13}* ...',
-                '<25>{#f/9}* I will... see you soon.',
-                '<25>{#f/10}* ...\n* Be good... alright?',
+                '<25>{#f/9}* Eu... te vejo depois.',
+                '<25>{#f/10}* ...\n* Seja boa... tudo bem?',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall8: [
-                '<25>{#p/twinkly}{#f/6}* Did you seriously come all this way just to see what would happen?',
-                "<25>{#f/8}* Wow.\n* You're even worse than I used to be.",
-                '<25>{#f/12}* ...\n* Annoying brat.',
-                "<25>{#f/11}* There's nothing for you to find back here.",
-                '<25>{#f/7}* Literally nothing.',
-                '<25>{#f/0}{#v/1}* Even my very own self is nothing but an empty husk.',
-                '<25>{#f/6}{#v/0}* So stop wasting your OWN time and go back to the force field.',
-                '<25>{#f/11}* Orrr...\n* You could give up and let ME take over...',
-                "<25>{#f/7}{#v/0}* Maybe you'd like that.",
+                '<25>{#p/twinkly}{#f/6}* Você realmente veio todo esse caminho só pra ver o que iria acontecer?',
+                "<25>{#f/8}* Wow.\n* Você é pior do que eu costumava ser.",
+                '<25>{#f/12}* ...\n* Rato irritante.',
+                "<25>{#f/11}* Não existe nada para você aqui.",
+                '<25>{#f/7}* Literalmente nada.',
+                '<25>{#f/0}{#v/1}* Até mesmo eu, não sou nada além de um casco vazio.',
+                '<25>{#f/6}{#v/0}* Então pare de perder seu PRÓPRIO tempo e vá para o escudo de força.',
+                '<25>{#f/11}* Orrr...\n* Você poderia desistir e ME deixar tomar o poder...',
+                "<25>{#f/7}{#v/0}* Talvez você goste disso.",
                 '<25>{#f/6}{#v/0}* ...',
-                '<25>{#f/8}* See ya at the force field, idiot.'
+                '<25>{#f/8}* Te vejo no escudo de força, idiota.'
             ],
             statusterminal1: [
-                '<32>{#p/human}* (You activate the terminal.)',
-                '<32>{#p/event}* Procedure incomplete.\n* Please return at a later time.'
+                '<32>{#p/human}* (Você ativou o terminal.)',
+                '<32>{#p/event}* Procedimento incompleto.\n* Por favor retornar mais tarde.'
             ],
             statusterminal2: () => [
-                '<32>{#p/human}* (You activate the terminal.)',
-                '<32>{#p/event}* Procedure complete.\n* All subjects have successfully tethered.',
-                '<33>{#p/event}* Would you also like to exit?',
-                choicer.create('* (Exit Archive Six?)', 'Sim', 'Não')
+                '<32>{#p/human}* (Você ativou o terminal.)',
+                '<32>{#p/event}* Procedimento concluído.\n* Todos os indivíduos foram anexados com sucesso.',
+                '<33>{#p/event}* Você também gostaria de sair?',
+                choicer.create('* (Sair do Arquivo Seis?)', 'Sim', 'Não')
             ],
             cw_vender1: [
-                '<32>{#p/human}* (You tap on the panel.)',
-                '<32>{#s/equip}{#p/human}* (You got the Monster Candy.)'
+                '<32>{#p/human}* (Você clica no painel.)',
+                '<32>{#s/equip}{#p/human}* (Você pega o Doce Monstro.)'
             ],
-            cw_vender2: ['<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)'],
-            cs_vender1: ['<32>{#p/human}* (You tap on the panel.)', '<32>{#s/equip}{#p/human}* (You got the Exoberries.)'],
-            cs_vender2: ['<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)'],
-            cs_tower: '* (Use [DOWN], [LEFT], [RIGHT],\nand [UP] to tune the sound.)',
-            cs_tower_done: ['<32>{#p/human}* (You stare into the now- unlocked terminal.)'],
-            cf1_dimbox1: ['<32>{#p/human}* (You got the Space Tofu.)'],
+            cw_vender2: ['<32>{#p/human}* (Você clica no painel.)', '<32>{#p/human}* (...)'],
+            cs_vender1: ['<32>{#p/human}* (Você clica no painel.)', '<32>{#s/equip}{#p/human}* (Você pega as Exoberries.)'],
+            cs_vender2: ['<32>{#p/human}* (Você clica no painel.)', '<32>{#p/human}* (...)'],
+            cs_tower: '* (Use [BAIXO], [ESQUERDA], [DIREITA],\ne [CIMA] para ajustar o som.)',
+            cs_tower_done: ['<32>{#p/human}* (Você encara o agora desbloqueado terminal.)'],
+            cf1_dimbox1: ['<32>{#p/human}* (Você pegou o Tofu Espacial.)'],
             cf1_dimbox2: ['<32>{#p/human}* (...)'],
-            cf2_vender1: ['<32>{#p/human}* (You tap on the panel.)', '<32>{#s/equip}{#p/human}* (You got the Rations.)'],
-            cf2_vender2: ['<32>{#p/human}* (You tap on the panel.)', '<32>{#p/human}* (...)'],
-            cf2_key1: ['<32>{#s/equip}{#p/human}* (The Neon Key was added to your keyring.)'],
+            cf2_vender1: ['<32>{#p/human}* (Você clica no painel.)', '<32>{#s/equip}{#p/human}* (Você pegou as Rações.)'],
+            cf2_vender2: ['<32>{#p/human}* (Você clica no painel.)', '<32>{#p/human}* (...)'],
+            cf2_key1: ['<32>{#s/equip}{#p/human}* (A Chave Neon foi adicionada ao seu chaveiro.)'],
             cf2_key2: ['<32>{#p/human}* (...)'],
-            cf2_bench0: ['<32>{#p/human}* (It appears a heal-pak was left underneath this bench.)'],
-            cf2_bench1: ['<32>{#p/human}* (You got the heal-pak.)'],
+            cf2_bench0: ['<32>{#p/human}* (Parece que um Kit de Cura foi deixado embaixo deste banco.)'],
+            cf2_bench1: ['<32>{#p/human}* (Você pegou o Kit de Cura.)'],
             cf2_bench2: ['<32>{#p/human}* (...)'],
-            cf2_bench3: ["<32>{#p/human}* (You reach for the item, but you can't get it...)"],
-            cf2_blookdoor: ['<32>{#p/human}* (The door appears to be locked.)'],
+            cf2_bench3: ["<32>{#p/human}* (Você tenta alcançar o ítem, mas falha...)"],
+            cf2_blookdoor: ['<32>{#p/human}* (A porta parece estar fechada.)'],
             ca_floartex: () =>
                 [
-                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* ... huh?', "<32>{#p/human}{#v/5}{@fill=#00c000}* Who's there?"],
+                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* ... huh?', "<32>{#p/human}{#v/5}{@fill=#00c000}* Quem está aí?"],
                     [
                         '<32>{#p/human}{#v/5}{@fill=#00c000}* Huh!?',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* How are you doing that!?',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* How am I...',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* ... even awake?'
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Como você tá fazendo isso!?',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Como eu...',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* ... estou acordado?'
                     ],
                     [
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* I've been asleep for so long, I'd forgotten about...",
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Eu estive dormindo por tanto tempo que já esqueci...",
                         '<32>{#p/human}{#v/5}{@fill=#00c000}* ... oh!',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Are you there, old friend!?\n* Is that you!?'
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Você está aí, velho amigo!?\n* É você!?'
                     ],
                     [
                         '<32>{#p/human}{#v/5}{@fill=#00c000}* ...',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Maybe not.',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Well, the last time I was awake, there was a disaster...',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Is this the aftermath?',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Oh no...'
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Talvez não.',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Bem, da última vez que estive acordado, foi um desastre...',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Este é o pós vida?',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Oh não...'
                     ],
                     [
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Wait...\n* There was something about the system's memory capacity...",
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* If I'm awake now, then somebody's been freeing up space!",
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* ... they have, haven't they?"
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Espere...\n* Havia algo sobre a capacidade de memória do sistema...",
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Se eu estou acordado, então alguém deve estar tentando liberar espaço!",
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* ... está, não está?"
                     ],
                     [
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* I knew it.',
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* We're gonna get out!",
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* You hear that, old friend?\n* You thought you were gone, but you persevered...!'
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Eu sabia.',
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Nós vamos sair!",
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Você ouviu isso, velho amigo?\n* Você pensou que não iria voltar, mas você vai!'
                     ],
                     [
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Then again.',
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* I don't even have a body to move around with.",
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* So, wait...',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* How am I seeing anything like this at all?',
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* And so high off the floor...'
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* E de novo.',
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* Eu nem tenho um corpo para me movimentar.",
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Então, espera...',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* Como eu estou vendo algo assim?',
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* E tão acima do chão...'
                     ],
                     [
-                        "<32>{#p/human}{#v/5}{@fill=#00c000}* The light...\n* It's getting brighter!",
-                        '<32>{#p/human}{#v/5}{@fill=#00c000}* ... is this it?\n* Does our freedom approach us?'
+                        "<32>{#p/human}{#v/5}{@fill=#00c000}* A luz...\n* Está cada vez mais brilhosa!",
+                        '<32>{#p/human}{#v/5}{@fill=#00c000}* ... seria isso? \n* A liberdade se aproxima de nós?'
                     ],
-                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* Hello?'],
+                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* Olá?'],
                     []
                 ][ca_state.floor],
-            toomuch1: ["<32>{#p/human}* (You're carrying too much.)"],
-            toomuch2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
-            toomuch3: ["<32>{#p/human}* (You're carrying too much to use that.)"],
+            toomuch1: ["<32>{#p/human}* (Você está carregando demais.)"],
+            toomuch2: ["<32>{#p/human}* (Você está carregando demais para levar isso.)"],
+            toomuch3: ["<32>{#p/human}* (Você está carregando demais pra usar isso.)"],
             bastionTerm: () =>
                 SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
                     ? []
                     : [
-                        '<32>{#p/basic}* This terminal is only used to monitor the archive.',
-                        '<32>* What else would it be for?'
+                        '<32>{#p/basic}* Este terminal é usado apenas para monitorar o arquivo.',
+                        '<32>* Para que mais seria?'
                     ]
         },
         trivia: {
@@ -3676,139 +3676,139 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/13}* This throne kind of looks like the one King Erogot had.',
-                            "<25>{#f/16}* Except this one has stars instead of a sky.\n* And it's smaller.",
-                            '<25>{#f/15}* How do I know what the old one looked like?',
-                            '<25>{#f/17}* Well, Mom and Dad had lots of bedtime stories about that guy...'
+                            '<25>{#p/asriel1}{#f/13}* Este trono se parece bastante com o do Rei Erogot.',
+                            "<25>{#f/16}* Exceto que este tem estrelas em vez de um céu.\n* E é menor.",
+                            '<25>{#f/15}* Como eu sei a aparência do antigo?',
+                            '<25>{#f/17}* Bem, Mãe e Pai me contavam muitas histórias de dormir sobre ele...'
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/20}* I can't be sure which stories are real, and which ones are made up.",
-                            '<25>{#f/17}* But, according to one, that old king was over a thousand years old.',
-                            '<25>{#f/13}* Before he was made king, he trained for centuries...',
-                            '<25>{#f/15}* To become a painter.',
-                            "<25>{#f/10}* If that's true, I wonder what made him change his mind...?"
+                            "<25>{#p/asriel1}{#f/20}* Eu não tenho certeza de quais eles inventavam e quais eram verdade.",
+                            '<25>{#f/17}* Mas, de acordo com uma delas, aquele velho rei tinha mais de mil anos de idade.',
+                            '<25>{#f/13}* Antes de se tornar rei, ele treinou por centenas de anos...',
+                            '<25>{#f/15}* Para se tornar pintor.',
+                            "<25>{#f/10}* Se isso for verdade, eu me pergunto o que fez ele trocar de ideia...?"
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/16}* Actually, I have a theory about Erogot's paintings.",
-                            '<25>{#f/13}* You see, according to old homeworld legends...',
-                            '<25>{#f/13}* If the conditions were just right...',
-                            '<25>{#f/16}* A highly skilled painter could paint a glimpse of the future.',
-                            '<25>{#f/15}* If Erogot created such a painting, and foresaw the war...',
-                            "<25>{#f/17}* ... well, that'd explain a lot more than just the career change."
+                            "<25>{#p/asriel1}{#f/16}* Na verdade, eu tenho uma teoria sobre as pinturas de Erogot.",
+                            '<25>{#f/13}* Veja, de acordo com as lendas do antigo mundo natal...',
+                            '<25>{#f/13}* Se as condições fossem as corretas...',
+                            '<25>{#f/16}* Um artista habilidoso poderia pintar o que ele imagina do futuro.',
+                            '<25>{#f/15}* Se Erogot criou tal pintura e previu a guerra...',
+                            "<25>{#f/17}* ... Bem, isso explicaria muito mais do que apenas a mudança de carreira."
                         ],
-                        ["<25>{#p/asriel1}{#f/16}* I guess we'll never know for sure."]
+                        ["<25>{#p/asriel1}{#f/16}* Acho que nunca teremos a certeza, infelizmente."]
                     ][Math.min(asrielinter.throne++, 3)]
-                    : ['<32>{#p/basic}* The seat of the kingdom.'],
+                    : ['<32>{#p/basic}* O acento do reino.'],
             warningsign: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (You activate the terminal.)\n* (It appears to be unlocked.)']
+                        ? ['<32>{#p/human}* (Você ativa o terminal.)\n* (Parece estar desbloqueado.)']
                         : SAVE.data.n.plot === 72 || world.postnoot || SAVE.data.b.backdoor
-                            ? ['<32>{#p/human}* (You activate the terminal.)', '<32>{#p/basic}* \"No further action required.\"']
+                            ? ['<32>{#p/human}* (Você ativou o terminal.)', '<32>{#p/basic}* \"Nenhuma ação necessária.\"']
                             : [
-                                '<32>{#p/human}* (You activate the terminal.)',
-                                '<32>{#p/basic}* \"Access pending.\"\n* \"Authorization required.\"',
-                                '<32>{*}* \"Scanning...\"\n* \"Scanning...\"\n* \"Scanning...\"{^50}{%}',
+                                '<32>{#p/human}* (Você ativou o terminal.)',
+                                '<32>{#p/basic}* \"Acesso pendente.\"\n* \"Autorização requerida.\"',
+                                '<32>{*}* \"Digitalização...\"\n* \"Digitalização...\"\n* \"Digitalização...\"{^50}{%}',
                                 ...(world.genocide
                                     ? [
-                                        "<32>{*}* \"Subject '$(nameu)' identified.\"\n* \"Subject 'ASRIEL' identi- {%}",
-                                        '<32>{#c.backdoor}* \"Manual override engaged.\"\n* \"Access granted.\"',
+                                        "<32>{*}* \"Sujeito '$(nameu)' identificado.\"\n* \"Sujeito 'ASRIEL' identi- {%}",
+                                        '<32>{#c.backdoor}* \"Manual reescrito.\"\n* \"Acesso garantido.\"',
                                         ...(SAVE.flag.n.ga_asrielOverride++ < 1
-                                            ? ['<25>{#p/asriel2}{#f/10}* That was awfully fast...']
+                                            ? ['<25>{#p/asriel2}{#f/10}* Isso foi bem rápido...']
                                             : [])
                                     ]
                                     : [
-                                        '<32>{*}* \"Subject \'HUMAN\' identified.\"\n* \"Verifying...\"{^50}{%}',
-                                        '<32>{#c.backdoor}* \"Identity verified.\"\n* \"Access granted.\"'
+                                        '<32>{*}* \"Dinheiro \'HUMANO\' identificado.\"\n* \"Verificando...\"{^50}{%}',
+                                        '<32>{#c.backdoor}* \"Identidade verificada.\"\n* \"Acesso garantido.\"'
                                     ])
                             ],
             partysans: pager.create(
                 0,
                 [
-                    "<25>{#p/sans}{#f/0}* papyrus's cooking has improved lately, but...",
-                    "<25>{#p/sans}{#f/0}* there's a lot that goes into a great meal.",
-                    '<26>{#p/sans}{#f/3}* the chef... the recipe...',
-                    "<25>{#p/sans}{#f/2}* i'd like to think i had a hand in one of those things.",
-                    '<18>{#p/papyrus}{#f/4}SANS, I SWEAR IF YOU MEDDLE WITH ANYTHING...',
-                    "<25>{#p/sans}{#f/0}* don't worry, bro.\n* i'd only do what's best for you.",
-                    '<18>{#p/papyrus}{#f/6}I HOPE SO!!'
+                    "<25>{#p/sans}{#f/0}* A culinária do Papyrus melhorou bastante ultimamente, mas...",
+                    "<25>{#p/sans}{#f/0}* tem muita coisa a ser para uma grande refeição.",
+                    '<26>{#p/sans}{#f/3}* O chefe... a receita...',
+                    "<25>{#p/sans}{#f/2}* eu gosto de pensar que tenho controle sobre uma dessas coisas.",
+                    '<18>{#p/papyrus}{#f/4}SANS, EU JURO QUE SE VOCÊ SE METER EM ALGUMA COISA...',
+                    "<25>{#p/sans}{#f/0}* não se preocupa, mano.\n* eu só faço o que é melhor para você.",
+                    '<18>{#p/papyrus}{#f/6}ASSIM ESPERO!!'
                 ],
                 [
-                    "<25>{#p/sans}{#f/0}* i'm not saying undyne MEANT to screw up the recipe, but come on.",
-                    '<25>{#p/sans}{#f/0}* it would have been nice if she at LEAST double- checked it.',
-                    "<25>{#p/sans}{#f/3}* ... playing it safe isn't her usual recipe for success, i guess."
+                    "<25>{#p/sans}{#f/0}* eu não quero dizer que Undyne PROPOSITALMENTE ferrou com a receita, mas sei lá.",
+                    '<25>{#p/sans}{#f/0}* seria legal se ela PELO MENOS olhasse duas vezes o que você está fazendo.',
+                    "<25>{#p/sans}{#f/3}* ... jogar com segurança não é muito o jeito dela, eu acho."
                 ],
-                ["<26>{#p/sans}{#f/2}* at least it's all taken care of now."]
+                ["<26>{#p/sans}{#f/2}* pelo menos está tudo bem cuidado por agora."]
             ),
             partyfire: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}* It's a little disappointing that school's been cancelled, but oh well.",
-                    "<32>* They'll be sure to build one on the new homeworld.",
-                    '<33>* Imagine, a university campus...\n* And a grand librarby...\n* And museums...',
-                    '<32>* How exciting!'
+                    "<32>{#p/basic}* É meio que um desapontamento que a escola tenha sido cancelada, pois bem.",
+                    "<32>* Tenho certeza que eles vão construir uma no mundo natal.",
+                    '<33>* Imagine, um campus universitário...\n* E um grande libraria...\n* E museus',
+                    '<32>* Que animador!'
                 ],
                 [
-                    "<32>{#p/basic}* ... you don't look like you're too interested in school.",
-                    "<32>* But don't worry.\n* It's not for everyone, is it?"
+                    "<32>{#p/basic}* ... você não parece ser muito interessado em escola.",
+                    "<32>* Mas não se preocupa.\n* Não é pra todo mundo, é?"
                 ]
             ),
             picnicharp: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}* I'm a reporter, and my career's only just gettin' started!",
-                    "<32>* When we move to the new homeworld... I won't even be able to keep up!",
-                    "<32>* Oh, dearie dear.\n* There'll be so much to report!\n* Huhehehaw!"
+                    "<32>{#p/basic}* Eu sou uma repórter e minha carreira só começou!",
+                    "<32>* Quando nós chegarmos ao novo mundo... eu nem vou conseguir reportar tudo!",
+                    "<32>* Oh, queridinho.\n* Terá tanto para reportar!\n* Huhehehaw!"
                 ],
-                ["<32>{#p/basic}* I'll get reporting right away!"]
+                ["<32>{#p/basic}* Eu já vou chegar fazendo jornalismo!"]
             ),
-            tv_back: ["<32>{#p/basic}* It's a TV set.\n* A Mew Mew movie is currently being watched on it."],
+            tv_back: ["<32>{#p/basic}* É um aparelho de TV.\n* Um filme de Mew Mew está sendo assistido nele."],
             picnicchair: () =>
                 player.position.y <= 343 && player.face !== 'down' // NO-TRANSLATE
 
                     ? []
-                    : ['<32>{#p/basic}* A set of sturdy chairs.\n* Great for any occasion, be it freedom or otherwise.'],
+                    : ['<32>{#p/basic}* Um conjunto de cadeiras resistentes.\n* Ótimo para qualquer ocasião, seja de liberdade ou não.'],
             janetbucket: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stare into the bucket of strange pink fluid.)']
-                    : ["<32>{#p/basic}* It's a bucket of supercharged pink fluid, great for getting the tough stains out."],
+                    ? ['<32>{#p/human}* (Você olha no balde de líquido rosa estranho.)']
+                    : ["<32>{#p/basic}* É um balde cheio de líquido rosa, ótimo para retirar manchas difíceis."],
             ultranote: [
-                '<32>{#p/basic}* There\'s a recording on the ground labelled \"Information.\"',
-                '<32>* You play the recording...',
-                '<32>{#p/alphys}* This is Dr. Alphys, head of the royal science division.',
-                '<32>* So... you were captured.',
-                '<32>* L-luckily, after Papyrus put you in his shed, he told his brother all about it.',
-                '<32>* Then, HE called ME, and I... came to pick you up.\n* Literally.',
-                "<32>* You see, some of us aren't really on board with the Royal Guard's methods.",
-                "<32>* And it's kind of my job to escort you past them...?",
-                '<32>* W-well, not officially.\n* But, you know.',
-                "<32>* Well, actually, you don't know, so never mind.",
-                "<32>* Either way, we've shut down the elevator to keep the Royal Guard from coming after you.",
-                "<32>* I mean, mainly, it's just to stop Undyne...",
-                "<32>* Papyrus must've told HER about your capture, too.\n* Because she's after you.",
-                "<32>* U-uh, anyway, once you're awake, feel free to explore around.",
-                "<32>* You can find us just past ASGORE's house.",
-                '<32>* See you soon...?'
+                '<32>{#p/basic}* Tem uma gravação no chão entitulada \"informação.\"',
+                '<32>* Você da play na gravação...',
+                '<32>{#p/alphys}* Aqui é a Dr. Alphys, líder da divisão de guarda real.',
+                '<32>* Então... você foi capturado.',
+                '<32>* F-felizmente, depois que Papyrus colocou você em seu galpão, ele contou a seu irmão tudo sobre isso',
+                '<32>* Então, ele me ligou, e eu... vim para te buscar.\n* Literalmente.',
+                "<32>* Sabe, nem todos nós somos congruentes com os métodos da Guarda Real.",
+                "<32>* E é meu trabalho meio que te escoltar por eles...?",
+                '<32>* Não oficialmente.\n* Mas, você entende.',
+                "<32>* Bem, na verdade você não sabe, então não importa.",
+                "<32>* Bom, estamos desligando os elevadores para manter a Guarda Real longe de você.",
+                "<32>* Bem, é basicamente só para impedir a Undyne...",
+                "<32>* Papyrus deve ter contado para ela que te capturou.\n* Já que ela está atrás de você.",
+                "<32>* U-uh, bem, assim que você se sentir livre, explore ao redor.",
+                "<32>* Você poderá me encontrar após a casa do ASGORE.",
+                '<32>* Te vejo logo...?'
             ],
             garden: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stop to see the flowers.)']
+                    ? ['<32>{#p/human}* (Você parou para olhar as flores.)']
                     : world.darker
-                        ? ['<32>{#p/basic}* A garden of Starling flowers.']
+                        ? ['<32>{#p/basic}* Um jardim de Flores Estreladas.']
                         : [
-                            '<32>{#p/basic}* A garden of Starling flowers, positioned optimally near a large window.',
-                            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asgore sure knows his stuff!'])
+                            '<32>{#p/basic}* Um jardim de Flores Estreladas, posicionado de forma ideal perto de uma grande janela.',
+                            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asgore com certeza sabe o que faz!'])
                         ],
             bastion: pager.create(
                 0,
                 () => [
-                    '<32>{#p/basic}* Bastion boxes.',
+                    '<32>{#p/basic}* Caixas de Bastião.',
                     ...(SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
-                        ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Please be careful around those.']
+                        ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Por favor, cuidado perto delas.']
                         : [])
                 ],
-                ['<32>{#p/basic}* Bastion boxes.']
+                ['<32>{#p/basic}* Caixas de Bastião.']
             ),
             alphysEnding: pager.create(
                 0,
@@ -3818,110 +3818,110 @@ export default {
                         world.flirt_state1.length <= world.flirt
                         ? [
                             [
-                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job...",
-                                "<32>{#p/human}* (You whispered something into Alphys's ear.)",
+                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* Não se preocupa comigo, eu só estou fazendo meu trabalho.",
+                                "<32>{#p/human}* (Você cochicha algo no ouvido de Alphys.)",
                                 '<25>{#p/alphys}{#f/2}* ...',
-                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh... y-you... you'd really do that??",
-                                "<32>{#p/human}* (You whispered something else into Alphys's ear.)",
-                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Wh... what's gotten into you???",
-                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* I, I mean... I can't accept it... but...",
-                                '<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here...'
+                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh... v-você... realmente fez isso??",
+                                "<32>{#p/human}* (Você cochicha mais uma coisa no ouvido da Alphys.)",
+                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* O que... o que deu em você???",
+                                "<25>{#p/alphys}{#g/alphysNervousLaugh}* Eu, quero dizer... Eu não posso aceitar isso... mas...",
+                                '<25>{#p/alphys}{#g/alphysSoAwesome}* ... meu, se pelo menos a Undyne estivesse aqui...'
                             ],
-                            ['<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... you humans really are something...']
+                            ['<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... vocês humanos são alguma coisa...']
                         ][SAVE.data.b.flirt_alphys ? 1 : ((SAVE.data.b.flirt_alphys = true), 0)]
-                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."],
+                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Não se preocupa comigo, eu só estou fazendo meu trabalho."],
                 () =>
                     SAVE.data.n.bully < 15 &&
                         SAVE.data.n.state_foundry_undyne === 0 &&
                         world.flirt_state1.length <= world.flirt
-                        ? ["<25>{#p/alphys}{#g/alphysWelp}* Uh, I really can't accept that kind of thing from you."]
-                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."],
+                        ? ["<25>{#p/alphys}{#g/alphysWelp}* Uh, eu não posso aceitar este tipo de coisa vindo de você."]
+                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Não se preocupa comigo, eu só estou fazendo meu trabalho."],
                 () =>
                     SAVE.data.n.bully < 15 &&
                         SAVE.data.n.state_foundry_undyne === 0 &&
                         world.flirt_state1.length <= world.flirt
                         ? ['<25>{#p/alphys}{#g/alphysFR}* ...']
-                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."]
+                        : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Não se preocupa comigo, eu só estou fazendo meu trabalho."]
             ),
 
             cw_f1: [
                 '<32>{#p/basic}* {@mystify=Ribbit}Ribbit{@mystify=}, {@mystify=Ribbit}Ribbit{@mystify=}.',
-                '<32>{#p/human}* (It appears the Froggit cannot move.)',
-                '<32>{#p/basic}* (Hu... humans...)',
-                '<32>* (Captive...)',
+                '<32>{#p/human}* (Parece que o Froggit não consegue se mover.)',
+                '<32>{#p/basic}* (Hu... humanos...)',
+                '<32>* (Cativo...)',
                 '<32>* {@mystify=Ribbit}Ribbit{@mystify=}.'
             ],
             cw_f2: [
                 '<32>{#p/basic}* {@mystify=Ribbit}Ribbit{@mystify=}, {@mystify=Ribbit}Ribbit{@mystify=}.',
-                '<32>{#p/human}* (It appears the Froggit cannot move.)',
-                '<32>{#p/basic}* (Sw... switch...)',
-                '<32>* (Escape...)',
+                '<32>{#p/human}* (Parece que o Froggit não consegue se mover.)',
+                '<32>{#p/basic}* (Tr... trocar...)',
+                '<32>* (Escapar...)',
                 '<32>* {@mystify=Ribbit}Ribbit{@mystify=}.'
             ],
-            cw_barrier: ['<32>{#p/human}* (You stare through the inanimate security field.)', '<32>{#p/human}* (...)'],
+            cw_barrier: ['<32>{#p/human}* (Você encara o escudo de força inanimado.)', '<32>{#p/human}* (...)'],
             cw_terminal: [
-                '<32>{#p/human}* (You activate the terminal.)',
-                '<32>* (It sounds like a recording was made here.)',
-                '<32>{#p/human}{#v/1}{@fill=#42fcff}* Dear Asgore, if you can hear me, I hope you can forgive us for what we have done.',
-                '<32>{#v/1}{@fill=#42fcff}* You tried your very best to make us happy, and for that, I am grateful.',
-                '<32>{#v/1}{@fill=#42fcff}* But, like the others, I could not resist the temptation to use my powers.',
-                '<32>{#v/1}{@fill=#42fcff}* I could not wait any longer to see the friends I had made on the outpost.'
+                '<32>{#p/human}* (Você ativou o terminal.)',
+                '<32>* (Parece que uma gravação foi feita aqui.)',
+                '<32>{#p/human}{#v/1}{@fill=#42fcff}* Querido Asgore, se puder nos ouvir, eu espero que possa nos perdoar pelo que fizemos.',
+                '<32>{#v/1}{@fill=#42fcff}* Você tentou seu melhor para nos fazer felizes, e por isso, eu sou grato.',
+                '<32>{#v/1}{@fill=#42fcff}* Mas, como os outros, não pude resistir à tentação de usar meus poderes.',
+                '<32>{#v/1}{@fill=#42fcff}* Eu não pude esperar mais tempo para ver os amigos que fiz no Outpost.'
             ],
-            cw_dummy: ['<32>{#p/human}* (You place your hands on the lifeless dummy.)', '<32>{#p/human}* (...)'],
-            cw_paintblaster: ['<32>{#p/human}* (You stare into the inanimate fuel injector.)', '<32>{#p/human}* (...)'],
-            cs_lamppost: ['<32>{#p/human}* (You observe the strange lamp bouncing up and down.)'],
+            cw_dummy: ['<32>{#p/human}* (Você coloca sua mão no boneco sem vida.)', '<32>{#p/human}* (...)'],
+            cw_paintblaster: ['<32>{#p/human}* (Você olha para o injetor de combustível inanimado.)', '<32>{#p/human}* (...)'],
+            cs_lamppost: ['<32>{#p/human}* (Você observa a estranha lâmpada saltando para cima e para baixo.)'],
             cs_note: [
-                '<32>{#p/human}* (It appears this note has a phone number written on it.)',
-                '<32>{#s/phone}{#p/event}* Dialing...',
-                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Hello?\n* Is anyone there?',
+                '<32>{#p/human}* (Parece que esta nota tem um número de telefone escrito nela.)',
+                '<32>{#s/phone}{#p/event}* Discando...',
+                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Alô?\n* Tem alguém aí?',
                 '<32>{@fill=#ff993d}* ...',
-                '<32>{@fill=#ff993d}* HELLO!?!?',
+                '<32>{@fill=#ff993d}* ALÔ!?!?',
                 '<32>{@fill=#ff993d}* ...\n* ...\n* ...',
-                '<32>{@fill=#ff993d}* Where am I?',
+                '<32>{@fill=#ff993d}* Onde eu estou?',
                 '<32>{@fill=#ff993d}* ...',
-                "<32>{@fill=#ff993d}* Where's the saber?",
+                "<32>{@fill=#ff993d}* Onde está o sabre?",
                 '<32>{@fill=#ff993d}* ...',
-                '<32>{@fill=#ff993d}* ...\n* Wait.',
-                '<32>{@fill=#ff993d}* Have I said this all before?',
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
+                '<32>{@fill=#ff993d}* ...\n* Espera.',
+                '<32>{@fill=#ff993d}* Eu já disse isso antes?',
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
+                "<32>{*}{@fill=#ff993d}{#i/1}* Eu não consigo {@mystify=remember}lembrar{@mystify=}{%}",
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             cs_vegetoid: [
-                '<32>{#p/human}* (It appears the Vegetoid cannot move.)',
-                '<32>{#p/basic}* Time? {@mystify=Relative}Relative{@mystify=}.',
-                '<32>* Relatively in place.',
-                '<32>* A place in space.',
-                '<32>* Space? {@mystify=Infinite}Infinite{@mystify=}.',
-                '<32>* Infinitely small.',
-                '<32>* But the small is all.',
-                '<32>* All there is.\n* All there was.\n* All there ever {@mystify=could be}could be{@mystify=}.',
-                '<32>* Are you the small?',
-                '<32>* Did you answer their call?'
+                '<32>{#p/human}* (Parece que o Vegetoid não consegue se mover.)',
+                '<32>{#p/basic}* Tempo? {@mystify=Relative}Relativo{@mystify=}.',
+                '<32>* Relativamente no lugar.',
+                '<32>* Um lugar no espaço.',
+                '<32>* Espaço? {@mystify=Infinite}Infinito{@mystify=}.',
+                '<32>* Infinitamente pequeno.',
+                '<32>* Mas o pequeno é tudo.',
+                '<32>* Tudo o que existe.\n* Tudo o que havia.\n* Tudo o que poderia {@mystify=could be}ter sido{@mystify=}.',
+                '<32>* Você é o pequeno?',
+                '<32>* Você respondeu o chamado?'
             ],
             cs_magicdog: [
-                '<32>{#p/human}* (It appears Canis Maximus cannot move.)',
+                '<32>{#p/human}* (Parece que o Canis Maximus não consegue se mover.)',
                 '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!\n{#s/bark}* {@mystify=Bark}Bark{@mystify=}!',
-                '<32>{#p/basic}* (The sound, higher!)\n* (The light, brighter!)',
+                '<32>{#p/basic}* (O som, alto!)\n* (A luz, brilhosa!)',
                 '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!\n{#s/bark}* {@mystify=Bark}Bark{@mystify=}!',
-                '<32>{#p/basic}* (Full illumination will end their detention!)',
-                '<32>{#p/basic}* (Can you join the poles in each dimension?)',
+                '<32>{#p/basic}* (A iluminação completa acabará com suas esperas!)',
+                '<32>{#p/basic}* (Você conseguiria juntar os polos em cada dimensão?)',
                 '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!',
-                '<32>{#p/basic}* (Good luck!)'
+                '<32>{#p/basic}* (Boa sorte!)'
             ],
             cs_nicecreamkid: () =>
                 cs_state.nc
                     ? [
-                        "<32>{*}{#p/basic}{#i/1}* It's good, {@mystify=right}right{@mystify=}{%}",
-                        "<32>{*}{#i/1}* It's good, {@mystify=right}right{@mystify=}{%}",
-                        "<32>{#p/basic}* It's good, right?"
+                        "<32>{*}{#p/basic}{#i/1}* É bom, {@mystify=right}certo{@mystify=}{%}",
+                        "<32>{*}{#i/1}* É bom, {@mystify=right}certo{@mystify=}{%}",
+                        "<32>{#p/basic}* É bom, certo?"
                     ]
                     : [
-                        '<32>{*}{#p/basic}{#i/1}* Ever heard of {@mystify=Ice Dreams}Ice Dreams{@mystify=}{%}',
+                        '<32>{*}{#p/basic}{#i/1}* Ouvi falar dos {@mystify=Ice Dreams}Sorvete Sonhos{@mystify=}{%}',
                         '<32>{*}{#i/1}* Ever heard of {@mystify=Ice Dreams}Ice Dreams{@mystify=}{%}',
                         '<32>{#p/basic}* Ever heard of Ice Dreams?',
                         "<32>{*}{#i/1}* No?\n* Well, that's because I just\n  {@mystify=came up}came up{@mystify=}{%}",

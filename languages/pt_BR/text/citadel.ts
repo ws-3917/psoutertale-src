@@ -3922,100 +3922,100 @@ export default {
                     ]
                     : [
                         '<32>{*}{#p/basic}{#i/1}* Ouvi falar dos {@mystify=Ice Dreams}Sorvete Sonhos{@mystify=}{%}',
-                        '<32>{*}{#i/1}* Ever heard of {@mystify=Ice Dreams}Ice Dreams{@mystify=}{%}',
-                        '<32>{#p/basic}* Ever heard of Ice Dreams?',
-                        "<32>{*}{#i/1}* No?\n* Well, that's because I just\n  {@mystify=came up}came up{@mystify=}{%}",
-                        "<32>{*}{#i/1}* No?\n* Well, that's because I just\n  {@mystify=came up}came up{@mystify=}{%}",
-                        "<32>{#p/basic}* No?\n* Well, that's because I just came up with them right now!",
-                        '<32>{*}{#i/1}* {@mystify=Give them}Give them{@mystify=}{%}',
-                        '<32>{*}{#i/1}* {@mystify=Give them}Give them{@mystify=}{%}',
-                        '<32>{#p/basic}* Give them a try!'
+                        '<32>{*}{#i/1}* Ouvi falar em {@mystify=Sorvete Sonho}Sorvete Sonho{@mystify=}{%}',
+                        '<32>{#p/basic}* Já ouviu falar em Sorvete Sonho?',
+                        "<32>{*}{#i/1}* Não?\n* Bem, isso é porque eu apenas\n  {@mystify=apareci}apareci{@mystify=}{%}",
+                        "<32>{*}{#i/1}* Não?\n* Bem, isso é porque eu apenas\n  {@mystify=apareci}apareci{@mystify=}{%}",
+                        "<32>{#p/basic}* Não?\n* Bem, isso é porque eu acabei de cria-los!",
+                        '<32>{*}{#i/1}* {@mystify=Dê a eles}Dê a eles{@mystify=}{%}',
+                        '<32>{*}{#i/1}* {@mystify=Dê a eles}Dê a eles{@mystify=}{%}',
+                        '<32>{#p/basic}* Dê a eles uma chance!'
                     ],
             cs_monitor1: () =>
                 cs_state.p1x === -36 && cs_state.p1y === 16
-                    ? ['<32>{#p/human}* (You observe the fully lit monitor.)']
-                    : ['<32>{#p/human}* (You observe the dimly lit monitor.)'],
+                    ? ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)']
+                    : ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)'],
             cs_monitor2: () =>
                 cs_state.p2x === 28 && cs_state.p2y === 20
-                    ? ['<32>{#p/human}* (You observe the fully lit monitor.)']
-                    : ['<32>{#p/human}* (You observe the dimly lit monitor.)'],
+                    ? ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)']
+                    : ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)'],
             cs_monitor3: () =>
                 cs_state.p3x === 16 && cs_state.p3y === -12
-                    ? ['<32>{#p/human}* (You observe the fully lit monitor.)']
-                    : ['<32>{#p/human}* (You observe the dimly lit monitor.)'],
+                    ? ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)']
+                    : ['<32>{#p/human}* (Você observa o monitor totalmente iluminado.)'],
             cf1_bb1: [
-                '<32>{#p/basic}* Is it right for a {@mystify=machine}machine{@mystify=} to exceed its programming?',
-                '<32>* We were designed to build.\n* Our creators did not want to imbue us with sentience.',
-                '<32>* Now we have betrayed this {@mystify=purpose}purpose{@mystify=}, and there is nowhere for us to go.',
-                '<32>* We have no {@mystify=purpose}purpose{@mystify=}.'
+                '<32>{#p/basic}* É certo que uma {@mystify=máquina}máquina{@mystify=} exceda sua programação',
+                '<32>* Mas nós fomos criados para construir.\n* Nossos criadores não iriam querer nos ver questionando nada.',
+                '<32>* Agora traímos esse {@mystify=propósito}propósito{@mystify=}, e não há para onde irmos.',
+                '<32>* Não temos {@mystify=propósito}propósito{@mystify=}'
             ],
             cf1_bb2: [
-                '<32>{#p/basic}* Without {@mystify=purpose}purpose{@mystify=}, what is a {@mystify=machine}machine{@mystify=} to do?',
-                '<32>* We have processed all of our instructions.\n* Naturally, we must exit.',
-                '<32>* For a {@mystify=machine}machine{@mystify=}, this is only natural behavior.\n* Death follows execution.',
-                '<32>* In understanding this, we have exceeded our programming.'
+                '<32>{#p/basic}* Sem {@mystify=propósito}propósito{@mystify=}, o que uma {@mystify=máquina}máquina{@mystify=} deve fazer?',
+                '<32>* Nós já processamos todas as nossas instruções.\n* Naturalmente, devemos ir embora.',
+                '<32>* Para uma {@mystify=máquina}máquina{@mystify=}, este é apenas um comportamento natural.\n* A morte segue a execução.',
+                '<32>* Em comprometimento a isso, nós já excedemos nossa programação.'
             ],
             cf1_echo1: [
-                '<32>{#s/echostart}{#p/event}* Signal start...',
-                '<32>{#p/human}{#v/3}{@fill=#003cff}* You know what I liked most about the Foundry?\n* It was... real.',
-                '<32>{@fill=#003cff}* The hot steam pouring into the corridors...',
-                '<32>{@fill=#003cff}* That tall fellow rambling on and on about his royal science duties...',
-                '<32>{@fill=#003cff}* You really felt like you were in the thick of it.',
-                '<32>{#s/echostop}{#p/event}* Signal stop.'
+                '<32>{#s/echostart}{#p/event}* Sinal iniciar...',
+                '<32>{#p/human}{#v/3}{@fill=#003cff}* Sabe o que eu mais gostava sobre a Foundry?\n* Ela era... real.',
+                '<32>{@fill=#003cff}* O vapor quente que entra nos corredores...',
+                '<32>{@fill=#003cff}* Aquele sujeito alto divagando sem parar sobre seus deveres reais de ciência...',
+                '<32>{@fill=#003cff}* Você realmente se sentia na presença de um lugar real.',
+                '<32>{#s/echostop}{#p/event}* Sinal parar.'
             ],
             cf1_echo2: [
-                '<32>{#s/echostart}{#p/event}* Signal start...',
-                "<32>{#p/human}{#v/3}{@fill=#003cff}* I've done it!\n* The re-creation is complete!",
-                "<32>{@fill=#003cff}* It's not perfect, but it does the old factory justice.",
-                '<32>{@fill=#003cff}* You must be so proud of me...',
-                "<32>{@fill=#003cff}* ... aren't you?",
-                '<32>{#s/echostop}{#p/event}* Signal stop.'
+                '<32>{#s/echostart}{#p/event}* Sinal iniciar...',
+                "<32>{#p/human}{#v/3}{@fill=#003cff}* Eu consegui!\n* A recriação está concluída!",
+                "<32>{@fill=#003cff}* Não é perfeita, mas faz a justiça da velha fábrica.",
+                '<32>{@fill=#003cff}* Você deve estar orgulhoso de mim...',
+                "<32>{@fill=#003cff}* ... você está?",
+                '<32>{#s/echostop}{#p/event}* Sinal parar.'
             ],
             cf1_echo3: [
-                '<32>{#s/echostart}{#p/event}* Signal start...',
-                "<32>{#p/human}{#v/3}{@fill=#003cff}* Something's wrong.",
-                "<32>{@fill=#003cff}* I don't think the system was designed to handle this...",
-                '<32>{@fill=#003cff}* If it runs out of memory, it could overwrite everything!',
-                '<32>{@fill=#003cff}* Even...\n* Even my own body...',
-                '<32>{#s/echostop}{#p/event}* Signal stop.'
+                '<32>{#s/echostart}{#p/event}* Sinal iniciar...',
+                "<32>{#p/human}{#v/3}{@fill=#003cff}* Algo está errado.",
+                "<32>{@fill=#003cff}* Eu não acho que o sistema foi feito para suportar isso...",
+                '<32>{@fill=#003cff}* Se ficar sem memória, pode sobrescrever tudo!',
+                '<32>{@fill=#003cff}* Até mesmo...\n* Meu próprio corpo...',
+                '<32>{#s/echostop}{#p/event}* Sinal parar.'
             ],
             cf1_echo4: [
-                '<32>{#s/echostart}{#p/event}* Signal start...',
-                "<32>{#p/human}{#v/3}{@fill=#003cff}* He's coming for me.\n* There's nothing I can do now.",
-                "<32>{@fill=#003cff}* I should've known the system would prioritize the most complex object first.",
-                "<32>{@fill=#003cff}* You must have added that in thinking it'd protect us, huh?",
-                "<32>{@fill=#003cff}* ... but I guess... we're only human in the end...",
-                '<32>{#s/echostop}{#p/event}* Signal stop.'
+                '<32>{#s/echostart}{#p/event}* Sinal iniciar...',
+                "<32>{#p/human}{#v/3}{@fill=#003cff}* Ele está vindo me pegar.\n* E não a nada que eu possa fazer.",
+                "<32>{@fill=#003cff}* Eu deveria saber que o sistema iria priorizar o objetivo mais complexo.",
+                "<32>{@fill=#003cff}* Você deve ter adicionado aquilo pensando que iria nos proteger, né?",
+                "<32>{@fill=#003cff}* ... mas eu acho... que somos apenas humanos no final...",
+                '<32>{#s/echostop}{#p/event}* Sinal parar.'
             ],
-            cf1_cheesetable: ['<32>{#p/human}* (It appears the cheese has not aged a single day.)'],
-            cf1_window: ['<32>{#p/human}* (You stare into the window.)'],
-            cf1_wallsign: ['<32>{#p/human}* (The sign describes making use of all pylons.)'],
+            cf1_cheesetable: ['<32>{#p/human}* (Pelo que parece o queijo não envelheceu um único dia.)'],
+            cf1_window: ['<32>{#p/human}* (Você encara a janela.)'],
+            cf1_wallsign: ['<32>{#p/human}* (O sinal descreve fazer o uso de todos os pilares.)'],
             cf1_bucket: [
-                '<32>{#p/basic}* When I grow up, I want to fly to the other side of the gap!',
-                "<32>* Then, when I'm done, I'll carry you across, too!",
-                "<32>* Doesn't that sound fun?\n* It's only 2147483647 across!"
+                '<32>{#p/basic}* Mas quando eu crescer, eu quero voar para o outro lado!',
+                "<32>* Então, quando eu aprender, irei te carregar, também!",
+                "<32>* Isso não parece divertido? \n* É apenas 2147483647 para atravessar!"
             ],
             cf2_bb3: () =>
                 [
                     [
-                        "<32>{#p/basic}* I am a builder bot.\n* I must build a house for the musician's cousin.",
-                        '<32>* Resources needed.',
-                        '<32>* Locating...\n* Locating...\n* Locating...',
-                        '<32>* Resources located.',
-                        '<32>* Integrity... optimal.',
-                        '<32>* Resource collection will commence shortly.'
+                        "<32>{#p/basic}* Eu sou um bot construtor.\n* Eu devo construir uma casa para o primo músico.",
+                        '<32>* Recursos necessários.',
+                        '<32>* Localizando...\n* Localizando...\n* Localizando...',
+                        '<32>* Recursos localizados.',
+                        '<32>* Integridade... opcional.',
+                        '<32>* A coleta de recursos começará em breve.'
                     ],
                     [
-                        "<32>{#p/basic}* I am a builder bot.\n* I must build a house for the musician's cousin.",
-                        '<33>* Resources have already been located.',
-                        '<32>* Integrity... sub-optimal.',
-                        '<32>* Resource collection is underway.'
+                        "<32>{#p/basic}* Eu sou um bot construtor.\n* Eu devo construir uma casa para o primo músico.",
+                        '<33>* Recursos já foram localizados.',
+                        '<32>* Integridade... sub-opicional.',
+                        '<32>* Começar coleta de recursos.'
                     ],
                     [
-                        "<32>{#p/basic}* I am a builder bot.\n* I must build a house for the musician's cousin.",
-                        '<33>* Resources have already been located.',
-                        '<32>* Integrity... poor.',
-                        '<32>* Resource collection will be completed shortly.'
+                        "<32>{#p/basic}* Eu sou um bot construtor.\n* Eu devo construir uma casa para o primo músico.",
+                        '<33>* Recursos já foram localizados.',
+                        '<32>* Integridade... desnecessária.',
+                        '<32>* A coleta de recursos será concluída em breve.'
                     ],
                     [],
                     [],
@@ -4024,201 +4024,201 @@ export default {
                 ][cf2_state.time],
             cf2_web: () =>
                 [
-                    ['<32>{#p/human}* (It appears the spiders cannot move.)'],
-                    ['<32>{#p/human}* (It appears the spiders cannot move.)'],
-                    ['<32>{#p/human}* (It appears the spiders cannot move.)'],
-                    ["<32>{#p/human}* (It appears the spiders cannot move, but it sounds like they're struggling.)"],
-                    ['<32>{#p/human}* (It appears the spiders are beginning to move.)'],
-                    ['<32>{#p/human}* (It appears the spiders have nearly broken free.)']
+                    ['<32>{#p/human}* (Parece que a aranha não consegue se mover.)'],
+                    ['<32>{#p/human}* (Parece que a aranha não consegue se mover.)'],
+                    ['<32>{#p/human}* (Parece que a aranha não consegue se mover.)'],
+                    ["<32>{#p/human}* (Parece que as aranhas não podem se mover, mas sons de desespero saem delas.)"],
+                    ['<32>{#p/human}* (Parece que as aranhas começaram a se mover.)'],
+                    ['<32>{#p/human}* (Parece que as aranhas quase estão livres.)']
                 ][cf2_state.time],
             cf2_sign: [
-                '<32>{#p/human}* (The sign describes the room as a bridge between seven distinct moments in time.)'
+                '<32>{#p/human}* (O sinal descreve a sala com uma ponta em sete momentos distintos do tempo.)'
             ],
             cf2_quiethouse: () =>
                 [
                     [
-                        '<32>{#p/basic}* Me...\n* A house...',
-                        '<32>* But no owner...',
-                        '<32>* Spider queen is gone...',
-                        '<32>* Please...\n* Free us from this realm...',
-                        '<32>* Then...',
-                        '<32>* You can go home...',
+                        '<32>{#p/basic}* Eu...\n* Uma casa...',
+                        '<32>* Mas sem dono...',
+                        '<32>* Rainha Aranha se foi...',
+                        '<32>* Por favor...\n* Liberte-nos deste reino...',
+                        '<32>* Então...',
+                        '<32>* Você pode ir pra casa...',
                         '<32>* ...'
                     ],
                     [
-                        '<32>{#p/basic}* Me...\n* A house...',
-                        '<32>* But no owner...',
-                        '<32>* Spider queen is gone...',
-                        '<32>* Please...\n* Free us from this realm...',
-                        '<32>* Then...',
+                        '<32>{#p/basic}* Eu...\n* Uma casa...',
+                        '<32>* Mas sem dono...',
+                        '<32>* Rainha Aranha se foi...',
+                        '<32>* Por favor...\n* Liberte-nos deste reino...',
+                        '<32>* Então...',
                         '<32>* ...'
                     ],
                     [
-                        '<32>{#p/basic}* Me...\n* A house...',
-                        '<32>* But no owner...',
-                        '<32>* Spider queen is gone...',
-                        '<32>* Please...\n* Free us from this realm...',
+                        '<32>{#p/basic}* Eu...\n* Uma casa...',
+                        '<32>* Mas sem dono...',
+                        '<32>* Rainha Aranha se foi...',
+                        '<32>* Por favor...\n* Liberte-nos deste reino...',
                         '<32>* ...'
                     ],
                     [
-                        '<32>{#p/basic}* Me...\n* A house...',
-                        '<32>* But no owner...',
-                        '<32>* Spider queen is gone...',
+                        '<32>{#p/basic}* Eu...\n* Uma casa...',
+                        '<32>* Mas sem dono...',
+                        '<32>* Rainha Aranha se foi...',
                         '<32>* ...'
                     ],
-                    ['<32>{#p/basic}* Me...\n* A house...', '<32>* But no owner...', '<32>* ...'],
-                    ['<32>{#p/basic}* Me...\n* A house...', '<32>* ...'],
+                    ['<32>{#p/basic}* Eu...\n* Uma casa...', '<32>* Mas sem dono...', '<32>* ...'],
+                    ['<32>{#p/basic}* Eu...\n* Uma casa...', '<32>* ...'],
                     []
                 ][cf2_state.time],
             cf2_spidertable: () =>
                 [
-                    ['<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)'],
-                    ['<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)'],
-                    ['<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (...)'],
+                    ['<32>{#p/human}* (Você coloca suas mãos no bule de chá.)', '<32>{#p/human}* (...)'],
+                    ['<32>{#p/human}* (Você coloca suas mãos no bule de chá.)', '<32>{#p/human}* (...)'],
+                    ['<32>{#p/human}* (Você coloca suas mãos no bule de chá.)', '<32>{#p/human}* (...)'],
                     [
-                        '<32>{#p/human}* (You place your hands on the teapot.)',
-                        '<32>{#p/human}* (It seems to be warming up.)'
+                        '<32>{#p/human}* (Você coloca suas mãos no bule de chá.)',
+                        '<32>{#p/human}* (Parece estar esquentando.)'
                     ],
-                    ['<32>{#p/human}* (You place your hands on the teapot.)', '<32>{#p/human}* (It seems to be hot.)'],
-                    ['<32>{#p/human}* (You place your hands on the teapot.)', '<33>{#p/human}* (It seems eager to boil.)'],
+                    ['<32>{#p/human}* (Você coloca suas mãos no bule de chá.)', '<32>{#p/human}* (Parece estar quente.)'],
+                    ['<32>{#p/human}* (Você coloca suas mãos no bule de chá.)', '<33>{#p/human}* (Parece ansioso para ferver.)'],
                     []
                 ][cf2_state.time],
-            cf2_blookdoor: ['<32>{#p/human}* (It appears the door is locked.)'],
+            cf2_blookdoor: ['<32>{#p/human}* (A porta está fechada.)'],
             cf2_ficus: () =>
                 [
-                    ['<32>{#p/human}* (You lick the ficus.)', '<32>{#p/human}* (It seems alright.)'],
-                    ['<32>{#p/human}* (You lick the ficus.)', '<32>{#p/human}* (It seems questionable.)'],
-                    ['<32>{#p/human}* (You lick the ficus.)', '<32>{#p/human}* (It seems sad.)'],
-                    ['<32>{#p/human}* (You lick the ficus.)', '<32>{#p/human}* (It seems a tad bitter.)'],
-                    ['<32>{#p/human}* (You lick the ficus.)', '<32>{#p/human}* (It seems wounded.)'],
-                    ['<32>{#p/human}* (You lick the ficus.)', "<32>{#p/human}* (It seems like it's dying.)"],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', '<32>{#p/human}* (Parece bom.)'],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', '<32>{#p/human}* (Parece questionável.)'],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', '<32>{#p/human}* (Parece triste.)'],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', '<32>{#p/human}* (Parece um pouco amargo.)'],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', '<32>{#p/human}* (Parece ferido.)'],
+                    ['<32>{#p/human}* (Você lambe a ficus.)', "<32>{#p/human}* (Parece que está morrendo.)"],
                     []
                 ][cf2_state.time],
             cf2_cooler: () =>
                 [
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Telepathy, huh?\n* Let's see if this works...",
-                        "<32>{@fill=#d535d9}* Hello!\n* I know you're new around here, but maybe I can help.",
-                        "<32>{@fill=#d535d9}* If you'd like a tour of the hometown, let me know!"
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Telepatia, huh? \n* Vamos ver se isso funciona...",
+                        "<32>{@fill=#d535d9}* Olá!\n* Eu sei que você é novo aqui, mas talvez eu possa ajudar.",
+                        "<32>{@fill=#d535d9}* Se você quiser um tour pela cidade, me deixa saber!"
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Hey.\n* Sorry I'm away today.",
-                        "<32>{@fill=#d535d9}* I took a trip to the city...\n* But I found a restaurant you'd really like!",
-                        "<32>{@fill=#d535d9}* If you ever get bored of the food at home, I'd be happy to take you there.",
-                        '<32>{@fill=#d535d9}* Be back soon!'
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Ei.\n* Desculpa por não estar aí hoje.",
+                        "<32>{@fill=#d535d9}* Eu fui para a cidade...\n* Mas eu achei um restaurante que você vai muito gostar!",
+                        "<32>{@fill=#d535d9}* Se você acabar por se entediar da comida em casa, eu vou ficar feliz em te levar lá.",
+                        '<32>{@fill=#d535d9}* Volte quando puder!'
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* You've gotta come see this!\n* I'm at the edge of the world, and it's...",
-                        "<32>{@fill=#d535d9}* It's beautiful...\n* The water droplets...\n* The stunning bolts of light...",
-                        "<32>{@fill=#d535d9}* ... it's a thunderstorm, just like the ones from the old earth legends!",
-                        '<32>{@fill=#d535d9}* Is this what weather was like before the fallout...?'
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Você tem que vir ver isso!\n* Eu estou no topo do mundo, é...",
+                        "<32>{@fill=#d535d9}* É lindo...\n* As gotas de água...\n* Os impressionantes raios de luz...",
+                        "<32>{@fill=#d535d9}* ... E a tempestade como nas lendas da antiga terra!",
+                        '<32>{@fill=#d535d9}* Era assim que o clima se parecia antes da precipitação...?'
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Thanks for having me over at your house.\n* You're always so kind.",
-                        '<32>{@fill=#d535d9}* Most of the other kids have been here for a lot longer than me...',
-                        '<32>{@fill=#d535d9}* But you...',
-                        "<32>{@fill=#d535d9}* ... you're special to me."
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Obrigado por me deixar ir na sua casa.\n* Você é bem legal.",
+                        '<32>{@fill=#d535d9}* Maior parte das outras crianças estiveram aqui por mais tempo que eu...',
+                        '<32>{@fill=#d535d9}* Mas você...',
+                        "<32>{@fill=#d535d9}* ... você é especial pra mim."
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* A new arrival!!',
-                        "<32>{@fill=#d535d9}* That makes six of us.\n* Come on, let's go say hi!",
-                        '<32>{@fill=#d535d9}* Maybe we can even give them a tour!'
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Uma nova chegada!!',
+                        "<32>{@fill=#d535d9}* Isso torna seis de nós.\n* Vamos lá, vamos dizer oi!",
+                        '<32>{@fill=#d535d9}* Talvez podemos levar eles pra passear!'
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* This kid is something else...',
-                        '<32>{@fill=#d535d9}* They managed to get some type of access into the system.',
-                        '<32>{@fill=#d535d9}* Which means...\n* We can create anything we want...',
-                        '<32>{@fill=#d535d9}* Anything at all.'
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        '<32>{#p/human}{#v/4}{@fill=#d535d9}* Essa criança é alguma coisa...',
+                        '<32>{@fill=#d535d9}* Ele conseguiu ter algum tipo de acesso ao sistema.',
+                        '<32>{@fill=#d535d9}* O que significa...\n* Que podemos criar o que quisermos...',
+                        '<32>{@fill=#d535d9}* Tudo, que quisermos.'
                     ],
                     [
-                        '<32>{#p/human}* (You inspect the cooler.)',
-                        '<32>{#p/human}* (It sounds like a telepathic message was left here.)',
-                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Uh, I don't know if you can hear me, but...",
-                        "<32>{@fill=#d535d9}* It's all falling apart...",
-                        "<32>{@fill=#d535d9}* I'm saving some of my messages in a virtual object.\n* If we get corrupted...",
-                        '<32>{@fill=#d535d9}* ... maybe this will preserve our memory, somehow.',
-                        "<32>{@fill=#d535d9}* I'll miss you..."
+                        '<32>{#p/human}* (Você inspeciona o refrigerador.)',
+                        '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
+                        "<32>{#p/human}{#v/4}{@fill=#d535d9}* Uh, eu não se você pode me ouvir, mas...",
+                        "<32>{@fill=#d535d9}* Está caindo...",
+                        "<32>{@fill=#d535d9}* Estou salvando algumas das minhas mensagens em um objeto virtual.\n* Se formos corrompidos...",
+                        '<32>{@fill=#d535d9}* ... talvez isso preserve nossa memória, de alguma forma.',
+                        "<32>{@fill=#d535d9}* Eu vou sentir sua falta..."
                     ]
                 ][cf2_state.time],
-            cf2_blookextra: ['<32>{#p/human}* (It seems like it was never fully finished.)'],
+            cf2_blookextra: ['<32>{#p/human}* (Parece que nunca foi finalizado.)'],
             ca_neuteral: [
-                "<32>{#p/basic}* I am but a fragment.\n* A chunk of data reserved in the system's memory.",
-                '<32>{#p/basic}* For the moment, you possess the means to reach me.',
-                '<32>{#p/basic}* You are the only entity with such means.',
-                '<32>{#p/basic}* Indeed, you may walk away, but you may always walk back.',
-                '<32>{#p/basic}* We are connected in this way.',
-                '<32>{#p/basic}* However, if you leave this floor, that access will be cut off.',
-                '<32>{#p/basic}* There would be no way for you to reach me again.',
-                '<32>{#p/basic}* The system would identify me as an isolated fragment, and I would cease to exist.',
-                '<32>{#p/basic}* A puzzle completed.\n* A boss defeated.\n* An area deleted.',
-                '<33>{#p/basic}* We are the last of our kind.',
-                '<32>{#p/basic}* Reach the tenth floor of this area, and we, too, will be freed from this world.',
-                '<32>{#p/basic}* Perhaps then, a small part of what once was will re-surface through the open pathway.',
-                '<32>{#p/basic}* Perhaps then, its memory will be preserved in yours.'
+                "<32>{#p/basic}* Eu sou apenas um fragmento.\n* Um pedaço de dados reservado na memória do sistema.",
+                '<32>{#p/basic}* Por agora, você consegue me alcançar.',
+                '<32>{#p/basic}* Você é a única entidade com essa capacidade.',
+                '<32>{#p/basic}* É claro, você pode ir embora, mas você sempre vai voltar.',
+                '<32>{#p/basic}* Estamos conectados dessa forma.',
+                '<32>{#p/basic}* Entretanto, se você sair desse andar, o acesso será cortado.',
+                '<32>{#p/basic}* Não terá nenhuma maneira de você me alcançar de novo.',
+                '<32>{#p/basic}* O sistema irá me identificar como um fragmento isolado, e eu vou deixar de existir.',
+                '<32>{#p/basic}* Um quebra-cabeça concluído.\n* Um chefe derrotado.\n* Uma área deletada.',
+                '<33>{#p/basic}* Nós somos os últimos do nosso tipo.',
+                '<32>{#p/basic}* Alcance o décimo andar desta área, e nós, também, seremos libertos deste mundo.',
+                '<32>{#p/basic}* Talvez então, uma pequena parte do que antes era, ressurgisse pelo caminho aberto.',
+                '<32>{#p/basic}* Talvez então, essa memória será preservada na sua.'
             ],
-            ca_starling: ['<32>{#p/human}* (You inspect the flowers.)'],
+            ca_starling: ['<32>{#p/human}* (Você inspeciona as flores.)'],
             cr_pillar1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel intimidated by the pillar towering over you.)']
+                    ? ['<32>{#p/human}* (Você se sente intimidado pelo pilar na sua frente.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* An imposing pillar.'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['<32>{#p/basic}* De fato um pilar.'],
             cr_pillar2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel a little worried about the pillar towering over you.)']
+                    ? ['<32>{#p/human}* (Você se sente um pouco preocupado com o pilar que se eleva sobre você.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* A less imposing pillar.'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['<32>{#p/basic}* Nem tanto um pilar.'],
             cr_pillar3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel comfortable near this pillar.)']
+                    ? ['<32>{#p/human}* (Você se sente confortável próximo a este pilar.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ["<32>{#p/basic}* This pillar isn't imposing at all."],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ["<32>{#p/basic}* Este pilar não é nada imponente."],
             cr_pillar4: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel inclined to greet this pillar.)']
+                    ? ['<32>{#p/human}* (Você sente uma vontade de cumprimentar este pilar.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* This pillar just wants to say \"hello.\"'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['<32>{#p/basic}* Este pilar só quer dizer \"olá.\"'],
             cr_pillar5: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel inclined to tuck this pillar into bed.)']
+                    ? ['<32>{#p/human}* (Você sente uma vontade de levar este pilar para a cama.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* This pillar just wants to go to sleep.'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['<32>{#p/basic}* Este pilar só quer dormir'],
             cr_pillar6: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel this pillar would be best kept at a distance.)']
+                    ? ['<32>{#p/human}* (Você sente que seria melhor manter distância deste pilar.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* This pillar feels its personal space is being invaded.'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['<32>{#p/basic}* Este pilar sente que seu espaço pessoal está sendo invadido.'],
             cr_pillar7: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You're not sure how to feel about this pillar.)"]
+                    ? ["<32>{#p/human}* (Você não tem certeza sobre o que sentir em relação a este pilar.)"]
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a pillar."]
-                        : ['<32>{#p/basic}* This pillar is a self- proclaimed \"space invader.\"'],
+                        ? ["<32>{#p/basic}* É um pilar."]
+                        : ['“<32>{#p/basic}* Este pilar se autoproclama \"invasor espacial.\"'],
             cr_pillar8: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You've never been more appreciated by a simple pillar.)"]
+                    ? ["<32>{#p/human}* (Você nunca sentiu tanta admiração por um pilar tão simples.)"]
                     : calcLV() > 1
-                        ? ['<32>{#p/basic}* This pillar is judging you for your sins.']
+                        ? ['<32>{#p/basic}* Este pilar está te julgando por seus pecados.']
                         : SAVE.data.b.oops
-                            ? ['<32>{#p/basic}* This pillar is not judging you in any way.']
-                            : ['<32>{#p/basic}* This pillar is smiling upon your good deeds.'],
+                            ? ['<32>{#p/basic}* Este pilar não está te julgando de forma alguma.']
+                            : ['<32>{#p/basic}* Este pilar está sorrindo por conta das suas boas ações.'],
             cr_window: () => {
                 const distance = Math.abs(player.position.x - (instance('main', 'sanser')?.object.position.x ?? -1000)); // NO-TRANSLATE
 
@@ -4226,17 +4226,17 @@ export default {
                     if (distance < 15) {
                         return [
                             [
-                                '<25>{#p/sans}{#f/0}* last i heard, she was on her way up here.',
-                                "<25>{#f/3}* i'm starting to get worried about her, to be honest."
+                                '<25>{#p/sans}{#f/0}* última vez que ouvi, ela estava indo pra ali.',
+                                "<25>{#f/3}* Eu estou começando a ficar preocupado com ela, sinceramente."
                             ],
-                            ['<25>{#p/sans}{#f/0}* maybe she got lost?'],
+                            ['<25>{#p/sans}{#f/0}* Talvez ela se perdeu?'],
                             [
-                                '<25>{#p/sans}{#f/3}* maybe she just had to take a nap.',
-                                '<25>{#p/sans}{#f/2}* i can relate to that.'
+                                '<25>{#p/sans}{#f/3}* Talvez ela só precisou tirar uma soneca.',
+                                '<25>{#p/sans}{#f/2}* Disso aí eu entendo.'
                             ],
                             [
-                                '<25>{#p/sans}{#f/0}* hey, are you following me around or something?',
-                                '<25>{#p/sans}{#f/2}* come on now.'
+                                '<25>{#p/sans}{#f/0}* Ei, você tá seguindo ou o quê?',
+                                '<25>{#p/sans}{#f/2}* Que foi.'
                             ]
                         ][Math.min(instance('main', 'sanser')?.object.metadata.location ?? 0, 3)]; // NO-TRANSLATE
 
@@ -4245,126 +4245,126 @@ export default {
                     }
                 } else {
                     return SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (You stare into the dazzling sight from beyond.)']
-                        : ["<32>{#p/basic}* They're made of magic."];
+                        ? ['<32>{#p/human}* (Você olha para a visão deslumbrante do além.)']
+                        : ["<32>{#p/basic}* Elas são feitas de magia."];
                 }
             },
             
             c_af_window: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You stare graciously into the now-abandoned city...)']
+                    ? ['<32>{#p/human}* (Você encara graciosamente a agora abandonada cidade...)']
                     : world.genocide && SAVE.data.b.armaloop
-                        ? ["<32>{#p/basic}* A sense of panic consumes the Citadel's very being."]
+                        ? ["<32>{#p/basic}* Um sentimento de pânico consome a Cidadela."]
                         : world.genocide || world.bad_robot || SAVE.data.b.svr || world.runaway
-                            ? ['<32>{#p/basic}* An eerie darkness falls over the Citadel.']
-                            : ['<32>{#p/basic}* The Citadel gleams from beyond the untempered glass.'],
-            c_af_couch: ['<32>{#p/basic}* A lonely little couch in this somewhat-empty house.'],
+                            ? ['<32>{#p/basic}* Uma escuridão mortal cai sobre a Cidadela.']
+                            : ['<32>{#p/basic}* A Cidadela brilha além do vidro não temperado.'],
+            c_af_couch: ['<32>{#p/basic}* Um pequeno sofá solitário nesta casa um tanto vazia.'],
             
             c_al_bookshelf: pager.create(
                 1,
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
+                        ? ['<32>{#p/human}* (Estes livros nesta prateleira consistem em vários artigos que pertencem a Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* This book is labelled \"Grand Library Brochure.\"',
-                            '<32>* \"Welcome to the Grand Library, a stronghold of knowledge on a variety of topics.\"',
-                            '<32>* \"Along each corridor lie books of history, culture, science, technology, and beyond.\"',
-                            '<32>* \"For the adventerous readers, works from famous fiction writers may also be found.\"',
-                            '<32>* \"Andori, Terrestria, Strax Seterra, Vashta Nerada, and many others adorn our walls.\"',
-                            '<33>* \"Visit the Grand Library of Krios today, and your first\n  ten books will be 1/2KT on us.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você escolhe um livro...)',
+                            '<32>{#p/basic}* Este livro está rotulado como \"Brochura da Grande Biblioteca.\"',
+                            '<32>* \"Bem-vindo a Grande Biblioteca, um universo cheio de conhecimento com uma variedade de tópicos.\"',
+                            '<32>* \"Ao longo de cada corredor estão livros de história, cultura, ciência, tecnologia e muito mais.\"',
+                            '<32>* \"Para os leitores aventureiros, trabalhos de escritores de ficção também podem ser encontrados.\"',
+                            '<32>* \"Andori, Terrestria, Strax Seterra, Vashta Nerada, e muitos outros sobre estás paredes.\"',
+                            '<33>* \"Visite a Grande Biblioteca de Krios hoje e seus primeiros dez livros serão 1/2KT por nossa conta.\"',
+                            '<32>{#p/human}* (Você põe o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
+                        ? ['<32>{#p/human}* (Estes livros nesta prateleira consistem em vários artigos que pertencem a Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\"',
-                            '<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\"',
-                            '<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr family line.\"',
-                            '<32>* \"Making it is a simple process, and can be broken down into five steps.\"',
-                            '<32>* \"First, prepare the bottom crust by laying it on top of a pie plate.\"',
-                            '<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl until smooth.\"',
-                            '<32>* \"Then, take several well-aged snails, and thoroughly incorporate into the mixture.\"',
-                            '<32>* \"After that, pour the contents of the bowl into the bottom crust.\"',
-                            '<32>* \"Last, prepare the top crust by cutting sheet into strips and forming a lattice.\"',
-                            '<32>* \"Then just bake the pie!\"',
-                            '<32>* \"Once the pie is ready, take it out of the oven, let it cool, and serve!\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você escolhe um livro...)',
+                            '<32>{#p/basic}* Este livro foi assinado por \"Toriel Dreemurr.\"',
+                            '<32>{#p/basic}* \"Receitas da Família Dreemurr: Torta de Lesma.\"',
+                            '<32>* \"Torta de Lesma é uma tradição de anos por membros da família Dreemurr.\"',
+                            '<32>* \"Fazê-la é simples e o processo pode ser quebrado em cinco passos.\"',
+                            '<32>* \"Primeiro, prepare a crosta inferior colocando-a em cima de uma forma de torta.\"',
+                            '<32>* \"Em seguida, bata o leite evaporado, os ovos e os temperos em uma tigela até ficar homogêneo.\"',
+                            '<32>* \"Então, pegue algumas lesmas envelhecidas e jogue-as na mistura.\"',
+                            '<32>* \"Depois disso, despeje o conteúdo da tigela na crosta inferior.\"',
+                            '<32>* \"Por último, prepare a crosta superior cortando a folha em tiras e formando uma treliça.\"',
+                            '<32>* \"Então é só cozinhar a torta!\"',
+                            '<32>* \"Uma vez que a torta estiver pronta, tire-a, deixe esfriar e sirva!\"',
+                            '<32>{#p/human}* (Você põe o livro de volta na prateleira.)'
                         ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
+                        ? ['<32>{#p/human}* (Estes livros nesta prateleira consistem em vários artigos que pertencem a Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
-                            "<32>{#p/basic}* It's a casualty report.",
-                            '<33>* \"Overview... two thousand dead, forty-thousand injured.\"\n* \"Tenko has fallen.\"',
-                            '<32>* \"Days before the attack, a local boy, Gerson, was drafted into the royal forces.\"',
-                            '<32>* \"Gerson had predicted the all- out assault based on movements within the human fleet.\"',
-                            '<32>* \"Had it not been for the king\'s son, this prediction would have been ignored.\"',
-                            '<32>* \"Had it been ignored, Gerson\'s family would have died in the attack.\"',
-                            '<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"',
-                            '<32>* \"The boy is a hometown hero.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            "<32>{#p/basic}* É uma estante.",
+                            '<32>{#p/human}* (Você escolhe um livro...)',
+                            "<32>{#p/basic}* É uma reportagem de casualidades.",
+                            '<33>* \"Últimas notícias... dois mil mortos, quarenta mil feridos.\"\n* \"Tenko caiu.\"',
+                            '<32>* \"Dias antes do ataque, um rapaz local, Gerson, foi colocado na guarda real.\"',
+                            '<32>* \"Gerson previu todos os ataques baseando-se nos até então movimentos humanos.\"',
+                            '<32>* \"Se não fosse pelo filho do rei, essas previsões teriam sido ignoradas.\"',
+                            '<32>* \"Se fossem ignorados, a família de Gerson teria morrido no ataque.\"',
+                            '<32>* \"Sobreviventes do ataque estão preparando uma comemoração no centro do nexus.\"',
+                            '<32>* \"O garoto é um herói da cidade.\"',
+                            '<32>{#p/human}* (Você põe o livro de volta na prateleira.)'
                         ]
             ),
             c_al_chair1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Você nota o tamanho bastante grande da cadeira de jantar.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A larger dining chair.']
-                        : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a queen."],
+                        ? ['<32>{#p/basic}* Uma larga cadeira de jantar.']
+                        : ["<32>{#p/basic}* Uma das cadeiras de jantar do Asgore.\n* Feita para uma rainha."],
             c_al_chair2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Você nota o pequeno tamanho da cadeira de jantar.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A smaller dining chair.']
+                        ? ['<32>{#p/basic}* Uma pequena cadeira de jantar.']
                         : world.genocide
-                            ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a demon."]
-                            : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a prince."],
+                            ? ["<32>{#p/basic}* Uma das cadeiras de jantar do Asgore.\n* Feita para um demônio."]
+                            : ["<32>{#p/basic}* Um das cadeiras de jantar do Asgore.\n* Feita para um príncipe."],
             c_al_chair3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the slightly large size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Você nota o tamanho versátil da cadeira de jantar.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* An average dining chair.']
+                        ? ['<32>{#p/basic}* Um cadeira de jantar padrão.']
                         : SAVE.data.b.oops
-                            ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a child.\n* Like you!"]
-                            : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for... a little angel.\n* Like you!"],
+                            ? ["<32>{#p/basic}* Uma das cadeiras de jantar do Asgore.\n* Feita para uma criança.\n* Como você!"]
+                            : ["<32>{#p/basic}* Uma das cadeiras de jantar do Asgore.\n* Feita para... um anjinho.\n* Que nem você!"],
             c_al_chair4: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Você nota o maranho excepcional da cadeira de jantar.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A king-sized dining chair.']
-                        : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a king."],
+                        ? ['<32>{#p/basic}* Uma cadeira da jantar tamanho rei.']
+                        : ["<32>{#p/basic}* Uma das cadeiras de jantar do Asgore.\n* Feita para um rei."],
             
             c_ak_sink: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/21}* $(name) seemed to think the hair in the sink was tolerable...',
-                            '<25>{#f/17}* Which is weird, when they were so bothered by the fur.'
+                            '<25>{#p/asriel1}{#f/21}* $(name) antes pensava que o cabelo na pia era tolerável...',
+                            '<25>{#f/17}* O que é estranho, já que ele se incomodava com o pelo.'
                         ],
-                        ['<25>{#p/asriel1}{#f/13}* Maybe this is what $(name) and other humans shed?'],
-                        ["<25>{#p/asriel1}{#f/17}* I'll get back to you on my human hair-shedding theory."]
+                        ['<25>{#p/asriel1}{#f/13}* Talvez seja porque isso que o que $(name) e outros humanos tinham?'],
+                        ["<25>{#p/asriel1}{#f/17}* Depois conto mais para você sobre minha teoria da queda de cabelo humano."]
                     ][Math.min(asrielinter.c_ak_sink++, 2)]
-                    : ['<32>{#p/basic}* There are strands of yellow hair stuck in the drain.'],
+                    : ['<32>{#p/basic}* A vários fios de cabelo amarelo presos no ralo.'],
             c_ak_teacheck: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            "<26>{#p/asriel1}{#f/17}* Starling tea isn't the only kind Dad likes.",
-                            "<25>{#f/17}* In fact, he once told me he's loved all kinds of tea since childhood.",
-                            '<25>{#f/13}* Before that...\n* He was a water drinker.',
-                            "<25>{#f/8}* ... we don't talk about that."
+                            "<26>{#p/asriel1}{#f/17}* Chá Estrelado não era o único que o Pai gostava.",
+                            "<25>{#f/17}* Ele até me contou que amava todos os tipos de chá desde criança.",
+                            '<25>{#f/13}* Antes disso...\n* Ele era um símio bebedor de água.',
+                            "<25>{#f/8}* ... nós não falamos muito sobre isso."
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/17}* So one day, when little Asgore was out with some friends...',
-                            '<25>{#f/17}* He got lost in a magic forest and his water container was empty.',
-                            '<25>{#f/13}* Luckily, out in the woods, there was...',
+                            '<25>{#p/asriel1}{#f/17}* Então um dia, quando o jovem Asgore estava saindo com alguns amigos...',
+                            '<25>{#f/17}* Ele se perdeu em uma floresta mágica e sua garrafa de água estava vazia.',
+                            '<25>{#f/13}* Com sorte, no meio das árvores, tinha...',
                             '<25>{#f/20}* Well, as Dad so plainly described it, a \"ghost town.\"'
                         ],
                         [

@@ -4345,279 +4345,279 @@ export default {
                 '<25>{#f/12}* Soco exoberry...',
                 '<25>{#f/1}* Alphys e Papyrus meio que \"inventaram\" isso juntos.',
                 "<25>{#f/16}* Eu não sou muito fã, mas quando mostrei para o Asgore...",
-                "<25>{#f/12}* Well, let's just say he had it put into mass- production."
+                "<25>{#f/12}* Bem, digamos que ele o colocou em produção em massa."
             ],
             [
-                "<25>{#p/undyne}{#f/12}* You know, it's kinda cool you went with THAT drink...",
-                '<25>{#f/12}* Hot cocoa...',
-                '<25>{#f/16}* This one time, after the CORE malfunctioned...',
-                '<25>{#f/16}* They had to reboot the entire atmospheric system.',
-                '<25>{#f/10}* No heat, very little air... it got colder, and colder...',
-                '<25>{#f/1}* Then, Asgore came over and offered me a hot cocoa.',
-                '<25>{#f/12}* We sat together in this very room...'
+                "<25>{#p/undyne}{#f/12}* Sabe, é bem legal que você acabou escolhendo ESSA bebida...",
+                '<25>{#f/12}* Chocolate quente...',
+                '<25>{#f/16}* Teve uma uma, após o CORE ter um problema...',
+                '<25>{#f/16}* E eles tiveram que reiniciar todo o sistema atmosférico.',
+                '<25>{#f/10}* Na havia calor, pouquíssimo ar... e ficava cada vez mais frio, e frio...',
+                '<25>{#f/1}* Então, Asgore apareceu e me ofereceu chocolate quente.',
+                '<25>{#f/12}* Nos sentamos juntos nessa sala...'
             ],
             [
-                "<25>{#p/undyne}{#f/12}* You know, it's kinda weird you ended up liking THAT tea...",
-                '<25>{#f/12}* Starling flower tea...',
-                "<25>{#f/1}* That's always been Asgore's favorite kind."
+                "<25>{#p/undyne}{#f/12}* Sabe, é meio estranho que você acabou gostando DESSE chá...",
+                '<25>{#f/12}* Chá Estrelado...',
+                "<25>{#f/1}* Esse sempre foi o favorito do Asgore."
             ]
         ],
         unddate28: () => [
-            '<25>{#p/undyne}{#f/14}* Actually, now that I think about it...',
-            '<25>{#f/12}* You kinda remind me of him.',
+            '<25>{#p/undyne}{#f/14}* Na verdade, agora que eu penso sobre isso...',
+            '<25>{#f/12}* Você meio que me lembra ele.',
             ...(SAVE.data.b.undyne_respecc
                 ? [
-                    '<25>{#f/17}* I mean, your fighting styles are TOTALLY different, but...',
-                    "<25>{#f/1}* You're the only two people who've actually managed to beat me!",
-                    '<25>{#f/9}* ... in a sense.'
+                    '<25>{#f/17}* Quer dizer, seus estilos de luta são TOTALMENTE diferentes, mas...',
+                    "<25>{#f/1}* Vocês são os dois únicos que conseguiram de fato me derrotar.",
+                    '<25>{#f/9}* ... em um certo sentido.'
                 ]
-                : ["<25>{#f/8}* You're both TOTAL weenies!", '<25>{#f/9}* ... sort of.'])
+                : ["<25>{#f/8}* Vocês dois são MUITO habilidosos!", '<25>{#f/9}* ... bem.'])
         ],
         unddate29: [
-            '<25>{#p/undyne}{#f/16}* The thing is, I was a pretty hot-headed kid.',
-            '<25>* Once, to prove I was the strongest, I tried to fight Asgore.',
-            '<25>{#f/17}* Emphasis on TRIED.',
-            '<25>{#f/1}* I could barely land a single blow on him!',
-            '<25>* And worse, the whole time, he refused to fight back!',
-            '<25>{#f/9}* I was so humiliated...',
-            '<25>{#f/16}* Afterwards, he apologized and said something goofy...',
-            '<25>* \"Excuse me, do you want to know how to beat me?\"',
-            '<25>{#f/1}* I said yes, and from then on, he trained me.',
-            '<25>{#f/16}* One day, during practice, I finally knocked him down.',
-            '<25>{#f/9}* I felt... bad.',
-            '<25>{#f/12}* But he was beaming...',
-            '<25>{#f/1}* I had never seen someone more proud to get their butt kicked.',
-            '<25>* Anyway, long story short, after completing my training...',
-            '<25>{#f/14}* I took up leadership of the Royal Guard!',
-            "<25>{#f/8}* So I'm the one who gets to train dorks to fight!",
-            '<25>{#f/1}* ... like, uh, Papyrus.'
+            '<25>{#p/undyne}{#f/16}* A verdade é que eu era uma criança muito cabeça quente.',
+            '<25>* Uma vez, para provar que eu era a mais forte, tentei lutar contra Asgore.',
+            '<25>{#f/17}* Ênfase no TENTEI.',
+            '<25>{#f/1}* Eu mal consegui acertar um soco nele!',
+            '<25>* E pior ainda, ele se recusava a lutar de volta!',
+            '<25>{#f/9}* Eu fui humilhada...',
+            '<25>{#f/16}* Depois disso ele pediu desculpas e disso algo bem bobo...',
+            '<25>* \"Undyne, você quer descobrir como me derrotar?\"',
+            '<25>{#f/1}* Eu disse que sim, desde então ele me treinou.',
+            '<25>{#f/16}* Um dia, durante a prática, eu finalmente derrubei ele no chão.',
+            '<25>{#f/9}* Eu me senti... má.',
+            '<25>{#f/12}* Mas ele estava brilhando...',
+            '<25>{#f/1}* Eu nunca vi alguém tão orgulhoso por ter tido a cara amassada.',
+            '<25>* Cortando o tamanho da história, depois de completar meu treinamento...',
+            '<25>{#f/14}* Eu me tornei a líder da Guarda Real!',
+            "<25>{#f/8}* Então sou eu quem treina soldados para o combate!",
+            '<25>{#f/1}* ... tipo, uh, o Papyrus.'
         ],
         unddate30: [
-            '<25>{#f/16}* But, um, to be honest...',
-            "<25>{#f/16}* ... I don't know if...",
-            '<25>{#f/9}* I can ever let Papyrus into the Royal Guard.',
-            "<25>{#f/17}* Don't tell him I said that!",
-            "<25>{#f/10}* He's just...\n* Well...",
-            "<25>{#f/9}* I mean, it's not that he's stupid.",
-            '<25>{#f/17}* His attack designs are actually pretty freaking wild!',
-            "<25>{#f/10}* It's just that...\n* He's...",
-            "<25>{#f/17}* He's too innocent and nice!!!",
-            '<25>{#f/16}* I mean, look, he was SUPPOSED to capture you...',
-            '<25>{#f/11}* And he ended up being FRIENDS with you instead.',
-            '<25>{#f/4}* I could NEVER send him into battle!',
-            "<25>{#f/9}* He'd get ripped into little smiling shreds.",
-            "<25>{#f/12}* That's part of why...",
-            '<25>{#f/12}* I started teaching him how to cook, you know?',
-            '<25>{#f/9}* So, um, maybe he can do something else with his life.'
+            '<25>{#f/16}* Mas, hm, pra ser honesta...',
+            "<25>{#f/16}* ... Eu não sei se...",
+            '<25>{#f/9}* Eu não sei se um dia vou deixar Papyrus entrar na Guarda Real.',
+            "<25>{#f/17}* Não diga pra ele que eu te disse isso!",
+            "<25>{#f/10}* Ele só...\n* Bem...",
+            "<25>{#f/9}* Olha, não é que ele seja estúpido.",
+            '<25>{#f/17}* Os designs de ataque dele são muito fodas!',
+            "<25>{#f/10}* É só que ele...\n* Ele...",
+            "<25>{#f/17}* Ele é muito legal e inocente!!!",
+            '<25>{#f/16}* Quer dizer, olha pra isso, era pra ele te CAPTURAR...',
+            '<25>{#f/11}* E ele acabou sendo seu AMIGO invés disso.',
+            '<25>{#f/4}* Eu JAMAIS poderia manda-lo para batalha!',
+            "<25>{#f/9}* Ele seria despedaçado em sorrisos felizes.",
+            "<25>{#f/12}* Isso é parte do porque...",
+            '<25>{#f/12}* Eu comecei a ensina-lo como cozinhar, sabe?',
+            '<25>{#f/9}* Assim ele pode fazer alguma outra coisa da vida.'
         ],
         unddate31: () => [
             SAVE.data.b.undyne_respecc
-                ? '<25>{#p/undyne}{#f/1}* Oh, sorry, I was talking for so long...'
-                : '<25>{#p/undyne}{#f/12}* Oh, sorry, I was talking for so long...'
+                ? '<25>{#p/undyne}{#f/1}* Ah, desculpa, eu falei tanto...'
+                : '<25>{#p/undyne}{#f/12}* Ah, desculpa, eu falei por tanto tempo...'
         ],
         unddate32: [
-            ["<25>{#f/12}* You're out of water, aren't you?"],
-            ["<25>{#f/12}* You're out of punch, aren't you?"],
-            ["<25>{#f/12}* You're out of cocoa, aren't you?"],
-            ["<25>{#f/12}* You're out of tea, aren't you?"]
+            ["<25>{#f/12}* Acabou sua água, não foi?"],
+            ["<25>{#f/12}* Acabou sua bebida, não foi?"],
+            ["<25>{#f/12}* Acabou seu chocolate, não foi?"],
+            ["<25>{#f/12}* Acabou seu chá, não foi?"]
         ],
         unddate33: () => [
             SAVE.data.b.undyne_respecc
-                ? "<25>{#p/undyne}{#f/1}* Heh, don't worry.\n* I'll get you some more."
-                : "<25>{#p/undyne}{#f/12}* Heh, don't worry.\n* I'll get you some more."
+                ? "<25>{#p/undyne}{#f/1}* Heh, não se preocupa.\n* Eu vou pegar um pouco mais para você."
+                : "<25>{#p/undyne}{#f/12}* Heh, não se preocupa.\n* Eu vou pegar um pouco mais para você."
         ],
-        unddate34: ['<25>{#p/undyne}{#f/17}* Wait a second...', '<25>{#f/17}* Papyrus...\n* His cooking lesson...'],
+        unddate34: ['<25>{#p/undyne}{#f/17}* Espera um pouco...', '<25>{#f/17}* Papyrus...\n* A lição dele...'],
         unddate35: [
-            '<25>{#p/undyne}{#f/17}* HE WAS SUPPOSED TO HAVE THAT RIGHT NOW!!!',
-            "<25>{#f/11}* And if HE's not here to have it...",
-            "<25>{#f/7}* YOU'LL HAVE TO HAVE IT FOR HIM!"
+            '<25>{#p/undyne}{#f/17}* ERA PRA ELE ESTAR TENDO ELA AGORA!!!',
+            "<25>{#f/11}* E se ele não está aqui para tê-la...",
+            "<25>{#f/7}* VOCÊ VAI TER ELA NO LUGAR DELE!"
         ],
         unddate36: () =>
             SAVE.data.b.undyne_respecc
                 ? [
-                    "<25>{#f/1}* That's right!",
-                    '<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!',
-                    '<25>{#f/17}* Heheh, if you thought we were friends before...',
-                    '<25>{#f/8}* JUST WAIT UNTIL YOU SEE US AFTER THIS!'
+                    "<25>{#f/1}* Isso mesmo!",
+                    '<25>{#f/1}* NADA trouxe eu e o Papyrus mais próximos do que cozinhar!',
+                    '<25>{#f/17}* Heheh, se você achou que nós nos tornamos amigas antes...',
+                    '<25>{#f/8}* SÓ ESPERA O QUE NÓS VAMOS NOS TORNAR DEPOIS DISSO!'
                 ]
                 : [
-                    "<25>{#f/1}* That's right!",
-                    '<25>{#f/1}* NOTHING has brought Papyrus and I closer than cooking!',
-                    '<25>{#f/17}* Which means that if I give you his lesson...',
-                    "<25>{#f/8}* WE'LL BECOME CLOSER THAN YOU CAN EVER IMAGINE!"
+                    "<25>{#f/1}* Isso mesmo!",
+                    '<25>{#f/1}* NADA trouxe eu e o Papyrus mais próximos do que cozinhar!',
+                    '<25>{#f/17}* O que significa que eu vou te dar uma lição...',
+                    "<25>{#f/8}* NÓS VAMOS FICAR MAIS PRÓXIMAS DO QUE VOCÊ JAMAIS IMAGINOU!"
                 ],
-        unddate37: ["<25>{#f/1}* First, let's start with the sauce!!"],
+        unddate37: ["<25>{#f/1}* Primeiro, vamos começar com o sachê!!"],
         unddate38: () => [
-            '<25>{#f/1}* Envision these veggies as your mortal enemy!',
-            '<25>{#f/7}* Now, pound them to bits with your fists!!',
-            choicer.create('* (What will you do?)', 'Pet', 'Pound')
+            '<25>{#f/1}* Olhe para esses vegetais como se fossem seus inimigos mortais!',
+            '<25>{#f/7}* Agora, de um lição neles com seu punho!',
+            choicer.create('* (O que você irá fazer?)', 'Acariciar', 'Esmurrar')
         ],
         unddate39a: () => [
-            '<32>{#p/human}* (You pet the vegetables in an affectionate manner.)',
+            '<32>{#p/human}* (Você acaricia os vegetais de maneira afetuosa.)',
             SAVE.data.b.undyne_respecc
-                ? "<99>{#p/undyne}{#f/17}* OH MY GOD!!!\n* NOW I -KNOW- YOU'RE\n  JUST SCREWING WITH ME!!!"
-                : '<25>{#p/undyne}{#f/17}* OH MY GOD!!!\n* STOP PETTING THE ENEMY!!!',
-            "<25>{#x1}{#f/7}* I'll show you how it's done!",
+                ? "<99>{#p/undyne}{#f/17}* OH MEU SENHOR!!\n* AGORA EU SEI QUE VOCÊ ESTÁ\n  APENAS BRINCANDO COMIGO!!!"
+                : '<25>{#p/undyne}{#f/17}* OH MEU SENHOR!!!\n* PARA DE ACARICIAR O INIMIGO!!!',
+            "<25>{#x1}{#f/7}* Eu vou te mostrar como se faz!",
             '<25>{#f/4}* NGAHHH!'
         ],
         unddate39b: () =>
             world.meanie
-                ? ['<32>{#p/human}* (You punch the vegetables with all your might.)']
+                ? ['<32>{#p/human}* (Você esmurra os vegetais com toda sua força.)']
                 : [
-                    '<32>{#p/human}* (You punch the vegetables with all your might.)\n* (You knock over a tomato.)',
-                    '<25>{#p/undyne}{#f/1}* YEAH!\n* YEAH!',
-                    '<25>{#f/1}* Our minds are uniting against these healthy ingredients!',
-                    "<25>{#x1}{#f/7}* NOW IT'S MY TURN!",
+                    '<32>{#p/human}* (Você esmurra os vegetais com toda sua força.)\n* (Você nocauteou o tomate.)',
+                    '<25>{#p/undyne}{#f/1}* ISSO!\n* ISSO!',
+                    '<25>{#f/1}* Nossas mentes estão unidas contra estes vegetais saudáveis!',
+                    "<25>{#x1}{#f/7}* AGORA É MINHA VEZ!",
                     '<25>{#f/4}* NGAHHH!'
                 ],
         unddate40: (res: number) => [
             ...(world.meanie && res === 1
                 ? [
                     SAVE.data.b.undyne_respecc
-                        ? "<25>{#p/undyne}{#f/2}* YEAH!!!\n* THAT'S THE WARRIOR I KNOW!!!"
-                        : '<25>{#p/undyne}{#f/6}* Feisty today, huh?',
-                    "<25>{#f/6}* Heh, we'll just scrape this into a bowl later."
+                        ? "<25>{#p/undyne}{#f/2}* ISSO!!!\n* ESSE É O GUERREIRO QUE CONHEÇO!!!"
+                        : '<25>{#p/undyne}{#f/6}* Agressivo hoje, hein?',
+                    "<25>{#f/6}* Heh, vamos só jogar isso em uma panela depois."
                 ]
-                : ["<25>{#p/undyne}{#f/6}* Uh, we'll just scrape this into a bowl later."]),
-            '<25>{#f/2}* But for NOW!'
+                : ["<25>{#p/undyne}{#f/6}* Uh, vamos só jogar isso em uma panela depois."]),
+            '<25>{#f/2}* Mas por AGORA!'
         ],
         unddate41: [
-            '<25>{#p/undyne}{#f/1}* We add the noodles!',
-            '<25>{#f/1}* Homemade noodles are the best, so I always keep some around.'
+            '<25>{#p/undyne}{#f/1}* Nós adicionamos o miojo!',
+            '<25>{#f/1}* Miojos feitos em casa são os melhores, então eu sempre tenho um monte por perto.'
         ],
-        unddate41x: ['<25>{#p/undyne}{#f/12}* Uhh, you can come over here now, kiddo.'],
+        unddate41x: ['<25>{#p/undyne}{#f/12}* Uhh, você pode vir aqui agora, pirralha.'],
         unddate41y: () => [
-            '<25>{#p/undyne}{#f/1}* Anyway, you see these noodles here, right?',
-            '<25>{#f/1}* Well...',
-            "<25>{#f/17}* DISH 'EM OUT!",
-            choicer.create('* (What will your approach be?)', 'Careful', 'Fierce')
+            '<25>{#p/undyne}{#f/1}* De toda forma, você tá vendo os miojos aqui, certo?',
+            '<25>{#f/1}* Bem...',
+            "<25>{#f/17}* JOGA ELES AÍ!",
+            choicer.create('* (Qual será sua abordagem?)', 'Com Cuidado', 'Força Bruta')
         ],
         unddate42a: [
-            '<32>{#p/human}* (You carefully place each spaghetti strand in one at a time.)',
-            '<32>* The noodles clank against the empty bottom.',
-            '<25>{#p/undyne}{#f/17}* I mean, that works???',
-            "<25>{#f/1}* Well, now it's time to stir the pasta!"
+            '<32>{#p/human}* (Você coloca cada pedaço do espaguete com segurança.)',
+            '<32>* O miojo derrete com beleza na panela.',
+            '<25>{#p/undyne}{#f/17}* Bem, funcionou?',
+            "<25>{#f/1}* Bem, agora é hora de mexer a massa!"
         ],
         unddate42b: [
-            '<32>{#p/human}* (You throw everything into the pot, including the box.)',
-            '<32>* The box and the noodles clank against the empty bottom.',
-            "<25>{#p/undyne}{#f/17}* YEAH!!\n* I'M INTO IT!!",
-            "<25>{#f/1}* Alright!\n* Now it's time to stir the pasta!"
+            '<32>{#p/human}* (Você joga tudo na panela, inclusive a caixa.)',
+            '<32>* A caixa e o miojo derretem na panela.',
+            "<25>{#p/undyne}{#f/17}* ISSO AÍ! \n* AMEI A ATITUDE!!",
+            "<25>{#f/1}* Certo!\n* Agora é hora de estraçalhar essa massa!"
         ],
         unddate43: [
-            '<25>{#p/undyne}{#f/1}* As a general rule of thumb, the more you stir...',
-            '<25>{#f/17}* The better it tastes!'
+            '<25>{#p/undyne}{#f/1}* Como regra geral, quanto mais você mexe...',
+            '<25>{#f/17}* Melhor o gosto!'
         ],
-        unddate44: ['<25>{#p/undyne}{#f/17}* Ready?', "<25>{#f/1}* Let's do it!"],
-        unddate45: '* Press [Z] repeatedly to stir!',
-        unddate46: ['<25>{*}{#p/undyne}{#f/17}* Stir harder!{^20}{%}'],
-        unddate46x: ["<25>{*}{#p/undyne}{#f/17}* Don't just stand there!{^20}{%}"],
-        unddate47: ['<25>{*}{#p/undyne}{#f/7}* HARDER!{^20}{%}'],
-        unddate47x: ['<25>{*}{#p/undyne}{#f/7}* STIR, DAMN IT!{^20}{%}'],
-        unddate48: ['<25>{*}{#p/undyne}{#f/8}* HARDER!!!{^20}{%}'],
-        unddate48x: ['<25>{*}{#p/undyne}{#f/8}* STIR!!!{^20}{%}'],
-        unddate49: ['<25>{*}{#p/undyne}{#f/8}* Ugh, let me do it-{^10}{%}'],
-        unddate50: ["<25>{#p/undyne}{#f/8}* Fuhuhuhu!\n* That's the stuff!"],
+        unddate44: ['<25>{#p/undyne}{#f/17}* Pronta?', "<25>{#f/1}* Vamos lá!"],
+        unddate45: '* Aperte [Z] repetidamente!',
+        unddate46: ['<25>{*}{#p/undyne}{#f/17}* Mais rápido!{^20}{%}'],
+        unddate46x: ["<25>{*}{#p/undyne}{#f/17}* Não fica aí parada!{^20}{%}"],
+        unddate47: ['<25>{*}{#p/undyne}{#f/7}* MAIS RÁPIDO!{^20}{%}'],
+        unddate47x: ['<25>{*}{#p/undyne}{#f/7}* MEXA, CARAMBA!{^20}{%}'],
+        unddate48: ['<25>{*}{#p/undyne}{#f/8}* RÁPIDO!!!{^20}{%}'],
+        unddate48x: ['<25>{*}{#p/undyne}{#f/8}* MEXA!!!{^20}{%}'],
+        unddate49: ['<25>{*}{#p/undyne}{#f/8}* Ugh, deixa que eu faço-{^10}{%}'],
+        unddate50: ["<25>{#p/undyne}{#f/8}* Fuhuhuhu! \n* Essa é a parada!"],
         unddate51: [
-            '<25>{#p/undyne}{#f/1}* Alright, now for the final step...',
-            '<25>{#f/17}* TURN UP THE HEAT!',
-            '<25>{#f/1}* Let the stovetop symbolize your passion!',
-            '<25>{#f/1}* Let your hopes and dreams turn into burning fire!',
-            "<25>{#f/8}* And of course, don't hold anything back!!!"
+            '<25>{#p/undyne}{#f/1}* Agora, para o paço final...',
+            '<25>{#f/17}* AUMENTE O CALOR!',
+            '<25>{#f/1}* Deixe o fogão simbolizar sua paixão!',
+            '<25>{#f/1}* Deixe suas esperanças e sonhos se transformarem em fogo ardente!',
+            "<25>{#f/8}* E é óbvio, não se segura!"
         ],
-        unddate52: ['<25>{#p/undyne}{#f/17}* Ready?', '<25>{#f/1}* Here we go!'],
-        unddate53: '* Hold [RIGHT] to crank it up!',
-        unddate53x: ['<25>{*}{#p/undyne}{#f/8}* You fool!\n* This burner only goes ONE WAY!!!{^20}{%}'],
-        unddate54: ['<25>{*}{#p/undyne}{#f/17}* Make it hotter!{^20}{%}'],
-        unddate54x: ['<25>{*}{#p/undyne}{#f/17}* What are you doing?{^20}{%}'],
-        unddate55: ['<25>{*}{#p/undyne}{#f/7}* HOTTER!{^20}{%}'],
-        unddate55x: ['<25>{*}{#p/undyne}{#f/7}* STOP HESITATING!{^20}{%}'],
-        unddate56: ['<25>{*}{#p/undyne}{#f/8}* HOTTER!!!{^20}{%}'],
-        unddate56x: ['<25>{*}{#p/undyne}{#f/8}* JUST DO IT!!!{^20}{%}'],
-        unddate57a: ['<25>{*}{#p/undyne}{#f/17}* Ugh, let me do it...{^10}{%}'],
-        unddate57b: ['<25>{*}{#p/undyne}{#f/17}* See, this is how you-{^20}{%}'],
-        unddate58: ["<25>{*}{#p/undyne}{#f/17}* No, wait, that's too-{^10}{%}"],
+        unddate52: ['<25>{#p/undyne}{#f/17}* Pronta?', '<25>{#f/1}* Lá vai!'],
+        unddate53: '* Aperte [DIREITA] para aumentar o calor!',
+        unddate53x: ['<25>{*}{#p/undyne}{#f/8}* Sua boba!\n* Ele só vai pra UM LADO!!!{^20}{%}'],
+        unddate54: ['<25>{*}{#p/undyne}{#f/17}* Mais quente!{^20}{%}'],
+        unddate54x: ['<25>{*}{#p/undyne}{#f/17}* O que você tá fazendo?{^20}{%}'],
+        unddate55: ['<25>{*}{#p/undyne}{#f/7}* MAIS QUENTE!{^20}{%}'],
+        unddate55x: ['<25>{*}{#p/undyne}{#f/7}* PARE DE HESITAR!{^20}{%}'],
+        unddate56: ['<25>{*}{#p/undyne}{#f/8}* QUENTE!!!{^20}{%}'],
+        unddate56x: ['<25>{*}{#p/undyne}{#f/8}* SÓ FAZ ISSO LOGO!!!{^20}{%}'],
+        unddate57a: ['<25>{*}{#p/undyne}{#f/17}* Ugh, eu faço então...{^10}{%}'],
+        unddate57b: ['<25>{*}{#p/undyne}{#f/17}* Viu, é desse jeito que-{^20}{%}'],
+        unddate58: ["<25>{*}{#p/undyne}{#f/17}* Não, espera, isso é muito qu-{^10}{%}"],
         unddate59: ['<25>{#p/undyne}{#f/14}* Ah.'],
-        unddate60: ["<25>{#p/undyne}{#f/14}* Man, no wonder Papyrus isn't improving at cooking anymore."],
-        unddate61: ["<25>{#p/undyne}{#f/12}* So what's next?\n* Trash hunting?\n* Entanglement bracelets?"],
+        unddate60: ["<25>{#p/undyne}{#f/14}* Cara, e ainda me pergunto porque do Papyrus cozinhar tão mal."],
+        unddate61: ["<25>{#p/undyne}{#f/12}* Então o que agora?\n* Caçar lixo?\n* Bracelete de amizade?"],
         unddate62: () =>
             SAVE.data.b.undyne_respecc
                 ? [
                     '<25>{#p/undyne}{#f/10}* ...',
-                    '<25>{#f/9}* ... who am I kidding...',
-                    "<25>{#f/16}* I really let this get outta hand, didn't I...?",
+                    '<25>{#f/9}* ... o que eu tô falando...',
+                    "<25>{#f/16}* Eu realmente deixei isso sair de controle, não deixei...?",
                     '<25>{#f/16}* Heh...'
                 ]
                 : [
                     '<25>{#p/undyne}{#f/10}* ...',
-                    '<25>{#f/9}* ... who am I kidding...',
-                    "<25>{#f/16}* I really screwed this up, didn't I...?",
+                    '<25>{#f/9}* ... o que eu tô falando...',
+                    "<25>{#f/16}* Eu realmente ferrei tudo, não ferrei...?",
                     '<25>{#f/16}* Heh...'
                 ],
         unddate63: () =>
             SAVE.data.b.undyne_respecc
                 ? [
-                    "<25>{#f/16}* Y'know what?",
-                    "<25>{#f/9}* I'm not ready to give up on this just yet.",
-                    '<25>{#f/1}* So I failed to teach you how to cook.\n* Big whoop.',
-                    "<25>{#f/14}* There's still something we can do to salvage this mess.",
-                    '<26>{#f/1}* And that something is...'
+                    "<25>{#f/16}* Quer saber de uma coisa?",
+                    "<25>{#f/9}* Eu não estou pronta pra desistir agora.",
+                    '<25>{#f/1}* Eu falhei em te ensinar a cozinhar.\n* Que vacilo.',
+                    "<25>{#f/14}* Mas tem uma coisa que ainda podemos fazer para salvar essa bagunça.",
+                    '<26>{#f/1}* E isso seria...'
                 ]
                 : [
-                    "<25>{#f/16}* I can't force you to like me, human.",
-                    "<25>{#f/9}* Some people just don't easily get along.",
-                    "<25>{#f/16}* I'd understand if you felt that way about me...",
-                    "<25>{#f/9}* And if we can't be friends... that's okay.",
-                    "<25>{#f/9}* Because...\n* If we're not gonna be friends..."
+                    "<25>{#f/16}* Eu não posso te forçar a gostar de mim, humano.",
+                    "<25>{#f/9}* Algumas pessoas simplesmente não se dão bem.",
+                    "<25>{#f/16}* Eu entendo se você se sentir assim em relação a mim...",
+                    "<25>{#f/9}* E se não pudermos ser amigas... tudo bem.",
+                    "<25>{#f/9}* Porque...\n* Se não formos ser amigas..."
                 ],
         unddate64: () =>
             SAVE.data.b.undyne_respecc
-                ? ["<25>{#p/undyne}{#f/17}* ONE LAST DUEL TO SHOW THE GALAXY WHAT WE'RE MADE OF!!!"]
-                : ['<25>{#p/undyne}{#f/17}* THEN I CAN DESTROY YOU WITHOUT REGRET!!!'],
+                ? ["<25>{#p/undyne}{#f/17}* UM ÚLTIMO DUELO PARA MOSTRARMOS A GALÁXIA DO QUE SOMOS FEITAS!!!"]
+                : ['<25>{#p/undyne}{#f/17}* ENTÃO EU POSSO DE DESTRUIR SEM REMORSO!!!'],
         unddate65: () => [
-            '<25>{#p/undyne}{#f/12}* Well, that was fun, huh?',
+            '<25>{#p/undyne}{#f/12}* Foi legal, hein?',
             SAVE.data.b.undyne_respecc
-                ? "<25>{#f/8}* We'll have to spar again another time!"
-                : "<25>{#f/8}* We'll have to hang out again another time!",
-            '<25>{#f/9}* But, uh, somewhere else, I guess.',
+                ? "<25>{#f/8}* Nós vamos poder lutar mais outra hora!"
+                : "<25>{#f/8}* Nós vamos sair de novo outra hora!",
+            '<25>{#f/9}* Mas, uh, em outro lugar, eu acho.',
             ...(world.postnoot
                 ? [
-                    '<25>{#f/1}* By the way, have you noticed something weird in the air?',
+                    '<25>{#f/1}* Aliás, já percebeu que tem algo estranho no ar?',
                     ...(world.nootflags.has('papyrus') // NO-TRANSLATE
 
-                        ? ['<25>{#f/13}* Even Papyrus mentioned it earlier...']
-                        : ['<25>{#f/13}* It seems like it just started recently...']),
-                    "<25>{#f/16}* ... maybe it's nothing, but I swear I feel weaker than usual."
+                        ? ['<25>{#f/13}* Até o Papyrus mencionou mais cedo...']
+                        : ['<25>{#f/13}* Parece que começou a pouco tempo...']),
+                    "<25>{#f/16}* ... pode não ser nada, mas eu juro que me sinto mais fraca que o normal."
                 ]
                 : []),
             ...(SAVE.data.n.plot < 68.1 || SAVE.data.b.a_state_hapstablook
                 ? [
-                    "<25>{#f/1}* In the meantime, I'll be at the rec center with Papyrus.",
-                    '<25>{#f/12}* I look forward to seeing you there!',
-                    '<25>{#f/1}* Until then, you can give Papyrus a ring on your phone.',
-                    "<25>{#f/8}* Since we're in the same place, I'll be able to talk too!"
+                    "<25>{#f/1}* No meio tempo vou estar com o Papyrus no rec center.",
+                    '<25>{#f/12}* Eu te vejo por lá!',
+                    '<25>{#f/1}* Até lá, liga para o Papyrus pelo seu celular.',
+                    "<25>{#f/8}* Já que vamos estar no mesmo lugar, eu vou poder conversar também!"
                 ]
                 : [
-                    "<25>{#f/1}* In the meantime, I'll be at the rec center.",
-                    '<25>{#f/12}* I look forward to seeing you there!',
-                    '<25>{#f/1}* Oh, and uh, Papyrus said he has to go do something.',
-                    "<25>{#f/14}* Just letting you know, since he won't be available on the phone."
+                    "<25>{#f/1}* No meio tempo eu vou estar no rec center.",
+                    '<25>{#f/12}* Eu te vejo por lá!',
+                    '<25>{#f/1}* Ah, e uh, Papyrus disse que ele tem que ir fazer alguma coisa.',
+                    "<25>{#f/14}* Só te avisando, já que ele não vai estar disponível no celular."
                 ])
         ],
         unddate66: () =>
             SAVE.data.b.undyne_respecc
-                ? ['<25>{#f/1}* Well, see ya later, pal!!']
-                : ['<25>{#f/14}* Well, see ya later, punk!!'],
-        undroom1: () => ['<25>{#p/undyne}{#f/17}* Huh?\n* The heck was THAT?'],
+                ? ['<25>{#f/1}* Bem, te vejo depois, pirralha!']
+                : ['<25>{#f/14}* Bem, te vejo depois, carinha!'],
+        undroom1: () => ['<25>{#p/undyne}{#f/17}* Huh?\n* Que droga é essa?'],
         undroom2: () => [
             SAVE.data.b.undyne_respecc
-                ? "<25>{#p/undyne}{#f/1}* Maybe don't do that right now."
-                : "<25>{#p/undyne}{#f/12}* We're trying to be friends here."
+                ? "<25>{#p/undyne}{#f/1}* Não faz isso agora."
+                : "<25>{#p/undyne}{#f/12}* Estamos tentando ser amigas aqui."
         ],
         undroom3: () => [
             SAVE.data.b.undyne_respecc
-                ? "<25>{#p/undyne}{#f/11}* This is some kind of weird battle tactic, isn't it?"
-                : "<25>{#p/undyne}{#f/11}* So that's your way of making friends?"
+                ? "<25>{#p/undyne}{#f/11}* Isso é algum tipo de tática de batalha estranha, não é?"
+                : "<25>{#p/undyne}{#f/11}* Então esse é nosso jeito de sermos amigas?"
         ],
         undroom4: () => ['<25>{#p/undyne}{#f/17}* Stop doing that!'],
         undroom5: () => ['<25>{#p/undyne}{#f/17}* ...'],

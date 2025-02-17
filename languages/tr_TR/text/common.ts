@@ -5239,10 +5239,10 @@ export default {
             ['<08>{#p/basic}{~}\x00*shiny wiggle*']
         ],
         act_check0: ['<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?'],
-        act_check: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* Stereotypical: Curvaceously attractive, but no brains...'],
-        act_check2: ["<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It's even more attractive in this season's colors."],
-        act_check3: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It\'s exactly your type.\n* It\'s \"stereo.\"'],
-        act_check4: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* This mold supermodel appears to be past its prime.'],
+        act_check: ['<32>{#p/story}* GELATİNİ - SAL 6 SAV 0\n* Stereotipik: Kıvrımsal olarak çekici, ama beyinsiz...'],
+        act_check2: ["<32>{#p/story}* GELATİNİ - SAL 6 SAV 0\n* BU mevsimin renklerinde daha da çekici."],
+        act_check3: ['<32>{#p/story}* GELATİNİ - SAL 6 SAV 0\n* Tam olarak senin tipin.\n* \"Stereo\" tipin.'],
+        act_check4: ['<32>{#p/story}* GELATİNİ - SAL 6 SAV 0\n* Bu biçimli süper model en güzel dönemini aşmış gibi görünüyor.'],
         act_flirt: [
             '<32>{#p/human}* (You wiggle your hips.)\n* (Gelatini wiggles back.)',
             '<33>{#p/basic}* What a meaningful conversation!'

@@ -827,7 +827,7 @@ export default {
                     ? [
                         '<25>{#p/alphys}{#g/alphysCutscene1}* 好了，我給你搞了個\n  新手機！',
                         "<25>* 裡面有升降機通行證，\n  次元箱子...",
-                        '<25>{#g/alphysHellYeah}* 還有你自己的域外網帳號！',
+                        '<25>{#g/alphysHellYeah}* 還有你自己的域外網帳戶！',
                         '<25>{#g/alphysSmileSweat}* 我順便加了你的好友，\n  這樣你需要幫助的時候\n  隨時都能聯繫我了！',
                         '<25>{#g/alphysUhButHeresTheDeal}* 好耶！！',
                         '<32>{#s/equip}{#p/human}* （你有了一部新手機。）'
@@ -835,7 +835,7 @@ export default {
                     : [
                         '<25>{#p/alphys}{#g/alphysWelp}* 抱歉，但實話說，\n  你那手機和磚頭沒啥區別，\n  就是好看點。',
                         "<25>{#g/alphysSide}* 拿去，這新手機裡面有\n  升降機通行證，\n  次元箱子...",
-                        '<25>{#g/alphysSmileSweat}* 還有你自己的域外網帳號！',
+                        '<25>{#g/alphysSmileSweat}* 還有你自己的域外網帳戶！',
                         "<25>{#g/alphysNervousLaugh}* 別擔心，我們加了好友，\n  這樣你需要幫助\n  就能聯繫我了。",
                         '<32>{#s/equip}{#p/human}* （你有了一部新手機。）'
                     ],
@@ -1121,7 +1121,7 @@ export default {
                 '<32>{#p/event}* 鈴鈴，鈴鈴...',
                 '<25>{#p/alphys}{#g/alphysSideSad}* 咋又來...',
                 '<25>{#g/alphysSideSad}* ...',
-                "<25>{#g/alphysWelp}* 等下，Mettaton的帳號\n  我還登著呢。",
+                "<25>{#g/alphysWelp}* 等下，Mettaton的帳戶\n  我還登著呢。",
                 '<25>{#g/alphysNervousLaugh}* 我應該可以直-直接就\n  解鎖的！',
                 '<32>{|}{#p/human}* （敲鍵盤的聲音又- {%}',
                 '<25>{#p/alphys}{#g/alphysHellYeah}{#x1}* 搞定！',
@@ -1439,7 +1439,7 @@ export default {
                 "<32>{#p/mettaton}* 你倆就這麼飛過虛空了。",
                 '<32>* ...',
                 '<32>* 看來...',
-                '<32>* 派一個低級服務員\n  去守升降機...\n* 是我失策了。',
+                '<32>* 派一個低級服務生\n  去守升降機...\n* 是我失策了。',
                 
                 '<32>* ...',
                 '<32>* 唉，好吧。',
@@ -4584,7 +4584,7 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/13}* 這是克裡烏斯...\n* 好吧，這只是一個\n  簡單的模型。',
+                            '<25>{#p/asriel1}{#f/13}* 這是克伊俄斯...\n* 好吧，這只是一個\n  簡單的模型。',
                             "<25>{#f/17}* 我聽說它實際上比\n  從外太空看到的\n  更加豐富多彩。"
                         ],
                         [
@@ -5690,7 +5690,7 @@ export default {
                                     '<32>* 感謝恁的善舉。'
                                 ]
                                 : [
-                                    "<32>{#p/basic}{#npc/a}* 既然我們自由了，\n  當服務員兒可能\n  不再適合我了。",
+                                    "<32>{#p/basic}{#npc/a}* 既然我們自由了，\n  當服務生兒可能\n  不再適合我了。",
                                     "<32>* 我們的兒子回來了，\n  所以我得給我自己兒\n  找份新工作了..."
                                 ]
                         : SAVE.data.b.killed_mettaton
@@ -7565,7 +7565,7 @@ export default {
                 : SAVE.data.b.a_state_hapstablook
                     ? ["<20>{#p/mettaton}但它也沒有\n那麼迷人..."]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}該發揮你的\n最佳水平了！"]
+                        ? ["<20>{#p/mettaton}該發揮你的\n最佳水準了！"]
                         : !world.badder_lizard
                             ? ['<20>{#p/mettaton}能跟上節奏嗎？']
                             : ['<20>{#p/mettaton}音量調到最大！'],
@@ -9673,7 +9673,7 @@ export default {
                     '<32>{#p/human}* （你自豪地揮舞著星園爍寵。）',
                     '<32>{#p/story}* 本回合，你的防禦力提升！'
                 ]
-                : ['<32>{#p/human}* （你吃掉了猛男漢堡。）']
+                : ['<32>{#p/human}* （你吃掉了星園爍寵。）']
     },
     i_glamburger: {
         battle: {

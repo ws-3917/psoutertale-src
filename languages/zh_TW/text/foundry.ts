@@ -5781,7 +5781,7 @@ export default {
         ],
         batheTextLate: ['<32>{#p/human}* （你讓Doge去衝個澡，\n  但為時已晚。）'],
         batheTextPost: ['<32>{#p/human}* （但是Doge已經清洗乾淨了。）'],
-        fetchStatus: ['<32>{#p/story}* Doge的智商在普通狗的\n  平均水平之上。'],
+        fetchStatus: ['<32>{#p/story}* Doge的智商在普通狗的\n  平均水準之上。'],
         fetchText: () => [
             '<32>{#p/human}* （你把扳手扔了出去。）\n* （Doge攔下了扳手，\n  並將它扔回給你。）',
             '<32>{#p/basic}* 飛回來的扳手直接\n  正中你的腦門！',
@@ -6491,7 +6491,7 @@ export default {
         papStatus2: ['<32>{#p/story}* Undyne沉著臉，死死瞪著你。'],
         papStatus3: ['<32>{#p/story}* Undyne想到了她的朋友，\n  用盡全力向地猛擊。'],
         papStatus4: ["<32>{#p/story}* Undyne沒心情跟你胡鬧。"],
-        papStatus5: ['<32>{#p/story}* 金槍魚沙拉的味道撲面而來。'],
+        papStatus5: ['<32>{#p/story}* 鮪魚沙拉的味道撲面而來。'],
         endStatus1: ["<32>{#p/story}* Undyne的眼皮不由自主地跳了起來。"],
         endStatus2: ['<32>{#p/story}* Undyne將長矛刺向地面。'],
         endStatus3: ["<32>{#p/story}* Undyne的目光左右飄動，\n  想確認這是不是個惡作劇。"],
@@ -8099,7 +8099,7 @@ export default {
                 SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                     ? ((SAVE.data.b.c_state_secret2_used = true),
                         [
-                            '<32>{#p/basic}{#k/3}* 啥？\n* 你在克裡烏斯的哪個地方\n  學的這個握手方式？',
+                            '<32>{#p/basic}{#k/3}* 啥？\n* 你在克伊俄斯的哪個地方\n  學的這個握手方式？',
                             "<32>{#k/2}* 我已經很多年\n  沒跟別人展示過嚕！",
                             '<32>{#k/0}* 哇哈哈...\n  但我想知道你在哪學的。',
                             '<32>{#k/0}* 很久以前，\n  一個人類來到這裡...\n  我與其成為了好朋友。',

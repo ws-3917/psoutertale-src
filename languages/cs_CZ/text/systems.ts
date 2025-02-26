@@ -20,7 +20,7 @@ export default {
         mercy_spare: '* Ušetřete',
 
         victory1: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP and $(y)Z.',
-        victory2: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP a $(y)Z.\n* Vaše ÚN vzrostla.'
+        victory2: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP a $(y)Z.\n* Vaše LÁSKA vzrostla.'
     },
 
     developer: {
@@ -216,7 +216,7 @@ export default {
     dialog: {
         dialog_clear_title: 'Vymazat soubor',
         dialog_notice_title: 'Oznámení',
-        dialog_clear_mobile: 'Clear Mobile Settings',
+        dialog_clear_mobile: 'Vymazat Mobilní Nastavení',
         dialog_open: { buttonLabel: 'Otevřít', name: 'UKLÁDÁNÍ souborů', title: 'Otevřít soubor' },
         dialog_save: { buttonLabel: 'Uložit', name: 'UKLÁDÁNÍ souborů', title: 'Uložit soubor' },
         error_load: 'Tento soubor nebylo možné analyzovat.',
@@ -914,7 +914,7 @@ export default {
         hp: 'ZB',
         inf: '\u221e',
         landing1: '[STISKNĚTE Z NEBO ENTER]',
-        lv: 'ÚN',
+        lv: 'LS',
         mystery1: '§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§',
         mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
@@ -969,7 +969,7 @@ export default {
 
         settings1: 'NASTAVENÍ',
         settings2: 'EXIT',
-        settingsprompt1: '-> LANGUAGE & MUSIC',
+        settingsprompt1: '-> JAZYK & HUBDA',
         settings3: 'JAZYK',
         settings3a: 'ČEŠTINA',
         settings4: 'ZVUKOVÉ FX',
@@ -981,12 +981,12 @@ export default {
         settings7: 'BLIKAJÍCÍ OBRAZY',
         settings7a: 'NORMÁLNÍ',
         settings7b: 'REDUKOVANÝ',
-        settings8: 'MOBILE SETTINGS',
+        settings8: 'MOBILNÍ NASTAVENÍ',
         settings9: 'MRTVÁ ZÓNA',
         settings10: 'OTEVŘÍT SLOŽKU MOD',
         settings11: 'RESTARTOVAT',
         border: {
-            option: 'GAME BORDER',
+            option: 'HRA HRANICE',
             list: [
                 'ŽÁDNÝ',
                 'DYNAMIC',
@@ -997,18 +997,18 @@ export default {
                 'STARTON',
                 'FOUNDRY',
                 'AERIALIS',
-                'REC CENTER',
-                'CORE',
+                'REC CENTRUM',
+                'JÁDRO',
                 'CITADEL',
                 'ASGORE HOME',
-                'ARCHIVE SIX',
-                'OUTLANDS (ARCHIVE)',
-                'STARTON (ARCHIVE)',
-                'FOUNDRY (ARCHIVE)',
-                'AERIALIS (ARCHIVE)',
-                'ASRIEL BATTLE',
-                'NEW WORLD',
-                '§fill=#808080§(LOCKED)'
+                'ARCHIV ŠEST',
+                'OUTLANDS (ARCHIV)',
+                'STARTON (ARCHIV)',
+                'FOUNDRY (ARCHIV)',
+                'AERIALIS (ARCHIV)',
+                'ASRIEL BITVA',
+                'NOVÝ SVĚT',
+                '§fill=#808080§(ZAMČENO)'
             ]
         },
         mobile: {
@@ -1028,12 +1028,12 @@ export default {
             invertButtonPos: 'INVERT BUTTON POSITION',
 
             prompt1: '--- SELECT PROFILE ---',
-            prompt2: '--- GENERAL SETTINGS ---',
-            prompt3: '--- CONTROL SETTINGS ---',
+            prompt2: '-- GENERÁLNÍ NASTAVENÍ --',
+            prompt3: '-- OVLÁDÁNÍ NASTAVENÍ --',
             prompt4: '--- MODIFY BUTTONS ---',
 
-            nextpage: 'NEXT PAGE >',
-            prepage: '< PREVIOUS PAGE',
+            nextpage: 'DALŠI STRÁNKA >',
+            prepage: '< PŘEDCHOZÍ STRÁNKA',
 
             ZKey: '[Z]',
             XKey: '[X]',
@@ -1057,7 +1057,7 @@ export default {
             radius: 'CIRCLE RADIUS',
 
             keysettings: 'BUTTON CUSTOMIZE',
-            keyprompt0: '§fill=#ffd700§>> §fill=#fff§EDITING: §fill=#00ffff§$(x) §fill=#808080§(Press [R] to reset)',
+            keyprompt0: '§fill=#ffd700§>> §fill=#fff§EDITING: §fill=#00ffff§$(x) §fill=#808080§(Stiskni [R] pro reset)',
             keyprompt1: '§fill=#fff§PROGRESS: §fill=#00ffff§($(x)§fill=#fff§/§fill=#00ffff§3)',
             keyprompt1a: ' [1] Initial Button Placement',
             keyprompt1b: ' [2] Position Fine-tuning',
@@ -1065,7 +1065,7 @@ export default {
             keyprompt1d:
                 '§fill=#00ff00§*** Button Position Setup\n§fill=#fff§Press [L] (at the top-left corner) \nto start',
             keyprompt1e: '§fill=#00ff00§*** Setup Complete \n§fill=#fff§Now you can set up\nother buttons',
-            keyprompt2: '§fill=#4169e1§--- INSTRUCTION ---',
+            keyprompt2: '§fill=#4169e1§--- INSTRUKCE ---',
             keyprompt2a:
                 '§fill=#fff§* Drag §fill=#00ffff§$(x)§fill=#fff§ to set initial position\n§fill=#ffd700§* Press [L] §fill=#808080§to confirm placement\n§fill=#ffd700§* Press [R] §fill=#808080§to recover if button is lost\n§fill=#808080§Position can be adjusted in the next step',
             keyprompt2b:
@@ -1073,7 +1073,7 @@ export default {
             keyprompt2c:
                 '§fill=#fff§* Adjust with §fill=#ffd700§[-5] [-1] [+1] [+5]§fill=#fff§ to set size\n§fill=#ffd700§* Press [R] §fill=#808080§to restore default size\n§fill=#808080§Current size value shown below\n§fill=#ffd700§* Press [L] §fill=#808080§to confirm',
             keyprompt3a: '§fill=#4169e1§-> §fill=#fff§POSITION: \n§fill=#00ffff§X=$(x), Y=$(y)',
-            keyprompt3b: '§fill=#4169e1§-> §fill=#fff§SIZE: §fill=#00ffff§$(x)',
+            keyprompt3b: '§fill=#4169e1§-> §fill=#fff§VELK.: §fill=#00ffff§$(x)',
 
             helper_loadDefault:
                 '§fill=#ff0§Press [Z]§fill=#808080§ to reset your settings to default.\nThis will discard any custom configurations\nyou currently have and restore the original settings.',

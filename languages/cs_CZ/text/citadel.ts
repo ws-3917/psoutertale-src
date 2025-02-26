@@ -382,13 +382,13 @@ export default {
             afterfight12: ['<25>{#p/asriel2}{#f/16}* Ignore him, $(name).\n* Nothing in this world matters anymore.'],
             afterfight13: ['<25>{#p/asriel2}{#f/17}* Only you.'],
             coreboomA1: [
-                '<18>{#p/papyrus}{#f/5}HELLO?\nIS ANYONE THERE?',
+                '<18>{#p/papyrus}{#f/5}AHOJ?\nJE NĚKDO TADY?',
                 "<18>{#p/papyrus}{#f/5}I'VE BEEN LOOKING AROUND FOR THE HUMAN, AND..."
             ],
             coreboomA2: ['<18>{#p/papyrus}{#f/8}WHAT THE...!'],
             coreboomA3: ['<32>{#p/basic}* Papyrus?{%40}'],
             coreboomA4: ["<18>{#p/papyrus}{#f/4}I'VE GOT A BAD FEELING ABOUT THIS.{%40}"],
-            coreboomA5: ['<32>{#p/basic}* ... hello?{%40}'],
+            coreboomA5: ['<32>{#p/basic}* ... ahoj?{%40}'],
             coretext1: ['<32>{#p/basic}{#s/spiderLaugh}* Keep it steady, dearies~'],
             coretext2: ['<32>{#p/basic}{#s/spiderLaugh}* Ngh...', '<32>{#p/basic}* Hold it together~'],
             coreboomB1: ['<32>{#p/basic}{#s/spiderLaugh}* Ah!', '<32>{#p/basic}* Not like this~'],
@@ -813,7 +813,7 @@ export default {
             picnic_papyrus: pager.create(
                 0,
                 [
-                    '<18>{#p/papyrus}{#f/0}{#npc/a}HELLO THERE, FRISK!',
+                    '<18>{#p/papyrus}{#f/0}{#npc/a}AHOJ, FRISKU!',
                     "<18>{#f/9}I'M ONLY PREPARING THE GREATEST DISH I'VE EVER MADE!",
                     "<18>{#f/5}I ONLY WISH IT'D COOK A LITTLE FASTER...",
                     "<18>{#f/7}AT THIS RATE, I'LL HAVE TO SERVE IT ON THE TRANSPORT!",
@@ -2484,7 +2484,7 @@ export default {
             bad13: () => [
                 ...[
                     [
-                        '<99>{#p/twinkly}{#v/1}Hello, $(name).{^100}{%}',
+                        '<99>{#p/twinkly}{#v/1}Ahoj, $(name).{^100}{%}',
                         '<99>{#p/twinkly}{#v/1}Welcome to your new reality.{^100}{%}'
                     ],
                     [
@@ -2854,7 +2854,7 @@ export default {
             sad10: () =>
                 world.runaway
                     ? ['<32>{#p/human}* (The sound of a spacecraft can be heard fading into the distance.)']
-                    : ['<25>{#p/kidd}{#f/4}* Hello?', '<25>{#f/4}* Is someone there...?'],
+                    : ['<25>{#p/kidd}{#f/4}* Haló?', '<25>{#f/4}* Is someone there...?'],
             sad11: () =>
                 SAVE.data.b.f_state_kidd_betray
                     ? [
@@ -3019,7 +3019,7 @@ export default {
                     : [
                         '<25>{#p/toriel}* Oh, there you are, little one!',
                         '<25>{#f/5}* ...',
-                        '<25>{#f/5}* ... hello, Asgore.'
+                        '<25>{#f/5}* ... ahoj, Asgore.'
                     ],
             hangar4: ['<25>{#p/asgore}{#f/1}* Howdy.'],
             hangar5: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/asgore}{#f/5}* ...'],
@@ -3095,7 +3095,7 @@ export default {
                         : ['<25>{#p/asgore}{#f/5}* Hmm.'],
             hangar9: [
                 '<18>{#p/papyrus}HEY GUYS!',
-                '<25>{#p/toriel}{#f/1}* ... oh, hello!',
+                '<25>{#p/toriel}{#f/1}* ... ach, ahoj!',
                 "<18>{#p/papyrus}{#f/0}HELLO!\nIT'S VERY NICE TO SEE YOU AGAIN.",
                 '<18>{#p/papyrus}{#f/9}I JUST FINISHED CLEANING UP AT THE HOUSE PARTY!',
                 '<25>{#p/toriel}{#f/1}* ... I see, I see.',
@@ -3507,7 +3507,7 @@ export default {
             ],
             brocall2: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
+                '<25>{#p/alphys}{#g/alphysCutscene3}* Haló?\n* Jsi tady?',
                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
                 '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
                 '<32>{#s/equip}{#p/event}* Click...'
@@ -3556,7 +3556,7 @@ export default {
             ],
             brocall7: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/toriel}{#f/5}* Hello?\n* This is TORIEL.',
+                '<25>{#p/toriel}{#f/5}* Haló?\n* To je TORIEL.',
                 '<25>* You must be very far along by now.',
                 '<25>{#f/9}* Far enough that I doubt this message will ever reach you.',
                 '<25>{#f/13}* ... however, if it does, then you must know...',
@@ -3657,7 +3657,7 @@ export default {
                         "<32>{#p/human}{#v/5}{@fill=#00c000}* The light...\n* It's getting brighter!",
                         '<32>{#p/human}{#v/5}{@fill=#00c000}* ... is this it?\n* Does our freedom approach us?'
                     ],
-                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* Hello?'],
+                    ['<32>{#p/human}{#v/5}{@fill=#00c000}* Haló?'],
                     []
                 ][ca_state.floor],
             toomuch1: ["<32>{#p/human}* (You're carrying too much.)"],
@@ -3873,9 +3873,9 @@ export default {
             cs_note: [
                 '<32>{#p/human}* (It appears this note has a phone number written on it.)',
                 '<32>{#s/phone}{#p/event}* Dialing...',
-                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Hello?\n* Is anyone there?',
+                '<32>{#p/human}{#v/2}{@fill=#ff993d}* Haló?\n* Je někdo tady?',
                 '<32>{@fill=#ff993d}* ...',
-                '<32>{@fill=#ff993d}* HELLO!?!?',
+                '<32>{@fill=#ff993d}* HALÓ!?!?',
                 '<32>{@fill=#ff993d}* ...\n* ...\n* ...',
                 '<32>{@fill=#ff993d}* Where am I?',
                 '<32>{@fill=#ff993d}* ...',
@@ -3905,12 +3905,12 @@ export default {
             ],
             cs_magicdog: [
                 '<32>{#p/human}* (It appears Canis Maximus cannot move.)',
-                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!\n{#s/bark}* {@mystify=Bark}Bark{@mystify=}!',
+                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Štěk{@mystify=}!\n{#s/bark}* {@mystify=Bark}Štěk{@mystify=}!',
                 '<32>{#p/basic}* (The sound, higher!)\n* (The light, brighter!)',
-                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!\n{#s/bark}* {@mystify=Bark}Bark{@mystify=}!',
+                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Štěk{@mystify=}!\n{#s/bark}* {@mystify=Bark}Štěk{@mystify=}!',
                 '<32>{#p/basic}* (Full illumination will end their detention!)',
                 '<32>{#p/basic}* (Can you join the poles in each dimension?)',
-                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Bark{@mystify=}!',
+                '<32>{#s/bark}{#p/event}* {@mystify=Bark}Štěk{@mystify=}!',
                 '<32>{#p/basic}* (Good luck!)'
             ],
             cs_nicecreamkid: () =>

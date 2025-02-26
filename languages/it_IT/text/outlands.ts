@@ -3771,7 +3771,7 @@ export default {
             "<20>Golly... you must have no idea who you're messing with.",
             '<20>{#f/11}Hee hee hee...'
         ],
-        twinkly17: ["<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...'],
+        twinkly17: ["<20>{#v/1}Andiamo dritti al punto, ok?", '<20>Hee hee hee...'],
         twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
         twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
         twinkly20: [

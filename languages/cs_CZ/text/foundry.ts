@@ -78,7 +78,7 @@ export default {
         darktoriel7: () =>
             SAVE.data.b.c_state_secret1_used
                 ? [
-                    '<25>{#p/toriel}{#f/10}* Do not worry, Frisk.\n* I will be okay.',
+                    '<25>{#p/toriel}{#f/10}* Nebojte se, Frisk.\n* Budu v pořádku.',
                     '<25>{#f/1}* I will see you on the transport ship.\n* Alright?'
                 ]
                 : [

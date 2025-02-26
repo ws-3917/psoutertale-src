@@ -1294,7 +1294,7 @@ export default {
                     SAVE.data.b.killed_mettaton
                         ? ["<32>{#p/basic}{#npc/a}* 希望以後還能出現\n  像他一樣可愛的帥哥..."]
                         : SAVE.data.n.plot === 33
-                            ? ["<32>{#p/basic}{#npc/a}* 你該不會沒有\n  域外網帳號吧..."]
+                            ? ["<32>{#p/basic}{#npc/a}* 你該不會沒有\n  域外網帳戶吧..."]
                             : SAVE.data.n.plot === 72
                                 ? ["<32>{#p/basic}{#npc/a}* 到底啥是onionsan啊？"]
                                 : papreal()
@@ -1426,7 +1426,7 @@ export default {
                                         ]
                                         : [
                                             "<32>{#p/basic}{#npc/a}* 不論我去到哪裡，\n  看到的都是一樣的選單，\n  遇到的都是一樣的人...",
-                                            "<32>* 服務員！\n* 我想再來點喝的，\n  再來點燒-燒-燒-燒男！"
+                                            "<32>* 服務生！\n* 我想再來點喝的，\n  再來點燒-燒-燒-燒男！"
                                         ],
                 () =>
                     SAVE.data.b.killed_mettaton
@@ -2628,7 +2628,7 @@ export default {
                         SAVE.data.b.svr
                             ? '<32>{#p/human}* （你走向了電腦...）'
                             : "<32>{#p/basic}* 電腦的瀏覽器\n  打開了一個\n  社交媒體網站。",
-                        choicer.create("* （登入Papyrus的帳號嗎？）", '登入', '算了')
+                        choicer.create("* （登入Papyrus的帳戶嗎？）", '登入', '算了')
                     ],
             () =>
                 postSIGMA()
@@ -2637,7 +2637,7 @@ export default {
                         SAVE.data.b.svr
                             ? '<32>{#p/human}* （你走向了電腦...）'
                             : "<32>{#p/basic}* 電腦的瀏覽器\n  打開了一個\n  社交媒體網站。",
-                        choicer.create("* （登入Papyrus的帳號嗎？）", '登入', '算了')
+                        choicer.create("* （登入Papyrus的帳戶嗎？）", '登入', '算了')
                     ]
         ),
         papcomputer2: ['<32>{#p/human}* （你決定先不登入。）'],
@@ -3345,7 +3345,7 @@ export default {
         ],
         papdate41: {
             a: () => (SAVE.data.b.flirt_papyrus ? '浪漫' : '友誼'),
-            b: '功率\n水平',
+            b: '功率\n水準',
             c: '日期：克歷615年9月',
             d: '速度',
             e: '星系\n地圖',
@@ -4880,7 +4880,7 @@ export default {
                             '<32>{#p/basic}* 書架上標著「舊事重提」。',
                             '<32>{#p/human}* （你取下了一本書...）',
                             '<32>{#p/basic}* 「以前，\n   怪物使用多種貨幣進行交易。」',
-                            '<32>* 「主要流通的是珠寶和『克裡』...\n   但它們只能在母星上使用。」',
+                            '<32>* 「主要流通的是珠寶和『克伊』...\n   但它們只能在母星上使用。」',
                             '<32>* 「與人類進行貿易時，\n   就只能選擇金錢作為貨幣。」',
                             '<32>* 「豐富的金礦資源\n   為我們帶來了許多便利。」',
                             '<32>* 「但也因此導致\n   其他貨幣迅速貶值。」',
@@ -8603,7 +8603,7 @@ export default {
                         : ['<18>{#p/papyrus}幸運女神站在我們\n這邊，人類！']
                     : SAVE.data.b.s_state_puzzlenote
                         ? ['<18>{#p/papyrus}{#f/5}怪物的生理構造\n真奇怪。']
-                        : ['<18>{#p/papyrus}就算母星「克裡」\n沒能收穫「顆粒」，\n但咱也挺幸運，是吧？']
+                        : ['<18>{#p/papyrus}就算母星「克伊」\n沒能收穫「顆粒」，\n但咱也挺幸運，是吧？']
         ),
         s_pacing: pager.create(
             0,
@@ -10626,13 +10626,13 @@ export default {
             () => [
                 '<18>{#p/papyrus}{#f/0}傳說有一個地方\n可以將無用的垃圾\n變成珍貴的寶藏。',
                 '<18>{#p/papyrus}{#f/9}一個可以將垃圾\n變成黃金的地方！',
-                '<18>{#p/papyrus}{#f/4}一個\n吃太空金槍魚\n的地方.....',
+                '<18>{#p/papyrus}{#f/4}一個\n吃太空鮪魚\n的地方.....',
                 '<18>{#p/papyrus}{#f/5}嗯，放那的東西\n就那麼直接消失了。',
                 ...(solo()
                     ? ['<18>{#p/papyrus}{#f/6}你知道這樣\n的地方嗎？']
                     : [
                         "<25>{#p/undyne}{#f/1}* 聽起來像是\n  Bratty和Catty的地盤。",
-                        '<25>{#p/undyne}{#f/14}* 她們愛太空金槍魚\n  甚至超過愛賣垃圾！',
+                        '<25>{#p/undyne}{#f/14}* 她們愛太空鮪魚\n  甚至超過愛賣垃圾！',
                         '<25>{#p/undyne}{#f/17}* 而且她們\n  真的超愛賣垃圾！！',
                         '<18>{#p/papyrus}{#f/0}哇喔！',
                         '<18>{#p/papyrus}{#f/5}她們有時也會賣\n非垃圾的東西嗎？',

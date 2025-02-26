@@ -9130,7 +9130,7 @@ export default {
             "<33>{#p/human}* (You can't activate further.)\n* (All of Tsunderidex's body parts are fully activated.)"
         ],
         idleTalk1: ["<08>{#p/basic}{~}It's not like I LIKE you."],
-        idleTalk2: ['<08>{#p/basic}{~}Id.. idiot!'],
+        idleTalk2: ['<08>{#p/basic}{~}Id.. idiote!'],
         idleTalk3: ["<08>{#p/basic}{~}Hmph!\nDon't get in my way."],
         idleTalk4: ['<08>{#p/basic}{~}(Eep..!)\nHuman..'],
         idleTalk5: ['<08>{#p/basic}{~}..\nH-human\n..\n..?'],

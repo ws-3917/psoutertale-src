@@ -1616,7 +1616,7 @@ export default {
                                         "<32>{#p/basic}{#npc/a}* Se estamos livres, as pessoas não vão precisar mais sair da Cidadela para cá!",
                                         "<32>* Parece que nós não vamos perder nossa cultura local.",
                                         "<32>* ... exceto que todos nós estamos indo embora, huh?",
-                                        "<32>* Oh well.\n* Guess it can't all be punk- peaches and punk-cream."
+                                        "<32>* Poxa.\n* Acho que a vida não é só maçãs do amor."
                                     ]
                                 : papreal() || world.dead_canine || world.population < 6
                                     ? [
@@ -1850,41 +1850,41 @@ export default {
                                 ]
                                 : [
                                     [
-                                        '<32>{#p/basic}{#npc/a}* A dog just rushed in here, filled with inspiration.',
-                                        '<32>* It kept trying to create a hologram that expressed its own emotions...',
-                                        '<32>* But, as it did, it kept getting more excited about the creation...',
-                                        '<32>* Its neck got longer and longer, and it added more and more light, until...',
-                                        "<32>* It was rather sad to watch, but I couldn't turn away."
+                                        '<32>{#p/basic}{#npc/a}* Um cachorro veio correndo até aqui cheio de inspiração.',
+                                        '<32>* Ficou tentando criar um holograma que expressasse suas próprias emoções...',
+                                        '<32>* Mas, conforme ele fez, continuou ficando mais e mais animado com sua criação...',
+                                        '<32>* Seu pescoço foi ficando cada vez mais longo, e teve mais luz, até...',
+                                        "<32>* Foi muito triste assistir, mas não pude me afastar."
                                     ],
                                     [
-                                        "<32>{#p/basic}{#npc/a}* That dog from earlier...?\n* It's at Grillby's.\n* I think.",
-                                        '<32>* After work, all of the dogs go there to play cards together.',
-                                        "<32>* But that dog doesn't really know how to express itself.",
-                                        '<32>* So, it ends up playing alone, instead of introducing itself to the others...'
+                                        "<32>{#p/basic}{#npc/a}* Aquele cachorro de mais cedo...?\n* Ele tá no Grillby.\n* Eu acho.",
+                                        '<32>* Depois do trabalho, todos os cachorros vão pra lá jogar cartas juntos.',
+                                        "<32>* Mas aquele cachorro não sabe muito bem se expressar.",
+                                        '<32>* Então, ele meio que brinca sozinho invez de ter que socializar com os outros...'
                                     ],
                                     [
-                                        "<32>{#p/basic}{#npc/a}* Where's that dog?",
-                                        '<32>* It usually comes through here every day after work...'
+                                        "<32>{#p/basic}{#npc/a}* Onde está o cachorro?",
+                                        '<32>* Normalmente ele vem pra cá todo dia depois do trabalho...'
                                     ],
                                     [
-                                        '<32>{#p/basic}{#npc/a}* A badly wounded dog just walked through here...',
-                                        '<32>* What kind of person would beat up a cute little dog?'
+                                        '<32>{#p/basic}{#npc/a}* Um cachorro bem mau humorado passou por aqui...',
+                                        '<32>* Que tipo de pessoa bateria em um cachorrinho fofo?'
                                     ]
                                 ][SAVE.data.n.state_starton_lesserdog],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 6
-                            ? ["<32>{#p/basic}{#npc/a}* Don't worry, champ.\n* Most of them have probably forgiven ya by now."]
-                            : ["<32>{#p/basic}{#npc/a}* Don't worry, champ.\n* I've got this covered for ya."]
+                            ? ["<32>{#p/basic}{#npc/a}* Não se preocupa, campeão.\n* Maior parte deles nem lembra quem é você a essa altura."]
+                            : ["<32>{#p/basic}{#npc/a}* Não se preocupa, campeão.\n* Eu vou cobrir isso pra você."]
                         : roomKills().s_greater > 0
                             ? ['<32>{#p/basic}{#npc/a}* ...']
                             : 30 <= SAVE.data.n.plot
-                                ? ["<32>{#p/basic}{#npc/a}* The day that dog wins a game of 4-D poker, we're ALL doomed."]
+                                ? ["<32>{#p/basic}{#npc/a}* O dia em que aquele cachorro ganhou um poker 4-D, todo muito ficou abismado."]
                                 : [
-                                    ['<32>{#p/basic}{#npc/a}* Too bad for the dog, huh?'],
-                                    ['<32>{#p/basic}{#npc/a}* So sad for the dog, huh?'],
-                                    ['<32>{#p/basic}{#npc/a}* Have you seen it?'],
-                                    ['<32>{#p/basic}{#npc/a}* Despicable.']
+                                    ['<32>{#p/basic}{#npc/a}* Bem paia para o cachorro, né?'],
+                                    ['<32>{#p/basic}{#npc/a}* Tão triste para o cachorro, né?'],
+                                    ['<32>{#p/basic}{#npc/a}* Você viu isso?'],
+                                    ['<32>{#p/basic}{#npc/a}* Desprezível.']
                                 ][SAVE.data.n.state_starton_lesserdog]
             ),
             s_moonrocks1: pager.create(
@@ -1893,36 +1893,36 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 6
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Hah-\n* Incredible-',
-                                '<32>* I knew my moon rocks were the real deal all along-',
-                                "<32>* Even I'm surprised what your mean ways have led to for me-"
+                                '<32>{#p/basic}{#npc/a}* Hah-\n* Incrível-',
+                                '<32>* Eu sabia que minhas pedras da lua eram a parada desde o começo-',
+                                "<32>* Até eu estou surpreso com o que seus modos mesquinhos levaram a mim-"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Tch-\n* Unbelievable-',
-                                "<32>* I can't believe I'm gonna be working with that guy-",
-                                '<32>* At least our sales figures should finally go up-'
+                                '<32>{#p/basic}{#npc/a}* Tch-\n* Inacreditável-',
+                                "<32>* Eu nem acredito que vou começar a trabalhar com aquele cara-",
+                                '<32>* Pelo menos nossas vendas vão começar a subir-'
                             ]
                         : roomKills().s_pacing > 0
-                            ? ["<32>{#p/basic}{#npc/a}* Tch-\n* Sorry, I don't sell to people like you-"]
+                            ? ["<32>{#p/basic}{#npc/a}* Tch-\n* Desculpa, eu não vendo pra gente igual a você-"]
                             : SAVE.data.b.killed_mettaton
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* Man-\n* Sucks what happened to Mettaton, y'know-",
-                                    "<32>* But I'm willing to sell off my special edition moon rocks for the occasion-",
-                                    '<32>* Unlike that guy, who just lowers the prices on his basic rocks instead-'
+                                    "<32>{#p/basic}{#npc/a}* Mano-\n* Que merda aquilo que aconteceu com o Mettaton, sabe-",
+                                    "<32>* Mas eu vou vender minhas pedras da lua edição especial para tal ocasião-",
+                                    '<32>* Diferente daquele cara, que só abaixou os preços das suas pedras normais-'
                                 ]
                                 : [
-                                    '<32>{#p/basic}{#npc/a}* Tch-\n* Unbelievable-',
-                                    '<32>* I got authentic moon rocks straight from a moon, unlike his phoned in crap-',
-                                    "<32>* That guy's rocks don't look anything like a moon-"
+                                    '<32>{#p/basic}{#npc/a}* Tch-\n* Inacreditável-',
+                                    '<32>* Eu tenho rochas lunares autênticas direto de uma lua, ao contrário daquele porcaria-',
+                                    "<32>* As pedras daquele cara não tem nada haver com a lua-"
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 6
-                            ? ['<32>{#p/basic}{#npc/a}* Yeah, I have you to thank-']
-                            : ["<32>{#p/basic}{#npc/a}* It's just good for business-"]
+                            ? ['<32>{#p/basic}{#npc/a}* É, eu preciso te agradecer-']
+                            : ["<32>{#p/basic}{#npc/a}* É bom para os negócios-"]
                         : roomKills().s_pacing > 0
-                            ? ["<32>{#p/basic}{#npc/a}* Tch-\n* Sorry, I don't sell to people like you-"]
-                            : ['<32>{#p/basic}{#npc/a}* The nerve of that guy-']
+                            ? ["<32>{#p/basic}{#npc/a}* Tch-\n* Desculpa, eu não vendo pra gente igual a você-"]
+                            : ['<32>{#p/basic}{#npc/a}* A coragem daquele cara-']
             ),
             s_moonrocks2: pager.create(
                 0,
@@ -1930,158 +1930,158 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 6
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Ehhh~\n* I just couldn't deal with it anymore, man~",
-                                "<32>* Between his badgering and your bullying, I've just about had enough~",
-                                "<32>* His moon rocks may be fake, but if it gets me peace and quiet, I'll deal~"
+                                "<32>{#p/basic}{#npc/a}* Ehhh~\n* Eu não podia aguentar mais aquilo, cara~",
+                                "<32>* Entre a barganha dele e a sua valentia, eu já tava cansado de tudo~",
+                                "<32>* Os rochas da lua dele podem ser falsas, mas se me deixar em paz, eu tô de acordo~"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Pfft~\n* Shaw man~',
-                                "<32>* It's good to finally be working together on this thing~",
-                                "<32>* Now we'll both be sellin' my authentic moon rocks~"
+                                '<32>{#p/basic}{#npc/a}* Pfft~\n* Pobre homem~',
+                                "<32>* É bom finalmente estar trabalhando junto em alguma coisa~",
+                                "<32>* Agora estaremos juntos vendendo meus pedaços autênticos da lua~"
                             ]
                         : roomKills().s_pacing > 0
-                            ? ['<32>{#p/basic}{#npc/a}* Pfft~\n* No moon rocks for you~']
+                            ? ['<32>{#p/basic}{#npc/a}* Pfft~\n* Sem pedaços da lua para você~']
                             : SAVE.data.b.killed_mettaton
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Real shame what happened to the star of the outpost~',
-                                    "<32>* Don't worry though~\n* Unlike that dude to my left, I won't raise my prices~",
-                                    '<32>* In fact, my moon rocks are going on sale~'
+                                    '<32>{#p/basic}{#npc/a}* Uma desgraça o que aconteceu com a estrela do Outpost~',
+                                    "<32>* Mas não se preocupa~\n* Diferente daquele cara ali, eu não vou aumentar meus preços~",
+                                    '<32>* Na verdade, minhas pedras da lua estão a venda~'
                                 ]
                                 : [
-                                    '<32>{#p/basic}{#npc/a}* Pfft~\n* Shaw man~',
-                                    "<32>* That dude to my left be sellin' phoney baloney moon rocks, bruh~",
-                                    "<32>* Don't believe a word he says~"
+                                    '<32>{#p/basic}{#npc/a}* Pfft~\n* Pobre homem~',
+                                    "<32>* Aquele cara à minha esquerda está vendendo falsas pedras lunares, bruh~",
+                                    "<32>* Não acredite em nada que ele diz~"
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 6
-                            ? ['<32>{#p/basic}{#npc/a}* Shaw man~\n* Sorry it had to come to this~']
-                            : ['<32>{#p/basic}{#npc/a}* Yeah, his were the real fake moon rocks all along~']
+                            ? ['<32>{#p/basic}{#npc/a}* Que cara triste~\n* Uma pena que teve que chegar a isso~']
+                            : ['<32>{#p/basic}{#npc/a}* É, foi com ele que toda a parada de pedras lunares falsas começou~']
                         : roomKills().s_pacing > 0
-                            ? ['<32>{#p/basic}{#npc/a}* Pfft~\n* No moon rocks for you~']
-                            : ["<32>{#p/basic}{#npc/a}* The gall o' that dude~"]
+                            ? ['<32>{#p/basic}{#npc/a}* Pfft~\n* Sem pedaços da lua para você~']
+                            : ["<32>{#p/basic}{#npc/a}* A ousadia daquele cara~"]
             ),
             t_bunny: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* My little Cinnamon's going to grow up one day...",
-                            "<32>* Since he's my brother, I only want the best for him.",
-                            '<32>* I sure hope our new world can accommodate for that.'
+                            "<32>{#p/basic}{#npc/a}* Meu pequeno Canela vai crescer um dia...",
+                            "<32>* Ele é meu irmão, então eu só desejo o melhor pra ele.",
+                            '<32>* Eu espero que o novo mundo tenha espaço pra isso.'
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Ah, it's so peaceful and quiet...",
-                                '<32>* The people who usually bother me are too busy crying about something on TV!'
+                                "<32>{#p/basic}{#npc/a}* Ah, é tão calmo e pacífico...",
+                                '<32>* As pessoas que normalmente me incomodam estão muito ocupadas chorando sobre algo na TV!'
                             ]
                             : papreal()
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* Ah, it's so peaceful and quiet...",
-                                    '<32>* Usually one of those skeletons chases my little Cinnamon around.'
+                                    "<32>{#p/basic}{#npc/a}* Ah, é tão calmo e pacífico...",
+                                    '<32>* As vezes um daqueles esqueletos segue o Canela por aí.'
                                 ]
                                 : world.dead_canine
                                     ? [
-                                        "<32>{#p/basic}{#npc/a}* Ah, it's so peaceful and quiet...",
-                                        '<32>* Usually one of those dogs chases my little Cinnamon around.'
+                                        "<32>{#p/basic}{#npc/a}* Ah, é tão calmo e pacífico...",
+                                        '<32>* As vezes um daqueles cachorros persegue o Canela por aí.'
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Isn't my little Cinnamon just the cutest?",
-                                        '<32>* Bun-buns are so adorable...\n* Tee hee!'
+                                        "<32>{#p/basic}{#npc/a}* O meu Canela não é o mais lindinho?",
+                                        '<32>* Os pãezinhos são tão adoráveis...\n* Tee hee'
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* It's not long now, bun-bun..."]
+                        ? ["<32>{#p/basic}{#npc/a}* Não faz muito agora, bun-bun..."]
                         : SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* I wonder what could have happened...']
+                            ? ['<32>{#p/basic}{#npc/a}* Me pergunto o que pode ter acontecido...']
                             : papreal() || world.dead_canine
-                                ? ['<32>{#p/basic}{#npc/a}* I wonder where they are...']
+                                ? ['<32>{#p/basic}{#npc/a}* Me pergunto onde eles estão...']
                                 : ['<32>{#p/basic}{#npc/a}* Bun-bun-bun-bun-bun...']
             ),
             t_icewolf: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        "<32>{#p/basic}{#npc/a}* Ice Wolf is happy today.\n* Sweet Doggo has finally been held in Ice Wolf's arms.",
-                        '<32>* Ice Wolf is now his Nice Wolf.'
+                        "<32>{#p/basic}{#npc/a}* Ice Wolf está feliz hoje.\n* Querido Doggo está nos braços de Ice Wolf.",
+                        '<32>* Ice Wolf é agora seu Nice Wolf.'
                     ]
                     : SAVE.data.b.killed_mettaton
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Ice Wolf notices the morale of the town slipping.',
-                            '<32>* Ice Wolf just wants everyone to be happy.'
+                            '<32>{#p/basic}{#npc/a}* Ice Wolf percebe a moral da cidade decrescendo.',
+                            '<32>* Ice Wolf do quer todo mundo estando feliz.'
                         ]
                         : world.dead_canine
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Ice Wolf has not seen any of Ice Wolf's dog-friends today.",
-                                '<32>* Ice Wolf is sad.'
+                                "<32>{#p/basic}{#npc/a}* Ice Wolf não viu nenhum dos amigos cachorros hoje.",
+                                '<32>* Ice Wolf está triste.'
                             ]
                             : SAVE.data.n.state_starton_doggo === 2
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Ice Wolf has not seen sweet Doggo at all today.',
-                                    '<32>* Ice Wolf is lonely.'
+                                    '<32>{#p/basic}{#npc/a}* Ice Wolf não viu o querido Doggo o dia inteiro.',
+                                    '<32>* Ice Wolf está sozinho.'
                                 ]
                                 : papreal()
-                                    ? ['<32>{#p/basic}{#npc/a}* Ice Wolf has not seen any skeletons today.', '<32>* Ice Wolf is concerned.']
+                                    ? ['<32>{#p/basic}{#npc/a}* Ice Wolf não viu nenhum esqueleto hoje.', '<32>* Ice Wolf está preocupado.']
                                     : SAVE.data.n.state_starton_doggo === 1 &&
                                         SAVE.data.n.state_starton_dogs === 1 &&
                                         SAVE.data.n.state_starton_greatdog === 1 &&
                                         SAVE.data.n.state_starton_lesserdog === 1
                                         ? [
-                                            "<32>{#p/basic}{#npc/a}* Ice Wolf is going to play fetch with Ice Wolf's dog-friends.",
-                                            '<32>* Ice Wolf is excited.'
+                                            "<32>{#p/basic}{#npc/a}* Ice Wolf vai brincar de pega com os amigos de Ice Wolf.",
+                                            '<32>* Ice Wolf está animado.'
                                         ]
                                         : world.population < 6
                                             ? [
                                                 world.bullied
-                                                    ? '<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why so many monsters are hurt.'
-                                                    : '<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why so many monsters are gone.',
-                                                '<32>* Ice Wolf is concerned.'
+                                                    ? '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando o porque de tantos monstros estarem surrados.'
+                                                    : '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando porque tantos monstros sumiram.',
+                                                '<32>* Ice Wolf está preocupado.'
                                             ]
                                             : [
-                                                '<32>{#p/basic}{#npc/a}* Ice Wolf is wondering why Ice Wolf is Ice Wolf when there is no ice to throw around.',
-                                                '<32>* Ice Wolf is confused.'
+                                                '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando porque seu nome é Ice Wolf sem não tem Ice pra ser jogado por aí.',
+                                                '<32>* Ice Wolf está confuso.'
                                             ],
             t_imafraidjumitebeinagang: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* I asked Papyrus about his floss collection, and he said he'd help me start one, too.",
-                            "<32>* Isn't he the best?"
+                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria a começar uma também.",
+                            "<32>* Ele não é o melhor?"
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* My MTT-brand toothbrush broke again, and I don't know how I'll fix it this time.",
-                                "<32>* ... it's not like they're going to make any more of them, now."
+                                "<32>{#p/basic}{#npc/a}* Minha escova de dente da MTT quebrou de novo, e eu não sei como vou arrumar dessa vez.",
+                                "<32>* ... não é como se eles fossem fazer mais delas por agora."
                             ]
                             : papreal()
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* I went to ask Papyrus about his floss collection, but he wasn't available.",
-                                    '<32>* Would you happen to know anything about that?'
+                                    "<32>{#p/basic}{#npc/a}* Eu fui perguntar para o Papyrus sobre sua coleção de fio dental, mas ele não tava em casa.",
+                                    '<32>* Você sabe o que aconteceu com ele?'
                                 ]
                                 : world.popmax(0) - world.population > 4
                                     ? [
-                                        "<32>{#p/basic}{#npc/a}* I'd lend you my MTT-brand toothbrush...",
-                                        "<32>* ... but I get the feeling you'd smash it a whole bunch."
+                                        "<32>{#p/basic}{#npc/a}* Eu te emprestaria minha escova de dentes da marca MTT...",
+                                        "<32>* ... mas eu tenho a sensação de que você explodiria ela em pedaços."
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Those MTT-brand toothbrushes are so freakin' brittle.",
-                                        '<32>* Thing got crushed in my hands before I could even start!'
+                                        "<32>{#p/basic}{#npc/a}* Aquelas escovas de dente da MTT são tão frágeis.",
+                                        '<32>* Ela quebrou nas minhas mãos antes que eu pudesse escovar.'
                                     ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* I asked Papyrus about his floss collection, and he said he'd help me start one, too.",
-                            "<32>* Isn't he the best?"
+                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria a começar uma também.",
+                            "<32>* Ele não é o melhor?"
                         ]
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* Guess I'll have to use an actually decent toothbrush from now on."]
+                            ? ["<32>{#p/basic}{#npc/a}* Acho que eu vou ter que usar uma escova de dente de verdade agora."]
                             : papreal()
-                                ? ['<32>{#p/basic}{#npc/a}* Hmm...\n* I wonder how skeletons brush their teeth.']
+                                ? ['<32>{#p/basic}{#npc/a}* Hmm...\n* Me pergunto como os esqueletos escovam os dentes.']
                                 : world.popmax(0) - world.population > 4
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* Hanging out by the bar tells you a lot about this place...\n* For better or worse.'
+                                        '<32>{#p/basic}{#npc/a}* Dar uma volta no bar diz muito sobre você por aqui...\n* Seja isso bom ou ruim.'
                                     ]
-                                    : ['<32>{#p/basic}{#npc/a}* Then again, it was the cheapest option...']
+                                    : ['<32>{#p/basic}{#npc/a}* E de novo, era a opção mais barata...']
             ),
             t_kabakk: pager.create(
                 0,
@@ -2089,46 +2089,46 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 4
                             ? [
-                                '<32>{#p/basic}{#npc/a}* HEY!',
-                                "<32>* ... you're pretty weird.",
-                                '<32>* You put us through hell, then went through hell to save us all.',
-                                "<32>* I don't really know why.",
+                                '<32>{#p/basic}{#npc/a}* Ei!',
+                                "<32>* ... você é bem esquisito.",
+                                '<32>* Você nos colocou no maior dos infernos, mas depois foi e nos salvou.',
+                                "<32>* Qual é sua motivação?",
                                 '<32>* ...',
                                 '<32>* ...',
-                                "<32>* I DON'T KNOW HOW TO HANDLE TO THIS SITUATION!\n* YEAH!"
+                                "<32>* EU NÃO SEI COMO LIDAR COM ESSA SITUAÇÃO!\n* TOP!"
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* HEY!',
-                                "<32>* ... you're pretty cool.",
-                                '<32>* Thanks for going through hell to save us all back there.',
-                                '<32>* That was a real stand-up move.',
+                                '<32>{#p/basic}{#npc/a}* Ei!',
+                                "<32>* ... você é bem legal.",
+                                '<32>* Obrigado por passar por todo esse inferno pra nos salvar.',
+                                '<32>* Foi um movimento de guerreiro.',
                                 '<32>* ...',
                                 '<32>* ...',
-                                '<32>* ALL HAIL THE NEW AUTHORITY!\n* YEAH!'
+                                '<32>* TODOS SAÚDAM A NOVA AUTORIDADE!\n* SIM!'
                             ]
                         : world.meanie
                             ? [
-                                '<32>{#p/basic}{#npc/a}* HEY!',
-                                '<32>* What you been up to, huh KID?',
-                                "<32>* You've got an awfully criminal look on your FACE...",
+                                '<32>{#p/basic}{#npc/a}* Ei!',
+                                '<32>* O que você tem feito, CRIANÇA?',
+                                "<32>* Você tem um olhar criminoso na sua CARA...",
                                 '<32>* ...',
                                 '<32>* ...',
-                                '<32>* Respect my AUTHORITY!\n* YEAH!'
+                                '<32>* Respeita minha AUTORIDADE!'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* HEY!',
-                                '<32>* You think you can just stand there and stare at ME?',
-                                "<32>* Well, I've got some bad news for you, PAL.",
-                                "<32>* I'm an officer of the LAW.",
-                                '<32>* So, UH...',
-                                '<32>* Respect my AUTHORITY!\n* YEAH!'
+                                '<32>{#p/basic}{#npc/a}* Ei!',
+                                '<32>* Você acha que pode ficar aí parado olhando pra MIM?',
+                                "<32>* Bem, eu tenho más notícias pra você, CARA.",
+                                "<32>* Eu sou um oficial da LEI.",
+                                '<32>* Então, UH...',
+                                '<32>* Respeita minha AUTORIDADE!'
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 4
                             ? ['<32>{#p/basic}{#npc/a}* ...']
-                            : ['<32>{#p/basic}{#npc/a}* HAIL it, PAL.']
-                        : ['<32>{#p/basic}{#npc/a}* Respect it, PAL.']
+                            : ['<32>{#p/basic}{#npc/a}* RESPEITA ela, CARA.']
+                        : ['<32>{#p/basic}{#npc/a}* Respeite, CARA.']
             ),
             t_loverboy: pager.create(
                 0,
@@ -2137,110 +2137,110 @@ export default {
                         ? world.population < 2
                             ? [
                                 '<32>{#p/basic}{#npc/a}* Hey hey...',
-                                "<32>* ... despite what you've done, you still chose to...",
-                                "<32>* Oh... oh gee...\n* You can't see it, but I think I'm gonna cry...",
-                                "<32>* ... wait, don't hurt me!"
+                                "<32>* ... apesar do que você fez, você ainda escolheu...",
+                                "<32>* Oh... oh caramba...\n* Você não pode ver, mas acho que vou chorar...",
+                                "<32>* ... espera, não me machuca!"
                             ]
                             : [
                                 '<32>{#p/basic}{#npc/a}* Hey hey...',
-                                "<32>* ... thanks to you, we're...",
-                                "<32>* Oh... oh gee...\n* You can't see it, but I think I'm gonna cry...",
-                                '<32>* ... uh, can I cry?'
+                                "<32>* ... gracas a você, nós estamos...",
+                                "<32>* Oh... oh caramba...\n* Você não pode ver, mas acho que vou chorar...",
+                                '<32>* ... uh, posso chorar?'
                             ]
                         : papreal() || world.dead_canine || SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Hey hey, why's everyone so sad around this town?",
-                                '<32>* Did something happen?'
+                                "<32>{#p/basic}{#npc/a}* Ei ei, por que todo mundo nessa cidade tá tão triste?",
+                                '<32>* Alguma coisa aconteceu?'
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Hey hey, nothing's ever going to change in my life!",
+                                "<32>{#p/basic}{#npc/a}* Ei ei, nada nunca vai mudar na minha vida!",
                                 '<32>* Ha... ha...'
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ["<32>{#p/basic}{#npc/a}* I still think you're cool...!\n* Please don't hurt me."]
-                            : ['<32>{#p/basic}{#npc/a}* I love you...!']
+                            ? ["<32>{#p/basic}{#npc/a}* Eu ainda te acho bem da hora...!\n* Por favor não me bate."]
+                            : ['<32>{#p/basic}{#npc/a}* Eu te amo...!']
                         : papreal() || world.dead_canine || SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* Maybe it's just my imagination."]
-                            : ["<32>{#p/basic}{#npc/a}* Or maybe I'm just crazy."]
+                            ? ["<32>{#p/basic}{#npc/a}* Talvez seja só minha imaginação."]
+                            : ["<32>{#p/basic}{#npc/a}* Ou talvez eu seja louco."]
             ),
             t_politics: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* I heard the king revealed the truth about the humans he supposedly killed.',
-                            "<32>* Everyone felt so bad that they didn't know.\n* They all gave him a big hug.",
-                            '<32>* Then they took the humans and adopted them for themselves.',
-                            '<32>* Now the humans will get to live their lives with us.',
-                            "<32>* Thaaaaaat's politics!"
+                            '<32>{#p/basic}{#npc/a}* Eu ouvi que o rei revelou a verdade sobre os monstros que ele supostamente matou.',
+                            "<32>* Todo mundo ficou tão triste por não saber.\n* Eles todos o deram um grande abraço.",
+                            '<32>* Então alguns adotaram os humanos para si.',
+                            '<32>* Agora estes humanos vão viver suas vidas com a gente.',
+                            "<32>* Iiiiiiisssssoooo é política!"
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Hmmm, it's weird how everybody's been talking about TV lately.",
-                                "<32>* What happened...?\n* I hope this doesn't affect our political system..."
+                                "<32>{#p/basic}{#npc/a}* Hmmm,  estranho como todo mundo tem falado de TV ultimamente.",
+                                "<32>* O que aconteceu...?\n* Espero que isso não afete nosso sistema político..."
                             ]
                             : papreal()
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Hmmm, usually Papyrus goes to meet with Undyne about now.',
-                                    '<32>* Where is he...?\n* I can feel our political system crumbling apart...'
+                                    '<32>{#p/basic}{#npc/a}* Hmmm, normalmente Papyrus sai para uma reunião com Undyne a esse horário.',
+                                    '<32>* Mas cadê ele...?\n* Eu posso sentir nosso sistema político desmoronando...'
                                 ]
                                 : world.popmax(0) - world.population > 4
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* This town has no real police.\n* But maybe the fake police will scare off the bullies.',
-                                        '<32>* The politics carry on...'
+                                        '<32>{#p/basic}{#npc/a}* Essa cidade não tem polícia.\n* Mas talvez aqueles policiais de mentira espantem os valentões.',
+                                        '<32>* A política continua...'
                                     ]
                                     : world.trueKills > 0 || SAVE.data.n.bully > 0
                                         ? [
-                                            '<32>{#p/basic}{#npc/a}* This town has no mayor.',
-                                            '<32>* But, if anything happens, a skeleton will tell a fish lady about it.',
-                                            "<32>* Thaaaaaat's politics!"
+                                            '<32>{#p/basic}{#npc/a}* Essa cidade não tem prefeito.',
+                                            '<32>* Mas, se algo chegar a acontecer, um esqueleto conta para uma mulher peixe sobre.',
+                                            "<32>* Iiiiiiisssssoooo é política!"
                                         ]
                                         : [
-                                            '<32>{#p/basic}{#npc/a}* This town is always so dreary.',
-                                            "<32>* But, if things keep going the way they are, maybe that'll change.",
-                                            '<32>* Is that politics?'
+                                            '<32>{#p/basic}{#npc/a}* Esta cidade é sempre tão sombria.',
+                                            "<32>* Mas, se as coisas continuarem caminhando assim, talvez isso mude.",
+                                            '<32>* Seria isso política?'
                                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ["<32>{#p/basic}{#npc/a}* You see?\n* Politics isn't all bad..."]
+                        ? ["<32>{#p/basic}{#npc/a}* Viu?\n* A política não é má o tempo todo..."]
                         : SAVE.data.b.killed_mettaton || papreal() || world.popmax(0) - world.population > 4
-                            ? ['<32>{#p/basic}{#npc/a}* Politics...']
+                            ? ['<32>{#p/basic}{#npc/a}* Política...']
                             : world.trueKills > 0 || SAVE.data.n.bully > 0
-                                ? ['<32>{#p/basic}{#npc/a}* Politics.']
-                                : ['<32>{#p/basic}{#npc/a}* Politics?']
+                                ? ['<32>{#p/basic}{#npc/a}* Política.']
+                                : ['<32>{#p/basic}{#npc/a}* Política?']
             ),
             t_rabbit: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Long ago, I heard they didn\'t have such fancy things as \"force fields.\"',
-                            '<32>* All I can say... is that it feels good to be back.'
+                            '<32>{#p/basic}{#npc/a}* Tempos atrás, eu ouvi sobre não existirem coisas chiques como \"escudos de força\".',
+                            '<32>* Tudo que eu posso dizer... é que é bom estar de volta as origens.'
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Long ago, I heard TV celebrities were all over the place.',
-                                "<32>* Now, they're looking to become a thing of the past."
+                                '<32>{#p/basic}{#npc/a}* Tempos atrás, ouvi que celebridades de TV estavam por todo lado.',
+                                "<32>* Agora, estão começando a se tornar algo do passado."
                             ]
                             : papreal()
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Long ago, I heard the outpost was a dreary place.',
-                                    "<32>* At this rate... we'll be back to having that same problem."
+                                    '<32>{#p/basic}{#npc/a}* Tempos atrás, ouvi dizer que o Outpost era um lugar obscuro.',
+                                    "<32>* Neste ritmo... estaremos de volta a essa era."
                                 ]
                                 : [
-                                    '<32>{#p/basic}{#npc/a}* Long ago, I heard they split the town into two halves.',
-                                    '<32>* I wonder what it looked like before...?'
+                                    '<32>{#p/basic}{#npc/a}* Há muito tempo, ouvi dizer que eles dividiram a cidade em duas metades.',
+                                    '<32>* Me pergunto como se parecia antes...?'
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Thanks for bringing us back.']
+                        ? ['<32>{#p/basic}{#npc/a}* Obrigado por trazer isso de volta.']
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* It's too bad we can't just magically bring them back."]
+                            ? ["<32>{#p/basic}{#npc/a}* É uma pena que não possamos simplesmente trazê-los de volta magicamente."]
                             : papreal()
-                                ? ["<32>{#p/basic}{#npc/a}* It's too bad we can't just magically fix these things."]
-                                : ['<32>{#p/basic}{#npc/a}* We may never know.']
+                                ? ["<32>{#p/basic}{#npc/a}* É uma pena que não possamos magicamente arrumar as coisas."]
+                                : ['<32>{#p/basic}{#npc/a}* Talvez nós jamais saberemos.']
             ),
             t_smileguy: pager.create(
                 0,
@@ -2248,32 +2248,32 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                "<32>{#p/basic}{#npc/a}* So we're free, huh?",
-                                "<32>* I guess I don't have to keep smiling anymore...",
-                                "<32>* ... strange.\n* I don't feel like not smiling, but smiling also seems wrong.",
-                                "<32>* This is too deep.\n* I'm sticking to what I know."
+                                "<32>{#p/basic}{#npc/a}* Então estamos livres, huh?",
+                                "<32>* Acho que não preciso ficar mais sorrindo...",
+                                "<32>* ... estranho.\n* Não tenho vontade de não sorrir, mas sorrir também parece errado.",
+                                "<32>* Isso é profundo demais.\n* Eu vou me atar aquilo que sei."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* So we're free, huh?",
-                                "<32>* I guess I don't have to keep smiling anymore...",
-                                "<32>* ... huh.\n* Then why can't I stop?",
-                                "<32>* For some reason, I don't want to stop smiling now!"
+                                "<32>{#p/basic}{#npc/a}* Então estamos livres, huh?",
+                                "<32>* Acho que não preciso ficar mais sorrindo...",
+                                "<32>* ... huh.\n* Então por que eu não posso parar?",
+                                "<32>* Por algum motivo, eu não quero parar de sorrir agora!"
                             ]
                         : papreal() || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* Just now, I felt my smile falter for a moment.', "<32>* What's wrong?"]
+                            ? ['<32>{#p/basic}{#npc/a}* Agora mesmo, eu senti meu sorriso decaindo.', "<32>* O que aconteceu?"]
                             : [
-                                "<32>{#p/basic}{#npc/a}* We all know things haven't gone how we'd hoped, but we smile anyway.",
-                                '<32>* Why?',
-                                '<32>* This is our reality, so why be morose about it?'
+                                "<32>{#p/basic}{#npc/a}* Nós sabemos que as coisas não tem ido bem, mas sorrimos de toda forma.",
+                                '<32>* Porquê?',
+                                '<32>* É a nossa realidade, pra que ficar de careta?'
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ['<32>{#p/basic}{#npc/a}* Smile smile.']
-                            : ['<32>{#p/basic}{#npc/a}* Smile smile!']
+                            ? ['<32>{#p/basic}{#npc/a}* Sorria sorria.']
+                            : ['<32>{#p/basic}{#npc/a}* Sorria sorria!']
                         : papreal() || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* Smile smile?']
-                            : ['<32>{#p/basic}{#npc/a}* Smile smile.']
+                            ? ['<32>{#p/basic}{#npc/a}* Sorria sorria?']
+                            : ['<32>{#p/basic}{#npc/a}* Sorria sorria.']
             ),
             t_wisconsin: pager.create(
                 0,
@@ -2281,224 +2281,224 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Freedom...',
-                                "<32>* That means I don't have to worry about getting beat up anymore.",
+                                '<32>{#p/basic}{#npc/a}* Liberdade...',
+                                "<32>* Significa que eu não preciso mais me preocupar em relação a tomar uma surra.",
                                 '<32>* Haha.'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Freedom...',
-                                "<32>* That means I don't have to worry about cracking jokes anymore.",
+                                '<32>{#p/basic}{#npc/a}* Liberdade...',
+                                "<32>* Significa que eu não preciso me preocupar com piadas mais.",
                                 '<32>* ...',
-                                '<32>* What does a mouse do when it finally gets the cheese?',
+                                '<32>* O que um rato faz quando finalmente pega o queijo?',
                                 '<32>* ...',
-                                '<32>* Well...',
-                                "<32>* It probably doesn't worry about cracking jokes, that's for sure.",
+                                '<32>* Bem...',
+                                "<32>* Provavelmente não se preocupa em contar piadas, com certeza.",
                                 '<32>* Haha.'
                             ]
                         : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/basic}{#npc/a}* It just feels like...',
-                                '<32>* Like everything is getting worse, and worse...\n* And worse.'
+                                '<32>{#p/basic}{#npc/a}* Só parece que...',
+                                '<32>* Que tudo está ficando pior, e pior...\n* E pior.'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Everyone is always laughing and cracking jokes, trying to forget our modern crises...',
-                                '<32>* Dreariness.\n* Crowding.\n* Lack of a homeworld.',
-                                "<32>* I would join them, but I just don't feel like being funny."
+                                '<32>{#p/basic}{#npc/a}* Todo mundo está sempre rindo e fazendo piadas, tentando esquecer nossa crise moderna...',
+                                '<32>* Monotonia.\n* Aglomeração.\n* Falta de um mundo natal.',
+                                "<32>* Eu me juntaria a eles, mas não me acho muito da graça."
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ["<32>{#p/basic}{#npc/a}* Sorry.\n* That wasn't funny."]
+                            ? ["<32>{#p/basic}{#npc/a}* Desculpa.\n* Não foi engraçado."]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Sorry.\n* I guess you could say...',
-                                '<32>* That joke was a little too \"cheesy.\"'
+                                '<32>{#p/basic}{#npc/a}* Desculpa.\n* Acho que posso dizer...',
+                                '<32>* Que a piada estava meio \"intolerante\".'
                             ]
                         : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* And worse...']
-                            : ["<32>{#p/basic}{#npc/a}* At least I'm not making puns."],
+                            ? ['<32>{#p/basic}{#npc/a}* E pior...']
+                            : ["<32>{#p/basic}{#npc/a}* Pelo menos não estou fazendo trocadilhos."],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ['<32>{#p/basic}{#npc/a}* You should leave before I stop being nice to you.']
-                            : ["<32>{#p/basic}{#npc/a}* Yes.\n* That was a pun.\n* I'm a pun mouse now."]
+                            ? ['<32>{#p/basic}{#npc/a}* Você deveria ir embora antes que eu pare de ser legal.']
+                            : ["<32>{#p/basic}{#npc/a}* Sim.\n* Isso foi um trocadilho.\n* Eu sou um rato trocadilho agora."]
                         : world.dead_dog || world.dead_skeleton || world.population < 6 || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* And worse still...']
-                            : ['<32>{#p/basic}{#npc/a}* For now.']
+                            ? ['<32>{#p/basic}{#npc/a}* E continua pior...']
+                            : ['<32>{#p/basic}{#npc/a}* Por agora.']
             ),
             t_zorren: pager.create(
                 0,
                 () => [
-                    "<32>{#p/basic}{#npc/a}* (Oh, hey, it's me, Zorren.)",
+                    "<32>{#p/basic}{#npc/a}* (Oh, opa, sou eu, Zorren.)",
                     ...(SAVE.data.n.plot === 72
                         ? world.population < 4
                             ? [
-                                "<32>* (We, uh, can't thank you enough for doing what you did.)",
-                                "<32>* (But...)\n* (You've, uh, not exactly been a model citizen.)",
-                                "<32>* (Why'd you have to go and, make it all so complicated?)"
+                                "<32>* (Nós, uh, não podemos te agradecer o suficiente pelo que você fez.)",
+                                "<32>* (Mas...)\n* (Você, uh, não tem sido o melhor cidadão.)",
+                                "<32>* (Por que você tornou isso tudo tão complicado?)"
                             ]
                             : [
-                                "<32>* (We, uh, can't thank you enough for doing what you did.)",
-                                "<32>* (But...)\n* (You've, uh, probably heard enough of that, by now.)",
-                                "<32>* (So I'll let you get back to, what you were doing.)"
+                                "<32>* (Nós, uh, não podemos te agradecer o suficiente pelo que você fez.)",
+                                "<32>* (Mas...)\n* (Você provavelmente já escutou o suficiente disso, por agora.)",
+                                "<32>* (Então, vou deixar você voltar ao que estava fazendo.)"
                             ]
                         : world.meanie
                             ? SAVE.data.b.s_state_capstation
                                 ? [
-                                    "<32>* (Something's, like, different about you now.)",
+                                    "<32>* (Algo está diferente em você agora.)",
                                     '<32>* (...)',
-                                    "<32>* (Yeah, you know, uh, I don't really like you anymore.)",
-                                    "<32>* (I'd take back the key I gave you, if only I could.)"
+                                    "<32>* (É, tipo, eu não gosto mais de você.)",
+                                    "<32>* (Eu pegaria de volta a chave que te dei, se eu pelo menos pudesse.)"
                                 ]
                                 : [
-                                    '<32>* (You uh, got a problem with our, uh, police force, or...?)',
+                                    '<32>* (Você uh, tem algum problema com nossa, uh, força policial, ou...?)',
                                     '<32>* (...)',
-                                    "<32>* (Yeah, you know, uh, I don't really like you all that much.)",
-                                    "<32>* (There's just, something off, particularly about you.)"
+                                    "<32>* (É, sabe, uh, eu não gosto tanto de você.)",
+                                    "<32>* (Tem algo particularmente errado em relação a você.)"
                                 ]
                             : [
                                 ...(SAVE.data.b.oops
                                     ? [
-                                        '<32>* (You uh, got a problem with our, uh, police force, or...?)',
-                                        '<32>* (No?)\n* (Hey, thanks for uh, not doing that.)'
+                                        '<32>* (Você uh, tem algum problema com nossa, uh, força policial, ou...?)',
+                                        '<32>* (Não?)\n* (Ei, valeu por, não fazer isso.)'
                                     ]
                                     : [
-                                        "<32>* (Y'know, you seem like someone who likes to show respect.)",
-                                        '<32>* (So, thanks for, uh, doing that.)'
+                                        "<32>* (Você sabe, você parece ser alguém que gosta de demonstrar respeito.)",
+                                        '<32>* (Então, valeu por, uh, fazer isso.)'
                                     ]),
                                 ...(SAVE.data.b.s_state_capstation
                                     ? []
                                     : ((SAVE.data.b.s_state_capstation = true),
                                         [
-                                            '<32>* (In fact...)',
-                                            '<32>* (Here, kid.)\n* (Have a key, on us.)',
+                                            '<32>* (De fato...)',
+                                            '<32>* (Ei, carinha.)\n* (Toma essa chave, por nossa conta.)',
                                             '<32>{#s/equip}{#p/human}* (A Chave Rústica foi adicionada ao seu chaveiro.)',
                                             '<32>* (Olhe seu Celular para ver todas as chaves.)',
-                                            "<32>{#p/basic}{#npc/a}* (We've, uh, got an armory somewhere, I think.)"
+                                            "<32>{#p/basic}{#npc/a}* (Nós, uh, temos um arsenal em algum lugar, eu acho.)"
                                         ])),
                                 ...(SAVE.data.b.oops
                                     ? [
-                                        '<32>* (Psst...)\n* (Just between us, Kabakk and I built this station ourselves.)',
-                                        '<32>* (Pretty cool, huh?)'
+                                        '<32>* (Psst...)\n* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
+                                        '<32>* (Bem legal, né?)'
                                     ]
                                     : [
-                                        '<32>* (Psst...)\n* (Just between us, Kabakk and I built this station ourselves.)',
-                                        '<32>* (Pretty cool, huh?)'
+                                        '<32>* (Psst...)\n* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
+                                        '<32>* (Bem legal, né?)'
                                     ])
                             ])
                 ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 4
-                            ? ['<32>{#p/basic}{#npc/a}* (Do better, my friend.)\n* (Do better.)']
-                            : ['<32>{#p/basic}{#npc/a}* (Carry on, my friend.)\n* (Carry on.)']
+                            ? ['<32>{#p/basic}{#npc/a}* (Faça melhor, meu amigo.)\n* (Faça melhor.)']
+                            : ['<32>{#p/basic}{#npc/a}* (Continue assim, meu amigo.)\n* (Continue assim.)']
                         : world.meanie
-                            ? ['<32>{#p/basic}{#npc/a}* (Get outta here.)']
+                            ? ['<32>{#p/basic}{#npc/a}* (Some daqui.)']
                             : SAVE.data.b.oops
-                                ? ["<32>{#p/basic}{#npc/a}* (Yeah, we're not real police.)"]
+                                ? ["<32>{#p/basic}{#npc/a}* (É, não somos polícia de verdade.)"]
                                 : [
-                                    '<32>{#p/basic}{#npc/a}* (We may not be real police, but people like you are worth protecting and serving.)'
+                                    '<32>{#p/basic}{#npc/a}* (Podemos não ser polícias de verdade, mas pessoas como você valem a pena proteger.)'
                                 ]
             )
         },
         objinter: {
             ctower0: () => [
-                '<32>{#p/human}* (You activate the terminal.)',
+                '<32>{#p/human}* (Você ativa o terminal.)',
                 ...(SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The note describes reducing the total to zero by adding or subtracting powers of ten.)'
+                        '<32>{#p/human}* (A nota descreve a redução do total a zero adicionando ou subtraindo potências de dez.)'
                     ]
                     : [
-                        '<32>{#p/basic}* There are written instructions tacked onto the side...',
-                        '<33>* It\'s illegible chicken-scratch.\n* The only word you can make out is \"zero.\"'
+                        '<32>{#p/basic}* Tem instruções marcadas do lado...',
+                        '<33>* É um arranhão de galinha ilegível.\n* A única palavra que você consegue distinguir é \"zero\".'
                     ])
             ],
             ctower1: () =>
                 SAVE.data.b.s_state_mathpass
                     ? SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (But you already completed this puzzle beforehand.)']
-                        : ['<32>{#p/basic}* The terminal is now in an unlocked state.']
+                        ? ['<32>{#p/human}* (Mas você já completou este quebra cabeça.)']
+                        : ['<32>{#p/basic}* O terminal agora está desbloqueado.']
                     : ["<32>{#p/basic}* Está fora de serviço."],
-            microwave0: ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nothing useful here.'],
+            microwave0: ['<32>{#p/human}* (Você olha atrás do micro-ondas...)', '<32>{#p/basic}* Nada útil aqui.'],
             microwave1: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You look behind the microwave...)',
-                        '<32>{#s/equip}{#p/human}* (You pulled the switch.)'
+                        '<32>{#p/human}* (Você olha atrás do micro-ondas...)',
+                        '<32>{#s/equip}{#p/human}* (Você aperta o interruptor.)'
                     ]
                     : [
-                        '<32>{#p/human}* (You look behind the microwave...)',
-                        "<32>{#p/basic}* There's a switch here...",
-                        '<32>{#s/equip}{#p/human}* (You pulled the switch.)'
+                        '<32>{#p/human}* (Você olha atrás do micro-ondas...)',
+                        "<32>{#p/basic}* Tem um interruptor aqui...",
+                        '<32>{#s/equip}{#p/human}* (Você aperta o interruptor.)'
                     ],
             microwave2: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You look behind the microwave...)',
-                        '<32>{#p/human}* (But you already flipped the switch here.)'
+                        '<32>{#p/human}* (Você olha atrás do micro-ondas...)',
+                        '<32>{#p/human}* (Mas você já apertou...)'
                     ]
-                    : ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nada novo aqui.'],
+                    : ['<32>{#p/human}* (Você olha atrás do micro-ondas...)', '<32>{#p/basic}* Nada novo aqui.'],
             microwave3: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (But you didn't notice anything of note about this appliance.)"]
+                    ? ["<32>{#p/human}* (Mas você não notou nada digno de notar sobre este aparelho.)"]
                     : [
-                        '<32>{#p/basic}* A standard-issue CITADEL dielectric heater, circa 260X.',
-                        "<32>* It's a microwave.\n* Can't be over a decade old."
+                        '<32>{#p/basic}* Um aquecedor dielétrico padrão CIDADELA, circa de 260X.',
+                        "<32>* É um micro-ondas.\n* Não tem mais do que uma década de idade."
                     ],
             microwave4: () => [
-                '<32>{#p/basic}* It seems to be projecting some kind of gravity field.',
-                ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* I wonder... if there's a switch somewhere..."])
+                '<32>{#p/basic}* Parece estar projeta do um tipo de escudo de gravidade.',
+                ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Me pergunto... se tem um botão em algum lugar..."])
             ],
             papmail1: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (But you didn't have any mail to send.)"]
+                    ? ["<32>{#p/human}* (Mas você não tinha nada para enviar.)"]
                     : [
-                        '<32>{#p/basic}* This mailbox is labelled \"PAPYRUS.\"',
-                        choicer.create('* (Look inside the mailbox?)', 'Sim', 'Não')
+                        '<32>{#p/basic}* Esta caixa de correio está rotulada como \"PAPYRUS.\"',
+                        choicer.create('* (Olhar na caixa?)', 'Sim', 'Não')
                     ],
             papmail2: pager.create(
                 0,
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (You look inside...)',
+                            '<32>{#p/human}* (Você olha dentro...)',
                             world.runaway
-                                ? "<32>{#p/basic}* It's even emptier than before."
-                                : "<32>{#p/basic}* It's not empty?"
+                                ? "<32>{#p/basic}* Está mais vazia do que antes."
+                                : "<32>{#p/basic}* Não está vazia?"
                         ]
                         : [
-                            '<32>{#p/human}* (You look inside...)',
-                            "<32>{#p/basic}* It's empty.",
+                            '<32>{#p/human}* (Você olha dentro...)',
+                            "<32>{#p/basic}* Está vazia.",
                             ...(31 <= SAVE.data.n.plot &&
                                 SAVE.data.n.plot_date < 0.1 &&
                                 SAVE.data.n.state_starton_papyrus !== 1
                                 ? [
-                                    '<18>{#p/papyrus}{#f/0}HOW NICE OF YOU TO CHECK MY MAIL!',
-                                    "<18>{#p/papyrus}{#f/4}THANKFULLY, I'VE ALREADY COLLECTED IT ALL."
+                                    '<18>{#p/papyrus}{#f/0}QUE GENTILEZA SUA VERIFICAR MEU E-MAIL!',
+                                    "<18>{#p/papyrus}{#f/4}EU JÁ TINHA OLHADO ANTES, OBRIGADO."
                                 ]
                                 : [])
                         ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (You look inside...)',
+                            '<32>{#p/human}* (Você olha dentro...)',
                             world.runaway
-                                ? "<32>{#p/basic}* It's even emptier than before."
-                                : "<32>{#p/basic}* It's not empty?"
+                                ? "<32>{#p/basic}* Está mais vazia do que antes."
+                                : "<32>{#p/basic}* Não está vazia?"
                         ]
-                        : ['<32>{#p/human}* (You look inside...)', "<32>{#p/basic}* It's empty."]
+                        : ['<32>{#p/human}* (Você olha dentro...)', "<32>{#p/basic}* Está vazia."]
             ),
-            papmail3: ['<32>{#p/human}* (You decide not to look.)'],
+            papmail3: ['<32>{#p/human}* (Você decide não olhar.)'],
             puzzlechip: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (But you already completed this puzzle beforehand.)']
-                    : ['<32>{#p/basic}* The terminal is now in an unlocked state.'],
-            spagtable0: ["<32>{#p/basic}* It's an unused plate."],
+                    ? ['<32>{#p/human}* (Mas você já completou este quebra cabeça.)']
+                    : ['<32>{#p/basic}* O terminal agora está desbloqueado.'],
+            spagtable0: ["<32>{#p/basic}* É um prato não usado."],
             spagtable1: [
-                '<32>{#p/human}* (You gaze upon the mouth- watering spaghetti.)',
-                '<32>{#p/human}* (It appears to be just beyond your reach.)'
+                '<32>{#p/human}* (Você olha para o espaguete de dar água na boca.)',
+                '<32>{#p/human}* (Está acima do seu alcance.)'
             ],
-            spagtable2: ['<32>{#p/human}* (You got the Spaghetti.)'],
-            spagtable2b: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+            spagtable2: ['<32>{#p/human}* (Você pegou o espaguete.)'],
+            spagtable2b: ["<32>{#p/human}* (Você está carregando demais pra levar isso.)"],
             spagtable3: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (You feel appreciative towards this plate for the food it served you.)']
@@ -2526,7 +2526,7 @@ export default {
                             ][Math.min(asrielinter.xtower1++, 2)]
                         ]
                         : [
-                            '<32>{#p/human}* (You activate the terminal.)',
+                            '<32>{#p/human}* (Você ativa o terminal.)',
                             "<32>{#p/basic}* It's a game terminal...",
                             ...(SAVE.data.n.plot === 72 || world.postnoot
                                 ? ['<32>{#p/basic}* The power supply has been cut.']
@@ -3858,7 +3858,7 @@ export default {
         ],
         papyrusFinal8a: ['<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!'],
         puzzle3: () => [
-            '<32>{#p/human}* (You activate the terminal.)',
+            '<32>{#p/human}* (Você ativa o terminal.)',
             '<32>{#p/basic}* There is a log of previous modifications...',
             world.edgy
                 ? '<32>* \"Pattern last modified by user: ALPHYS\"'
@@ -4048,7 +4048,7 @@ export default {
         sansbook6: ['<32>{#p/basic}* Inside the geometry book was another joke book.'],
         sansbook7: ["<32>{#p/basic}* It's another geometry book."],
         sansbook8: ["<32>{#p/basic}* It's another joke book."],
-        sansbook9: ['<32>{#p/human}* (You decide not to look.)'],
+        sansbook9: ['<32>{#p/human}* (Você decide não olhar.)'],
         sansbook10: () => [
             "<32>{#p/basic}* It's a note from Sans.",
             '<32>{#p/without}* \"why so serious?\"\n* \"it\'s just a bad joke.\"',

@@ -4365,685 +4365,685 @@ export default {
                             '<25>{#p/asriel1}{#f/17}* Então um dia, quando o jovem Asgore estava saindo com alguns amigos...',
                             '<25>{#f/17}* Ele se perdeu em uma floresta mágica e sua garrafa de água estava vazia.',
                             '<25>{#f/13}* Com sorte, no meio das árvores, tinha...',
-                            '<25>{#f/20}* Well, as Dad so plainly described it, a \"ghost town.\"'
+                            '<25>{#f/20}* Bem, como pai gostava de chamar, uma \"cidade fantasma.\"'
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* Bad puns aside, Asgore tried asking the ghosts for water.',
-                            "<25>{#f/15}* ...\n* They didn't have any.",
-                            '<25>{#f/13}* But, as you probably guessed, they did have a fondness for tea.',
-                            '<25>{#f/17}* Once Asgore was given some to try, he never looked back.'
+                            '<25>{#p/asriel1}{#f/13}* Piadas bobas de lado, Asgore tentou pedir água para os fantasmas.',
+                            "<25>{#f/15}* ...\n* Eles não tinham nenhuma.",
+                            '<25>{#f/13}* Mas, como você já deve ter adivinhado, eles tinham chá.',
+                            '<25>{#f/17}* Uma vez que Asgore tentou, ele nunca mais foi o mesmo.'
                         ],
-                        ["<25>{#p/asriel1}{#f/15}* They say Asgore's the one who first invented Starling tea..."]
+                        ["<25>{#p/asriel1}{#f/15}* Eles dizem que Asgore foi o primeiro a inventar o Chá Estrelado."]
                     ][Math.min(asrielinter.c_ak_teacheck++, 3)]
                     : world.genocide || world.bad_robot
                         ? SAVE.data.b.c_state_switch2
-                            ? ["<32>{#p/basic}* It's a teapot.\n* There's nothing left for you here."]
+                            ? ["<32>{#p/basic}* É um bule de chá.\n* Não tem mais nada aqui."]
                             : [
-                                "<32>{#p/basic}* It's a teapot.\n* There's a switch on the counter underneath it...",
-                                '<32>{#p/human}{#c.switch2}* (You pressed the switch.)'
+                                "<32>{#p/basic}* É um bule de chá.\n* Tem um interruptor em baixo do balcão...",
+                                '<32>{#p/human}{#c.switch2}* (Você pressionou o interruptor.)'
                             ]
                         : SAVE.data.n.plot === 72
-                            ? ["<32>{#p/basic}* It's a teapot.\n* Despite the passage of time, it continues to steam."]
-                            : ["<32>{#p/basic}* It's a teapot.\n* The smell of Starling flower tea permeates the kitchen."],
+                            ? ["<32>{#p/basic}* É um bule de chá.\n* Mesmo com a passagem do tempo, ele continua a ferver."]
+                            : ["<32>{#p/basic}* É um bule de chá.\n* O cheiro Chá Estrelado permeia na cozinha."],
             c_ak_stove: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            "<25>{#p/asriel1}{#f/15}* Papyrus isn't the only one Undyne's tried to teach cooking to.",
-                            '<25>{#f/16}* Not if you consider alternate timelines, anyway.',
-                            '<25>{#f/13}* I once managed to set up Alphys and Undyne in this very kitchen.'
+                            "<25>{#p/asriel1}{#f/15}* Papyrus não foi o único que Undyne tentou ensinar a cozinhar.",
+                            '<25>{#f/16}* Quer dizer, isso se você considerar outras linhas do tempo.',
+                            '<25>{#f/13}* Uma vez eu consegui trazer Undyne e Alphys juntas para essa cozinha.'
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/17}* Undyne wanted to teach her how to cook food with magic, but...',
-                            '<25>{#f/13}* All the resident scientist wanted to do was point lasers at it.',
+                            '<25>{#p/asriel1}{#f/17}* Undyne queria ensinar ela a cozinhar com magia, mas...',
+                            '<25>{#f/13}* Tudo que a tal cientista queria fazer era apontar lasers na comida.',
                             SAVE.flag.n.genocide_milestone < 5
-                                ? '<25>{#f/16}* Kind of surprising, Alphys usually likes following instructions.'
-                                : "<25>{#f/16}* Knowing what we know about Alphys's magic, that's not surprising.",
-                            '<25>{#f/15}* I guess she was in a mood that day.'
+                                ? '<25>{#f/16}* Meio surpreendente, já que Alphys gosta de seguir instruções.'
+                                : "<25>{#f/16}* Sabendo o que nós sabemos sobre a magia da Alphys, isso não é surpreendente.",
+                            '<25>{#f/15}* Eu acho que ela estava em outro clima naquele dia.'
                         ],
-                        ["<25>{#p/asriel1}{#f/4}* A scientist's gonna science whether you like it or not."]
+                        ["<25>{#p/asriel1}{#f/4}* Um cientista fará ciência você querendo ou não."]
                     ][Math.min(asrielinter.c_ak_stove++, 2)]
                     : SAVE.data.n.plot !== 72 || world.runaway
-                        ? ['<32>{#p/basic}* The stovetop is a little dirty, but otherwise alright.']
-                        : ['<32>{#p/basic}* Smells like marinara sauce.'],
+                        ? ['<32>{#p/basic}* O fogão está meio sujo, mas além disso tudo tranquilo.']
+                        : ['<32>{#p/basic}* Cheira a molho marinara.'],
             c_ak_trash: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
-                    : ['<32>{#p/basic}* Surprisingly, the trash is completely empty.'],
+                    ? ["<32>{#p/human}* (Você não sabe o que está no lixo...)"]
+                    : ['<32>{#p/basic}* Surpreendentemente, o lixo está completamente vazio.'],
             
             c_ah_door: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
+                        '<32>{#p/human}* (O sinal descreve a sala como estando incompleta.)',
                         ...[
                             [
-                                "<25>{#p/asriel1}{#f/3}* If she hadn't left, that would be Mom's room...",
-                                "<25>{#f/4}* It's a bummer it was never finished."
+                                "<25>{#p/asriel1}{#f/3}* Se ela não tivesse ido embora, esse séria o quarto da mamãe...",
+                                "<25>{#f/4}* É um tabu nunca ter sido terminado."
                             ],
                             [
                                 '<25>{#p/asriel1}{#f/13}* ...',
-                                '<25>{#f/15}* When Mom left, it... hurt him pretty bad.',
-                                '<25>{#f/4}* But he moved on from it.',
-                                "<25>{#f/3}* I just hope he hasn't moved on from me.",
-                                '<25>{#f/17}* Who knows.\n* Anything is possible.'
+                                '<25>{#f/15}* Quando mãe se foi... ele ficou bem machucado por dentro.',
+                                '<25>{#f/4}* Mas como um monstro maduro, ele passou para frente.',
+                                "<25>{#f/3}* Espero que ele não tenha me passado para frente.",
+                                '<25>{#f/17}* Quem sabe.\n* Tudo é possível.'
                             ],
-                            ['<25>{#p/asriel1}{#f/23}* ... oh, Dad...']
+                            ['<25>{#p/asriel1}{#f/23}* ... oh, Pai...']
                         ][Math.min(asrielinter.c_ah_door++, 2)]
                     ]
-                    : ['<32>{#p/basic}* \"Room under renovations.\"'],
+                    : ['<32>{#p/basic}* \"Quarto em renovação.\"'],
             c_ah_mirror: () =>
                 SAVE.data.b.svr
-                    ? ["<25>{#p/asriel1}{#f/24}* It's us..."]
+                    ? ["<25>{#p/asriel1}{#f/24}* É nosso..."]
                     : world.genocide
                         ? ['<32>{#p/basic}* ...']
                         : calcLV() > 14
-                            ? ['<32>{#p/basic}* Despite everything...', '<32>* ... is it really you?']
+                            ? ['<32>{#p/basic}* Apesar de tudo...', '<32>* ... este é realmente você?']
                             : world.darker
-                                ? ["<32>{#p/basic}* It's you."]
+                                ? ["<32>{#p/basic}* É você."]
                                 : SAVE.data.b.ultrashortcut || SAVE.data.b.ubershortcut
-                                    ? ["<99>{#p/basic}* Despite skipping over most of\n  the journey, it's still you."]
-                                    : ["<99>{#p/basic}* Despite everything, it's\n  still you."],
+                                    ? ["<99>{#p/basic}* Mesmo após pular boa parte da jornada... este ainda é você."]
+                                    : ["<99>{#p/basic}* Apesar de tudo, ainda é você."],
             
             c_aa_flower: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/13}* This picture...',
-                            '<25>{#f/17}* This is the one $(name) took of the very first Starling flower.'
+                            '<25>{#p/asriel1}{#f/13}* Essa foto...',
+                            '<25>{#f/17}* Está foi uma que $(name) tirou da primeira Flor Estrelada.'
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* Not long after $(name) first arrived...',
-                            '<25>{#f/17}* A little flower came down from outer space.',
-                            '<25>{#f/23}* The first Starling flower ever seen on the outpost.',
-                            '<25>{#f/22}* It landed out at the edge of the outpost, all alone...',
-                            '<25>{#f/13}* So we huddled around it, with $(name) taking a picture for luck.'
+                            '<25>{#p/asriel1}{#f/13}* Não muito depois de $(name) chegar...',
+                            '<25>{#f/17}* Uma pequena flor caiu do espaço sideral.',
+                            '<25>{#f/23}* A primeira Flor Estrelada do Outpost.',
+                            '<25>{#f/22}* Ela parou no topo do Outpost, sozinha...',
+                            '<25>{#f/13}* Então nós andamos ao redor dela, com $(name) tirando fotos.'
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* After $(name) took the picture, we were ready to head home.',
-                            '<25>{#f/13}* But when we stood up to leave, we glanced back at the stars...',
-                            '<25>{#f/15}* And then we saw it.',
-                            '<25>{#f/23}* A thousand more flowers descending down from the heavens.',
-                            '<25>{#f/17}* $(name) took my hand, and we stood there...',
-                            '<25>{#f/17}* Stunned into silence.'
+                            '<25>{#p/asriel1}{#f/13}* Depois que $(name) tirou a foto, estávamos prontos para ir para casa',
+                            '<25>{#f/13}* Mas quando nos levantamos para sair, olhamos para as estrelas...',
+                            '<25>{#f/15}* E então nós vimos.',
+                            '<25>{#f/23}* Mais de mil flores caindo do espaço.',
+                            '<25>{#f/17}* $(name) segurou minha mão, e ficamos lá...',
+                            '<25>{#f/17}* Olhando em silêncio...'
                         ],
-                        ['<25>{#p/asriel1}{#f/17}* Despite all I did as a star, the memory of it still makes me smile.']
+                        ['<25>{#p/asriel1}{#f/17}* Apesar de tudo que eu fiz como estrela, as memórias disso ainda me fazem sorrir.']
                     ][Math.min(asrielinter.c_aa_flower++, 3)]
                     : SAVE.data.b.oops
-                        ? ["<32>{#p/basic}* It's a framed photograph.\n* There's not much else to say."]
-                        : ["<32>{#p/basic}* It's a framed photograph.\n* I took it myself."],
+                        ? ["<32>{#p/basic}* É uma fotografia.\n* Não tem muito mais a dizer."]
+                        : ["<32>{#p/basic}* É uma fotografia.\n* Foi eu quem tirei."],
             c_aa_cabinet: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)"]
+                    ? ["<32>{#p/human}* (Você não encontra nada aqui além de um amontoado do mesmo tipo de roupa.)"]
                     : world.darker
-                        ? ['<32>{#p/basic}* A cabinet full of clothes.']
+                        ? ['<32>{#p/basic}* Um armário cheio de roupas.']
                         : [
-                            '<32>{#p/basic}* A cabinet full of blue and yellow striped shirts.',
-                            '<32>{#p/basic}* Some things never change...'
+                            '<32>{#p/basic}* Um armário cheio de roupas listradas de amarelo e azul.',
+                            '<32>{#p/basic}* Algumas coisas nunca mudam...'
                         ],
             c_aa_box: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/23}* ... well, at least he glued them back together.',
-                            '<25>{#f/13}* Dad always was the one to try and fix things like that.',
-                            '<25>{#f/15}* Any time $(name) and I broke something...',
-                            '<25>{#f/8}* Usually $(name)...',
-                            "<25>{#f/17}* He'd swoop in and save the day with some good old arts 'n' crafts.",
-                            '<25>{#f/20}* A true DIY hero!'
+                            '<25>{#p/asriel1}{#f/23}* ... bem, pelo menos ele os colou de volta.',
+                            '<25>{#f/13}* O Pai sempre foi esse de tentar arrumar coisas assim.',
+                            '<25>{#f/15}* Toda vez que eu e $(name) quebramos algo... ',
+                            '<25>{#f/8}* Maior parte das vezes $(name)...',
+                            "<25>{#f/17}* Ele pegava o objeto quebrado e concertava com seu bom e velho artes e ofícios.",
+                            '<25>{#f/20}* Um verdadeiro herói da bugiganga.'
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/13}* Please don't tell him I called him a DIY hero.",
-                            "<25>{#f/16}* He'd laugh at that.",
-                            '<25>{#f/15}* But it was necessary with everything $(name) messed up.',
-                            '<25>{#f/16}* A lot of their \"fun\" came from bothering others.',
-                            '<25>{#f/13}* As a monster... that was difficult for me to understand.',
-                            '<25>{#f/15}* Then... I became Twinkly.'
+                            "<25>{#p/asriel1}{#f/13}* Por favor não diga que eu o chamei de herói da bugiganga.",
+                            "<25>{#f/16}* Ele iria rir bastante.",
+                            '<25>{#f/15}* Mas foi bem necessário com tudo que $(name) ferrava.',
+                            '<25>{#f/16}* Boa parte da \"diversão\" deles vinha de irritar os outros.',
+                            '<25>{#f/13}* Como monstro... foi difícil pra mim entender este comportamento.',
+                            '<25>{#f/15}* Então... eu me tornei Twinkly.'
                         ],
-                        ["<25>{#p/asriel1}{#f/17}* I'd play with these if I still had an interest in toys."],
-                        ['<25>{#p/asriel1}{#f/20}* Do action figures count as toys?\n* Those are cool.']
+                        ["<25>{#p/asriel1}{#f/17}* Eu brincaria com esses se ainda tivesse interesse em brinquedos."],
+                        ['<25>{#p/asriel1}{#f/20}* Action Figures contam como brinquedos?\n* Porque elas são bem da hora.']
                     ][Math.min(asrielinter.c_aa_box++, 3)]
                     : world.darker
-                        ? ['<32>{#p/basic}* A box of model starships.']
+                        ? ['<32>{#p/basic}* Uma caixa de modelos de naves estelares.']
                         : [
-                            "<32>{#p/basic}* It's a box of perfectly in- tact model starships.",
-                            '<33>{#p/basic}* Smells like old-fashioned glue.'
+                            "<32>{#p/basic}* É uma caixa de modelos de naves estelares perfeitamente intactas.",
+                            '<33>{#p/basic}* Cheira a cola antiquada.'
                         ],
             c_aa_frame: () =>
                 SAVE.data.b.svr
-                    ? [["<25>{#p/asriel1}{#f/23}* ... it's still here..."], ['<25>{#p/asriel1}{#f/22}* ...']][
+                    ? [["<25>{#p/asriel1}{#f/23}* ... ainda tá aqui..."], ['<25>{#p/asriel1}{#f/22}* ...']][
                     Math.min(asrielinter.c_aa_frame++, 1)
                     ]
                     : SAVE.data.b.oops
-                        ? ["<32>{#p/basic}* It's a hand-drawn image."]
-                        : ["<32>{#p/basic}* It's a hand-drawn image...", '<32>* An image of the family.'],
+                        ? ["<32>{#p/basic}* É uma pintura feita a mão."]
+                        : ["<32>{#p/basic}* É uma pintura feita mão...", '<32>* Uma imagem da família.'],
             c_aa_paper: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You roll the crayon back and forth underneath your hand.)']
+                    ? ['<32>{#p/human}* (Você rola o giz de cera para frente e para trás debaixo da mão.)']
                     : world.darker
-                        ? ['<33>{#p/basic}* A stack of papers and a crayon.']
-                        : ['<32>{#p/basic}* Along with a stack of papers, you find the elusive blue crayon.'],
+                        ? ['<33>{#p/basic}* Um monte de papel e um giz.']
+                        : ['<32>{#p/basic}* Junto com um monte de papéis, você encontra o perdido giz azul.'],
             c_aa_deathbed: () =>
                 SAVE.data.b.svr
                     ? [
                         ['<25>{#p/asriel1}{#f/13}* ...'],
                         [
-                            "<25>{#p/asriel1}{#f/23}* ... it's okay, Frisk.",
-                            "<25>{#f/13}* Even if they don't come back...",
-                            "<25>{#f/17}* We'll still remember them for what they did in the end."
+                            "<25>{#p/asriel1}{#f/23}* ... tá tudo bem, Frisk.",
+                            "<25>{#f/13}* Mesmo que eles não voltem...",
+                            "<25>{#f/17}* Ainda nos lembraremos deles pelo que fizeram no final."
                         ],
-                        ['<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* I know we have something better to do.']
+                        ['<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* Eu sei que temos coisas melhores para fazer.']
                     ][Math.min(asrielinter.c_aa_deathbed++, 2)]
                     : world.darker
-                        ? ["<32>{#p/basic}* It's just another bed."]
+                        ? ["<32>{#p/basic}* É só outra cama."]
                         : SAVE.data.b.oops
-                            ? ["<32>{#p/basic}* There's definitely nothing special about this bed."]
-                            : ['<32>{#p/basic}* My bed.'],
+                            ? ["<32>{#p/basic}* Não a definitivamente nada especial em relação a essa cama."]
+                            : ['<32>{#p/basic}* Minha cama.'],
             
             c_aa_chair: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You appreciate the tiny chair for being able to hold someone so large.)']
+                    ? ['<32>{#p/human}* (Você aprecia que a pequena cadeira consiga sustentar alguém tão largo.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a diary-writing chair."]
-                        : ["<32>{#p/basic}* It's Asgore's favorite diary-writing chair."],
+                        ? ["<32>{#p/basic}* É uma cadeira para a escrita de diário."]
+                        : ["<32>{#p/basic}* É a cadeira favorita de escrita do Asgore."],
             c_aa_bed: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (The bed seems to be way too large for you.)']
+                    ? ['<32>{#p/human}* (A cama parece ser larga demais para você.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* It's a king-sized bed."]
-                        : ["<32>{#p/basic}* It's a king-sized bed.\n* Literally."],
+                        ? ["<32>{#p/basic}* É uma cama tamanho rei."]
+                        : ["<32>{#p/basic}* É uma cama tamanho rei.\n* Literalmente."],
             c_aa_diary: pager.create(
                 0,
                 ...CosmosUtils.populate(
                     9,
                     i => () =>
                         SAVE.data.b.svr
-                            ? ['<32>{#p/human}* (The diary seems to outline important events in relation to Asgore.)']
+                            ? ['<32>{#p/human}* (O diário parece descrever eventos importantes em relação a Asgore.)']
                             : world.genocide || world.runaway
-                                ? ['<32>{#p/human}* (You try to open the diary, but the pages are completely blacked out.)']
+                                ? ['<32>{#p/human}* (Você tenta abrir o diário, mas as páginas estão completamente em branco.)']
                                 : SAVE.data.n.plot === 72
                                     ? [
-                                        '<32>{#p/human}* (You look to the newly-written diary entry.)',
-                                        '<32>{#p/asgore}* \"At last, monsterkind has been set free.\"',
-                                        '<32>* \"Frisk, along with the six other human children who came here, have saved us all.\"',
-                                        '<32>* \"Dr. Alphys started scanning for humans beyond the outpost, but could not find them.\"',
-                                        '<32>* \"In fact, she could not locate a single human starship or base in the galaxy.\"',
-                                        '<32>* \"This is rather surprising.\"\n* \"Did something happen to the human race as a whole?\"',
-                                        '<32>* \"Or have they simply abandoned the galaxy, forgetting us in the process?\"',
-                                        '<32>* \"Perhaps Frisk, or one of the other humans would know the answer.\"',
-                                        '<32>* \"Regarding the other humans, they have been adopted by other monsters.\"',
-                                        '<32>* \"From what one of them has told me, their ordeal in the archive was a tragedy.\"',
-                                        '<32>* \"As a result, Alphys and I were careful to select worthy candidates for adoption.\"',
-                                        '<32>* \"Regardless of what happens now, we can be happy that they are alive.\"',
-                                        '<32>* \"After what took place, I am not sure a different group of humans would have survived.\"'
+                                        '<32>{#p/human}* (Você olha para o novo diário de escrita.)',
+                                        '<32>{#p/asgore}* \"No fim, aos monstros foi dada a liberdade.\"',
+                                        '<32>* \"Frisk, junto com os outros seis humanos que vieram, nos salvaram.\"',
+                                        '<32>* \"Dr. Alphys começou a procurar por humanos fora do Outpost, mas não encontrou nenhum.\"',
+                                        '<32>* \"Em fato, ela não localizou uma úncia nave ou base humana na galáxia.\"',
+                                        '<32>* \"Isso é bem surpreendente.\"\n* \"Teria algo acontecido com a raça humana por inteiro?\"',
+                                        '<32>* \"Ou eles simplesmente abandonaram a galáxia nos esquecendo no processo?\"',
+                                        '<32>* \"Talvez Frisk, ou algum dos outros humanos saibam a resposta.\"',
+                                        '<32>* \"Em relação aos outros humanos, eles foram adotados por outros monstros.\"',
+                                        '<32>* \"Pelo que um deles me contou, seu tempo no arquivo foi uma tragédia.\"',
+                                        '<32>* \"Como resultado Alphys e eu escolhemos sabiamente candidatos dignos de adotar.\"',
+                                        '<32>* \"Seja lá o que acontecer a partir de agora, nós estamos felizes que eles estejam vivos.\"',
+                                        '<32>* \"Após ter compreendido o que aconteceu, eu não sei se outro grupo de humanos teria sobrevivido.\"'
                                     ]
                                     : [
                                         [
-                                            '<32>{#p/human}* (You look to the bookmarked diary entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-516.01\"',
-                                            '<32>* \"In these trying times, I have nobody to turn to but myself.\"',
-                                            '<32>* \"Perhaps the pages of a diary would absorb the pain.\"',
-                                            '<32>* \"I feel many things.\"',
-                                            '<32>* \"Anger, towards humanity for what they have done to us, and now to my children.\"',
-                                            '<32>* \"Guilt, for the way in which I reacted to this tragedy.\"',
-                                            '<32>* \"Sorrow, because I refused to believe life could be so cruel.\"',
-                                            '<32>* \"Even after the homeworld\'s destruction, the thought of having a family gave me hope.\"',
-                                            '<32>* \"But there is no denying what has happened.\"',
-                                            '<32>* \"No matter how many times I review the shuttle\'s logs, the conclusion is the same.\"',
-                                            '<32>* \"My children died in vain.\"',
-                                            '<32>{#p/basic}* The other pages seem to follow chronologically from here.'
+                                            '<32>{#p/human}* (Você olha para a entrada marcada do diário.)',
+                                            '<32>{#p/asgore}* \"Diário do Asgore, K-516.01\"',
+                                            '<32>* \"Durante estes tempos, eu não tenho ninguém a recorrer se não eu mesmo.\"',
+                                            '<32>* \"Talvez as páginas do diário absorvam minha dor.\"',
+                                            '<32>* \"Eu sinto muitas coisas.\"',
+                                            '<32>* \"Raiva, pelo que a humanidade fez conosco, e agora com minhas crianças.\"',
+                                            '<32>* \"Culpa, pela forma a qual eu reagi a está tragédia.\"',
+                                            '<32>* \"Tristeza, porque me recusei a acreditar que a vida pudesse ser tão cruel.\"',
+                                            '<32>* \"Mesmo após a destruição do planeta natal, o pensamento de ter uma família me trouxe esperança.\"',
+                                            '<32>* \"Mas não há como negar o que aconteceu.\"',
+                                            '<32>* \"Não importa quantas vezes eu revise os registros do ônibus espacial, a conclusão é a mesma.\"',
+                                            '<32>* \"Minhas crianças estão mortas.\"',
+                                            '<32>{#p/basic}* As outras páginas seguem cronologicamente daqui.'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-516.02\"',
-                                            '<32>* \"Gerson came to visit today.\"',
-                                            '<32>* \"He spoke about his time on the planetary council.\"',
-                                            '<32>* \"About leaving his family, and the responsibility he placed upon himself.\"',
-                                            '<32>* \"Something in his story resonated with me.\"',
-                                            '<32>* \"I should really put away the diary and console in him.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário do Asgore, K-516.02\"',
+                                            '<32>* \"Gerson veio me visitar hoje.\"',
+                                            '<32>* \"Ele falou sobre o seu tempo no conselho planetário.\"',
+                                            '<32>* \"Sobre deixar sua família, e a responsabilidade posta em si mesmo.\"',
+                                            '<32>* \"Algo em sua história ressoou em mim.\"',
+                                            '<32>* \"Eu deveria colocar o diário de lado e ir consola-lo.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-524.10\"',
-                                            '<32>* \"The first human since $(name) has arrived on the outpost today.\"',
-                                            '<32>* \"Although the disdain for humanity has quieted down over the years...\"',
-                                            '<32>* \"Much of it still lingers, buried under the surface.\"',
-                                            '<32>* \"Thomas and I are doing our best to ensure their safety, but it is a difficult task.\"',
-                                            '<32>* \"Many still cling to those terrible words I uttered all those years ago.\"',
-                                            '<32>* \"They would not hesitate to kill the human, regardless of their age.\"',
-                                            '<32>* \"There is only so much we can do from the Citadel\'s walls.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário do Asgore, K-524.10\"',
+                                            '<32>* \"Primeiro humano desde $(name) chegou no Outpost hoje.',
+                                            '<32>* \"Embora o desdém pela humanidade tenha se acalmado ao longo dos anos...\"',
+                                            '<32>* \"Muito daquela destruição, ainda queima em nossos corações.\"',
+                                            '<32>* \"Thomas e eu estamos fazendo nosso melhor para garantir sua segurança, mas é uma tarefa difícil.\"',
+                                            '<32>* \"Muitas ainda se segura nas horríveis palavras que eu proclamei anos atrás.\"',
+                                            '<32>* \"Eles não irão hesitar em matar um humano, independente da idade.\"',
+                                            '<32>* \"Há um limite para o que podemos fazer aqui das muralhas da Cidadela.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-535.04\"',
-                                            '<32>* \"Another human has arrived.\"',
-                                            '<32>* \"They seem to be familiar with Gerson, as well as other former council members.\"',
-                                            '<32>* \"Now, I ask myself.\"\n* \"How?\"',
-                                            '<32>* \"Have they been raised on stories of the war?\"',
-                                            '<32>* \"Were they sent here in the hopes of learning more about us?\"',
-                                            '<32>* \"As per the settlement, only human military personnel are privy to our location.\"',
-                                            '<32>* \"For the sake of our safety, I hope this is still the case.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário de Asgore, K-535.04\"',
+                                            '<32>* \"Outro humano chegou.\"',
+                                            '<32>* \"Ele parece se familiarizar com Gerson, assim como com os outros membros do conselho.\"',
+                                            '<32>* \"Agora, eu me pergunto.\"\n* \"Como?\"',
+                                            '<32>* \"Ele cresceu ouvindo histórias da guerra?\"',
+                                            '<32>* \"Ele foi enviado aqui na esperança de aprender mais sobre nós?\"',
+                                            '<32>* \"De acordo com o tratado, apenas humanos militares estão a par de nossa localização.\"',
+                                            '<32>* \"Pelo bem do nosso povo, espero que este ainda seja o caso.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-549.07\"',
-                                            '<32>* \"Since I last wrote to this diary, another child has crash-landed.\"',
-                                            '<32>* \"Thomas and I have the process of guiding them down to a science now.\"',
-                                            '<32>* \"With each new arrival, the flame of my hope grows stronger.\"',
-                                            '<32>* \"I am starting to believe that we may indeed regain our freedom one day.\"',
-                                            '<32>* \"That is, if the builder bots do not take over first.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário de Asgore, K-549.07\"',
+                                            '<32>* \"Desde a última vez que escrevi neste diário, mais uma criança caiu.\"',
+                                            '<32>* \"Thomas e eu temos o processo de guia-lo para uma ciência agora.\"',
+                                            '<32>* \"Com cada humano chegando, a chama da minha esperança cresce.\"',
+                                            '<32>* \"Eu estou começando a pensar que um dia talvez tenhamos nossa liberdade de novo.\"',
+                                            '<32>* \"Isso é, se os bots trabalhadores não tomarem controle antes.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-567.11\"',
-                                            '<32>* \"Today I must say goodbye to the second of two children to arrive this year.\"',
-                                            '<32>* \"The first entered the archive immediately, but the other chose to stay for a while.\"',
-                                            '<32>* \"I have learned a lot from them.\"',
-                                            '<32>* \"Being as young as they are, holding a conversation was difficult.\"',
-                                            '<32>* \"Their insights, however, helped me come to terms with $(name)\'s actions in the past.\"',
-                                            '<32>* \"Our species may be more alike than I realized.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário de Asgore, K-567.11\"',
+                                            '<32>* \"Hoje eu devo dizer adeus para a segunda criança que apareceu este ano.\"',
+                                            '<32>* \"A primeira entrou no arquivo imediatamente, mas as outras ficaram por um tempo.\"',
+                                            '<32>* \"Eu aprendi muito com elas.\"',
+                                            '<32>* \"Sendo jovens como eles são, manter uma conversa foi difícil.\"',
+                                            '<32>* \"Suas preposições, no entanto, me ajudaram a aceitar as ações de $(name) no passado.\"',
+                                            '<32>* \"Nossas espécies podem ser mais parecidas do que eu pensava.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-587.03\"',
-                                            '<32>* \"The sixth human since $(name) came through a few days ago.\"',
-                                            '<32>* \"I write not due to their arrival, but because the professor died shortly after.\"',
-                                            '<32>* \"Thomas Nue Roman.\"\n* \"Your funeral service will take place in a few days.\"',
-                                            '<32>* \"It is telling that even the brash younglings in training prepared speeches for you.\"',
-                                            '<32>* \"Your work has impacted every life on this outpost, and you will not be forgotten.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário de Asgore, K-587.03\"',
+                                            '<32>* \"O sexto humano desde $(name) chegou a poucos dias.\"',
+                                            '<32>* \"Eu escrevo não por conta de sua chegada, mas pela morte do professor dias depois.\"',
+                                            '<32>* \"Thomas Nue Roman.\"\n* \"Seu funeral será em poucos dias.\"',
+                                            '<32>* \"É dito que até mesmo os mais novos estão preparando textos para falar em seu nome.\"',
+                                            '<32>* \"Seu trabalho impactou cada vida neste Outpost, e não será esquecido.\"'
                                         ],
                                         [
-                                            '<32>{#p/human}* (You look to the next entry.)',
-                                            '<32>{#p/asgore}* \"Asgore\'s diary, K-615.09\"',
-                                            '<32>* \"Today, on the anniversary of that awful tragedy, one last human has crash-landed.\"',
-                                            '<32>* \"Suddenly, the prospect of freedom is intimidating.\"',
-                                            '<32>* \"Was he right in thinking we would become complacent?\"',
-                                            '<32>* \"For nearly two centuries, we have been trapped within a force field.\"',
-                                            '<32>* \"Where would we go?\"',
-                                            '<32>* \"What would we do next?\"',
-                                            '<32>* \"How would we survive on our own?\"',
-                                            '<32>* \"Hopefully those kinds of questions will soon be answered.\"'
+                                            '<32>{#p/human}* (Você olha a próxima entrada.)',
+                                            '<32>{#p/asgore}* \"Diário de Asgore, K-615.09\"',
+                                            '<32>* \"Hoje, no aniversário daquela terrível tragédia, um último humano caiu.\"',
+                                            '<32>* \"De repente, a sensação da liberdade parece intimidadora.\"',
+                                            '<32>* \"Ele estava certo em pensar que nos tornaríamos complacentes?\"',
+                                            '<32>* \"Por dois séculos estivemos presos neste escudo de força.\"',
+                                            '<32>* \"Onde nós iremos?\"',
+                                            '<32>* \"O que faremos depois?\"',
+                                            '<32>* \"Como nós oremos sobreviver por conta própria?\"',
+                                            '<32>* \"Com esperança, essas perguntas logo serão respondidas.\"'
                                         ],
-                                        ['<32>{#p/human}* (There are no more written entries here.)']
+                                        ['<32>{#p/human}* (Não tem mais nada escrito aqui.)']
                                     ][i]
                 )
             ),
             c_aa_bureau: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You look inside the bureau...)',
+                        '<32>{#p/human}* (Você olha dentro da mesa...)',
                         ...[
-                            ['<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back.'],
-                            ['<25>{#p/asriel1}{#f/19}* ...', '<25>* I regret ever wondering why they were in here.'],
+                            ['<25>{#p/asriel1}{#f/19}* Parece que os humanos pegaram de volta suas roupas.'],
+                            ['<25>{#p/asriel1}{#f/19}* ...', '<25>* Eu me arrependo de perguntar o motivo de estarem aqui.'],
                             [
-                                '<25>{#p/asriel1}{#f/19}* I mean, it makes sense.',
-                                "<25>* Knowing how long they'd be in the archive.",
-                                '<25>* So... yeah.'
+                                '<25>{#p/asriel1}{#f/19}* Quer dizer, faz sentido.',
+                                "<25>* Sabendo o quão longo foram seus tempos no arquivo.",
+                                '<25>* Então... é.'
                             ],
                             ['<25>{#p/asriel1}{#f/19}* ...']
                         ][Math.min(asrielinter.c_aa_bureau++, 3)]
                     ]
                     : SAVE.data.n.plot === 72 || world.genocide || world.bad_robot || world.trueKills > 29
                         ? [
-                            '<32>{#p/human}* (You look inside the bureau...)',
-                            '<32>{#p/basic}* Seems to have been recently emptied of its clothes.'
+                            '<32>{#p/human}* (Você olha dentro da mesa...)',
+                            '<32>{#p/basic}* Parece ter sido esvaziado a pouco tempo.'
                         ]
                         : [
-                            '<32>{#p/human}* (You look inside the bureau...)',
-                            "<32>{#p/basic}* It's a collection of wildly- varying children's clothes."
+                            '<32>{#p/human}* (Você olha dentro da mesa...)',
+                            "<32>{#p/basic}* É uma coleção das mais variadas roupas de criança."
                         ],
             c_aa_macaroni: () =>
                 SAVE.data.b.svr
                     ? [
                         [
-                            '<25>{#p/asriel1}{#f/17}* ... do you like it?',
-                            '<25>{#f/13}* This Starling flower was... the last thing I made for Dad.'
+                            '<25>{#p/asriel1}{#f/17}* ... você gostou?',
+                            '<25>{#f/13}* Está Flor Estrelada foi... a última coisa que eu fiz pro papai.'
                         ],
                         [
-                            "<25>{#p/asriel1}{#f/17}* What I can say for certain is... $(name) wasn't a fan.",
-                            '<25>{#f/13}* They said \"stop making that stupid thing and get over here...\"',
-                            '<25>{#f/22}* That was the day we...',
-                            '<25>{#f/15}* ... you know.'
+                            "<25>{#p/asriel1}{#f/17}* O que eu posso dizer de certeza é quem... $(name) não era muito fã.",
+                            '<25>{#f/13}* Ele dizia \"para de fazer esse negócio estúpido e vem aqui...\"',
+                            '<25>{#f/22}* Esse foi o dia que a gente...',
+                            '<25>{#f/15}* ... você sabe.'
                         ],
-                        ['<25>{#p/asriel1}{#f/20}* Always remember the Starling flower made of faux-macaroni.']
+                        ['<25>{#p/asriel1}{#f/20}* Lembrei-me sempre da flor de estrelada feita de macarrão falso.']
                     ][Math.min(asrielinter.c_aa_macaroni++, 2)]
                     : SAVE.data.b.oops
-                        ? ['<32>{#p/basic}* A Starling flower made of dried, glued-together foodstuff.']
-                        : ['<32>{#p/basic}* It\'s Asriel\'s hand-made Starling flower.\n* It says \"For King Dad.\"'],
+                        ? ['<32>{#p/basic}* Uma Flor Estrelada feita de alimentos secos e colados.']
+                        : ['<32>{#p/basic}* É uma Flor Estrelada feita a mão por Asriel.\n* Está escrito \"Para o rei pai.\"'],
             c_aa_underwear: () =>
                 SAVE.data.n.plot === 72 && !SAVE.data.b.svr && !world.runaway
                     ? []
                     : [
-                        '<32>{#p/human}* (You peek inside.)',
+                        '<32>{#p/human}* (Você olha dentro.)',
                         ...(SAVE.data.b.svr
                             ? [
-                                ["<25>{#p/asriel1}{#f/17}* Frisk...\n* You're staring..."],
-                                ['<25>{#p/asriel1}{#f/13}* Frisk...\n* Please...'],
-                                ['<25>{#p/asriel1}{#f/15}* Frisk...\n* Why...'],
+                                ["<25>{#p/asriel1}{#f/17}* Frisk...\n* Você está olhando..."],
+                                ['<25>{#p/asriel1}{#f/13}* Frisk...\n* Por favor...'],
+                                ['<25>{#p/asriel1}{#f/15}* Frisk...\n* Por que...'],
                                 ['<25>{#p/asriel1}{#f/15}* ...']
                             ][Math.min(asrielinter.c_aa_underwear++, 3)]
                             : world.genocide || world.bad_robot
                                 ? SAVE.data.b.c_state_switch1
-                                    ? ['<32>{#p/basic}* Nothing left for you here.']
+                                    ? ['<32>{#p/basic}* Nada restando para você aqui.']
                                     : [
-                                        "<32>{#p/basic}* There's a switch in here...",
-                                        '<32>{#p/human}{#c.switch1}* (You pressed the switch.)'
+                                        "<32>{#p/basic}* Tem um interruptor aqui...",
+                                        '<32>{#p/human}{#c.switch1}* (Você aperta o interruptor.)'
                                     ]
                                 : world.darker
-                                    ? ["<32>{#p/basic}* It's just an underwear drawer."]
+                                    ? ["<32>{#p/basic}* É apenas uma gaveta de roupas íntimas."]
                                     : [
-                                        '<32>{#p/basic}* Preposterous!',
-                                        "<33>{#p/basic}* It's Asgore's underwear drawer.\n* Surprisingly clean.",
-                                        '<33>{#p/basic}* ... most of the items are pink, hand-knit, and have \"Mr. Dad Guy\" embroidered at the top.'
+                                        '<32>{#p/basic}* Horripilante!',
+                                        "<33>{#p/basic}* É a gaveta de roupas íntimas do Asgore.\n* Surpreendentemente limpa.",
+                                        '<33>{#p/basic}* ... maior parte dos itens são rosa, feitos a mão e escrito \"Senhor Pai\" no topo.'
                                     ])
                     ]
         }
     },
     b_opponent_alphys: {
-        artifact: ['<32>{#p/human}* (Alphys glances at it, but ultimately dismisses it.)'],
+        artifact: ['<32>{#p/human}* (Alphys olha para ele, mas finalmente o descarta.)'],
         name: '* Alphys',
-        gotcha: ['<20>{*}{#p/alphys}{#e/alphys/19}Gotcha.{^30}{%}'],
-        act_check: ['<32>{#p/asriel2}* Alphys.\n* The royal scientist.'],
+        gotcha: ['<20>{*}{#p/alphys}{#e/alphys/19}Te peguei.{^30}{%}'],
+        act_check: ['<32>{#p/asriel2}* Alphys.\n* A cientista real.'],
         act_asriel: (i: number) => [
             ...[
                 [
-                    '<32>{#p/asriel2}* After all this time, my new body is finally starting to accept me...',
-                    "<32>{#p/asriel2}* Let's see what this thing is REALLY capable of."
+                    '<32>{#p/asriel2}* Depois de todo este tempo meu corpo está finalmente começando a me aceitar...',
+                    "<32>{#p/asriel2}* Vamos ver do que ele REALMENTE é capaz."
                 ],
-                ["<32>{#p/asriel2}* Keep in mind, it'll be weaker if I try to use the same spell twice in a row."],
-                ['<32>{#p/asriel2}* Just remember, try to mix up which spells you choose.'],
+                ["<32>{#p/asriel2}* Mantenha isso em mente, vai ser mais fraco se eu usar o mesmo feitiço duas vezes."],
+                ['<32>{#p/asriel2}* Só lembre-se, tente variar os feitiços que você escolhe.'],
                 []
             ][Math.min(SAVE.flag.n.ga_asrielAssist++, 3)],
             choicer.create(
-                '* (What should Asriel cast?)',
-                `${i === 0 ? '§fill=#808080§' : ''}Nocturne§fill=#fff§`,
-                `${i === 1 ? '§fill=#808080§' : ''}Solstice§fill=#fff§`,
-                `${i === 2 ? '§fill=#808080§' : ''}Serenade§fill=#fff§`,
+                '* (O que Asriel deve conjurar?)',
+                `${i === 0 ? '§fill=#808080§' : ''}Noturno§fill=#fff§`,
+                `${i === 1 ? '§fill=#808080§' : ''}Solstício§fill=#fff§`,
+                `${i === 2 ? '§fill=#808080§' : ''}Serenata§fill=#fff§`,
                 `${i === 3 ? '§fill=#808080§' : ''}Eclipse§fill=#fff§`
             )
         ],
         act_asriel_text: [
-            ['<32>{#p/human}* (Asriel places his hands on your head, and sends a surge of energy into your body.)'],
-            ['<32>{#p/human}* (Asriel places his hands on your head, and whispers behind you in an ancient language.)'],
-            ['<32>{#p/human}* (Asriel places his hands on your head, and sings an ancient lullaby.)'],
-            ['<32>{#p/human}* (Asriel places his hands on your head, and surrounds you in a protective aura.)']
+            ['<32>{#p/human}* (Asriel coloca a mão na sua cabeça e envia energia para seu corpo.)'],
+            ['<32>{#p/human}* (Asriel coloca as mãos na sua cabeça, e fala em uma língua ancestral.)'],
+            ['<32>{#p/human}* (Asriel coloca suas mãos em sua cabeça, e canta uma cantiga ancestral.)'],
+            ['<32>{#p/human}* (Asriel coloca suas mãos na sua cabeça, e te cerca por uma aura protetora.)']
         ],
         act_asriel_confirm: [
-            ['<32>{#p/story}* FOCUS up for this turn!'],
-            ['<32>{#p/story}* INV up for this turn!'],
-            ['<32>{#p/story}* REGEN up for this turn!'],
-            ['<32>{#p/story}* DEFENSE up for this turn!']
+            ['<32>{#p/story}* FOCO aumentou nessa rodada!'],
+            ['<32>{#p/story}* INVENCIBILIDADE aumentou nessa rodada!'],
+            ['<32>{#p/story}* REGENERAÇÃO aumentou nessa rodada!'],
+            ['<32>{#p/story}* DEFESA aumentou nessa rodada!']
         ],
-        epiphaNOPE: ['<20>{#p/alphys}{#e/alphys/19}Nice try.'],
+        epiphaNOPE: ['<20>{#p/alphys}{#e/alphys/19}Boa tentativa.'],
         statusX: ['<32>{#p/asriel2}* ...'],
-        statusY: ["<32>{#p/asriel2}* She's almost dead!\n* Keep going!"],
+        statusY: ["<32>{#p/asriel2}* Ela está quase morta!\n* Continue assim!"],
         status1a: ['<32>{#p/asriel2}* Alphys...'],
         status1r: () =>
             [
-                ['<32>{#p/asriel2}* If you need my help, just ask.'],
-                ["<32>{#p/asriel2}* I'll be here if you need my help."],
-                ['<32>{#p/asriel2}* You know what to do.']
+                ['<32>{#p/asriel2}* Se você precisar da minha ajuda é só perguntar.'],
+                ["<32>{#p/asriel2}* Eu vou estar aqui se você precisar da minha ajuda."],
+                ['<32>{#p/asriel2}* Você sabe o que fazer.']
             ][Math.min(SAVE.flag.n.ga_asrielAlphysHint++, 2)],
-        status1b: ["<33>{#p/asriel2}* So she didn't run away, then...\n* Interesting."],
-        status1c: ['<32>{#p/asriel2}* Well, you know what to do.'],
-        status1d: ["<32>{#p/asriel2}* Hmm... don't you think she looks tired?"],
-        status2a: ["<32>{#p/asriel2}* What's the matter, Alphys?\n* Can't keep up?"],
-        status2r1: ['<32>{#p/asriel2}* Ugh, here we go...'],
-        status2b: ['<32>{#p/asriel2}* Go on, tell us your sob story.'],
-        status2c: ["<32>{#p/asriel2}* I'm surprised you're not still doing that right now."],
-        status2d: ['<32>{#p/asriel2}* Thanks, Dr. Obvious.'],
+        status1b: ["<33>{#p/asriel2}* Então ela não fugiu de verdade...\n* Interessante."],
+        status1c: ['<32>{#p/asriel2}* Bem, você sabe o que fazer.'],
+        status1d: ["<32>{#p/asriel2}* Hmm... você não acha que ela parece cansada?"],
+        status2a: ["<32>{#p/asriel2}* Qual o problema, Alphys?\n* Não consegue manter o ritmo?"],
+        status2r1: ['<32>{#p/asriel2}* Ugh, aí vamos nós...'],
+        status2b: ['<32>{#p/asriel2}* Vai, conta pra gente sua história de vida.'],
+        status2c: ["<32>{#p/asriel2}* Eu estou surpreso por você ainda não estar fazendo isso."],
+        status2d: ['<32>{#p/asriel2}* Valeu, Doutora Óbvia.'],
         status2e: ['<32>{#p/asriel2}* ...?'],
-        status2r2: ["<32>{#p/asriel2}* Something's about to happen."],
-        status3a: ['<32>{#p/asriel2}* Okay... things are starting to get serious now.'],
-        status3b: ["<32>{#p/asriel2}* ... it looks like Alphys isn't trying to defend anymore.\n* Now's our chance!"],
-        status3c: ['<32>{#p/asriel2}* Hang in there, $(name)...'],
+        status2r2: ["<32>{#p/asriel2}* Alguma coisa vai acontecer."],
+        status3a: ['<32>{#p/asriel2}* Beleza... as coisas estão ficando sérias.'],
+        status3b: ["<32>{#p/asriel2}* ... parece que a Alphys não está mais tentando defender.\n* É nossa chance!"],
+        status3c: ['<32>{#p/asriel2}* Aguenta aí, $(name)...'],
         turnTalk1a: [
-            "<20>{#p/alphys}{#e/alphys/19}Did you think I'd fight you if I didn't know how to take a hit?",
-            '<20>{#p/alphys}{#e/alphys/23}You must not be as smart as I thought.'
+            "<20>{#p/alphys}{#e/alphys/19}Você acha que eu te enfrentaria se não aguentasse umas porradas?",
+            '<20>{#p/alphys}{#e/alphys/23}Talvez você não seja tão inteligente quanto eu pensava.'
         ],
         turnTalk1b: [
-            '<20>{#p/alphys}{#e/alphys/19}Nothing to say?',
-            "<20>{#e/alphys/18}... guess I'll be the one doing the talking, then."
+            '<20>{#p/alphys}{#e/alphys/19}Nada a dizer?',
+            "<20>{#e/alphys/18}... acho que sou eu quem vai estar conversando, então."
         ],
         turnTalk1c: [
-            "<20>{#p/alphys}{#e/alphys/19}That's right.\nAlphys.",
-            '<20>{#e/alphys/18}Because nobody else sees things like I do.',
-            '<20>{#e/alphys/19}Nobody else knows how dangerous you really are.'
+            "<20>{#p/alphys}{#e/alphys/19}Exatamente. Alphys.",
+            '<20>{#e/alphys/18}Porque ninguém mais vê as coisas como eu vejo.',
+            '<20>{#e/alphys/19} Ninguém mais sabe o quão perigoso vocês realmente são.'
         ],
         turnTalk1d: [
-            '<20>{#p/alphys}{#e/alphys/19}Use your precious ITEMs all you want.',
-            "<20>{#e/alphys/18}It won't change what happens next."
+            '<20>{#p/alphys}{#e/alphys/19}Use seus preciosos itens o tanto que quiser.',
+            "<20>{#e/alphys/18}Não vai mudar o que acontece depois."
         ],
         turnTalk2: [
-            "<20>{#p/alphys}{#e/alphys/19}... look.\nI've studied human culture for years.",
-            "<20>{#e/alphys/19}I'm not surprised you're the one doing all the fighting."
+            "<20>{#p/alphys}{#e/alphys/19}... olha.\nEu estudei a cultura humana por anos.",
+            "<20>{#e/alphys/19}Então não é surpresa alguma que é você quem está lutando pela dupla."
         ],
         turnTalk3: [
-            '<20>{#p/alphys}{#e/alphys/18}But you, Asriel...\nYou use your human partner as a shield.',
-            "<20>{#e/alphys/52}What's the matter?\nAfraid your stolen SOUL won't survive on its own?"
+            '<20>{#p/alphys}{#e/alphys/18}Mas você, Asriel...\nVocê usa seu parceiro humano como um escudo.',
+            "<20>{#e/alphys/52}Qual o problema?\nCom medo da sua ALMA não sobreviver sozinha?"
         ],
         turnTalk4: [
-            "<20>{#p/alphys}{#e/alphys/51}Or maybe you're just afraid they'll go on without you if you die.",
-            "<20>{#e/alphys/17}Well.\nTHAT'd be poetic."
+            "<20>{#p/alphys}{#e/alphys/51}Ou talvez você só está com medo que ele continue sozinho caso você morra.",
+            "<20>{#e/alphys/17}ISSO seria bem poético."
         ],
         turnTalk5: [
-            '<20>{#p/alphys}{#e/alphys/16}Not that I blame you for finding comfort in a human partner.',
-            '<20>{#e/alphys/52}I can tell you from experience...',
-            '<20>{#e/alphys/19}Things get lonely after everyone you care about is dead.'
+            '<20>{#p/alphys}{#e/alphys/16}Não que eu te culpe por achar confeito em um parceiro humano.',
+            '<20>{#e/alphys/52}Posso te dizer por experiência...',
+            '<20>{#e/alphys/19}Fica bem solitário após todo mundo que você se importa está morto.'
         ],
         turnTalk6: [
-            "<20>{#p/alphys}{#e/alphys/23}But you two wouldn't know anything about THAT, right?",
-            "<20>{#e/alphys/19}You're so menacing and unstoppable, you couldn't POSSIBLY be in pain yourselves.",
-            '<20>{#e/alphys/22}Right?'
+            "<20>{#p/alphys}{#e/alphys/23}Mas vocês dois não saberiam nada sobre isso, CERTO?",
+            "<20>{#e/alphys/19}Vocês são tão ameaçadores imparáveis que não poderiam sentir dor pelo que fizeram.",
+            '<20>{#e/alphys/22}Certo?'
         ],
         turnTalk7: [
-            '<20>{#p/alphys}{#e/alphys/19}Whatever.\nNot like I give a damn now anyway.',
-            '<20>{#e/alphys/52}... which is a shame, since, for a while there...',
-            '<20>{#e/alphys/51}I actually believed I could fix this.'
+            '<20>{#p/alphys}{#e/alphys/19}Tanto faz.\nNão é como se eu ligasse pra essa merda agora.',
+            '<20>{#e/alphys/52}... o que é uma lástima, já que, por muito tempo...',
+            '<20>{#e/alphys/51}Eu realmente pensei poder concertar as coisas.'
         ],
         turnTalk8: [
-            '<20>{#p/alphys}{#e/alphys/52}I thought that because I was the one who gave that star life...',
-            "<20>{#e/alphys/51}I'd somehow be able to reason with you."
+            '<20>{#p/alphys}{#e/alphys/52}Eu pensei que por ser quem deu vida aquela estrela...',
+            "<20>{#e/alphys/51}Eu seria capaz de te convencer."
         ],
         turnTalk9: [
-            '<20>{#p/alphys}{#e/alphys/19}... but I understand the truth, now.',
-            '<20>{#e/alphys/18}That power...\nThe power to turn back time, to change fate...',
-            '<20>{#e/alphys/19}Would I be wrong to assume that one of you has it?'
+            '<20>{#p/alphys}{#e/alphys/19}... mas eu entendo a realidade, agora.',
+            '<20>{#e/alphys/18}Aquele poder...\nO poder de voltar no tempo e mudar o destino...',
+            '<20>{#e/alphys/19}Eu estaria errada em assumir que um de vocês tem ele?'
         ],
         turnTalk10: [
-            "<20>{#p/alphys}{#f/alphys/18}If that's the case, then whoever DOESN'T have it should be careful.",
-            "<21>{#e/alphys/23}People don't tend to care much for others when they can do whatever they want without consequences."
+            "<20>{#p/alphys}{#f/alphys/18}Se esse for o caso, então qualquer um que NÃO tiver tem que tomar cuidado.",
+            "<21>{#e/alphys/23}Parece que seus possuidores não se importam muito com os outros quando podem fazer o que quiserem sem consequências."
         ],
-        turnTalk11: ['<20>{#z1}{#p/alphys}{#e/alphys/21}...', '<21>{#e/alphys/39}I need a moment.'],
-        broken: ['<20>{*}{#p/alphys}{#e/alphys/45}Thanks.{^20}{%}'],
+        turnTalk11: ['<20>{#z1}{#p/alphys}{#e/alphys/21}...', '<21>{#e/alphys/39}Eu preciso respirar.'],
+        broken: ['<20>{*}{#p/alphys}{#e/alphys/45}Valeu.{^20}{%}'],
         turnTalk12: [
-            "<20>{#z2}{#p/alphys}{#e/alphys/7}After Undyne died, I didn't know what to do.",
-            '<20>{#e/alphys/46}So I ran as fast and as far as I could.'
+            "<20>{#z2}{#p/alphys}{#e/alphys/7}Após a morte da Undyne, eu não sabia o que fazer.",
+            '<20>{#e/alphys/46}Então eu corri o mais rápido que pude.'
         ],
         turnTalk13: [
-            '<20>{#p/alphys}{#e/alphys/47}The more I ran, the more frustrated I became with myself.',
-            '<20>{#e/alphys/48}How could I stand by and do NOTHING as I watched them die?'
+            '<20>{#p/alphys}{#e/alphys/47}Quando mais eu corria, mas frustada comigo mesma eu me tornava.',
+            '<20>{#e/alphys/48}Como eu poderia ficar parada e não fazer NADA enquanto eu os vejo morrer?'
         ],
         turnTalk14: [
-            '<20>{#p/alphys}{#e/alphys/21}... it was all just a little too much.',
-            '<21>{#e/alphys/39}Still, no matter how terrible I felt...',
-            '<20>{#e/alphys/45}The reality of what had happened stayed the same.'
+            '<20>{#p/alphys}{#e/alphys/21}... aquilo foi tudo demais.',
+            '<21>{#e/alphys/39}Ainda assim, não importava o quão terrível eu me sentia...',
+            '<20>{#e/alphys/45}A realidade do que aconteceu continuou a mesma.'
         ],
         turnTalk15: [
-            "<20>{#p/alphys}{#e/alphys/39}Undyne said you'd go on to kill everyone in the galaxy...",
-            "<20>{#e/alphys/40}But it's worse than that, isn't it?"
+            "<20>{#p/alphys}{#e/alphys/39}Undyne disse que vocês iriam matar todos na galáxia...",
+            "<20>{#e/alphys/40}Mas é pior que isso, não é?"
         ],
         turnTalk16: [
             '<20>{#z3}{#p/alphys}{#e/alphys/48}...',
-            "<20>{#e/alphys/47}I may have brought one of you back to life, but I'm not to blame for everything you've done.",
-            "<20>{#e/alphys/38}Whatever it is you're planning, I won't let you get away with it.",
-            '<20>{*}{#z4}{#e/alphys/54}Even if it means...!{^10}{%}',
-            '<20>{*}{#e/alphys/25}Losing my sanity in the process!{^10}{%}'
+            "<20>{#e/alphys/47}Eu posso ter trago um de vocês de volta a vida, mas não vou me culpar por tudo que fez.",
+            "<20>{#e/alphys/38}Seja lá qual for o seu plano, não vou te deixar se livrar do julgamento.",
+            '<20>{*}{#z4}{#e/alphys/54}Mesmo que isso signifique...!{^10}{%}',
+            '<20>{*}{#e/alphys/25}Perder minha sanidade no processo!{^10}{%}'
         ],
-        turnTalk17: ['<20>{#p/alphys}{#e/alphys/25}Take THIS!!'],
-        turnTalk18: ['<20>{#p/alphys}{#e/alphys/25}Or THIS!!'],
-        turnTalk19: ['<20>{#p/alphys}{#e/alphys/25}How about THIS!!'],
+        turnTalk17: ['<20>{#p/alphys}{#e/alphys/25}Toma ISSO!!'],
+        turnTalk18: ['<20>{#p/alphys}{#e/alphys/25}E ISSO!!'],
+        turnTalk19: ['<20>{#p/alphys}{#e/alphys/25}Que tal ISSO!!'],
         turnTalk20: ['<20>{#p/alphys}{#e/alphys/24}Hahaha...'],
         turnTalk21: ['<20>{#p/alphys}{#e/alphys/26}...'],
-        turnTalk22: ['<20>{#p/alphys}{#e/alphys/27}Come ON!!'],
+        turnTalk22: ['<20>{#p/alphys}{#e/alphys/27}VAMOS!!'],
         turnTalk23: ['<20>{#p/alphys}{#e/alphys/27}...'],
         done0: (b: boolean) =>
             b
-                ? ['<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}', '<20>{*}{#e/alphys/43}How am I already...{^40}{%}']
-                : ['<20>{*}{#p/alphys}{#e/alphys/42}No...{^40}{%}', '<20>{*}{#e/alphys/43}How did you...{^40}{%}'],
+                ? ['<20>{*}{#p/alphys}{#e/alphys/42}Não...{^40}{%}', '<20>{*}{#e/alphys/43}Como é que eu já estou...{^40}{%}']
+                : ['<20>{*}{#p/alphys}{#e/alphys/42}Não...{^40}{%}', '<20>{*}{#e/alphys/43}Como você...{^40}{%}'],
         done1: (b: boolean) =>
             b
-                ? ["<20>{*}I d-didn't think you'd be this strong...{^40}{%}", '<20>{*}But now, I realize...{^40}{%}']
-                : ["<20>{*}I'm going to die here... a-aren't I?{^40}{%}", '<20>{*}After everything...{^40}{%}'],
+                ? ["<20>{*}Eu n-não pensei que você seria tão forte...{^40}{%}", '<20>{*}Mas agora, eu entendo...{^40}{%}']
+                : ["<20>{*}Eu vou morrer aqui... n-não vou?{^40}{%}", '<20>{*}Depois de tudo...{^40}{%}'],
         done2: (b: boolean) =>
-            b ? ['<20>{*}{#p/alphys}I never had a chance.{^40}{%}'] : ["<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}"]
+            b ? ['<20>{*}{#p/alphys}Eu nunca tive chance.{^40}{%}'] : ["<20>{*}{#p/alphys}Me perdoa, Asgore.{^40}{%}"]
     },
     b_opponent_archive1: {
         name: () => (battler.volatile[0].sparable ? '* Toriel' : '* 546f7269656c'),
-        status0: ['<32>{#p/human}* (546f7269656c now stands before you.)'],
-        status1: ['<32>{#p/human}* (546f7269656c seems intent on following a routine.)'],
+        status0: ['<32>{#p/human}* (546f7269656c está na sua frente.)'],
+        status1: ['<32>{#p/human}* (546f7269656c parece querer seguir uma rotina.)'],
 
-        act_dinnertimeX: ['<32>{#p/human}* (But you have already eaten your dinner.)'],
-        dinnerTalk: ['<11>{#p/toriel}Eat {@fill=#42fcff}{@mystify=slowly}slowly{@mystify=}{@fill=#ffffff}, my child.'],
-        dinnerStatus: ['<32>{#p/human}* (546f7269656c would like to share something with you.)'],
+        act_dinnertimeX: ['<32>{#p/human}* (Mas você já comeu a janta.)'],
+        dinnerTalk: ['<11>{#p/toriel}Coma {@fill=#42fcff}{@mystify=slowly}devagar{@mystify=}{@fill=#ffffff}, minha criança.'],
+        dinnerStatus: ['<32>{#p/human}* (546f7269656c gostaria de compartilhar algo com você.)'],
 
-        act_storytimeX: ['<32>{#p/human}* (But you have already been read a story.)'],
-        act_storytimeE: ['<32>{#p/human}* (But 546f7269656c was not yet ready to read you a story.)'],
+        act_storytimeX: ['<32>{#p/human}* (Mas você já leu uma história.)'],
+        act_storytimeE: ['<32>{#p/human}* (Mas 546f7269656c ainda não estava pronto para contar uma história.)'],
         storyTalk: [
-            '<11>{#p/toriel}Once, there was a {@fill=#42fcff}{@mystify=monster}monster{@mystify=}{@fill=#ffffff}...'
+            '<11>{#p/toriel}Uma vez, havia um {@fill=#42fcff}{@mystify=monstro}monstro{@mystify=}{@fill=#ffffff}...'
         ],
-        storyStatus: ['<32>{#p/human}* (546f7269656c has one more thing to do.)'],
+        storyStatus: ['<32>{#p/human}* (546f7269656c tem mais uma coisa a fazer.)'],
 
-        act_bedtimeX: ['<32>{#p/human}* (But you have already been put to sleep.)'],
-        act_bedtimeE: ['<32>{#p/human}* (But 546f7269656c was not yet ready to put you to sleep.)'],
-        bedTalk: ['<11>{#p/toriel}Good night, my child.'],
-        bedStatus: ['<32>{#p/human}* (Toriel has served her purpose in this world.)'],
+        act_bedtimeX: ['<32>{#p/human}* (Mas você já foi posto para dormir.)'],
+        act_bedtimeE: ['<32>{#p/human}* (Mas 546f7269656c não está pronta para te colocar pra dormir.)'],
+        bedTalk: ['<11>{#p/toriel}Boa noite, minha criança.'],
+        bedStatus: ['<32>{#p/human}* (Toriel serviu seu propósito neste mundo.)'],
 
-        act_talkE: ["<32>{#p/human}* (But 546f7269656c's wasn't finished with her routine.)"],
-        act_talkN: ['<32>{#p/human}* (And Toriel shared her wisdom before fading away.)'],
+        act_talkE: ["<32>{#p/human}* (Mas 546f7269656c não estava pronta para finalizar a rotina.)"],
+        act_talkN: ['<32>{#p/human}* (E Toriel compartilhou sua sabedoria antes de desaparecer.)'],
 
-        act_puzzlehelp: ['<32>{#p/human}* (But there was no puzzle left to solve.)'],
+        act_puzzlehelp: ['<32>{#p/human}* (Mas não haviam quebra-cabeças para resolver.)'],
         puzzlehelpTalk1: [
-            '<11>{#p/toriel}Are you {@fill=#42fcff}{@mystify=hungry}hungry{@mystify=}{@fill=#ffffff}, my child?'
+            '<11>{#p/toriel}Você está com {@fill=#42fcff}{@mystify=fome}fome{@mystify=}{@fill=#ffffff}, minha criança?'
         ],
         puzzlehelpTalk2: [
-            '<11>{#p/toriel}Are you {@fill=#42fcff}{@mystify=restless}restless{@mystify=}{@fill=#ffffff}, my child?'
+            '<11>{#p/toriel}Você está {@fill=#42fcff}{@mystify=inquieta}inquieta{@mystify=}{@fill=#ffffff}, minha pequena?'
         ],
         puzzlehelpTalk3: [
-            '<11>{#p/toriel}Are you {@fill=#42fcff}{@mystify=sleepy}sleepy{@mystify=}{@fill=#ffffff}, my child?'
+            '<11>{#p/toriel}Você está com {@fill=#42fcff}{@mystify=sono}sono{@mystify=}{@fill=#ffffff}, minha criança?'
         ]
     },
     b_opponent_archive2: {
         name: () => (battler.volatile[0].sparable ? '* Gerson' : '* 476572736f6e'),
-        status0: ['<32>{#p/human}* (476572736f6e stands opposite the training area.)'],
-        status1: ['<32>{#p/human}* (476572736f6e awaits your first move.)'],
+        status0: ['<32>{#p/human}* (476572736f6e mantém-se em pé na área de treino.)'],
+        status1: ['<32>{#p/human}* (476572736f6e espera seu primeiro movimento.)'],
 
-        act_challengeX: ['<32>{#p/human}* (But you have already risen to the challenge.)'],
-        act_challengeR: ['<32>{#p/human}* (But you have not yet rested after your previous failure.)'],
+        act_challengeX: ['<32>{#p/human}* (Mas você já aceitou o desafio.)'],
+        act_challengeR: ['<32>{#p/human}* (Mas você ainda não descansou da sua última falha.)'],
         challengeTalk: [
-            '<11>{#p/basic}It takes {@fill=#ff993d}{@mystify=courage}courage{@mystify=}{@fill=#ffffff} to face your fears.'
+            '<11>{#p/basic}É preciso {@fill=#ff993d}{@mystify=courage}coragem{@mystify=}{@fill=#ffffff}para enfrentar seus medos.'
         ],
 
         challengeFail: [
-            '<11>{*}{#p/basic}Failure!\nYou must stay {@fill=#ff993d}{@mystify=focused}focused{@mystify=}{@fill=#ffffff}!{^30}{%}'
+            '<11>{*}{#p/basic}Falhou!\nVocê deve manter o {@fill=#ff993d}{@mystify=foco}foco{@mystify=}{@fill=#ffffff}!{^30}{%}'
         ],
-        failStatus: ["<32>{#p/human}* (476572736f6e thinks it's time for a break.)"],
-        successStatus: ['<32>{#p/human}* (Gerson has served his purpose in this world.)'],
+        failStatus: ["<32>{#p/human}* (476572736f6e acha que é hora de descansar.)"],
+        successStatus: ['<32>{#p/human}* (Gerson serviu seu propósito neste mundo.)'],
 
-        act_restA: ['<32>{#p/human}* (But you were not in need of rest.)'],
+        act_restA: ['<32>{#p/human}* (Mas você não precisava descansar.)'],
         restTalk: [
-            '<11>{#p/basic}A good {@fill=#ff993d}{@mystify=hero}hero{@mystify=}{@fill=#ffffff} knows their limits.'
+            '<11>{#p/basic}Um grande {@fill=#ff993d}{@mystify=herói} herói{@mystify=}{@fill=#ffffff} sabe seus limites..'
         ],
-        restStatus: ['<32>{#p/human}* (476572736f6e awaits your next move with anticipation.)'],
+        restStatus: ['<32>{#p/human}* (476572736f6e aguarda seu próximo movimento com antecipação.)'],
 
-        act_handshakeE: ["<32>{#p/human}* (But 476572736f6e's training was not yet complete.)"],
-        act_handshakeN: ['<32>{#p/human}* (And Gerson taught you his favorite handshake before fading away.)'],
+        act_handshakeE: ["<32>{#p/human}* (Mas o treino de 476572736f6e ainda não estava concluído.)"],
+        act_handshakeN: ['<32>{#p/human}* (E Gerson te ensinou seu aperto de mão favorito antes de sumir.)'],
 
-        act_taunt: ['<32>{#p/human}* (But your gesture seems to have been ignored.)'],
+        act_taunt: ['<32>{#p/human}* (Mas seu gesto parece ter sido ignorado.)'],
 
-        act_advice: ['<32>{#p/human}* (But there was no advice left to hear.)'],
+        act_advice: ['<32>{#p/human}* (Mas não haviam conselhos restantes para ouvir.)'],
         adviceTalk1: [
-            '<11>{#p/basic}You must not show {@fill=#ff993d}{@mystify=hesitation}hesitation{@mystify=}{@fill=#ffffff}.'
+            '<11>{#p/basic}Você não deve {@fill=#ff993d}{@mystify=hesitar}hesitar{@mystify=}{@fill=#ffffff}.'
         ],
         adviceTalk2: [
-            '<11>{#p/basic}To learn is to face {@fill=#ff993d}{@mystify=adversity}adversity{@mystify=}{@fill=#ffffff}.'
+            '<11>{#p/basic}Para aprender se deve enfrentar o {@fill=#ff993d}{@mystify=adversário}adversário{@mystify=}{@fill=#ffffff}.'
         ],
         adviceTalk3: [
-            '<11>{#p/basic}The key to success is {@fill=#ff993d}{@mystify=humility}humility{@mystify=}{@fill=#ffffff}.'
+            '<11>{#p/basic}A chave do sucesso é a {@fill=#ff993d}{@mystify=humildade}humildade{@mystify=}{@fill=#ffffff}.'
         ]
     },
     b_opponent_archive3: {
         name: () => (battler.volatile[0].sparable ? '* Prof. Roman' : '* 50726f662e20526f6d616e'),
-        status0: ['<32>{#p/human}* (50726f662e20526f6d616e takes control of the situation.)'],
-        status1: ['<32>{#p/human}* (50726f662e20526f6d616e would like to run some tests on you.)'],
+        status0: ['<32>{#p/human}* (50726f662e20526f6d616e toma controle da situação.)'],
+        status1: ['<32>{#p/human}* (50726f662e20526f6d616e gostaria de fazer testes em você.)'],
 
-        act_object: ['<32>{#p/human}* (But your objection was swiftly overruled.)'],
+        act_object: ['<32>{#p/human}* (Mas sua objeção foi rapidamente rejeitada.)'],
 
-        act_testX: ['<32>{#p/human}* (But you have already completed this test.)'],
-        testTalkA: ['<11>{#p/basic}Please, remain {@fill=#003cff}{@mystify=still}still{@mystify=}{@fill=#ffffff}...'],
-        testTalkB: ['<11>{#p/basic}The {@fill=#003cff}{@mystify=fun}fun{@mystify=}{@fill=#ffffff} has only just begun.'],
+        act_testX: ['<32>{#p/human}* (Mas você já completou esse teste.)'],
+        testTalkA: ['<11>{#p/basic}Por favor, fique {@fill=#003cff}{@mystify=firme}firme{@mystify=}{@fill=#ffffff}...'],
+        testTalkB: ['<11>{#p/basic}A {@fill=#003cff}{@mystify=diversão}diversão{@mystify=}{@fill=#ffffff} apenas começou.'],
         testTalkC: [
-            '<11>{#p/basic}Behold, the {@fill=#003cff}{@mystify=power}power{@mystify=}{@fill=#ffffff} of scientific endeavour.'
+            '<11>{#p/basic}Eis aqui o {@fill=#003cff}{@mystify=poder}poder{@mystify=}{@fill=#ffffff} do esforço científico'
         ],
-        testStatus1: ['<32>{#p/human}* (50726f662e20526f6d616e is ready to begin the next test.)'],
-        testStatus2: ['<32>{#p/human}* (Professor Roman has served his purpose in this world.)'],
+        testStatus1: ['<32>{#p/human}* (50726f662e20526f6d616e está pronto para começar o próximo teste.)'],
+        testStatus2: ['<32>{#p/human}* (Professor Roman serviu seu propósito neste mundo.)'],
 
-        act_notesE: ["<32>{#p/human}* (But 50726f662e20526f6d616e wasn't ready to exchange notes.)"],
-        act_notesN: ['<32>{#p/human}* (And Professor Roman exchanged notes before fading away.)']
+        act_notesE: ["<32>{#p/human}* (Mas 50726f662e20526f6d616e não estava pronto para entregar notas.)"],
+        act_notesN: ['<32>{#p/human}* (E Professor Roman trocou notas antes de desaparecer.)']
     },
     b_opponent_archive4: {
         name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
-        status0: ['<32>{#p/human}* (4e6170737461626c6f6f6b is here by their computer.)'],
-        status1: ['<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)'],
+        status0: ['<32>{#p/human}* (4e6170737461626c6f6f6b está aqui pelo computador.)'],
+        status1: ['<32>{#p/human}* (4e6170737461626c6f6f6b está querendo fazer um novo som.)'],
 
-        act_sampleX: ['<32>{#p/human}* (But you already have the required samples.)'],
+        act_sampleX: ['<32>{#p/human}* (Mas ele já tentou amostras.)'],
         sampleTalk: [
-            '<11>{#p/napstablook}this should do {@fill=#d535d9}{@mystify=nicely}nicely{@mystify=}{@fill=#ffffff}...'
+            '<11>{#p/napstablook}isso deve ficar {@fill=#d535d9}{@mystify=legal}legal{@mystify=}{@fill=#ffffff}...'
         ],
-        sampleStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b is ready to start composing.)'],
+        sampleStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b está pronto para começar a composição.'],
 
-        act_composeX: ['<32>{#p/human}* (But you have already finished composing the track.)'],
-        act_composeE: ['<32>{#p/human}* (But you have not yet found any samples to compose with.)'],
+        act_composeX: ['<32>{#p/human}* (Mas você já terminou de compor a faixa.)'],
+        act_composeE: ['<32>{#p/human}* (Mas você não tem nenhuma amostra para compor ainda.)'],
         composeTalk: [
-            "<11>{#p/napstablook}let's see how this {@fill=#d535d9}{@mystify=plays}plays{@mystify=}{@fill=#ffffff} out..."
+            "<11>{#p/napstablook}vamos ver como isso {@fill=#d535d9}{@mystify=toca}toca{@mystify=}{@fill=#ffffff}..."
         ],
 
         composeFail: [
-            '<11>{*}{#p/napstablook}oh...\nback to the {@fill=#d535d9}{@mystify=drawing}drawing{@mystify=}{@fill=#ffffff} board...{^30}{%}'
+            '<11>{*}{#p/napstablook}oh...\nde volta a {@fill=#d535d9}{@mystify=escrita}escrita{@mystify=}{@fill=#ffffff} na mesa...{^30}{%}'
         ],
-        failStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b would like to try that again.)'],
-        composeStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b is ready to start mixing.)'],
+        failStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b gostaria de tentar isso de novo.)'],
+        composeStatus: ['<32>{#p/human}* (4e6170737461626c6f6f6b está pronto para começar a mixar.)'],
 
-        act_mixX: ['<32>{#p/human}* (But you have already finished mixing the track.)'],
-        act_mixE: ['<32>{#p/human}* (But you have not yet composed a track to mix.)'],
+        act_mixX: ['<32>{#p/human}* (Mas você já terminou de mixar a faixa.)'],
+        act_mixE: ['<32>{#p/human}* (Mas você ainda não mixou a faixa.)'],
         mixTalk: [
-            '<11>{#p/napstablook}remember to keep the {@fill=#d535d9}{@mystify=balance}balance{@mystify=}{@fill=#ffffff} straight...'
+            '<11>{#p/napstablook}lembre-se de manter o {@fill=#d535d9}{@mystify=balanceamento}balanceamento{@mystify=}{@fill=#ffffff} correto...'
         ],
 
         mixFail: [
-            "<11>{*}{#p/napstablook}oh...\nlooks like we'll need a {@fill=#d535d9}{@mystify=remix}remix{@mystify=}{@fill=#ffffff}...{^30}{%}"
+            "<11>{*}{#p/napstablook}oh...\nparece que vamos precisar de um {@fill=#d535d9}{@mystify=remix}remix{@mystify=}{@fill=#ffffff}...{^30}{%}"
         ],
-        successStatus: ['<32>{#p/human}* (Napstablook has served their purpose in this world.)'],
+        successStatus: ['<32>{#p/human}* (Napstablook serviu seu propósito neste mundo.)'],
 
-        act_secretE: ["<32>{#p/human}* (But 4e6170737461626c6f6f6b wasn't yet ready to tell you that.)"],
-        act_secretN: ['<32>{#p/human}* (And Napstablook told you a secret before fading away.)'],
+        act_secretE: ["<32>{#p/human}* (Mas 4e6170737461626c6f6f6b não estava pronto para te contar isso.)"],
+        act_secretN: ['<32>{#p/human}* (E Napstablook te contou um segredo antes de ir embora.)'],
 
-        act_praise: ['<32>{#p/human}* (But your kind words fell on invisibly shy ears.)']
+        act_praise: ['<32>{#p/human}* (Mas suas amáveis palavras caíram em ouvidos invisivelmente tímidos.)']
     },
     b_opponent_archive5: {
         name: () => (battler.volatile[0].sparable ? '* Asgore' : '* 4173676f7265'),
-        status0: ['<32>{#p/human}* (4173676f7265 stands tall.)'],
-        status1: ['<32>{#p/human}* (4173676f7265 only wants one thing from you.)'],
+        status0: ['<32>{#p/human}* (4173676f7265 se mantém acima.)'],
+        status1: ['<32>{#p/human}* (4173676f7265 só quer uma coisa de você.)'],
 
-        act_hugX: ['<32>{#p/human}* (But there was no need to hug him a second time.)'],
-        hugTalk: ['<11>{#p/asgore}Thank you, young one.'],
-        hugStatus: ['<32>{#p/human}* (Asgore has served his purpose in this world.)'],
+        act_hugX: ['<32>{#p/human}* (Mas não havia necessidade de abraça-lo uma segunda vez.)'],
+        hugTalk: ['<11>{#p/asgore}Muito obrigado, pequeno.'],
+        hugStatus: ['<32>{#p/human}* (Asgore serviu seu propósito neste mundo.)'],
 
-        act_promiseE: ["<32>{#p/human}* (But 4173676f7265 hasn't served his purpose yet.)"],
-        act_promiseN: ['<32>{#p/human}* (And Asgore made a promise before fading away.)']
+        act_promiseE: ["<32>{#p/human}* (Mas 4173676f7265 ainda não serviu seu propósito.)"],
+        act_promiseN: ['<32>{#p/human}* (E Asgore fez uma promessa antes de ir embora.)']
     },
     b_opponent_asriel: {
-        artifact: ["<32>{#p/human}* (Asriel doesn't seem to care.)"],
-        refuse: '{*}{#p/event}{#i/3}But it refused.',
+        artifact: ["<32>{#p/human}* (Asriel não parece se importar.)"],
+        refuse: '{*}{#p/event}{#i/3}Mas recusou...',
         name: () =>
             battler.volatile[0].container.objects[0]?.metadata.power === true
                 ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr'
@@ -5052,261 +5052,261 @@ export default {
             0,
             (power = false) =>
                 power
-                    ? ['<32>{#p/story}* Asriel readies \"SUPER SKYBREAKER.\"']
+                    ? ['<32>{#p/story}* Asriel prepara \"SUPER SKYBREAKER.\"']
                     : SAVE.data.b.oops
-                        ? ["<32>{#p/story}* It's the end."]
+                        ? ["<32>{#p/story}* É o fim."]
                         : ['<32>{#p/basic}* Asriel...?'],
             (power = false) =>
                 power
-                    ? ['<32>{#p/story}* Asriel readies \"SUPER SKYBREAKER.\"']
+                    ? ['<32>{#p/story}* Asriel prepara \"SUPER SKYBREAKER.\"']
                     : SAVE.data.b.oops
-                        ? ["<32>{#p/story}* It's the end."]
+                        ? ["<32>{#p/story}* É o fim."]
                         : ['<32>{#p/basic}* ...']
         ),
         act_check: () =>
             SAVE.data.b.oops
                 ? [
-                    '<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Legendary being made of every SOUL on the outpost.'
+                    '<32>{#p/story}* ASRIEL DREEMURR - ATQ{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Ser lendário feito de cada ALMA do Outpost.'
                 ]
-                : ['<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ...'],
+                : ['<32>{#p/story}* ASRIEL DREEMURR - ATQ{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ...'],
         act_hope: [
-            '<32>{#p/human}* (You hold onto your hopes. You feel your body being protected from within.)',
-            '<32>{#p/story}* DEFENSE up for this turn!'
+            '<32>{#p/human}* (Você mantém suas esperanças. Você sente seu corpo sendo protegido por dentro.)',
+            '<32>{#p/story}* DEFESA aumentou nessa rodada!'
         ],
         act_dream: [
-            "<32>{#p/human}* (You think about why you're here now. You feel your wounds and injuries slowly healing.)",
-            '<32>{#p/story}* REGEN up for this turn!'
+            "<32>{#p/human}* (Você pensa no porque está aqui. Você sente suas feridas se curando.)",
+            '<32>{#p/story}* REGENERAÇÃO aumentou nessa rodada!'
         ],
-        act_flirt1: ['<32>{#p/human}* (You flirt with Asriel.)\n* (Nothing happens.)'],
+        act_flirt1: ['<32>{#p/human}* (Você flerta com Asriel.)\n* (Nada acontece.)'],
         act_flirt2: [
-            '<32>{#p/human}* (You flirt with Asriel, and everyone within him, too.)',
-            '<32>{#p/basic}* The gesture resonates strongly within Asriel...',
-            "<32>* ... he can't help but give you something in return!"
+            '<32>{#p/human}* (Você flerta com Asriel e com todos que estão com ele.)',
+            '<32>{#p/basic}* O gesto ressoa fortemente dentro de Asriel...',
+            "<32>* ... ele não pode ajudar a não ser te algo em retorno!"
         ],
         act_pet: (count: number) =>
             SAVE.flag.n.pacifist_marker === 8
-                ? ["<32>{#p/human}* (You try to pet Asriel, but he's too far out of reach.)"]
+                ? ["<32>{#p/human}* (Você tenta acariciar Asriel, mas ele está muito longe.)"]
                 : [
                     ...[
-                        ["<32>{#p/human}* (You pet Asriel.)\n* (Asriel doesn't seem to know how to handle this.)"],
-                        ["<32>{#p/human}* (You pet Asriel again.)\n* (Asriel still doesn't know how to handle this.)"],
-                        ["<32>{#p/human}* (You stroke Asriel's fur.)\n* (Asriel blushes and avoids direct eye contact.)"],
-                        ["<32>{#p/human}* (You ruffle Asriel's head.)\n* (Asriel holds back a smile with all his might.)"],
-                        ["<32>{#p/human}* (You scratch Asriel's neck.)\n* (Asriel refuses to show his appreciation.)"],
+                        ["<32>{#p/human}* (Você acaricia Asriel.)\n* (Asriel não sabe como lidar com essa situação.)"],
+                        ["<32>{#p/human}* (Você acaricia Asriel de novo.)\n* (Asriel ainda não sabe como lidar com isso.)"],
+                        ["<32>{#p/human}* (Você acaricia o pelo de Asriel.)\n* (Asriel cora e evita contato visual.)"],
+                        ["<32>{#p/human}* (Você coça a cabeça de Asriel.)\n* (Asriel segura um sorriso com todas as suas forças.)"],
+                        ["<32>{#p/human}* (Você coça o pescoço de Asriel.)\n* (Asriel se recusa a mostrar seu apreço.)"],
                         [
-                            "<32>{#p/human}* (You play with Asriel's ears.)\n* (Asriel really wishes he wasn't enjoying this.)"
+                            "<32>{#p/human}* (Você brinca com as orelhas de Asriel.)\n* (Asriel queria não estar gostando disso.)"
                         ],
-                        ["<32>{#p/human}* (You pat Asriel's back.)\n* (Asriel doesn't understand your motives anymore.)"],
+                        ["<32>{#p/human}* (Você dá um tapinha nas costas de Asriel.)\n* (Asriel não entende mais seus motivos.)"],
                         [
-                            "<32>{#p/human}* (You cling to Asriel's legs.)\n* (Asriel stands dumbfounded at your continued affection.)"
+                            "<32>{#p/humano}* (Você se agarra às pernas de Asriel.)\n* (Asriel fica pasmo com sua afeição contínua.)"
                         ],
                         [
-                            "<32>{#p/human}* (You squeeze Asriel's paws.)\n* (Asriel is just letting it happen at this point.)"
+                            "<32>{#p/human}* (Você aperta as patas de Asriel.)\n* (Asriel está apenas deixando acontecer, sem tentar impedir.)"
                         ],
-                        ["<32>{#p/human}* (You boop Asriel's snout.)\n* (Asriel has given up trying to stop you.)"],
-                        ["<32>{#p/human}* (You caress Asriel's face.)\n* (Asriel seems to have been reminded of someone.)"],
-                        ['<32>{#p/human}* (You continue to pet Asriel.)\n* (Asriel sighs.)'],
-                        ['<32>{#p/human}* (You continue to pet Asriel.)\n* (Asriel sighs.)']
+                        ["<32>{#p/human}* (Você dá um tapa no focinho de Asriel.)\n* (Asriel desistiu de tentar impedi-lo.)"],
+                        ["<32>{#p/human}* (Você acaricia o rosto de Asriel.)\n* (Asriel parece ter se lembrado de alguém.)"],
+                        ['<32>{#p/human}* (Você continua a acariciar Asriel.)\n* (Asriel suspira.)'],
+                        ['<32>{#p/human}* (Você continua a acariciar Asriel.)\n* (Asriel suspira.)']
                     ][count],
-                    "<32>{#p/story}* Asriel's ATTACK down for this turn!"
+                    "<32>{#p/story}* ATAQUE de Asriel caiu por este turno!"
                 ],
         turnTalk1: (fluff: boolean) =>
             fluff
                 ? [
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}You know...',
-                    "<20>{*}{#p/asriel3}{#e/asriel/6}I don't... care about destroying the outpost anymore."
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}Sabe...',
+                    "<20>{*}{#p/asriel3}{#e/asriel/6}Eu nem me importo mais em destruir o Outpost."
                 ]
                 : [
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}You know...',
-                    "<20>{*}{#p/asriel3}{#e/asriel/6}I don't care about destroying the outpost anymore."
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}Sabe...',
+                    "<20>{*}{#p/asriel3}{#e/asriel/6}Eu não me importo mais em destruir o Outpost."
                 ],
         status1: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel charges \"ROARING TYPHOON.\"']
-                : ["<32>{#p/basic}* But... you're..."],
+                ? ['<32>{#p/story}* Asriel carrega \"ROARING TYPHOON.\"']
+                : ["<32>{#p/basic}* Mas... você está..."],
         turnTalk2: (fluff: boolean) =>
             fluff
                 ? [
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}A-after I defeat you and gain total control over the timeline...',
-                    '<20>{*}{#p/asriel3}{#e/asriel/2}I just... want to reset everything.'
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}A-após eu te derrotar e ganhar controle total da linha do tempo...',
+                    '<20>{*}{#p/asriel3}{#e/asriel/2}Eu só quero... resetar tudo.'
                 ]
                 : [
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}After I defeat you and gain total control over the timeline...',
-                    '<20>{*}{#p/asriel3}{#e/asriel/2}I just want to reset everything.'
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}Após eu te derrotar e ganhar controle da linha do tempo...',
+                    '<20>{*}{#p/asriel3}{#e/asriel/2}Eu só quero resetar tudo.'
                 ],
         status2: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel calls on \"TITANIUM STRIKER.\"']
-                : ['<32>{#p/basic}* How could you possibly...'],
+                ? ['<32>{#p/story}* Asriel chama \"TITANIUM STRIKER.\"']
+                : ['<32>{#p/basic}* Como você pode...'],
         turnTalk3: (fluff: boolean) =>
             fluff
                 ? [
-                    "<20>{*}{#p/asriel3}{#e/asriel/3}All your progress... everyone's memories...",
-                    "<20>{*}{#p/asriel3}{#e/asriel/2}I-I'll bring them all back to zero!"
+                    "<20>{*}{#p/asriel3}{#e/asriel/3}Todo seu progresso... suas memórias...",
+                    "<20>{*}{#p/asriel3}{#e/asriel/2}E-eu vou trazê-las de volta ao zero!"
                 ]
                 : [
-                    "<20>{*}{#p/asriel3}{#e/asriel/3}All your progress... everyone's memories...",
-                    "<20>{*}{#p/asriel3}{#e/asriel/2}I'll bring them all back to zero!"
+                    "<20>{*}{#p/asriel3}{#e/asriel/3}Todo seu progresso... suas memórias...",
+                    "<20>{*}{#p/asriel3}{#e/asriel/2}Eu vou trazê-las de volta ao zero!"
                 ],
         status3: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel readies \"CROSSFIRE CHAOS.\"'] : ['<32>{#p/basic}* ...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel carrega \"CROSSFIRE CHAOS.\"'] : ['<32>{#p/basic}* ...'],
         turnTalk4: (fluff: boolean) =>
             fluff
-                ? ['<20>{*}{#p/asriel3}{#e/asriel/0}Then we can do... everything... ALL over again.']
-                : ['<20>{*}{#p/asriel3}{#e/asriel/0}Then we can do everything ALL over again.'],
+                ? ['<20>{*}{#p/asriel3}{#e/asriel/0}Então nós faremos tudo... TUDO de novo.']
+                : ['<20>{*}{#p/asriel3}{#e/asriel/0}Então nós faremos TUDO de novo.'],
         status4: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel charges \"ROARING TYPHOON.\"']
-                : ['<32>{#p/basic}* ... heh...\n* This must have been how Toriel felt, huh?'],
+                ? ['<32>{#p/story}* Asriel carrega \"ROARING TYPHOON.\"']
+                : ['<32>{#p/basic}* ... heh...\n* Deve ser assim que Toriel se sentiu, huh?'],
         turnTalk5: (fluff: boolean) =>
             fluff
                 ? [
-                    '<20>{*}{#p/asriel3}{#e/asriel/1}A-and you know what the best part of all this is?',
-                    "<20>{*}{#p/asriel3}{#e/asriel/0}You'll DO it."
+                    '<20>{*}{#p/asriel3}{#e/asriel/1}E v-você quer saber a melhor parte disso tudo?',
+                    "<20>{*}{#p/asriel3}{#e/asriel/0}Você FARÁ tudo."
                 ]
                 : [
-                    '<20>{*}{#p/asriel3}{#e/asriel/1}And you know what the best part of all this is?',
-                    "<20>{*}{#p/asriel3}{#e/asriel/0}You'll DO it."
+                    '<20>{*}{#p/asriel3}{#e/asriel/1}E você quer saber a melhor parte disso?',
+                    "<20>{*}{#p/asriel3}{#e/asriel/0}Você FARÁ tudo."
                 ],
         status5: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel readies \"CROSSFIRE CHAOS.\"'] : ['<32>{#p/basic}* ... still, I...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel carrega \"CROSSFIRE CHAOS.\"'] : ['<32>{#p/basic}* ... ainda, eu...'],
         turnTalk6: (fluff: boolean) =>
             fluff
-                ? ["<20>{*}{#p/asriel3}{#e/asriel/3}And then... y-you'll lose to me again."]
-                : ["<20>{*}{#p/asriel3}{#e/asriel/3}And then you'll lose to me again."],
+                ? ["<20>{*}{#p/asriel3}{#e/asriel/3}E então... v-você vai perder para mim de novo."]
+                : ["<20>{*}{#p/asriel3}{#e/asriel/3}E então você vai perder pra mim de novo."],
         status6: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel readies \"SUPER SKYBREAKER.\"'] : ['<32>{#p/basic}* ...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel prepara \"SUPER SKYBREAKER.\"'] : ['<32>{#p/basic}* ...'],
         turnTalk7: (fluff: boolean) =>
-            fluff ? ['<20>{*}{#p/asriel3}{#e/asriel/4}A-and again.'] : ['<20>{*}{#p/asriel3}{#e/asriel/4}And again.'],
+            fluff ? ['<20>{*}{#p/asriel3}{#e/asriel/4}E d-de novo.'] : ['<20>{*}{#p/asriel3}{#e/asriel/4}E de novo.'],
         status7: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel calls on \"TITANIUM STRIKER.\"'] : ['<32>{#p/basic}* Unless...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel chama \"TITANIUM STRIKER.\"'] : ['<32>{#p/basic}* Ah não ser...'],
         turnTalk8: (fluff: boolean) =>
             fluff
-                ? ['<20>{*}{#p/asriel3}{#e/asriel/2}And... a-and again!']
-                : ['<20>{*}{#p/asriel3}{#e/asriel/2}And again!'],
+                ? ['<20>{*}{#p/asriel3}{#e/asriel/2}E... e d-de novo!']
+                : ['<20>{*}{#p/asriel3}{#e/asriel/2}E de novo!'],
         status8: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel readies \"CROSSFIRE CATACLYSM.\"']
-                : ['<32>{#p/basic}* ... damn it...'],
+                ? ['<32>{#p/story}* Asriel carrega \"CROSSFIRE CATACLYSM.\"']
+                : ['<32>{#p/basic}* ... mas que droga...'],
         turnTalk9: (fluff: boolean) =>
             30 <= SAVE.data.n.bully
                 ? fluff
-                    ? ['<20>{*}{#p/asriel3}{#e/asriel/3}All because... y-you want to show your \"strength.\"']
-                    : ['<20>{*}{#p/asriel3}{#e/asriel/3}All because you want to show your \"strength.\"']
+                    ? ['<20>{*}{#p/asriel3}{#e/asriel/3}Tudo porque... Você quer mostrar sua \"força.\"']
+                    : ['<20>{*}{#p/asriel3}{#e/asriel/3}Tudo porque você quer mostrar sua \"força.\"']
                 : fluff
-                    ? ['<20>{*}{#p/asriel3}{#e/asriel/3}All because... y-you want a \"perfect ending.\"']
-                    : ['<20>{*}{#p/asriel3}{#e/asriel/3}All because you want a \"perfect ending.\"'],
+                    ? ['<20>{*}{#p/asriel3}{#e/asriel/3}Tudo porque... v-você quer seu \"final perfeito.\"']
+                    : ['<20>{*}{#p/asriel3}{#e/asriel/3}Tudo porque você quer um \"final perfeito.\"'],
         status9: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel calls on \"POLYCARBIDE OBLITERATOR.\"']
-                : ["<32>{#p/basic}* You're supposed to be dead!"],
+                ? ['<32>{#p/story}* Asriel chama \"POLYCARBIDE OBLITERATOR.\"']
+                : ["<32>{#p/basic}* Era pra você estar morto!"],
         turnTalk10: (fluff: boolean) =>
             30 <= SAVE.data.n.bully
                 ? fluff
-                    ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... because... y-you think you\'re \"tough.\"']
-                    : ['<20>{*}{#p/asriel3}{#e/asriel/1}... because you think you\'re \"tough.\"']
+                    ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... porque... v-você acha que é \"durão.\"']
+                    : ['<20>{*}{#p/asriel3}{#e/asriel/1}... porque você acha que é \"durão.\"']
                 : fluff
-                    ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... because... y-you \"love your friends.\"']
-                    : ['<20>{*}{#p/asriel3}{#e/asriel/1}... because you \"love your friends.\"'],
+                    ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... porque... v-você \"ama seus amigos.\"']
+                    : ['<20>{*}{#p/asriel3}{#e/asriel/1}... porque você \"ama seus amigos.\"'],
         status10: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel readies \"DOOMSDAY TYPHOON.\"'] : ['<32>{#p/basic}* Ugh...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* Asriel prepara \"DOOMSDAY TYPHOON.\"'] : ['<32>{#p/basic}* Ugh...'],
         turnTalk11: (fluff: boolean) =>
             fluff
-                ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... b-because you\'re \"determined.\"']
-                : ['<20>{*}{#p/asriel3}{#e/asriel/1}... because you\'re \"determined.\"'],
+                ? ['<20>{*}{#p/asriel3}{#e/asriel/1}... p-porque você é determinado.']
+                : ['<20>{*}{#p/asriel3}{#e/asriel/1}... porque você é determinado.'],
         status11: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel readies \"ULTIMA SKYBREAKER.\"']
-                : ['<32>{#p/basic}* All those times I saw him arguing with Toriel... about the past...'],
+                ? ['<32>{#p/story}* Asriel prepara \"ULTIMA SKYBREAKER.\"']
+                : ['<32>{#p/basic}* Todas aquelas vezes que eu a vi discutindo com Toriel... sobre o passado...'],
         turnTalk12: (fluff: boolean) =>
             fluff
                 ? [
-                    "<20>{*}{#p/asriel3}{#e/asriel/6}Isn't... isn't that delicious?",
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}The power... that let you get this far...',
-                    "<20>{*}{#p/asriel3}{#e/asriel/2}It's gonna be your downfall!"
+                    "<20>{*}{#p/asriel3}{#e/asriel/6}Não é... não é delicioso?",
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}O poder... que te deixou chegar tão longe...',
+                    "<20>{*}{#p/asriel3}{#e/asriel/2}Será a sua queda!"
                 ]
                 : [
-                    "<20>{*}{#p/asriel3}{#e/asriel/6}Isn't that delicious?",
-                    '<20>{*}{#p/asriel3}{#e/asriel/3}The power that let you get this far...',
-                    "<20>{*}{#p/asriel3}{#e/asriel/2}It's gonna be your downfall!"
+                    "<20>{*}{#p/asriel3}{#e/asriel/6}Não é delicioso?",
+                    '<20>{*}{#p/asriel3}{#e/asriel/3}O poder que te trouxe tão longe...',
+                    "<20>{*}{#p/asriel3}{#e/asriel/2}Será a sua queda!"
                 ],
         status12: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* Asriel readies \"HYPER GONER.\"']
-                : ['<32>{#p/basic}* ... does he really miss me...\n* ... that much?'],
+                ? ['<32>{#p/story}* Asriel prepara \"HYPER GONER.\"']
+                : ['<32>{#p/basic}* ... ele realmente sente minha falta...\n* ... desse tanto?'],
         turnTalk13: (fluff: boolean) =>
             fluff
                 ? [
-                    '<20>{*}{#p/asriel3}{#e/asriel/0}... now... ENOUGH messing around!',
-                    "<20>{*}{#p/asriel3}{#e/asriel/5}It's... it's time to purge this timeline once and for all!"
+                    '<20>{*}{#p/asriel3}{#e/asriel/0}... agora... CHEGA de perder tempo!',
+                    "<20>{*}{#p/asriel3}{#e/asriel/5}É... é hora de apagar está linha do tempo para sempre!"
                 ]
                 : [
-                    '<20>{*}{#p/asriel3}{#e/asriel/0}Now, ENOUGH messing around!',
-                    "<20>{*}{#p/asriel3}{#e/asriel/5}It's time to purge this timeline once and for all!"
+                    '<20>{*}{#p/asriel3}{#e/asriel/0}Agora, CHEGA de perder tempo!',
+                    "<20>{*}{#p/asriel3}{#e/asriel/5}É hora de apagar está linha do tempo para sempre!"
                 ],
         turnTalk14: [
-            "<20>{*}{#p/asriel3}{#e/asriel/1}... even after that attack, you're still standing in my way...?",
-            '<20>{*}{#p/asriel3}{#e/asriel/5}Wow... you really ARE something special.',
-            "<20>{*}{#p/asriel3}{#e/asriel/0}But don't get cocky.",
-            "<20>{*}{#p/asriel3}{#e/asriel/0}Up until now, I've only been using a fraction of my REAL power!",
-            "<20>{*}{#p/asriel3}{#e/asriel/2}Let's see what good your DETERMINATION is against THIS!!"
+            "<20>{*}{#p/asriel3}{#e/asriel/1}... mesmo após aquele ataque, você ainda está no meu caminho...?",
+            '<20>{*}{#p/asriel3}{#e/asriel/5}Wow... você é REALMENTE algo especial.',
+            "<20>{*}{#p/asriel3}{#e/asriel/0}Mas não fique se achando.",
+            "<20>{*}{#p/asriel3}{#e/asriel/0}Até o momento eu estive usando apenas umas fração do meu VERDADEIRO poder!",
+            "<20>{*}{#p/asriel3}{#e/asriel/2}Vamos ver como se DETERMINAÇÃO aguenta ISSO!"
         ],
         hyperTalk1a: [
             '<20>{*}{#p/asriel3}{#e/asriel/0}Urah ha ha...',
-            '<20>{*}{#p/asriel3}{#e/asriel/2}Behold my TRUE power!'
+            '<20>{*}{#p/asriel3}{#e/asriel/2}Eis o meu VERDADEIRO poder!'
         ],
         hyperTalk1b: [
-            '<20>{*}{#p/asriel3}{#e/asriel/4}Wh-\nHow did you not get hit!?',
+            '<20>{*}{#p/asriel3}{#e/asriel/4}Qu-\nComo eu não te acertei!?',
             '<20>{*}{#p/asriel3}{#e/asriel/5}Urgh...'
         ],
-        hyperTalk2a: ['<20>{*}{#p/asriel3}{#e/asriel/1}Come on...!'],
+        hyperTalk2a: ['<20>{*}{#p/asriel3}{#e/asriel/1}Vamos lá...!'],
         hyperTalk2b: [
-            '<20>{*}{#p/asriel3}{#e/asriel/5}What the...',
-            "<20>{*}{#p/asriel3}{#e/asriel/4}You should've died by now!"
+            '<20>{*}{#p/asriel3}{#e/asriel/5}Mas que...',
+            "<20>{*}{#p/asriel3}{#e/asriel/4}Você deveria estar morto!"
         ],
         hyperTalk3a: [
-            '<20>{*}{#p/asriel3}{#e/asriel/0}I can feel it...',
-            '<20>{*}{#p/asriel3}{#e/asriel/2}Every time you die, your grip on this world slips away.',
-            '<20>{*}{#p/asriel3}{#e/asriel/2}Every time you die, your friends forget you a little more.'
+            '<20>{*}{#p/asriel3}{#e/asriel/0}Eu posso sentir...',
+            '<20>{*}{#p/asriel3}{#e/asriel/2}Toda vez que você morre, seu controle sobre este mundo se esvai.',
+            '<20>{*}{#p/asriel3}{#e/asriel/2}Toda vez que você morre, suas memórias sobre seus amigos também morrem.'
         ],
-        hyperTalk3b: ["<20>{*}{#p/asriel3}{#e/asriel/6}... whatever.\nIt doesn't matter."],
-        hyperTalk3c: ['<20>{*}{#p/asriel3}{#e/asriel/0}Your life will end here, in a world where NO ONE remembers you!'],
+        hyperTalk3b: ["<20>{*}{#p/asriel3}{#e/asriel/6}... tanto faz.\nNão importa."],
+        hyperTalk3c: ['<20>{*}{#p/asriel3}{#e/asriel/0}Sua vida ACABA aqui, é um mundo onde NINGUÉM se lembrará de ti!'],
         hyperTalk4: [
-            "<20>{*}{#p/asriel3}{#e/asriel/1}Still, you're hanging on...?",
-            "<20>{*}{#p/asriel3}{#e/asriel/3}That's fine by me.",
-            "<20>{*}{#p/asriel3}{#e/asriel/2}In a few moments, you'll forget everything you've ever known.",
-            '<20>{*}{#p/asriel3}{#e/asriel/0}That attitude will serve you well in your NEXT life!'
+            "<20>{*}{#p/asriel3}{#e/asriel/1}Ainda de pé...?",
+            "<20>{*}{#p/asriel3}{#e/asriel/3}Por mim tudo bem.",
+            "<20>{*}{#p/asriel3}{#e/asriel/2}Em alguns momentos você vai esquecer de tudo que sabe.",
+            '<20>{*}{#p/asriel3}{#e/asriel/0}Essa atitude vai te servir bem na sua PRÓXIMA vida!'
         ],
         hyperTalk5: [
             '<20>{*}{#p/asriel3}{#e/asriel/0}Urah ha ha...',
-            '<20>{*}{#p/asriel3}{#e/asriel/1}Still!?',
-            '<20>{*}{#p/asriel3}{#e/asriel/2}Come on...',
-            '<20>{*}{#p/asriel3}{#e/asriel/0}Show me what good your DETERMINATION is now!'
+            '<20>{*}{#p/asriel3}{#e/asriel/1}Ainda!?',
+            '<20>{*}{#p/asriel3}{#e/asriel/2}Vamos...',
+            '<20>{*}{#p/asriel3}{#e/asriel/0}Me mostre do que sua DETERMINAÇÃO é capaz!'
         ],
         intermission: () => [
-            "<32>{#p/human}* (You can't move your body.)",
-            '<32>* (You try to struggle.)\n* (Nothing happens.)',
-            '<32>* (You try to reach your SAVE file.)\n* (Nothing happens.)',
-            '<32>* (You try again to reach your SAVE file.)\n* (Nothing happens.)',
+            "<32>{#p/human}* (Você não consegue mover seu corpo.)",
+            '<32>* (Você tenta lutar contra.) \n* (Nada acontece.)',
+            '<32>* (Você tenta acessar seu arquivo SALVO.)\n* (Nada acontece.)',
+            '<32>* (Você tenta acessar novamente seu arquivo SALVO.)\n* (Nada acontece.)',
             '<32>* (...)',
             ...(SAVE.data.b.oops
                 ? [
-                    '<32>* (... but...)',
-                    '<32>* (Maybe, with what little power you have...)',
-                    '<32>* (You can SAVE something else.)'
+                    '<32>* (... mas...)',
+                    '<32>* (Talvez, com o pouco de poder que você tem...)',
+                    '<32>* (Você possa SALVAR um outro alguém.)'
                 ]
                 : [
-                    '<32>{#p/basic}* Hey... are you there?',
-                    "<32>* It's me, $(name)...\n* You still with me, partner?",
+                    '<32>{#p/basic}* Ei... você tá aí?',
+                    "<32>* Sou eu, $(name)...\n* Você ainda tá comigo, parceiro?",
                     '<32>* ... heh...',
-                    "<32>* We've come such a long way, you and I...",
-                    '<32>* All those friends we made, all those battles we fought...',
-                    "<32>* Thinking about it now... it's like we've been building to this the whole time.",
-                    "<32>* ... look...\n* I know I'm not always the most optimistic person...",
-                    '<32>* But for the sake of everyone on the outpost, you have to stay determined!',
-                    '<32>* Besides, if Asriel could steal the SOULs of your friends...',
-                    "<32>* ... who's to say we can't just steal them back?",
-                    "<32>* Come on!\n* We're in this together!"
+                    "<32>* Nós tivemos uma jornada e tanto, eu e você...",
+                    '<32>* Todos os amigos que fizemos, todas as batalhas que lutamos...',
+                    "<32>* Pensando nisso agora... É como se estivéssemos construindo isso o tempo todo.",
+                    "<32>* ... olha...\n* Eu sei que não sou sempre a pessoa mais otimista...",
+                    '<32>* Mas pelo bem de todos no Outpost, você precisa se manter determinado!',
+                    '<32>* E mais, se Asriel consegue roubar a ALMA de todos os seus amigos...',
+                    "<32>* ... quem disse que não podemos roubar de volta?",
+                    "<32>* Vamos lá!\n* Estamos nisso juntos!"
                 ])
         ],
         status13: () =>
@@ -5314,17 +5314,17 @@ export default {
                 ? ['<32>{#p/story}* ...']
                 : [
                     SAVE.data.b.oops
-                        ? ["<32>{#p/story}* A faint resonance echoes from within Asriel's body."]
+                        ? ["<32>{#p/story}* Uma ressonância ecoa de dentro do corpo de Asriel."]
                         : ['<32>{#p/basic}* ...'],
                     SAVE.data.b.oops
-                        ? ["<32>{#p/story}* A growing resonance echoes from within Asriel's body."]
-                        : ["<32>{#p/basic}* Yes, that's it!\n* Keep going!"],
+                        ? ["<32>{#p/story}* Uma ressonância crescente ecoa de dentro do corpo de Asriel."]
+                        : ["<32>{#p/basic}* Sim, eu acho que é isso!\n* Continua assim!"],
                     SAVE.data.b.oops
-                        ? ["<32>{#p/story}* A powerful resonance echoes from within Asriel's body."]
-                        : ["<32>{#p/basic}* We're almost there!"],
+                        ? ["<32>{#p/story}* Uma ressonância poderosa ecoa de dentro do corpo de Asriel."]
+                        : ["<32>{#p/basic}* Estamos quase lá!"],
                     SAVE.data.b.oops
-                        ? ["<32>{#p/story}* An almighty resonance echoes from within Asriel's body."]
-                        : ['<32>{#p/basic}* ...\n* Now what?']
+                        ? ["<32>{#p/story}* Uma ressonância toda-poderosa ecoa de dentro do corpo de Asriel."]
+                        : ['<32>{#p/basic}* ...\n* Agora o que?']
                 ][
                 (SAVE.flag.b.pacifist_marker_save1 ? 1 : 0) +
                 (SAVE.flag.b.pacifist_marker_save2 ? 1 : 0) +
@@ -5332,224 +5332,224 @@ export default {
                 ],
         act_check2: () =>
             SAVE.flag.b.pacifist_marker_save1 && SAVE.flag.b.pacifist_marker_save2 && SAVE.flag.b.pacifist_marker_save3
-                ? ['<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ...']
+                ? ['<33>{#p/story}* ASRIEL DREEMURR - ATQ{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* ...']
                 : SAVE.data.b.oops
                     ? [
-                        '<33>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* The absolute GOD of hyperdeath!'
+                        '<33>{#p/story}* ASRIEL DREEMURR - ATQ{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* O absoluto DEUS da hipermorte!'
                     ]
-                    : ["<32>{#p/story}* ASRIEL DREEMURR - ATK{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Don't give up now."],
+                    : ["<32>{#p/story}* ASRIEL DREEMURR - ATQ{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* Não desista agora."],
         mercy_save1: () => [
-            "<32>{#p/human}* (You reach out to Asriel's SOUL and call for your friends.)",
+            "<32>{#p/human}* (Você alcança a ALMA de Asriel e chama seus amigos.)",
             ...(SAVE.flag.b.pacifist_marker_save1 || SAVE.flag.b.pacifist_marker_save2 || SAVE.flag.b.pacifist_marker_save3
                 ? []
-                : ["<32>{#p/basic}* They're in there somewhere, aren't they?", '<32>* ...']),
-            "<32>* Within the depths of Asriel's SOUL, something's resonating...!"
+                : ["<32>{#p/basic}* Eles estão aí dentro em algum lugar, não estão?", '<32>* ...']),
+            "<32>* Dentro da ALMA de Asriel, algo está ressoando...!"
         ],
         confrontation: [
-            '<32>{#p/human}* (After bullying so many monsters, all throughout your journey...)',
-            '<33>* (Something dormant, buried far, far down, awakens once again.)',
-            '<32>* (A sense of fear within every monster on the outpost, instilled by humans long ago.)',
-            '<32>* (The enemy who now stands before you has no right to be afraid of you...)',
-            "<32>* (Yet, somehow, the combined fear of all those you've bullied...)",
-            '<32>* (Has given you an opening you have no right to refuse.)',
-            "<32>* (... there's only one option that makes sense to you now.)",
-            "<32>* (There's only one thing left for you to do.)"
+            '<32>{#p/human}* (Após bullinar tantos monstros, durante toda sua jornada...)',
+            '<33>* (Algo adormecido, enterrado longe, muito abaixo, desperta mais uma vez.)',
+            '<32>* (Um sentimento de medo em cada monstro do Outpost, colocado pelos humanos centenas de anos atrás.)',
+            '<32>* (O inimigo que agora está diante de ti não tem o direito de ter medo de você...)',
+            "<32>* (Ainda assim, de alguma forma, o medo combinado de todos esses que você bullinou...)",
+            '<32>* (Te deu uma abertura que você não tem o direito de recusar.)',
+            "<32>* (... tem apenas uma opção que faz sentido para você agora.)",
+            "<32>* (A apenas uma coisa restando para fazer.)"
         ],
         attackTalk1: [
-            '<20>{*}{#p/asriel3}{#e/asriel/1}Wh... how did you...',
+            '<20>{*}{#p/asriel3}{#e/asriel/1}Qu... como você...',
             '<20>{*}{#p/asriel3}{#e/asriel/3}...',
-            "<20>{*}{#p/asriel3}{#e/asriel/2}Heheheh... you think you're strong enough to overpower a god?",
-            "<20>{*}{#p/asriel3}{#e/asriel/0}Well, let's see how you like THIS!"
+            "<20>{*}{#p/asriel3}{#e/asriel/2}Heheheh... você pensa que é forte o suficiente para ultrapassar um deus?",
+            "<20>{*}{#p/asriel3}{#e/asriel/0}Bem, vamos ver como você gosta DISSO!"
         ],
         attackTalk2: [
             '<20>{*}{#p/asriel3}{#e/asriel/3}...',
-            "<20>{*}{#p/asriel3}{#e/asriel/1}If you think that's gonna hurt me, you're wrong.",
-            "<20>{*}{#p/asriel3}{#e/asriel/0}I'm still the one in control here!"
+            "<20>{*}{#p/asriel3}{#e/asriel/1}Se você pensa que isso vai me ferir, você está errado.",
+            "<20>{*}{#p/asriel3}{#e/asriel/0}Eu ainda estou no controle aqui!"
         ],
         attackTalk3: [
-            '<20>{*}{#p/asriel3}{#e/asriel/2}... even if you COULD beat me...',
-            "<20>{*}{#p/asriel3}{#e/asriel/3}In doing so, you'd kill your friends, too.",
-            '<20>{*}{#p/asriel3}{#e/asriel/1}Is that what you want?\nTo be ALONE?'
+            '<20>{*}{#p/asriel3}{#e/asriel/2}... mesmo se você PUDER me derrotar...',
+            "<20>{*}{#p/asriel3}{#e/asriel/3}Fazendo isso, você também matará seus amigos.",
+            '<20>{*}{#p/asriel3}{#e/asriel/1}É isso que você quer?\nFicar SOZINHO?'
         ],
         attackTalk4: [
-            '<20>{*}{#p/asriel3}{#e/asriel/3}Come on, $(name)...\nThis is SUICIDE!',
-            "<20>{*}{#p/asriel3}{#e/asriel/5}Don't you see that!?",
-            '<20>{*}{#p/asriel3}{#e/asriel/6}The $(name) I know would never do something so STUPID!'
+            '<20>{*}{#p/asriel3}{#e/asriel/3}Qual foi, $(name)...\nIsso é SUICIDIO!',
+            "<20>{*}{#p/asriel3}{#e/asriel/5}Você não tá vendo!?",
+            '<20>{*}{#p/asriel3}{#e/asriel/6}O $(name) que eu conheço jamais faria algo tão ESTÚPIDO assim!'
         ],
         attackTalk5: [
             '<20>{*}{#p/asriel3}{#e/asriel/4}...',
-            '<20>{*}{#p/asriel3}{#e/asriel/6}Listen to me, $(name).',
-            "<20>{*}{#p/asriel3}{#e/asriel/6}You have to stop what you're doing.",
-            "<20>{*}{#p/asriel3}{#e/asriel/9}If you don't, I...",
-            "<20>{*}{#p/asriel3}{#e/asriel/7}I-I'll be forced to do something even worse!"
+            '<20>{*}{#p/asriel3}{#e/asriel/6}Me escuta, $(name).',
+            "<20>{*}{#p/asriel3}{#e/asriel/6}Você tem que parar o que está fazendo agora.",
+            "<20>{*}{#p/asriel3}{#e/asriel/9}Se você não, eu...",
+            "<20>{*}{#p/asriel3}{#e/asriel/7}Eu serei forçado a fazer algo ainda pior!"
         ],
         attackTalk6: [
-            '<20>{*}{#p/asriel3}{#e/asriel/9}$(name), please...',
-            "<20>{*}{#p/asriel3}{#e/asriel/7}You don't know what you're doing, okay?",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}It's not JUST that I want you to stop fighting me.",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}It's just that... if I let you beat me...",
-            "<20>{*}{#p/asriel3}{#e/asriel/7}I wouldn't be your equal anymore.",
-            "<20>{*}{#p/asriel3}{#e/asriel/9}I wouldn't be worthy of your respect!",
-            '<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}Damn you, $(name)...\nWhy do you ALWAYS have to WIN!?'
+            '<20>{*}{#p/asriel3}{#e/asriel/9}$(name), por favor...',
+            "<20>{*}{#p/asriel3}{#e/asriel/7}Você não sabe o que está fazendo, tá bom?",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Não é só que eu queira que você pare de lutar comigo.",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}É só que se... eu deixar você me derrotar...",
+            "<20>{*}{#p/asriel3}{#e/asriel/7}Eu não serei mais igual a você.",
+            "<20>{*}{#p/asriel3}{#e/asriel/9}Eu não serei digno de seu respeito!",
+            '20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}Vai se ferrar, $(name)...\nPor que você SEMPRE tem que VENCER!?'
         ],
         attackTalk7: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...'],
-        attackTalk7x: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), I...'],
+        attackTalk7x: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), eu...'],
         mercy_save2: [
-            '<32>{#p/human}* (Strangely, as your friends remembered you...)',
-            "<32>* (Something else began resonating within Asriel's SOUL, stronger and stronger.)",
-            "<32>* (It seems that there's still one last person that needs to be saved.)",
-            '<32>* (But who...?)',
+            '<32>{#p/human}* (Estranhamente, como seus amigos se lembraram de você...)',
+            "<32>* (Algo começou a ressoar na ALMA de Asriel, forte e mais forte.)",
+            "<32>* (Parece que existe uma pessoa que ainda precisa ser salva.)",
+            '<32>* (Mas quem...?)',
             '<32>* (...)',
-            '<32>* (... suddenly, you realize.)',
-            '<32>* (You reach out and call their name.)'
+            '<32>* (... de repente, você percebe.)',
+            '<32>* (Você alcança eles e chama seus nomes.)'
         ],
-        saveTalk1: ['<20>{*}{#p/asriel3}{#e/asriel/1}Huh? What are you doing...!?'],
+        saveTalk1: ['<20>{*}{#p/asriel3}{#e/asriel/1}Huh? O que você tá fazendo...!?'],
         saveTalk2: [
-            '<20>{*}{#p/asriel3}{#e/asriel/7}Wh... what did you do...?',
-            "<20>{*}{#p/asriel3}{#e/asriel/8}What's this feeling...? What's happening to me?",
-            "<20>{*}{#p/asriel3}{#e/asriel/1}No... NO!\nI don't need ANYONE!"
+            '<20>{*}{#p/asriel3}{#e/asriel/7}Oqu... o que você fez...?',
+            "<20>{*}{#p/asriel3}{#e/asriel/8}O que é este sentimento...? O que está acontecendo?",
+            "<20>{*}{#p/asriel3}{#e/asriel/1}Não... NÃO!\nEu não preciso de NINGUÉM!"
         ],
         saveTalk3: [
-            '<20>{*}{#p/asriel3}{#e/asriel/4}STOP IT!\nGet away from me!',
-            '<20>{*}{#p/asriel3}{#e/asriel/10}Do you hear me!?',
-            "<20>{*}{#p/asriel3}{#e/asriel/9}I'll tear you apart!"
+            '<20>{*}{#p/asriel3}{#e/asriel/4}PARA COM ISSO!\nSai de perto de mim!',
+            '<20>{*}{#p/asriel3}{#e/asriel/10}Você tá me ouvindo!?',
+            "<20>{*}{#p/asriel3}{#e/asriel/9}Eu vou te cortar ao meio!"
         ],
         saveTalk4: [
             '<20>{*}{#p/asriel3}{#e/asriel/7}...',
-            "<20>{*}{#p/asriel3}{#e/asriel/7}$(name)...\nDo you know why I'm doing this...?",
-            '<20>{*}{#p/asriel3}{#e/asriel/7}Why I keep fighting to keep you around...?'
+            "<20>{*}{#p/asriel3}{#e/asriel/7}$(name)...\nVocê sabe o por que de eu estar fazendo isso...?",
+            '<20>{*}{#p/asriel3}{#e/asriel/7}Por que eu luto para te manter por perto...?'
         ],
         saveTalk5: [
-            "<20>{*}{#p/asriel3}{#e/asriel/7}I'm doing this...",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}Because you're special, $(name).",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}You're the only one that understands me.",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}You're the only one who's any fun to play with anymore."
+            "<20>{*}{#p/asriel3}{#e/asriel/7}Eu estou fazendo...",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Porque você é especial, $(name).",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Você é o único que me entende.",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Você é o único que ainda é divertido brincar."
         ],
         saveTalk6: [
             '<20>{*}{#p/asriel3}{#e/asriel/8}...',
-            '<20>{*}{#p/asriel3}{#e/asriel/8}No...',
-            "<20>{*}{#p/asriel3}{#e/asriel/7}That's not JUST it.",
-            '<20>{*}{#p/asriel3}{#e/asriel/9}I... I...',
-            "<20>{*}{#p/asriel3}{#e/asriel/4}I'm doing this because I care about you, $(name)!",
-            '<20>{*}{#p/asriel3}{#e/asriel/3}I care about you more than anybody else!'
+            '<20>{*}{#p/asriel3}{#e/asriel/8}Não...',
+            "<20>{*}{#p/asriel3}{#e/asriel/7}Não é apenas isso.",
+            '<20>{*}{#p/asriel3}{#e/asriel/9}Eu... eu...',
+            "<20>{*}{#p/asriel3}{#e/asriel/4}Eu estou fazendo isso porque me importo com você, $(name)!",
+            '<20>{*}{#p/asriel3}{#e/asriel/3}Eu me importo com você mais do que qualquer pessoa!'
         ],
         saveTalk7: [
             '<20>{*}{#p/asriel3}{#e/asriel/7}...',
-            "<20>{*}{#p/asriel3}{#e/asriel/8}I'm not ready for this to end.",
-            "<20>{*}{#p/asriel3}{#e/asriel/8}I'm not ready for you to leave.",
-            "<20>{*}{#p/asriel3}{#e/asriel/9}I'm not ready to say goodbye to you again."
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Eu não estou pronto para acabar.",
+            "<20>{*}{#p/asriel3}{#e/asriel/8}Eu não estou pronto para te deixar ir.",
+            "<20>{*}{#p/asriel3}{#e/asriel/9}Eu não estou pronto para dizer adeus para você de novo."
         ],
         saveTalk8: [
-            '<20>{*}{#p/asriel3}{#e/asriel/10}{#i/4}{@random=1.1/1.1}So, please...\nSTOP doing this...',
-            '<20>{*}{#p/asriel3}{#e/asriel/12}{#i/4}{@random=1.2/1.2}AND JUST LET ME WIN!!!'
+            '<20>{*}{#p/asriel3}{#e/asriel/10}{#i/4}{@random=1.1/1.1}Então, por favor...\nPARA de fazer isso...',
+            '<20>{*}{#p/asriel3}{#e/asriel/12}{#i/4}{@random=1.2/1.2}E SÓ ME DEIXA GANHAR!!!'
         ],
-        cryTalk1: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}STOP IT!{^30}{%}'],
-        cryTalk2: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}STOP IT NOW!!!{^40}{%}'],
+        cryTalk1: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}PARA!{^30}{%}'],
+        cryTalk2: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}PARA AGORA!!!{^40}{%}'],
         endStatus1: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
         endTalk1: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...', '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)...'],
         endStatus2: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* Asriel...']),
-        endTalk2: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}I'm so alone, $(name)..."],
+        endTalk2: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}Eu estou tão sozinho, $(name)..."],
         endStatus3: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
-        endTalk3: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}I'm so afraid, $(name)..."],
+        endTalk3: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}Eu estou com tanto medo, $(name)..."],
         endStatus4: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
-        endTalk4: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), I...'],
-        endStatus5: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* This is all my fault...']),
-        endTalk5: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}I...']
+        endTalk4: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name), eu...'],
+        endStatus5: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* Isso é minha culpa...']),
+        endTalk5: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}Eu...']
     },
     b_opponent_lostsoul: {
-        name: '* Lost Soul',
+        name: '* Alma Perdida',
         act_check_alphys: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul is a fan of sci-fi anime.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF???\n* Parece que este Alma Perdida é uma fã de anime de ficção científica.'
         ],
         act_check_asgore: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul would rather you stay alive.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF ???\n* Parece que essa gostaria de te ver vivo.'
         ],
         act_check_papyrus: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul dreams of becoming a royal guard.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF ???\n* Parece que essa Alma Perdida sonha em se tornar da Guarda Real.'
         ],
         act_check_sans: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul just wants the best for someone.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF ???\n* Parece que essa Alma Perdida quer o melhor para alguém.'
         ],
         act_check_toriel: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul wants badly to protect you.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF ???\n* Parece que essa Alma Perdida quer muito te proteger.'
         ],
         act_check_undyne: () => [
-            '<32>{#p/story}* LOST SOUL - ATK ??? DEF ???\n* Seems this Lost Soul would like to teach you how to cook.'
+            '<32>{#p/story}* ALMA PERDIDA - ATQ ??? DEF ???\n* Essa Alma Perdida gostaria de te ensinar a cozinhar.'
         ]
     },
     b_opponent_lostsoul_a: {
         status1: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* The Lost Souls appeared.'] : ['<32>{#p/basic}* Alphys and Undyne.'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* As Almas Perdidas aparecem.'] : ['<32>{#p/basic}* Alphys e Undyne.'],
         status2: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* The Lost Souls stand there.']
-                : ['<32>{#p/basic}* Hmm... I think I know just the thing to get them to wake up.'],
+                ? ['<32>{#p/story}* As Almas Perdidas estão lá.']
+                : ['<32>{#p/basic}* Hmm... eu acho que sei uma forma de acorda-los.'],
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
-                    : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
+                    ? ['<32>{#p/human}* (Você flerta com a Alma Perdida.)', '<32>{#p/basic}* De repente...!']
+                    : ['<32>{#p/human}* (Você flerta com a Alma Perdida.)\n* (Nada acontece.)'],
             water: (s: boolean) => [
-                '<32>{#p/human}* (You offer the Lost Soul a glass of water.)',
-                '<32>{#p/human}* (She seems unimpressed by it, yet familiar with it at the same time...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você oferece um copo de água para a Alma Perdida.)',
+                '<32>{#p/human}* (Ela parece não impressionada com isso, mas familiarizada ao mesmo tempo...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             punch: (s: boolean) => [
-                '<32>{#p/human}* (You offer the Lost Soul a bottle of exoberry punch.)',
-                '<32>{#p/human}* (She seems bothered by it, yet familiar with it at the same time...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você oferece a Alma Perdida uma garrafa de Soco Exoberry.)',
+                '<32>{#p/human}* (Ela parece incomodada com isso, mas familiarizada ao mesmo tempo...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             cocoa: (s: boolean) => [
-                '<32>{#p/human}* (You offer the Lost Soul a mug of hot cocoa.)',
-                '<32>{#p/human}* (She seems comforted by it, and familiar with it as well...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você oferece a Alma Perdida um copo de Chocolate Quente.)',
+                '<32>{#p/human}* (Ela parece confortada com isso, e familiarizada com isso também...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             tea: (s: boolean) => [
-                '<32>{#p/human}* (You offer the Lost Soul a cup of Starling tea.)',
-                '<32>{#p/human}* (She seems elated by it, and familiar with it as well...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você oferece um copo de Chá Estrelado para a Alma Perdida.)',
+                '<32>{#p/human}* (Ela parece exultante com isso, e familiarizada com isso também...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             lesson: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to teach you how to cook.)',
-                "<32>{#p/human}* (She doesn't know why, but she kind of wants to oblige...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede à Alma Perdida para ensiná-lo a cozinhar.)',
+                "<32>{#p/human}* (Ela não sabe por que, mas ela meio que quer obrigar...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             trivia: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to give you trivial security questions.)',
-                "<32>{#p/human}* (She's apprehensive, but willing at the same time...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede à Alma Perdida que lhe dê perguntas triviais de segurança.)',
+                "<32>{#p/human}* (Ela está apreensiva, mas disposta ao mesmo tempo...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             escort: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to escort you through a dangerous area.)',
-                "<32>{#p/human}* (She seems hesitant, but thinks it'd be a good idea...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede para a Alma Perdida te escoltar por uma área perigosa.)',
+                "<32>{#p/human}* (Ela está hesitante, mas pensa ser uma boa ideia...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ]
         },
         assist: {
-            text: ['<32>{#p/basic}* Wake up, you two...\n* A new Mew Mew movie was found!'],
+            text: ['<32>{#p/basic}* Acordem, vocês dois...\n* Um novo filme da Mew Mew foi encontrado!'],
             talk: [
-                ["<11>{#p/undyne}{#e/undyne/13}We'll have to watch it later then!"],
-                ["<11>{#p/alphys}{#e/alphys/3}You're kidding me.\nReally??"]
+                ["<11>{#p/undyne}{#e/undyne/13}Nós vamos ter que assistir mais tarde, então!"],
+                ["<11>{#p/alphys}{#e/alphys/3}Você tá brincando?\nSério??"]
             ]
         },
         fight: [
             [
-                ['<11>{#p/undyne}{#e/undyne/4}You always were tougher than you looked.'],
-                ['<11>{#p/alphys}{#e/alphys/9}Undyne, watch out!']
+                ['11>{#p/undyne}{#e/undyne/4}Você sempre foi mais forte do que parecia.'],
+                ['<11>{#p/alphys}{#e/alphys/9}Undyne, cuidado!']
             ],
             [
-                ['<11>{#p/undyne}{#e/undyne/4}Heh, you and your silly nicknames.'],
-                ['<11>{#p/alphys}{#e/alphys/12}Now I know why they call you \"$(moniker4)!\"']
+                ['<11>{#p/undyne}{#e/undyne/4}Heh, você e seus bobos apelidos!'],
+                ['<11>{#p/alphys}{#e/alphys/12}Agora eu sei porque te chamam de \"$(moniker4)!\"']
             ]
         ],
         flirt: [
             [
-                ['<11>{#p/undyne}{#e/undyne/12}I swear if you hit on me one more time...'],
+                ['<11>{#p/undyne}{#e/undyne/12}Eu juro que se você me bater mais uma vez...'],
                 ['<11>{#p/alphys}{#e/alphys/35}Pfft.']
             ],
             [
-                ['<11>{#p/undyne}{#e/undyne/5}I DARE you to flirt with her again.'],
-                ['<11>{#p/alphys}{#e/alphys/35}Oh, bring it ON.']
+                ['<11>{#p/undyne}{#e/undyne/5}Eu te DESAFIO a flertar com ela de novo.'],
+                ['<11>{#p/alphys}{#e/alphys/35}Oh, vem pra cima!']
             ]
         ],
         idle: [
@@ -5557,150 +5557,150 @@ export default {
                 1,
                 () =>
                     2 <= SAVE.flag.n.genocide_milestone
-                        ? ["<11>{#p/undyne}There's a burning feeling I can't describe."]
-                        : ['<11>{#p/undyne}All humans must die.'],
+                        ? ["<11>{#p/undyne}Há um sentimento que não consigo descrever."]
+                        : ['<11>{#p/undyne}Todos os humanos devem morrer.'],
                 () =>
                     2 <= SAVE.flag.n.genocide_milestone
-                        ? ['<11>{#p/undyne}Everyone in the galaxy is counting on me!']
-                        : ["<11>{#p/undyne}You're our real enemy."],
+                        ? ['<11>{#p/undyne}Toda a galáxia está contando comigo!']
+                        : ["<11>{#p/undyne}Você é nosso verdadeiro inimigo."],
                 () =>
                     2 <= SAVE.flag.n.genocide_milestone
-                        ? ["<11>{#p/undyne}You're gonna have to try a little harder than THAT."]
-                        : ['<11>{#p/undyne}Mercy is for the weak.']
+                        ? ["<11>{#p/undyne}Você vai terá que se esforçar mais do que isso."]
+                        : ['<11>{#p/undyne}Piedade é para os fracos.']
             ),
             pager.create(
                 1,
                 () =>
                     6 <= SAVE.flag.n.genocide_milestone
-                        ? ['<11>{#p/alphys}You must not be as smart as I thought.']
-                        : ["<11>{#p/alphys}You want me gone, don't you?"],
+                        ? ['<11>{#p/alphys}Você não deve ser tão inteligente como eu pensei.']
+                        : ["<11>{#p/alphys}Você quer que eu suma, não é?"],
                 () =>
                     6 <= SAVE.flag.n.genocide_milestone
-                        ? ["<11>{#p/alphys}You won't change what happens next."]
-                        : ["<11>{#p/alphys}I'm just doing my job, aren't I?"],
+                        ? ["<11>{#p/alphys}Não vai mudar o que acontece depois."]
+                        : ["<11>{#p/alphys}Eu só estou fazendo meu trabalho, não estou?"],
                 () =>
                     6 <= SAVE.flag.n.genocide_milestone
-                        ? ['<11>{#p/alphys}Nobody else sees things like I do.']
-                        : ["<11>{#p/alphys}I've got to keep stalling, right?"]
+                        ? ['<11>{#p/alphys}Ninguém vê as coisas como eu vejo.']
+                        : ["<11>{#p/alphys}Eu tenho que continuar me escondendo, certo?"]
             )
         ],
         item: {
             tvm_mewmew: {
                 text: [
-                    "<32>{#p/human}* (You flash the Mew Mew Doll in the Lost Souls' faces.)",
-                    '<32>{#p/basic}* Suddenly...!'
+                    "<32>{#p/human}* (Você joga a Boneca Mew Mew nos rostos das Almas Perdidas.)",
+                    '<32>{#p/basic}* De repente...!'
                 ],
                 talk: [
-                    ['<11>{#p/undyne}{#e/undyne/41}Uh, I guess this is between you guys.'],
-                    ['<11>{#p/alphys}{#e/alphys/8}Oh, so NOW you want me to see it.']
+                    ['<11>{#p/undyne}{#e/undyne/41}Uh, eu acho que isso é entre vocês.'],
+                    ['<11>{#p/alphys}{#e/alphys/8}Oh, então AGORA você quer que eu veja.']
                 ]
             },
             orange_soda: {
                 text: [
-                    '<32>{#p/human}* (The soda seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O refrigerante parece familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/undyne}{#e/undyne/20}Yeah, she LOVES that kind of stuff.'],
-                    ["<11>{#p/alphys}{#e/alphys/10}So THAT's where my missing orange soda went!"]
+                    ['<11>{#p/undyne}{#e/undyne/20}É, ela AMA esse tipo de coisa.'],
+                    ["<11>{#p/alphys}{#e/alphys/10}Então é AQUI onde está meu refri de laranja!"]
                 ]
             },
             spaghetti: {
                 text: [
-                    '<32>{#p/human}* (The noodles seem familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O miojo é familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ["<11>{#p/undyne}{#e/undyne/20}Hey, that's Papyrus's spaghetti!"],
-                    ['<11>{#p/alphys}{#e/alphys/36}I guess you WOULD know about that, huh?']
+                    ["<11>{#p/undyne}{#e/undyne/20}Ei, esse é o espaguete do Papyrus!"],
+                    ['<11>{#p/alphys}{#e/alphys/36}Eu acho que você SABERIA sobre isso, huh?']
                 ]
             },
             snack: {
                 text: [
-                    '<32>{#p/human}* (The snack seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O lanche parece familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/undyne}{#e/undyne/41}That must be the snack I got for you.'],
-                    ['<11>{#p/alphys}{#e/alphys/6}You do snacks now?']
+                    ['<11>{#p/undyne}{#e/undyne/41}Esse é o lanche que eu te dei.'],
+                    ['<11>{#p/alphys}{#e/alphys/6}Você come lanchinhos agora?']
                 ]
             },
             starling_tea: {
                 text: [
-                    '<32>{#p/human}* (The mixture seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A mistura parece familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/undyne}{#e/undyne/18}Is that... what I think it is?'],
-                    ['<11>{#p/alphys}{#e/alphys/36}Ooh, tea time.']
+                    ['<11>{#p/undyne}{#e/undyne/18}Isso é... o que eu acho que é?'],
+                    ['<11>{#p/alphys}{#e/alphys/36}Ooh, hora do chá.']
                 ]
             }
         },
         standard: [
-            ['<11>{#p/undyne}{#e/undyne/41}Yeah, some humans are pretty cool, actually.'],
-            ["<11>{#p/alphys}{#e/alphys/9}We've been through too much together to doubt each other now!"]
+            ['<11>{#p/undyne}{#e/undyne/41}É, alguns humanos são bem legais na verdade.'],
+            ["<11>{#p/alphys}{#e/alphys/9}Nós passamos por muita coisa juntos para duvidamos uns dos outros!"]
         ]
     },
     b_opponent_lostsoul_b: {
         status1: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* The Lost Souls appeared.']
-                : ['<32>{#p/basic}* Papyrus!\n* ... and his brother.'],
+                ? ['<32>{#p/story}* As Almas Perdidas aparecem.']
+                : ['<32>{#p/basic}* Papyrus!\n* ... e seu irmão.'],
         status2: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* The Lost Souls stand there.']
-                : ['<32>{#p/basic}* Ah, right.\n* I think I might have an idea for these two...'],
+                ? ['<32>{#p/story}* As Almas Perdidas estão lá.']
+                : ['<32>{#p/basic}* Ah, certo.\n* Eu acho que tenho uma ideia pra esses dois...'],
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
-                    : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
+                    ? ['<32>{#p/human}* (Você flerta com a Alma Perdida.)', '<32>{#p/basic}* De repente...!']
+                    : ['<32>{#p/human}* (Você flerta com a Alma Perdida.)\n* (Nada acontece.)'],
             puzzle: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to give you a puzzle.)',
-                "<32>{#p/human}* (He doesn't know why, but he already has one prepared...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede para a Alma Perdida te mostrar um quebra-cabeça.)',
+                "<32>{#p/human}* (Ele não sabe porque, mas já tem um preparado...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             hangout: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to hang out with you.)',
-                "<32>{#p/human}* (He doesn't know why, but the idea excites him...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede para a Alma Perdida sair com você.)',
+                "<32>{#p/human}* (Ele não sabe o porque, mas a ideia o anima...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             judgement: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to begin your judgement.)',
-                "<32>{#p/human}* (He doesn't know why, but he feels comfortable with doing so...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede para a Alma Perdida começar seu julgamento.)',
+                "<32>{#p/human}* (Ele não sabe o porque, mas se sente confortável em fazer isso...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             dinner: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to have dinner with you.)',
-                "<32>{#p/human}* (He doesn't know why, but the request feels oddly familiar...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pede para a Alma Perdida jantar com você.)',
+                "<32>{#p/human}* (Ele não sabe o porque, mas o pedido parece bem familiar...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ]
         },
         assist: {
-            text: ['<32>{#p/basic}* Psst, Papyrus!\n* Undyne just approved you for a position in the Royal Guard!'],
+            text: ['<32>{#p/basic}* Psst, Papyrus!\n* Undyne acabou de aprovar sua posição na Guarda Real!'],
             talk: [
-                ["<08>{#p/papyrus}{#e/papyrus/12}OH MY GOD, I'M REALLY GONNA BE A ROYAL GUARD!"],
-                ['<11>{#p/sans}{#e/sans/2}we can only hope.']
+                ["<08>{#p/papyrus}{#e/papyrus/12}OH MEU DEUS, EU REALMENTE SEREI PARTE SA GUARDA REAL!"],
+                ['<11>{#p/sans}{#e/sans/2}podemos apenas desejar.']
             ]
         },
         fight: [
             [
-                ['<08>{#p/papyrus}{#e/papyrus/27}AH, I SUR- RENDER!'],
-                ["<11>{#p/sans}{#e/sans/3}i figured you'd try something like that."]
+                ['<08>{#p/papyrus}{#e/papyrus/27}AH, EU ME R-RENDO!'],
+                ["<11>{#p/sans}{#e/sans/3}eu sabia que você tentaria algo assim."]
             ],
             [
-                ['<08>{#p/papyrus}{#e/papyrus/21}SANS, ARE YOU ALRIGHT?'],
-                ["<11>{#p/sans}{#e/sans/3}don't worry, bro.\nit's just a dream, after all."]
+                ['<08>{#p/papyrus}{#e/papyrus/21}SANS, VOCÊ ESTÁ BEM?'],
+                ["<11>{#p/sans}{#e/sans/3}não se preocupe, mano.\nÉ só um sonho."]
             ]
         ],
         flirt: [
             [
-                ['<08>{#p/papyrus}{#e/papyrus/13}EVEN NOW, YOU INSIST ON YOUR AFFECT- ION...'],
-                ["<11>{#p/sans}{#e/sans/2}you just don't know when to quit, huh?"]
+                ['<08>{#p/papyrus}{#e/papyrus/13}MESMO AGORA, VOCÊ INSISTE NA SUA AFEIÇÃO...'],
+                ["<11>{#p/sans}{#e/sans/2}você só não sabe quando parar, huh?"]
             ],
             [
-                ['<08>{#p/papyrus}{#e/papyrus/14}SURELY THAT AFFECT- ION WAS MEANT FOR ME.'],
-                ["<11>{#p/sans}{#e/sans/2}what? you'd be better off with a pile of moon rocks."]
+                ['<08>{#p/papyrus}{#e/papyrus/14}COM CERTEZA ESSA AFEIÇÃO FOI VOLTADA PARA MIM.'],
+                ["<11>{#p/sans}{#e/sans/2}o quê? você estaria melhor com uma pilha de pedras lunares."]
             ]
         ],
         idle: [
@@ -5708,182 +5708,182 @@ export default {
                 1,
                 () =>
                     1 <= SAVE.flag.n.genocide_milestone
-                        ? ["<08>{#p/papyrus}I DON'T KNOW IF I CAN FORGIVE YOU..."]
-                        : ['<08>{#p/papyrus}I MUST CAPTURE A HUMAN!'],
+                        ? ["<08>{#p/papyrus}EU NÃO SEI SE POSSO TE PERDOAR..."]
+                        : ['<08>{#p/papyrus}EU DEVO CAPTURAR O HUMANO!'],
                 () =>
                     1 <= SAVE.flag.n.genocide_milestone
-                        ? ["<08>{#p/papyrus}I DON'T KNOW WHAT I'LL DO WITHOUT HIM..."]
-                        : ['<08>{#p/papyrus}THEN EVERYONE WILL...'],
+                        ? ["<08>{#p/papyrus}EU NÃO SEI O QUE FAZER SEM ELE..."]
+                        : ['<08>{#p/papyrus}ENTÃO TODO MUNDO VAI...'],
                 () =>
                     1 <= SAVE.flag.n.genocide_milestone
-                        ? ["<08>{#p/papyrus}I DON'T KNOW WHO TO TURN TO..."]
+                        ? ["<08>{#p/papyrus}EU NÃO SEI EM QUEM ME INSPIRAR..."]
                         : ['<08>{#p/papyrus}...']
             ),
             pager.create(
                 1,
                 () =>
                     1 <= SAVE.flag.n.killed_sans
-                        ? ['<11>{#p/sans}... on days like these, kids like you...']
-                        : ["<11>{#p/sans}i can't keep protecting you."],
+                        ? ['<11>{#p/sans}... em dias como esses, crianças como você...']
+                        : ["<11>{#p/sans}eu não posso continuar te protegendo."],
                 () =>
                     1 <= SAVE.flag.n.killed_sans
-                        ? ["<11>{#p/sans}you've killed me before, haven't you?"]
-                        : ["<11>{#p/sans}sooner or later, you'll just die anyway."],
+                        ? ["<11>{#p/sans}você me matou antes, não matou?"]
+                        : ["<11>{#p/sans}cedo ou tarde, você morrerá de qualquer forma."],
                 () =>
                     1 <= SAVE.flag.n.killed_sans
-                        ? ["<11>{#p/sans}you don't have the right to save us anymore."]
-                        : ["<11>{#p/sans}you don't really belong here."]
+                        ? ["<11>{#p/sans}você não tem mais o direito de nos salvar."]
+                        : ["<11>{#p/sans}você não pertence aqui."]
             )
         ],
         item: {
             berry: {
                 text: [
-                    '<32>{#p/human}* (The fruit seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A fruta parece familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/10}OOH, WE COULD TOTALLY MAKE HOMEMADE PUNCH WITH THOSE!'],
-                    ["<11>{#p/sans}{#e/sans/2}just don't make a mess like last time."]
+                    ['<08>{#p/papyrus}{#e/papyrus/10}OOH, NÓS PODEMOS FAZER SOCO EXOBERRY CASEIRO COM ISSO!'],
+                    ["<11>{#p/sans}{#e/sans/2}só não faça uma bagunça igual da última vez."]
                 ]
             },
             spaghetti: {
                 text: [
-                    '<32>{#p/human}* (The noodles seem familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O miojo é familiar para uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/10}YOU SAVED MY COOKING JUST FOR THIS!?'],
-                    ["<11>{#p/sans}{#e/sans/2}now that's just classy."]
+                    ['<08>{#p/papyrus}{#e/papyrus/10}VOCÊ SALVOU MINHA REFEIÇÃO PARA ISSO!?'],
+                    ["<11>{#p/sans}{#e/sans/2}agora isso é apenas elegante."]
                 ]
             },
             corndog: {
                 text: [
-                    '<32>{#p/human}* (The aura seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A aura parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/16}EVEN NOW, I FAIL TO FIND THE HUMOR IN THIS.'],
+                    ['<08>{#p/papyrus}{#e/papyrus/16}MESMO AGORA, EU FALHEI EM ENCONTRAR A GRAÇA NISSO.'],
                     ['<11>{#p/sans}{#e/sans/2}corn diggity doggers.']
                 ]
             },
             corngoat: {
                 text: [
-                    '<32>{#p/human}* (The aura seems familiar to one of the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A aura parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/16}WHAT??\nA CORN GOAT?'],
-                    ["<11>{#p/sans}{#e/sans/0}you've {@fill=#f00}goat{@fill=#000} to be kidding me."]
+                    ['<08>{#p/papyrus}{#e/papyrus/16}O QUE??\nCABRA QUENTE?'],
+                    ["<11>{#p/sans}{#e/sans/0}você tá {@fill=#f00}acabrando{@fill=#000} comigo."]
                 ]
             },
             quiche: {
                 text: [
-                    '<32>{#p/human}* (The pastry seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A massa parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/22}A PIECE OF \"CHEESE\" CAKE!?'],
-                    ["<11>{#p/sans}{#e/sans/2}it's a riddle worthy of its cheese."]
+                    ['<08>{#p/papyrus}{#e/papyrus/22}UM PEDAÇO DE BOLO DE \"QUEIJO\"!?'],
+                    ["<11>{#p/sans}{#e/sans/2}é um enigma digno de seu queijo."]
                 ]
             },
             fryz: {
                 text: [
-                    '<32>{#p/human}* (The drink seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A bebida parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ["<08>{#p/papyrus}{#e/papyrus/27}IT'S HOTTER THAN THE WALL OF FIRE!!"],
-                    ["<11>{#p/sans}{#e/sans/2}you're on fire now, buddo."]
+                    ["<08>{#p/papyrus}{#e/papyrus/27}É MAIS QUENTE QUE A PAREDE DE FOGO!"],
+                    ["<11>{#p/sans}{#e/sans/2}você está pegando fogo agora, mano."]
                 ]
             },
             burgerz: {
                 text: [
-                    '<32>{#p/human}* (The food seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A comida parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ["<08>{#p/papyrus}{#e/papyrus/21}ARE YOU SURE THAT'S HEALTHY?"],
-                    ['<11>{#p/sans}{#e/sans/0}one down, two to go.']
+                    ["<08>{#p/papyrus}{#e/papyrus/21}VOCÊ TEM CERTEZA QUE ISSO É SAUDÁVEL?"],
+                    ['<11>{#p/sans}{#e/sans/0}um caiu, dois faltando.']
                 ]
             },
             burgerz_use1: {
                 text: [
-                    '<32>{#p/human}* (The food seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A comida parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/24}I WORRY FOR YOUR WELL- BEING...'],
-                    ['<11>{#p/sans}{#e/sans/2}use your last one wisely now.']
+                    ['<08>{#p/papyrus}{#e/papyrus/24}EU ME PREOCUPO COM O SEU BEM- ESTAR...'],
+                    ['<11>{#p/sans}{#e/sans/2}use o último com sabedoria agora.']
                 ]
             },
             burgerz_use2: {
                 text: [
-                    '<32>{#p/human}* (The food seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (A comida parece familiar a uma das Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<08>{#p/papyrus}{#e/papyrus/18}WOW, YOU ACTUALLY ATE ALL OF THEM.'],
-                    ['<11>{#p/sans}{#e/sans/3}if only they could last forever.']
+                    ['<08>{#p/papyrus}{#e/papyrus/18}WOW, VOCÊ REALMENTE COMEU TUDO.'],
+                    ['<11>{#p/sans}{#e/sans/3}se pelo menos eles pudessem durar pra sempre.']
                 ]
             }
         },
         standard: [
-            ['<08>{#p/papyrus}{#e/papyrus/10}NO! WAIT! I COULD NEVER CAPTURE YOU!'],
-            ["<11>{#p/sans}{#e/sans/3}we're all rootin' for ya, bud."]
+            ['<08>{#p/papyrus}{#e/papyrus/10}NÃO! ESPERA! EU JAMAIS CAPTURARIA VOCÊ!'],
+            ["<11>{#p/sans}{#e/sans/3}estamos todos torcendo por ti, carinha."]
         ]
     },
     b_opponent_lostsoul_c: {
         status1: () =>
-            SAVE.data.b.oops ? ['<32>{#p/story}* The Lost Souls appeared.'] : ['<32>{#p/basic}* Mom... Dad...'],
+            SAVE.data.b.oops ? ['<32>{#p/story}* As Almas Perdidas aparecem.'] : ['<32>{#p/basic}* Mãe... Pai...'],
         status2: () =>
             SAVE.data.b.oops
-                ? ['<32>{#p/story}* The Lost Souls stand there.']
-                : ['<32>{#p/basic}* Well, they used to be my parents, so maybe I can do something simple here.'],
+                ? ['<32>{#p/story}* As Almas Perdidas estão lá.']
+                : ['<32>{#p/basic}* Bem, eles eram meus pais, então talvez eu possa fazer algo simples aqui.'],
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
-                    : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
+                    ? ['<32>{#p/human}* (Você flerta com a Alma Perdida.)', '<32>{#p/basic}* De repente...!']
+                    : ['<32>{#p/human}* (Você flerta com a Alma Perdida.)\n* (Nada acontece.)'],
             call: (s: boolean) => [
-                '<32>{#p/human}* (You call the Lost Soul on the phone.)',
+                '<32>{#p/human}* (Você liga para a Alma Perdida pelo celular.)',
                 3 <= SAVE.data.n.cell_insult
-                    ? '<32>{#p/human}* (She seems annoyed, yet nostalgic at the same time...)'
-                    : '<32>{#p/human}* (She seems delighted, and nostalgic at the same time...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                    ? '<32>{#p/human}* (Ela parece irritada, mas sente uma nostalgia...)'
+                    : '<32>{#p/human}* (Ela parece encantada e nostálgica ao mesmo tempo...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             home: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul to take you home.)',
+                '<32>{#p/human}* (Você pede para a Alma Perdida te levar para casa.)',
                 3 <= SAVE.data.n.cell_insult
-                    ? "<32>{#p/human}* (She doesn't think she should, but wants to try anyway...)"
-                    : "<32>{#p/human}* (She doesn't think she can, but wants to try anyway...)",
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                    ? "<32>{#p/human}* (Ela não acha que devia, mas tenta de toda forma...)"
+                    : "<32>{#p/human}* (Ela não acha que consegue, mas vai tentar...)",
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             hug: (s: boolean) => [
-                '<32>{#p/human}* (You give the Lost Soul a big hug.)',
-                '<32>{#p/human}* (He tries to ignore it, but the feeling of warmth is so soothing...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você da um grande abraço na Alma Perdida.)',
+                '<32>{#p/human}* (Ele tenta ignorar, mas o calor do abraço o trás lembranças...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ],
             agreement: (s: boolean) => [
-                '<32>{#p/human}* (You ask the Lost Soul about the agreement.)',
-                '<32>{#p/human}* (He thinks of dismissing it, but is tempted to elaborate...)',
-                ...(s ? ['<32>{#p/basic}* Suddenly, the memories are flooding back!'] : [])
+                '<32>{#p/human}* (Você pergunta a Alma Perdida sobre o acordo.)',
+                '<32>{#p/human}* (Ele pensa em ignorar, mas é tentado a elaborar...)',
+                ...(s ? ['<32>{#p/basic}* De repente, as memórias estão voltando!'] : [])
             ]
         },
         assist: {
-            text: ["<32>{#p/basic}* Mom... Dad...\n* Don't you recognize me?"],
-            talk: [['<11>{#p/toriel}{#e/toriel/9}Of course.'], ['<11>{#p/asgore}{#e/asgore/8}$(name)...?']]
+            text: ["<32>{#p/basic}* Mãe... Pai...\n* Vocês não me reconhecem?"],
+            talk: [['<11>{#p/toriel}{#e/toriel/9}Claro que sim.'], ['<11>{#p/asgore}{#e/asgore/8}$(name)...?']]
         },
         fight: [
             [
-                ['<11>{#p/toriel}{#e/toriel/9}I... I suppose I deserved that.'],
-                ['<11>{#p/asgore}{#e/asgore/1}Well.\nThis is awkward.']
+                ['<11>{#p/toriel}{#e/toriel/9}Eu... eu suponho que eu mereça isso.'],
+                ['<11>{#p/asgore}{#e/asgore/1}Bem. \nIsso é estranho.']
             ],
-            [['<11>{#p/toriel}{#e/toriel/17}You will be fine, Asgore.'], ['<11>{#p/asgore}{#e/asgore/8}C-child!?']]
+            [['<11>{#p/toriel}{#e/toriel/17}Você ficará bem, Asgore.'], ['<11>{#p/asgore}{#e/asgore/8}C-criança!?']]
         ],
         flirt: [
             [
-                ['<11>{#p/toriel}{#e/toriel/1}Child, please... not right now...'],
-                ['<11>{#p/asgore}{#e/asgore/6}It is fortunate we are no longer together.']
+                ['<11>{#p/toriel}{#e/toriel/1}Criança, por favor... não agora...'],
+                ['<11>{#p/asgore}{#e/asgore/6}É uma sorte não estarmos mais juntos.']
             ],
             []
         ],
@@ -5892,670 +5892,670 @@ export default {
                 1,
                 () =>
                     1 <= SAVE.flag.n.genocide_twinkly
-                        ? ['<11>{#p/toriel}To strike me down at my weakest moment...']
-                        : ['<11>{#p/toriel}This is for your own good.'],
+                        ? ['<11>{#p/toriel}Para me acertar no meu momento mais vulnerável...']
+                        : ['<11>{#p/toriel}Isso é para seu próprio bem.'],
                 () =>
                     1 <= SAVE.flag.n.genocide_twinkly
-                        ? ['<11>{#p/toriel}To think I was protecting you from them...']
-                        : ['<11>{#p/toriel}No one will ever leave again.'],
+                        ? ['<11>{#p/toriel}E pensar que eu estava te protegendo deles...']
+                        : ['<11>{#p/toriel}Ninguém jamais sairá de novo.'],
                 () =>
                     1 <= SAVE.flag.n.genocide_twinkly
-                        ? ['<11>{#p/toriel}I was a fool for trusting you...']
+                        ? ['<11>{#p/toriel}Eu fui tola de confiar em você...']
                         : ['<11>{#p/toriel}...']
             ),
             pager.create(
                 1,
                 () =>
                     7 <= SAVE.flag.n.genocide_milestone
-                        ? ['<11>{#p/asgore}Reasoning with you is a total waste of time.']
-                        : ['<11>{#p/asgore}War with humanity is inevitable.'],
+                        ? ['<11>{#p/asgore}Debater com você é uma total perda de tempo.']
+                        : ['<11>{#p/asgore}Guerra com a humanidade é inevitável.'],
                 () =>
                     7 <= SAVE.flag.n.genocide_milestone
-                        ? ["<11>{#p/asgore}Don't you have anything better to do?"]
-                        : ['<11>{#p/asgore}How could I ever forget that?'],
-                () => (7 <= SAVE.flag.n.genocide_milestone ? ['<11>{#p/asgore}Really now...'] : ['<11>{#p/asgore}...'])
+                        ? ["<11>{#p/asgore}Você não tem nada melhor para fazer?"]
+                        : ['<11>{#p/asgore}Como eu poderia me esquecer disso?'],
+                () => (7 <= SAVE.flag.n.genocide_milestone ? ['<11>{#p/asgore}Agora...'] : ['<11>{#p/asgore}...'])
             )
         ],
         item: {
             pie: {
                 text: [
-                    '<32>{#p/human}* (The aroma seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O aroma parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/0}Of course!\nThe butter- scotch cinnamon pie!'],
-                    ['<11>{#p/asgore}{#e/asgore/7}It has been so long...']
+                    ['<11>{#p/toriel}{#e/toriel/0}É claro!\nA torta de canela com caramelo!'],
+                    ['<11>{#p/asgore}{#e/asgore/7}Já faz tanto tempo desde que...']
                 ]
             },
             pie2: {
                 text: [
-                    '<32>{#p/human}* (The aroma seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O aroma parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/0}Of course!\nThe snail pie!'],
-                    ['<11>{#p/asgore}{#e/asgore/7}It has been so long...']
+                    ['<11>{#p/toriel}{#e/toriel/0}É claro!\nA torta de lesmas!'],
+                    ['<11>{#p/asgore}{#e/asgore/7}Já faz tanto tempo desde que...']
                 ]
             },
             pie3: {
                 text: [
-                    '<32>{#p/human}* (The aroma seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O aroma parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/1}To think that was the best I could manage...'],
-                    ['<11>{#p/asgore}{#e/asgore/6}How odd.\nIt smells alright, though!']
+                    ['<11>{#p/toriel}{#e/toriel/1}Pensar que era o melhor que eu conseguia...'],
+                    ['<11>{#p/asgore}{#e/asgore/6}Que estranho.\nCheira bem, no entanto!']
                 ]
             },
             starling_tea: {
                 text: [
-                    '<32>{#p/human}* (The tea seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O chá parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/13}What an antique scent...'],
-                    ['<11>{#p/asgore}{#e/asgore/21}Nothing like a good cup of tea.']
+                    ['<11>{#p/toriel}{#e/toriel/13}Que aroma antigo...'],
+                    ['<11>{#p/asgore}{#e/asgore/21}Nada como um bom copo de chá.']
                 ]
             },
             snails: {
                 text: [
-                    '<32>{#p/human}* (The dish seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O prato parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/1}You kept them all this time?'],
-                    ['<11>{#p/asgore}{#e/asgore/5}I never thought I would see THOSE again.']
+                    ['<11>{#p/toriel}{#e/toriel/1}Você ficou com isso esse tempo todo?'],
+                    ['<11>{#p/asgore}{#e/asgore/5}Eu nunca imaginei que veria ISSO de novo.']
                 ]
             },
             chocolate: {
                 text: [
-                    '<32>{#p/human}* (The cocoa seems familiar to the Lost Souls...)',
-                    '<32>{#p/basic}* Suddenly, the memories are flooding back!'
+                    '<32>{#p/human}* (O chocolate quente parece familiar para as Almas Perdidas...)',
+                    '<32>{#p/basic}* De repente, as memórias estão voltando!'
                 ],
                 talk: [
-                    ['<11>{#p/toriel}{#e/toriel/1}One-hundred percent cocoa...'],
-                    ['<11>{#p/asgore}{#e/asgore/21}It is better when it is bitter.']
+                    ['<11>{#p/toriel}{#e/toriel/1}Cem porcento cacau...'],
+                    ['<11>{#p/asgore}{#e/asgore/21}Era melhor quando era mais açucarado...']
                 ]
             }
         },
         standard: [
-            ['<11>{#p/toriel}{#e/toriel/1}Go forth, my child...'],
-            ['<11>{#p/asgore}{#e/asgore/6}Our future is in your hands!']
+            ['<11>{#p/toriel}{#e/toriel/1}Vá em frente, minha criança...'],
+            ['<11>{#p/asgore}{#e/asgore/6}Nosso futuro está em suas mãos!']
         ]
     },
     b_opponent_final: {
-        name: '* Force Field',
-        status0: ['<32>{#p/story}* The force field now stands before you.'],
+        name: '* Escudo de Força',
+        status0: ['<32>{#p/story}* O escudo de força brilha em sua frente.'],
         act_check: [
-            '<32>{#p/story}* FORCE FIELD - ATK 0 DEF{^2}\u221e{^1}\n* Immovable meets unstoppable.\n* The end of the line.'
+            '<32>{#p/story}* FORCE FIELD - ATQ 0 DEF{^2}\u221e{^1}\n* Imóvel e imparável.\n* O fim da linha.'
         ],
         status1: () =>
             SAVE.data.n.bully > 9
-                ? ["<32>{#p/story}* It's time to put your fighting spirit to good use."]
-                : ["<32>{#p/story}* It's time to bring this story to an end."],
-        status1x: ['<32>{#p/story}* All you can do is fight.'],
-        status2: ['<32>{#p/story}* The force field is dropping.'],
-        status3: ['<32>{#p/story}* The force field is near its breaking point.'],
-        status4: ['<32>{#p/story}* The force field is holding on longer than expected.'],
-        status5: ['<32>{#p/story}* Something is wrong.'],
-        friend1: ["<20>{#p/asgore}{#e/asgore/5}What's the problem?"],
-        friend2: ["<20>{#p/alphys}{#e/alphys/15}The force field... it's not going down!"],
-        friend3: ['<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\nDo you know why this is happening?'],
-        friend4a: ["<20>{#p/alphys}{#e/alphys/6}Maybe... they're not hitting it hard enough?", '{*}{#e/alphys/1}{%}'],
+                ? ["<32>{#p/story}* É hora de colocar sua capacidade de luta em uso."]
+                : ["<32>{#p/story}* É hora de dar um fim a está história."],
+        status1x: ['<32>{#p/story}* Tudo que você pode fazer é lutar.'],
+        status2: ['<32>{#p/story}* O escudo de força está enfraquecendo.'],
+        status3: ['<32>{#p/story}* O escudo de força está próximo de quebrar.'],
+        status4: ['<32>{#p/story}* O escudo de força está se segurando por mais que o esperado.'],
+        status5: ['<32>{#p/story}* Algo está errado.'],
+        friend1: ["<20>{#p/asgore}{#e/asgore/5}Qual o problema?"],
+        friend2: ["<20>{#p/alphys}{#e/alphys/15}O escudo de força... não está quebrando!"],
+        friend3: ['<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\nVocê sabe o motivo disso estar acontecendo?'],
+        friend4a: ["<20>{#p/alphys}{#e/alphys/6}Talvez... ele não esteja batendo com tanta força?", '{*}{#e/alphys/1}{%}'],
         friend4b: [
-            "<20>{#p/alphys}No, that's not it...",
+            "<20>{#p/alphys}Não, não é isso...",
             '<20>{#p/alphys}{#e/asgore/1}...',
-            '<20>{#p/alphys}{#e/alphys/2}Unless...'
+            '<20>{#p/alphys}{#e/alphys/2}Ah não ser...'
         ],
-        friend5: ['<20>{#p/asgore}... what is it?'],
+        friend5: ['<20>{#p/asgore}... o que?'],
         friend6: [
-            '<20>{#p/alphys}{#e/alphys/1}W-when I was checking the archive logs, I noticed something weird...',
-            '<21>{#p/alphys}{#e/alphys/4}There was... a small d-deviation in the exotic matter matrix.'
+            '<20>{#p/alphys}{#e/alphys/1}Q-quando eu estava checando os arquivos, percebi algo estranho...',
+            '<21>{#p/alphys}{#e/alphys/4}Havia... um pequeno d-desvio na matriz de matéria exótica.'
         ],
-        friend7: ['<20>{#p/asgore}{#e/asgore/12}In other words...?'],
+        friend7: ['<20>{#p/asgore}{#e/asgore/12}Em outras palavras?'],
         friend8: [
-            '<20>{#p/alphys}In other words, s-someone could have accessed the system.',
-            "<20>{#p/alphys}{#e/asgore/1}They could have taken some of the humans' SOUL power.",
-            '<20>{#p/alphys}{#e/alphys/6}I-I mean, it could just be a sensor glitch...',
-            "<20>{#p/alphys}{#e/alphys/1}But...\nJudging by what we're seeing..."
+            '<20>{#p/alphys}Em outras palavras, a-alguém pode ter acessado o sistema.',
+            "<20>{#p/alphys}{#e/asgore/1}Essa pessoa deve ter pego parte do poder das ALMAS humanas.",
+            '<20>{#p/alphys}{#e/alphys/6}Quero dizer, pode ser apenas uma falha no sensor...',
+            "<20>{#p/alphys}{#e/alphys/1}Mas...\nJulgando o que estamos vendo..."
         ],
-        friend9a: ['<20>{#p/asgore}{#e/asgore/1}I see.', '<20>{#p/asgore}{#e/asgore/2}I see.'],
+        friend9a: ['<20>{#p/asgore}{#e/asgore/1}Eu entendo.', '<20>{#p/asgore}{#e/asgore/2}Eu entendo.'],
         friend9b: [
-            '<20>{#p/asgore}{#e/asgore/5}I always considered the possibility that the archive could be tampered with...',
-            '<20>{#p/asgore}{#e/asgore/5}But even I did not think it would happen.'
+            '<20>{#p/asgore}{#e/asgore/5}Sempre considerei a possibilidade de que o arquivo pudesse ser adulterado...',
+            '<20>{#p/asgore}{#e/asgore/5}Mas nunca pensei que realmente aconteceria.'
         ],
-        friend9c: ['<20>{#p/asgore}{#e/asgore/1}What do we do?'],
+        friend9c: ['<20>{#p/asgore}{#e/asgore/1}O que fazemos agora?'],
         friend10: [
-            '<20>{#p/alphys}I guess... wait for another human?',
-            "<20>{#p/alphys}{#e/alphys/4}I-I'm sorry...\nI don't know what else to say...",
+            '<20>{#p/alphys}Eu acho... que esperar outro humano?',
+            "<20>{#p/alphys}{#e/alphys/4}Me d-desculpa eu... eu não sei nem o que dizer...",
             '{*}{#e/asgore/8}{#e/alphys/9}{%}'
         ],
-        friend11: ['<20>{#p/undyne}{#e/undyne/13}But I do!'],
-        friend12: ['<20>{#p/alphys}{#e/alphys/10}Undyne, w-w-what are you doing here!?', '{*}{#e/undyne/0}{%}'],
+        friend11: ['<20>{#p/undyne}{#e/undyne/13}Mas eu sei!'],
+        friend12: ['<20>{#p/alphys}{#e/alphys/10}Undyne, o-o-o que você tá fazendo aqui?', '{*}{#e/undyne/0}{%}'],
         friend13: [
-            "<20>{#p/undyne}{#e/undyne/1}{#e/alphys/8}{#e/asgore/1}Don't tell me.\nForce field's giving you a rough time?"
+            "<20>{#p/undyne}{#e/undyne/1}{#e/alphys/8}{#e/asgore/1}Não me diga.\nO escudo de força tá te dando trabalho?"
         ],
-        friend14: ['<20>{|}{#p/alphys}{#e/alphys/6}Undyne, how did you- {%}'],
-        friend15: ["<20>{#p/undyne}{#e/undyne/5}Guess I'll have to smash it myself!"],
+        friend14: ['<20>{|}{#p/alphys}{#e/alphys/6}Undyne, como você- {%}'],
+        friend15: ["<20>{#p/undyne}{#e/undyne/5}Acho que eu vou ter que esmaga-lo por conta própria!"],
         friend16a: ['<20>{#p/alphys}{#e/alphys/3}{#e/asgore/6}Undyne!?!?'],
         friend16b: [
-            '<20>{#p/undyne}{#e/undyne/4}I know, I know.\nI was just trying to make you feel better.',
+            '<20>{#p/undyne}{#e/undyne/4}Eu sei, eu sei.\nSó estou tentando fazer vocês se sentirem melhor.',
             '{*}{#e/alphys/1}{%}'
         ],
         friend17: () => [
-            '<20>{#p/undyne}{#e/undyne/3}Look... Sans found out about the human stuff and told me to come here.',
-            "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}I'll admit, I was surprised at first... but I think I get it now.",
-            "<20>{#p/undyne}{#e/undyne/13}Heck, I'm GLAD your plan worked out!",
+            '<20>{#p/undyne}{#e/undyne/3}Olha... Sans sabe sobre a parada com os humanos e me disse pra vir aqui.',
+            "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}Eu vou admitir que fiquei surpresa no começo... mas agora eu entendo.",
+            "<20>{#p/undyne}{#e/undyne/13}Cara, eu ESTOU feliz que esse plano funcionou!",
             ...(SAVE.data.b.undyne_respecc
-                ? ["<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but today's been a good showing."]
+                ? ["<20>{#p/undyne}{#e/undyne/0}Eu não dizer que GOSTO da humanidade, mas hoje foi uma boa demonstração."]
                 : [
-                    "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but I'm not against a happy ending, either."
+                    "<20>{#p/undyne}{#e/undyne/0}Não vou fingir que GOSTO da humanidade, mas também não sou contra um final feliz."
                 ]),
-            '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}I guess, as the captain of the guard, I just...'
+            '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}Eu acho que como capitã da guarda, eu só...'
         ],
         friend18: [
-            "<20>{#p/alphys}{#e/alphys/32}Hey... it's okay.",
-            "<20>{#e/alphys/31}You're here now, and that's what matters, right?"
+            "<20>{#p/alphys}{#e/alphys/32}Ei... tá tudo bem.",
+            "<20>{#e/alphys/31}Você está aqui agora e é isso que importa, certo?"
         ],
-        friend19: ["<20>{#p/undyne}{#e/undyne/14}Pfft, it's the least I can do after that movie you promised!"],
-        friend20: ['<20>{#p/alphys}{#e/alphys/33}... wanna kiss?', '{*}{#e/asgore/5}{#e/undyne/19}{%}'],
-        friend21: ['<20>{#p/asgore}{#e/asgore/5}Um.'],
-        friend22: ['<20>{#p/undyne}{#e/undyne/6}Right now???'],
-        friend23: ['<20>{#p/alphys}{#e/alphys/34}Why not?'],
-        friend24: ['<20>{#p/asgore}{#e/asgore/20}Alphys.\nThere is a child with us.'],
-        friend25: ["<21>{#p/undyne}{#e/undyne/7}We wouldn't do it in front of them, right?"],
+        friend19: ["<20>{#p/undyne}{#e/undyne/14}Pfft, é o mínimo que posso fazer após aquele filme que você prometeu!"],
+        friend20: ['<20>{#p/alphys}{#e/alphys/33}... quer beijar?', '{*}{#e/asgore/5}{#e/undyne/19}{%}'],
+        friend21: ['<20>{#p/asgore}{#e/asgore/5}?'],
+        friend22: ['<20>{#p/undyne}{#e/undyne/6}Agora???'],
+        friend23: ['<20>{#p/alphys}{#e/alphys/34}Por que não?'],
+        friend24: ['<20>{#p/asgore}{#e/asgore/20}Alphys.\nTem uma criança com a gente.'],
+        friend25: ["<21>{#p/undyne}{#e/undyne/7}Não faríamos isso na frente dele, certo?"],
         friend26: ['<32>{#p/alphys}{#e/alphys/32}...'],
         friend27: ['<20>{#p/undyne}{#e/undyne/10}...'],
-        friend28: ['<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}No hesitation.{^10}{%}'],
-        friend29: ['<15>{*}{#p/papyrus}{#e/papyrus/22}WAIT!!!{^10}{%}', '{*}{#e/papyrus/20}{%}'],
+        friend28: ['<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}Sem hesitar.{^10}{%}'],
+        friend29: ['<15>{*}{#p/papyrus}{#e/papyrus/22}ESPERE!!!{^10}{%}', '{*}{#e/papyrus/20}{%}'],
         friend30: () => [
-            "<20>{#p/mettaton}SORRY, LADIES.\nTHE BOYS' CLUB HAS ARRIVED.",
+            "<20>{#p/mettaton}DESCULPE, MOÇAS.\nMAS O CLUBE DOS GAROTOS CHEGOU.",
             ...(SAVE.data.n.state_aerialis_basebully > 9
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/1}... OH, HELLO THERE $(moniker2u)!\nIF YOU LIKE, YOU CAN BE AN \"HONORARY\" MEMBER...'
+                    '<20>{#p/mettaton}{#e/mettaton/1}... OH, OLÁ $(moniker2u)!\nSE QUISER, VOCÊ PODE SER UM MEMBRO \"HONORÁRIO'
                 ]
                 : [])
         ],
-        friend31: ["<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}hey, um... i'm not really a boy..."],
+        friend31: ["<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}ei, um... eu não sei exatamente nada, eu sou fan..."],
         friend32a: [
-            "<20>{#p/mettaton}{#e/mettaton/1}I NEVER SAID -YOU- WERE IN THE BOYS' CLUB, BLOOKY...",
-            "<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}IT'S PRETTY MUCH JUST BETWEEN ME AND PAPYRUS."
+            "<20>{#p/mettaton}{#e/mettaton/1}EU NUNCA DISSE QUE -VOCÊ- ESTAVA NO CLUBE DOS GAROTOS BLOOKY...",
+            "<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}É BASICAMENTE ENTRE EU E O PAPYRUS."
         ],
-        friend32b: ['<20>{#p/napstablook}{~}oh......', "<20>{#p/napstablook}{~}i guess i'll come back later"],
+        friend32b: ['<20>{#p/napstablook}{~}oh......', "<20>{#p/napstablook}{~}eu acho que volto mais tarde então"],
         friend33: [
-            '<20>{#p/undyne}{#e/undyne/19}{#e/mettaton/4}Wait.',
-            '<20>{#p/undyne}{#e/undyne/10}YOU TWO ARE A THING???'
+            '<20>{#p/undyne}{#e/undyne/19}{#e/mettaton/4}Pera aí.',
+            '<20>{#p/undyne}{#e/undyne/10}VOCÊS DOIS TÃO DANDO ROLÊ?'
         ],
         friend34: [
             '<15>{#p/papyrus}{#e/papyrus/15}CORRECTAMUNDO!',
-            '<17>{#p/papyrus}{#e/papyrus/24}... A WORD I HAVE NEVER USED BEFORE, AND HOPEFULLY NEVER WILL AGAIN.'
+            '<17>{#p/papyrus}{#e/papyrus/24}... UMA PALAVRA QUE NUNCA USEI E JAMAIS USAREI DE NOVO.'
         ],
         friend35: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ["<20>{#p/undyne}{#e/undyne/17}So THAT's what you've been up to all this time..."]
-                : ['<20>{#p/undyne}{#e/undyne/17}So THAT\'s what your \"business\" was about...'],
+                ? ["<20>{#p/undyne}{#e/undyne/17}Então é com ELE que você tava esse tempo todo..."]
+                : ['<20>{#p/undyne}{#e/undyne/17}Então esse era seu \"negócio\"...'],
         friend36: [
-            "<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}OHHHH YES!\nIN FACT, WE WERE JUST DISCUSSING HOW WE'D SPEND OUR FIRST DAY OUT."
+            "<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}OHHHH SIM!\nNA VERDADE, ESTÁVAMOS APENAS DISCUTINDO COMO PASSARÍAMOS NOSSO PRIMEIRO DIA FORA."
         ],
-        friend37: ['<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}Ehehe.\nI might have some ideas for you.'],
+        friend37: ['<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}Ehehe.\nEu tenho algumas ideias pra vocês.'],
         friend38: [
-            "<20>{#p/undyne}{#e/undyne/19}{#e/asgore/1}Uh, I don't think they'd be into that kinda stuff, Alphys."
+            "<20>{#p/undyne}{#e/undyne/19}{#e/asgore/1}Uh, eu acho que não é sobre esse tipo de coisa."
         ],
         friend39: ['<20>{#p/alphys}{#e/alphys/8}Oh.'],
         friend40: [
-            "<15>{#p/papyrus}{#e/papyrus/10}{#e/undyne/0}WHY DON'T WE HANG OUT HERE! AT THE FORCE FIELD!",
-            '<15>{#e/mettaton/2}{#e/papyrus/28}I KNOW YOU LOVE YOUR \"EXOTIC\" DESTINATIONS...',
+            "<15>{#p/papyrus}{#e/papyrus/10}{#e/undyne/0}POR QUE NÃO DAMOS UM ROLÊ AQUI! NO ESCUDO DE FORÇA!",
+            '<15>{#e/mettaton/2}{#e/papyrus/28}EU SEI QUE VOCÊ AMA SEUS DESTINOS \"EXÓTICOS\"...',
             '{*}{#e/alphys/7}{#e/asgore/5}{%}'
         ],
         friend41: [
-            '<20>{#p/mettaton}{#e/mettaton/2}OH, YOU REALLY -DO- KNOW ME, PAPYRUS.',
-            "<20>{#p/mettaton}{#e/mettaton/1}{#e/papyrus/13}THERE'S NOTHING I LOVE MORE THAN STARING INTO THE DEEP ABYSS OF NOTHINGNESS...",
-            '<20>{|}{#p/mettaton}{#e/mettaton/3}{#e/papyrus/21}ALL WHILE CONTEMPLATING THE MEANING OF LIFE, THE UNIVERSE, AND- {%}'
+            '<20>{#p/mettaton}{#e/mettaton/2}OH, VOCÊ REALMENTE -ME- CONHECE, PAPYRUS.',
+            "<20>{#p/mettaton}{#e/mettaton/1}{#e/papyrus/13}NÃO TEM NADA QUE EU AME MAIS DO QUE ENCARAR O ABISMO DO NADA...",
+            '<20>{|}{#p/mettaton}{#e/mettaton/3}{#e/papyrus/21}TUDO ENQUANTO CONTEMPLAMOS O SENTIDO DA VIDA, DO UNIVERSO, E- {%}'
         ],
-        friend42: ['<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}hey guys.'],
-        friend43: ['<15>{#p/papyrus}{#e/papyrus/10}{#e/mettaton/3}LONG TIME NO SEE, BROTHER!'],
+        friend42: ['<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}ei caras.'],
+        friend43: ['<15>{#p/papyrus}{#e/papyrus/10}{#e/mettaton/3}QUANTO TEMPO, IRMÃO!'],
         friend44: [
-            '<16>{#p/papyrus}{#e/sans/0}{#e/papyrus/26}IT WOULD APPEAR MY PARTNER IS... STILL NEW TO\nTHE WHOLE \"IN- LAWS\" THING.'
+            '<16>{#p/papyrus}{#e/sans/0}{#e/papyrus/26}PARECE QUE MEU PARCEIRO É... AINDA NOVO NA\nCOISA TODA DE \"SOGROS\".'
         ],
-        friend45: ['<20>{#p/sans}{#e/alphys/7}heh.\nheya, asgore.'],
-        friend46: ['<20>{#p/asgore}{#e/asgore/6}{#e/papyrus/20}Howdy, Sans.\nIt is good to see you here as well.'],
+        friend45: ['<20>{#p/sans}{#e/alphys/7}heh.\nOlá, asgore.'],
+        friend46: ['<20>{#p/asgore}{#e/asgore/6}{#e/papyrus/20}Como vai, Sans?\nÉ ótimo te ver aqui também.'],
         friend47: [
-            "<20>{#p/sans}{#e/sans/3}oh, y'know...\ni figured i'd swing by to see what all the fuss was about.",
-            '<20>{#p/sans}{#e/sans/0}but never mind me.',
-            "<20>{#p/sans}{#e/sans/2}there's someone else you might like to see."
+            "<20>{#p/sans}{#e/sans/3}oh, sabe...\nachei melhor passar por aqui para ver do que se tratava todo esse alardo.",
+            '<20>{#p/sans}{#e/sans/0}mas esquece.',
+            "<20>{#p/sans}{#e/sans/2}tem alguém aqui que você talvez goste de ver."
         ],
         friend48: [
             '<20>{#p/asgore}{#e/sans/0}{#e/undyne/3}{#e/asgore/8}{#e/papyrus/26}Tori...!',
-            '<20>{#p/asgore}{#e/asgore/6}You came back.',
+            '<20>{#p/asgore}{#e/asgore/6}Você voltou.',
             '<20>{#p/asgore}{#e/asgore/1}...'
         ],
         friend49a: [
             '<20>{#p/toriel}{#e/asgore/5}{#e/toriel/9}...',
-            '<21>{#p/toriel}{#e/toriel/13}Sans has... told me everything.'
+            '<21>{#p/toriel}{#e/toriel/13}Sans me... contou tudo.'
         ],
-        friend50a: ["<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}Don't look at me, I didn't tell him."],
+        friend50a: ["<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}Não olha pra mim, eu não contei pra ele."],
         friend51a: [
-            "<20>{#p/sans}{#e/sans/0}nah, you're right.",
-            "<20>{#p/sans}{#e/sans/2}{#e/alphys/10}{#e/asgore/6}{#e/toriel/9}you're just a terrible liar."
+            "<20>{#p/sans}{#e/sans/0}nah, você está certo.",
+            "<20>{#p/sans}{#e/sans/2}{#e/alphys/10}{#e/asgore/6}{#e/toriel/9}você só mente mal demais."
         ],
         friend52a1: [
-            '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/alphys/36}{#e/papyrus/20}I must say, I definitely expected more backlash for my keeping of secrets.'
+            '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/alphys/36}{#e/papyrus/20}Devo dizer que definitivamente esperava mais reação por manter segredos.'
         ],
         friend52a2: [
-            '<20>{#p/toriel}{#e/toriel/13}{#e/asgore/1}I will admit, I was upset at first, but...',
-            '<20>{#p/toriel}{#e/toriel/13}{#e/papyrus/21}{#e/alphys/7}Lately, I have been thinking more and more about my own mistakes.',
-            '<20>{#p/toriel}{#e/toriel/9}... you are not the only one with things to answer for, Asgore.'
+            '<20>{#p/toriel}{#e/toriel/13}{#e/asgore/1}Eu devo admitir, estava com raiva no começo, mas...',
+            '<20>{#p/toriel}{#e/toriel/13}{#e/papyrus/21}{#e/alphys/7}Eu pensei bastante sobre meus próprios erros também.',
+            '<20>{#p/toriel}{#e/toriel/9}... você não é o único com atitudes a responder, Asgore.'
         ],
-        friend52a3: ['<20>{#p/asgore}{#e/asgore/2}I see.'],
+        friend52a3: ['<20>{#p/asgore}{#e/asgore/2}Eu entendo.'],
         friend53a: [
-            '<20>{#p/undyne}{#e/undyne/1}{#e/papyrus/20}I mean, come on, did you really think we wanted all humans to die?'
+            '<20>{#p/undyne}{#e/undyne/1}{#e/papyrus/20}Quer dizer, qual foi, você realmente achou que queríamos todos os humanos mortos?'
         ],
         friend49b: [
             '<20>{#p/toriel}{#e/toriel/12}...',
-            '<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}You could have told me you were protecting them.'
+            '<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}Você deveria ter me dito que estava as protegendo.'
         ],
-        friend50b: ["<20>{#p/alphys}{#e/alphys/7}... it's not THAT bad, is it?"],
+        friend50b: ["<20>{#p/alphys}{#e/alphys/7}... não é TÃO mau, é?"],
         friend51b: [
-            '<20>{#p/sans}{#e/sans/0}{#e/undyne/3}yeah, come on, tori.\nlighten up.',
-            "<20>{#p/sans}{#e/sans/2}{#e/alphys/8}{#e/asgore/5}{#e/toriel/13}he did a good thing, didn't he?"
+            '<20>{#p/sans}{#e/sans/0}{#e/undyne/3}é, vamos lá, tori.\nAnime-se.',
+            "<20>{#p/sans}{#e/sans/2}{#e/alphys/8}{#e/asgore/5}{#e/toriel/13}ele fez algo bom, não fez?"
         ],
         friend52b1: [
-            '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/asgore/2}{#e/alphys/36}No, no, she is right in being angry.',
-            '<20>{#e/sans/3}{#e/asgore/3}I have kept this from her... from everyone... for much too long.'
+            '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/asgore/2}{#e/alphys/36}Não, não, ela está certa em ter raiva.',
+            '<20>{#e/sans/3}{#e/asgore/3}Eu mantive esse segredo dela... de todos... por tempo demais.'
         ],
-        friend52b2: ["<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}But you had a good reason, didn't you?"],
+        friend52b2: ["<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}Mas você tinha um bom motivo, não tinha?"],
         friend52b3: [
-            '<20>{#p/asgore}{#e/undyne/17}{#e/alphys/8}{#e/toriel/9}{#e/asgore/2}{#e/papyrus/27}Perhaps.\nIt is hard to tell.'
+            '<20>{#p/asgore}{#e/undyne/17}{#e/alphys/8}{#e/toriel/9}{#e/asgore/2}{#e/papyrus/27}Provavelmente.\nÉ difícil dizer.'
         ],
-        friend53b: ['<20>{#p/undyne}{#e/undyne/1}Still, did you really think we wanted all humans to die?'],
+        friend53b: ['<20>{#p/undyne}{#e/undyne/1}Ainda assim, você realmente pensou que queríamos matar todos os humanos?'],
         friend54: [
-            '<20>{#p/alphys}{#e/asgore/5}{#e/undyne/17}{#e/alphys/8}{#e/toriel/13}You literally tried to kill them, Undyne.'
+            '<20>{#p/alphys}{#e/asgore/5}{#e/undyne/17}{#e/alphys/8}{#e/toriel/13}Você literalmente tentou matar ele, Undyne.'
         ],
-        friend55: ['<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}She... what?'],
+        friend55: ['<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}Ela... o que?'],
         friend56: () =>
             SAVE.data.b.undyne_respecc
-                ? ['<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}I did no such thing!!!']
-                : ["<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}Don't worry about it, I changed my mind."],
+                ? ['<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}Eu não fiz isso!!!']
+                : ["<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}Não se preocupe com isso, eu mudei de ideia."],
         friend57: () =>
             SAVE.data.b.undyne_respecc
-                ? ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... are you sure about that, miss?']
-                : ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... we are going to have a talk about this later, miss.'],
-        friend58: ['<20>{#p/alphys}{#e/alphys/33}Ahem, that\'s \"misses\" to you.'],
+                ? ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... você tem certeza disso, moça?']
+                : ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... nós vamos ter que conversar sobre isso mais tarde, moça.'],
+        friend58: ['<20>{#p/alphys}{#e/alphys/33}Ahem, é \"senhorita\" pra você.'],
         friend59: [
-            "<20>{#p/undyne}{#e/undyne/10}{#e/sans/4}{#e/toriel/12}Alphys!!\nWe haven't even had dinner together!"
+            "<20>{#p/undyne}{#e/undyne/10}{#e/sans/4}{#e/toriel/12}Alphys!!\nNós ainda nem jantamos juntas!"
         ],
-        friend60: ['<20>{#p/alphys}{#e/alphys/34}Dinner?\nI was just gonna skip to dessert.'],
-        friend61: ['<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}OH MY GOD!!!'],
+        friend60: ['<20>{#p/alphys}{#e/alphys/34}Janta?\nAcho que eu vou pular para o prato principal.'],
+        friend61: ['<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}OH MEU SENHOR!!!'],
         friend62: [
-            '<20>{#p/undyne}{#e/undyne/38}{#e/sans/0}{#e/asgore/1}{#e/toriel/13}{#e/papyrus/20}... hold on.',
-            '<20>{#p/undyne}{#e/undyne/18}{#e/papyrus/21}How did YOU know to be here, Papyrus?'
+            '<20>{#p/undyne}{#e/undyne/38}{#e/sans/0}{#e/asgore/1}{#e/toriel/13}{#e/papyrus/20}... espera.',
+            '<20>{#p/undyne}{#e/undyne/18}{#e/papyrus/21}Como VOCÊ sabia que eu estava aqui, Papyrus?'
         ],
         friend63: [
-            '<15>{#p/papyrus}{#e/papyrus/10}OH, RIGHT!\nAFTER METTATON AND I WERE DONE TALKING...',
-            '<15>{#p/papyrus}{#e/papyrus/20}A LITTLE YELLOW STAR APPEARED AND TOLD US WE SHOULD COME.',
-            '<15>{#p/papyrus}{#e/papyrus/21}{#e/alphys/9}{#e/sans/1}IT SEEMED... URGENT.'
+            '<15>{#p/papyrus}{#e/papyrus/10}OH, CERTO!\nDEPOIS QUE EU E O METTATON CONVERSAMOS...',
+            '<15>{#p/papyrus}{#e/papyrus/20}UMA PEQUENA ESTRELA AMARELA APARECEU E ME PEDIU PARA VIR AQUI.',
+            '<15>{#p/papyrus}{#e/papyrus/21}{#e/alphys/9}{#e/sans/1}PARECIA... URGENTE.'
         ],
         friend64: ['<20>{#p/toriel}{#e/toriel/9}{#e/asgore/12}Twinkly.'],
         friend65: [
             '<20>{#p/undyne}{#e/alphys/15}Twinkly?',
-            "<20>{#p/undyne}{#e/alphys/28}{#e/undyne/37}{#e/toriel/3}Who's Twinkly?"
+            "<20>{#p/undyne}{#e/alphys/28}{#e/undyne/37}{#e/toriel/3}Quem é Twinkly?"
         ],
         friend66: () =>
             SAVE.flag.n.genocide_milestone < 7
                 ? [
-                    ['<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Howdy, everyone.', '<20>{#e/twinkly/7}{#v/0}Did you miss me?'],
+                    ['<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Howdy, pessoal.', '<20>{#e/twinkly/7}{#v/0}Sentiram minha falta?'],
                     [
-                        "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, I'm sorry...\nDid something happen to your SAVE file?",
+                        "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, me desculpa...\nAlguma coisa aconteceu com seu arquivo SALVO?",
                         '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Hee hee hee...',
-                        "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}That's what you get."
+                        "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}É isso que você ganha."
                     ],
-                    ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Sorry, but this world belongs to ME now.']
+                    ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Desculpa, mas esse mundo ME pertence agora.']
                 ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)]
                 : [
                     [
-                        '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Long time no see, $(name).',
-                        "<20>{#e/twinkly/7}{#v/0}It's been a while, hasn't it?",
-                        "<20>{#e/twinkly/11}{#v/0}I hope I'm not getting in the way of your fun...",
-                        '<20>{#e/twinkly/2}{#v/1}Considering you ROBBED me of mine.'
+                        '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Quanto tempo não nos vemos, $(name).',
+                        "<20>{#e/twinkly/7}{#v/0}Nos distanciamos muito, não foi?",
+                        "<20>{#e/twinkly/11}{#v/0}Espero não estar atrapalhando sua diversão...",
+                        '<20>{#e/twinkly/2}{#v/1}Considerando que você roubou a MINHA.'
                     ],
                     [
-                        "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}What's that?\nYou want your SAVE file back?",
+                        "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}O que?\nVocê quer seu arquivo SALVO de volta?",
                         '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, $(name)...',
-                        "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}You're even dumber than I thought!"
+                        "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}Você é mais burro do que eu pensei!"
                     ],
-                    ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Sorry, $(name).\nThis world belongs to ME now.']
+                    ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Desculpa, $(name).\nEsse mundo ME pertence agora.']
                 ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)],
         friend67: (unique: string[]) => [
             '<20>{#e/twinkly/11}{#v/0}Hee hee hee...',
-            '<20>{#e/twinkly/11}{#v/0}While you were having your little pow-wow...',
-            '<20>{#e/twinkly/5}{#v/0}I took control of the archive!',
-            '<20>{#e/twinkly/10}{#v/0}Now, all the SOUL power you had access to belongs to me.',
-            "<20>{#e/twinkly/9}{#v/0}THAT's why you couldn't finish off the force field.",
-            "<20>{#e/twinkly/11}{#v/0}Poetic, isn't it?",
-            "<20>{#e/twinkly/7}{#v/0}But that's not even the best part.",
+            '<20>{#e/twinkly/11}{#v/0}Enquanto você estava fazendo seu pow-wow...',
+            '<20>{#e/twinkly/5}{#v/0}Eu tomei controle do arquivo!',
+            '<20>{#e/twinkly/10}{#v/0}Agora, todo o acesso as ALMAS que você tinha pertence a mim.',
+            "<20>{#e/twinkly/9}{#v/0}Foi por ISSO que você não finalizou o escudo de força.",
+            "<20>{#e/twinkly/11}{#v/0}Poético, não é?",
+            "<20>{#e/twinkly/7}{#v/0}Mas essa não é a melhor parte.",
             '<20>{#e/twinkly/6}{#v/0}...',
-            "<20>{#e/twinkly/5}{#v/0}It's all your fault.",
+            "<20>{#e/twinkly/5}{#v/0}É tudo sua culpa.",
             ...(30 <= SAVE.data.n.bully
                 ? [
-                    "<20>{#e/twinkly/5}{#v/0}It's all because you LET them love you.",
-                    '<20>{#e/twinkly/8}{#v/0}You came SO close to killing them, SO many times...',
-                    '<20>{#e/twinkly/8}{#v/0}But no matter what, you chose to spare them...'
+                    "<20>{#e/twinkly/5}{#v/0}É tudo porque você DEIXOU eles te amarem.",
+                    '<20>{#e/twinkly/8}{#v/0}Você chegou tão perto de mata-los, tantas vezes...',
+                    '<20>{#e/twinkly/8}{#v/0}Mas não importava o que, você escolheu poupa-los...'
                 ]
                 : [
-                    "<20>{#e/twinkly/5}{#v/0}It's all because you MADE them love you.",
-                    '<20>{#e/twinkly/8}{#v/0}All the time you spent listening to them...',
-                    '<20>{#e/twinkly/8}{#v/0}Encouraging them... caring about them...'
+                    "<20>{#e/twinkly/5}{#v/0}Isso é tudo porque você FEZ eles te amarem.",
+                    '<20>{#e/twinkly/8}{#v/0}Todo o tempo que você passou escutando eles...',
+                    ' 20>{#e/twinkly/8}{#v/0}Encorajando eles... escutando ele...'
                 ]),
             ...(1 <= SAVE.flag.n.killed_sans
                 ? [
                     '<20>{#e/twinkly/8}{#v/0}...',
-                    '<20>You know, $(name)...',
-                    '<20>{#e/twinkly/5}I remember a timeline where WE were going to kill everyone.',
+                    '<20>Sabe, $(name)...',
+                    '<20>{#e/twinkly/5}Eu lembro de uma linha do tempo os NÓS matamos todo mundo.',
                     ...(SAVE.flag.b.confront_twinkly
                         ? [
-                            '<20>{#e/twinkly/6}{#v/0}But then... you decided to abandon me.',
-                            '<20>{#e/twinkly/8}{#v/0}All so you could play the hero to THESE losers.',
-                            '<20>{#e/twinkly/7}{#v/0}Some \"best friend\" you are, huh?'
+                            '<20>{#e/twinkly/6}{#v/0}Mas então... você decidiu me abandonar.',
+                            '<20>{#e/twinkly/8}{#v/0}Tudo pra você poder brincar de herói com ESSES fracassados.',
+                            '<20>{#e/twinkly/7}{#v/0}Que \"melhor amigo\" você é, huh?'
                         ]
                         : [
                             [
-                                '<20>{#e/twinkly/8}We only just started, but with the way we were going?',
-                                "<20>{#e/twinkly/8}We didn't get very far, but with the way we were going?",
-                                "<20>{#e/twinkly/8}We didn't quite make it to the end, but with the way we were going?",
-                                '<20>{#e/twinkly/8}To think we were actually getting somewhere...',
-                                '<20>{#e/twinkly/8}To think we were THIS close...'
+                                '<20>{#e/twinkly/8}Acabamos de começar, mas com o jeito que estávamos indo?',
+                                "<20>{#e/twinkly/8}Não fomos muito longe, mas com o caminho que estávamos indo?",
+                                "<20>{#e/twinkly/8}Não chegamos ao fim, mas com o jeito que estávamos indo?",
+                                '<20>{#e/twinkly/8}Pensar que estávamos realmente chegando a algum lugar...',
+                                '<20>{#e/twinkly/8}E pensar que estávamos TÃO perto...'
                             ][Math.min(SAVE.flag.n.genocide_milestone, 4)],
-                            '<20>{#e/twinkly/5}{#v/0}Oooh, we would have been INSEPARABLE.',
-                            '<20>{#e/twinkly/6}{#v/0}But it seems the game has changed.',
-                            '<20>{#e/twinkly/11}{#v/0}You went soft!',
-                            '<20>{#e/twinkly/7}{#v/0}You gave up.'
+                            '<20>{#e/twinkly/5}{#v/0}Oooh, nós teríamos sido INSEPARÁVEIS.',
+                            '<20>{#e/twinkly/6}{#v/0}Mas parece que o jogo mudou.',
+                            '<20>{#e/twinkly/11}{#v/0}Você ficou mole!',
+                            '<20>{#e/twinkly/7}{#v/0}Você desistiu.'
                         ]),
-                    "<20>{#e/twinkly/9}{#v/0}Golly, aren't you full of yourself.",
-                    '<20>{#e/twinkly/5}Thinking you\'re so high and mighty for being the \"good guy\" here...',
-                    '<20>{#e/twinkly/6}{#v/0}When all you did was prove how ROTTEN you really are.',
-                    '<20>{#e/twinkly/7}{#v/0}You should have known better, $(name).',
-                    '<21>{#e/twinkly/2}{#v/1}There was NOTHING\nyou could have done to save your friends.'
+                    "<20>{#e/twinkly/9}{#v/0}Senhor, você é cheio de si mesmo.",
+                    '<20>{#e/twinkly/5}Pensando que você é tão grande e poderoso por ser o \"cara legal\" aqui...',
+                    '<20>{#e/twinkly/6}{#v/0}Quando tudo que você fez foi provar o quão EGOÍSTA realmente é.',
+                    '<20>{#e/twinkly/7}{#v/0}Você deveria ser mais esperto, $(name).',
+                    '<21>{#e/twinkly/2}{#v/1}Não havia NADA que você pudesse fazer para salvar seus amigos.'
                 ]
                 : 30 <= SAVE.data.n.bully
-                    ? ["<20>{#e/twinkly/5}{#v/0}If only you knew how pointless it'd be."]
-                    : ["<20>{#e/twinkly/5}{#v/0}Without that, they wouldn't have come here."]),
+                    ? ["<20>{#e/twinkly/5}{#v/0}Se pelo menos você soubesse o quão inútil tudo isso seria."]
+                    : ["<20>{#e/twinkly/5}{#v/0}Sem tudo isso, eles não precisariam vir aqui."]),
             '<20>{#e/twinkly/11}{#v/0}Hee hee hee...',
             '<20>{#e/twinkly/6}{#v/0}Huh?',
-            '<20>WHY am I still doing this?',
+            '<20>POR QUE eu ainda estou fazendo isso?',
             ...(unique.length > 2
                 ? [
-                    '<20>{#e/twinkly/5}{#v/0}... oh, come on.',
-                    '<20>{#e/twinkly/5}{#v/0}You know the answer as well as I do.',
-                    "<20>{#e/twinkly/11}{#v/0}After all, you're the one who went from ending to ending...",
-                    '<20>{#e/twinkly/7}{#v/0}Playing with their lives just to see what would happen.',
-                    "<20>{#e/twinkly/8}{#v/0}Hm...?\nDon't you remember?",
+                    '<20>{#e/twinkly/5}{#v/0}... oh, vamos nessa.',
+                    '<20>{#e/twinkly/5}{#v/0}Você sabe a resposta assim como eu sei.',
+                    "<20>{#e/twinkly/11}{#v/0}Até porque, foi você quem tentou fim por fim...",
+                    '<20>{#e/twinkly/7}{#v/0}Brincando com suas vidas apenas para ver o que iria acontecer.',
+                    "<20>{#e/twinkly/8}{#v/0}Hm...?\nVocê não lembra?",
                     {
-                        dark_death: '<20>{#e/twinkly/5}{#v/0}From the one where Undyne and Alphys hunted you down...',
-                        dark_undyne: '<20>{#e/twinkly/5}{#v/0}From the one where Alphys returned to Bratty and Catty...',
-                        dark_alphys: '<20>{#e/twinkly/5}{#v/0}From the one where almost everyone important had died...',
+                        dark_death: '<20>{#e/twinkly/5}{#v/0}Daquele em que Undyne e Alphys te caçaram...',
+                        dark_undyne: '<20>{#e/twinkly/5}{#v/0}Daquele em que Alphys voltou a morar com Bratty e Catty...',
+                        dark_alphys: '<20>{#e/twinkly/5}{#v/0}Daquele onde quase todo mundo importante morreu...',
                         dark_alphys_therapy:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where Sans and Papyrus had a therapy company...',
+                            '<20>{#e/twinkly/5}{#v/0}Daquele em que Sans e Papyrus tinham uma empresa de terapia...',
                         dark_alphys_virtual:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where Papyrus and Alphys escaped into a virtual world...',
+                            '<20>{#e/twinkly/5}{#v/0}Daquele em que Papyrus e Alphys escaparam para um mundo virtual...',
                         dark_mew:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where Mad Mew Mew made everyone go along with her nonsense...',
+                            '<20>{#e/twinkly/5}{#v/0}Daquele em que Mad Mew Mew fez todo mundo se torturar com suas bobagens...',
                         dark_charles:
-                            "<20>{#e/twinkly/5}{#v/0}From the one where Charles brought everyone's fantasies to life...",
+                            "<20>{#e/twinkly/5}{#v/0}Daquele onde o Charles trouxe as fantasias de todos a realidade...",
                         dark_blooky:
-                            "<20>{#e/twinkly/5}{#v/0}From the one where Mettaton's fans formed an anti-human collective...",
-                        dark_generic: '<20>{#e/twinkly/5}{#v/0}From the one where the \"Royal Defense Agency\" was formed...',
+                            "<20>{#e/twinkly/5}{#v/0}Daquele em que os fãs de Mettaton formaram um grupo anti-humano...",
+                        dark_generic: '<20>{#e/twinkly/5}{#v/0}Daquele em que a \"Agência de Defesa Real\" foi formada',
                         dark_aborted:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where Napstablook told you to die a \"painful death...\"',
+                            '<20>{#e/twinkly/5}{#v/0}Daquele onde Napstablook te pediu para ter uma \"morte dolorosa...\"',
                         light_ultra:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where Papyrus captured you and got into the guard...',
-                        light_undyne: '<20>{#e/twinkly/5}{#v/0}From the one where Alphys had to hide the humans away...',
-                        light_runaway: '<20>{#e/twinkly/5}{#v/0}From the one where the humans were accidentally exposed...',
-                        light_toriel: '<20>{#e/twinkly/5}{#v/0}From the one where Toriel shut herself off from everyone...',
-                        light_dog: '<20>{#e/twinkly/5}{#v/0}From the one where dogs took over the outpost...',
-                        light_muffet: '<20>{#e/twinkly/5}{#v/0}From the one where Muffet became a ruthless dictator...',
+                            '<20>{#e/twinkly/5}{#v/0}Daquele onde Papyrus te capturou e entrou na guarda real...',
+                        light_undyne: '<20>{#e/twinkly/5}{#v/0}Daquele onde Alphys teve dê esconder os humanos...',
+                        light_runaway: '<20>{#e/twinkly/5}{#v/0}Daquele onde os humanos foram acidentalmente expostos...',
+                        light_toriel: '<20>{#e/twinkly/5}{#v/0}Daquele onde a Toriel se matou escondida de todo mundo...',
+                        light_dog: '<20>{#e/twinkly/5}{#v/0}Daquele onde os cachorros tomaram o Outpost...',
+                        light_muffet: '<20>{#e/twinkly/5}{#v/0}Daquele onde a Muffet se tornou uma ditadora...',
                         light_papyrus:
-                            '<20>{#e/twinkly/5}{#v/0}From the one where the power of friendship reigned supreme...',
-                        light_sans: '<20>{#e/twinkly/5}{#v/0}From the one where Sans ended up as the king...',
-                        light_generic: '<20>{#e/twinkly/5}{#v/0}From the one where Terrestria was appointed as queen...'
+                            '<20>{#e/twinkly/5}{#v/0}Daquele onde o poder da amizade venceu...',
+                        light_sans: '<20>{#e/twinkly/5}{#v/0}Daquele onde Sans se tornou o rei...',
+                        light_generic: '<20>{#e/twinkly/5}{#v/0}Daquele onde Terrestria se tornou a rainha...'
                     }[unique[0]]!,
                     {
-                        dark_death: '<20>{#e/twinkly/5}{#v/0}... to the one where Undyne and Alphys hunted you down.',
-                        dark_undyne: '<20>{#e/twinkly/5}{#v/0}... to the one where Alphys returned to Bratty and Catty.',
-                        dark_alphys: '<20>{#e/twinkly/5}{#v/0}... to the one where almost everyone important had died.',
+                        dark_death: '<20>{#e/twinkly/5}{#v/0}... até aquele onde Undyne e Alphys de caçaram.',
+                        dark_undyne: '<20>{#e/twinkly/5}{#v/0}... até aquele em que Alphys voltou a morar Bratty e Catty.',
+                        dark_alphys: '<20>{#e/twinkly/5}{#v/0}... até aquele onde quase todo mundo importante morreu.',
                         dark_alphys_therapy:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where Sans and Papyrus had a therapy company.',
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele onde Sans e Papyrus tinham uma companhia de terapia.',
                         dark_alphys_virtual:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where Papyrus and Alphys escaped into a virtual world.',
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele onde Papyrus e Alphys escaparam para um mundo virtual.',
                         dark_mew:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where Mad Mew Mew made everyone go along with her nonsense.',
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele em que Mad Mew Mew fez todo mundo concordar com seu absurdo.',
                         dark_charles:
-                            "<20>{#e/twinkly/5}{#v/0}... to the one where Charles brought everyone's fantasies to life.",
-                        dark_generic: '<20>{#e/twinkly/5}{#v/0}... to the one where the \"Royal Defense Agency\" was formed.',
+                            "<20>{#e/twinkly/5}{#v/0}... até aquele onde Charles trouxe a fantasia de todos para a vida.",
+                        dark_generic: '<20>{#e/twinkly/5}{#v/0}... até aquele em que a \"Agência de Defesa Real\" foi formada.',
                         dark_blooky:
-                            "<20>{#e/twinkly/5}{#v/0}... to the one where Mettaton's fans formed an anti-human collective.",
+                            "<20>{#e/twinkly/5}{#v/0}... até aquele em que os fãs de Mettaton formaram um grupo anti-humano.",
                         dark_aborted:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where Napstablook told you to die a \"painful death.\"',
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele em que Napstablook queria que você tivesse uma \"morte dolorosa.\"',
                         light_ultra:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where Papyrus captured you and got into the guard.',
-                        light_undyne: '<20>{#e/twinkly/5}{#v/0}... to the one where Alphys had to hide the humans away.',
-                        light_runaway: '<20>{#e/twinkly/5}{#v/0}... to the one where the humans were accidentally exposed.',
-                        light_toriel: '<20>{#e/twinkly/5}{#v/0}... to the one where Toriel shut herself off from everyone.',
-                        light_dog: '<20>{#e/twinkly/5}{#v/0}... to the one where dogs took over the outpost.',
-                        light_muffet: '<20>{#e/twinkly/5}{#v/0}... to the one where Muffet became a ruthless dictator.',
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele onde Papyrus te capturou e entrou na guarda real.',
+                        light_undyne: '<20>{#e/twinkly/5}{#v/0}... até aquele onde Alphys teve que esconder os humanos.',
+                        light_runaway: '<20>{#e/twinkly/5}{#v/0}... até aquele onde os humanos foram acidentalmente expostos.',
+                        light_toriel: '<20>{#e/twinkly/5}{#v/0}... até aquele onde a Toriel se matou escondida de todo mundo.',
+                        light_dog: '<20>{#e/twinkly/5}{#v/0}... até aquele onde os cachorros tomaram o Outpost.',
+                        light_muffet: '<20>{#e/twinkly/5}{#v/0}... até aquele onde a Muffet se tornou uma ditadora.',
                         light_papyrus:
-                            '<20>{#e/twinkly/5}{#v/0}... to the one where the power of friendship reigned supreme.',
-                        light_sans: '<20>{#e/twinkly/5}{#v/0}... to the one where Sans ended up as the king.',
-                        light_generic: '<20>{#e/twinkly/5}{#v/0}... to the one where Terrestria was appointed as queen.'
+                            '<20>{#e/twinkly/5}{#v/0}... até aquele onde o poder da amizade venceu.',
+                        light_sans: '<20>{#e/twinkly/5}{#v/0}... até aquele onde Sans acabou se tornando rei.',
+                        light_generic: '<20>{#e/twinkly/5}{#v/0}... até aquele onde Terrestria foi apontada como rainha.'
                     }[unique[unique.length - 1]]!,
-                    "<20>{#e/twinkly/7}{#v/0}You ENJOYED treating it all like it's just a game.",
-                    "<20>{#e/twinkly/5}{#v/0}But now it's my turn to play."
+                    "<20>{#e/twinkly/7}{#v/0}Você curtiu tratar tudo isso como um JOGO.",
+                    "<20>{#e/twinkly/5}{#v/0}Mas agora é minha vez de brincar."
                 ]
                 : [
-                    "<20>{#e/twinkly/8}{#v/0}... you just don't get it, do you?",
-                    '<20>{#e/twinkly/6}{#v/0}You, I, and everyone and everything around us...',
-                    "<21>{#e/twinkly/5}{#v/0}It's all just a GAME.",
-                    '<20>{#e/twinkly/11}{#v/0}If you leave the outpost satisfied, you\'ll \"win\" the game.',
-                    '<20>{#e/twinkly/11}If you \"win,\" you won\'t want to \"play\" with me anymore.',
-                    '<20>{#e/twinkly/7}{#v/0}And what would I do then?',
-                    '<20>{#e/twinkly/5}{#v/0}But this game between us will NEVER end.'
+                    "<20>{#e/twinkly/8}{#v/0}... você não entende, não é?",
+                    '<20>{#e/twinkly/6}{#v/0}Você, eu, e todos e todo mundo ao nosso redor...',
+                    "<21>{#e/twinkly/5}{#v/0}É tudo um JOGO.",
+                    '<20>{#e/twinkly/11}{#v/0}Se você deixar o Outpost satisfeito, você vai \"ganhar\" o jogo.',
+                    '<20>{#e/twinkly/11}Se você \"ganhar\" o jogo você não vai mais querer \"brincar\" comigo.',
+                    '<20>{#e/twinkly/7}{#v/0}E o que eu faria então?',
+                    '<20>{#e/twinkly/5}{#v/0}Mas esse jogo entre a gente JAMAIS vai acabar.'
                 ]),
-            "<20>{#e/twinkly/8}{#v/0}I'll hold victory in front of you, just within your reach...",
-            '<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}And then tear it away just before you grasp it.',
-            '<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}Over, and over, and over...',
+            "<20>{#e/twinkly/8}{#v/0}Eu vou deixar a vitória bem na sua frente, próximo do seu alcance...",
+            '<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}E então despedaçar antes que você possa pegar.',
+            '<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}De novo, e de novo, e de novo...',
             '<20>{#e/twinkly/5}{#v/0}Hee hee hee.',
-            '<20>{#e/twinkly/5}{#v/0}{#v/0}Listen.',
+            '<20>{#e/twinkly/5}{#v/0}{#v/0}Escuta.',
             ...(30 <= SAVE.data.n.bully
                 ? [
-                    '<20>{#e/twinkly/5}{#v/0}If you DO defeat me, I\'ll give you your \"ideal ending.\"',
-                    "<20>{#e/twinkly/5}{#v/0}I'll let your friends live."
+                    '<20>{#e/twinkly/5}{#v/0}Se você me derrotar eu te darei seu \"final feliz.\"',
+                    "<20>{#e/twinkly/5}{#v/0}Eu vou deixar seus amigos viverem."
                 ]
                 : [
-                    '<20>{#e/twinkly/5}{#v/0}If you DO defeat me, I\'ll give you your \"happy ending.\"',
-                    "<20>{#e/twinkly/5}{#v/0}I'll bring your friends back."
+                    '<20>{#e/twinkly/5}{#v/0}Se você me derrotar eu vou te dar seu \"final feliz.\"',
+                    "<20>{#e/twinkly/5}{#v/0}Eu vou trazer seus amigos de volta."
                 ]),
-            "<20>{#e/twinkly/5}{#v/0}I'll destroy the force field.",
-            '<20>{#e/twinkly/5}{#v/0}Everyone will finally be satisfied.',
-            "<20>{#e/twinkly/9}{#v/0}But that won't happen.",
-            '<20>{#e/twinkly/11}{#v/0}You...!',
-            "<20>{#e/twinkly/5}{#v/0}I'll keep you here no matter what!"
+            "<20>{#e/twinkly/5}{#v/0}Eu destruirei o escudo de força.",
+            '<20>{#e/twinkly/5}{#v/0}E todo mundo finalmente estará satisfeito.',
+            "<20>{#e/twinkly/9}{#v/0}Mas isso não vai acontecer.",
+            '<20>{#e/twinkly/11}{#v/0}Você...!',
+            "<20>{#e/twinkly/5}{#v/0}Eu vou te manter preso aqui não importa o quê!"
         ],
-        friend68: ['<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}Even if it means killing you until the END OF TIME!{%20}'],
-        friend69: ['<20>{#e/twinkly/8}{#v/0}What?'],
+        friend68: ['<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}Mesmo que isso signifique ter que te matar até o FIM DOS TEMPOS!{%20}'],
+        friend69: ['<20>{#e/twinkly/8}{#v/0}O quê?'],
         friend70: [
-            '<20>{#p/asgore}{#e/asgore/1}Fear not, young one...',
-            '<20>{#e/asgore/2}We are here to protect you...!'
+            '<20>{#p/asgore}{#e/asgore/1}Não temas, pequeno...',
+            '<20>{#e/asgore/2}Nós estamos aqui para te proteger...!'
         ],
         friend71: [
-            "<15>{#p/papyrus}{#e/papyrus/1}THAT'S RIGHT, HUMAN! YOU CAN WIN!",
-            '<15>{#e/papyrus/1}JUST DO WHAT I, THE GREAT PAPYRUS, WOULD DO...',
-            '<15>{#e/papyrus/2}BELIEVE IN YOU!!!'
+            "<15>{#p/papyrus}{#e/papyrus/1}EXATAMENTE, HUMANO! VOCÊ PODE VENCER!",
+            '<15>{#e/papyrus/1}É SÓ FAZER O QUE EU, O GRANDE PAPYRUS FARIA...',
+            '<15>{#e/papyrus/2}ACREDITAR EM SI MESMO!!!'
         ],
         friend72: [
-            '<20>{#p/undyne}{#e/undyne/11}Ha, if you got past ME, you can do ANYTHING.',
-            "<20>{#e/undyne/11}So don't worry...",
-            "<20>{#e/undyne/13}We're with you all the way!"
+            '<20>{#p/undyne}{#e/undyne/11}Ha, se você passou de MIM, você pode fazer TUDO.',
+            "<20>{#e/undyne/11}Então não fica com medo...",
+            "<20>{#e/undyne/13}Estamos com você até o fim!"
         ],
         friend73: [
-            "<20>{#p/sans}{#e/sans/1}huh? you haven't beaten this guy yet?",
-            "<20>{#e/sans/2}come on, this weirdo's got nothin' on you."
+            "<20>{#p/sans}{#e/sans/1}huh? você ainda não acabou com esse cara?",
+            "<20>{#e/sans/2}vamos lá, esse esquisitão não é nada pra você."
         ],
         friend74: [
-            "<20>{#p/alphys}{#e/alphys/1}Technically, it's impossible for you to beat him...",
-            '<20>{#e/alphys/2}B-but... somehow, I know you can do it!!'
+            "<20>{#p/alphys}{#e/alphys/1}Tecnicamente é impossível você derrotar ele...",
+            '<20>{#e/alphys/2}M-mas... de alguma forma, eu sei que você consegue!'
         ],
         friend75: [
-            '<20>{#p/toriel}{#e/toriel/1}My child...',
-            '<20>{#e/toriel/2}My sweet, innocent child...',
-            '<20>{#e/toriel/3}You cannot give up now!'
+            '<20>{#p/toriel}{#e/toriel/1}Minha criança...',
+            '<20>{#e/toriel/2}Minha doce, e inocente criança...',
+            '<20>{#e/toriel/3}Você não pode desistir agora!'
         ],
-        friend76: "C'mon,\nyou got\nthis!", 
-        friend77: () => (SAVE.data.n.bully < 30 ? '*em-\npowering\nwhistle*' : '*intimi-\ndated\nwhistle*'), 
-        friend78: () => (SAVE.data.n.bully < 30 ? 'Sparkle\nand\nshine!' : "Ur bad,\nbut he's\nworse."), 
-        friend79: 'Out with\nthe\nbozo!', 
+        friend76: "Vamos\nVocê\nConsegue!", 
+        friend77: () => (SAVE.data.n.bully < 30 ? '*mexida\ndo\npoder*' : '*mexida\nintimi-\ndadora*'), 
+        friend78: () => (SAVE.data.n.bully < 30 ? 'Brilhe\ne\nsorria!' : "você é mal,\nmas ele\né pior."), 
+        friend79: 'Acaba com\neste\nmané!', 
         friend80: () => (SAVE.data.n.bully < 30 ? 'la la,\nla la' : 'h-hum,\nh-hum'), 
-        friend81: 'You must\nnot\nfail.', 
-        friend82: () => (SAVE.data.n.bully < 30 ? 'Our will\nis your\nwill.' : 'Use your\nstrength\nwisely.'), 
-        friend83: () => (SAVE.data.n.bully < 30 ? 'Rock on,\nlittle\nbuddy!' : 'Go on,\nlittle\nbully.'), 
-        friend84: () => (SAVE.data.n.bully < 30 ? "We're on\nyour\nside!" : 'Wait, we\nlike you\nnow?'), 
-        friend85: () => (SAVE.data.n.bully < 30 ? 'Keep it\nreal,\ndeal?' : 'Show him\nwhat you\ngot.'), 
+        friend81: 'Você\nnão\nfalhará.', 
+        friend82: () => (SAVE.data.n.bully < 30 ? 'Nossa vontade\né sua\nVontade.' : 'Use seu\nforça\nsabiamente.'), 
+        friend83: () => (SAVE.data.n.bully < 30 ? 'Com força,\namiguinho!' : 'Só vai,\namiguinho.'), 
+        friend84: () => (SAVE.data.n.bully < 30 ? "Estamos\ndo seu\nlado!" : 'Gostamos\nde você\nagora?'), 
+        friend85: () => (SAVE.data.n.bully < 30 ? 'Mantenha\nna linha,\nbeleza?' : 'Mostre a\nele o que\nvocê tem.'), 
         friend86a: 'Ribbit.', 
-        friend86b: "Don't\ngive up!", 
+        friend86b: "Não\ndesista!", 
         friend87: [
-            '<20>{#p/twinkly}{#e/twinkly/17}Urrrgh... NO!',
-            '<20>{#e/twinkly/16}Unbelievable!!',
-            "<20>{#e/twinkly/15}This can't be happening...!",
-            '<20>{#e/twinkly/16}You... YOU...!'
+            '<20>{#p/twinkly}{#e/twinkly/17}Urrrgh... NÃO!',
+            '<20>{#e/twinkly/16}Inacreditável!!',
+            "<20>{#e/twinkly/15}Isso não pode estar acontecendo...!",
+            '<20>{#e/twinkly/16}Vocês... VOCÊS...!'
         ],
-        friend88: ["<20>{#p/twinkly}{#e/twinkly/2}I can't believe you're all so STUPID."],
-        friend89: ['<20>{*}ALL OF YOUR SOULS ARE MINE!!!!!!!!!{^40}{%}'],
+        friend88: ["<20>{#p/twinkly}{#e/twinkly/2}Eu não posso acreditar que vocês são tão ESTUPIDOS!"],
+        friend89: ['<20>{*}TODAS AS SUAS ALMAS SÃO MINHAS!!!!!!!!!{^40}{%}'],
         friend90: () =>
             1 <= SAVE.flag.n.killed_sans
-                ? ['<20>{#p/asriel1}Of course...', '<20>This is so much better than before.']
-                : ['<20>{#p/asriel1}Finally.', '<20>I was so tired of being a star.'],
-        friend91: ['<20>{#p/asriel1}Howdy!', '<20>$(name), are you there?', "<20>It's me, your best friend."],
+                ? ['<20>{#p/asriel1}É claro...', '<20>Isso é muito melhor do que antes.']
+                : ['<20>{#p/asriel1}Finalmente.', '<20>Estava cansado de ser uma estrela.'],
+        friend91: ['<20>{#p/asriel1}Howdy!', '<20>$(name), você está aí?', "<20>Sou eu, seu melhor amigo."],
         friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}'
     },
     b_opponent_finalasgore: {
         name: '* Asgore',
         death1: [
-            '<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}... so that is how it is...',
+            '<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}... então é assim...',
             '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}...',
-            '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}Take my SOUL, and leave this cursed place...',
-            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Then...',
-            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}You need not be burdened by us... ever again...',
+            '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}Tome minha ALMA, e deixe este lugar amaldiçoado...',
+            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Então...',
+            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Você não precisa ser sobrecarregado por nós... nunca mais...',
             '<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}...',
-            '<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye...'
+            '<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Adeus...'
         ]
     },
 
     i_archive: { battle: { description: '', name: '' }, drop: [], info: [], name: 'N/A', use: [] },
     i_archive_berry: {
         battle: { description: '3 HP.', name: 'Exoberries' },
-        drop: ['<32>{#p/human}* (You throw away the Exoberries.)'],
+        drop: ['<32>{#p/human}* (Você joga fora as Exoberries.)'],
         info: ['<32>{#p/human}* (3 HP.)'],
         name: 'Exoberries',
-        use: ['<32>{#p/human}* (You eat the Exoberries.)']
+        use: ['<32>{#p/human}* (Você come as Exoberries.)']
     },
     i_archive_candy: {
-        battle: { description: '4 HP.', name: 'Candy' },
-        drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
+        battle: { description: '4 HP.', name: 'Doce' },
+        drop: ['<32>{#p/human}* (Você joga fora o Doce Monstro.)'],
         info: ['<32>{#p/human}* (4 HP.)'],
-        name: 'Monster Candy',
-        use: ['<32>{#p/human}* (You eat the Monster Candy.)']
+        name: 'Doce Monstro',
+        use: ['<32>{#p/human}* (Você come o Doce Monstro.)']
     },
     i_archive_rations: {
-        battle: { description: '5 HP.', name: 'Rations' },
-        drop: ['<32>{#p/human}* (You throw away the Rations.)'],
+        battle: { description: '5 HP.', name: 'Rações' },
+        drop: ['<32>{#p/human}* (Você joga fora as rações.)'],
         info: ['<32>{#p/human}* (5 HP.)'],
-        name: 'Rations',
-        use: ['<32>{#p/human}* (You eat the Rations.)']
+        name: 'Rações',
+        use: ['<32>{#p/human}* (Você come as rações.)']
     },
     i_archive_tzn: {
         battle: { description: '6 HP.', name: 'Tofu' },
-        drop: ['<32>{#p/human}* (You throw away the Space Tofu.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Tofu Espacial.)'],
         info: ['<32>{#p/human}* (6 HP.)'],
-        name: 'Space Tofu',
-        use: ['<32>{#p/human}* (You ingest the Space Tofu.)']
+        name: 'Tofu Espacial',
+        use: ['<32>{#p/human}* (Você ingere o Tofu Espacial.)']
     },
     i_archive_nice_cream: {
-        battle: { description: '7 HP.', name: 'Ice Dream' },
-        drop: ['<32>{#p/human}* (You throw away the Ice Dream.)'],
+        battle: { description: '7 HP.', name: 'Sorvete Sonho' },
+        drop: ['<32>{#p/human}* (Você joga fora o Sorvete Sonho.)'],
         info: ['<32>{#p/human}* (7 HP.)'],
-        name: 'Ice Dream',
+        name: 'Sorvete Sonho',
         use: [
-            '<32>{#p/human}* (You unwrapped the Ice Dream.)',
-            "<32>{#p/human}* (It's a holographic illustration of a crying child.)"
+            '<32>{#p/human}* (Você desembrulhou o Sorvete Sonho.)',
+            "<32>{#p/human}* (É uma ilustração holográfica de uma criança chorando.)"
         ]
     },
     i_archive_healpak: {
-        battle: { description: '8 HP.', name: 'Heal-pak' },
-        drop: ['<32>{#p/human}* (You throw away the Heal-pak.)'],
+        battle: { description: '8 HP.', name: 'Kit Médico' },
+        drop: ['<32>{#p/human}* (Você jogou fora o Kit Médico.)'],
         info: ['<32>{#p/human}* (8 HP.)'],
-        name: 'Heal-pak',
-        use: ['<32>{#p/human}* (You use the Heal-pak.)']
+        name: 'Kit Médico',
+        use: ['<32>{#p/human}* (Você usou o Kit Médico.)']
     },
     i_big_dipper: {
         battle: {
-            description: 'A whacking spoon made with the finest alloy in the galaxy.',
-            name: 'Big Dipper'
+            description: 'Uma colher de bater feita com o melhor metal da galáxia.',
+            name: 'Grande Colher'
         },
-        drop: ['<32>{#p/human}* (You throw away the Big Dipper.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Grande Colher.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (15 AT.)']
-                : ['<32>{#p/basic}* \"Big Dipper\" (15 AT)\n* A whacking spoon made with the finest alloy in the galaxy.'],
-        name: 'Big Dipper',
-        use: ['<32>{#p/human}* (You equip the Big Dipper.)']
+                : ['<32>{#p/basic}* \"Grande Colher\" (15 AT)\n* Uma colher de bater feita com o melhor metal da galáxia.'],
+        name: 'Grande Colher',
+        use: ['<32>{#p/human}* (Você equipou a Grande Colher.)']
     },
     i_heart_locket: {
         battle: {
-            description: 'It says \"Best Friends Forever.\"',
-            name: 'Heart Locket'
+            description: 'Aqui diz \"Melhores Amigos Para Sempre.\"',
+            name: 'Pingente de Coração'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Heart Locket.)',
+            '<32>{#p/human}* (Você joga fora o Pingente de Coração.)',
             ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                 ? []
-                : ['<32>{#p/basic}* ...', "<32>{#p/basic}* I'm going to pretend you didn't just do that."])
+                : ['<32>{#p/basic}* ...', "<32>{#p/basic}* Eu vou fingir que você não acabou de fazer o que eu te vi fazer."])
         ],
         info: () =>
             SAVE.data.b.svr
                 ? ['<32>{#p/human}* (15 DF.)']
-                : ['<33>{#p/basic}* \"Heart Locket\" (15 DF)\n* It says \"Best Friends Forever.\"'],
-        name: 'Heart Locket',
-        use: ['<32>{#p/human}* (You equip the Heart Locket.)']
+                : ['<33>{#p/basic}* \"Pingente de Coração\" (15 DF)\n* Diz \"Melhores Amigos Para Sempre.\"'],
+        name: 'Pingente de Coração',
+        use: ['<32>{#p/human}* (Você equipou o Pingente de Coração.)']
     },
     i_starling_tea: {
         battle: {
-            description: 'A fine tea worthy of a king.',
-            name: 'Star Tea'
+            description: 'Um chá digno de um rei.',
+            name: 'Chá Estrelado'
         },
-        drop: ['<32>{#p/human}* (You throw away the Starling Tea.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Chá Estrelado.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (99 HP.)']
-                : ['<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n* A fine tea worthy of a king.'],
-        name: 'Starling Tea',
-        use: ['<32>{#p/human}* (You drink the Starling Tea.)']
+                : ['<32>{#p/basic}* \"Chá Estrelado\" cura 99 HP\n* Um chá digno de um rei.'],
+        name: 'Chá Estrelado',
+        use: ['<32>{#p/human}* (Você bebe o Chá Estrelado.)']
     },
 
     k_hangar: {
-        name: 'Hangar Bay Access Card',
-        description: "Used to unlock the door to the outpost's hangar bay."
+        name: 'Cartão de acesso a Saída',
+        description: "Usado para destrancar a porta de saída do Outpost."
     },
 
     k_skeleton: {
-        name: 'Skeleton Key',
+        name: 'Chave de Esqueleto',
         description: () =>
             SAVE.data.b.s_state_sansdoor
-                ? "Used to unlock the door to Sans's room."
-                : 'Given to you by Sans in the Last Corridor of the Citadel.'
+                ? "Usada para destrancar o quarto do Sans."
+                : 'Dada a você por Sans no Último Corredor da Cidadela.'
     },
 
     s_save_citadel: {
-        c_elevator1: { name: 'The Citadel', text: [] },
-        c_courtroom: { name: 'Last Corridor', text: [] },
-        c_road2: { name: 'Royal Annex', text: [] },
+        c_elevator1: { name: 'A Cidadela', text: [] },
+        c_courtroom: { name: 'Último Corredor', text: [] },
+        c_road2: { name: 'Anexo Real', text: [] },
         c_archive_start: { name: '64657465726d696e6174696f6e', text: [] },
         c_archive_path1: { name: '50617469656e6365', text: [] },
         c_archive_path2: { name: '42726176657279', text: [] },

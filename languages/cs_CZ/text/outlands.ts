@@ -23,7 +23,7 @@ const toriel_aerialis = () =>
         ? [
             '<25>{#p/toriel}{#f/1}* Slyšela jsem, že v Aerialis je jistý druh tekutiny...',
             '<25>{#f/0}* Používá se především k tlumení elektřiny.',
-            '<25>{#f/1}* Kdybys mohl nést tuto tekutinu, jak daleko bys to vzal?',
+            '<25>{#f/1}* Kdybyste mohli nést tuto tekutinu, jak daleko byste to vzali?',
             '<25>{#f/1}* Nosili byste to až do Citadely?',
             '<25>{#f/1}* Nebo byste jej jednoduše vyhodili do koše?',
             '<25>{#f/0}* Jaké by to bylo zklamání.'
@@ -42,8 +42,8 @@ const toriel_aerialis = () =>
                     '<25>{#f/0}* I když jsem to neviděla, protože nemám televizi.',
                     '<25>{#f/1}* Když jsem o tom ale slyšela, musím přiznat, že jsem byla překvapen...',
                     SAVE.data.n.state_aerialis_talentfails === 0
-                        ? '<25>{#f/2}* Jak jsi nepromeškal ani JEDINÝ čas?'
-                        : '<25>{#f/6}* Nevěděla jsem, že máš tak \"báječné\" pohyby.'
+                        ? '<25>{#f/2}* Jak jste nepromeškali ani JEDINÝ čas?'
+                        : '<25>{#f/6}* Nevěděla jsem, že máte tak \"báječné\" pohyby.'
                 ]
             : SAVE.data.n.plot < 56
                 ? [
@@ -57,15 +57,15 @@ const toriel_aerialis = () =>
                 : SAVE.data.n.plot < 59
                     ? [
                         world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-                            ? '<25>{#p/toriel}{#f/0}* Slyšela jsem, že ses objevil v televizi, maličká.'
-                            : '<25>{#p/toriel}{#f/0}* Slyšela jsem, že ses znovu objevil v televizi, maličká.',
-                        '<25>{#f/1}* Také jsem slyšela, že jsi udělal něco šokujícího...',
+                            ? '<25>{#p/toriel}{#f/0}* Slyšela jsem, že jste se objevili v televizi, maličká.'
+                            : '<25>{#p/toriel}{#f/0}* Slyšela jsem, že jste se znovu objevili v televizi, maličká.',
+                        '<25>{#f/1}* Také jsem slyšela, že jste udělali něco šokujícího...',
                         iFancyYourVilliany()
                             ? '<25>{#f/2}* A upravené ingredience k vytvoření plastické výbušniny!'
                             : SAVE.data.n.state_aerialis_crafterresult === 0
-                                ? '<25>{#f/2}* A udržel si půdu proti hrozbě blížící se exploze!'
-                                : '<25>{#f/2}* A sám jste letěl „jednorázovým přenosným jetpackem“!',
-                        '<25>{#f/3}* ... jsi...',
+                                ? '<25>{#f/2}* A udrželi si půdu proti hrozbě blížící se exploze!'
+                                : '<25>{#f/2}* A sám jste letěli „jednorázovým přenosným jetpackem“!',
+                        '<25>{#f/3}* ... jste...',
                         '<25>{#f/4}* Snažíte se ohrozit svůj život?'
                     ]
                     : SAVE.data.n.plot < 60
@@ -106,9 +106,9 @@ const toriel_aerialis = () =>
                                         : [
                                             '<25>{#p/toriel}{#f/1}* Duch Lurksalot nedávno mluvil o nějaké rodinné firmě.',
                                             '<25>{#f/5}* Zdá se, že na to už nějakou dobu mysleli.',
-                                            '<25>{#f/1}* Říkají, že jejich bratranec se tě snažil požádat o pomoc, ale...',
+                                            '<25>{#f/1}* Říkají, že jejich bratranec se tě snažili požádat o pomoc, ale...',
                                             '<25>{#f/5}* V té době jste nebyli k dispozici.',
-                                            '<25>{#f/1}* ... Měl jste k tomu dobrý důvod, že?'
+                                            '<25>{#f/1}* ... Měli jste k tomu dobrý důvod, že?'
                                         ]
                                     : SAVE.data.n.plot < 66
                                         ? [
@@ -144,7 +144,7 @@ const toriel_aerialis = () =>
                                                         : [
                                                             '<25>{#p/toriel}{#f/0}* Každý, koho znám, mluví o \"velkém finále\".',
                                                             '<25>{#p/toriel}{#f/0}* Říká se, že když tě a Mettatona sledovali, měli z toho velkou radost.',
-                                                            '<25>{#p/toriel}{#f/1}* I když jsem ráda, že se zdá, že jste se dobře bavil...',
+                                                            '<25>{#p/toriel}{#f/1}* I když jsem ráda, že se zdá, že jste se dobře bavili...',
                                                             '<25>{#p/toriel}{#f/5}* Nemohu si pomoci, ale bojím se o to, co vás nyní čeká.'
                                                         ]
                                                 : [
@@ -181,13 +181,13 @@ export default {
                 "<32>* Jinak počkám, až budeš připraven."
             ],
             d1: ['<32>{#p/basic}* Asriel.'],
-            d2: ['<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Jsi to ty...?'],
+            d2: ['<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Jste to ty...?'],
             d3: ["<32>{#p/basic}* Asriel, to jsem já...", '<32>{#p/basic}* Váš nejlepší přítel, pamatujete?'],
             d4: [
                 '<25>{#p/asriel1}{#f/25}* ...!',
                 '<25>{#f/25}* $(name)...?',
-                "<25>{#f/13}* Ale... jsi...",
-                "<25>{#f/23}* ... jsi..."
+                "<25>{#f/13}* Ale... jste...",
+                "<25>{#f/23}* ... jste..."
             ],
             d5: ['<32>{#p/basic}* Mrtvý?'],
             d6: [
@@ -299,13 +299,13 @@ export default {
                 '<32>* Watching over me, protecting me from my own bad choices...',
                 '<32>* ... all so I could one day return him the favor.'
             ],
-            d42: ["<32>{#p/basic}* It's all starting to make sense now.", '<32>* I know what I have to do.'],
-            d43: ['<25>{*}{#p/asriel1}{#f/25}* Huh?\n* What are you... {^60}{%}'],
-            d44: ['<25>{*}{#f/25}* No...!{^60}{%}', '<25>{*}{#f/26}* L... let me go!{^60}{%}'],
+            d42: ["<32>{#p/basic}* It's all starting to make sense now.", '<32>* Vím co mám dělat.'],
+            d43: ['<25>{*}{#p/asriel1}{#f/25}* Co?\n* Co... {^60}{%}'],
+            d44: ['<25>{*}{#f/25}* Ne...!{^60}{%}', '<25>{*}{#f/26}* P... pusť mě!{^60}{%}'],
             d45: ['<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* ... take care of Mom and Dad for me, okay?{^60}{%}'],
-            d46: ['<25>{#p/asriel1}{#f/25}* Frisk, are you there?', '<25>{#f/22}* Please... wake up...'],
-            d47: ["<25>{#p/asriel1}{#f/23}* I...\n* I don't want to lose you too..."],
-            d48: ['<25>{#p/asriel1}{#f/17}* ... there you are.'],
+            d46: ['<25>{#p/asriel1}{#f/25}* Frisk, jsi tam?', '<25>{#f/22}* Prosím... probuď se...'],
+            d47: ["<25>{#p/asriel1}{#f/23}* Já...\n* Nechci ti taky ztratit..."],
+            d48: ['<25>{#p/asriel1}{#f/17}* ... tady jsi.'],
             d49: [
                 "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there.",
                 "<25>{#f/22}* Don't scare me like that again, okay?",
@@ -366,7 +366,7 @@ export default {
                 "<25>{#f/13}* But... I don't really think they're an idiot."
             ],
             e3: [
-                "<25>{#p/asriel1}{#f/13}* $(name)'s not stupid.\n* And I...",
+                "<25>{#p/asriel1}{#f/13}* $(name) není hloupý.\n* A já...",
                 '<25>{#f/13}* I agreed with a lot of what they said about themselves...',
                 '<25>{#f/15}* About them not being the kind of friend I wish I had...',
                 "<25>{#f/7}* ... but it doesn't mean I wanted them gone!"
@@ -379,7 +379,7 @@ export default {
             ],
             e5: [
                 "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* If you're still there, listening...",
-                '<25>{#f/15}* I want you to know that I love you.',
+                '<25>{#f/15}* Chci, abys věděl že tě miluji.',
                 '<25>{#f/23}* You might not have been the greatest person...',
                 '<25>{#f/22}* But, deep down, you still cared about me.'
             ],
@@ -398,8 +398,8 @@ export default {
                 '<25>{#f/17}* We were lying right next to each other.',
                 "<25>{#f/13}* I tried to get up, but... they didn't want to let go.",
                 '<26>{#f/15}* They just kept saying...',
-                '<25>{#f/15}* \"... warm...\"',
-                '<25>{#f/15}* \"... fluffy...\"',
+                '<25>{#f/15}* \"... teplo...\"',
+                '<25>{#f/15}* \"... načechraný...\"',
                 '<25>{#f/20}* I would have complained about it, but...',
                 "<25>{#f/17}* ... at that point, I was just happy we weren't fighting."
             ],
@@ -433,9 +433,9 @@ export default {
                 "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
             ],
             e12: () => [
-                '<25>{#p/asriel1}{#f/17}* Frisk...\n* I want you to know.',
-                '<25>{#f/13}* Thanks to you...',
-                '<25>{#f/23}* I feel like I have a future again.',
+                '<25>{#p/asriel1}{#f/17}* Frisk...\n* Chci abys věděl.',
+                '<25>{#f/13}* Díky z tobě...',
+                '<25>{#f/23}* Cítím jako že zase mám budoucí.',
                 '<25>{#f/22}* ...',
                 ...(!SAVE.flag.b.pacifist_marker_forgive
                     ? ["<25>{#f/22}* Even though you couldn't forgive me for what I'd done..."]
@@ -445,12 +445,12 @@ export default {
                 "<25>{#f/13}* You're still willing to help me move past it all.",
                 '<25>{#f/23}* ... it means a lot.',
                 '<25>{#f/22}* ...',
-                '<25>{#f/13}* Mom, Dad...',
+                '<25>{#f/13}* Máma, Táta...',
                 '<25>{#f/13}* Sans, Papyrus, Undyne, Alphys...',
                 "<25>{#f/15}* Everyone I've killed in past realities...",
                 "<25>{#f/16}* ... it's going to be difficult for me to face them.",
                 '<25>{#f/13}* ...',
-                "<25>{#f/17}* But I'll try.",
+                "<25>{#f/17}* Ale zkusím.",
                 "<25>{#f/23}* I'll try to be a better person.",
                 '<25>{#f/22}* And, If I ever screw up...',
                 "<25>{#f/13}* ... I know you'll be there to help me pick up the pieces."
@@ -778,20 +778,20 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You approach the vending machine.)',
-                    choicer.create('* (What will you make?)', 'Candy', 'Water', 'Δ-9', 'Nothing')
+                    choicer.create('* (Co budeš vytvořit?)', 'Bonbón', 'Voda', 'Δ-9', 'Nic')
                 ]
                 : [
                     '<32>{#p/basic}* Synthesize something with the vending machine?',
-                    choicer.create('* (What will you make?)', 'Candy', 'Water', 'Δ-9', 'Nothing')
+                    choicer.create('* (Co budeš vytvořit?)', 'Bonbón', 'Voda', 'Δ-9', 'Nic')
                 ],
-        candy2: ['<32>{#p/human}* (You got the $(x).)\n* (Press [C] to open the menu.)'],
-        candy3: ['<32>{#p/human}* (You got the $(x).)'],
+        candy2: ['<32>{#p/human}* (Získal jsi $(x).)\n* (Stiskni [C] pro otevření menu.)'],
+        candy3: ['<32>{#p/human}* (Získal jsi $(x).)'],
         candy4: () => [
-            '<32>{#p/human}* (You got the $(x).)',
+            '<32>{#p/human}* (Získal jsi $(x).)',
             ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* The machine is beginning to malfunction.'])
         ],
         candy5: () => [
-            '<32>{#p/human}* (You got the $(x).)',
+            '<32>{#p/human}* (Získal jsi $(x).)',
             ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* The machine broke down.'])
         ],
         candy6: () =>
@@ -824,11 +824,11 @@ export default {
         chair1a: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n* Are you hungry?',
             '<25>{#f/0}* Perhaps you would like to know more about the book I am reading.',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+            choicer.create('{#n1!}* (Co říkáte?)', 'Hungry', 'Book', 'Home', 'Nic')
         ],
         chair1b: () => [
-            '<25>{#p/toriel}{#n1}* What is it, my child?',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+            '<25>{#p/toriel}{#n1}* Co je to, moje dítě?',
+            choicer.create('{#n1!}* (Co říkáte?)', 'Hungry', 'Book', 'Home', 'Nic')
         ],
         chair1c: ['<25>{#p/toriel}{#n1}* Well, let me know if you need anything.'],
         chair1d: ['<25>{#p/toriel}{#n1}* Well, let me know if you change your mind.'],
@@ -957,11 +957,11 @@ export default {
         chair2c8: ['<25>{#f/0}{#n1}* Well, that is all.'],
         chair2d1: [
             '<25>{#p/toriel}{#f/1}{#n1}* Home...?\n* Could you be a little more specific?',
-            choicer.create('* (What do you say?)', 'Never\nmind', 'When can I\ngo home?')
+            choicer.create('* (Co říkáte?)', 'Never\nmind', 'When can I\ngo home?')
         ],
         chair2d2: [
             '<25>{#p/toriel}{#f/1}{#n1}* But... this is your home now, is it not?',
-            choicer.create('* (What do you say?)', '\nSorry', 'How to exit\nthe Outlands')
+            choicer.create('* (Co říkáte?)', '\nSorry', 'How to exit\nthe Outlands')
         ],
         chair2d3: [
             '<25>{#p/toriel}{#f/5}{#n1}* Please, try to understand...',
@@ -969,7 +969,7 @@ export default {
         ],
         chair2d4: [
             '<25>{#p/toriel}{#f/5}{#n1}* My child...',
-            choicer.create('* (What do you say?)', '\nSorry', 'How to exit\nthe Outlands')
+            choicer.create('* (Co říkáte?)', '\nSorry', 'How to exit\nthe Outlands')
         ],
         chair2d5: ['<25>{#p/toriel}{#f/5}{#n1}* ...'],
         chair2d6: [
@@ -1064,7 +1064,7 @@ export default {
                 : ["<32>{#p/basic}* This terminal's staggering height towers over you, blocking your eager approach."],
         danger_puzzle3: () => [
             [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
-                ? '<25>{#p/toriel}{#f/3}* What is it now...'
+                ? '<25>{#p/toriel}{#f/3}* Co je to teď...'
                 : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
         ],
         danger_puzzle4: () => [
@@ -1193,7 +1193,7 @@ export default {
             '<32>* That talking star really needs to get a life...'
         ],
         endtwinklyA1: [
-            '<25>{#p/twinkly}{#f/12}* You idiot...',
+            '<25>{#p/twinkly}{#f/12}* Ty idiote...',
             "<25>* Didn't you hear me before!?",
             '<25>* I thought I told you not to screw it up!',
             "<25>* Now look what you've done to our plan.",
@@ -1204,7 +1204,7 @@ export default {
         endtwinklyA2: () =>
             SAVE.flag.n.genocide_milestone < 1
                 ? [
-                    '<25>{#p/twinkly}{#f/5}* Howdy, $(name).',
+                    '<25>{#p/twinkly}{#f/5}* Ahoj, $(name).',
                     "<25>{#f/5}* Seems you don't want to play with me anymore.",
                     '<25>{#f/6}* I tried being patient with you, but here we are...',
                     '<25>{#f/6}* Back at the beginning again.',
@@ -1217,7 +1217,7 @@ export default {
                     "<25>{#f/7}* Sooner or later, you're going to regret what you've done."
                 ]
                 : [
-                    '<25>{#p/twinkly}{#f/6}* Howdy, $(name).',
+                    '<25>{#p/twinkly}{#f/6}* Ahoj, $(name).',
                     ...(SAVE.flag.n.genocide_milestone < 7
                         ? [
                             "<25>{#f/6}* I've had some time to think about what happened.",
@@ -1253,7 +1253,7 @@ export default {
                     "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
                 ]
                 : [
-                    '<25>{#p/twinkly}{#f/5}{#v/0}* Clever.\n* Verrrryy clever.',
+                    '<25>{#p/twinkly}{#f/5}{#v/0}* Chytrý.\n* Velmiiiii chytrý.',
                     "<25>{#f/11}{#v/0}* You think you're really smart, don'tcha?",
                     '<25>{#f/7}{#v/0}* Hee hee hee...',
                     "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
@@ -1284,7 +1284,7 @@ export default {
             '<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?',
             "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die...",
             "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying.",
-            '<25>{#f/11}{#v/0}* What then, huh?',
+            '<25>{#f/11}{#v/0}* Co pak, co?',
             '<25>{#f/2}{#v/1}* Will you KILL out of frustration?',
             '<25>{#f/14}{#v/1}* Or will you simply GIVE UP?',
             '<25>{#f/11}{#v/0}* Hee hee hee...',
@@ -1295,7 +1295,7 @@ export default {
             SAVE.data.b.w_state_lateleave
                 ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly people's way."
                 : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a few measly people.',
-            '<25>{#f/11}{#v/0}* But what about the others, huh?',
+            '<25>{#f/11}{#v/0}* Ale co ostatní, co?',
             '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
             "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
             "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
@@ -1308,10 +1308,10 @@ export default {
             SAVE.data.b.w_state_lateleave
                 ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of one person's way."
                 : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a single person.',
-            '<25>{#f/11}{#v/0}* But what about everyone else, huh?',
+            '<25>{#f/11}{#v/0}* Ale co všichni ostatní, co?',
             '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
             "<25>{#f/0}{#v/0}* They're all gone now.",
-            "<25>{#f/11}{#v/0}* What's Toriel gonna do when she finds out, huh?",
+            "<25>{#f/11}{#v/0}* Co udělá Toriel, až to zjistí, co?",
             '<25>{#f/2}{#v/1}* What if she KILLS herself out of grief?',
             "<25>{#f/11}{#v/0}* If you think you're saving her just by SPARING her...",
             "<25>{#f/7}{#v/0}* Then you're even dumber than I thought.",
@@ -1322,8 +1322,8 @@ export default {
                 ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of almost everyone's way."
                 : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of almost everyone.',
             SAVE.data.b.w_state_lateleave
-                ? '<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DID get in the way of, huh?'
-                : "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DIDN'T spare, huh?",
+                ? '<25>{#p/twinkly}{#f/11}{#v/0}* Ale co ten, kterému jste TY stáli v cestě, co?'
+                : "<25>{#p/twinkly}{#f/11}{#v/0}* Ale co ten, kterého jste NEŠETŘILI, co?",
             '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
             "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
             "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
@@ -1357,7 +1357,7 @@ export default {
             "<25>{#f/9}{#v/0}* I'll be watching!"
         ],
         endtwinklyD: [
-            "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
+            "<25>{#p/twinkly}{#f/11}{#v/0}* Jsi sakra vtipálek, co?",
             '<25>{#f/8}{#v/0}* Beating monsters to the brink of death, only to let them go...',
             "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
             '<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?',
@@ -1396,17 +1396,17 @@ export default {
             '<25>{#f/9}{#v/0}* Well, cya!'
         ],
         endtwinklyG1: [
-            '<25>{#p/twinkly}{#f/6}{#v/0}* Again?\n* Golly...',
+            '<25>{#p/twinkly}{#f/6}{#v/0}* Zase?\n* Sakra...',
             '<25>{#f/0}{#v/1}* You REALLY remind me of myself.'
         ],
         endtwinklyG2: [
-            '<25>{#p/twinkly}{#f/6}{#v/0}* Again!?',
+            '<25>{#p/twinkly}{#f/6}{#v/0}* Zase!?',
             "<25>{#f/8}{#v/0}* Wow, you're even worse than I thought."
         ],
         endtwinklyH: () => [
             SAVE.data.b.w_state_lateleave
-                ? "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally gotten by peacefully, huh?"
-                : "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally decided to show mercy, huh?",
+                ? "<25>{#p/twinkly}{#f/5}{#v/0}* Takže jste se konečně dočkali, co?"
+                : "<25>{#p/twinkly}{#f/5}{#v/0}* Takže jste se konečně rozhodli projevit milosrdenství, co?",
             '<25>{#f/5}{#v/0}* And after all that KILLING...',
             '<25>{#f/11}{#v/0}* Say, was this your idea all along?',
             '<25>{#f/2}{#v/1}* To get a rush out of her death, then spare her once you got bored?',
@@ -1425,18 +1425,18 @@ export default {
         ],
         endtwinklyIX: [
             '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
-            '<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?',
+            '<25>{#f/11}{#v/0}* Takže jste konečně ustoupili a někoho zabili, co?',
             '<25>{#f/7}{#v/0}* Well, I hope you like your choice.',
             "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
             "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed.",
             "<25>{#f/8}{#v/0}* ... what's wrong?\n* Did she not last as long as you thought?",
             '<26>{#f/6}{#v/0}* Oh, how terrible.\n* Guess not everyone can be beat into submission.'
         ],
-        endtwinklyIA: ['<25>{#f/11}{#v/0}* What an idiot!'],
+        endtwinklyIA: ['<25>{#f/11}{#v/0}* Jaký idiot!'],
         endtwinklyIAX: ['<25>{#f/7}{#v/0}* What a shame for her.'],
         endtwinklyIB: ['<25>{#f/6}{#v/0}* As for you...'],
         endtwinklyJ: [
-            '<25>{#p/twinkly}{#f/6}{#v/0}* Wow.',
+            '<25>{#p/twinkly}{#f/6}{#v/0}* Páni.',
             '<25>{#f/7}{#v/0}* And here I thought you were the righteous one for showing mercy.',
             '<25>{#f/11}{#v/0}* Hah!\n* What a joke.',
             '<25>{#f/6}{#v/0}* ...',
@@ -1510,9 +1510,9 @@ export default {
             '<25>{#f/11}{#v/0}* What a joke!'
         ],
         endtwinklyL: [
-            '<25>{#p/twinkly}{#f/6}{#v/0}* Back again, huh?\n* Golly...',
+            '<25>{#p/twinkly}{#f/6}{#v/0}* Zase zpátky, huh?\n* Sakra...',
             "<25>{#f/8}{#v/0}* You've changed the timeline around so much...",
-            "<25>{#f/6}{#v/0}* I don't even know what to think now.",
+            "<25>{#f/6}{#v/0}* Teď ani nevím co si myslet.",
             '<25>{#f/8}{#v/0}* Are you good?\n* Evil?\n* Just curious?',
             '<25>{#f/6}{#v/0}* I dunno.',
             '<25>{#f/5}{#v/0}* There is one thing, though...',
@@ -1589,7 +1589,7 @@ export default {
                         "<25>{*}{#f/6}* We don't have time for this, $(name).\n* Get back on track."
                     ],
                     [
-                        '<25>{*}{#p/twinkly}{#f/5}* Come on, $(name)...',
+                        '<25>{*}{#p/twinkly}{#f/5}* No tak, $(name)...',
                         sleep
                             ? "<25>{*}{#f/7}* Do you really think I'm gonna let you avoid me THAT easily?"
                             : "<25>{*}{#f/7}* Do you really think I'm gonna let you run away from me THAT easily?"
@@ -1679,7 +1679,7 @@ export default {
             '<25>{#p/toriel}{#f/1}* ... and you want to play one of your songs?',
             '<25>{#f/0}* Alright, I will see what I can do.'
         ],
-        front1x: ['<25>{#p/toriel}{#f/1}* ... hello?'],
+        front1x: ['<25>{#p/toriel}{#f/1}* ... haló?'],
         front2: () => [
             ...(world.postnoot
                 ? [
@@ -1826,7 +1826,7 @@ export default {
                 : ['<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.']),
             '<25>{#f/1}* Do you think you can make it to the end of this room...',
             '<25>{#f/1}* ... all by yourself?',
-            choicer.create('* (What do you say?)', 'Ano', 'Ne')
+            choicer.create('* (Co říkáte?)', 'Ano', 'Ne')
         ],
         indie1a: () => [
             '<25>{#p/toriel}{#f/1}* Are you sure...?',
@@ -1892,7 +1892,7 @@ export default {
         indie5: [
             [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/toriel}* Hello!\n* This is Toriel.',
+                '<25>{#p/toriel}* Ahoj!\n* To je Toriel.',
                 '<25>* My errands are taking longer than I thought they would.',
                 '<25>* You must wait a little longer.',
                 '<25>{#f/1}* Thank you for being patient, my child...',
@@ -1900,7 +1900,7 @@ export default {
             ],
             [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<25>{#p/toriel}* Hello...\n* This is Toriel.',
+                '<25>{#p/toriel}* Ahoj...\n* To je Toriel.',
                 '<25>{#f/1}* I found what I was looking for...',
                 '<25>{#f/0}* But a small, white puppy snatched it away!\n* How odd.',
                 '<25>{#f/1}* Do dogs even like flour?',
@@ -1912,10 +1912,10 @@ export default {
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
                 '<32>{#p/basic}* (...)',
                 '<32>{#p/human}* (You hear heavy panting on the other end of the phone.)',
-                '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                 '<32>{#p/human}* (You hear a distant voice.)',
                 '<25>{#p/toriel}{#f/2}* Stop, please!',
-                '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                 '<25>{#p/toriel}{#f/1}* Come back here with my cell phone!'
             ],
             [
@@ -1924,7 +1924,7 @@ export default {
                 '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the phone.)',
                 '<32>{#p/basic}* (Snore... snore...)',
                 '<32>{#p/human}* (You hear a distant voice.)',
-                '<25>{#p/toriel}{#f/1}* Hellooo?\n* Little puppy...?',
+                '<25>{#p/toriel}{#f/1}* Haloo?\n* Malé štěně...?',
                 '<25>{#f/1}* Where are youuu?',
                 '<25>{#f/0}* I will give you a nice pat on the head!',
                 '<32>{#p/human}* (The snoring stops.)',
@@ -1945,14 +1945,14 @@ export default {
             [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
                 '<32>{#p/human}* (You hear a distant voice.)',
-                '<25>{#p/toriel}{#f/1}* Hello...\n* This is... Toriel...',
-                '<32>{#s/bark}{#p/event}* Bark!\n* Bark!',
+                '<25>{#p/toriel}{#f/1}* Ahoj...\n* To je... Toriel...',
+                '<32>{#s/bark}{#p/event}* Štěk!\n* Štěk!',
                 '<25>{#p/toriel}{#f/2}* No, bad puppy!',
                 '<32>{#p/basic}* (Whimper... whimper...)',
                 '<25>{#p/toriel}* There, there...\n* I will find another cell phone for you.',
                 '<25>{#f/1}* Would that be alright?',
                 '<32>{#p/basic}* (...)',
-                '<32>{#s/bark}{#p/event}* Bark!',
+                '<32>{#s/bark}{#p/event}* Štěk!',
                 '<25>{#p/toriel}* Glad to hear it.',
                 '<32>{#p/human}* (The dog could be heard walking away.)',
                 '<25>{#p/toriel}* Please, forgive me for all of this nonsense.',
@@ -1971,7 +1971,7 @@ export default {
                     '<25>{#f/1}* It would be a shame if you got hurt.'
                 ]
                 : [
-                    '<25>{#p/toriel}* Hello?\n* This is Toriel.',
+                    '<25>{#p/toriel}* Haló?\n* To je Toriel.',
                     '<25>{#f/1}* You have not left the room, have you?',
                     '<25>{#f/0}* There are many dangers out there, and I do not want you to get hurt.',
                     '<25>{#f/1}* Take care of yourself, alright?'
@@ -2190,8 +2190,8 @@ export default {
             a: () => [
                 '<32>{#p/event}* Ring, ring...',
                 3 <= SAVE.data.n.cell_insult
-                    ? '<25>{#p/toriel}* Hello, child.'
-                    : '<25>{#p/toriel}* Hello?\n* This is Toriel.',
+                    ? '<25>{#p/toriel}* Ahoj, dítě.'
+                    : '<25>{#p/toriel}* Haló?\n* To je Toriel.',
                 '<25>{#f/1}* For no reason in particular...',
                 '<25>{#f/0}* Do you prefer cinnamon, or butterscotch?',
                 choicer.create('* (Which do you prefer?)', 'Cinnamon', 'Bscotch'),
@@ -2202,15 +2202,15 @@ export default {
             b: () => [
                 '<32>{#p/event}* Ring, ring...',
                 3 <= SAVE.data.n.cell_insult
-                    ? '<25>{#p/toriel}* Hello, child.'
-                    : '<25>{#p/toriel}* Hello?\n* This is Toriel.',
+                    ? '<25>{#p/toriel}* Ahoj, dítě.'
+                    : '<25>{#p/toriel}* Haló?\n* To je Toriel.',
                 [
                     '<25>{#f/1}* You do not DISLIKE butterscotch, do you?',
                     '<25>{#f/1}* You do not DISLIKE cinnamon, do you?'
                 ][SAVE.data.n.choice_flavor],
                 '<25>{#f/1}* I know what your preference is, but...',
                 '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-                choicer.create('* (What do you say?)', 'Ano', 'Ne')
+                choicer.create('* (Co říkáte?)', 'Ano', 'Ne')
             ],
             b1: () => [
                 3 <= SAVE.data.n.cell_insult
@@ -2235,7 +2235,7 @@ export default {
             ],
             d: [
                 '<32>{#p/event}* Ring, ring...',
-                '<25>{#p/toriel}{#f/1}* Hello, little one.',
+                '<25>{#p/toriel}{#f/1}* Ahoj, maličká.',
                 '<25>{#f/0}* I realize now that it has been a while since I cleaned up.',
                 '<25>{#f/1}* There are likely plenty of things strewn about...',
                 '<25>{#f/0}* You may pick them up if you like, but do not try to carry too much.',
@@ -2782,18 +2782,18 @@ export default {
             w_froggit: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human.)',
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Promiňte, člověce.)',
                         '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
                         "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
                         '<32>* Ribbit.'
                     ]
                     : [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human...)',
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Promiňte, člověce...)',
                         '<32>* (I have some advice for you about battling monsters.)',
                         '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
                         '<32>* (They might not want to battle you anymore.)',
                         '<32>* (If a monster does not want to fight you, please...)',
-                        '<32>* (Use some {@fill=#ff0}MERCY{@fill=#fff}, human.)\n* Ribbit.'
+                        '<32>* (Použijte trochu {@fill=#ff0}SLITOVÁNÍ{@fill=#fff}, člověce.)\n* Ribbit.'
                     ],
             w_froggit_view: () =>
                 SAVE.data.b.svr
@@ -2830,35 +2830,35 @@ export default {
             w_pacing1: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Someone passed by here not too long ago.)',
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Před nedávnem tu někdo prošel.)',
                         '<32>* (He told me not to tell you where he was going.)',
                         "<32>* (I wasn't going to, but then, he just seemed so sad...)",
                         "<32>* (He's probably at the platform just past the entrance now.)",
-                        '<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.',
+                        '<32>* (Jdi. Promluvte si s ním. Něco dobrého z toho vzejde.)\n* Ribbit.',
                         '<32>{#p/basic}* ... Asriel...'
                     ]
                     : [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Sigh...)',
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Povzdech...)',
                         '<32>* (My \"friend\" doesn\'t really like being kind to me.)',
                         '<32>* (If given the option, they choose to hurt me instead.)',
                         "<32>* (That's right.......)\n* (Hurting me............)\n* (................)",
-                        "<32>* (At least you're kind to me.)\n* Ribbit."
+                        "<32>* (Aspoň jste na mě hodný.)\n* Ribbit."
                     ],
             w_pacing2: () =>
                 SAVE.data.n.plot === 72
                     ? SAVE.data.b.oops
                         ? [
-                            '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                            '<32>{#p/basic}* Ribbit, ribbit.\n* (Ahoj, člověce...)',
                             '<32>* (Have you heard from my friend?)',
                             '<32>* (They were standing here a few days ago, just to my left...)',
                             '<32>* (But some time after your arrival, they disappeared.)',
                             "<32>* (They did say they'd leave if you hurt anyone...)",
                             SAVE.data.n.exp <= 0
-                                ? "<32>* (Which is confusing, since you definitely haven't done that.)\n* Ribbit."
+                                ? "<32>* (Což je matoucí, protože jste to rozhodně neudělali.)\n* Ribbit."
                                 : '<32>* (Maybe next time, you could try being a little nicer?)\n* Ribbit.'
                         ]
                         : [
-                            '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                            '<32>{#p/basic}* Ribbit, ribbit.\n* (Ahoj, člověce...)',
                             "<32>* (My friend is the happiest they've ever been.)",
                             "<32>* (They said they'd leave if you hurt anyone, but you haven't.)",
                             "<32>* (In fact, they've decided to stay to my left forever.)",
@@ -2866,7 +2866,7 @@ export default {
                             '<32>* (Oh, he seems to have turned himself into a goat.)\n* Ribbit.'
                         ]
                     : [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Ahoj, člověce...)',
                         '<32>* (Have you ever tried checking your ITEMs?)',
                         "<32>* (If you've picked up anything, that's where you'll find it.)",
                         '<32>* (What do I have in my ITEMs, you ask?)',
@@ -3659,77 +3659,77 @@ export default {
         tutorial_puzzle8b: ['<25>{#p/toriel}* Try repeating what you have done before.'],
         tutorial_puzzle8c: ['<25>{#p/toriel}{#f/1}* Go on...'],
         twinkly1: [
-            "<25>{#p/twinkly}{#f/5}* Howdy!\n* I'm {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} the {@fill=#ff0}STAR{@fill=#fff}!"
+            "<25>{#p/twinkly}{#f/5}* Ahoj!\n* Jsem {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} {@fill=#ff0}HVĚZDA{@fill=#fff}!"
         ],
         twinkly2: [
-            '<25>{#f/5}* What brings you to the outpost, fellow traveler?',
+            '<25>{#f/5}* Co tě přivádí na základnu, cestovatel?',
             '<25>{#f/5}* ...',
-            "<25>{#f/8}* You're lost, aren't you...",
-            "<25>{#f/5}* Well, good thing I'm here for you!",
-            "<25>{#f/8}* I haven't been in my top form for a while, but...",
-            '<25>{#f/5}* ... someone ought to teach you how things work around here!',
-            '<25>{#f/10}* Guess little old me will have to do.',
-            "<25>{#f/5}* Let's get started, shall we?"
+            "<25>{#f/8}* Jsi ztracen, nejsi...",
+            "<25>{#f/5}* Dobře, že jsem tu pro vás!",
+            "<25>{#f/8}* Už nějakou dobu nejsem ve své nejlepší formě, ale...",
+            '<25>{#f/5}* ... někdo by vás měl naučit, jak to tady funguje!',
+            '<25>{#f/10}* Hádám, že malý starý já budu muset udělat.',
+            "<25>{#f/5}* Začněme, ano?"
         ],
         twinkly3: [
-            "<25>{#f/7}* But you already KNEW that, didn'tcha?",
+            "<25>{#f/7}* Ale to už jsi VĚDĚL, že?",
             '<25>{#f/8}* ...',
-            "<25>{#f/5}* Still, it's up to me to show you the ropes.",
-            "<25>* Let's get started, shall we?"
+            "<25>{#f/5}* Přesto je na mně, abych vám ukázal lana.",
+            "<25>* Začněme, ano?"
         ],
         twinkly4: [
-            "<25>{#p/twinkly}{#f/6}* Okay, that's enough.",
-            '<25>{#f/8}* If you wanna keep resetting, then by all means...',
-            '<25>{#f/6}* Do as you wish.',
-            "<25>{#f/7}* Just don't expect to get past me so easily."
+            "<25>{#p/twinkly}{#f/6}* Dobře, to stačí.",
+            '<25>{#f/8}* Pokud chcete pokračovat v resetování, pak rozhodně...',
+            '<25>{#f/6}* Dělejte, jak chcete.',
+            "<25>{#f/7}* Jen nečekejte, že mě tak snadno obejdete."
         ],
-        twinkly5: ["<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?"],
+        twinkly5: ["<25>{#p/twinkly}{#f/6}* Nemáte nic lepšího na práci?"],
         twinkly6: [
-            "<25>{#p/twinkly}{#f/6}* Resetting right after you've taken your first hit, huh?",
-            '<25>{#f/7}* How pathetic.'
+            "<25>{#p/twinkly}{#f/6}* Resetování hned po prvním zásahu, co?",
+            '<25>{#f/7}* Jak ubohé.'
         ],
         twinkly6a: [
-            "<25>{#p/twinkly}{#f/11}* As if you think I'd forget about what you did...",
-            '<25>{#f/7}* Filthy shard dodger.'
+            "<25>{#p/twinkly}{#f/11}* Jako byste si mysleli, že zapomenu na to, co jste udělali...",
+            '<25>{#f/7}* Špinavý podvodník na střepy.'
         ],
-        twinkly7: ['<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot.'],
-        twinkly8: ["<25>{#f/11}* Either way, since you already know what's coming next...{%15}"],
+        twinkly7: ['<25>{#p/twinkly}{#f/7}* Tu hru můžu hrát celý den, idiote.'],
+        twinkly8: ["<25>{#f/11}* Ať tak či onak, protože už víte, co bude následovat...{%15}"],
         twinkly9: [
-            '<25>{#p/twinkly}{#f/6}* Howdy.',
-            "<25>* Seems I'll be fireballed if I stick around too long.",
-            '<25>{#f/8}* A shame, really...',
-            '<25>{#f/7}* I was gonna have SO much fun with you.',
+            '<25>{#p/twinkly}{#f/6}* Ahoj.',
+            "<25>* Zdá se, že budu mít ohnivou kouli, když tu budu zůstat příliš dlouho.",
+            '<25>{#f/8}* Škoda, opravdu...',
+            '<25>{#f/7}* Chtěl jsem si s tebou užít tolik zábavy.',
             '<25>{#f/6}* ...',
-            '<25>{#f/5}* Well, see ya!'
+            '<25>{#f/5}* No, uvidíme se!'
         ],
         twinkly9a: [
-            '<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?',
-            '<25>{#f/12}{#v/0}* We had the outpost at our mercy!'
+            '<25>{#p/twinkly}{#f/12}{#v/0}* Co to SAKRA děláš, $(name)?',
+            '<25>{#f/12}{#v/0}* Měli jsme základnu na milost!'
         ],
-        twinkly9a1: ['<25>{#f/6}{#v/0}* All we had to do was follow the plan.'],
+        twinkly9a1: ['<25>{#f/6}{#v/0}* Vše, co jsme museli udělat, bylo dodržet plán.'],
         twinkly9a2: [
-            '<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...',
-            '<25>* Finish off the guards...',
-            '<25>* And make it to the Citadel!'
+            '<25>{#f/6}{#v/0}* Vše, co jsme museli udělat, bylo projít Foundry...',
+            '<25>* Dokončíme stráže...',
+            '<25>* A dostaňme se do Citadely!'
         ],
         twinkly9a3: [
-            '<25>{#f/6}{#v/0}* All we had to do was finish off the guards...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Jediné, co jsme museli udělat, bylo dorazit stráže...',
+            '<25>* A projděme Citadelou!'
         ],
         twinkly9a4: [
-            '<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Vše, co jsme museli udělat, bylo ZABÍT toho hloupého robota...',
+            '<25>* A projděme Citadelou!'
         ],
-        twinkly9a5: ['<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!'],
-        twinkly9a6: ['<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!'],
-        twinkly9a7: ['<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!'],
-        twinkly9a8: ['<25>{#f/8}{#v/0}* Coward...'],
+        twinkly9a5: ['<25>{#f/6}{#v/0}* Jediné, co jsme museli udělat, bylo projít Citadelou!'],
+        twinkly9a6: ['<25>{#f/6}{#v/0}* Vše, co jsme museli udělat, bylo ZABÍT toho praštěného odpadkového pytle!'],
+        twinkly9a7: ['<25>{#f/6}{#v/0}* Vše, co jsme museli udělat, bylo dojít až na konec!', '<25>* Byli jsme tak blízko!'],
+        twinkly9a8: ['<25>{#f/8}{#v/0}* Zbabělec...'],
         twinkly9b: [
             '<25>{#p/twinkly}{#f/5}* $(name)...?',
             "<25>{#f/6}* I'm not really sure what just happened.",
             '<25>{#f/8}* We were on the shuttle, and then...',
             '<25>{#f/8}* ...',
-            '<25>{#f/6}* I...',
+            '<25>{#f/6}* Já...',
             '<25>{#f/8}* I have to go...'
         ],
         twinkly9c: [
@@ -3772,7 +3772,7 @@ export default {
             '<20>{#f/11}Hee hee hee...'
         ],
         twinkly17: ["<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...'],
-        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
+        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}ZEMŘEŠ.{^20}{%}'],
         twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
         twinkly20: [
             '<20>Have no fear, little one.',
@@ -3782,7 +3782,7 @@ export default {
         ],
         twinkly21: [
             '<25>{#p/toriel}{#f/1}* Oh my!\n* Where did you come from, little one?',
-            '<25>{#f/1}* Are you injured?',
+            '<25>{#f/1}* Jsi zraněn?',
             '<25>{#f/0}* ...\n* Forgive me for asking so many questions.',
             '<25>{#f/0}* I am {@fill=#003cff}TORIEL{@fill=#fff}, overseer of the {@fill=#f00}OUTLANDS{@fill=#fff}.',
             '<26>{#f/0}* I come by every day to check for those who\n  have been stranded here.',
@@ -3885,9 +3885,9 @@ export default {
         confuseText: ['<08>{#p/basic}{~}Ribbit, ribbit?'],
         flirtText: ['<08>{#p/basic}{~}(Blushes deeply.)\nRibbit..'],
         idleText1: ['<08>{#p/basic}{~}Ribbit, ribbit.'],
-        idleText2: ['<08>{#p/basic}{~}Croak, croak.'],
+        idleText2: ['<08>{#p/basic}{~}Kráká, kráká.'],
         idleText3: ['<08>{#p/basic}{~}Hop, hop.'],
-        idleText4: ['<08>{#p/basic}{~}Meow.'],
+        idleText4: ['<08>{#p/basic}{~}Mňau.'],
         mercyStatus: ['<32>{#p/story}* Froggit seems reluctant to fight you.'],
         name: '* Froggit',
         meanText: ['<08>{#p/basic}{~}(Shiver, shake.)\nRibbit..'],
@@ -3914,8 +3914,8 @@ export default {
             '<32>{#p/basic}* Flutterlyte panicks and flies away...'
         ],
         idleTalk1: ['<08>{#p/basic}{~}Why is this so hard..'],
-        idleTalk2: ['<08>{#p/basic}{~}Please help me..'],
-        idleTalk3: ["<08>{#p/basic}{~}I'm scared.."],
+        idleTalk2: ['<08>{#p/basic}{~}Prosím pomoz mi..'],
+        idleTalk3: ["<08>{#p/basic}{~}Bojím se.."],
         idleTalk4: ["<08>{#p/basic}{~}I can't do this.."],
         idleTalk5: ['<08>{#p/basic}{~}\x00*sniff sniff*'],
         name: '* Flutterlyte',
@@ -3968,7 +3968,7 @@ export default {
         act_check3: ['<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems comfortable with you.\n* VERY comfortable.'],
         act_check4: ["<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* Despite its tough act, it's clearly in pain..."],
         act_flirt: ['<32>{#p/human}* (You flirt with Silente.)'],
-        flirtTalk: ['<08>{#p/basic}{~}Hiya~'],
+        flirtTalk: ['<08>{#p/basic}{~}Ahoj~'],
         groupInsult: ["<32>{#p/human}* (You try insulting Silente, but it's too focused on the others.)"],
         groupStatus1: ['<32>{#p/story}* Silente is whispering to the others.'],
         groupStatus2: ["<32>{#p/story}* It's starting to smell like a roach motel."],
@@ -4024,8 +4024,8 @@ export default {
         ],
         act_check3: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* Hopeful, for the first time in a while...'],
         act_check4: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* The romantic tension is at an all-time high.'],
-        awkwardTalk: ['<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}okay, i guess...?'],
-        checkTalk: ["<11>{#p/napstablook}{~}that's me..."],
+        awkwardTalk: ['<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}dobře, myslím...?'],
+        checkTalk: ["<11>{#p/napstablook}{~}to jsem já..."],
         cheer0: ['<32>{#p/human}* (You try to console Napstablook.)'],
         cheer1: ['<32>{#p/human}* (You give Napstablook a patient smile.)'],
         cheer2: ['<32>{#p/human}* (You tell Napstablook a little joke.)'],
@@ -4035,10 +4035,10 @@ export default {
         cheerTalk3: [
             '<11>{*}{#p/napstablook}{~}let me {#x1}try...{^20}{#x2}{^20}{%}',
             "<11>{*}{#p/napstablook}{~}i call it {#x3}'dapper blook'{^40}{%}",
-            '<11>{*}{#p/napstablook}{~}do you like it?{^40}{%}'
+            '<11>{*}{#p/napstablook}{~}líbíš to?{^40}{%}'
         ],
-        cheerTalk4: ['<11>{#p/napstablook}{~}oh gee.....'],
-        consoleTalk1: ['<11>{#p/napstablook}{~}yeah, yeah...'],
+        cheerTalk4: ['<11>{#p/napstablook}{~}ach jéé.....'],
+        consoleTalk1: ['<11>{#p/napstablook}{~}jo, jo...'],
         consoleTalk2: ['<11>{#p/napstablook}{~}not buying it...'],
         consoleTalk3: ["<11>{#p/napstablook}{~}you're not sorry..."],
         deadTalk: [
@@ -4056,18 +4056,18 @@ export default {
         flirtTalk1: ["<11>{#p/napstablook}{~}i'd just weigh you down"],
         flirtTalk2: ["<11>{#p/napstablook}{~}oh.....\ni've heard that one....."],
         flirtTalk3: ['<11>{#p/napstablook}{~}uh... you really think so?'],
-        flirtTalk4: ["<11>{#p/napstablook}{~}oh, you're serious...", '<11>{~}oh no.....'],
-        idleTalk1: ["<11>{#p/napstablook}{~}i'm fine, thanks"],
+        flirtTalk4: ["<11>{#p/napstablook}{~}oh, you're serious...", '<11>{~}ach ne.....'],
+        idleTalk1: ["<11>{#p/napstablook}{~}jsem fajn, děkuji"],
         idleTalk2: ['<11>{#p/napstablook}{~}just pluggin along...'],
         idleTalk3: ['<11>{#p/napstablook}{~}just doing my thing...'],
         insultTalk1: ['<11>{#p/napstablook}{~}i knew it...'],
-        insultTalk2: ['<11>{#p/napstablook}{~}whatever...'],
+        insultTalk2: ['<11>{#p/napstablook}{~}cokoliv...'],
         insultTalk3: ['<11>{#p/napstablook}{~}say what you will...'],
         insultTalk4: ['<11>{#p/napstablook}{~}let it all out...'],
         name: '* Napstablook',
         silentTalk: ['<11>{#p/napstablook}{~}...'],
         sincere: ["<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)"],
-        sincereTalk: ['<11>{#p/napstablook}{~}heh... thanks'],
+        sincereTalk: ['<11>{#p/napstablook}{~}heh... děkuji'],
         status1: ['<32>{#p/story}* Here comes Napstablook.'],
         status2: ['<32>{#p/story}* Napstablook looks just a little better.'],
         status3: ['<32>{#p/story}* Napstablook wants to show you something.'],
@@ -4094,10 +4094,10 @@ export default {
         act_check5: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Thinks you are \"adorable.\"'],
         precrime: ['<20>{#p/asriel2}...'],
         criminal1: (reveal: boolean) => [
-            '<20>{#p/asriel2}{#f/3}Howdy, $(name).',
+            '<20>{#p/asriel2}{#f/3}Ahoj, $(name).',
             "<20>{#f/1}It's good to be back.",
             "<20>{#f/2}What's that?\nYou didn't expect to see me again?",
-            '<20>{#f/13}...\nOh, $(name)...',
+            '<20>{#f/13}...\nAch, $(name)...',
             ...(reveal
                 ? ["<20>{#f/1}I've been waiting for this for a long time."]
                 : [
@@ -4115,7 +4115,7 @@ export default {
             '<21>{#f/2}Anyone who dares to stand in the way of our perfect future...',
             "<20>{#f/1}Let's turn 'em all to dust."
         ],
-        criminal2: ['<20>{#p/asriel2}{#f/3}Welcome back, $(name).', '<20>{#f/1}Ready to pick up where we last left off?'],
+        criminal2: ['<20>{#p/asriel2}{#f/3}Vítej zpátky, $(name).', '<20>{#f/1}Ready to pick up where we last left off?'],
         criminal3: ['<20>{#p/asriel2}{#f/3}Well then.', '<20>{#f/3}...', "<20>{#f/4}Let's just get going."],
         cutscene1: [
             "<32>{#p/basic}* Maybe because I'm the only one you'll listen to.",
@@ -4124,16 +4124,16 @@ export default {
         ],
         cutscene2: [
             '<25>{#p/toriel}{#f/3}* ...',
-            '<25>{#p/toriel}{#f/4}* This is impossible...',
+            '<25>{#p/toriel}{#f/4}* To není možné...',
             '<25>{#f/0}* I must be dreaming.\n* Or hallucinating.\n* Or maybe...',
-            '<32>{#p/basic}* No.',
+            '<32>{#p/basic}* Ne.',
             '<32>{#p/basic}* This is real.',
-            '<25>{#p/toriel}{#f/5}* But you died, $(name).',
+            '<25>{#p/toriel}{#f/5}* Ale jsi umřel, $(name).',
             '<25>{#f/5}* You cannot possibly be speaking to me.',
             "<32>{#p/basic}* Pretend it's a dream, then.",
             '<32>{#p/basic}* If that works for you.',
             '<25>{#p/toriel}{#f/5}* ...',
-            '<25>{#p/toriel}{#f/9}* What do you want?',
+            '<25>{#p/toriel}{#f/9}* Co chceš?',
             '<32>{#p/basic}* Toriel...',
             "<32>{#p/basic}* You know how I feel about humanity, don't you?",
             '<25>{#p/toriel}{#f/13}* Right.',
@@ -4146,7 +4146,7 @@ export default {
             '<32>{#p/basic}* It means you have to let them go.',
             '<25>{#p/toriel}{#f/12}* ... do you not understand what is at stake?',
             '<25>{#f/11}* If I let them go, they will surely die.',
-            '<32>{#p/basic}* ... come on.',
+            '<32>{#p/basic}* ... no tak.',
             "<32>{#p/basic}* That's not really why you're doing this, is it?",
             '<25>{#p/toriel}{#f/12}* With that attitude, perhaps you really are $(name).',
             '<25>{#p/toriel}{#f/11}* You always did question my authority.',
@@ -4161,15 +4161,15 @@ export default {
             '<32>{#p/basic}* But keeping them here would be dooming them to death anyway.',
             "<32>{#p/basic}* What's a life if it doesn't get to do anything worth living for?",
             '<25>{#p/toriel}{#f/13}* ...',
-            '<25>{#p/toriel}{#f/13}* $(name), I...',
+            '<25>{#p/toriel}{#f/13}* $(name), já...',
             '<32>{#p/basic}* You gave them a spare cell phone, remember?',
             "<32>{#p/basic}* Keep the line open, and maybe they'll give you a call.",
             '<25>{#p/toriel}{#f/9}* ... and what about you?',
             "<32>{#p/basic}* Look.\n* I'll be alright.",
             "<32>{#p/basic}* All I ask is that you don't forget about THEM after they're gone.",
             '<25>{#p/toriel}{#f/13}* ...',
-            '<32>{#p/basic}* Goodbye, Toriel.',
-            '<25>{#p/toriel}{#f/14}* ... goodbye, $(name).'
+            '<32>{#p/basic}* Sbohem, Toriel.',
+            '<25>{#p/toriel}{#f/14}* ... sbohem, $(name).'
         ],
         death1: [
             '<11>{#p/toriel}{#f/21}{#v/1}{#i/3}{#x1}{@random=1.1/1.1}Urgh...',
@@ -4196,7 +4196,7 @@ export default {
             '<11>{#v/1}{#i/3}{#x1}{@random=1.1/1.1}It is the only real way you can escape this place.',
             "<11>{#v/2}{#i/4}{#x3}{@random=1.1/1.1}You cannot... allow ASGORE's plan to... succeed...",
             '<11>{#v/2}{#i/4}{#x1}{@random=1.1/1.1}...',
-            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}My child...',
+            '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}Moje dítě...',
             "<11>{#v/3}{#i/5}{#x4}{@random=1.2/1.2}Be good... won't you?"
         ],
         magic1: ['<20>{#p/asriel2}{#f/3}Follow me.'],
@@ -4205,13 +4205,13 @@ export default {
         spareTalk2: ['<11>{#p/toriel}{#f/11}...\n...'],
         spareTalk3: ['<11>{#p/toriel}{#f/11}...\n...\n...'],
         spareTalk4: ['<11>{#p/toriel}{#f/17}...?'],
-        spareTalk5: ['<11>{#p/toriel}{#f/17}What are you doing?'],
+        spareTalk5: ['<11>{#p/toriel}{#f/17}Co děláš?'],
         spareTalk6: ['<11>{#p/toriel}{#f/17}...'],
         spareTalk7: ['<11>{#p/toriel}{#f/17}What are you trying to prove?'],
         spareTalk8: ['<11>{#p/toriel}{#f/17}...'],
         spareTalk9: ['<11>{#p/toriel}{#f/12}Fight me or leave!'],
         spareTalk10: ['<11>{#p/toriel}{#f/12}Stop looking at me that way!'],
-        spareTalk11: ['<11>{#p/toriel}{#f/12}Go away!'],
+        spareTalk11: ['<11>{#p/toriel}{#f/12}Běž pryč!'],
         spareTalk12: ['<11>{#p/toriel}{#f/13}...'],
         spareTalk13: ['<11>{#p/toriel}{#f/13}...\n...'],
         spareTalk14: ['<11>{#p/toriel}{#f/13}...\n...\n...'],
@@ -4260,17 +4260,17 @@ export default {
         ],
         talk7: ["<32>{#p/human}* (But you couldn't think of anything else to say.)"],
         talk8: ['<32>{#p/human}* (But there was no sense in doing that now.)'],
-        theft: ['<20>{*}{#p/twinkly}Mine.{^15}{%}']
+        theft: ['<20>{*}{#p/twinkly}Moje.{^15}{%}']
     },
 
     c_name_outlands: {
-        hello: 'Say Hello',
-        about: 'About Yourself',
-        mom: 'Call Her \"Mom\"',
+        hello: 'Říkej Ahoj',
+        about: 'O sobě',
+        mom: 'Říkej jí \"Mami\"',
         flirt: 'Flirt',
-        toriel: "Toriel's Phone",
-        puzzle: 'Puzzle Help',
-        insult: 'Insult'
+        toriel: "Torielův telefon",
+        puzzle: 'Puzzle Pomoc',
+        insult: 'Urážet'
     },
 
     c_call_outlands: {
@@ -4289,8 +4289,8 @@ export default {
             '<25>{#f/2}* You should think twice about insulting me over the phone!'
         ],
         flirt1: [
-            '<25>{#p/toriel}{#f/7}* ... huh?',
-            '<25>{#f/1}* Oh, heh... heh...',
+            '<25>{#p/toriel}{#f/7}* ... co?',
+            '<25>{#f/1}* Ach, heh... heh...',
             '<25>{#f/6}* Hahaha!\n* I could pinch your cheek!',
             '<25>{#f/0}* You can certainly find better than an old woman like me.'
         ],
@@ -4306,13 +4306,13 @@ export default {
         flirt4: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#p/toriel}{#f/4}* I cannot begin to understand you.'],
         hello: [
             [
-                '<25>{#p/toriel}* This is Toriel.',
+                '<25>{#p/toriel}* To je Toriel.',
                 '<25>{#f/1}* You only wanted to say hello...?',
-                '<25>{#f/0}* Well then.\n* \"Hello!\"',
+                '<25>{#f/0}* Tak dobře.\n* \"Ahoj!\"',
                 '<25>{#f/0}* I hope that suffices.\n* Hee hee.'
             ],
             [
-                '<25>{#p/toriel}* This is Toriel.',
+                '<25>{#p/toriel}* To je Toriel.',
                 '<25>{#f/1}* You wanted to say hello again?',
                 '<25>{#f/0}* \"Salutations\" it is!',
                 '<25>{#f/1}* Is that enough?'
@@ -4326,12 +4326,12 @@ export default {
                 '<25>{#f/1}* Can you do that for me?'
             ],
             [
-                '<25>{#p/toriel}{#f/5}* Hello, small one.',
+                '<25>{#p/toriel}{#f/5}* Ahoj, maličká.',
                 '<25>{#f/9}* I am sorry, but I do not have much else to say.',
                 '<25>{#f/1}* It was nice to hear your voice, though...'
             ]
         ],
-        helloX: ['<25>{#p/toriel}{#g/torielLowConcern}* Hello?'],
+        helloX: ['<25>{#p/toriel}{#g/torielLowConcern}* Haló?'],
         mom1: [
             '<25>{#p/toriel}* ...',
             '<25>{#f/7}* Huh?\n* Did you just call me \"Mom?\"',
@@ -4364,30 +4364,30 @@ export default {
         insult1: (sus: boolean) =>
             sus
                 ? [
-                    '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+                    '<25>{#p/toriel}{#f/0}* Haló?\n* To je...',
                     '<25>{#f/2}* ...!',
                     '<25>{#f/3}* Would you mind repeating that for me?'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+                    '<25>{#p/toriel}{#f/0}* Haló?\n* To je...',
                     '<25>{#f/2}* ...!',
                     '<25>{#f/1}* My child... I do not think that means what you think it means.'
                 ],
         insult2: (sus: boolean) =>
             sus
                 ? ['<25>{#p/toriel}{#f/15}* ...', '<25>{#f/12}* I am going to pretend you did not just say that to me.']
-                : ['<25>{#p/toriel}{#f/1}* My child...']
+                : ['<25>{#p/toriel}{#f/1}* Moje dítě...']
     },
 
     i_candy: {
         battle: {
             description: 'Has a distinct, non-licorice flavor.',
-            name: 'Candy'
+            name: 'Bonbón'
         },
         drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (10 HP.)']
+                ? ['<32>{#p/human}* (10 ZB.)']
                 : ['<32>{#p/basic}* \"Monster Candy\" Heals 10 HP\n* Has a distinct, non-licorice flavor.'],
         name: 'Monster Candy',
         use: ['<32>{#p/human}* (You eat the Monster Candy.)']
@@ -4395,16 +4395,16 @@ export default {
     i_water: {
         battle: {
             description: 'Smells like Dihydrogen Monoxide.',
-            name: 'Water'
+            name: 'Voda'
         },
         drop: ['<32>{#p/human}* (You throw away the Water.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (12 HP.)']
+                ? ['<32>{#p/human}* (12 ZB.)']
                 : ['<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide.'],
-        name: 'Water',
+        name: 'Voda',
         use: () => [
-            '<32>{#p/human}* (You drink the Water.)',
+            '<32>{#p/human}* (Pili jste Vodu.)',
             ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* (You're filled with hydration.)"]) 
         ]
     },
@@ -5162,7 +5162,7 @@ export default {
             '<25>{#f/0}* These are what prevent you from falling off the platforms.'
         ],
         s_town1: [
-            '<25>{#p/toriel}{#f/0}* Ah...\n* The town of Starton.',
+            '<25>{#p/toriel}{#f/0}* Ah...\n* Město Starton.',
             '<25>{#f/1}* I have heard much about a \"Grillby\'s\" there...',
             '<25>{#f/0}* ... and its diverse array of patrons both new and old.',
             '<25>{#f/0}* Sans often goes there to eat, you see.',

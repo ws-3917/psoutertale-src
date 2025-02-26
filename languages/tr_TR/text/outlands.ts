@@ -3519,7 +3519,7 @@ export default {
             w_tt_plant: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (This houseplant strikes you as exceedingly normal.)']
-                    : ["<32>{#p/basic}* It's a houseplant.", '<32>* What more is there to say?'],
+                    : ["<32>{#p/basic}* It's a houseplant.", '<32>* Söylenecek daha ne var ki?'],
             w_tt_trash: pager.create(
                 0,
                 () =>

@@ -510,7 +510,7 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                            '<25>{#p/sans}{#f/0}* heya.',
+                            '<25>{#p/sans}{#f/0}* ahoj.',
                             "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                         ]);
                         addB([
@@ -1127,7 +1127,7 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                            '<25>{#p/sans}{#f/0}* heya.',
+                            '<25>{#p/sans}{#f/0}* ahoj.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                         ]);
@@ -1188,7 +1188,7 @@ export default {
                         
                         addA([
                             '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                            '<25>{#p/sans}{#f/0}* heya.',
+                            '<25>{#p/sans}{#f/0}* ahoj.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                         ]);
@@ -1236,7 +1236,7 @@ export default {
 
                     addA([
                         '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                        '<25>{#p/sans}{#f/0}* heya.',
+                        '<25>{#p/sans}{#f/0}* ahoj.',
                         "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                     ]);
                     addB([
@@ -1624,7 +1624,7 @@ export default {
                 
                 addA([
                     '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                    '<25>{#p/sans}{#f/0}* heya.',
+                    '<25>{#p/sans}{#f/0}* ahoj.',
                     '<25>{#p/sans}{#f/4}* is anyone there?',
                     "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                 ]);
@@ -2550,31 +2550,31 @@ export default {
                     
                     addA([
                         '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (And yet, there is much to say!)\n* (Much to be excited for!)',
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!',
                         "<32>{#p/basic}* (Wouldn't you like to know more!?)"
                     ]);
                     addB([
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (When you left, the king was nowhere to be found!)',
                         '<32>{#p/basic}* (Everyone, confused!)\n* (Alphys, unable to take his place!)',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (But she spoke to all of Royal Guard.)\n* (Guard came to an agreement!)',
                         '<32>{#p/basic}* (Doge returned to duty, only this time as queen of the outpost.)',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (It was fun to see the other dogs in agreement.)',
                         '<32>{#p/basic}* (A feeling of pride unlike any other!)',
                         '<32>{#p/basic}* (Of course, their old master taught them all they know.)',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (In the end, they formed the council of dogs to make all decisions.)',
                         '<32>{#p/basic}* (Everyone gets belly rubs and treats for their hard work!)',
                         "<32>{#p/basic}* Huh?\n* Who's there?\n* Did I see someone MOVE!?",
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!',
                         "<32>{#p/basic}* Oh, it's just you.",
                         '<32>{#p/basic}* ...',
                         '<32>{#p/basic}* Wait, who are you talking to!?',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* (Doggo wants to talk to you.)\n* (Good luck!)',
                         '<32>{#p/basic}* Give me that thing!',
                         "<32>{#p/basic}* ...\n* So it's you, huh?"
@@ -2679,7 +2679,7 @@ export default {
                         "<32>{#p/human}{#v/3}{@fill=#003cff}* You're going to miss the grand opening!",
                         '<32>{#p/basic}* Guess I better go see what this is...',
                         '<32>{#p/basic}* ...',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!',
                         "<32>{#p/basic}* I get it, OK!?\n* Heck, I'm almost there!",
                         '<32>{#p/basic}* ...',
                         '<32>{#p/basic}* What the...\n* WHAT IS THAT THING!?',
@@ -2687,7 +2687,7 @@ export default {
                         "<32>{#p/human}{#v/3}{@fill=#003cff}* It's your brand new dog shrine!\n* Just like you wanted!",
                         "<32>{#p/basic}* It's... in constant motion...",
                         '<32>{#p/basic}* WELL THIS IS SOMETHING!',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!'
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!'
                     ]);
                     if (30 <= SAVE.data.n.bully) {
                         addB([
@@ -2703,10 +2703,10 @@ export default {
                     addB([
                         '<32>{#p/basic}* Yes, yes, I know.\n* It looks great... looks just like me.',
                         '<32>{#p/basic}* ... thanks.',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                         "<32>{#p/basic}* (And that's the last one!)\n* (All council dogs have shrines now!)",
                         '<32>{#p/basic}* PERFECT!!\n* Can I go back to my phone call now?',
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!',
                         "<32>{#p/human}{#v/3}{@fill=#003cff}* I'll have to show the others!",
                         '<32>{#p/basic}* HEY!\n* Before you go...',
                         "<32>{#p/basic}* I wouldn't have seen it on time without you.\n* Have a treat.",
@@ -2722,17 +2722,17 @@ export default {
                         '<32>{#p/basic}* But they sell cool junk, so we give them a pass.',
                         '<32>{#p/basic}* Hold on.\n* Are we giving anyone else a pass??',
                         '<32>{#p/basic}* WHAT HAS OUR SOCIETY COME TO!',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!'
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!'
                     ]);
                     if (!dmuffet) {
                         addB([
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Spider queen, stirring up trouble again.)',
                             '<32>{#p/basic}* (A punishment is required!)',
                             "<32>{#p/basic}* ... ugh.\n* I don't like disciplining people.",
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!',
                             '<32>{#p/basic}* (Without discipline, dog society falls out of balance.)',
                             "<32>{#p/basic}* I guess.\n* But can't someone else do it?",
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                             "<32>{#p/basic}* (All council dogs must practice discipline.)\n* (It's your turn!)"
                         ]);
                     } else if (!dpapyrus) {
@@ -2740,10 +2740,10 @@ export default {
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Tall skeleton, deserving of bonus rewards.)',
                             '<32>{#p/basic}* (Offer them to him!)',
                             '<32>{#p/basic}* ... ugh.\n* I swear we give him bonus rewards every day.',
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!',
                             '<32>{#p/basic}* (Tall skeleton sets a very good example!)',
                             "<32>{#p/basic}* At this rate, he'll be on the dog council himself.",
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                             '<32>{#p/basic}* (We are considering the possibility.)\n* (Now do your duty!)'
                         ]);
                     } else {
@@ -2751,10 +2751,10 @@ export default {
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Supplies of dog chow are running low.)',
                             '<32>{#p/basic}* (Can you help refill?)',
                             '<32>{#p/basic}* ... ugh.\n* Why do I get all the dirty work around here.',
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!',
                             "<32>{#p/basic}* (Doggo, only dog who doesn't mind dirty work.)",
                             '<32>{#p/basic}* Lies.\n* Doge likes doing dirty jobs way more than me.',
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!',
                             '<32>{#p/basic}* (Doge cannot do this job.)\n* (Doge is queen.)'
                         ]);
                     }
@@ -2764,7 +2764,7 @@ export default {
                         '<32>{#p/basic}* Have fun out there, wherever you are.',
                         "<32>{#p/basic}* ... I'd give the phone back to that annoying dog, but the message would never end.",
                         '<32>{#p/basic}* HOW CAN YOU TALK FOR SO LONG WITHOUT GETTING TIRED!?',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Štěk!\n{#s/bark}* Štěk!\n{#s/bark}* Štěk!',
                         '<32>{#p/basic}* OK already!\n* Quit rushing me!!',
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]);
@@ -3123,7 +3123,7 @@ export default {
                     
                     addA([
                         '<32>{#s/phone}{#p/událost}* Zvoní, zvoní...',
-                        '<25>{#p/sans}{#f/0}* heya.',
+                        '<25>{#p/sans}{#f/0}* ahoj.',
                         "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                     ]);
                     addB([
@@ -5716,8 +5716,8 @@ export default {
             '<25>{#f/5}* I am not sure how to react to this.'
         ],
         hello: [
-            ['<25>{#p/asgore}{#f/21}* A greeting, you say?', '<25>{#f/7}* Hmm...', '<25>{#f/6}* I give you a \"Howdy!\"'],
-            ['<25>{#p/asgore}{#f/5}* Another greeting?', '<25>{#f/21}* I know...', '<25>{#f/6}* \"How do you do!\"'],
+            ['<25>{#p/asgore}{#f/21}* A greeting, you say?', '<25>{#f/7}* Hmm...', '<25>{#f/6}* Dám tě \"Ahoj!\"'],
+            ['<25>{#p/asgore}{#f/5}* Another greeting?', '<25>{#f/21}* Vím...', '<25>{#f/6}* \"How do you do!\"'],
             [
                 '<25>{#p/asgore}{#f/5}* ...',
                 '<25>{#f/5}* At this rate, I am going to run out of greetings.',
@@ -5729,7 +5729,7 @@ export default {
         dad1: [
             '<25>{#p/asgore}{#f/6}* ...',
             '<25>{#f/24}* ...',
-            '<25>{#f/21}* Of course.',
+            '<25>{#f/21}* Samozřejmě.',
             '<25>{#f/6}* I suppose it is only natural you would call me that.',
             '<25>{#f/6}* You may call me \"Dad\" if you want, Frisk.'
         ],
@@ -5767,7 +5767,7 @@ export default {
             text: []
         },
         _frontier1: {
-            name: 'Your Room',
+            name: 'Tvůj Pokoj',
             text: ["<32>{#p/human}* (You're filled with determination.)"]
         },
         _frontier8: {

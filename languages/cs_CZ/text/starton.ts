@@ -330,7 +330,7 @@ export default {
             SAVE.data.b.svr
                 ? ['<32>{#p/human}* (The table strikes you as being rather lonesome.)']
                 : ["<32>{#p/basic}* It's just a lonely table.\n* Smells like hair."],
-        balcony0: () => ['<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (What do you say?)', 'Ano', 'Ne')],
+        balcony0: () => ['<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (Co říkáš?)', 'Ano', 'Ne')],
         balcony1: [
             "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
             '<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!'
@@ -379,11 +379,11 @@ export default {
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
                         : "<32>{#p/basic}* It's an exoberry-exclusive vending machine.",
-                    choicer.create('* (Buy the Exoberries for 8G?)', 'Ano', 'Ne')
+                    choicer.create('* (Koupit Exobobule za 8Z?)', 'Ano', 'Ne')
                 ],
         candy2: ["<32>{#p/human}* (You don't have enough G.)"],
         candy3: ["<32>{#p/human}* (Nesete toho příliš mnoho.)"],
-        candy4: ['<32>{#p/human}* (You got the Exoberries.)'],
+        candy4: ['<32>{#p/human}* (Získal jsi Exobobule.)'],
         candy5: ['<32>{#p/human}* (You decide not to buy.)'],
         capstation1: [
             '<32>{#p/human}* (You look behind the station and find a key.)',
@@ -430,7 +430,7 @@ export default {
                         : "<18>{#p/papyrus}{#f/7}SANS!!!\nTHEY DIDN'T EVEN LOOK AT IT!",
                     '<25>{#p/sans}* whoops.',
                     "<25>{#f/3}* i knew i should have used today's kakuro puzzle instead.",
-                    '<18>{#p/papyrus}{#f/1}WHAT!? KAKURO!?',
+                    '<18>{#p/papyrus}{#f/1}COŽE!? KAKURO!?',
                     "<18>{#f/9}I CAN'T BELIEVE YOU SAID THAT!!",
                     '<18>{#f/4}IN MY OPINION...',
                     '<18>{#f/0}SUDOKU IS EASILY THE HARDEST.',
@@ -534,7 +534,7 @@ export default {
                     ['<25>{#p/asriel2}{#f/4}* You know the drill by now.']
                 ][Math.min(SAVE.flag.n.killed_sans, 1)],
             asriel4: ['<25>{*}{#p/asriel2}{#f/5}* Howdy!{^5}{%}'],
-            asriel5: ['<18>{*}{#p/papyrus}{#f/1}WHAT THE- {%}'],
+            asriel5: ['<18>{*}{#p/papyrus}{#f/1}CO TO- {%}'],
             asriel6: () =>
                 [
                     [
@@ -592,7 +592,7 @@ export default {
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
                             "<25>{#f/10}* ... wait, where's Papyrus?",
                             '<25>{#f/10}* ...',
-                            "<25>{#f/4}* Golly, $(name), I didn't think you'd kill him THAT quickly."
+                            "<25>{#f/4}* Sakra, $(name), nemyslel jsem že zabiješ ho TAK rychle."
                         ]
                         : [
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
@@ -709,7 +709,7 @@ export default {
                 '<25>{#p/asriel2}{#f/3}* And your point is?',
                 "<25>{#f/4}* ... look Papyrus, it doesn't matter what you or anyone else does.",
                 '<25>{#f/1}* When the two of us are together, NOTHING can bring us apart.',
-                '<18>{#p/papyrus}{#f/7}WHATEVER!!!'
+                '<18>{#p/papyrus}{#f/7}COKOLIV!!!'
             ],
             papyrusSolo3: ['<25>{#p/asriel2}{#f/3}* Howdy.'],
             papyrusSolo3a: () => [
@@ -741,7 +741,7 @@ export default {
                 '<25>{#p/asriel2}{#f/8}* ...',
                 '<18>{#p/papyrus}{#f/6}...',
                 '<18>{|}{#f/5}WELL, HERE ARE THE RULES OF THE- {%}',
-                '<25>{#p/asriel2}{#f/7}* We already know the rules, idiot.',
+                '<25>{#p/asriel2}{#f/7}* Už známe pravidly, idiote.',
                 '<18>{#p/papyrus}{#f/31}... OH...',
                 '<18>{#f/6}UH, WELL THEN!!\nWITHOUT FURTHER ADO...',
                 "<18>{#f/9}LET'S FIND OUT WHAT OUR RANDOM NUMBER WILL BE!!"
@@ -883,8 +883,8 @@ export default {
         ],
         kidd1: pager.create(
             2,
-            ["<25>{#p/kidd}{#f/1}* What's up?"],
-            ['<25>{#p/kidd}{#f/1}* Yo, howzzitgoin?'],
+            ["<25>{#p/kidd}{#f/1}* Co se děje?"],
+            ['<25>{#p/kidd}{#f/1}* Čau, jak to jde?'],
             ['<25>{#p/kidd}{#f/1}* Hey, hey!'],
             ['<25>{#p/kidd}{#f/1}* Nice to see you, haha.'],
             ["<25>{#p/kidd}{#f/1}* Woah, dude, what's up?"]
@@ -956,7 +956,7 @@ export default {
                     '<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!',
                     '<18>MY BROTHER AND I HAVE CREATED MANY PUZZLES.',
                     '<18>{#f/9}ARE YOU UP FOR THE CHALLENGE, HUMAN!?',
-                    choicer.create('* (What do you say?)', 'Ano', 'Ne'),
+                    choicer.create('* (Co říkáš?)', 'Ano', 'Ne'),
                     '<18>{#p/papyrus}CORRECT ANSWER!\nFOR YOU SEE...'
                 ],
         maze2a: [
@@ -1042,7 +1042,7 @@ export default {
             world.edgy
                 ? ["<25>{#p/sans}{#f/0}* huh.\n* guess you're smarter than you look."]
                 : [
-                    '<18>{#p/papyrus}{#f/1}WHAT!?',
+                    '<18>{#p/papyrus}{#f/1}COŽE!?',
                     '<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?',
                     '<18>THAT WAS SUPPOSED TO BE TOTALLY IMPOSSIBLE!',
                     '<18>{#f/9}... WELL THEN!\nI SHALL HAVE TO STEP UP MY GAME!'
@@ -1063,7 +1063,7 @@ export default {
                     "<25>{#p/sans}* terrestria?\n* isn't she literally the oldest monster alive?",
                     '<18>{|}{#p/papyrus}{#f/1}UH...\nWELL YES, BUT- {%}',
                     "<25>{#p/sans}* dang, i didn't know you thought THAT highly of me.",
-                    '<18>{#p/papyrus}{#f/4}WHAT.',
+                    '<18>{#p/papyrus}{#f/4}COŽE.',
                     "<25>{|}{#p/sans}* like, if even SHE can't do it, then- {%}",
                     '<18>{#p/papyrus}{#f/7}{#x3}I GET THE POINT!!'
                 ],
@@ -2880,9 +2880,9 @@ export default {
                 SAVE.data.b.flirt_papyrus
                     ? '<18>{#f/9}DO WHATEVER PEOPLE DO WHEN THEY DATE!'
                     : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
-                choicer.create('* (What do you say?)', 'Ano', 'Ne')
+                choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
             ],
-            () => ['<18>{#p/papyrus}READY?', choicer.create('* (What do you say?)', 'Ano', 'Ne')]
+            () => ['<18>{#p/papyrus}READY?', choicer.create('* (Co říkáš?)', 'Ano', 'Ne')]
         ),
         papdate4a: ["<18>{#p/papyrus}OKAY, LET'S GO!"],
         papdate4b: ["<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!"],
@@ -2894,9 +2894,9 @@ export default {
                 SAVE.data.b.flirt_papyrus
                     ? '<18>{#f/6}DO YOU WANT TO START DATING?'
                     : '<18>{#f/6}DO YOU WANT TO START HANGING OUT?',
-                choicer.create('* (What do you say?)', 'Ano', 'Ne')
+                choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
             ],
-            () => ['<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (What do you say?)', 'Ano', 'Ne')]
+            () => ['<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (Co říkáš?)', 'Ano', 'Ne')]
         ),
         papdate5a: () => [
             SAVE.data.b.flirt_papyrus
@@ -2958,7 +2958,7 @@ export default {
                 ? '<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!'
                 : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
         ],
-        papdate14: () => [choicer.create('* (What do you say?)', 'Ano', 'Ne')],
+        papdate14: () => [choicer.create('* (Co říkáš?)', 'Ano', 'Ne')],
         papdate15a: ['<15>{#p/papyrus}{#f/12}R-REALLY???', '<15>{#f/11}WOWIE!!!'],
         papdate15a1: ["<15>{#f/24}I GUESS THAT MEANS IT'S TIME FOR STEP THREE..."],
         papdate15b: ['<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FORTUNATELY, IT ONLY SAYS TO ASK.'],
@@ -3035,7 +3035,7 @@ export default {
             '<15>{#f/15}BEHOLD!!'
         ],
         papdate21: ['<15>{#p/papyrus}{#f/15}WHAT DO YOU THINK OF MY SECRET STYLE?'],
-        papdate22: () => [choicer.create('* (What do you say?)', 'It rocks', 'It sucks')],
+        papdate22: () => [choicer.create('* (Co říkáš?)', 'It rocks', 'It sucks')],
         papdate23a: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A GENUINE COMPLIMENT...!'],
         papdate23b: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A CRITICAL, YET HONEST REVIEW...!'],
         papdate24: [
@@ -3424,7 +3424,7 @@ export default {
         ],
         papsolu3a: () => [
             '<18>{#p/papyrus}{#f/9}DO YOU ABSOLUTELY, DAPSOLUTELY WANT THE SOLUTION???',
-            choicer.create('* (What do you say?)', 'Ano', 'Ne')
+            choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
         ],
         papsolu3a1: () => [
             '<18>{#p/papyrus}THE! SOLUTION! IS!',
@@ -3581,7 +3581,7 @@ export default {
             '<25>{#p/sans}* oh, heheh.\n* guess i got a little {@fill=#ff0}carried away{@fill=#fff}, huh?',
             '<18>{#p/papyrus}{#f/4}YEAH, YEAH...',
             '<18>{#f/9}WELL!\nDO YOU UNDERSTAND THE EXPLANATION?',
-            choicer.create('* (What do you say?)', 'Ano', 'Ne')
+            choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
         ],
         papyrus7: () => [
             "<18>{#p/papyrus}{#f/9}WELL, LET'S REVIEW THEN!",
@@ -3602,7 +3602,7 @@ export default {
             "<25>{#p/sans}* wasn't that supposed to be my cue?",
             '<18>{#p/papyrus}{#f/6}MAYBE???',
             '<18>{#f/7}WHATEVER!!\nDO YOU UNDERSTAND IT NOW!?',
-            choicer.create('* (What do you say?)', 'Sure', 'Even less')
+            choicer.create('* (Co říkáš?)', 'Sure', 'Even less')
         ],
         papyrus8: [
             '<18>{#p/papyrus}{#f/9}WELL... THEN...',
@@ -3855,7 +3855,7 @@ export default {
             "<18>{#f/4}NOT TO MENTION, I'M GETTING TIRED OF CAPTURING YOU.",
             '<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH...',
             '<18>{#f/5}... WITHOUT A BATTLE?',
-            choicer.create('* (What do you say?)', 'Ano', 'Ne')
+            choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
         ],
         papyrusFinal7a: ['<18>{#p/papyrus}{#f/31}...\nOKAY...', "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE."],
         papyrusFinal7b: ['<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN...', '<18>{#f/9}BY ALL MEANS!!!'],
@@ -3863,7 +3863,7 @@ export default {
             '<18>{#p/papyrus}{#f/1}AGAIN??',
             '<18>{#f/4}... WELL, OKAY...',
             '<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??',
-            choicer.create('* (What do you say?)', 'Ano', 'Ne')
+            choicer.create('* (Co říkáš?)', 'Ano', 'Ne')
         ],
         papyrusFinal8a: ['<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!'],
         puzzle3: () => [
@@ -6235,7 +6235,7 @@ export default {
                 : ['<32>{#p/story}* Canis Minor tucks its tail between its legs.'],
         name: '* Canis Minor',
         petTalk1: ['<11>{#p/basic}{~}(Pant pant)'],
-        petTalk2: ['<11>{#p/basic}{~}(Tiny bark)'],
+        petTalk2: ['<11>{#p/basic}{~}(Drobný štěk)'],
         petTalk3: ['<11>{#p/basic}{~}(Wag wag)'],
         petTalk4: ['<11>{#p/basic}{~}(Thinks of food)'],
         petTalk5: ['<11>{#p/basic}{~}(Pant! Pant!)'],
@@ -6245,7 +6245,7 @@ export default {
         petTalk9: ['<11>{#p/basic}{~}(Kettle whistle)'],
         petTalk10: ['<11>{#p/basic}{~}(...)'],
         petTalk11: ['<11>{#p/basic}{~}(Faraway bark)'],
-        petTalk12: ['<11>{#p/basic}{~}(Bark)'],
+        petTalk12: ['<11>{#p/basic}{~}(Štěk)'],
         petText1: () => ['<32>{#p/human}* (You barely lift your hand.)', '<32>{#p/basic}* How exciting!'],
         petText2: () => [
             '<32>{#p/human}* (You lightly touch the dog.)',
@@ -7026,31 +7026,31 @@ export default {
         ],
         miss: [
             '<11>{#p/asgore}{#f/2}...',
-            '<11>{#f/1}I am not really here, Asriel.',
+            '<11>{#f/1}Nejsem opravdu tady, Asriel.',
             "<11>{#f/2}It's just a projection."
         ],
         name: '* Asgore',
-        status1: ['<32>{#p/asriel2}* Kill him, $(name).'],
+        status1: ['<32>{#p/asriel2}* Zabij ho, $(name).'],
         status2: ['<32>{#p/asriel2}* ...']
     },
 
     i_berry: {
         battle: {
             description: 'A small branch of semi-translucent berries.',
-            name: 'Exoberries'
+            name: 'Exobobule'
         },
         drop: ['<32>{#p/human}* (You throw away the Exoberries.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (7 HP.)']
+                ? ['<32>{#p/human}* (7 ZB.)']
                 : ['<32>{#p/basic}* \"Exoberries\" Heals 7 HP\n* A small branch of semi-translucent berries.'],
-        name: 'Exoberries',
+        name: 'Exobobule',
         use: ['<32>{#p/human}* (You eat the Exoberries.)']
     },
     i_blookpie: {
         battle: {
             description: 'Fresh exoberries, bathed in a sea of moist Jell-O.',
-            name: 'Berry Pie'
+            name: 'Bobule Koláč'
         },
         drop: () => [
             '<32>{#p/human}* (You throw away the Exoberry Pie.)',
@@ -7058,22 +7058,22 @@ export default {
 
                 ? game.room === '_frontier4' // NO-TRANSLATE
 
-                    ? ['<32>{#p/napstablook}* ......... huh?']
+                    ? ['<32>{#p/napstablook}* ......... co?']
                     : ['<32>{#p/napstablook}* oh..................']
                 : [])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (99 HP.)']
+                ? ['<32>{#p/human}* (99 ZB.)']
                 : ['<32>{#p/basic}* \"Exoberry Pie\" Heals 99 HP\n* Fresh exoberries, bathed in a sea of moist Jell-O.'],
-        name: 'Exoberry Pie',
+        name: 'Exobobule Koláč',
         use: () => [
             '<32>{#p/human}* (You eat the Exoberry Pie.)',
             ...(instance('main', 'blookishly') !== void 0 // NO-TRANSLATE
 
                 ? game.room === '_frontier4' // NO-TRANSLATE
 
-                    ? ['<32>{#p/napstablook}* ......... huh?']
+                    ? ['<32>{#p/napstablook}* ......... co?']
                     : ['<32>{#p/napstablook}* aw.........\n* i hope you like it.........']
                 : [])
         ]
@@ -7081,7 +7081,7 @@ export default {
     i_chip: {
         battle: {
             description: 'Please take this to the edge of the galaxy.',
-            name: 'Chip'
+            name: 'Čip'
         },
         drop: () => [
             '<32>{#p/human}* (You throw away the Computer Chip.)',
@@ -7093,7 +7093,7 @@ export default {
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (45 HP. Rather than eating it, you feel you should keep this item safe.)']
                 : ['<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n* Please take this to the edge of the galaxy.'],
-        name: 'Computer Chip',
+        name: 'Počítačový Čip',
         use: () => [
             '<32>{#p/human}* (You bit into the Computer Chip.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
@@ -7108,12 +7108,12 @@ export default {
     i_eye: {
         battle: {
             description: 'A portable force field.',
-            name: 'Emitter'
+            name: 'Vysílač'
         },
         drop: ['<32>{#p/human}* (You throw away the Field Emitter.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (7 DF.)']
+                ? ['<32>{#p/human}* (7 OB.)']
                 : ['<32>{#p/basic}* \"Field Emitter\" (7 DF)\n* A portable force field.'],
         name: 'Field Emitter',
         use: ['<32>{#p/human}* (You deployed the Field Emitter.)']
@@ -7121,12 +7121,12 @@ export default {
     i_eye_x: {
         battle: {
             description: 'A somewhat underpowered portable force field.',
-            name: 'Emitter?'
+            name: 'Vysílač?'
         },
         drop: ['<32>{#p/human}* (You throw away the Field Emitter.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (5 DF.)']
+                ? ['<32>{#p/human}* (5 OB.)']
                 : ['<32>{#p/basic}* \"Field Emitter?\" (5 DF)\n* A somewhat underpowered portable force field.'],
         name: 'Field Emitter?',
         use: ['<32>{#p/human}* (You deployed the Field Emitter.)']
@@ -7139,7 +7139,7 @@ export default {
         drop: ['<32>{#p/human}* (You fold the Ghost Fruit in on itself.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (15 HP.)']
+                ? ['<32>{#p/human}* (15 ZB.)']
                 : ['<32>{#p/basic}* \"Ghost Fruit\" Heals 15 HP\n* A non-euclidian fruit, bigger on the inside.'],
         name: 'Ghost Fruit',
         use: ["<32>{#p/human}* (You unpacked the Ghost Fruit's many dimensions.)"]
@@ -7178,7 +7178,7 @@ export default {
         drop: ['<32>{#p/human}* (You rid yourself of the Milkshake.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (18 HP.)']
+                ? ['<32>{#p/human}* (18 ZB.)']
                 : ['<32>{#p/basic}* \"Milkshake\" Heals 18 HP\n* Made of an unknown, pearly-white substance.'],
         name: 'Milkshake',
         use: () => [
@@ -7194,7 +7194,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Ice Dream.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (15 HP.)']
+                ? ['<32>{#p/human}* (15 ZB.)']
                 : ['<32>{#p/basic}* \"Ice Dream\" Heals 15 HP\n* Instead of a joke, the wrapper says something fantastical.'],
         name: 'Ice Dream',
         use: pager.create(
@@ -7255,7 +7255,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Vortex Pop.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (11 HP.)']
+                ? ['<32>{#p/human}* (11 ZB.)']
                 : [
                     '<33>{#p/basic}* \"Vortex Pop\" Heals 11 HP\n* Alters your perception of time.\n* Not viable outside of battle.'
                 ],
@@ -7354,7 +7354,7 @@ export default {
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (16 HP.)']
+                ? ['<32>{#p/human}* (16 ZB.)']
                 : ['<32>{#p/basic}* \"Spaghetti\" Heals 16 HP\n* Silken spaghetti, finely aged in a time dilation unit.'],
         name: 'Spaghetti',
         use: () => [
@@ -7480,7 +7480,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Radiant Swirl.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (22 HP.)']
+                ? ['<32>{#p/human}* (22 ZB.)']
                 : ['<32>{#p/basic}* \"Radiant Swirl\" Heals 22 HP\n* A glowing, colorful sugar roll.'],
         name: 'Radiant Swirl',
         use: ['<32>{#p/human}* (You eat the Radiant Swirl.)']
@@ -7539,7 +7539,7 @@ export default {
         drop: ["<32>{#p/human}* (You tossed the Flamin' Grillby like a molotov.)"],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (30 HP.)']
+                ? ['<32>{#p/human}* (30 ZB.)']
                 : ['<32>{#p/basic}* \"Flamin\' Grillby\" Heals 30 HP\n* For once, it\'s not just \"pleasantly warm.\"'],
         name: "Flamin' Grillby",
         use: ["<32>{#p/human}* (You consume the Flamin' Grillby.)"]
@@ -10395,7 +10395,7 @@ export default {
                         '<18>{#p/papyrus}{#f/5}SINCE HE ENJOYED THE JOB SO MUCH.'
                     ]
                     : [
-                        '<25>{#p/undyne}{#f/7}* I am GOING to kill her.',
+                        '<25>{#p/undyne}{#f/7}* Zabiju ji.',
                         "<18>{#p/papyrus}{#f/5}BUT YOU DON'T EVEN KNOW IF SHE TRACKED YOU YET!",
                         "<25>{#p/undyne}{#f/8}* ... and you think she WOULDN'T do that!?",
                         "<18>{#p/papyrus}{#f/6}I DON'T KNOW!!",

@@ -466,34 +466,34 @@ export default {
         stargum1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    '<32>{#p/human}* (Вы увидели кусок жвачки на комиксе...)',
+                    choicer.create('* (Употребить?)', 'Yes', 'No')
                 ]
                 : [
-                    '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    '<32>{#p/basic}* Раньше здесь была жвачка.',
+                    choicer.create('* (Употребить?)', 'Yes', 'No')
                 ],
-        stargum2: ['<32>{#p/human}* (You decide not to chew.)'],
-        stargum3: ['<32>{#p/human}* (You recovered $(x) HP.)'],
-        stargum4: ['<32>{#p/human}* (HP fully restored.)'],
+        stargum2: ['<32>{#p/human}* (Вы решаете не жевать.)'],
+        stargum3: ['<32>{#p/human}* (Вы восстановили $(x) ОЗ.)'],
+        stargum4: ['<32>{#p/human}* (ОЗ полностью восстановлено.)'],
         fireplace1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                    choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                    '<32>{#p/human}* (Вы ощущаете живительную теплоту камина...)',
+                    choicer.create('* (Залезть внутрь?)', 'Yes', 'No')
                 ]
                 : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? '<32>{#p/basic}* An ordinary fireplace.'
-                        : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
+                        ? '<32>{#p/basic}* Обыкновенный камин.'
+                        : "<32>{#p/basic}* Камин Ториэль.\n* Не слишком жаркий, просто тёплый.",
                     ...(world.darker
                         ? []
-                        : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                        : ['<32>* Возможно в него залезть.', choicer.create('* (Залезть внутрь?)', 'Yes', 'No')])
                 ],
-        fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
+        fireplace2a: ['<32>{#p/human}* (Вы не решаетесь залезть.)'],
         fireplace2b: () => [
-            '<32>{#p/human}* (You crawl into the fireplace and let its warmth engulf you.)',
-            '<32>{#p/human}* (You are very comfortable.)',
+            '<32>{#p/human}* (Вы залезаете, и тепло накрывает вас.)',
+            '<32>{#p/human}* (Вам очень уютно.)',
             ...(SAVE.data.b.svr
                 ? asrielinter.fireplace2b++ < 1
                     ? ["<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out."]
@@ -502,7 +502,7 @@ export default {
                     ? ["<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..."]
                     : [])
         ],
-        fireplace2c: ["<25>{#p/toriel}{#f/1}{#npc/a}* Don't stay in there for too long..."],
+        fireplace2c: ["<25>{#p/toriel}{#f/1}{#npc/a}* Не оставайся в нём надолго..."],
         fireplace2d: ['<32>{#p/basic}* ...', '<32>* This is fine.'],
         noticereturn: ['<25>{#p/asriel2}{#f/10}* Something you missed back here?'],
         noticestart: [
@@ -512,34 +512,34 @@ export default {
         noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?"],
         afrog: {
             a: [
-                '<32>{#p/basic}{#n1}* Just between you and me...',
-                '<32>* I saw that goat lady come through here just a little while ago.',
-                '<32>* She had groceries, so I asked her what they were for, and...',
-                "<32>* Well, you're in for a treat."
+                '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
+                '<32>* Я видел, что эта старая леди недавно проходила здесь.',
+                '<32>* У неё были продукты, я спросил для чего, и...',
+                "<32>* ... тебя ждёт сюрприз."
             ],
             b: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}{#n1}* Just between you and me...',
-                        '<32>* I saw that goat lady come through here earlier.',
-                        '<32>* She said it was time to \"confront her fears.\"',
-                        "<32>* Well, whatever she did clearly led to something!\n* We're all free now!"
+                        '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
+                        '<32>* Я недавно видел эту леди здесь.',
+                        '<32>* Говорила: \"Пришло время столкнуться со страхами.\"',
+                        "<32>* Не так важно, что она сделала, а каковы последствия!\n* Теперь мы все свободны!"
                     ]
                     : SAVE.data.n.plot === 71.2
                         ? [
-                            '<32>{#p/basic}{#n1}* Did you see her?\n* She just came through here right now!',
-                            '<32>* She said it was time to \"confront her fears.\"',
+                            '<32>{#p/basic}{#n1}* Видели её?\n* Она прошла здесь только что!',
+                            '<32>* Говорила: \"Пришло время столкнуться со страхами.\"',
                             '<32>* I wonder what she could have meant...?\n* She seemed determined.'
                         ]
                         : SAVE.data.b.w_state_lateleave
                             ? [
-                                '<32>{#p/basic}{#n1}* Just between you and me...',
+                                '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                                 '<32>* I saw that goat lady take the taxi to the supermarket earlier.',
                                 "<32>* She said she was going off to buy milk, but she still hasn't come back...",
                                 "<32>* I hope she's alright."
                             ]
                             : [
-                                '<32>{#p/basic}{#n1}* Just between you and me...',
+                                '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                                 "<32>* Sometimes, when I'm alone, I like to ride the taxi to the marketplace.",
                                 "<32>* It's a quaint little shop, but there's loads of stuff to buy.",
                                 "<32>* Maybe I'll take you there sometime... you'd adore it!"
@@ -547,13 +547,13 @@ export default {
             c: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}{#n1}* Just between you and me...',
+                        '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                         "<32>* I'm not a fan of how you beat us all up at first.",
                         '<32>* We were all so scared and confused...',
                         '<32>* ... at least you did something good in the end.'
                     ]
                     : [
-                        '<32>{#p/basic}{#n1}* Just between you and me...',
+                        '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                         "<32>* The people you've been beating up aren't happy about it.",
                         "<32>* Just be glad I'm off-duty...\n* 'Cause otherwise...",
                         "<32>* I'd have your head."
@@ -778,21 +778,21 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You approach the vending machine.)',
-                    choicer.create('* (What will you make?)', 'Candy', 'Water', 'Δ-9', 'Nothing')
+                    choicer.create('* (What will you make?)', 'Конфета', 'Вода', 'Δ-9', 'Ничего')
                 ]
                 : [
-                    '<32>{#p/basic}* Synthesize something with the vending machine?',
-                    choicer.create('* (What will you make?)', 'Candy', 'Water', 'Δ-9', 'Nothing')
+                    '<32>{#p/basic}* Что синтезировать в торговом автомате?',
+                    choicer.create('* (What will you make?)', 'Конфета', 'Вода', 'Δ-9', 'Ничего')
                 ],
-        candy2: ['<32>{#p/human}* (You got the $(x).)\n* (Press [C] to open the menu.)'],
-        candy3: ['<32>{#p/human}* (You got the $(x).)'],
+        candy2: ['<32>{#p/human}* (Вы получили $(x).)\n* (Нажмите [C], чтобы открыть меню.)'],
+        candy3: ['<32>{#p/human}* (Вы получили $(x).)'],
         candy4: () => [
-            '<32>{#p/human}* (You got the $(x).)',
-            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* The machine is beginning to malfunction.'])
+            '<32>{#p/human}* (Вы получили $(x).)',
+            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* Машина начинает барахлить.'])
         ],
         candy5: () => [
-            '<32>{#p/human}* (You got the $(x).)',
-            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* The machine broke down.'])
+            '<32>{#p/human}* (Вы получили $(x).)',
+            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* Автомат сломался.'])
         ],
         candy6: () =>
             SAVE.data.b.svr
@@ -819,16 +819,16 @@ export default {
                     ['<26>{#p/asriel1}{#f/20}* ... asking for a friend.']
                 ][Math.min(asrielinter.candy6++, 3)]
                 : ["<32>{#p/basic}* It's out of service."],
-        candy7: ['<32>{#p/human}* (You decide not to make anything.)'],
-        candy8: ["<32>{#p/human}* (You're carrying too much.)"],
+        candy7: ['<32>{#p/human}* (Вы решили ничего не делать.)'],
+        candy8: ["<32>{#p/human}* (Вы не можете нести больше.)"],
         chair1a: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n* Are you hungry?',
+            '<25>{#p/toriel}{#f/1}{#n1}* В чём дело, дитя моё?\n* Испытываешь голод?',
             '<25>{#f/0}* Perhaps you would like to know more about the book I am reading.',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Ничего')
         ],
         chair1b: () => [
             '<25>{#p/toriel}{#n1}* What is it, my child?',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Ничего')
         ],
         chair1c: ['<25>{#p/toriel}{#n1}* Well, let me know if you need anything.'],
         chair1d: ['<25>{#p/toriel}{#n1}* Well, let me know if you change your mind.'],
@@ -1673,7 +1673,7 @@ export default {
                         ][Math.min(asrielinter.fridgetrap_c++, 1)]
                     ]
                     : ['<32>{#p/basic}* The chocolate bar has already been taken.'],
-            d: ["<32>{#p/human}* (You're carrying too much.)"]
+            d: ["<32>{#p/human}* (Вы не можете нести больше.)"]
         },
         front1: [
             '<25>{#p/toriel}{#f/1}* ... and you want to play one of your songs?',
@@ -4382,7 +4382,7 @@ export default {
     i_candy: {
         battle: {
             description: 'Has a distinct, non-licorice flavor.',
-            name: 'Candy'
+            name: 'Конфета'
         },
         drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
         info: () =>
@@ -4395,14 +4395,14 @@ export default {
     i_water: {
         battle: {
             description: 'Smells like Dihydrogen Monoxide.',
-            name: 'Water'
+            name: 'Вода'
         },
         drop: ['<32>{#p/human}* (You throw away the Water.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (12 HP.)']
                 : ['<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide.'],
-        name: 'Water',
+        name: 'Вода',
         use: () => [
             '<32>{#p/human}* (You drink the Water.)',
             ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* (You're filled with hydration.)"]) 
@@ -5348,17 +5348,17 @@ export default {
                 world.runaway
                     ? [
                         '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
-                        '<32>{#p/human}* (HP fully restored.)'
+                        '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                     ]
                     : SAVE.data.n.plot < 48
                         ? [
                             '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                         : [
                             '<32>{#p/human}* (Returning to where it all began, after so long...)',
                             '<32>{#p/human}* (This fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
         },
         w_froggit: {
@@ -5368,21 +5368,21 @@ export default {
                     ? SAVE.data.n.plot < 8.1
                         ? [
                             '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                         : [
                             '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                     : SAVE.data.b.svr
                         ? [
                             '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
                             '<32>{#p/human}* (This, of course, fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                         : [
                             '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
         },
         w_mouse: {

@@ -2501,36 +2501,36 @@ export default {
             spagtable2b: ["<32>{#p/human}* (Você está carregando demais pra levar isso.)"],
             spagtable3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You feel appreciative towards this plate for the food it served you.)']
+                    ? ['<32>{#p/human}* (Você se sente grato pela comida neste prato.)']
                     : world.darker
-                        ? ["<32>{#p/basic}* Why bother.\n* It's just a simple plate."]
-                        : ['<32>{#p/basic}* Once the home of a truly out- of-this-world creation.'],
+                        ? ["<32>{#p/basic}* Porque reclamar. \n* É só um simples prato."]
+                        : ['<32>{#p/basic}* Outrora o lar de uma criação verdadeiramente de outro mundo.'],
             xtower1: () => [
                 ...(postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : SAVE.data.b.svr
                         ? [
-                            '<32>{#p/human}* (The terminal appears to have been powered off.)',
+                            '<32>{#p/human}* (O término parece ter sido desligado.)',
                             ...[
                                 [
-                                    "<25>{#p/asriel1}{#f/13}* The power's gone.\n* But it makes sense they'd shut this off.",
-                                    "<25>{#f/17}* Wouldn't want anyone to get distracted and miss the transport, right?"
+                                    "<25>{#p/asriel1}{#f/13}* A energia se foi.\n* Mas faz sentido eles terem desligado.",
+                                    "<25>{#f/17}* Não seria legal que alguém se distraísse e perdesse o transporte."
                                 ],
                                 [
-                                    "<25>{#p/asriel1}{#f/13}* To be fair, I don't think they'd actually let someone miss it.",
-                                    '<25>{#f/13}* Dr. Alphys probably has some kind of thing to scan for SOULs, so...',
-                                    "<25>{#f/17}* They'd know if anyone was left behind.",
-                                    '<25>{#f/15}* Makes me wonder if they can see us out here right now...'
+                                    "<25>{#p/asriel1}{#f/13}* Na verdade, eu não acho que eles deixariam alguém pra trás.",
+                                    '<25>{#f/13}* Dr. Alphys provavelmente tem algum aparelho que procura almas, então...',
+                                    "<25>{#f/17}* Eles saberiam se deixassem alguém para trás.",
+                                    '<25>{#f/15}* Me faz questionar se eles podem nos ver agora...'
                                 ],
-                                ["<25>{#p/asriel1}{#f/17}* Don't worry, Frisk.\n* The new homeworld will have plenty of games."]
+                                ["<25>{#p/asriel1}{#f/17}* Não se preocupa, Frisk.\n* No novo planeta teremos vários jogos."]
                             ][Math.min(asrielinter.xtower1++, 2)]
                         ]
                         : [
                             '<32>{#p/human}* (Você ativa o terminal.)',
-                            "<32>{#p/basic}* It's a game terminal...",
+                            "<32>{#p/basic}* É um terminal de jogo.",
                             ...(SAVE.data.n.plot === 72 || world.postnoot
-                                ? ['<32>{#p/basic}* The power supply has been cut.']
-                                : ['<32>{#p/basic}* \"Shoot targets as fast as you can! Use [Z] to shoot.\"'])
+                                ? ['<32>{#p/basic}* O suprimento de energia foi cortado.']
+                                : ['<32>{#p/basic}* \"Atire nos alvos o mais rápido que puder! Use [Z] para atirar.\"'])
                         ])
             ]
         },
@@ -2538,78 +2538,78 @@ export default {
             0,
             () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (The books on this bookshelf consist of puzzler's guides and children's stories.)"]
+                    ? ["<32>{#p/human}* (O livro nesta prateleira consiste em vários quebra-cabeças resolvidos.)"]
                     : [
-                        '<32>{#p/basic}* The bookshelf is filled with complex tomes about puzzle creation.',
-                        "<32>* And children's books.",
+                        '<32>{#p/basic}* A estante está cheia de tomos complexos sobre a criação de quebra-cabeças.',
+                        "<32>* E livros de crianças.",
                         ...(roomready()
                             ? [
-                                '<18>{#p/papyrus}SOME OF MY FAVORITE BOOKS ARE ON THAT SHELF.',
-                                '<18>{#f/4}LIKE \"ADVANCED PUZZLE CONSTRUCTS FOR BRIGHT MINDS.\"',
-                                '<18>{#f/0}AND ANOTHER FAVORITE OF MINE?',
-                                '<18>{#f/4}\"PEEK-A-BOO WITH FLUFFY BUNNY.\"',
-                                '<18>{#f/8}THE ENDING ALWAYS GETS ME!'
+                                '<18>{#p/papyrus}AÍ ESTÃO MAIOR PARTE DOS MEUS LIVROS FAVORITOS.',
+                                '<18>{#f/4}COMO \"FORMAS AVANÇADAS DE CRIAÇÃO DE QUEBRAS-CABEÇAS.\"',
+                                '<18>{#f/0}E OUTRO FAVORITO MEU?',
+                                '<18>{#f/4}\"ESCONDE-ESCONDE COM COELHINHO FOFO.\"',
+                                '<18>{#f/8}O FINAL SEMPRE ME PEGA!'
                             ]
                             : [])
                     ],
             () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (The books on this bookshelf consist of puzzler's guides and children's stories.)"]
-                    : ["<32>{#p/basic}* Complex manuals and children's books."]
+                    ? ["<32>{#p/human}* (O livro nesta prateleira consiste em vários quebra-cabeças resolvidos.)"]
+                    : ["<32>{#p/basic}* Manuais complexos e livros de crianças."]
         ),
         papbooks2: pager.create(
             1,
             [
-                '<32>{#p/human}* (You pick out a book...)',
-                '<32>{#p/basic}* \"The cornerstone of a puzzle\'s interactive value is the player\'s affectation.\"',
-                '<32>* \"The tacit drive within every player to explore, progress, and complete a given task.\"',
-                '<32>* \"A puzzle that challenges and engages these motivations will ensure...\"',
-                '<32>* \"The player remains focused and on task until the very end.\"',
-                '<32>{#p/human}* (You put the book back on the shelf.)'
+                '<32>{#p/human}* (Você pega um livro...)',
+                '<32>{#p/basic}* \"A pedra angular do valor interativo de um QC é a afetação do jogador.\"',
+                '<32>* \"O impulso dentro de cada jogador para explorar, progredir e completar uma determinada tarefa.\"',
+                '<32>* \"Um quebra-cabeça que desafia e envolve essas motivações garantirá...\"',
+                '<32>* \"O jogador permanece focado e na tarefa até o final.\"',
+                '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
             ],
             [
-                '<32>{#p/human}* (You pick out a book...)',
-                '<32>{#p/basic}* \"\'Peek-A-Boo!\' said the human, appearing from behind the wall.\"',
-                '<32>* \"The fluffy bunny, surprised, looked at the human excitedly.\"',
-                '<32>* \"Then, the human moved away... no longer able to see them, the fluffy bunny was sad.\"',
-                '<32>* \"It shook, thinking about how lonely it\'d be.\"',
-                '<32>* \"It wanted to cry, thinking it\'d been abandoned for all eternity...\"',
-                '<32>* \"But then, the human appeared once again, and all was right with the world.\"',
-                '<32>* \"The human and the bunny gave each other a big, fluffy hug.\"',
-                '<32>{#p/human}* (You put the book back on the shelf.)'
+                '<32>{#p/human}* (Você pega um livro...)',
+                '<32>{#p/basic}* \"\'Boooo\' disse o humano, aparecendo por trás da parede.\"',
+                '<32>* \"O coelho fofo, surpreso, olhou como o humano animado.\"',
+                '<32>* \"Então, o humano saiu... sem mais conseguir vê-lo, o coelho fofo estava triste.\"',
+                '<32>* \"É chocante, pensar no quão sozinho ele estaria.\"',
+                '<32>* \"Ele queria chorar, pensando que foi abandonado pela eternidade...\"',
+                '<32>* \"Mas então, o humano apareceu de novo, e tudo estava certo no mundo.\"',
+                '<32>* \"O humano e o coelho se deram um grande abraço fofo.\"',
+                '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
             ],
             () =>
                 world.runaway
                     ? [
-                        '<32>{#p/human}* (You pick out a book...)',
-                        '<23>{#p/papyrusnt}\"DEAR DAIRY, THE FORCE FIELD HAS BEEN DESTROYED.\"',
-                        '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
-                        '<23>\"IS NOW THE SUBJECT OF FEAR AMONG EVERYONE ON THE OUTPOST.\"',
-                        '<23>\"WE\'RE ALL LEAVING RIGHT AWAY, BEFORE THEY WAKE UP.\"',
-                        '<23>\"STILL, A PART HOPES THEY FIND THEIR WAY OFF THE OUTPOST, TOO.\"',
-                        '<23>\"EVERYONE ELSE JUST SEEMS CONTENT LEAVING THEM TO DIE.\"',
-                        '<32>{#p/human}* (You put the book back on the shelf.)'
+                        '<32>{#p/human}* (Você pega um livro...)',
+                        '<23>{#p/papyrusnt}\"QUERIDO DIARIO, O ESCUDO DE FORÇA FOI DESTRUÍDO.\"',
+                        '<23>\"FRISK, O HUMANO QUE CHEGOU NO OUTPOST ALGUNS DIAS ATRÁS...\"',
+                        '<23>\"É AGORA UM SUJEITO AO QUAL TODOS TEMEM NO OUTPOST.\"',
+                        '<23>\"NÓS VAMOS FUGIR AGORA MESMO, ANTES QUE ELE POSSA ACORDAR.\"',
+                        '<23>\"PARTE DE MIM DESEJA QUE ELE POSSA ENCONTRAR O PRÓPRIO CAMINHO FORA DO OUTPOST.\"',
+                        '<23>\"TODOS OS OUTROS SÓ PARECEM FELIZES EM DEIXÁ-LO AQUI PARA MORRER.\"',
+                        '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<23>{#p/papyrusnt}\"DEAR DAIRY, THE FORCE FIELD HAS BEEN DESTROYED.\"',
-                            '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
-                            '<23>\"TOOK ON IMPOSSIBLE ODDS TO SAVE US FROM DESTRUCTION.\"',
-                            '<23>\"MAYBE THIS IS WHAT\'LL INSPIRE SANS TO MOVE UP IN THE WORLD.\"',
-                            '<23>\"I ONLY MENTION IT BECAUSE, I NEVER KNEW HIS SENTRY JOB...\"',
-                            '<23>\"MEANT DOING SO LITTLE ACTUAL WORK.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<23>{#p/papyrusnt}\"QUERIDO DIARIO, O ESCUDO DE FORÇA FOI DESTRUÍDO.\"',
+                            '<23>\"FRISK, O HUMANO QUE CHEGOU NO OUTPOST ALGUNS DIAS ATRÁS...\"',
+                            '<23>\"NÓS NOS ESFORÇAMOS MUITOS PARA NÃO SERMOS DESTRUÍDOS.\"',
+                            '<23>\"TALVEZ SEJA ISSO QUE INSPIRA SANS A IR EMBORA SEM REMORSOS TAMBÉM.\"',
+                            '<23>\"EU SÓ ESTOU MENCIONANDO ISSO, PORQUE NUNCA SOBRE QUE SEU TRABALHO COMO SENTINELA...\"',
+                            '<23>\"SIGNIFICAVA FAZER TÃO POUCO TRABALHO DE VERDADE.\"',
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
                         : [
-                            '<32>{#p/human}* (You pick out a book...)',
-                            '<23>{#p/papyrusnt}\"DEAR DAIRY, SANS HAS JUST BEEN MADE AN OFFICIAL ROYAL SENTRY.\"',
-                            '<23>\"AT FIRST, I WAS CONFUSED AT HIM...\"',
-                            '<23>\"AFTER ALL, WHY WOULD SOMEBODY SO LAZY WANT TO TAKE THIS ON?\"',
-                            '<23>\"WELL, I DECIDED NOT TO QUESTION IT.\"',
-                            '<23>\"THE TRUTH IS, I COULDN\'T BE MORE PROUD OF HIM!!!\"',
-                            '<23>\"ONLY TIME WILL TELL WHAT GREAT THINGS THIS BRINGS FORTH.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você pega um livro...)',
+                            '<23>{#p/papyrusnt}\"QUERIDO DIARIO, SANS ACABA DE SER NOMEADO SENTINELA REAL.\"',
+                            '<23>\"DE PRIMEIRA, EU ESTAVA CONFUSO COM ELE...\"',
+                            '<23>\"ATÉ PORQUE, QUAL SERIA A MOTIVAÇÃO DE ALGUÉM TÃO PREGUIÇOSO?\"',
+                            '<23>\"BEM, EU DECIDI NÃO QUESTIONAR.\"',
+                            '<23>\"A VERDADE É QUE EU NÃO PODERIA ESTAR MAIS ORGULHOSO!!!',
+                            '<23>\"APENAS O TEMPO DIRÁ O BEM QUE ISSO IRÁ NOS TRAZER.\"',
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
         ),
         papcomputer1: pager.create(
@@ -2620,501 +2620,501 @@ export default {
                     : [
                         ...(roomready()
                             ? [
-                                "<18>{#p/papyrus}THE OUTERNET!\nI'M QUITE POPULAR THERE.",
-                                "<18>{#f/4}I'M JUST A DOZEN AWAY...",
-                                '<18>{#f/0}FROM A DOUBLE- DIGIT FOLLOWER COUNT!'
+                                "<18>{#p/papyrus}A OUTERNET!\nEU SOU POPULAR LÁ.",
+                                "<18>{#f/4}ESTOU A APENAS UMA DÚZIA DE DISTÂNCIA...",
+                                '<18>{#f/0}DE TER DUPLO DIGITO DE SEGUIDORES!'
                             ]
                             : []),
                         SAVE.data.b.svr
-                            ? '<32>{#p/human}* (You move towards the computer...)'
-                            : "<32>{#p/basic}* The computer's web browser is opened to a social media site.",
-                        choicer.create("* (Log in to Papyrus's account?)", 'Sim', 'Não')
+                            ? '<32>{#p/human}* (Você vai até o computador...)'
+                            : "<32>{#p/basic}* O navegador da Web do computador está aberto em um site.",
+                        choicer.create("* (Entrar na conta do Papyrus?)", 'Sim', 'Não')
                     ],
             () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Está fora de serviço."]
                     : [
                         SAVE.data.b.svr
-                            ? '<32>{#p/human}* (You move towards the computer...)'
-                            : "<32>{#p/basic}* The computer's web browser is opened to a social media site.",
-                        choicer.create("* (Log in to Papyrus's account?)", 'Sim', 'Não')
+                            ? '<32>{#p/human}* (Você vai até o computador...)'
+                            : "<32>{#p/basic}* O navegador da Web do computador está aberto em um site.",
+                        choicer.create("* (Entrar na conta do Papyrus?)", 'Sim', 'Não')
                     ]
         ),
-        papcomputer2: ['<32>{#p/human}* (You decide not to log in.)'],
+        papcomputer2: ['<32>{#p/human}* (Você decide não entrar.)'],
         papcomputer3: {
             a: 'COOLSKELETON95',
-            b: '-2 FOLLOWERS',
-            c: 'THIS ACCOUNT\nIS OWNED BY\nTHE GREAT\nPAPYRUS.\nHIGH-QUALITY\nPOSTS ONLY!',
+            b: '-2 SEGUIDORES',
+            c: 'ESSA CONTA\nE DO\nGRANDE\nPAPYRUS.\nCONTEÚDOS\nDE QUALIDADE!',
             d: '- NEWS -',
             e: () =>
                 world.runaway
-                    ? 'BREAKING:\n..\n..\n..\n.. WE ALL NEED\nTO LEAVE.'
+                    ? 'NOTÍCIA:\n..\n..\n..\n.. NÓS TODOS\nPRECISAMOS IR.'
                     : SAVE.data.n.plot === 72
-                        ? 'BREAKING:\nWE CAN LEAVE.\nLIKE.. FOR REAL.\nSOURCE:\nLOOK OUTSIDE,\nPEOPLE!'
-                        : "BREAKING:\nMEW MEW STARFIRE\nIS.. SUPER BAD.\nSOURCE:\nLIKE, IT'S JUST\nTRUE?"
+                        ? 'NOTÍCIA:\nESTAMOS LIVRES.\nTIPO.. SÉRIO.\nFONTE:\nOLHEM PARA\nFORA!'
+                        : "NOTÍCIA:\nMEW MEW STARFIRE\nÉ.. BEM RUIM.\nFONTE:\nSÓ É,\nVERDADE?"
         },
         papcomputer4: [
             () =>
                 world.runaway
                     ? {
-                        a: 'HOWDY!',
-                        b: 'SAVE YOURSELVES...',
+                        a: 'OPA!',
+                        b: 'SALVEM-SE...',
                         c: ''
                     }
                     : SAVE.data.n.plot === 72
                         ? {
-                            a: 'HOWDY!',
-                            b: 'FAILED TO CONNECT...',
+                            a: 'OPA!',
+                            b: 'FALHA AO CONECTAR...',
                             c: ''
                         }
                         : {
-                            a: 'HOWDY!',
-                            b: 'SHARE YOUR THOUGHTS...',
+                            a: 'OPA!',
+                            b: 'COMPARTILHE ALGO...',
                             c: ''
                         },
             () =>
                 world.runaway
                     ? {
                         a: 'ALPHYS',
-                        b: 'TODAY',
-                        c: '< message deleted >'
+                        b: 'HOJE',
+                        c: '< mensagem deletada >'
                     }
                     : SAVE.data.n.plot === 72
                         ? {
-                            a: 'SYSTEM',
-                            b: 'TODAY',
-                            c: 'The OuterNet is closed.'
+                            a: 'SISTEMA',
+                            b: 'HOJE',
+                            c: 'A Outernet foi fechada.'
                         }
                         : SAVE.data.n.plot < 34
                             ? {
                                 a: 'NAPSTABLOOK22',
-                                b: 'TODAY',
-                                c: 'this is why i never go\nonline anymore... nothing\nmeaningful ever happens'
+                                b: 'HOJE',
+                                c: 'é por isso que eu não\nfico mais online... nada\nde legal acontece'
                             }
                             : world.genocide
                                 ? {
                                     a: 'NAPSTABLOOK22',
-                                    b: 'TODAY',
-                                    c: "but i'm a ghost..."
+                                    b: 'HOJE',
+                                    c: "mas eu sou um fantasma..."
                                 }
                                 : world.dead_skeleton
                                     ? {
                                         a: 'NAPSTABLOOK22',
-                                        b: 'TODAY',
-                                        c: "umm... i'll just keep\nworking on this mix..."
+                                        b: 'HOJE',
+                                        c: "umm... eu vou só continuar\ntrabalhando nesta música..."
                                     }
                                     : {
                                         a: 'lazybones.',
-                                        b: 'TODAY',
-                                        c: "let's just hope he\ndoesn't capture our SOULs~\n*finger guns*",
+                                        b: 'HOJE',
+                                        c: "vamos só esperar que\nele não capture nossas ALMAS~\n*arminhas*",
                                         d: true
                                     },
             () =>
                 world.runaway
                     ? {
                         a: 'lazybones.',
-                        b: 'TODAY',
-                        c: '< message deleted >',
+                        b: 'HOJE',
+                        c: '< mensagem deletada >',
                         d: true
                     }
                     : SAVE.data.n.plot === 72
                         ? {
                             a: 'ALPHYS',
-                            b: 'TODAY',
-                            c: 'whoops, i forgot to shut\noff the server'
+                            b: 'HOJE',
+                            c: 'Opps, esquece de desligar o servidor'
                         }
                         : SAVE.data.n.plot < 34
                             ? {
                                 a: 'STRONGFISH91',
-                                b: 'YESTERDAY',
-                                c: 'uh... dont you say that\nEVERY day, Papyrus?'
+                                b: 'ONTEM',
+                                c: 'uh... você não fala isso\nTODO dia, Papyrus?'
                             }
                             : world.genocide
                                 ? {
                                     a: 'STRONGFISH91',
-                                    b: 'TODAY',
-                                    c: 'stay outta this blooky.\ni dont want you getting\nhurt too.'
+                                    b: 'HOJE',
+                                    c: 'fique fora disse Blooky.\neu não quero que você \nse machuque também.'
                                 }
                                 : world.dead_skeleton
                                     ? {
                                         a: 'STRONGFISH91',
-                                        b: 'TODAY',
-                                        c: 'papyrus is gone blooky.\nthat human is going to\nPAY for what they did.'
+                                        b: 'HOJE',
+                                        c: 'O Papyrus se foi blooky.\nO humano vai PAGAR\npelo que ele fez.'
                                     }
                                     : {
                                         a: 'STRONGFISH91',
-                                        b: 'TODAY',
-                                        c: 'well no...\nbut he did capture all of\nour hearts! FUHUHU!!'
+                                        b: 'HOJE',
+                                        c: 'bem não...\nmas ele com certeza\ncapturou nossas corações!'
                                     },
             () =>
                 world.runaway
                     ? {
                         a: 'COOLSKELETON95',
-                        b: 'TODAY',
-                        c: '< message deleted >'
+                        b: 'HOJE',
+                        c: '< mensagem deletada >'
                     }
                     : SAVE.data.n.plot === 72
                         ? {
                             a: '_Sp4ceAdv3ntur3r_',
-                            b: 'TODAY',
-                            c: '< Username Update >\nWas: _K1ll3rMann3qu1n_\nNow: _Sp4ceAdv3ntur3r_'
+                            b: 'HOJE',
+                            c: '< Update de Nome >\nWas: _K1ll3rMann3qu1n_\nNow: _Sp4ceAdv3ntur3r_'
                         }
                         : SAVE.data.n.plot < 34
                             ? {
                                 a: 'COOLSKELETON95',
-                                b: 'YESTERDAY',
-                                c: "TODAY'S THE DAY I FINALLY\nCAPTURE A HUMAN!\nI CAN FEEL IT IN MY BONES!"
+                                b: 'ONTEM',
+                                c: "HOJE É O DIA QUE EU\nIREI CAPTURAR UM HUMANO!\nSINTO EM MEUS OSSOS!"
                             }
                             : world.genocide
                                 ? {
                                     a: 'NAPSTABLOOK22',
-                                    b: 'TODAY',
-                                    c: 'umm... is there anything\ni can do to help? things\nare getting worse...'
+                                    b: 'HOJE',
+                                    c: 'umm... tem algo que eu possa\nfazer para ajudar? coisas\nparecem estar piorando...'
                                 }
                                 : {
                                     a: 'NAPSTABLOOK22',
-                                    b: 'TODAY',
-                                    c: 'so... did papyrus capture\na human yet? or...'
+                                    b: 'HOJE',
+                                    c: 'então... papyrus capturou um\nhumano? ou...'
                                 }
         ] as (() => { a: string; b: string; c: string; d?: boolean })[],
         papcomputer5: () =>
             world.runaway
-                ? ['FRISK', "DON'T YOU", 'DARE COME', 'AFTER US']
+                ? ['FRISK', "VOCÊ NÃO", 'OUSE VIR', 'ATRÁS DE NÓS']
                 : SAVE.data.n.plot === 72
-                    ? ['SORRY', "BUT WE'RE", 'OFFLINE', 'LMAO']
-                    : ['REFRESH', 'MESSAGES', 'SETTINGS', 'LOG OUT'],
+                    ? ['DESCULPA', "MAS NÓS ESTAMOS", 'OFFLINE', 'LMAO']
+                    : ['REFRESCANTE', 'MENSAGENS', 'CONFIGURAÇÕES', 'SAIR'],
         papcouch0: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to find anything in the couch.)"]
-                : ["<32>{#p/basic}* It's been cleaned out."],
+                ? ["<32>{#p/human}* (Você não encontrou nada no sofá.)"]
+                : ["<32>{#p/basic}* Ele foi limpado."],
         papcouch1: pager.create(
             0,
             () => [
-                '<32>{#p/human}* (You hear a jangling sound within the couch.)',
+                '<32>{#p/human}* (Você ouve um som estridente dentro do sofá.)',
                 SAVE.data.b.svr
-                    ? '<32>{#p/human}* (It seems a cache of coins was left here...)'
-                    : '<32>{#p/basic}* There are a bunch of loose coins inside...',
-                choicer.create('* (Take the coins?)', 'Sim', 'Não')
+                    ? '<32>{#p/human}* (Parece que um saco de moedas foi deixado aqui...)'
+                    : '<32>{#p/basic}* Há um monte de moedas soltas dentro...',
+                choicer.create('* (Pegar as moedas?)', 'Sim', 'Não')
             ],
             () => [
                 SAVE.data.b.svr
-                    ? "<32>{#p/human}* (The coins within haven't moved from where they were.)"
-                    : '<32>{#p/basic}* The coins are still here.',
-                choicer.create('* (Take the coins?)', 'Sim', 'Não')
+                    ? "<32>{#p/human}* (As moedas lá dentro não se moveram de onde estão.)"
+                    : '<32>{#p/basic}* As moedas ainda estão aí.',
+                choicer.create('* (Pegar as moedas?)', 'Sim', 'Não')
             ]
         ),
-        papcouch2: ['<32>{#p/human}* (You decide not to take anything.)'],
-        papcouch3: ['<32>{#p/human}* (You found 10G.)'],
+        papcouch2: ['<32>{#p/human}* (Você decide não pegar nada.)'],
+        papcouch3: ['<32>{#p/human}* (Você achou 10G.)'],
         papcouch3a: [
-            "<18>{#p/papyrus}{#f/1}YOU'RE CLEANING OUT THE COUCH FOR US!?",
-            '<18>{#p/papyrus}{#f/5}AND OUT OF NOTHING BUT THE KINDNESS OF YOUR HEART...',
-            '<18>{#p/papyrus}{#f/6}SUCH GENEROSITY!!!'
+            "<18>{#p/papyrus}{#f/1}VOCÊ ESTÁ LIMPANDO O SOFÁ PRA GENTE!?",
+            '<18>{#p/papyrus}{#f/5}E POR NADA ALÉM DE BONDADE VINDA DO SEU CORAÇÃO...',
+            '<18>{#p/papyrus}{#f/6}QUANTA GENEROSIDADE!!!'
         ],
         paproom1: [
-            '<18>{#p/papyrus}{#f/6}WHAT!?\nHOW DID YOU...',
-            '<18>{#p/papyrus}{#f/5}YOU APPEARED RIGHT IN FRONT OF ME!'
+            '<18>{#p/papyrus}{#f/6}O QUE!?\nCOMO VOCÊ...',
+            '<18>{#p/papyrus}{#f/5}VOCÊ APARECEU BEM NA MINHA FRENTE!'
         ],
-        paproom2: ['<18>{#p/papyrus}{#f/4}HAS SANS BEEN TEACHING YOU ABOUT SHORTCUTS...?'],
-        paproom3: ['<18>{#p/papyrus}{#f/7}... UGH!\nSTOP DOING THAT!!'],
-        paproom4: ["<18>{#p/papyrus}{#f/0}YOU'RE ASKING FOR TROUBLE, HUMAN."],
-        paproom5: ['<18>{#p/papyrus}{#f/4}(SIGH...)'],
+        paproom2: ['<18>{#p/papyrus}{#f/4}O SANS TEM TE ENSINADO OS ATALHOS DELE...?'],
+        paproom3: ['<18>{#p/papyrus}{#f/7}... UGH!\nPARA COM ISSO!!'],
+        paproom4: ["<18>{#p/papyrus}{#f/0}VOCÊ ESTÁ PROCURANDO PROBLEMA, HUMANO."],
+        paproom5: ['<18>{#p/papyrus}{#f/4}(CHORINHO...)'],
         papdate0: () => [
             SAVE.data.b.flirt_papyrus
-                ? "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO DATE..."
-                : "<18>{#p/papyrus}{#f/5}WOWIE, YOU'RE SO EAGER TO HANG OUT WITH ME...",
-            "<18>{#f/5}THAT YOU'RE TRYING TO GO IN MY HOUSE AHEAD OF ME!",
-            "<18>{#f/6}THAT'S DEDICATION!"
+                ? "<18>{#p/papyrus}{#f/5}WOWIE, VOCÊ ESTÁ TÃO ANSIOSO PARA O ENCONTRO..."
+                : "<18>{#p/papyrus}{#f/5}WOWIE, VOCÊ ESTÁ TÃO ANSIOSO PARA SAIR COMIGO...",
+            "<18>{#f/5}QUE VOCÊ ESTÁ TENTANDO ENTRAR NA MINHA CASA ANTES DE MIM!",
+            "<18>{#f/6}ISSO É DEDICAÇÃO!"
         ],
         papdate1x: pager.create(
             0,
             [
-                '<18>{#p/papyrus}{#f/0}HELLO, HUMAN!',
-                '<18>{#f/5}I HOPE EVERYTHING IS ALRIGHT.',
-                '<18>{#f/6}FEEL FREE TO TAKE A WALK AROUND TOWN...',
-                '<18>{#f/0}... OR A LOOK IN MY HOUSE!'
+                '<18>{#p/papyrus}{#f/0}OLÁ, HUMANO!',
+                '<18>{#f/5}ESPERO QUE TUDO ESTEJA BEM.',
+                '<18>{#f/6}SINTA-SE LIVRE PARA ANDAR PELA CIDADE...',
+                '<18>{#f/0}... OU OLHAR A MINHA CASA!'
             ],
-            ["<18>{#p/papyrus}{#f/4}JUST BE SURE TO AVOID SANS'S ROOM."]
+            ["<18>{#p/papyrus}{#f/4}SÓ TENTA EVITAR O QUARTO DO SANS."]
         ),
         papdate1: () => [
             SAVE.data.b.flirt_papyrus
-                ? '<18>{#p/papyrus}SO YOU CAME BACK TO HAVE A DATE WITH ME!'
-                : '<18>{#p/papyrus}SO YOU CAME BACK TO SEE ME!',
+                ? '<18>{#p/papyrus}ENTÃO VOCÊ VOLTOU PARA TER UM ENCONTRO COMIGO!'
+                : '<18>{#p/papyrus}ENTÃO VOCÊ VOLTOU PARA ME VER!',
             ...(world.dead_dog || world.population < 6
                 ? [
                     "<18>{#f/0}ISSO É ÓTIMO!!",
-                    "<18>{#f/5}TRUTH BE TOLD, IT'S BEEN A LITTLE LONELY TODAY...",
-                    '<18>{#f/5}A LOT OF PEOPLE ARE STRANGELY ABSENT...',
-                    "<18>{#f/0}BUT YOU'RE STILL HERE!!",
-                    '<18>{#f/0}THAT MEANS SOMETHING, RIGHT??'
+                    "<18>{#f/5}VERDADE SEJA DITA, HOJE ESTÁ UM POUCO SOLITÁRIO...",
+                    '<18>{#f/5}MUITAS PESSOAS SUMIRAM...',
+                    "<18>{#f/0}MAS VOCÊ ESTÁ AQUI!!",
+                    '<18>{#f/0}ISSO SIGNIFICA ALGO, CERTO??'
                 ]
-                : ['<18>{#f/4}YOU MUST BE REALLY SERIOUS ABOUT THIS...']),
-            "<18>{#f/5}I'LL HAVE TO TAKE YOU SOMEPLACE REALLY SPECIAL...",
-            '<18>{#f/0}A PLACE I LIKE TO SPEND A LOT OF TIME!!!'
+                : ['<18>{#f/4}VOCÊ DEVE ESTAR FALANDO BEM SÉRIO SOBRE ISSO...']),
+            "<18>{#f/5}EU VOU TE LEVAR PARA UM LUGAR BEM ESPECIAL...",
+            '<18>{#f/0}UM LUGAR QUE GOSTO DE PASSAR BASTANTE TEMPO!!!'
         ],
-        papdate2: ['<18>{#p/papyrus}MY HOUSE!!!'],
+        papdate2: ['<18>{#p/papyrus}MINHA CASA!!!'],
         papdate3: pager.create(
             0,
-            ['<18>{#p/papyrus}WELCOME TO SCENIC MY HOUSE!', '<18>ENJOY AND TAKE YOUR TIME!!!'],
-            ["<18>{#p/papyrus}WHEN YOU'RE DONE, HEAD UPSTAIRS TO MY ROOM!"]
+            ['<18>{#p/papyrus}SEJA BEM VINDO A MINHA CASA!', '<18>SINTA-SE BEM E APROVEITE SEU TEMPO!!!'],
+            ["<18>{#p/papyrus}QUANDO TIVER OLHADO TUDO, PODE SUBIR AS ESCADAS ATÉ MEU QUARTO!"]
         ),
-        papdate3a: ['<18>{#p/papyrus}{#f/6}WOW! BEING A GOOD HOST IS A REAL WORKOUT!'],
+        papdate3a: ['<18>{#p/papyrus}{#f/6}WOW! SER UM BOM ANCIÃO É UM BELO EXERCÍCIO!'],
         papdate3b: [
-            "<18>{#p/papyrus}{#f/5}WOWIE, I CAN'T FEEL MY LEGS...",
-            "<18>{#f/0}THAT MUST MEAN I'M BEING A GREAT HOST!!!"
+            "<18>{#p/papyrus}{#f/5}WOWIE, NÃO CONSIGO SENTIR MINHAS PERNAS...",
+            "<18>{#f/0}ISSO DEVE SIGNIFICAR QUE EU SOU O MELHOR COM VISITAS!!!"
         ],
         papdate4: pager.create(
             0,
             () => [
-                "<18>{#p/papyrus}THAT'S MY ROOM!",
-                "<18>{#f/4}IF YOU'VE FINISHED LOOKING AROUND, WE COULD GO IN AND...",
-                '<18>{#f/4}AND...',
+                "<18>{#p/papyrus}ESSE É MEU QUARTO!",
+                "<18>{#f/4}SE VOCÊ JÁ TERMINOU DE OLHAR POR AÍ, A GENTE PODE...",
+                '<18>{#f/4}FAZER...',
                 SAVE.data.b.flirt_papyrus
-                    ? '<18>{#f/9}DO WHATEVER PEOPLE DO WHEN THEY DATE!'
-                    : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
+                    ? '<18>{#f/9}SEJA LÁ O QUE AS PESSOAS FAÇAM NOS ENCONTROS!'
+                    : '<18>{#f/9}\"UM ROLÊ\" IGUAL UM PAR DE AMIGOS LEGAIS!',
                 choicer.create('* (O que você diz?)', 'Sim', 'Não')
             ],
-            () => ['<18>{#p/papyrus}READY?', choicer.create('* (O que você diz?)', 'Sim', 'Não')]
+            () => ['<18>{#p/papyrus}PRONTO?', choicer.create('* (O que você diz?)', 'Sim', 'Não')]
         ),
-        papdate4a: ["<18>{#p/papyrus}OKAY, LET'S GO!"],
-        papdate4b: ["<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!"],
+        papdate4a: ["<18>{#p/papyrus}OKAY, VAMOS LÁ!"],
+        papdate4b: ["<18>{#p/papyrus}EU VOU CONTINUAR ESPERANDO!"],
         papdate5: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}SO, UM...',
-                "<18>{#f/5}IF YOU'VE SEEN EVERYTHING...",
+                '<18>{#p/papyrus}{#f/5}ENTÃO, HMM...',
+                "<18>{#f/5}SE VOCÊ JÁ VIU TUDO...",
                 SAVE.data.b.flirt_papyrus
-                    ? '<18>{#f/6}DO YOU WANT TO START DATING?'
-                    : '<18>{#f/6}DO YOU WANT TO START HANGING OUT?',
+                    ? '<18>{#f/6}QUER COMEÇAR O ENCONTRO?'
+                    : '<18>{#f/6}QUER COMEÇAR NOSSO ROLÊ?',
                 choicer.create('* (O que você diz?)', 'Sim', 'Não')
             ],
-            () => ['<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (O que você diz?)', 'Sim', 'Não')]
+            () => ['<18>{#p/papyrus}{#f/6}PRONTO PARA COMEÇAR?', choicer.create('* (O que você diz?)', 'Sim', 'Não')]
         ),
         papdate5a: () => [
             SAVE.data.b.flirt_papyrus
-                ? '<18>{#p/papyrus}OKAY!!!\nDATING START!!!'
-                : "<18>{#p/papyrus}OKAY!!!\nLET'S HANG TEN!!!"
+                ? '<18>{#p/papyrus}OKAY!!!\nCOMEÇAR ENCONTRO!!!'
+                : "<18>{#p/papyrus}OKAY!!!\nVAMOS DAR UM ROLÊ!!"
         ],
-        papdate5b: ["<18>{#p/papyrus}TAKE YOUR TIME, I'LL WAIT FOR YOU."],
+        papdate5b: ["<18>{#p/papyrus}TOME SEU TEMPO, EU ESPERO."],
         papdate6: () => [
             SAVE.data.b.flirt_papyrus
-                ? '<#32>{#p/story}         DATING    START!'
-                : '<#32>{#p/story}         HANGOUT   START!'
+                ? '<#32>{#p/story}         ENCONTRO    COMEÇAR!'
+                : '<#32>{#p/story}         ROLÊ   COMEÇAR!'
         ],
         papdate7: () => [
-            '<15>{#p/papyrus}{#f/10}HERE WE ARE!!',
-            SAVE.data.b.flirt_papyrus ? '<15>{#f/20}ON OUR DATE!!' : '<15>{#f/20}HANGING OUT!!',
-            "<15>{#f/24}I'VE ACTUALLY NEVER DONE THIS BEFORE.",
-            "<15>{#f/10}BUT DON'T WORRY!!!",
-            '<15>{#f/20}PREPARATION IS MY (UNOFFICIAL) LAST NAME!'
+            '<15>{#p/papyrus}{#f/10}AÍ VAMOS NÓS!',
+            SAVE.data.b.flirt_papyrus ? '<15>{#f/20}NOSSO ENCONTRO!!' : '<15>{#f/20}ROLEZANDO!!',
+            "<15>{#f/24}NA VERDADE EU NUNCA FIZ ISSO ANTES.",
+            "<15>{#f/10}MAS NÃO SE PREOCUPE!!!",
+            '<15>{#f/20}PREPARAÇÃO É MEU SOBRENOME (NÃO OFICIAL)!'
         ],
         papdate8: () => [
-            '<15>{#f/20}WHAT DO I HAVE HERE, YOU ASK?',
+            '<15>{#f/20}O QUE EU TENHO AQUI, VOCÊ PERGUNTA?',
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#p/papyrus}{#f/10}AN OFFICIAL DATING GUIDE, STRAIGHT FROM THE LIBRARBY!'
-                : '<15>{#p/papyrus}{#f/10}AN OFFICIAL HANGOUT GUIDE, STRAIGHT FROM THE LIBRARBY!',
-            "<15>{#f/20}WITH THIS, WE'RE BOUND TO HAVE A GREAT TIME!"
+                ? '<15>{#p/papyrus}{#f/10}UM GUIA OFICIAL DE NAMORO, DIRETO DA LIBRARIA!'
+                : '<15>{#p/papyrus}{#f/10}UM GUIA OFICIAL DE HANGOUT, DIRETO DO THE LIBRARIA!',
+            "<15>{#f/20}COM ISSO, É CERTEZA QUE TEREMOS UM BOM TEMPO!"
         ],
         papdate9: () => [
-            "<15>{#p/papyrus}{#f/25}LET'S SEE...",
+            "<15>{#p/papyrus}{#f/2}VAMOS VER...",
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#f/25}STEP ONE: PRESS C OR CTRL TO OPEN THE {@fill=#f00}DATING HUD{@fill=#000}.'
-                : '<15>{#f/25}STEP ONE: PRESS C OR CTRL TO OPEN THE {@fill=#f00}FRIENDSHIP HUD{@fill=#000}.'
+                ? '<15>{#f/25}PRIMEIRO PASSO: PRESSIONE C OU CTRL PARA ABRIR O {@fill=#f00}LIVRO{@fill=#000}.'
+                : '<15>{#f/25}PRIMEIRO PASSO: PRESSIONE C OU CTRL PARA ABRIR O {@fill=#f00}LIVRO{@fill=#000}.'
         ],
         papdate10: () => [
-            '<15>{#p/papyrus}{#f/24}... WAIT.',
-            '<15>{#f/22}YOU ALREADY DID THAT!?!?',
+            '<15>{#p/papyrus}{#f/24}... ESPERA.',
+            '<15>{#f/22}VOCÊ JÁ FEZ ISSO ANTES!?!?',
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#f/11}WOWIE, YOU MUST REALLY LOVE ME!'
-                : '<15>{#f/11}WOWIE, YOU MUST REALLY LIKE ME!',
-            "<15>{#f/10}IT'S ONTO STEP TWO, THEN!"
+                ? '<15>{#f/11}WOWIE, VOCÊ DEVE REALMENTE ME AMAR!'
+                : '<15>{#f/11}WOWIE, VOCÊ DEVE REALMENTE GOSTAR DE MIM!',
+            "<15>{#f/10}PARA O SEGUNDO PASSO, ENTÃO!"
         ],
         papdate11: [
             '<15>{#p/papyrus}{#f/24}...',
-            "<15>{#f/24}EH, WE DIDN'T NEED IT ANYWAY.",
-            '<15>{#f/20}ONTO STEP TWO!'
+            "<15>{#f/24}EH, NÓS NÃO PRECISAMOS DISSO DE TODA FORMA.",
+            '<15>{#f/20}PARA O SEGUNDO PASSO!'
         ],
         papdate12: [
-            '<15>{#p/papyrus}{#f/11}WOWIE, I FEEL SO INFORMED!',
-            "<15>{#f/24}IN FACT, I THINK WE'RE READY FOR STEP TWO..."
+            '<15>{#p/papyrus}{#f/11}WOWIE, ME SINTO TÃO INFORMADO!',
+            "<15>{#f/24}DE FATO, ESTAMOS PRONTOS PARA O SEGUNDO PASSO..."
         ],
         papdate13: () => [
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#p/papyrus}{#f/25}STEP TWO: ASK THEM ON A DATE.'
-                : '<15>{#p/papyrus}{#f/25}STEP TWO: ASK THEM TO HANG OUT.'
+                ? '<15>{#p/papyrus}{#f/25}SEGUNDO PASSO: CONVIDÁ-LOS PARA SAIR.'
+                : '<15>{#p/papyrus}{#f/25}SEGUNDO PASSO: CONVIDÁ-LOS PARA UM ROLÊ.'
         ],
         papdate13a: () => [
             '<15>{#f/24}\"AHEM.\"',
-            '<15>{#f/20}HUMAN!\nI, THE GREAT PAPYRUS...',
+            '<15>{#f/20}HUMANO!\nEU, O GRANDE PAPYRUS...',
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!'
-                : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
+                ? '<15>{#f/10}GOSTARIA DE IR EM UM ENCONTRO CONTIGO!'
+                : '<15>{#f/10}GOSTARIA DE IR EM UM ROLÊ CONTIGO!'
         ],
         papdate14: () => [choicer.create('* (O que você diz?)', 'Sim', 'Não')],
-        papdate15a: ['<15>{#p/papyrus}{#f/12}R-REALLY???', '<15>{#f/11}WOWIE!!!'],
-        papdate15a1: ["<15>{#f/24}I GUESS THAT MEANS IT'S TIME FOR STEP THREE..."],
-        papdate15b: ['<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FORTUNATELY, IT ONLY SAYS TO ASK.'],
-        papdate15c: ["<15>{#f/24}WELL ANYWAY, IT'S TIME FOR STEP THREE..."],
-        papdate16: ['<15>{#p/papyrus}{#f/25}STEP THREE: PUT ON NICE CLOTHES TO SHOW YOU CARE.'],
-        papdate16a: ['<15>{#p/papyrus}{#f/24}...', '<15>{#f/24}WAIT A SECOND.'],
+        papdate15a: ['<15>{#p/papyrus}{#f/12}S-SÉRIO???', '<15>{#f/11}WOWIE!!!'],
+        papdate15a1: ["<15>{#f/24}ACHO QUE AGORA É HORA DO TERCEIRO PASSO..."],
+        papdate15b: ['<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FELIZMENTE, AQUI SÓ DIZ PARA PERGUNTAR.'],
+        papdate15c: ["<15>{#f/24}BEM DE TODA FORMA, PARA O PASSO TRÊS..."],
+        papdate16: ['<15>{#p/papyrus}{#f/25}TERCEIRO PASSO: COLOQUE ROUPAS LEGAIS PARA MOSTRAR QUE SE IMPORTA.'],
+        papdate16a: ['<15>{#p/papyrus}{#f/24}...', '<15>{#f/24}ESPERA UM SEGUNDO.'],
         papdate17: () => [
-            '<15>{#f/24}NICE CLOTHES...',
+            '<15>{#f/24}BELAS ROUPAS...',
             (
                 {
-                    spacesuit: "<15>{#f/26}THAT OLD SPACESUIT YOU'RE WEARING...",
-                    halo: '<15>{#f/26}THAT FANCY HALO ON YOUR HEAD...',
-                    eye: '<15>{#f/26}THAT FORCE FIELD AROUND YOU...',
-                    eye_x: '<15>{#f/26}THAT FORCE FIELD AROUND YOU...',
-                    temyarmor: "<15>{#f/26}THAT ARMOR YOU'RE WEARING...",
-                    goggles: '<15>{#f/26}THAT GADGET ON YOUR HEAD...',
-                    goggles_x: '<15>{#f/26}THAT GADGET ON YOUR HEAD...',
-                    visor: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
-                    visor_x: '<15>{#f/26}THAT VISOR IN FRONT OF YOUR EYES...',
-                    sonic: "<15>{#f/26}THAT ODD DEVICE YOU'RE CARRYING...",
-                    heart_locket: '<15>{#f/26}THAT LOCKET AROUND YOUR NECK...'
+                    spacesuit: "<15>{#f/26}ESSA ROUPA ESPACIAL QUE VOCÊ ESTÁ USANDO...",
+                    halo: '<15>{#f/26}ESSE HALO QUE VOCÊ ESTÁ USANDO...',
+                    eye: '<15>{#f/26}ESSE ESCUDO DE FORÇA QUE VOCÊ ESTÁ USANDO...',
+                    eye_x: '<15>{#f/26}ESSE ESCUDO DE FORÇA QUE VOCÊ ESTÁ USANDO...',
+                    temyarmor: "<15>{#f/26}ESSA ARMADURA QUE VOCÊ ESTÁ USANDO...",
+                    goggles: '<15>{#f/26}ESSA ENGENHOCA NA SUA CABEÇA...',
+                    goggles_x: '<15>{#f/26}ESSA ENGENHOCA NA SUA CABEÇA...',
+                    visor: '<15>{#f/26}ESSE VISOR NA FRENTE DOS SEUS OLHOS...',
+                    visor_x: '<15>{#f/26}ESSE VISOR NA FRENTE DOS SEUS OLHOS...',
+                    sonic: "<15>{#f/26}ESSE DISPOSITIVO VELHO QUE VOCÊ ESTÁ USANDO...",
+                    heart_locket: '<15>{#f/26}ESSE MEDALHÃO EM VOLTA DO SEU PESCOÇO...'
                 } as Partial<CosmosKeyed<string>>
-            )[SAVE.data.s.armor] || '<15>{#f/26}THAT THING ON YOUR BODY...',
-            "<15>{#f/20}YOU'RE WEARING CLOTHING RIGHT NOW!!!",
-            '<15>{#f/24}AND NOT ONLY THAT...',
-            '<15>{#f/20}EARLIER TODAY, YOU WERE ALSO WEARING CLOTHING!'
+            )[SAVE.data.s.armor] || '<15>{#f/26}ESSA COISA NO SEU CORPO...',
+            "<15>{#f/20}VOCÊ ESTÁ USANDO UMA ROUPA AGORA MESMO!!!",
+            '<15>{#f/24}E NÃO SÓ ISSO...',
+            '<15>{#f/20}HOJE MAIS CEDO, VOCÊ TAMBÉM ESTAVA USANDO UMA ROUPA!'
         ],
         papdate17a: () => [
-            '<15>{#f/12}NO...!\nCOULD IT BE???',
+            '<15>{#f/12}NÃO...!\nNÃO PODE SER???',
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#f/13}HAVE YOU WANTED TO DATE ME FROM THE VERY BEGINNING???'
-                : '<15>{#f/13}HAVE YOU WANTED TO BEFRIEND ME FROM THE VERY BEGINNING???'
+                ? '<15>{#f/13}VOCÊ QUERIA SAIR COMIGO DESDE O COMEÇO?'
+                : '<15>{#f/13}VOCÊ QUERIA SER MEU AMIGO DESDE O COMEÇO?'
         ],
         papdate18a: () => [
-            '<15>{#p/papyrus}{#f/22}NO!!',
-            '<15>{#f/22}YOU PLANNED IT ALL!!!',
+            '<15>{#p/papyrus}{#f/22}NÃO!!',
+            '<15>{#f/22}VOCÊ PLANEJOU TUDO!!!',
             ...(SAVE.data.b.flirt_papyrus
                 ? [
-                    '<15>{#f/22}YOU MIGHT EVEN BE BETTER AT DATING THAN I AM!!!',
-                    '<15>N-NOOOO!!!\nYOUR {@fill=#003cff}DATING POWER{@fill=#000}...!!!'
+                    '<15>{#f/22}VOCÊ DEVE SER MELHOR DO QUE EU EM ENCONTROS!!!',
+                    '<15>N-NÃOOOO!!\nSEU {@fill=#003cff}PODER DE NAMORO{@fill=#000}...!!!'
                 ]
                 : [
-                    '<15>{#f/22}YOU MIGHT EVEN BE BETTER AT HANGING OUT THAN I AM!!!',
-                    '<15>N-NOOOO!!!\nYOUR {@fill=#003cff}FRIENDSHIP POWER{@fill=#000}!!!'
+                    '<15>{#f/22}VOCÊ DEVE SER MELHOR DO QUE EU EM DAR ROLÊ!!!',
+                    '<15>N-NÃOOOO!!\nSEU {@fill=#003cff}PODER DE AMIZADE{@fill=#000}'
                 ])
         ],
         papdate18b: () => [
             '<15>{#p/papyrus}{#f/24}OH...',
-            '<15>{#f/21}BUT DESPITE THAT...',
-            '<15>{#f/21}YOU STILL CHOSE TO WEAR CLOTHING TODAY OF ALL DAYS...?',
-            "<15>{#f/24}IT'S ALMOST LIKE...",
+            '<15>{#f/21}MAS APESAR DISSO...',
+            '<15>{#f/21}VOCÊ AINDA ESCOLHEU USAR ROUPAS HOJE DE TODOS OS DIAS...?',
+            "<15>{#f/24}É COMO SE...",
             ...(SAVE.data.b.flirt_papyrus
                 ? [
-                    '<15>{#f/13}LIKE YOUR INTEREST IN ME WAS PREDESTINED~',
-                    '<15>{#f/22}N-NOOOO!!!\nYOUR {@fill=#003cff}DATING POWER{@fill=#000}...!!!'
+                    '<15>{#f/13}SE SEU INTERESSE EM MIM JÁ ESTIVESSE PREDESTINADO~',
+                    '<15>{#f/22}N-NÃOOOO!!\nSEU {@fill=#003cff}PODER DE NAMORO{@fill=#000}'
                 ]
                 : [
-                    '<15>{#f/13}LIKE YOUR FRIENDSHIP WAS PREDESTINED~',
-                    '<15>{#f/22}N-NOOOO!!!\nYOUR {@fill=#003cff}FRIENDSHIP POWER{@fill=#000}...!!!'
+                    '<15>{#f/13}COMO SE NOSSA AMIZADE TIVESSE SIDO PREDESTINADA~',
+                    '<15>{#f/22}N-NÃOOOO!!\nSEU {@fill=#003cff}PODER DE AMIZADE{@fill=#000}'
                 ])
         ],
         papdate19: ['<15>{#p/papyrus}{#f/15}NYEH!', '<15>{#f/15}NYEH HEH HEH!!!'],
         papdate20: () => [
-            "<15>{#p/papyrus}{#f/15}DON'T THINK YOU'VE BESTED ME YET!",
-            '<15>{#f/20}I, THE GREAT PAPYRUS...',
+            "<15>{#p/papyrus}{#f/15}NÃO PENSE QUE VOCÊ ME VENCEU!",
+            '<15>{#f/20}EU, O GRANDE PAPYRUS...',
             SAVE.data.b.flirt_papyrus
-                ? '<15>{#f/20}HAVE NEVER BEEN BEATEN AT DATING...'
-                : '<15>{#f/20}HAVE NEVER BEEN BEATEN AT HANGING OUT...',
-            '<15>{#f/15}AND I NEVER WILL!!',
-            '<15>{#f/10}I CAN EASILY KEEP UP WITH YOU!!!',
-            '<15>{#f/24}IN FACT...',
-            '<15>{#f/20}I ALWAYS WEAR MY \"SPECIAL\" CLOTHES...',
-            '<15>{#f/20}UNDERNEATH MY REGULAR ONES!!',
-            '<15>{#f/15}BEHOLD!!'
+                ? '<15>{#f/20}NUNCA FUI DERROTADO EM UM ENCONTRO...'
+                : '<15>{#f/20}NUNCA FUI DERROTADO EM UM ROLÊ...',
+            '<15>{#f/15}E JAMAIS SEREI!!',
+            '<15>{#f/10}EU POSSO FACILMENTE MANTER O RITMO COM VOCÊ!!!',
+            '<15>{#f/24}NA VERDADE...',
+            '<15>{#f/20}EU SEMPRE USO MINHAS ROUPAS \"ESPECIAIS\"...',
+            '<15>{#f/20}EM BAIXO DAS MINHAS NORMAIS!!',
+            '<15>{#f/15}OBSERVE!!'
         ],
-        papdate21: ['<15>{#p/papyrus}{#f/15}WHAT DO YOU THINK OF MY SECRET STYLE?'],
-        papdate22: () => [choicer.create('* (O que você diz?)', 'It rocks', 'It sucks')],
-        papdate23a: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A GENUINE COMPLIMENT...!'],
-        papdate23b: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A CRITICAL, YET HONEST REVIEW...!'],
+        papdate21: ['<15>{#p/papyrus}{#f/15}O QUE VOCÊ ACHOU DO MEU ESTILO SECRETO?'],
+        papdate22: () => [choicer.create('* (O que você diz?)', 'Super Fera', 'Uma bosta')],
+        papdate23a: ['<15>{#p/papyrus}{#f/13}NÃO!!!', '<15>{#f/13}UM COMPRIMENTO GENUÍNO...!'],
+        papdate23b: ['<15>{#p/papyrus}{#f/13}NÃO!!!', '<15>{#f/13}UMA CRÍTICA, MAS HONESTA OPINIÃO...!'],
         papdate24: [
-            '<15>{#p/papyrus}{#f/24}HOWEVER...',
-            "<15>{#f/20}YOU DON'T TRULY UNDERSTAND THE {@fill=#f00}HIDDEN POWER{@fill=#000} OF THIS OUTFIT!",
-            '<15>{#f/26}THEREFORE...'
+            '<15>{#p/papyrus}{#f/24}ENTRE TANTO...',
+            "<15>{#f/20}VOCÊ NÃO ENTENDE O {@fill=#f00}PODER{@fill=#000} DESTE OUTFIT!",
+            '<15>{#f/26}SENDO ASSIM...'
         ],
         papdate24a: () => [
-            '<15>{#f/15}WHAT YOU JUST SAID IS INVALID!!',
+            '<15>{#f/15}ENTÃO O QUE VOCÊ DISSE É INVALIDO!',
             SAVE.data.b.flirt_papyrus
-                ? "<15>{#f/15}THIS DATE WON'T ESCALATE ANY FURTHER!"
-                : "<15>{#f/15}THIS HANGOUT WON'T ESCALATE ANY FURTHER!",
-            '<15>{#f/24}UNLESS...',
-            '<15>{#f/20}YOU CAN FIND MY {@fill=#f00}SECRET{@fill=#000}.',
-            "<15>{#f/15}BUT THAT WON'T HAPPEN!!"
+                ? "<15>{#f/15}ESTE ENCONTRO NÃO VAI ESCALAR ACIMA DISSO!"
+                : "<15>{#f/15}ESTE ROLÊ NÃO VAI ESCALAR ACIMA DISSO!",
+            '<15>{#f/24}AH NÃO SER...',
+            '<15>{#f/20}QUE VOCÊ ENCONTRE MEU {@fill=#f00}SEGREDO{@fill=#000}.',
+            "<15>{#f/15}MAS ISSO NÃO VAI ACONTECER!!"
         ],
-        papdate24b: '* Move and inspect with [Z].',
+        papdate24b: '* Mova e inspecione com [Z].',
         papdate25: [
             
-            '<15>{#p/papyrus}{#f/21}THE WIG ON MY HEAD...?',
-            '<15>{#f/16}THE WIG ON MY HEAD.',
-            '<15>{#f/10}THE WIG... ON MY HEAD!!!',
-            "<15>{#f/10}NYEH HEH HEH!\nTHAT'S VERY SIGNIFICANT INDEED!"
+            '<15>{#p/papyrus}{#f/21}O CABELO NA MINHA CABEÇA?',
+            '<15>{#f/16}O CABELO NA MINHA CABEÇA.',
+            '<15>{#f/10}O CABELO... NA MINHA CABEÇA!!!',
+            "<15>{#f/10}NYEH HEH HEH!\nISSO É REALMENTE MUITO SIGNIFICATIVO!"
         ],
         papdate25a: [
-            '<15>{#p/papyrus}{#f/21}OVERWHELMED BY THE SIGHT OF MY \"STELLAR\" OUTFIT?',
-            '<15>{#f/24}NO, NO, I UNDERSTAND.',
-            "<15>{#f/20}BUT YOU CAN'T BACK DOWN NOW!!!"
+            '<15>{#p/papyrus}{#f/21}IMPRESSIONADO COM A VISÃO DA MINHA ROUPA \"ESTELAR?\"',
+            '<15>{#f/24}NÃO, NÃO, EU ENTENDO.',
+            "<15>{#f/20}MAS VOCÊ NÃO PODE PARAR AGORA!!!"
         ],
         papdate25b: [
-            '<15>{#p/papyrus}{#f/26}THIS SHIRT DIDN\'T ORIGINALLY SAY \"STELLAR...\"',
-            '<15>{#f/20}BUT I IMPROVED IT!',
-            '<15>{#f/10}EXPERT TIP: ALL CLOTHING CAN BE IMPROVED THIS WAY.',
-            "<15>{#f/20}... BUT THAT'S NOT A SECRET!\nTRY AGAIN!"
+            '<15>{#p/papyrus}{#f/26}ESSA CAMISA ORIGINALMENTE NÃO DIZIA \"ESTELAR...\"',
+            '<15>{#f/20}MAS EU A MELHOREI!',
+            '<15>{#f/10}DICA DE EXPERT: TODAS AS ROUPAS PODEM SER MELHORADAS ASSIM.',
+            "<15>{#f/20}... MAS ISSO NÃO É UM SEGREDO!\nTENTE DE NOVO!"
         ],
         papdate25c: [
-            '<15>{#p/papyrus}{#f/24}I SEE, I SEE.',
-            '<15>{#f/24}YOU LIKE FEELING MY ARM- PILLOWS WITH A FLOATING HEART.',
-            "<15>{#f/20}BUT WHO DOESN'T!?\nTRY AGAIN!"
+            '<15>{#p/papyrus}{#f/24}EU ENTENDO, EU ENTENDO.',
+            '<15>{#f/24}VOCÊ GOSTA DE SENTIR MEUS TRAVESSEIROS DE BRAÇO COM UM CORAÇÃO FLUTUANTE.',
+            "<15>{#f/20}MAS QUEM NÃO!?\nTENTE DE NOVO!"
         ],
         papdate25d: [
-            "<15>{#p/papyrus}{#f/13}HOLDING MY HAND SO I'LL TELL YOU THE ANSWER...?",
-            '<15>{#f/14}N-NO, I MUST RESIST!!',
-            '<15>{#f/20}TRY AGAIN!'
+            "<15>{#p/papyrus}{#f/13}SEGURANDO MINHA MÃO PARA QUE EU TE DIGA A RESPOSTA...?",
+            '<15>{#f/14}N-NÃO, EU DEVO RESISTIR!!',
+            '<15>{#f/20}TENTE DE NOVO!'
         ],
         papdate25e: [
-            "<15>{#p/papyrus}{#f/26}PILLOWS OR NOT, THERE'S NO SECRET TO MY LEGS.",
-            '<15>{#f/10}ONLY HARD WORK AND PERSEVERANCE!',
-            '<15>{#f/20}TRY AGAIN!'
+            "<15>{#p/papyrus}{#f/26}ALMOFADAS OU NÃO, NÃO EXISTEM SEGREDOS AÍ.",
+            '<15>{#f/10}APENAS TRABALHO DURO E PERSEVERANÇA!',
+            '<15>{#f/20}TENTE DE NOVO!'
         ],
         papdate25f: [
-            '<15>{#p/papyrus}{#f/24}THIS \"DRIP\" MAY BE UNDE- FEET-ABLE...',
-            '<15>{#f/20}BUT EXPECTING A SECRET HERE IS TOTALLY UNREASONABLE!',
-            '<15>{#f/20}TRY AGAIN!'
+            '<15>{#p/papyrus}{#f/24}ESTE \"DRIP\" PODE SER INDES- PÉS- SAVEL...',
+            '<15>{#f/20}MAS ESPERAR UM SEGREDO AÍ É SEM SENTIDO!',
+            '<15>{#f/20}TENTE DE NOVO!'
         ],
         papdate25g: [
-            '<15>{#p/papyrus}{#f/20}AH YES, MY TOP-OF-THE-LINE SPORTSWEAR!',
-            "<15>{#f/24}YOU WON'T FIND ANY SECRETS HERE, THOUGH, BECAUSE...",
-            "<15>{#f/20}I DON'T HAVE ANY POCKETS TO HIDE THEM IN!!!",
-            '<15>{#f/20}TRY AGAIN!'
+            '<15>{#p/papyrus}{#f/20}AH SIM, MINHA ROUPA ESPORTIVA TOP DE LINHA!',
+            "<15>{#f/24}VOCÊ NÃO VAI ENCONTRAR NENHUM SEGREDO AÍ, POR QUE...",
+            "<15>{#f/20}EU NÃO TENHO BOLSOS PARA ESCONDER NADA!!!",
+            '<15>{#f/20}TENTE DE NOVO!'
         ],
         papdate25h: () => [
-            '<15>{#p/papyrus}{#f/24}MY SHOULDERS...',
-            '<15>{#f/10}ARE YOU ASKING FOR A PIGGYBACK RIDE??',
+            '<15>{#p/papyrus}{#f/24}MEUS OMBROS...',
+            '<15>{#f/10}VOCÊ ESTÁ PEDINDO UMA CARONA NAS COSTAS??',
             SAVE.data.b.flirt_papyrus
-                ? "<15>{#f/24}WELL, I'D GIVE IT TO YOU IF WE WEREN'T SO BUSY DATING."
-                : "<15>{#f/24}WELL, I'D GIVE IT TO YOU IF WE WEREN'T SO BUSY HANGING OUT.",
-            '<15>{#f/20}BUT WE ARE!\nSO TRY AGAIN!'
+                ? "<15>{#f/24}BEM, EU TE DARIA UMA, MAS ESTAMOS OCUPADOS NO ENCONTRO."
+                : "<15>{#f/24}BEM, EU TE DARIA UMA, MAS ESTAMOS NO ROLÊ.",
+            '<15>{#f/20}MAS NÓS ESTAMOS AQUI! \nTENTE DE NOVO!'
         ],
         papdate25i: [
-            '<15>{#p/papyrus}{#f/14}SERIOUSLY??',
-            "<15>{#f/19}I'M NOT JUST GOING TO -TELL- YOU THE SECRET...",
-            "<15>{#f/20}YOU'LL HAVE TO TRY A LITTLE HARDER THAN THAT!"
+            '<15>{#p/papyrus}{#f/14} SÉRIO??',
+            "<15>{#f/19}EU NÃO VOU SÓ TE CONTAR O SEGREDO...",
+            "<15>{#f/20}VOCÊ VAI TER QUE SE ESFORÇAR UM POUCO MAIS DO QUE ISSO!"
         ],
         papdate25j: () =>
             calcLV() > 2
                 ? [
-                    '<15>{#p/papyrus}{#f/24}IF YOUR {@fill=#f00}LV{@fill=#000} IS THIS HIGH, THEN...',
+                    '<15>{#p/papyrus}{#f/24}SE O SEU {@fill=#f00}LV{@fill=#000} É TÃO ALTO, ENTÃO...',
                     SAVE.data.b.flirt_papyrus
-                        ? '<15>{#f/28}YOUR {@fill=#f00}LOVE{@fill=#000} FOR ME MUST BE EVEN GREATER THAN I THOUGHT!'
-                        : "<15>{#f/28}YOU'VE GOT MORE EXPERIENCE WITH {@fill=#f00}LOVE{@fill=#000} THAN I THOUGHT!",
-                    "<15>{#f/24}STILL, THAT'S YOUR SECRET, NOT MINE.",
-                    '<15>{#f/20}TRY AGAIN!'
+                        ? '<15>{#f/28}SEU {@fill=#f00}AMOR{@fill=#000} POR MIM DEVE SER AINDA MAIOR DO QUE EU PENSAVA!'
+                        : "<15>{#f/28}VOCÊ TEM MAIS EXPERIÊNCIA COM {@fill=#f00}LOVE{@fill=#000} DO QUE EU PENSAVA!",
+                    "<15>{#f/24}AINDA ASSIM, ESTE É SEU SEGREDO, NÃO O MEU.",
+                    '<15>{#f/20}TENTE DE NOVO!'
                 ]
                 : calcLV() === 2
                     ? [
-                        '<15>{#p/papyrus}{#f/24}AN {@fill=#f00}LV{@fill=#000} OF TWO?',
-                        '<15>{#f/27}DOES THAT MEAN...',
+                        '<15>{#p/papyrus}{#f/24}UM {@fill=#f00}LV{@fill=#000} DE DOIS?',
+                        '<15>{#f/27}ISSO SIGNIFICA...',
                         ...(SAVE.data.b.flirt_papyrus
                             ? [
                                 '<15>{#f/28}YOU HAVE A SECRET SECOND {@fill=#f00}LOVE{@fill=#000} INTEREST...?',
@@ -3125,7 +3125,7 @@ export default {
                                 '<15>{#f/28}THAT DEEP DOWN, YOU {@fill=#f00}LOVE{@fill=#000} ME AS MUCH AS YOU LIKE ME?',
                                 '<15>{#f/14}N-NO...!\nI WILL NOT SUCCUMB TO YOUR TRICKS!'
                             ]),
-                        '<15>{#f/20}TRY AGAIN!'
+                        '<15>{#f/20}TENTE DE NOVO!'
                     ]
                     : SAVE.data.b.oops
                         ? [
@@ -3138,7 +3138,7 @@ export default {
                                     "<15>{#f/24}WELL, THAT WOULDN'T MAKE SENSE IF WE'RE JUST FRIENDS.",
                                     '<15>{#f/14}B-BUT... NO!\nI WILL NOT SUCCUMB TO YOUR TRICKS!'
                                 ]),
-                            '<15>{#f/20}TRY AGAIN!'
+                            '<15>{#f/20}TENTE DE NOVO!'
                         ]
                         : [
                             '<15>{#p/papyrus}{#f/24}AN {@fill=#f00}LV{@fill=#000} OF ZERO?',
@@ -3147,7 +3147,7 @@ export default {
                             '<15>{#f/24}HMM...',
                             '<15>{#f/24}IS THIS YOUR SECRET?',
                             '<15>{#f/20}WELL, THIS IS SUPPOSED TO BE ABOUT MY SECRET!',
-                            '<15>{#f/20}TRY AGAIN!'
+                            '<15>{#f/20}TENTE DE NOVO!'
                         ],
         papdate25k: () => [
             ...(SAVE.data.n.hp > calcHP()
@@ -3160,7 +3160,7 @@ export default {
                     '<15>{#p/papyrus}{#f/24}YOUR HP MAY BE FULL, BUT WHEN IT COMES TO SECRETS...',
                     "<15>{#f/20}YOU'RE STILL RUNNING ON EMPTY!"
                 ]),
-            '<15>{#f/20}TRY AGAIN!'
+            '<15>{#f/20}TENTE DE NOVO!'
         ],
         papdate25l: [
             "<15>{#p/papyrus}{#f/20}SO THAT'S HOW IT IS...",
@@ -4859,7 +4859,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Before the war, monsters were taught magic on a regular, day-to-day basis.\"',
                             '<32>* \"When most of our race died, so too did many of our teachers.\"',
                             '<32>* \"To account for this, monsters started learning in larger groups.\"',
@@ -4867,7 +4867,7 @@ export default {
                             '<32>* \"By now, the population woes play a much smaller factor in our lives.\"',
                             '<32>* \"Though, we still stick to the new methods, because...\"',
                             '<32>* \"... we\'re honestly just too lazy to change back.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4876,14 +4876,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Once upon a time, monsters used a wide variety of currencies.\"',
                             '<32>* \"JEWEL and KRIOTAAN were the most prominent... but only on the home planet.\"',
                             '<32>* \"When it came to interactions with humans, the only currency used was GOLD.\"',
                             '<32>* \"Our abundant supply of the shiny mineral granted us many favors...\"',
                             '<32>* \"But as a result, the other curriences lost their value in short time.\"',
                             '<32>* \"Now, we just use gold for everything!\"\n* \"It\'s the monster way.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4892,14 +4892,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Since Erogot\'s fall, our king has done his best to uphold our homeworld\'s legacy.\"',
                             '<32>* \"Even if he lost the damn thing in the process...\"',
                             '<32>* \"We\'ve all come to accept what happened, and we don\'t really blame him anymore.\"',
                             '<32>* \"The past two centuries have been tough, but we grow ever-closer to freedom.\"',
                             '<32>* \"The angel is coming...\"',
                             '<32>* \"... for all we know, it might already be here, having read this very book.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
             ),
             s_librarby_desk: () =>
@@ -4915,14 +4915,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"The OuterNet is a joint effort by the king and the royal scientist.\"',
                             '<32>* \"... well, mostly the royal scientist, since the king just wrote the welcome message.\"',
                             '<32>* \"Still, the website serves as a \'virtual town square\' for outpost residents.\"',
                             '<32>* \"All you have to do to create an account is...\"',
                             '<32>* \"Um... well...\"',
                             "<32>* \"The instructions weren't exactly 'clear...'\"",
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4931,13 +4931,13 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"If you wanna get around on the outpost, the traveler is your best bet.\"',
                             '<32>* \"They can take you anywhere you wanna go...\"',
                             '<32>* \"... given they\'re available at your nearest taxi stop.\"',
                             '<32>* \"Not gonna lie, the stuff they say seems kinda random.\"',
                             '<33>* \"What\'s \"dog justice\" anyway?\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4946,12 +4946,12 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Monsters are free to traverse any area of the outpost.\"',
                             '<32>* \"That is, any area short of the last corridor at the top of the Citadel.\"',
                             '<32>* \"Beyond this, only the royal scientist is allowed through...\"',
                             '<32>* \"... we still don\'t know why.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
             ),
             s_librarby_ladder: () =>
@@ -4967,13 +4967,13 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Monster funerals, technically speaking, are cool as heck.\"',
                             '<32>* \"When monsters get old and kick the bucket, they turn into dust.\"',
                             '<32>* \"At funerals, we take that dust and spread it on that person\'s favorite thing.\"',
                             '<32>* \"Then their essence will live on in that thing...\"',
                             '<32>* \"Uhhh, am I at the page minimum yet?\"\n* \"I\'m tired of writing this.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4982,7 +4982,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Because they are made of magic, monsters\' bodies are attuned to their SOUL.\"',
                             '<32>* \"If a monster intends to cause harm, and truly believes in themselves...\"',
                             '<32>* \"Such a monster could become unusually powerful.\"',
@@ -4998,7 +4998,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"While monsters are mostly made of magic, humans are mostly made of water.\"',
                             '<32>* \"With their physical forms, humans are far stronger than us.\"',
                             '<32>* \"But, they will never know the joy of expressing themselves through magic.\"',
@@ -5006,7 +5006,7 @@ export default {
                             '<32>* \"Or play hide-and-go seek with invisibility and clairvoyance...\"',
                             '<32>* \"Or even create wild light shows with electricity magic!\"',
                             '<32>* \"How unfortunate.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
             ),
             s_librarby_purpleBooks: pager.create(
@@ -5016,7 +5016,7 @@ export default {
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Each day on our homeworld was a sight to behold.\"',
                             '<32>* \"To start the morning, bright spires of magical energy pierced the skies.\"',
                             '<32>* \"Throughout the day, these magical formations began to resonate together...\"',
@@ -5025,14 +5025,14 @@ export default {
                             '<32>* \"Bolts of magical energy previously released struck back down from above.\"',
                             '<32>* \"Once enough energy hit the ground, the spires would rise again...\"',
                             '<32>* \"Such was the cycle that once governed our days and nights.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Monsters didn\'t always have such an organized structure, you know?\"',
                             '<32>* \"Long, long ago... thousands of years ago, in fact...\"',
                             '<32>* \"Our race frolicked wild and free, with no sense of order or direction.\"',
@@ -5042,20 +5042,20 @@ export default {
                             '<32>* \"These developments begat our society, and eventually, our way of life.\"',
                             '<32>* \"... I still can\'t believe we just ran around naked for two thousand years.\"',
                             '<32>* \"Where\'s the class in that?\"\n* \"Where\'s the fashion?\"\n* \"Unbelievable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"When monsterkind first met with humanity, Erogot was king.\"',
                             '<32>* \"Through his wisdom and guidance, monsters and humans lived in peace and harmony.\"',
                             '<32>* \"But when Erogot died of old age... things would never be the same.\"',
                             '<32>* \"He was a skilled leader, and one his son could never replace.\"',
                             '<32>* \"The war that followed was... sadly inevitable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
             ),
             s_librarby_yellowBooks: pager.create(
@@ -5065,40 +5065,40 @@ export default {
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Gerson says the outpost used to just be a small space station.\"',
                             '<32>* \"Then, after twenty years of suffering, someone looked at the force field and said...\"',
                             "<32>* \"'Couldn't WE harvest some of that energy?'\"",
                             '<32>* \"A simple but brilliant idea!\"',
                             '<32>* \"As a result, the CORE was built, and with it came a stable power supply.\"',
                             '<32>* \"We\'re still using it to this very day!\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Ah, the wonders of artificial intelligence...\"',
                             '<32>* \"... or not.\"',
                             '<32>* \"After the builder bot tragedy of K-541.12, we abandoned the idea of a sentient AI.\"',
                             '<32>* \"In fact, the queen barred anyone from creating new AI programs altogether.\"',
                             '<32>* \"These days, there\'s only one monster who\'d have the skills and resources to do so...\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Você pega um livro...)',
                             '<32>{#p/basic}* \"Something people forget these days is that there\'s little to no gravity in space.\"',
                             '<32>* \"One of the earliest advancements made by monsters, even before the war...\"',
                             '<32>* \"Was our state-of-the-art gravity manipulation tech.\"',
                             '<32>* \"Even now, it\'s built into all areas of the outpost, both big and small...\"',
                             '<32>* \"You, reading this book, are probably standing on it right now.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                         ]
             ),
             s_math_sign: () =>
@@ -5429,7 +5429,7 @@ export default {
                         '<32>{#p/basic}* \"Some say the tome was taken aboard the transport ship used to reach the outpost.\"',
                         '<32>{#p/basic}* \"If so, where is it?\"\n* \"And how would one go about unlocking it?\"',
                         '<32>{#p/basic}* \"Perhaps these questions are better left unanswered.\"',
-                        '<32>{#p/human}* (You put the book back on the shelf.)'
+                        '<32>{#p/human}* (Você põe o livro de volta no lugar.)'
                     ],
             s_sansbox: () =>
                 SAVE.data.b.svr

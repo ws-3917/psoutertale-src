@@ -957,7 +957,7 @@ export default {
         chair2c8: ['<25>{#f/0}{#n1}* Bem, isso é tudo.'],
         chair2d1: [
             '<25>{#p/toriel}{#f/1}{#n1}* Casa...?\n* Poderia ser mais específico?',
-            choicer.create('* (O que você diz?)', 'Esquece', 'Quando eu posso\nir pra casa?')
+            choicer.create('* (O que você diz?)', 'Esquece', 'Posso\nir pra casa?')
         ],
         chair2d2: [
             '<25>{#p/toriel}{#f/1}{#n1}* Mas... essa é sua casa agora, não?',
@@ -1077,11 +1077,11 @@ export default {
                 ]),
             '<25>{#f/0}* Não importa.\n* Eu vou operar para você.',
             '<25>{#f/0}* ...',
-            '<25>{#f/0}* Tem uma rima para ser resolvida aqui.\n* Você gostaria de tentar?',
+            '<25>{#f/0}* Tem uma rima para ser resolvida aqui. Você gostaria de tentar?',
             choicer.create('* (Resolver a rima?)', 'Sim', 'Não')
         ],
         danger_puzzle5a: [
-            '<25>{#p/toriel}* Excelente!\n* A importância de tentar e chegar ao aprendizado.',
+            '<25>{#p/toriel}* Excelente! A importância de tentar e chegar ao aprendizado.',
             '<25>{#f/0}* Principalmente para almas jovens como a sua.'
         ],
         danger_puzzle5b: [
@@ -1131,10 +1131,10 @@ export default {
         drop_steak: ['<32>{#p/basic}{#n1}* Sério!? ;)', '<32>* Aquele bife não tinha preço! ;)'],
         dummy1: [
             '<25>{#p/toriel}{#f/0}* Sua próxima lição envolve encontros com outros monstros.',
-            '<25>{#f/1}* Como um humano andando pelo Outpost, é muito provável que você seja atacado...',
-            '<25>{#f/0}* Se isso acontecer, você vai entrar naquilo que é conhecido como uma LUTA.',
+            '<25>{#f/1}* Como um humano no Outpost, você provavelmente será atacado...',
+            '<25>{#f/0}* Se isso acontecer, você vai entrar naquilo conhecido como uma LUTA.',
             '<25>{#f/0}* Felizmente, existem muitas formas de se sair de uma.',
-            '<25>{#f/1}* Por agora, eu recomendo que você tente fazer uma conversa agradável...',
+            '<25>{#f/1}* Por agora, eu recomendo que você faça uma conversa agradável...',
             '<25>{#f/0}* ... Para que assim, eu possa resolver o conflito para ti.'
         ],
         dummy2: ['<25>{#p/toriel}* Para começar, você deve conversar com esse boneco.'],
@@ -2072,7 +2072,7 @@ export default {
                             ...(world.postnoot
                                 ? [
                                     "<32>{#p/basic}{#n1}* Ei, você percebeu que tem algo estranho acontecendo por aí?",
-                                    "<32>* Eu poderia jurar que os quebra-cabeças foram desativados sozinhos mais cedo.",
+                                    "<32>* Eu poderia jurar que os quebra-cabeças foram desativados sozinhos.",
                                     "<32>* Bem, eu estou procurando algum comprador para esta edição limitada do Super Starwalker."
                                 ]
                                 : [
@@ -2167,7 +2167,7 @@ export default {
                             : [
                                 "<32>{#p/basic}{#n1}* Eu estou triste.\n* A comida hoje em dia tá cada vez pior...",
                                 '<32>* Me foi prometido algo de \"verdade\", mas eu só ganhei uma cópia barata.',
-                                '<32>{#n1!}{#n2}* Hey! ;)\n* Para de falar mal dos meus produtos na frente dos clientes! ;)',
+                                '<32>{#n1!}{#n2}* Hey, para de falar mal dos meus produtos na frente dos clientes! ;)',
                                 '<32>* Aliás, e se o seu gosto para comida for muito exigente ;)',
                                 '<32>{#n2!}{#n1}* ... típico.'
                             ],
@@ -2483,7 +2483,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}{#n1}* Salve, doçura ;)',
-                            '<32>* O chefe me mandou aqui para ver o que vocês, espreitadelas, estão fazendo, sabe? ;)',
+                            '<32>* O chefe me mandou aqui para ver o que vocês, lindas, estão fazendo, sabe? ;)',
                             "<32>* Podesse dizer que estamos expandindo os negócios ;)",
                             "<32>* Quais são nossos negócios, você pergunta? ;)",
                             "<32>* Bem, na verdade é simples... nós vendemos bife ;)",
@@ -2778,7 +2778,7 @@ export default {
                         ? ["<32>{#p/basic}* É um set de DJ."]
                         : SAVE.data.n.plot === 72
                             ? ['<32>{#p/basic}* Um set de DJ estiloso, que surpreendentemente não está em uso.']
-                            : ['<32>{#p/basic}* Um set de DJ estiloso, equipado com botões e controles deslizantes em abundância.'],
+                            : ['<32>{#p/basic}* Um set de DJ estiloso, equipado com botões e controles deslizantes.'],
             w_froggit: () =>
                 SAVE.data.n.plot === 72
                     ? [
@@ -2897,7 +2897,7 @@ export default {
                     : [
                         "<32>{#p/basic}* Ribbit, ribbit.\n* (Se você espancar um monstro até a quase morte...)",
                         '<32>* (Seu nome vai se tornar azul.)',
-                        '<32>* (Estranho, né?)\n* (Mas eu ouvi dizer que os humanos ficam azuis quando são espancados também.)',
+                        '<32>* (Estranho, né? Mas eu ouvi dizer que os humanos ficam azuis quando são espancados também.)',
                         '<32>* (Então eu suponho que você entenda o que eu digo.)',
                         '<32>* (Bem, obrigado por escutar os pensamentos da minha mente.)\n* Ribbit.'
                     ],
@@ -3645,7 +3645,7 @@ export default {
             '<25>{#f/1}* É BEM raro, mas alguns quebra-cabeças no Outpost...'
         ],
         tutorial_puzzle2: [
-            '<25>{#p/toriel}* ... precisam da assistência de outra mãe.',
+            '<25>{#p/toriel}* ... precisam da assistência de outro monstro.',
             '<25>{#f/1}* Você entende o que precisa fazer agora?'
         ],
         tutorial_puzzle2a: ['<25>{#p/toriel}{#f/1}* Você entende o que deve fazer agora?'],
@@ -3653,8 +3653,8 @@ export default {
         tutorial_puzzle4: ['<25>{#p/toriel}{#f/1}* Sua vez...'],
         tutorial_puzzle4a: ['<25>{#p/toriel}{#f/0}* É sua vez.'],
         tutorial_puzzle5: ['<25>{#p/toriel}* Muito bem!\n* Apenas mais uma vez.'],
-        tutorial_puzzle6: ['<25>{#p/toriel}{#f/1}* Sim!\n* Estou muito orgulhosa de você, minha criança...'],
-        tutorial_puzzle7: ['<25>{#p/toriel}* Venha comigo quando estiver pronto para começar sua próxima lição.'],
+        tutorial_puzzle6: ['<25>{#p/toriel}{#f/1}* Estou muito orgulhosa de você, minha criança...'],
+        tutorial_puzzle7: ['<25>{#p/toriel}* Venha comigo quando estiver pronto para sua próxima lição.'],
         tutorial_puzzle8a: ['<25>{#p/toriel}* A resposta não está comigo, pequeno.'],
         tutorial_puzzle8b: ['<25>{#p/toriel}* Tente repetir o que você fez antes.'],
         tutorial_puzzle8c: ['<25>{#p/toriel}{#f/1}* Vá lá...'],
@@ -3893,7 +3893,7 @@ export default {
         meanText: ['<08>{#p/basic}{~}(Arrepio, agitação.)\nRibbit...'],
         niceText: ['<08>{#p/basic}{~}(Cora suavemente.)\nRibbit...'],
         perilStatus: ['<32>{#p/story}* Froggit está tentando fugir.'],
-        status1: ['<32>{#p/story}* Froggit pular perto!'],
+        status1: ['<32>{#p/story}* Froggit pula perto!'],
         status2: ['<32>{#p/story}* O campo de batalha está cheio do cheiro de crystherium utilia.'],
         status3: ["<32>{#p/story}* Froggit parece não enteder o motivo de estar aqui."],
         status4: ['<32>{#p/story}* Froggit pula e gira.']
@@ -5352,7 +5352,7 @@ export default {
                     ]
                     : SAVE.data.n.plot < 48
                         ? [
-                            '<32>{#p/human}* (As insdustriosas Outlands está a frente, enchendo você de determinação.)',
+                            '<32>{#p/human}* (As insdustriosas Outlands estão a frente, enchendo você de determinação.)',
                             '<32>{#p/human}* (HP totalmente restaurado.)'
                         ]
                         : [

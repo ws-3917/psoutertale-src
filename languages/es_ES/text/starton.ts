@@ -689,10 +689,10 @@ export default {
                 '<18>{#f/7}...',
                 
                 "<18>{#f/7}¡NO PUEDO CREER QUE EL PRÍNCIPE HAYA MATADO A MI HERMANO!",
-                '<25>{|}{#p/asriel2}{#f/8}* Actually, it was you we were trying to- {%}',
+                '<25>{|}{#p/asriel2}{#f/8}* En realidad, era a ti a quien intentábamos- {%}',
                 '<18>{#p/papyrus}{#f/7}¡¡SUFICIENTE!!',
-                '<18>{#f/7}YOU BETRAYED YOUR OWN SOCIETY!\nYOUR OWN PEOPLE!',
-                '<18>{#f/7}AND FOR WHAT!?',
+                '<18>{#f/7}¡TRAICIONASTE A TU PROPIA SOCIEDAD!\n¡A TU PROPIO PUEBLO!',
+                '<18>{#f/7}¿¡Y PARA QUÉ!?',
                 '<18>{#f/7}A PETTY ATTEMPT AT SELF-AMUSEMENT?',
                 "<25>{#p/asriel2}{#f/16}* Yes, Papyrus.\n* That's exactly what this is for.",
                 '<18>{#p/papyrus}{#f/7}... UGH!!',

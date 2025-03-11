@@ -131,7 +131,7 @@ export default {
         napsta: "............\n（它无力阻止你。）",
         torie: '嗯... 我想这个名字可以...',
         toriel: '我觉得，\n你应该想个自己的名字。\n我的孩子。',
-        twink: '真的吗...',
+        twink: '认真的吗...',
         twinkl: '想得美，蠢货。',
         twinky: '想得美，蠢货。',
         walker: '你是指“Eyewalker”？',

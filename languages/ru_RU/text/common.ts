@@ -3772,9 +3772,9 @@ export default {
                 '<32>{#p/napstablook}* Zzz... Zzz...',
                 '<32>* Zzz... Zzz...',
                 "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-                choicer.create('* (Lay down next to it?)', 'Yes', 'No')
+                choicer.create('* (Lay down next to it?)', 'Да', 'Нет')
             ],
-            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Yes', 'No')]
+            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Да', 'Нет')]
         ],
         lastblook2: ['<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......'],
         lastblook3: [
@@ -3797,12 +3797,12 @@ export default {
             '<32>* or at least found it kind of interesting...',
             '<32>* or something...'
         ],
-        view: () => [choicer.create('* (Are you ready to go outside?)', 'Yes', 'No')],
+        view: () => [choicer.create('* (Are you ready to go outside?)', 'Да', 'Нет')],
         computer1: () =>
             SAVE.data.b.ufokinwotm8
                 ? ["<32>{#p/human}* (But you didn't feel like wasting your time here.)"]
                 : ["<32>{#p/basic}* The computer's offline, but there's an empty slot for a computer chip."],
-        computer2: () => [choicer.create('* (Insert the Computer Chip?)', 'Yes', 'No')],
+        computer2: () => [choicer.create('* (Insert the Computer Chip?)', 'Да', 'Нет')],
         computer3: ['<32>{#p/human}* (You decide not to insert.)'],
         computer4: [
             '<32>{#p/basic}* Ah!\n* Thank you!\n* Thank you so much!',
@@ -5635,7 +5635,7 @@ export default {
                         ],
         mkTurnFight1: () => [
             '<32>{#p/kidding}* Y... y-you want me to fight?\n* Are you sure?',
-            choicer.create('* (Do you confirm?)', 'Yes', 'No')
+            choicer.create('* (Do you confirm?)', 'Да', 'Нет')
         ],
         mkTurnFight2a: ['<32>{#p/kidding}* Okay... here goes nothing...'],
         mkTurnFight2b: ['<32>{#p/kidding}* Oh, okay...', "<32>* I'll just spare them, then!"],

@@ -8736,9 +8736,9 @@ events.on('teleport-start', (from, to) => {
 });
 
 events.on('pre-consume', key => {
+    // WS3917 bug fix #2 - 20250304
     switch (key) {
-        case 'legendary_hero':
-        case 'legendary_hero_x': {
+        case 'legendary_hero': {
             battler.active && (items.of(key).type = 'special');
             break;
         }
@@ -8746,9 +8746,9 @@ events.on('pre-consume', key => {
 });
 
 events.on('post-use', key => {
+    // WS3917 bug fix #2 - 20250304
     switch (key) {
-        case 'legendary_hero':
-        case 'legendary_hero_x': {
+        case 'legendary_hero': {
             battler.active && (items.of(key).type = 'consumable');
             break;
         }
@@ -8773,11 +8773,16 @@ events.on('use', async (key, index) => {
             battler.active && world.meanie && (battler.at += 8 + battler.at_bonus);
             break;
         case 'legendary_hero':
-        case 'legendary_hero_x':
             if (battler.active) {
-                battler.stat.monsteratk.modifiers.push(['add', key === 'legendary_hero' ? -1 : 1, 1]);
+                battler.stat.monsteratk.modifiers.push(['add', -1, 1]);
                 SAVE.storage.inventory.remove(index);
                 battler.hpboost.direct += items.of(key).value;
+            }
+            break;
+        // WS3917 bug fix #2 - 20250304
+        case 'legendary_hero_x':
+            if (battler.active) {
+                battler.stat.monsteratk.modifiers.push(['add', 1, 1]);
             }
             break;
         case 'old_gun':

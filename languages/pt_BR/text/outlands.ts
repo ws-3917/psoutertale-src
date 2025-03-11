@@ -1870,20 +1870,20 @@ export default {
                     '<25>{#f/1}* Na verdade, minha criança...'
                 ]),
             '<25>{#f/5}* Tem coisas das quais eu preciso resolver.',
-            '<25>{#f/0}* Enquanto eu estou fora, espero que você se comportar bem.',
+            '<25>{#f/0}* Enquanto eu estou fora, espero que você se comporte bem.',
             '<25>{#f/1}* Existem desafios a frente que necessitam ser explicados...',
             '<25>{#f/0}* Sair por aí sozinho te trará perigos.',
             '<25>{#f/10}* Aqui.\n* Pegue esse celular.',
             '<32>{#p/human}{#s/equip}* (Você pegou o celular.)',
             ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
                 ? [
-                    '<25>{#p/toriel}{#f/1}* Se você precisar de qualquer coisa enquanto estou fora, por favor...',
+                    '<25>{#p/toriel}{#f/1}* Se você precisar de qualquer coisa enquanto estou fora...',
                     '<25>{#f/0}* Não hesite em ligar-me.',
                     '<25>{#f/5}* ...',
                     '<26>{#f/23}* E fique longe de confusão.'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* Se você precisar de qualquer coisa enquanto estou fora, por favor...',
+                    '<25>{#p/toriel}{#f/1}* Se você precisar de qualquer coisa enquanto estou fora...',
                     '<25>{#f/0}* Não hesite em ligar-me.',
                     '<25>{#f/5}* ...',
                     '<25>{#f/1}* Seja bom, tudo bem?'
@@ -2008,7 +2008,7 @@ export default {
             ],
             b: [
                 '<32>{#p/basic}{#n1}* Ei humano, você já tentou flertar?',
-                "<32>* Ha!\n* Eu consigo ver pela expressão no seu rosto que você ainda não tentou.",
+                "<32>* Ha!\n* Eu consigo ver pela sua cara que você ainda não tentou.",
                 "<32>* Eu vou te dizer, é muito divertido.",
                 "<32>* Os inimigos nem vão saber onde enfiar o rosto!",
                 '<32>* Psst... se você começar a flertar, talvez eu tenha mais para te contar.',
@@ -2064,7 +2064,7 @@ export default {
                         ? [
                             "<32>{#p/basic}{#n1}* Então, você foi o co-host do show de música, né?",
                             "<32>* Talvez agora você tenha os modos para aceitar minha oferta.",
-                            "<32>* Eu apenas estou procurando por alguém que queira comprar este quadrinho limitado do Super Starwalker.",
+                            "<32>* Eu procuro alguém que queira comprar este quadrinho limitado do Super Starwalker.",
                             "<32>* Eu gostei daquele show, então você tem um desconto.\n* 5G, pegar ou largar.",
                             choicer.create('{#n1!}* (Comprar o Super Starwalker 1 por 5G?)', 'Sim', 'Não')
                         ]
@@ -2078,7 +2078,7 @@ export default {
                                 : [
                                     '<32>{#p/basic}{#n1}* Finalmente, alguém falou comigo!',
                                     "<32>* Eu estou parado aqui faz anos e ninguém aceitou minha oferta.",
-                                    "<32>* Eu apenas estou procurando por alguém que queira comprar este quadrinho limitado do Super Starwalker."
+                                    "<32>* Eu procuro alguém que queira comprar este quadrinho limitado do Super Starwalker."
                                 ]),
                             "<32>* Interessado?\n* Tudo que eu peço são 10G.",
                             choicer.create('{#n1!}* (Comprar o Super Starwalker 1 por 10G?)', 'Sim', 'Não')
@@ -2270,7 +2270,7 @@ export default {
             '<25>{#f/11}* Quem fez isso contigo?\n* Alguém vai responder por essas ações.'
         ],
         return3: () => [
-            '<25>{#p/toriel}* Me desculpe, jovenzinho.\n* Foi tolo da minha parte te deixar sozinho.',
+            '<25>{#p/toriel}* Me desculpe, foi tolo da minha parte te deixar sozinho.',
             ...(world.postnoot
                 ? [
                     '<25>{#f/1}* ... é só eu, ou parece que tem algo de errado na atmosfera?',
@@ -2296,7 +2296,7 @@ export default {
                         ? ['<25>{#f/0}* Surpresa!\n* É uma torta de lesma caseira.']
                         : [
                             '<25>{#f/0}* Surpresa!\n* É uma torta de canela com caramelo.',
-                            '<25>{#f/0}* Eu pensei que você iria preferir isso invés da torta de lesma para hoje a noite.'
+                            '<25>{#f/0}* Eu pensei que você iria preferir isso invés da torta de lesma.'
                         ]),
                     '<25>{#f/1}* Agora, faz tempo desde que eu cuidei de alguém...',
                     '<25>{#f/0}* Mas eu ainda desejo que você tenha um ótimo tempo vivendo aqui.',
@@ -2554,7 +2554,7 @@ export default {
             ]
         },
         supervisor: {
-            a: ['<32>{#p/basic}* Até mais...'],
+            a: ['<32>{#p/basic}* Mais tarde...'],
             b: [
                 '<32>{#p/napstablook}* olá todo mundo...',
                 '<32>* este é um tom que eu escrevi faz um tempo...',
@@ -3666,7 +3666,7 @@ export default {
             '<25>{#f/5}* ...',
             "<25>{#f/8}* Você está perdido, não está?",
             "<25>{#f/5}* Bem, coisa boa que eu estou aqui para você!",
-            "<25>{#f/8}* Eu não tenho estado no meu melhor formato, mas...",
+            "<25>{#f/8}* Eu não estou no meu melhor formato, mas...",
             '<25>{#f/5}* ... alguém precisa te ensinar como as coisas funcionam por aqui!',
             '<25>{#f/10}* Acho que o bom e velho eu terei que fazer isso.',
             "<25>{#f/5}* Vamos começar, que tal?"
@@ -3745,7 +3745,7 @@ export default {
             '<20>{#f/5}Sua ALMA é uma parte importante de você e precisa de LOVE para se sustentar.'
         ],
         twinkly11: [
-            "<20>{*}{#x2}{#f/5}Por aqui, o \nLOVE é compartilhado através de... {#f/8}branquinhos... {#f/11}'fragmentos de felicidade.'",
+            "<20>{*}{#x2}{#f/5}Por aqui, o \nLOVE é compartilhado através de... {#f/11}'fragmentos de felicidade.'",
             "<20>{*}{#f/5}Para te colocar no caminho correto, eu vou começar compartilhando parte do meu LOVE contigo.",
             '<20>{*}{#f/5}Tente pegar o máximo que conseguir!{^20}{*}{#x1}{%}'
         ],
@@ -4292,7 +4292,7 @@ export default {
             '<25>{#p/toriel}{#f/7}* ... huh?',
             '<25>{#f/1}* Oh, heh... heh...',
             '<25>{#f/6}* Hahaha!\n* Eu poderia apertar sua bochecha!',
-            '<25>{#f/0}* Você consegue vai encontrar alguém melhor do que essa velha senhora.'
+            '<25>{#f/0}* Você vai encontrar alguém melhor do que essa velha senhora.'
         ],
         flirt2: [
             '<25>{#p/toriel}{#f/7}* ...\n* Oh senhor, você está falando sério...?',

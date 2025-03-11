@@ -9477,10 +9477,11 @@ atlas.navigators.register({
                     menuText(
                         460,
                         268 - 4,
+                        // WS3917 bug fix #1 - 20250304
                         () =>
                             CosmosUtils.provide(shopper.value!.prompt).replace(
                                 '$(x)',
-                                CosmosUtils.provide(shopper.value!.price).toString()
+                                CosmosUtils.provide(shopper.value!.price).toString().replace('Infinity', text.general.inf)
                             ),
                         { spacing: { y: 2 } }
                     ),

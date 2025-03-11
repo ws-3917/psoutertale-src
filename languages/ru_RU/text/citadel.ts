@@ -122,7 +122,7 @@ export default {
             file6saved: 'FILE 6 SAVED',
             file6loaded: 'FILE 6 LOADED'
         },
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        noequip: ['<32>{#p/human}* (Вы решили не экипировать.)'],
         genotext: {
             monologue: [
                 (re: boolean) => [
@@ -1896,7 +1896,7 @@ export default {
                 '<25>* this is an odd thing to say, but...',
                 '<25>* if you have some sort of {@fill=#ff0}special power{@fill=#fff}...',
                 "<25>* isn't it your responsibility to do the right thing?",
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
             ],
             jspeech5b3a: ['<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* i see.'],
             jspeech5b3b: [
@@ -2276,18 +2276,18 @@ export default {
                             '<25>{#f/6}* Whatever you decide, I will support you.',
                             '<25>{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
                         ],
                         [
                             '<26>{#p/asgore}{#f/6}* I see you have returned.',
                             '<25>{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
                         ],
                         [
                             '<25>{#p/asgore}{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
                         ]
                     ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
             choice2a: [
@@ -3399,19 +3399,19 @@ export default {
             ),
             giftbox1a: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's a weapon inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Да', 'Нет')
             ],
             giftbox1b: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's armor inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Да', 'Нет')
             ],
             giftbox2a: () => [
                 '<32>{#p/human}* (You got the Big Dipper.)',
-                choicer.create('* (Equip the Big Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Big Dipper?)', 'Да', 'Нет')
             ],
             giftbox2b: () => [
                 '<32>{#p/human}* (You got the Heart Locket.)',
-                choicer.create('* (Equip the Heart Locket?)', 'Yes', 'No')
+                choicer.create('* (Equip the Heart Locket?)', 'Да', 'Нет')
             ],
             giftbox3: () =>
                 SAVE.data.b.svr
@@ -3434,7 +3434,7 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                        choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                        choicer.create('* (Crawl inside?)', 'Да', 'Нет')
                     ]
                     : [
                         SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3442,18 +3442,18 @@ export default {
                             : "<32>{#p/basic}* Asgore's fireplace.\n* It's not too hot, just pleasantly warm.",
                         ...(world.darker
                             ? []
-                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                            : ['<32>* Вы могли бы в него залезть.', choicer.create('* (Crawl inside?)', 'Да', 'Нет')])
                     ],
-            fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
+            fireplace2a: ['<32>{#p/human}* (Вы не решаетесь залезать.)'],
             fireplace2b: () => [
                 '<32>{#p/human}* (You crawl into the fireplace and let its warmth engulf you.)',
                 '<32>{#p/human}* (You are very comfortable.)',
                 ...(SAVE.data.b.svr
                     ? asrielinter.fireplace2b++ < 1
-                        ? ["<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out."]
+                        ? ["<25>{#p/asriel1}{#f/13}* Я подожду, пока ты вылезешь оттуда."]
                         : []
                     : world.goatbro && SAVE.flag.n.ga_asrielFireplace++ < 1
-                        ? ["<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..."]
+                        ? ["<25>{#p/asriel2}{#f/15}* Я подожду, пока ты вылезешь оттуда..."]
                         : [])
             ],
             fireplace2c: [
@@ -3494,7 +3494,7 @@ export default {
                         ["<32>* My god... it's so much..."],
                         ['<32>* ...']
                     ][Math.min(SAVE.data.n.chocolates, 11)]),
-                choicer.create('* (Take a Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take a Chocolate Bar?)', 'Да', 'Нет')
             ],
             fridgetrap3: ['<32>{#p/human}* (You decide not to take anything.)'],
             fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
@@ -3593,7 +3593,7 @@ export default {
                 '<32>{#p/human}* (You activate the terminal.)',
                 '<32>{#p/event}* Procedure complete.\n* All subjects have successfully tethered.',
                 '<33>{#p/event}* Would you also like to exit?',
-                choicer.create('* (Exit Archive Six?)', 'Yes', 'No')
+                choicer.create('* (Exit Archive Six?)', 'Да', 'Нет')
             ],
             cw_vender1: [
                 '<32>{#p/human}* (You tap on the panel.)',
@@ -6457,7 +6457,7 @@ export default {
         use: ['<32>{#p/human}* (You eat the Exoberries.)']
     },
     i_archive_candy: {
-        battle: { description: '4 HP.', name: 'Candy' },
+        battle: { description: '4 HP.', name: 'Конфета' },
         drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
         info: ['<32>{#p/human}* (4 HP.)'],
         name: 'Monster Candy',

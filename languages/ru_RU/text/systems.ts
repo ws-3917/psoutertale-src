@@ -913,7 +913,7 @@ export default {
         mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2u: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}',
-        no: 'No',
+        no: 'Нет',
         nominal: '§fill=#0f0§NOMINAL',
         percent: '$(x)%',
         player: 'player',
@@ -921,7 +921,7 @@ export default {
         shopg: 'G',
         unknown: '?',
         xm: 'XM',
-        yes: 'Yes'
+        yes: 'Да'
     },
 
     menu: {

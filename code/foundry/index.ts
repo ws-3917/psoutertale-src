@@ -5,6 +5,7 @@ import { BLEND_MODES, Container, Filter, Graphics } from 'pixi.js';
 import { Vector, pointInPolygon } from 'sat';
 import commonText from '../../languages/default/text/common';
 import text from '../../languages/default/text/foundry';
+import systems from '../../languages/default/text/systems';
 import { characters, erndyne, galaxy, goatbro, goatbroTrue, kiddo, runEncounter, tripper } from '../common';
 import { helmetdyne } from '../common/api';
 import commonGroups from '../common/groups';
@@ -5958,7 +5959,8 @@ const shops = {
                         if (price === void 0) {
                             return `§fill=#808080§${item.text.battle.name}`;
                         } else {
-                            return `${item.text.battle.name} - ${text.n_shop_tem.sellValue.replace('$(x)', price.toString())}`;
+                            // WS3917 bug fix #1 - 20250304
+                            return `${item.text.battle.name} - ${text.n_shop_tem.sellValue.replace('$(x)', price.toString().replace('Infinity', systems.general.inf))}`;
                         }
                     }),
                     text.n_shop_tem.sellExit

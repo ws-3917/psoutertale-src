@@ -166,9 +166,9 @@ export default {
             ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Perhaps there's a key somewhere...?"])
         ],
         secret2: ['<32>{#p/human}* (You use the Secret Key.)'],
-        exit: () => [choicer.create('* (Exit the Outlands?)', 'Yes', 'No')],
-        nosleep: ['<32>{#p/human}* (Something seems to have interrupted your sleep.)'],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        exit: () => [choicer.create('* (Покинуть Запределье?)', 'Да', 'Нет')],
+        nosleep: ['<32>{#p/human}* (По-видимому, что-то прервало ваш сон.)'],
+        noequip: ['<32>{#p/human}* (Вы решили не экипировать.)'],
         finaltext: {
             a: ["<32>{#p/basic}* He's gotta be around here somewhere..."],
             b: ['<32>{#p/basic}* Huh...?', '<32>{#p/basic}* Is that... him?\n* Out there?'],
@@ -462,16 +462,16 @@ export default {
                 "<25>{#f/17}* I'll make it count."
             ]
         },
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
+        evac: ['<32>{#p/human}* (Вы чувствуете, как сокращается присутствие монстров.)'],
         stargum1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (Вы увидели кусок жвачки на комиксе...)',
-                    choicer.create('* (Употребить?)', 'Yes', 'No')
+                    '<32>{#p/human}* (Вы заметили кусок жвачки на комиксе...)',
+                    choicer.create('* (Попробовать?)', 'Да', 'Нет')
                 ]
                 : [
                     '<32>{#p/basic}* Раньше здесь была жвачка.',
-                    choicer.create('* (Употребить?)', 'Yes', 'No')
+                    choicer.create('* (Попробовать?)', 'Да', 'Нет')
                 ],
         stargum2: ['<32>{#p/human}* (Вы решаете не жевать.)'],
         stargum3: ['<32>{#p/human}* (Вы восстановили $(x) ОЗ.)'],
@@ -480,7 +480,7 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (Вы ощущаете живительную теплоту камина...)',
-                    choicer.create('* (Залезть внутрь?)', 'Yes', 'No')
+                    choicer.create('* (Залезть внутрь?)', 'Да', 'Нет')
                 ]
                 : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -488,47 +488,47 @@ export default {
                         : "<32>{#p/basic}* Камин Ториэль.\n* Не слишком жаркий, просто тёплый.",
                     ...(world.darker
                         ? []
-                        : ['<32>* Возможно в него залезть.', choicer.create('* (Залезть внутрь?)', 'Yes', 'No')])
+                        : ['<32>* Вы могли бы в него залезть.', choicer.create('* (Залезть внутрь?)', 'Да', 'Нет')])
                 ],
-        fireplace2a: ['<32>{#p/human}* (Вы не решаетесь залезть.)'],
+        fireplace2a: ['<32>{#p/human}* (Вы не решаетесь залезать.)'],
         fireplace2b: () => [
             '<32>{#p/human}* (Вы залезаете, и тепло накрывает вас.)',
             '<32>{#p/human}* (Вам очень уютно.)',
             ...(SAVE.data.b.svr
                 ? asrielinter.fireplace2b++ < 1
-                    ? ["<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out."]
+                    ? ["<25>{#p/asriel1}{#f/13}* Я подожду, пока ты вылезешь оттуда."]
                     : []
                 : world.goatbro && SAVE.flag.n.ga_asrielFireplace++ < 1
-                    ? ["<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..."]
+                    ? ["<25>{#p/asriel2}{#f/15}* Я подожду, пока ты вылезешь оттуда..."]
                     : [])
         ],
         fireplace2c: ["<25>{#p/toriel}{#f/1}{#npc/a}* Не оставайся в нём надолго..."],
-        fireplace2d: ['<32>{#p/basic}* ...', '<32>* This is fine.'],
+        fireplace2d: ['<32>{#p/basic}* ...', '<32>* Это норма.'],
         noticereturn: ['<25>{#p/asriel2}{#f/10}* Something you missed back here?'],
         noticestart: [
             '<25>{#p/asriel2}{#f/3}* Ah, the place where it all began.',
             "<25>{#p/asriel2}{#f/4}* We've certainly come along since then, haven't we, $(name)?"
         ],
-        noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Wasn't there a dummy here before...?"],
+        noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Разве тут не был манекен...?"],
         afrog: {
             a: [
                 '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                 '<32>* Я видел, что эта старая леди недавно проходила здесь.',
-                '<32>* У неё были продукты, я спросил для чего, и...',
-                "<32>* ... тебя ждёт сюрприз."
+                '<32>* Она несла продукты. Я спросил, для чего они ей...',
+                "<32>* ...тебя ждёт сюрприз."
             ],
             b: () =>
                 SAVE.data.n.plot === 72
                     ? [
                         '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
                         '<32>* Я недавно видел эту леди здесь.',
-                        '<32>* Говорила: \"Пришло время столкнуться со страхами.\"',
-                        "<32>* Не так важно, что она сделала, а каковы последствия!\n* Теперь мы все свободны!"
+                        '<32>* Говорила: «Пришло время взглянуть страху в глаза».',
+                        "<32>* Важны не её поступки, а их последствия!\n* Теперь мы все свободны!"
                     ]
                     : SAVE.data.n.plot === 71.2
                         ? [
-                            '<32>{#p/basic}{#n1}* Видели её?\n* Она прошла здесь только что!',
-                            '<32>* Говорила: \"Пришло время столкнуться со страхами.\"',
+                            '<32>{#p/basic}{#n1}* Видели её?\n* Она недавно проходила здесь!',
+                            '<32>* Говорила: «Пришло время взглянуть страху в глаза».',
                             '<32>* I wonder what she could have meant...?\n* She seemed determined.'
                         ]
                         : SAVE.data.b.w_state_lateleave
@@ -577,9 +577,9 @@ export default {
         asriel2: () => [
             '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
             "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-            choicer.create('* (Follow Him?)', 'Yes', 'No')
+            choicer.create('* (Follow Him?)', 'Да', 'Нет')
         ],
-        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Yes', 'No')],
+        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Да', 'Нет')],
         asriel3: ['<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this."],
         asriel4: ["<25>{#p/asriel2}{#f/4}* I'll be waiting, then."],
         asrielDiary: [
@@ -719,7 +719,7 @@ export default {
         },
         midsleep: () => [
             '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-            choicer.create('* (Go to sleep?)', 'Yes', 'No')
+            choicer.create('* (Go to sleep?)', 'Да', 'Нет')
         ],
         bedfailToriel: [
             '<25>{#p/toriel}{#f/5}* Oh dear.',
@@ -732,11 +732,11 @@ export default {
             '<32>{#p/napstablook}* Zzz... Zzz...',
             '<32>* Zzz... Zzz...',
             "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Да', 'Нет')
         ],
         blooky2: () => [
             '<32>{#p/basic}* The ghost is still blocking the way.',
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Да', 'Нет')
         ],
         blooky3: [
             '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
@@ -822,160 +822,160 @@ export default {
         candy7: ['<32>{#p/human}* (Вы решили ничего не делать.)'],
         candy8: ["<32>{#p/human}* (Вы не можете нести больше.)"],
         chair1a: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* В чём дело, дитя моё?\n* Испытываешь голод?',
-            '<25>{#f/0}* Perhaps you would like to know more about the book I am reading.',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Ничего')
+            '<25>{#p/toriel}{#f/1}{#n1}* В чём дело, дитя моё?\n* Хочешь есть?',
+            '<25>{#f/0}* Тебе, наверное, интересно, что я читаю?',
+            choicer.create('{#n1!}* (Что вы ответите?)', 'Голод', 'Книга', 'Дом', 'Ничего')
         ],
         chair1b: () => [
-            '<25>{#p/toriel}{#n1}* What is it, my child?',
-            choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Ничего')
+            '<25>{#p/toriel}{#n1}* В чём дело, дитя моё?',
+            choicer.create('{#n1!}* (Что вы ответите?)', 'Голод', 'Книга', 'Дом', 'Ничего')
         ],
-        chair1c: ['<25>{#p/toriel}{#n1}* Well, let me know if you need anything.'],
-        chair1d: ['<25>{#p/toriel}{#n1}* Well, let me know if you change your mind.'],
+        chair1c: ['<25>{#p/toriel}{#n1}* Хорошо, дай мне знать, если что-то нужно.'],
+        chair1d: ['<25>{#p/toriel}{#n1}* Хорошо, дай мне знать, если передумаешь.'],
         chair1e: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
-            '<25>{#f/1}* ...\n* If you like, I can read you this book...',
-            '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            '<25>{#p/toriel}{#f/1}{#n1}* Бессоница?',
+            '<25>{#f/1}* ...\n* Если захочешь, могу прочесть тебе эту книгу...',
+            '<25>{#f/0}* Её название — «Щедрый монстр», она была написана человеком.',
+            choicer.create('{#n1!}* (Прочесть книгу?)', 'Да', 'Нет')
         ],
         chair1f: pager.create(
             0,
-            ['<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?', '<25>{#f/0}* Well, feel free to stay as long as you need.'],
-            ['<26>{#p/toriel}{#n1}{#f/5}* I shall remain here, as I always have...']
+            ['<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?', '<25>{#f/0}* Ладно, оставайся сколько хочешь.'],
+            ['<26>{#p/toriel}{#n1}{#f/5}* Я буду здесь, как обычно...']
         ),
         chair2a1: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            '<25>{#p/toriel}{#f/1}{#n1}* Не хочешь есть?\n* Я могу тебе что-то приготовить.',
+            choicer.create('{#n1!}* (Позавтракать?)', 'Да', 'Нет')
         ],
-        chair2a2: ['<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.'],
+        chair2a2: ['<25>{#p/toriel}{#n1}* Чудесно!\n* Я иду готовить на кухню.'],
         chair2a3: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Позавтракать?)', 'Да', 'Нет')
         ],
         chair2a4: () =>
             SAVE.data.b.drop_snails
                 ? [
-                    '<25>{#p/toriel}{#f/3}{#n1}* You expect me to make another after you dropped the first one?',
+                    '<25>{#p/toriel}{#f/3}{#n1}* Думаешь, я сделаю новый завтрак после того, как выброшен первый?',
                     '<25>{#f/4}* This child...',
                     '<25>{#f/0}* No, little one.\n* I will not prepare another breakfast.'
                 ]
                 : [
-                    '<25>{#p/toriel}{#n1}* I have already served breakfast, little one.',
-                    '<25>{#f/1}* We cannot have more than one breakfast per day, can we?',
-                    '<25>{#f/0}* That would be silly.'
+                    '<25>{#p/toriel}{#n1}* Я уже приготовила завтрак, дитя моё.',
+                    '<25>{#f/1}* Нельзя иметь больше одного завтрака в день, верно?',
+                    '<25>{#f/0}* Это было бы глупо.'
                 ],
         chair2c1: () => [
-            '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
-            '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
-            '<25>{#f/1}* Would you like me to read it to you?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            '<25>{#p/toriel}{#n1}* Ах да, книга!\n* Она достойна прочтения.',
+            '<25>{#f/0}* Её название — „Щедрый монстр“, она была написана человеком.',
+            '<25>{#f/1}* Хочешь, чтобы я прочла?',
+            choicer.create('{#n1!}* (Прочесть книгу?)', 'Да', 'Нет')
         ],
-        chair2c2: ['<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...'],
+        chair2c2: ['<25>{#p/toriel}{#n1}* Чудесно!', '<25>{#g/torielCompassionSmile}* ...'],
         chair2c3: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            '<25>{#p/toriel}{#f/1}{#n1}* Хочешь, прочитаю книгу?',
+            choicer.create('{#n1!}* (Прочесть книгу?)', 'Да', 'Нет')
         ],
         chair2c4: () => [
-            '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            '<25>{#p/toriel}{#f/1}{#n1}* Хочешь, прочитаю книгу снова?',
+            choicer.create('{#n1!}* (Прочесть книгу?)', 'Да', 'Нет')
         ],
-        chair2c5: ['<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...'],
+        chair2c5: ['<25>{#p/toriel}{#f/1}{#n1}* Хорошо...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...'],
         chair2c6: [
-            '<25>{#f/1}{#n1}* \"Once, there was a monster...\"',
-            '<25>{#f/0}* \"And she loved a little human.\"',
-            '<25>{#f/1}* \"And every day, the human would come visit...\"',
-            '<25>{#f/0}* \"And they would run and play together in the fields.\"',
-            '<25>{#f/1}* \"They\'d sing songs together, tell stories to each other...\"',
-            '<25>{#f/0}* \"And they would play hide-and-go seek.\"',
-            '<25>{#f/1}* \"And when the human was tired, she would tuck them into bed...\"',
-            '<25>{#f/0}* \"And the human loved the monster very much.\"',
-            '<25>{#f/0}* \"And the monster was happy.\"',
-            '<25>{#f/1}* \"But as time went by, and the human grew older...\"',
-            '<25>{#f/0}* \"The monster was often left alone.\"',
-            '<25>{#f/1}* \"Then one day, the human came back...\"',
-            '<25>{#f/0}* \"And the monster said \'Come, human, come and play!\'\"',
-            '<25>{#f/5}* \"\'I am too big to play,\' said the human.\"',
-            '<25>{#f/1}* \"\'I want to drive, to find a new home...\'\"',
-            "<25>{#f/5}* \"'Sorry,' said the monster, 'but I am too poor to own a car.'\"",
-            '<25>{#f/5}* \"\'All I have is my own two feet.\'\"',
-            '<25>{#f/0}* \"\'Climb on my back, and I can run you to where you need.\'\"',
-            '<25>{#f/0}* \"\'Then you can see the town and be happy.\'\"',
-            '<25>{#f/1}* \"And so the human climbed onto the monster\'s back...\"',
-            '<25>{#f/0}* \"And the monster took them to a new home.\"',
-            '<25>{#f/0}* \"And the monster was happy.\"',
-            '<25>{#f/1}* \"But the human stayed away for a long time...\"',
-            '<25>{#f/5}* \"And the monster was sad.\"',
-            '<25>{#f/0}* \"Then one day, the human came back.\"',
-            '<25>{#f/1}* \"And the monster smiled from ear to ear and said...\"',
-            '<25>{#f/1}* \"\'Come, human, come and ride on my back!\'\"',
-            '<25>{#f/5}* \"\'I am too sad to ride around,\' said the human.\"',
-            '<25>{#f/1}* \"\'I wish I had a family, and children of my own...\'\"',
-            "<25>{#f/5}* \"'Sorry,' said the monster, 'but I cannot give that to you.'\"",
-            '<25>{#f/5}* \"\'I am only one person.\'\"',
-            '<25>{#f/0}* \"\'Visit for a while, and we can find you a date.\'\"',
-            '<25>{#f/0}* \"\'Then you can find love and be happy.\'\"',
-            '<25>{#f/1}* \"And so the human visited their old friend for a while...\"',
-            '<25>{#f/0}* \"And the monster found them someone they might like.\"',
-            '<25>{#f/0}* \"And the monster was happy.\"',
-            '<25>{#f/5}* \"But the human stayed away for a long time.\"',
-            '<25>{#f/1}* \"When they finally returned, the monster was so happy...\"',
-            '<25>{#f/9}* \"She could hardly speak.\"',
-            '<25>{#f/1}* \"\'Come, human,\' she whispered...\"',
-            '<25>{#f/1}* \"\'Come and visit.\'\"',
-            '<25>{#f/5}* \"\'I am too old and busy to visit,\' said the human.\"',
-            '<25>{#f/1}* \"\'I want a place to rest for the night...\'\"',
-            "<25>{#f/5}* \"'Sorry,' said the monster, 'but I do not have a bed your size.'\"",
-            '<25>{#f/5}* \"\'I am still too poor to afford one.\'\"',
-            '<25>{#f/0}* \"\'Sleep with me for the night.\'\"',
-            '<25>{#f/0}* \"\'Then you can get some rest and be happy.\'\"',
-            '<25>{#f/1}* \"And so the human and the monster cuddled together...\"',
-            '<25>{#f/0}* \"And the monster was able to put the human to sleep.\"',
-            '<25>{#f/0}* \"And the monster was happy.\"',
-            '<25>{#f/5}* \"... but not really.\"',
-            '<25>{#f/9}* \"And after a long time, the human came back again.\"',
-            "<25>{#f/5}* \"'I am sorry, human,' said the monster, 'but I have fallen down.'\"",
-            '<25>{#f/5}* \"\'My legs are giving out, I cannot take you anywhere.\'\"',
-            '<25>{#f/10}* \"\'There is nowhere else I want to be,\' said the human.\"',
-            '<26>{#f/5}* \"\'I cannot find you a date, I know no one else\' said the monster.\"',
-            '<25>{#f/10}* \"\'There is no one else I want to be with,\' said the human.\"',
-            '<25>{#f/5}* \"\'I am too weak for you to sleep on me\', said the monster.\"',
-            '<25>{#f/10}* \"\'I do not need sleep any longer,\' said the human.\"',
-            "<25>{#f/5}* \"'I am sorry,' sighed the monster.",
-            '<25>{#f/5}* \"\'I wish I had something to offer, but I have nothing left.\'\"',
-            '<25>{#f/9}* \"\'I am just an old monster approaching her death.\'\"',
-            '<25>{#f/5}* \"\'I am sorry...\'\"',
-            '<25>{#f/10}* \"\'I do not need very much now,\' said the human.\"',
-            '<25>{#f/10}* \"\'Just a hug from my best friend before I die.\'\"',
-            '<25>{#f/1}* \"\'Well,\' said the monster, straightening her posture...\"',
-            '<25>{#f/0}* \"\'Well, an old monster is always here for that.\'\"',
-            '<25>{#f/0}* \"\'Come, human, come to me. Be with me one last time.\'\"',
-            '<25>{#f/9}* \"And so the human did.\"',
-            '<25>{#f/10}* \"And the monster was happy.\"'
+            '»<25>{#f/1}{#n1}* «Жила-была монстр...»',
+            '<25>{#f/0}* «И она дружила с человеком».',
+            '<25>{#f/1}* «Каждый день человек приходил бы к ней...»',
+            '<25>{#f/0}* «...чтобы вместе они играли на полях.»',
+            '<25>{#f/1}* «Они пели песни, рассказывали истории друг другу...»',
+            '<25>{#f/0}* «А также играли в прятки».',
+            '<25>{#f/1}* «А когда человек уставал, она укладывала его спать...»',
+            '<25>{#f/0}* «Человек очень любил монстра».',
+            '<25>{#f/0}* «И монстр была счастлива».',
+            '<25>{#f/1}* «Но годы шли, а человек старел...»',
+            '<25>{#f/0}* «Монстр часто была одинокой».',
+            '<25>{#f/1}* «Но однажды человек вернулся...».',
+            '<25>{#f/0}* «И монстр воскликнула: „Иди, человек, иди и играй“!»',
+            '<25>{#f/5}* «„Слишком стар я, чтобы играть“, — возразил человек».',
+            '<25>{#f/1}* «„Я хочу уехать, чтобы найти новый дом...“»',
+            "<25>{#f/5}* «„Прости,“ — ответила монстр, „но я слишком бедна, чтобы владеть машиной“».",
+            '<25>{#f/5}* «„Всё, что я имею — лишь пара ног“».',
+            '<25>{#f/0}* «„Залазь на спину, и я отнесу тебя, куда нужно“».',
+            '<25>{#f/0}* «„Тогда ты увидишь город и будешь счастлив“».',
+            '<25>{#f/1}* «И человек полез на спину монстра...»',
+            '<25>{#f/0}* «И монстр отвела его куда он хотел».',
+            '<25>{#f/0}* «И монстр была счастлива».',
+            '<25>{#f/1}* «Человек не появлялся уже давно...»',
+            '<25>{#f/5}* «И монстру было грустно».',
+            '<25>{#f/0}* «Но потом, человек вернулся вновь».',
+            '<25>{#f/1}* «Монстр улыбнулась до ушей и сказала: ...»',
+            '<25>{#f/1}* «„Иди, человек, иди и садись на мою спину!“»',
+            '<25>{#f/5}* «„Слишком печален я, чтобы кататься“, — сказал человек».',
+            '<25>{#f/1}* «„Желал бы я иметь семью и собственных детей...“»',
+            "<25>{#f/5}* «„Прости“, — сказала монстр, „но я не могу тебе этого дать“».",
+            '<25>{#f/5}* «„Я всего лишь монстр“».',
+            '<25>{#f/0}* «„Приди позже, и я найду тебе пару“».',
+            '<25>{#f/0}* «„Тогда ты сможешь любить и быть счастливым“».',
+            '<25>{#f/1}* «А затем человек посетил свою старую подругу...»',
+            '<25>{#f/0}* «И монстр нашла ему того, кого он может полюбить».',
+            '<25>{#f/0}* «И монстр была счастлива».',
+            '<25>{#f/0}* «Но человек долго не посещал её».',
+            '<25>{#f/1}* «Когда он вернулся, монстр была так счастлива...»',
+            '<25>{#f/9}* «...что она еле могла говорить».',
+            '<25>{#f/1}* «„Иди, человек“ — прошептала она...»',
+            '<25>{#f/1}* «„Иди и будь как дома“».',
+            '<25>{#f/5}* «„Слишком стар я и занят для этого“ — сказал человек».',
+            '<25>{#f/1}* «„Желал бы я иметь ночлег...“»',
+            "<25>{#f/5}* «„Прости“, — сказала монстр, „но нет у меня кровати для тебя“».",
+            '<25>{#f/5}* «„Я всё ещё бедна, чтобы позволить её“».',
+            '<25>{#f/0}* «„Согрейся моей шерстью“».',
+            '<25>{#f/0}* «„Тогда ты отдохнёшь и будешь счастлив“».',
+            '<25>{#f/1}* «Тогда человек и монстр свернулись клубком вместе...»',
+            '<25>{#f/0}* «И монстр помогла человеку уснуть».',
+            '<25>{#f/0}* «И монстр была счастлива».',
+            '<25>{#f/5}* «... но не совсем».',
+            '<25>{#f/9}* «Прошло много времени, и человек вернулся вновь».',
+            "<25>{#f/5}* «„Прости, человек“, — сказала монстр, „но я умираю“».",
+            '<25>{#f/5}* «„Мои ноги сдают, я не смогу тебя отвести куда хочешь“».',
+            '<25>{#f/10}* «„Я нигде не желаю быть“ - возразил человек».',
+            '<26>{#f/5}* «„Я не могу найти тебе новую пару, ведь я никого не знаю“ — сказала монстр».',
+            '<25>{#f/10}* «„Не то что бы я этого желал“ — возразил человек».',
+            '<25>{#f/5}* «„Я слишком слаба, чтобы ты лежал на мне“ — сказала монстр».',
+            '<25>{#f/10}* «„Я не нуждаюсь во сне“ — возразил человек».',
+            "<25>{#f/5}* «„Мне жаль“ — вздохнула монстр».",
+            '<25>{#f/5}* «„Я хотела бы хоть что-то дать, но ничего не имею“».',
+            '<25>{#f/9}* «„Я лишь монстр, что ждёт своей участи“».',
+            '<25>{#f/5}* «„Мне жаль...“»',
+            '<25>{#f/10}* «„Мне многого и не нужно“ — сказал человек».',
+            '<25>{#f/10}* «„Лишь объятья от старой подруги перед тем как умру“».',
+            '<25>{#f/1}* «„Хорошо“ — сказала монстр, выпрямляя осанку...»',
+            '<25>{#f/0}* «„Я всегда готова это сделать“».',
+            '<25>{#f/0}* «„Иди, человек, иди ко мне. Будь со мной в последний раз“».',
+            '<25>{#f/9}* «И человек подошёл».',
+            '<25>{#f/10}* «И монстр была счастлива».'
             
         ],
-        chair2c7: ['<25>{#f/0}{#n1}* Well, that was the story.', '<25>{#f/1}* I hope you liked it...'],
-        chair2c8: ['<25>{#f/0}{#n1}* Well, that is all.'],
+        chair2c7: ['<25>{#f/0}{#n1}* Конец.', '<25>{#f/1}* Надеюсь, тебе понравилось...'],
+        chair2c8: ['<25>{#f/0}{#n1}* Вот и всё.'],
         chair2d1: [
-            '<25>{#p/toriel}{#f/1}{#n1}* Home...?\n* Could you be a little more specific?',
-            choicer.create('* (What do you say?)', 'Never\nmind', 'When can I\ngo home?')
+            '<25>{#p/toriel}{#f/1}{#n1}* Дом...?\n* Можешь сказать поточнее?',
+            choicer.create('* (Что вы скажете?)', 'Неважно', 'Когда я могу\nпойти домой?')
         ],
         chair2d2: [
-            '<25>{#p/toriel}{#f/1}{#n1}* But... this is your home now, is it not?',
-            choicer.create('* (What do you say?)', '\nSorry', 'How to exit\nthe Outlands')
+            '<25>{#p/toriel}{#f/1}{#n1}* Но... это уже твой дом, разве не так?',
+            choicer.create('* (Что вы скажете?)', '\nПрости', 'Как уйти из\nЗапределья')
         ],
         chair2d3: [
-            '<25>{#p/toriel}{#f/5}{#n1}* Please, try to understand...',
-            '<25>{#p/toriel}{#f/9}* I only want the best for you.'
+            '<25>{#p/toriel}{#f/5}{#n1}* Прошу, пойми меня...',
+            '<25>{#p/toriel}{#f/9}* Я желаю тебе лишь лучшего.'
         ],
         chair2d4: [
-            '<25>{#p/toriel}{#f/5}{#n1}* My child...',
-            choicer.create('* (What do you say?)', '\nSorry', 'How to exit\nthe Outlands')
+            '<25>{#p/toriel}{#f/5}{#n1}* Моё дитя...',
+            choicer.create('* (Что вы скажете?)', '\nПрости', 'Как уйти из\nЗапределья')
         ],
         chair2d5: ['<25>{#p/toriel}{#f/5}{#n1}* ...'],
         chair2d6: [
             '<25>{#p/toriel}{#f/9}{#n1}* ...',
-            '<25>{#p/toriel}{#f/9}* Please, wait here.',
-            '<25>{#p/toriel}{#f/5}* There is something I have to do.'
+            '<25>{#p/toriel}{#f/9}* Пожалуйста, подожди здесь.',
+            '<25>{#p/toriel}{#f/5}* Я должна кое-что сделать.'
         ],
         chair3: () =>
             SAVE.data.b.svr
@@ -1065,38 +1065,38 @@ export default {
         danger_puzzle3: () => [
             [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
                 ? '<25>{#p/toriel}{#f/3}* What is it now...'
-                : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
+                : '<25>{#p/toriel}{#f/1}* В чём проблема?\n* Тебе нужна помощь?'
         ],
         danger_puzzle4: () => [
             ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy)
-                ? ['<25>{#p/toriel}{#f/5}* Ah... I see.', '<25>{#f/5}* The terminal is too high for you to reach it.']
+                ? ['<25>{#p/toriel}{#f/5}* А... Понятно.', '<25>{#f/5}* Терминал слишком высокий.']
                 : [
-                    '<25>{#p/toriel}{#f/7}* ... oh my.',
-                    '<25>{#f/6}* It seems there is a bit of a design fault here.',
-                    '<25>{#f/1}* So the terminal is too high for you to reach it...?'
+                    '<25>{#p/toriel}{#f/7}* ... о боже.',
+                    '<25>{#f/6}* Похоже, что ошибка на этапе проектирования.',
+                    '<25>{#f/1}* Так что терминал слишком высокий для тебя...?'
                 ]),
-            '<25>{#f/0}* No matter.\n* I will operate it for you.',
+            '<25>{#f/0}* Неважно.\n* Я воспользуюсь им.',
             '<25>{#f/0}* ...',
-            '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-            choicer.create('* (Solve the riddle?)', 'Yes', 'No')
+            '<25>{#f/0}* Требуется решить загадку.\n* Не желаешь попробовать?',
+            choicer.create('* (Решить загадку?)', 'Да', 'Нет')
         ],
         danger_puzzle5a: [
-            '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
-            '<25>{#f/0}* Especially for a youngster such as yourself.'
+            '<25>{#p/toriel}* Превосходно!\n* Стремление учиться и развиваться важно.',
+            '<25>{#f/0}* Особенно для детей вроде тебя.'
         ],
         danger_puzzle5b: [
-            '<25>{#p/toriel}{#f/0}* The riddle takes the form of a question.',
-            "<25>{#p/toriel}{#f/1}* \"What's baked like a cake and rhymes with 'lie?'\""
+            '<25>{#p/toriel}{#f/0}* Загадка будет в форме вопроса.',
+            "<25>{#p/toriel}{#f/1}* Сладок, будто ложь, вкусен, словно торт, из печи достали, звать его — ...?"
         ],
         danger_puzzle5c: [
-            '<32>{#p/human}* (...)\n* (You tell Toriel the answer.)',
-            '<25>{#p/toriel}{#f/0}* ... ah, very good.\n* And with such a positive attitude!'
+            '<32>{#p/human}* (...)\n* (Вы говорите Ториэль ответ.)',
+            '<25>{#p/toriel}{#f/0}* ... ах, как хорошо.\n* И с таким позитивным настроем!'
         ],
         danger_puzzle5d: [
-            '<32>{#p/human}* (...)\n* (You tell Toriel you do not know the answer.)',
-            '<25>{#p/toriel}{#f/1}* ... is something wrong?\n* You seem to have something on your mind.',
-            '<25>{#f/5}* ... hmm...',
-            '<25>{#f/0}* Well, alright.\n* I will solve the riddle for you this time.'
+            '<32>{#p/human}* (...)\n* (Вы признаётесь, что не знаете ответа.)',
+            '<25>{#p/toriel}{#f/1}* ... что-то не так?\n* Похоже, у тебя что-то на уме.',
+            '<25>{#f/5}* ... хм...',
+            '<25>{#f/0}* Ладно.\n* Я решу загадку за тебя.'
         ],
         danger_puzzle5e: () =>
             [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
@@ -1120,32 +1120,32 @@ export default {
         dipper: {
             a: () => [
                 '<32>{#p/human}* (You got the Little Dipper.)',
-                choicer.create('* (Equip the Little Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Little Dipper?)', 'Да', 'Нет')
             ],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
-        drop_pie: ['<25>{#p/toriel}{#f/1}* Pies are for eating, not for splattering on the floor.'],
-        drop_pie3: ['<25>{#p/toriel}{#f/1}* Please do not spill food on the floor.'],
-        drop_snails: ['<25>{#p/toriel}{#f/1}* What did those poor fried snails ever do to you.'],
+        drop_pie: ['<25>{#p/toriel}{#f/1}* Пироги едят, а не бросают на пол.'],
+        drop_pie3: ['<25>{#p/toriel}{#f/1}* Прошу, не бросай еду на пол.'],
+        drop_snails: ['<25>{#p/toriel}{#f/1}* Что тебе сделали эти бедные жареные улитки?'],
         drop_soda: ["<32>{#p/basic}{#n1}* Aww c'mon! ;)", '<32>* I poured my heart into that! ;)'],
         drop_steak: ['<32>{#p/basic}{#n1}* Seriously!? ;)', '<32>* That steak was utterly priceless! ;)'],
         dummy1: [
-            '<25>{#p/toriel}{#f/0}* Your next lesson involves encounters with other monsters.',
-            '<25>{#f/1}* As a human roaming the outpost, it is likely you will be attacked...',
-            '<25>{#f/0}* If that happens, you will enter what is known as a FIGHT.',
-            '<25>{#f/0}* Thankfully, there are several ways to resolve one.',
-            '<25>{#f/1}* For now, I suggest striking up a friendly conversation...',
-            '<25>{#f/0}* ... thereby giving me a chance to sort out the conflict for you.'
+            '<25>{#p/toriel}{#f/0}* Твой следующий урок включает встречи с другими монстрами.',
+            '<25>{#f/1}* Человек, блуждающий по аванпосту, вероятно, будет атакован...',
+            '<25>{#f/0}* И тогда начнётся то, что мы называем БИТВА.',
+            '<25>{#f/0}* К счастью, есть способы её разрешить.',
+            '<25>{#f/1}* А сейчас я предлагаю начать дружескую беседу...',
+            '<25>{#f/0}* ... тем самым давая мне шанс разрешить конфликт за тебя.'
         ],
-        dummy2: ['<25>{#p/toriel}* To start, you may practice talking with the dummy.'],
+        dummy2: ['<25>{#p/toriel}* Для начала попрактикуйся на манекене.'],
         dummy3: [
-            '<25>{#p/toriel}{#f/7}* ... you think that I am the dummy?',
-            '<25>{#f/6}* Hahaha!\n* How adorable!',
-            '<25>{#f/0}* Unfortunately, I am but a worrisome old lady.'
+            '<25>{#p/toriel}{#f/7}* ... ты думаешь, что я манекен?',
+            '<25>{#f/6}* Ха!\n* Как мило!',
+            '<25>{#f/0}* К сожалению, я всего лишь старая беспокойная леди.'
         ],
         dummy4: [
-            '<25>{#p/toriel}* There is nothing to be afraid of, my child.',
-            '<25>* A simple training dummy cannot harm you.'
+            '<25>{#p/toriel}* Здесь нечего страшиться, дитя моё.',
+            '<25>* Простой манекен не может навредить тебе.'
         ],
         dummy5: ['<25>{#p/toriel}{#f/1}* Go on, little one...'],
         dummy6: [
@@ -1651,7 +1651,7 @@ export default {
                         : ['<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.'],
             b: () => [
                 ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* ...', '<32>* Do you want it?']),
-                choicer.create('* (Take the Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take the Chocolate Bar?)', 'Да', 'Нет')
             ],
             b1: ['<32>{#p/human}* (You decide not to take anything.)'],
             b2: () => [
@@ -1712,7 +1712,7 @@ export default {
                         '<25>{#f/9}* I did my best to try and salvage it...'
                     ]
                     : []),
-            choicer.create("* (See Napstablook's show?)", 'Yes', 'No')
+            choicer.create("* (See Napstablook's show?)", 'Да', 'Нет')
         ],
         front2a: ['<25>{#p/toriel}{#f/0}* Wonderful!\n* I will let them know you are coming.'],
         front2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* I will be in the living room if you need me.'],
@@ -1814,7 +1814,7 @@ export default {
             '<25>{#f/0}* It means a lot to me.'
         ],
         halo: {
-            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Yes', 'No')],
+            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Да', 'Нет')],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
         indie1: () => [
@@ -1826,18 +1826,18 @@ export default {
                 : ['<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.']),
             '<25>{#f/1}* Do you think you can make it to the end of this room...',
             '<25>{#f/1}* ... all by yourself?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
         ],
         indie1a: () => [
             '<25>{#p/toriel}{#f/1}* Are you sure...?',
             '<25>{#f/0}* It is only a short distance away.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Да', 'Нет')
         ],
         indie1b: () => [
             '<25>{#p/toriel}{#f/5}* My child.',
             '<25>{#f/1}* It IS important to do things on your own, is it not?',
             '<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to take you home.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Да', 'Нет')
         ],
         indie2a: ['<25>{#p/toriel}{#f/1}* Alright...', '<25>{#f/0}* Good luck!'],
         indie2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... I see.'],
@@ -2066,7 +2066,7 @@ export default {
                             "<32>* Maybe now you'll have the means to accept my offer.",
                             "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                             "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Да', 'Нет')
                         ]
                         : [
                             ...(world.postnoot
@@ -2081,19 +2081,19 @@ export default {
                                     "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
                                 ]),
                             "<32>* Interested?\n* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Да', 'Нет')
                         ],
                 () =>
                     SAVE.data.b.napsta_performance
                         ? [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 5G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Да', 'Нет')
                         ]
                         : [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Да', 'Нет')
                         ]
             ),
             b: () => [
@@ -2210,7 +2210,7 @@ export default {
                 ][SAVE.data.n.choice_flavor],
                 '<25>{#f/1}* I know what your preference is, but...',
                 '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (Что вы скажете?)', 'Да', 'Нет')
             ],
             b1: () => [
                 3 <= SAVE.data.n.cell_insult
@@ -2421,8 +2421,8 @@ export default {
                     '<32>{#p/basic}* Scandalous!',
                     "<32>* It's Toriel's sock collection.\n* A little messy...",
                     world.meanie
-                        ? choicer.create('* (Make it messier?)', 'Yes', 'No')
-                        : choicer.create('* (Clean up the mess?)', 'Yes', 'No')
+                        ? choicer.create('* (Make it messier?)', 'Да', 'Нет')
+                        : choicer.create('* (Clean up the mess?)', 'Да', 'Нет')
                 ],
         socks2: () =>
             world.meanie
@@ -2433,12 +2433,12 @@ export default {
                         ? []
                         : [
                             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                            choicer.create('* (Take the key?)', 'Yes', 'No')
+                            choicer.create('* (Take the key?)', 'Да', 'Нет')
                         ])
                 ],
         socks3: () => [
             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-            choicer.create('* (Take the key?)', 'Yes', 'No')
+            choicer.create('* (Take the key?)', 'Да', 'Нет')
         ],
         socks4: ['<32>{#p/human}* (You decide not to do anything.)'],
         socks5: [
@@ -2504,8 +2504,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Да', 'Нет')
+                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Да', 'Нет')
             ],
             b1: ['<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)'],
             b2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -2518,8 +2518,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Да', 'Нет')
+                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Да', 'Нет')
             ],
             c1: ['<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)"],
             c2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -3634,7 +3634,7 @@ export default {
                                         ? [
                                             '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
                                             '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                                            choicer.create('* (Smash the pie?)', 'Yes', 'No')
+                                            choicer.create('* (Smash the pie?)', 'Да', 'Нет')
                                         ]
                                         : ['<32>{#p/basic}* The size of the pie intimidates you too much to eat it.'],
         piesmash1: ['<32>{#p/human}* (You decide not to smash.)'],
@@ -3659,120 +3659,120 @@ export default {
         tutorial_puzzle8b: ['<25>{#p/toriel}* Try repeating what you have done before.'],
         tutorial_puzzle8c: ['<25>{#p/toriel}{#f/1}* Go on...'],
         twinkly1: [
-            "<25>{#p/twinkly}{#f/5}* Howdy!\n* I'm {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} the {@fill=#ff0}STAR{@fill=#fff}!"
+            "<25>{#p/twinkly}{#f/5}* Приветик!\n* Я {@fill=#ff0}СВЕТИЛО{@fill=#fff} {@fill=#ff0}СВЕТИК{@fill=#fff}!"
         ],
         twinkly2: [
-            '<25>{#f/5}* What brings you to the outpost, fellow traveler?',
+            '<25>{#f/5}* Что привело тебя на аванпост, дорогой путешественник?',
             '<25>{#f/5}* ...',
-            "<25>{#f/8}* You're lost, aren't you...",
-            "<25>{#f/5}* Well, good thing I'm here for you!",
-            "<25>{#f/8}* I haven't been in my top form for a while, but...",
-            '<25>{#f/5}* ... someone ought to teach you how things work around here!',
-            '<25>{#f/10}* Guess little old me will have to do.',
-            "<25>{#f/5}* Let's get started, shall we?"
+            "<25>{#f/8}* Похоже, кто-то потерялся...",
+            "<25>{#f/5}* Как удачно, что я здесь!",
+            "<25>{#f/8}* Я не был в хорошей форме достаточно долго, но...",
+            '<25>{#f/5}* Кто-то должен показать тебе, как здесь всё устроено!',
+            '<25>{#f/10}* Пусть старый добрый я исполню сей долг.',
+            "<25>{#f/5}* Ну что, начинаем?"
         ],
         twinkly3: [
-            "<25>{#f/7}* But you already KNEW that, didn'tcha?",
+            "<25>{#f/7}* Но ты уже ЗНАЕШЬ это.",
             '<25>{#f/8}* ...',
-            "<25>{#f/5}* Still, it's up to me to show you the ropes.",
-            "<25>* Let's get started, shall we?"
+            "<25>{#f/5}* Тем не менее, мой долг - показать тебе основы.",
+            "<25>* Ну что, начинаем?"
         ],
         twinkly4: [
-            "<25>{#p/twinkly}{#f/6}* Okay, that's enough.",
-            '<25>{#f/8}* If you wanna keep resetting, then by all means...',
-            '<25>{#f/6}* Do as you wish.',
-            "<25>{#f/7}* Just don't expect to get past me so easily."
+            "<25>{#p/twinkly}{#f/6}* Ладно, достаточно.",
+            '<25>{#f/8}* Если будешь сбрасывать... ',
+            '<25>{#f/6}* То ради бога.',
+            "<25>{#f/7}* Просто не думай, что пройдёшь мимо меня так просто."
         ],
-        twinkly5: ["<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?"],
+        twinkly5: ["<25>{#p/twinkly}{#f/6}* Тебе нечем заняться?"],
         twinkly6: [
-            "<25>{#p/twinkly}{#f/6}* Resetting right after you've taken your first hit, huh?",
-            '<25>{#f/7}* How pathetic.'
+            "<25>{#p/twinkly}{#f/6}* Сбрасываешь сразу после первой раны?",
+            '<25>{#f/7}* Какая жалость.'
         ],
         twinkly6a: [
-            "<25>{#p/twinkly}{#f/11}* As if you think I'd forget about what you did...",
-            '<25>{#f/7}* Filthy shard dodger.'
+            "<25>{#p/twinkly}{#f/11}* Как будто я бы забыл твои действия...",
+            '<25>{#f/7}* Мерзкая вертлявка.'
         ],
-        twinkly7: ['<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot.'],
-        twinkly8: ["<25>{#f/11}* Either way, since you already know what's coming next...{%15}"],
+        twinkly7: ['<25>{#p/twinkly}{#f/7}* Я могу играться с тобой хоть весь день, тупица.'],
+        twinkly8: ["<25>{#f/11}* В любом случае, ты и так знаешь, что будет дальше...{%15}"],
         twinkly9: [
-            '<25>{#p/twinkly}{#f/6}* Howdy.',
-            "<25>* Seems I'll be fireballed if I stick around too long.",
-            '<25>{#f/8}* A shame, really...',
-            '<25>{#f/7}* I was gonna have SO much fun with you.',
+            '<25>{#p/twinkly}{#f/6}* Приветик.',
+            "<25>* Походу меня спалят заживо, если останусь надолго.",
+            '<25>{#f/8}* Какой позор, правда...',
+            '<25>{#f/7}* Я ведь собрался ТАК повеселиться с тобой.',
             '<25>{#f/6}* ...',
-            '<25>{#f/5}* Well, see ya!'
+            '<25>{#f/5}* Ну что ж, увидимся!'
         ],
         twinkly9a: [
-            '<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?',
-            '<25>{#f/12}{#v/0}* We had the outpost at our mercy!'
+            '<25>{#p/twinkly}{#f/12}{#v/0}* Какого ЧЕРТА ты делаешь, $(name)?',
+            '<25>{#f/12}{#v/0}* У нас весь аванпост был на коленях!'
         ],
-        twinkly9a1: ['<25>{#f/6}{#v/0}* All we had to do was follow the plan.'],
+        twinkly9a1: ['<25>{#f/6}{#v/0}* Нам нужно было лишь следовать плану.'],
         twinkly9a2: [
-            '<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...',
-            '<25>* Finish off the guards...',
-            '<25>* And make it to the Citadel!'
+            '<25>{#f/6}{#v/0}* Нам нужно было лишь пройти через Литейную...',
+            '<25>* Прикончить стражей...',
+            '<25>* И добраться до Цитадели!'
         ],
         twinkly9a3: [
-            '<25>{#f/6}{#v/0}* All we had to do was finish off the guards...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Нам нужно было лишь прикончить стражей...',
+            '<25>* И пробраться через Цитадель!'
         ],
         twinkly9a4: [
-            '<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Нам нужно было лишь УБИТЬ того тупого робота...',
+            '<25>* И пробраться через Цитадель!'
         ],
-        twinkly9a5: ['<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!'],
-        twinkly9a6: ['<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!'],
-        twinkly9a7: ['<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!'],
-        twinkly9a8: ['<25>{#f/8}{#v/0}* Coward...'],
+        twinkly9a5: ['<25>{#f/6}{#v/0}* Нам нужно было лишь пробраться через Цитадель!'],
+        twinkly9a6: ['<25>{#f/6}{#v/0}* Нам нужно было лишь УБИТЬ ту задротскую мусорку!'],
+        twinkly9a7: ['<25>{#f/6}{#v/0}* Нам нужно было лишь дойти до конца!', '<25>* Мы были так близки!'],
+        twinkly9a8: ['<25>{#f/8}{#v/0}* Трус...'],
         twinkly9b: [
             '<25>{#p/twinkly}{#f/5}* $(name)...?',
-            "<25>{#f/6}* I'm not really sure what just happened.",
-            '<25>{#f/8}* We were on the shuttle, and then...',
+            "<25>{#f/6}* Я не уверен, что только что произошло.",
+            '<25>{#f/8}* Мы были на корабле, а затем...',
             '<25>{#f/8}* ...',
-            '<25>{#f/6}* I...',
-            '<25>{#f/8}* I have to go...'
+            '<25>{#f/6}* Мне...',
+            '<25>{#f/8}* Мне нужно пойти...'
         ],
         twinkly9c: [
-            "<25>{#p/twinkly}{#f/7}* So, we're back at the beginning, are we?",
-            "<26>{#f/5}* I've been expecting you.\n* I wonder how you'll do this time around.",
-            "<25>{#f/11}* Who knows?\n* Maybe it'll be easier for you now.",
-            '<25>{#f/7}* It certainly was when I had your powers.',
+            "<25>{#p/twinkly}{#f/7}* Итак, мы вернулись к чистому листу?",
+            "<26>{#f/5}* Я ожидал тебя.\n* Диву даюсь, что ты сделаешь в этот раз.",
+            "<25>{#f/11}* Кто знает?\n* Может быть, теперь будет проще.",
+            '<25>{#f/7}* Мне точно было, когда имел твои силы.',
             '<25>{#f/6}* ...',
-            '<25>{#f/5}* Well, good luck!'
+            '<25>{#f/5}* Ну что, удачи!'
         ],
         twinkly10: [
-            "<20>{#f/5}See that heart? That's your SOUL, the very culmination of your being!",
-            '<20>{#f/5}Your SOUL is an important part of you, and needs LOVE to sustain itself.'
+            "<20>{#f/5}Видишь сердце? Это твоя ДУША - средоточие твоего существования!",
+            '<20>{#f/5}ДУША - важная часть тебя самого, ей нужен УР для поддержки.'
         ],
         twinkly11: [
-            "<20>{*}{#x2}{#f/5}Out here, LOVE is shared through... {#f/8}little white... {#f/11}'happiness shards.'",
-            "<20>{*}{#f/5}To get you started on the right path, I'll share some of my own LOVE.",
-            '<20>{*}{#f/5}Try to get as many as you can!{^20}{*}{#x1}{%}'
+            "<20>{*}{#x2}{#f/5}Здесь, УР распространяется через... {#f/8}маленькие, беленькие... {#f/11}«осколки счастья».",
+            "<20>{*}{#f/5}Чтобы наставить тебя на верный путь, поделюсь-ка я своим УР.",
+            '<20>{*}{#f/5}Поймай сколько сможешь!{^20}{*}{#x1}{%}'
         ],
         twinkly12: [
-            "<20>{*}{#f/8}Whoops, I think you might've missed them...",
-            "<20>{*}{#f/5}But that's okay!",
-            '<20>{*}{#x2}{#f/10}Here, have some more.{^20}{*}{#x1}{%}'
+            "<20>{*}{#f/8}Упс, похоже, твой промах...",
+            "<20>{*}{#f/5}Но это нормально!",
+            '<20>{*}{#x2}{#f/10}Вот, лови ещё.{^20}{*}{#x1}{%}'
         ],
         twinkly13: [
-            '<20>{*}{#f/12}What the-... are you braindead or something??',
-            '<20>{*}{#x2}RUN. INTO. THE. BULLETS!!!{^20}{*}{#x1}{^999}'
+            '<20>{*}{#f/12}Какого-... ты совсем безмозглый?!',
+            '<20>{*}{#x2}МЧИСЬ. НА. ПУЛИ!!!{^20}{*}{#x1}{^999}'
         ],
-        twinkly14: 'RUN. INTO. THE. happiness shards~',
+        twinkly14: 'МЧИСЬ. НА. осколки счастья~',
         twinkly15: [
-            '<20>{#v/1}Hee hee hee...',
-            "<20>In this world, it's KILL or BE killed.",
-            '<20>Imagine, a SOUL like yours crash-landing on my doorstep...',
-            "<20>Did you really think I'd pass up such a golden opportunity?"
+            '<20>{#v/1}Хи-хи-хи...',
+            "<20>В этом мире, УБЕЙ или БУДЕШЬ убит.",
+            '<20>Представь, до ДУШИ, подобной твоей, мне как рукой подать...',
+            "<20>Думаешь, я упущу журавля в небе?"
         ],
         twinkly16: [
-            "<20>{#f/7}Nah, you know what's going on here, don'tcha?",
-            "<20>You just wanted to torment little old Twinkly, didn'tcha?",
-            "<20>Golly... you must have no idea who you're messing with.",
-            '<20>{#f/11}Hee hee hee...'
+            "<20>{#f/7}Да не, ты ведь знаешь что тут происходит?",
+            "<20>Хотелось поиздеваться над бедным Светиком?",
+            "<20>Божечки... ты не понимаешь, с кем имеешь дело.",
+            '<20>{#f/11}Хи-хи-хи...'
         ],
-        twinkly17: ["<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...'],
-        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
+        twinkly17: ["<20>{#v/1}Почему бы не сразу перейти к делу?", '<20>Хи-хи-хи...'],
+        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}СДОХНИ.{^20}{%}'],
         twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
         twinkly20: [
             '<20>Have no fear, little one.',
@@ -3807,14 +3807,14 @@ export default {
             () => [
                 '<32>{#p/basic}* This coffin dates back to December 251X.',
                 '<32>* There is an old record-keeping manifest stashed next to it...',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Да', 'Нет')
             ],
             () => [
                 '<32>{#p/human}* (You once again pick up the manifest.)',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Да', 'Нет')
             ]
         ),
-        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Yes', 'No')],
+        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Да', 'Нет')],
         w_coffin4: ['<32>{#p/human}* (But there were no further pages to be read.)'],
         w_coffin5: ['<32>{#p/human}* (You put the manifest back where it belongs.)'],
         w_dummy1: () =>
@@ -3830,64 +3830,64 @@ export default {
     },
 
     b_group_outlands: {
-        froggitWhimsun: ['<32>{#p/story}* Space frogs and Starflies!\n* Or something of the like.'],
-        froggitWhimsun2a: ['<32>{#p/story}* Space frogs...?'],
-        froggitWhimsun2b: ['<32>{#p/story}* Starflies...?'],
-        looxMigospWhimsun: ["<32>{#p/story}* It's the troublesome trio!"],
-        looxMigospWhimsun2: ['<32>{#p/story}* The trio has become a duo.'],
-        looxMigospWhimsun3: ['<32>{#p/story}* Only one remains.'],
-        moldsmalMigosp: ['<32>{#p/story}* Silente and company present themselves!']
+        froggitWhimsun: ['<32>{#p/story}* Космические лягушки и звёздные мухи!\n*Или что-то в этом роде.'],
+        froggitWhimsun2a: ['<32>{#p/story}* Космические лугяшки...?'],
+        froggitWhimsun2b: ['<32>{#p/story}* Звёздные мухи...?'],
+        looxMigospWhimsun: ["<32>{#p/story}* Это же проблемная троица!"],
+        looxMigospWhimsun2: ['<32>{#p/story}* Троица стала дуэтом.'],
+        looxMigospWhimsun3: ['<32>{#p/story}* Остаётся только один.'],
+        moldsmalMigosp: ['<32>{#p/story}* Тихоня и компашка представляют себя! ']
     },
 
     b_opponent_froggit: {
-        act_check: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is difficult for this monster.'],
-        act_check2: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is getting better for this monster.'],
-        act_check3: ["<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life just doesn't seem to get easier for this monster."],
-        act_check4: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is very confusing for this monster.'],
-        act_check5: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life seems to be very lovely for this monster.'],
+        act_check: ['<32>{#p/story}* КВАКУШЁНОК - АТК 4 ЗЩТ 5\n* Жизнь тяжела у этого монстра.'],
+        act_check2: ['<32>{#p/story}* КВАКУШЁНОК - АТК 4 ЗЩТ 5\n* Жизнь становится легче у этого монстра.'],
+        act_check3: ["<32>{#p/story}* КВАКУШЁНОК - АТК 4 ЗЩТ 5\n* Жизнь никак не станет легче у этого монстра."],
+        act_check4: ['<32>{#p/story}* КВАКУШЁНОК - АТК 4 ЗЩТ 5\n* Жизнь очень запутанна у этого монстра.'],
+        act_check5: ['<32>{#p/story}* КВАКУШЁНОК - АТК 4 ЗЩТ 5\n* По-видимому, жизнь становится прекрасной у этого монстра.'],
         act_threat: [
-            '<32>{#p/human}* (You threaten Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Вы угрожаете Квакушёнку.)',
+            "<32>{#p/basic}* Квакушёнок не понимает, что вы сказали..."
         ],
         act_threat2: [
-            '<32>{#p/human}* (You threaten Froggit again.)',
-            "<32>{#p/basic}* Froggit recalls the previous threat and decides it's time to run away."
+            '<32>{#p/human}* (Вы снова угрожаете Квакушёнку.)',
+            "<32>{#p/basic}* Квакушёнок вспоминает предыдущую угрозу и решает сбежать."
         ],
         act_compliment: [
-            '<32>{#p/human}* (You compliment Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Вы хвалите Квакушёнка.)',
+            "<32>{#p/basic}* Квакушёнок не понимает, что вы сказали..."
         ],
         act_flirt: [
-            '<32>{#p/human}* (You flirt with Froggit.)',
-            "<32>{#p/basic}* Froggit doesn't understand what you said..."
+            '<32>{#p/human}* (Вы заигрываете с Квакушёнком.)',
+            "<32>{#p/basic}* Квакушёнок не понимает, что вы сказали..."
         ],
-        act_translate0: ["<32>{#p/human}* (But you haven't said anything to translate yet.)"],
+        act_translate0: ["<32>{#p/human}* (Но вы ничего не сказали, чтобы это можно было перевести.)"],
         act_translate1: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is flattered.'
+            '<32>{#p/human}* (Вы перевели свои слова.)\n* (Квакушёнок вроде бы начал понимать вас.)',
+            '<32>{#p/basic}* Квакушёнок польщен.'
         ],
         act_translate1x: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is hesitant to continue this battle.'
+            '<32>{#p/human}* (Вы перевели свои слова.)\n* (Квакушёнок вроде бы начал понимать вас.)',
+            '<32>{#p/basic}* Квакушёнок не решается продолжить битву.'
         ],
         act_translate1y: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>* Thoroughly threatened, Froggit runs away!'
+            '<32>{#p/human}* (Вы перевели свои слова.)\n* (Квакушёнок вроде бы начал понимать вас.)',
+            '<32>* Полностью испуганный, Квакушёнок сбегает!'
         ],
         act_translate1z: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit shows no sign of fear.'
+            '<32>{#p/human}* (Вы перевели свои слова.)\n* (Квакушёнок вроде бы начал понимать вас.)',
+            '<32>{#p/basic}* Квакушёнок не показывает признаков страха.'
         ],
         act_translate2: [
-            '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
-            '<32>{#p/basic}* Froggit is blushing, if only on the inside.'
+            '<32>{#p/human}* (Вы перевели свои слова.)\n* (Квакушёнок вроде бы начал понимать вас.)',
+            '<32>{#p/basic}* Квакушёнок покраснел, хотя бы внутренне.'
         ],
-        confuseText: ['<08>{#p/basic}{~}Ribbit, ribbit?'],
-        flirtText: ['<08>{#p/basic}{~}(Blushes deeply.)\nRibbit..'],
-        idleText1: ['<08>{#p/basic}{~}Ribbit, ribbit.'],
+        confuseText: ['<08>{#p/basic}{~}Квак-квак?'],
+        flirtText: ['<08>{#p/basic}{~}(Глубоко краснеет.)\nКвак..'],
+        idleText1: ['<08>{#p/basic}{~}Квак-квак.'],
         idleText2: ['<08>{#p/basic}{~}Croak, croak.'],
-        idleText3: ['<08>{#p/basic}{~}Hop, hop.'],
-        idleText4: ['<08>{#p/basic}{~}Meow.'],
+        idleText3: ['<08>{#p/basic}{~}Прыг, скок.'],
+        idleText4: ['<08>{#p/basic}{~}Мяу.'],
         mercyStatus: ['<32>{#p/story}* Froggit seems reluctant to fight you.'],
         name: '* Froggit',
         meanText: ['<08>{#p/basic}{~}(Shiver, shake.)\nRibbit..'],
@@ -3895,70 +3895,70 @@ export default {
         perilStatus: ['<32>{#p/story}* Froggit is trying to run away.'],
         status1: ['<32>{#p/story}* Froggit hops near!'],
         status2: ['<32>{#p/story}* The battlefield is filled with the smell of crystherium utilia.'],
-        status3: ["<32>{#p/story}* Froggit doesn't seem to know why it's here."],
+        status3: ["<32>{#p/story}* Квакушёнок не знает как сюда заплутал."],
         status4: ['<32>{#p/story}* Froggit hops to and fro.']
     },
     b_opponent_whimsun: {
-        act_check: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster has only just learned how to fly...'],
-        act_check2: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster wishes it had stayed on the ground.'],
+        act_check: ['<32>{#p/story}* ЛЕТЯГА - АТК 5 ЗЩТ 0\n* Сей монстр только научился летать...'],
+        act_check2: ['<32>{#p/story}* ЛЕТЯГА - АТК 5 ЗЩТ 0\n* Сей монстр хотел бы остаться на земле.'],
         act_console: [
-            '<32>{#p/human}* (You help Flutterlyte fly higher into the air.)',
-            '<32>{#p/basic}* Flutterlyte thanks you, and flies away...'
+            '<32>{#p/human}* (Вы помогаете летяге высоко взлететь.)',
+            '<32>{#p/basic}* Летяга благодарит вас и улетает прочь...'
         ],
         act_flirt: [
             '<32>{#p/human}* (You flirt with Flutterlyte.)',
-            '<32>{#p/basic}* Unable to handle your compliment, Flutterlyte bursts into tears and flies away...'
+            '<32>{#p/basic}* Неспособный выдержать комплимент, летяга расплакался и улетел прочь...'
         ],
         act_terrorize: [
             '<32>{#p/human}* (You weep and wail and gnash your teeth.)',
-            '<32>{#p/basic}* Flutterlyte panicks and flies away...'
+            '<32>{#p/basic}* Летяга паникует и улетает прочь...'
         ],
-        idleTalk1: ['<08>{#p/basic}{~}Why is this so hard..'],
-        idleTalk2: ['<08>{#p/basic}{~}Please help me..'],
-        idleTalk3: ["<08>{#p/basic}{~}I'm scared.."],
-        idleTalk4: ["<08>{#p/basic}{~}I can't do this.."],
+        idleTalk1: ['<08>{#p/basic}{~}Почему это так сложно...'],
+        idleTalk2: ['<08>{#p/basic}{~}Прошу, помоги мне...'],
+        idleTalk3: ["<08>{#p/basic}{~}Я напуган..."],
+        idleTalk4: ["<08>{#p/basic}{~}Я не могу это сделать..."],
         idleTalk5: ['<08>{#p/basic}{~}\x00*sniff sniff*'],
-        name: '* Flutterlyte',
-        perilStatus: ['<32>{#p/story}* Flutterlyte is barely keeping itself in the air.'],
+        name: '* Летяга',
+        perilStatus: ['<32>{#p/story}* Летяга еле держит себя в воздухе.'],
         status1: ['<32>{#p/story}* Flutterlyte comes forth!'],
-        status2: ['<32>{#p/story}* Flutterlyte continues to mutter apologies.'],
-        status3: ['<32>{#p/story}* Flutterlyte hovers meekly.'],
-        status4: ['<32>{#p/story}* The smell of fresh peaches permeates the air.'],
-        status5: ['<32>{#p/story}* Flutterlyte is hyperventilating.'],
-        status6: ['<32>{#p/story}* Flutterlyte avoids eye contact.']
+        status2: ['<32>{#p/story}* Извиняясь, летяга мямлит.'],
+        status3: ['<32>{#p/story}* Летяга смирно взлетает.'],
+        status4: ['<32>{#p/story}* Запах свежих персиков наполняет воздух.'],
+        status5: ['<32>{#p/story}* Летяга чрезмерно дышит.'],
+        status6: ['<32>{#p/story}* Летяга избегает встречи взглядов.']
     },
     b_opponent_loox: {
-        act_check: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* Staring contest master.\n* Family name: Eyewalker'],
+        act_check: ['<32>{#p/story}* ЗЕНИЦИЙ - АТК 6 ЗЩТ 6\n* Мастер игры в гляделки.\n* Фамилия: Айуокер.'],
         act_check2: [
-            "<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This bully is trying very hard to pretend it's not flattered."
+            "<32>{#p/story}* ЗЕНИЦИЙ - АТК 6 ЗЩТ 6\n* Сей задира пытается скрыть, что он польщён."
         ],
-        act_check3: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This monster is honored to be in your line of sight.'],
+        act_check3: ['<32>{#p/story}* ЗЕНИЦИЙ - АТК 6 ЗЩТ 6\n* Сей монстр чтит быть в вашем зрительном поле.'],
         act_dontpick: [
-            '<32>{#p/human}* (You stare at Oculoux.)\n* (Oculoux stares back harder.)',
-            "<32>{#p/human}* (Oculoux's eye becomes increasingly strained, and eventually...)",
-            '<32>{#p/human}* (... Oculoux bows.)'
+            '<32>{#p/human}* (Вы смотрите на зениция.)\n* (Зениций глядит с напряжением.)',
+            "<32>{#p/human}* (Око зениция чрезмерно напряжено, а поэтому...)",
+            '<32>{#p/human}* (... зениций моргает.)'
         ],
         act_flirt: ['<32>{#p/human}* (You flirt with Oculoux.)'],
         act_pick: ['<32>{#p/human}* (You rudely lecture Oculoux about staring at people.)'],
-        checkTalk1: ['<08>{#p/basic}{~}Do you dare to stare?'],
+        checkTalk1: ['<08>{#p/basic}{~}Как ты смеешь глазеть?'],
         dontDeny1: ['<08>{#p/basic}{~}Look who changed their mind.'],
         dontTalk1: ['<99>{#p/basic}{~}The gaze\nis\nstrong\nwith\nthis one.'],
         flirtDeny1: ['<08>{#p/basic}{~}How tsundere of you.'],
         flirtTalk1: ['<08>{#p/basic}{~}What? N-no way!'],
         hurtStatus: ['<32>{#p/story}* Oculoux is watering.'],
-        idleTalk1: ["<08>{#p/basic}{~}I've got my eye on you."],
-        idleTalk2: ["<08>{#p/basic}{~}Don't tell me what to do."],
+        idleTalk1: ["<08>{#p/basic}{~}Я не свожу с тебя глаз."],
+        idleTalk2: ["<08>{#p/basic}{~}Не учи меня как жить."],
         idleTalk3: ['<08>{#p/basic}{~}Staring is caring.'],
-        idleTalk4: ['<08>{#p/basic}{~}What an eyesore.'],
-        idleTalk5: ['<08>{#p/basic}{~}How about a staring contest?'],
-        name: '* Oculoux',
-        pickTalk1: ['<08>{#p/basic}{~}How dare you question our way of life!'],
+        idleTalk4: ['<08>{#p/basic}{~}Что за песчинка в глазу.'],
+        idleTalk5: ['<08>{#p/basic}{~}Что насчёт гляделок?'],
+        name: '* Зениций',
+        pickTalk1: ['<08>{#p/basic}{~}Как ты смеешь усомниться в наших взглядах на жизнь!'],
         spareStatus: ["<32>{#p/story}* Oculoux doesn't care about fighting anymore."],
         status1: ['<32>{#p/story}* A pair of Oculoux walked in!'],
         status2: ['<32>{#p/story}* Oculoux is staring right through you.'],
         status3: ['<32>{#p/story}* Oculoux gnashes its teeth.'],
         status4: ['<32>{#p/story}* Smells like eyedrops.'],
-        status5: ['<32>{#p/story}* Oculoux has gone bloodshot.'],
+        status5: ['<32>{#p/story}* Зениций налился кровью.'],
         status6: ['<32>{#p/story}* Oculoux is gazing at you.'],
         status7: ['<32>{#p/story}* Oculoux is now alone.']
     },
@@ -4613,7 +4613,7 @@ export default {
                         ? ['<32>* (Nothing happens.)']
                         : [
                             '<32>* (You found a piece of gum taped to the comic strip.)',
-                            choicer.create('* (Use the gum?)', 'Yes', 'No')
+                            choicer.create('* (Use the gum?)', 'Да', 'Нет')
                         ])
                 ]
                 : []
@@ -5231,9 +5231,9 @@ export default {
             '<25>{#f/0}* How odd.\n* The captain I knew was into sabers.'
         ],
         f_battle: [
-            '<25>{#p/toriel}{#f/0}* Ah, there you are.',
-            "<25>{#f/0}* You're at the edge of the factory there.",
-            '<26>{#f/1}* From this point forward, I do not know what lies ahead of you...',
+            '<25>{#p/toriel}{#f/0}* Ах, вот ты где.',
+            "<25>{#f/0}* Ты на краю фабрики.",
+            '<26>{#f/1}* Отныне, я не знаю, что ждёт впереди тебя...',
             '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
             '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
             '<25>{#f/23}* ... I wonder who came up with THAT name.'
@@ -5277,13 +5277,13 @@ export default {
         c_call_toriel_early: () =>
             game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-                ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
+                ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Вернись в дом сейчас же!']
                 : [
                     3 <= SAVE.data.n.cell_insult
-                        ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
+                        ? '<25>{#p/toriel}{#f/23}* Ты не чувствуешь усталость после твоего поведения со мной?'
                         : SAVE.data.n.state_wastelands_napstablook === 5
-                            ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
-                            : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
+                            ? '<25>{#p/toriel}{#f/1}* Ты не чувствуешь усталость от такого долгого ожидания?'
+                            : '<25>{#p/toriel}{#f/1}* Ты не чувствуешь усталость после всего, что произошло?',
                     3 <= SAVE.data.n.cell_insult
                         ? game.room.startsWith('w_toriel') // NO-TRANSLATE
 
@@ -5291,23 +5291,23 @@ export default {
                             : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
                         : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                            ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
-                            : '<25>{#f/0}* Come to the house, and I will show you something.'
+                            ? '<25>{#f/0}* Приди в коридор, и я покажу тебе что-то.'
+                            : '<25>{#f/0}* Приди в дом, и я покажу тебе что-то.'
                 ],
         c_call_toriel_late: () =>
             SAVE.data.n.plot === 8.1
-                ? ['<32>{#p/human}* (But the line was busy.)']
+                ? ['<32>{#p/human}* (Но линия была занята.)']
                 : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-                    ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
+                    ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Вернись в дом сейчас же!']
                     : [
-                        '<25>{#p/toriel}{#f/1}* There is no need to call me over the phone, my child.',
+                        '<25>{#p/toriel}{#f/1}* Нет нужды звонить мне по телефону, моё дитя.',
                         3 <= SAVE.data.n.cell_insult
-                            ? '<26>{#f/23}* We already know what that tends to result in.'
+                            ? '<26>{#f/23}* Мы уже знаем к чему это приводит.'
                             : game.room === 'w_toriel_living' // NO-TRANSLATE
 
                                 ? toriCheck()
-                                    ? '<25>{#f/0}* After all, I am here in the room with you.'
+                                    ? '<25>{#f/0}* Ведь я здесь, в комнате, рядом с тобою.'
                                     : '<25>{#f/0}* I will be done in just a moment.'
                                 : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
@@ -5330,20 +5330,20 @@ export default {
     },
     s_save_outlands: {
         w_courtyard: {
-            name: 'Outlands - Courtyard',
+            name: 'Запределье: двор',
             text: () =>
                 SAVE.data.n.plot > 16
                     ? [
                         6 <= world.population
-                            ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
-                            : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
+                            ? '<32>{#p/human}* (Даже на пороге этот маленький домик наполняет вас решимостью.)'
+                            : '<32>{#p/human}* (Даже на пороге этот дом наполняет вас решительностью.)'
                     ]
                     : 6 <= world.population
-                        ? ['<32>{#p/human}* (This cute little home fills you with determination.)']
-                        : ['<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)']
+                        ? ['<32>{#p/human}* (Этот маленький, миленький домик наполняет вас решительностью.)']
+                        : ['<32>{#p/human}* (Дом среди металлических стен наполняет вас решимостью.)']
         },
         w_entrance: {
-            name: 'Outlands - Entrance',
+            name: 'Запределье: вход',
             text: () =>
                 world.runaway
                     ? [
@@ -5362,16 +5362,16 @@ export default {
                         ]
         },
         w_froggit: {
-            name: 'Outlands - Rest Area',
+            name: 'Запределье: зона отдыха',
             text: () =>
                 SAVE.data.n.state_wastelands_toriel === 2 || world.runaway || roomKills().w_froggit > 0
                     ? SAVE.data.n.plot < 8.1
                         ? [
-                            '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
+                            '<32>{#p/human}* (Воздух черствеет.)\n* (Каким-то образом, это наполняет вас решимостью.)',
                             '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                         : [
-                            '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
+                            '<32>{#p/human}* (Воздух полностью высох.)\n* (Действительно, это наполняет вас решимостью.)',
                             '<32>{#p/human}* (ОЗ полностью восстановлено.)'
                         ]
                     : SAVE.data.b.svr
@@ -5386,12 +5386,12 @@ export default {
                         ]
         },
         w_mouse: {
-            name: 'Outlands - Stærmite Hole',
+            name: 'Запределье: дырка звездомыши.',
             text: () =>
                 world.population > 5 && !SAVE.data.b.svr && !world.runaway
                     ? [
-                        '<32>{#p/human}* (Knowing that the stærmite will one day emerge...)',
-                        '<32>{#p/human}* (The thought fills you with determinætion.)'
+                        '<32>{#p/human}* (Осознание того, что однажды звездомышь покинет свою нору...)',
+                        '<32>{#p/human}* (Наполняет вас мышимостью.)'
                     ]
                     : [
                         '<32>{#p/human}* (Even if the stærmite may never emerge again...)',
@@ -5399,7 +5399,7 @@ export default {
                     ]
         },
         w_start: {
-            name: 'Crash Site',
+            name: 'Место крушения',
             text: []
         }
     }

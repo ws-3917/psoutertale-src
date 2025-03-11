@@ -92,7 +92,6 @@ export class BorderManager {
         }
         // special cases for bMain
         const borderSpecialRoomsMain = [
-            '_frontier8',
             'w_start',
             'w_twinkly',
             'w_entrance',

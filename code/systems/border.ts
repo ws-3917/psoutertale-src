@@ -158,8 +158,18 @@ export class BorderManager {
             w_toriel: borderAsset.bToriel,
             w_: borderAsset.bOutlands
         };
+        // 250311 - WS3917: Added battle border variants1
+        const borderBattleType: { [key: string]: (string | number)[] } = {
+            a_: borderAsset.bArchiveAerialis,
+            f_: borderAsset.bArchiveFoundry,
+            s_: borderAsset.bArchiveStarton,
+            w_: borderAsset.bArchiveOutlands
+        }
         for (const key in borderType) {
             if (room.startsWith(key)) {
+                // Need to check if the key is in the battle type
+                if (battler.active && borderBattleType[key])
+                    return borderBattleType[key];
                 return borderType[key];
             }
         }
@@ -208,14 +218,21 @@ export class BorderManager {
     handleUpdateBorder(border: (string | number)[]) {
         if (game.width === 960) {
             events.off('teleport', this.updateBorder);
+            events.off('battle', this.updateBorder);
+            events.off('battle-exit', this.updateBorder);
             this.currentBorder = borderAsset.none;
             this.dynamic = false;
         } else {
             if (border === borderAsset.dynamic) {
                 events.on('teleport', this.updateBorder);
+                // 250311 - WS3917: Update border  when entering and exiting battle
+                events.on('battle', this.updateBorder);
+                events.on('battle-exit', this.updateBorder);
                 this.dynamic = true;
             } else {
                 events.off('teleport', this.updateBorder);
+                events.off('battle', this.updateBorder);
+                events.off('battle-exit', this.updateBorder);
                 this.dynamic = false;
                 this.currentBorder = border;
             }

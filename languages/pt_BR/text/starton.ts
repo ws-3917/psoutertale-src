@@ -10879,203 +10879,203 @@ export default {
                         '<18>{#p/papyrus}{#f/0}CLARO, EU JÁ CHEGUEI COM UMA PRA VOCÊ.',
                         '<18>{#p/papyrus}{#f/4}VOCÊ SERIA A \"CSETPO.\"',
                         '<25>{#p/undyne}{#f/14}* ... e o que significa esse gigante acrônimo?',
-                        '<18>{#p/papyrus}{#f/9}THE \"CHIEF SMASH- EVERYTHING-TO- PIECES OFFICER!\"',
-                        '<25>{#p/undyne}{#f/8}* I LOVE IT!!!'
+                        '<18>{#p/papyrus}{#f/9}A \"CHEFE SOCA E ESMAGA TUDO EM PEDAÇOS OFICIAL!\"',
+                        '<25>{#p/undyne}{#f/8}* EU AMEI!!!'
                     ])
             ],
-            ['<18>{#p/papyrus}{#f/4}I MIGHT AS WELL BE THE \"CAO\" AROUND HERE...']
+            ['<18>{#p/papyrus}{#f/4}EU TALVEZ SERIA O \"CAO\" POR AQUI...']
         ),
         a_puzzle2: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/6}NO MATTER WHERE I GO, I END UP IN THE SAME PLACE!',
-                "<18>{#p/papyrus}{#f/5}AT LEAST, THAT'S WHAT HAPPENS...",
-                '<18>{#p/papyrus}{#f/4}WHENEVER I ATTEMPT TO SOLVE THIS PUZZLE.',
+                '<18>{#p/papyrus}{#f/6}NÃO IMPORTA ONDE EU VÁ, SEMPRE ACABO NO MESMO LUGAR!',
+                "<18>{#p/papyrus}{#f/5}PELO MENOS, É ISSO QUE ACONTECE...",
+                '<18>{#p/papyrus}{#f/4}TODA VEZ QUE TENTO RESOLVER ESSE QUEBRA-CABEÇA.',
                 ...(solo()
                     ? []
                     : [
-                        '<25>{#p/undyne}{#f/17}* Jeez.\n* Why even BOTHER.',
-                        '<18>{#p/papyrus}{#f/6}BECAUSE!!',
-                        '<18>{#p/papyrus}{#f/6}SOLVING PUZZLES IS SUPPOSED TO BE FUN!!',
-                        "<25>{#p/undyne}{#f/12}* Couldn't you just use flight magic to get around it?",
-                        '<18>{#p/papyrus}{#f/4}FLIGHT MAGIC IS RESERVED FOR EMERGENCIES.',
-                        '<25>{#p/undyne}{#f/1}* That depends on your definition of an \"emergency.\"',
-                        '<18>{#p/papyrus}{#f/7}AND PUZZLES FALL WELL OUTSIDE OF THAT DEFINITION!',
-                        "<25>{#p/undyne}{#f/14}* Guess you'll have to suffer, then.",
-                        '<18>{#p/papyrus}{#f/7}I GUESS I WILL!!!'
+                        '<25>{#p/undyne}{#f/17}* Senhor.\n* Pra quê se importar.',
+                        '<18>{#p/papyrus}{#f/6}PORQUÊ!!',
+                        '<18>{#p/papyrus}{#f/6}RESOLVER ENIGMAS TEM QUE SER DIVERTIDO!!',
+                        "<25>{#p/undyne}{#f/12}* Não da só pra usar magia de voo pra passar por cima?",
+                        '<18>{#p/papyrus}{#f/4}MAGIA DE VOAR É SÓ PRA EMERGÊNCIAS.',
+                        '<25>{#p/undyne}{#f/1}* Depende da sua definição de \"emergência.\"',
+                        '<18>{#p/papyrus}{#f/7}E QUEBRAS-CABEÇAS ESTÃO FORA DESSA DEFINIÇÃO!',
+                        "<25>{#p/undyne}{#f/14}* Acho que você vai ter que sofrer, então.",
+                        '<18>{#p/papyrus}{#f/7}EU ACHO QUE VOU!!!'
                     ])
             ],
             () =>
                 solo()
                     ? [
-                        '<18>{#p/papyrus}{#f/6}NUMBERS, NUMBERS EVERYWHERE!!',
-                        '<18>{#p/papyrus}{#f/6}WHAT DOES IT ALL MEAN!?!?'
+                        '<18>{#p/papyrus}{#f/6}NÚMEROS, NÚMEROS PRA TODO LADO!!',
+                        '<18>{#p/papyrus}{#f/6}O QUE ISSO SIGNIFICA!?!?'
                     ]
                     : [
-                        "<18>{#p/papyrus}{#f/5}FLYING AROUND EVERYWHERE JUST WOULDN'T BE FAIR.",
-                        '<25>{#p/undyne}{#f/11}* And you like to make life hard on yourself because...?',
-                        '<18>{#p/papyrus}{#f/9}BECAUSE NOTHING IS AS REWARDING AS HARD WORK!',
-                        '<25>{#p/undyne}{#f/17}* ... that depends on your definition of \"work.\"'
+                        "<18>{#p/papyrus}{#f/5}VOAR POR CIMA SÓ NÃO SERIA JUSTO.",
+                        '<25>{#p/undyne}{#f/11}* E por que você gosta de dificultar sua vida...?',
+                        '<18>{#p/papyrus}{#f/9}PORQUE NÃO EXISTE PREMIAÇÃO SEM TRABALHO DURO!',
+                        '<25>{#p/undyne}{#f/17}* ... Isso depende da sua definição de \"trabalho.\"'
                     ]
         ),
         a_mettaton2: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}AH... THE TIME VERSUS MONEY TV SET.',
+                '<18>{#p/papyrus}{#f/5}AH... TEMPO VERSUS DINHERO.',
                 ...(SAVE.data.n.plot < 60
                     ? [
-                        '<18>{#p/papyrus}{#f/4}JUST SO YOU KNOW...',
-                        "<18>{#p/papyrus}{#f/5}I WON'T BE IN THE UPCOMING EPISODE.",
-                        "<18>{#p/papyrus}{#f/6}... I'D BE TOO NERVOUS SITTING RIGHT NEXT TO HIM."
+                        '<18>{#p/papyrus}{#f/4}SÓ PRA VOCÊ SABER...',
+                        "<18>{#p/papyrus}{#f/5}EU NÃO ESTAREI NO PRÓXIMO EPISODIO.",
+                        "<18>{#p/papyrus}{#f/6}... EU FICARIA NERVOSO DEMAIS PERTO DELE."
                     ]
                     : [
-                        '<18>{#p/papyrus}{#f/4}METTATON WANTED ME TO BE IN THE EPISODE, BUT...',
-                        '<18>{#p/papyrus}{#f/5}AFTER SOME THOUGHT, I CAME TO REALIZE...',
-                        "<18>{#p/papyrus}{#f/6}... HOW NERVOUS I'D BE SITTING RIGHT NEXT TO HIM."
+                        '<18>{#p/papyrus}{#f/4}METTATON QUERIA QUE EU ESTIVESSE NO EP, MAS...',
+                        '<18>{#p/papyrus}{#f/5}APÓS PENSAR UM POUCO, EU CHEGUEI A CONCLUSÃO...',
+                        "<18>{#p/papyrus}{#f/6}... O QUÃO NERVOSO EU ESTARIA SENTANDO PERTO DELE."
                     ]),
                 ...(solo()
                     ? []
                     : [
-                        "<25>{#p/undyne}{#f/12}* ... you really like him, don't you?",
-                        '<18>{#p/papyrus}{#f/4}WELL, HE -IS- QUITE ATTRACTIVE...',
-                        "<18>{#p/papyrus}{#f/6}... BUT I HAVEN'T COMMITTED TO ANYTHING YET!",
-                        "<25>{#p/undyne}{#f/3}* That won't last long.",
-                        '<18>{#p/papyrus}{#f/4}HUH?\nDID YOU JUST ASSUME...',
-                        '<18>{#p/papyrus}{#f/7}... OUR RELATIONSHIP STATUS!?!?',
-                        '<25>{#p/undyne}{#f/14}* Oh, no, of course not.',
-                        "<25>{#p/undyne}{#f/17}* It's just so obvious that I couldn't help but state the facts.",
+                        "<25>{#p/undyne}{#f/12}* ... Você gosta muito dele, não gosta?",
+                        '<18>{#p/papyrus}{#f/4}BEM, ELE É MUITO LEGAL...',
+                        "<18>{#p/papyrus}{#f/6}... MAS EU NÃO CHEGUEI A NENHUMA CONCLUSÃO AINDA!",
+                        "<25>{#p/undyne}{#f/3}* Isso não vai durar muito.",
+                        '<18>{#p/papyrus}{#f/4}HUH?\nVOCÊ ACABOU DE ASSUMIR...',
+                        '<18>{#p/papyrus}{#f/7}... NOSSO STATUS DE RELACIONAMENTO!?!?',
+                        '<25>{#p/undyne}{#f/14}* Não, obvio que não.',
+                        "<25>{#p/undyne}{#f/17}* Eu só acabei de cuspir fatos na sua cara.",
                         '<18>{#p/papyrus}{#f/5}(SUSPIRO...)'
                     ])
             ],
             () =>
                 solo()
                     ? SAVE.data.n.plot < 60
-                        ? ['<18>{#p/papyrus}{#f/0}FORTUNATELY, I HAVE A REPLACEMENT ARRANGED.']
+                        ? ['<18>{#p/papyrus}{#f/0}FELIZMENTE, TENHO UM SUBSTITUTO ARRANJADO.']
                         : SAVE.data.b.undyne_respecc
-                            ? ['<18>{#p/papyrus}{#f/0}THANKFULLY, UNDYNE WAS THERE TO TAKE MY PLACE.']
-                            : ['<18>{#p/papyrus}{#f/0}THANKFULLY, MY BROTHER WAS THERE TO TAKE MY PLACE.']
-                    : ['<25>{#p/undyne}{#f/12}* Papyrus is too busy daydreaming to pick up the phone right now.']
+                            ? ['<18>{#p/papyrus}{#f/0}FELIZMENTE, UNDYNE ESTAVA LÁ POR MIM.']
+                            : ['<18>{#p/papyrus}{#f/0}FELIZMENTE, MEU IRMÃO ESTAVA LÁ POR MIM.']
+                    : ['<25>{#p/undyne}{#f/12}* Papyrus está muito ocupado sonhando acordado pra atender.']
         ),
         a_rg2: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/6}BE CAREFUL OUT THERE, HUMAN!',
-                '<18>{#p/papyrus}{#f/5}THE GUARDS IN THAT AREA ARE FRESH OUT OF TRAINING.',
-                "<18>{#p/papyrus}{#f/6}WHO KNOWS WHICH ROYAL MEMOS THEY'LL IGNORE!",
+                '<18>{#p/papyrus}{#f/6}TOME CUIDADO POR AÍ HUMANO!',
+                '<18>{#p/papyrus}{#f/5}OS GUARDAS NESSA ÁREA SAÍRAM DO TREINO A POUCO.',
+                "<18>{#p/papyrus}{#f/6}VAI SABER SE ELES NÃO IGNORARAM NENHUM COMANDO REAL!",
                 ...(solo()
-                    ? ["<18>{#p/papyrus}{#f/0}BY THE WAY, WHAT'S A ROYAL MEMO?"]
+                    ? ["<18>{#p/papyrus}{#f/0}ÁLIAS, O QUE SERIA UM MEMO REAL?"]
                     : [
-                        '<25>{#p/undyne}{#f/16}* Tell me about it...',
-                        '<18>{#p/papyrus}{#f/5}HUH?\nDO THEY IGNORE YOUR MEMOS OFTEN?',
-                        '<25>{#p/undyne}{#f/14}* Oh, they follow mine just fine.',
-                        "<25>{#p/undyne}{#f/10}* It's Alphys's memos they tend to ignore.",
-                        "<18>{#p/papyrus}{#f/6}BUT SHE'S THE ROYAL SCIENTIST!",
-                        "<18>{#p/papyrus}{#f/6}THE KING'S MOST TRUSTED ASSOCIATE!",
-                        "<25>{#p/undyne}{#f/12}* Yeah... that's how things are supposed to work.",
-                        "<25>{#p/undyne}{#f/16}* But after Professor Roman died, we weren't ready to replace him.",
-                        "<26>{#p/undyne}{#f/10}* Most in the Royal Guard don't take his successor seriously, so...",
-                        '<25>{#p/undyne}{#f/9}* That impacts how the trainees see her, too.',
+                        '<25>{#p/undyne}{#f/16}* Nem me fala...',
+                        '<18>{#p/papyrus}{#f/5}HUH?\nELES IGNORARAM SEUS COMANDOS ULTIMAMENTE?',
+                        '<25>{#p/undyne}{#f/14}* Oh, eles seguem os meus tranquilamente.',
+                        "<25>{#p/undyne}{#f/10}* São os memos da Alphys que eles ignoram.",
+                        "<18>{#p/papyrus}{#f/6}MAS ELA É A CIENTISTA REAL!",
+                        "<18>{#p/papyrus}{#f/6}A PESSOA DE MAIOR CONFIANÇA ASSOCIADA AO REI!",
+                        "<25>{#p/undyne}{#f/12}* É... era assim que era pra funcionar.",
+                        "<25>{#p/undyne}{#f/16}* Mas após a morte do Professor Roman, ninguém está aos pés.",
+                        "<26>{#p/undyne}{#f/10}* Maior parte da Guarda Real não leva sua sucessora a sério...",
+                        '<25>{#p/undyne}{#f/9}* Isso impacta como os estudantes a veem também.',
                         '<18>{#p/papyrus}{#f/5}OH...',
-                        "<25>{#p/undyne}{#f/17}* I know.\n* It's... not great.",
-                        "<26>{#f/9}* But she's unwieldy, and she's still got lots to prove out there.",
-                        '<26>{#f/16}* So... I kind of get it.',
-                        "<18>{#p/papyrus}{#f/5}HOPEFULLY THEY'LL COME TO RESPECT HER IN TIME.",
-                        '<26>{#p/undyne}{#f/14}* Hopefully.'
+                        "<25>{#p/undyne}{#f/17}* Eu sei.\n* Isso não é bom.",
+                        "<26>{#f/9}* Mas ela tem peso sobre si e ainda tem muito a provar por aí.",
+                        '<26>{#f/16}* Então, eu meio que entendo.',
+                        "<18>{#p/papyrus}{#f/5}COM ESPERANÇA, ELES A RESPEITARÃO LOGO, LOGO.",
+                        '<26>{#p/undyne}{#f/14}* Espero que sim.'
                     ])
             ],
             () =>
                 solo()
-                    ? ["<18>{#p/papyrus}{#f/0}I WONDER HOW IT'S DIFFERENT FROM A NORMAL MEMO."]
-                    : ['<18>{#p/papyrus}{#f/4}HOPEFULLY, IT HAPPENS SOONER RATHER THAN LATER.']
+                    ? ["<18>{#p/papyrus}{#f/0}ME PERGUNTO O QUÃO DIFERENTE É DE UM MEMO NORMAL."]
+                    : ['<18>{#p/papyrus}{#f/4}ESPERO QUE ISSO ACONTEÇA MAIS CEDO DO QUE MAIS TARDE.']
         ),
         a_barricade2: pager.create(
             0,
             () => [
-                "<18>{#p/papyrus}{#f/0}I'M AFRAID I DON'T HAVE MUCH TO SAY ABOUT THIS ROOM.",
-                '<18>{#p/papyrus}{#f/5}IN FACT, THE ONLY THING I DO HAVE TO SAY...',
-                '<18>{#p/papyrus}{#f/6}... IS THAT I -HAVE- NOTHING TO SAY!',
+                "<18>{#p/papyrus}{#f/0}EU TEMO NÃO TER MUITO O QUE DIZER SOBRE ESSA SALA.",
+                '<18>{#p/papyrus}{#f/5}NA VERDADE, A ÚNICA COISA QUE EU TENHO PRA DIZER...',
+                '<18>{#p/papyrus}{#f/6}... É QUE EU NÃO TENHO -NADA- PRA DIZER!',
                 ...(solo()
-                    ? ['<18>{#p/papyrus}{#f/0}SO, ACTUALLY, I HAD SOMETHING TO SAY AFTER ALL.']
+                    ? ['<18>{#p/papyrus}{#f/0}ENTÃO, EU TENHO ALGO PRA DIZER.']
                     : [
-                        '<26>{#p/undyne}{#f/1}* I have something to say.',
-                        '<18>{#p/papyrus}{#f/6}WHAT?\nWHAT IS IT?',
-                        '<26>{#p/undyne}{#f/14}* This room may or may not contain barricades.',
-                        "<18>{#p/papyrus}{#f/4}THERE'S ALREADY A ROOM LIKE THAT ON THE FIRST FLOOR.",
-                        '<18>{#p/papyrus}{#f/7}DO SOMETHING ORIGINAL!!',
-                        "<26>{#p/undyne}{#f/17}* I've got nothin.'",
-                        '<18>{#p/papyrus}{#f/5}... NEVER MIND...'
+                        '<26>{#p/undyne}{#f/1}* Eu tenho algo pra dizer.',
+                        '<18>{#p/papyrus}{#f/6}QUÊ?\nO QUE SERIA?',
+                        '<26>{#p/undyne}{#f/14}* Essa sala pode ou não conter barricadas.',
+                        "<18>{#p/papyrus}{#f/4}TINHA UMA SALA IGUALZINHA ESSA NO PRIMEIRO PISO.",
+                        '<18>{#p/papyrus}{#f/7}FAÇA ALGO ORIGINAL!!',
+                        "<26>{#p/undyne}{#f/17}* Eu não sei!",
+                        '<18>{#p/papyrus}{#f/5}... ESQUECE...'
                     ])
             ],
             () =>
                 solo()
-                    ? ["<18>{#p/papyrus}{#f/0}PERHAPS I'D HAVE MORE TO SAY IN ANOTHER SITUATION."]
-                    : ["<18>{#p/papyrus}{#f/0}PERHAPS THIS ROOM JUST ISN'T VERY INTERESTING."]
+                    ? ["<18>{#p/papyrus}{#f/0}TALVEZ EU TENHA MAIS O QUE DIZER EM OUTRA SITUAÇÃO."]
+                    : ["<18>{#p/papyrus}{#f/0}ESSA SALA NÃO DEVE SER TÃO INTERSSANTE."]
         ),
         a_split: pager.create(
             0,
             () => [
-                "<18>{#p/papyrus}{#f/0}LOOK, IT'S THE EVER-FAMOUS METTATON FOUNTAIN!",
-                '<18>{#p/papyrus}{#f/4}I HEARD IT TOOK A LOT OF TIME TO GET IT TO LOOK RIGHT.',
-                '<18>{#p/papyrus}{#f/5}COUNTLESS HOURS OF TIRELESS, PAINFUL WORK...',
-                '<18>{#p/papyrus}{#f/6}TO GET THAT IDEAL RECTANGULAR SHAPE.',
+                "<18>{#p/papyrus}{#f/0}OLHA, É A SUPER FAMOSA FONTE DO METTATON!",
+                '<18>{#p/papyrus}{#f/4}OUVI DIZER QUE DEMOROU MUITO TEMPO PRA FICAR PRONTA.',
+                '<18>{#p/papyrus}{#f/5}INÚMERAS REPETIÇÕES E TRABALHO DOLOROSO...',
+                '<18>{#p/papyrus}{#f/6}PARA TER O IDEAL FORMATO RETANGULAR.',
                 ...(solo()
                     ? []
                     : [
-                        '<25>{#p/undyne}{#f/12}* Then he destroyed it just so he could do it all himself.',
-                        '<18>{#p/papyrus}{#f/6}HE DID??',
-                        '<25>{#p/undyne}{#f/1}* The first one wasn\'t up to his \"high standards.\"',
-                        '<18>{#p/papyrus}{#f/4}WAIT, THERE WAS SOMETHING ABOUT THAT ON TV.',
-                        '<25>{#p/undyne}{#f/14}* Oh yeah, he decided to broadcast it to the entire outpost.',
-                        '<25>{#p/undyne}{#f/17}* He had to SHOW everyone that he knew better than them.',
-                        '<18>{#p/papyrus}{#f/4}WELL, IT IS A STATUE -OF- HIM, AFTER ALL...'
+                        '<25>{#p/undyne}{#f/12}* No fim, Mettaton destruiu tudo e fez sozinho.',
+                        '<18>{#p/papyrus}{#f/6}ISSO É VERDADE??',
+                        '<25>{#p/undyne}{#f/1}* Os primeiros modelos não agradaram o \"paladar forte.\"',
+                        '<18>{#p/papyrus}{#f/4}ESPERA, TINHA ALGO SOBRE ISSO NA TV.',
+                        '<25>{#p/undyne}{#f/14}* Pois é, eu decidi filmar isso para todo o Outpost ver.',
+                        '<25>{#p/undyne}{#f/17}* Ele tinha que mostrar pra todo mundo que era o tal melhor.',
+                        '<18>{#p/papiro}{#f/4}BEM, É UMA ESTÁTUA -DELE-, AFINAL...'
                     ])
             ],
             () =>
                 solo()
-                    ? ["<18>{#p/papyrus}{#f/4}MY BROTHER TELLS ME THAT'S NOT ENTIRELY TRUE."]
+                    ? ["<18>{#p/papyrus}{#f/4}MEU IRMÃO DISSE QUE ISSO NÃO É TOTALMENTE VERDADE."]
                     : [
-                        '<18>{#p/papyrus}{#f/5}I WONDER WHY HE HIRED SOMEONE ELSE TO BEGIN WITH.',
-                        "<18>{#p/papyrus}{#f/4}I WOULD'VE JUST DONE IT MYSELF..."
+                        '<18>{#p/papyrus}{#f/5}POR QUE ELE CONTRATOU ALGUÉM PRA COMEÇO DE CONVERSA.',
+                        "<18>{#p/papyrus}{#f/4}EU MESMO PODERIA TER FEITO..."
                     ]
         ),
         a_offshoot1: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}THE SIGNAL SEEMS TO BE A BIT WEAK.',
-                "<18>{#p/papyrus}{#f/6}IT'S LIKE... INTERFERENCE OF SOME KIND??",
-                "<18>{#p/papyrus}{#f/4}MAYBE IT'D BE A GOOD IDEA TO CALL BACK ELSEWHERE.",
+                '<18>{#p/papyrus}{#f/5}O SINAL PARECE ESTAR UM POUCO FRACO.',
+                "<18>{#p/papyrus}{#f/6}É COMO... INTERFERÊNCIA DE ALGUM TIPO??",
+                "<18>{#p/papyrus}{#f/4}TALVEZ SEJA MELHOR LIGAR EM OUTRO LUGAR.",
                 ...(solo()
                     ? []
                     : [
-                        "<25>{#p/undyne}{#f/14}* They're probably near the old security tower in Aerialis.",
-                        "<25>{#p/undyne}{#f/17}* There's something about the kind of metal they used to use there."
+                        "<25>{#p/undyne}{#f/14}* Ela deve estar na antiga torre de segurança em Aerialis.",
+                        "<25>{#p/undyne}{#f/17}* Isso acontece por causa do tipo de metal usado na construção."
                     ])
             ],
             () =>
                 solo()
-                    ? ['<18>{#p/papyrus}{#f/4}DID MY MESSAGE NOT GET THROUGH THE FIRST TIME?']
-                    : ["<25>{#p/undyne}{#f/14}* I wouldn't worry about a thing."]
+                    ? ['<18>{#p/papyrus}{#f/4}MINHA MENSAGEM NÃO CHEGOU DA PRIMEIRA VEZ?']
+                    : ["<25>{#p/undyne}{#f/14}* Não se preocupe com isso."]
         ),
         a_elevator3: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}WHEN I FIRST CAME ACROSS THIS ROOM...',
-                '<18>{#p/papyrus}{#f/6}I WAS ANNOYED HAVING TO USE YET ANOTHER ELEVATOR.',
-                '<18>{#p/papyrus}{#f/5}THEN, I WAS RELIEVED SOMEWHAT...',
-                '<18>{#p/papyrus}{#f/4}... WHEN I SAW THE LACK OF A TACKY BILLBOARD NEARBY.',
+                '<18>{#p/papyrus}{#f/5}NA PRIMEIRA VEZ QUE PASSEI POR ESSA SALA...',
+                '<18>{#p/papyrus}{#f/6}FIQUEI IRRITADO POR TER QUE USAR MAIS UM ELEVADOR.',
+                '<18>{#p/papyrus}{#f/5}ENTÃO, FIQUEI UM POUCO ALIVIADO...',
+                '<18>{#p/papiro}{#f/4}... QUANDO VI A FALTA DE UM OUTDOOR BREGA POR PERTO.',
                 ...(solo()
                     ? []
                     : [
                         '<25>{#p/undyne}{#f/17}* So do you LIKE using elevators or NOT?',
                         '<18>{#p/papyrus}{#f/6}WELL...',
-                        '<18>{#p/papyrus}{#f/5}I LIKE THE MUSIC, BUT HAVING TO USE THEM IS A PAIN.',
-                        '<18>{#p/papyrus}{#f/4}I DO ACKNOWLEDGE THEIR NECESSITY, THOUGH.',
-                        "<25>{#p/undyne}{#f/1}* Well, just be glad you don't live in a spire house, then.",
-                        '<18>{#p/papyrus}{#f/5}HOW COME?',
-                        '<25>{#p/undyne}{#f/17}* Elevators EVERYWHERE.',
-                        '<18>{#p/papyrus}{#f/6}N-NO...!',
-                        "<25>{#p/undyne}{#f/7}* And they're not even NECESSARY.",
-                        "<18>{#p/papyrus}{#f/8}IT CAN'T BE...!",
+                        '<18>{#p/papyrus}{#f/5}EU GOSTO DA MÚSICA, MAS TER QUE USA-LOS É UMA TORTURA.',
+                        '<18>{#p/papyrus}{#f/4}MAS EU ENTENDO NA NECESSIDADE DELES.',
+                        "<25>{#p/undyne}{#f/1}* Olha, estou feliz que você não vive em uma casa espiral.",
+                        '<18>{#p/papyrus}{#f/5}PORQUÊ?',
+                        '<25>{#p/undyne}{#f/17}* Lá só da pra andar em elevadores, são muito grandes.',
+                        '<18>{#p/papyrus}{#f/6}N-NÃO...!',
+                        "<25>{#p/undyne}{#f/7}* Olha, nem acho tão necessários.",
+                        "<18>{#p/papyrus}{#f/8}NÃO PODEM SER...!",
                         "<25>{#p/undyne}{#f/8}* AND THEY DON'T EVEN HAVE MUSIC!!!",
                         "<18>{#p/papyrus}{#f/1}IT'S UNFATHOMABLE!"
                     ])

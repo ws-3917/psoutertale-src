@@ -12,8 +12,10 @@ import bAsgore from '../../assets/border/asgore.png?url';
 import bAsrielBattle from '../../assets/border/asriel-battle.png?url';
 import bCitadel from '../../assets/border/citadel.png?url';
 import bCore from '../../assets/border/core.png?url';
+import bCoreBattle from '../../assets/border/core-battle.png?url';
 import bFoundry from '../../assets/border/foundry.png?url';
 import bFrontier from '../../assets/border/frontier.png?url';
+import bHangar from '../../assets/border/hangar.png?url';
 import bMain from '../../assets/border/main.png?url';
 import bOutlands from '../../assets/border/outlands.png?url';
 import bRecCenter from '../../assets/border/rec-center.png?url';
@@ -40,9 +42,11 @@ export const borderAsset = {
     bArchiveStarton: [bArchiveStarton, 15] as [string, number],
     bArchiveFoundry: [bArchiveFoundry, 16] as [string, number],
     bArchiveAerialis: [bArchiveAerialis, 17] as [string, number],
-    bAsrielBattle: [bAsrielBattle, 18] as [string, number],
-    bFrontier: [bFrontier, 19] as [string, number],
-    locked: ['', 20] as [string, number]
+    bCoreBattle: [bCoreBattle, 18] as [string, number],
+    bAsrielBattle: [bAsrielBattle, 19] as [string, number],
+    bHangar: [bHangar, 20] as [string, number],
+    bFrontier: [bFrontier, 21] as [string, number],
+    locked: ['', 22] as [string, number]
 };
 
 export class BorderManager {
@@ -142,6 +146,11 @@ export class BorderManager {
             }
         }
 
+        // hangar border
+        if (room.startsWith('_hangar') && SAVE.data.n.plot === 72) {
+            return borderAsset.bHangar;
+        }
+
         const borderType: { [key: string]: (string | number)[] } = {
             _frontier: borderAsset.bFrontier,
             c_archive_wasteland: borderAsset.bArchiveOutlands,
@@ -160,6 +169,7 @@ export class BorderManager {
         };
         // 250311 - WS3917: Added battle border variants1
         const borderBattleType: { [key: string]: (string | number)[] } = {
+            a_core_: borderAsset.bCoreBattle,
             a_: borderAsset.bArchiveAerialis,
             f_: borderAsset.bArchiveFoundry,
             s_: borderAsset.bArchiveStarton,
@@ -179,7 +189,7 @@ export class BorderManager {
         let plot = 0;
         let archiveProgress = 0;
         plot = SAVE.data.n.plot;
-        archiveProgress = SAVE.data.n.state_citadel_archive;
+        archiveProgress = SAVE.data.n.plot >= 71.2 ? 6 : SAVE.data.n.state_citadel_archive;
         const thresholds = [
             [borderAsset.bOutlands, 2],
             [borderAsset.bToriel, 8],
@@ -191,13 +201,15 @@ export class BorderManager {
             [borderAsset.bCitadel, 69],
             [borderAsset.bAsgore, 70],
             [borderAsset.bArchive, 71.1],
-            [borderAsset.bAsrielBattle, 71.2]
+            [borderAsset.bAsrielBattle, 71.2],
+            [borderAsset.bHangar, 72],
         ];
         const thresholdsArchive = [
             [borderAsset.bArchiveOutlands, 1],
             [borderAsset.bArchiveStarton, 2],
             [borderAsset.bArchiveFoundry, 3],
-            [borderAsset.bArchiveAerialis, 5]
+            [borderAsset.bArchiveAerialis, 5],
+            [borderAsset.bCoreBattle, 6],
         ];
 
         plot >= 72 ? borderAsset.bFrontier : borderAsset.locked;

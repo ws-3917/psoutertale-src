@@ -30,7 +30,7 @@ export default {
                 header: '忽略',
                 resume: '点击此处忽略错误'
             },
-            blurb: '游戏出现错误！当前版本号：V74\n请截图发给汉化组（QQ：797416533）。'
+            blurb: '游戏出现错误！当前版本号：V74.1\n请截图发给汉化组（QQ：797416533）。'
         },
         control: {
             tab: '快捷功能',
@@ -303,7 +303,6 @@ export default {
             [
                 '§fill=#ff0§< 游戏测试 >§fill=#fff§',
                 'Bilge \"mnwary\"',
-                'blue',
                 'Brad',
                 'brayjamin',
                 'ClamsyMoe',
@@ -315,11 +314,11 @@ export default {
                 'Efe Kaya',
                 'Emurry',
                 'Enzolos',
-                'EvanGamesGoodman'
+                'EvanGamesGoodman',
+                'Fired'
             ],
             [
                 '§fill=#ff0§< 游戏测试 >§fill=#fff§',
-                'Fired',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -332,11 +331,11 @@ export default {
                 'InvincibleRacoon',
                 'Jago128',
                 'Joe98912',
-                'Jojoton56'
+                'Jojoton56',
+                'Jonkler'
             ],
             [
                 '§fill=#ff0§< 游戏测试 >§fill=#fff§',
-                'Jonkler',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
@@ -349,11 +348,11 @@ export default {
                 'Shaun Duz Stuffs',
                 'SHCyank',
                 'NerNot1',
-                'petar3644'
+                'petar3644',
+                'PixelToons Jaafar'
             ],
             [
                 '§fill=#ff0§< 游戏测试 >§fill=#fff§',
-                'PixelToons Jaafar',
                 'Prezmop',
                 'prymus-agd',
                 'Quin',
@@ -366,11 +365,11 @@ export default {
                 'Soup Taels',
                 'spaceknife234',
                 'SquigglyWiggley',
-                'superkippy'
+                'superkippy',
+                'Teecup'
             ],
             [
                 '§fill=#ff0§< 游戏测试 >§fill=#fff§',
-                'Teecup',
                 'Tem in a Cowboy Hat',
                 'Tenbrooks',
                 'ThatGuyWhoLikesFood',
@@ -1052,7 +1051,9 @@ export default {
                 '星港（档案内）',
                 '铸厂（档案内）',
                 '空境（档案内）',
+                "核心（战斗内）",
                 'ASRIEL战',
+                '璀璨星空',
                 '新家园',
                 '§fill=#808080§(待解锁)'
             ]

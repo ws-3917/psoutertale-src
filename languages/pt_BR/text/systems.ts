@@ -303,7 +303,6 @@ export default {
             [
                 '§fill=#ff0§< TESTE >§fill=#fff§',
                 'Bilge \"mnwary\"',
-                'blue',
                 'Brad',
                 'brayjamin',
                 'ClamsyMoe',
@@ -315,11 +314,11 @@ export default {
                 'Efe Kaya',
                 'Emurry',
                 'Enzolos',
-                'EvanGamesGoodman'
+                'EvanGamesGoodman',
+                'Demitido'
             ],
             [
                 '§fill=#ff0§< TESTE >§fill=#fff§',
-                'Demitido',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -332,11 +331,11 @@ export default {
                 'InvincibleRacoon',
                 'Jago128',
                 'Joe98912',
-                'Jojoton56'
+                'Jojoton56',
+                'Jonkler'
             ],
             [
                 '§fill=#ff0§< TESTE >§fill=#fff§',
-                'Jonkler',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
@@ -349,11 +348,11 @@ export default {
                 'Shaun Duz Stuffs',
                 'SHCyank',
                 'NerNot1',
-                'petar3644'
+                'petar3644',
+                'PixelToons Jaafar'
             ],
             [
                 '§fill=#ff0§< TESTE >§fill=#fff§',
-                'PixelToons Jaafar',
                 'Prezmop',
                 'prymus-agd',
                 'Quin',
@@ -366,11 +365,11 @@ export default {
                 'Soup Taels',
                 'spaceknife234',
                 'SquigglyWiggley',
-                'superkippy'
+                'superkippy',
+                'Teecup'
             ],
             [
                 '§fill=#ff0§< TESTE >§fill=#fff§',
-                'Teecup',
                 'Tem in a Cowboy Hat',
                 'Tenbrooks',
                 'ThatGuyWhoLikesFood',
@@ -1000,7 +999,9 @@ export default {
                 'STARTON (ARQUIVO)',
                 'FOUNDRY (ARQUIVO)',
                 'AERIALIS (ARQUIVO)',
+                "CORE (IN BATTLE)",
                 'BATALHA DE ASRIEL',
+                'BRIGHT GALAXY',
                 'NOVO MUNDO',
                 '§fill=#808080§(FECHADO)'
             ]

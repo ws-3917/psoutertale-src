@@ -5234,7 +5234,7 @@ export default {
             '<25>{#p/toriel}{#f/0}* Ах, вот ты где.',
             "<25>{#f/0}* Ты на краю фабрики.",
             '<26>{#f/1}* Отныне, я не знаю, что ждёт впереди тебя...',
-            '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
+            '<25>{#f/5}* До того как я ушла, существовал лишь лифт в Цитадель.',
             '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
             '<25>{#f/23}* ... I wonder who came up with THAT name.'
         ],
@@ -5282,7 +5282,7 @@ export default {
                     3 <= SAVE.data.n.cell_insult
                         ? '<25>{#p/toriel}{#f/23}* Ты не чувствуешь усталость после твоего поведения со мной?'
                         : SAVE.data.n.state_wastelands_napstablook === 5
-                            ? '<25>{#p/toriel}{#f/1}* Ты не чувствуешь усталость от такого долгого ожидания?'
+                            ? '<25>{#p/toriel}{#f/1}* Ты не чувствуешь усталость от столь долгого ожидания?'
                             : '<25>{#p/toriel}{#f/1}* Ты не чувствуешь усталость после всего, что произошло?',
                     3 <= SAVE.data.n.cell_insult
                         ? game.room.startsWith('w_toriel') // NO-TRANSLATE

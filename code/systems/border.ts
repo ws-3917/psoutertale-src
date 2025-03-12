@@ -106,7 +106,8 @@ export class BorderManager {
             'f_bird',
             'f_view',
             'f_battle',
-            'a_lookout'
+            'a_lookout',
+            'c_exit'
         ];
         const borderSpecialRoomsRecCenter = [
             'a_elevator4',
@@ -124,14 +125,15 @@ export class BorderManager {
             'a_sleeping3',
             'a_dining'
         ];
-        const borderSpecialRoomsSimple = ['a_lift', 'a_citadelevator'];
+        const borderSpecialRoomsSimple = ['a_lift', 'a_citadelevator', 'c_archive_surface'];
         const borderSpecialRooms: { [key: string]: (string | number)[] } = {
             ...borderSpecialRoomsMain.reduce((acc, room) => {
                 acc[room] = borderAsset.bMain;
                 return acc;
             }, {} as { [key: string]: (string | number)[] }),
             ...borderSpecialRoomsRecCenter.reduce((acc, room) => {
-                acc[room] = borderAsset.bRecCenter;
+                // WS3917 - 正常应该用ArchiveRecCenter的，但是没钱做了，所以就用ArchiveAerialis了
+                acc[room] = battler.active ? borderAsset.bArchiveAerialis : borderAsset.bRecCenter;
                 return acc;
             }, {} as { [key: string]: (string | number)[] }),
             ...borderSpecialRoomsSimple.reduce((acc, room) => {
@@ -147,7 +149,7 @@ export class BorderManager {
         }
 
         // hangar border
-        if (room.startsWith('_hangar') && SAVE.data.n.plot === 72) {
+        if ((room.startsWith('_hangar') || room.startsWith('_credits')) && SAVE.data.n.plot === 72) {
             return borderAsset.bHangar;
         }
 

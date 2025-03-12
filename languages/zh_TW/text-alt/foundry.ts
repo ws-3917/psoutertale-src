@@ -1007,10 +1007,10 @@ export default {
                 SAVE.flag.n.undying > 0
                     ? [
                         [
-                            '<25>{#p/asriel2}{#f/6}* 啊，我們又回來了\n  $(name)。',
-                            "<25>{#f/7}* ...聽著，\n  我們知道安黛因不會死在\n  那孩子的偷襲下。",
-                            "<25>{#f/15}* 依我來看，這條道路\n  在我們最好的前進計畫中。",
-                            "<25>{#f/16}* 讓我們堅持下去，好嗎？"
+                            '<25>{#p/asriel2}{#f/6}* 呵，又在這見面了啊，\n  $(name)。',
+                            "<25>{#f/7}* ...聽著，安黛因\n  被那崽子偷襲都死不了，\n  這事我知道了。",
+                            "<25>{#f/15}* 不過依我看，\n  我們無路可退，\n  只能繼續前進了。",
+                            "<25>{#f/16}* 所以按原計畫行事，行嗎？"
                         ],
                         []
                     ][Math.min(SAVE.flag.n.ga_asrielUndying++, 1)]
@@ -1292,7 +1292,7 @@ export default {
                         ? ["<32>{#p/basic}* 意思是... 別再和我說話。"]
                         : [
                             "<32>{#p/basic}* 意思是你過著罪惡的一生。",
-                            ...(SAVE.data.b.f_state_mushroomdance ? ["<32>* 等下。\n* 你不曾當過好人嗎？"] : [])
+                            ...(SAVE.data.b.f_state_mushroomdance ? ["<32>* 等下。\n* 你不是當過好人嗎？"] : [])
                         ]
                     : SAVE.data.b.f_state_mushroomdance
                         ? [
@@ -1510,7 +1510,7 @@ export default {
                             '<32>* 如果你和你那無臂小朋友需要\n  些什麼，我願為你效勞~'
                         ]
                         : [
-                            "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* 很遺憾第一次我沒能抓住你~",
+                            "<32>{#p/basic}{#s/spiderLaugh}{#npc/a}* 很遺憾第一次\n  我沒能抓住你~",
                             ...(world.population < 6 && world.bullied
                                 ? ['<32>* 抓住你這樣的小流氓\n  會使我得到一筆不菲的賞金~']
                                 : ["<32>* 喔算了~\n* 既然力場打開了\n  我也就不需要那些了~"])

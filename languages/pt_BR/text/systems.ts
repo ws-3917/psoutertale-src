@@ -999,9 +999,9 @@ export default {
                 'STARTON (ARQUIVO)',
                 'FOUNDRY (ARQUIVO)',
                 'AERIALIS (ARQUIVO)',
-                "CORE (IN BATTLE)",
+                "CORE (EM BATALHA)",
                 'BATALHA DE ASRIEL',
-                'BRIGHT GALAXY',
+                'GALÁXIA BRILHANTE',
                 'NOVO MUNDO',
                 '§fill=#808080§(FECHADO)'
             ]

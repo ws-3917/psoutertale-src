@@ -3,10 +3,7 @@ import { battler } from './framework';
 import { SAVE } from './save';
 
 import bAerialis from '../../assets/border/aerialis.png?url';
-import bArchiveAerialis from '../../assets/border/archive-aerialis.png?url';
-import bArchiveFoundry from '../../assets/border/archive-foundry.png?url';
-import bArchiveOutlands from '../../assets/border/archive-outlands.png?url';
-import bArchiveStarton from '../../assets/border/archive-starton.png?url';
+import bAerialisBattle from '../../assets/border/aerialis-battle.png?url';
 import bArchive from '../../assets/border/archive.png?url';
 import bAsgore from '../../assets/border/asgore.png?url';
 import bAsrielBattle from '../../assets/border/asriel-battle.png?url';
@@ -14,13 +11,18 @@ import bCitadel from '../../assets/border/citadel.png?url';
 import bCore from '../../assets/border/core.png?url';
 import bCoreBattle from '../../assets/border/core-battle.png?url';
 import bFoundry from '../../assets/border/foundry.png?url';
+import bFoundryBattle from '../../assets/border/foundry-battle.png?url';
 import bFrontier from '../../assets/border/frontier.png?url';
+import bFrontierCup from '../../assets/border/frontier-cup.png?url';
 import bHangar from '../../assets/border/hangar.png?url';
 import bMain from '../../assets/border/main.png?url';
 import bOutlands from '../../assets/border/outlands.png?url';
+import bOutlandsBattle from '../../assets/border/outlands-battle.png?url';
 import bRecCenter from '../../assets/border/rec-center.png?url';
+import bRecCenterBattle from '../../assets/border/rec-center-battle.png?url';
 import bSimple from '../../assets/border/simple.png?url';
 import bStarton from '../../assets/border/starton.png?url';
+import bStartonBattle from '../../assets/border/starton-battle.png?url';
 import bToriel from '../../assets/border/toriel.png?url';
 
 export const borderAsset = {
@@ -29,25 +31,28 @@ export const borderAsset = {
     bSimple: [bSimple, 2] as [string, number],
     bMain: [bMain, 3] as [string, number],
     bOutlands: [bOutlands, 4] as [string, number],
-    bToriel: [bToriel, 5] as [string, number],
-    bStarton: [bStarton, 6] as [string, number],
-    bFoundry: [bFoundry, 7] as [string, number],
-    bAerialis: [bAerialis, 8] as [string, number],
-    bRecCenter: [bRecCenter, 9] as [string, number],
-    bCore: [bCore, 10] as [string, number],
-    bCitadel: [bCitadel, 11] as [string, number],
-    bAsgore: [bAsgore, 12] as [string, number],
-    bArchive: [bArchive, 13] as [string, number],
-    bArchiveOutlands: [bArchiveOutlands, 14] as [string, number],
-    bArchiveStarton: [bArchiveStarton, 15] as [string, number],
-    bArchiveFoundry: [bArchiveFoundry, 16] as [string, number],
-    bArchiveAerialis: [bArchiveAerialis, 17] as [string, number],
-    bCoreBattle: [bCoreBattle, 18] as [string, number],
-    bAsrielBattle: [bAsrielBattle, 19] as [string, number],
-    bHangar: [bHangar, 20] as [string, number],
-    bFrontier: [bFrontier, 21] as [string, number],
-    locked: ['', 22] as [string, number]
+    bOutlandsBattle: [bOutlandsBattle, 5] as [string, number],
+    bToriel: [bToriel, 6] as [string, number],
+    bStarton: [bStarton, 7] as [string, number],
+    bStartonBattle: [bStartonBattle, 8] as [string, number],
+    bFoundry: [bFoundry, 9] as [string, number],
+    bFoundryBattle: [bFoundryBattle, 10] as [string, number],
+    bAerialis: [bAerialis, 11] as [string, number],
+    bAerialisBattle: [bAerialisBattle, 12] as [string, number],
+    bRecCenter: [bRecCenter, 13] as [string, number],
+    bRecCenterBattle: [bRecCenterBattle, 14] as [string, number],
+    bCore: [bCore, 15] as [string, number],
+    bCoreBattle: [bCoreBattle, 16] as [string, number],
+    bCitadel: [bCitadel, 17] as [string, number],
+    bAsgore: [bAsgore, 18] as [string, number],
+    bArchive: [bArchive, 19] as [string, number],
+    bAsrielBattle: [bAsrielBattle, 20] as [string, number],
+    bHangar: [bHangar, 21] as [string, number],
+    bFrontier: [bFrontier, 22] as [string, number],
+    bFrontierCup: [bFrontierCup, 23] as [string, number],
+    locked: ['', 24] as [string, number]
 };
+
 
 export class BorderManager {
     container: HTMLElement;
@@ -132,8 +137,7 @@ export class BorderManager {
                 return acc;
             }, {} as { [key: string]: (string | number)[] }),
             ...borderSpecialRoomsRecCenter.reduce((acc, room) => {
-                // WS3917 - 正常应该用ArchiveRecCenter的，但是没钱做了，所以就用ArchiveAerialis了
-                acc[room] = battler.active ? borderAsset.bArchiveAerialis : borderAsset.bRecCenter;
+                acc[room] = battler.active ? borderAsset.bRecCenterBattle : borderAsset.bRecCenter;
                 return acc;
             }, {} as { [key: string]: (string | number)[] }),
             ...borderSpecialRoomsSimple.reduce((acc, room) => {
@@ -155,10 +159,10 @@ export class BorderManager {
 
         const borderType: { [key: string]: (string | number)[] } = {
             _frontier: borderAsset.bFrontier,
-            c_archive_wasteland: borderAsset.bArchiveOutlands,
-            c_archive_starton: borderAsset.bArchiveStarton,
-            c_archive_foundry: borderAsset.bArchiveFoundry,
-            c_archive_aerialis: borderAsset.bArchiveAerialis,
+            c_archive_wasteland: borderAsset.bOutlandsBattle,
+            c_archive_starton: borderAsset.bStartonBattle,
+            c_archive_foundry: borderAsset.bFoundryBattle,
+            c_archive_aerialis: borderAsset.bAerialisBattle,
             c_archive: borderAsset.bArchive,
             a_core_: borderAsset.bCore,
             a_: borderAsset.bAerialis,
@@ -172,10 +176,10 @@ export class BorderManager {
         // 250311 - WS3917: Added battle border variants1
         const borderBattleType: { [key: string]: (string | number)[] } = {
             a_core_: borderAsset.bCoreBattle,
-            a_: borderAsset.bArchiveAerialis,
-            f_: borderAsset.bArchiveFoundry,
-            s_: borderAsset.bArchiveStarton,
-            w_: borderAsset.bArchiveOutlands
+            a_: borderAsset.bAerialisBattle,
+            f_: borderAsset.bFoundryBattle,
+            s_: borderAsset.bStartonBattle,
+            w_: borderAsset.bOutlandsBattle
         }
         for (const key in borderType) {
             if (room.startsWith(key)) {
@@ -189,29 +193,26 @@ export class BorderManager {
     }
     getAvaliableBorder() {
         let plot = 0;
-        let archiveProgress = 0;
         plot = SAVE.data.n.plot;
-        archiveProgress = SAVE.data.n.plot >= 71.2 ? 6 : SAVE.data.n.state_citadel_archive;
         const thresholds = [
             [borderAsset.bOutlands, 2],
+            [borderAsset.bOutlandsBattle, 2.3],
             [borderAsset.bToriel, 8],
             [borderAsset.bStarton, 17],
+            [borderAsset.bStartonBattle, 17.1],
             [borderAsset.bFoundry, 33],
+            [borderAsset.bFoundryBattle, 35],
             [borderAsset.bAerialis, 49],
+            [borderAsset.bAerialisBattle, 50],
             [borderAsset.bRecCenter, 64],
+            [borderAsset.bRecCenterBattle, 65],
             [borderAsset.bCore, 66],
+            [borderAsset.bCoreBattle, 66.1],
             [borderAsset.bCitadel, 69],
             [borderAsset.bAsgore, 70],
             [borderAsset.bArchive, 71.1],
             [borderAsset.bAsrielBattle, 71.2],
-            [borderAsset.bHangar, 72],
-        ];
-        const thresholdsArchive = [
-            [borderAsset.bArchiveOutlands, 1],
-            [borderAsset.bArchiveStarton, 2],
-            [borderAsset.bArchiveFoundry, 3],
-            [borderAsset.bArchiveAerialis, 5],
-            [borderAsset.bCoreBattle, 6],
+            [borderAsset.bHangar, 72]
         ];
 
         plot >= 72 ? borderAsset.bFrontier : borderAsset.locked;
@@ -222,10 +223,10 @@ export class BorderManager {
             ...thresholds
                 .filter(([_, value]) => plot >= (value as number))
                 .map(([border]) => border as (string | number)[]),
-            ...thresholdsArchive
-                .filter(([_, value]) => archiveProgress >= (value as number))
-                .map(([border]) => border as (string | number)[]),
-            plot >= 72 && SAVE.data.b.freedom ? borderAsset.bFrontier : borderAsset.locked
+            // WS3917 250312 - I love cup!!
+            ...(plot >= 72 && SAVE.data.b.freedom
+                ? (SAVE.data.b.water ? [borderAsset.bFrontier, borderAsset.bFrontierCup] : [borderAsset.bFrontier])
+                : [borderAsset.locked])
         ];
         return availableBorders;
     }

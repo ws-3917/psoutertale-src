@@ -225,7 +225,7 @@ export class BorderManager {
                 .map(([border]) => border as (string | number)[]),
             // WS3917 250312 - I love cup!!
             ...(plot >= 72 && SAVE.data.b.freedom
-                ? (SAVE.data.b.water ? [borderAsset.bFrontier, borderAsset.bFrontierCup] : [borderAsset.bFrontier])
+                ? (SAVE.data.b.water ? [borderAsset.bFrontier, borderAsset.bFrontierCup] : [borderAsset.bFrontier, borderAsset.locked])
                 : [borderAsset.locked])
         ];
         return availableBorders;

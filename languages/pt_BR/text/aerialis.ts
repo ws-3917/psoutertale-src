@@ -5798,437 +5798,437 @@ export default {
                     SAVE.data.n.plot === 72
                         ? [
                             '<32>{#p/basic}{#npc/a}* Talvez, em uma linha do tempo alternativa, eu posso ser o rei.',
-                            '<32>* It is I the good King Charles at your service!',
-                            "<32>* Wouldn't that be nice!"
+                            '<32>* Sou eu, o bom Rei Charles a seu serviço!',
+                            "<32>* Isso não seria legal!"
                         ]
                         : [
-                            "<32>{#p/basic}{#npc/a}* Something else that's cool about the CORE is the override switches.",
-                            "<32>* They're both heavily guarded, but one is guarded by puzzles instead of actual guards!",
-                            '<32>* I sure do love PUZZLE!'
+                            "<32>{#p/basic}{#npc/a}* Outra coisa que eu acho legal sobre o Core são as alavancas.",
+                            "<32>* Ambas são muito bem guardadas, mas uma é por guardas e outra é por quebra-cabeças!",
+                            '<32>* Eu amo quebras-cabeças!'
                         ]
             ),
             a_dragon: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}{#npc/a}* So you're telling me the next comedy show isn't gonna be for another two weeks??",
-                    '<32>* I thought it was today!'
+                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que o próximo show de comedia não sairá pelas próximas duas semanas??",
+                    '<32>* Eu pensei que era hoje!'
                 ],
                 [
-                    "<32>{#p/basic}{#npc/a}* So you're telling me I can't re-schedule my seat for a later date?",
-                    '<32>* This place is a total folly!'
+                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que não posso reagendar meu acento para uma data mais tarde?",
+                    '<32>* Isso é um roubo!'
                 ]
             ),
             a_foodreceptionist: pager.create(
                 0,
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (You rest your arm on the abandoned countertop.)']
+                        ? ['<32>{#p/human}* (Você descansa o braço na bancada abandonada.)']
                         : adultEvac()
                             ? world.bulrun
                                 ? ['<32>{#p/basic}* ... mas todo mundo fugiu.']
                                 : ['<32>{#p/basic}* ... mas ninguém veio.']
                             : SAVE.data.n.plot === 72
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Blub blub...\n* (All reservations cancelled.)\n* (Section two, freedom clause.)',
-                                    "<32>* (Haven't you read the terms and conditions...?)"
+                                    '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Todas as reservas canceladas.)\n* (Sessão dois, clausula: Liberdade.)',
+                                    "<32>* (Você não leu os termos e condições...?)"
                                 ]
                                 : music.sansdate.instances.length > 0
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* Blub blub...\n* (I hope you and your date had a pleasant dining experience.)',
-                                        '<32>* (That looked like quite the nice little chat.)'
+                                        '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Espero que você e seu par tenham tido um ótimo jantar.)',
+                                        '<32>* (Aquela parece ter sido uma ótima conversa.)'
                                     ]
                                     : SAVE.data.b.killed_mettaton
                                         ? [
-                                            '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Half-price reservations with our limited-time MTT coupon!)'
+                                            '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Reservas pela metade do preço com nosso cupom de tempo limitado da MTT!)'
                                         ]
                                         : world.population < 2
-                                            ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (Day by day, the days grow ever lonelier...)']
+                                            ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (Dia após dia, tudo parece estar mais triste...)']
                                             : [
-                                                "<32>{#p/basic}{#npc/a}* Blub blub...\n* (You'll have to reserve a table to eat here.)",
-                                                "<32>* (The girls get antsy when the reservations aren't in order.)"
+                                                "<32>{#p/basic}{#npc/a}* Blub blub...\n* (Você precisa reservar uma mesa pra comer aqui.)",
+                                                "<32>* (As garotas ficam com raiva quando as reservas não estão em ordem.)"
                                             ],
                 () =>
                     SAVE.data.b.svr
-                        ? ['<32>{#p/human}* (You rest your arm on the abandoned countertop.)']
+                        ? ['<32>{#p/human}* (Você descansa o braço na bancada abandonada.)']
                         : adultEvac()
                             ? world.bulrun
                                 ? ['<32>{#p/basic}* ... mas todo mundo fugiu.']
                                 : ['<32>{#p/basic}* ... mas ninguém veio.']
                             : SAVE.data.n.plot === 72
-                                ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (See you on the homeworld...)']
+                                ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (Te vejo no planeta natal...)']
                                 : SAVE.data.b.killed_mettaton
-                                    ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (The coupon expires tomorrow.)']
-                                    : ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (There are no reservations available at this time.)']
+                                    ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (O cupom expira amanhã.)']
+                                    : ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (Não tem reservas disponíveis no momento.)']
             )
         },
         genotext: {
             timewaster: () =>
                 [
-                    ['<25>{#p/asriel2}{#f/10}* Why are we going back this way again?'],
-                    ["<25>{#p/asriel2}{#f/7}* We really don't need to do this."]
+                    ['<25>{#p/asriel2}{#f/10}* Pra quê estamos voltando por aqui de novo?'],
+                    ["<25>{#p/asriel2}{#f/7}* Nós não precisamos fazer isso."]
                 ][Math.min(SAVE.flag.n.ga_asrielTimewaster++, 1)],
-            asriel46: ['<25>{#p/asriel2}{#f/13}* Golly... feels weird to be back here with you by my side.'],
+            asriel46: ['<25>{#p/asriel2}{#f/13}* Nossa... é estranho voltar aqui com você ao meu lado.'],
             asriel47: [
-                "<25>{#p/asriel2}{#f/4}* It's like... walking into a warzone with your best friend.",
-                "<25>{#f/3}* 'Cause that's what this place was like for me."
+                "<25>{#p/asriel2}{#f/4}* É como... entrar em um campo de batalha com seu amigo.",
+                "<25>{#f/3}* Porque era assim que esse lugar era pra mim."
             ],
             asriel48: [
-                '<25>{#p/asriel2}{#f/13}* Could be worse, though.',
-                '<25>{#p/asriel2}{#f/13}* ... at least we have each other, right?'
+                '<25>{#p/asriel2}{#f/13}* Mas poderia ser pior.',
+                '<25>{#p/asriel2}{#f/13}* ... pelo menos nós temos um ao outro, certo?'
             ],
             asriel49: [
-                '<25>{#p/asriel2}{#f/13}* Imagine it... the city of Aerialis.',
-                "<25>{#f/16}* It's a shame it was never finished."
+                '<25>{#p/asriel2}{#f/13}* Imagina... a cidade de Aerialis.',
+                "<25>{#f/16}* É uma tristeza ela nunca ter sido finalizada."
             ],
             asriel50: [
-                "<25>{#p/asriel2}{#f/3}* Apparently, it would've been twice the size of the Citadel.",
-                '<25>{#f/4}* Just think of us, standing atop all that splendor...',
-                "<25>{#f/3}* Wouldn't that be nice?"
+                "<25>{#p/asriel2}{#f/3}* Aparentemente, ela teria o dobro do tamanho da Cidadela.",
+                '<25>{#f/4}* Imagina só a nós dois, acima de todo aquele resplendor...',
+                "<25>{#f/3}* Não seria satisfatório?"
             ],
             asriel51: [
-                '<25>{#p/asriel2}{#f/4}* Anyway, a city that big is probably just a silly idea.',
-                '<25>{#f/13}* And you know how those always go for us.'
+                '<25>{#p/asriel2}{#f/4}* De toda forma, uma cidade desse tamanho é só uma ideia.',
+                '<25>{#f/13}* E você sabe como essas coisas vão pra gente.'
             ],
             asriel52: () =>
                 [
                     [
-                        "<25>{#p/asriel2}{#f/6}* Let me guess, the elevator couldn't take us to the third floor?",
+                        "<25>{#p/asriel2}{#f/6}* Deixa eu adivinhar, o elevador não leva pro terceiro piso?",
                         '<25>{#f/8}* ...',
-                        "<25>{#f/7}* I should have known he'd make us take the long way up."
+                        "<25>{#f/7}* Eu deveria imaginar que eles nos fariam pegar o caminho longo."
                     ],
-                    ['<25>{#p/asriel2}{#f/8}* One floor down, two floors to go...']
+                    ['<25>{#p/asriel2}{#f/8}* Um piso a menos, dois pisos a frente...']
                 ][Math.min(SAVE.flag.n.ga_asriel52++, 1)],
 
             hotel0: () =>
                 SAVE.flag.b.asriel_electrics
-                    ? [['<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/7}* Right.'], []][
+                    ? [['<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/7}* Certo.'], []][
                     Math.min(SAVE.flag.n.ga_asrielElectrics0++, 1)
                     ]
                     : [
                         [
-                            "<25>{#p/asriel2}{#f/6}* It's dark... this isn't normal at all.",
-                            "<25>{#f/7}* Someone must've come through and shorted out the electrics."
+                            "<25>{#p/asriel2}{#f/6}* Está escuro... isso não é nada normal.",
+                            "<25>{#f/7}* Alguém deve ter vindo por dentro e cortado a eletricidade."
                         ],
-                        ['<25>{#p/asriel2}{#f/10}* Seriously, who turned out the lights?'],
+                        ['<25>{#p/asriel2}{#f/10}* Sério, quem desligou as luzes?'],
                         []
                     ][Math.min(SAVE.flag.n.ga_asrielHotel0++, 1)],
             hotel1: () =>
                 SAVE.flag.n.genocide_milestone < 5
                     ? SAVE.flag.b.asriel_electrics
                         ? [
-                            '<25>{#p/asriel2}{#f/15}* Come to think of it...',
-                            '<25>{#f/16}* This does look like it was caused by magic.',
-                            "<26>{#f/3}* So that's that, I guess."
+                            '<25>{#p/asriel2}{#f/15}* Parando pra pensar...',
+                            '<25>{#f/16}* Isso parece ter sido causado por magia.',
+                            "<26>{#f/3}* Então é isso, eu acho."
                         ]
                         : [
-                            '<25>{#p/asriel2}{#f/10}* No security field...?',
-                            '<25>{#f/10}{#x1}* And look, the emitters are burnt out.'
+                            '<25>{#p/asriel2}{#f/10}* Sem escudo de segurança...?',
+                            '<25>{#f/10}{#x1}* E veja, os emissores estão queimados.'
                         ]
                     : [
-                        '<25>{#p/asriel2}{#f/13}* ... to think this damage was caused by her magic...',
-                        '<25>{#p/asriel2}{#f/1}* What fearsome power.'
+                        '<25>{#p/asriel2}{#f/13}* ... loucura, esse dano foi causado pela magia dela...',
+                        '<25>{#p/asriel2}{#f/1}* Que poder amedrontador.'
                     ],
             hotelElectrics: [
-                '<25>{#p/asriel2}{#f/10}* That note on the counter, did you see it?',
-                '<25>{#f/6}* If Alphys was here earlier, that could explain the lights.',
-                '<25>{#f/15}* But to short circuit the entirety of the rec center in one go...',
-                "<25>{#f/16}* ... that shouldn't even be possible..."
+                '<25>{#p/asriel2}{#f/10}* A nota no balcão, você a viu?',
+                '<25>{#f/6}* Se Alphys esteve aqui mais cedo, isso explica as luzes.',
+                '<25>{#f/15}* Mas pra desligar toda a energia do rec center de uma vez...',
+                "<25>{#f/16}* ... esse não deveria ser possível..."
             ],
             hotel2: () =>
                 [
                     [
-                        "<25>{#p/asriel2}{#f/3}* Abandoned.\n* As you'd expect.",
-                        "<25>{#f/4}* ... come on, let's get to the CORE."
+                        "<25>{#p/asriel2}{#f/3}* Abandonado.\n* Como você deve ter esperado.",
+                        "<25>{#f/4}* ... vamos, vamos logo para o CORE."
                     ],
                     []
                 ][Math.min(SAVE.flag.n.ga_asrielHotel2++, 1)],
             core0: () =>
                 [
                     [
-                        '<25>{#p/asriel2}{#f/3}* At last...',
-                        '<25>{#f/4}* The central source of power for the outpost.',
-                        '<25>{#p/asriel2}{#f/8}* Stay close. ELITE squad members might be lurking nearby.'
+                        '<25>{#p/asriel2}{#f/3}* No fim...',
+                        '<25>{#f/4}* Aqui está o centro de poder do Outpost.',
+                        '<25>{#p/asriel2}{#f/8}* Fique por perto, o esquadrão de ELITE deve estar por perto.'
                     ],
                     []
                 ][Math.min(SAVE.flag.n.ga_asrielCore0++, 1)],
-            core1: ['<25>{#p/asriel2}{#f/10}* No guards...?', '<25>{#f/15}* Golly... they really ARE afraid of us.'],
+            core1: ['<25>{#p/asriel2}{#f/10}* Sem guardas...?', '<25>{#f/15}* Cara... eles realmente tem medo da gente.'],
             core2: () =>
                 [
                     [
-                        '<25>{#p/asriel2}{#f/3}* Finally, the central control room.',
-                        "<25>{#f/3}* From here, there's practically a control for everything.",
-                        '<25>{#f/15}* Gravity plating, heat distribution, even the atmosphere...',
-                        '<25>{#f/4}* It all runs through this system.',
-                        "<25>{#f/3}* Let's see if my royal access codes still hold weight.",
-                        "<25>{#f/2}* I wouldn't put it past them to forget..."
+                        '<25>{#p/asriel2}{#f/3}* Finalmente, a sala de controle central.',
+                        "<25>{#f/3}* Daqui, tem um controle para praticamente tudo.",
+                        '<25>{#f/15}* Revestimento por gravidade, distribuição de calor, até a atmosfera...',
+                        '<25>{#f/4}* Tudo aqui roda por esse sistema.',
+                        "<25>{#f/3}* Vamos ver se meu código de acesso real ainda funciona.",
+                        "<25>{#f/2}* Eu não perdoaria se eles esquecessem..."
                     ],
                     [
-                        '<25>{#p/asriel2}{#f/6}* Okay, we made it back.',
-                        ...(SAVE.flag.b.asriel_access ? [] : ["<25>{#f/7}* Let's give those royal access codes a try."])
+                        '<25>{#p/asriel2}{#f/6}* Beleza, voltamos.',
+                        ...(SAVE.flag.b.asriel_access ? [] : ["<25>{#f/7}* Vamos de código de acesso real."])
                     ]
                 ][Math.min(SAVE.flag.n.ga_asrielCore2++, 1)],
             core3: () => [
-                '<26>{*}{#p/asriel2}{#f/6}* System, extend the bridge, authorization Asriel STARLING-4-7-7-4.{^40}{%}',
-                ...(SAVE.flag.b.asriel_access ? [] : ['<25>{*}{#f/6}* ...{^40}{%}', '<25>{*}{#f/7}* I guess no- {%}'])
+                '<26>{*}{#p/asriel2}{#f/6}* Sistema, estender ponte, autorização Asriel ESTRELAS-4-7-7-4.{^40}{%}',
+                ...(SAVE.flag.b.asriel_access ? [] : ['<25>{*}{#f/6}* ...{^40}{%}', '<25>{*}{#f/7}* Acho que- {%}'])
             ],
-            core4a: ['<25>{#p/asriel2}{#f/10}* I guess so.'],
+            core4a: ['<25>{#p/asriel2}{#f/10}* Acho que funciona.'],
             core4b: () =>
                 [
                     [
-                        '<25>{#p/asriel2}{#f/3}* Think you can get the back door unlocked while I set this up?',
-                        '<25>{#f/4}* Pick a side, left or right, and hit the switch at the end.',
-                        "<25>{#f/1}* I'll be waiting."
+                        '<25>{#p/asriel2}{#f/3}* Você acha que pode abrir a porta pra mim enquanto arrumo aqui?',
+                        '<25>{#f/4}* Escolha um lado, esquerda ou direita, e aperta a alavanca no final.',
+                        "<25>{#f/1}* Eu vou estar esperando."
                     ],
-                    ["<25>{#f/4}* You do your part, and I'll do mine."]
+                    ["<25>{#f/4}* Eu faço minha parte e você a sua."]
                 ][Math.min(SAVE.flag.n.ga_asrielCore4++, 1)],
-            core5: ['<25>{#p/asriel2}{#f/8}* Wrong way, $(name).'],
+            core5: ['<25>{#p/asriel2}{#f/8}* Caminho errado, $(name).'],
             core6a: () =>
                 [
                     [
-                        '<25>{#p/asriel2}{#f/16}* Perfect timing.\n* We should be all set to go now.',
-                        "<25>{#f/1}* All that's left is to make it to an escape shuttle...",
-                        '<25>{#f/9}* Set off the blast...',
-                        '<25>{#f/2}* And ride the shockwave to freedom.',
-                        "<25>{#f/17}* ... aren't you excited, $(name)?",
-                        "<25>{#f/17}* Aren't you happy?",
-                        "<25>{#f/18}* ...\n* We're going to be free!"
+                        '<25>{#p/asriel2}{#f/16}* Sincronia perfeita.\n* Estamos prontos para ir agora.',
+                        "<25>{#f/1}* Tudo que precisamos agora é chegar no ônibus espacial...",
+                        '<25>{#f/9}* Desencadear a explosão...',
+                        '<25>{#f/2}* E marchar com a onda de choque para a liberdade.',
+                        "<25>{#f/17}* ... você não está animado, $(name)?",
+                        "<25>{#f/17}* Você não está feliz?",
+                        "<25>{#f/18}* ...\n* Nós seremos livres!"
                     ],
-                    ['<25>{#p/asriel2}{#f/9}* Ready when you are, $(name).']
+                    ['<25>{#p/asriel2}{#f/9}* Pronto quando você estiver, $(name).']
                 ][Math.min(SAVE.flag.n.ga_asrielCore5++, 1)],
-            core6b: ["<25>{#p/asriel2}{#f/16}* I'm right behind you."],
-            core7a: ['<25>{#p/asriel2}{#f/8}* Wait, I think I hear something.'],
+            core6b: ["<25>{#p/asriel2}{#f/16}* Atrás de você."],
+            core7a: ['<25>{#p/asriel2}{#f/8}* Espera, eu acho que escutei algo.'],
             core7b: [
-                "<25>{#p/asriel2}{#f/3}* It's Mettaton.\n* He's waiting in the next room.",
-                '<25>{#f/10}* I can only make out a silhouette...',
-                '<25>{#f/6}* Maybe if we sneak up on him, we can take him by surprise.'
+                "<25>{#p/asriel2}{#f/3}* É o Mettaton.\n* Ele está esperando na próxima sala.",
+                '<25>{#f/10}* Consigo ver apenas a silhueta...',
+                '<25>{#f/6}* Talvez se chegarmos na fina, podemos mata-lo de surpresa.'
             ],
-            core7c: ['<25>{#p/asriel2}{#f/7}* You know what to do.'],
+            core7c: ['<25>{#p/asriel2}{#f/7}* Você sabe o que fazer.'],
             core8a: [
-                "<32>{#p/mettaton}* Do you really think I'm going to let you get away that easily?",
-                "<25>{#p/asriel2}{#f/8}* ...\n* Don't be coy, Mettaton.\n* It's obvious you won't.",
-                "<25>{#p/asriel2}{#f/7}* It just won't matter when you're dead."
+                "<32>{#p/mettaton}* Você realmente acha que irei deixa-los fugir tão facilmente?",
+                "<25>{#p/asriel2}{#f/8}* ...\n* Não diga besteira Mettaton, é obvio que você não vai.",
+                "<25>{#p/asriel2}{#f/7}* Só não vai importar quando você estiver morto."
             ],
             core8aX: () => [
-                "<32>{#p/mettaton}* Do you really think I'm going to let you get away that easily?",
-                "<25>{#p/asriel2}{#f/8}* We've had this chat before, pal.",
+                "<32>{#p/mettaton}* Você realmente acha que irei deixa-los fugir tão facilmente?",
+                "<25>{#p/asriel2}{#f/8}* Nós já tivemos essa conversa, cabeça.",
                 '<32>{#p/mettaton}* Ah...',
-                "<32>{#p/mettaton}* But that means I've killed you once before, doesn't it?",
+                "<32>{#p/mettaton}* Isso significa que eu já te matei antes, não é?",
                 ...(SAVE.flag.n.genocide_milestone < 4
                     ? [
-                        "<32>{#p/mettaton}* Heh... don't worry, darling.\n* I'll make your death even quicker this time around."
+                        "<32>{#p/mettaton}* Heh... não se preocupe, querido. Irei te matar ainda mais rápido dessa vez."
                     ]
                     : [
-                        '<25>{#p/asriel2}{#f/2}* Oh, how naive you are.',
-                        "<25>{#p/asriel2}{#f/1}* It's YOU who's died to us already, and we can make it happen again.",
+                        '<25>{#p/asriel2}{#f/2}* Oh, como você é ingênuo.',
+                        "<25>{#p/asriel2}{#f/1}* Foi VOCÊ quem morreu pra gente, e vamos fazer acontecer de novo.",
                         '<32>{#p/mettaton}* ...',
-                        "<32>{#p/mettaton}* Nice try... but I won't be tricked so easily."
+                        "<32>{#p/mettaton}* Boa tentativa, mas eu não serei enganado facilmente."
                     ])
             ],
             core8b: [
-                "<25>{#p/asriel2}{#f/4}* ... say, since you're about to be spare parts...",
-                "<25>{#f/3}* Haven't you thought about your family?",
-                '<25>{#f/1}* You know.\n* With how you abandoned them, and all.',
-                '<32>{#p/mettaton}* My family would be proud of me if they knew what I was doing.',
-                '<32>* As for you...?',
-                "<32>* I can't exactly say the same.",
-                "<25>{#p/asriel2}{#f/6}* I guess it's a good thing I don't care about them, then.",
-                '<25>{#f/8}* You, however, have an emotional weakness...',
-                '<25>{#f/6}* With that alone, this battle was over before it even started.'
+                "<25>{#p/asriel2}{#f/4}* ... diga, como você está prestes a ser quebrado em pedaços...",
+                "<25>{#f/3}* Você não parou pra pensar na sua família?",
+                '<25>{#f/1}* Sabe.\n* Como você os abandonou e tudo.',
+                '<32>{#p/mettaton}* Minha família estaria orgulhosa de mim se soubesse o que eu estou fazendo.',
+                '<32>* Já pra você...?',
+                "<32>* Eu não posso dizer o mesmo.",
+                "<25>{#p/asriel2}{#f/6}* É bom que eu não me importo com eles, então.",
+                '<25>{#f/8}* Você, entretanto, tem uma fraqueza emocional...',
+                '<25>{#f/6}* Com isso sozinho, está batalha acabou antes de começar.'
             ],
             core8c: [
-                '<32>{#p/mettaton}* Listen, darling.',
-                "<32>* Whatever you have to say, doesn't matter.",
-                "<32>* All that matters is that you're going to lose to me.",
-                '<32>* For all your talk of victory and inevitability...',
-                '<32>* For all the showboating you love to go around doing...',
-                "<32>* There's one power you failed to consider."
+                '<32>{#p/mettaton}* Escute, querido.',
+                "<32>* Seja lá o que você tem pra dizer, não importa.",
+                "<32>* Tudo que importa é que vocês serão mortos por minhas mãos.",
+                '<32>* Por toda sua conversa de vitória e invencibilidade...',
+                '<32>* Por todo o genocídio que você ama fazer ao redor...',
+                "<32>* Tem um poder que você esqueceu de considerar."
             ],
-            core8d: ['<25>{#p/asriel2}{#f/10}* And what is that?'],
-            core8e: ['<32>{*}{#p/mettaton}{#f/1}* The power of NEO.{^40}{%}'],
-            azzyBpants: ['<25>{#p/asriel2}{#f/8}* Golly.\n* Why is HE still around.']
+            core8d: ['<25>{#p/asriel2}{#f/10}* E o que seria?'],
+            core8e: ['<32>{*}{#p/mettaton}{#f/1}* O poder do NEO.{^40}{%}'],
+            azzyBpants: ['<25>{#p/asriel2}{#f/8}* Porra.\n* Por que ele ainda tá por aqui?']
         },
         coreswitched: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to operate the switch any further.)"]
+                ? ["<32>{#p/human}* (Você não consegue mais operar o interruptor.)"]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's stuck, like always."]
+                    ? ["<32>{#p/basic}* Tá preso, como sempre."]
                     : SAVE.data.n.plot === 72
-                        ? ["<33>{#p/basic}* The switch is... zero-time use.\n* That's totally a thing that can happen, honest."]
-                        : ['<32>{#p/basic}* The switch is... one-time use.\n* And totally not stuck like all the other ones.'],
+                        ? ["<33>{#p/basic}* A alavanca... não foi usada nenhuma vez. Isso pode acontecer as vezes, sinceramente."]
+                        : ['<32>{#p/basic}* A alavanca é... de uso único.\n* E totalmente não presa como todas as outras.'],
         puzzlesolved: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to operate the switch any further.)"]
+                ? ["<32>{#p/human}* (Você não consegue mais operar o interruptor.)"]
                 : world.darker
-                    ? ["<32>{#p/basic}* It's stuck, like always."]
+                    ? ["<32>{#p/basic}* Tá preso, como sempre."]
                     : SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}* The switch looks even more resistant to pressing than it was before.']
-                        : ["<32>{#p/basic}* The switch no longer wants to be pressed.\n* ... yes, it's stuck."],
+                        ? ['<32>{#p/basic}* A alavanca parece ainda mais resistente à pressão do que antes.']
+                        : ["<32>{#p/basic}* A alavanca não quer mais ser pressionada.\n* ... sim, está emperrada."],
         nosleep: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* Está trancado."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (Você não consegue encontrar uma maneira de entrar.)"] : ["<32>{#p/basic}* Está trancado."],
         rg1chat: pager.create(
             0,
             [
-                '<32>{#p/basic}{#x1}* My boyfriend and I got lost looking for ice cream during training...{#x3}',
-                '<32>{#x1}* Eventually, we just gave up and settled for pizza.{#x3}',
-                "<32>{#x1}* Then we took up security duty at this post since that's the most we're qualified to do.{#x3}"
+                '<32>{#p/basic}{#x1}* Meu namorado e eu nos perdemos procurando por sorvete no treino...{#x3}',
+                '<32>{#x1}* Eventualmente, nós desistimos e comemos uma pizza.{#x3}',
+                "<32>{#x1}* Então tomamos este posto de segurança, já que somos qualificados para isso.{#x3}"
             ],
             [
-                "<32>{#p/basic}{#x1}* I've been told us security folks get SUPER exclusive discounts at the shop.{#x3}",
-                '<32>{#x1}* Totally not part of the reason we came here, though.{#x3}'
+                "<32>{#p/basic}{#x1}* Me disseram que os guardas tem descontos SUPER exclusivos nas lojas.{#x3}",
+                '<32>{#x1}* Mas este é 0% do motivo de termos vindo aqui, juro.{#x3}'
             ]
         ),
         rg2chat: pager.create(
             0,
             [
-                "<32>{#p/basic}{#x2}* Hey, aren't you like, that one quiet kid we saw earlier?{#x3}",
-                '<32>{#x2}* I wonder why Alphys had to escort you...{#x3}',
-                '<32>{#x2}* You must be... MEGA important.{#x3}'
+                "<32>{#p/basic}{#x2}* Ei, você não é, aquela criança quieta que a gente viu mais cedo?{#x3}",
+                '<32>{#x2}* Me pergunta porque Alphys tinha que te escoltar...{#x3}',
+                '<32>{#x2}* Talvez você seja... MEGA importante.{#x3}'
             ],
             [
-                "<32>{#p/basic}{#x2}* If you're gonna be famous, then don't forget about us when you make it there, yeah?{#x3}",
-                "<32>{#x2}* Always gotta remember the lil' bros you meet along the way.{#x3}"
+                "<32>{#p/basic}{#x2}* Se você ficar famoso, não esquece da gente quando chegar lá, beleza?{#x3}",
+                "<32>{#x2}* Você sempre tem que se lembrar dos manos que conhece ao longo do caminho.{#x3}"
             ]
         ),
         elevator1: () => [
-            choicer.create('* (Onde você gostaria de ir?)', 'Cancelar', 'CORE Start', 'CORE End', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Cancelar', 'CORE Começo', 'CORE Fim', 'A Cidadela')
         ],
-        elevatorStory1: () => [choicer.create('* (Onde você gostaria de ir?)', 'CORE Start', 'Cancelar')],
+        elevatorStory1: () => [choicer.create('* (Onde você gostaria de ir?)', 'CORE Começo', 'Cancelar')],
         elevator2: () => [
-            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'Cancelar', 'CORE End', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'Cancelar', 'CORE Fim', 'A Cidadela')
         ],
         elevatorStory2: () => [choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'Cancelar')],
         elevator3: () => [
-            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Start', 'Cancelar', 'The Citadel')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Começo', 'Cancelar', 'A Cidadela')
         ],
-        elevatorStory3: () => [choicer.create('* (Onde você gostaria de ir?)', 'The Citadel', 'Cancelar')],
+        elevatorStory3: () => [choicer.create('* (Onde você gostaria de ir?)', 'A Cidadela', 'Cancelar')],
         elevator4: () => [
-            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancelar')
+            choicer.create('* (Onde você gostaria de ir?)', 'Aerialis', 'CORE Começo', 'CORE Fim', 'Cancelar')
         ],
         dinnerdate1: pager.create(
             0,
             () => [
-                "<25>{#p/sans}* hey, i heard you're visiting here.",
-                '<25>{#p/sans}{#f/2}* mind grabbing some dinner with me real quick?',
-                choicer.create('* (Have dinner?)', 'Sim', 'Não')
+                "<25>{#p/sans}* ei, tá visitando por aqui?",
+                '<25>{#p/sans}{#f/2}* quer jantar comigo rapidão?',
+                choicer.create('* (Jantar?)', 'Sim', 'Não')
             ],
-            () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* (Have dinner?)', 'Sim', 'Não')]
+            () => ['<25>{#p/sans}{#f/2}* mudou de ideia?', choicer.create('* (Jantar?)', 'Sim', 'Não')]
         ),
         dinnerdate2a: pager.create(
             0,
-            ["<25>{#p/sans}{#f/3}* eh, fair enough.\n* i'll be here if you change your mind."],
-            ['<25>{#p/sans}{#f/3}* ok then.']
+            ["<25>{#p/sans}{#f/3}* tudo bem, então.\n* eu vou estar aqui se você trocar de ideia."],
+            ['<25>{#p/sans}{#f/3}* ok, então.']
         ),
-        dinnerdate2b: ['<25>{#p/sans}{#p/sans}{#f/0}* sweet.'],
-        dinnerdate3: ['<25>{#p/sans}{#f/2}* right this way.'],
-        dinnerdate4: ['<25>{#p/sans}* here we are.'],
-        dinnerdate5: ['<25>{#p/sans}* this table looks good.'],
-        dinnerdate5b: ["<25>{#f/2}* i'll take right, you take left."],
+        dinnerdate2b: ['<25>{#p/sans}{#p/sans}{#f/0}* legal.'],
+        dinnerdate3: ['<25>{#p/sans}{#f/2}* por aqui.'],
+        dinnerdate4: ['<25>{#p/sans}* aqui estamos nós.'],
+        dinnerdate5: ['<25>{#p/sans}* essa mesa parece boa.'],
+        dinnerdate5b: ["<25>{#f/2}* eu vou sentar na direita, senta na esquerda."],
         dinnerdate8: () => [
-            '<25>{#p/sans}* so...',
-            "<25>{#f/3}* your journey's almost over, huh?",
-            '<25>{#f/0}* you must really wanna get outta here.',
-            '<25>{#f/0}* ... heh.\n* trust me, i know the feeling, buddo.',
+            '<25>{#p/sans}* então...',
+            "<25>{#f/3}* sua jornada está quase acabando, huh?",
+            '<25>{#f/0}* você deve estar realmente querendo sair daqui.',
+            '<25>{#f/0}* ... heh.\n* confia em mim, eu sei a sensação, cara.',
             ...(world.bad_lizard < 1 && SAVE.data.n.bully < 15
                 ? [
-                    "<25>{#f/3}* ... i also know you've got a lot to leave behind.",
-                    "<25>{#f/0}* out here, you've got food, drink, friends...",
-                    '<25>{#f/2}* would staying with us really be so bad?'
+                    "<25>{#f/3}* ... eu também sei que você tem muito pra deixar pra trás.",
+                    "<25>{#f/0}* por aqui você tem comida, bebida, amigos...",
+                    '<25>{#f/2}* ficar aqui com a gente seria realmente tão ruim?'
                 ]
                 : [
-                    "<25>{#f/3}* ... i also know you've got a lot on your mind.",
-                    "<25>{#f/0}* but whatever you may've done...",
-                    '<25>* is getting out of here really worth all that trouble?'
+                    "<25>{#f/3}* ... eu também sei que você tem muito na mente.",
+                    "<25>{#f/0}* mas seja lá o que você fez...",
+                    '<25>* sair daqui realmente vale todas estas dificuldades?'
                 ])
         ],
         dinnerdate10: ['<25>{#f/0}* ...'],
         dinnerdate11: () => [
-            '<25>{#f/3}* lemme tell you a story.',
-            "<25>{#f/0}* so, i'm a royal sentry, right?",
-            '<25>{#f/0}* my job is to sit out there and watch for humans.',
-            "<25>{#f/3}* though, i'm sure you've realized by now...",
-            '<25>{#f/2}* i actually took the job so i could PROTECT you guys instead.',
+            '<25>{#f/3}* deixa eu te contar uma historia.',
+            "<25>{#f/0}* então, eu sou um sentinela real, correto?",
+            '<25>{#f/0}* meu trabalho é sentar e esperar por humanos.',
+            "<25>{#f/3}* mas acho que a essa altura você já percebeu...",
+            '<25>{#f/2}* que eu peguei esse trabalho para PROTEGER os humanos.',
             ...(SAVE.data.n.state_foundry_undyne > 0
                 ? [
-                    "<25>{#f/3}* i'd worry about someone finding out, but... y'know.",
-                    "<25>{#f/0}* not many people around these days who'd care."
+                    "<25>{#f/3}* eu me preocupo caso alguém descubra, mas... sabe.",
+                    "<25>{#f/0}* não são muitas pessoas hoje em dia que ligariam."
                 ]
                 : world.bad_lizard < 1 && SAVE.data.n.bully < 15
-                    ? ["<25>{#f/4}* shh, don't tell undyne i said that.\n* she wouldn't like it."]
-                    : ["<25>{#f/0}* ... ironic, isn't it?"]),
-            "<25>{#f/0}* anyway, i've got this super boring job, right?",
-            "<25>{#f/0}* fortunately, there's a little place near the edge of starton.",
-            "<25>{#f/0}* and at the end of the bridge to this place lies a big ol' door.",
-            '<25>{#f/4}* now this door was PERFECT for practicing knock knock jokes.',
-            "<25>{#f/0}* one day, i'm knockin' em out like usual...",
-            '<25>{#f/0}* and i knock on the door and say \"knock knock.\"\n* like usual.',
-            '<25>{#f/0}* but then, from the other side...',
-            "<25>{#f/3}* i hear a woman's voice.",
-            '<32>{#p/soriel}* \"Who is there?\"',
-            '<25>{#p/sans}{#f/0}* naturally, i respond.',
-            '<25>{#f/2}* \"water.\"',
-            '<32>{#p/soriel}* \"Water who?\"',
-            '<25>{#p/sans}{#f/4}* \"water you doing all the way out here?\"',
-            '<25>{#f/0}* and she just LOSES it.',
-            "<25>* like it's the first joke she's heard in a hundred years.",
-            '<25>{#f/2}* so, naturally, i tell her some more.',
-            '<25>{#f/0}* after about a half dozen or so, SHE knocks and says...',
-            '<32>{#p/soriel}* \"Knock knock!\"',
-            '<25>{#p/sans}* i say \"who\'s there?\"',
-            '<32>{#p/soriel}* \"You.\"',
-            '<25>{#p/sans}* \"you who?\"',
-            '<32>{#p/soriel}* \"I\'m not a dog, mister!\"',
+                    ? ["<25>{#f/4}* shh, não fala isso pra undyne.\n* ela não iria gostar."]
+                    : ["<25>{#f/0}* ... irônico, não é?"]),
+            "<25>{#f/0}* de tudo forma, eu tenho esse trabalho bem chato, né?",
+            "<25>{#f/0}* felizmente, tem um lugar lá na ponta de starton.",
+            "<25>{#f/0}* Lá tem uma ponte e no final da ponte uma grande e velha porta.",
+            '<25>{#f/4}* essa porta era PERFEITA para praticar piadas de toque toque.',
+            "<25>{#f/0}* um dia, eu estava lá praticando como sempre...",
+            '<25>{#f/0}* e eu bato na porta e digo \"toque toque.\"\n* como sempre.',
+            '<25>{#f/0}* mas então, do outro lado...',
+            "<25>{#f/3}* eu escutei a voz de uma mulher.",
+            '<32>{#p/soriel}* \"Quem está aí?\"',
+            '<25>{#p/sans}{#f/0}* naturalmente, eu respondi.',
+            '<25>{#f/2}* \"máque.\"',
+            '<32>{#p/soriel}* \"Máque quem?\"',
+            '<25>{#p/sans}{#f/4}* \"máque que você tá fazendo aqui?\"',
+            '<25>{#f/0}* e ela caiu na risada.',
+            "<25>* como se fosse a primeira piada que ela ouviu em cem anos.",
+            '<25>{#f/2}* então, eu fui contando algumas mais.',
+            '<25>{#f/0}* após mais de meia dúzia delas, ELA bateu e disse...',
+            '<32>{#p/soriel}* \"Toque toque!\"',
+            '<25>{#p/sans}* eu disse \"quem está aí?\"',
+            '<32>{#p/soriel}* \"Você.\"',
+            '<25>{#p/sans}* \"você quem?\"',
+            '<32>{#p/soriel}* \"Você não tem o que fazer, rapaz?\"',
             '<25>{#p/sans}{#f/0}* ... heh.',
-            '<25>{#f/2}* needless to say, this woman knew her stuff.',
-            '<25>{#f/0}* we kept going for a while, but eventually, she had to go.',
-            '<25>{#f/0}* the next day, though...',
-            '<25>* she was waiting for me when i returned.',
-            '<25>{#f/3}* ... and boy did she have a lot to say.',
-            '<32>{#p/soriel}* \"... I just felt it was the right thing to do...\"',
-            '<32>{#p/soriel}* \"... I have to protect them...\"',
-            '<32>{#p/soriel}* \"... it\'ll never be like it was before...\"',
-            '<25>{#p/sans}{#f/3}* turns out, there was more to this woman than meets the ear.',
-            '<25>{#f/0}* oh, and she also had a ton of weird stuff to say about asgore.',
-            "<25>{#f/3}* i'll spare you on the details, but let's just say...",
-            "<25>{#f/2}* isolation can really screw with a person's world view."
+            '<25>{#f/2}* pra dizer o mínimo, essa mulher tem o molho.',
+            '<25>{#f/0}* nós continuamos indo, mas eventualmente, ela teve que ir.',
+            '<25>{#f/0}* mas, no outro dia...',
+            '<25>* ela estava esperando por mim quando eu retornei.',
+            '<25>{#f/3}* ... e garoto, ela tinha muito o que dizer.',
+            '<32>{#p/soriel}* \"... Eu só senti que essa era a coisa certa a se fazer...\"',
+            '<32>{#p/soriel}* \"... Eu precisei protegê-los...\"',
+            '<32>{#p/soriel}* \"... nunca mais será como antes...\"',
+            '<25>{#p/sans}{#f/3}* aparentemente, essa mulher era mais do que uma boa ouvinte.',
+            '<25>{#f/0}* oh, e ela também tinha muita coisa para falar sobre o asgore.',
+            "<25>{#f/3}* eu vou te poupar dos detalhes, mas vamos dizer...",
+            "<25>{#f/2}* que exilio pode realmente ferrar com a mente de uma pessoa."
         ],
-        dinnerdate13: ['<25>{#p/sans}{#f/0}* shoot, i forgot to order something, huh?', '<25>* ...'],
-        dinnerdate14: ["<25>{#f/3}* i'll be right back."],
+        dinnerdate13: ['<25>{#p/sans}{#f/0}* opa, eu esqueci de pedir algo, não foi?', '<25>* ...'],
+        dinnerdate14: ["<25>{#f/3}* eu vou lá pegar algo."],
         dinnerdate14comment: () =>
             world.darker
                 ? ['<32>{#p/basic}* ...']
                 : SAVE.data.b.oops
-                    ? ['<32>{#p/basic}* Truly, there is no experience like waiting for food.']
+                    ? ['<32>{#p/basic}* Sabe, não tem experiência tão única como esperar por comida.']
                     : [
-                        '<32>{#p/basic}* You know...',
-                        "<32>{#p/basic}* I would've said more to her back there, but at the same time...",
-                        '<32>{#p/basic}* ... would it really have made any difference?'
+                        '<32>{#p/basic}* ...',
+                        "<32>{#p/basic}* Eu teria dito mais pra ela lá atrás, mas ao mesmo tempo...",
+                        '<32>{#p/basic}* ... isso teria realmente feito alguma diferença?'
                     ],
         dinnerdate15: () =>
             SAVE.data.b.water
                 ? [
-                    '<25>{#p/sans}* look at that, you even brought a drink.',
-                    "<25>{#p/sans}{#f/2}* don't worry.\n* i already had mine at the counter."
+                    '<25>{#p/sans}* olha só, você até trouxe uma bebida.',
+                    "<25>{#p/sans}{#f/2}* não se preocupa.\n* eu já comi a minha no balcão."
                 ]
                 : [
-                    "<25>{#p/sans}* now we're talking.",
-                    "<25>{#p/sans}{#f/2}* don't worry.\n* i already had my food at the counter."
+                    "<25>{#p/sans}* agora estamos conversando direito.",
+                    "<25>{#p/sans}{#f/2}* não se preocupa.\n* eu já comi a minha no balcão."
                 ],
         dinnerdate16: () => [
-            '<25>{#f/0}* anyway, like i was saying...',
-            '<25>{#f/3}* this woman was under a lot of stress.',
-            '<25>{#f/0}* so i asked her...',
-            '<25>{#f/2}* \"wanna know what a skeleton does to pass the time?\"',
-            '<32>{#p/soriel}* \"What do they do?\"',
-            '<25>{#p/sans}{#f/2}* i then proceeded to play a tune on my trombone.',
-            '<25>{#f/4}* her being her, she INSTANTLY got the joke.',
-            "<25>{#f/0}* ... that night ended up being the best we'd ever have.",
-            '<25>{#f/0}* fast-forward to today, and well...',
-            "<25>{#f/2}* i've mostly just been watching over you.",
-            "<25>{#f/0}* but hey, i'd say i'm doing a pretty good job, wouldn't you?",
-            '<25>{#f/3}* i mean, look at yourself...',
-            "<25>{#f/0}* you haven't died a single time.",
+            '<25>{#f/0}* de toda forma, como eu estava dizendo...',
+            '<25>{#f/3}* está mulher estava sobre muito estresse.',
+            '<25>{#f/0}* então eu a perguntei...',
+            '<25>{#f/2}* \"quer saber o que um esqueleto faz para passar o tempo?\"',
+            '<32>{#p/soriel}* \"O ele faz?\"',
+            '<25>{#p/sans}{#f/2}* então eu fui lá e comecei a tocar meu trombone.',
+            '<25>{#f/4}* ela sendo ela, INSTANTANEAMENTE entendeu a piada.',
+            "<25>{#f/0}* ... aquela noite acabou sendo uma das melhores que já tivemos.",
+            '<25>{#f/0}* em bom tempo se passou e bem...',
+            "<25>{#f/2}* eu basicamente estive te vigiando.",
+            "<25>{#f/0}* mas ei, eu tenho feito um ótimo trabalho. não é mesmo?",
+            '<25>{#f/3}* quer dizer, olha só pra você...',
+            "<25>{#f/0}* você não morreu uma única vez.",
             ...(SAVE.flag.n._deaths > 0
-                ? ['<25>{#f/0}* ...', "<25>{#f/0}* hey, what's that look supposed to mean?", '<25>{#f/2}* am i wrong...?']
+                ? ['<25>{#f/0}* ...', "<25>{#f/0}* ei, que olhada é essa?", '<25>{#f/2}* am i wrong...?']
                 : SAVE.flag.n._hits > 0
                     ? ['<25>{#f/2}* heh.\n* chalk it up to my great skills.']
                     : ["<25>{#f/2}* heh.\n* i doubt you've even got a scratch on you."])

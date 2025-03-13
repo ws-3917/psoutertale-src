@@ -693,7 +693,7 @@ export default {
                 '<18>{#p/papyrus}{#f/7}¡¡SUFICIENTE!!',
                 '<18>{#f/7}¡TRAICIONASTE A TU PROPIA SOCIEDAD!\n¡A TU PROPIO PUEBLO!',
                 '<18>{#f/7}¿¡Y PARA QUÉ!?',
-                '<18>{#f/7}A PETTY ATTEMPT AT SELF-AMUSEMENT?',
+                '<18>{#f/7}¿UN MEZQUINO INTENTO PARA DIVERTIRSE?',
                 "<25>{#p/asriel2}{#f/16}* Yes, Papyrus.\n* That's exactly what this is for.",
                 '<18>{#p/papyrus}{#f/7}... UGH!!',
                 '<18>{#p/papyrus}{#f/4}AS FOR YOU, HUMAN...',

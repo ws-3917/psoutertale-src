@@ -8823,7 +8823,7 @@ export default {
             !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* 蘑炮手急速掃視著四周。'],
         act_check: () =>
             world.genocide
-                ? ['<32>{#p/asriel2}* 蘑炮手，火槍手。\n* 遠方蘑菇的髒表親...']
+                ? ['<32>{#p/asriel2}* 蘑炮手，火槍手。\n* 某隻蘑菇的遠房親戚，不像好人。']
                 : !world.badder_lizard
                     ? calm_lizard()
                         ? ['<32>{#p/alphys}* 蘑炮手。\n* 我不知道這是誰。']

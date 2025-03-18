@@ -9,26 +9,26 @@ export default {
         death4: ["Non perdere la speranza!", '$(name)!\nRimani determinato...'],
         death5: ['Non può finire ora!', '$(name)!\nRimani determinato...'],
 
-        flee1: '    * Fuga...',
+        flee1: '    * Scappato...',
         flee2: "    * Vado via.",
         flee3: "    * Ho di meglio da fare.",
         flee4: "    * Non rallentarmi.",
-        flee5: '    * Sei scappato con $(x) PE\n      e $(y)ORO.',
+        flee5: '    * Scappato con $(x) EXP\n      e $(y)ORO.',
 
         mercy_assist: '* Aiuto',
         mercy_flee: '* Scappa',
         mercy_spare: '* Risparmia',
 
-        victory1: '<32>{#p/story}* HAI VINTO!\n* Hai ottenuto $(x) PE and $(y)ORO.',
-        victory2: '<32>{#p/story}* HAI VINTO!\n* Hai ottenuto $(x) PE and $(y)ORO.\n* Il tuo LOVE è aumentato.'
+        victory1: '<32>{#p/story}* HAI VINTO!\n* Hai ottenuto $(x) EXP and $(y)ORO.',
+        victory2: '<32>{#p/story}* HAI VINTO!\n* Hai ottenuto $(x) EXP and $(y)ORO.\n* Il tuo LOVE è aumentato.'
     },
 
     developer: {
         console: {
             header: 'ERRORE',
             p_resume: {
-                header: 'SCOLLEGA',
-                resume: 'Premi Per Scollegare'
+                header: 'IGNORA',
+                resume: 'Premi Per Ignorare'
             },
             blurb: 'Si è verificato un errore! Si prega di inviare\nuna foto allo sviluppatore.'
         },
@@ -55,10 +55,10 @@ export default {
                     'ResettaScatola',
                     'ResettaMenù',
                     'PuoScappare',
-                    'PSInfiniti',
+                    'HPInfiniti',
                     'TuttiPacifici',
                     'Suicidio',
-                    'TuttiDeboli'
+                    'Indeboliscitutti'
                 ]
             ],
             p_speed: {
@@ -109,7 +109,7 @@ export default {
                     text: 'T'
                 }
             },
-            debug_instructions: 'Premi [TAB] per ruotare le informazioni di debug',
+            debug_instructions: 'Premi [TAB] per esplorare le informazioni di debug',
             debug: {
                 a: 'A', 
                 acceleration: 'Accelera',
@@ -124,7 +124,7 @@ export default {
                 crop: 'Raccolto',
                 down: 'Giù',
                 duration: 'Durata',
-                exp: 'PE',
+                exp: 'EXP',
                 extent: 'Estendi',
                 f: 'F', 
                 face: 'Faccia',
@@ -135,7 +135,7 @@ export default {
                 frames: 'Fotogrammi',
                 gravity: 'Gravità',
                 group: 'Gruppo',
-                hp: 'PS',
+                hp: 'HP',
                 index: 'Indice',
                 inert: 'Inerte',
                 key: 'Tasto',
@@ -222,9 +222,9 @@ export default {
         error_load: 'Impossibile analizzare il file.',
         message_alert: ['OK'],
         message_confirm: ['Cancella', 'OK'],
-        prompt_clear: 'Ripristina questo file?',
+        prompt_clear: 'Cancellare questo file?',
         prompt_demo: 'Il tuo file di SALVATAGGIO\ndalla demo di OUTERTALE è stato\nspostato in un\'altra timeline.',
-        prompt_save: 'Salva questo file?',
+        prompt_save: 'Salvare questo file?',
         prompt_clear_mobile: 'Ripristina le impostazioni del telefono?\nQuesto non ripristinerà\nil tuo file di SALVATAGGIO',
         prompt_save_alternate: 'Copia il testo sotto in\nun file JSON per salvarlo\nnel tuo dispositivo.',
         prompt_open: 'Cariare questo file?'
@@ -384,7 +384,7 @@ export default {
             [
                 '§fill=#ff0§< RINGRAZIAMENTI SPECIALI >§fill=#fff§',
                 'Alden',
-                '§fill=#808080§Per essere lì per me quando\nho bisogno di qualcuno su cui appoggiarmi\ne per avermi insegnato lezioni di vita che\nmi hanno reso una persona migliore.§fill=#fff§'
+                '§fill=#808080§Per essere stato lì per me quando\navevo bisogno di qualcuno su cui contare\ne per avermi insegnato lezioni di vita che\nmi hanno reso una persona migliore.§fill=#fff§'
             ],
             [
                 '§fill=#ff0§< RINGRAZIAMENTI SPECIALI >§fill=#fff§',
@@ -394,12 +394,12 @@ export default {
             [
                 '§fill=#ff0§< RINGRAZIAMENTI SPECIALI >§fill=#fff§',
                 'Balgamlı Kedi',
-                "§fill=#808080§Per essere rimasto con me in ogni\nfase dello sviluppo, findall'inizio.\nIndipendentemente dall'epoca,\nè sempre stato lì per aiutare.§fill=#fff§"
+                "§fill=#808080§Per essere rimasto con me in ogni\nfase dello sviluppo, fin dall'inizio.\nIndipendentemente dall'epoca,\nè sempre stato lì per aiutare.§fill=#fff§"
             ],
             [
                 '§fill=#ff0§< RINGRAZIAMENTI SPECIALI >§fill=#fff§',
                 'Ghostly',
-                '§fill=#808080§Per essere stato la voce della ragione quando\nsi tratta di molti aspetti del\ngioco e per avermi incoraggiato a\nprendere sul serio i test.§fill=#fff§'
+                '§fill=#808080§Per essere stato la voce della ragione quando\nsi tratta di molti aspetti del\ngioco e per avermi incoraggiato a\nprendere sul serio il testing del gioco.§fill=#fff§'
             ],
             [
                 '§fill=#ff0§< RINGRAZIAMENTI SPECIALI >§fill=#fff§',
@@ -416,7 +416,7 @@ export default {
                 'Bilge \"mnwary\"',
                 "§fill=#808080§Per essere stato d'aiuto verso\nla fine dello sviluppo e\nper aver fatto in modo che la scrittura\ndel gioco raggiungesse il suo pieno potenziale. §fill=#fff§"
             ],
-            ['Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§']
+            ['Crediti offerti da §fill=#ff0§The Mavis & Co.§fill=#fff§']
         ],
 
         final_frontier: {
@@ -426,39 +426,39 @@ export default {
                     name: 'FROGGIT',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Pondering\nLife',
-                        spare: 'Professional\nFrog',
-                        flirt: 'Pondering\nLove',
-                        bully: 'Hopping In\nFear'
+                        basic: 'Riflettendo\nsulla Vita',
+                        spare: 'Rana\nProfessionista',
+                        flirt: 'Riflettendo\nsull\'amore',
+                        bully: 'Saltellando via\nterrorizzato'
                     }
                 },
                 whimsun: {
                     name: 'FLUTTERLYTE',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Learning To\nFly',
-                        spare: 'Emboldening\nAviator',
-                        flirt: 'Searching The\nSkies',
-                        bully: 'Evasively\nManeuvering'
+                        basic: 'Imparando a\nVolare',
+                        spare: 'Aviatore\nIncoraggiato',
+                        flirt: 'Esplorando i\ncieli',
+                        bully: 'Volando\nElusivamente'
                     }
                 },
                 moldsmal: {
                     name: 'GELATINI',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Found A New\nSpace Station',
-                        spare: 'Backup\nDancer',
-                        flirt: 'Exotic Jelly\nDancer',
-                        bully: 'Found A New\nGalaxy'
+                        basic: 'Trovato una nuova\nStazione Spaziale',
+                        spare: 'Ballerino\ndi riserva',
+                        flirt: 'Ballerino Esotico\ndi Gelatina',
+                        bully: 'Trovato una nuova\nGalassia'
                     }
                 },
                 loox: {
                     name: 'OCULOUX',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Slightly\nBully-Like',
-                        spare: 'Reformed\nBully',
-                        flirt: 'Slightly\nFlirtatious',
+                        basic: 'Leggermente\nAncora un bullo',
+                        spare: 'Bullo\nRiveduto',
+                        flirt: 'Leggermente\nFlirtante',
                         bully: ''
                     }
                 },
@@ -904,7 +904,7 @@ export default {
         finish: 'Premi [X] per Finire',
         frisk: 'Frisk',
         g: 'G',
-        hp: 'PS',
+        hp: 'HP',
         inf: '\u221e',
         landing1: '[PREMI Z O INVIO]',
         lv: 'LV',
@@ -920,7 +920,7 @@ export default {
         shopg: 'G',
         unknown: '?',
         xm: 'ME',
-        yes: 'Si'
+        yes: 'Sì'
     },
 
     menu: {
@@ -1118,7 +1118,7 @@ export default {
         stat3: 'ARMA',
         stat4: 'ARMAT',
         stat5: 'ORO',
-        stat6: 'PE',
+        stat6: 'EXP',
         stat7: 'PROS',
         stat8: '§fill=#ff0§Attenzione:\nTimeline\nnon canon.',
         stat9: 'UCCIS',

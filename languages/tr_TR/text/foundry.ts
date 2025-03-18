@@ -30,7 +30,7 @@ import { SAVE } from '../../../code/systems/save';
 export default {
     a_foundry: {
         locketseller: ['<32>{#p/basic}* ...', "<32>{#p/basic}* O madalyonu öylece satmamışsın gibi davranacağım."],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        noequip: ['<32>{#p/human}* (Kuşanmamaya karar verdin.)'],
         darktoriel1: [
             "<32>{#p/human}* (You grab Toriel's hand.)",
             '<25>{#p/toriel}{#f/2}* Oh my...!\n* F-frisk, is that you?',
@@ -118,7 +118,7 @@ export default {
             '<32>{#p/basic}* If only you knew a puzzle aficionado who could tell you what that code might be.'
         ],
         quicksolve6: () => ['<32>{#p/basic}* ...', choicer.create('* (Enter the code?)', 'Yes', 'No')],
-        quicksolve7: ['<32>{#p/human}* (You decide not to enter.)'],
+        quicksolve7: ['<32>{#p/human}* (Girmemeye karar verdin.)'],
         quicksolve8: ["<32>{#p/basic}* Well, that's a mercy."],
         escape: [
             '<32>{#p/event}* Ring, ring...',
@@ -137,7 +137,7 @@ export default {
             "<32>* If you don't, I...",
             '<32>* I...',
             "<32>* I'll... let you go now.",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         artifact1: ['<32>{#p/human}* (You got the Legendary Artifact.)'],
         artifact2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
@@ -211,7 +211,7 @@ export default {
             ][SAVE.data.n.state_foundry_astrofood],
         astrofood2: ['<32>{#p/human}* (You got the Space Tofu.)'],
         astrofood3: ["<32>{#p/human}* (You're carrying too much.)"],
-        astrofood4: () => ['<32>{#p/human}* (You decide not to take anything.)'],
+        astrofood4: () => ['<32>{#p/human}* (Hiçbir şey almamaya karar verdin.)'],
         astrofood5: () =>
             SAVE.data.b.svr
                 ? ["<32>{#p/human}* (But you couldn't find anything inside.)"]
@@ -355,14 +355,14 @@ export default {
         blooksnail4a: [
             '<32>{#p/napstablook}* you won... congratulations.',
             '<32>* i hope the prize is enough...',
-            '<32>{#s/equip}{#p/human}* (You got 20G.)'
+            '<32>{#s/equip}{#p/human}* (20A aldın.)'
         ],
         blooksnail4b: [
             '<32>{#p/napstablook}* your snail lost by a thin margin.',
             '<32>* wait...\n* the snail is under the false belief that it won...',
             '<32>* oh no... the snail is going to be sad...',
             "<32>* here, i'll just give you some money...\n* act like you won...",
-            '<32>{#s/equip}{#p/human}* (You got 40G.)'
+            '<32>{#s/equip}{#p/human}* (40A aldın.)'
         ],
         blooksnail4c: [
             '<32>{#p/napstablook}* oh...........\n* you both tried your best...',
@@ -609,8 +609,8 @@ export default {
                     ],
         candy2: ['<32>{#p/human}* (You got the $(x).)'],
         candy3: () => [choicer.create('* (Buy the $(x) for $(y)G?)', 'Yes', 'No')],
-        candy4: ["<32>{#p/human}* (You don't have enough G.)"],
-        candy5: ['<32>{#p/human}* (You decide not to buy.)'],
+        candy4: ["<32>{#p/human}* (Yeterince A'n yok.)"],
+        candy5: ['<32>{#p/human}* (Satın almamaya karar verdin.)'],
         candy6: ["<32>{#p/human}* (You're carrying too much.)"],
         candy7: ['<32>{#p/human}* (You decide not to make anything.)'],
         deathReaction: {
@@ -816,7 +816,7 @@ export default {
                     choicer.create('* (Beat up the dummy?)', 'Yes', 'No')
                 ]
                 : ["<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create('* (Hug the dummy?)', 'Yes', 'No')],
-        dummypunch2a: ['<32>{#p/human}* (You decide not to do anything.)'],
+        dummypunch2a: ['<32>{#p/human}* (Hiçbir şey yapmamaya karar verdin.)'],
         dummypunch2b: () =>
             world.genocide || world.meanie
                 ? ['<32>{#p/human}* (You punched the dummy as hard as you could.)']
@@ -1205,7 +1205,7 @@ export default {
                     "<18>{#f/0}WELL, MEET ME AT UNDYNE'S HOUSE WHEN YOU'RE READY."
                 ]),
             '<18>{#f/9}THIS IS GOING TO BE FANTASTIC!',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         madfish1: () => [
             ...(SAVE.flag.n.ga_asrielUndyneX++ < 1
@@ -1321,7 +1321,7 @@ export default {
                         : '<32>{#p/basic}* The computer is currently open to a music-sharing application.',
                     choicer.create('* (View the opened application?)', 'Yes', 'No')
                 ],
-        napcomputer2: ['<32>{#p/human}* (You decide not to look.)'],
+        napcomputer2: ['<32>{#p/human}* (Bakmamaya karar verdin.)'],
         napcomputer3: {
             a: () => [
                 'MTT Tunes - Solarwave.kwac',
@@ -2614,7 +2614,7 @@ export default {
                     : SAVE.data.n.plot === 72
                         ? ['<32>{#p/basic}* Coming back to give a lonely bench some company...\n* The gesture is appreciated.']
                         : ['<32>{#p/basic}* Just a lonely bench out in the middle of a factory.\n* Nothing weird about that!'],
-        quiche5: ['<32>{#p/human}* (You decide not to take anything.)'],
+        quiche5: ['<32>{#p/human}* (Hiçbir şey almamaya karar verdin.)'],
         run1: ['<32>{*}{#p/undyne}* Run.{^20}{%}'],
         run2a1: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* I'll go check."],
         run2b1: ['<32>{#p/undyne}* (Stupid spiders...)'],
@@ -2721,7 +2721,7 @@ export default {
             "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!",
             '<18>{#f/5}...',
             '<18>{#f/5}PAPYRUS OUT...',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         secretcallB: [
             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
@@ -2738,7 +2738,7 @@ export default {
             "<18>{#f/9}S-STILL!!!\nI KNOW YOU WON'T LET ME DOWN!",
             '<18>{#f/5}...',
             '<18>{#f/5}PAPYRUS OUT...',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         spider1: () => ['<32>{#p/basic}* ... huh?'],
         spider2: () =>
@@ -3033,7 +3033,7 @@ export default {
                                 '<25>{#f/0}* in the meantime, just be careful who you talk to.',
                                 "<25>{#f/3}* rumor has it, someone's been causing havoc near the trash depository."
                             ]),
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         trivia: {
             f_bbox: ["<32>{#p/basic}* A bastion box.\n* There's a human inside..."],
@@ -7642,7 +7642,7 @@ export default {
         itemUnavailable: () => (temgone() ? '<09>{#p/basic}Nothing left.' : '<09>{#p/tem}{#k/2}no more item...'),
         itemRestricted: '<09>{#p/tem}{#k/2}not for sale...',
         menu: () =>
-            temgone() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            temgone() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Konuş', 'Exit'],
         menuPrompt1: '<23>{#p/tem}{#k/0}* hOI!\n* welcom to...\n* da TEM SHOP!!!',
         menuPrompt2: '<23>{#p/basic}* ... but everybody ran.',
         sell1: ['<30>{#p/tem}{#k/2}* NUUU!!!\n* my muns,,,', '<30>{#p/tem}{#k/4}* cannot STEAL!!!'],
@@ -7803,7 +7803,7 @@ export default {
                 ],
         itemPurchasePrompt: () => (world.runaway ? 'Take it?' : 'Buy it for\n$(x)G?'),
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Konuş', 'Exit'],
         menuPrompt1: () =>
             SAVE.data.n.plot === 72
                 ? '<23>{#p/basic}{#k/0}* Wa ha ha!\n* I knew you could do it!'

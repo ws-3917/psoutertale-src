@@ -80,7 +80,7 @@ export default {
             "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
             '<32>{#s/equip}{#p/event}* Click...'
         ],
-        noequip: ['<32>{#p/human}* (Вы решили не экипировать.)'],
+        noequip: ['<32>{#p/human}* (Вы решили не надевать это.)'],
         evac: ['<32>{#p/human}* (Вы чувствуете, как сокращается присутствие монстров.)'],
         endo: ['<32>{#p/human}* (You note the poor quality of this table.)'],
         businessKILLER: [
@@ -131,19 +131,19 @@ export default {
                 '* (Что вы скажете?)',
                 game.room === 'w_wonder' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Отмена'
                     : 'Outlands',
                 game.room === 's_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Отмена'
                     : 'Starton',
                 game.room === 'f_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Отмена'
                     : 'Foundry',
                 game.room === 'a_lookout' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Отмена'
                     : 'Aerialis'
             )
         ],
@@ -514,7 +514,7 @@ export default {
                 : ["<32>{#p/basic}* It's empty."],
         lockup6: ["<32>{#p/human}* (You're carrying too much.)"],
         gonezo: () =>
-            world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ... but nobody came.'],
+            world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ...но никто не пришёл.'],
         spidershop1: () => [
             SAVE.data.n.plot === 72
                 ? choicer.create('* (Leave 36G in the web?)', 'Да', 'Нет')
@@ -3404,7 +3404,7 @@ export default {
             doublefridge5: ['<32>{#p/human}* (You decide not to take anything.)'],
             labcamera2: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The display appears to be completely offline.)']
                         : SAVE.data.n.plot === 72
@@ -3563,7 +3563,7 @@ export default {
             mettacrafter2c: ['<32>{#p/mettaton}* NICE WORK!\n* NOW PLACE THE LAST ITEM ON THE COUNTER TO MY LEFT.'],
             platformDeny: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : [
                         "<32>{#p/basic}* You'll need a special pass to access the liftgate network.",
                         ...(world.goatbro
@@ -3614,17 +3614,17 @@ export default {
             lift: {
                 elevatorStory1: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Отмена')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Отмена')],
                 elevatorStory2: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Отмена')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Отмена')],
                 elevatorStory3: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Отмена')
                 ],
                 elevatorStory4: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Отмена')
                 ],
                 elevatorStory5: () => [
                     "<32>{#p/basic}* It's de-activated.",
@@ -3636,7 +3636,7 @@ export default {
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The elevator appears to be powered down.)']
                         : postSIGMA()
-                            ? ["<32>{#p/basic}* It's out of service."]
+                            ? ["<32>{#p/basic}* Сломано."]
                             : [
                                 "<32>{#p/basic}* It's de-activated.",
                                 ...(world.goatbro && (citadel ? SAVE.flag.n.ga_asrielLiftC++ : SAVE.flag.n.ga_asrielLift++) < 1
@@ -3647,32 +3647,32 @@ export default {
                             ],
                 elevator1: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Cancel', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Отмена', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator2: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Cancel', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Отмена', 'Floor L3', 'Floor R3')
                 ],
                 elevator3: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Cancel', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Отмена', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator4: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Cancel', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Отмена', 'Floor R3')
                 ],
                 elevator5: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Cancel')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Отмена')
                 ],
                 elevator6: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Cancel', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Отмена', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ]
             },
             terminal1: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3695,7 +3695,7 @@ export default {
                             ],
             terminal2: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3714,7 +3714,7 @@ export default {
                                 ],
             terminal3: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3728,7 +3728,7 @@ export default {
                             ],
             terminal4: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : SAVE.data.n.plot === 72
@@ -3744,7 +3744,7 @@ export default {
                             ],
             terminal5: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                         : [
@@ -4271,7 +4271,7 @@ export default {
                     ],
             spycamera1: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The display appears to be completely offline.)']
                         : SAVE.data.n.plot === 72 && !world.runaway
@@ -5826,7 +5826,7 @@ export default {
                         : adultEvac()
                             ? world.bulrun
                                 ? ['<32>{#p/basic}* ... but everybody ran.']
-                                : ['<32>{#p/basic}* ... but nobody came.']
+                                : ['<32>{#p/basic}* ...но никто не пришёл.']
                             : SAVE.data.n.plot === 72
                                 ? [
                                     '<32>{#p/basic}{#npc/a}* Blub blub...\n* (All reservations cancelled.)\n* (Section two, freedom clause.)',
@@ -5853,7 +5853,7 @@ export default {
                         : adultEvac()
                             ? world.bulrun
                                 ? ['<32>{#p/basic}* ... but everybody ran.']
-                                : ['<32>{#p/basic}* ... but nobody came.']
+                                : ['<32>{#p/basic}* ...но никто не пришёл.']
                             : SAVE.data.n.plot === 72
                                 ? ['<32>{#p/basic}{#npc/a}* Blub blub...\n* (See you on the homeworld...)']
                                 : SAVE.data.b.killed_mettaton
@@ -6090,19 +6090,19 @@ export default {
             ]
         ),
         elevator1: () => [
-            choicer.create('* (Where would you like to go?)', 'Cancel', 'CORE Start', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Отмена', 'CORE Start', 'CORE End', 'The Citadel')
         ],
-        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Cancel')],
+        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Отмена')],
         elevator2: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Отмена', 'CORE End', 'The Citadel')
         ],
-        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel')],
+        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Отмена')],
         elevator3: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Cancel', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Отмена', 'The Citadel')
         ],
-        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Cancel')],
+        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Отмена')],
         elevator4: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Отмена')
         ],
         dinnerdate1: pager.create(
             0,
@@ -6276,7 +6276,7 @@ export default {
         onionsan4x: ['<25>{#p/asriel2}{#f/8}* Sure, whatever.'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Сломано."]
                 : [
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'

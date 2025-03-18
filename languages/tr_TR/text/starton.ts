@@ -27,7 +27,7 @@ export default {
         ],
         telescopeMeetup1: ['<25>{#p/kidd}{#f/2}* Sen yıldızlara mı bakıyorsun??'],
         telescopeMeetup2: [
-            '<25>{#p/kidd}{#f/1}* Yo... I bet you just saw something really cool.',
+            '<25>{#p/kidd}{#f/1}* Hey... Bahse girerim çok havalı bir şey görmüşsündür.',
             '<25>{#f/7}* Ben en son bir teleskoba baktığımda, çılgınca bir SÜPERNOVA görmüştüm!'
         ],
         telescopeMeetup3: [
@@ -91,7 +91,7 @@ export default {
         nicecreamScoreReaction10b: ["<32>{#p/basic}* İlk denemeye göre, bu oldukça iyi!"],
         nicecreamScoreReaction11a: ['<32>{#p/basic}* Yaklaşıp durmaya devam ediyorsun...'],
         nicecreamScoreReaction11b: ['<32>{#p/basic}* Darn, you almost beat the top scorer again...\n* You can do it!'],
-        noteleport: ["<32>{#p/human}* (It doesn't seem to be powered on anymore.)"],
+        noteleport: ["<32>{#p/human}* (Artık buna güç sağlanmıyor gibi görünüyor.)"],
         evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
         shopclosed: ['<32>{#p/human}* (Ama burada yapacağın hiçbir şey kalmadı.)'],
         jukebox0: ["<32>{#p/basic}* Hizmet dışı."],
@@ -169,124 +169,124 @@ export default {
                     '<32>{#p/asriel2}* Hazır mısın, $(name)?',
                     choicer.create('* (Asriel ne yapmalı?)', 'İnsaf', 'Eylem', 'Büyü', 'Savaş')
                 ],
-                ["<32>{#p/asriel2}* Let's just get this over with."]
+                ["<32>{#p/asriel2}* Hadi şu işi bitirelim."]
             ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
         shockpapyrus2a: [
-            '<32>{#p/asriel2}* Mercy, huh?',
-            '<32>{#p/asriel2}* Mercy... I think I like that word.',
-            '<32>{#p/asriel2}* Let\'s show him some \"Mercy.\"'
+            '<32>{#p/asriel2}* İnsaf, ha?',
+            '<32>{#p/asriel2}* İnsaf... Sanırım bu kelimeyi sevdim.',
+            '<32>{#p/asriel2}* Hadi ona biraz \"İnsaflık\" gösterelim.'
         ],
         shockpapyrus2b: [
-            "<32>{#p/asriel2}* Act...?\n* I'll show you how to act.",
-            '<32>{#p/asriel2}* First, you raise your arm...',
-            '<32>{#p/asriel2}* Then...!'
+            "<32>{#p/asriel2}* Eylem...?\n* Ben sana nasıl eylemde bulunacağını göstereyim.",
+            '<32>{#p/asriel2}* İlk olarak, kolunu kaldırıyorsun...',
+            '<32>{#p/asriel2}* Ardından...!'
         ],
         shockpapyrus2c: [
-            '<32>{#p/asriel2}* Magic.\n* The force that binds us monsters together.',
-            '<32>{#p/asriel2}* Or, in this case...',
-            '<33>{#p/asriel2}* The force that rips them apart.'
+            '<32>{#p/asriel2}* Büyü.\n* Biz canavarları bir arada tutan kuvvet.',
+            '<32>{#p/asriel2}* Ya da, şimdiki durumumuzda...',
+            '<33>{#p/asriel2}* Onları paramparça eden kuvvet.'
         ],
-        shockpapyrus2d: ['<32>{#p/asriel2}* Fight... the ideal choice.', '<32>{#p/asriel2}* Hee hee hee...'],
+        shockpapyrus2d: ['<32>{#p/asriel2}* Savaş... ideal seçenek.', '<32>{#p/asriel2}* Hee hee hee...'],
         sansDeath1: ["<15>{#p/papyrus}{#e/papyrus/27}SANS!\nYOU'RE HURT!"],
-        sansDeath2: ["<20>{#p/sans}papyrus, didn't i tell you to stay at home?", '{*}{#e/papyrus/21}{%}'],
+        sansDeath2: ["<20>{#p/sans}papyrus, sana evde kalmanı söylememiş miydim?", '{*}{#e/papyrus/21}{%}'],
         sansDeath3: ["<20>{#p/sans}... don't worry bro, it's just yamok sauce.", '{*}{#e/papyrus/26}{%}'],
         sansDeath4: ["<15>{#p/papyrus}{#e/papyrus/21}BUT YOU'RE HURT..."],
         sansDeath5: [
-            "<20>{#p/sans}yeah, that's what happens when you act on instinct.",
-            '<20>{#p/sans}... not much i can do about it now.',
+            "<20>{#p/sans}evet, içgüdülerinle hareket edersen böyle olur.",
+            '<20>{#p/sans}... artık yapabileceğim pek bir şey yok.',
             '{*}{#e/papyrus/21}{%}'
         ],
         sansDeath6: [
-            '<20>{#p/sans}so...',
-            "<20>guess that's it, huh?",
+            '<20>{#p/sans}yani...',
+            "<20>sanırım buraya kadar, ha?",
             '<20>...',
-            '<20>just...',
-            "<20>promise me you'll be fine without me, bro.",
-            "<20>promise me you'll be g-{^5}great.",
+            '<20>sadece...',
+            "<20>bensiz iyi olacağına söz ver, kardo.",
+            "<20>söz ver, h-{^5}harika olacaksın.",
             '<20>...',
-            '<20>after all...'
+            '<20>ne de olsa...'
         ],
-        sansDeath7: ["<20>{|}{#p/sans}you're the... great p-{^5}papyrus.{^20}{%}"],
-        sansDeath8: ['<15>{#p/papyrus}{#e/papyrus/33}N-NO...{^40}{%}'],
+        sansDeath7: ["<20>{|}{#p/sans}sen... harika p-{^5}papyrus'sun.{^20}{%}"],
+        sansDeath8: ['<15>{#p/papyrus}{#e/papyrus/33}H-HAYIR...{^40}{%}'],
         fast_food1: () => [
             SAVE.data.b.fryz
                 ? "<32>{#p/human}{#npc}* (You got the Flamin' Grillby.)"
                 : '<32>{#p/human}{#npc}* (You got the Sliders.)'
         ],
-        fast_food2: ["<32>{#p/human}{#npc}* (You're carrying too much.)"],
+        fast_food2: ["<32>{#p/human}{#npc}* (Çok fazla şey taşıyorsun.)"],
         aussie: pager.create(
             0,
             () =>
                 SAVE.data.n.state_starton_trashprogress < 1
                     ? [
-                        '<25>{#p/sans}{#f/0}* finally.',
-                        "<25>{#f/3}* i've been wondering when you'd show up.",
-                        '<25>{#f/0}* i dunno if you recall, but back when we first met...',
-                        '<25>{#f/0}* i told papyrus to focus more on the \"gravity\" of the situation.',
-                        '<25>{#f/0}* what did i mean by that, you ask?',
-                        '<25>{#f/3}* well.',
-                        "<25>{#f/2}* you're about to {@fill=#003cff}find out{@fill=#fff}."
+                        '<25>{#p/sans}{#f/0}* sonunda.',
+                        "<25>{#f/3}* ne zaman ortalarda görüneceğini merak ediyordum.",
+                        '<25>{#f/0}* hatırlıyor musun bilmem, ama ilk tanıştığımızda...',
+                        '<25>{#f/0}* papyrus\'a durumun \"ağırlığı\" üzerine odaklanmasını söylemiştim.',
+                        '<25>{#f/0}* bununla ne demek istediğimi soruyor gibisin?',
+                        '<25>{#f/3}* pekala.',
+                        "<25>{#f/2}* bunu {@fill=#003cff}öğrenmek{@fill=#fff} üzeresin."
                     ]
-                    : ['<25>{#p/sans}{#f/0}* welcome back.', '<25>{#f/2}* ready to find out what awaits you?'],
+                    : ['<25>{#p/sans}{#f/0}* tekrar hoşgeldin.', '<25>{#f/2}* seni neyin beklediğini görmeye hazır mısın?'],
             () =>
                 SAVE.data.n.state_starton_trashprogress < 1
-                    ? ['<25>{#p/sans}{#f/0}* go on, take a look.', "<25>{#f/2}* it's right up there, bucko."]
-                    : ["<25>{#p/sans}{#f/2}* it's right up there, bucko."],
+                    ? ['<25>{#p/sans}{#f/0}* ileri devam et, bir göz at.', "<25>{#f/2}* tam orada, evlat."]
+                    : ["<25>{#p/sans}{#f/2}* tam orada, evlat."],
             () =>
                 SAVE.data.n.state_starton_trashprogress < 2
-                    ? ["<25>{#p/sans}{#f/2}* don't worry, it's not dangerous... even if it tries to be."]
-                    : ['<25>{#p/sans}{#f/2}* thanks for the help.']
+                    ? ["<25>{#p/sans}{#f/2}* endişelenme, tehlikeli değil... olmayı denese bile."]
+                    : ['<25>{#p/sans}{#f/2}* yardım için teşekkürler.']
         ),
         trashhunt1: [
-            '<25>{#p/sans}{#f/0}* sooo... whaddya think?',
-            '<25>{#f/3}* i call it the \"trash planet.\"',
-            "<25>{#f/0}* ... actually, this thing's been growing in size for quite a while.",
-            '<25>{#f/0}* if it gets any larger, well...',
-            "<25>{#f/2}* let's just say we'd be in a {@fill=#ff0}world{@fill=#fff} of trouble.",
-            "<25>{#f/0}* don't worry, though.\n* with your help, it'll be gone in no time.",
-            '<25>{#f/2}* i even found you some music to keep you motivated.'
+            '<25>{#p/sans}{#f/0}* peeekii... ne düşünüyorsun bakalım?',
+            '<25>{#f/3}* ben ona \"çöp gezegeni\" diyorum.',
+            "<25>{#f/0}* ... aslında, bu şeyin boyutu epey bir süredir büyüyordu.",
+            '<25>{#f/0}* eğer daha fazla genişlerse, hmm...',
+            "<25>{#f/2}* şimdilik başımıza {@fill=#ff0}dünya{@fill=#fff} kadar bela açardı diyelim.",
+            "<25>{#f/0}* buna rağmen endişelenme, tabii.\n* senin yardımınla hemen yok olur.",
+            '<25>{#f/2}* seni motive etmek için müzik bile buldum.'
         ],
         trashhunt2: '* Press [Z] repeatedly to shake\n  out all the trash!',
         trashhunt3: () => [
-            '<25>{#p/sans}{#f/3}* wow.\n* all in one go, huh?',
+            '<25>{#p/sans}{#f/3}* wow.\n* hepsi tek seferde, ha?',
             "<25>{#f/2}* ... well i'll be turned upside down.",
-            '<25>{#f/0}* guess i gotta give you some kinda reward.',
-            '<25>{#f/0}* ...\n* here.\n* have this on me.',
-            '<32>{#p/human}* (Sans tossed you something.)',
+            '<25>{#f/0}* sanırım sana bir ödül falan vermeliyim.',
+            '<25>{#f/0}* ...\n* işte.\n* üzerimde bu var.',
+            '<32>{#p/human}* (Sans sana bir şey fırlattı.)',
             ...(SAVE.storage.inventory.size < 8
-                ? ['<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)', '<25>{#p/sans}{#f/2}* use it wisely.']
+                ? ['<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)', '<25>{#p/sans}{#f/2}* akıllıca kullan.']
                 : [
-                    "<32>{#p/human}* (You're carrying too much.)",
-                    '<25>{#p/sans}{#f/3}* no room, huh?',
-                    "<25>{#p/sans}{#f/2}* don't worry.\n* i'll leave it in my room for you."
+                    "<32>{#p/human}* (Çok fazla şey taşıyorsun.)",
+                    '<25>{#p/sans}{#f/3}* yer yok, ha?',
+                    "<25>{#p/sans}{#f/2}* endişelenme.\n* senin için kendi odama bırakacağım."
                 ])
         ],
         gravo1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (You look curiously at the seemingly useless device.)',
-                    ...[["<25>{#p/asriel1}{#f/17}* Too bad we don't have the remote for this thing, huh?"], []][
+                    '<32>{#p/human}* (Görünüşte işe yaramaz olan cihaza merakla bakıyorsun.)',
+                    ...[["<25>{#p/asriel1}{#f/17}* Bu şey için kumandamızın olmaması ne kötü, ha?"], []][
                     Math.min(asrielinter.gravo1++, 1)
                     ]
                 ]
-                : ['<32>{#p/basic}* It\'s a \"gravometric inverter.\"', '<32>* Whatever that means.'],
+                : ['<32>{#p/basic}* Bu bir \"kütleçekimsel invertör.\"', '<32>* Her ne anlama geliyorsa.'],
         gravo3: () => [
-            '<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n* (Nothing happens.)',
+            '<32>{#p/human}* (Kütleçekimsel İnvertör Kumandasını kullandın.)\n* (Hiçbir şey olmadı.)',
             ...(SAVE.data.b.svr
-                ? [["<25>{#p/asriel1}{#f/21}* They're probably shutting off power for non-essential devices."], []][
+                ? [["<25>{#p/asriel1}{#f/21}* Muhtemelen gerekli olmayan cihazların gücünü kesiyorlardır."], []][
                 Math.min(asrielinter.gravo3++, 1)
                 ]
-                : ['<32>{#p/basic}* It must be offline...'])
+                : ['<32>{#p/basic}* Çevrimdışı olmalı...'])
         ],
-        gravo2: ['<32>{#p/human}* (You use the Gravometric Inverter Remote.)'],
+        gravo2: ['<32>{#p/human}* (Kütleçekimsel İnvertör Kumandasını kullandın.)'],
         sansdoor1: () =>
             SAVE.data.b.svr || world.runaway
-                ? ['<32>{#p/human}* (It looks to have been closed with a deadlock seal.)']
-                : ["<32>{#p/basic}* It's locked."],
+                ? ['<32>{#p/human}* (Kilitlenerek kapatılmış gibi görünüyor.)']
+                : ["<32>{#p/basic}* Kilitli."],
         sansdoor2: ['<32>{#p/human}* (You use the Skeleton Key.)'],
         sanscab1: () => [
             ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's an odd remote inside of this envelope."]),
-            '<32>{#s/equip}{#p/human}* (The Gravometric Inverter Remote was added to your keyring.)'
+            '<32>{#s/equip}{#p/human}* (Kütleçekimsel İnvertör Kumandası anahtarlığına eklendi.)'
         ],
         sanscab2: () =>
             SAVE.data.b.svr
@@ -296,11 +296,11 @@ export default {
             ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's an odd... item, inside of this envelope."]),
             SAVE.storage.inventory.size < 8
                 ? '<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)'
-                : "<32>{#p/human}* (You're carrying too much.)"
+                : "<32>{#p/human}* (Çok fazla şey taşıyorsun.)"
         ],
         cream_get: ['<32>{#p/human}* (You got the Ice Dream.)'],
-        cream_deny: ['<32>{#p/basic}* Nothing left.'],
-        cream_full: ["<32>{#p/human}* (You're carrying too much.)"],
+        cream_deny: ['<32>{#p/basic}* Hiçbir şey kalmadı.'],
+        cream_full: ["<32>{#p/human}* (Çok fazla şey taşıyorsun.)"],
         cream_get_archive: [
             '<32>{#p/human}* (You reach into the cart.)',
             '<32>{#p/human}{#s/equip}* (You got the Ice Dream.)'
@@ -311,15 +311,15 @@ export default {
             0,
             () =>
                 SAVE.data.n.plot === 72
-                    ? ["<32>{#p/basic}* Mom says that we're going to a new homeworld soon.", "<32>* ... what's a homeworld?"]
+                    ? ["<32>{#p/basic}* Annem yakında yeni bir ana gezegene gideceğimizi söylüyor.", "<32>* ... ana gezegen nedir?"]
                     : [
-                        '<32>{#p/basic}* Mom says that sleeping could recover your health {@fill=#ff0}above your maximum HP{@fill=#fff}.',
-                        "<32>* ... what's maximum HP?"
+                        '<32>{#p/basic}* Annem uyumanın sağlığını {@fill=#ff0}maksimum CANININ üstünde{@fill=#fff} iyileştirebildiğini söylüyor.',
+                        "<32>* ... maksimum CAN nedir?"
                     ],
             () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/basic}* Do humans have a homeworld?']
-                    : ['<32>{#p/basic}* Is it something monsters have?']
+                    ? ['<32>{#p/basic}* İnsanların ana gezegeni var mı?']
+                    : ['<32>{#p/basic}* Bu canavarların sahip olduğu bir şey mi?']
         ),
         emptytable1: () =>
             SAVE.data.b.svr
@@ -329,7 +329,7 @@ export default {
             SAVE.data.b.svr
                 ? ['<32>{#p/human}* (The table strikes you as being rather lonesome.)']
                 : ["<32>{#p/basic}* It's just a lonely table.\n* Smells like hair."],
-        balcony0: () => ['<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (What do you say?)', 'Evet', 'Hayır')],
+        balcony0: () => ['<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')],
         balcony1: [
             "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
             '<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!'
@@ -341,106 +341,106 @@ export default {
         ],
         bedbook1: () =>
             SAVE.data.b.svr
-                ? ["<32>{#p/human}* (You can't seem to understand the contents of this book.)"]
-                : ["<32>{#p/basic}* It's a book, written in an ancient language."],
-        bedbook3a: ['<32>{#p/basic}* Would you like me to read it?'],
-        bedbook3b: ['<32>{#p/basic}* Read it again?'],
-        bedbook4: () => [choicer.create('* (Have $(name) read the book?)', 'Evet', 'Hayır')],
+                ? ["<32>{#p/human}* (Bu kitabın içeriklerini anlayamıyor gibi görünüyorsun.)"]
+                : ["<32>{#p/basic}* Bu bir kitap, antik bir dilde yazılmış."],
+        bedbook3a: ['<32>{#p/basic}* Benim okumamı ister misin?'],
+        bedbook3b: ['<32>{#p/basic}* Tekrar oku?'],
+        bedbook4: () => [choicer.create('* ($(name) kitabı okusun mu?)', 'Evet', 'Hayır')],
         bedbook5: [
-            '<32>{#p/basic}* Okay, here goes...',
-            '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
-            '<32>* \"At first, the monsters were only visitors, soon to return to their own star system.\"',
-            '<32>* \"But the monsters became fascinated by humanity, and wanted to co-exist with them.\"',
-            '<32>* \"As such, they shared their technology with the humans, and forged an alliance.\"',
-            '<32>* \"Over the next few hundred years, monsters and humans lived in peace and harmony.\"',
-            '<32>* \"One day, the humans began to fear something about the monsters...\"',
-            '<32>* \"A fear that, without skilled leadership, was allowed to spiral out of control.\"',
-            '<32>* \"As time passed, a war broke out between the two species.\"',
-            '<32>* \"Many battles and skirmishes would occur all across the stars...\"',
-            '<32>* \"But the humans, filled with fear and determination, easily took control.\"',
-            '<32>* \"Then, on one fateful day, a massive weapon was fired at the monsters\' homeworld.\"',
-            '<32>* \"After the monsters\' home planet was destroyed, humans declared victory.\"',
-            '<32>* \"A settlement between the two species was signed, and...\"',
-            '<32>* \"The remaining monsters were banished to an abandoned outpost.\"',
-            '<32>* \"Then, the humans gathered seven of their brightest minds.\"',
-            '<32>* \"Together, they formulated a plan, and eventually...\"',
-            '<32>* \"A powerful force field was erected, and the monsters were sealed in.\"',
-            "<32>* Well, that's the story."
+            '<32>{#p/basic}* Tamam, işte başlıyorum...',
+            '<32>* \"Uzun zaman önce, Güneş Sistemine iki ırk hükmediyordu: insanlar ve canavarlar.\"',
+            '<32>* \"İlk başta, canavarlar yalnızca ziyaretçilerdi, ve yakında kendi yıldız sistemlerine döneceklerdi.\"',
+            '<32>* \"Ancak canavarlar insanlıktan büyülenmişti, ve onlarla birlikte yaşamak istemişlerdi.\"',
+            '<32>* \"Bu nedenle, teknolojilerini insanlarla paylaştılar, ve bir ittifak kurdular.\"',
+            '<32>* \"Sonraki birkaç yüzyıl boyunca, canavarlar ve insanlar barış ve uyum içerisinde yaşadılar.\"',
+            '<32>* \"Bir gün, insanlar canavarlar hakkında bir şeyden korkmaya başladılar...\"',
+            '<32>* \"Öyle bir korkunun, yetenekli bir lider olmadan, kontrolden çıkmasına izin verilirdi.\"',
+            '<32>* \"Zaman geçtikçe, iki türün arasında bir savaş çıktı.\"',
+            '<32>* \"Yıldızlar boyunca birçok savaş ve çatışmalar meydana gelecekti...\"',
+            '<32>* \"Ancak insanlar, korku ve azimle dolu bir şekilde, kolayca kontrolü ele geçirdiler.\"',
+            '<32>* \"Sonra, kaderi belirleyen bir günde, canavarların ana gezegenine devasa bir silah ateşlendi.\"',
+            '<32>* \"Canavarların ana gezegeni yok edilince insanlar zafer ilan etti.\"',
+            '<32>* \"İki tür arasında bir anlaşma imzalandı, ve...\"',
+            '<32>* \"Geriye kalan canavarlar terk edilmiş bir karakola sürülmüştü.\"',
+            '<32>* \"Sonra, insanlar en parlak zihinlerinden yedisini topladılar.\"',
+            '<32>* \"Birlikte, bir plan hazırladılar, ve zamanla...\"',
+            '<32>* \"Kuvvetli bir güç kalkanı oluşturuldu, canavarlar içine hapsedildi.\"',
+            "<32>* İşte, hikaye bu kadar."
         ],
-        bedbook6: ['<32>{#p/basic}* Well, if you ever want me to read it, let me know.'],
-        beddoor1: ["<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first."],
-        beddoor2: ["<32>{#p/basic}{#npc/a}* If you want a room again, you'll need to ask me first."],
-        beddoor3: ['<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!'],
+        bedbook6: ['<32>{#p/basic}* Eğer tekrar okumamı istersen, haber ver.'],
+        beddoor1: ["<32>{#p/basic}{#npc/a}* Eğer bir oda istiyorsan, önce bana sorman gerekecek."],
+        beddoor2: ["<32>{#p/basic}{#npc/a}* Eğer tekrar bir oda istiyorsan, önce bana sorman gerekecek."],
+        beddoor3: ['<32>{#p/basic}{#npc/a}* Üzügünüm, tatlış!\n* Daha fazla boş yer kalmadı!'],
         candy1: () =>
             postSIGMA()
                 ? ["<32>{#p/basic}* Hizmet dışı."]
                 : [
                     SAVE.data.b.svr
-                        ? '<32>{#p/human}* (You approach the vending machine.)'
+                        ? '<32>{#p/human}* (Otomata yaklaşıyorsun.)'
                         : "<32>{#p/basic}* It's an exoberry-exclusive vending machine.",
                     choicer.create('* (Buy the Exoberries for 8G?)', 'Evet', 'Hayır')
                 ],
-        candy2: ["<32>{#p/human}* (You don't have enough G.)"],
-        candy3: ["<32>{#p/human}* (You're carrying too much.)"],
+        candy2: ["<32>{#p/human}* (Yeterince A'n yok.)"],
+        candy3: ["<32>{#p/human}* (Çok fazla şey taşıyorsun.)"],
         candy4: ['<32>{#p/human}* (You got the Exoberries.)'],
-        candy5: ['<32>{#p/human}* (You decide not to buy.)'],
+        candy5: ['<32>{#p/human}* (Satın almamaya karar verdin.)'],
         capstation1: [
-            '<32>{#p/human}* (You look behind the station and find a key.)',
-            '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-            '<32>* (Check your CELL to see all acquired keys.)'
+            '<32>{#p/human}* (İstasyonun arkasına bakıp bir anahtar buluyorsun.)',
+            '<32>{#s/equip}{#p/human}* (Paslı Anahtar anahtarlığına eklendi.)',
+            '<32>* (Elde edilen tüm anahtarları görmek için CEP\'i kontrol edin.)'
         ],
-        capstation2: ['<32>{#p/human}* (You look behind the station.)', '<32>{#p/basic}* Nothing new back here.'],
+        capstation2: ['<32>{#p/human}* (İstasyonun arkasına bakıyorsun.)', '<32>{#p/basic}* Arkada yeni bir şey yok.'],
         crossword0: () =>
             world.edgy
                 ? [
-                    '<25>{#p/sans}* oh, hey there.',
-                    '<25>{#p/sans}{#f/2}* if you liked that last puzzle, just wait until you see this one.'
+                    '<25>{#p/sans}* ah, hey.',
+                    '<25>{#p/sans}{#f/2}* eğer o önceki bulmacayı beğendiysen, bir de şimdikini görmeyi bekle.'
                 ]
                 : [
-                    '<18>{#p/papyrus}{#f/9}HUMAN!!',
+                    '<18>{#p/papyrus}{#f/9}İNSAN!!',
                     '<18>{#f/9}YOU HAVE SEEN MY PUZZLES.',
                     '<18>{#f/4}BUT WHAT YOU ARE ABOUT TO SEE IS...'
                 ],
         crossword1: () =>
             world.edgy
                 ? [
-                    '<26>{#p/sans}* no, really.\n* walk up and take a look.',
-                    "<25>{#p/sans}* it's right there on the ground."
+                    '<26>{#p/sans}* hayır, gerçekten.\n* yürüyüp bir göz at.',
+                    "<25>{#p/sans}* tam orada, yerde duruyor."
                 ]
                 : [
-                    "<18>{#p/papyrus}{#f/7}SANS!!\nWHERE'S THE PUZZLE!?",
+                    "<18>{#p/papyrus}{#f/7}SANS!!\nBULMACA NEREDE!?",
                     "<25>{#p/sans}* you're lookin' at it.",
                     '<18>{#p/papyrus}{#f/1}WHAT?\nTHAT TABLET LYING ON THE GROUND?',
-                    '<18>{#f/4}OKAY...'
+                    '<18>{#f/4}TAMAM...'
                 ],
         crossword2: (check: boolean) =>
             world.edgy
                 ? [
                     check
                         ? '<25>{#p/sans}* well, how was it?\n* ... too hot to handle?'
-                        : "<25>{#p/sans}* can't even bring yourself to look at it, huh?",
-                    "<25>* i guess i shouldn't have expected much.",
-                    '<26>{#f/3}* oh well.\n* maybe a kakuro puzzle would be easier for you.',
-                    '<26>{#f/0}* but i digress.'
+                        : "<25>{#p/sans}* bir bakmaya bile cesaret edemiyorsun, ha?",
+                    "<25>* sanırım daha fazlasını beklememeliydim.",
+                    '<26>{#f/3}* ah, neyse.\n* belki bir kakuro bulmacası senin için daha kolay olurdu.',
+                    '<26>{#f/0}* ama konuyu dağıtıyorum.'
                 ]
                 : [
                     check
-                        ? "<18>{#p/papyrus}{#f/7}SANS!!!\nTHAT DIDN'T DO ANYTHING!"
+                        ? "<18>{#p/papyrus}{#f/7}SANS!!!\nBU HİÇBİR ŞEY YAPMADI!"
                         : "<18>{#p/papyrus}{#f/7}SANS!!!\nTHEY DIDN'T EVEN LOOK AT IT!",
-                    '<25>{#p/sans}* whoops.',
-                    "<25>{#f/3}* i knew i should have used today's kakuro puzzle instead.",
-                    '<18>{#p/papyrus}{#f/1}WHAT!? KAKURO!?',
-                    "<18>{#f/9}I CAN'T BELIEVE YOU SAID THAT!!",
+                    '<25>{#p/sans}* tüh.',
+                    "<25>{#f/3}* günün kakuro bulmacasını kullanmam gerektiğini biliyordum.",
+                    '<18>{#p/papyrus}{#f/1}NE!? KAKURO MU!?',
+                    "<18>{#f/9}BUNU SÖYLEDİĞİNE İNANAMIYORUM!!",
                     '<18>{#f/4}IN MY OPINION...',
                     '<18>{#f/0}SUDOKU IS EASILY THE HARDEST.',
                     '<25>{#p/sans}* what? really, dude?\n* that easy-peasy number shuffle?',
                     "<25>{#f/4}* that's for baby bones.",
-                    '<18>{#p/papyrus}{#f/4}UN. BELIEVABLE.',
-                    '<18>{#f/9}HUMAN!!!\nSOLVE THIS DISPUTE!',
-                    choicer.create('* (Which is harder?)', 'Sudoku', 'Kakuro')
+                    '<18>{#p/papyrus}{#f/4}İN. ANILAMAZ.',
+                    '<18>{#f/9}İNSAN!!!\nBU ANLAŞMAZLIĞI ÇÖZ!',
+                    choicer.create('* (Hangisi daha zor?)', 'Sudoku', 'Kakuro')
                 ],
         crossword3a: [
-            '<18>{#p/papyrus}HA! HA! YES!',
+            '<18>{#p/papyrus}HA! HA! EVET!',
             '<18>HUMANS MUST BE VERY INTELLIGENT!',
             '<18>IF THEY ALSO FIND SUDOKU SO DIFFICULT!',
             '<18>{#f/9}NYEH! HEH! HEH HEH!'
@@ -454,77 +454,77 @@ export default {
             '<18>{#f/9}ALL I CAN DO IS SNORE!!!'
         ],
         crossword3c: [
-            '<25>{#p/sans}{#f/3}* by the way, i think i saw a pair of dogs running around...',
-            "<25>{#f/0}* i'd tread carefully if i were you."
+            '<25>{#p/sans}{#f/3}* bu arada, sanırım buralarda bir çift köpeğin koştuğunu görmüştüm...',
+            "<25>{#f/0}* senin yerinde olsam adımlarıma dikkat ederdim."
         ],
-        crossword4a: pager.create(0, ['<25>{#p/sans}* hey, where ya goin there, bucko?'], ['<25>{#p/sans}* wrong way.']),
-        crossword4b: pager.create(0, ["<25>{#p/sans}* really?\n* it's not THAT bad."], ['<25>{#p/sans}* really?']),
+        crossword4a: pager.create(0, ['<25>{#p/sans}* hey, orada ne yapıyorsun bakalım, evlat?'], ['<25>{#p/sans}* yanlış yön.']),
+        crossword4b: pager.create(0, ["<25>{#p/sans}* gerçekten mi?\n* o KADAR DA kötü değil."], ['<25>{#p/sans}* gerçekten mi?']),
         crossword5a: [
-            '<25>{#p/sans}* thanks for saying \"sudoku\" just to appease my brother.',
-            '<25>{#f/4}* yesterday he got stumped trying to \"solve\" a star chart.'
+            '<25>{#p/sans}* sırf kardeşimi memnun etmek için \"sudoku\" dediğin için teşekkürler.',
+            '<25>{#f/4}* dün bir yıldız haritasını \"çözmek\" için uğraşırken afalladı.'
         ],
         crossword5b: [
-            '<25>{#p/sans}* papyrus...\n* ... finds difficulty in interesting places.',
-            '<25>{#f/4}* yesterday he got stumped trying to \"solve\" a star chart.'
+            '<25>{#p/sans}* papyrus...\n* ... ilginç yerlerde zorluk çekiyor.',
+            '<25>{#f/4}* dün bir yıldız haritasını \"çözmek\" için uğraşırken afalladı.'
         ],
         crossword6a: [
-            "<25>{#p/sans}{#f/3}* i kinda figured you'd skip over it.",
-            "<25>{#f/0}* that just seems like the sort of thing you'd do, doesn't it?"
+            "<25>{#p/sans}{#f/3}* bunu atlayacağını bir bakıma çözmüştüm.",
+            "<25>{#f/0}* bu tam senin yapacağın bir şeymiş gibi görünmüyor mu?"
         ],
         crossword6b: [
-            "<25>{#p/sans}{#f/3}* i'm surprised.\n* i thought you'd walk right past it.",
-            "<25>{#f/2}* perhaps you're not so terrible after all."
+            "<25>{#p/sans}{#f/3}* şaşırdım.\n* yanından geçip gidersin sanmıştım.",
+            "<25>{#f/2}* belki de o kadar da kötü değilsindir."
         ],
-        crossword6c: ['<25>{#p/sans}{#f/2}* heheh, made you look.'],
+        crossword6c: ['<25>{#p/sans}{#f/2}* heheh, bakmana neden oldum.'],
         crossword6d: [
-            "<25>{#p/sans}{#f/3}* i'm surprised.\n* i thought you weren't even interested.",
-            "<25>{#f/2}* perhaps you're not so terrible after all."
+            "<25>{#p/sans}{#f/3}* şaşırdım.\n* hiç ilgili olmadığını sanmıştım.",
+            "<25>{#f/2}* belki de o kadar da kötü değilsindir."
         ],
         doggo1: [
-            '<32>{#p/basic}* Did something move?\n* Was it just my imagination?',
-            '<32>* If something WAS moving...\n* For example, a human...',
-            "<32>* I'll make sure it never leaves my sight again!"
+            '<32>{#p/basic}* Bir şey hareket mi etti?\n* Yalnızca benim hayal gücüm müydü?',
+            '<32>* Eğer bir şey GERÇEKTEN hareket ettiyse...\n* Mesela, bir insan...',
+            "<32>* Bir daha asla gözümün önünden ayrılmamasını sağlayacağım!"
         ],
         doggo2: [
             [
-                "<32>{#p/basic}* S-S-S-Something pet me...\n* Something that isn't even m-m-moving...!",
-                "<32>* I'm gonna need some dog treats for this."
+                "<32>{#p/basic}* B-B-B-Bir şey beni sevdi...\n* H-h-hareket bile etmeyen bir şey...!",
+                "<32>* Bunun için biraz köpek bisküvisine ihtiyacım olacak."
             ],
-            ['<32>{#p/basic}* A w-w-wrench appeared out of nowhere, h-huh!?!?', '<32>{#p/basic}* ... what a day!'],
+            ['<32>{#p/basic}* Birdenbire bir a-a-alet anahtarı ortaya çıktı, h-ha!?!?', '<32>{#p/basic}* ... ne gün ama!'],
             [],
             [
-                '<32>{#p/basic}* A h-h-human came up and attacked me...\n* Out of n-n-nowhere...!',
-                "<32>{#p/basic}* I'm...\n* I'm gonna go to bed."
+                '<32>{#p/basic}* Bir i-i-insan ortaya çıkıp bana saldırdı...\n* B-b-birdenbire...!',
+                "<32>{#p/basic}* Ben...\n* Yatmaya gideceğim."
             ]
         ],
         doggo3: pager.create(
             0,
-            ['<32>{#p/basic}* Hello?\n* Is anybody there...?'],
-            ['<32>{#p/basic}* Are you two playing a trick on me?\n* Real funny, guys.'],
-            ['<32>{#p/basic}* Big lug?\n* Is that you?\n* Come on...'],
-            ["<32>{#p/basic}* Well, it's not the tall skeleton...\n* He's too loud."],
-            ['<32>{#p/basic}* Whoever you are, knock it off!!!'],
+            ['<32>{#p/basic}* Merhaba?\n* Orada kimse var mı...?'],
+            ['<32>{#p/basic}* Siz ikiniz beni kandırmaya mı çalışıyorsunuz?\n* Gerçekten çok komik, millet.'],
+            ['<32>{#p/basic}* Büyük herif?\n* Bu sen misin?\n* Hadi ama...'],
+            ["<32>{#p/basic}* Yani, o uzun iskelet değil en azından...\n* O fazla gürültülü."],
+            ['<32>{#p/basic}* Her kimsen, kes şunu!!!'],
             ['<32>{#p/basic}* ...']
         ),
-        doggo3x: ['<32>{#p/basic}* (Snore... snore...)'],
+        doggo3x: ['<32>{#p/basic}* (Horr... horr...)'],
         drop_chip: [
-            '<32>{#p/basic}* Did you just...\n* Drop the part of me I had given you?',
-            '<32>* I have no words for you...\n* Begone!'
+            '<32>{#p/basic}* Sen az önce...\n* Kendimden verdiğim bir parçayı mı fırlattın?',
+            '<32>* Senin için hiçbir sözüm yok...\n* Defol!'
         ],
-        drop_cream: ["<32>{#p/basic}* You know, you're lucky I'm busy advertising."],
+        drop_cream: ["<32>{#p/basic}* Bilirsin, reklamcılıkla meşgul olduğum için şanslısın."],
         eat_chip: [
-            '<32>{#p/basic}* Did you just...\n* Consume the part of me I had given you?',
-            '<32>* I have no words for you...\n* Begone!'
+            '<32>{#p/basic}* Sen az önce...\n* Kendimden verdiğim bir parçayı mı tükettin?',
+            '<32>* Senin için hiçbir sözüm yok...\n* Defol!'
         ],
         eat_cream: ['<32>{#p/basic}* Nice to see you enjoying your Ice Dream!\n* Very nice!'],
         genotext: {
             asriel1: () =>
-                [['<25>{#p/asriel2}{#f/9}* Just follow my lead...'], ['<25>{#p/asriel2}{#f/16}* This way.']][
+                [['<25>{#p/asriel2}{#f/9}* Sadece benim önderliğimi takip et...'], ['<25>{#p/asriel2}{#f/16}* Buradan.']][
                 Math.min(SAVE.flag.n.ga_asriel1++, 1)
                 ],
             asriel2: () =>
                 [
-                    ["<25>{#p/asriel2}{#f/2}* Well, well... if it isn't the great Papyrus standing just ahead."],
+                    ["<25>{#p/asriel2}{#f/2}* Bak, bak... bu, az ileride duran harika Papyrus değil mi?"],
                     ['<25>{#p/asriel2}{#f/3}* Well, well... here we go again.']
                 ][Math.min(SAVE.flag.n.killed_sans, 1)],
             asriel3: () =>
@@ -553,17 +553,17 @@ export default {
                     [
                         '<25>{#p/asriel2}{#f/15}* Wow.\n* To see Papyrus in such a state...',
                         "<25>{#f/16}* ... it's certainly unexpected, isn't it?",
-                        '<25>{#f/13}* Oh, $(name)...',
+                        '<25>{#f/13}* Ah, $(name)...',
                         "<25>{#f/1}* I think we're going to have a lot of fun."
                     ],
-                    ['<25>{#p/asriel2}{#f/16}* Poor, poor Papyrus.']
+                    ['<25>{#p/asriel2}{#f/16}* Zavallı, zavallı Papyrus.']
                 ][Math.min(SAVE.flag.n.ga_asriel10++, 1)],
             asriel17: () =>
-                [["<25>{#p/asriel2}{#f/16}* Golly... some people just don't get it."], ['<25>{#p/asriel2}{#f/4}* Tch.']][
+                [["<25>{#p/asriel2}{#f/16}* Golly... some people just don't get it."], ['<25>{#p/asriel2}{#f/4}* Cık.']][
                 Math.min(SAVE.flag.n.ga_asriel17++, 1)
                 ],
             asriel24: () =>
-                [['<25>{#p/asriel2}{#f/4}* What a waste of time.'], ['<25>{#p/asriel2}{#f/3}* Huh.']][
+                [['<25>{#p/asriel2}{#f/4}* Ne zaman kaybı ama.'], ['<25>{#p/asriel2}{#f/3}* Ha.']][
                 Math.min(SAVE.flag.n.ga_asriel24++, 1)
                 ],
             asriel26: () =>
@@ -571,16 +571,16 @@ export default {
                     [
                         "<26>{#p/asriel2}{#f/3}* Well, that's the canine unit gone.",
                         '<26>{#p/asriel2}{#f/4}* Only one bridge left between us and town.',
-                        '<25>{#f/1}* ... stay behind me.'
+                        '<25>{#f/1}* ... arkamda kal.'
                     ],
                     ['<25>{#p/asriel2}{#f/3}* Into town we go...']
                 ][Math.min(SAVE.flag.n.ga_asriel26++, 1)],
             asriel28: () =>
                 [
                     [
-                        "<25>{#p/asriel2}{#f/6}* Okay, $(name).\n* The town's all yours.",
-                        "<25>{#f/7}* In the meantime, I have to do something that'll be important later.",
-                        "<25>{#f/1}* I'll be back before you know it."
+                        "<25>{#p/asriel2}{#f/6}* Pekala, $(name).\n* Kasaba tamamen senindir.",
+                        "<25>{#f/7}* Bu sırada ben, daha sonra önemli olacak bir şey yapmalıyım.",
+                        "<25>{#f/1}* Sen farkına bile varmadan dönmüş olacağım."
                     ],
                     ['<25>{#p/asriel2}{#f/1}* See you around the back of town.']
                 ][Math.min(SAVE.flag.n.ga_asriel28++, 1)],
@@ -589,15 +589,15 @@ export default {
                     SAVE.data.b.papyrus_secret
                         ? [
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
-                            "<25>{#f/10}* ... wait, where's Papyrus?",
+                            "<25>{#f/10}* ... bekle, Papyrus nerede?",
                             '<25>{#f/10}* ...',
-                            "<25>{#f/4}* Golly, $(name), I didn't think you'd kill him THAT quickly."
+                            "<25>{#f/4}* Tanrım, $(name), onu BU KADAR çabuk öldüreceğini düşünmemiştim."
                         ]
                         : [
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
                             "<25>{#f/1}* It's about time that bonehead paid the price for his mercy.",
                             '<25>{#f/13}* Golly.\n* He wanted SO badly to forgive you.',
-                            "<25>{#f/16}* But, let's be honest with ourselves here...",
+                            "<25>{#f/16}* Ama, burada kendimize karşı dürüst olalım...",
                             "<25>{#f/1}* We've got bigger fish to fry."
                         ],
                     ['<25>{#p/asriel2}{#f/13}* Oh well.\n* The skeleton died for nothing again.'],
@@ -607,9 +607,9 @@ export default {
                     ],
                     [
                         "<25>{#p/asriel2}{#f/6}* That's four times you've killed him now.",
-                        "<25>{#f/8}* I'm starting to think you enjoy this..."
+                        "<25>{#f/8}* Bundan zevk aldığını düşünmeye başlıyorum..."
                     ],
-                    ['<25>{#p/asriel2}{#f/15}* Again...?']
+                    ['<25>{#p/asriel2}{#f/15}* Yine mi...?']
                 ][Math.min(SAVE.flag.n.ga_asriel29++, 4)],
             asriel30: () => [
                 '<25>{#p/asgore}{#f/1}* ...',
@@ -655,14 +655,14 @@ export default {
                 "<26>{#f/6}* It's OBVIOUS you're\n  just here to wind me up.",
                 '<25>{#p/asgore}{#f/3}* ...',
                 '<25>{#p/asriel2}{#f/6}* ...',
-                '<25>{#p/asgore}{#f/7}* You must consider the gravity of your choices!',
+                '<25>{#p/asgore}{#f/7}* Seçimlerinin ağırlığını göz önünde bulundurman gerekiyor!',
                 "<25>{#p/asriel2}{#f/15}* Or what? I'll float off into space, never to be seen again?",
-                "<25>{#f/16}* Come on $(name), we're done here."
+                "<25>{#f/16}* Hadi $(name), burada işimiz bitti."
             ],
-            asriel30c: ['<25>{*}{#p/asgore}{#f/8}* Asriel, please!\n* I only want to help!{^999}'],
+            asriel30c: ['<25>{*}{#p/asgore}{#f/8}* Asriel, lütfen!\n* Ben yalnızca yardım etmek istiyorum!{^999}'],
             asriel30d: () =>
                 [
-                    ['<25>{#p/asriel2}{#f/3}* Ready yourself, $(name).', "<26>{#f/4}* This is Undyne's domain."],
+                    ['<25>{#p/asriel2}{#f/3}* Kendini hazırla, $(name).', "<26>{#f/4}* Burası Undyne'ın alanı."],
                     ['<25>{#p/asriel2}{#f/4}* Take us in.']
                 ][Math.min(SAVE.flag.n.ga_asriel30d++, 1)],
             papyrusSolo1a: [
@@ -716,10 +716,10 @@ export default {
                 '<18>{#f/31}I OVERHEARD DR. ALPHYS TALKING...',
                 '<18>{#f/5}AND SHE MENTIONED SOMETHING LIKE \"TURN BACK TIME?\"',
                 "<18>{|}{#f/32}{#x1}I CAN'T BE SURE, BUT IT SOUNDS LIKE- {%}",
-                '<25>{#p/asriel2}{#f/6}* No.',
+                '<25>{#p/asriel2}{#f/6}* Hayır.',
                 '<18>{|}{#p/papyrus}{#f/6}BUT SHE SAID YOU MIGHT BE ABLE TO- {%}',
                 ...(SAVE.flag.n.genocide_milestone < 5
-                    ? ['<25>{#p/asriel2}{#f/6}* No.']
+                    ? ['<25>{#p/asriel2}{#f/6}* Hayır.']
                     : SAVE.flag.n.genocide_milestone < 6
                         ? ["<25>{#p/asriel2}{#f/6}* No.\n* Though, I'm sure she'd love it if I did."]
                         : ["<25>{#p/asriel2}{#f/6}* No.\n* And she'll be dead in the end, anyway."]),
@@ -749,7 +749,7 @@ export default {
                 '<18>{#p/papyrus}{#f/3}ASRIEL.',
                 '<25>{#p/asriel2}{#f/6}* Papyrus.',
                 '<18>{#p/papyrus}{#f/31}...',
-                '<18>{#f/31}WHY?',
+                '<18>{#f/31}NEDEN?',
                 '<18>{#f/31}WHY WOULD YOU DO THIS?',
                 "<18>{#f/3}MONSTERS AREN'T SUPPOSED TO BE LIKE THIS...",
                 "<18>{#f/5}WHERE'S YOUR LOVE?\nYOUR COMPASSION?",
@@ -761,42 +761,42 @@ export default {
                 '<18>{#f/31}... BE TURNED SO COMPLETELY TO THE DARK SIDE?',
                 '<25>{#p/asriel2}{#f/1}* You really wanna know?',
                 '<18>{#p/papyrus}{#f/3}...',
-                '<18>{#f/3}YES...',
+                '<18>{#f/3}EVET...',
                 '<25>{#p/asriel2}{#f/10}* But do you really, really wanna know?',
-                '<18>{#p/papyrus}{#f/31}YES.',
+                '<18>{#p/papyrus}{#f/31}EVET.',
                 '<25>{#p/asriel2}{#f/3}* Say it louder.',
-                '<18>{#p/papyrus}{#f/5}YES!',
+                '<18>{#p/papyrus}{#f/5}EVET!',
                 '<26>{#p/asriel2}{#f/1}* With an exoberry on top.',
                 '<18>{#p/papyrus}{#f/7}YES!\nWITH AN EXOBERRY ON TOP, DAMN IT!',
                 '<25>{#p/asriel2}{#f/1}* Hee hee hee...',
-                "<25>{#f/1}* Alright, I'll tell you.",
-                "<25>{#f/15}* In fact, it'll only take one word...",
-                '<18>{#p/papyrus}{#f/4}OH MY GOD, JUST SAY IT ALREADY...'
+                "<25>{#f/1}* Pekala, sana söyleyeceğim.",
+                "<25>{#f/15}* Hatta, yalnızca tek bir kelimeye bakar.",
+                '<18>{#p/papyrus}{#f/4}AMAN TANRIM, SADECE SÖYLE ARTIK...'
             ],
             papyrusSolo4b: [
                 '<25>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* $(name).{%100}',
                 '<18>{#p/papyrus}{#f/32}...!',
-                '<25>{#p/asriel2}{#f/5}* Hah!\n* Hahaha!\n* The look on your face!'
+                '<25>{#p/asriel2}{#f/5}* Hah!\n* Hahaha!\n* Yüzündeki ifade!'
             ],
-            papyrusSolo4c: ['<18>{#p/papyrus}{#f/31}I...', '<18>{#f/3}... NO...'],
+            papyrusSolo4c: ['<18>{#p/papyrus}{#f/31}BEN...', '<18>{#f/3}... HAYIR...'],
             papyrusSolo4d: [
-                "<18>{#p/papyrus}{#f/7}NO, YOU'RE WRONG.",
+                "<18>{#p/papyrus}{#f/7}HAYIR, YANILIYORSUN.",
                 "<18>{#f/7}YOU ARE THE ONE WHO'S BEEN TRYING TO BRING ME DOWN.",
                 "<18>{#f/7}YOU ARE THE ONE WHO'S FED ME LIE AFTER LIE.",
-                '<18>{#f/9}BUT I, PAPYRUS...',
+                '<18>{#f/9}AMA BEN, PAPYRUS...',
                 '<18>{#f/9}FINALLY UNDERSTAND THE {@fill=#f00}REAL TRUTH{@fill=#fff}.',
                 "<25>{#p/asriel2}{#f/13}* Oh?\n* And what's that?"
             ],
-            papyrusSolo4e: ["<18>{#p/papyrus}{#f/34}YOU'RE NOT {@fill=#f00}ASRIEL{@fill=#fff}."],
+            papyrusSolo4e: ["<18>{#p/papyrus}{#f/34}SEN {@fill=#f00}ASRİEL{@fill=#fff} DEĞİLSİN."],
             papyrusSolo4f: [
-                '<18>{#f/31}{@fill=#f00}ASRIEL{@fill=#fff} WOULD NEVER ACT LIKE THIS.',
-                '<18>{#f/5}{@fill=#f00}ASRIEL{@fill=#fff} WAS A KIND SOUL.',
-                '<18>{#f/5}{@fill=#f00}ASRIEL{@fill=#fff} BELIEVED IN PEOPLE...',
-                '<18>{#f/31}HE BELIEVED IN HUMANITY BEFORE ANYONE ELSE DID.',
-                '<18>{#f/4}YOU, ON THE OTHER HAND...',
-                '<18>{#f/7}YOU JUST WANT TO USE THEM FOR YOUR OWN ENDS!',
-                "<18>{#f/4}AND FRANKLY, I DON'T CARE WHAT YOU HAVE TO SAY.",
-                '<18>{#f/9}I STILL HAVE HOPE FOR THAT HUMAN.',
+                '<18>{#f/31}{@fill=#f00}ASRİEL{@fill=#fff} ASLA BÖYLE DAVRANMAZDI.',
+                '<18>{#f/5}{@fill=#f00}ASRİEL{@fill=#fff} NAZİK BİR RUHTU.',
+                '<18>{#f/5}{@fill=#f00}ASRİEL{@fill=#fff} BAŞKALARINA İNANDI...',
+                '<18>{#f/31}İNSANLIĞA HERKESTEN ÖNCE O İNANDI.',
+                '<18>{#f/4}ÖTE YANDAN, SEN...',
+                '<18>{#f/7}ONU YALNIZCA KENDİ AMAÇLARIN İÇİN KULLANMAK İSTİYORSUN!',
+                "<18>{#f/4}VE AÇIKÇASI, NE SÖYLEYECEĞİN UMRUMDA DEĞİL.",
+                '<18>{#f/9}BENİM O İNSAN İÇİN HALA UMUDUM VAR.',
                 "<25>{#p/asriel2}{#f/8}* Well, if you've got so much faith in them...",
                 '<25>{#f/7}* Then prove me wrong.',
                 "<25>{#f/3}* I'll let you take them on, one on one.",
@@ -814,7 +814,7 @@ export default {
                 ? ['<32>{#p/human}* (You place your hands on the heavily scratched door.)']
                 : ['<32>{#p/basic}* The door is covered in cat- claw scratches.'],
         gonezo: () =>
-            world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ... but nobody came.'],
+            world.bulrun ? ['<32>{#p/basic}* ... ama herkes kaçtı.'] : ['<32>{#p/basic}* ... ama kimse gelmedi.'],
         garbanzo: ['<32>{#p/human}* (But there was nobody around to occupy the seat.)'],
         doggonopoggo: () =>
             SAVE.data.b.svr
@@ -825,21 +825,21 @@ export default {
 
                     (game.room === 's_pacing' && SAVE.data.n.state_starton_lesserdog === 2) // NO-TRANSLATE
 
-                    ? ['<32>{#p/basic}* ... but nobody came.']
+                    ? ['<32>{#p/basic}* ... ama kimse gelmedi.']
                     : ["<32>{#p/basic}* Nobody's home."],
         housebloc: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* It's locked."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* Kilitli."],
         innkeep1a: pager.create(
             0,
             () => [
                 "<32>{#p/basic}{#npc/a}* Welcome to Starred Inn!\n* Starton's premier hotel!",
                 '<32>* One night will cost you 60G.',
-                choicer.create('* (Get a room?)', 'Evet', 'Hayır')
+                choicer.create('* (Oda al?)', 'Evet', 'Hayır')
             ],
             () => [
                 '<32>{#p/basic}{#npc/a}* Changed your mind?',
                 '<32>* Remember, one night is 60G.',
-                choicer.create('* (Get a room?)', 'Evet', 'Hayır')
+                choicer.create('* (Oda al?)', 'Evet', 'Hayır')
             ]
         ),
         innkeep1b: pager.create(
@@ -882,10 +882,10 @@ export default {
         ],
         kidd1: pager.create(
             2,
-            ["<25>{#p/kidd}{#f/1}* What's up?"],
+            ["<25>{#p/kidd}{#f/1}* Naber?"],
             ['<25>{#p/kidd}{#f/1}* Yo, howzzitgoin?'],
             ['<25>{#p/kidd}{#f/1}* Hey, hey!'],
-            ['<25>{#p/kidd}{#f/1}* Nice to see you, haha.'],
+            ['<25>{#p/kidd}{#f/1}* Seni görmek güzel, haha.'],
             ["<25>{#p/kidd}{#f/1}* Woah, dude, what's up?"]
         ),
         kidd2: pager.create(
@@ -898,7 +898,7 @@ export default {
                         "<25>{#p/kidd}{#f/1}* I can tell 'cause you're wearing a striped shirt."
                     ]
                     : [
-                        '<25>{#p/kidd}{#f/7}* Wait, you read books too!?',
+                        '<25>{#p/kidd}{#f/7}* Bekle, sen de mi kitap okuyorsun!?',
                         '<25>{#p/kidd}{#f/1}* That librarby taught me everything I know about monster history!',
                         "<25>{#p/kidd}{#f/3}* I can't even imagine what living on a planet is like..."
                     ],
@@ -906,7 +906,7 @@ export default {
                 game.room === 's_town1' // NO-TRANSLATE
 
                     ? ['<25>{#p/kidd}{#f/1}* I wonder if that short skeleton is an adult or a kid.']
-                    : ['<25>{#p/kidd}{#f/3}* Have you ever lived on a planet?']
+                    : ['<25>{#p/kidd}{#f/3}* Daha önce hiç bir gezegende yaşadın mı?']
         ),
         marriage1: [
             "<32>{#p/basic}* What's that smell?\n* (Where's that smell?)",
@@ -941,28 +941,28 @@ export default {
             "<32>{#p/basic}* Where's the prince?\n* (Did we come the right way?)",
             '<32>* We must stop that menace...\n* (... and his human companion!)'
         ],
-        marriage5: ['<32>{#p/basic}* Hmmm...\n* Here they are...', "<32>* (Let's capture them!)"],
+        marriage5: ['<32>{#p/basic}* Hmmm...\n* İşte buradalar...', "<32>* (Hadi onları yakalayalım!)"],
         maze1: () =>
             world.edgy
                 ? [
-                    '<25>{#p/sans}{#f/0}* welcome back.',
-                    "<25>{#p/sans}{#f/3}* it's a shame papyrus can't be here, because...",
-                    "<25>{#p/sans}{#f/2}* he's been working very hard on this puzzle for a long time.",
-                    "<25>{#p/sans}{#f/0}* but that's alright.",
-                    "<25>{#p/sans}{#f/0}* i promised him earlier that i'd show it to you, so here goes."
+                    '<25>{#p/sans}{#f/0}* tekrar hoşgeldin.',
+                    "<25>{#p/sans}{#f/3}* papyrus'un burada olamaması çok yazık, çünkü...",
+                    "<25>{#p/sans}{#f/2}* bu bulmaca üzerinde uzun zamandır çok sıkı çalışıyordu.",
+                    "<25>{#p/sans}{#f/0}* ama sorun değil.",
+                    "<25>{#p/sans}{#f/0}* bir süre önce bunu sana göstereceğime dair ona söz vermiştim, hadi bakalım."
                 ]
                 : [
                     '<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!',
                     '<18>MY BROTHER AND I HAVE CREATED MANY PUZZLES.',
                     '<18>{#f/9}ARE YOU UP FOR THE CHALLENGE, HUMAN!?',
-                    choicer.create('* (What do you say?)', 'Evet', 'Hayır'),
+                    choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır'),
                     '<18>{#p/papyrus}CORRECT ANSWER!\nFOR YOU SEE...'
                 ],
         maze2a: [
             '<18>{#x4}{#f/9}NO CRAFTSMAN HAS EVER MADE TRAPS AS FINE AS ME!',
             "<18>{#f/0}THEY'RE PRACTICALLY IRRESISTIBLE!",
-            "<25>{#x1}{#p/sans}{#f/2}* maybe you're the one who's irresistible.",
-            '<18>{#p/papyrus}{#f/1}REALLY!?'
+            "<25>{#x1}{#p/sans}{#f/2}* belki karşı konulamaz olan sensindir.",
+            '<18>{#p/papyrus}{#f/1}GERÇEKTEN Mİ!?'
         ],
         maze2b: [
             '<18>{#x4}{#f/9}NO HUMAN HAS EVER BESTED A PUZZLE BY THE GREAT PAPYRUS!',
@@ -1003,7 +1003,7 @@ export default {
                         '<25>{#p/sans}{#f/3}* come on.\n* at least try to be a good sport.'
                     ]
                     : ["<18>{#p/papyrus}{#x2}{#f/7}WHERE DO YOU THINK YOU'RE GOING!?"],
-            () => (world.edgy ? ['<25>{#p/sans}{#f/0}* seriously?'] : ['<18>{#p/papyrus}{#x2}{#f/7}GET BACK HERE!!'])
+            () => (world.edgy ? ['<25>{#p/sans}{#f/0}* gerçekten mi?'] : ['<18>{#p/papyrus}{#x2}{#f/7}GET BACK HERE!!'])
         ),
         maze7: [
             [
@@ -1023,7 +1023,7 @@ export default {
             [
                 '<18>{#p/papyrus}{#f/4}(SANS, WHAT IS THE HUMAN DOING??)',
                 '<25>{#p/sans}* they could just be studying the pattern.',
-                '<18>{#p/papyrus}{#f/4}(OH, TRUE.)',
+                '<18>{#p/papyrus}{#f/4}(AH, DOĞRU.)',
                 '<18>{#f/9}IN THAT CASE, PROCEED WHEN READY!'
             ]
         ],
@@ -1062,7 +1062,7 @@ export default {
                     "<25>{#p/sans}* terrestria?\n* isn't she literally the oldest monster alive?",
                     '<18>{|}{#p/papyrus}{#f/1}UH...\nWELL YES, BUT- {%}',
                     "<25>{#p/sans}* dang, i didn't know you thought THAT highly of me.",
-                    '<18>{#p/papyrus}{#f/4}WHAT.',
+                    '<18>{#p/papyrus}{#f/4}NE.',
                     "<25>{|}{#p/sans}* like, if even SHE can't do it, then- {%}",
                     '<18>{#p/papyrus}{#f/7}{#x3}I GET THE POINT!!'
                 ],
@@ -1085,7 +1085,7 @@ export default {
         ],
         nicecreamSc3: () => [
             "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
-            SAVE.data.b.s_state_million ? '<32>* For you, 6G!' : '<32>* Now just 12G.'
+            SAVE.data.b.s_state_million ? '<32>* Senin için, 6A!' : '<32>* Şimdi sadece 12A.'
         ],
         nicecreamPrompt1: () => [choicer.create('* (Buy the Ice Dream for $(x)G?)', 'Evet', 'Hayır')],
         nicecreamPrompt2: () => [choicer.create('* (Get an Ice Dream?)', 'Evet', 'Hayır')],
@@ -1109,7 +1109,7 @@ export default {
         ],
         nicecreamFc3b: [
             "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
-            '<32>* Now just 10G.'
+            '<32>* Şimdi sadece 10A.'
         ],
         nicecreamFc4: [
             '<32>{#p/basic}* Well then...\n* Tell your friends...',
@@ -1194,12 +1194,12 @@ export default {
                             "<32>* Remember to hold [X] to move twice as slowly.\n* That's very important."
                         ]
                         : roomKills().s_doggo > 0
-                            ? ["<32>{#p/basic}{#npc/a}* Get away from me, man!\n* I don't like you."]
+                            ? ["<32>{#p/basic}{#npc/a}* Uzak dur benden, adamım!\n* Senden hoşlanmıyorum."]
                             : SAVE.data.n.plot < 19
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* I heard if you hold [X] in battle, you'll move twice as slow as normal!",
-                                    '<32>* I know... lame, right?',
-                                    "<32>* But I'll tell you a secret.\n* That dog over there... won't expect you to move slowly.",
+                                    "<32>{#p/basic}{#npc/a}* Duyduğuma göre eğer savaş sırasında [X]'e basılı tutarsan, normalden iki kat daha yavaş ilerlersin!",
+                                    '<32>* Biliyorum... sıkıcı, değil mi?',
+                                    "<32>* Ama sana bir sır vereceğim.\n* Şuradaki köpek... senin yavaş ilerlemeni beklemeyecektir.",
                                     '<32>* If you sneak up on him while holding [X], you might just get by undetected!',
                                     '<32>* Guh huh huh... good luck.'
                                 ]
@@ -1348,16 +1348,16 @@ export default {
                                         "<32>* It's too bad it only produces monster food."
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Hmmm...\n* Isn't human food different from monster food?",
-                                        '<32>* It does things like \"spoil.\"',
-                                        '<32>* And while monster food converts to energy instantly...',
-                                        '<32>* Human food has to pass all the way through their bodies first.',
-                                        '<32>* Which it somehow does, even on low gravity.',
-                                        "<32>* How strange.\n* I'd love to try it sometime."
+                                        "<32>{#p/basic}{#npc/a}* Hmmm...\n* İnsan yemekleri canavar yemeklerinden farklı değil mi?",
+                                        '<32>* \"Bayatlamak\" gibi şeyler yapıyorlar.',
+                                        '<32>* Ve canavar yemekleri anında enerjiye dönerken...',
+                                        '<32>* İnsan yemeklerinin önce tüm vücutlarından geçmesi gerekir.',
+                                        '<32>* Ki bunu düşük yerçekiminde bile bir şekilde yapıyorlar.',
+                                        "<32>* Ne ilginç.\n* Bir gün denemeyi çok isterdim."
                                     ],
                 () =>
                     SAVE.data.b.killed_mettaton
-                        ? ['<32>{#p/basic}{#npc/a}* How unfortunate.']
+                        ? ['<32>{#p/basic}{#npc/a}* Ne yazık.']
                         : SAVE.data.n.plot === 33
                             ? papreal()
                                 ? world.dead_skeleton
@@ -1381,7 +1381,7 @@ export default {
                                     : ['<32>{#p/basic}{#npc/a}* I\'ve also heard they have things called \"bathrooms.\"'],
                 () =>
                     SAVE.data.b.killed_mettaton
-                        ? ['<32>{#p/basic}{#npc/a}* How unfortunate.']
+                        ? ['<32>{#p/basic}{#npc/a}* Ne yazık.']
                         : SAVE.data.n.plot === 33
                             ? papreal()
                                 ? ['<32>{#p/basic}{#npc/a}* How strange.']
@@ -1545,7 +1545,7 @@ export default {
                                             "<32>* It'd be too easy!"
                                         ]
                                         : papreal()
-                                            ? ['<32>{#p/basic}{#npc/a}* Papyrus?\n* Is that you?\n* Come on...']
+                                            ? ['<32>{#p/basic}{#npc/a}* Papyrus?\n* Bu sen misin?\n* Hadi ama...']
                                             : [
                                                 "<32>{#p/basic}{#npc/a}* I'm thinking of letting my hair grow out a little to show off my personality.",
                                                 '<32>* It makes a statement like \"Give me a big, soft hug and cuddle me, please.\"'
@@ -1727,8 +1727,8 @@ export default {
                         ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Soon, I tell you.', '<32>* Soon.']
-                        : ["<32>{#p/basic}{#npc/a}* I know what you're thinking.", "<32>* Don't try it."]
+                        ? ['<32>{#p/basic}{#npc/a}* Yakında, sana söyleyeceğim.', '<32>* Yakında.']
+                        : ["<32>{#p/basic}{#npc/a}* Ne düşündüğünü biliyorum.", "<32>* Don't try it."]
             ),
             l_kakurolady: pager.create(
                 0,
@@ -1736,8 +1736,8 @@ export default {
                     SAVE.data.n.plot === 72
                         ? [
                             '<32>{#p/basic}{#npc/a}* (Cough, cough.)',
-                            "<32>* This will be our news feed's last issue...",
-                            '<32>* Why don\'t we just put a big \"THE END\" on the front and call it a day?'
+                            "<32>* Bu haber akışımızın son sayısı olacak...",
+                            '<32>* Neden ön tarafa kocaman bir \"SON\" yazıp bu işi bitirmiyoruz?'
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* (Cough, cough.)',
@@ -2235,12 +2235,12 @@ export default {
                                 ],
                 () =>
                     SAVE.data.n.plot === 72
-                        ? ['<32>{#p/basic}{#npc/a}* Thanks for bringing us back.']
+                        ? ['<32>{#p/basic}{#npc/a}* Bizi geri getirdiğin için teşekkürler.']
                         : SAVE.data.b.killed_mettaton
-                            ? ["<32>{#p/basic}{#npc/a}* It's too bad we can't just magically bring them back."]
+                            ? ["<32>{#p/basic}{#npc/a}* Onları öylece sihirli bir şekilde geri getiremiyor olmamız ne kötü."]
                             : papreal()
-                                ? ["<32>{#p/basic}{#npc/a}* It's too bad we can't just magically fix these things."]
-                                : ['<32>{#p/basic}{#npc/a}* We may never know.']
+                                ? ["<32>{#p/basic}{#npc/a}* Bunları öylece sihirli bir şekilde düzeltemiyor olmamız ne kötü."]
+                                : ['<32>{#p/basic}{#npc/a}* Asla bilemeyebiliriz.']
             ),
             t_smileguy: pager.create(
                 0,
@@ -2248,32 +2248,32 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                "<32>{#p/basic}{#npc/a}* So we're free, huh?",
-                                "<32>* I guess I don't have to keep smiling anymore...",
-                                "<32>* ... strange.\n* I don't feel like not smiling, but smiling also seems wrong.",
-                                "<32>* This is too deep.\n* I'm sticking to what I know."
+                                "<32>{#p/basic}{#npc/a}* Demek özgürüz, ha?",
+                                "<32>* Sanırım artık gülümseyip durmak zorunda değilim.",
+                                "<32>* ... tuhaf.\n* Gülümsememek içimden gelmiyor, ama gülümsemek de yanlış geliyor.",
+                                "<32>* Bu iş fazla derinleşti.\n* Bildiğim şeye bağlı kalacağım."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* So we're free, huh?",
-                                "<32>* I guess I don't have to keep smiling anymore...",
-                                "<32>* ... huh.\n* Then why can't I stop?",
-                                "<32>* For some reason, I don't want to stop smiling now!"
+                                "<32>{#p/basic}{#npc/a}* Demek özgürüz, ha?",
+                                "<32>* Sanırım artık gülümseyip durmak zorunda değilim.",
+                                "<32>* ... ha.\n* Öyleyse neden duramıyorum?",
+                                "<32>* Nedense, artık gülümsemeyi bırakmak istemiyorum!"
                             ]
                         : papreal() || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* Just now, I felt my smile falter for a moment.', "<32>* What's wrong?"]
+                            ? ['<32>{#p/basic}{#npc/a}* Biraz önce, gülümsememin bir an için solduğunu hissettim.', "<32>* Sorun ne?"]
                             : [
-                                "<32>{#p/basic}{#npc/a}* We all know things haven't gone how we'd hoped, but we smile anyway.",
-                                '<32>* Why?',
-                                '<32>* This is our reality, so why be morose about it?'
+                                "<32>{#p/basic}{#npc/a}* Hepimiz işlerin umduğumuz gibi gitmediğini biliyoruz, ama yine de gülümsüyoruz.",
+                                '<32>* Neden mi?',
+                                '<32>* Bu bizim gerçekliğimiz, o halde neden surat asalım?'
                             ],
                 () =>
                     SAVE.data.n.plot === 72
                         ? world.population < 2
-                            ? ['<32>{#p/basic}{#npc/a}* Smile smile.']
-                            : ['<32>{#p/basic}{#npc/a}* Smile smile!']
+                            ? ['<32>{#p/basic}{#npc/a}* Gülümse gülümse.']
+                            : ['<32>{#p/basic}{#npc/a}* Gülümse gülümse!']
                         : papreal() || SAVE.data.b.killed_mettaton
-                            ? ['<32>{#p/basic}{#npc/a}* Smile smile?']
-                            : ['<32>{#p/basic}{#npc/a}* Smile smile.']
+                            ? ['<32>{#p/basic}{#npc/a}* Gülümse gülümse?']
+                            : ['<32>{#p/basic}{#npc/a}* Gülümse gülümse.']
             ),
             t_wisconsin: pager.create(
                 0,
@@ -2281,12 +2281,12 @@ export default {
                     SAVE.data.n.plot === 72
                         ? world.population < 2
                             ? [
-                                '<32>{#p/basic}{#npc/a}* Freedom...',
+                                '<32>{#p/basic}{#npc/a}* Özgürlük...',
                                 "<32>* That means I don't have to worry about getting beat up anymore.",
                                 '<32>* Haha.'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Freedom...',
+                                '<32>{#p/basic}{#npc/a}* Özgürlük...',
                                 "<32>* That means I don't have to worry about cracking jokes anymore.",
                                 '<32>* ...',
                                 '<32>* What does a mouse do when it finally gets the cheese?',
@@ -2371,8 +2371,8 @@ export default {
                                         [
                                             '<32>* (In fact...)',
                                             '<32>* (Here, kid.)\n* (Have a key, on us.)',
-                                            '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-                                            '<32>* (Check your CELL to see all acquired keys.)',
+                                            '<32>{#s/equip}{#p/human}* (Paslı Anahtar anahtarlığına eklendi.)',
+                                            '<32>* (Elde edilen tüm anahtarları görmek için CEP\'i kontrol edin.)',
                                             "<32>{#p/basic}{#npc/a}* (We've, uh, got an armory somewhere, I think.)"
                                         ])),
                                 ...(SAVE.data.b.oops
@@ -2436,7 +2436,7 @@ export default {
                         '<32>{#p/human}* (You look behind the microwave...)',
                         '<32>{#p/human}* (But you already flipped the switch here.)'
                     ]
-                    : ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nothing new back here.'],
+                    : ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Arkada yeni bir şey yok.'],
             microwave3: () =>
                 SAVE.data.b.svr
                     ? ["<32>{#p/human}* (But you didn't notice anything of note about this appliance.)"]
@@ -2871,9 +2871,9 @@ export default {
                 SAVE.data.b.flirt_papyrus
                     ? '<18>{#f/9}DO WHATEVER PEOPLE DO WHEN THEY DATE!'
                     : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
-                choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+                choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
             ],
-            () => ['<18>{#p/papyrus}READY?', choicer.create('* (What do you say?)', 'Evet', 'Hayır')]
+            () => ['<18>{#p/papyrus}READY?', choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')]
         ),
         papdate4a: ["<18>{#p/papyrus}OKAY, LET'S GO!"],
         papdate4b: ["<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!"],
@@ -2885,9 +2885,9 @@ export default {
                 SAVE.data.b.flirt_papyrus
                     ? '<18>{#f/6}DO YOU WANT TO START DATING?'
                     : '<18>{#f/6}DO YOU WANT TO START HANGING OUT?',
-                choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+                choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
             ],
-            () => ['<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (What do you say?)', 'Evet', 'Hayır')]
+            () => ['<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')]
         ),
         papdate5a: () => [
             SAVE.data.b.flirt_papyrus
@@ -2949,7 +2949,7 @@ export default {
                 ? '<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!'
                 : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
         ],
-        papdate14: () => [choicer.create('* (What do you say?)', 'Evet', 'Hayır')],
+        papdate14: () => [choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')],
         papdate15a: ['<15>{#p/papyrus}{#f/12}R-REALLY???', '<15>{#f/11}WOWIE!!!'],
         papdate15a1: ["<15>{#f/24}I GUESS THAT MEANS IT'S TIME FOR STEP THREE..."],
         papdate15b: ['<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FORTUNATELY, IT ONLY SAYS TO ASK.'],
@@ -3026,7 +3026,7 @@ export default {
             '<15>{#f/15}BEHOLD!!'
         ],
         papdate21: ['<15>{#p/papyrus}{#f/15}WHAT DO YOU THINK OF MY SECRET STYLE?'],
-        papdate22: () => [choicer.create('* (What do you say?)', 'It rocks', 'It sucks')],
+        papdate22: () => [choicer.create('* (Ne diyorsun?)', 'It rocks', 'It sucks')],
         papdate23a: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A GENUINE COMPLIMENT...!'],
         papdate23b: ['<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A CRITICAL, YET HONEST REVIEW...!'],
         papdate24: [
@@ -3415,7 +3415,7 @@ export default {
         ],
         papsolu3a: () => [
             '<18>{#p/papyrus}{#f/9}DO YOU ABSOLUTELY, DAPSOLUTELY WANT THE SOLUTION???',
-            choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+            choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
         ],
         papsolu3a1: () => [
             '<18>{#p/papyrus}THE! SOLUTION! IS!',
@@ -3540,7 +3540,7 @@ export default {
         ],
         papyrus6x4: ['<32>{#p/without}* ... papyrus?'],
         papyrus6: () => [
-            '<18>{#p/papyrus}{#f/9}HUMAN!!',
+            '<18>{#p/papyrus}{#f/9}İNSAN!!',
             world.nootflags.has('s_puzzle2') // NO-TRANSLATE
 
                 ? '<18>{#f/4}YOU MAY HAVE HAD AN EASY TIME BEFORE.'
@@ -3572,7 +3572,7 @@ export default {
             '<25>{#p/sans}* oh, heheh.\n* guess i got a little {@fill=#ff0}carried away{@fill=#fff}, huh?',
             '<18>{#p/papyrus}{#f/4}YEAH, YEAH...',
             '<18>{#f/9}WELL!\nDO YOU UNDERSTAND THE EXPLANATION?',
-            choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+            choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
         ],
         papyrus7: () => [
             "<18>{#p/papyrus}{#f/9}WELL, LET'S REVIEW THEN!",
@@ -3593,7 +3593,7 @@ export default {
             "<25>{#p/sans}* wasn't that supposed to be my cue?",
             '<18>{#p/papyrus}{#f/6}MAYBE???',
             '<18>{#f/7}WHATEVER!!\nDO YOU UNDERSTAND IT NOW!?',
-            choicer.create('* (What do you say?)', 'Sure', 'Even less')
+            choicer.create('* (Ne diyorsun?)', 'Sure', 'Even less')
         ],
         papyrus8: [
             '<18>{#p/papyrus}{#f/9}WELL... THEN...',
@@ -3846,7 +3846,7 @@ export default {
             "<18>{#f/4}NOT TO MENTION, I'M GETTING TIRED OF CAPTURING YOU.",
             '<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH...',
             '<18>{#f/5}... WITHOUT A BATTLE?',
-            choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+            choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
         ],
         papyrusFinal7a: ['<18>{#p/papyrus}{#f/31}...\nOKAY...', "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE."],
         papyrusFinal7b: ['<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN...', '<18>{#f/9}BY ALL MEANS!!!'],
@@ -3854,7 +3854,7 @@ export default {
             '<18>{#p/papyrus}{#f/1}AGAIN??',
             '<18>{#f/4}... WELL, OKAY...',
             '<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??',
-            choicer.create('* (What do you say?)', 'Evet', 'Hayır')
+            choicer.create('* (Ne diyorsun?)', 'Evet', 'Hayır')
         ],
         papyrusFinal8a: ['<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!'],
         puzzle3: () => [
@@ -3866,124 +3866,124 @@ export default {
             ...(!world.goatbro || SAVE.flag.n.genocide_milestone < 5 || SAVE.flag.n.ga_asrielAlphysCom1++ > 0
                 ? []
                 : ["<25>{#p/asriel2}{#f/13}* She's been against us the whole time..."]),
-            '<32>{#p/basic}* \"Would you like to view the pattern?\"',
-            choicer.create('* (View the pattern?)', 'Evet', 'Hayır')
+            '<32>{#p/basic}* \"Örüntüyü görüntülemek ister misin?\"',
+            choicer.create('* (Örüntüyü görüntüle?)', 'Evet', 'Hayır')
         ],
         robotx: () =>
             SAVE.data.b.svr
-                ? ['<32>{#p/human}* (The robot appears to be asleep.)']
-                : ["<32>{#p/basic}* It's in sleep mode."],
+                ? ['<32>{#p/human}* (Robot uyuyor gibi görünüyor.)']
+                : ["<32>{#p/basic}* Uyku modunda."],
         robot1: pager.create(
             0,
             () => [
-                '<32>{#p/basic}* Hello.\n* I am a builder bot.',
-                '<32>* I want to see the galaxy...\n* But I cannot move.',
-                '<32>* If you would be so kind, traveler, please...',
-                '<32>* Take one of my computer chips and bring it to another computer very far away.',
-                choicer.create('* (Take a chip?)', 'Evet', 'Hayır')
+                '<32>{#p/basic}* Merhaba.\n* Ben bir inşaat botuyum.',
+                '<32>* Ben galaksiyi görmek istiyorum...\n* Ama hareket edemiyorum.',
+                '<32>* Eğer nezaket gösterirseniz, siz gezgin, lütfen...',
+                '<32>* Bilgisayar çiplerimden birini alın ve uzaklardaki başka bir bilgisayara götürün.',
+                choicer.create('* (Bir çip al?)', 'Evet', 'Hayır')
             ],
             () => [
-                '<32>{#p/basic}* If you would be so kind, traveler, please...',
-                '<32>* Take one of my computer chips and bring it to another computer very far away.',
-                choicer.create('* (Take a chip?)', 'Evet', 'Hayır')
+                '<32>{#p/basic}* Eğer nezaket gösterirseniz, siz gezgin, lütfen...',
+                '<32>* Bilgisayar çiplerimden birini alın ve uzaklardaki başka bir bilgisayara götürün.',
+                choicer.create('* (Bir çip al?)', 'Evet', 'Hayır')
             ]
         ),
         robot2: () => [
-            '<32>{#p/basic}* Thank you... good luck!',
-            '<32>{#s/equip}{#p/human}* (You got the Computer Chip.)',
+            '<32>{#p/basic}* Teşekkür ederim... Bol şans!',
+            '<32>{#s/equip}{#p/human}* (Bilgisayar Çipini aldın.)',
             ...(world.goatbro && SAVE.flag.n.ga_asriel98++ < 1
                 ? [
-                    "<25>{#p/asriel2}{#f/9}* Pfft, that's adorable.",
-                    "<25>{#p/asriel2}{#f/13}* This robot has no idea what's going on here..."
+                    "<25>{#p/asriel2}{#f/9}* Pfft, bu çok şirin.",
+                    "<25>{#p/asriel2}{#f/13}* Bu robotun buralarda ne dönüp bittiğinden hiçbir haberi yok..."
                 ]
                 : [])
         ],
-        robot3: ['<32>{#p/basic}* It seems you do not have enough room for me.'],
+        robot3: ['<32>{#p/basic}* Benim için yeterli alanın yok gibi görünüyor.'],
         robot4: () => [
-            '<32>{#p/basic}* I see.\n* Good journey, then.',
+            '<32>{#p/basic}* Anlıyorum.\n* İyi yolculuklar, öyleyse.',
             ...(world.goatbro && SAVE.flag.n.ga_asriel98++ < 1
                 ? [
-                    "<25>{#p/asriel2}{#f/9}* Pfft, that's adorable.",
-                    "<25>{#p/asriel2}{#f/13}* This robot has no idea what's going on here..."
+                    "<25>{#p/asriel2}{#f/9}* Pfft, bu çok şirin.",
+                    "<25>{#p/asriel2}{#f/13}* Bu robotun buralarda ne dönüp bittiğinden hiçbir haberi yok..."
                 ]
                 : [])
         ],
         robot5: () => [
-            '<32>{#p/basic}* Thank you for taking care of me.',
+            '<32>{#p/basic}* Benimle ilgilendiğiniz için teşekkür ederim.',
             ...(world.goatbro && SAVE.flag.n.ga_asriel99++ < 1
                 ? ["<25>{#p/asriel2}{#f/4}* It's alright, we don't need any more for now."]
                 : [])
         ],
         robot6: () => [
-            '<32>{#p/basic}* How am I doing?\n* By \"I\" I mean the chip I gave you...',
-            '<32>* Huh? You lost it...?\n* ... I suppose I can give you another one...',
-            choicer.create('* (Take another chip?)', 'Evet', 'Hayır')
+            '<32>{#p/basic}* Ben nasılım?\n* \"Ben\" derken size verdiğim çipten bahsediyorum...',
+            '<32>* Ha? Kayıp mı ettin...?\n* ... Sanıyorum ki size başka bir tane daha verebilirim...',
+            choicer.create('* (Bir tane daha çip al?)', 'Evet', 'Hayır')
         ],
         robot7: [
-            '<32>{#p/basic}* Please be careful this time.',
-            '<32>{#p/human}{#s/equip}* (You got the Computer Chip.)'
+            '<32>{#p/basic}* Lütfen bu kez dikkatli olun.',
+            '<32>{#p/human}{#s/equip}* (Bilgisayar Çipini aldın.)'
         ],
-        robot8: ['<32>{#p/basic}* I understand.\n* Safe journey, then...'],
+        robot8: ['<32>{#p/basic}* Anladım.\n* İyi yolculuklar, öyleyse...'],
         robot9: () => [
-            '<32>{#p/basic}* Thank you for... taking care of me...',
+            '<32>{#p/basic}* Benimle ilgilendiğiniz için... teşekkür ederim...',
             ...(world.goatbro && SAVE.flag.n.ga_asriel99++ < 1
                 ? ["<25>{#p/asriel2}{#f/4}* It's alright, we don't need any more for now."]
                 : [])
         ],
         robot10: [
-            '<32>{#p/basic}* How am I doing?',
-            '<32>* Huh? Again...?',
-            "<32>* I'm sorry... if I give you any more, there will be nothing left of me.",
-            '<32>* I suppose it is true.\n* Traveling beyond our limits is but a fantasy.',
+            '<32>{#p/basic}* Ben nasılım?',
+            '<32>* Ha? Yine mi...?',
+            "<32>* Üzgünüm... eğer size daha fazla verirsem, benden geriye hiçbir şey kalmayacak.",
+            '<32>* Sanırım bu doğru.\n* Limitlerimizin dışına erişmek yalnızca bir fantezi.',
             "<32>* It's no different for anyone else.",
             '<32>* All of monsterkind are doomed to live out here forever...'
         ],
         robot11: ['<32>{#p/basic}* Why did I give myself away so easily?'],
         robot12: ['<32>{#p/basic}* Begone!'],
         sans1: [
-            '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}Human.',
-            "<99>* {@spacing=2.25/0}Don't you know how to{@spacing=}\n  {@spacing=2.25/0}greet a new pal?",
-            '<99>* {@spacing=2.25/0}Turn around and shake{@spacing=}\n  {@spacing=2.25/0}my hand.'
+            '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}İnsan.',
+            "<99>* {@spacing=2.25/0}Yeni bir dostu nasıl karşılayacağını{@spacing=}\n  {@spacing=2.25/0}bilmiyor musun?",
+            '<99>* {@spacing=2.25/0}Arkanı dön ve{@spacing=}\n  {@spacing=2.25/0}elimi sık.'
         ],
         sans2: () => [
             ...(world.edgy
                 ? [
-                    "<25>{#p/sans}{#f/0}* huh?\n* what's with the face?",
-                    "<25>{#p/sans}{#f/2}* ... didn't you like my whoopee cushion?",
-                    '<25>{#f/0}* ... eh.\n* to each their own.'
+                    "<25>{#p/sans}{#f/0}* ha?\n* o yüz ifadesi de ne öyle?",
+                    "<25>{#p/sans}{#f/2}* ... osuruk yastığımı beğenmedin mi?",
+                    '<25>{#f/0}* ... eh.\n* herkesin zevki kendine.'
                 ]
-                : ["<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."]),
-            "<25>{#f/0}* anyway, you're a human, right?",
-            "<25>{#f/5}* that's fantastic.",
-            "<25>{#f/0}* i'm sans.\n* sans the skeleton.",
-            '<25>{#f/3}* as a royal sentry, my job is to capture humans.',
-            "<25>{#f/4}* but... y'know...",
+                : ["<25>{#p/sans}{#f/4}* heheh... iyi bi' osuruk yastığı gibisi yok."]),
+            "<25>{#f/0}* her neyse, sen bir insansın, öyle değil mi?",
+            "<25>{#f/5}* bu fantastik.",
+            "<25>{#f/0}* ben sans.\n* iskelet sans.",
+            '<25>{#f/3}* bir kraliyet nöbetçisi olarak, benim işim insanları yakalamak.',
+            "<25>{#f/4}* ama... bilirsin ya...",
             ...(world.edgy
                 ? [
-                    "<25>{#f/2}* i don't really feel like doing much work today.",
-                    '<25>{#f/0}* as for my brother, well...',
-                    "<25>{#f/5}* he's OVERFLOWING with energy.",
-                    '<25>{#f/0}* it took everything i had just to get him to stay home.'
+                    "<25>{#f/2}* bugün pek bir iş yapacakmışım gibi hissetmiyorum.",
+                    '<25>{#f/0}* kardeşime gelecek olursak, tabii...',
+                    "<25>{#f/5}* kendisi enerjiyle DOLUP TAŞIYOR.",
+                    '<25>{#f/0}* onun evde kalmasını sağlamak her şeyimi aldı.'
                 ]
                 : [
-                    "<25>{#f/2}* i've got better things to do.",
-                    '<25>{#f/0}* as for my brother, well...',
-                    '<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one.',
-                    "<25>{#f/0}* in fact, i think that's him over there."
+                    "<25>{#f/2}* yapacak daha iyi işlerim var.",
+                    '<25>{#f/0}* kardeşime gelecek olursak, tabii...',
+                    '<25>{#f/5}* kendisi gerçek bir nöbetçi olmamasına rağmen, öyleymiş gibi DAVRANMASINI iyi biliyor.',
+                    "<25>{#f/0}* aslında, şuradaki kendisi gibi görünüyor."
                 ]),
-            '<25>* i have an idea.\n* jump across that gap, will ya?',
-            '<26>{#f/4}* yeah, jump right across.\n* my bro set the gravity too low to stop anyone.'
+            '<25>* bir fikrim var.\n* şu boşluğun üstünden atla, oldu mu?',
+            '<26>{#f/4}* evet, üstünden atla.\n* benim kardo yerçekimini birilerini durduramayacak kadar düşük ayarladı.'
         ],
         sans3: () =>
             world.edgy
                 ? [
-                    '<25>{#p/sans}* well, here we are.',
-                    "<25>{#f/3}* i'm afraid there's not much else i can show you right now...",
-                    "<25>{#f/2}* but maybe i'll come up with something if you keep heading forward.",
-                    "<25>{#f/0}* for now, i'll just hang around here."
+                    '<25>{#p/sans}* pekala, işte buradayız.',
+                    "<25>{#f/3}* ne yazık ki şu anda sana daha fazla gösterebileceğim bir şey yok...",
+                    "<25>{#f/2}* ama belki ilerlemeye devam edersen bir şeyler bulurum.",
+                    "<25>{#f/0}* şimdilik, sadece buralarda takılacağım."
                 ]
-                : ['<25>{#p/sans}* quick, to the gravometric inverter.'],
-        sans4: ["<25>{#p/sans}* 'sup, bro?"],
+                : ['<25>{#p/sans}* çabuk, kütleçekimsel invertöre.'],
+        sans4: ["<25>{#p/sans}* naber, kardo?"],
         sans5: [
             '<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!',
             '<18>YOU HAVE PUZZLES TO ATTEND TO!',
@@ -3991,9 +3991,9 @@ export default {
             '<18>YOU SIT AROUND AND DO NOTHING ALL DAY!',
             "<18>EVEN NOW, THAT'S WHAT YOU'RE DOING!",
             '<18>NOTHING!',
-            "<25>{#p/sans}* actually, i'm playing with this gravometric thingy.",
-            "<25>* it's really cool.",
-            '<25>{#f/4}* do you wanna look?',
+            "<25>{#p/sans}* aslında, bu kütleçekimsel invertör şeyiyle oynuyorum.",
+            "<25>* kendisi oldukça havalı.",
+            '<25>{#f/4}* bir göz atmak ister misin?',
             "<18>{#p/papyrus}{#x3}{#f/7}NO!!\nI DON'T HAVE TIME FOR THAT!!",
             '<18>{#x2}IF A HUMAN COMES THROUGH HERE, I WANT TO BE READY!',
             '<18>I MUST BE THE ONE!\nI WILL BE THE ONE!',
@@ -4003,24 +4003,24 @@ export default {
             '<18>RESPECT...\nRECOGNITION...',
             '<18>{#f/9}I WILL FINALLY BE ABLE TO JOIN THE ROYAL GUARD!',
             '<25>{#p/sans}* hmm...',
-            '<25>{#f/2}* maybe this gadget will help you.',
+            '<25>{#f/2}* belki bu alet sana yardım eder.',
             "<18>{#p/papyrus}{#x3}{#f/7}SANS, THAT WON'T DO ANYTHING!\nYOU LAZYBONES!",
             '<18>{#x1}{#f/5}YOU KNOW, YOU ARE CAPABLE OF SO MUCH MORE, YET...',
             '<18>{#x2}{#f/7}YOU CHOOSE TO SIT AROUND AND DO NOTHING ALL DAY!',
             "<18>{#x1}{#f/5}DON'T YOU WANT... MORE, OUT OF LIFE?",
-            "<25>{#p/sans}* hey, take it easy.\n* i've got plenty of things in mind.",
-            "<25>{#f/4}* perhaps you could even say i'm...",
-            '<25>{#f/2}* shooting for the {@fill=#ff0}stars{@fill=#fff}?'
+            "<25>{#p/sans}* hey, biraz ağırdan al.\n* aklımda hayli şeyler var.",
+            "<25>{#f/4}* hatta belki aklımdaki şeylerle...",
+            '<25>{#f/2}* {@fill=#ff0}yıldızları kaydırdığımı{@fill=#fff} bile söyleyebilirsin?'
         ],
         sans6: [
             '<18>{#p/papyrus}{#x3}{#f/7}SANS!!',
-            "<25>{#p/sans}{#f/5}* come on.\n* you're smiling.",
+            "<25>{#p/sans}{#f/5}* hadi ama.\n* gülümsüyorsun.",
             '<18>{#p/papyrus}{#x2}{#f/7}I AM AND I UTTERLY DESPISE IT!',
-            '<18>{#x1}{#f/4}(SIGH...)',
+            '<18>{#x1}{#f/4}(İÇ ÇEKER...)',
             '<18>{#f/5}WHY DOES SOMEONE\nAS GREAT AS MYSELF...',
             '<18>HAVE TO DO SO MUCH JUST TO GET SOME RECOGNITION??',
-            '<25>{#p/sans}* heh.\n* perhaps you should focus more on, well...',
-            '<25>* the {@fill=#ff0}gravity{@fill=#fff} of the situation.'
+            '<25>{#p/sans}* heh.\n* belki de biraz daha şeye odaklanmalısın, bilirsin ya...',
+            '<25>* durumun {@fill=#ff0}ağırlığına{@fill=#fff}.'
         ],
         sans7: [
             '<18>{#p/papyrus}{#x2}{#f/7}UGH!!',
@@ -4031,88 +4031,88 @@ export default {
             '<18>{#f/0}NYEHEHEHEHEHE\nHEHEHEHEHEHEH!!'
         ],
         sans8: ['<18>{#p/papyrus}HEH!'],
-        sans9: ['<25>{#p/sans}* ok, time to bring you back down.'],
+        sans9: ['<25>{#p/sans}* pekala, şimdi seni aşağı indirme zamanı.'],
         sans10: [
-            '<25>{#p/sans}{#f/0}* actually, hey...\n* before you go out there on your own...',
-            "<25>{#f/3}* you should know the royal guard's on the lookout for you.",
-            "<25>{#f/0}* don't worry, though.\n* all they've got out here are the canines.",
-            "<25>{#f/0}* since you're a human, you should know what dogs love, right?",
-            "<25>{#f/2}* they're almost as harmless as papyrus."
+            '<25>{#p/sans}{#f/0}* aslında, hey...\n* kendi başına oralara gitmeden önce...',
+            "<25>{#f/3}* kraliyet muhafızlarının seni aradığını bilmelisin.",
+            "<25>{#f/0}* gerçi, endişelenme.\n* burada tüm sahip oldukları şey köpekler.",
+            "<25>{#f/0}* bir insan olduğuna göre, köpeklerin ne seviyor olduğunu biliyor olmalısın, değil mi?",
+            "<25>{#f/2}* neredeyse papyrus kadar zararsızlar."
         ],
-        sansbook0: ['<32>{#p/human}* (It appears this joke book has no clear ending.)'],
-        sansbook1: ['<32>{#p/basic}* It\'s a book about non-euclidian geometry.\n* Property of \"ALPHYS.\"'],
-        sansbook2: () => [choicer.create('* (Take a look inside?)', 'Evet', 'Hayır')],
-        sansbook3: ['<32>{#p/human}* (You look inside the book...)'],
-        sansbook4: ['<32>{#p/basic}* Inside the geometry book was a joke book.'],
-        sansbook5: ['<32>{#p/basic}* Inside the joke book was another geometry book.'],
-        sansbook6: ['<32>{#p/basic}* Inside the geometry book was another joke book.'],
-        sansbook7: ["<32>{#p/basic}* It's another geometry book."],
-        sansbook8: ["<32>{#p/basic}* It's another joke book."],
+        sansbook0: ['<32>{#p/human}* (Bu şaka kitabının açık bir sonu yok gibi görünüyor.)'],
+        sansbook1: ['<32>{#p/basic}* Öklit olmayan geometri hakkında bir kitap.\n* \"ALPHYS\'in\" Mülkiyeti.'],
+        sansbook2: () => [choicer.create('* (İçine bir bak?)', 'Evet', 'Hayır')],
+        sansbook3: ['<32>{#p/human}* (Kitabın içine bakıyorsun...)'],
+        sansbook4: ['<32>{#p/basic}* Geometri kitabının içinde bir şaka kitabı vardı.'],
+        sansbook5: ['<32>{#p/basic}* Şaka kitabının içinde bir başka geometri kitabı vardı.'],
+        sansbook6: ['<32>{#p/basic}* Geometri kitabının içinde bir başka şaka kitabı vardı.'],
+        sansbook7: ["<32>{#p/basic}* Bir başka geometri kitabı."],
+        sansbook8: ["<32>{#p/basic}* Bir başka şaka kitabı."],
         sansbook9: ['<32>{#p/human}* (You decide not to look.)'],
         sansbook10: () => [
             "<32>{#p/basic}* It's a note from Sans.",
-            '<32>{#p/without}* \"why so serious?\"\n* \"it\'s just a bad joke.\"',
+            '<32>{#p/without}* \"bu ciddiyet de ne?\"\n* \"bu yalnızca kötü bir şaka.\"',
             '<33>{#p/without}* \"heh...\"',
-            '<33>{#p/without}* \"don\'t read into it too deeply.\"',
-            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... this is the worst joke I have ever experienced.'])
+            '<33>{#p/without}* \"çok derinlemesine okuma.\"',
+            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... bu deneyimlediğim en berbat şakaydı.'])
         ],
         sansinter: {
             s_sans: pager.create(
                 0,
                 () =>
                     world.edgy
-                        ? ["<25>{#p/sans}* 'sup."]
+                        ? ["<25>{#p/sans}* naber."]
                         : [
-                            "<25>{#p/sans}* papyrus will be back soon, y'know.",
-                            "<25>{#f/4}* i'd get going if i were you...",
-                            "<25>{#f/2}* otherwise, you'll have to listen to more of my hilarious jokes."
+                            "<25>{#p/sans}* papyrus yakında dönecek, bilirsin ya.",
+                            "<25>{#f/4}* eğer yerinde olsaydım yola koyulurdum...",
+                            "<25>{#f/2}* aksi takdirde, daha fazla gülünç şakalarımı dinlemek zorunda kalacaksın."
                         ],
                 () =>
                     world.edgy
                         ? [
-                            '<25>{#p/sans}* if my bro was here, you and i would have TONS of stuff to do.',
-                            '<25>{#p/sans}{#f/3}* but, alas...',
-                            "<25>{#p/sans}{#f/2}* he's busy solving the sudoku book i gave him."
+                            '<25>{#p/sans}* eğer kardom burada olsaydı, senin ve benim yapacak TONLARCA işimiz olurdu.',
+                            '<25>{#p/sans}{#f/3}* ama, ne yazık...',
+                            "<25>{#p/sans}{#f/2}* kendisi ona verdiğim sudoku kitabını çözmekle meşgul."
                         ]
                         : [
-                            "<25>{#p/sans}* look, there's nothin' to be afraid of.",
-                            "<25>{#f/2}* he may seem scary, but papyrus is the nicest guy you'll ever meet."
+                            "<25>{#p/sans}* bak, korkacak bir şey yok.",
+                            "<25>{#f/2}* korkutucu görünebilir, ama papyrus tanıyacağın en hoş kişidir."
                         ],
                 () =>
                     world.edgy
                         ? [
-                            '<25>{#p/sans}* huh?\n* you want me to bring you to him?',
-                            "<25>{#f/3}* look, bucko.\n* you're barking up the wrong holo-tree.",
-                            "<25>{#p/sans}{#f/2}* if i were you, i'd be thankful for what you already have."
+                            '<25>{#p/sans}* ha?\n* seni ona götürmemi mi istiyorsun?',
+                            "<25>{#f/3}* bak, evlat.\n* yanlış kapıyı çalıyorsun.",
+                            "<25>{#p/sans}{#f/2}* yerinde olsam, zaten sahip oldukların için minnettar olurdum."
                         ]
-                        : ['<25>{#p/sans}* trust me.'],
+                        : ['<25>{#p/sans}* güven bana.'],
                 () =>
                     world.edgy
                         ? [
                             '<25>{#p/sans}{#f/3}* ...',
-                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't push your luck.",
+                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Şansını zorlama.",
                             '{*}{#s.resume}{%}'
                         ]
-                        : ['<25>{#p/sans}* trust me.'],
-                () => (world.edgy ? [] : ['<25>{#p/sans}* trust me.'])
+                        : ['<25>{#p/sans}* güven bana.'],
+                () => (world.edgy ? [] : ['<25>{#p/sans}* güven bana.'])
             ),
             s_papyrus: pager.create(
                 0,
                 [
-                    "<25>{#p/sans}* hey, here's something important to remember.",
-                    '<25>* my brother has a very {@fill=#00a2e8}special attack{@fill=#fff}.',
-                    "<25>* if you see an {@fill=#ff993d}orange attack{@fill=#fff}, you'll get hurt if you're not moving.",
-                    "<25>{#f/3}* here's an easy way to keep it in mind.",
-                    "<25>{#f/0}* imagine hot coals.\n* you wouldn't stand still on those, right?",
-                    '<25>* hot coals are rocky.\n* so imagine boney hot coals instead.',
-                    '<25>{#f/2}* simple, right?\n* when fighting, think about boney hot coals.'
+                    "<25>{#p/sans}* hey, işte hatırlaman gereken önemli bir şey.",
+                    '<25>* benim kardeşimin oldukça {@fill=#00a2e8}özel bir saldırısı{@fill=#fff} var.',
+                    "<25>* eğer bir {@fill=#ff993d}turuncu saldırı{@fill=#fff} görürsen, hareket etmezsen hasar alırsın.",
+                    "<25>{#f/3}* işte bunu aklında tutmanın kolay bir yolu.",
+                    "<25>{#f/0}* sıcak kömürler hayal et.\n* onların üzerinde sabit duramazdın, değil mi?",
+                    '<25>* sıcak kömürler taşlıdır.\n* bunun yerine kemikli sıcak kömürler hayal et.',
+                    '<25>{#f/2}* basit, değil mi?\n* savaşırken, kemikli sıcak kömürler hayal et.'
                 ],
                 [
-                    "<25>{#p/sans}{#f/0}* and no, you won't get hurt if you're moving slowly.",
-                    '<25>{#f/0}* you just have to be moving.',
-                    "<25>{#f/2}* there's likely someone out there who can explain it better."
+                    "<25>{#p/sans}{#f/0}* ayrıca hayır, eğer yavaş hareket ediyorsan da zarar görmeyeceksin.",
+                    '<25>{#f/0}* yalnızca hareket ediyor olman gerekiyor.',
+                    "<25>{#f/2}* muhtemelen oralarda bir yerlerde daha iyi açıklayacak biri vardır."
                 ],
-                ['<25>{#p/sans}{#f/2}* remember...\n* boney hot coals.']
+                ['<25>{#p/sans}{#f/2}* unutma...\n* kemikli sıcak kömürler.']
             ),
             s_dogs: pager.create(
                 0,
@@ -4129,95 +4129,95 @@ export default {
             s_jenga: pager.create(
                 0,
                 [
-                    '<25>{#p/sans}* actually, that spaghetti from earlier...',
-                    "<25>{#f/3}* it wasn't too bad for my brother.",
-                    "<25>{#f/0}* since he started cooking lessons, he's been improving a lot.",
-                    "<25>{#f/4}* i bet if he keeps it up, he'll even impress the king."
+                    '<25>{#p/sans}* aslında, önceki o spagetti...',
+                    "<25>{#f/3}* kardeşime göre o kadar da kötü değildi.",
+                    "<25>{#f/0}* yemek pişirme derslerine başladığından beri, kendini çok geliştirdi.",
+                    "<25>{#f/4}* bahse girerim böyle devam ederse, kralı bile hayran bırakacaktır."
                 ],
                 () =>
                     world.edgy || world.killed5
-                        ? ['<25>{#p/sans}{#f/2}* ... sure would be a good way for him to get away from you.']
-                        : ["<25>{#p/sans}{#f/2}* ... the man up top's a sucker for spaghetti."]
+                        ? ['<25>{#p/sans}{#f/2}* ... senden uzaklaşması için iyi bir yol olurdu.']
+                        : ["<25>{#p/sans}{#f/2}* ... yukarılardaki o adam bir spagetti hastası."]
             ),
             s_bridge: pager.create(
                 0,
                 () =>
                     world.edgy
                         ? [
-                            '<25>{#p/sans}{#f/0}* i hope you liked that last puzzle i set for you.',
-                            '<25>{#f/3}* i was kind of in a hurry, but papyrus insisted i prepare it.'
+                            '<25>{#p/sans}{#f/0}* umarım senin için en son hazırladığım o bulmacayı beğenmişsindir.',
+                            '<25>{#f/3}* biraz acelem vardı, ama papyrus hazırlamam için ısrar etti.'
                         ]
                         : world.killed5
                             ? [
-                                "<25>{#p/sans}{#f/3}* i hear the area's being evacuated right now...",
-                                "<25>{#f/0}* if i were you, i'd be afraid for my life."
+                                "<25>{#p/sans}{#f/3}* bu bölgenin şu anda tahliye edildiğini duydum.",
+                                "<25>{#f/0}* yerinde olsam, hayatım için korkardım."
                             ]
                             : [
-                                "<25>{#p/sans}{#f/3}* i don't know what my brother's going to do now.",
-                                '<25>{#f/0}* if i were you, i would make sure i understand {@fill=#ff993d}orange attacks{@fill=#fff}.'
+                                "<25>{#p/sans}{#f/3}* kardeşimin şimdi ne yapacağını bilmiyorum.",
+                                '<25>{#f/0}* yerinde olsam, {@fill=#ff993d}turuncu saldırıları{@fill=#fff} anladığımdan emin olurdum.'
                             ],
                 () =>
                     world.edgy
                         ? [
-                            '<25>{#p/sans}{#f/0}* what?\n* can you blame me?',
-                            "<25>{#f/3}* it's hard to get ANYTHING done when i have you to consider."
+                            '<25>{#p/sans}{#f/0}* ne?\n* beni suçlayabilir misin?',
+                            "<25>{#f/3}* seni göz önünde bulundurmam gerekince HERHANGİ bir işi tamamlamak zor."
                         ]
                         : world.killed5
                             ? [
-                                '<25>{#p/sans}{#f/0}* thankfully, i have someone who cares about my well-being.',
-                                "<25>{#f/2}* no matter what happens, i know he'll be there for me."
+                                '<25>{#p/sans}{#f/0}* neyseki ben, benim iyiliğimi düşünen birine sahibim.',
+                                "<25>{#f/2}* ne olursa olsun, onun benim yanımda olacağını biliyorum."
                             ]
-                            : ['<25>{#p/sans}{#f/2}* oh, and maybe {@fill=#00a2e8}blue attacks{@fill=#fff}, too.'],
+                            : ['<25>{#p/sans}{#f/2}* ah, ve belki {@fill=#00a2e8}mavi saldırıları{@fill=#fff} da.'],
                 () =>
                     world.edgy
-                        ? ['<25>{#p/sans}{#f/3}* oh well.']
+                        ? ['<25>{#p/sans}{#f/3}* pekala.']
                         : world.killed5
-                            ? ['<25>{#p/sans}{#f/0}* am i wrong?']
-                            : ['<26>{#p/sans}{#f/0}* all sorts of attacks.']
+                            ? ['<25>{#p/sans}{#f/0}* haksız mıyım?']
+                            : ['<26>{#p/sans}{#f/0}* her türlü saldırılar.']
             )
         },
         sansbredgey: () =>
             world.edgy
                 ? 6 <= world.population
                     ? [
-                        '<25>{#p/sans}* by the way...',
-                        "<25>* i know i've been harsh on you lately...",
-                        '<25>{#f/3}* but thanks for trying to be a better person.',
-                        '<25>{#f/2}* keep it up, ok?'
+                        '<25>{#p/sans}* bu arada...',
+                        "<25>* şu sıralar biraz üzerine gittiğimi biliyorum...",
+                        '<25>{#f/3}* ama daha iyi biri olmaya çalıştığın için teşekkürler.',
+                        '<25>{#f/2}* böyle devam et, olur mu?'
                     ]
                     : world.bullied
                         ? [
-                            '<25>{#p/sans}* by the way...',
-                            "<25>* i know you're still going around hurting people...",
-                            '<25>{#f/3}* but i appreciate the effort not to outright kill them.',
-                            "<25>{#f/2}* it's something, right?"
+                            '<25>{#p/sans}* bu arada...',
+                            "<25>* hala etrafta dolaşıp başkalarına zarar verdiğini biliyorum...",
+                            '<25>{#f/3}* ama onları doğrudan öldürmemek için sarf ettiğin eforu takdir ediyorum.',
+                            "<25>{#f/2}* bu da bir şey, değil mi?"
                         ]
                         : [
-                            '<25>{#p/sans}* by the way...',
-                            '<25>* if you happen to run into my brother...',
+                            '<25>{#p/sans}* bu arada...',
+                            '<25>* eğer kardeşimle karşılaşacak olursan...',
                             '<25>{#f/3}* ...',
-                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't even try it.",
+                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Deneme bile.",
                             '{*}{#s.resume}{%}'
                         ]
                 : 6 <= world.population
                     ? [
-                        '<25>{#p/sans}* by the way...',
-                        "<25>* i know it's kind of silly at times...",
-                        "<25>{#f/3}* but thanks for going along with my brother's crazy schemes.",
-                        "<25>{#f/2}* you're a champion."
+                        '<25>{#p/sans}* bu arada...',
+                        "<25>* bazen saçma olduğunu biliyorum...",
+                        "<25>{#f/3}* ama kardeşimin çılgın planlarına ayak uydurduğun için teşekkürler.",
+                        "<25>{#f/2}* sen bir şampiyonsun."
                     ]
                     : world.bullied
                         ? [
-                            '<25>{#p/sans}* by the way...',
-                            "<25>* i know you've been going around hurting people...",
-                            '<25>{#f/3}* but i appreciate the effort not to outright kill them.',
-                            "<25>{#f/2}* it's something, right?"
+                            '<25>{#p/sans}* bu arada...',
+                            "<25>* etrafta dolaşıp başkalarına zarar verdiğini biliyorum...",
+                            '<25>{#f/3}* ama onları doğrudan öldürmemek için sarf ettiğin eforu takdir ediyorum.',
+                            "<25>{#f/2}* bu da bir şey, değil mi?"
                         ]
                         : [
-                            '<25>{#p/sans}* by the way...',
-                            '<25>* if you happen to run into my brother...',
+                            '<25>{#p/sans}* bu arada...',
+                            '<25>* eğer kardeşimle karşılaşacak olursan...',
                             '<25>{#f/3}* ...',
-                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Don't even try it.",
+                            "<25>{*}{#p/darksans}{#f/1}{#i/5}{#s.stop}* Deneme bile.",
                             '{*}{#s.resume}{%}'
                         ],
         sentryPapyrus1: pager.create(
@@ -4243,8 +4243,8 @@ export default {
                                     : '<23>(\"NOTE: NOT YET A VERY FAMOUS ROYAL GUARDSMAN.\")',
                                 ...(SAVE.data.n.plot < 19 && !(world.edgy || world.killed5 || world.population < 6)
                                     ? [
-                                        "<25>{#p/sans}{#f/0}* admiring my bro's handiwork, are we?",
-                                        "<25>{#p/sans}{#f/2}* i know.\n* it's pretty cool."
+                                        "<25>{#p/sans}{#f/0}* kardomun el işine hayranlık duyuyoruz, öyle mi?",
+                                        "<25>{#p/sans}{#f/2}* biliyorum.\n* oldukça havalı."
                                     ]
                                     : [])
                             ])
@@ -4340,11 +4340,11 @@ export default {
                 ['<32>{#p/basic}* Fighting Papyrus has begun to tire you, but not enough to sleep.'],
                 [
                     '<32>{#p/basic}* After fighting Papyrus three times, you feel exhausted.',
-                    choicer.create('* (What will you do?)', 'Nothing', 'Sleep')
+                    choicer.create('* (What will you do?)', 'Hiçbir şey', 'Uyu')
                 ],
                 [
                     '<32>{#p/basic}* Continually fighting Papyrus has exhausted you.',
-                    choicer.create('* (What will you do?)', 'Nothing', 'Sleep')
+                    choicer.create('* (What will you do?)', 'Hiçbir şey', 'Uyu')
                 ]
             ][Math.min(SAVE.data.n.state_papyrus_capture - 1, 3)],
         whew2: ['<32>{#p/human}* (You let the doggy bed be.)'],
@@ -4480,9 +4480,9 @@ export default {
                         ][Math.min(asrielinter.s_backrooms_lessdog++, 3)]
                     ]
                     : SAVE.data.n.state_starton_lesserdog === 2 || (world.population === 0 && !world.bullied)
-                        ? ['<32>{#p/basic}* ... but nobody came.']
+                        ? ['<32>{#p/basic}* ... ama kimse gelmedi.']
                         : world.runaway || world.population === 0
-                            ? ['<32>{#p/basic}* ... but everybody ran.']
+                            ? ['<32>{#p/basic}* ... ama herkes kaçtı.']
                             : SAVE.data.n.plot < 72
                                 ? ["<32>{#p/basic}* It's playing a game of poker against itself.", '<32>* It appears to be losing...']
                                 : [
@@ -5123,7 +5123,7 @@ export default {
                             '<32>{#s/phone}{#p/event}* Dialing...',
                             '<32>{#p/basic}* The call went straight to voice-mail.',
                             '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"Would you like to escape the outpost with me?\"',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ]
                         : SAVE.data.n.plot === 72
                             ? [
@@ -5138,7 +5138,7 @@ export default {
                                 '<32>{#s/phone}{#p/event}* Dialing...',
                                 '<32>{#p/basic}* The call went straight to voice-mail.',
                                 '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"I\'m so sorry I couldn\'t be here to greet you~\"',
-                                '<32>{#s/equip}{#p/event}* Click...',
+                                '<32>{#s/equip}{#p/event}* Klik...',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielVoicemail++ < 1
                                     ? ['<25>{#p/asriel2}{#f/10}* ... weird.']
                                     : [])
@@ -5657,8 +5657,8 @@ export default {
             SAVE.data.b.svr
                 ? ["<32>{#p/human}* (You can't seem to find anyone down there.)"]
                 : world.bulrun
-                    ? ['<32>{#p/basic}* ... but everybody ran.']
-                    : ['<32>{#p/basic}* ... but nobody came.'],
+                    ? ['<32>{#p/basic}* ... ama herkes kaçtı.']
+                    : ['<32>{#p/basic}* ... ama kimse gelmedi.'],
         xtowerHiscoreNames: {
             kidd: 'UNDYNEFAN10',
             napstablook: 'NAPSTABLOOK22',
@@ -5679,7 +5679,7 @@ export default {
                     '<32>* Ehehe...',
                     "<32>* You're truly disgusting...",
                     '<32>* ...',
-                    '<32>{#s/equip}{#p/human}* (You lost all of your G.)',
+                    '<32>{#s/equip}{#p/human}* (Tüm A\'nı kaybettin.)',
                     ...(world.goatbro
                         ? SAVE.flag.n.genocide_milestone < 5
                             ? SAVE.flag.n.ga_asrielXtower++ < 1
@@ -5709,10 +5709,10 @@ export default {
                                 ? "<25>{#f/0}* i'd give you a special reward, but i'm still looking for toriel."
                                 : "<25>{#f/0}* i'd give you a special reward, but i'm on break right now.",
                             ...(world.edgy_x
-                                ? ['<25>{#f/0}* no hard feelings.', '<32>{#s/equip}{#p/event}* Click...']
+                                ? ['<25>{#f/0}* no hard feelings.', '<32>{#s/equip}{#p/event}* Klik...']
                                 : [
                                     "<25>{#f/2}* instead, i'll just send ya some pocket change.",
-                                    '<32>{#s/equip}{#p/human}* (You got 10000G.)'
+                                    '<32>{#s/equip}{#p/human}* (10000A aldın.)'
                                 ])
                         ])
                 ],
@@ -7073,7 +7073,7 @@ export default {
             name: 'Chip'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Computer Chip.)',
+            '<32>{#p/human}* (Bilgisayar Çipini fırlattın.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
                 ? ["<25>{#p/asriel1}{#f/15}* Uh... weren't you going to protect that?"]
                 : [])
@@ -7081,8 +7081,8 @@ export default {
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (45 HP. Rather than eating it, you feel you should keep this item safe.)']
-                : ['<32>{#p/basic}* \"Computer Chip\" Heals 45 HP\n* Please take this to the edge of the galaxy.'],
-        name: 'Computer Chip',
+                : ['<32>{#p/basic}* \"Bilgisayar Çipi\" 45 CAN iyileştirir.\n* Lütfen bunu galaksinin bir diğer ucuna götür.'],
+        name: 'Bilgisayar Çipi',
         use: () => [
             '<32>{#p/human}* (You bit into the Computer Chip.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
@@ -7582,15 +7582,15 @@ export default {
     },
 
     k_inverter: {
-        name: 'Gravometric Inverter Remote',
+        name: 'Kütleçekimsel İnvertör Kumandası',
         description: () =>
             SAVE.data.b.s_state_inverter
-                ? 'Used to operate the eponymous Gravometric Inverter.'
+                ? 'Kendi adını taşıyan Kütleçekimsel İnvertörü çalıştırmak için kullanılır.'
                 : "Acquired from the unsealed envelope in Sans's room."
     },
 
     k_security: {
-        name: 'Rusty Key',
+        name: 'Paslı Anahtar',
         description: () =>
             SAVE.data.n.state_aerialis_lockup > 0
                 ? 'Used to unlock the armory in the rec center.'
@@ -7598,107 +7598,107 @@ export default {
     },
 
     n_shop_blook: {
-        exit: ["<32>{#p/napstablook}{#k/0}* oh... you're leaving...", '<32>{#k/1}* well, cya next time i guess...'],
+        exit: ["<32>{#p/napstablook}{#k/0}* ah... gidiyorsun...", '<32>{#k/1}* peki, bir dahaki sefere görüşürüz sanırım...'],
         item: () =>
             blookGone()
                 ? [
-                    '§fill=#808080§--- UNAVAILABLE ---',
-                    SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '0G - Exoberry Jell-O Pie',
+                    '§fill=#808080§--- MEVCUT DEĞİL ---',
+                    SAVE.data.b.item_blookpie ? '§fill=#808080§--- MEVCUT DEĞİL ---' : '0G - Exoberry Jell-O Pie',
                     '0G - Ghost Fruit',
                     '0G - Milkshake',
-                    'Exit'
+                    'Çık'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
-                        SAVE.data.b.item_voidy ? '§fill=#808080§--- UNAVAILABLE ---' : '432G - Sanctuary',
-                        SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '80G - Exoberry Jell-O Pie',
+                        SAVE.data.b.item_voidy ? '§fill=#808080§--- MEVCUT DEĞİL ---' : '432G - Sanctuary',
+                        SAVE.data.b.item_blookpie ? '§fill=#808080§--- MEVCUT DEĞİL ---' : '80G - Exoberry Jell-O Pie',
                         '5G - Ghost Fruit',
                         '5G - Milkshake',
-                        'Exit'
+                        'Çık'
                     ]
                     : [
-                        SAVE.data.b.item_voidy ? '§fill=#808080§--- UNAVAILABLE ---' : '432G - Sanctuary',
-                        SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '100G - Exoberry Jell-O Pie',
+                        SAVE.data.b.item_voidy ? '§fill=#808080§--- MEVCUT DEĞİL ---' : '432G - Sanctuary',
+                        SAVE.data.b.item_blookpie ? '§fill=#808080§--- MEVCUT DEĞİL ---' : '100G - Exoberry Jell-O Pie',
                         '12G - Ghost Fruit',
                         '16G - Milkshake',
-                        'Exit'
+                        'Çık'
                     ],
         itemInfo: [
-            'Special:\nLeads to a\nmysterious\nplace.',
-            'Heals 99HP\nGlows in\nthe dark.',
-            "Heals 15HP\nIt's non-\neuclidian.",
-            'Heals 18HP\nMay contain\nectoplasm.'
+            'Özel:\nGizemli bir\nyere götürür.',
+            '99CAN iyileştirir\nKaranlıkta\nparlar.',
+            "15CAN iyileştirir\nÖklit-\ndışı.",
+            '18CAN iyileştirir\nEktoplazma\niçerebilir.'
         ],
-        itemPrompt: '<09>{#p/napstablook}{#k/3}see anything you like?',
+        itemPrompt: '<09>{#p/napstablook}{#k/3}beğendiğin bir şey var mı?',
         itemPurchase: [
-            '<09>{#p/napstablook}{#k/3}heh... thank you...',
-            "<09>{#p/napstablook}{#k/0}you don't have to buy it...",
-            '<09>{#p/napstablook}{#k/0}sorry... not enough g...',
-            "<10>{#p/human}(You're carrying too much.)"
+            '<09>{#p/napstablook}{#k/3}heh... teşekkür ederim...',
+            "<09>{#p/napstablook}{#k/0}satın almak zorunda değilsin...",
+            '<09>{#p/napstablook}{#k/0}üzgünüm... yeterli a değil...',
+            "<10>{#p/human}(Çok fazla şey taşıyorsun.)"
         ],
-        itemPurchasePrompt: () => (blookGone() ? 'Take it?' : 'Buy it for\n$(x)G?'),
+        itemPurchasePrompt: () => (blookGone() ? 'Al?' : 'Buy it for\n$(x)G?'),
         itemUnavailable: () =>
-            blookGone() ? '<09>{#p/basic}Nothing left.' : "<09>{#p/napstablook}{#k/0}oh... i don't have any more...",
+            blookGone() ? '<09>{#p/basic}Hiçbir şey kalmadı.' : "<09>{#p/napstablook}{#k/0}oh... i don't have any more...",
         menu: () =>
-            blookGone() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            blookGone() ? ['Al', 'Çal', 'Oku', 'Çık'] : ['Satın al', world.meanie ? 'Çal' : 'Sat', 'Konuş', 'Çık'],
         menuPrompt1: () =>
             [
-                '<23>{#p/napstablook}{#k/3}* have a look around...',
-                "<23>{#p/napstablook}{#k/3}* i hope you find what you're looking for...",
-                "<23>{#p/napstablook}{#k/3}* have a look around... or not... it's your choice...",
-                '<23>{#p/napstablook}{#k/3}* have a look around, i guess...',
-                "<23>{#p/napstablook}{#k/3}* have a look around... or not... it's your choice..."
+                '<23>{#p/napstablook}{#k/3}* etrafa bir göz at...',
+                "<23>{#p/napstablook}{#k/3}* umarım aradığın şeyi bulursun...",
+                "<23>{#p/napstablook}{#k/3}* etrafa bir bak... ya da bakma... senin kararın...",
+                '<23>{#p/napstablook}{#k/3}* etrafa bir bak, sanırım...',
+                "<23>{#p/napstablook}{#k/3}* etrafa bir bak... ya da bakma... senin kararın..."
             ][Math.min(SAVE.data.n.state_wastelands_napstablook, 4)],
-        menuPrompt2: '<23>{#p/napstablook}{#k/0}* feel free to leave at any time...',
+        menuPrompt2: '<23>{#p/napstablook}{#k/0}* istediğin zaman ayrılabilirsin...',
         menuPrompt3: () =>
-            world.bulrun ? '<23>{#p/basic}* ... but everybody ran.' : '<23>{#p/basic}* ... but nobody came.',
+            world.bulrun ? '<23>{#p/basic}* ... ama herkes kaçtı.' : '<23>{#p/basic}* ... ama kimse gelmedi.',
         note: () =>
             ['f_blooky', 'f_napstablook'].includes(SAVE.data.s.state_foundry_deathroom) // NO-TRANSLATE
 
-                ? ["<32>{#p/basic}* There's no note here."]
+                ? ["<32>{#p/basic}* Burada not yok."]
                 : SAVE.data.b.killed_mettaton
-                    ? ["<32>{#p/basic}* There's a note here.", '<32>{#p/napstablook}* \"it\'s all your fault...\"']
+                    ? ["<32>{#p/basic}* Burada bir not var.", '<32>{#p/napstablook}* \"hepsi senin suçun...\"']
                     : world.runaway
-                        ? ["<32>{#p/basic}* There's a note here.", '<32>{#p/napstablook}* \"we had no choice...\"']
-                        : ["<32>{#p/basic}* There's a note here.", '<32>{#p/napstablook}* \"sorry, i had to go...\"'],
+                        ? ["<32>{#p/basic}* Burada bir not var.", '<32>{#p/napstablook}* \"hiçbir seçeneğimiz yoktu...\"']
+                        : ["<32>{#p/basic}* Burada bir not var.", '<32>{#p/napstablook}* \"üzgünüm, gitmek zorundaydım...\"'],
         sell1: () =>
             blookGone()
-                ? ['<30>{#p/human}* (You took 42G from behind the counter.)']
+                ? ['<30>{#p/human}* (Tezgahın arkasından 42A aldın.)']
                 : world.meanie
                     ? [
-                        "<30>{#p/napstablook}{#k/2}* oh... you're trying to steal from me...",
-                        '<30>{#p/napstablook}{#k/5}* you must really need it...',
+                        "<30>{#p/napstablook}{#k/2}* ah... benden çalmaya çalışıyorsun...",
+                        '<30>{#p/napstablook}{#k/5}* gerçekten ihtiyaç duyuyor olmalısın...',
                         SAVE.data.b.item_voidy
-                            ? "<30>{#k/0}* i'm so sorry... the only money i have came from you..."
-                            : "<30>{#k/0}* i'm so sorry... i don't have much to give..."
+                            ? "<30>{#k/0}* çok üzgünüm... sahip olduğum tek para senden geldi..."
+                            : "<30>{#k/0}* çok üzgünüm... verebilecek pek bir şeyim yok..."
                     ]
                     : [
-                        '<30>{#p/napstablook}{#k/2}* oh... you wanted to sell something',
-                        "<30>{#k/0}* i don't know if i can afford to buy anything... sorry..."
+                        '<30>{#p/napstablook}{#k/2}* ah... bir şey satmak istemiştin',
+                        "<30>{#k/0}* bir şey almaya gücüm yeter mi bilmiyorum... üzgünüm..."
                     ],
         sell2: () =>
             blookGone()
-                ? ['<30>{#p/basic}* Nothing left.']
+                ? ['<30>{#p/basic}* Hiçbir şey kalmadı.']
                 : world.meanie
                     ? [
-                        "<30>{#p/napstablook}{#k/5}* um...\n* i can't give you anything of real value...",
-                        "<30>{#p/napstablook}{#k/0}* i know... it's pretty sad"
+                        "<30>{#p/napstablook}{#k/5}* um...\n* sana gerçekten değeri olan bir şey veremem...",
+                        "<30>{#p/napstablook}{#k/0}* biliyorum... bu oldukça üzücü"
                     ]
                     : [
-                        '<30>{#p/napstablook}{#k/5}* um... you could ask my cousin about selling...',
-                        '<30>{#k/0}* they live with undyne, i think'
+                        '<30>{#p/napstablook}{#k/5}* um... satış konusunda kuzenime sorabilirsin...',
+                        '<30>{#k/0}* undyne ile yaşıyor, sanırım'
                     ],
         talk: (name: string) =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', name, 'The Future', 'Exit']
+                ? ['Merhaba De', 'Ne Oldu', name, 'Gelecek', 'Çık']
                 : [
-                    'Say Hello',
-                    'Ghosts',
+                    'Merhaba De',
+                    'Hayaletler',
                     'Sanctuary',
                     65 <= SAVE.data.n.plot
                         ? SAVE.data.b.a_state_hapstablook && 68 <= SAVE.data.n.plot
-                            ? 'Family'
-                            : 'Your Life'
+                            ? 'Aile'
+                            : 'Senin Hayatın'
                         : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
                             ? 'Mettaton'
                             : 60 <= SAVE.data.n.plot
@@ -7709,57 +7709,57 @@ export default {
                                         ? 'DJ Blooky?'
                                         : SAVE.data.n.state_wastelands_napstablook === 0
                                             ? 'Dapper Blook?'
-                                            : 'Your Life',
-                    'Exit'
+                                            : 'Senin Hayatın',
+                    'Çık'
                 ],
-        talkPrompt: '<09>{#p/napstablook}{#k/1}oh, you wanna chat?',
+        talkPrompt: '<09>{#p/napstablook}{#k/1}ah, sohbet mi etmek istiyorsun?',
         talkText: [
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/napstablook}{#k/3}* oh, hey...',
-                        '<32>{#k/0}* i think everybody dissappeared for a while...',
-                        '<32>{#k/1}* but when they woke up, they all knew your name...',
-                        "<32>{#k/3}* so... you're frisk, huh?",
-                        '<32>{#k/4}* well, nice to see you, frisk'
+                        '<32>{#p/napstablook}{#k/3}* ah, hey...',
+                        '<32>{#k/0}* sanırım herkes bir süreliğine ortadan kayboldu...',
+                        '<32>{#k/1}* ama uyandıklarında, hepsi senin ismini biliyordu...',
+                        "<32>{#k/3}* demek... senin adın frisk, ha?",
+                        '<32>{#k/4}* peki, seni görmek güzel, frisk'
                     ]
                     : SAVE.data.b.a_state_napstadecline
-                        ? ['<32>{#p/napstablook}{#k/2}* uh...', '<32>{#p/napstablook}{#k/2}* hey there...']
+                        ? ['<32>{#p/napstablook}{#k/2}* uh...', '<32>{#p/napstablook}{#k/2}* hey...']
                         : SAVE.data.n.state_wastelands_napstablook < 2
                             ? [
                                 [
-                                    '<32>{#p/napstablook}{#k/3}* oh, hey...',
-                                    '<32>{#p/napstablook}{#k/3}* oh, nice to see you again...'
+                                    '<32>{#p/napstablook}{#k/3}* ah, hey...',
+                                    '<32>{#p/napstablook}{#k/3}* ah, seni yeniden görmek güzel...'
                                 ][SAVE.data.n.state_wastelands_napstablook],
                                 ...(world.meanie
-                                    ? ["<32>{#k/0}* what's that look for?\n* have i done something wrong..."]
-                                    : ['<32>{#k/4}* what have you been up to?'])
+                                    ? ["<32>{#k/0}* o bakış ne için?\n* kötü bir şey mi yaptım..."]
+                                    : ['<32>{#k/4}* neler yaptın?'])
                             ]
                             : SAVE.data.n.state_wastelands_napstablook < 5
                                 ? [
-                                    "<32>{#p/napstablook}{#k/0}* oh...\n* i'm not sure what to say, really...",
-                                    '<32>{#k/3}* uhh... hello, i guess?'
+                                    "<32>{#p/napstablook}{#k/0}* ah...\n* ne söyleyebileceğimden emin değilim, gerçekten...",
+                                    '<32>{#k/3}* uhh... merhaba, sanırım?'
                                 ]
                                 : [
                                     '<32>{#p/napstablook}{#k/4}* heh...\n* hey...',
-                                    '<32>{#k/3}* say, are you new around here?',
-                                    "<32>{#k/5}* you don't look familiar..."
+                                    '<32>{#k/3}* söylesene, buralarda yeni misin?',
+                                    "<32>{#k/5}* tanıdık görünmüyorsun..."
                                 ],
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        "<32>{#p/napstablook}{#k/2}* honestly, i don't really know what happened...",
-                        "<32>{#k/2}* same goes for everyone in my family.\n* we didn't get pulled in like everyone else.",
-                        '<32>{#k/1}* we did see a bright light, but when it came by... we just sort of rejected it',
-                        "<32>{#k/0}* still, even though we didn't see it ourselves...",
-                        "<32>{#k/3}* we've heard all about what you did for us.",
-                        '<32>{#k/3}* so... thanks.'
+                        "<32>{#p/napstablook}{#k/2}* dürüst olmak gerekirse, ne olduğunu pek bilmiyorum...",
+                        "<32>{#k/2}* ailemdeki herkes için geçerli bu.\n* diğer herkesin aksine biz çekilmedik.",
+                        '<32>{#k/1}* bir parlak ışık gördük, ama yakınımıza geldiğinde... biz bir bakıma onu reddettik',
+                        "<32>{#k/0}* yine de, her ne kadar kendimiz şahit olmasak da...",
+                        "<32>{#k/3}* bizim için yaptıkların hakkında her şeyi duyduk.",
+                        '<32>{#k/3}* yani... teşekkürler.'
                     ]
                     : [
-                        '<32>{#p/napstablook}{#k/2}* you wanna know about ghosts?',
-                        '<32>{#k/0}* well, the only ghosts i know are myself, my three cousins...',
-                        '<32>{#k/3}* and the one behind you, of course',
-                        "<32>{#k/1}* aside from that, there's not much to say",
+                        '<32>{#p/napstablook}{#k/2}* hayaletler hakkında öğrenmek mi istiyorsun?',
+                        '<32>{#k/0}* yani, bildiğim tek hayaletler kendim, ve benim üç diğer kuzenlerim...',
+                        '<32>{#k/3}* ve arkandaki, elbette',
+                        "<32>{#k/1}* bunun dışında, söyleyecek çok bir şey yok",
                         '<32>{#k/0}* without a fused host body, we just sorta... exist',
                         '<32>{#k/0}* yeah, i know...\n* very interesting stuff...'
                     ],
@@ -7908,7 +7908,7 @@ export default {
                     SAVE.data.b.item_eye ? '0G - Field Emitter?' : '0G - Field Emitter',
                     '0G - Vortex Pop',
                     '0G - Radiant Swirl',
-                    'Exit'
+                    'Çık'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
@@ -7916,14 +7916,14 @@ export default {
                         SAVE.data.b.item_eye ? '10G - Field Emitter?' : '20G - Field Emitter',
                         '8G - Vortex Pop',
                         '5G - Radiant Swirl',
-                        'Exit'
+                        'Çık'
                     ]
                     : [
                         '30G - Power Glove?',
                         SAVE.data.b.item_eye ? '30G - Field Emitter?' : '40G - Field Emitter',
                         '28G - Vortex Pop',
                         '20G - Radiant Swirl',
-                        'Exit'
+                        'Çık'
                     ],
         itemInfo: () => [
             "Weapon: 3AT\n($(x) AT)\nKnock 'em.\nReplicated.",
@@ -7938,23 +7938,23 @@ export default {
             '<09>{#p/basic}{#k/4}Thanks for your purchase.',
             '<09>{#p/basic}{#k/7}Just looking?',
             "<09>{#p/basic}{#k/5}That's not enough money.",
-            "<10>{#p/human}(You're carrying too much.)"
+            "<10>{#p/human}(Çok fazla şey taşıyorsun.)"
         ],
-        itemPurchasePrompt: () => (world.population === 0 || world.runaway ? 'Take it?' : 'Buy it for\n$(x)G?'),
+        itemPurchasePrompt: () => (world.population === 0 || world.runaway ? 'Al?' : 'Buy it for\n$(x)G?'),
         menu: () =>
             world.population === 0 || world.runaway
-                ? ['Take', 'Steal', 'Read', 'Exit']
-                : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+                ? ['Al', 'Çal', 'Oku', 'Çık']
+                : ['Satın al', world.meanie ? 'Çal' : 'Sat', 'Konuş', 'Çık'],
         menuPrompt1: '<23>{#p/basic}{#k/0}* Hello, traveler.\n* How can I help you?',
         menuPrompt2: '<23>{#p/basic}{#k/0}* Take your time.',
         menuPrompt3: () =>
-            world.bulrun ? '<23>{#p/basic}* ... but everybody ran.' : '<23>{#p/basic}* ... but nobody came.',
+            world.bulrun ? '<23>{#p/basic}* ... ama herkes kaçtı.' : '<23>{#p/basic}* ... ama kimse gelmedi.',
         note: () =>
             world.runaway
-                ? ["<32>{#p/basic}* There's a note here.", '<32>{#p/basic}* \"Please don\'t come after us.\"']
+                ? ["<32>{#p/basic}* Burada bir not var.", '<32>{#p/basic}* \"Please don\'t come after us.\"']
                 : SAVE.data.n.plot === 72
-                    ? ["<32>{#p/basic}* There's a note here.", '<33>{#p/basic}* \"I\'m sorry I couldn\'t come back.\"']
-                    : ["<32>{#p/basic}* There's a note here.", '<33>{#p/basic}* \"Please don\'t hurt my family.\"'],
+                    ? ["<32>{#p/basic}* Burada bir not var.", '<33>{#p/basic}* \"I\'m sorry I couldn\'t come back.\"']
+                    : ["<32>{#p/basic}* Burada bir not var.", '<33>{#p/basic}* \"Please don\'t hurt my family.\"'],
         sell1: () =>
             world.population === 0 || world.runaway
                 ? ['<30>{#p/human}* (You took 758G from behind the counter.)']
@@ -7971,7 +7971,7 @@ export default {
                     ],
         sell2: () =>
             world.population === 0 || world.runaway
-                ? ['<30>{#p/basic}* Nothing left.']
+                ? ['<30>{#p/basic}* Hiçbir şey kalmadı.']
                 : world.meanie
                     ? ["<30>{#p/basic}{#k/8}* I don't know what your game is, but it's not going to work on me."]
                     : [
@@ -7980,8 +7980,8 @@ export default {
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', 'Outlands', 'The Future', 'Exit']
-                : ['Say Hello', 'What To Do Here', 'Town History', 'Your Life', 'Exit'],
+                ? ['Merhaba De', 'Ne Oldu', 'Outlands', 'Gelecek', 'Çık']
+                : ['Merhaba De', 'What To Do Here', 'Town History', 'Senin Hayatın', 'Çık'],
         talkPrompt: '<09>{#p/basic}{#k/0}Care to chat?',
         talkText: [
             () =>

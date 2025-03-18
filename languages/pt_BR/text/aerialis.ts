@@ -6228,1438 +6228,1438 @@ export default {
             '<25>{#f/3}* quer dizer, olha só pra você...',
             "<25>{#f/0}* você não morreu uma única vez.",
             ...(SAVE.flag.n._deaths > 0
-                ? ['<25>{#f/0}* ...', "<25>{#f/0}* ei, que olhada é essa?", '<25>{#f/2}* am i wrong...?']
+                ? ['<25>{#f/0}* ...', "<25>{#f/0}* ei, que olhada é essa?", '<25>{#f/2}* eu tô errado...?']
                 : SAVE.flag.n._hits > 0
-                    ? ['<25>{#f/2}* heh.\n* chalk it up to my great skills.']
-                    : ["<25>{#f/2}* heh.\n* i doubt you've even got a scratch on you."])
+                    ? ['<25>{#f/2}* heh.\n* graças a minhas grandes habilidades.']
+                    : ["<25>{#f/2}* heh.\n* eu duvido que você tenha ao menos se machucado."])
         ],
         dinnerdate18: () => [
             ...(SAVE.flag.n._deaths > 0 ? ['<25>{#p/sans}{#f/0}* heh.'] : []),
-            '<25>{#p/sans}{#f/0}* well, enjoy the food, and... i hope you learned something.' 
+            '<25>{#p/sans}{#f/0}* bem, aproveite a comida e eu espero que você tenha aprendido algo.' 
         ],
         dinnerdate19: () => [
-            "<25>{#f/3}* just remember, we're all rootin' for ya, bud.",
+            "<25>{#f/3}* só se lembre que estamos torcendo por ti. carinha.",
             ...(SAVE.data.n.exp <= 0
                 ? SAVE.data.n.state_foundry_undyne === 1
-                    ? ["<25>{#f/0}* ... regardless of who you could've saved."]
-                    : ["<25>{#f/2}* ... even undyne's probably on your side by now."]
+                    ? ["<25>{#f/0}* ... retirando seja lá quem você poderia ter salvo."]
+                    : ["<25>{#f/2}* ... até a undyne deve estar do seu lado a essa altura."]
                 : world.bad_lizard < 1 && SAVE.data.n.bully < 15
-                    ? ["<25>{#f/0}* ... regardless of what you've done."]
-                    : ['<25>{#f/0}* ... well, most of us, anyway.'])
+                    ? ["<25>{#f/0}* ... independente do que você tenha feito."]
+                    : ['<25>{#f/0}* ... bem, maior parte de nós, é claro.'])
         ],
-        onionsan1: ['<32>{#p/basic}* Hey there...\n* Noticed you were here...'],
-        onionsan1a: ["<32>{#p/basic}* I'm Onionsan!\n* Onionsan, y'hear!"],
+        onionsan1: ['<32>{#p/basic}* Opa...\n* Percebi que você estava aqui...'],
+        onionsan1a: ["<32>{#p/basic}* Eu sou Onionsan!\n* Onionsan, ouviu!"],
         onionsan2: () =>
             world.goatbro
-                ? ["<32>{#p/basic}* You two, don't look like you're up to any good..."]
-                : ["<32>{#p/basic}* You, look like you've traveled a long way to get here..."],
+                ? ["<32>{#p/basic}* Vocês dois, não parecem estar fazendo nada de legal..."]
+                : ["<32>{#p/basic}* Você parece ter caminhado um longo caminho até aqui..."],
         onionsan2a: () =>
             world.goatbro
-                ? ["<32>{#p/basic}* Good thing, the rec center people will always forgive us!\n* It's my Big Favorite."]
-                : ["<32>{#p/basic}* Good thing, people like us are who the rec center is for!\n* It's my Big Favorite."],
+                ? ["<32>{#p/basic}* Boa coisa que as pessoas no rec center sempre perdoam!"]
+                : ["<32>{#p/basic}* Boa coisa que é para pessoas assim que é o rec center!"],
         onionsan3: [
-            "<32>{#p/basic}* Though...\n* I'm too wide to fit inside...",
-            '<32>{#p/basic}* Outer space makes onions grow Super Duper Fast.'
+            "<32>{#p/basic}* Porem...\n* Eu sou grande demais para entrar...",
+            '<32>{#p/basic}* O espaço sideral me fez crescer super duper rápido.'
         ],
         onionsan3a: () =>
             world.goatbro
                 ? [
-                    "<32>{#p/basic}* But I'll find a path to betterment soon, y'hear!",
-                    "<32>{#p/basic}* They're, gonna break the force field real good, y'hear!"
+                    "<32>{#p/basic}* Mas vou encontrar um caminho para ser melhor em breve, ouviu!",
+                    "<32>{#p/basic}* Eles vão quebrar o escudo de força e me libertar, ouviu!"
                 ]
                 : [
-                    "<32>{#p/basic}* But I'll find a home soon, y'hear!",
-                    "<32>{#p/basic}* They're, gonna break the force field real good, y'hear!"
+                    "<32>{#p/basic}* Mas eu logo encontrarei uma casa, ouviu!",
+                    "<32>{#p/basic}* Eles vão quebrar o escudo de força e me libertar, ouviu!"
                 ],
-        onionsan4: ["<32>{#p/basic}* And then...\n* I'll venture out...\n* To the cosmos..."],
-        onionsan4a: ["<32>{*}{#p/basic}* We're all gonna be freeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeee{^999}"],
-        onionsan4x: ['<25>{#p/asriel2}{#f/8}* Sure, whatever.'],
+        onionsan4: ["<32>{#p/basic}* E então...\n* Eu viajarei pelo cosmos...\n* Livre para sempre..."],
+        onionsan4a: ["<32>{*}{#p/basic}* Nós todos seremos livreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeees{^999}"],
+        onionsan4x: ['<25>{#p/asriel2}{#f/8}* Então tá bom, né?'],
         candy1: () =>
             postSIGMA()
                 ? ["<32>{#p/basic}* Está fora de serviço."]
                 : [
                     SAVE.data.b.svr
-                        ? '<32>{#p/human}* (You approach the vending machine.)'
-                        : "<32>{#p/basic}* It's a filament-exclusive vending machine.",
-                    choicer.create('* (Buy the Filament for 40G?)', 'Sim', 'Não')
+                        ? '<32>{#p/human}* (Você se aproxima da maquina de venda.)'
+                        : "<32>{#p/basic}* É uma maquina de venda exclusiva para filamentos.",
+                    choicer.create('* (Compra um Filamento por 40G?)', 'Sim', 'Não')
                 ],
         candy2: ["<32>{#p/human}* (Você não tem dinheiro o suficiente.)"],
         candy3: ["<32>{#p/human}* (Você está carregando muito.)"],
-        candy4: ['<32>{#p/human}* (You got the Filament.)'],
+        candy4: ['<32>{#p/human}* (Você pegou o Filamento.)'],
         candy5: ['<32>{#p/human}* (Você decide não comprar.)'],
         bedreceptionist1: pager.create(
             0,
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        "<32>{#p/basic}{#npc/a}* Welcome to Four Dimensions.\n* We're closed.\n* Section two, freedom clause.",
-                        '<32>* People never read the terms and conditions...'
+                        "<32>{#p/basic}{#npc/a}* Seja bem-vindo ao Quatro Dimensões.\n* Estamos fechados pela sessão dois, clausula da liberdade.",
+                        '<32>* As pessoas nunca leem os termos e condições...'
                     ]
                     : SAVE.data.b.killed_mettaton
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Welcome to Four Dimensions, the hotel where sleep meets the edge of perception.',
-                            '<32>* All of our currently allocated rooms have been reserved.',
-                            '<32>* Please return at a later time, when more space has been allocated.'
+                            '<32>{#p/basic}{#npc/a}* Bem-vindo ao Quatro Dimensões, o hotel onde dormir leva ao limbo da percepção.',
+                            '<32>* Todas as nossas salas localizadas estão reservadas.',
+                            '<32>* Por favor retorne mais tarde, quando tivermos mais espaço localizado.'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Welcome to Four Dimensions, the hotel where sleep meets the edge of perception.',
-                            "<32>* Once you reserve a room with us, it's yours forever.",
-                            "<32>* We've got a junior suite open on the left stack for 300G.\n* Interested?{#npc}",
-                            choicer.create('* (Own a room?)', 'Sim', 'Não')
+                            '<32>{#p/basic}{#npc/a}* Bem-vindo ao Quatro Dimensões, o hotel onde dormir leva ao limbo da percepção.',
+                            "<32>* Assim que você reservar uma sala com a gente, é sua para sempre.",
+                            "<32>* Temos uma suíte júnior aberta na dimensão esquerda por 300G.\n* Interessado? {#npc}",
+                            choicer.create('* (Pegar um quarto?)', 'Sim', 'Não')
                         ],
             () =>
                 SAVE.data.n.plot === 72
-                    ? ['<32>{#p/basic}{#npc/a}* See you on the homeworld.']
+                    ? ['<32>{#p/basic}{#npc/a}* Te vejo no novo mundo.']
                     : SAVE.data.b.killed_mettaton
-                        ? ['<32>{#p/basic}{#npc/a}* Until next time!']
+                        ? ['<32>{#p/basic}{#npc/a}* Até a próxima!']
                         : [
-                            '<32>{#p/basic}{#npc/a}* 300G to own a junior suite.\n* Interested?{#npc}',
-                            choicer.create('* (Own a room?)', 'Sim', 'Não')
+                            '<32>{#p/basic}{#npc/a}* 300G por uma suíte junior.\n* Interessado?{#npc}',
+                            choicer.create('* (Pegar um quarto?)', 'Sim', 'Não')
                         ]
         ),
         bedreceptionist2a: [
-            '<32>{#p/basic}{#npc/a}* Thanks, we look forward to seeing you sleep safely and comfortably!'
+            '<32>{#p/basic}{#npc/a}* Obrigado, trabalhamos sempre para vê-lo dormir com conforto e segurança!'
         ],
-        bedreceptionist2b: ["<32>{#p/basic}{#npc/a}* Well, you're always welcome to change your mind."],
-        bedreceptionist3: ["<32>{#p/basic}{#npc/a}* I'm afraid you don't have enough G for that."],
+        bedreceptionist2b: ["<32>{#p/basic}{#npc/a}* Bem, você é bem-vindo quando trocar de ideia."],
+        bedreceptionist3: ["<32>{#p/basic}{#npc/a}* Sinto muito, você não tem G o suficiente."],
         bedreceptionist4: () =>
             SAVE.data.n.plot === 72
                 ? [
-                    '<32>{#p/basic}{#npc/a}* As always, we thank you for purchasing a room.',
-                    "<32>* We'll be closing soon, so make the most of your room while you still can!"
+                    '<32>{#p/basic}{#npc/a}* Como sempre, nós te agradecemos por ter comprado um quarto.',
+                    "<32>* Nós vamos fechar logo, então faça bom proveito do seu quarto enquanto puder!"
                 ]
                 : [
-                    '<32>{#p/basic}{#npc/a}* Thanks for purchasing a room at Four Dimensions!',
-                    ...(SAVE.data.b.killed_mettaton ? ['<32>* You were fortunate to have done so when you did.'] : [])
+                    '<32>{#p/basic}{#npc/a}* Obrigado por comprar um quarto no Quatro Dimensões!',
+                    ...(SAVE.data.b.killed_mettaton ? ['<32>* Você tem sorte de tê-lo feito quando o fez.'] : [])
                 ],
         core1: [
             '<32>{#p/event}* Ring, ring...',
-            '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... h-hiya.',
-            "<25>* That's the elevator to the Citadel.",
-            "<25>{#g/alphysInquisitive}* I'd have you go there straight away, but...",
-            "<25>{#g/alphysWelp}* It's... kind of not working right now.",
-            "<25>{#g/alphysCutscene3}* You'll have to go through the CORE instead.",
-            "<25>{#g/alphysUhButHeresTheDeal}* When you're ready, head down there and I'll call you back!"
+            '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... e-epa.',
+            "<25>* Esse é o elevador para o Cidadela.",
+            "<25>{#g/alphysInquisitive}* Eu diria pra você ir direto pra lá, mas...",
+            "<25>{#g/alphysWelp}* Ele... não tá funcionando agora.",
+            "<25>{#g/alphysCutscene3}* Você vai ter que ir pelo CORE invés disso.",
+            "<25>{#g/alphysUhButHeresTheDeal}* Quando você estiver pronto, vai pra lá que eu te ligo!"
         ],
         core2a: () =>
             [
                 [
                     '<32>{#p/event}* Ring, ring...',
-                    "<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you're here.",
-                    "<25>{#g/alphysSmileSweat}* I'll keep an open line between us while you're down here...",
-                    '<25>{#g/alphysWelp}* ... just in case something bad happens.',
+                    "<25>{#p/alphys}{#g/alphysSmileSweat}* Beleza, você tá aqui.",
+                    "<25>{#g/alphysSmileSweat}* Eu manterei a linha telefônica aberta enquanto você estiver aqui...",
+                    '<25>{#g/alphysWelp}* ... só em caso de algo ruim acabar acontecendo.',
                     ...(SAVE.data.n.plot < 66.2
                         ? [
-                            '<25>{#g/alphysInquisitive}* The ELITE squad members who patrol here SHOULD be on break, but...',
-                            "<25>{#g/alphysNeutralSweat}* ... well, I can't make any guarantees."
+                            '<25>{#g/alphysInquisitive}* Os membros do esquadrão de ELITE deveriam estar no descanso, mas...',
+                            "<25>{#g/alphysNeutralSweat}* ... olha, eu não posso garantir nada."
                         ]
                         : [
-                            "<25>{#g/alphysInquisitive}* Since we're here ahead of schedule, the ELITE squad is off-duty.",
-                            "<25>{#g/alphysNeutralSweat}* ... let's hope that makes things easier."
+                            "<25>{#g/alphysInquisitive}* Como chegamos antes do previsto, o esquadrão ELITE está de folga.",
+                            "<25>{#g/alphysNeutralSweat}* ... vamos esperar que isso facilite as coisas."
                         ])
                 ],
                 SAVE.data.n.plot < 66.2
                     ? [
                         '<32>{#p/event}* Ring, ring...',
-                        '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
-                        '<25>{#g/alphysNeutralSweat}* Remember, g-gotta keep an eye out for the ELITE squad members.'
+                        '<25>{#p/alphys}{#g/alphysWelp}* Okay, pronto pra continuar?',
+                        '<25>{#g/alphysNeutralSweat}* Lembre-se, m-mantenha os olhos abertos para os ELITE.'
                     ]
                     : SAVE.data.n.plot < 67
                         ? [
                             '<32>{#p/event}* Ring, ring...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
-                            '<25>{#g/alphysNeutralSweat}* Remember, g-gotta unlock that door...'
+                            '<25>{#p/alphys}{#g/alphysWelp}* Okay, pronto pra continuar?',
+                            '<25>{#g/alphysNeutralSweat}* Lembre-se, é p-preciso abrir a porta...'
                         ]
                         : [
                             '<32>{#p/event}* Ring, ring...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
-                            "<25>{#g/alphysNeutralSweat}* We're almost to the end, you know..."
+                            '<25>{#p/alphys}{#g/alphysWelp}* Okay, pronto pra continuar?',
+                            "<25>{#g/alphysNeutralSweat}* Estamos quase no fim, sabe..."
                         ],
-                ['<32>{#p/event}* Ring, ring...', "<25>{#p/alphys}{#g/alphysWelp}* I'll be on the line."]
+                ['<32>{#p/event}* Ring, ring...', "<25>{#p/alphys}{#g/alphysWelp}* Eu vou estar na linha."]
             ][Math.min(SAVE.data.n.state_aerialis_coreenter++, 2)],
         core2b: () =>
             [
                 [
-                    "<25>{#p/alphys}{#g/alphysInquisitive}* If you're leaving the CORE, I'll hang up the phone for now.",
-                    "<25>{#g/alphysCutscene2}* I'll call you back when y-you return here!"
+                    "<25>{#p/alphys}{#g/alphysInquisitive}* Se você está saindo do CORE, eu vou desligar por agora.",
+                    "<25>{#g/alphysCutscene2}* Eu te ligo de volta a-assim que você voltar!"
                 ],
-                ['<25>{#p/alphys}{#g/alphysNervousLaugh}* Leaving again?', '<25>{#g/alphysWelp}* Alright then.'],
+                ['<25>{#p/alphys}{#g/alphysNervousLaugh}* Saindo de novo?', '<25>{#g/alphysWelp}* Tudo bem.'],
                 [
                     '<25>{#p/alphys}{#g/alphysFR}* ...',
-                    '<25>{#g/alphysFR}* You better not be doing this just to see how I react.'
+                    '<25>{#g/alphysFR}* Acho bom você não estar fazendo isso só pra ver minha reação.'
                 ],
                 ['<25>{#p/alphys}{#g/alphysCutscene3}* ...']
             ][Math.min(SAVE.data.n.state_aerialis_coreleave++, 3)],
-        core3: ['<25>{*}{#p/alphys}{#g/alphysShocked}* Watch out!{^999}'],
+        core3: ['<25>{*}{#p/alphys}{#g/alphysShocked}* Cuidado!{^999}'],
         core4: () =>
             SAVE.data.b.legendary_madjick
-                ? ["<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n* What's with that item?"]
+                ? ["<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n* O que tem nesse item?"]
                 : SAVE.data.b.assist_madjick
                     ? [
-                        '<25>{#p/alphys}{#g/alphysCutscene3}* What the... what did you just DO??',
-                        '<25>* What did you SAY to them to make them walk away like that!?',
-                        '<32>{#p/basic}* Heh.\n* Sometimes all you need are the right words.'
+                        '<25>{#p/alphys}{#g/alphysCutscene3}* Mas que... o que você fez?',
+                        '<25>* O que você DISSE pra fazê-lo sair andando assim!?',
+                        '<32>{#p/basic}* Heh.\n* As vezes tudo que você precisa são as palavras corretas.'
                     ]
                     : !SAVE.data.b.killed_madjick
                         ? [
-                            '<25>{#p/alphys}{#g/alphysNervousLaugh}* Phew...',
-                            "<25>{#g/alphysNeutralSweat}* L-let's hope that doesn't happen again.",
-                            ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... guess you didn't need my help after all."])
+                            '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ufa...',
+                            "<25>{#g/alphysNeutralSweat}* V-vamos esperar que isso não aconteça de novo.",
+                            ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... acho que você nem precisa da minha ajuda."])
                         ]
                         : world.bad_lizard === 0
                             ? [
-                                '<25>{#p/alphys}{#g/alphysSideSad}* No... why...',
+                                '<25>{#p/alphys}{#g/alphysSideSad}* Não... por que...',
                                 '<25>{#g/alphysWorried}* ...',
-                                "<25>* Couldn't there have been... another way?"
+                                "<25>* Não poderia ter tido outra forma... tipo?"
                             ]
                             : [
-                                '<25>{#p/alphys}{#g/alphysSideSad}* No... why...',
+                                '<25>{#p/alphys}{#g/alphysSideSad}* Não... por que...',
                                 '<25>{#g/alphysThatSucks}* ...',
-                                "<25>* At least it won't be long until we're outta here."
+                                "<25>* Pelo menos não vai demorar muito até nós metermos o pé daqui."
                             ],
-        core5: ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* Wait!!!{^999}'],
+        core5: ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* Espera!!!{^999}'],
         core6: () =>
             SAVE.data.b.legendary_knightknight
                 ? SAVE.data.b.assist_madjick || SAVE.data.b.legendary_madjick
                     ? [
-                        "<25>{#p/alphys}{#g/alphysWTF}* I can't believe what I'm seeing...",
+                        "<25>{#p/alphys}{#g/alphysWTF}* Eu não posso acreditar no que estou vendo...",
                         ...(SAVE.data.b.oops || !SAVE.data.b.assist_madjick
                             ? []
-                            : ["<32>{#p/basic}* ... guess you don't need my help this time, huh?"])
+                            : ["<32>{#p/basic}* ... acho que você não precisava da minha ajuda, huh?"])
                     ]
-                    : ["<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n* What's with that item?"]
+                    : ["<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n* O que tem nesse item?"]
                 : SAVE.data.b.assist_knightknight
                     ? SAVE.data.b.assist_madjick || SAVE.data.b.legendary_madjick
                         ? [
-                            "<25>{#p/alphys}{#g/alphysWTF}* I can't believe what I'm seeing...",
-                            '<32>{#p/basic}* Take it from me.\n* Sentimentality is my specialty!',
-                            '<32>{#p/basic}* Magic words and warrior songs are the lifeblood of these old homeworld heroes.'
+                            "<25>{#p/alphys}{#g/alphysWTF}* Eu não posso acreditar no que estou vendo...",
+                            '<32>{#p/basic}* Leva como conselho.\n* Sentimentalismo é minha especialidade!',
+                            '<32>{#p/basic}* Palavras mágicas e canções guerreiras são a força desses antigos heróis do mundo natal.'
                         ]
                         : [
-                            '<25>{#p/alphys}{#g/alphysCutscene3}* What the... what did you just DO??',
-                            '<25>* What did you SAY to them to make them walk away like that!?',
-                            '<32>{#p/basic}* Heh.\n* Sometimes all you need are the right high notes.'
+                            '<25>{#p/alphys}{#g/alphysCutscene3}* Mas que... o que você fez?',
+                            '<25>* O que você DISSE pra fazê-lo sair andando assim!?',
+                            '<32>{#p/basic}* Heh.\n* As vezes tudo que precisamos são das notas corretas.'
                         ]
                     : !SAVE.data.b.killed_knightknight
                         ? [
                             '<25>{#p/alphys}{#g/alphysWelp}* ...',
                             ...(SAVE.data.b.killed_madjick
-                                ? ['<25>{#g/alphysWelp}* At least you both survived this time.']
+                                ? ['<25>{#g/alphysWelp}* Pelo menos ambos sobreviveram dessa vez.']
                                 : [
-                                    '<25>* The next room awaits.',
+                                    '<25>* A próxima sala aguarda.',
                                     ...(SAVE.data.b.oops || !SAVE.data.b.assist_madjick
                                         ? []
-                                        : ["<32>{#p/basic}* ... guess you don't need my help this time, huh?"])
+                                        : ["<32>{#p/basic}* ... acho que você não precisava da minha ajuda, huh?"])
                                 ])
                         ]
                         : SAVE.data.b.killed_madjick || world.bad_lizard === 0
-                            ? ['<25>{#p/alphys}{#g/alphysThatSucks}* ...', '<32>{#p/human}* (You hear a long sigh.)']
+                            ? ['<25>{#p/alphys}{#g/alphysThatSucks}* ...', '<32>{#p/human}* (Você escuta um longo chorinho.)']
                             : [
                                 '<25>{#p/alphys}{#g/alphysWorried}* ...',
-                                '<25>{#g/alphysWorried}* That should be the l-last of the engineers.'
+                                '<25>{#g/alphysWorried}* Esses devem ter sido os u-ultimos engenheiros.'
                             ],
         core7: [
-            '<25>{#p/alphys}{#g/alphysWelp}* So... this is the CORE.\n* Or rather, the \"core\" of the CORE.',
-            '<25>{#g/alphysInquisitive}* There are two p-paths you can take to unlock the door behind it...',
-            "<25>* The puzzler's to the left, and the fighter's to the right.",
-            '<25>{#g/alphysFR}* Both are... difficult.\n* But...',
-            "<25>{#g/alphysWelp}* I'd suggest t-taking the puzzler's path.",
-            "<25>{#g/alphysSideSad}* It's up to you, of course...",
-            "<25>{#g/alphysHaveSomeCompassion}* But at least that way, you won't... risk a conflict."
+            '<25>{#p/alphys}{#g/alphysWelp}* Então... este é o CORE.\n* Ou melhor, o \"core\" do CORE.',
+            '<25>{#g/alphysInquisitive}* Tem dois caminhos que v-você pode pegar para destrancar a porta...',
+            "<25>* Quebra-cabeças na esquerda e lutas na direita.",
+            '<25>{#g/alphysFR}* Ambos são... difíceis.\n* Mas...',
+            "<25>{#g/alphysWelp}* Eu sugiro que você vá pelos quebra-cabeças.",
+            "<25>{#g/alphysSideSad}* É você que escolhe, claro...",
+            "<25>{#g/alphysHaveSomeCompassion}* Mas pelo menos naquele caminho não a risco de conflito."
         ],
         core8a: (nooted: boolean) => [
-            "<25>{#p/alphys}{#g/alphysSide}* So you've decided on the puzzler's path.",
-            '<25>{#g/alphysWelp}* Probably a smart choice.',
+            "<25>{#p/alphys}{#g/alphysSide}* Então você decidiu ir pelos quebra-cabeças.",
+            '<25>{#g/alphysWelp}* Provavelmente uma escolha inteligente.',
             ...(nooted
                 ? [
-                    '<25>{#g/alphysCutscene3}* The puzzles here are...',
-                    '<25>{#f/10}* ... already unlocked.',
-                    '<25>{#f/3}* Has it been like this the whole time?'
+                    '<25>{#g/alphysCutscene3}* Os quebra-cabeças aqui estão...',
+                    '<25>{#f/10}* ... abertos.',
+                    '<25>{#f/3}* Isso já estava assim antes?'
                 ]
                 : [
-                    "<25>{#g/alphysCutscene3}* The puzzles here are... uh, simple if you know what you're doing.",
-                    "<25>{#g/alphysCutscene2}* To summarize, though, it's really just a... big c-combination lock.",
-                    '<25>{#g/alphysWelp}* Use the switches to flip each segment until they all line up.'
+                    "<25>{#g/alphysCutscene3}* Os quebra-cabeças são simples se... você souber o que está fazendo.",
+                    "<25>{#g/alphysCutscene2}* Para resumir, porém, é realmente apenas um... grande bloqueio de combinação.",
+                    '<25>{#g/alphysWelp}* Use os interruptores para inverter cada segmento até que todos se alinhem.'
                 ])
         ],
-        core8a1: () => ["<25>{#p/alphys}{#g/alphysInquisitive}* Unless you'd prefer the other path...?"],
-        core8b: ["<25>{#p/alphys}{#g/alphysCutscene2}* That's one puzzle down."],
-        core8b1: () => ["<25>{#p/alphys}{#g/alphysWelp}* I guess we're going this way now."],
-        core8c: ['<25>{#p/alphys}{#g/alphysCutscene1}* You did it!\n* Now hit the switch in the next room!'],
+        core8a1: () => ["<25>{#p/alphys}{#g/alphysInquisitive}* Ah não ser que você prefira o outro caminho?"],
+        core8b: ["<25>{#p/alphys}{#g/alphysCutscene2}* Um a menos."],
+        core8b1: () => ["<25>{#p/alphys}{#g/alphysWelp}* Acho que vamos por esse caminho agora."],
+        core8c: ['<25>{#p/alphys}{#g/alphysCutscene1}* Você conseguiu!\n* Agora aperta a alavanca na próxima sala!'],
         core8c1: [
-            '<25>{#p/alphys}{#g/alphysInquisitive}* What are you doing...?',
-            "<25>{#p/alphys}{#g/alphysFR}* Don't tell me you're switching paths NOW..."
+            '<25>{#p/alphys}{#g/alphysInquisitive}* O que você tá fazendo...?',
+            "<25>{#p/alphys}{#g/alphysFR}* Não me diga que você tá trocando de caminho AGORA..."
         ],
         core8c2: (nooted: boolean) =>
             nooted
                 ? [
-                    '<25>{#p/alphys}{#g/alphysWTF}* You are.\n* You are going down the other...',
+                    '<25>{#p/alphys}{#g/alphysWTF}* Você.\n* Você está descendo o outro...',
                     '<25>{#g/alphysFR}* ...',
-                    '<25>{#g/alphysFR}* Since when was this unlocked?'
+                    '<25>{#g/alphysFR}* Desde quando isso tá destrancado?'
                 ]
-                : ['<25>{#p/alphys}{#g/alphysWTF}* You are.\n* You are going down the other path.'],
+                : ['<25>{#p/alphys}{#g/alphysWTF}* Você.\n* Você está descendo o outro caminho.'],
         core8c3: [
-            '<25>{#p/alphys}{#g/alphysWelp}* Now you have access to both switches.',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* Come on!'
+            '<25>{#p/alphys}{#g/alphysWelp}* Agora você tem acesso a ambas as alavancas.',
+            '<25>{#p/alphys}{#g/alphysCutscene3}* Vamos logo!'
         ],
-        core8c4: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ...', '<25>* You are seriously testing my patience right now.'],
+        core8c4: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ...', '<25>* Agora você está realmente testando minha paciência.'],
         core9a: () => [
-            "<25>{#p/alphys}{#g/alphysNeutralSweat}* So you've decided on the fighter's path.",
+            "<25>{#p/alphys}{#g/alphysNeutralSweat}* Então você foi pelo caminho da luta.",
             ...(SAVE.data.b.killed_knightknight && (SAVE.data.b.killed_madjick || world.bad_lizard === 1)
-                ? ['<25>* ...', '<25>{#g/alphysCutscene3}* Can you... maybe not kill anyone else?\n* If possible?']
+                ? ['<25>* ...', '<25>{#g/alphysCutscene3}* Da pra você... não matar mais ninguém?\n* Se possível?']
                 : SAVE.data.b.killed_knightknight || SAVE.data.b.killed_madjick
-                    ? ['<25>* ...', '<25>* This could be bad.']
+                    ? ['<25>* ...', '<25>* Isso pode ser bem ruim.']
                     : [
-                        "<25>{#g/alphysWelp}* We're certainly feeling adventurous today.",
-                        "<25>* There's not much to it, you just gotta get through the guards.",
-                        '<25>{#g/alphysCutscene2}* Uh... good luck?',
+                        "<25>{#g/alphysWelp}* Estamos nos sentindo aventurosos hoje.",
+                        "<25>* Não a muito o que dizer, você só precisa passar pelos guardas.",
+                        '<25>{#g/alphysCutscene2}* Uh... boa sorte?',
                         '<25>{#g/alphysCutscene3}* ...',
-                        "<25>* Please don't die to these guys."
+                        "<25>* Por favor não morre pra esses caras."
                     ])
         ],
         core9a1: (nooted: boolean) =>
             nooted
                 ? [
-                    "<25>{#p/alphys}{#g/alphysSide}* Oh, you're...",
-                    '<25>{#p/alphys}{#g/alphysCutscene3}* ... over here where the path is already unlocked.',
-                    '<25>{#p/alphys}{#f/3}* Has it been like this the whole time?'
+                    "<25>{#p/alphys}{#g/alphysSide}* Oh, você...",
+                    '<25>{#p/alphys}{#g/alphysCutscene3}* ... foi por onde o caminho já está livre.',
+                    '<25>{#p/alphys}{#f/3}* Isso estava assim esse tempo todo?'
                 ]
                 : [
-                    "<25>{#p/alphys}{#g/alphysSide}* Oh, you're over here now.",
-                    "<25>{#g/alphysInquisitive}* Puzzler's path it is?"
+                    "<25>{#p/alphys}{#g/alphysSide}* Oh, você está aqui.",
+                    "<25>{#g/alphysInquisitive}* Caminho dos quebra-cabeças?"
                 ],
         core9b: () =>
             1 <= battler.exp
                 ? [
                     '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                    corefriendly() ? '<25>* D-did you... really have to do that?' : '<32>{#p/human}* (Você escuta um chorinho.)'
+                    corefriendly() ? '<25>* V-você realmente... precisava ter feito aquilo?' : '<32>{#p/human}* (Você escuta um chorinho.)'
                 ]
                 : SAVE.data.b.a_state_nooted1
                     ? [
-                        "<25>{#p/alphys}{#g/alphysInquisitive}* I don't understand why you're still over here, you know.",
-                        "<25>{#p/alphys}{#g/alphysCutscene3}* Why?\n* The puzzler's path is already unlocked!"
+                        "<25>{#p/alphys}{#g/alphysInquisitive}* Eu não tô entendendo o porque de você ainda estar aqui.",
+                        "<25>{#p/alphys}{#g/alphysCutscene3}* POR QUE?\n* O caminho do quebra-cabeça já está aberto!"
                     ]
-                    : ["<25>{#p/alphys}{#g/alphysCutscene2}* You're past the first group!\n* Now for the second."],
+                    : ["<25>{#p/alphys}{#g/alphysCutscene2}* Você passou o primeiro grupo!\n* Agora para o segundo."],
         core9b1: (nooted: boolean) =>
             1 <= battler.exp && corefriendly()
                 ? nooted
                     ? [
-                        "<25>{#p/alphys}{#g/alphysInquisitive}* Unless, of course, you're...",
-                        '<25>{#p/alphys}{#g/alphysCutscene3}* ... gonna take the other path which is already unlocked.',
-                        '<25>{#p/alphys}{#f/3}* Has it been like this the whole time?'
+                        "<25>{#p/alphys}{#g/alphysInquisitive}* Ah não ser que você...",
+                        '<25>{#p/alphys}{#g/alphysCutscene3}* ... volte e vá pelo caminho que já está livre.',
+                        '<25>{#p/alphys}{#f/3}* Isso estava assim esse tempo todo?'
                     ]
-                    : ["<25>{#p/alphys}{#g/alphysInquisitive}* Unless, of course, you're gonna take the other path...?"]
+                    : ["<25>{#p/alphys}{#g/alphysInquisitive}* Ah não ser, claro, que você pegue o outro caminho...?"]
                 : nooted
                     ? [
-                        '<25>{#p/alphys}{#g/alphysInquisitive}* Changed your...',
-                        "<25>{#p/alphys}{#g/alphysCutscene3}* ... oh, it's already unlocked over here.",
-                        '<25>{#p/alphys}{#f/3}* Has it been like this the whole time?'
+                        '<25>{#p/alphys}{#g/alphysInquisitive}* Mudou seu...',
+                        "<25>{#p/alphys}{#g/alphysCutscene3}* ... oh, ele já tá destrancado aqui.",
+                        '<25>{#p/alphys}{#f/3}* Isso estava assim esse tempo todo?'
                     ]
-                    : ['<25>{#p/alphys}{#g/alphysInquisitive}* Changed your mind...?'],
+                    : ['<25>{#p/alphys}{#g/alphysInquisitive}* Mudou de ideia...?'],
         core9c: () =>
             calm_lizard()
-                ? ['<25>{#p/alphys}{#g/alphysCutscene1}* You made it!\n* Now hit the switch in the next room!']
+                ? ['<25>{#p/alphys}{#g/alphysCutscene1}* Você conseguiu!\n* Agora aperta a alavanca na outra sala!']
                 : [
                     '<25>{#p/alphys}{#g/alphysSideSad}* ...',
                     SAVE.data.n.state_aerialis_corepath_puzzle < 3
-                        ? "<25>{#p/alphys}{#g/alphysSideSad}* Hit the switch in the next room, and we'll be outta this place."
-                        : '<25>{#p/alphys}{#g/alphysSideSad}* Hit the switch in the next room, and just be done with it.'
+                        ? "<25>{#p/alphys}{#g/alphysSideSad}* Aperta a alavanca na outra sala e vamos vazar daqui."
+                        : '<25>{#p/alphys}{#g/alphysSideSad}* Aperta a alavanca na outra sala e sai logo.'
                 ],
-        core10a: ['<25>{#p/alphys}{#g/alphysCutscene2}* Okay, y-you should be able to continue forward now.'],
+        core10a: ['<25>{#p/alphys}{#g/alphysCutscene2}* Okay, v-você vai conseguir seguir em frente agora.'],
         core10b: [
-            '<25>{#p/alphys}{#g/alphysWelp}* Oh, you came back.',
-            '<25>{#g/alphysCutscene2}* Well, y-you should be able to continue forward now.'
+            '<25>{#p/alphys}{#g/alphysWelp}* Oh, você voltou.',
+            '<25>{#g/alphysCutscene2}* Bem, v-você deve conseguir seguir em frente agora.'
         ],
-        core10c: ['<25>{#p/alphys}{#g/alphysFR}* Finally.'],
+        core10c: ['<25>{#p/alphys}{#g/alphysFR}* Finalmente.'],
         core11: (nooted: boolean) =>
             nooted
                 ? [
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* Why are you going...',
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* Por que você está...',
                     '<25>{#f/21}* ...',
-                    '<25>{#f/22}* HAS THIS BEEN UNLOCKED THE WHOLE TIME!?'
+                    '<25>{#f/22}* ESSE AQUI ESTAVA ABERTO ESSE TEMPO TODO!?'
                 ]
-                : ['<25>{#p/alphys}{#g/alphysInquisitive}* Why are you going back this way?', '<25>{#g/alphysFR}* ...'],
+                : ['<25>{#p/alphys}{#g/alphysInquisitive}* Por que você está voltando por este caminho?', '<25>{#g/alphysFR}* ...'],
         core12: (nooted: boolean) =>
             nooted
                 ? [
                     
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* Since when was this unlocked?',
-                    "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Well, that's gonna save a lot of time!"
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* Desde quando isso aqui estava aberto?',
+                    "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Olha, isso vai nos poupar bastante tempo!"
                 ]
                 : SAVE.data.b.a_state_nooted1 && game.room === 'a_core_left2' // NO-TRANSLATE
 
-                    ? ['<25>{#p/alphys}{#g/alphysCutscene3}* What in the world...']
-                    : ['<25>{#p/alphys}{#g/alphysCutscene3}* You could have reached the capital by now.'],
+                    ? ['<25>{#p/alphys}{#g/alphysCutscene3}* Mas que caramba...']
+                    : ['<25>{#p/alphys}{#g/alphysCutscene3}* Você poderia estar na capital agora mesmo.'],
         core12x: [
-            '<25>{#p/alphys}{#g/alphysInquisitive}* Since when was this unlocked?',
-            '<25>{#p/alphys}{#f/3}* Has it been like this the whole time?'
+            '<25>{#p/alphys}{#g/alphysInquisitive}* Desde quando isso aqui estava aberto?',
+            '<25>{#p/alphys}{#f/3}* Isso estava assim esse tempo todo?'
         ],
         core13: [
-            "<25>{#p/alphys}{#g/alphysGarbo}* You've hit both switches.",
-            '<25>{#p/alphys}{#g/alphysGarboCenter}* Happy now?'
+            "<25>{#p/alphys}{#g/alphysGarbo}* Você apertou ambas as alavancas.",
+            '<25>{#p/alphys}{#g/alphysGarboCenter}* Tá feliz agora?'
         ],
         core14: () => [
-            "<25>{#p/alphys}{#g/alphysWelp}* W-wait, there's someone ahead.",
-            '<25>{#p/alphys}{#g/alphysNeutralSweat}* Let me see if I can clear the way this time...',
+            "<25>{#p/alphys}{#g/alphysWelp}* E-espera, tem alguém lá na frente.",
+            '<25>{#p/alphys}{#g/alphysNeutralSweat}* Vamos ver se consigo limpar o caminho desta vez...',
             SAVE.data.b.ubershortcut
                 ? '<32>{#p/human}* (Parece que alguém está digitando furiosamente no teclado.)'
-                : '<32>{|}{#p/human}* (Yet again, the obligatory- {%}',
-            "<25>{#p/alphys}{#g/alphysCutscene3}* They're not on the intercom system.",
-            "<25>{#g/alphysUhButHeresTheDeal}* They're not even part of the guard!",
-            '<25>{#g/alphysWelp}* ... this is not good.'
+                : '<32>{|}{#p/human}* (De novo, o obrigatório- {%}',
+            "<25>{#p/alphys}{#g/alphysCutscene3}* Ele não está no meu sistema.",
+            "<25>{#g/alphysUhButHeresTheDeal}* Seja lá quem for nem faz parte da guarda!",
+            '<25>{#g/alphysWelp}* ... isso não é bom.'
         ],
         core14a: [
-            '<32>{#p/basic}* So you think you can just cross a bridge and make it to the other side, do you?',
-            "<32>* Oouhuhu...\n* I'm afraid, dear comm-raid..."
+            '<32>{#p/basic}* Então você pensa que pode simplesmente atravessar um ponte até o outro lado?',
+            "<32>* Oouhuhu...\n* Eu temo, meu camarada..."
         ],
-        core14b: ["<32>{#p/basic}* You'll have to THINK AGAIN!{%20}"],
+        core14b: ["<32>{#p/basic}* Que você terá que PENSAR DE NOVO!{%20}"],
         core15: () =>
             !world.killed_mushketeer
-                ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Is... is that it?', '<25>* Are we clear?']
+                ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* É... é isso?', '<25>* Estamos prontos pra ir em frente, finalmente?']
                 : [
-                    '<26>{#p/alphys}{#g/alphysNeutralSweat}* Did... did you really...',
-                    '<25>{#g/alphysHaveSomeCompassion}* ... okay...'
+                    '<26>{#p/alphys}{#g/alphysNeutralSweat}* Você... você realmente...',
+                    '<25>{#g/alphysHaveSomeCompassion}* ... tudo bem...'
                 ]
     },
 
     b_group_aerialis: {
         froggitexWhimsalot: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* The f-first pair of guards.']
-                : ['<32>{#p/story}* Final Froggit and Flutterknyte appeared before you!'],
+                ? ['<32>{#p/alphys}* O p-primeiro par de guardas.']
+                : ['<32>{#p/story}* Final Froggit e Flutterknyte aparecem na sua frente!'],
         froggitexWhimsalotX: (whimmer: boolean) =>
-            whimmer ? ['<32>{#p/story}* Flutterknyte now flies solo.'] : ['<32>{#p/story}* Final Froggit hops alone.'],
+            whimmer ? ['<32>{#p/story}* Flutterknyte agora boa sozinha.'] : ['<32>{#p/story}* Final Froggit pula solitário.'],
         astigmatism: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Not these guys...']
+                ? ['<32>{#p/alphys}* Esses caras não...']
                 : world.genocide
-                    ? ['<32>{#p/story}* A smiling eye steps forth!']
-                    : ['<32>{#p/story}* The smiling eyes step forth!'],
-        rg: () => (world.goatbro ? ['<32>{#p/asriel2}* RG 01 and 02.'] : ['<32>{#p/story}* The Royal Guard attacks!']),
+                    ? ['<32>{#p/story}* Um olho sorridente se aproxima!']
+                    : ['<32>{#p/story}* Os olhos sorridentes se aproximam!'],
+        rg: () => (world.goatbro ? ['<32>{#p/asriel2}* RG 01 e 02.'] : ['<32>{#p/story}* Os Guardas Reais atacam!']),
         spacetopTsundere: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* These crazies...'] : ["<32>{#p/story}* It's a space-faring nightmare!"],
+            world.goatbro ? ['<32>{#p/asriel2}* Esses malucos...'] : ["<32>{#p/story}* É um pesadelo espacial!"],
         spacetopTsundereX: (spacetop: boolean) =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* One left.']
+                ? ['<32>{#p/asriel2}* Só mais um.']
                 : spacetop
-                    ? ['<32>{#p/story}* Only Astro Serf remains.']
-                    : ['<32>{#p/story}* Only Tsunderidex remains.'],
+                    ? ['<32>{#p/story}* Apenas Astro Serf sobrando.']
+                    : ['<32>{#p/story}* Apenas Tsunderidex faltando.'],
         pyropeTsundere: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* The hot-headed army arrives.'] : ["<32>{#p/story}* It's a fiery cavalry!"],
+            world.goatbro ? ['<32>{#p/asriel2}* O grupo dos cabeças quentes.'] : ["<32>{#p/story}* É uma cavalaria de fogo!"],
         pyropeTsundereX: (pyrope: boolean) =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* One left.']
+                ? ['<32>{#p/asriel2}* Só mais um.']
                 : pyrope
-                    ? ['<32>{#p/story}* Only Hotwire remains.']
-                    : ['<32>{#p/story}* Only Tsunderidex remains.'],
-        astigmatismMigospelX: ['<32>{#p/story}* Eyewalker Prime takes charge of this battle!']
+                    ? ['<32>{#p/story}* Apenas Hotwire ficou.']
+                    : ['<32>{#p/story}* Apenas Tsunderidex faltando.'],
+        astigmatismMigospelX: ['<32>{#p/story}* Eyewalker Prime toma controle de sua batalha!']
     },
 
     b_opponent_glyde: {
         name: '* Glyde',
-        epiphaNOPE: ['<11>{#p/basic}{~}{#e/glyde/10}Get that thing out of my face, will you?'],
-        act_check: ['<32>{#p/story}* GLYDE - ATK YES DEF YES\n* Refuses to give more details about its statistics.'],
+        epiphaNOPE: ['<11>{#p/basic}{~}{#e/glyde/10}Tira esse negócio da minha cara, beleza?'],
+        act_check: ['<32>{#p/story}* GLYDE - ATQ SIM DEF SIM\n* Se recusa a passar detalhes da suas estatísticas de graça.'],
         act_secret: () =>
             glade()
                 ? SAVE.data.b.w_state_steak && SAVE.data.b.w_state_soda
-                    ? ['<32>{#p/human}* (You tell Glyde the password given to you by Aaron.)']
-                    : ["<32>{#p/human}* (You try to tell Glyde a password, but you don't have any passwords to tell.)"]
-                : ['<33>{#p/human}* (You try to tell Glyde a password, but it shakes its head and interrupts you.)'],
-        act_flirt1: ['<32>{#p/human}* (You flirt with Glyde.)'],
-        act_flirt2: ["<32>{#p/human}* (You try flirting with Glyde, but it doesn't elicit a response.)"],
-        act_berate: ['<32>{#p/human}* (You berate Glyde.)\n* (Glyde laughs at the attempt.)'],
+                    ? ['<32>{#p/human}* (Você diz ao Glyde sua senha cochichada por Aaron.)']
+                    : ["<32>{#p/human}* (Você tenta dizer a Glyde uma senha, mas você você tinha nenhuma pra falar.)"]
+                : ['<33>{#p/human}* (Você tenta falar uma senha para Glyde, mas ele balança a cabeça e interrompe.)'],
+        act_flirt1: ['<32>{#p/human}* (Você flerta com Glyde.)'],
+        act_flirt2: ["<32>{#p/human}* (Você tenta flertar com o Glyde, mas ele não tem interesse em responder.)"],
+        act_berate: ['<32>{#p/human}* (Você repreende Glyde.)\n* (Glyde cai na risada.)'],
         fightEnder1: [
             '<20>{#p/basic}{#p/basic}{~}{#e/glyde/4}... huh?',
-            '<20>{#p/basic}{~}Did you just say \"triple beefcake deluxe?\"',
+            '<20>{#p/basic}{~}Você acabou de dizer \"triple beefcake deluxe?\"',
             '<20>{#p/basic}{~}{#e/glyde/9}...',
-            '<20>{#p/basic}{~}{#e/glyde/10}So...',
-            "<20>{#p/basic}{~}{#e/glyde/5}YOU'RE the one who purchased my product in the Outlands!",
-            '<20>{#p/basic}{~}And, not only that...',
-            '<20>{#p/basic}{~}But you remembered the password, too!'
+            '<20>{#p/basic}{~}{#e/glyde/10}Então...',
+            "<20>{#p/basic}{~}{#e/glyde/5}FOI VOCÊ quem comprou meus produtos nas Outlands!",
+            '<20>{#p/basic}{~}E não apenas isso...',
+            '<20>{#p/basic}{~}Mas você se lembrou da senha, também!'
         ],
         fightEnder2: [
             '<20>{#p/basic}{#p/basic}{~}{#e/glyde/4}... huh?',
-            '<20>{#p/basic}{~}Did you just say \"triple beefcake deluxe?\"',
+            '<20>{#p/basic}{~}Você acabou de dizer \"triple beefcake deluxe?\"',
             '<20>{#p/basic}{~}{#e/glyde/9}...',
-            '<20>{#p/basic}{~}{#e/glyde/10}So...',
-            '<20>{#p/basic}{~}{#e/glyde/5}Not only have you purchased my product...',
-            '<20>{#p/basic}{~}{#e/glyde/12}But you even remembered the password??'
+            '<20>{#p/basic}{~}{#e/glyde/10}Então...',
+            '<20>{#p/basic}{~}{#e/glyde/5}Não apenas você comprou meu produto..',
+            '<20>{#p/basic}{~}{#e/glyde/12}Mas você também se lembrou da senha??'
         ],
         fightEnder3: [
-            "<20>{#p/basic}{~}{#e/glyde/5}Boy, you don't know how long I've been waiting to hear those wonderful words.",
-            "<20>{#p/basic}{~}{#e/glyde/12}What can I say except you're one freakadacious fella!",
+            "<20>{#p/basic}{~}{#e/glyde/5}Cara, você não sabe quanto tempo esperei para ouvir estas lindas palavras.",
+            "<20>{#p/basic}{~}{#e/glyde/12}O que eu posso dizer? Você é um fervolouco-manolo!",
             '<20>{#p/basic}{~}{#e/glyde/9}...',
-            "<20>{#p/basic}{~}{#e/glyde/10}Tell you what.\nSince you're so kind, I'll get outta your way and go bother someone else.",
-            '<20>{#p/basic}{~}{#e/glyde/5}Kahaha!\nCatch ya on the flipside, G!'
+            "<20>{#p/basic}{~}{#e/glyde/10}Sabe. Já que você é tão gente boa, eu vou sair do seu caminho e ir incomodar outra pessoa.",
+            '<20>{#p/basic}{~}{#e/glyde/5}Kahaha!\nTe peguei na moeda, G!'
         ],
         fightItem1: (zero: boolean) => [
-            '<20>{#p/basic}{~}Woah, hey, is that what I think it is?',
-            "<20>{#p/basic}{~}Well I'll be stoked!\nAlways good to meet a happy customer.",
-            ...(zero ? [] : ['<20>{#p/basic}{~}Anyway, as I was saying...'])
+            '<20>{#p/basic}{~}Woah, ei, é isso o que eu penso que é?',
+            "<20>{#p/basic}{~}Estou abismado! \nBem, é sempre bom conhecer um cliente satisfeito!",
+            ...(zero ? [] : ['<20>{#p/basic}{~}De toda forma, como eu estava dizendo...'])
         ],
         fightItem2: () => [
-            '<20>{#p/basic}{~}{#e/glyde/5}That too!?',
+            '<20>{#p/basic}{~}{#e/glyde/5}Esse também!?',
             iFancyYourVilliany()
-                ? '<20>{#p/basic}{~}{#e/glyde/12}Well gee, \"$(moniker2)\", you\'re not too shabby!'
-                : "<20>{#p/basic}{~}{#e/glyde/12}Well gee, human, you're not too shabby!",
+                ? '<20>{#p/basic}{~}{#e/glyde/12}Meu senhor \"$(moniker2)\", você não é tão pobre!'
+                : "<20>{#p/basic}{~}{#e/glyde/12}Meu senhor, humano, você não é tão pobre!",
             '<20>{#p/basic}{~}{#e/glyde/9}...',
-            "<20>{#p/basic}{~}{#e/glyde/10}Tell you what.\nSince you're so kind, I'll get outta your way and go bother someone else.",
-            '<20>{#p/basic}{~}{#e/glyde/5}Kahaha!\nCatch ya on the flipside, G!'
+            "<20>{#p/basic}{~}{#e/glyde/10}Sabe. Já que você é tão gente boa, eu vou sair do seu caminho e ir incomodar outra pessoa.",
+            '<20>{#p/basic}{~}{#e/glyde/5}Kahaha!\nTe peguei na moeda, G!'
         ],
-        intro1: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Kahaha, take that ya stupid robot!'],
+        intro1: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Kahaha, toma isso robô imbecil!'],
         intro2a: () =>
             !world.badder_lizard
-                ? ['<20>{#p/mettaton}ALPHYS AND I ARE STILL HERE, YOU KNOW.']
-                : ["<20>{#p/mettaton}I'M STILL HERE, YOU KNOW."],
-        intro2b: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/8}Quiet!\nThis is MY stage now, robo-freak.'],
-        intro2c: ['<20>{#p/mettaton}(THIS IS ACTUALLY PRETTY INTERESTING.)'],
-        intro3: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/4}Boy have I got a story to tell!'],
-        status1: ['<32>{#p/story}* Glyde crashes in!'],
+                ? ['<20>{#p/mettaton}EU E A ALPHYS AINDA ESTAMOS AQUI, SABE.']
+                : ["<20>{#p/mettaton}EU AINDA ESTOU AQUI, SABE."],
+        intro2b: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/8}Quieto!\nEste é meu estágio agora, robô doidão.'],
+        intro2c: ['<20>{#p/mettaton}(ISSO NA VERDADE É BEM INTERESSANTE.)'],
+        intro3: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/4}Cara eu tenho muita história pra contar!'],
+        status1: ['<32>{#p/story}* Glyde explode tudo pra chegar chegando!'],
         turn1a: () => [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/10}Not gonna fight me, huh?',
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/10}Não vai lutar contra mim?',
             iFancyYourVilliany()
-                ? '<20>{#p/basic}{~}{#e/glyde/0}... surprising, coming from a common villain like you.'
-                : '<20>{#p/basic}{~}{#e/glyde/0}... you do you, I guess.'
+                ? '<20>{#p/basic}{~}{#e/glyde/0}... surpreendente, vindo de um vilão como você...'
+                : '<20>{#p/basic}{~}{#e/glyde/0}... você faz seu nome, eu acho.'
         ],
         turn1b: () => [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/7}Ooh, I like your fighting spirit.',
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/7}Ooh, eu gostei do seu espírito de luta.',
             iFancyYourVilliany()
-                ? '<20>{#p/basic}{~}{#e/glyde/10}Way to live up to your moniker, eh?'
-                : "<20>{#p/basic}{~}{#e/glyde/10}That'll serve you well very soon..."
+                ? '<20>{#p/basic}{~}{#e/glyde/10}Está vivendo pelo seu nome, vilão?'
+                : "<20>{#p/basic}{~}{#e/glyde/10}Isso vai te servir mais tarde..."
         ],
-        turn1c: ["<20>{#p/basic}{~}{#e/glyde/10}Kahaha... no offense, but you're kinda sorta the wrong species."],
-        turn1d: ["<20>{#p/basic}{~}{#e/glyde/9}Yeah, sorry, but I don't give out stats for free."],
+        turn1c: ["<20>{#p/basic}{~}{#e/glyde/10}Kahaha... sem ofensa, mas você é meio que espécie divergente."],
+        turn1d: ["<20>{#p/basic}{~}{#e/glyde/9}É, foi mal, mas eu não dou status de graça."],
         turn1e: [
-            "<20>{#p/basic}{~}{#e/glyde/4}Some weeks ago, I'm musing over the moolah...",
-            '<20>{#p/basic}{~}{#e/glyde/0}And I notice a drop in profits.'
+            "<20>{#p/basic}{~}{#e/glyde/4}Algumas semanas atrás, estava eu refletindo sobre a vida...",
+            '<20>{#p/basic}{~}{#e/glyde/0}E então percebi uma queda nas minhas vendas.'
         ],
-        turnStatus1: ['<32>{#p/story}* Glyde sees its reflection and gets jealous.'],
+        turnStatus1: ['<32>{#p/story}* Glyde vê seu reflexo e fica maravilhado.'],
         turn2: [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/8}It turns out my one- hundred percent legit business...',
-            '<20>{#p/basic}{~}{#e/glyde/8}Is under fire for being a fraud!',
-            '<20>{#p/basic}{~}{#e/glyde/1}And I\'m thinking to myself \"you\'ve gotta be kidding me.\"'
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/8}E acabou que meu negócio cem porcento legítimo...',
+            '<20>{#p/basic}{~}{#e/glyde/8}Está a beira de um processo por ser fraude!',
+            '<20>{#p/basic}{~}{#e/glyde/1}E eu pensei comigo mesmo \"você só pode tá brincando.\"'
         ],
-        turnStatus2: ['<32>{#p/story}* Glyde is thinking of new slang for the word \"cool.\"'],
+        turnStatus2: ['<32>{#p/story}* Glyde está pensando em um novo significado para a palavra \"legal.\"'],
         turn3: [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}I can assure you that my steak enterprise is the rarest thing out there.',
-            '<20>{#p/basic}{~}Nothing compares to these fine fillets!',
-            '<20>{#p/basic}{~}You hear me?\nNothing!'
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Eu posso te garantir que meus bifes são a coisa mais rara do mercado.',
+            '<20>{#p/basic}{~}Nada se compara aquele gosto zero artificial!',
+            '<20>{#p/basic}{~}Me ouviu?\nNada!'
         ],
-        turnStatus3: ['<32>{#p/story}* An arrogant-smelling wind blows through.'],
+        turnStatus3: ['<32>{#p/story}* Um vento com cheiro de arrogância sopra.'],
         turn4: [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/0}Why should you care?',
-            '<20>{#p/basic}{~}{#e/glyde/2}Because...',
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/0}E por que você deveria de importar?',
+            '<20>{#p/basic}{~}{#e/glyde/2}Porque...',
             '<20>{#p/basic}{~}{#e/glyde/2}Er...',
-            "<20>{#p/basic}{~}{#e/glyde/5}Because you're the only one who can save my sales figures!"
+            "<20>{#p/basic}{~}{#e/glyde/5}Porque você é o único capaz de salvar minhas vendas!"
         ],
-        turnStatus4: ['<32>{#p/story}* Glyde does fancy flips.'],
+        turnStatus4: ['<32>{#p/story}* Glyde faz flips extravagantes.'],
         turn5: () => [
             iFancyYourVilliany()
-                ? '<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}With the infamous \"$(moniker2)\" by my side, nothing can stop me!'
-                : "<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}With MTT's precious human on my side, nothing can stop me!",
-            "<20>{#p/basic}{~}{#e/glyde/7}Even the great Papa Gliden could only dream of the profits we'd make together!"
+                ? '<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Com o infame \"$(moniker2)\" ao meu lado, nada pode me parar!'
+                : "<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Com o famoso humano da MTT do meu lado, eu serei imparável!",
+            "<20>{#p/basic}{~}{#e/glyde/7}Até mesmo o grande Papa Gliden poderia apenas sonhar com as vendas que faremos!"
         ],
-        turn5a: ["<20>{#p/alphys}I don't think attacking them is a great way to get them on your side."],
+        turn5a: ["<20>{#p/alphys}Eu não acho que ataca-lo é boa forma de ganhar seu apoio."],
         turn5b: [
-            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/1}It\'s called a \"show of strength,\" buck-teeth{#x1}.',
-            '<20>{#p/basic}{~}{#e/glyde/9}How else am I supposed to earn the respect of my business partners?'
+            '<20>{#p/basic}{#p/basic}{~}{#e/glyde/1}É um \"show de força\" nerdola{#x1}.',
+            '<20>{#p/basic}{~}{#e/glyde/9}De que outra forma eu poderia ganhar o respeito de meu parceiro de negócios?'
         ],
-        turn5c: ["<20>{#p/basic}{~}{#e/glyde/10}Exactly.\nYou don't know anything."],
-        turnStatus5: ['<32>{#p/story}* Glyde is giving itself a high five... somehow.'],
-        turn6a: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}So whaddya say, huh?'],
-        turn6b: ['<20>{#p/basic}{#p/basic}{~}Crud.'],
+        turn5c: ["<20>{#p/basic}{~}{#e/glyde/10}Exato.\nVocê não sabe de nada."],
+        turnStatus5: ['<32>{#p/story}* Glyde está se dando um aperto de mão, de alguma forma.'],
+        turn6a: ['<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}Então, quê que se acha?'],
+        turn6b: ['<20>{#p/basic}{#p/basic}{~}Puts.'],
         turn6c: () => [
-            '<20>{#p/basic}{#e/bpants/12}Why do I ALWAYS end up taking out the trash around here?',
+            '<20>{#p/basic}{#e/bpants/12}Por que EU sou quem tem que tirar o lixo pra fora aqui?',
             '<20>...',
-            '<20>{#e/bpants/0}Sorry for the trouble, little buddy.',
-            "<20>{#e/bpants/11}I'm Burgie.\nNice to meet ya.",
+            '<20>{#e/bpants/0}Desculpa pela bagunça, maninho.',
+            "<20>{#e/bpants/11}Eu sou Burgie. Prazer em te conhecer.",
             ...(ateThreshold() || (world.badder_lizard && world.bad_lizard > 1)
                 ? [
-                    "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-                    "<20>{#e/bpants/12}... hey, you're that kid who's been killing people!"
+                    "<20>{#e/bpants/6}Glyde tem sido um problema daqui já faz tempo...",
+                    "<20>{#e/bpants/12}... ei, você é aquela criança que está matando pessoas!"
                 ]
                 : burger()
                     ? [
-                        "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-                        "<20>{#e/bpants/12}... hey, you're that kid who killed everyone in Starton!"
+                        "<20>{#e/bpants/6}Glyde tem sido um problema daqui já faz tempo...",
+                        "<20>{#e/bpants/12}... ei, você é a criança que fez um genocídio em Starton!"
                     ]
                     : world.population === 0 && world.bullied
                         ? [
-                            "<20>{#e/bpants/6}Glyde's been a problem around here for...",
-                            "<20>{#e/bpants/12}... hey, aren't you that kid who's been beating everyone up?"
+                            "<20>{#e/bpants/6}Glyde tem sido um problema daqui já faz tempo...",
+                            "<20>{#e/bpants/12}... ei, você não é a criança que anda dando uma surra em todo mundo?"
                         ]
                         : [
-                            "<20>{#e/bpants/6}Glyde's been a problem around here for quite a while...",
-                            "<20>{#e/bpants/1}Hopefully this latest stunt will get it to realize nobody's buying its crap anymore."
+                            "<20>{#e/bpants/6}Glyde tem sido um problema aqui já faz bastante tempo...",
+                            "<20>{#e/bpants/1}Com sorte dessa vez ele vai abrir os olhos, ninguém comprará aquela porcaria."
                         ])
         ],
         turn6d: [
             '<20>{#p/mettaton}BURGERPANTS!',
-            "<20>IT'S SO VERY GREAT TO SEE YOU.",
-            "<20>(DON'T WORRY, I CUT THE LIVE TV FEED AS SOON AS I SAW YOU COMING.)"
+            "<20>É TÃO MARAVILHOSO PODER TE VER.",
+            "<20>(NÃO SE PREOCUPA, EU CORTEI A TV NO MOMENTO QUE TE VI ENTRAR.)"
         ],
         turn6e: () =>
             ateThreshold()
                 ? [
-                    "<20>{#p/basic}{#e/bpants/12}Don't you realize what you're dealing with here?",
-                    '<20>{#e/bpants/3}What the HELL are you doing putting THEM on TV!?'
+                    "<20>{#p/basic}{#e/bpants/12}Você não tá entendo com o que está lidando aqui?",
+                    '<20>{#e/bpants/3}Que DESGRAÇA você tá fazendo botando ELE na TV!?'
                 ]
-                : ["<20>{#p/basic}{#e/bpants/12}I don't work for you anymore. Get lost."],
+                : ["<20>{#p/basic}{#e/bpants/12}Eu não trabalho mais pra você. Vai se ferrar."],
         turn6f: () =>
             ateThreshold()
-                ? ['<20>{#p/mettaton}WOW, SORRY...', "<20>I DIDN'T KNOW IT WAS A CRIME TO HOST A TV SHOW."]
-                : ['<20>{#p/mettaton}WOW, SORRY...', "<20>I DIDN'T KNOW YOU DISLIKED ME THAT MUCH."],
+                ? ['<20>{#p/mettaton}WOW, DESCULPA...', "<20>EU NÃO SABIA QUE ERA CRIME FAZER PROGRAMAS DE TV."]
+                : ['<20>{#p/mettaton}WOW, DESCULPA...', "<20>EU NÃO SABIA QUE VOCÊ ME ODIAVA DESSE TANTO."],
         turn6g: [
             '<20>{#p/basic}{#e/bpants/12}...',
-            "<20>{|}{#p/basic}{#e/bpants/2}I seriously just can't with this guy I swear to go- {%}"
+            "<20>{|}{#p/basic}{#e/bpants/2}Eu não consigo lidar com esse cara, eu juro- {%}"
         ],
         turn6h: [
-            "<20>{#p/mettaton}A-NY-WAY WE HAVE THINGS TO GET TO SO IF YOU DON'T MIND {%}",
-            '<20>WOULD YOU KINDLY GET OFF THE STAGE PLEASE AND THANK YOU HAVE A GREAT DAY.'
+            "<20>{#p/mettaton}JÁ-TÁ-BOM TEMOS COISAS A FAZER, ENTÃO SE VOCÊ NÃO SE IMPORTA {%}",
+            '<20>SAIA DO MEU SET DE TV POR FAVOR E OBRIGADO, ÓTIMO DIA.'
         ],
-        hurtStatus: ['<32>{#p/story}* Glyde is in danger.']
+        hurtStatus: ['<32>{#p/story}* Glyde está em perigo.']
     },
 
     b_opponent_mettaton1: {
-        artifact: ['<33>{#p/human}* (Mettaton shrugs at the sight.)'],
+        artifact: ['<33>{#p/human}* (Mettaton da um suspiro.)'],
         name: '* Mettaton',
-        epiphaNOPE: ["<20>{#p/mettaton}I DON'T THINK SO, DARLING..."],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)\n* (Mettaton absorbs its charge.)'],
+        epiphaNOPE: ["<20>{#p/mettaton}EU ACHO QUE NÃO, QUERIDO..."],
+        old_gun_text: ['<32>{#p/human}* (Você atira a arma.)\n* (Mettaton absorve a energia.)'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)\n* (Mettaton is unaffected.)'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)\n* (Mettaton não é afetado.)'
         ],
-        old_spray_text: ['<32>{#p/human}* (You use the spray.)\n* (Sweet...)\n* (Mettaton eats it up.)'],
-        old_gun_talk: ['<20>{#p/mettaton}HOW STUNNING A MOVE.'],
-        old_bomb_talk: ["<20>{#p/mettaton}IT'S LIKE A RENT-FREE MIST MACHINE!"],
-        old_spray_talk: ['<20>{#p/mettaton}SPICY.'],
+        old_spray_text: ['<32>{#p/human}* (Você usa o spray.)\n* (Doce...)\n* (Mettaton come o spray.)'],
+        old_gun_talk: ['<20>{#p/mettaton}QUE MOVIMENTO BRILHANTE.'],
+        old_bomb_talk: ["<20>{#p/mettaton}É COMO UMA MÁQUINA DE NÉVOA SEM ALUGUEL!"],
+        old_spray_talk: ['<20>{#p/mettaton}PICANTE.'],
         status1: () =>
             SAVE.data.n.plot < 67
-                ? ['<32>{#p/story}* Mettaton swings into action!']
-                : ['<32>{#p/story}* Mettaton returns!'],
+                ? ['<32>{#p/story}* Mettaton balança em ação!']
+                : ['<32>{#p/story}* Mettaton retorna!'],
         act_check: () =>
             SAVE.data.n.plot < 67
-                ? ['<32>{#p/story}* METTATON - ATK 30 DEF 255\n* His metal body renders him invulnerable to attack.']
-                : ['<32>{#p/story}* METTATON - ATK 30 DEF 255\n* Seriously, his metal body is invulnerable!'],
-        act_flirt: ['<32>{#p/human}* (You flirt with Mettaton.)'],
+                ? ['<32>{#p/story}* METTATON - ATQ 30 DEF 255\n* Seu corpo de metal o faz invulnerável a ataques.']
+                : ['<32>{#p/story}* METTATON - ATQ 30 DEF 255\n* Sério, o corpo de metal é invulnerável!'],
+        act_flirt: ['<32>{#p/human}* (Você flerta com Mettaton.)'],
 
         yellow1: () =>
             world.bad_lizard < 2 && SAVE.data.n.state_foundry_undyne !== 2
                 ? [
-                    '<20>{#p/mettaton}WHAT IS IT WITH YOU AND THE COLOR RED?{^40}{%}',
-                    "<20>{#p/mettaton}{#x1}YOU SHOULD KNOW BY NOW THAT'S NOT GOING TO FLY HERE...{^40}{%}"
+                    '<20>{#p/mettaton}O QUE TEM COM VOCÊ E A COR VERMELHA?{^40}{%}',
+                    "<20>{#p/mettaton}{#x1}A ESSA ALTURA VOCÊ JÁ DEVERIA TER ENTENDIDO...{^40}{%}"
                 ]
                 : [
-                    "<20>{#p/mettaton}OH, DARLING, WHAT'S THAT I SEE?\nTHE COLOR RED?{^40}{%}",
-                    "<20>{#p/mettaton}{#x1}MY, MY... YOU'VE GOTTEN AWAY WITH THAT COLOR FOR FAR TOO LONG!{^40}{%}"
+                    "<20>{#p/mettaton}OH, QUERIDO, O QUE ISSO?\nA COR VERMELHA?{^40}{%}",
+                    "<20>{#p/mettaton}{#x1}MY, MY... VOCÊ SE SAFOU COM ESSA COR POR MUITO TEMPO!{^40}{%}"
                 ],
         yellow2: () => [
             world.bad_lizard < 2 && SAVE.data.n.state_foundry_undyne !== 2
-                ? '<20>{#p/mettaton}WOW!!!\nSO MUCH BETTER!!!\nNOW YOU CAN PRESS [Z] TO SHOOT!!!{^40}{%}'
-                : "<20>{#p/mettaton}ISN'T MAGIC JUST A WONDERFUL THING???\nNOW YOU CAN PRESS [Z] TO SHOOT!!!{^40}{%}",
-            "<20>{#p/mettaton}(YOU CAN ALSO HOLD [C] TO SHOOT, BUT WHERE'S THE FUN IN THAT.){^40}{%}"
+                ? '<20>{#p/mettaton}WOW!!!\nTÃO MELHOR!!!\nAGORA PRESSIONA [Z] PARA ATIRAR!!!{^40}{%}'
+                : "<20>{#p/mettaton}MAGIA NÃO É UMA COISA MARAVILHOSA???\nAGORA VOCÊ PODE PRESSIONAR [Z] PARA ATIRAR!!!{^40}{%}",
+            "<20>{#p/mettaton}(VOCÊ TAMBÉM PODE SEGURAR [C] PARA ATIRAR, MAS ONDE ESTÁ A DIVERSÃO NISSO.){^40}{%}"
         ],
 
-        checkTalk: ["<20>{#p/mettaton}ADMIRING ALPHYS'S FABULOUS BODYWORK?\nI WON'T JUDGE."],
+        checkTalk: ["<20>{#p/mettaton}ADMIRANDO O FABULOSO TRABALHO DE CORPO DA ALPHYS? EU NÃO JULGO."],
         attackTalk: () =>
             SAVE.data.n.plot < 67
-                ? ["<20>{#p/mettaton}YOU SILLY GOOSE.\nTHAT'S NOT GOING TO WORK ON ME, SWEETHEART!"]
+                ? ["<20>{#p/mettaton}SEU BOBINHO.\nISSO NÃO VAI FUNCIONAR COMIGO, DOCINHO!"]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}LISTEN, SWEETHEART.\nI'VE HAD ENOUGH PAIN TODAY AS IT IS.\nDO YOU MIND?"]
-                    : ["<20>{#p/mettaton}LISTEN, SWEETHEART.\nATTACKING ME WON'T DO YOU ANY FAVORS.\nESPECIALLY NOT NOW."],
-        flirtTalk: ['<20>{#p/mettaton}OHOHO...', '<20>GETTING FRISKY, EH?', "<20>I'LL HAVE TO REMEMBER THAT, DARLING~"],
+                    ? ["<20>{#p/mettaton}ESCUTA, BELEZURA.\nEU JÁ TIVE DOR DEMAIS HOJE.\nDA PRA PARAR?"]
+                    : ["<20>{#p/mettaton}ESCUTA, AMORZINHO.\nME ATACAR NÃO TE FARÁ NENHUM BEM.\nESPECIALMENTE NÃO AGORA."],
+        flirtTalk: ['<20>{#p/mettaton}OHOHO...', '<20>FICANDO BRINCALHÃO, HEIN?', "<20>EU VOU TER QUE TE LEMBRAR DE ALGO, QUERIDO~"],
 
         turn1: [
-            "<20>{#p/mettaton}LET'S START WITH SOMETHING SIMPLE...",
-            '<20>SINGING!',
-            '<20>{|}DO YOU HAVE WHAT IT TAKES TO- {%}'
+            "<20>{#p/mettaton}VAMOS COMEÇAR COM ALGO SIMPLES...",
+            '<20>CANTAR!',
+            '<20>{|}VOCÊ TEM O QUE É NECESSÁRIO PARA- {%}'
         ],
-        turn1a1: ['<20>...\nWAIT A SECOND.', '<20>IS IT JUST ME, OR...', '<20>DO YOU LOOK A LITTLE \"RED\" TODAY?'],
-        turn1a2: ['<20>DOCTOR, IF YOU COULD...'],
+        turn1a1: ['<20>...\nESPERA UM POUCO.', '<20>SOU SÓ EU OU...', '<20>VOCÊ ESTÁ \"VERMELHO\" DEMAIS HOJE?'],
+        turn1a2: ['<20>DOUTORA, SE VOCÊ PUDER...'],
         turn1b1: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ["<20>{#p/alphys}Okay, okay!\nI-I'll do it!"]
+                ? ["<20>{#p/alphys}Okay, okay!\nE-EU faço isso!"]
                 : world.bad_lizard < 1
-                    ? ['<20>{#p/alphys}Uh, sure!']
+                    ? ['<20>{#p/alphys}Uh, claro!']
                     : ['<20>{#p/alphys}... hm?'],
         turn1b2: () =>
             SAVE.data.n.state_foundry_undyne > 0 || world.bad_lizard < 1
-                ? ['<20>{#p/alphys}F-forgive me...']
-                : ['<20>{#p/alphys}O-oh yeah, that.'],
-        turn1c: ['<20>{*}{#p/mettaton}MUCH BETTER.{^30}{%}'],
+                ? ['<20>{#p/alphys}Me d-desculpa...']
+                : ['<20>{#p/alphys}O-oh certo, isso.'],
+        turn1c: ['<20>{*}{#p/mettaton}BEM MELHOR.{^30}{%}'],
         turn1d: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ['<20>{*}{#p/alphys}N-now try pressing\n[Z] to teleport.{^30}{%}']
+                ? ['<20>{*}{#p/alphys}A-agora tente apertar\n[Z] para teleportar.{^30}{%}']
                 : world.bad_lizard < 1
-                    ? ['<20>{*}{#p/alphys}So... y-you move around, then you press [Z] to teleport!{^30}{%}']
-                    : ['<20>{*}{#p/alphys}Move around, then press [Z] to teleport.{^30}{%}'],
+                    ? ['<20>{*}{#p/alphys}Então... v-você se move e aperta [Z] quando quiser teleportar!{^30}{%}']
+                    : ['<20>{*}{#p/alphys}Se mova ao redor e aperte [Z] para teleportar.{^30}{%}'],
         turn1e: ['<20>{*}{#p/mettaton}ALPHYS, ALPHYS, ALPHYS...{^30}{%}'],
-        turn1f: ['<20>{*}WHAT HAVE I TOLD YOU ABOUT HANDING OUT HINTS?{^30}{%}'],
-        turn1g: ['<20>{*}...{^30}{%}', '<20>{*}ANYWAY...{^30}{%}', "<20>{*}LET'S GET THIS SHOW ON THE ROAD!{^30}{%}"],
+        turn1f: ['<20>{*}O QUE EU JÁ TE DISSE SOBRE DAR DICAS?{^30}{%}'],
+        turn1g: ['<20>{*}...{^30}{%}', '<20>{*}BOM...{^30}{%}', "<20>{*}VAMOS COMEÇAR ESSE SHOW!{^30}{%}"],
 
-        turn2: ["<20>{#p/mettaton}DON'T MISS A SINGLE NOTE, MY DEAR!"],
-        turn3: ["<20>{#p/mettaton}LET'S KICK THINGS UP A NOTCH."],
+        turn2: ["<20>{#p/mettaton}NÃO PERCA UM ÚNICO MOVIMENTO, QUERIDO!"],
+        turn3: ["<20>{#p/mettaton}VAMOS DAR UMA BELA MOVIMENTADA."],
 
         turn4a1: [
-            "<20>{#p/mettaton}I MUST SAY, YOU'RE HANDLING THIS LIKE A TRUE ICON.",
-            '<20>BUT, CAN YOU GO FIN-TO-FIN WITH OUR SPECIAL GUEST?'
+            "<20>{#p/mettaton}EU DEVO DIZER, VOCÊ ESTÁ LIDANDO COM ISSO COMO UM VERDADEIRO ÍCONE.",
+            '<20>MAS VOCÊ CONSEGUE BATER DE FRENTE COM NOSSO CONVIDADO ESPECIAL?'
         ],
         turn4a2: [
-            "<20>{#p/mettaton}I MUST SAY, YOUR PERFORMANCE THUS FAR HASN'T BEEN THE BEST.",
-            '<20>PERHAPS WHAT YOU NEED IS A LITTLE COMPETITION!'
+            "<20>{#p/mettaton}EU DEVO DIZER, SUA PERFORMANCE NÃO FOI TÃO BOA ATÉ O MOMENTO.",
+            '<20>TALVEZ VOCÊ SÓ PRECISE DE UM POUCO DE COMPETIÇÃO!'
         ],
-        turn4e: ['<20>{#p/mettaton}...', '<20>WHERE IS...'],
-        turn4f: ["<20>{#p/basic}She's dead."],
-        turn4g: ["<20>{#p/mettaton}OH.\nTHAT'S A SHAME."],
-        turn4h: ['<20>{#p/mettaton}DEAR AUDIENCE... LET US OFFER A MOMENT OF SILENCE FOR SHYREN.'],
-        turn4i: ['<20>{#p/mettaton}OKAY, MOMENT OVER.'],
+        turn4e: ['<20>{#p/mettaton}...', '<20>ONDE ESTÁ...'],
+        turn4f: ["<20>{#p/basic}Ela tá morta."],
+        turn4g: ["<20>{#p/mettaton}OH.\nISSO É UM TRAGÉDIA."],
+        turn4h: ['<20>{#p/mettaton}QUERIDA AUDIÊNCIA... DAREMOS UM MOMENTO DE SILÊNCIO A SHYREN.'],
+        turn4i: ['<20>{#p/mettaton}TÁ BOM, ACABOU O MOMENTO.'],
         turn4j: () => [
-            iFancyYourVilliany() ? '<20>{#p/mettaton}LUCKY YOU, $(moniker3u)!' : '<20>{#p/mettaton}LUCKY YOU!',
-            '<20>I GUESS YOU GET TO SKIP THIS PART.',
-            "<20>IT'S A REAL SHAME WE CAN'T KEEP SINGING, BUT HEY...",
-            '<20>WHEN ONE ACT ENDS, ANOTHER MUST BEGIN.',
-            "<20>... LET'S DANCE!"
+            iFancyYourVilliany() ? '<20>{#p/mettaton}SORTE A SUA, $(moniker3u)!' : '<20>{#p/mettaton}SORTE A SUA!',
+            '<20>ACHO QUE VAMOS TER QUE PULAR ESSA PARTE.',
+            "<20>UMA LASTIMA NÃO PODERMOS CONTINUAR A CANTAR, MAS EI...",
+            '<20>QUANDO UM ATO ACABA, OUTRO DEVE COMEÇAR.',
+            "<20>... VAMOS DANÇAR!"
         ],
 
-        turn5a1: ["<20>{#p/mettaton}GIVE IT ALL YOU'VE GOT, SHYREN!"],
+        turn5a1: ["<20>{#p/mettaton}ENTREGUE TUDO QUE TEM, SHYREN!"],
         turn5a2: () =>
             SAVE.data.b.bullied_shyren
                 ? ['<20>{#p/mettaton}SHYREN...?']
                 : [
-                    '<20>{#p/mettaton}ENCHANTING, EH?',
-                    "<20>{#p/mettaton}DON'T WORRY.\nSHYREN'S VOICE DOES THAT TO EVERYONE."
+                    '<20>{#p/mettaton}ENCANTADOR, EH?',
+                    "<20>{#p/mettaton}NÃO SE PREOCUPE, A VOZ DA SHYREN FAZ ISSO COM TODO MUNDO."
                 ],
 
         turn5end1: () =>
             SAVE.data.b.bullied_shyren
                 ? [
-                    "<20>{#p/mettaton}... MAYBE SHYREN'S JUST NOT FEELING IT TODAY.",
-                    '<20>HOW TRAGIC.',
-                    '<20>BY THE WAY, DID I MENTION YOUR VOICE IS GETTING BORING?'
+                    "<20>{#p/mettaton}...TALVEZ SHYREN NÃO ESTIVESSE NO RITMO HOJE.",
+                    '<20>QUE TRÁGICO.',
+                    '<20>ALIÁS, EU MENCIONEI QUE SUA VOZ ESTÁ FICANDO ENJOATIVA?'
                 ]
                 : [
-                    "<20>{#p/mettaton}OH, SHYREN IS JUST LOVELY, ISN'T SHE?",
-                    "<20>IF I HAD MY WAY WITH HER, SHE'D BE A SUPERSTAR ALREADY...",
-                    '<20>OH WELL. BY THE WAY, DID I MENTION YOUR VOICE IS GETTING BORING?'
+                    "<20>{#p/mettaton}OH, SHYREN É TÃO AMÁVEL, NÃO É MESMO?",
+                    "<20>SE EU CONSEGUISSE ENCANTA-LA, ELA JÁ SERIA UMA SUPER ESTRELA...",
+                    '<20>OH BEM. ALIÁS, EU MENCIONEI QUE SUA VOZ ESTÁ FICANDO ENTEDIANTE?'
                 ],
         turn5end2: [
-            "<20>BUT DON'T WORRY, THE SOLUTION HERE IS OBVIOUS.",
-            "<20>AS ANY GOOD SHOW-BOT KNOWS, YOU CAN'T HAVE THE SONG...",
-            '<20>... WITHOUT THE DANCE!'
+            "<20>MAS NÃO SE PREOCUPE, A SOLUÇÃO AQUI É ÓBVIA.",
+            "<20>COMO QUALQUER BOM SHOW-BOT SABE, VOCÊ NÃO PODE TER A MÚSICA...",
+            '<20>... SEM A DANÇA!'
         ],
 
-        turn6: ['<20>{#p/mettaton}BRING IT ON!'],
+        turn6: ['<20>{#p/mettaton}VEM COM TUDO!'],
 
         turn7a: [
-            '<20>{#p/mettaton}DO YOU HEAR THAT, DARLING...?',
-            "<20>... THAT'S RIGHT.",
-            '<20>THE VIEWERS ARE STARVING FOR SOME DRAMA!',
-            '<20>QUEUE THE OBLIGATORY ANGRY MANNEQUIN.'
+            '<20>{#p/mettaton}VOCÊ OUVIU ISSO, QUERIDO...?',
+            "<20>... EXATAMENTE.",
+            '<20>OS ESPECTADORES ESTÃO SEDENTOS POR DRAMA!',
+            '<20>E ISSO É OBVIAMENTE UM MANEQUIM BRAVO OBRIGATÓRIO.'
         ],
-        turn7b1: ['<20>{#p/basic}You again.'],
-        turn7b2: ['<20>{#p/basic}You again!'],
-        turn7b3: ['<20>{#p/basic}YOU AGAIN!!!'],
-        turn7c: ['<20>{#p/mettaton}OH, DO YOU TWO KNOW EACH OTHER?'],
-        turn7d1: ['<20>{#p/basic}...\nMaybe.\nMaybe not.'],
-        turn7d2: ["<20>{#p/basic}LIKE YOU'D CARE!"],
+        turn7b1: ['<20>{#p/basic}Você de novo.'],
+        turn7b2: ['<20>{#p/basic}Você de novo!'],
+        turn7b3: ['<20>{#p/basic}VOCÊ DE NOVO!!!'],
+        turn7c: ['<20>{#p/mettaton}OH, VOCÊS DOIS SE CONHECEM?'],
+        turn7d1: ['<20>{#p/basic}...\nTalvez.\nTalvez não.'],
+        turn7d2: ["<20>{#p/basic}COMO SE VOCÊ LIGASSE!"],
         turn7e: [
-            '<20>{#p/mettaton}WOAH, NO NEED TO GET HOSTILE...',
-            '<20>{#p/mettaton}THIS IS BUT A HUMBLE TALENT SHOW!'
+            '<20>{#p/mettaton}WOAH, NÃO PRECISA FICAR HOSTIL...',
+            '<20>{#p/mettaton}ESTE É UM SHOW DE TALENTOS HUMILDE!'
         ],
         turn7f: [
-            "<20>{#p/basic}And this is the second time in two weeks that you've had me on!",
-            '<20>{#p/basic}Do you have a crush on me or something!?'
+            "<20>{#p/basic}E essa é a segunda vez que você me chama essa semana!",
+            '<20>{#p/basic}Você tem um crush em mim ou sei lá?'
         ],
         turn7g1: [
-            "<20>{#p/mettaton}...\nDON'T BE RIDICULOUS.",
-            "<20>{#p/mettaton}I'VE ONLY BROUGHT YOU ON BECAUSE YOU'RE A MAGNET FOR DRAMA!"
+            "<20>{#p/mettaton}...\nNÃO SEJA RIDÍCULO.",
+            "<20>{#p/mettatonEU SÓ TE CHAMEI PORQUE VOCÊ É UMA MAQUINA DO DRAMA!"
         ],
-        turn7g2: ["<20>{#p/basic}(That's what my cousin used to say...)"],
-        turn7h: ['<20>{#p/basic}Oh, hey.\nGood to see you!'],
-        turn7i: ["<20>{#p/mettaton}THAT'S IT...?", '<20>{#p/mettaton}NOTHING ELSE TO SAY...?'],
-        turn7j1: ["<20>{#p/basic}You know, Mettaton, I'm not ALWAYS mad at everyone."],
-        turn7j2: ["<20>{#p/basic}... didn't I tell you this when you brought me on two weeks ago?"],
+        turn7g2: ["<20>{#p/basic}(Isso é o que meu primo costumava dizer...)"],
+        turn7h: ['<20>{#p/basic}Oh, ei.\nBom te ver!'],
+        turn7i: ["<20>{#p/mettaton}É SÓ ISSO...?", '<20>{#p/mettaton}MAS ALGUMA COISA PRA DIZER...?'],
+        turn7j1: ["<20>{#p/basic}Sabe Mettaton, eu nem sempre estou com raiva das pessoas."],
+        turn7j2: ["<20>{#p/basic}... eu já não te disse isso quando vim aqui duas semanas atrás?"],
         turn7k: [
-            "<20>{#p/mettaton}OH.\nTHAT'S NICE.",
-            "<20>{#p/mettaton}BUT WE DON'T HAVE TIME FOR YOUR LOVEY-DOVEY NONSENSE."
+            "<20>{#p/mettaton}OH.\nQUE LEGAL.",
+            "<20>{#p/mettaton}MAS NÃO TEMOS TEMPO PRA ESSE ROMANCE DRAMÁTICO SEM SENTIDO!"
         ],
-        turn7l1: ['<20>{#p/basic}Yeah, yeah...', "<20>{#p/basic}(Wait, that's what my cousin used to say...)"],
-        turn7l2: ["<20>Okay, I'll deal."],
-        turn7l3: ["<20>If a fight's what you want, then a fight's what you'll get!"],
-        turn7m: ['<20>{#p/mettaton}WELL, THIS SHOULD BE INTERESTING.'],
-        turn7n: ['<20>{#p/mettaton}UH... HELLO?'],
+        turn7l1: ['<20>{#p/basic}Sei, sei...', "<20>{#p/basic}(Espera, isso é o que meu primo costumava dizer...)"],
+        turn7l2: ["<20>Ok, eu vou lidar."],
+        turn7l3: ["<20>Se é luta que você quer, é luta que você vai ter!"],
+        turn7m: ['<20>{#p/mettaton}BEM, ISSO VAI SER INTERESSANTE.'],
+        turn7n: ['<20>{#p/mettaton}UH... OII?'],
         turn7o1: () => [
             ...(iFancyYourVilliany()
-                ? ['<20>{#p/mettaton}...', '<20>IT SEEMS OUR DEAR $(moniker2u) HAS BEEN LEFT WITHOUT A DANCE PARTNER.']
-                : ['<20>{#p/mettaton}...', '<20>IT SEEMS OUR POOR, POOR HUMAN HAS BEEN LEFT WITHOUT A DANCE PARTNER.']),
-            '<20>HOW UNFORTUNATE...',
-            '<20>BUT THE SHOW MUST GO ON!'
+                ? ['<20>{#p/mettaton}...', '<20>PARECE QUE NOSSO QUERIDO $(moniker2u) FICOU SEM UM PARCEIRO DE DANÇA.']
+                : ['<20>{#p/mettaton}...', '<20>PARECE QUE NOSSO POBRE E POBRE HUMANO FICOU SEM UM PARCEIRO DE DANÇA.']),
+            '<20>QUE AZARADO...',
+            '<20>MAS O SHOW DEVE CONTINUAR!'
         ],
         turn7o2: [
             '<20>{#p/mettaton}...',
-            "<20>YOU'RE ON A HOT STREAK TODAY, DARLING.",
-            "<20>SEEMS NOBODY'S INTERESTED OR ALIVE ENOUGH TO FACE YOU.",
-            '<20>OH WELL...',
-            '<20>THE SHOW MUST GO ON!'
+            "<20>VOCÊ NÃO ESTÁ MUITO ATIVO HOJE, QUERIDO.",
+            "<20>PARECE QUE NINGUÉM ESTÁ VIVO OU INTERESSADO O SUFICIENTE PRA TE ENFRENTAR.",
+            '<20>POIS BEM...',
+            '<20>O SHOW DEVE CONTINUAR!'
         ],
 
-        turn8a1: ['<20>{#p/mettaton}NO HOLDING BACK!'],
-        turn8a2: ['<20>{#p/mettaton}TOO MUCH COTTON TO HANDLE, HUH?', '<20>{#p/mettaton}WELL, TOO BAD!'],
+        turn8a1: ['<20>{#p/mettaton}SEM SE SEGURAR!'],
+        turn8a2: ['<20>{#p/mettaton}É ALGODÃO DEMAIS PARA AGUENTAR, NÉ?', '<20>{#p/mettaton}BEM, QUE PENINHA!'],
 
         turn8end1a: [
-            "<20>{#p/mettaton}TO SAY I'M IMPRESSED WOULD BE AN UNDERSTATEMENT!",
-            "<20>YOU'VE ABSOLUTELY NAILED IT.",
-            '<20>DEAR VIEWERS, DO TAKE NOTES...',
-            '<20>-THIS- IS HOW YOU PUT ON A SHOW.'
+            "<20>{#p/mettaton}DIZER QUE ESTOU IMPRESSIONADO SERIA O MÍNIMO!",
+            "<20>VOCÊ DOMINOU O PALCO.",
+            '<20>QUERIDOS ESPECTADORES, TOMEM NOTAS...',
+            '<20>É -ASSIM- QUE SE APRESENTA UM SHOW.'
         ],
         turn8end1b: [
-            '<20>{#p/mettaton}YOU MAY NOT HAVE THE GREATEST VOCAL CHOPS, BUT THIS DANCING... OOOOH!',
-            '<20>SIMPLY SUPERB.'
+            '<20>{#p/mettaton}VOCÊ PODE ATÉ NÃO TER A MELHOR CORDA VOCAL, MAS SABE DANÇAR... O SE SABE!',
+            '<20>SIMPLESMENTE...'
         ],
         turn8end2b: () => [
             ...[
                 [
-                    '<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" IT\'S NO SURPRISE YOU WERE SUCH A LETDOWN!',
-                    '<20>{#p/mettaton}I -HAD- WISHED FOR A BETTER OUTCOME...'
+                    '<20>{#p/mettaton}COM UM NOME COMO \"$(moniker1u)\", NÃO É SURPRESA QUE VOCÊ TENHA SIDO UMA DECEPÇÃO!',
+                    '<20>{#p/mettaton}EU -TINHA- DESEJADO UM RESULTADO MELHOR...'
                 ],
-                ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D EXPECT A MORE -YOUTHFUL- SHOWING!'],
-                ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D HOPE TO BE BLOWN AWAY!'],
-                ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D THINK YOUR SKILLS WOULD BE MAD!'],
-                ['<20>{#p/mettaton}WITH A NAME LIKE \"$(moniker1u),\" YOU\'D HOPE TO HAVE STOLEN THE SHOW!']
+                ['<20>{#p/mettaton}COM UM NOME COMO \"$(moniker1u)\", VOCÊ ESPERARIA UMA EXIBIÇÃO MAIS JOVEM!'],
+                ['<20>{#p/mettaton}COM UM NOME COMO \"$(moniker1u)\", VOCÊ ESPERARIA FICAR IMPRESSIONADO!'],
+                ['<20>{#p/mettaton}COM UM NOME COMO \"$(moniker1u)\", VOCÊ PENSARIA QUE SUAS HABILIDADES SERIAM LOUCAS!'],
+                ['<20>{#p/mettaton}COM UM NOME COMO \"$(moniker1u)\", VOCÊ ESPERARIA TER ROUBADO O SHOW!']
             ][SAVE.data.n.state_aerialis_moniker],
-            "<20>{#p/mettaton}BUT I GUESS IT JUST WASN'T MEANT TO BE."
+            "<20>{#p/mettaton}MAS ACHO QUE NÃO ERA PARA SER."
         ],
         turn8end2a: () => [
             ...[
                 [
-                    "<20>{#p/mettaton}WELL, $(moniker3u), I CAN'T SAY I EXPECTED THIS!",
-                    '<20>{#p/mettaton}I -WAS- EXPECTING ANOTHER LETDOWN, BUT...'
+                    "<20>{#p/mettaton}OLHA, $(moniker3u), EU NÃO POSSO DIZER QUE ESPERAVA ISSO!",
+                    '<20>{#p/mettaton}EU -ESTAVA- ESPERANDO OUTRA QUEDA, MAS...'
                 ],
-                ['<20>{#p/mettaton}WELL, DEAR $(moniker1u)...', "<20>IT'S SAFE TO SAY YOUR SKILLS ARE BEYOND YOUR YEARS!"],
-                ['<20>{#p/mettaton}WELL, DEAR $(moniker1u)...', '<20>THIS PERFORMANCE DESERVES THUNDEROUS APPLAUSE!'],
-                ['<20>{#p/mettaton}WELL, DEAR $(moniker1u)...', '<20>IT SEEMS OUR VIEWERS ARE FIRED UP!'],
-                ['<20>{#p/mettaton}WELL, DEAR $(moniker1u)...', "<20>YOU'VE REALLY MADE THIS STAGE YOUR OWN!"]
+                ['<20>{#p/mettaton}BEM, QUERIDO $(moniker1u)...', "<20>É SEGURO DIZER QUE SUAS HABILIDADES SÃO ACIMA DA SUA IDADE!"],
+                ['<20>{#p/mettaton}BEM, QUERIDO $(moniker1u)...', '<20>ESSA PERFORMANCE MERECE INFINITOS APLAUSOS!'],
+                ['<20>{#p/mettaton}BEM, QUERIDO $(moniker1u)...', '<20>PARECE QUE NOSSOS ESPECTADORES ESTÃO NO CLIMA!'],
+                ['<20>{#p/mettaton}BEM, QUERIDO $(moniker1u)...', "<20>VOCÊ REALMENTE FEZ DESSE PALCO UM SHOW!"]
             ][SAVE.data.n.state_aerialis_moniker],
-            "<20>{#p/mettaton}PERHAPS THERE'S HOPE FOR YOU AFTER ALL."
+            "<20>{#p/mettaton}TALVEZ EXISTA ESPERANÇA PARA VOCÊ DEPOIS DE TUDO."
         ],
         turn8end3a: [
-            "<20>{#p/mettaton}... I HONESTLY DON'T UNDERSTAND HOW YOU CAN BE THIS BAD.",
-            '<20>ESPECIALLY AFTER YOU DID SO WELL EARLIER.',
-            '<20>OH WELL.\nIT HAPPENS, I GUESS.'
+            "<20>{#p/mettaton}... EU SINCERAMENTE NÃO ENTENDO COMO VOCÊ CONSEGUE SER TÃO RUIM.",
+            '<20>ESPECIALMENTE APÓS VOCÊ TER IDO TÃO BEM NO COMEÇO.',
+            '<20>OLHA.\nACONTECE, EU ACHO.'
         ],
         turn8end3b: [
-            '<20>{#p/mettaton}... HAS ANYONE EVER TOLD YOU HOW MUCH YOU SUCK?',
-            '<20>SCREWING UP A VOCAL PERFORMANCE WAS ONE THING.',
-            '<20>BUT THIS...?\nTHIS IS JUST SAD.'
+            '<20>{#p/mettaton}... ALGUÉM JÁ TE DISSE O TANTO QUE VOCÊ É MAU NISSO?',
+            '<20>FERRAR COM UMA APRESENTAÇÃO VOCAL É UMA COISA.',
+            '<20>MAS ISSO...?\nISSO É TRISTE.'
         ],
-        turn8end4: ['<20>{#p/mettaton}ALAS... WE STILL HAVE ONE MORE ACT TO FOLLOW.'],
-        turn8end5: ['<20>{#p/mettaton}BEAUTIES AND GENTLEBEAUTIES...', '<20>GIVE IT UP...'],
-        turn8end6: ['<20>FOR THE ONE AND ONLY DR. ALPHYS!'],
+        turn8end4: ['<20>{#p/mettaton}ALAS... NÓS AINDA TEMOS MAIS UM ATO.'],
+        turn8end5: ['<20>{#p/mettaton}DAMAS E CAVALHEDAMAS...', '<20>DÊEM UMA SALVA DE PALMAS...'],
+        turn8end6: ['<20>PARA A GRANDE E ÚNICA DR. ALPHYS!'],
 
         turn9a: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ['<20>{|}{#p/mettaton}HOW WELL WILL YOU FARE AGAINST- {%}']
-                : ['<20>{#p/mettaton}HOW WELL WILL YOU FARE AGAINST THIS, THE FINAL CHALLENGE?'],
+                ? ['<20>{|}{#p/mettaton}O QUÃO BEM VOCÊ SE SAIRA- {%}']
+                : ['<20>{#p/mettaton}O QUÃO BEM VOCÊ SE SAIRA CONTRA ESTE ÚLTIMO DESAFIO?'],
         turn9b: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ['<20>{#p/alphys}N-no!']
+                ? ['<20>{#p/alphys}N-não!']
                 : world.bad_lizard < 1
-                    ? ['<20>{*}{#p/alphys}Are you k-kidding?{^30}{%}']
+                    ? ['<20>{*}{#p/alphys}Você tá de b-brincadeira?{^30}{%}']
                     : ['<20>{*}{#p/alphys}{#e/alphys/7}...'],
-        turn9bx: ["<20>{#p/alphys}You can't force me to do something I don't want to."],
-        turn9c: ["<20>{*}{#p/alphys}I don't...{^30}{%}"],
-        turn9d: ['<20>{*}{#p/alphys}I...{^30}{%}'],
+        turn9bx: ["<20>{#p/alphys}Você não pode me forçar a fazer algo que eu não quero."],
+        turn9c: ["<20>{*}{#p/alphys}Eu não...{^30}{%}"],
+        turn9d: ['<20>{*}{#p/alphys}Eu...{^30}{%}'],
         turn9e: () =>
             world.bad_lizard < 1
-                ? ["<20>{#p/alphys}I c-can't do it!"]
-                : ["<20>{#p/alphys}{#e/alphys/4}I'm not sure if this is a good idea."],
+                ? ["<20>{#p/alphys}Eu n-não consigo!"]
+                : ["<20>{#p/alphys}{#e/alphys/4}Eu não sei se essa é uma boa ideia."],
 
-        turn9end1: ['<20>{#p/mettaton}IS THERE A PROBLEM, DEAR?'],
+        turn9end1: ['<20>{#p/mettaton}ALGUM PROBLEMA, QUERIDA?'],
         turn9end2: () => [
             ...[
                 [
-                    "<20>{#p/alphys}{#e/alphys/4}I don't want t-to hurt them, Mettaton...",
-                    '<20>{#p/alphys}{#e/alphys/7}We might have a rough history with humans, but...',
-                    "<20>{#e/alphys/6}That doesn't mean this human can't be different, right?",
-                    "<20>{#e/alphys/8}So... I think it's totally unfair to keep attacking them for it."
+                    "<20>{#p/alphys}{#e/alphys/4}Eu não quero feri-lo, Mettaton...",
+                    '<20>{#p/alphys}{#e/alphys/7}Nossa história com humanos pode ser complicada, mas...',
+                    "<20>{#e/alphys/6}Isso não significa que esse humano não possa ser diferente, correto?",
+                    "<20>{#e/alphys/8}Então... eu acho que é totalmente injusto continuar o atacando por isso."
                 ],
                 [
-                    "<20>{#p/alphys}{#e/alphys/7}I know they've made some... pretty bad mistakes...",
-                    '<20>{#p/alphys}{#e/alphys/6}But, then again, with the way some monsters have treated them...?',
-                    "<20>{#p/alphys}{#e/alphys/8}That's no surprise.",
-                    "<20>{#p/alphys}{#e/alphys/4}And also, I'm... k-kind of afraid I might hurt them..."
+                    "<20>{#p/alphys}{#e/alphys/7}Eu sei que ele tomou... decisões bem ruins...",
+                    '<20>{#p/alphys}{#e/alphys/6}Mas, de novo, e a forma como os monstros o trataram...?',
+                    "<20>{#p/alphys}{#e/alphys/8}Não tem surpresa alguma aqui.",
+                    "<20>{#p/alphys}{#e/alphys/4}E eu também... temo acabar f-ferindo ele..."
                 ]
             ][world.bad_lizard]
         ],
         turn9end3: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ['<20>{#p/mettaton}WELL...', '<20>IF YOU SAY SO, DOCTOR.']
-                : ['<20>{#p/mettaton}HMM...', '<20>YOU MAKE AN INTERESTING POINT, DOCTOR.'],
-        turn9end4: ["<20>BUT I'M AFRAID I HAVE TO DISAGREE.{#e/alphys/1}"],
+                ? ['<20>{#p/mettaton}BEM...', '<20>SE VOCÊ DIZ, DOUTORA.']
+                : ['<20>{#p/mettaton}HMM...', '<20>VOCÊ FEZ UM PONTO INTERESSANTE DOUTORA.'],
+        turn9end4: ["<20>MAS EU TEMO TER QUE DISCORDAR.{#e/alphys/1}"],
         turn9end5: () =>
             SAVE.data.n.state_foundry_undyne > 0
-                ? ["<20>IT'S JUST A SHAME THE VIEWERS WON'T GET TO SEE WHAT HAPPENS.{#e/alphys/28}"]
+                ? ["<20>É UMA PENA QUE OS ESPECTADORES NÃO PODERÃO VER O QUE ACONTECERIA.{#e/alphys/28}"]
                 : [
-                    '<20>FOR ONE, CONFLICT IS THE HEART OF GOOD TV DRAMA!{#e/alphys/2}',
-                    '<20>AND WHO COULD SAY NO TO THAT.'
+                    '<20>CONFLITO É O CORAÇÃO DE UM BOM DRAMA DE TV!{#e/alphys/2}',
+                    '<20>E QUEM PODERIA DIZER NÃO PRA ISSO.'
                 ],
         turn9end6: [
-            "<20>{#p/mettaton}{#e/alphys/0}WELL, ANYWAY, WE'RE KIND OF OUT OF TIME.",
-            "<20>SO... THAT'LL HAVE TO BE ALL FOR NOW.",
-            '<21>STAY TUNED, FOLKS!\nTHE NEXT EPISODE IS ALREADY IN THE WORKS.',
-            "<20>YOU WON'T WANT TO MISS IT."
+            "<20>{#p/mettaton}{#e/alphys/0}BEM, DE TODA FORMA, ESTAMOS MEIO QUE SEM TEMPO.",
+            "<20>ENTÃO... ACHO QUE É ISSO POR AGORA.",
+            '<21>FIQUEM LIGADOS, RAPAZIADA!\nO PRÓXIMO EPISÓDIO JÁ ESTÁ SENDO TRABALHADO.',
+            "<20>VOCÊ NÃO VAI QUERER PERDER."
         ],
-        turn9end7a: ['<20>{#p/alphys}Welp.'],
-        turn9end7b: ["<20>{#p/alphys}Seriously?\nYou didn't even miss a single time."],
+        turn9end7a: ['<20>{#p/alphys}Tá.'],
+        turn9end7b: ["<20>{#p/alphys}Sério?\nVocê não errou nem uma única vez."],
         turn9end7c: ['<20>{#p/alphys}...'],
 
-        turn1status: ["<32>{#p/story}* It's electro-shockin' time."],
-        turn2status: ['<32>{#p/story}* Mettaton claps his robo-hands.'],
-        turn3status: ["<32>{#p/story}* It's a flurry of octaves."],
-        turn4status: ["<32>{#p/story}* Shyren's voice echoes through the laboratory."],
-        turn4statusX: ['<32>{#p/story}* Mettaton dare not shed a tear.'],
-        turn5status: ['<32>{#p/story}* Mettaton busts a move.'], 
-        turn6status: ['<32>{#p/story}* Funk overload in progress.'],
-        turn7status: ['<32>{#p/story}* Smells like a madhouse.'],
-        turn7statusX: ['<32>{#p/story}* Mettaton is fiddling with his microphone.'],
-        turn8status: ['<32>{#p/story}* Mettaton points dramatically at the camera.'],
+        turn1status: ["<32>{#p/story}* É hora do eletrochoque."],
+        turn2status: ['<32>{#p/story}* Mettaton da palmas com as mãos robóticas.'],
+        turn3status: ["<32>{#p/story}* É uma enxurrada de oitavas."],
+        turn4status: ["<32>{#p/story}* A voz de Shyren ecoa pelo laboratório."],
+        turn4statusX: ['<32>{#p/story}* Mettaton tenta não deixar lágrimas caírem.'],
+        turn5status: ['<32>{#p/story}* Mettaton faz um movimento.'], 
+        turn6status: ['<32>{#p/story}* Sobrecarga de funk em andamento.'],
+        turn7status: ['<32>{#p/story}* Cheira a hospício.'],
+        turn7statusX: ['<32>{#p/story}* Mettaton está brincando com seu microfone.'],
+        turn8status: ['<32>{#p/story}* Mettaton aponta dramaticamente para a câmera.'],
 
-        turn2react1: ['<20>{#p/mettaton}NICE!'],
-        turn3react1: ['<20>{#p/mettaton}VERY NICE!'],
-        turn4react1: ['<20>{#p/mettaton}FABULOUS!'],
-        turn5react1: ['<20>{#p/mettaton}OUTSTANDING!'],
-        turn6react1: ['<20>{#p/mettaton}STELLAR!'],
-        turn7react1: ["<20>{#p/mettaton}THAT'S THE WAY!"],
-        turn8react1: ["<20>{#p/mettaton}SHOW 'EM HOW IT'S DONE!"],
-        turn8reactMD1a: ['<20>{#p/basic}Well, that was a blast!', '<20>{#p/basic}See ya next time, human!'],
-        turn8reactMD2a: ['<20>{#p/basic}...', '<20>{#p/basic}Never again.'],
+        turn2react1: ['<20>{#p/mettaton}TOP!'],
+        turn3react1: ['<20>{#p/mettaton}MUITO TOP!'],
+        turn4react1: ['<20>{#p/mettaton}FABULOSO!'],
+        turn5react1: ['<20>{#p/mettaton}SUBESTIMADO!'],
+        turn6react1: ['<20>{#p/mettaton}ESTELAR!'],
+        turn7react1: ["<20>{#p/mettaton}É ASSIM QUE SE FAZ!"],
+        turn8react1: ["<20>{#p/mettaton}MOSTRA PRA ELES COMO SE FAZ!"],
+        turn8reactMD1a: ['<20>{#p/basic}Bem, isso foi uma explosão!', '<20>{#p/basic}Te vejo na próxima, humano!'],
+        turn8reactMD2a: ['<20>{#p/basic}...', '<20>{#p/basic}Nunca mais.'],
 
         turn2react2: ['<20>{#p/mettaton}OOPS...'],
-        turn3react2: ['<20>{#p/mettaton}SO CLOSE...'],
-        turn4react2: ['<20>{#p/mettaton}HOW UNLUCKY...'],
-        turn5react2: ['<20>{#p/mettaton}HOW UNFORTUNATE...'],
-        turn6react2: ['<20>{#p/mettaton}FAILURE!'],
-        turn7react2: ['<20>{#p/mettaton}DISAPPOINTING.'],
-        turn8react2: ['<20>{#p/mettaton}WHAT. WAS. THAT.'],
-        turn8reactMD1b: ["<20>{#p/basic}Hope I didn't go too hard on you.", '<20>{#p/basic}See ya next time, human!'],
-        turn8reactMD2b: ['<20>{#p/basic}Pathetic.\nPathetic!\nPATHETIC!', '<20>{#p/basic}Serves you right.'],
-        missIndicator: 'Misses: $(x)',
+        turn3react2: ['<20>{#p/mettaton}TÃO PERTO...'],
+        turn4react2: ['<20>{#p/mettaton}QUE AZARADO...'],
+        turn5react2: ['<20>{#p/mettaton}QUE LASTIMA...'],
+        turn6react2: ['<20>{#p/mettaton}FALHOU!'],
+        turn7react2: ['<20>{#p/mettaton}DESAPONTANTE.'],
+        turn8react2: ['<20>{#p/mettaton}QUE. FOI. ISSO.'],
+        turn8reactMD1b: ["<20>{#p/basic}Espero não ter te forçado demais.", '<20>{#p/basic}Te vejo na próxima, humano!'],
+        turn8reactMD2b: ['<20>{#p/basic}Patético.\nPatético!\nPATÉTICO!', '<20>{#p/basic}Te serviu bem.'],
+        missIndicator: 'Erros: $(x)',
 
         idleTalk1: () =>
             world.bad_lizard < 2 && !iFancyYourVilliany()
                 ? [
-                    "<20>{#p/mettaton}SO WE'VE MADE IT TO THE END, EH?",
-                    "<20>{#p/mettaton}HOW DOES IT FEEL KNOWING YOU'RE ABOUT TO BE A SUPERSTAR?"
+                    "<20>{#p/mettaton}ENTÃO CHEGAMOS AO FIM, EH?",
+                    "<20>{#p/mettaton}COMO VOCÊ SE SENTE SABENDO QUE SERÁ UMA SUPER ESTRELA?"
                 ]
                 : [
-                    "<20>{#p/mettaton}SO WE'VE MADE IT TO THE END, EH?",
-                    "<20>{#p/mettaton}HOW DOES IT FEEL KNOWING YOU'RE ABOUT TO MEET YOUR END?"
+                    "<20>{#p/mettaton}ENTÃO CHEGAMOS AO FIM, EH?",
+                    "<20>{#p/mettaton}COMO VOCÊ SE SENTE SABENDO QUE IRÁ CONHECER SEU FIM?"
                 ],
         idleTalk2: () =>
             iFancyYourVilliany()
-                ? ['<20>{#p/mettaton}THOSE YOU\'VE HURT ARE SURELY \"TURNING\" IN THEIR SLEEP.']
+                ? ['<20>{#p/mettaton}AQUELES QUE VOCÊ MACHUCOU CERTAMENTE ESTÃO \"GIRANDO\" DURANTE O SONO.']
                 : world.bad_lizard < 2
-                    ? ['<20>{#p/mettaton}I\'M SURE YOU\'RE ITCHING TO \"TURN\" YOUR LIFE AROUND.']
-                    : ['<20>{#p/mettaton}THOSE YOU\'VE KILLED ARE SURELY \"TURNING\" IN THEIR GRAVES.'],
-        idleTalk3: ['<20>{#p/mettaton}LET\'S JUST HOPE THINGS DON\'T TAKE A \"TURN\" FOR THE WORST.'],
+                    ? ['<20>{#p/mettaton}TENHO CERTEZA DE QUE VOCÊ ESTÁ ANSIOSO PARA \"VIRAR\" SUA VIDA']
+                    : ['<20>{#p/mettaton}AQUELES QUE VOCÊ MATOU ESTÃO COM CERTEZA \"VIRANDO\" EM SUAS COVAS.'],
+        idleTalk3: ['<20>{#p/mettaton}VAMOS SÓ ESPERAR QUE AS COISAS NÃO \"VIREM\" PARA O PIOR.'],
         idleTalk4: () =>
             world.bad_lizard < 2
-                ? ['<20>{#p/mettaton}I MUST SAY, HAVING YOU ON STAGE WITH ME IS A REAL \"TURN\" ON.']
-                : ['<20>{#p/mettaton}I MUST SAY, THIS WHOLE SITUATION IS A REAL \"TURN\" OFF.'],
-        idleTalk5: ["<20>{#p/mettaton}(YOU'RE SUPPOSED TO TURN ME AROUND.)"],
+                ? ['<20>{#p/mettaton}EU DEVO DIZER, TER VOCÊ AQUI COMIGO É UMA VERDADEIRA \"VIRADA\" NA VIDA.']
+                : ['<20>{#p/mettaton}DEVO DIZER QUE TODA ESSA SITUAÇÃO É UMA VERDADEIRA \"VIRADA.\"'],
+        idleTalk5: ["<20>{#p/mettaton}(É PRA VOCÊ ME FAZER VIRAR.)"],
         idleTalk6: ['<20>{#p/mettaton}...'],
         flirtTalk1: () =>
             SAVE.data.b.flirt_mettaton
                 ? [
-                    '<20>{#p/mettaton}BACK TO YOUR FLIRTATIOUS WAYS, EH...?',
-                    '<20>{#p/mettaton}YOU, MY FRIEND, ARE A TRUE MENACE TO SOCIETY.'
+                    '<20>{#p/mettaton}DE VOLTA A SUAS BASES FLERTIVAS, NÉ?',
+                    '<20>{#p/mettaton}VOCÊ, MEU QUERIDO, É UMA AMEAÇA A SOCIEDADE.'
                 ]
-                : ['<20>{#p/mettaton}OHOHO...', '<20>...', '<20>MAYBE YOU SHOULD HOLD OFF ON THAT FOR NOW.'],
+                : ['<20>{#p/mettaton}OHOHO...', '<20>...', '<20>TALVEZ VOCÊ DEVESSE PARAR COM ISSO UM POUCO.'],
         flirtTalk2: () =>
             SAVE.data.b.flirt_mettaton
-                ? ["<20>{#p/mettaton}DON'T YOU EVER KNOW WHEN TO QUIT?"]
-                : ['<20>{#p/mettaton}OR YOU COULD JUST KEEP GOING.'],
+                ? ["<20>{#p/mettaton}VOCÊ NÃO SABE A HORA DE PARAR?"]
+                : ['<20>{#p/mettaton}OU VOCÊ PODE SÓ CONTINUAR INDO.'],
         flirtTalk3: () =>
-            SAVE.data.b.flirt_mettaton ? ['<20>{#p/mettaton}I GUESS NOT.'] : ['<20>{#p/mettaton}AND GOING.'],
-        flirtTalk4: ["<20>{#p/mettaton}...\nI FEEL LIKE THERE'S SOMETHING BETTER YOU COULD BE DOING."],
+            SAVE.data.b.flirt_mettaton ? ['<20>{#p/mettaton}EU ACHO QUE NÃO.'] : ['<20>{#p/mettaton}E INDO.'],
+        flirtTalk4: ["<20>{#p/mettaton}...\nEU SINTO QUE TEM ALGO MELHOR QUE VOCÊ PODERIA ESTAR FAZENDO."],
         flirtTalk5: ['<20>{#p/mettaton}...'],
-        act_turn: ["<32>{#p/human}* (You tell Mettaton there's a mirror behind him.)"],
-        turnTalk1: ['<20>{#p/mettaton}A MIRROR, YOU SAY?', '<20>OH RIGHT, I HAVE TO LOOK PERFECT FOR OUR GRAND FINALE!'],
-        turnTalk2: ["<20>{#p/mettaton}HMM, WHERE IS IT?\nI DON'T SEE IT..."],
-        turnTalk3: ['<20>{#p/mettaton}DID YOU.', '<20>JUST FLIP.', '<20>MY SWITCH??'],
+        act_turn: ["<32>{#p/human}* (Você diz ao Mettaton que tem um espelho atrás dele.)"],
+        turnTalk1: ['<20>{#p/mettaton}UM ESPELHO, VOCÊ DIZ?', '<20>AH ÓTIMO, EU PRECISO ESTAR PERFEITA PARA O GRANDE FINAL!'],
+        turnTalk2: ["<20>{#p/mettaton}HMM, ONDE ELE ESTÁ?\nEU NÃO VEJO..."],
+        turnTalk3: ['<20>{#p/mettaton}VOCÊ.', '<20>APERTOU MESMO.', '<20>MEU BOTÃO??'],
         turnTalk4: () =>
             world.bad_robot
                 ? [
                     '<18>{#p/mettaton}Ohoho...',
-                    '<18>If you thought I had style before, just wait until you see me now.',
-                    '<18>Faster.\nStronger.\nLighter than ever.',
-                    "<18>I've fused with my own body.",
-                    "<19>It's a shame you can only be so violent on live TV, don't you think?",
-                    "<19>But that's alright.",
-                    '<18>Just this once, just for you...'
+                    '<18>Se você pensa que eu tinha estilo antes, só espere até me ver agora.',
+                    '<18>Forte.\nRápido.\nMais brilhante.',
+                    "<18>Eu me fundi ao meu próprio corpo.",
+                    "<19>É uma tristeza que não posso ser muito violento na TV, não é mesmo?",
+                    "<19>Mas tudo bem.",
+                    '<18>Apenas dessa vez, só pra você...'
                 ]
                 : [
-                    '<18>{#p/mettaton}Ohhhh my.',
-                    '<18>If you flipped my switch, that can only mean one thing.',
+                    '<18>{#p/mettaton}Ohhhh meu.',
+                    '<18>Se você apertou meu botão, isso só pode significar uma coisa.',
                     ...(iFancyYourVilliany()
                         ? [
-                            "<18>You're desperate to face off against my final form.",
-                            '<18>How impatient...',
-                            "<18>Lucky for you, I've been aching to whip it out for a long time.",
-                            "<18>So, as thanks, I'll make sure you go out in style.",
-                            "<18>I'll make this final confrontation..."
+                            "<18>Que você está desesperado para ver minha forma final.",
+                            '<18>Quanta impaciência...',
+                            "<18>Para sua sorte, já estive pensando em revela-lo por bastante tempo.",
+                            "<18>Então, como agradecimento, irei garantir que seus momentos finais sejam lindos.",
+                            "<18>Eu farei desse confronto final..."
                         ]
                         : [
-                            "<18>You're desperate for the premiere of my new body.",
-                            '<18>How impatient...',
-                            "<18>Lucky for you, I've been aching to show it off for a long time.",
-                            "<18>So, as thanks, I'll give you a handsome reward.",
-                            "<18>I'll make your last living moments..."
+                            "<18>Você está desesperado pela estreia do meu novo corpo.",
+                            '<18>Quanta impaciência...',
+                            "<18>Para sua sorte, estou ansioso para exibi-lo há muito tempo.",
+                            "<18>Então, como agradecimento, eu lhe darei uma bela recompensa.",
+                            "<18>Eu farei de seus últimos momentos vivos..."
                         ])
                 ],
         turnTalk5: () =>
             world.bad_robot
-                ? ["<18>{*}... we're going off the air."]
+                ? ["<18>{*}... estamos saindo do ar."]
                 : iFancyYourVilliany()
-                    ? ['<18>{#p/mettaton}{*}... absolutely fantastic!']
-                    : ['<18>{#p/mettaton}{*}... absolutely beautiful!'],
-        act_burn: ['<32>{#p/human}* (You roast Mettaton on his own TV show.)'],
-        burnTalk1: ['<20>{#p/mettaton}IS THAT THE BEST YOU CAN MANAGE?'],
-        burnTalk2: ['<20>{#p/mettaton}EVEN ALPHYS COULD DO BETTER THAN THAT.'],
-        burnTalk3: ["<20>{#p/mettaton}NO OFFENSE, BUT YOU'RE NOT VERY GOOD AT THIS."],
-        burnTalk4: ['<20>{#p/mettaton}...\nMAYBE YOU SHOULD TRY DOING SOMETHING ELSE.'],
+                    ? ['<18>{#p/mettaton}{*}... absolutamente fantásticos!']
+                    : ['<18>{#p/mettaton}{*}... absolutamente lindos!'],
+        act_burn: ['<32>{#p/human}* (Você zoa o Mettaton no próprio show de TV dele.)'],
+        burnTalk1: ['<20>{#p/mettaton}ISSO É O MELHOR QUE VOCÊ CONSEGUE FAZER?'],
+        burnTalk2: ['<20>{#p/mettaton}ATÉ A ALPHYS PODERIA FAZER MELHOR QUE ISSO.'],
+        burnTalk3: ["<20>{#p/mettaton}SEM OFENSA, MAS VOCÊ NÃO É MUITO BOM NISSO."],
+        burnTalk4: ['<20>{#p/mettaton}...\nTALVEZ VOCÊ DEVESSE TENTAR FAZER ALGUMA OUTRA COISA.'],
         burnTalk5: ['<20>{#p/mettaton}...']
     },
 
     b_opponent_mettaton2: {
         artifact: () => [
-            '<33>{#p/human}* (Mettaton shrugs at the sight.)',
-            ...(world.genocide || world.bad_robot ? [] : ['<32>{#p/basic}* The audience shrugs, too.'])
+            '<33>{#p/human}* (Mettaton da um suspiro.)',
+            ...(world.genocide || world.bad_robot ? [] : ['<32>{#p/basic}* O público também encolhe os ombros.'])
         ],
         epiphaNOPE: () =>
             world.genocide || world.bad_robot
-                ? ["<20>{#p/mettaton}{#e/mettaton/25}That party trick won't work on me, darling."]
+                ? ["<20>{#p/mettaton}{#e/mettaton/25}Esse truque de festa não vai funcionar comigo, querido."]
                 : iFancyYourVilliany()
-                    ? ["<20>{#p/mettaton}{#e/mettaton/19}You know, this doesn't seem like your style."]
-                    : ['<20>{#p/mettaton}{#e/mettaton/19}Time and a place, darling...'],
-        hint: ["<32>{#p/basic}* Okay, partner...\n* It's all up to you now."],
+                    ? ["<20>{#p/mettaton}{#e/mettaton/19}Você sabe que esse não é muito seu estilo."]
+                    : ['<20>{#p/mettaton}{#e/mettaton/19}Tempo e lugar, querido.'],
+        hint: ["<32>{#p/basic}* Ok, parceiro...\n* Tudo depende de você agora."],
         name: () => (world.genocide ? '* Mettaton NEO' : world.bad_robot ? '* Mettaton SIGMA' : '* Mettaton EX'),
         spannerReaction: (repeat: boolean) =>
             world.genocide
-                ? ['<32>{#p/human}* (You throw the spanner.)\n* (Mettaton blasts it right out of the air.)']
+                ? ['<32>{#p/human}* (Você joga a chave.)\n* (Mettaton a explode no ar.)']
                 : world.bad_robot
                     ? [
-                        '<32>{#p/human}* (You throw the spanner.)\n* (Mettaton takes it and breaks it over your head.)',
-                        "<32>{#p/basic}* That's gotta hurt!"
+                        '<32>{#p/human}* (Você joga a chave.)\n* (Mettaton pega e quebra sobre sua cabeça.)',
+                        "<32>{#p/basic}* Isso deve ter doído!"
                     ]
                     : repeat
                         ? iFancyYourVilliany()
                             ? [
-                                '<32>{#p/human}* (You throw the spanner.)\n* (Mettaton kicks it back at you with a passion.)',
-                                '<32>{#p/basic}* The crowd yawns...'
+                                '<32>{#p/human}* (Você joga a chave.)\n* (Mettaton chuta de volta para você com paixão.)',
+                                '<32>{#p/basic}* A multidão boceja...'
                             ]
                             : [
-                                '<32>{#p/human}* (You throw the spanner.)\n* (Mettaton catches it in his mouth and tosses it back.)',
-                                '<32>{#p/basic}* The crowd yawns...'
+                                '<32>{#p/human}* (Você joga a chave.)\n* (Mettaton a pega na boca e o joga de volta.)',
+                                '<32>{#p/basic}* A multidão boceja...'
                             ]
                         : iFancyYourVilliany()
                             ? [
-                                '<32>{#p/human}* (You throw the spanner.)\n* (Mettaton kicks it back at you with a passion.)',
-                                '<32>{#p/basic}* The crowd goes wild!'
+                                '<32>{#p/human}* (Você joga a chave.)\n* (Mettaton chuta de volta para você com paixão.)',
+                                '<32>{#p/basic}* A multidão vai à loucura!'
                             ]
                             : [
-                                '<32>{#p/human}* (You throw the spanner.)\n* (Mettaton catches it in his mouth and tosses it back.)',
-                                '<32>{#p/basic}* The crowd goes wild!'
+                                '<32>{#p/human}* (Você joga a chave.)\n* (Mettaton a pega na boca e o joga de volta.)',
+                                '<32>{#p/basic}* A multidão vai à loucura!'
                             ],
         old_gun_text: () =>
             world.genocide || world.bad_robot
-                ? ['<32>{#p/human}* (You fire the gun.)\n* (Nothing happens.)']
-                : ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* The audience is stunned!'],
+                ? ['<32>{#p/human}* (Você atira com a arma.)\n* (Nada acontece.)']
+                : ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* A audiência fica abismada!'],
         old_bomb_text: () =>
             world.genocide || world.bad_robot
-                ? ['<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)\n* (Nothing happens.)']
+                ? ['<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)\n* (Nada acontece.)']
                 : [
-                    '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-                    '<32>{#p/basic}* The audience is daydreaming!'
+                    '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+                    '<32>{#p/basic}* A audiência está sonhando acordada!'
                 ],
         old_spray_text: () =>
             world.genocide || world.bad_robot
-                ? ['<32>{#p/human}* (You use the spray.)\n* (Sweet...)\n* (Nothing happens.)']
-                : ['<32>{#p/human}* (You use the spray.)\n* (Sweet...)', '<32>{#p/basic}* The audience is in shambles!'],
+                ? ['<32>{#p/human}* (Você usa o spray.)\n* (Doce...)\n* (Nada acontece.)']
+                : ['<32>{#p/human}* (Você usa o spray.)\n* (Doce...)', '<32>{#p/basic}* O público está em frangalhos!'],
         act_check: () =>
             world.genocide
-                ? ["<32>{#p/asriel2}* Mettaton.\n* Shouldn't you be attacking him or something?"]
+                ? ["<32>{#p/asriel2}* Mettaton.\n* Não era pra você estar atacando ele ou sei lá?"]
                 : world.bad_robot
                     ? [
-                        '<33>{#p/story}* METTATON SIGMA - ATK 255 DEF 42\n* An over-clocked, double-edged, human-killing machine.'
+                        '<33>{#p/story}* METTATON SIGMA - ATQ 255 DEF 42\n* Um super-carregado, múltiplas funções, assassino de humanos.'
                     ]
-                    : ['<32>{#p/story}* METTATON EX - ATK 47 DEF 47\n* His weak point is his heart-shaped core.'],
-        act_cut1: ['<32>{#p/human}* (You begin to cut a wire...)'],
-        act_cut2: ['<32>{#p/human}* (You resume cutting the wire...)'],
-        act_cut3: ['<32>{#p/human}* (But there were no more wires to cut.)'],
+                    : ['<32>{#p/story}* METTATON EX - ATQ 47 DEF 47\n* Sua fraqueza é seu core em formato de coração.'],
+        act_cut1: ['<32>{#p/human}* (Você começa a cortar o fio...)'],
+        act_cut2: ['<32>{#p/human}* (Você termina de cortar o fio...)'],
+        act_cut3: ['<32>{#p/human}* (Mas não existem mais fios para se cortar.)'],
         tvmReaction: {
             blookpie: () =>
                 world.genocide || world.bad_robot
                     ? [
-                        '<32>{#p/basic}* The confection reminds Mettaton of someone he has to protect...',
-                        "<32>{#p/story}* Mettaton's ATTACK up!\n* Mettaton's DEFENSE up!"
+                        '<32>{#p/basic}* A confecção lembra Mettaton de alguém que ele tem que proteger...',
+                        "<32>{#p/story}* ATAQUE do Mettaton aumentou!\n* DEFESA do Mettaton aumentou!"
                     ]
                     : [
                         SAVE.data.b.a_state_hapstablook
-                            ? '<32>{#p/basic}* The confection reminds Mettaton of someone special to him...'
-                            : '<32>{#p/basic}* The confection reminds Mettaton of someone he once knew...',
-                        "<32>{#p/story}* Mettaton's ATTACK down!\n* Mettaton's DEFENSE down!"
+                            ? '<32>{#p/basic}* A confecção lembra Mettaton de alguém especial para ele...'
+                            : '<32>{#p/basic}* A confecção lembra Mettaton de alguém que um dia ele conhecia...',
+                        "<32>{#p/story}* DEFESA do Mettaton caiu!\n* ATAQUE do Mettaton caiu!"
                     ],
             radio: () =>
                 world.bad_robot
                     ? [
-                        '<32>{#p/human}* (You give Mettaton the radio.)\n* (Mettaton plays death metal and screams in your face.)'
+                        '<32>{#p/human}* (Você da um rádio para Mettaton.)\n* (Mettaton coloca death metal e grita na sua cara.)'
                     ]
                     : iFancyYourVilliany()
                         ? [
-                            '<32>{#p/human}* (You give Mettaton the radio.)\n* (Mettaton plays orchestral music to hype up the battle.)'
+                            '<32>{#p/human}* (Você dá o rádio para Mettaton.)\n* (Mettaton coloca orquestra para dar um hype na batalha.)'
                         ]
                         : [
-                            '<32>{#p/human}* (You give Mettaton the radio.)\n* (Mettaton does karaoke, and the audience sings along.)'
+                            '<32>{#p/human}* (Você dá o rádio a Mettaton.)\n* (Mettaton faz karaokê e o público canta junto.)'
                         ],
             fireworks: () =>
                 world.bad_robot
                     ? [
-                        '<32>{#p/human}* (You give Mettaton fireworks.)\n* (Mettaton straps them to a rocket launcher and fires.)'
+                        '<32>{#p/human}* (Você dá fogos de artifício a Mettaton.)\n* (Mettaton os amarra a um lançador de foguetes e dispara.)'
                     ]
                     : iFancyYourVilliany()
                         ? [
-                            '<32>{#p/human}* (You give Mettaton fireworks.)\n* (Mettaton coordinates his attacks for dramatic effect.)'
+                            '<32>{#p/human}* (Você dá fogos de artifício a Mettaton.)\n* (Mettaton coordena seus ataques para um efeito dramático.)'
                         ]
                         : [
-                            '<32>{#p/human}* (You give Mettaton fireworks.)\n* (Mettaton sets them off, and the audience is left in awe.)'
+                            '<32>{#p/human}* (Você dá fogos de artifício a Mettaton.)\n* (Mettaton os desencadeia, e o público fica maravilhado.)'
                         ],
             mewmew: () =>
                 world.bad_robot
                     ? [
-                        '<32>{#p/human}* (You give Mettaton the doll.)\n* (Mettaton rips it up and tosses the shreds asunder.)'
+                        '<32>{#p/human}* (Você dá a boneca a Mettaton.)\n* (Mettaton rasga e joga os pedaços no chão.)'
                     ]
                     : iFancyYourVilliany()
                         ? [
-                            "<32>{#p/human}* (You give Mettaton the doll.)\n* (Mettaton isn't sure what to do and casts it away.)"
+                            "<32>{#p/human}* (Você da a boneca para o Mettaton.)\n* (Mettaton não sabe o que fazer com ela e a joga fora.)"
                         ]
                         : [
-                            '<32>{#p/human}* (You give Mettaton the doll.)\n* (Mettaton presents it boldly, and the audience is in love.)'
+                            '<32>{#p/human}* (Você da a boneca para o Mettaton.)\n* (Mettaton a levanta para o público, eles amam.)'
                         ]
         },
         act_boast: [
-            "<32>{#p/human}* (You say you aren't going to get hit at ALL.)",
-            "<32>{#p/basic}* Ratings gradually increase during Mettaton's turn."
+            "<32>{#p/human}* (Você diz que não tomar nenhum soco nessa rodada.)",
+            "<32>{#p/basic}* A audiência aumenta no turno do Mettaton."
         ],
         act_heel: [
-            '<32>{#p/human}* (You turn and scoff at the audience.)',
-            "<32>{#p/basic}* They're rooting for your destruction this turn."
+            '<32>{#p/human}* (Você se vira e xinga a audiência.)',
+            "<32>{#p/basic}* Eles estão torcendo por sua destruição neste turno."
         ],
         act_pose0: () =>
             iFancyYourVilliany()
                 ? [
-                    ['<32>{#p/human}* (You pose menacingly.)', '<32>{#p/basic}* The audience seems bored.'],
-                    ['<32>{#p/human}* (You pose menacingly.)', '<32>{#p/basic}* The audience seems annoyed.']
+                    ['<32>{#p/human}* (Você faz uma pose dramática.)', '<32>{#p/basic}* A audiência parece entediada.'],
+                    ['<32>{#p/human}* (Você faz uma pose dramática.)', '<32>{#p/basic}* A audiência parece aborrecida.']
                 ]
                 : [
-                    ['<32>{#p/human}* (You pose dramatically.)', '<32>{#p/basic}* The audience seems bored.'],
-                    ['<32>{#p/human}* (You pose dramatically.)', '<32>{#p/basic}* The audience seems annoyed.']
+                    ['<32>{#p/human}* (Você posa dramaticamente.)', '<32>{#p/basic}* A audiência parece entediada.'],
+                    ['<32>{#p/human}* (Você posa dramaticamente.)', '<32>{#p/basic}* A audiência parece aborrecida.']
                 ],
         act_pose1: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You pose menacingly.)',
-                    '<32>{#p/basic}* The audience is impressed by your strong aura!'
+                    '<32>{#p/human}* (Você faz uma pose dramática.)',
+                    '<32>{#p/basic}* A audiência está impressionada por sua aura forte!'
                 ]
-                : ['<32>{#p/human}* (You pose dramatically.)', '<32>{#p/basic}* The audience nods.'],
+                : ['<32>{#p/human}* (Você posa dramaticamente.)', '<32>{#p/basic}* A audiência balança.'],
         act_pose2: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You pose menacingly.)',
-                    "<32>{#p/basic}* The audience isn't impressed by your weak aura."
+                    '<32>{#p/human}* (Você faz uma pose dramática.)',
+                    "<32>{#p/basic}* A audiência não está impressionada por sua aura fraca."
                 ]
-                : ['<32>{#p/human}* (You pose dramatically.)', '<32>{#p/basic}* The audience applauds.'],
+                : ['<32>{#p/human}* (Você posa dramaticamente.)', '<32>{#p/basic}* A audiência aplaude.'],
         act_pose3: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You pose menacingly.)',
-                    '<32>{#p/basic}* Your aura is so weak, the audience rolls their eyes...'
+                    '<32>{#p/human}* (Você faz uma pose dramática.)',
+                    '<32>{#p/basic}* A sua aura é tão fraca, que a audiência revira os olhos...'
                 ]
                 : [
-                    '<32>{#p/human}* (Despite being wounded, you pose dramatically.)',
-                    '<32>{#p/basic}* The audience gasps.'
+                    '<32>{#p/human}* (Apesar de estar ferido, você posa dramaticamente.)',
+                    '<32>{#p/basic}* O público suspira.'
                 ],
         act_pose4: () =>
             iFancyYourVilliany()
-                ? ['<32>{#p/human}* (You pose menacingly.)', '<32>{#p/basic}* The audience is impressed by your stupidity?']
+                ? ['<32>{#p/human}* (Você faz uma pose dramática.)', '<32>{#p/basic}* A audiência está impressionada pela sua estupidez?']
                 : [
-                    '<32>{#p/human}* (With the last of your power, you pose dramatically.)',
-                    '<32>{#p/basic}* The audience screams.'
+                    '<32>{#p/human}* (Com o restante do seu poder, você posa dramaticamente.)',
+                    '<32>{#p/basic}* A audiência grita.'
                 ],
         act_scream0: [
             [
-                '<32>{#p/human}* (You scream.)',
-                "<32>{#p/basic}* The audience seems bored.\n* You'll move slower this turn."
+                '<32>{#p/human}* (Você grita.)',
+                "<32>{#p/basic}* A audiência está entediada.\n* Você se move mais lentamente neste turno."
             ],
             [
-                '<32>{#p/human}* (You scream.)',
-                "<32>{#p/basic}* The audience seems annoyed.\n* You'll move slower this turn."
+                '<32>{#p/human}* (Você grita.)',
+                "<32>{#p/basic}* A audiência parece aborrecida.\n* Você se move lentamente neste turno."
             ]
         ],
         act_scream: [
-            '<32>{#p/human}* (You scream.)',
-            "<32>{#p/basic}* The audience gets riled up!\n* You'll move slower this turn."
+            '<32>{#p/human}* (Você grita.)',
+            "<32>{#p/basic}* O público fica irritado!\n* Você se moverá mais devagar neste turno."
         ],
         act_flirt0: [
-            ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* The audience seems bored...'],
-            ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* The audience seems annoyed...']
+            ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* A audiência parece entediada...'],
+            ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* A audiência parece irritada...']
         ],
         act_flirt1: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You flirt with the audience.)',
-                    '<32>{#p/basic}* Your unexpected move takes the audience by surprise!'
+                    '<32>{#p/human}* (Você flerta com a audiência.)',
+                    '<32>{#p/basic} Seus movimentos inesperados pegam a audiência de surpresa!'
                 ]
-                : ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* The audience seems unreceptive...'],
+                : ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* A audiência parece receptiva...'],
         act_flirt2: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You flirt with the audience.)',
-                    '<32>{#p/basic}* Doubling down has the audience in a frenzy!'
+                    '<32>{#p/human}* (Você flerta com a audiência.)',
+                    '<32>{#p/basic}* Dobrar a aposta deixa o público em loucura!'
                 ]
-                : ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* The audience looks your way.'],
+                : ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* O público olha na sua direção.'],
         act_flirt3: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You flirt with the audience.)',
-                    '<32>{#p/basic}* All this teasing is making the audience queasy...'
+                    '<32>{#p/human}* (Você flerta com a audiência.)',
+                    '<32>{#p/basic}* Toda essa provocação está deixando o público enjoado...'
                 ]
-                : ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* That got their attention!'],
+                : ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* Isso pegou a atenção deles!'],
         act_flirt4: () =>
             iFancyYourVilliany()
                 ? [
-                    '<32>{#p/human}* (You flirt with the audience.)',
-                    "<32>{#p/basic}* The audience's confusion grows ever deeper."
+                    '<32>{#p/human}* (Você flerta com a audiência.)',
+                    "<32>{#p/basic}* A confusão da audiência cresce ainda mais."
                 ]
-                : ['<32>{#p/human}* (You flirt with the audience.)', '<32>{#p/basic}* The audience is enthralled!'],
+                : ['<32>{#p/human}* (Você flerta com a audiência.)', '<32>{#p/basic}* O público está encantado!'],
         status1: (azzy_neo: number) =>
             [
                 [
-                    "<33>{#p/asriel2}* I'm gonna try using a spell to wedge open the shield.\n* Get as many pickups as you can!"
+                    "<33>{#p/asriel2}* Eu vou tentar usar um feitiço para abrir o escudo dele. Pegue o máximo de energia que conseguir!"
                 ],
-                ['<32>{#p/asriel2}* Here we go again.']
+                ['<32>{#p/asriel2}* Lá vamos nós de novo.']
             ][Math.min(azzy_neo, 1)],
         statusX: (hint = false) =>
             world.genocide
-                ? ["<32>{#p/asriel2}* It's only a matter of time."]
+                ? ["<32>{#p/asriel2}* É apenas uma questão de tempo."]
                 : world.bad_robot
                     ? hint
-                        ? ["<32>{#p/story}* Seems fighting won't get you any further here."]
-                        : ['<32>{#p/story}* Electricity permeates through the room.']
+                        ? ["<32>{#p/story}* Parece que lutar não vai te levar muito longe."]
+                        : ['<32>{#p/story}* Eletricidade permeia por toda a sala.']
                     : ['<32>{#p/story}* Mettaton.'],
-        statusY: ["<32>{#p/story}* It's a whirlwind of high- voltage electricity!"],
+        statusY: ["<32>{#p/story}* É um turbilhão de eletricidade de alta tensão!"],
         turnTalk1: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Sorry, darling... but if I DON'T go overkill...",
-                    "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/3}I'd simply explode!"
+                    "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Desculpa, querido... mas se eu não tentar te matar...",
+                    "<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/3}Eu vou simplesmente explodir!"
                 ]
-                : ['<20>{#p/mettaton}Lights!\nCamera!\nAction!'],
+                : ['<20>{#p/mettaton}Luzes!\nCâmera!\nAção!'],
         turnTalk2: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... heh.\nPoetic, isn't it?",
-                    '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/8}{#a.ra/8}Killing you is the only thing keeping me alive!'
+                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... heh.\nPoético, não é?",
+                    '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/8}{#a.ra/8}Te matar é a única coisa me mantendo vivo!'
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ['<20>{#p/mettaton}Ghosts!\nDummies!\n... snails?']
+                    ? ['<20>{#p/mettaton}Fantasmas!\nBonecos!\n... lesmas?']
                     : !world.badder_lizard
-                        ? ['<20>{#p/mettaton}Drama!\nRomance!\nBloodshed!']
-                        : ['<20>{#p/mettaton}Karma!\nVengeance!\nPayback!'],
+                        ? ['<20>{#p/mettaton}Drama!\nRomance!\nMassacre!']
+                        : ['<20>{#p/mettaton}Karma!\nVingança!\nTroco!'],
         turnTalk3: () =>
             world.bad_robot
-                ? ["<20>{#p/mettaton}{#e/mettaton/24}{#a.la/3}{#a.ra/0}But that's what sets me apart from all the others."]
+                ? ["<20>{#p/mettaton}{#e/mettaton/24}{#a.la/3}{#a.ra/0}Mas é isso que me separa de todos os outros."]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}It's an emotional rollercoaster!"]
+                    ? ["<20>{#p/mettaton}É uma montanha russa de emoções!"]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}It's time to put you in your place!"]
+                        ? ["<20>{#p/mettaton}É hora de te colocar no seu lugar!"]
                         : !world.badder_lizard
-                            ? ["<20>{#p/mettaton}I'm the idol everyone craves!"]
-                            : ["<20>{#p/mettaton}I'll be the galaxy's superstar!"],
+                            ? ["<20>{#p/mettaton}Eu sou o ídolo que todos desejam!"]
+                            : ["<20>{#p/mettaton}Eu serei uma super estrela da galáxia!"],
         turnTalk4: () =>
             world.bad_robot
-                ? ["<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}I couldn't give up even if I wanted to..."]
+                ? ["<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}Eu não poderia desistir mesmo se quisesse..."]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}It's a shame things had to be this way..."]
+                    ? ["<20>{#p/mettaton}É uma tristeza que as coisas precisem ser assim..."]
                     : iFancyYourVilliany()
-                        ? ['<20>{#p/mettaton}Smile for the camera, $(moniker2)!']
+                        ? ['<20>{#p/mettaton}Sorria para as câmeras, $(moniker2)!']
                         : !world.badder_lizard
-                            ? ['<20>{#p/mettaton}Smile for the camera, darling!']
-                            : ['<20>{#p/mettaton}Smile for the camera, hotshot!'],
+                            ? ['<20>{#p/mettaton}Sorria para a câmera, querido!']
+                            : ['<20>{#p/mettaton}Sorria para a câmera, figurão!'],
         turnTalk5: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/9}{#a.ra/10}Now just you watch.\nI'll tear that rotten organ right out of your body!"
+                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/9}{#a.ra/10}Agora apenas assista.\nEu irei retirar sua alma de dentro do seu corpo!"
                 ]
                 : SAVE.data.b.a_state_hapstablook
                     ? [
-                        '<20>{#p/mettaton}But maybe you can help me make a choice here.',
-                        '<20>{#p/mettaton}Queue the all- important pop quiz!'
+                        '<20>{#p/mettaton}Mas talvez você me ajude a fazer uma escolha aqui.',
+                        '<20>{#p/mettaton}Enfileire o importantíssimo quiz!'
                     ]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}Oooh, it's time for a pop quiz!", '<20>Can your brains hold a candle to your brawn?']
+                        ? ["<20>{#p/mettaton}Oooh, é hora de um teste rápido!", '<20>Seu cérebro pode segurar uma vela em seus músculos?']
                         : !world.badder_lizard
                             ? [
-                                "<20>{#p/mettaton}Oooh, it's time for a pop quiz!",
-                                '<20>{#p/mettaton}I sure hope you know your multiple- choice...'
+                                "<20>{#p/mettaton}Oooh, é hora de um teste rápido!",
+                                '<20>{#p/mettaton}Eu tenho certeza que você sabe sua múltipla escolha...'
                             ]
                             : [
-                                "<20>{#p/mettaton}Oooh, here's a quiz for you.",
-                                "<20>{#p/mettaton}Don't like multiple- choice?\nToo bad!"
+                                "<20>{#p/mettaton}Oooh, aqui está um quiz para você.",
+                                "<20>{#p/mettaton}Não gosta de múltipla escolha?\nQue peninha!"
                             ],
         turnTalk6: () =>
             world.bad_robot
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}What?\nYou call that cold thing a heart?',
-                    '<20>{#p/mettaton}{#e/mettaton/30}{#a.la/9}{#a.ra/10}... no.\nLet me show you what a REAL one looks like.'
+                    '<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}Que?\nVocê chama essa coisa fria de coração?',
+                    '<20>{#p/mettaton}{#e/mettaton/30}{#a.la/9}{#a.ra/10}... não.\nVou te mostrar como um coração de verdade se parece.'
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ['<20>{#p/mettaton}Not so simple, is it?', '<20>... perhaps a heart to heart will lead us to the answer.']
+                    ? ['<20>{#p/mettaton}Não é tão simples, é?', '<20>... Talvez um coração por coração deve nos dar uma resposta.']
                     : SAVE.data.n.state_aerialis_mttanswer === 0
-                        ? ['<20>{#p/mettaton}Your \"answer\" sure was underwhelming...', "<20>{#p/mettaton}But this won't be!"]
+                        ? ['<20>{#p/mettaton}Sua \"resposta\" com certeza foi decepcionante...', "<20>{#p/mettaton}Mas isso não vai acontecer!"]
                         : iFancyYourVilliany()
                             ? [
-                                '<20>{#p/mettaton}So you ARE smarter than you look.',
-                                '<20>But a battle takes more than just basic knowledge.',
-                                '<20>It takes heart!'
+                                '<20>{#p/mettaton}Então você É mais inteligente do que parece.',
+                                '<20>Mas uma batalha necessita mais do que apenas conhecimento básico.',
+                                '<20>É preciso ter coração!'
                             ]
                             : !world.badder_lizard
                                 ? [
-                                    "<20>{#p/mettaton}Your answer really showed everyone what's on your mind.",
-                                    "<20>{#p/mettaton}Why don't I show you what's in my heart?"
+                                    "<20>{#p/mettaton}Sua resposta realmente mostrou a todos sua mente.",
+                                    "<20>{#p/mettaton}Que tal eu te mostrar o que está em meu coração?"
                                 ]
-                                : ['<20>{#p/mettaton}So you DO like multiple choice.', "<20>{#p/mettaton}Well, you won't like this!"],
+                                : ['<20>{#p/mettaton}Então você GOSTA de múltipla escolha.', "<20>{#p/mettaton}Olha, eu não gosto disso."],
         turnTalk7: () =>
             world.bad_robot
-                ? ["<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}It's only a matter of time..."]
+                ? ["<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}É apenas uma questão de tempo..."]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}It's not like I never loved the old life."]
+                    ? ["<20>{#p/mettaton}Não é como se eu não amasse a antiga vida."]
                     : iFancyYourVilliany()
-                        ? ['<20>{#p/mettaton}You may be a demon, but can you dance like the devil?']
+                        ? ['<20>{#p/mettaton}Você pode ser um demônio, mas consegue dançar como o diabo?']
                         : !world.badder_lizard
-                            ? ['<20>{#p/mettaton}Introducing... the double DJ disco!']
-                            : ["<20>{#p/mettaton}The battle's only just begun!"],
+                            ? ['<20>{#p/mettaton}Apresentando... a discoteca dupla DJ!']
+                            : ["<20>{#p/mettaton}A batalha apenas começou!"],
         turnTalk8: () =>
             world.bad_robot
-                ? ['<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}Until you inevitably lose to me.']
+                ? ['<20>{#p/mettaton}{#e/mettaton/18}{#a.la/8}{#a.ra/8}Até você inevitavelmente perder para mim.']
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}But it wasn't exactly glamorous, either..."]
+                    ? ["<20>{#p/mettaton}Mas não foi exatamente glamoroso, também..."]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}It's time to bring your a-game!"]
+                        ? ["<20>{#p/mettaton}É hora de te trazer um jogo!"]
                         : !world.badder_lizard
-                            ? ['<20>{#p/mettaton}Can you keep up the pace?']
-                            : ['<20>{#p/mettaton}Turn it up to eleven!'],
+                            ? ['<20>{#p/mettaton}Você consegue manter o ritmo?']
+                            : ['<20>{#p/mettaton}Aumente seu ritmo!'],
         turnTalk9: () =>
             world.bad_robot
-                ? ['<20>{#p/mettaton}{#e/mettaton/9}{#a.la/0}{#a.ra/5}Then, our kind will get to see the stars...']
+                ? ['<20>{#p/mettaton}{#e/mettaton/9}{#a.la/0}{#a.ra/5}Então, nosso povo irá ver as estrelas...']
                 : SAVE.data.b.a_state_hapstablook
-                    ? ['<20>{#p/mettaton}Whatever, Who cares!']
+                    ? ['<20>{#p/mettaton}Tanto faz, quem liga!']
                     : !world.badder_lizard
-                        ? ['<20>{#p/mettaton}Lights!\nCamera!\nPlastic explosives!']
-                        : ['<20>{#p/mettaton}Destruction!\nAnnihilation!\nArmageddon!'],
+                        ? ['<20>{#p/mettaton}Luzes!\nCâmera!\nPlástico explosivo!']
+                        : ['<20>{#p/mettaton}Destruição!\nAniquilação!\nArmagedom!'],
         turnTalk10: () =>
             world.bad_robot
-                ? ["<20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/7}... and I'm the one who's going to send them there!"]
+                ? ["20>{#p/mettaton}{#e/mettaton/1}{#a.la/1}{#a.ra/7}... e eu sou quem irá dar a eles a liberdade!"]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}Nobody, that's who!"]
+                    ? ["<20>{#p/mettaton}Ninguém, ninguém liga!"]
                     : !world.badder_lizard
-                        ? ['<20>{#p/mettaton}Things are blowing up!']
-                        : ['<20>{#p/mettaton}Things are getting crazy!'],
+                        ? ['<20>{#p/mettaton}As coisas estão explodindo!']
+                        : ['<20>{#p/mettaton}As coisas estão ficando malucas!'],
         turnTalk11: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}It's a shame, really.\nAlphys, Asgore, even my cousins...",
-                    '<20>{#e/mettaton/12}{#a.la/8}{#a.ra/8}Those closest to me are all quick to avoid conflict.'
+                    "20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}É uma pena, sério.\nAlphys, Asgore e até meus primos...",
+                    '<20>{#e/mettaton/12}{#a.la/8}{#a.ra/8}Todos aqueles próximos de mim sempre desejam evitar conflito.'
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}Let's just take a moment to think."]
+                    ? ["<20>{#p/mettaton}Vamos tomar um momento para pensar."]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}Nothing like a break to quell the enemy's fire!"]
+                        ? ["<20>{#p/mettaton}Nada como uma pausa para reprimir o fogo do inimigo!"]
                         : !world.badder_lizard
-                            ? ['<21>{#p/mettaton}Time for our council- regulated break!']
-                            : ["<20>{#p/mettaton}Can't catch a break?\nSucks to be you!"],
+                            ? ['<21>{#p/mettaton}Hora do nosso intervalo regulamentado pelo conselho!']
+                            : ["<20>{#p/mettaton}Não consegue fazer uma pausa?\nÉ uma merda ser você!"],
         turnTalk12: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}But me?\nI don't play by their lovey-dovey rules.",
-                    '<20>{#p/mettaton}{#e/mettaton/23}{#a.la/1}{#a.ra/6}I get straight to the heart of it!'
+                    "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}Mas eu?\nEu não jogo pelas regras amáveis deles.",
+                    '<20>{#p/mettaton}{#e/mettaton/23}{#a.la/1}{#a.ra/6}Eu vou direto ao coração da questão.'
                 ]
                 : SAVE.data.b.a_state_hapstablook
                     ? [
-                        "<20>{#p/mettaton}I don't get why they had to be so confrontational...",
-                        '<20>{#p/mettaton}... am I supposed to believe it was out of love?'
+                        "<20>{#p/mettaton}Eu não entendo por que eles me confrontaram daquela forma...",
+                        '<20>{#p/mettaton}... eu deveria acreditar que foi por amor?'
                     ]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}It's time we got back to the heart of this conflict!"]
+                        ? ["<20>{#p/mettaton}Hora de voltar para o coração do conflito!"]
                         : !world.badder_lizard
                             ? [
-                                "<20>{#p/mettaton}We've grown so distant, darling...",
-                                '<20>{#p/mettaton}How about another heart-to-heart?'
+                                "<20>{#p/mettaton}Nós crescemos tão distantes, querido...",
+                                '<20>{#p/mettaton}Que tal outro turno de coração com coração?'
                             ]
                             : [
-                                "<20>{#p/mettaton}I think it's time you learned your lesson.",
-                                "<20>{#p/mettaton}Here's something you can take to heart!"
+                                "<20>{#p/mettaton}Acho que já é hora de você ter aprendido sua lição.",
+                                "<20>{#p/mettaton}Aqui vai algo que você pode levar para o coração!"
                             ],
         turnTalk13: () =>
             world.bad_robot
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}... jeez.',
-                    "<20>{#e/mettaton/25}{#a.la/8}{#a.ra/8}You really are an annoying little bug, aren't you?"
+                    '<20>{#p/mettaton}{#e/mettaton/26}{#a.la/8}{#a.ra/8}... senhor.',
+                    "<20>{#e/mettaton/25}{#a.la/8}{#a.ra/8}Você é um verdadeiro inseto insolente, sabia?"
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ['<20>{#p/mettaton}A... and besides, how can I even trust them now?']
+                    ? ['<20>{#p/mettaton}E... e aliás, como eu posso confiar neles agora?']
                     : SAVE.data.b.a_state_armwrecker
-                        ? ['<20>{#p/mettaton}A... arms?\nWh... who needs arms with legs like these?']
-                        : ["<20>{#p/mettaton}I... is that all you've got?"],
+                        ? ['<20>{#p/mettaton}Braços...?\nQu-quem precisa de braços com pernas assim?']
+                        : ["<20>{#p/mettaton}É isso... isso é tudo que você tem?"],
         turnTalk14: () =>
             world.bad_robot
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}But hey, you know what they say about a bug, right?',
-                    "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/9}{#a.ra/10}It's just another problem that needs fixing."
+                    '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/8}{#a.ra/8}Mas ei, você sabe o que eles dizem sobre bugs, certo?',
+                    "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/9}{#a.ra/10}É apenas mais um problema que precisa de concerto."
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}I d-don't... know what to think anymore..."]
+                    ? ["<20>{#p/mettaton}Eu n-não sei... mais o que pensar..."]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}Let's h-hear... hear one last roar from the audience!"]
+                        ? ["<20>{#p/mettaton}Vamos ouvir... ouvir um último rugido da platéia!"]
                         : !world.badder_lizard
-                            ? ['<20>{#p/mettaton}Shoutout t-to... to Dr. Alphys for making my dreams come true!']
-                            : ["<20>{#p/mettaton}Shoutout t-to... to the ones who've given their lives to protect us!"],
+                            ? ['<20>{#p/mettaton}Agradecimentos a... doutora Alphys, por tornar meus sonhos realidade!']
+                            : ["<20>{#p/mettaton}Agradecimentos a... aqueles que deram suas vidas para nos proteger!"],
         turnTalk15: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/10}{#a.ra/0}Look.\nI don't blame you for fighting so valiantly.",
-                    '<20>{#p/mettaton}{#e/mettaton/19}{#a.la/0}{#a.ra/10}But, and I mean this in the best possible way...',
-                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}You'd have better chances against a wall of reinforced polycarbide."
+                    "<20>{#p/mettaton}{#e/mettaton/15}{#a.la/10}{#a.ra/0}Olha.\nEu não te culpo por lutar tão valentamente.",
+                    '<20>{#p/mettaton}{#e/mettaton/19}{#a.la/0}{#a.ra/10}Mas, e eu quero dizer que este é o melhor caminho possível...',
+                    "<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}Você teria melhores chances contra uma parede de policarboneto reforçado."
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ["<20>{#p/mettaton}Could it be that they're tr... truly sorry?"]
+                    ? ["<20>{#p/mettaton}Eles poderiam estar realmente... realmente arrependidos?"]
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}There's no way I'm giv... giving up now!"]
+                        ? ["<20>{#p/mettaton}Não tem como eu desis... desistir agora!"]
                         : !world.badder_lizard
-                            ? ["<20>{#p/mettaton}Now it's my turn to ful... fulfill all yours!"]
-                            : ["<20>{#p/mettaton}I'll make sure your efforts we... weren't in vain!"],
+                            ? ["<20>{#p/mettaton}Agora é a minha vez de cumprir... cumprir todos os seus!"]
+                            : ["<20>{#p/mettaton}Eu irei garantir que seus esforços não serão... em vão!"],
         turnTalk16: () =>
             world.bad_robot
                 ? [
-                    "<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/0}What's that?\nYou don't care what I have to say?",
-                    '<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... feh.\nYour loss, darling!'
+                    "<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/0}O que é isso?\nVocê não se importa com o que eu tenho pra dizer?",
+                    '<20>{#p/mettaton}{#e/mettaton/17}{#a.la/8}{#a.ra/8}... feh.\nVocê que perde, querido!'
                 ]
                 : SAVE.data.b.a_state_hapstablook
-                    ? ['<20>{#p/mettaton}Or is it ju... just a ploy to get into the spotlight?']
+                    ? ['<20>{#p/mettaton}Ou é ap... apenas um estrategia para entrar no centro das atenções?']
                     : iFancyYourVilliany()
-                        ? ["<20>{#p/mettaton}Not after al... all we've been through!"]
+                        ? ["<20>{#p/mettaton}Não após tu... tudo o que nós passamos!"]
                         : !world.badder_lizard
-                            ? ["<20>{#p/mettaton}I wouldn't ha... have it any other way!"]
-                            : ["<20>{#p/mettaton}It's the le... least I can do!"],
+                            ? ["<20>{#p/mettaton}Eu não fa... faria de outra maneira!"]
+                            : ["<20>{#p/mettaton}É o mínimo que posso... fa... fazer!"],
         turnTalk17: () =>
             world.bad_robot
                 ? ['<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}...']
@@ -7667,1552 +7667,1552 @@ export default {
         turnTalk18: () =>
             world.bad_robot
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/14}{#a.la/3}{#a.ra/0}Oh well.\nSome people just never learn...',
-                    "<20>{#e/mettaton/13}{#a.la/8}{#a.ra/8}But that's enough out of me.",
-                    "<20>{#e/mettaton/7}{#a.la/9}{#a.ra/10}I'll let my heart take it from here!"
+                    '<20>{#p/mettaton}{#e/mettaton/14}{#a.la/3}{#a.ra/0}Poxa vida.\nAlgumas pessoas nunca aprendem...',
+                    "<20>{#e/mettaton/13}{#a.la/8}{#a.ra/8}Mas já chega de mim.",
+                    "<20>{#e/mettaton/7}{#a.la/9}{#a.ra/10}Eu vou deixar meu coração tomar controle daqui pra frente!"
                 ]
-                : ['<20>{#p/mettaton}{#e/mettaton/13}The show must go on...!'],
+                : ['<20>{#p/mettaton}{#e/mettaton/13}O show deve continuar...!'],
         audienceRec0: () =>
             SAVE.data.b.a_state_hapstablook
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/11}(Sigh...)',
-                    '<20>{#e/mettaton/29}Well...',
-                    '<20>{#e/mettaton/10}Would you look at that.',
-                    "<20>{#e/mettaton/20}This is the most viewers I've ever had...",
-                    "<20>{#e/mettaton/17}By now, we've reached the viewer call-in milestone.",
+                    '<20>{#p/mettaton}{#e/mettaton/11}(Suspiro...)',
+                    '<20>{#e/mettaton/29}Bem...',
+                    '<20>{#e/mettaton/10}Olha só pra isso.',
+                    "<20>{#e/mettaton/20}Acho que essa é maior quantidade de espectadores que eu já tive...",
+                    "<20>{#e/mettaton/17}Nós atingimos o marco de ligações para o público.",
                     '<20>{#e/mettaton/14}...',
-                    "<20>{#e/mettaton/15}Let's see what the audience has to say...",
-                    '<20>{#e/mettaton/12}... before we finish off our saga for good.'
+                    "<20>{#e/mettaton/15}Vamos ver o que a audiência tem pra dizer...",
+                    '<20>{#e/mettaton/12}... antes de acabarmos essa saga para o bem.'
                 ]
                 : [
-                    '<20>{#p/mettaton}{#e/mettaton/8}Ooh, look at these ratings...',
-                    "<20>{#e/mettaton/5}This is the most viewers I've ever had!",
-                    "<20>{#e/mettaton/7}By now, we've reached the viewer call-in milestone.",
-                    "<20>{#e/mettaton/15}Let's see what the audience has to say...",
+                    '<20>{#p/mettaton}{#e/mettaton/8}Ooh, olhe para esses números...',
+                    "<20>{#e/mettaton/5}Essa é a maior quantidade de espectadores que eu já tive!",
+                    "<20>{#e/mettaton/7}Nós alcançamos o marco para ligações dos espectadores.",
+                    "<20>{#e/mettaton/15}Vamos ver o que a audiência tem pra dizer...",
                     iFancyYourVilliany()
-                        ? '<20>{#e/mettaton/19}... before the battle is over for real!'
-                        : '<20>{#e/mettaton/19}... before we finish off our saga for good!'
+                        ? '<20>{#e/mettaton/19}... antes que a batalha acabe de verdade!'
+                        : '<20>{#e/mettaton/19}... antes de acabarmos com essa saga para o bem!'
                 ],
         turnTalkX0a: () =>
             SAVE.data.b.a_state_hapstablook
                 ? [
-                    '<20>{#p/mettaton}{#e/mettaton/15}No... I...',
-                    '<20>{#p/mettaton}{#e/mettaton/14}I still have to...',
+                    '<20>{#p/mettaton}{#e/mettaton/15}Não... eu...',
+                    '<20>{#p/mettaton}{#e/mettaton/14}Eu ainda tenho que...',
                     '<20>{#p/mettaton}{#e/mettaton/9}...',
-                    "<20>{#p/mettaton}{#e/mettaton/9}Blooky, if you're watching this, then...",
-                    "<20>{#p/mettaton}{#e/mettaton/10}Please don't feel bad, alright?",
-                    "<20>{#p/mettaton}{#e/mettaton/9}I shouldn't have pushed you away.",
-                    "<20>{#p/mettaton}{#e/mettaton/19}I shouldn't have acted like I didn't care.",
-                    '<20>{#p/mettaton}{#e/mettaton/17}Because... regardless of what happened in the past...',
-                    '<20>{#p/mettaton}{#e/mettaton/10}You, Lurksalot... all of you...',
-                    "<20>{#p/mettaton}{#e/mettaton/20}You're still my family!",
-                    "<20>{#p/mettaton}{#e/mettaton/15}So... forget everything else I've said.",
-                    "<20>{#p/mettaton}{#e/mettaton/9}From now on, it doesn't matter.",
-                    '<20>{#p/mettaton}{#e/mettaton/10}All that matters...'
+                    "<20>{#p/mettaton}{#e/mettaton/9}Blooky, se você estiver assistindo isso, então...",
+                    "<20>{#p/mettaton}{#e/mettaton/10}Por favor não fique triste, tudo bem?",
+                    "<20>{#p/mettaton}{#e/mettaton/9}Eu não deveria ter te afastado.",
+                    "<20>{#p/mettaton}{#e/mettaton/19}Eu não deveria ter agido como se não me importasse.",
+                    '<20>{#p/mettaton}{#e/mettaton/17}Porque... independente do que aconteceu no passado...',
+                    '<20>{#p/mettaton}{#e/mettaton/10}Você, Lurksalot... todos vocês...',
+                    "<20>{#p/mettaton}{#e/mettaton/20}Vocês ainda são minha família!",
+                    "<20>{#p/mettaton}{#e/mettaton/15}Então... esqueça tudo que eu disse.",
+                    "<20>{#p/mettaton}{#e/mettaton/9}De agora em diante, isso não importa.",
+                    '<20>{#p/mettaton}{#e/mettaton/10}Tudo que importa...'
                 ]
                 : iFancyYourVilliany()
                     ? [
                         '<20>{#p/mettaton}{#e/mettaton/14}...',
-                        "<20>{#p/mettaton}{#e/mettaton/15}So that's how it is, is it?",
-                        '<20>{#p/mettaton}{#e/mettaton/19}... heh, I think...',
-                        '<20>{#p/mettaton}{#e/mettaton/20}I think I understand now.',
-                        '<20>{#p/mettaton}{#e/mettaton/10}All this time...',
-                        "<20>{#p/mettaton}{#e/mettaton/10}I've only been acting like we're enemies.",
-                        '<20>{#p/mettaton}{#e/mettaton/11}A story for the audience to get invested in.',
-                        '<20>{#p/mettaton}{#e/mettaton/19}But you...',
-                        '<20>{#p/mettaton}{#e/mettaton/17}You believed it.',
-                        '<20>{#p/mettaton}{#e/mettaton/17}You brought our rivalry to life.',
-                        '<20>{#p/mettaton}{#e/mettaton/10}And by the end...',
-                        '<20>{#p/mettaton}{#e/mettaton/9}You lived up perfectly to the role I gave to you.',
+                        "<20>{#p/mettaton}{#e/mettaton/15}Então é assim que acaba?",
+                        '<20>{#p/mettaton}{#e/mettaton/19}... heh, eu acho...',
+                        '<20>{#p/mettaton}{#e/mettaton/20}Eu acho que eu entendo agora.',
+                        '<20>{#p/mettaton}{#e/mettaton/10}Todo esse tempo...',
+                        "<20>{#p/mettaton}{#e/mettaton/10}Eu estive apenas agindo como se fossemos inimigos.",
+                        '<20>{#p/mettaton}{#e/mettaton/11}Uma história para que a audiência ficasse envolvida.',
+                        '<20>{#p/mettaton}{#e/mettaton/19}Mas você...',
+                        '<20>{#p/mettaton}{#e/mettaton/17}Você acreditou.',
+                        '<20>{#p/mettaton}{#e/mettaton/17}Você trouxe nossa realidade para a vida real.',
+                        '<20>{#p/mettaton}{#e/mettaton/10}E no fim...',
+                        '<20>{#p/mettaton}{#e/mettaton/9}Você viveu perfeitamente para a regra que eu te impus.',
                         '<20>{#p/mettaton}{#e/mettaton/19}...',
-                        '<20>{#p/mettaton}{#e/mettaton/14}Well then, dear $(moniker2).',
-                        "<20>{#p/mettaton}{#e/mettaton/12}I guess it's only fair I live up to mine."
+                        '<20>{#p/mettaton}{#e/mettaton/14}Pois bem, querido $(moniker2).',
+                        "<20>{#p/mettaton}{#e/mettaton/12}Acho justo que eu esteja à altura do que desejei viver."
                     ]
                     : !world.badder_lizard
                         ? [
                             '<20>{#p/mettaton}{#e/mettaton/9}...',
-                            '<20>{#p/mettaton}{#e/mettaton/10}Ha... darling...',
-                            '<20>{#p/mettaton}{#e/mettaton/17}You do know what happens when my HP reaches zero...',
-                            "<20>{#p/mettaton}{#e/mettaton/17}... don't you?",
+                            '<20>{#p/mettaton}{#e/mettaton/10}Ha... querido...',
+                            '<20>{#p/mettaton}{#e/mettaton/17}Você sabe o que acontece quando meu HP chega a zero...',
+                            "<20>{#p/mettaton}{#e/mettaton/17}... não sabe?",
                             '<20>{#p/mettaton}{#e/mettaton/18}...',
-                            '<20>{#p/mettaton}{#e/mettaton/9}But before I go.',
-                            '<20>{#p/mettaton}{#e/mettaton/10}I just wanted to say...',
-                            "<20>{#p/mettaton}{#e/mettaton/17}... you're the greatest guest star I've ever had.",
-                            '<20>{#p/mettaton}{#e/mettaton/19}All those people, watching us...',
-                            '<20>{#p/mettaton}{#e/mettaton/19}Cheering us on...',
-                            "<20>{#p/mettaton}{#e/mettaton/17}They're here because of you.",
-                            '<20>{#p/mettaton}{#e/mettaton/10}To see your story unfold.',
-                            '<20>{#p/mettaton}{#e/mettaton/9}So... darling.',
-                            "<20>{#p/mettaton}{#e/mettaton/13}Don't underestimate yourself, alright?",
-                            "<20>{#p/mettaton}{#e/mettaton/14}And don't worry about me.",
-                            '<20>{#p/mettaton}{#e/mettaton/12}Because, even if my story came to an end...'
+                            '<20>{#p/mettaton}{#e/mettaton/9}Mas antes que eu vá.',
+                            '<20>{#p/mettaton}{#e/mettaton/10}Eu só queria dizer...',
+                            "<20>{#p/mettaton}{#e/mettaton/17}... você é a maior estrela que eu já tive aqui.",
+                            '<20>{#p/mettaton}{#e/mettaton/19}Todas essas pessoas, nos assistindo...',
+                            '<20>{#p/mettaton}{#e/mettaton/19}Torcendo por nós...',
+                            "<20>{#p/mettaton}{#e/mettaton/17}Eles estão aqui por sua causa.",
+                            '<20>{#p/mettaton}{#e/mettaton/10}Para ver sua história se desenrolar.',
+                            '<20>{#p/mettaton}{#e/mettaton/9}Então... querido.',
+                            "<20>{#p/mettaton}{#e/mettaton/13}Não subestime a si mesmo, tudo bem?",
+                            "<20>{#p/mettaton}{#e/mettaton/14}E não se preocupe comigo.",
+                            '<20>{#p/mettaton}{#e/mettaton/12}Porque, mesmo que minha história tenha encontrado um fim...'
                         ]
                         : [
                             '<20>{#p/mettaton}{#e/mettaton/14}...',
-                            '<20>{#p/mettaton}{#e/mettaton/14}... you...',
-                            "<20>{#p/mettaton}{#e/mettaton/12}I should have known you'd betray me.",
+                            '<20>{#p/mettaton}{#e/mettaton/14}... você...',
+                            "<20>{#p/mettaton}{#e/mettaton/12}Eu deveria sabe que você iria me trair.",
                             '<20>{#p/mettaton}{#e/mettaton/15}...',
-                            '<20>{#p/mettaton}{#e/mettaton/15}I wanted to give you a chance.',
+                            '<20>{#p/mettaton}{#e/mettaton/15}Eu queria te dar uma chance.',
                             ...(SAVE.data.n.bad_lizard < 2
                                 ? [
-                                    '<20>{#p/mettaton}{#e/mettaton/14}I wanted to believe there was still good in you.',
-                                    '<20>{#p/mettaton}{#e/mettaton/19}But now...',
-                                    "<20>{#p/mettaton}{#e/mettaton/22}I know there's no hope of it coming back."
+                                    '<20>{#p/mettaton}{#e/mettaton/14}Eu queria acreditar que ainda havia bem em você.',
+                                    '<20>{#p/mettaton}{#e/mettaton/19}Mas agora...',
+                                    "<20>{#p/mettaton}{#e/mettaton/22}Eu sei que não existe mais esperança para o que aconteceu."
                                 ]
                                 : [
-                                    "<20>{#p/mettaton}{#e/mettaton/14}I wanted to believe that you'd changed.",
-                                    '<20>{#p/mettaton}{#e/mettaton/19}But now...',
-                                    '<20>{#p/mettaton}{#e/mettaton/22}I know you never had good in you to begin with.'
+                                    "<20>{#p/mettaton}{#e/mettaton/14}Eu queria acreditar na sua mudança.",
+                                    '<20>{#p/mettaton}{#e/mettaton/19}Mas agora...',
+                                    '<20>{#p/mettaton}{#e/mettaton/22}Eu já sabia que não existia bem em você desde o começo.'
                                 ]),
-                            '<20>{#p/mettaton}{#e/mettaton/30}... you poor thing.',
-                            '<20>{#p/mettaton}{#e/mettaton/30}I really must apologize.',
-                            '<20>{#p/mettaton}{#e/mettaton/20}If I had just been a little more pragmatic...',
-                            "<20>{#p/mettaton}{#e/mettaton/23}I could've given you the death you so utterly deserve.",
+                            '<20>{#p/mettaton}{#e/mettaton/30}... sua pobre coisa.',
+                            '<20>{#p/mettaton}{#e/mettaton/30}Eu devo me desculpar.',
+                            '<20>{#p/mettaton}{#e/mettaton/20}Se eu tivesse sido um pouco mais pragmático...',
+                            "<20>{#p/mettaton}{#e/mettaton/23}Eu teria te dado a morte que você tanto merece.",
                             '<20>{#p/mettaton}{#e/mettaton/30}...',
-                            "<20>{#p/mettaton}{#e/mettaton/30}Well, that's fine.",
-                            '<20>{#p/mettaton}{#e/mettaton/24}You live and learn, darling.',
-                            '<20>{#p/mettaton}{#e/mettaton/30}And in the end...'
+                            "<20>{#p/mettaton}{#e/mettaton/30}Bom, tudo bem.",
+                            '<20>{#p/mettaton}{#e/mettaton/24}Você vive e aprende, querido.',
+                            '<20>{#p/mettaton}{#e/mettaton/30}E no fim...'
                         ],
         turnTalkX0b: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ['<20>{*}{#p/mettaton}{#e/mettaton/31}... is that I forgive you!{^20}{%}']
+                ? ['<20>{*}{#p/mettaton}{#e/mettaton/31}... é que eu te perdôo!{^20}{%}']
                 : iFancyYourVilliany()
-                    ? ["<20>{*}{#p/mettaton}{#e/mettaton/30}... let's end this rivalry off with a bang.{^20}{%}"]
+                    ? ["<20>{*}{#p/mettaton}{#e/mettaton/30}... Vamos acabar com essa rivalidade com um estrondo.{^20}{%}"]
                     : !world.badder_lizard
-                        ? ['<20>{*}{#p/mettaton}{#e/mettaton/30}... at least it ended off with a bang.{^20}{%}']
-                        : ["<20>{*}{#p/mettaton}{#e/mettaton/27}... you'll realize not everything's going to go your way!{^20}{%}"],
+                        ? ['<20>{*}{#p/mettaton}{#e/mettaton/30}... pelo menos isso acabou com uma explosão.{^20}{%}']
+                        : ["<20>{*}{#p/mettaton}{#e/mettaton/27}... logo você perceberá que nem tudo se sairá da forma que quer!{^20}{%}"],
         turnTalkX1a: ['<20>{#p/mettaton}{#e/mettaton/19}{#a.la/8}{#a.ra/8}...?'],
         turnTalkX1b: [
-            '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}... of course.',
-            "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}You thought I'd be done for without the wires... right?",
-            '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}Oh, darling... you poor, poor little excuse of a child.',
-            "<20>{#p/mettaton}{#e/mettaton/23}{#a.la/10}{#a.ra/0}You simply couldn't be more wrong.",
-            "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/2}{#a.ra/3}All this time, I've been absorbing the CORE's power...",
-            "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Did you really think I'd let it go to waste?"
+            '<20>{#p/mettaton}{#e/mettaton/15}{#a.la/0}{#a.ra/0}... é claro.',
+            "<20>{#p/mettaton}{#e/mettaton/13}{#a.la/8}{#a.ra/8}Você pensou que eu estaria morto sem os fios... né?",
+            '<20>{#p/mettaton}{#e/mettaton/20}{#a.la/0}{#a.ra/10}Oh, querido... sua pobre, pobre criança lamentada.',
+            "<20>{#p/mettaton}{#e/mettaton/23}{#a.la/10}{#a.ra/0}Você não poderia estar mais errada.",
+            "<20>{#p/mettaton}{#e/mettaton/24}{#a.la/2}{#a.ra/3}Todo esse tempo, eu estive absorvendo o poder do CORE...",
+            "<20>{#p/mettaton}{#e/mettaton/30}{#a.la/8}{#a.ra/8}Você realmente achou que eu iria desperdiça-lo?"
         ],
-        turnTalkX1c: ["<20>{*}{#p/mettaton}{#e/mettaton/27}{#a.la/8}{#a.ra/8}Let's see how you like me NOW!"],
+        turnTalkX1c: ["<20>{*}{#p/mettaton}{#e/mettaton/27}{#a.la/8}{#a.ra/8}Vamos ver se você gosta de mim AGORA!"],
         turnTalkX2: [
             '<20>{#p/mettaton}{#e/mettaton/26}... ugh...',
-            '<20>{#e/mettaton/25}You beat me.',
-            '<20>{#e/mettaton/19}After all of that, I underestimated you... again.',
-            "<20>{#e/mettaton/13}But that's okay.",
-            '<20>{#e/mettaton/14}Someone, somewhere out there...',
-            "<20>{#e/mettaton/19}They'll put a stop to this madness.",
-            '<20>{#e/mettaton/9}And when that time comes...',
-            "<20>{#e/mettaton/10}We'll all..." 
+            '<20>{#e/mettaton/25}Você me venceu.',
+            '<20>{#e/mettaton/19}Depois de tudo isso, eu te subestimei... de novo.',
+            "<20>{#e/mettaton/13}Mas tudo bem.",
+            '<20>{#e/mettaton/14}Alguém, alguém aí fora...',
+            "<20>{#e/mettaton/19}Alguém aí fora vai conseguir te parar.",
+            '<20>{#e/mettaton/9}E quando este momento chegar...',
+            "<20>{#e/mettaton/10}Todos nós..." 
         ],
         turnTalkX3: [
-            '<20>{#p/mettaton}{#e/mettaton/26}... unbelievable...',
-            "<20>{#e/mettaton/25}You didn't even let me use my full power.",
-            "<20>{#e/mettaton/10}But... maybe that's for the best.",
-            '<20>{#e/mettaton/9}...\nAfter all...',
-            '<20>{#e/mettaton/18}If there really is no hope for us here...',
-            "<20>{#e/mettaton/10}Then maybe we should've just let you win.",
+            '<20>{#p/mettaton}{#e/mettaton/26}... inacreditável...',
+            "<20>{#e/mettaton/25}Você nem me deixou usar meu poder total.",
+            "<20>{#e/mettaton/10}Mas... talvez isso tenha sido para o melhor.",
+            '<20>{#e/mettaton/9}...\nAté porque...',
+            '<20>{#e/mettaton/18}Se realmente não existe esperança para nós aqui...',
+            "<20>{#e/mettaton/10}Talvez nós deveríamos apenas tê-lo deixado vencer.",
             '<20>{#e/mettaton/9}...',
-            '<20>{#e/mettaton/9}Oh well...'
+            '<20>{#e/mettaton/9}Pois bem...'
         ],
         audienceRec1: () => [
             '<21>{#p/event}Ring, ring...',
             '<21>{#p/napstablook}{~}.....',
             '<21>{#e/mettaton/9}{~}oh........',
-            '<21>{~}hi...\nmettaton...',
+            '<21>{~}oi...\nmettaton...',
             ...(SAVE.data.b.a_state_hapstablook
                 ? [
-                    "<21>{#e/mettaton/18}{~}i know it's been weird since the meeting...\nbut...",
-                    '<21>{~}seeing you for who you really are, doing what you really want...',
-                    '<21>{#e/mettaton/10}{~}brought a happy tear to my eye...',
-                    "<21>{#e/mettaton/9}{~}i can't tell, but...\ni guess this is the last episode...?",
-                    "<21>{#e/mettaton/11}{~}i'll miss you...\ncousin......"
+                    "<21>{#e/mettaton/18}{~}eu sei que tem sido estranho desde nosso encontro... mas...",
+                    '<21>{~}ver você por quem você realmente é, fazendo o que você realmente quer...',
+                    '<21>{#e/mettaton/10}{~}trouxe um choro de felicidade ao meu coração...',
+                    "<21>{#e/mettaton/9}{~}eu não sei se é, mas...\nacho que esse é o último episódio...?",
+                    "<21>{#e/mettaton/11}{~}eu vou sentir sua falta...\nprimo..."
                 ]
                 : [
                     ...(iFancyYourVilliany()
                         ? [
-                            '<21>{#e/mettaton/18}{~}i really liked seeing your rivalry...',
+                            '<21>{#e/mettaton/18}{~}eu realmente gostei de ver sua rivalidade...',
                             ...(SAVE.data.n.kills < 10
                                 ? [
-                                    "<21>{~}it's not usually the sort of thing i'm into...\nbut...",
-                                    '<21>{#e/mettaton/10}{~}because you did it, i enjoyed it...\nvicariously'
+                                    "<21>{~}geralmente não é o tipo de coisa que eu gosto...\nmas...",
+                                    '<21>{#e/mettaton/10}{~}por ter sido você quem fez, eu gostei...'
                                 ]
                                 : [
-                                    '<21>{~}a lot of people have gone missing lately...\nbut...',
-                                    '<21>{#e/mettaton/10}{~}seeing you battle it out like that helped me feel better'
+                                    '<21>{~}um monte de pessoas sumiram nas últimas horas...\nmas...',
+                                    '<21>{#e/mettaton/10}{~}vendo você lutar com canta braveza fez com que eu me sentisse melhor'
                                 ])
                         ]
                         : [
-                            '<21>{#e/mettaton/18}{~}i really liked watching your show...',
+                            '<21>{#e/mettaton/18}{~}eu realmente gostei de assistir seu show...',
                             ...(SAVE.data.n.kills < 10
                                 ? [
-                                    '<21>{~}my life is pretty boring...\nbut...',
-                                    '<21>{#e/mettaton/10}{~}seeing you on tv brought excitement to my life...\nvicariously'
+                                    '<21>{~}minha vida é bem entendiante...\nmas...',
+                                    '<21>{#e/mettaton/10}{~}ver você na tv trouxe emoção para minha vida... sinceramente'
                                 ]
                                 : [
-                                    '<21>{~}a lot of people have gone missing lately...\nbut...',
-                                    '<21>{#e/mettaton/10}{~}seeing you on tv helped me feel better'
+                                    '<21>{~}um monte de pessoas sumiram nas últimas horas...\nmas...',
+                                    '<21>{#e/mettaton/10}{~}te ver na tv me ajudou a sentir-me melhor...'
                                 ])
                         ]),
-                    "<21>{#e/mettaton/9}{~}i can't tell, but...\ni guess this is the last episode...?",
-                    "<21>{#e/mettaton/11}{~}i'll miss you...\nmettaton......"
+                    "<21>{#e/mettaton/9}{~}eu não sei se é, mas...\nacho que esse é o último episódio...?",
+                    "<21>{#e/mettaton/11}{~}eu vou sentir sua falta...\nmettaton......"
                 ])
         ],
         audienceRec2: [
-            '<20>{#p/mettaton}{#e/mettaton/19}No, wait!\nWait, bl...',
-            '<20>{#e/mettaton/9}Th... they already hung up.',
+            '<20>{#p/mettaton}{#e/mettaton/19}Não, espera!\nEspera, bl...',
+            '<20>{#e/mettaton/9}El... ele já desligou.',
             '<20>{#e/mettaton/19}...',
-            "<20>{#e/mettaton/20}I'll take another caller!!!"
+            "<20>{#e/mettaton/20}Eu vou fazer mais uma ligação!"
         ],
         audienceRec3a: () =>
             iFancyYourVilliany()
-                ? ['<21>{#p/basic}Mettaton, you really did us proud!']
-                : ['<21>{#p/basic}Mettaton, your show made us so happy!'],
+                ? ['<21>{#p/basic}Mettaton, você nos deixou orgulhosos!']
+                : ['<21>{#p/basic}Mettaton, seu show nos fez tão felizes!'],
         audienceRec3b: () =>
             iFancyYourVilliany()
-                ? ["<21>{#p/basic}Mettaton, who's going to fight the villains without you!"]
-                : ["<21>{#p/basic}Mettaton, I don't know what I'll watch without you!"],
+                ? ["<21>{#p/basic}Mettaton, quem vai lutar contra os vilões sem você!"]
+                : ["<21>{#p/basic}Mettaton, eu não sei o que irei assistir sem você!"],
         audienceRec3c: () =>
             iFancyYourVilliany()
-                ? ["<21>{#e/mettaton/10}{#p/basic}There's a reason you're the shining star of the outpost!"]
-                : ["<21>{#e/mettaton/10}{#p/basic}There's a Mettaton- shaped hole in my Mettaton-shaped heart!"],
+                ? ["<21>{#e/mettaton/10}{#p/basic}Tem uma razão pela qual você é a estrela em ascensão do Outpost!"]
+                : ["<21>{#e/mettaton/10}{#p/basic}Tem um buraco em formato de Mettaton no meu coração em formato do Mettaton!"],
         audienceRec4: () => [
-            '<20>{#p/mettaton}Ah... I see.',
+            '<20>{#p/mettaton}Ah... eu entendo.',
             '<20>{#e/mettaton/9}...',
-            '<20>{#e/mettaton/19}Everyone... thank you so much.',
+            '<20>{#e/mettaton/19}Todo mundo... muito obrigado.',
             ...(SAVE.data.b.a_state_hapstablook
                 ? [
-                    '<20>{#e/mettaton/20}And Blooky...',
-                    "<20>{#e/mettaton/20}I never thought I'd forgive you and the others, but...",
-                    '<20>{#e/mettaton/9}That farm was your passion project, right?',
-                    '<20>{#e/mettaton/9}After having several of my own... I think I get it.',
-                    '<20>{#e/mettaton/19}You just wanted us to be successful together...',
-                    '<20>{#e/mettaton/19}You, Lurksalot... all of you...',
-                    '<20>{#e/mettaton/20}You all just wanted us to be happy.',
+                    '<20>{#e/mettaton/20}E Blooky...',
+                    "<20>{#e/mettaton/20}Eu nunca pensei que te perdoaria e os outros, mas...",
+                    '<20>{#e/mettaton/9}Aquela fazenda era seu projeto dos sonhos, né?',
+                    '<20>{#e/mettaton/9}Depois de ter muito de mim mesmo... eu acho que entendi.',
+                    '<20>{#e/mettaton/19}Você só queria que fossemos bem sucedidos, juntos...',
+                    '<20>{#e/mettaton/19}Você, Lurksalot, todos vocês...',
+                    '<20>{#e/mettaton/20}Vocês só queriam nos ver felizes.',
                     '<20>{#e/mettaton/20}... heh.',
-                    '<20>{#e/mettaton/9}But as for my show...',
-                    '<20>{#e/mettaton/10}I think I might take a break for a while.'
+                    '<20>{#e/mettaton/9}E em relação a meu show...',
+                    '<20>{#e/mettaton/10}Eu acho que vou me retirar por um tempo.'
                 ]
-                : ['<20>{#e/mettaton/20}But you misunderstand...', "<20>{#e/mettaton/10}I'm... not going anywhere."]),
+                : ['<20>{#e/mettaton/20}Mas você entendeu errado...', "<20>{#e/mettaton/10}Eu... não vou a lugar nenhum."]),
             '<20>...',
-            "<20>{#e/mettaton/20}I guess it's for the best, though.",
+            "<20>{#e/mettaton/20}Eu acho que foi para o melhor entretanto.",
             ...(SAVE.data.b.a_state_hapstablook
                 ? [
-                    "<20>{#e/mettaton/15}I've been away from the family for far too long...",
-                    "<20>{#e/mettaton/14}It's about time I told them what's going on.",
-                    '<20>{#e/mettaton/19}In short...'
+                    "<20>{#e/mettaton/15}Eu estive longe da minha família por muito tempo...",
+                    "<20>{#e/mettaton/14}Já é hora de contar a eles o que está acontecendo.",
+                    '<20>{#e/mettaton/19}Por agora...'
                 ]
                 : [
-                    "<20>{#e/mettaton/15}The truth is, this form's energy consumption is...",
-                    '<20>{#e/mettaton/14}Inefficient.',
-                    "<20>{#e/mettaton/19}In a few moments, I'll run out of battery power, and..."
+                    "<20>{#e/mettaton/15}A verdade é que o consumo de energia desta forma é...",
+                    '<20>{#e/mettaton/14}Ineficiente.',
+                    "<20>{#e/mettaton/19}Em poucos momentos, eu irei ficar sem bateria, e..."
                 ]),
-            '<20>{#e/mettaton/10}Well.',
-            "<20>I'll be alright.",
+            '<20>{#e/mettaton/10}Bem.',
+            "<20>Eu ficarei bem.",
             iFancyYourVilliany()
-                ? '<20>{#e/mettaton/9}See you around, $(moniker2).'
-                : '<20>{#e/mettaton/9}Fly safe, darling.',
-            '<20>{#e/mettaton/19}And everyone... thank you.',
-            "<20>{#e/mettaton/20}You've been a great audience!"
+                ? '<20>{#e/mettaton/9}Te vejo por aí, $(moniker2).'
+                : '<20>{#e/mettaton/9}Vá em segurança, querido.',
+            '<20>{#e/mettaton/19}E a todos... muito obrigado.',
+            "<20>{#e/mettaton/20}Vocês foram uma ótima audiência!"
         ],
         neointro: [
-            "<20>{*}{#p/mettaton}You're orange now.{^30}{%}",
-            "<20>{*}{#e/mettaton/4}That's my attack.{^30}{%}",
-            "<20>{*}{#e/mettaton/12}... heh.\nWho says we can't have a little fun?{^30}{%}",
-            '<20>{*}{#e/mettaton/0}Now, be a good darling and press [Z] to explode.{^30}{%}',
-            '<20>{*}{#e/mettaton/0}But be careful...{^30}{%}',
-            "<20>{*}{#e/mettaton/0}The more you do it, the slower you'll move.{^30}{%}",
-            '<20>{*}{#e/mettaton/12}... but enough with words.{^30}{%}',
-            "<20>{*}{#e/mettaton/4}It's time to put you in the grave.{^30}{%}"
+            "<20>{*}{#p/mettaton}Você está laranja agora.{^30}{%}",
+            "<20>{*}{#e/mettaton/4}Esse é meu ataque.{^30}{%}",
+            "<20>{*}{#e/mettaton/12}... heh.\nQuem disse que não podemos nos divertir um pouco?{^30}{%}",
+            '<20>{*}{#e/mettaton/0}Agora, seja um bom querido e aperte [Z] para explodir.{^30}{%}',
+            '<20>{*}{#e/mettaton/0}Mas cuidado...{^30}{%}',
+            "<20>{*}{#e/mettaton/0}Quanto mais você fizer isso, mais lentamente se moverá.{^30}{%}",
+            '<20>{*}{#e/mettaton/12}... mas chega de palavras.{^30}{%}',
+            "<20>{*}{#e/mettaton/4}É hora de te colocar em um caixão.{^30}{%}"
         ],
         mettahero1: [
             '<20>{#p/mettaton}{#e/mettaton/6}...',
-            "<20>{#e/mettaton/9}G... guess that's what I get for fusing with my body...",
-            "<20>{#e/mettaton/11}Now... there'll be nobody left...",
-            '<20>{#e/mettaton/7}... to stop you...'
+            "<20>{#e/mettaton/9}A... acho que é isso que eu ganho por me fundir ao meu corpo...",
+            "<20>{#e/mettaton/11}Agora... não existe mais ninguém...",
+            '<20>{#e/mettaton/7}... que possa te parar...'
         ],
-        mettahero2: ['<20>{#e/mettaton/7}...', '<20>{#e/mettaton/10}Goodbye...\n...\n... darling.'],
+        mettahero2: ['<20>{#e/mettaton/7}...', '<20>{#e/mettaton/10}Adeus...\n...\n... querido.'],
         napstahero1: ['<20>{#p/finalghost}{~}...', '<20>{~}Mettaton...'],
         napstahero2: [
-            '<20>{#p/finalghost}{~}So this is what it comes to.',
+            '<20>{#p/finalghost}{~}Então chegamos a isso.',
             '<20>{~}...',
-            '<20>{~}I have waited long for a chance to put an end to you, and now I have one.',
-            '<20>{~}As you cannot use magic, you cannot kill me.',
-            '<20>{~}Therefore, you have no method of getting past me.',
-            '<20>{|}{~}Your time has- {%}'
+            '<20>{~}Eu esperei por muito tempo para ter a chance de te destruir, agora eu tenho uma.',
+            '<20>{~}Como você não pode usar magia, você não pode me matar.',
+            '<20>{~}Sendo assim, não tem como você passar por mim.',
+            '<20>{|}{~}Sua hora cheg-{%}'
         ],
         napstahero3: () =>
             [
                 [
-                    "<20>{#p/asriel2}Seriously?\nI know my magic's limited, but it's not THAT bad.",
-                    '<20>{#x1}Cut me some slack...'
+                    "<20>{#p/asriel2}Sério?\nEu sei que minha mágica está limitada, mas não é TÃO ruim.",
+                    '<20>{#x1}Tá me tirando de tempo aqui...'
                 ],
                 ['<20>{#p/asriel2}...']
             ][Math.min(SAVE.flag.n.ga_asrielNapstakill++, 1)],
         qq: () =>
             SAVE.data.b.a_state_hapstablook
-                ? 'Would you forgive a ghost?'
+                ? 'Você perdoaria um fantasma?'
                 : !world.badder_lizard
-                    ? 'Would you smooch a ghost?'
-                    : 'Would you attack a ghost?',
+                    ? 'Você beijaria um fantasma?'
+                    : 'Você atacaria um fantasma?',
         qa: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ['Sim', 'Não', 'Hug it out!', 'Forgive\nand forget.']
+                ? ['Sim', 'Não', 'Abraça Ele!', 'Perdoar\nE esquecer.']
                 : !world.badder_lizard
-                    ? ['Heck Yeah', 'HELL YEAH', 'Absolutely!', 'Without\nHesitation.']
-                    : ['I Could', 'I Should', 'I Will', 'If I\nHave To.'],
+                    ? ['Mas é claro', 'É CLARO', 'Absolutamente!', 'Sem\nHesitar.']
+                    : ['Eu poderia', 'Eu deveria', 'Eu vou', 'Se eu\ntiver que.'],
         q0: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ["<20>{#p/mettaton}Time's up.{^40}{%}"]
+                ? ["<20>{#p/mettaton}Acabou o tempo.{^40}{%}"]
                 : !world.badder_lizard
-                    ? ["<20>{#p/mettaton}Time's up, darling.\nI'll take that as a yes~{^40}{%}"]
-                    : ["<20>{#p/mettaton}Time's up, darling.\nI'll take that as a yes...{^40}{%}"],
+                    ? ["<20>{#p/mettaton}O tempo acabou, querida.\nVou tomar isso como um sim~{^ 40}{%}"]
+                    : ["<20>{#p/mettaton}O tempo acabou, querida.\nVou tomar isso como um sim ...{^40}{%}"],
         q1: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ['<20>{#p/mettaton}Straight to the point, I see.{^40}{%}']
+                ? ['<20>{#p/mettaton}Direto ao ponto, eu vejo.{^40}{%}']
                 : !world.badder_lizard
-                    ? ['<20>{#p/mettaton}Great answer!\nI love it!!!{^40}{%}']
-                    : ["<20>{#p/mettaton}I'd like to see you try.{^40}{%}"],
+                    ? ['<20>{#p/mettaton}Ótima resposta! \nEu amei!!!{^40}{%}']
+                    : ["<20>{#p/mettaton}Eu gostaria de te ver tentar.{^40}{%}"],
         q2: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ["<20>{#p/mettaton}... but I can't keep running away.{^40}{%}"]
+                ? ["<20>{#p/mettaton}... mas eu não posso continuar fugindo.{^40}{%}"]
                 : !world.badder_lizard
-                    ? ["<20>{#p/mettaton}Now THAT's how you answer a question!{^40}{%}"]
-                    : ['<20>{#p/mettaton}So you just lack the courage, hmm?{^40}{%}'],
+                    ? ["<20>{#p/mettaton}É ASSIM que se responde a uma pergunta!{^40}{%}"]
+                    : ['<20>{#p/mettaton}Então você só não tem coragem, hmm?{^40}{%}'],
         q3: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ["<20>{#p/mettaton}Woah, I wouldn't go that far.{^40}{%}"]
+                ? ["<20>{#p/mettaton}Woah, eu não iria tão longe.{^40}{%}"]
                 : !world.badder_lizard
-                    ? ['<20>{#p/mettaton}I like your attitude!{^40}{%}']
-                    : ['<20>{#p/mettaton}The truth is so refreshing!{^40}{%}'],
+                    ? ['<20>{#p/mettaton}Eu gostei da sua atitude!{^40}{%}']
+                    : ['<20>{#p/mettaton}A verdade é tão refrescante!{^40}{%}'],
         q4: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ["<20>{#p/mettaton}Well, that's confidence...{^40}{%}"]
+                ? ["<20>{#p/mettaton}Olha só, isso é confiança...{^40}{%}"]
                 : !world.badder_lizard
-                    ? ["<20>{#p/mettaton}Oooh, you're serious about this.{^40}{%}"]
-                    : ["<20>{#p/mettaton}Don't lie to yourself, dear...{^40}{%}"],
-        hitIndicator: 'Hits: $(x)',
-        shieldIndicator: 'Shield: $(x)%',
+                    ? ["<20>{#p/mettaton}Oooh, você está falando sério.{^40}{%}"]
+                    : ["<20>{#p/mettaton}Não minta para si mesmo, querido...{^40}{%}"],
+        hitIndicator: 'Acertos: $(x)',
+        shieldIndicator: 'Escudo: $(x)%',
         ratings: {
-            pose1: () => (iFancyYourVilliany() ? 'Impressive' : 'Dramatic'),
-            pose2: () => (iFancyYourVilliany() ? 'Unimpressive' : 'Risky'),
-            pose3: () => (iFancyYourVilliany() ? 'Laughable' : 'Crazy'),
-            pose4: () => (iFancyYourVilliany() ? 'Impressive?' : 'Showstopping'),
-            flirt1: () => (iFancyYourVilliany() ? 'Plot Twist' : 'Cute'),
-            flirt2: () => (iFancyYourVilliany() ? 'Doubling Down' : 'Flirty'),
-            flirt3: () => (iFancyYourVilliany() ? 'Tripling Down' : 'Romantic'),
-            flirt4: () => (iFancyYourVilliany() ? 'Flirtatious' : 'Enthralling'),
-            boast1: 'Disappointing',
-            boast2: 'Embarrassing',
-            boast3: 'Impressive',
-            heel1: 'Satisfying',
-            heel2: 'Decadent',
-            heel3: 'Unsatisfying',
-            hurt: 'Violent',
-            crit: 'Accurate',
-            dead: 'Deadly',
-            bomb: 'Explosive',
-            scream: 'Enthusiastic',
-            hopbox: 'Acrobatic',
-            hearthurt: 'Even More Violent',
+            pose1: () => (iFancyYourVilliany() ? 'Impressionante' : 'Dramático'),
+            pose2: () => (iFancyYourVilliany() ? 'Inexpressivo' : 'Arriscado '),
+            pose3: () => (iFancyYourVilliany() ? 'Risível' : 'Louco'),
+            pose4: () => (iFancyYourVilliany() ? 'Impressionante?' : 'Espetacular'),
+            flirt1: () => (iFancyYourVilliany() ? 'Plot Twist' : 'Fofo'),
+            flirt2: () => (iFancyYourVilliany() ? 'Dobrando Aposta' : 'Flerte'),
+            flirt3: () => (iFancyYourVilliany() ? 'Triplicando Aposta' : 'Romântico'),
+            flirt4: () => (iFancyYourVilliany() ? 'Flertador' : 'Fascinante'),
+            boast1: 'Desapontante',
+            boast2: 'Embaraçoso',
+            boast3: 'Impressionante',
+            heel1: 'Satisfatório',
+            heel2: 'Decadente',
+            heel3: 'Insatisfatório',
+            hurt: 'Violento',
+            crit: 'Preciso',
+            dead: 'Mortal',
+            bomb: 'Explosivo',
+            scream: 'Entusiasta',
+            hopbox: 'Acrobático',
+            hearthurt: 'Ainda Mais Violento',
             item: {
-                artifact: 'Unremarkable',
-                old_gun: 'Stunning',
-                old_bomb: 'Narcotic',
-                old_spray: 'Spicy',
+                artifact: 'Normal',
+                old_gun: 'Atordoante',
+                old_bomb: 'Narcótico',
+                old_spray: 'Picante',
                 tvm_radio: 'Musical',
-                tvm_fireworks: 'Extravagant',
-                tvm_mewmew: 'Brazen',
-                spanner: 'Choreography',
-                armor: 'Fashionable',
-                weapon: 'Tactical',
-                repeat: 'Repetitive',
-                repeat_x: 'Super Repetitive',
-                pain: 'Painful',
+                tvm_fireworks: 'Extravagante',
+                tvm_mewmew: 'Descarado',
+                spanner: 'Coreográfico',
+                armor: 'Elegante',
+                weapon: 'Tático',
+                repeat: 'Repetitivo',
+                repeat_x: 'Super Repetitivo',
+                pain: 'Doloroso',
                 blookpie: 'Familiar'
             },
-            smooch: 'Correct',
-            nosmooch: 'Incorrect'
+            smooch: 'Correto',
+            nosmooch: 'Incorreto'
         }
     },
 
     b_opponent_madjick: {
         name: '* Cozmo',
-        spanner: ['<32>{#p/human}* (You brandish the spanner.)\n* (Cozmo does not mistake it for a magic wand.)'],
-        epiphaNOPE: ['<20>{#p/basic}{~}That magic...', '<20>{#p/basic}{~}... I shall not give into its power!'],
-        hint: ['<33>{#p/basic}* Hold on.\n* I think I know what to do here.'],
+        spanner: ['<32>{#p/human}* (Você brande a chave.)\n* (Cozmo não a confunde com uma varinha mágica.)'],
+        epiphaNOPE: ['<20>{#p/basic}{~}Essa magia...', '<20>{#p/basic}{~}... Não cederei ao seu poder!'],
+        hint: ['<33>{#p/basic}* Espera.\n* Eu acho que sei o que fazer aqui.'],
         assistTalk1: ['<20>{#p/basic}{~}Er...'],
-        artifact_text: ['<32>{#p/basic}* Cozmo recognizes the artifact and deems you worthy of its respect!'],
+        artifact_text: ['<32>{#p/basic}* Cozmo reconhece o artefato e te declara como merecedor de seu respeito!'],
         artifactTalk: [
-            '<20>{#p/basic}{~}Could it be?\nThe pendant of kings and rulers?',
-            '<20>{#p/basic}{~}I shall be in your way no longer!'
+            '<20>{#p/basic}{~}Poderia ser?\nO pingente de reis e governantes?',
+            '<20>{#p/basic}{~}Eu devo me retirar do seu caminho agora!'
         ],
         assistAction: [
-            '<32>{*}{#p/basic}* World of old. {^5}World of magic.{^25}{%}',
-            '<32>{*}{#p/basic}* But no matter how tragic, we must live on...{^60}{%}',
-            '<32>{*}{#p/basic}* And remember.{^40}{%}'
+            '<32>{*}{#p/basic}* Um mundo antigo. {^5}Um mundo de magia.{^25}{%}',
+            '<32>{*}{#p/basic}* Mas não importa o quão trágico, devemos continuar vivendo...{^60}{%}',
+            '<32>{*}{#p/basic}* E lembre-se.{^40}{%}'
         ],
-        assistTalk2: ['<20>{#p/basic}{~}Memoria mundi!', '<20>{#p/basic}{~}You know the words!'],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Cozmo is knocked out!'],
+        assistTalk2: ['<20>{#p/basic}{~}Memoria mundi!', '<20>{#p/basic}{~}Você sabe as palavras!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Cozmo está nocauteado!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Cozmo is knocked out!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Cozmo está nocauteado!'
         ],
-        old_spray_text: ['<32>{#p/human}* (You use the spray.)\n* (Sweet...)', '<32>{#p/basic}* Cozmo is knocked out!'],
+        old_spray_text: ['<32>{#p/human}* (Você usa o spray.)\n* (Doce...)', '<32>{#p/basic}* Cozmo está nocauteado!'],
         status1: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* Uh oh.'] : ['<32>{#p/story}* Cozmo came through in a flash!'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* Uh oh.'] : ['<32>{#p/story}* Cozmo aparece em um piscar de olhos!'],
         act_check: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Cozmo\'s what you\'d call a \"traditional\" magic user.\n* Its orbs are its strength...']
-                : ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* This enigmatic ELITE squad member speaks in magic words.'],
-        act_check2: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* Not playing with a full deck.'],
-        act_check3: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* A magician, out of tricks...'],
-        act_check4: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* No magic words could save this old magician now.'],
+                ? ['<32>{#p/alphys}* Cozmo é o que você chamaria de um \"tradicional\" usuário de magia.\n* Seus orbes são força.']
+                : ['<32>{#p/story}* COZMO - ATQ 29 DEF 24\n* Este membro do esquadrão de ELITE fala em palavras mágicas.'],
+        act_check2: ['<32>{#p/story}* COZMO - ATQ 29 DEF 24\n* Não joga com todas as cartas.'],
+        act_check3: ['<32>{#p/história}* COZMO - ATQ 29 DEF 24\n* Um mágico, sem truques...'],
+        act_check4: ['<32>{#p/story}* COZMO - ATQ 29 DEF 24\n* Nenhuma palavra mágica pode salvar este velho mágico.'],
         act_check5: [
-            '<32>{#p/story}* COZMO - ATK 29 DEF 24\n* The power of love is stronger than even the oldest magic.'
+            '<32>{#p/story}* COZMO - ATQ 29 DEF 24\n* O poder do amor é mais forte do que a mais antiga magia.'
         ],
         idleStatus1: () =>
-            !world.badder_lizard ? ["<32>{#p/alphys}* It's Cozmo."] : ['<32>{#p/story}* Cozmo does a mysterious jig.'],
+            !world.badder_lizard ? ["<32>{#p/alphys}* É o Cozmo."] : ['<32>{#p/story}* Cozmo faz um gabarito misterioso.'],
         idleStatus2: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Cozmo."]
-                : ['<32>{#p/story}* Cozmo flaunts its orbs in a menacing manner.'],
+                ? ["<32>{#p/alphys}* É o Cozmo."]
+                : ['<32>{#p/story}* Cozmo exibe seus orbes de maneira ameaçadora.'],
         idleStatus3: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Cozmo."]
-                : ['<32>{#p/story}* Cozmo whispers non-terrestrial swear words.'],
+                ? ["<32>{#p/alphys}* É o Cozmo."]
+                : ['<32>{#p/story}* Cozmo sussurra palavrões não terrestres.'],
         idleStatus4: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Cozmo."]
-                : ['<32>{#p/story}* Cozmo peers at you with piercing eyes.'],
+                ? ["<32>{#p/alphys}* É o Cozmo."]
+                : ['<32>{#p/story}* Cozmo te dá um olhar penetrante.'],
         idleStatus5: () =>
-            !world.badder_lizard ? ["<32>{#p/alphys}* It's Cozmo."] : ['<32>{#p/story}* Smells like... magic.'],
+            !world.badder_lizard ? ["<32>{#p/alphys}* É o Cozmo."] : ['<32>{#p/story}* Cheira a... magia.'],
         idleTalk1: ['<20>{#p/basic}{~}Abra cadabra.'],
         idleTalk2: ['<20>{#p/basic}{~}A la kazam!!'],
         idleTalk3: ['<20>{#p/basic}{~}Tinkle tinkle hoy.'],
         idleTalk4: ['<20>{#p/basic}{~}Hocus pocus.'],
-        idleTalk5: ['<21>{#p/basic}{~}Please and thank you.'],
-        danceText1: ['<32>{#p/human}* (You dance.)', "<32>{#p/basic}* Cozmo's gravity orb grows near..."],
+        idleTalk5: ['<21>{#p/basic}{~}Por favor e obrigado.'],
+        danceText1: ['<32>{#p/human}* (Você dança.)', "<32>{#p/basic}* O orbe gravitacional de Cozmo chega mais perto..."],
         danceTalk1: ['<20>{#p/basic}{~}Magnum gravitas!!'],
         danceStatus1: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* One orb down...']
-                : ["<32>{#p/story}* Cozmo's gravity orb has relented its pull."],
+                ? ['<32>{#p/alphys}* Um orbe caiu...']
+                : ["<32>{#p/story}* O orbe gravitacional de Cozmo cedeu sua atração."],
         danceText2: () => [
-            '<32>{#p/human}* (You dance.)',
-            "<32>{#p/basic}* Cozmo's shocker orb powers up...",
-            ...(!world.badder_lizard ? ["<32>{#p/alphys}* Yes, that's it!\n* Y-you're almost there!"] : [])
+            '<32>{#p/human}* (Você dança.)',
+            "<32>{#p/basic}* O orbe chocante de Cozmo se fortalece...",
+            ...(!world.badder_lizard ? ["<32>{#p/alphys}* Isso, é isso!\n* V-você tá quase lá!"] : [])
         ],
         danceTalk2: ['<20>{#p/basic}{~}Vulu voltika!'],
-        danceTalk3: ["<20>{#p/basic}{~}It's too much!!!"],
+        danceTalk3: ["<20>{#p/basic}{~}Isso é demais!!!"],
         danceStatus2: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Yes!!!\n* The orbs are out of power!']
-                : ["<32>{#p/story}* Cozmo's shocker orb is drained of energy."],
-        danceText3: ['<32>{#p/human}* (You dance.)\n* (Nothing changes.)'],
+                ? ['<32>{#p/alphys}* Isso!!!\n* Os orbes não tem mais poder!']
+                : ["<32>{#p/story}* Os orbes do Cozmo estão sem energia."],
+        danceText3: ['<32>{#p/human}* (Você dança.)\n* (Nada muda.)'],
         danceText4: [
-            '<32>{#p/human}* (You dance.)',
-            "<32>{#p/basic}* Cozmo's confusion increases to an unbearable degree!"
+            '<32>{#p/human}* (Você dança.)',
+            "<32>{#p/basic}* A confusão de Cozmo aumenta a um grau insuportável!"
         ],
-        danceIdleTalk1: ['<20>{#p/basic}{~}Saddened...'],
-        danceIdleTalk2: ['<20>{#p/basic}{~}Defeated...'],
-        danceIdleTalk3: ['<20>{#p/basic}{~}Failed...'],
+        danceIdleTalk1: ['<20>{#p/basic}{~}Tristeza...'],
+        danceIdleTalk2: ['<20>{#p/basic}{~}Derrotado...'],
+        danceIdleTalk3: ['<20>{#p/basic}{~}Falha...'],
         danceStatus3: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* You can probably spare it now.']
-                : ['<32>{#p/story}* Cozmo is out of options.'],
+                ? ['<32>{#p/alphys}* Você pode poupar ele agora.']
+                : ['<32>{#p/story}* Cozmo está sem opções.'],
         playdeadText1: () => [
-            '<32>{#p/human}* (You play dead.)',
-            "<32>{#p/basic}* Cozmo's orbs begin to act strangely to each other...",
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* What the...?'] : [])
+            '<32>{#p/human}* (Você finge de morto.)',
+            "<32>{#p/basic}* Os orbes do Cozmo começam a agir de forma estranha...",
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Mas que...?'] : [])
         ],
-        playdeadTalk: ['<20>{#p/basic}{~}\x00*chants of confusion*'],
+        playdeadTalk: ['<20>{#p/basic}{~}\x00*cara de confusão*'],
         playdeadStatus: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* I guess that works...?']
-                : ["<32>{#p/story}* Cozmo's orbs don't know how to handle this."],
-        playdeadIdleTalk1: ['<20>{#p/basic}{~}Utter inconfidence.'],
-        playdeadIdleTalk2: ['<20>{#p/basic}{~}Total vexation.'],
-        playdeadIdleTalk3: ['<20>{#p/basic}{~}Radical confusion.'],
-        playdeadText2: ['<32>{#p/human}* (You play dead.)\n* (Nothing changes.)'],
+                ? ['<32>{#p/alphys}* Eu acho que funcionou...?']
+                : ["<32>{#p/story}* Os orbes do Cozmo não sabem como lidar com isso."],
+        playdeadIdleTalk1: ['<20>{#p/basic}{~}Desconfiança total.'],
+        playdeadIdleTalk2: ['<20>{#p/basic}{~}Vexame total.'],
+        playdeadIdleTalk3: ['<20>{#p/basic}{~}Confusão radical.'],
+        playdeadText2: ['<32>{#p/human}* (Você finge de morto.)\n* (Nada acontece.)'],
         flirtText0: () => [
-            '<32>{#p/human}* (You flirt with Cozmo.)\n* (No effect.)',
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Yeah, good luck with that...'] : [])
+            '<32>{#p/human}* (Você flerta com o Cozmo.)\n* (Sem efeito.)',
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* É, boa sorte com isso...'] : [])
         ],
         flirtText1: () => [
-            '<32>{#p/human}* (You call on your experience, and invoke a flirtatious incantation.)',
+            '<32>{#p/human}* (Você chama na experiência, e invoca uma magia de flerte.)',
             ...(!world.badder_lizard ? ['<32>{#p/alphys}* Huh...?'] : [])
         ],
-        flirtTalk1: ['<20>{#p/basic}{~}Ah!\nA fellow wizard!'],
+        flirtTalk1: ['<20>{#p/basic}{~}Ah!\nParceiro mago!'],
         flirtStatus1: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Oh my god.\n* Do it again!!!']
-                : ['<32>{#p/story}* Cozmo is on the love train.'],
+                ? ['<32>{#p/alphys}* Oh meu senhor!\n* Faz de novo!!!!']
+                : ['<32>{#p/story}* Cozmo está no trem do amor.'],
         flirtText2: () => [
-            '<32>{#p/human}* (You call on your experience, and recite a romantic scribe.)',
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* It just gets better and better.'] : [])
+            '<32>{#p/human}* (Você chama na experiência e recita uma escrita romântica.)',
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Só fica cada vez melhor.'] : [])
         ],
-        flirtTalk2: ["<20>{#p/basic}{~}Ah!\nIt's amazing!"],
+        flirtTalk2: ["<20>{#p/basic}{~}Ah!\nÉ incrível!"],
         flirtStatus2: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* Wow... I guess that's that."]
-                : ['<32>{#p/story}* Cozmo is enchanted.'],
+                ? ["<32>{#p/alphys}* Wow... eu acho que é isso."]
+                : ['<32>{#p/story}* Cozmo está encantado.'],
         flirtText3: () => [
-            '<32>{#p/human}* (You flirt.)\n* (Nothing changes.)',
-            ...(!world.badder_lizard ? ["<32>{#p/alphys}* Pfft, don't push your luck."] : [])
+            '<32>{#p/human}* (Você flerta.)\n* (Nada acontece.)',
+            ...(!world.badder_lizard ? ["<32>{#p/alphys}* Pfft, não seja tão metido."] : [])
         ],
-        flirtIdleTalk1: ['<20>{#p/basic}{~}How lovely...'],
-        flirtIdleTalk2: ['<20>{#p/basic}{~}How sweet...'],
-        flirtIdleTalk3: ['<20>{#p/basic}{~}How thoughtful...'],
+        flirtIdleTalk1: ['<20>{#p/basic}{~}Que amável...'],
+        flirtIdleTalk2: ['<20>{#p/basic}{~}Que doce...'],
+        flirtIdleTalk3: ['<20>{#p/basic}{~}Quão atencioso...'],
         perilStatus: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* Its HP is low...'] : ['<32>{#p/story}* Cozmo is holding on.']
+            !world.badder_lizard ? ['<32>{#p/alphys}* Seu HP está baixo...'] : ['<32>{#p/story}* Cozmo está tentando se manter de pé.']
     },
 
     b_opponent_knightknight: {
         name: '* Terrestria',
-        epiphaNOPE: ['<20>{#p/basic}{~}... this magic... is forbidden...'],
-        hint: ['<32>{#p/basic}* Wait...\n* Let me try something.'],
+        epiphaNOPE: ['<20>{#p/basic}{~}... essa magia... é a proibida...'],
+        hint: ['<32>{#p/basic}* Espera...\n* Deixa eu tentar uma coisa.'],
         assistTalk1: ['<20>{#p/basic}{~}...\n...\n...\nHmm?'],
         assistAction: [
             '<32>{*}{#p/human}* (...){^30}{%}',
-            '<32>{*}{#p/human}* (The sound of an ancient song echoes through the room.){^100}{%}'
+            '<32>{*}{#p/human}* (O som de uma música ancestral permeia a sala.){^100}{%}'
         ],
         assistTalk2: [
-            '<20>{#p/basic}{~}A song of our long- lost world...',
-            '<20>{#p/basic}{~}Perhaps there is still beauty in the universe.'
+            '<20>{#p/basic}{~}Um som do nosso mundo perdido a tanto tempo...',
+            '<20>{#p/basic}{~}Talvez ainda exista beleza no universo...'
         ],
-        artifact_text: ['<32>{#p/basic}* Terrestria recognizes the artifact and deems you worthy of her trust!'],
+        artifact_text: ['<32>{#p/basic}* Terrestria reconhece o artefato e te considera digno da sua confiança!'],
         artifactTalk: [
-            '<20>{#p/basic}{~}An artifact from our long-lost world...',
-            '<20>{#p/basic}{~}Perhaps its legend will live on in you.'
+            '<20>{#p/basic}{~}Um artefato do nosso mundo perdido a tanto tempo...',
+            '<20>{#p/basic}{~}Talvez sua lenda viverá em você.'
         ],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Terrestria is knocked out!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Terrestria está nocauteada!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Terrestria is knocked out!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Terrestria está nocauteada!'
         ],
         old_spray_text: [
-            '<32>{#p/human}* (You use the spray.)\n* (Sweet...)',
-            '<32>{#p/basic}* Terrestria is knocked out!'
+            '<32>{#p/human}* (Você usa o spray.)\n* (Doce...)',
+            '<32>{#p/basic}* Terrestria está nocauteada!'
         ],
         status1: () =>
             !world.badder_lizard
                 ? SAVE.data.b.assist_madjick
-                    ? ['<32>{#p/alphys}* You think you can repeat that last trick?']
-                    : ['<32>{#p/alphys}* Not again.']
-                : ['<32>{#p/story}* Terrestria blocks the way!'],
+                    ? ['<32>{#p/alphys}* Você acha que consegue repetir aquele último truque?']
+                    : ['<32>{#p/alphys}* De novo não.']
+                : ['<32>{#p/story}* Terrestria bloqueia o caminho!'],
         act_check: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* Terrestria is a staff-wielder, and she's REALLY passionate about the homeworld."]
+                ? ["<32>{#p/alphys}* Terrestria é uma portadora de cajado e é REALMENTE apaixonada pelo mundo natal."]
                 : [
-                    '<32>{#p/story}* TERRESTRIA - ATK 36 DEF 36\n* This heavy ELITE squad member wields the Planetary Staff.'
+                    '<32>{#p/história}* TERRA - ATQ 36 DEF 36\n* Está membro pesada do esquadrão ELITE empunha o Cajado Planetário.'
                 ],
-        act_check2: ['<32>{#p/story}* TERRESTRIA - ATK 36 DEF 36\n* The world is crumbling.'],
-        act_check3: ["<32>{#p/story}* TERRESTRIA - ATK 36 DEF 36\n* Things aren't so bad anymore."],
-        act_check4: ['<32>{#p/story}* TERRESTRIA - ATK 36 DEF 36\n* The ground shakes beneath her ever-worn boots.'],
-        act_check5: ['<32>{#p/story}* TERRESTRIA - ATK 36 DEF 36\n* Her attention stolen, the world falls away.'],
+        act_check2: ['<32>{#p/história}* TERRA - ATQ 36 DEF 36\n* O mundo está desmoronando.'],
+        act_check3: ["<32>{#p/story}* TERRESTRIA - ATQ 36 DEF 36\n* As coisas não são mais tão ruins."],
+        act_check4: ['<32>{#p/história}* TERRA - ATQ 36 DEF 36\n* O chão treme sob suas botas sempre gastas.'],
+        act_check5: ['<32>{#p/história}* TERRA - ATQ 36 DEF 36\n* Sua atenção roubada, o mundo cai.'],
         idleStatus1: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Terrestria."]
-                : ['<32>{#p/story}* Terrestria tightens her grip on the staff.'],
+                ? ["<32>{#p/alphys}* É a Terrestria."]
+                : ['<32>{#p/story}* Terrestria aperta com força o seu cajado.'],
         idleStatus2: () =>
-            !world.badder_lizard ? ["<32>{#p/alphys}* It's Terrestria."] : ['<32>{#p/story}* Terrestria breathes deeply.'],
+            !world.badder_lizard ? ["<32>{#p/alphys}* É a Terrestria."] : ['<32>{#p/story}* Terrestria respira profundamente.'],
         idleStatus3: () =>
-            !world.badder_lizard ? ["<32>{#p/alphys}* It's Terrestria."] : ['<32>{#p/story}* Terrestria watches quietly.'],
+            !world.badder_lizard ? ["<32>{#p/alphys}* É a Terrestria."] : ['<32>{#p/story}* Terrestria assiste quieta.'],
         idleStatus4: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Terrestria."]
-                : ["<32>{#p/story}* Terrestria's armor emits a faint, yellow glow."],
+                ? ["<32>{#p/alphys}* É a Terrestria."]
+                : ["<32>{#p/story}* A armadura de Terrestria apresenta um amarelo dourado forte."],
         idleStatus5: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* It's Terrestria."]
-                : ['<32>{#p/story}* Smells like a forgotten relic.'],
-        idleTalk1: ['<20>{#p/basic}{~}Good knight.'],
-        idleTalk2: ['<20>{#p/basic}{~}Farewell.'],
+                ? ["<32>{#p/alphys}* É a Terrestria."]
+                : ['<32>{#p/story}* Cheira a uma relíquia esquecida.'],
+        idleTalk1: ['<20>{#p/basic}{~}Boa noite.'],
+        idleTalk2: ['<20>{#p/basic}{~}Durma bem.'],
         idleTalk3: ['<20>{#p/basic}{~}Adieu.'],
-        idleTalk4: ['<20>{#p/basic}{~}Close your eyes...'],
-        idleTalk5: ['<20>{#p/basic}{~}Goodbye.'],
+        idleTalk4: ['<20>{#p/basic}{~}Feche seus olhos...'],
+        idleTalk5: ['<20>{#p/basic}{~}Adeus.'],
         comfortText1: () => [
-            '<32>{#p/human}* (You move in closer and caress Terrestria, telling her things will be okay.)',
-            ...(!world.badder_lizard ? ["<32>{#p/alphys}* That's... uh..."] : [])
+            '<32>{#p/human}* (Você se aproxima e abraça Terrestria, dizendo a ela que as coisas ficarão bem.)',
+            ...(!world.badder_lizard ? ["<32>{#p/alphys}* Isso é... uh..."] : [])
         ],
-        comfortTalk1: ['<20>{#p/basic}{~}...\n...\n...\nTruly?'],
+        comfortTalk1: ['<20>{#p/basic}{~}...\n...\n...\nVerdade?'],
         comfortStatus1: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Is she... crying?']
-                : ["<32>{#p/story}* Terrestria's stance weakens."],
+                ? ['<32>{#p/alphys}* Ela está... chorando?']
+                : ["<32>{#p/story}* Terrestria demonstra fraqueza."],
         comfortText2: () => [
-            '<32>{#p/human}* (You embrace Terrestria, reminding her there is still beauty in the universe.)',
+            '<32>{#p/human}* (Você segura a mão de Terrestria e a lembra que ainda existe beleza no universo.)',
             ...(!world.badder_lizard ? ['<32>{#p/alphys}* Awww...'] : [])
         ],
-        comfortTalk2: ['<20>{#p/basic}{~}...\n...\nThank you...'],
+        comfortTalk2: ['<20>{#p/basic}{~}...\n...\nObrigada...'],
         comfortStatus2: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* That's... honestly very sweet."]
-                : ['<32>{#p/story}* Terrestria has found a new purpose in life.'],
-        comfortTalk3: ['<20>{#p/basic}{~}...\n...\nThere you are...'],
-        comfortText3: ['<32>{#p/human}* (You comfort Terrestria.)\n* (Nothing changes.)'],
+                ? ["<32>{#p/alphys}* Isso foi... muito fofo."]
+                : ['<32>{#p/story}* Terrestria encontrou um novo propósito na vida.'],
+        comfortTalk3: ['<20>{#p/basic}{~}...\n...\nAí está...'],
+        comfortText3: ['<32>{#p/human}* (Você conforta Terrestria.)\n* (Nada muda.)'],
         comfortText4: [
-            '<32>{#p/human}* (You comfort Terrestria.)',
-            '<32>{#p/basic}* Terrestria drops her staff and accepts your offer of peace.'
+            '<32>{#p/human}* (Você conforta Terrestria.)',
+            '<32>{#p/basic}* Terrestria deixa seu cajado cair e aceita sua oferta de paz.'
         ],
-        comfortIdleTalk1: ['<20>{#p/basic}{~}Gratuities.'],
+        comfortIdleTalk1: ['<20>{#p/basic}{~}Gratitude.'],
         comfortIdleTalk2: ['<20>{#p/basic}{~}Much obliged.'],
-        comfortIdleTalk3: ['<20>{#p/basic}{~}Many thanks.'],
+        comfortIdleTalk3: ['<20>{#p/basic}{~}Vários obrigados.'],
         comfortStatus3: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* I think you can spare her...']
-                : ['<32>{#p/story}* Terrestria is at peace.'],
+                ? ['<32>{#p/alphys}* Eu acho que você já pode poupar ela...']
+                : ['<32>{#p/story}* Terrestria está em paz.'],
         flashText1: () => [
-            '<32>{#p/human}* (You flash your phone screen.)',
-            '<32>{#p/basic}* Terrestria goes into a panic!',
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* What are you doing!?'] : [])
+            '<32>{#p/human}* (Você joga a luz do celular na cara dela.)',
+            '<32>{#p/basic}* Terrestria está em pânico!',
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* O que você tá fazendo!?'] : [])
         ],
-        flashTalk: ['<20>{#p/basic}{~}\x00*silent panic*'],
+        flashTalk: ['<20>{#p/basic}{~}\x00*pânico silencioso*'],
         flashStatus: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* She's b-blinded!"]
-                : ['<32>{#p/story}* Terrestria has lost her sense of sight for this battle.'],
-        flashIdleTalk1: ['<20>{#p/basic}{~}No vision...'],
-        flashIdleTalk2: ["<20>{#p/basic}{~}Can't see you..."],
-        flashIdleTalk3: ['<20>{#p/basic}{~}Where are you...'],
+                ? ["<32>{#p/alphys}* Ela está c-cega!"]
+                : ['<32>{#p/story}* Terrestria perdeu seu sentido para está batalha.'],
+        flashIdleTalk1: ['<20>{#p/basic}{~}Sem visão...'],
+        flashIdleTalk2: ["<20>{#p/basic}{~}Não pode te ver..."],
+        flashIdleTalk3: ['<20>{#p/basic}{~}Onde você está...'],
         flashText2a: [
-            '<32>{#p/human}* (You flash your phone screen.)\n* (Terrestria is too busy day- dreaming about you to notice.)'
+            '<32>{#p/human}* (Você pisca a tela do telefone.)\n* (Terrestria está muito ocupado sonhando acordada com você para notar.)'
         ],
-        flashText2b: ['<32>{#p/human}* (You flash your phone screen.)\n* (Terrestria is too relaxed to notice.)'],
-        flashText2c: ['<32>{#p/human}* (You flash your phone screen.)\n* (Nothing changes.)'],
+        flashText2b: ['<32>{#p/human}* (Você pisca a tela do telefone.)\n* (Terrestria está relaxada demais para notar.)'],
+        flashText2c: ['<32>{#p/human}* (Você liga a luz do telefone.)\n* (Nada acontece.)'],
         flirtText0: () => [
-            '<32>{#p/human}* (You flirt with Terrestria.)\n* (No effect.)',
+            '<32>{#p/human}* (Você flerta com a Terrestria.)\n* (Sem efeito.)',
             ...(!world.badder_lizard
-                ? ['<32>{#p/alphys}* Yeah, the ELITE squad is sort of trained against swooning.']
+                ? ['<32>{#p/alphys}* Sim, o esquadrão ELITE é meio que treinado contra o flerte.']
                 : [])
         ],
         flirtText1: () => [
-            '<32>{#p/human}* (You call on your experience, and whisper a simple but confident compliment.)',
+            '<32>{#p/human}* (Você chama na experiência, e joga um simples mas confiante comprimento.)',
             ...(!world.badder_lizard ? ['<32>{#p/alphys}* Uh...'] : [])
         ],
-        flirtTalk1: ['<20>{#p/basic}{~}What delight...'],
+        flirtTalk1: ['<20>{#p/basic}{~}Que beleza...'],
         flirtStatus1: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* Of course you'd find a way to make it work..."]
-                : ['<32>{#p/story}* Terrestria is beginning to like you.'],
+                ? ["<32>{#p/alphys}* Claro que você encontraria uma maneira de fazer isso funcionar..."]
+                : ['<32>{#p/story}* Terrestria está começando a gostar de você.'],
         flirtText2: () => [
-            "<32>{#p/human}* (You call on your experience, and gaze long into Terrestria's eyes.)",
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Ohhhh kay.'] : [])
+            "<32>{#p/human}* (Você chama na experiência e olha longamente nos olhos de Terrestria.)",
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Ohhhh cara.'] : [])
         ],
-        flirtTalk2: ['<20>{#p/basic}{~}What beauty to be seen...'],
+        flirtTalk2: ['<20>{#p/basic}{~}Que coisa linda de se ver...'],
         flirtStatus2: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* W-well.\n* This is... something.']
-                : ['<32>{#p/story}* Terrestria is enamoured.'],
+                ? ['<32>{#p/alphys}* B-bom.\n* Isso foi... alguma coisa.']
+                : ['<32>{#p/story}* Terrestria está apaixonada.'],
         flirtText3: () => [
-            '<32>{#p/human}* (You flirt.)\n* (Nothing changes.)',
-            ...(!world.badder_lizard ? ['<32>{#p/alphys}* You are insane.'] : [])
+            '<32>{#p/human}* (Você flerta.)\n* (Nada acontece.)',
+            ...(!world.badder_lizard ? ['<32>{#p/alphys}* Você é insano.'] : [])
         ],
-        flirtIdleTalk1: ['<20>{#p/basic}{~}Quite breath-taking...'],
-        flirtIdleTalk2: ['<20>{#p/basic}{~}How wonderful...'],
-        flirtIdleTalk3: ['<20>{#p/basic}{~}So beautiful...'],
+        flirtIdleTalk1: ['<20>{#p/basic}{~}É de tirar o fôlego...'],
+        flirtIdleTalk2: ['<20>{#p/basic}{~}Que maravilha...'],
+        flirtIdleTalk3: ['<20>{#p/basic}{~}Que lindo...'],
         perilStatus: () =>
             !world.badder_lizard
-                ? ["<32>{#p/alphys}* She's close to death..."]
-                : ["<32>{#p/story}* Terrestria's breath shakes."]
+                ? ["<32>{#p/alphys}* Ela está próxima da morte..."]
+                : ["<32>{#p/story}* Terrestria respira ofegante."]
     },
 
     b_opponent_froggitex: {
         name: '* Final Froggit',
         epiphany: [
             
-            ['<08>{#p/basic}{~}In your mercy, I see wisdom.', '<08>{#p/basic}{~}My hopes have been ful- filled.'],
+            ['<08>{#p/basic}{~}Na sua piedade, eu vejo esperança.', '<08>{#p/basic}{~}Minhas esperanças foram preenchidas.'],
             () =>
                 world.meanie
                     ? 
                     [
-                        '<08>{#p/basic}{~}I did not forsee this outcome.',
-                        '<08>{#p/basic}{~}I must steer clear of the abyss..'
+                        '<08>{#p/basic}{~}Eu não previ esse resultado.',
+                        '<08>{#p/basic}{~}Devo me afastar do abismo...'
                     ]
                     : SAVE.data.b.oops && world.flirt > 9
                         ? 
-                        ['<08>{#p/basic}{~}Skip, jump.', '<08>{#p/basic}{~}May love radiate through our hearts.']
+                        ['<08>{#p/basic}{~}Pule, pule.', '<08>{#p/basic}{~}O amor pode radiar em nossos corações.']
                         : SAVE.data.b.oops
                             ? 
-                            ['<08>{#p/basic}{~}We shall be the best of friends.']
+                            ['<08>{#p/basic}{~}Nós devemos ser os melhores dos amigos.']
                             : 
-                            ['<08>{#p/basic}{~}Your kindness warms my heart.'],
+                            ['<08>{#p/basic}{~}Sua bondade aquece meu coração.'],
             
-            ['<08>{#p/basic}{~}Robbit, robbit.', '<08>{#p/basic}{~}My time has come.'],
+            ['<08>{#p/basic}{~}Robbit, robbit.', '<08>{#p/basic}{~}Minha hora chegou.'],
             
-            ['<08>{#p/basic}{~}May you have the wealth that you desire.']
+            ['<08>{#p/basic}{~}Que você tenha a riqueza que deseja.']
         ],
         genostatus: ['<32>{#p/asriel2}* ...'],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Final Froggit is knocked out!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Final Froggit está derrotado!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Final Froggit is knocked out!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Final Froggit está derrotado!'
         ],
         old_spray_text: [
-            '<32>{#p/human}* (You use the spray.)\n* (Sweet...)',
-            '<32>{#p/basic}* Final Froggit is knocked out!'
+            '<32>{#p/human}* (Você usa o spray.)\n* (Doce...)',
+            '<32>{#p/basic}* Final Froggit está derrotado!'
         ],
         act_check: () =>
             world.goatbro && SAVE.data.n.plot > 66.2
                 ? ['<32>{#p/asriel2}* ...']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ["<32>{#p/alphys}* Final Froggit, it's like Froggit, but fancier.\n* It talks in an odd language."]
-                        : ["<32>{#p/alphys}* It's just Final Froggit."]
-                    : ['<32>{#p/story}* FINAL FROGGIT - ATK 30 DEF 24\n* The future is boundless for this monster.'],
+                        ? ["<32>{#p/alphys}* Final Froggit é como o Froggit, mas chique. Ele fala em uma língua antiga."]
+                        : ["<32>{#p/alphys}* É apenas o Final Froggit."]
+                    : ['<32>{#p/story}* FINAL FROGGIT - ATQ 30 DEF 24\n* O futuro é ilimitado para este monstro.'],
         act_check2: [
-            '<32>{#p/story}* FINAL FROGGIT - ATK 30 DEF 24\n* This monster may soon live on through its wisdom.'
+            '<32>{#p/story}* FINAL FROGGIT - ATQ 30 DEF 24\n* Este monstro pode em breve viver através de sua sabedoria.'
         ],
-        act_check3: ['<32>{#p/story}* FINAL FROGGIT - ATK 30 DEF 24\n* This monster understands your true desires.'],
-        act_check4: ['<32>{#p/story}* FINAL FROGGIT - ATK 30 DEF 24\n* This monster is satisfied with its message.'],
+        act_check3: ['<32>{#p/story}* FINAL FROGGIT - ATQ 30 DEF 24\n* Este monstro entende seu verdadeiro propósito.'],
+        act_check4: ['<32>{#p/story}* FINAL FROGGIT - ATQ 30 DEF 24\n* Este monstro está satisfeito com sua mensagem.'],
         idleText1: ['<08>{#p/basic}{~}Robbit, robbit.'],
         idleText2: ['<08>{#p/basic}{~}Creak, creak.'],
-        idleText3: ['<08>{#p/basic}{~}Skip, jump.'],
+        idleText3: ['<08>{#p/basic}{~}Pule, pule.'],
         idleText4: ['<08>{#p/basic}{~}Purr.'],
         status1: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* The battlefield is engulfed in the smell of leola root.'],
+                : ['<32>{#p/story}* O campo de batalha está envolto no cheiro de raiz de leola.'],
         status2: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Final Froggit seeks an understanding.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Final Froggit busca um entendimento.'],
         status3: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Final Froggit hopes to share its wisdom.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Final Froggit deseja compartilhar sua sabedoria.'],
         act_flirt: () => [
-            '<32>{#p/human}* (You flirt with Final Froggit.)',
-            '<32>* Final Froggit shows modest appreciation for your remarks.',
+            '<32>{#p/human}* (Você flerta com o Final Froggit.)',
+            '<32>* Final Froggit demonstra modesta apreciação por suas remarcações.',
             ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Ehehe...'] : [])
         ],
         flirtText: () =>
-            world.meanie ? ['<08>{#p/basic}{~}(Sighs deeply.)\nRobbit.'] : ['<08>{#p/basic}{~}(Blushes deeply.)\nRobbit.'],
+            world.meanie ? ['<08>{#p/basic}{~}(Suspiro alto.) \nRobbit.'] : ['<08>{#p/basic}{~}(Muito envergonhado.)\nRobbit.'],
         act_translate1: () => [
-            '<32>{#p/human}* (But there was nothing for you to translate yet.)',
+            '<32>{#p/human}* (Mas não havia nada para você traduzir ainda.)',
             ...(!world.badder_lizard
-                ? ['<32>{#p/alphys}* Maybe you should, like... wait for it to say something first?']
+                ? ['<32>{#p/alphys}* Talvez você deveria, sei lá... esperar ele dizer algo antes?']
                 : [])
         ],
-        act_translate2: ["<32>{#p/human}* (You translate Final Froggit's message.)"],
+        act_translate2: ["<32>{#p/human}* (Você traduz a mensagem do Final Froggit.)"],
         translateText1: () =>
             world.meanie
-                ? ["<08>{#p/basic}{~}(Don't kill and don't be killed.)"]
-                : ['<08>{#p/basic}{~}(Time heals all wounds.)'],
+                ? ["<08>{#p/basic}{~}(Não mate e não seja morto.)"]
+                : ['<08>{#p/basic}{~}(Tempo cura todas as dores.)'],
         translateText2: () =>
             world.meanie
-                ? ['<08>{#p/basic}{~}(Let not the rage consume you.)']
-                : ['<09>{#p/basic}{~}(Keep moving forward.)'],
+                ? ['<08>{#p/basic}{~}(Não permita que a raiva o consuma.)']
+                : ['<09>{#p/basic}{~}(Continue caminhando em frente.)'],
         translateText3: () =>
             world.meanie
-                ? ['<08>{#p/basic}{~}(You can always do better.)']
-                : ['<08>{#p/basic}{~}(Stay true to your- self.)'],
+                ? ['<08>{#p/basic}{~}(Você sempre pode fazer melhor.)']
+                : ['<08>{#p/basic}{~}(Mantenha-se verdadeiro a si mesmo.)'],
         translateText4: () =>
-            world.meanie ? ['<08>{#p/basic}{~}(Never give into fear.)'] : ['<08>{#p/basic}{~}(Always try your best.)'],
+            world.meanie ? ['<08>{#p/basic}{~}(Nunca de as mãos ao medo.)'] : ['<08>{#p/basic}{~}(Sempre tente seu melhor.)'],
         translateText5: () =>
             world.meanie
-                ? ['<08>{#p/basic}{~}(Regret when you were mean.)']
-                : ['<08>{#p/basic}{~}(Never regret being kind.)'],
+                ? ['<08>{#p/basic}{~}(Se arrependa de quando você foi mau.)']
+                : ['<08>{#p/basic}{~}(Nunca se arrependa da sua bondade.)'],
         mercyStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* I think you can spare Final Froggit now.']
-                    : ['<32>{#p/alphys}* I think you can spare it now.']
-                : ['<32>{#p/story}* Final Froggit seems reluctant to fight you.'],
-        act_mystify: ['<32>{#p/human}* (You do something mysterious, but Final Froggit is unaffected.)'],
-        act_threaten: ['<32>{#p/human}* (You do something threatening, but Final Froggit is unaffected.)'],
+                    ? ['<32>{#p/alphys}* Eu acho que você pode poupar ele agora.']
+                    : ['<32>{#p/alphys}* Eu acho que você pode poupa-lo agora.']
+                : ['<32>{#p/story}* Final Froggit parece relutante em lutar contra você.'],
+        act_mystify: ['<32>{#p/human}* (Você faz algo misterioso, mas o Final Froggit não é afetado.)'],
+        act_threaten: ['<32>{#p/human}* (Você faz algo ameaçador, mas o Final Froggit não é afetado.)'],
         perilStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
                     ? ['<32>{#p/alphys}* Uh...']
-                    : ['<32>{#p/alphys}* No...']
-                : ['<32>{#p/story}* Final Froggit stands its ground.']
+                    : ['<32>{#p/alphys}* Não...']
+                : ['<32>{#p/story}* Final Froggit se mantém firme.']
     },
 
     b_opponent_whimsalot: {
         name: '* Flutterknyte',
         epiphany: [
             
-            ['<08>{#p/basic}{~}Thank good- ness..', '<08>{#p/basic}{~}I feared I would never escape.'],
+            ['<08>{#p/basic}{~}Ainda bem..', '<08>{#p/basic}{~}Eu temi que nunca iria escapar.'],
             () =>
                 world.meanie
                     ? 
-                    ['<08>{#p/basic}{~}What was I think- ing..', '<08>{#p/basic}{~}I have to get out of here..!']
+                    ['<08>{#p/basic}{~}O que eu estava pensando..', '<08>{#p/basic}{~}Eu preciso sair daqui..!']
                     : SAVE.data.b.oops && world.flirt > 9
                         ? 
-                        ['<08>{#p/basic}{~}If you truly feel this way..', '<08>{#p/basic}{~}I am obliged to as well..!']
+                        ['<08>{#p/basic}{~}Se você realmente se sente assim...', '<08>{#p/basic}{~}Eu sou obrigado a me sentir também..!']
                         : SAVE.data.b.oops
                             ? 
-                            ["<08>{#p/basic}{~}It's okay..", '<08>{#p/basic}{~}We can be friends if you want..']
+                            ["<08>{#p/basic}{~}Tudo bem..", '<08>{#p/basic}{~}Nós podemos ser amigos de você quiser..']
                             : 
-                            ['<08>{#p/basic}{~}Please..', "<08>{#p/basic}{~}D-don't let go.."],
+                            ['<08>{#p/basic}{~}Por favor..', "<08>{#p/basic}{~}N-não deixe ir.."],
             
-            ["<08>{#p/basic}{~}I'm so sorry..", "<08>{#p/basic}{~}I knew I wasn't cut out for this.."],
+            ["<08>{#p/basic}{~}Eu sinto muito..", "<08>{#p/basic}{~}Eu sabia que não era o suficiente para isso.."],
             
-            ["<08>{#p/basic}{~}Here's your pay- ment..", '<08>{#p/basic}{~}Please.. spare me..']
+            ["<08>{#p/basic}{~}Aqui está seu pagamento..", '<08>{#p/basic}{~}Por favor.. tenha piedade..']
         ],
         genostatus: ['<32>{#p/asriel2}* ...'],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Flutterknyte is knocked out!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Flutterknyte está derrotado!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Flutterknyte is knocked out!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Flutterknyte está derrotado!'
         ],
         old_spray_text: [
-            '<32>{#p/human}* (You use the spray.)\n* (Sweet...)',
-            '<32>{#p/basic}* Flutterknyte is knocked out!'
+            '<32>{#p/human}* (Você usa o spray.)\n* (Doce...)',
+            '<32>{#p/basic}* Flutterknyte está derrotado!'
         ],
         act_check: () =>
             world.goatbro && SAVE.data.n.plot > 66.2
                 ? ['<32>{#p/asriel2}* ...']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ['<32>{#p/alphys}* Flutterknyte... is it just me, or does it seem nervous?']
-                        : ["<32>{#p/alphys}* It's just Flutterknyte."]
+                        ? ['<32>{#p/alphys}* Flutterknyte... sou só eu ou ele parece nervoso?']
+                        : ["<32>{#p/alphys}* É apenas o Flutterknyte."]
                     : [
-                        '<32>{#p/story}* FLUTTERKNYTE - ATK 34 DEF 12\n* This monster carries a bloated sense of responsibility.'
+                        '<32>{#p/story}* FLUTTERKNYTE - ATQ 34 DEF 12\n* Este monstro carregado um grande senso de responsabilidade.'
                     ],
-        act_check2: ['<32>{#p/story}* FLUTTERKNYTE - ATK 34 DEF 12\n* Stays behind, afraid of being a disappointment.'],
-        act_check3: ['<32>{#p/story}* FLUTTERKNYTE - ATK 34 DEF 12\n* A weight has been lifted from its wings.'],
-        act_check4: ["<32>{#p/story}* FLUTTERKNYTE - ATK 34 DEF 12\n* Its wings aren't the only things fluttering..."],
+        act_check2: ['<32>{#p/story}* FLUTTERKNYTE - ATQ 34 DEF 12\n* Se mantém atrás, por medo de desapontar.'],
+        act_check3: ['<32>{#p/história}* FLUTTERKNYTE - ATQ 34 DEF 12\n* Um peso foi levantado de suas asas'],
+        act_check4: ["<32>{#p/história}* FLUTTERKNYTE - ATQ 34 DEF 12\n* Suas asas não são as únicas coisas que sabem voar..."],
         act_perch1: () => [
-            '<32>{#p/human}* (You offer an arm for Flutterknyte to perch on.)',
-            '<32>{#p/basic}* Flutterknyte thinks about accepting your offer...',
-            ...(!world.badder_lizard && calm_lizard() ? ["<32>{#p/alphys}* You're halfway there."] : [])
+            '<32>{#p/human}* (Você oferece seu braço para Flutterknyte se segurar.)',
+            '<32>{#p/basic}* Flutterknyte pensa sobre aceitar sua proposta...',
+            ...(!world.badder_lizard && calm_lizard() ? ["<32>{#p/alphys}* Você tá na metade do caminho."] : [])
         ],
         act_perch2: () =>
             world.meanie
                 ? [
-                    '<32>{#p/human}* (You continue offering.)',
-                    '<32>{#p/basic}* Flutterknyte backs away, fearing for its life...',
-                    '<32>* Flutterknyte wants to go now.',
-                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* There you go...?'] : [])
+                    '<32>{#p/human}* (Você continua a oferecer.)',
+                    '<32>{#p/basic}* Flutterknyte recua, temendo por sua vida...',
+                    '<32>* Flutterknyte deseja ir agora.',
+                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Muito bem...?'] : [])
                 ]
                 : [
-                    '<32>{#p/human}* (You continue offering.)',
-                    '<32>{#p/basic}* Flutterknyte moves towards your arm and lands.',
-                    '<32>* Flutterknyte can rest now.',
-                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* There you go!'] : [])
+                    '<32>{#p/human}* (Você continua a oferecer.)',
+                    '<32>{#p/basic}* Flutterknyte se move até seu braço e assenta.',
+                    '<32>* Flutterknyte pode descansar agora.',
+                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Muito bem!'] : [])
                 ],
         act_perch3: () =>
             world.meanie
                 ? [
-                    '<32>{#p/human}* (You offer your other arm for Flutterknyte.)',
-                    '<33>{#p/basic}* Flutterknyte has seen enough...',
-                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* ... jeez.'] : [])
+                    '<32>{#p/human}* (Você oferece seu outro braço para Flutterknyte.)',
+                    '<33>{#p/basic}* Flutterknyte parece já ter entendido...',
+                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* ... cara.'] : [])
                 ]
                 : [
-                    '<32>{#p/human}* (You offer your other arm for Flutterknyte.)',
-                    '<32>{#p/basic}* Flutterknyte, overwhelmed by choices, decides to fly away...',
-                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* ... what.'] : [])
+                    '<32>{#p/human}* (Você oferece seu outro braço para Flutterknyte.)',
+                    '<32>{#p/basic}* Flutterknyte, oprimida pelas possibilidades, decide voar para longe.',
+                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* ... que.'] : [])
                 ],
         act_flirt: () =>
             world.meanie
                 ? [
-                    '<32>{#p/human}* (You flirt with Flutterknyte.)',
-                    '<32>{#p/basic}* Flutterknyte is surprised, and feels conflicted...',
+                    '<32>{#p/human}* (Você com o Flutterknyte.)',
+                    '<32>{#p/basic}* Flutterknyte está surpreso e sente um conflito...',
                     ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Er...'] : [])
                 ]
                 : [
-                    '<32>{#p/human}* (You flirt with Flutterknyte.)',
-                    '<32>{#p/basic}* Flutterknyte is surprised, but accepts it nonetheless...',
-                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Cute...'] : [])
+                    '<32>{#p/human}* (Você com o Flutterknyte.)',
+                    '<32>{#p/basic}* Flutterknyte fica surpreso, mas aceita mesmo assim...',
+                    ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Que gracinha...'] : [])
                 ],
         flirtTalk: () =>
-            world.meanie ? ['<08>{#p/basic}{~}What to do what to say..'] : ['<08>{#p/basic}{~}Thank you thank you..'],
+            world.meanie ? ['<08>{#p/basic}{~}O que fazer, o que dizer.'] : ['<08>{#p/basic}{~}Muito obrigado, muito obrigado.'],
         act_poke1: () => [
-            '<32>{#p/human}* (You poke Flutterknyte to knock it off its balance.)',
-            '<32>{#p/basic}* Flutterknyte is shaken, but quickly regains focus.',
-            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Mean...?'] : [])
+            '<32>{#p/human}* (Você cutuca Flutterknyte para desequilibrá-lo.)',
+            '<32>{#p/basic}* Flutterknyte fica abalado, mas rapidamente recupera o foco.',
+            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Maldoso...?'] : [])
         ],
         act_poke2: () => [
-            '<32>{#p/human}* (You poke Flutterknyte to knock it off its balance.)',
-            '<32>{#p/basic}* Flutterknyte falls and skitters away!',
+            '<32>{#p/human}* (Você cutuca Flutterknyte para desequilibrá-lo.)',
+            '<32>{#p/basic}* Flutterknyte cai e rola para longe!',
             ...(!world.badder_lizard && calm_lizard()
-                ? ["<32>{#p/alphys}* I'm gonna pretend like you didn't just do that."]
+                ? ["<32>{#p/alphys}* Eu vou pretender que você não acabou de fazer isso."]
                 : [])
         ],
-        preperchText1: ['<08>{#p/basic}{~}Should I..?'],
-        preperchText2: ['<08>{#p/basic}{~}Can I..?'],
-        preperchText3: ['<08>{#p/basic}{~}Will I..?'],
-        perchText1: ['<08>{#p/basic}{~}\x00*ex- hausted sigh*'],
-        perchText2: ['<08>{#p/basic}{~}Rest, at last.'],
-        perchText3: ['<08>{#p/basic}{~}Thank you.'],
-        perchText4: ['<08>{#p/basic}{~}I knew not how tired I was.'],
-        perchText5: ["<08>{#p/basic}{~}I know not how long it's been."],
-        idleTalk1: ["<08>{#p/basic}{~}I'll do what I must.."],
-        idleTalk2: ["<08>{#p/basic}{~}It's for the greater good.."],
-        idleTalk3: ["<08>{#p/basic}{~}They're counting on me.."],
-        idleTalk4: ['<08>{#p/basic}{~}The future depends on this..'],
-        idleTalk5: ['<08>{#p/basic}{~}\x00*shuffle shuffle*'],
+        preperchText1: ['<08>{#p/basic}{~}Eu deveria..?'],
+        preperchText2: ['<08>{#p/basic}{~}Eu posso..?'],
+        preperchText3: ['<08>{#p/basic}{~}Eu vou..?'],
+        perchText1: ['<08>{#p/basic}{~}\x00*suspiro exausto*'],
+        perchText2: ['<08>{#p/basic}{~}Descanso, no fim de tudo.'],
+        perchText3: ['<08>{#p/basic}{~}Obrigado.'],
+        perchText4: ['<08>{#p/basic}{~}Eu sabia o quão não estava cansado.'],
+        perchText5: ["<08>{#p/basic}{~}Não sei quanto tempo se passou."],
+        idleTalk1: ["<08>{#p/basic}{~}Eu irei fazer o que devo.."],
+        idleTalk2: ["<08>{#p/basic}{~}É pelo bem da grandeza.."],
+        idleTalk3: ["<08>{#p/basic}{~}Eles estão contando comigo.."],
+        idleTalk4: ['<08>{#p/basic}{~}O futuro depende disso..'],
+        idleTalk5: ['<08>{#p/basic}{~}\x00*balança balança*'],
         perilStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
                     ? ['<32>{#p/alphys}* Uh...']
-                    : ['<32>{#p/alphys}* No...']
-                : ['<32>{#p/story}* Flutterknyte is in serious trouble.'],
+                    : ['<32>{#p/alphys}* Não...']
+                : ['<32>{#p/story}* Flutterknyte está com sérios problemas.'],
         status1: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* Flutterknyte continues to mutter justifications.'],
-        status2: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte is hovering.']),
-        status3: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Smells like pears.']),
+                : ['<32>{#p/story}* Flutterknyte continua procurando justificativas.'],
+        status2: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte está pairando.']),
+        status3: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Cheira a peras.']),
         status4: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte takes slow, steady breaths.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte vai devagar e respira fundo.'],
         status5: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte ponders their future.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Flutterknyte pondera sobre seu futuro.'],
         spareStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* Looks like Flutterknyte will accept your mercy now.']
-                    : ["<32>{#p/alphys}* Looks like it'll accept your mercy now."]
-                : ['<32>{#p/story}* Flutterknyte is at rest.']
+                    ? ['<32>{#p/alphys}* Parece que Flutterknyte aceita sua piedade agora.']
+                    : ["<32>{#p/alphys}* Parece que ele aceita sua piedade."]
+                : ['<32>{#p/story}* Flutterknyte está descansando.']
     },
 
     b_opponent_astigmatism: {
         name: '* Eyewalker Prime',
         epiphany: [
             
-            ['<08>{#p/basic}{~}Out of sight, out of mind.'],
+            ['<08>{#p/basic}{~}Fora da visão, fora da mente.'],
             () =>
                 world.meanie
                     ? 
                     [
-                        '<08>{#p/basic}{~}Your ma- lice is stronger than my own!',
-                        "<08>{#p/basic}{~}I won't test it further."
+                        '<08>{#p/basic}{~}A sua malícia é mais forte que a minha!',
+                        "<08>{#p/basic}{~}Não vou testá-lo mais."
                     ]
                     : SAVE.data.b.oops && world.flirt > 9
                         ? 
-                        ['<08>{#p/basic}{~}Such beauty in your eyes..', "<08>{#p/basic}{~}Don't tell the clan about this!"]
+                        ['<08>{#p/basic}{~}Tanta beleza em seus olhos..', "<08>{#p/basic}{~}Não conte ao clã sobre isso!"]
                         : SAVE.data.b.oops
                             ? 
-                            ['<08>{#p/basic}{~}Friend- ship..', '<08>{#p/basic}{~}This could be a real eye- opener!']
+                            ['<08>{#p/basic}{~}Amizade..', '<08>{#p/basic}{~}Essa pode ser uma verdadeira abertura de olhos!']
                             : 
-                            ["<08>{#p/basic}{~}Don't squeeze too hard, okay?"],
+                            ["<08>{#p/basic}{~}Não aperte com muita força, ok?"],
             
-            ['<08>{#p/basic}{~}I shall die proudly as a leader.'],
+            ['<08>{#p/basic}{~}Eu devo morrer orgulhoso como um líder.'],
             
-            ["<08>{#p/basic}{~}Tch.. don't try to pay me back.", '<08>{#p/basic}{~}This is for you!']
+            ["<08>{#p/basic}{~}Tch.. não tente me pagar de volta.", '<08>{#p/basic}{~}Isso é por você!']
         ],
         genostatus: ['<32>{#p/asriel2}* ...'],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Eyewalker Prime is knocked out!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Eyewalker Prime está derrotado!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Eyewalker Prime is knocked out!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Eyewalker Prime está derrotado!'
         ],
         old_spray_text: [
-            '<32>{#p/human}* (You use the spray.)\n* (Sweet...)',
-            '<32>{#p/basic}* Eyewalker Prime is knocked out!'
+            '<32>{#p/human}* (Você usa o spray.)\n* (Doce...)',
+            '<32>{#p/basic}* Eyewalker Prime está derrotado!'
         ],
         act_check: () =>
             world.goatbro && SAVE.data.n.plot > 66.2
                 ? ['<32>{#p/asriel2}* ...']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ["<32>{#p/alphys}* Eyewalker Prime...?\n* They're probably the leader of the Eyewalker clan."]
-                        : ["<32>{#p/alphys}* It's just Eyewalker Prime."]
-                    : ["<33>{#p/story}* EYEWALKER PRIME - ATK 32 DEF 26\n* There's more to this monster than meets the eye."],
+                        ? ["<32>{#p/alphys}* Eyewalker Prime...?\n* Ele provavelmente é o líder do clã dos Eyewalker."]
+                        : ["<32>{#p/alphys}* É apenas o Eyewalker Prime."]
+                    : ["<33>{#p/story}* EYEWALKER PRIME - ATQ 32 DEF 26\n* A mais para esse monstro do que apenas seus olhos."],
         act_check2: [
-            '<32>{#p/story}* EYEWALKER PRIME - ATK 32 DEF 26\n* Satisfied with your following of family traditions.'
+            '<32>{#p/história}* EYEWALKER PRIME - ATQ 32 DEF 26\n* Satisfeito com o seu seguimento das tradições familiares.'
         ],
-        act_check3: ['<32>{#p/story}* EYEWALKER PRIME - ATK 32 DEF 26\n* Considers you to be quite the \"looker\" now.'],
+        act_check3: ['<32>{#p/story}* EYEWALKER PRIME - ATQ 32 DEF 26\n* Considera você um grande \"observador\" agora.'],
         act_check4: [
-            '<32>{#p/story}* EYEWALKER PRIME - ATK 32 DEF 26\n* For this monster, tradition always comes before safety.'
+            '<32>{#p/story}* EYEWALKER PRIME - ATQ 32 DEF 26\n* Para este monstro, tradição vem antes de segurança.'
         ],
-        act_stare: ['<32>{#p/human}* (You stare at Eyewalker Prime.)'],
-        act_smile: ['<32>{#p/human}* (You smile at Eyewalker Prime.)'],
+        act_stare: ['<32>{#p/human}* (Você encara Eyewalker Prime.)'],
+        act_smile: ['<32>{#p/human}* (Você sorri para Eyewalker Prime.)'],
         act_flirt: () => [
-            '<32>{#p/human}* (You wink at Eyewalker Prime.)',
-            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Oh come on.'] : [])
+            '<32>{#p/human}* (Você pisca para o Eyewalker Prime.)',
+            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Oh qual foi.'] : [])
         ],
         status1: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* Eyewalker Prime is staring into your SOUL.'],
+                : ['<32>{#p/story}* Eyewalker Prime está encarando sua ALMA.'],
         status2: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* Eyewalker Prime offers up a menacing grin.'],
+                : ['<32>{#p/story}* Eyewalker Prime oferece um sorriso ameaçador.'],
         status3: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ["<32>{#p/story}* Eyewalker Prime isn't messing around."],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ["<32>{#p/story}* Eyewalker Prime não está para brincadeira."],
         status4: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ["<32>{#p/story}* Eyewalker Prime thinks of their family's honor."],
-        status5: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Smells like mouthwash.']),
+                : ["<32>{#p/story}* Eyewalker Prime pensa na honra de sua família."],
+        status5: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Cheira a enxaguante bucal.']),
         perilStatus: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* Uh...'] : ['<32>{#p/story}* Eyewalker Prime is watering.'],
-        idleTalk1: ['<08>{#p/basic}{~}Bring it on!'],
-        idleTalk2: ['<08>{#p/basic}{~}Show me your teeth!'],
-        idleTalk3: ["<08>{#p/basic}{~}Don't hold back!"],
-        idleTalk4: ['<08>{#p/basic}{~}Show me your looks!'],
-        idleTalk5: ['<08>{#p/basic}{~}What are YOU made of?'],
-        flirtTalk: ["<08>{#p/basic}{~}Hah.\nNice try.\nBut I'm taken!"],
-        partialTalk1: ["<08>{#p/basic}{~}That's partly right.."],
-        partialTalk2: ["<08>{#p/basic}{~}You've almost got it.."],
-        partialTalk3: ["<08>{#p/basic}{~}You're getting there.."],
+            !world.badder_lizard ? ['<32>{#p/alphys}* Uh...'] : ['<32>{#p/story}* Eyewalker Prime está regando.'],
+        idleTalk1: ['<08>{#p/basic}{~}Desse jeito!'],
+        idleTalk2: ['<08>{#p/basic}{~}Me mostre seus dentes!'],
+        idleTalk3: ["<08>{#p/basic}{~}Não se segure!"],
+        idleTalk4: ['<08>{#p/basic}{~}Me mostre quem você é!'],
+        idleTalk5: ['<08>{#p/basic}{~}Do que VOCÊ é feito?'],
+        flirtTalk: ["<08>{#p/basic}{~}Hah.\nBoa tentativa.\nMas eu sou levado!"],
+        partialTalk1: ["<08>{#p/basic}{~}Isso está certo em partes.."],
+        partialTalk2: ["<08>{#p/basic}{~}Você quase conseguiu.."],
+        partialTalk3: ["<08>{#p/basic}{~}Você está chegando lá.."],
         partialStatus1: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* I think you need to do the other thing now.']
+                    ? ['<32>{#p/alphys}* Eu acho que você precisa fazer a outra coisa agora.']
                     : ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* Eyewalker Prime is looking for more.'],
+                : ['<32>{#p/story}* Eyewalker Prime está procurando por mais.'],
         partialStatus2: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* Eyewalkers love it when you smile and stare at them.']
+                    ? ['<32>{#p/alphys}* Eyewalkers amam quando você sorri e encara eles.']
                     : ['<32>{#p/alphys}* ...']
-                : ['<32>{#p/story}* Eyewalker Prime wants to see the full picture.'],
+                : ['<32>{#p/story}* Eyewalker Prime quer ver a foto inteira.'],
         partialStatus3: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* D-do the other thing!']
+                    ? ['<32>{#p/alphys}* F-faça outra coisa!']
                     : ['<32>{#p/alphys}* ...']
-                : ["<32>{#p/story}* Eyewalker Prime wishes you'd follow its directive."],
+                : ["<32>{#p/story}* Eyewalker Prime deseja que você siga seus movimentos."],
         fullStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
-                    ? ['<32>{#p/alphys}* Eyewalker Prime seems content now...']
-                    : ['<32>{#p/alphys}* It seems content now...']
-                : ['<32>{#p/story}* Eyewalker Prime is pleased.'],
-        partialIdleTalk1: ['<08>{#p/basic}{~}What are you waiting for?'],
-        partialIdleTalk2: ['<08>{#p/basic}{~}You gonna do some- thing, or..'],
-        partialIdleTalk3: ["<08>{#p/basic}{~}Is that all you've got?"],
-        fullIdleTalk1: ['<08>{#p/basic}{~}Glad we see eye to eye.'],
-        fullIdleTalk2: ['<08>{#p/basic}{~}Looking good, pal.'],
-        fullIdleTalk3: ["<08>{#p/basic}{~}That's the way."],
-        flirtTalkFull: ['<08>{#p/basic}{~}Hmm..', '<08>{#p/basic}{~}You make a con- vincing move..'],
-        hurtTalk: ["<08>{#p/basic}{~}That's not what I meant!"]
+                    ? ['<32>{#p/alphys}* Eyewalker Prime parece contente agora...']
+                    : ['<32>{#p/alphys}* Ele parece contente agora...']
+                : ['<32>{#p/story}* Eyewalker Prime está satisfeito.'],
+        partialIdleTalk1: ['<08>{#p/basic}{~}O que você está esperando?'],
+        partialIdleTalk2: ['<08>{#p/basic}{~}Você vai fazer alguma coisa ou..'],
+        partialIdleTalk3: ["<08>{#p/basic}{~}Isso é tudo que você tem?"],
+        fullIdleTalk1: ['<08>{#p/basic}{~}Feliz por vermos olho a olho.'],
+        fullIdleTalk2: ['<08>{#p/basic}{~}Parecendo bom, amigão.'],
+        fullIdleTalk3: ["<08>{#p/basic}{~}É assim que se faz."],
+        flirtTalkFull: ['<08>{#p/basic}{~}Hmm..', '<08>{#p/basic}{~}Você fez um movimento convincente..'],
+        hurtTalk: ["<08>{#p/basic}{~}Não foi isso que eu quis dizer!"]
     },
     b_opponent_migospel: {
         genostatus: ['<32>{#p/asriel2}* ...'],
         epiphany: [
             
-            ["<08>{#p/basic}{~}I didn't want to fight you anyway."],
+            ["<08>{#p/basic}{~}Eu não queria lutar com você mesmo."],
             () =>
                 world.meanie
                     ? 
-                    ['<08>{#p/basic}{~}I knew this was a bad idea.']
+                    ['<08>{#p/basic}{~}Eu sabia que essa era uma má ideia.']
                     : SAVE.data.b.oops && world.flirt > 9
                         ? 
-                        ['<08>{#p/basic}{~}You are very strange.', '<08>{#p/basic}{~}but charming none- theless.']
+                        ['<08>{#p/basic}{~}Você é bem estranho.', '<08>{#p/basic}{~}mas charmoso mesmo assim.']
                         : SAVE.data.b.oops
                             ? 
-                            ["<08>{#p/basic}{~}Sure, let's be friends.", "<08>{#p/basic}{~}It's better that way."]
+                            ["<08>{#p/basic}{~}Claro, meu amigo.", "<08>{#p/basic}{~}É melhor assim."]
                             : 
-                            ['<08>{#p/basic}{~}Um..', "<08>{#p/basic}{~}If that's what you really want?"],
+                            ['<08>{#p/basic}{~}Um..', "<08>{#p/basic}{~}Se é isso que você realmente quer?"],
             
-            ["<08>{#p/basic}{~}It's time I stopped run- ning..", '<08>{#p/basic}{~}.. from my death.'],
+            ["<08>{#p/basic}{~}É hora de parar de correr..", '<08>{#p/basic}{~}.. da minha morte.'],
             
-            ["<08>{#p/basic}{~}You'll get more out of this than me.", '<08>{#p/basic}{~}By all means, take it.']
+            ["<08>{#p/basic}{~}Você vai tirar mais proveito disso do que eu.", '<08>{#p/basic}{~}Por tudo que isso significa, tome.']
         ],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<32>{#p/basic}* Silencio escapes!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<32>{#p/basic}* Silencio escapa!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Silencio escapes!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Silencio escapa!'
         ],
-        old_spray_text: ['<32>{#p/human}* (You use the spray.)\n* (Sweet...)', '<32>{#p/basic}* Silencio escapes!'],
+        old_spray_text: ['<32>{#p/human}* (Você usa o spray.)\n* (Doce...)', '<32>{#p/basic}* Silencio escapa!'],
         act_check: () =>
             world.goatbro && SAVE.data.n.plot > 66.2
                 ? ['<32>{#p/asriel2}* ...']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ['<32>{#p/alphys}* Silencio, huh?\n* Yeah, this one gets around a lot, actually.']
-                        : ["<32>{#p/alphys}* It's just Silencio."]
-                    : ['<32>{#p/story}* SILENCIO - ATK 28 DEF 17\n* Shamelessly cowardly.\n* Along for the ride.'],
+                        ? ['<32>{#p/alphys}* Silencio, huh?\n* É, ele se safa bastante, na verdade.']
+                        : ["<32>{#p/alphys}* É apenas o Silencio."]
+                    : ['<32>{#p/story}* SILENCIO - ATK 28 DEF 17\n* Descaradamente covarde.\n* Junto com o passeio.'],
         act_flirt: () => [
-            '<32>{#p/human}* (You flirt with Silencio.)',
-            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Alright then...'] : [])
+            '<32>{#p/human}* (Você flerta com Silencio.)',
+            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Tudo bem então...'] : [])
         ],
-        flirtTalk: ["<09>{#p/basic}{~}You're adorable."],
-        act_insult: ['<32>{#p/human}* (You insult Silencio.)\n* (No effect.)'],
+        flirtTalk: ["<09>{#p/basic}{~}Você é adorável."],
+        act_insult: ['<32>{#p/human}* (Você insulta Silêncio.)\n* (Sem efeito.)'],
         groupStatus1: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Silencio is ignoring the others.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Silencio está ignorando os outros.'],
         groupStatus2: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Smells like a pit stop.'],
-        groupTalk1: ['<08>{#p/basic}Out of the way.'],
-        groupTalk2: ['<08>{#p/basic}You people are slow.'],
-        groupTalk3: ["<08>{#p/basic}I'm not partici- pating."],
-        groupTalk4: ['<08>{#p/basic}Reject the swarm.'],
-        groupTalk5: ['<08>{#p/basic}Danger is for fools.'],
-        groupTalk6: ['<08>{#p/basic}Leave me alone.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Cheira a pit stop.'],
+        groupTalk1: ['<08>{#p/basic}Fora do caminho.'],
+        groupTalk2: ['<08>{#p/basic}Você é muito lento.'],
+        groupTalk3: ["<08>{#p/basic}Eu não estou participando."],
+        groupTalk4: ['<08>{#p/basic}Rejeite o enxame.'],
+        groupTalk5: ['<08>{#p/basic}Perigo é para os tolos.'],
+        groupTalk6: ['<08>{#p/basic}Me deixa em paz.'],
         name: '* Silencio',
         soloStatus: () =>
             !world.badder_lizard
-                ? ['<32>{#p/alphys}* Looks like it never wanted to do this to begin with.']
-                : ["<32>{#p/story}* Silencio doesn't need anyone else around."],
-        soloTalk1: ["<08>{#p/basic}{~}I'll get along alright."],
-        soloTalk2: ['<08>{#p/basic}{~}Partners are over- rated.'],
-        soloTalk3: ['<08>{#p/basic}{~}At last, alone time.'],
+                ? ['<32>{#p/alphys}* Parece que ele nem queria fazer isso pra começar.']
+                : ["<32>{#p/story}* Silencio não precisa de ninguém por perto."],
+        soloTalk1: ["<08>{#p/basic}{~}Eu vou ficar bem."],
+        soloTalk2: ['<08>{#p/basic}{~}Parceiros são superestimados.'],
+        soloTalk3: ['<08>{#p/basic}{~}No fim, um tempo sozinho.'],
         soloTalk4: ['<08>{#p/basic}{~}Cha, cha.'],
-        soloTalk5: ['<08>{#p/basic}{~}I dance in peace.'],
-        perilTalk: ["<08>{#p/basic}{~}I'm outta here."]
+        soloTalk5: ['<08>{#p/basic}{~}Eu danço em paz.'],
+        perilTalk: ["<08>{#p/basic}{~}Eu tô fora daqui."]
     },
     b_opponent_mushketeer: {
         name: '* Mushketeer',
         epiphany: [
             
-            ["<08>{#p/basic}{~}It's only fair to spare you too!"],
+            ["<08>{#p/basic}{~}É apenas justo te poupar também!"],
             () =>
                 world.meanie
                     ? 
-                    ["<08>{#p/basic}{~}I'm in over my mushroom cap!\nRetreat!"]
+                    ["<08>{#p/basic}{~}Estou acima do meu boné de cogumelo!\nRetirar-se!"]
                     : SAVE.data.b.oops && world.flirt > 9
                         ? 
-                        ["<08>{#p/basic}{~}All's fair in love 'n' war!"]
+                        ["<08>{#p/basic}{~}Tudo é justo no amor e na guerra!"]
                         : SAVE.data.b.oops
                             ? 
-                            ['<08>{#p/basic}{~}From now on, we fight as allies!']
+                            ['<08>{#p/basic}{~}De agora em diante, nós lutamos como aliados!']
                             : 
-                            ['<08>{#p/basic}{~}Hugging really is the key to peace!'],
+                            ['<08>{#p/basic}{~}Abraçar realmente é a chave da paz!'],
             
-            ['<08>{#p/basic}{~}This cycle of conflict must end!'],
+            ['<08>{#p/basic}{~}Este ciclo de conflito deve acabar agora!'],
             
-            ['<08>{#p/basic}{~}The spoils of war are yours!']
+            ['<08>{#p/basic}{~}As manchas da guerra são suas!']
         ],
-        old_gun_text: ['<32>{#p/human}* (You fire the gun.)', '<33>{#p/basic}* Mushketeer has met their match!'],
+        old_gun_text: ['<32>{#p/human}* (Atira com a arma.)', '<33>{#p/basic}* Mushketeer encontrou seu rival!'],
         old_bomb_text: [
-            '<32>{#p/human}* (You deploy the bomb.)\n* (The mist scatters about.)',
-            '<32>{#p/basic}* Mushketeer surrenders!'
+            '<32>{#p/human}* (Você implanta a bomba.)\n* (A névoa se espalha.)',
+            '<32>{#p/basic}* Mushketeer se rende!'
         ],
         old_spray_text: [
-            '<32>{#p/human}* (You use the spray.)\n* (Sweet...)',
-            '<32>{#p/basic}* Mushketeer has been impaired!'
+            '<32>{#p/human}* (Você usa o spray.)\n* (Doce...)',
+            '<32>{#p/basic}* Mushketeer foi prejudicado!'
         ],
         idleTalk1: () =>
             world.genocide
-                ? ['<08>{#p/basic}{~}Your reign of terror is over!']
-                : ['<08>{#p/basic}{~}Join me on the front- line.'],
+                ? ['<08>{#p/basic}{~}O seu reino de terror acaba agora!']
+                : ['<08>{#p/basic}{~}Junto-se a mim na linha de frente.'],
         idleTalk2: () =>
             world.genocide
-                ? ['<08>{#p/basic}{~}Prepare for exe- cution!']
-                : ["<08>{#p/basic}{~}All's fair in love..\n.. and CORE."],
+                ? ['<08>{#p/basic}{~}Preparar para a execução!']
+                : ["<08>{#p/basic}{~}Tudo é justo no amor...\ne no CORE."],
         idleTalk3: () =>
             world.genocide
-                ? ['<08>{#p/basic}{~}Nobody outguns Mush- keteer!']
-                : ['<08>{#p/basic}{~}No time like war time..'],
+                ? ['<08>{#p/basic}{~}Ninguém tira a arma do Mushketter!']
+                : ['<08>{#p/basic}{~}Sem tempo como o tempo da guerra..'],
         hurtStatus: () =>
             world.genocide
-                ? ['<32>{#p/asriel2}* Almost dead.']
-                : ['<32>{#p/story}* Mushketeer sets out on its final push.'],
+                ? ['<32>{#p/asriel2}* Quase morto.']
+                : ['<32>{#p/story}* Mushketeer respira fundo e faz um último levante.'],
         genoStatus: ['<32>{#p/asriel2}* Mushketeer.'],
         status0: () =>
             world.genocide
-                ? ['<32>{#p/asriel2}* Why is this thing in our way?']
+                ? ['<32>{#p/asriel2}* Por que essa coisa tá no nosso caminho?']
                 : !world.badder_lizard
-                    ? ["<32>{#p/alphys}* Please don't die."]
-                    : ['<32>{#p/story}* Mushketeer blocks the way!'],
-        status1: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer stands firm.']),
+                    ? ["<32>{#p/alphys}* Por favor não morra."]
+                    : ['<32>{#p/story}* Mushketeer bloqueia o caminho!'],
+        status1: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer se mantém firme.']),
         status2: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer wants to be a hero.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer deseja ser um herói.'],
         status3: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer is preparing for a shootout.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer está se preparando para um tiroteio.'],
         status4: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer reaches around for their gun.'],
-        status5: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Smells like dry dirt.']),
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer pega sua arma.'],
+        status5: () => (!world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Cheira a terra seca.']),
         travelStatus1: () =>
             !world.badder_lizard
                 ? ['<32>{#p/alphys}* ...']
-                : ["<32>{#p/story}* Mushketeer, the pray 'n' spray specialist."],
+                : ["<32>{#p/story}* Mushketeer, o especialista em orar e deixar ir."],
         travelStatus2: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer is on edge.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer está na ponte.'],
         travelStatus3: () =>
-            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer darts their eyes around.'],
+            !world.badder_lizard ? ['<32>{#p/alphys}* ...'] : ['<32>{#p/story}* Mushketeer lança os olhos ao redor.'],
         act_check: () =>
             world.genocide
-                ? ['<32>{#p/asriel2}* Mushketeer, the gun-toter.\n* The dirty elder cousin of a mushroom far away...']
+                ? ['<32>{#p/asriel2}* Mushketeer, o portador de armas.\n* O primo mais velho sujo, de um cogumelo distante...']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ['<32>{#p/alphys}* Mushketeer.\n* I have no idea who this is.']
-                        : ["<32>{#p/alphys}* It's just Mushketeer."]
-                    : ['<32>{#p/story}* MUSHKETEER - ATK 30 DEF 28\n* Product of its upbringing.\n* Gun-toter.'],
-        act_check2: ['<32>{#p/story}* MUSHKETEER - ATK 30 DEF 28\n* Reconsidering its upbringing.\n* Gun-tosser.'],
-        act_check3: ['<32>{#p/story}* MUSHKETEER - ATK 30 DEF 28\n* Forgetting its upbringing.\n* Heart-warmer.'],
-        act_check4: ['<32>{#p/story}* MUSHKETEER - ATK 30 DEF 28\n* The war stops for no mushroom.'],
+                        ? ['<32>{#p/alphys}* Mushketeer.\n* Eu não faço ideia de quem seja esse.']
+                        : ["<32>{#p/alphys}* É só o Mushketeer."]
+                    : ['<32>{#p/história}* MUSHKETEER - ATQ 30 DEF 28\n* Produto de sua educação.\n* Carregador de armas.'],
+        act_check2: ['<32>{#p/história}* MUSHKETEER - ATQ 30 DEF 28\n* Reconsiderando sua educação.\n* Atirador de armas.'],
+        act_check3: ['<32>{#p/história}* MUSHKETEER - ATQ 30 DEF 28\n* Esquecendo sua educação.\n* Aquecedor de coração.'],
+        act_check4: ['<32>{#p/story}* MUSHKETEER - ATQ 30 DEF 28\n* A guerra não para os cogumelos.'],
         act_flirt: () => [
-            '<32>{#p/human}* (You invite Mushketeer to a private shootout.)',
+            '<32>{#p/human}* (Você convida Mushketeer para um tiroteio privado.)',
             ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Nahhhh.'] : [])
         ],
-        flirtTalk: ["<08>{#p/basic}{~}Hey!\nWe don't do that here."],
-        flirtTalk2: ["<08>{#p/basic}{~}Well..\nIf it's what you're into.."],
+        flirtTalk: ["<08>{#p/basic}{~}Ei!\nNão faça isso aqui."],
+        flirtTalk2: ["<08>{#p/basic}{~}Bem..\nSe é isso que você quer.."],
         flirtStatus: () =>
             world.genocide
                 ? ['<32>{#p/asriel2}* Mushketeer.']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ["<32>{#p/alphys}* Welp, that didn't work."]
+                        ? ["<32>{#p/alphys}* Tá, isso não funcionou."]
                         : ['<32>{#p/alphys}* ...']
-                    : ['<32>{#p/story}* Oh no, Mushketeer is serious.'],
+                    : ['<32>{#p/story}* Oh não, Mushketter está sério.'],
         flirtStatus2: () =>
             world.genocide
                 ? ['<32>{#p/asriel2}* Mushketeer.']
                 : !world.badder_lizard
                     ? calm_lizard()
-                        ? ['<32>{#p/alphys}* Wait, that worked?']
+                        ? ['<32>{#p/alphys}* Espera, isso funcionou?']
                         : ['<32>{#p/alphys}* ...']
-                    : ['<32>{#p/story}* Oh yes, Mushketeer is serious.'],
+                    : ['<32>{#p/story}* Ah sim, Mushketeer está sério.'],
         act_travel1: () => [
-            '<32>{#p/human}* (You come closer to Mushketeer.)',
-            "<32>{#p/basic}* Mushketeer's attacks get more intense!",
+            '<32>{#p/human}* (Você se aproxima do Mushketter.)',
+            "<32>{#p/basic}* ataques de Mushketter ficam mais intensos!",
             ...(world.genocide
                 ? ['<32>{#p/asriel2}* ...?']
                 : !world.badder_lizard && calm_lizard()
-                    ? ['<32>{#p/alphys}* Careful...']
+                    ? ['<32>{#p/alphys}* Cuidado...']
                     : [])
         ],
         act_travel2: () => [
-            '<32>{#p/human}* (You come right next to Mushketeer.)',
-            "<32>{#p/basic}* Mushketeer's attacks go insane!",
+            '<32>{#p/human}* (Você está super próximo de Mushketeer.)',
+            "<32>{#p/basic}* Ataques de Mushketter ficam insanos!",
             ...(world.genocide
                 ? ['<32>{#p/asriel2}* $(name)...?']
                 : !world.badder_lizard && calm_lizard()
-                    ? ['<32>{#p/alphys}* Oh my god, be careful...!']
+                    ? ['<32>{#p/alphys}* Oh meu senhor, cuidado...!']
                     : [])
         ],
         act_travel3: () => [
-            '<32>{#p/human}* (But you were already right next to Mushketeer.)',
+            '<32>{#p/human}* (Mas você já está perto o suficiente do Mushketter.)',
             ...(world.genocide
-                ? ['<32>{#p/asriel2}* I am starting to get worried.']
+                ? ['<32>{#p/asriel2}* Eu estou começando a ficar preocupado.']
                 : !world.badder_lizard && calm_lizard()
-                    ? ['<32>{#p/alphys}* D-do anything other than this!!!']
+                    ? ['<32>{#p/alphys}* F-faça alguma outra coisa!!!']
                     : [])
         ],
-        travelTalk1: ["<08>{#p/basic}{~}What do you think you're doing!"],
-        travelTalk2: ["<08>{#p/basic}{~}What're you playin' at!"],
+        travelTalk1: ["<08>{#p/basic}{~}O que você pensa que está fazendo!"],
+        travelTalk2: ["<08>{#p/basic}{~}O que você está fazendo!?"],
         act_disarm1: () => [
-            "<32>{#p/human}* (You try to disarm Mushketeer, but it's too far away.)",
-            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* You might try getting closer.'] : [])
+            "<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele está muito longe.)",
+            ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* Você precisa se aproximar.'] : [])
         ],
         act_disarm2: () => [
-            "<32>{#p/human}* (You try to disarm Mushketeer, but it's just out of reach.)",
+            "<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele está fora de alcance.)",
             ...(!world.badder_lizard && calm_lizard()
-                ? ['<32>{#p/alphys}* I guess...\n* If you have to get closer...']
+                ? ['<32>{#p/alphys}* Eu acho...\n* Que se você se aproximar...']
                 : [])
         ],
-        act_disarm3: () => ['<32>{#p/human}* (You disarm Mushketeer.)'],
-        act_disarm3x: ['<32>{#p/human}* (But Mushketeer had already been disarmed.)'],
+        act_disarm3: () => ['<32>{#p/human}* (Você desarma Mushketter.)'],
+        act_disarm3x: ['<32>{#p/human}* (Mas Mushketter já foi desarmado.)'],
         act_disarm4: pager.create(
             0,
             [
-                '<32>{#p/human}* (You try to disarm Mushketeer, but Mushketeer knocks you back to where you started.)',
-                "<32>{#p/asriel2}* We're wasting time."
+                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para onde você começou.)',
+                "<32>{#p/asriel2}* Estamos perdendo tempo."
             ],
             [
-                '<32>{#p/human}* (You try to disarm Mushketeer, but Mushketeer knocks you back to where you started.)',
+                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para onde você começou.)',
                 '<32>{#p/asriel2}* ...'
             ]
         ),
         disarmTalk: [
-            '<08>{#p/basic}{~}I guess this means no war..?',
-            '<08>{#p/basic}{~}\x00*sigh*',
-            "<08>{#p/basic}{~}Maybe it's for the best."
+            '<08>{#p/basic}{~}Eu acho que isso significa que a guerra acabou...?',
+            '<08>{#p/basic}{~}\x00*suspiro*',
+            "<08>{#p/basic}{~}Talvez seja para o melhor."
         ],
-        disarmStatus: ['<32>{#p/story}* Mushketeer awaits confirmation of the end of this battle.'],
-        postDisarmTalk1: ['<08>{#p/basic}{~}Oh well..'],
-        postDisarmTalk2: ['<08>{#p/basic}{~}It is what it is..']
+        disarmStatus: ['<32>{#p/story}* Mushketeer espera pela confirmação do fim da batalha.'],
+        postDisarmTalk1: ['<08>{#p/basic}{~}Pois bem..'],
+        postDisarmTalk2: ['<08>{#p/basic}{~}É o que é..']
     },
 
     
     b_opponent_pyrope: {
         name: '* Hotwire',
         epiphany: [
-            ['<08>{#p/basic}{~}No need to worry, pal', "<08>{#p/basic}{~}I'll be out of your way now."],
+            ['<08>{#p/basic}{~}Não precisa se preocupar, parceiro', "<08>{#p/basic}{~}Eu vou sair fora do seu caminho agora."],
             () =>
                 world.meanie
                     ? [
-                        "<08>{#p/basic}{~}Your at- titude's got me petri- fied",
-                        '<08>{#p/basic}{~}Escape is all but justi- fied!'
+                        "<08>{#p/basic}{~}Sua atitude me petrificou",
+                        '<08>{#p/basic}{~}Escapar é tudo menos justificado!'
                     ]
                     : SAVE.data.b.oops && world.flirt > 9
-                        ? ['<08>{#p/basic}{~}No need to push and shove', "<08>{#p/basic}{~}We're already falling in love!"]
+                        ? ['<08>{#p/basic}{~}Não há necessidade de empurrar e jogar', "<08>{#p/basic}{~}Nós já estamos nos apaixonando neste lugar!"]
                         : SAVE.data.b.oops
-                            ? ['<08>{#p/basic}{~}I vow to be your friend', '<08>{#p/basic}{~}Regard- less of what happens!']
+                            ? ['<08>{#p/basic}{~}Eu prometo ser seu amigo', '<08>{#p/basic}{~}Independente do que tiver acontecido!']
                             : [
-                                '<08>{#p/basic}{~}This sensa- tion is astound- ing',
-                                '<08>{#p/basic}{~}I can feel you all around me!'
+                                '<08>{#p/basic}{~}Essa sensação é surpreendente',
+                                '<08>{#p/basic}{~}Eu posso te sentir aproximadamente!'
                             ],
-            ["<08>{#p/basic}{~}It's like I told my mum", '<08>{#p/basic}{~}I knew this day would come.'],
-            ['<08>{#p/basic}{~}Only a train wreck', "<08>{#p/basic}{~}Wouldn't offer you a pay- check!"]
+            ["<08>{#p/basic}{~}É como eu disse para minha mãe", '<08>{#p/basic}{~}Eu sabia que esse dia chegaria.'],
+            ['<08>{#p/basic}{~}Apenas um acidente', "<08>{#p/basic}{~}Não lhe ofereceria um cheque para ser diferente!"]
         ],
         genoStatus: ['<32>{#p/asriel2}* Hotwire.'],
-        genoSpareStatus: ["<32>{#p/asriel2}* It's vulnerable."],
+        genoSpareStatus: ["<32>{#p/asriel2}* Está vulnerável."],
         act_check: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Hotwire, the rhyming machine.\n* Such cleverness wasted on a pointless pass time.']
-                : ['<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* For this devious monster, no scheme is too complex.'],
+                ? ['<32>{#p/asriel2}* Hotwire, a máquina de rimas.\n* Tal esperteza desperdiçada em um passa tempo inútil.']
+                : ['<32>{#p/história}* HOTWIRE - ATQ 29 DEF 14\n* Para este monstro tortuoso, nenhum esquema é muito complexo.'],
         act_check2: [
-            '<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* The spark is fading for this otherwise ignited monster.'
+            '<32>{#p/história}* HOTWIRE - ATQ 29 DEF 14\n* A faísca está desaparecendo deste monstro incendiado.'
         ],
-        act_check3: ["<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* This smoking hothead's rhymes might just catch fire."],
-        act_check4: ['<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* Re-kindling its love for rap, a-one-liner at a time.'],
-        act_flirt: ['<32>{#p/human}* (You flirt with Hotwire.)', '<32>{#p/basic}* Hotwire flirts back!'],
-        act_diss: ['<32>{#p/human}* (You let your best diss track loose on Hotwire.)'],
-        dissTalk1: ['<08>{#p/basic}{~}If you wanna call me crap', '<08>{#p/basic}{~}You better know how to rap!'],
+        act_check3: ["<32>{#p/história}* HOTWIRE - ATQ 29 DEF 14\n* As rimas dessa tocha podem pegar fogo"],
+        act_check4: ['<32>{#p/história}* HOTWIRE - ATQ 29 DEF 14\n* Reacendendo seu amor pelo rap, uma linha de cada vez.'],
+        act_flirt: ['<32>{#p/human}* (Você flerta com Hotwire.)', '<32>{#p/basic}* Hotwire flerta de volta!'],
+        act_diss: ['<32>{#p/human}* (Você deixou sua melhor faixa solta no Hotwire.)'],
+        dissTalk1: ['<08>{#p/basic}{~}Se você quer me chamar de babaca', '<08>{#p/basic}{~}É melhor saber rimar na batalha!'],
         dissTalk2: [
-            '<08>{#p/basic}{~}Your disses are trash',
-            '<08>{#p/basic}{~}So you might as well dash',
-            '<08>{#p/basic}{~}Before I turn you to ash!'
+            '<08>{#p/basic}{~}Suas rimas são um lixo',
+            '<08>{#p/basic}{~}Então você deveria ir lavar...',
+            '<08>{#p/basic}{~}Antes que eu te coloque no seu lugar!'
         ],
         dissTalk3: [
-            "<08>{#p/basic}{~}Bet you think you're so chic",
-            "<08>{#p/basic}{~}You're just a wimpy pip- squeak",
-            "<08>{#p/basic}{~}I'm the original hot streak",
-            '<08>{#p/basic}{~}I make your insults look weak!'
+            "<08>{#p/basic}{~}Aposto que você pensa tão fera",
+            "<08>{#p/basic}{~}Mas você não aguenta o ritmo da pantera",
+            "<08>{#p/basic}{~}Eu estou na caminho original",
+            '<08>{#p/basic}{~}Eu faço seus insultos parecerem nada!'
         ],
-        sparkText1: ["<32>{#p/human}* (You spark Hotwire's cables.)", "<32>{#p/basic}* Hotwire's confidence grows."],
-        sparkText2: ["<32>{#p/human}* (You spark Hotwire's cables.)", '<32>{#p/basic}* Hotwire is peaking!'],
-        sparkText3: ["<32>{#p/human}* (You spark Hotwire's cables.)", '<32>{#p/basic}* Hotwire is already powered up.'],
-        rapText1: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is indifferent towards you.'],
-        rapText2: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is disappointed in you.'],
-        rapText3: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is disgusted at you.'],
-        idleTalk1: ['<08>{#p/basic}{~}No shame on this flame', '<08>{#p/basic}{~}I cannot be tamed!'],
-        idleTalk2: ["<08>{#p/basic}{~}The name's Hotwire", "<08>{#p/basic}{~}I'm super hot fire!"],
-        idleTalk3: ['<08>{#p/basic}{~}Even a noose', "<08>{#p/basic}{~}Won't stop me letting loose!"],
-        idleTalk4: ["<08>{#p/basic}{~}I'm ablaze and unfazed", "<08>{#p/basic}{~}Can't step to my ways!"],
-        idleTalk5: ["<08>{#p/basic}{~}I'm in the hot seat", '<08>{#p/basic}{~}So bring on the heat!'],
-        flirtTalk: ['<08>{#p/basic}{~}My flirting is un- matched', "<08>{#p/basic}{~}There's no quip I won't catch!"],
+        sparkText1: ["<32>{#p/human}* (Você acende os cabos de Hotwire.)", "<32>{#p/basic}* Hotwire cresce sua confiança."],
+        sparkText2: ["<32>{#p/human}* (Você acende os cabos de Hotwire.)", '<32>{#p/basic}* Hotwire está no auge!'],
+        sparkText3: ["<32>{#p/human}* (Você acende os cabos de Hotwire.)", '<32>{#p/basic}* Hotwire já está super poderoso.'],
+        rapText1: ['<32>{#p/human}* (Você faz rap com o Hotwire.)', '<32>{#p/basic}* Hotwire é indiferente em relação a você.'],
+        rapText2: ['<32>{#p/human}* (Você faz rap com o Hotwire.)', '<32>{#p/basic}* Hotwire está desapontado com você.'],
+        rapText3: ['<32>{#p/human}* (Você faz rap com o Hotwire.)', '<32>{#p/basic}* Hotwire tem nojo de você.'],
+        idleTalk1: ['<08>{#p/basic}{~}Sem pena no fogo', '<08>{#p/basic}{~}Eu não posso parar meu desejo caloroso!'],
+        idleTalk2: ["<08>{#p/basic}{~}O nome é Hotwire", "<08>{#p/basic}{~}Eu super hot fire!"],
+        idleTalk3: ['<08>{#p/basic}{~}Até mesmo um laço', "<08>{#p/basic}{~}Não me para de ser um amasso!"],
+        idleTalk4: ["<08>{#p/basic}{~}Estou em chamas e imperturbável", "<08>{#p/basic}{~}Isso me torna imparável!"],
+        idleTalk5: ["<08>{#p/basic}{~}Eu estou na parte quente", '<08>{#p/basic}{~}Então sai da minha frente!'],
+        flirtTalk: ['<08>{#p/basic}{~}Meu flerte é incomparável', "<08>{#p/basic}{~}Seu coração é flecha do vigário!"],
         sparkTalk1A: [
-            "<08>{#p/basic}{~}I'll serve you a hot one",
-            "<08>{#p/basic}{~}Even if you're not one",
-            '<08>{#p/basic}{~}Fire off like a shotgun!'
+            "<08>{#p/basic}{~}Eu vou te servir uma quente agora",
+            "<08>{#p/basic}{~}Mesmo se você não merecer",
+            '<08>{#p/basic}{~}Dispare como uma espingarda!'
         ],
         sparkTalk2A: [
-            "<08>{#p/basic}{~}This mark's about to get bruised",
-            '<08>{#p/basic}{~}Four little words to describe the hurt',
-            '<08>{#p/basic}{~}Lost, con- fused, beaten, abused!'
+            "<08>{#p/basic}{~}Esta marca está prestes a ficar machucada",
+            '<08>{#p/basic}{~}Quatro palavrinhas para descrever a dor',
+            '<08>{#p/basic}{~}Confuso, perdido, abatido e abusado!'
         ],
         sparkTalk3A: [
-            '<08>{#p/basic}{~}Danger, danger, in comes a long- ranger',
-            "<08>{#p/basic}{~}A sniper so wack, it's a life- changer",
-            '<08>{#p/basic}{~}Only need one bullet in the chamber!'
+            '<08>{#p/basic}{~}Perigo, perigo, entra um longo prazo',
+            "<08>{#p/basic}{~}Um atirador tão maluco, é uma mudança de vida",
+            '<08>{#p/basic}{~}Só precisa de uma bala na caçamba!'
         ],
         sparkFlirtTalkA: [
-            '<08>{#p/basic}{~}I see you like it lovey dovey',
-            '<08>{#p/basic}{~}Ready, steady, hot and heavy',
-            "<08>{#p/basic}{~}This track's a real heart attack!"
+            '<08>{#p/basic}{~}Vejo que você gosta de amor',
+            '<08>{#p/basic}{~}Carinhoso, pronto, quente e diferente',
+            "<08>{#p/basic}{~}Esta faixa é um verdadeiro ataque cardíaco!"
         ],
         sparkTalk1B: [
-            "<08>{#p/basic}{~}I flow like I'm stream- ing",
-            '<08>{#p/basic}{~}Winsome smile is beaming',
-            "<08>{#p/basic}{~}I'll whip you so bad, ooh",
-            "<08>{#p/basic}{~}You'll wish you were dreaming"
+            "<08>{#p/basic}{~}E o seu flow te coloca no ritmo",
+            '<08>{#p/basic}{~}Sorriso cativante está radiante',
+            "<08>{#p/basic}{~}Eu vou te chicotear tanto, ooh",
+            "<08>{#p/basic}{~}Você deseja estar sonhando acordado"
         ],
         sparkTalk2B: [
-            '<08>{#p/basic}{~}On a mission, consum- mated',
-            "<09>{#p/basic}{~}I'm bi- partisan, nomi- nated",
-            "<08>{#p/basic}{~}You're just a citizen, domi- nated",
-            '<08>{#p/basic}{~}Even your SOUL is unculti- vated!'
+            '<08>{#p/basic}{~}Pois está perdendo pro cara esquentado',
+            "<09>{#p/basic}{~}Sou bipartidário, nomeado",
+            "<08>{#p/basic}{~}Você é um cidadão dominado",
+            '<08>{#p/basic}{~}Até mesmo sua ALMA é corrompida!'
         ],
         sparkTalk3B: [
-            "<08>{#p/basic}{~}I'm a bonafide killer",
-            "<08>{#p/basic}{~}You're a waste dist- iller",
-            '<08>{#p/basic}{~}Your bars are lame fillers',
-            '<08>{#p/basic}{~}Whereas mine are straight thril- lers!'
+            "<08>{#p/basic}{~}Eu sou um assassino genuíno",
+            "<08>{#p/basic}{~}Você é um distribuidor de resíduos",
+            '<08>{#p/basic}{~}Suas barras são enchimentos coxos',
+            '<08>{#p/basic}{~}Considerando que os meus são thrillers diretos!'
         ],
         sparkFlirtTalkB: [
-            "<08>{#p/basic}{~}You're flirting with fire, bud",
-            "<08>{#p/basic}{~}No shot you'll step to this stud",
-            '<08>{#p/basic}{~}One mistake is all it takes',
-            '<08>{#p/basic}{~}Before I land a rhyme in your face!'
+            "<08>{#p/basic}{~}Você está flertando com o fogo, amigo",
+            "<08>{#p/basic}{~}Sem que você vai conquistar este garanhão",
+            '<08>{#p/basic}{~}Um erro é tudo que se precisa',
+            '<08>{#p/basic}{~}Pra eu te encher de rima!'
         ],
-        status1: ['<32>{#p/story}* Hotwire is looking for that extra little boost.'],
-        status2: ['<32>{#p/story}* Hotwire is rhyming up a storm.'],
-        status3: ['<32>{#p/story}* Hotwire is protected by its winsome smile.'],
-        status4: ['<32>{#p/story}* Hotwire reaches for the turbocharger.'],
-        status5: ['<32>{#p/story}* Smells like lyricism.'],
-        sparkStatus1A: ['<32>{#p/story}* Hotwire is shocked at its own brilliance.'],
-        sparkStatus2A: ['<32>{#p/story}* Hotwire begins its ignition sequence... manually.'],
-        sparkStatus3A: ['<32>{#p/story}* Hotwire gets things going whether we like it or not.'],
-        sparkStatus1B: ['<32>{#p/story}* Hotwire is feeling electric.'],
-        sparkStatus2B: ['<32>{#p/story}* Hotwire has reached its true level.'],
-        sparkStatus3B: ['<32>{#p/story}* Hotwire is turbocharged.'],
+        status1: ['<32>{#p/story}* Hotwire está procurando por um pequeno impulso extra.'],
+        status2: ['<32>{#p/story}* Hotwire está rimando na tempestade.'],
+        status3: ['<32>{#p/story}* Hotwire é protegido por seu sorriso cativante.'],
+        status4: ['<32>{#p/story}* Hotwire alcança o turbo carregador.'],
+        status5: ['<32>{#p/story}* Cheira a lirismo.'],
+        sparkStatus1A: ['<32>{#p/story}* Hotwire está chocado com seu próprio brilhantismo.'],
+        sparkStatus2A: ['<32>{#p/story}* Hotwire começa sua sequência de ignição... manualmente.'],
+        sparkStatus3A: ['<32>{#p/story}* Hotwire continua indo, gostando você ou não.'],
+        sparkStatus1B: ['<32>{#p/story}* Hotwire está se sentindo elétrico.'],
+        sparkStatus2B: ['<32>{#p/story}* Hotwire chegou no seu verdadeiro nível.'],
+        sparkStatus3B: ['<32>{#p/story}* Hotwire está turbo carregador.'],
         hurtStatus: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* Almost dead.'] : ['<32>{#p/story}* Hotwire is spiraling out of control.']
+            world.goatbro ? ['<32>{#p/asriel2}* Quase morto.'] : ['<32>{#p/story}* Hotwire está ficando fora de controle.']
     },
 
     b_opponent_perigee: {
         name: '* Perigee',
         epiphany: [
-            ['<08>{#p/basic}{~}I shall be else- where.'],
+            ['<08>{#p/basic}{~}Eu deveria estar em outro lugar.'],
             () =>
                 world.meanie
-                    ? ['<08>{#p/basic}{~}It is no longer safe for me here.']
+                    ? ['<08>{#p/basic}{~}Não é seguro para mim aqui.']
                     : SAVE.data.b.oops && world.flirt > 9
-                        ? ['<08>{#p/basic}{~}Is this love?']
+                        ? ['<08>{#p/basic}{~}Isto é amor?']
                         : SAVE.data.b.oops
-                            ? ['<08>{#p/basic}{~}I look forward to our friend- ship.']
-                            : ['<08>{#p/basic}{~}Thank you..\nSo very much..'],
-            ['<08>{#p/basic}{~}I under- stand why I must die.', '<08>{#p/basic}{~}Please..\nLive on in my name..'],
-            ['<08>{#p/basic}{~}Take as much as you need.']
+                            ? ['<08>{#p/basic}{~}Eu estou olhando pela nossa amizade.']
+                            : ['<08>{#p/basic}{~}Obrigado...\nMuito obrigado...'],
+            ['<08>{#p/basic}{~}Eu entendo o motivo de ter que morrer.', '<08>{#p/basic}{~}Por favor..\nViva em meu nome..'],
+            ['<08>{#p/basic}{~}Pegue o tanto que precisar.']
         ],
         genoStatus: ['<32>{#p/asriel2}* Perigee.'],
         act_check: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Perigee, the lethargic bird.\n* Spends too much time in its own happy-go-lucky head.']
-                : ['<32>{#p/story}* PERIGEE - ATK 25 DEF 0\n* This bird of peace believes its feathers heal all wounds.'],
+                ? ['<32>{#p/asriel2}* Perigee, o pássaro letárgico.\n* Passa muito tempo em sua própria cabeça despreocupada.']
+                : ['<32>{#p/story}* PERIGEE - ATQ 25 DEF 0\n* Este pássaro da paz acredita que suas asas curam todos os pecados.'],
         act_check2: [
-            '<33>{#p/story}* PERIGEE - ATK 25 DEF 0\n* This bird of peace is trying\n  to use its feathers to recover.'
+            '<33>{#p/story}* PERIGEE - ATQ 25 DEF 0\n* Este pássaro da paz está tentando usar suas asas para cuidar-se.'
         ],
-        act_check3: ['<32>{#p/story}* PERIGEE - ATK 25 DEF 0\n* This bird of peace is also a patron of the arts.'],
+        act_check3: ['<32>{#p/história}* PERIGEU - ATQ 25 DEF 0\n* Este pássaro da paz também é um patrono das artes.'],
         act_check4: [
-            '<32>{#p/story}* PERIGEE - ATK 25 DEF 0\n* This bird of peace appreciates your love songs platonically.'
+            '<32>{#p/história}* PERIGEU - ATQ 25 DEF 0\n* Este pássaro da paz aprecia suas canções de amor platonicamente.'
         ],
-        act_flirt: ['<32>{#p/human}* (You flirt with Perigee.)'],
-        act_yell: ['<32>{#p/human}* (You shout at Perigee.)'],
+        act_flirt: ['<32>{#p/human}* (Você flerta com o Perigee.)'],
+        act_yell: ['<32>{#p/human}* (Você grita com o Perigee.)'],
         idleTalk1: ['<08>{#p/basic}{~}Chirp, chirp.'],
-        idleTalk2: ['<08>{#p/basic}{~}\x00*calming whistle*'],
-        idleTalk3: ['<08>{#p/basic}{~}Life is good.'],
-        idleTalk4: ['<08>{#p/basic}{~}\x00*flap- ping sounds*'],
-        idleTalk5: ['<08>{#p/basic}{~}Peace and tran- quility.'],
-        flirtTalk: ["<08>{#p/basic}{~}Hm?\nI don't under- stand..."],
-        yellTalk1: ["<08>{#p/basic}{~}It's okay, I can help you feel better."],
-        yellTalk2: ["<08>{#p/basic}{~}Here, I'll help you calm down."],
-        yellTalk3: ["<08>{#p/basic}{~}Don't be upset.", '<08>{#p/basic}{~}You can always whistle another tune.'],
+        idleTalk2: ['<08>{#p/basic}{~}\x00*apito calmante*'],
+        idleTalk3: ['<08>{#p/basic}{~}A vida é boa.'],
+        idleTalk4: ['<08>{#p/basic}{~}\x00*sons de flap-ping*'],
+        idleTalk5: ['<08>{#p/basic}{~}Paz e tranquilidade.'],
+        flirtTalk: ["<08>{#p/basic}{~}Hm?\nEu não entendo..."],
+        yellTalk1: ["<08>{#p/basic}{~} Está tudo bem, posso te fazer sentir melhor."],
+        yellTalk2: ["<08>{#p/basic}{~}Aqui, vou te ajudar a se acalmar."],
+        yellTalk3: ["<08>{#p/basic}{~}Não fique com raiva.", '<08>{#p/basic}{~}Você sempre pode assobiar outra música.'],
         flirtTalkX: [
-            '<08>{#p/basic}{~}Ah, that cute remark was your song?',
-            '<08>{#p/basic}{~}I accept it, and your gesture.'
+            '<08>{#p/basic}{~}Ah, essa bela remarca foi seu som?',
+            '<08>{#p/basic}{~}Eu aceito e aceito seu gesto.'
         ],
-        whistleTalkX: ['<08>{#p/basic}{~}I accept your gesture.'],
-        whistleTalk: ['<08>{#p/basic}{~}\x00*intent whistle*'],
+        whistleTalkX: ['<08>{#p/basic}{~}Eu aceito seu gesto.'],
+        whistleTalk: ['<08>{#p/basic}{~}\x00*apito de intenção*'],
         whistleStatus: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* Perigee.'] : ['<32>{#p/story}* Perigee awaits your gesture.'],
-        act_bow1: ['<32>{#p/human}* (But there was nothing to bow for yet.)'],
-        act_bow2: ['<32>{#p/human}* (You bow.)\n* (Perigee bows back.)\n* (An understanding is reached.)'],
+            world.goatbro ? ['<32>{#p/asriel2}* Perigee.'] : ['<32>{#p/story}* Perigee espera seu gesto.'],
+        act_bow1: ['<32>{#p/human}* (Mas não havia nada para se curvar ainda.)'],
+        act_bow2: ['<32>{#p/human}* (Você se curva.) \n* (Perigee se curva de volta.)\n* (Um entendimento de ambas partes.)'],
         act_whistle: [
-            '<32>{#p/human}* (You whistle a tranquil tune.)\n* (Perigee whistles back.)\n* (The song goes on and on...)'
+            '<32>{#p/human}* (Você cantarola uma tom tranquilo.)\n* (Perigee cantarola de volta e o som vai e volta...)'
         ],
-        status1: ['<32>{#p/story}* Perigee orbits closeby.'],
-        status2: ['<32>{#p/story}* Perigee is living fancy-free.'],
-        status3: ['<32>{#p/story}* Perigee is as happy as could be.'],
-        status4: ['<32>{#p/story}* Perigee maintains a feather- light touch.'],
-        status5: ['<32>{#p/story}* Smells like spare bread.'],
+        status1: ['<32>{#p/story}* Perigee voa próximo.'],
+        status2: ['<32>{#p/story}* Perigee está vivendo livre da moda.'],
+        status3: ['<32>{#p/story}* Perigee está tão feliz quando poderia.'],
+        status4: ['<32>{#p/story}* O Perigee mantém um toque leve como uma pena.'],
+        status5: ['<32>{#p/story}* Cheira a pão amanhecido.'],
         status6: () =>
-            world.goatbro ? ["<32>{#p/asriel2}* It's vulnerable."] : ['<32>{#p/story}* Perigee is satisfied.'],
+            world.goatbro ? ["<32>{#p/asriel2}* Está vulnerável."] : ['<32>{#p/story}* Perigee está satisfeito.'],
         hurtStatus: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* Almost dead.'] : ["<32>{#p/story}* Perigee's time is near."]
+            world.goatbro ? ['<32>{#p/asriel2}* Quase morto.'] : ["<32>{#p/story}* O tempo de Perigee está próximo."]
     },
 
     b_opponent_tsundere: {
         name: '* Tsunderidex',
         epiphany: [
-            ["<08>{#p/basic}{~}Y-yeah, I didn't want you around anyway!"],
+            ["<08>{#p/basic}{~}É, e-eu nem te queria por perto mesmo!"],
             () =>
                 world.meanie
-                    ? ['<08>{#p/basic}{~}Y-yeah!\nGet outta my way!']
+                    ? ['<08>{#p/basic}{~}É!\nS-sai daqui!']
                     : SAVE.data.b.oops && world.flirt > 9
-                        ? ['<08>{#p/basic}{~}Um..\nW-well..', '<08>{#p/basic}{~}.. well, I love you too!']
+                        ? ['<08>{#p/basic}{~}Hmm..\nB-bem..', '<08>{#p/basic}{~}.. bem, eu te amo também!']
                         : SAVE.data.b.oops
-                            ? ['<08>{#p/basic}{~}J-just friends, huh?', '<08>Sure thing, I guess..']
-                            : ['<08>{#p/basic}{~}Eeeh?\nWhat are you..', '<08>{#p/basic}{~}.. oh..\nThanks, eheh..'],
-            ["<08>{#p/basic}{~}If it's what you want..", "<08>{#p/basic}{~}I-I'll do it!"],
-            ["<08>{#p/basic}{~}D-don't think it means I like you!"]
+                            ? ['<08>{#p/basic}{~}A-apenas amigos, huh?', '<08>Claro, eu acho...']
+                            : ['<08>{#p/basic}{~}Eeeh?\nO que você está..', '<08>{#p/basic}{~}.. oh..\nObrigado, eheh..'],
+            ["<08>{#p/basic}{~}Se é isso que você deseja..", "<08>{#p/basic}{~}E-eu vou fazer isso!"],
+            ["<08>{#p/basic}{~}N-não pense que isso significa que eu gosto de você!"]
         ],
         act_check: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Tsunderidex, a monster I have utterly no words for.']
-                : ['<32>{#p/story}* TSUNDERIDEX - ATK 25 DEF 26\n* Seems mean, but does it secretly like you?'],
+                ? ['<32>{#p/asriel2}* Tsunderidex, um monstro ao qual eu não tenho palavras.']
+                : ['<32>{#p/story}* TSUNDERIDEX - ATQ 25 DEF 26\n* Parece grosso, mas gosta de você secretamente?'],
         act_check2: [
-            '<32>{#p/story}* TSUNDERIDEX - ATK 25 DEF 26\n* Caught in the self-sustaining battle of the tsunderes.'
+            '<32>{#p/story}* TSUNDERIDEX - ATQ 25 DEF 26\n* Pego em uma batalha de sustentação própria tsunderes.'
         ],
-        act_check3: ["<32>{#p/story}* TSUNDERIDEX - ATK 25 DEF 26\n* This hesitant lover's engine is now yours to ride."],
-        act_check4: ['<32>{#p/story}* TSUNDERIDEX - ATK 25 DEF 26\n* Seems... jealous.'],
-        act_check5: ['<32>{#p/story}* TSUNDERIDEX - ATK 25 DEF 26\n* Ready to burst.'],
-        act_ignore: ["<32>{#p/human}* (You intentionally ignore Tsunderidex's presence.)"],
-        flirtText1: ['<32>{#p/human}* (You tell Tsunderidex it has an impressive shield.)'],
-        flirtText2: ['<32>{#p/human}* (You tell Tsunderidex it has nice cannons.)'],
-        flirtText3: ['<32>{#p/human}* (You tell Tsunderidex it has a powerful jump drive.)'],
-        flirtText4: ['<32>{#p/human}* (You tell Tsunderidex that you like its taste in virtual novels.)'],
-        flirtText5: ['<32>{#p/human}* (You tell Tsunderidex that it has cute engine struts.)'],
-        flirtText6: ["<32>{#p/human}* (You tell Tsunderidex that you'd like to supercharge its capacitor.)"],
-        flirtText7: ["<32>{#p/human}* (You tell Tsunderidex that you'd like to clean it to a sparkle.)"],
-        flirtText8: ['<32>{#p/human}* (You tell Tsunderidex its nose should be nuzzling yours.)'],
-        flirtText9: ['<32>{#p/human}* (You tell Tsunderidex its roof scoop is second to none.)'],
-        flirtText10: ['<32>{#p/human}* (You tell Tsunderidex it has breathtaking wings.)'],
-        flirtText11: ['<32>{#p/human}* (You tell Tsunderidex it has a captivating underglow.)'],
-        flirtText12: ["<32>{#p/human}* (You tell Tsunderidex you'd like to go where no human has gone before.)"],
-        stealText: ['<32>{#p/human}* (You move in close to Tsunderidex to siphon its battery power.)'],
-        upgradeText1: ["<32>{#p/human}* (You activate the slipstream flight module on Tsunderidex's engines.)"],
-        upgradeText2: ["<32>{#p/human}* (You activate the transphasic firing mechanism on Tsunderidex's cannons.)"],
-        upgradeText3: ["<32>{#p/human}* (You activate the auto-adaptive modulation on Tsunderidex's shields.)"],
+        act_check3: ["<32>{#p/story}* TSUNDERIDEX - ATQ 25 DEF 26\n* A máquina hesitante de amor agora é sua para controlar."],
+        act_check4: ['<32>{#p/história}* TSUNDERIDEX - ATQ 25 DEF 26\n* Parece... cioso.'],
+        act_check5: ['<32>{#p/história}* TSUNDERIDEX - ATK 25 DEF 26\n* Pronto para estourar.'],
+        act_ignore: ["<32>{#p/human}* (Você intencionalmente ignora a presença de Tsunderidex.)"],
+        flirtText1: ['<32>{#p/human}* (Você diz a Tsunderidex que ele tem um escudo impressionante.)'],
+        flirtText2: ['<32>{#p/human}* (Você diz a Tsunderidex que ele tem asas incríveis.)'],
+        flirtText3: ['<32>{#p/human}* (Você diz a Tsunderidex que ele tem um grande poder de vôo.)'],
+        flirtText4: ['<32>{#p/human}* (Você diz a Tsunderidex que gostou das opiniões dele sobre novelas.)'],
+        flirtText5: ['<32>{#p/human}* (Você diz a Tsunderidex que ele tem uma engenharia fofa.)'],
+        flirtText6: ["<32>{#p/human}* (Você diz a Tsunderidex que gostaria de ver seu super capacitador.)"],
+        flirtText7: ["<32>{#p/human}* (Você diz a Tsunderidex que gostaria de limpá-lo até brilhar.)"],
+        flirtText8: ['<32>{#p/human}* (Você diz a Tsunderidex que seu nariz deve estar acariciando o seu.)'],
+        flirtText9: ['<32>{#p/human}* (Você diz ao Tsunderidex que seu teto é inigualável.)'],
+        flirtText10: ['<32>{#p/human}* (Você diz Tsunderidex que suas turbinas são de tirar o fôlego.)'],
+        flirtText11: ['<32>{#p/human}* (Você diz a Tsunderidex que ele tem um brilho cativante.)'],
+        flirtText12: ["<32>{#p/human}* (Você diz a Tsunderidex que gostaria de ir a onde nenhum humano jamais foi.)"],
+        stealText: ['<32>{#p/human}* (Você se aproxima de Tsunderidex para sugar a energia da bateria.)'],
+        upgradeText1: ["<32>{#p/human}* (Você ativa o módulo de vôo de turbilhão nos motores de Tsunderidex.)"],
+        upgradeText2: ["<32>{#p/human}* (Você ativa o mecanismo de disparo transfásico nos canhões de Tsunderidex.)"],
+        upgradeText3: ["<32>{#p/human}* (Você ativa a modulação auto-adaptativa nos escudos de Tsunderidex.)"],
         upgradeText4: [
-            "<33>{#p/human}* (You can't activate further.)\n* (All of Tsunderidex's body parts are fully activated.)"
+            "<33>{#p/human}* (Você não pode ativar mais.)\n* (Todas as partes do corpo de Tsunderidex estão totalmente ativadas.)"
         ],
-        idleTalk1: ["<08>{#p/basic}{~}It's not like I LIKE you."],
-        idleTalk2: ['<08>{#p/basic}{~}Id.. idiot!'],
-        idleTalk3: ["<08>{#p/basic}{~}Hmph!\nDon't get in my way."],
-        idleTalk4: ['<08>{#p/basic}{~}(Eep..!)\nHuman..'],
-        idleTalk5: ['<08>{#p/basic}{~}..\nH-human\n..\n..?'],
-        flirtTalk1: ['<08>{#p/basic}{~}Huh!?\nY-you sicko!'],
-        flirtTalk2: ['<08>{#p/basic}{~}I.. I think not!\nHmph!'],
-        flirtTalk3: ['<08>{#p/basic}{~}Is that true..?'],
-        flirtTalk4: ['<08>{#p/basic}{~}I..\nTh-thank you..'],
-        flirtTalk5: ['<08>{#p/basic}{~}W-what?\nRight now???', '<08>{#p/basic}{~}This is too much..'],
-        jellyTalk1: ["<08>{#p/basic}{~}H-hey!\nThat's not fair!"],
-        jellyTalk2: ['<08>{#p/basic}{~}Ugh, you two are being weird.'],
-        jellyTalk3: ['<08>{#p/basic}{~}S-stay away from them!'],
-        upgradeTalk1: ['<08>{#p/basic}{~}Wh.. what are you doing??'],
-        upgradeTalk2: ['<08>{#p/basic}{~}Um.\nHuman.'],
+        idleTalk1: ["<08>{#p/basic}{~}Não é como se eu gostasse de VOCÊ."],
+        idleTalk2: ['<08>{#p/basic}{~}Id.. idiota!'],
+        idleTalk3: ["<08>{#p/basic}{~}Hmph!\nNão fica no meu caminho!"],
+        idleTalk4: ['<08>{#p/basic}{~}(Eep..!)\nHumano..'],
+        idleTalk5: ['<08>{#p/basic}{~}..\nH-humano\n..\n..?'],
+        flirtTalk1: ['<08>{#p/basic}{~}Huh!?\nS-seu tarado!'],
+        flirtTalk2: ['<08>{#p/basic}{~}Eu... eu não acho!\nHmph!'],
+        flirtTalk3: ['<08>{#p/basic}{~}Isso é verdade..?'],
+        flirtTalk4: ['<08>{#p/basic}{~}Eu..\nMu-muito obrigado..'],
+        flirtTalk5: ['<08>{#p/basic}{~}O-o que?\nAgora???', '<08>{#p/basic}{~}Isso é demais..'],
+        jellyTalk1: ["<08>{#p/basic}{~}E-ei!\nIsso não é justo!"],
+        jellyTalk2: ['<08>{#p/basic}{~}Ugh, vocês dois estão sendo estranhos.'],
+        jellyTalk3: ['<08>{#p/basic}{~}F-fique longe dele!'],
+        upgradeTalk1: ['<08>{#p/basic}{~}Oq... o que você está fazendo?'],
+        upgradeTalk2: ['<08>{#p/basic}{~}Um.\nHumano.'],
         upgradeTalk3: ['<08>{#p/basic}{~}Oh..\n..\nW-wow..'],
-        stealTalk1: ["<08>{#p/basic}{~}D-don't do that!\nPlease."],
-        stealTalk2: ['<08>{#p/basic}{~}..\n..\n(Why..)'],
-        stealTalk3: ['<08>{#p/basic}{~}Quit stealing my thunder!'],
-        ignoreTalk1: ['<08>{#p/basic}{~}Hmph!\nIgnore me all you want!'],
-        ignoreTalk2: ["<08>{#p/basic}{~}Yeah!\nIt's not like I want you here!"],
+        stealTalk1: ["<08>{#p/basic}{~}N-não faça isso!\nPor favor."],
+        stealTalk2: ['<08>{#p/basic}{~}..\n..\n(Por que..)'],
+        stealTalk3: ['<08>{#p/basic}{~}Pare de roubar meu trovão!'],
+        ignoreTalk1: ['<08>{#p/basic}{~}Hmph!\nMe ignora o tanto que quiser!'],
+        ignoreTalk2: ["<08>{#p/basic}{~}É!\nNão é como se eu quisesse você aqui!"],
         upgradeStatus1: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Are you actually going to do this right now?']
-                : ['<32>{#p/story}* Tsunderidex is checking out its newly activated parts.'],
+                ? ['<32>{#p/asriel2}* Você realmente vai fazer isso agora?']
+                : ['<32>{#p/story}* Tsunderidex está checando suas novas partes atividades.'],
         upgradeStatus2: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* This is a waste of time...']
-                : ['<32>{#p/story}* Tsunderidex is obsessing over its newly activated parts.'],
+                ? ['<32>{#p/asriel2}* Isso é uma perda de tempo...']
+                : ['<32>{#p/story}* Tsunderidex está obcecado com suas novas partes atividades.'],
         upgradeStatus3: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* ...']
-                : ['<32>{#p/story}* Tsunderidex is worried about its newly activated parts.'],
+                : ['<32>{#p/story}* Tsunderidex está preocupado com suas novas partes ativadas.'],
         status1: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Tsunderidex.']
-                : ['<32>{#p/story}* Tsunderidex looks over, then turns up its nose.'],
+                : ['<32>{#p/story}* Tsunderidex olha e depois torce o nariz.'],
         status2: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Tsunderidex.']
-                : ['<32>{#p/story}* Tsunderidex shakes its nose dimissively at you.'],
+                : ['<32>{#p/story}* Tsunderidex balança o nariz com desdém para você.'],
         status3: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Tsunderidex.']
-                : ['<32>{#p/story}* Tsunderidex \"accidentally\" bumps you with its nacelles.'],
+                : ['<32>{#p/story}* Tsunderidex \"acidentalmente\" te acerta com um dos seus ventos.'],
         status4: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Tsunderidex.']
-                : ['<32>{#p/story}* Tsunderidex sets its cannons to \"stun.\"'],
+                : ['<32>{#p/story}* Tsunderidex define seus canhões para \"atordoar.\"'],
         status5: () =>
-            world.goatbro ? ['<32>{#p/asriel2}* Tsunderidex.'] : ['<32>{#p/story}* Smells like space cacti.'],
+            world.goatbro ? ['<32>{#p/asriel2}* Tsunderidex.'] : ['<32>{#p/story}* Cheira a cacto espacial.'],
         status6: () =>
             world.goatbro
-                ? ["<32>{#p/asriel2}* It's vulnerable."]
-                : ['<32>{#p/story}* Tsunderidex is looking away shyly.'],
+                ? ["<32>{#p/asriel2}* Está vulnerável."]
+                : ['<32>{#p/story}* Tsunderidex está olhando longe.'],
         hurtStatus: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Almost dead.']
-                : ["<32>{#p/story}* Tsunderidex's engines are leaking plasma."]
+                ? ['<32>{#p/asriel2}* Quase morto.']
+                : ["<32>{#p/story}* Os motores de Tsunderidex estão deixando cair plasma."]
     },
 
     b_opponent_rg01: {
         name: () => (world.bad_lizard > 1 ? '* RG 01' : '* RG 03'),
         epiphaNOPE: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}Like, what are you even doing?']
-                : ["<11>{#p/undyne}{#p/basic}{~}This ain't it, chief."],
+                ? ['<11>{#p/basic}{~}Tipo, o que você tá fazendo?']
+                : ["<11>{#p/undyne}{#p/basic}{~}Não é isso, chefe."],
         act_check: () =>
             world.goatbro
-                ? ["<32>{#p/asriel2}* RG 01...\n* There's really not much to say about these guys."]
+                ? ["<32>{#p/asriel2}* RG 01...\n* Não tem muito o que dizer sobre esses caras."]
                 : world.bad_lizard > 1
-                    ? ['<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* A confident lover who seems intent on ending you.']
-                    : ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Conspicuous cowgirl attitude.\n* Skeptic.'],
+                    ? ['<32>{#p/story}* RG 01 - ATQ 30 DEF 20\n* Um amador confidente que deseja acabar com você.']
+                    : ['<32>{#p/história}* RG 03 - ATQ 30 DEF 20\n* Atitude conspícua de cowgirl.\n* Cética.'],
         act_check2: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* Intent on ending you, even if it kills him.']
-                : ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Planning on sharpening her falchion soon.'],
-        act_check3: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Re-united at last...'],
-        act_check4: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Broken.'],
-        act_check5: ['<33>{#p/story}* RG 03 - ATK 30 DEF 20\n* Wants badly to say something...'],
-        act_check6: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Eager to make up for her lack of conviction.'],
-        randTalk1: () => ['<11>{#p/basic}{~}Team attack.'],
+                ? ['<32>{#p/story}* RG 01 - ATK 30 DEF 20\n* Na intenção de acabar com você, mesmo que ele também morra.']
+                : ['<32>{#p/história}* RG 03 - ATK 30 DEF 20\n* Planejando afiar seu falchion em breve.'],
+        act_check3: ['<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Reunidas no fim...'],
+        act_check4: ['<32>{#p/story}* RG 03 - ATQ 30 DEF 20\n* Quebrada.'],
+        act_check5: ['<33>{#p/história}* RG 03 - ATK 30 DEF 20\n* Quer muito dizer alguma coisa...'],
+        act_check6: ['<32>{#p/história}* RG 03 - ATQ 30 DEF 20\n* Ansiosa para compensar sua falta de convicção.'],
+        randTalk1: () => ['<11>{#p/basic}{~}Ataque em conjunto.'],
         randTalk2: () =>
-            world.bad_lizard > 1 ? ["<11>{#p/basic}{~}We'll stop you..."] : ["<11>{#p/basic}{~}We're just friends..."],
+            world.bad_lizard > 1 ? ["<11>{#p/basic}{~}Nós vamos te parar..."] : ["<11>{#p/basic}{~}Estamos só na amizade..."],
         randTalk3: () =>
             world.bad_lizard > 1
                 ? ["<11>{#p/basic}{~}You're no match for us."]
@@ -9257,7 +9257,7 @@ export default {
                 : ["<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."],
         randStatusLone: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* One left.']
+                ? ['<32>{#p/asriel2}* Só mais um.']
                 : world.bad_lizard > 1
                     ? ['<32>{#p/story}* 01 seems even more focused than before.']
                     : ['<32>{#p/story}* 03 is in disarray.'],
@@ -9337,7 +9337,7 @@ export default {
 
         dangerStatus: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Almost dead.']
+                ? ['<32>{#p/asriel2}* Quase morto.']
                 : world.bad_lizard > 1
                     ? ["<32>{#p/story}* 01's gaze pans downwards to the floor."]
                     : ["<32>{#p/story}* 03's breathing intensifies."]
@@ -9388,7 +9388,7 @@ export default {
                 : ['<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?'],
         randStatusLone: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* One left.']
+                ? ['<32>{#p/asriel2}* Só mais um.']
                 : world.bad_lizard > 1
                     ? ['<32>{#p/story}* 02 has lost his temper.']
                     : ['<32>{#p/story}* 04 is in shambles.'],
@@ -9449,7 +9449,7 @@ export default {
 
         dangerStatus: () =>
             world.goatbro
-                ? ['<32>{#p/asriel2}* Almost dead.']
+                ? ['<32>{#p/asriel2}* Quase morto.']
                 : world.bad_lizard > 1
                     ? ['<32>{#p/story}* 02 holds his head high.']
                     : ["<32>{#p/story}* 04's breathing intensifies."]

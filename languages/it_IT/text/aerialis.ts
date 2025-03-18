@@ -56,7 +56,7 @@ export default {
                 ? [
                     "<32>{#p/human}* (You notice you're alone.)",
                     "<32>{#p/human}* (Despite knowing it'd collapse the outpost's atmosphere, you consider something.)",
-                    choicer.create('* (Smash the terminal?)', 'Yes', 'No')
+                    choicer.create('* (Smash the terminal?)', 'Sì', 'No')
                 ]
                 : [])
         ],
@@ -80,7 +80,7 @@ export default {
             "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
             '<32>{#s/equip}{#p/event}* Click...'
         ],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        noequip: ['<32>{#p/human}* (Decidi di non equipaggiarlo.)'],
         evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
         endo: ['<32>{#p/human}* (You note the poor quality of this table.)'],
         businessKILLER: [
@@ -209,7 +209,7 @@ export default {
         riverboi3: () => [
             '<32>{#p/basic}{#npc/a}* I am the traveler.\n* Dr. Alphys has requested my presence at this location.',
             '<32>* You would like to go to Aerialis, would you not?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Sì', 'No')
         ],
         riverboi4: ['<32>{#p/basic}{#npc/a}* Thank you for taking this ride on my taxi.\n* My assignment is fulfilled.'],
         papinter1: pager.create(
@@ -364,9 +364,9 @@ export default {
             0,
             () => [
                 "<25>{#p/sans}{#f/0}* i'm selling corn dogs for 5G a piece, if you're interested.",
-                choicer.create('* (Buy the Corn Dog for 5G?)', 'Yes', 'No')
+                choicer.create('* (Buy the Corn Dog for 5G?)', 'Sì', 'No')
             ],
-            () => ['<25>{#p/sans}{#f/0}* corn dogs for 5G.', choicer.create('* (Buy the Corn Dog for 5G?)', 'Yes', 'No')]
+            () => ['<25>{#p/sans}{#f/0}* corn dogs for 5G.', choicer.create('* (Buy the Corn Dog for 5G?)', 'Sì', 'No')]
         ),
         corndog2: [
             "<32>{#p/human}* (You're carrying too much.)",
@@ -517,8 +517,8 @@ export default {
             world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ... but nobody came.'],
         spidershop1: () => [
             SAVE.data.n.plot === 72
-                ? choicer.create('* (Leave 36G in the web?)', 'Yes', 'No')
-                : choicer.create('* (Leave 56G in the web?)', 'Yes', 'No')
+                ? choicer.create('* (Leave 36G in the web?)', 'Sì', 'No')
+                : choicer.create('* (Leave 56G in the web?)', 'Sì', 'No')
         ],
         spidershop2: [
             '<32>{#p/basic}* Some spiders crawled out and gave you an item.',
@@ -553,9 +553,9 @@ export default {
             SAVE.data.b.svr
                 ? [
                     "<32>{#p/human}* (You dip your hands into the strange bowl of food.)\n* (It's quite slimy.)",
-                    choicer.create('* (Take the food?)', 'Yes', 'No')
+                    choicer.create('* (Take the food?)', 'Sì', 'No')
                 ]
-                : ["<33>{#p/basic}* It's a kind of mysterious food.", choicer.create('* (Take the food?)', 'Yes', 'No')],
+                : ["<33>{#p/basic}* It's a kind of mysterious food.", choicer.create('* (Take the food?)', 'Sì', 'No')],
         hotelfood1: () => [
             '<32>{#p/human}* (You got the Mysteryfood.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
@@ -569,12 +569,12 @@ export default {
         hotelfood3: ['<32>{#p/human}* (You decide not to take anything.)'],
         sonic1: () => [
             '<32>{#p/human}* (You got the Sonic Resonator.)',
-            choicer.create('* (Equip the Sonic Resonator?)', 'Yes', 'No')
+            choicer.create('* (Equip the Sonic Resonator?)', 'Sì', 'No')
         ],
         sonic2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
         tablaphone1: () => [
             '<32>{#p/human}* (You got the Tablaphone.)',
-            choicer.create('* (Equip the Tablaphone?)', 'Yes', 'No')
+            choicer.create('* (Equip the Tablaphone?)', 'Sì', 'No')
         ],
         tablaphone2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
         moonpie1: () => [
@@ -1806,7 +1806,7 @@ export default {
                 iFancyYourVilliany()
                     ? '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, DEAR $(moniker2u)?'
                     : '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, HUMAN?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Sì', 'No')
             ],
             moneyVote4: () => [
                 '<32>{#p/mettaton}* NO, I MEAN -WHO- WILL YOU BE VOTING FOR?',
@@ -2155,7 +2155,7 @@ export default {
                         '<32>* (i watched mew mew space adventure with her one time...)',
                         '<32>* (she was... so happy......)'
                     ]),
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Sì', 'No')
             ],
             moneyWhisper2a: ['<32>{#p/napstablook}* (thanks...)'],
             moneyWhisper2b: ['<32>{#p/napstablook}* (..................)'],
@@ -2320,7 +2320,7 @@ export default {
                 '<32>{#p/napstablook}* so, uh...',
                 '<32>* do you think...\n* you can you help me with something...?',
                 "<33>* it's... kind of important......",
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Sì', 'No')
             ],
             hapsta1a: ['<32>{#p/napstablook}* okay.........', '<32>* this way.........'],
             hapsta1b: ['<32>{#p/napstablook}* oh.........', "<32>* i'll get out of your way, then........."],
@@ -2844,7 +2844,7 @@ export default {
                                 '<25>{#g/alphysNeutralSweat}{#x5}* But, uh, b-before I go...',
                                 '<25>{#f/10}* Would you mind... giving me back my Mew Mew doll?',
                                 '<25>{#f/3}* Please?',
-                                choicer.create('* (Give back the Mew Mew doll?)', 'Yes', 'No')
+                                choicer.create('* (Give back the Mew Mew doll?)', 'Sì', 'No')
                             ])
                     ])
             ],
@@ -3397,7 +3397,7 @@ export default {
                 ...(SAVE.data.b.svr
                     ? ['<32>{#p/human}* (It sounds like one of the bottles inside was opened...)']
                     : ['<32>{#p/basic}* One of the bottles has already been opened...']),
-                choicer.create('* (Take the opened bottle?)', 'Yes', 'No')
+                choicer.create('* (Take the opened bottle?)', 'Sì', 'No')
             ],
             doublefridge3: ["<32>{#p/human}* (You're carrying too much.)"],
             doublefridge4: ['<32>{#p/human}* (You got the Orange Soda.)'],
@@ -3417,7 +3417,7 @@ export default {
                 SAVE.data.b.svr
                     ? '<32>{#p/human}* (You feel the urge to drink from a fountain of punch.)'
                     : '<32>{#p/basic}* This extravagant fountain is filled with exoberry punch.',
-                choicer.create('* (Take a sip?)', 'Yes', 'No')
+                choicer.create('* (Take a sip?)', 'Sì', 'No')
             ],
             exofountain2a: ['<32>{#p/human}* (You chose not to take a sip.)'],
             exofountain2b: () => [
@@ -3436,7 +3436,7 @@ export default {
                     ? ["<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n* (It must be daydreaming.)"]
                     : [
                         '<32>{#p/basic}* The computer is on standby.\n* Turn it on?',
-                        choicer.create('* (Turn on the computer?)', 'Yes', 'No')
+                        choicer.create('* (Turn on the computer?)', 'Sì', 'No')
                     ],
             topdesk2: ['<32>{#p/human}* (You decide not to turn it on.)'],
             topdesk3: ["<32>{#p/basic}* It's opened to a video game emulator of some kind."],
@@ -6109,9 +6109,9 @@ export default {
             () => [
                 "<25>{#p/sans}* hey, i heard you're visiting here.",
                 '<25>{#p/sans}{#f/2}* mind grabbing some dinner with me real quick?',
-                choicer.create('* (Have dinner?)', 'Yes', 'No')
+                choicer.create('* (Have dinner?)', 'Sì', 'No')
             ],
-            () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* (Have dinner?)', 'Yes', 'No')]
+            () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* (Have dinner?)', 'Sì', 'No')]
         ),
         dinnerdate2a: pager.create(
             0,
@@ -6281,7 +6281,7 @@ export default {
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
                         : "<32>{#p/basic}* It's a filament-exclusive vending machine.",
-                    choicer.create('* (Buy the Filament for 40G?)', 'Yes', 'No')
+                    choicer.create('* (Buy the Filament for 40G?)', 'Sì', 'No')
                 ],
         candy2: ["<32>{#p/human}* (You don't have enough G.)"],
         candy3: ["<32>{#p/human}* (You're carrying too much.)"],
@@ -6305,7 +6305,7 @@ export default {
                             '<32>{#p/basic}{#npc/a}* Welcome to Four Dimensions, the hotel where sleep meets the edge of perception.',
                             "<32>* Once you reserve a room with us, it's yours forever.",
                             "<32>* We've got a junior suite open on the left stack for 300G.\n* Interested?{#npc}",
-                            choicer.create('* (Own a room?)', 'Yes', 'No')
+                            choicer.create('* (Own a room?)', 'Sì', 'No')
                         ],
             () =>
                 SAVE.data.n.plot === 72
@@ -6314,7 +6314,7 @@ export default {
                         ? ['<32>{#p/basic}{#npc/a}* Until next time!']
                         : [
                             '<32>{#p/basic}{#npc/a}* 300G to own a junior suite.\n* Interested?{#npc}',
-                            choicer.create('* (Own a room?)', 'Yes', 'No')
+                            choicer.create('* (Own a room?)', 'Sì', 'No')
                         ]
         ),
         bedreceptionist2a: [
@@ -7953,7 +7953,7 @@ export default {
                     : 'Would you attack a ghost?',
         qa: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ['Yes', 'No', 'Hug it out!', 'Forgive\nand forget.']
+                ? ['Sì', 'No', 'Hug it out!', 'Forgive\nand forget.']
                 : !world.badder_lizard
                     ? ['Heck Yeah', 'HELL YEAH', 'Absolutely!', 'Without\nHesitation.']
                     : ['I Could', 'I Should', 'I Will', 'If I\nHave To.'],

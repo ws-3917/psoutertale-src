@@ -122,7 +122,7 @@ export default {
             file6saved: 'FILE 6 SAVED',
             file6loaded: 'FILE 6 LOADED'
         },
-        noequip: ['<32>{#p/human}* (Вы решили не экипировать.)'],
+        noequip: ['<32>{#p/human}* (Вы решили не надевать это.)'],
         genotext: {
             monologue: [
                 (re: boolean) => [
@@ -2808,7 +2808,7 @@ export default {
             sad6: () =>
                 world.runaway
                     ? [
-                        '<25>{#p/asriel1}{#f/25}* ...!',
+                        '<25>{#p/asriel1}{#f/25}* !..',
                         '<25>{#f/21}* ...',
                         '<25>{#f/21}* Frisk, I...',
                         "<25>{#f/15}* ... I just can't right now, okay?",
@@ -2817,7 +2817,7 @@ export default {
                     : [
                         '<25>{#p/asriel1}{#i/4}{#f/23}* Ha... ha...',
                         "<25>{#f/23}{#i/4}* I don't want to let go...",
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (It sounds like someone is crying...)'])
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (Вы слышите, как кто-то плачет...)'])
                     ],
             sad7: () =>
                 world.runaway
@@ -3701,7 +3701,7 @@ export default {
                     : ['<32>{#p/basic}* The seat of the kingdom.'],
             warningsign: () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? ['<32>{#p/human}* (You activate the terminal.)\n* (It appears to be unlocked.)']
                         : SAVE.data.n.plot === 72 || world.postnoot || SAVE.data.b.backdoor
@@ -3872,7 +3872,7 @@ export default {
             cs_lamppost: ['<32>{#p/human}* (You observe the strange lamp bouncing up and down.)'],
             cs_note: [
                 '<32>{#p/human}* (It appears this note has a phone number written on it.)',
-                '<32>{#s/phone}{#p/event}* Dialing...',
+                '<32>{#s/phone}{#p/event}* Набор номера...',
                 '<32>{#p/human}{#v/2}{@fill=#ff993d}* Hello?\n* Is anyone there?',
                 '<32>{@fill=#ff993d}* ...',
                 '<32>{@fill=#ff993d}* HELLO!?!?',
@@ -4898,7 +4898,7 @@ export default {
             b ? ['<20>{*}{#p/alphys}I never had a chance.{^40}{%}'] : ["<20>{*}{#p/alphys}I'm sorry, Asgore.{^40}{%}"]
     },
     b_opponent_archive1: {
-        name: () => (battler.volatile[0].sparable ? '* Toriel' : '* 546f7269656c'),
+        name: () => (battler.volatile[0].sparable ? '* Ториэль' : '* 546f7269656c'),
         status0: ['<32>{#p/human}* (546f7269656c now stands before you.)'],
         status1: ['<32>{#p/human}* (546f7269656c seems intent on following a routine.)'],
 
@@ -4991,7 +4991,7 @@ export default {
         act_notesN: ['<32>{#p/human}* (And Professor Roman exchanged notes before fading away.)']
     },
     b_opponent_archive4: {
-        name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
+        name: () => (battler.volatile[0].sparable ? '* Напстаблук' : '* 4e6170737461626c6f6f6b'),
         status0: ['<32>{#p/human}* (4e6170737461626c6f6f6b is here by their computer.)'],
         status1: ['<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)'],
 

@@ -3766,12 +3766,12 @@ export default {
                 '<32>* well... thanks for talking to me, frisk',
                 '<32>* feel free to lay down next to me... if you like......',
                 '<32>* ...',
-                '<32>* Zzz... Zzz...'
+                '<32>* Хр-р-р... Хр-р-р...'
             ],
             () => [
-                '<32>{#p/napstablook}* Zzz... Zzz...',
-                '<32>* Zzz... Zzz...',
-                "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
+                '<32>{#p/napstablook}* Хр-р-р... Хр-р-р...',
+                '<32>* Хр-р-р... Хр-р-р...',
+                "<32>{#p/basic}* Этот призрак повторяет вслух «Хр-р-р», притворяясь спящим.",
                 choicer.create('* (Lay down next to it?)', 'Да', 'Нет')
             ],
             () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Да', 'Нет')]
@@ -4281,7 +4281,7 @@ export default {
             '<25>{#p/kidd}{#f/1}* Totally, dude!\n* Just the three of us!'
         ],
         balcony18a1: ['<32>{#p/basic}* ... uh, don\'t you mean \"the four of us?\"'],
-        balcony18a2: ['<25>{#p/asriel1}{#f/25}* ...!', "<25>{#f/25}* $(name)... you're..."],
+        balcony18a2: ['<25>{#p/asriel1}{#f/25}* !..', "<25>{#f/25}* $(name)... you're..."],
         balcony19a1: ['<32>{#p/basic}* ... wait, NOW you can hear me?'],
         balcony19a2: [
             "<32>{#p/basic}* I tried reaching out to you before, but... it didn't work.",
@@ -5016,7 +5016,7 @@ export default {
         threaten: '* Threaten',
         tickle: '* Tickle',
         topple: '* Topple',
-        toriel: '* Toriel',
+        toriel: '* Ториэль',
         translate: '* Translate',
         travel: '* Travel',
         trivia: '* Trivia',
@@ -5460,62 +5460,62 @@ export default {
         mkTurn1: ["<32>{#p/kidding}* Help, I've never been in a battle before!\n* What do I do!?"],
         mkTurn2: ['<32>{#p/kidding}* Uh... help!'],
         mkTurn3: ["<32>{#p/kidding}* I... think I'm getting the hang of this."],
-        mkTurnAct1: ['<32>{#p/kidding}* Oh! Oh!', '<32>* I know how ACTing works!', '<32>* Watch this...!'],
-        mkWeaken1: ["<32>{#p/kidding}* Are you sure...?\n* They don't seem to be happy about all this...", '<32>* ...'],
-        mkWeaken2: ['<32>{#p/kidding}* Is this really a good idea...?', '<32>* ...'],
+        mkTurnAct1: ['<32>{#p/kidding}* Oh! Oh!', '<32>* О, я знаю как ДЕЙСТВОВАТЬ!', '<32>* Смотри!..'],
+        mkWeaken1: ["<32>{#p/kidding}* Ты серьёзно?..\n* Кажется, он не в восторге от этого...", '<32>* ...'],
+        mkWeaken2: ['<32>{#p/kidding}* Это точно хорошая идея?..', '<32>* ...'],
         mkWeaken3a: ['<32>{#p/kidding}* Uh...'],
-        mkWeaken3b: ['<32>{#p/kidding}* Um...'],
-        mkWeaken3c: ['<32>{#p/kidding}* Er...'],
+        mkWeaken3b: ['<32>{#p/kidding}* Э-э-э...'],
+        mkWeaken3c: ['<32>{#p/kidding}* Ну...'],
         
         mkTurnActRand1: (opponent: string) =>
             opponent === 'muffet' // NO-TRANSLATE
 
                 ? [
-                    ['<32>{#p/story}* Monster Kid struggled in the web and made a scary face.'],
-                    ['<32>{#p/story}* Monster Kid struggled in the web and yelled.'],
-                    ['<32>{#p/story}* Monster Kid gave out a menacing laugh.']
+                    ['<32>{#p/story}* Монстрёнок борется с паутиной и корчит жуткое лицо.'],
+                    ['<32>{#p/story}* Монстрёнок отчаянно пытается выбраться из паутины.'],
+                    ['<32>{#p/story}* Монстрёнок запел грустную мелодию.']
                 ]
                 : opponent === 'shyren' // NO-TRANSLATE
 
                     ? [
-                        ['<32>{#p/story}* Monster Kid sang a scary tune.'],
-                        ['<32>{#p/story}* Monster Kid yelled overly edgy lyrics.'],
-                        ['<32>{#p/story}* Monster Kid drummed loudly with their feet.']
+                        ['<32>{#p/story}* Монстрёнок начал петь страшную мелодию.'],
+                        ['<32>{#p/story}* Монстрёнок выкрикивает ругательства.'],
+                        ['<32>{#p/story}* Монстрёнок громко топчет ногами.']
                     ]
                     : opponent === 'woshua' // NO-TRANSLATE
 
                         ? [
-                            ['<32>{#p/story}* Monster Kid pointed out the dirty floors.'],
-                            ['<32>{#p/story}* Monster Kid pointed out the leaky pipes.'],
-                            ['<32>{#p/story}* Monster Kid made a gross face.']
+                            ['<32>{#p/story}* Монстрёнок указал на грязные полы.'],
+                            ['<32>{#p/story}* Монстрёнок уронил железную трубу.'],
+                            ['<32>{#p/story}* Монстрёнок скорчил мерзкую рожицу.']
                         ]
                         : [
-                            ['<32>{#p/story}* Monster Kid stared $(x) directly in the face.'],
-                            ['<32>{#p/story}* Monster Kid pointed at $(x) accusingly.'],
-                            ['<32>{#p/story}* Monster Kid circled around $(x) like a predator.']
+                            ['<32>{#p/story}* Монстрёнок уставился на лицо $(x).'],
+                            ['<32>{#p/story}* Монстрёнок с упрёком тычет в $(x) пальцем.'],
+                            ['<32>{#p/story}* Монстрёнок хищно бегает вокруг $(x).']
                         ],
         
         mkTurnActRand2: (opponent: string) =>
             opponent === 'muffet' // NO-TRANSLATE
 
                 ? [
-                    ['<32>{#p/story}* Monster Kid complimented Muffet on her eloquent taste in clothing.'],
-                    ['<32>{#p/story}* Monster Kid told Muffet her pastries are the best known to monsterkind.'],
-                    ["<32>{#p/story}* Monster Kid said no webs are as strong as Muffet's."]
+                    ['<32>{#p/story}* Монстрёнок похвалил стиль одежды Маффет.'],
+                    ['<32>{#p/story}* Монстрёнок заявил, что пирожные Маффет — самые вкусные во всём Королевстве.'],
+                    ["<32>{#p/story}* Монстрёнок сказал Маффет, что её паутина самая прочная из всех, что он знает."]
                 ]
                 : opponent === 'shyren' // NO-TRANSLATE
 
                     ? [
-                        ['<32>{#p/story}* Monster Kid hummed a pretty melody.'],
-                        ["<32>{#p/story}* Monster Kid complimented Shyren's hair."],
-                        ["<32>{#p/story}* Monster Kid complimented Shyren's voice."]
+                        ['<32>{#p/story}* Монстрёнок напевает красивую мелодию.'],
+                        ["<32>{#p/story}* Монстрёнок похвалил волосы Смурены."],
+                        ["<32>{#p/story}* Монстрёнок похвалил голос Смурены."]
                     ]
                     : opponent === 'woshua' // NO-TRANSLATE
 
                         ? [
-                            ['<32>{#p/story}* Monster Kid called Skrubbington the cleanest monster on the block.'],
-                            ["<32>{#p/story}* Monster Kid appreciated Skrubbington's efforts to freshen up the factory."],
-                            ["<32>{#p/story}* Monster Kid noted Skrubbington's committment to perfection."]
+                            ['<32>{#p/story}* Монстрёнок назвал чистинсона самым чистым монстром.'],
+                            ["<32>{#p/story}* Монстрёнок хвалит чистинсона за то, как хорошо он убирает фабрику."],
+                            ["<32>{#p/story}* Монстрёнок похвалил чистинсона за чистолюбие."]
                         ]
                         : opponent === 'radtile' // NO-TRANSLATE
 
@@ -5525,170 +5525,170 @@ export default {
                                 ["<32>{#p/story}* Monster Kid made sure to double-check Radtile's appearance."]
                             ]
                             : [
-                                ['<32>{#p/story}* Monster Kid offered to keep $(x) company.'],
-                                ["<32>{#p/story}* Monster Kid told $(x) they'd be there if it'd help."],
-                                ['<32>{#p/story}* Monster Kid stood on top of $(x).']
+                                ['<32>{#p/story}* Монстрёнок предложил $(x) составить компанию.'],
+                                ["<32>{#p/story}* Монстрёнок пообещал $(x), что всегда будет рядом, что бы не случилось."],
+                                ['<32>{#p/story}* Монстрёнок взобрался на $(x).']
                             ],
         
         mkTurnActRand3: (opponent: string) =>
             opponent === 'muffet' // NO-TRANSLATE
 
                 ? [
-                    ['<32>{#p/story}* Monster Kid tried asking Muffet about spider clans.'],
-                    ['<32>{#p/story}* Monster Kid tried asking Muffet about bakeries.'],
-                    ['<32>{#p/story}* Monster Kid tried asking Muffet about tea.']
+                    ['<32>{#p/story}* Монстрёнок пытается расспросить у Маффет о паучьих кланах.'],
+                    ['<32>{#p/story}* Монстрёнок пытается узнать у Маффет что такое маффин.'],
+                    ['<32>{#p/story}* Монстрёнок пытается спросить Маффет о её любимом чае.']
                 ]
                 : opponent === 'shyren' // NO-TRANSLATE
 
                     ? [
                         ['<32>{#p/story}* Monster Kid debated about musical notation.'],
-                        ['<32>{#p/story}* Monster Kid spoke about music theory.'],
-                        ['<32>{#p/story}* Monster Kid discussed their favorite music genres.']
+                        ['<32>{#p/story}* Монстрёнок рассказал о музыкальной теории.'],
+                        ['<32>{#p/story}* Монстрёнок начал размышлять о своём любимом музыкальном жанре.']
                     ]
                     : opponent === 'woshua' // NO-TRANSLATE
 
                         ? [
-                            ['<32>{#p/story}* Monster Kid waxed poetic about proper hygiene.'],
-                            ['<32>{#p/story}* Monster Kid rapped about hazard safety.'],
-                            ['<32>{#p/story}* Monster Kid showed off their polished sewer pipe set.']
+                            ['<32>{#p/story}* Монстрёнок ушёл в размышления о личной гигиене.'],
+                            ['<32>{#p/story}* Монстрёнок читает рэп о безопасности во время литья труб.'],
+                            ['<32>{#p/story}* Монстрёнок показал свой набор неустойчивых железных труб.']
                         ]
                         : opponent === 'radtile' // NO-TRANSLATE
 
                             ? [
                                 ['<32>{#p/story}* Monster Kid made an ugly face at Radtile.'],
                                 ['<32>{#p/story}* Monster Kid came near and inspected Radtile up close.'],
-                                ['<32>{#p/story}* Monster Kid acted out as if they were a feral creature.']
+                                ['<32>{#p/story}* Монстрёнок начал вести себя как сумасшедший.']
                             ]
                             : [
-                                ['<32>{#p/story}* Monster Kid wiggled around, mimicing $(x).'],
-                                ['<32>{#p/story}* Monster Kid did a handstand, impressing $(x).'],
-                                ['<32>{#p/story}* Monster Kid spun around, bewildering $(x).']
+                                ['<32>{#p/story}* Монстрёнок извивается, пародируя $(x)!'],
+                                ['<32>{#p/story}* Монстрёнок встал вверх ногами, удивив этим $(x)!'],
+                                ['<32>{#p/story}* Монстрёнок сделал крутое сальто, озадачив $(x)!']
                             ],
         
         mkTurnActRand4: (opponent: string) =>
             opponent === 'muffet' // NO-TRANSLATE
 
-                ? [["<32>{#p/story}* Monster Kid tried telling Muffet there's no point in all this!"]]
+                ? [["<32>{#p/story}* Монстрёнок пытается сказать Маффет, что всё это бессмысленно!"]]
                 : opponent === 'shyren' || opponent === 'radtile' // NO-TRANSLATE
 
-                    ? [['<32>{#p/story}* Monster Kid claimed a spatial distortion was approaching fast!']]
+                    ? [['<32>{#p/story}* Монстрёнок закричал о надвигающейся пространственной аномалии!']]
                     : opponent === 'woshua' // NO-TRANSLATE
 
                         ? [['<32>{#p/story}* Monster Kid claimed an airborne viral agent was on its way!']]
-                        : [['<32>{#p/story}* Monster Kid claimed the nearby pipes were leaking acid!']],
-        mkTurnActResult0: ['<32>{#p/story}* Nothing happened.'],
+                        : [['<32>{#p/story}* Монстрёнок заявил, что из ближайших труб сочится кислота!']],
+        mkTurnActResult0: ['<32>{#p/story}* Ничего не произошло.'],
         mkTurnActResult1: (opponent: string) =>
             opponent === 'woshua' // NO-TRANSLATE
 
-                ? ["<32>{#p/story}* Skrubbington was grossed out!\n* Skrubbington's DEFENSE down!"]
+                ? ["<32>{#p/story}* Чистинсону стало неприятно.\n* ЗАЩИТА чистинсона понижена!"]
                 : opponent === 'shyren' // NO-TRANSLATE
 
-                    ? ["<32>{#p/story}* Shyren felt uncomfortable!\n* Shyren's DEFENSE down!"]
+                    ? ["<32>{#p/story}* Смурене стало неприятно.\n* ЗАЩИТА Смурены понижена!"]
                     : opponent === 'radtile' // NO-TRANSLATE
 
                         ? ["<32>{#p/story}* Radtile felt uncomfortable!\n* Radtile's DEFENSE down!"]
-                        : ["<32>{#p/story}* $(x) felt uncomfortable!\n* $(x)'s DEFENSE down!"],
+                        : ["<32>{#p/story}* $(x) стало неприятно.\n* ЗАЩИТА $(x) понижена!"],
         mkTurnActResult2: (opponent: string) =>
             opponent === 'woshua' // NO-TRANSLATE
 
-                ? ["<32>{#p/story}* Skrubbington felt flattered!\n* Skrubbington's ATTACK down!"]
+                ? ["<32>{#p/story}* Чистинсон был польщён этим!\n* АТАКА чистинсона понижена!"]
                 : opponent === 'shyren' // NO-TRANSLATE
 
-                    ? ["<32>{#p/story}* Shyren felt flattered!\n* Shyren's ATTACK down!"]
+                    ? ["<32>{#p/story}* Смурена была польщена этим!\n* АТАКА Смурены понижена!"]
                     : opponent === 'radtile' // NO-TRANSLATE
 
                         ? ["<32>{#p/story}* Radtile felt respected!\n* Radtile's ATTACK down!"]
-                        : ["<32>{#p/story}* $(x) felt respected!\n* $(x)'s ATTACK down!"],
+                        : ["<32>{#p/story}* $(x) чувствует уважение!\n* АТАКА $(x) понижена!"],
         mkTurnActResult3: (opponent: string, multiple: boolean) =>
             opponent === 'woshua' // NO-TRANSLATE
 
                 ? multiple
-                    ? ['<32>{#p/story}* Skrubbington and the others were distracted by Monster Kid and forgot their turn!']
-                    : ['<32>{#p/story}* Skrubbington was distracted by Monster Kid and forgot their turn!']
+                    ? ['<32>{#p/story}* Чистинсон и другие монстры отвлеклись на Монстрёнка и забыли свой ход!']
+                    : ['<32>{#p/story}* Чистинсон отвлёкся на Монстрёнка и забыл о своём ходе!']
                 : opponent === 'shyren' // NO-TRANSLATE
 
-                    ? ['<32>{#p/story}* Distracted by Monster Kid, Shyren forgot her turn!']
+                    ? ['<32>{#p/story}* Шайрен отвлеклась на Монстрёнка и забыла свой ход!']
                     : multiple
-                        ? ['<32>{#p/story}* Entranced by Monster Kid, $(x) and the others forgot their turn!']
+                        ? ['<32>{#p/story}* Очаровавшись Монстрёнком, $(x) и другие монстры забыли о своём ходе!']
                         : opponent === 'radtile' // NO-TRANSLATE
 
                             ? ['<32>{#p/story}* Entranced by Monster Kid, Radtile forgot his turn!']
-                            : ['<32>{#p/story}* Entranced by Monster Kid, $(x) forgot their turn!'],
+                            : ['<32>{#p/story}* Очаровавшись Монстёнком, $(x) пропускает свой ход!'],
         mkTurnActResult4: (opponent: string, multiple: boolean, allowpac: boolean) =>
             opponent === 'woshua' // NO-TRANSLATE
 
                 ? [
-                    '<32>{#p/story}* Fearful for its life, Skrubbington panicked and left the battle!',
-                    ...(multiple ? ['<32>{#p/story}* The other monsters continue to fight you.'] : [])
+                    '<32>{#p/story}* Чистинсон испугался и в панике убежал из битвы!',
+                    ...(multiple ? ['<32>{#p/story}* Остальные монстры продолжают сражаться с вами.'] : [])
                 ]
                 : opponent === 'shyren' // NO-TRANSLATE
 
                     ? allowpac
-                        ? ['<32>{#p/story}* Fearful for her life, Shyren panicked and left the battle!']
-                        : ['<32>{#p/story}* Encouraged by her own performance, Shyren braved the threat!']
+                        ? ['<32>{#p/story}* Смурена испугалась и в панике убежала из битвы!']
+                        : ['<32>{#p/story}* Смурена, воодушевлённая своим выступлением, отважно приняла вызов!']
                     : opponent === 'radtile' // NO-TRANSLATE
 
                         ? ['<32>{#p/story}* Fearful for his life, Radtile panicked and left the battle!']
                         : [
-                            '<32>{#p/story}* Fearful for its life, $(x) panicked and left the battle!',
-                            ...(multiple ? ['<32>{#p/story}* The other monsters continue to fight you.'] : [])
+                            '<32>{#p/story}* $(x) испугался и в панике убежал из битвы!',
+                            ...(multiple ? ['<32>{#p/story}* Остальные монстры продолжают сражаться с вами.'] : [])
                         ],
         mkTurnFight1: () => [
-            '<32>{#p/kidding}* Y... y-you want me to fight?\n* Are you sure?',
-            choicer.create('* (Do you confirm?)', 'Да', 'Нет')
+            '<32>{#p/kidding}* Ты...т-ты хочешь, чтобы я сразился?\n* Ч-чел, ты серьёзно?',
+            choicer.create('* (Вы уверены?)', 'Да', 'Нет')
         ],
-        mkTurnFight2a: ['<32>{#p/kidding}* Okay... here goes nothing...'],
-        mkTurnFight2b: ['<32>{#p/kidding}* Oh, okay...', "<32>* I'll just spare them, then!"],
-        mkTurnFight3a: ['<32>* Ngh...!'],
-        mkTurnFight3b: ['<32>* Hi-yah...!'],
-        mkTurnFight3c: ['<32>* Wa-POW!'],
-        mkTurnMercy1: ['<32>{#p/kidding}* Mercy?\n* Do I spare them?', "<32>{#p/kidding}* Haha, that's easy!"],
-        mkTurnX: () => [choicer.create('* (What should Monster Kid do?)', 'Mercy', 'Act', 'Magic', 'Fight')]
+        mkTurnFight2a: ['<32>{#p/kidding}* Хорошо...ничего страшного...'],
+        mkTurnFight2b: ['<32>{#p/kidding}* Уф, хорошо...', "<32>* Тогда я просто пощажу их!"],
+        mkTurnFight3a: ['<32>* Мгх!..'],
+        mkTurnFight3b: ['<32>* Хэй-я!..'],
+        mkTurnFight3c: ['<32>* Бабах!'],
+        mkTurnMercy1: ['<32>{#p/kidding}* Пощадить?\n* То есть, отпустить их?', "<32>{#p/kidding}* Ха, проще некуда!"],
+        mkTurnX: () => [choicer.create('* (Что нужно сделать Монстрёнку?)', 'Пощада', 'Действие', 'Магия', 'Битва')]
     },
 
     c_name_common: {
-        keyring: 'Keyring',
-        hello_asgore: 'Say Hello',
-        about_asgore: 'About Yourself',
-        dad: 'Call Him \"Dad\"',
-        flirt_asgore: 'Flirt',
-        insult_asgore: 'Insult'
+        keyring: 'Связка ключей',
+        hello_asgore: 'Сказать «Привет»',
+        about_asgore: 'О себе',
+        dad: 'Назвать его папой.',
+        flirt_asgore: 'Флирт',
+        insult_asgore: 'Оскорбить'
     },
 
     c_call_common: {
-        start: '<32>{#s/phone}{#p/event}* Dialing...',
+        start: '<32>{#s/phone}{#p/event}* Набор номера...',
         end: '<32>{#s/equip}{#p/event}* Click...',
-        nobody0: ['<32>{#p/human}* (Too much interference.)'],
+        nobody0: ['<32>{#p/human}* (Слишком сильные помехи.)'],
         nobody1: ['<32>{#p/human}* (No response.)'],
-        nobody2: ['<32>{#p/basic}* ... but nobody came.'],
-        nobody3: ['<32>{#p/human}* (No connection.)'],
+        nobody2: ['<32>{#p/basic}* ...но никто не пришёл.'],
+        nobody3: ['<32>{#p/human}* (Нет связи.)'],
         nobody4: [
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
-            '<32>{#p/basic}* (Snore... snore...)',
-            '<32>* (Snore... snore...)'
+            '<32>{#p/human}* (Из телефона исходит звук, как будто на нём лежит маленькая белая собачка.)',
+            '<32>{#p/basic}* (Храп... храп...)',
+            '<32>* (Храп...\nхрап...)'
         ],
         nobody4a: [
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
+            '<32>{#p/human}* (Из телефона исходит звук, как будто на нём лежит маленькая белая собачка.)',
             '<32>{#p/basic}* (Snore... snore... snore...)',
             '<32>* (Snore... snore... snore...)'
         ],
         nobody4f: [
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
+            '<32>{#p/human}* (Из телефона исходит звук, как будто на нём лежит маленькая белая собачка.)',
             '<32>{#p/basic}* (Snore...!)',
             '<32>* (Snore...!)'
         ],
         nobody4m: [
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
+            '<32>{#p/human}* (Из телефона исходит звук, как будто на нём лежит маленькая белая собачка.)',
             '<32>{#p/basic}* (Snore...?)',
             '<32>* (Snore...?)'
         ],
         nobody4i: [
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
+            '<32>{#p/human}* (Из телефона исходит звук, как будто на нём лежит маленькая белая собачка.)',
             '<32>{#p/basic}* (Whimper.)',
             '<32>* (Whine.)'
         ],
         about1: [
-            '<25>{#p/asgore}{#f/5}* About me?',
+            '<25>{#p/asgore}{#f/5}* Про себя?',
             '<25>{#f/7}* ... oh, but where would I begin?',
             '<25>{#f/6}* There is far too much to tell at once.',
             '<25>{#f/6}* Perhaps, over time, you will come to know me very well.',

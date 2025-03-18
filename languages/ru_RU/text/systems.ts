@@ -13,11 +13,11 @@ export default {
         flee2: "    * Я сваливаю.",
         flee3: "    * У меня есть дела поважнее.",
         flee4: "    * Не задерживайте меня.",
-        flee5: '    * Ran away with $(x) EXP\n      and $(y)G.',
+        flee5: '    * Убежали с $(x) ОП\n      и $(y)М.',
 
-        mercy_assist: '* Assist',
-        mercy_flee: '* Flee',
-        mercy_spare: '* Spare',
+        mercy_assist: '* Помочь',
+        mercy_flee: '* Сбежать',
+        mercy_spare: '* Пощадить',
 
         victory1: '<32>{#p/story}* ВЫ ПОБЕДИЛИ!\n* Вы получили $(x) ОП и $(y)М.',
         victory2: '<32>{#p/story}* ВЫ ПОБЕДИЛИ!\n* Вы получили $(x) ОП и $(y)М.\n* Ваш УР повышен.'
@@ -25,16 +25,16 @@ export default {
 
     developer: {
         console: {
-            header: 'ERROR',
+            header: 'ОШИБКА',
             p_resume: {
                 header: 'DISMISS',
                 resume: 'Click To Dismiss'
             },
-            blurb: 'An error occured! Please send\nscreenshot to developer.'
+            blurb: 'Произошла ошибка! Пожалуйста,\nотошлите скриншот разработчику.'
         },
         control: {
             tab: 'CONTROL',
-            headers: ['GENERAL', 'BATTLE'],
+            headers: ['GENERAL', 'БИТВА'],
             items: [
                 [
                     'FixMusic',
@@ -45,7 +45,7 @@ export default {
                     'Movement',
                     'Noclip',
                     'Save',
-                    'SkipText',
+                    'ПропускТекста',
                     'Freecam'
                 ],
                 [
@@ -81,10 +81,10 @@ export default {
                 action: 'Start'
             },
             p_armor: {
-                header: 'ARMOR'
+                header: 'БРОНЯ'
             },
             p_weapon: {
-                header: 'WEAPON'
+                header: 'ОРУЖИЕ'
             }
         },
         inspect: {
@@ -130,8 +130,8 @@ export default {
                 face: 'Face',
                 false: 'False',
                 fill: 'Fill',
-                fontFamily: 'Font Family',
-                fontSize: 'Font Size',
+                fontFamily: 'Семейство шрифтов',
+                fontSize: 'Размер шрифта',
                 frames: 'Frames',
                 gravity: 'Gravity',
                 group: 'Group',
@@ -199,8 +199,8 @@ export default {
             ],
             p_page: {
                 header: 'NAVIGATION',
-                prev: 'Prev',
-                next: 'Next'
+                prev: 'Пред',
+                next: 'След'
             },
             prompt: 'Enter Value',
             back: 'Back'
@@ -208,7 +208,7 @@ export default {
         storage: {
             tab: 'STORAGE',
             header: 'STORAGE EDITOR',
-            p_container: { header: 'SELECTION', prev: 'Prev', next: 'Next' },
+            p_container: { header: 'SELECTION', prev: 'Пред', next: 'След' },
             display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
         }
     },
@@ -219,24 +219,24 @@ export default {
         dialog_clear_mobile: 'Clear Mobile Settings',
         dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
         dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
-        error_load: 'That file could not be parsed.',
-        message_alert: ['OK'],
-        message_confirm: ['Cancel', 'OK'],
-        prompt_clear: 'Clear this file?',
+        error_load: 'Этот файл невозможно прочесть.',
+        message_alert: ['ОК'],
+        message_confirm: ['Отмена', 'ОК'],
+        prompt_clear: 'Очистить этот файл?',
         prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
-        prompt_save: 'Save this file?',
+        prompt_save: 'Сохранить файл?',
         prompt_clear_mobile: 'Clear mobile-related settings?\nThis will NOT clear\nyour SAVE file.',
         prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
-        prompt_open: 'Load this file?'
+        prompt_open: 'Загрузить файл?'
     },
 
     extra: {
         credits: [
             [
-                '§fill=#ff0§< DEVELOPER >§fill=#fff§',
+                '§fill=#ff0§< РАЗРАБОТЧИК >§fill=#fff§',
                 'spacey_432',
                 '',
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< СЦЕНАРИЙ >§fill=#fff§',
                 'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
@@ -250,12 +250,12 @@ export default {
                 'Rise'
             ],
             [
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< СЦЕНАРИЙ >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 'Turbulation',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ХУДОЖНИКИ >§fill=#fff§',
                 'Balgamlı Kedi',
                 'Burge',
                 'Deskius',
@@ -267,7 +267,7 @@ export default {
                 'Ghostly'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ХУДОЖНИКИ >§fill=#fff§',
                 'HolyOranges',
                 'major_memestar',
                 'MattSpriteMaster',
@@ -284,24 +284,24 @@ export default {
                 'Starkiteckt'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ХУДОЖНИКИ >§fill=#fff§',
                 'supper12',
                 'Valor52',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< TECHNICIAN >§fill=#fff§',
+                '§fill=#ff0§< ПРОГРАММИРОВАНИЕ >§fill=#fff§',
                 'Codetoil',
                 'ryi3r',
                 'ws3917',
                 '',
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'Alden',
                 'Aspey',
                 'Aster',
                 'Balgamlı Kedi'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 'Brad',
                 'brayjamin',
@@ -318,7 +318,7 @@ export default {
                 'Fired'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -335,7 +335,7 @@ export default {
                 'Jonkler'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
@@ -352,7 +352,7 @@ export default {
                 'PixelToons Jaafar'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'Prezmop',
                 'prymus-agd',
                 'Quin',
@@ -369,7 +369,7 @@ export default {
                 'Teecup'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TЕСТИРОВАНИЕ >§fill=#fff§',
                 'Tem in a Cowboy Hat',
                 'Tenbrooks',
                 'ThatGuyWhoLikesFood',
@@ -382,37 +382,37 @@ export default {
                 'Zaxento The Greedy'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Alden',
                 '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Aster',
                 '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Balgamlı Kedi',
                 "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Ghostly',
                 '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Zaxento The Greedy',
                 '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ОСОБЫЕ БЛАГОДАРНОСТИ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
             ],
@@ -423,7 +423,7 @@ export default {
             header: '(( CAST ))',
             opponents: {
                 froggit: {
-                    name: 'FROGGIT',
+                    name: 'КВАКУШЁНОК',
                     author: 'ScarletScaledDragon',
                     text: {
                         basic: 'Pondering\nLife',
@@ -433,10 +433,10 @@ export default {
                     }
                 },
                 whimsun: {
-                    name: 'FLUTTERLYTE',
+                    name: 'ЛЕТЯГА',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Learning To\nFly',
+                        basic: 'Учится \nлетать',
                         spare: 'Emboldening\nAviator',
                         flirt: 'Searching The\nSkies',
                         bully: 'Evasively\nManeuvering'
@@ -453,7 +453,7 @@ export default {
                     }
                 },
                 loox: {
-                    name: 'OCULOUX',
+                    name: 'ЗЕНИЦИЙ',
                     author: 'ScarletScaledDragon',
                     text: {
                         basic: 'Slightly\nBully-Like',
@@ -463,10 +463,10 @@ export default {
                     }
                 },
                 migosp: {
-                    name: 'SILENTE',
+                    name: 'ТИХОНЯ',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Exceedingly\nAgreeable',
+                        basic: 'Исключительно\nугодливый',
                         spare: 'Casually\nEnjoys Life',
                         flirt: 'In Love From\nAfar',
                         bully: 'Endangerment\nDenier'
@@ -523,7 +523,7 @@ export default {
                     }
                 },
                 jerry: {
-                    name: 'JERRY',
+                    name: 'ДЖЕРРИ',
                     author: 'Discarded Vessel',
                     text: {
                         basic: 'Getting Ditched\nOn The Daily',
@@ -1115,8 +1115,8 @@ export default {
 
         stat1: 'AT',
         stat2: 'DF',
-        stat3: 'WEAPON',
-        stat4: 'ARMOR',
+        stat3: 'ОРУЖИЕ',
+        stat4: 'БРОНЯ',
         stat5: 'GOLD',
         stat6: 'EXP',
         stat7: 'NEXT',

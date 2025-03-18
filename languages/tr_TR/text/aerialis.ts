@@ -69,7 +69,7 @@ export default {
                 ? '<25>{#p/alphys}{#g/alphysInquisitive}* Did the puzzle solve itself as well?'
                 : "<25>{#p/alphys}{#g/alphysInquisitive}* Huh, the puzzle looks like it's already been solved.",
             '<25>{#p/alphys}{#g/alphysFR}* How strange.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         puzzlenoot2: () => [
             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
@@ -78,9 +78,9 @@ export default {
                 ? "<25>{#p/alphys}{#g/alphysWelp}* And this one.\n* This one's solved as well."
                 : "<25>{#p/alphys}{#g/alphysWelp}* Huh... seems like the puzzle's already been done by someone.",
             "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        noequip: ['<32>{#p/human}* (Kuşanmamaya karar verdin.)'],
         evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
         endo: ['<32>{#p/human}* (You note the poor quality of this table.)'],
         businessKILLER: [
@@ -100,7 +100,7 @@ export default {
             "<25>{#p/alphys}{#g/alphysNervousLaugh}* You won't get into any more trouble, will you?",
             '<25>{#p/alphys}{#g/alphysSideSad}* ...',
             "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Please...\n* D-don't do anything crazy, okay?",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         escape: [
             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
@@ -115,14 +115,14 @@ export default {
             "<25>{#g/alphysNeutralSweat}* Sooner or later, she'll just use her jetpack to get up here.",
             '<25>* So... y-you should probably get going right away.',
             "<25>* The other elevator's just a few rooms ahead.\n* You can't miss it!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         approachescape: ['<32>{#p/human}* (You hear footsteps fading into the distance.)'],
         puzzlehelp: [
             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
             "<25>{#p/alphys}{#g/alphysWelp}* Just calling to let you know that I'm here if you need my help.",
             "<25>{#p/alphys}{#g/alphysCutscene2}* I'll keep my phone available while you're in the room!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         riverboi1: () => [
             '<32>{#p/basic}{#npc/a}* I am the traveler.\n* My taxi and I can take you to many places on the outpost.',
@@ -373,13 +373,13 @@ export default {
             "<25>{#p/sans}{#f/2}* tell you what, i'll just drop it right here."
         ],
         corndog2b: ['<25>{#p/sans}{#f/2}* here you go.'],
-        corndog3: ["<32>{#p/human}* (You don't have enough G.)"],
+        corndog3: ["<32>{#p/human}* (Yeterince A'n yok.)"],
         corndog3x: () =>
             [
                 [
                     "<25>{#p/sans}{#f/0}* you don't even have 5G?",
                     '<25>{#p/sans}{#f/3}* ... here.\n* take some of mine.',
-                    '<32>{#s/equip}{#p/human}* (You got 100G.)',
+                    '<32>{#s/equip}{#p/human}* (100A aldın.)',
                     '<25>{#p/sans}{#f/2}* hope that helps.'
                 ],
                 [
@@ -454,7 +454,7 @@ export default {
                     '<25>{#f/2}* if you see any bouncy armored guards up there, let me know.',
                     '<25>{#f/3}* i lost track of them on the way out here.'
                 ]),
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         tvm1: ['<32>{#p/human}* (You got the Old Radio.)', '<32>{#p/basic}{#npc/a}* Hope you like your new radio!'],
         tvm2: ['<32>{#p/human}* (You got the Fireworks.)', '<32>{#p/basic}{#npc/a}* Hope you enjoy the fireworks!'],
@@ -484,7 +484,7 @@ export default {
         tvm6: () => [
             '<32>{#p/basic}{#npc/a}* There was a Mew Mew doll here for you, but Mettaton had it recalled for personal reasons.',
             "<32>{#p/basic}{#npc/a}* As compensation, here's its full value in G.",
-            '<32>{#s/equip}{#p/human}{#npc}* (You got 999G.)',
+            '<32>{#s/equip}{#p/human}{#npc}* (999A aldın.)',
             ...((SAVE.data.b.a_state_moneyitemA && !SAVE.data.b.item_tvm_radio) ||
                 (SAVE.data.b.a_state_moneyitemB && !SAVE.data.b.item_tvm_fireworks)
                 ? ['<32>{#p/basic}{#npc/a}* The rest of your winnings are still available for pickup.']
@@ -525,7 +525,7 @@ export default {
             '<32>{#s/equip}{#p/human}* (You got the Hyper Vortex Pop.)'
         ],
         spidershop3: ["<32>{#p/human}* (You're carrying too much.)"],
-        spidershop4: ["<32>{#p/human}* (You don't have enough G.)"],
+        spidershop4: ["<32>{#p/human}* (Yeterince A'n yok.)"],
         spidershop5: ['<32>{#p/human}* (You decide not to leave anything.)'],
         spidershop6: [
             "<32>{#p/basic}* There's a message woven into the web.",
@@ -603,7 +603,7 @@ export default {
             '<18>{#f/7}I REFUSE TO STAND AROUND AND DO NOTHING ALL DAY.',
             '<18>{#f/4}...',
             '<18>{#f/4}SEE YOU SOON.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klik...'
         ],
         story: {
             phonegrabber1: () => [
@@ -1150,7 +1150,7 @@ export default {
                                 : "<25>{#g/alphysUhButHeresTheDeal}* Actually, you don't even have it, so never mind.",
                             '<25>{|}{#g/alphysCutscene3}* Anyway see you at the elevator baiiii- {%}'
                         ]),
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klik...'
             ],
             puzzleReaction1: [
                 '<32>{#p/event}* Ring, ring...',
@@ -1298,7 +1298,7 @@ export default {
                 SAVE.data.n.state_foundry_undyne > 0
                     ? '<25>{#p/alphys}{#f/3}* G-good luck?'
                     : "<25>{#p/alphys}{#g/alphysHellYeah}* Now we're cooking!",
-                '<32>{#s/equip}{#p/event}* Click...',
+                '<32>{#s/equip}{#p/event}* Klik...',
                 ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* This is absolutely bonkers.'])
             ],
             cooker13x: ['<32>{#p/human}* (You activated the jetpack.)'],
@@ -4667,7 +4667,7 @@ export default {
                             "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
                             '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
                             '<25>{#g/alphysThatSucks}* Sorry...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
@@ -4675,7 +4675,7 @@ export default {
                             "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                             "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
                             "<26>{#f/10}* S-so don't be stupid!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
@@ -4683,26 +4683,26 @@ export default {
                             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
                             "<25>{#p/alphys}{#g/alphysSideSad}* It's not safe to go that far...",
                             "<25>{#g/alphysNeutralSweat}* I'm gonna pull you back now.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
                             '<25>{#p/alphys}{#g/alphysShocked}* W-what are you doing!?',
                             "<26>{#f/3}* You're almost at the edge!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
                             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
                             '<25>{#p/alphys}{#g/alphysWTF}* ...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Zırr, zırr...',
                             '<25>{#p/alphys}{#g/alphysIDK2}* ...',
                             "<25>{#p/alphys}{#g/alphysIDK3}* I guess... there's nothing I can say to stop you.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klik...'
                         ]
             ),
             puzzlestop1b: () =>
@@ -6283,7 +6283,7 @@ export default {
                         : "<32>{#p/basic}* It's a filament-exclusive vending machine.",
                     choicer.create('* (Buy the Filament for 40G?)', 'Evet', 'Hayır')
                 ],
-        candy2: ["<32>{#p/human}* (You don't have enough G.)"],
+        candy2: ["<32>{#p/human}* (Yeterince A'n yok.)"],
         candy3: ["<32>{#p/human}* (You're carrying too much.)"],
         candy4: ['<32>{#p/human}* (You got the Filament.)'],
         candy5: ['<32>{#p/human}* (You decide not to buy.)'],
@@ -10913,7 +10913,7 @@ export default {
                     ? '<09>{#p/basic}{#k/5}Sorry, that was one of a kind.'
                     : '<09>{#p/basic}{#k/4}Sorry, that was one of a kind.',
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Konuş', 'Exit'],
         menuPrompt1: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
@@ -11188,7 +11188,7 @@ export default {
                 ? '<09>{#p/basic}Nothing left.'
                 : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}We're all sold out!\nMee-YOW!",
         menu: () =>
-            adultEvac() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            adultEvac() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Konuş', 'Exit'],
         menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!',
         menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything.',
         menuPrompt3: () =>

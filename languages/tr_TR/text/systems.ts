@@ -1127,7 +1127,7 @@ export default {
         stat12: 'DURUM',
         stat13: '\"$(x)\"',
 
-        story1: ['<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi\'ne iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
+        story1: ['<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemine iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
         story2: ['<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}'],
         story3: ["<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}"],
         story4: ['<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}'],

@@ -236,7 +236,7 @@ export default {
             d18: ['<25>{#p/asriel1}{#f/21}* Neymiş bakalım?'],
             d19: [
                 '<32>{#p/basic}* Güç kalkanını birlikte geçtiğimiz zamanı hatırlıyor musun?',
-                '<32>* Eski dünyanın harabelerine vardığımız, ve o insanlar tarafından bulunduğumuz zaman?\n',
+                '<32>* Eski ana gezegenin harabelerine vardığımız, ve o insanlar tarafından bulunduğumuz zaman?\n',
                 '<32>* Gücümüzü onları yok etmek için kullanmak istemiştim... ama sen beni durdurmuştun, hatırladın mı?'
             ],
             d20: ['<25>{#p/asriel1}{#f/16}* ... evet.'],
@@ -2950,7 +2950,7 @@ export default {
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Tabelanın, artık faaliyette olmayan bir biftek satışı reklamı olduğu görülüyor.)']
                     : [
-                        '<32>{#p/basic}* \"Be sure to catch a slice of Glyde\'s Signature Steak (TM) in the activities room!\"'
+                        '<32>{#p/basic}* \"Aktivite odasında Glyde\'ın İmzalı Bifteğinden (TM) bir dilim kapmayı sakın unutmayın!\"'
                     ],
             w_ta_box: () =>
                 SAVE.data.b.svr
@@ -2999,13 +2999,13 @@ export default {
                             [
                                 "<25>{#p/asriel1}{#f/13}* Şimdiye kadar çoktan gitti, ama burada yaptığım asıl çizim...",
                                 '<25>{#f/17}* ... esasen \"hiper ölüm tanrısı\" formumun taslağıydı.',
-                                '<25>{#f/17}* Super skybreaker, titanium striker...',
-                                '<25>{#f/20}* And, of course, the legendary \"hyper goner.\"'
+                                '<25>{#f/17}* Süper gökparçalayıcı, titanyum vurucu...',
+                                '<25>{#f/20}* Ve, tabii ki, efsanevi \"hiperyok edici.\"'
                             ],
                             [
                                 '<25>{#p/asriel1}{#f/17}* Evet... Sanırım her şeyi planlamıştım.',
                                 '<25>{#f/20}* Her zaman çılgın fikirlerle dolup taşardım...',
-                                '<25>{#f/1}* Ooh, you would have ADORED my pan-galactic starship concept.'
+                                '<25>{#f/1}* Ooh, benim pan-galaktik uzay gemisi konseptime BAYILIRDIN.'
                             ],
                             [
                                 '<25>{#p/asriel1}{#f/17}* Frisk, umarım...',
@@ -3096,8 +3096,8 @@ export default {
                                 : ['<32>{#p/basic}* Bu bitki seni gördüğü için kendinden geçiyor!'],
             w_th_sausage: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You rustle the corny plant.)']
-                    : ['<32>{#p/basic}* This plant looks quite corny.'],
+                    ? ['<32>{#p/human}* (Bayat bitkiyi hışırdatıyorsun.)']
+                    : ['<32>{#p/basic}* Bu bitki oldukça bayat görünüyor.'],
             w_th_table1: () => [
                 '<32>{#p/human}* (Masanın altına bakıp bir boya seti buluyorsun.)',
                 ...(SAVE.data.b.svr
@@ -3264,9 +3264,9 @@ export default {
                             '<32>{#p/human}* (Bir kitap seçiyorsun...)',
                             '<32>{#p/basic}* \"Selamlar, sevgili bahçıvanlar.\"',
                             '<32>* \"Söz konusu Yıldızcık çiçekleri olduğunda, gelişim ve durgunluk arasındaki çizgi...\"',
-                            '<32>* \"Is access to open space.\"',
-                            '<32>* \"That is why they are commonly grown in Aerialis...\"',
-                            '<32>* \"It is the most open area of the outpost.\"',
+                            '<32>* \"Açık alana olan erişimlerine bağlıdır.\"',
+                            '<32>* \"Bu nedenle yaygın olarak Aerialis\'te yetiştirilirler.\"',
+                            '<32>* \"Orası karakolun en açık alanıdır.\"',
                             '<32>{#p/human}* (Kitabı rafa geri koyuyorsun.)'
                         ]
             ),
@@ -3295,20 +3295,20 @@ export default {
                         [
                             '<25>{#p/asriel1}{#f/20}* $(name) bunlar müzik aletiymiş gibi davranırdı.',
                             '<25>{#f/17}* Onları yerlerinden çıkarır, \"çalıyor\" gibi yapardı...',
-                            '<25>{#f/20}* Once, I joined in, and we did a little fire- poker-instrument duet.',
-                            '<26>{#f/13}* We started using our voices to emulate the instruments, and then...',
-                            '<25>{#f/17}* Mom and Dad walked in to add backing vocals!'
+                            '<25>{#f/20}* Bir keresinde, ben de katıldım, ve küçük bir ateş- süngüsü-enstrümanı düeti yaptık.',
+                            '<26>{#f/13}* Seslerimizi kullanarak enstrümanları taklit etmeye başladık, ve sonra...',
+                            '<25>{#f/17}* Annem ve Babam içeri girip arka vokalleri eklediler!'
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* Then, as it turns out, someone had been listening in outside.',
-                            '<25>{#f/15}* Before we knew it, we had monsters coming to the house in droves...',
-                            '<25>{#f/17}* $(name) and I were still in the middle of the room, doing our thing.',
-                            '<25>{#f/20}* But now we had an entire orchestra behind us!',
-                            '<25>{#f/17}* We must have performed half of the Harmonexus Index that day.',
-                            "<25>{#f/17}* ... it's an old book full of songs from our culture."
+                            '<25>{#p/asriel1}{#f/13}* Sonra, meğer birisi dışarıdan bizi dinliyormuş.',
+                            '<25>{#f/15}* Biz ne olduğunu anlayamadan, eve akın akın canavarlar gelmeye başladı...',
+                            '<25>{#f/17}* $(name) ve ben hala odanın ortasında, kendi halimizde çalmaya devam ediyorduk.',
+                            '<25>{#f/20}* Ama artık arkamızda koca bir orkestra vardı!',
+                            '<25>{#f/17}* O gün muhtemelen Harmonexus İndeks\'in yarısını sergilemiş olmalıyız.',
+                            "<25>{#f/17}* ... bizim kültürümüzden şarkılarla dolu eski bir kitap."
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/13}* All that because we played pretend with some fire pokers...',
+                            '<25>{#p/asriel1}{#f/13}* Bunların hepsi birkaç ateş süngüsüyle oyun oynamış olmamız yüzünden...',
                             '<25>{#f/17}* Herhangi bir şeyden bir enstrüman yapabileceğini söylerler.',
                             '<25>{#f/13}* ...',
                             "<25>{#f/15}* Bir dakika...\n* BEN de bir şeyim..." 
@@ -3316,17 +3316,17 @@ export default {
                         ["<25>{#p/asriel1}{#f/20}* Lütfen benden bir müzik enstrümanı yapma."]
                     ][Math.min(asrielinter.w_tl_tools++, 3)]
                     : world.darker
-                        ? ['<32>{#p/basic}* Fire pokers.']
+                        ? ['<32>{#p/basic}* Ateş süngüleri.']
                         : SAVE.data.n.plot === 72
                             ? [
-                                "<32>{#p/basic}* They're just fire pokers...\n* Or are they?",
+                                "<32>{#p/basic}* Bunlar yalnızca ateş süngüleri...\n* Yoksa öyle değil mi?",
                                 "<32>* Toriel'in ateşinin sadece hoş bir ılıklık olduğunu, hiç de sıcak olmadığını düşün.",
-                                '<32>* Why would she need these?',
-                                '<32>* Thus, by the process of elimination, these must be advanced musical instruments.'
+                                '<32>* Bunlara neden ihtiyacı olsun?',
+                                '<32>* Böylelikle, eleme sonucu, bunlar gelişmiş müzik aletleri olmalılar.'
                             ]
                             : [
-                                '<32>{#p/basic}* A rack of advanced musical instruments.',
-                                '<32>* Upon closer inspection, you realize these are in fact fire pokers.',
+                                '<32>{#p/basic}* Bir raf gelişmiş müzik aletleri',
+                                '<32>* Yakından incelediğinde, aslında bunların gerçekten de ateş süngüleri olduğunu fark ediyorsun.',
                                 "<32>* Söylemesi zor, çünkü bu malzemeler büyük ihtimalle...",
                                 '<32>* Karakolun kendisi varolmadan önce yapılmıştı.'
                             ],
@@ -3363,12 +3363,12 @@ export default {
                                 ? "<32>{#p/basic}* Bir kitaplık."
                                 : "<32>{#p/basic}* Toriel'in özel kitaplığı.",
                             '<32>{#p/human}* (Bir kitap seçiyorsun...)',
-                            '<32>{#p/basic}* \"Our homeworld gone... our people dead... but why?\"',
-                            '<32>* \"Surely, the humans must\'ve had a reason for their attacks.\"',
-                            '<32>* \"Did our kind truly pose a threat to them?\"',
-                            '<32>* \"Was the threat of our potential truly that dire?\"',
-                            '<32>* \"Whatever the case may be, we were cornered, and there was nowhere else to go.\"',
-                            '<32>* \"Capitulation was our only real means of survival.\"',
+                            '<32>{#p/basic}* \"Ana gezegenimiz gitti... halkımız öldü... ama neden?\"',
+                            '<32>* \"Kuşkusuz, insanların saldırıları için bir sebepleri olmalıydı.\"',
+                            '<32>* \"Bizim türümüz sahiden de onlar için bir tehdit mi oluşturmuştu?\"',
+                            '<32>* \"Potansiyelimizin oluşturduğu tehdit gerçekten bu kadar korkunç muydu?\"',
+                            '<32>* \"Durum her ne olursa olsun, köşeye sıkıştırılmıştık, ve gidecek başka yerimiz yoktu.\"',
+                            '<32>* \"Teslim olmak hayatta kalmamız için tek gerçek yolumuzdu.\"',
                             '<32>{#p/human}* (Kitabı rafa geri koyuyorsun.)'
                         ],
                 () =>
@@ -3381,10 +3381,10 @@ export default {
                                 ? "<32>{#p/basic}* Bir kitaplık."
                                 : "<32>{#p/basic}* Toriel'in özel kitaplığı.",
                             '<32>{#p/human}* (Bir kitap seçiyorsun...)',
-                            '<32>{#p/basic}* \"When a boss monster is born, a magical link forms between the parents and the child.\"',
-                            '<32>* \"Through this, their SOUL is created, ageing the parents along with the child.\"',
-                            '<32>* \"The SOUL of a fully-grown boss monster is the strongest known to monsterkind...\"',
-                            '<32>* \"Able to persist after death, if only for the briefest of periods.\"',
+                            '<32>{#p/basic}* \"Bir ana canavar doğduğunda, ebeveynler ve çocuk arasında büyülü bir bağ oluşur.\"',
+                            '<32>* \"Bunun aracılığıyla, onun RUHU meydana gelir, ve ebeveynler de çocukla beraber yaşlanır.\"',
+                            '<32>* \"Yetişkin bir ana canavarın RUHU, canavar türünün bilinen en güçlüsüdür...\"',
+                            '<32>* \"En kısa süreliğine de olsa, ölümden sonra varlığını sürdürebilir.\"',
                             '<32>{#p/human}* (Kitabı rafa geri koyuyorsun.)'
                         ],
                 () =>
@@ -3397,10 +3397,10 @@ export default {
                                 ? "<32>{#p/basic}* Bir kitaplık."
                                 : "<32>{#p/basic}* Toriel'in özel kitaplığı.",
                             '<32>{#p/human}* (Bir kitap seçiyorsun...)',
-                            '<32>{#p/basic}* \"We often worry about what would happen if a human attacked us.\"',
-                            '<33>* \"But what if one of our own attacked instead...?\"',
-                            '<32>* \"Would we as a society be able to handle such a betrayal?\"',
-                            '<32>* \"But who would think to do such a thing?\"',
+                            '<32>{#p/basic}* \"Sık sık eğer bize bir insan saldırsaydı ne olurdu, merak ederiz.\"',
+                            '<33>* \"Ama ya onun yerine bizden birisi saldırsa...?\"',
+                            '<32>* \"Toplum olarak böylesine bir ihaneti kabullenebilir miydik?\"',
+                            '<32>* \"Ama kim böyle bir şeyi yapmayı aklından geçirirdi?\"',
                             '<32>{#p/human}* (Kitabı rafa geri koyuyorsun.)'
                         ]
             ),
@@ -3410,7 +3410,7 @@ export default {
                     : SAVE.data.n.plot < 72
                         ? world.darker
                             ? ['<32>{#p/basic}* Nihayet, hepimizin kendini bağdaştırabileceği bir ev bitkisi.']
-                            : ['<32>{#p/basic}* Ah, the cactus.\n* Truly the most tsundere of plants.']
+                            : ['<32>{#p/basic}* Ah, kaktüs.\n* Gerçekten bitkiler arasındaki en tsundere olanı.']
                         : ["<32>{#p/basic}* Bu kaktüsün senin geri dönmeni beklediği falan yoktu..."],
             w_tt_chair: () =>
                 SAVE.data.b.svr
@@ -3518,21 +3518,21 @@ export default {
             ),
             w_tt_plant: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (This houseplant strikes you as exceedingly normal.)']
-                    : ["<32>{#p/basic}* It's a houseplant.", '<32>* Söylenecek daha ne var ki?'],
+                    ? ['<32>{#p/human}* (Bu saksı bitkisi sana son derece normalmiş gibi geliyor.)']
+                    : ["<32>{#p/basic}* Bir saksı bitkisi.", '<32>* Söylenecek daha ne var ki?'],
             w_tt_trash: pager.create(
                 0,
                 () =>
                     SAVE.data.b.svr
                         ? ["<32>{#p/human}* (Çöpün içinde ne olduğunu seçemiyorsun...)"]
                         : world.darker
-                            ? ['<32>{#p/basic}* Snails.']
+                            ? ['<32>{#p/basic}* Salyangozlar.']
                             : SAVE.data.n.plot === 72
-                                ? ['<32>{#p/basic}* The snails are beginning to smell... ghostly.', '<32>* ... what could this mean?']
+                                ? ['<32>{#p/basic}* Salyangozlar... hayalet gibi kokmaya başladı.', '<32>* ... bu ne anlama geliyor olabilir?']
                                 : [
-                                    "<32>{#p/basic}* It's Toriel's private trash can, containing...",
-                                    '<32>* Snails.',
-                                    '<32>* Oodles and oodles of snails.'
+                                    "<32>{#p/basic}* Bu Toriel'in kişisel çöp kutusu, içerisinde...",
+                                    '<32>* Salyangozlar.',
+                                    '<32>* Yığınlarca salyangoz.'
                                 ],
                 pager.create(
                     1,
@@ -3540,34 +3540,34 @@ export default {
                         SAVE.data.b.svr
                             ? ["<32>{#p/human}* (Çöpün içinde ne olduğunu seçemiyorsun...)"]
                             : world.darker
-                                ? ['<32>{#p/basic}* Snails.']
+                                ? ['<32>{#p/basic}* Salyangozlar.']
                                 : SAVE.data.n.plot === 72
-                                    ? ['<32>{#p/basic}* Maybe this is how snails live past their expiry date.']
-                                    : ['<32>{#p/basic}* And nothing BUT snails.'],
+                                    ? ['<32>{#p/basic}* Belki de salyangozlar, son kullanma tarihlerini böyle aşıyorlardır.']
+                                    : ['<32>{#p/basic}* Ve salyangozların dışında HİÇBİR ŞEY yok.'],
                     () =>
                         SAVE.data.b.svr
                             ? ["<32>{#p/human}* (Çöpün içinde ne olduğunu seçemiyorsun...)"]
                             : world.darker
-                                ? ['<32>{#p/basic}* Snails.']
+                                ? ['<32>{#p/basic}* Salyangozlar.']
                                 : SAVE.data.n.plot === 72
-                                    ? ["<32>{#p/basic}* Or maybe I've just gone and lost it completely."]
-                                    : ['<32>{#p/basic}* ...\n* Did I mention the snails?'],
+                                    ? ["<32>{#p/basic}* Ya da belki de tamamen aklımı yitirdim."]
+                                    : ['<32>{#p/basic}* ...\n* Salyangozlardan bahsetmiş miydim?'],
                     () =>
                         SAVE.data.b.svr
                             ? ["<32>{#p/human}* (Çöpün içinde ne olduğunu seçemiyorsun...)"]
                             : world.darker
-                                ? ['<32>{#p/basic}* Snails.']
+                                ? ['<32>{#p/basic}* Salyangozlar.']
                                 : SAVE.data.n.plot === 72
-                                    ? ['<32>{#p/basic}* Or maybe...', '<32>* ... wait, what was I saying?']
-                                    : ['<32>{#p/basic}* Snails.'],
+                                    ? ['<32>{#p/basic}* Ya da belki de...', '<32>* ... bekle, ne diyordum?']
+                                    : ['<32>{#p/basic}* Salyangozlar.'],
                     () =>
                         SAVE.data.b.svr
                             ? ["<32>{#p/human}* (Çöpün içinde ne olduğunu seçemiyorsun...)"]
                             : world.darker
-                                ? ['<32>{#p/basic}* Snails.']
+                                ? ['<32>{#p/basic}* Salyangozlar.']
                                 : SAVE.data.n.plot === 72
-                                    ? ["<32>{#p/basic}* Oh, right.\n* The meaning of the snails' newfound ghostly scent."]
-                                    : ['<32>{#p/basic}* Oodles and oodles of snails.']
+                                    ? ["<32>{#p/basic}* Ah, doğru.\n* Salyangozların yeni keşfedilen hayaletimsi kokularının anlamı."]
+                                    : ['<32>{#p/basic}* Yığınlarca salyangoz.']
                 )
             ),
             w_tutorial_view: () =>
@@ -5035,7 +5035,7 @@ export default {
                     '<25>{#f/1}* İlerlemeye devam et...'
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
+                    '<25>{#p/toriel}{#f/1}* Şimdiye kadar \"kütleçekimsel invertör\" hakkında duyduğunu farz ediyorum?',
                     '<26>{#f/0}* Sans\'in bana hakkında pek çok şey anlattığı bir cihaz bu.',
                     '<25>{#f/1}* Meğer orada bambaşka bir dünya varmış...',
                     '<25>{#f/0}* Öyle bir yer ki, her şey her zaman doğru yöne bakmıyormuş.'
@@ -5055,7 +5055,7 @@ export default {
             '<25>{#f/0}* Ama o değil!\n* O iskelet kendisi için en iyisini biliyor.'
         ],
         s_papyrus: [
-            '<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his station.',
+            '<25>{#p/toriel}* Sans bana Papyrus\'un istasyonuna eklediği aletler hakkında her şeyi anlattı.',
             '<25>{#f/1}* İlk olarak, görevine \"sarkabilmesi\" için bir tutacak...',
             '<25>{#f/1}* Yıldızlar üzerinde \"düzeltme\" yapmak için kullanılan sözde bir \"gökyüzü anahtarı...\"',
             '<25>{#f/0}* Ve birçok sorumluluğunu takip edebilmesi için bir ekran bağlantısı.',
@@ -5073,14 +5073,14 @@ export default {
             '<25>{#p/toriel}{#f/1}* Ah, ne hoş bir ses...',
             '<25>{#f/0}* Bir inşaatçı botunu her yerde tanırım.',
             '<25>{#f/5}* Yapay zeka programları yasaklandıktan sonra, çoğu devre dışı kaldı...',
-            '<25>{#f/1}* But the two whose sentience did not corrupt them...',
-            '<25>{#f/0}* Were allowed a more graceful retirement.',
+            '<25>{#f/1}* Ama bilinçleri bozulmayan ikisi...',
+            '<25>{#f/0}* Daha zarif bir emekliliğe izin verildi.',
             '<25>{#f/0}* Bunların günümüze kadar ulaşabilmiş olduğunu bilmek güzel.'
         ],
         s_maze: [
             "<25>{#p/toriel}* Sans bana kardeşinin bulmacalara olan düşkünlüğünden bahsetti.",
             '<25>{#f/1}* Hatta duyduğuma göre kendi oluşturduğu birkaç tanesi bile varmış...?',
-            '<25>{#f/0}* I am most curious about the \"wall of fire.\"',
+            '<25>{#f/0}* En çok \"ateş duvarı\" hakkında merak ediyorum.',
             '<25>{#f/1}* Alevler sıcak mı?\n* Yoksa sadece hoşça ılık mı?',
             '<25>{#f/5}* Senin iyiliğin için, ikincisinin doğru olmasını umarım.'
         ],
@@ -5105,10 +5105,10 @@ export default {
         ],
         s_spaghetti: [
             "<25>{#p/toriel}* Sans, Papyrus'un spagetti yemeklerine olan ilgisinden bahsetmişti.",
-            '<25>{#f/6}* But why stop there?\n* Just imagine the PASTABILITIES...',
+            '<25>{#f/6}* Ama neden burada duralım ki?\n* Makarna ile olanakların sınırı yok...',
             '<25>{#f/8}* Rigatoni!\n* Fettuccine!\n* Acini di Pepe!',
-            '<25>{#f/0}* Some variety could really help him go FARFALLE.',
-            '<25>{#f/2}* ... in other words, go BIGOLI or go home!'
+            '<25>{#f/0}* Biraz çeşitlilik gerçekten onu UZATTIRABİLİR.',
+            '<25>{#f/2}* ... diğer bir deyişle, ya BİGOLİ yap ya da eve git!'
         ],
         s_puzzle1: [
             '<25>{#p/toriel}{#f/1}* Starton\'daki bulmacalar her nasılsa, eminim ki...',

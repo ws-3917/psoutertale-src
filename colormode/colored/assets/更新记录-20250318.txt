@@ -1,0 +1,34 @@
+## 更新时间： 2025-03-18
+
+- 代码待办
+1. 实现Childrake和Stardrake的贴图分离方案，避免二者共用贴图
+2. 实现LANG文件夹下的和语言相关的上色贴图资源替换方案
+
+- battleCharacters待办
+  * alphys
+  * asgore
+  * asriel hyper
+  * burgerpants
+  * froggit (优化)
+  * gerson
+  * glyde
+  * knightknight
+  * lurksalot
+  * madjick
+  * mettaton
+  * migosp
+  * muffet
+  * roman
+  * royalguard
+  * toriel (wrap)
+  * whimsalot
+  * whimsun (阴影，上色优化)
+
+- dialoguecharacters待办
+  * mettaton
+
+- LANG待办
+  * bodyBack (mettaton) - en_US + zh_CN + zh_TW
+  * happybreaktime (mettaton) - en_US + zh_CN + zh_TW
+  * headWan (doggo) - en_US + zh_CN + zh_TW (可能不需要处理)
+  * spiderSign.png (muffet) - en_US + zh_CN + zh_TW

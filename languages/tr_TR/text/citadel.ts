@@ -122,7 +122,7 @@ export default {
             file6saved: 'FILE 6 SAVED',
             file6loaded: 'FILE 6 LOADED'
         },
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        noequip: ['<32>{#p/human}* (Kuşanmamaya karar verdin.)'],
         genotext: {
             monologue: [
                 (re: boolean) => [

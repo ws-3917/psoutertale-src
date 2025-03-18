@@ -21,175 +21,175 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
     SAVE.data.n.plot < 49
         ? [
-            '<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in Aerialis...',
-            '<25>{#f/0}* Used primarily to dampen electricity.',
-            '<25>{#f/1}* If you could carry this fluid, how far would you take it?',
-            '<25>{#f/1}* Would you carry it all the way to the Citadel?',
-            '<25>{#f/1}* Or would you simply dispose of it in a recycle bin?',
-            '<25>{#f/0}* How disappointing that would be.'
+            '<25>{#p/toriel}{#f/1}* Ho sentito che c\'è un certo tipo di fluido a Aerialis...',
+            '<25>{#f/0}* Usato principalmente per ridurre il voltaggio di elettricità.',
+            '<25>{#f/1}* Se potessi portare con te questo fluido, quanto lontano lo porteresti?',
+            '<25>{#f/1}* Riusciresti a portarlo fino alla Cittadella finale? ',
+            '<25>{#f/1}* O semplicemente lo butterai via dopo un po’?',
+            '<25>{#f/0}* Quello sì che sarebbe deludente.'
         ]
         : SAVE.data.n.plot < 51
             ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
                 ? [
-                    '<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher...',
-                    '<25>{#f/0}* I could host a field trip to the Royal Lab.',
-                    "<25>{#f/0}* With Dr. Alphys's permission, of course.",
-                    '<25>{#f/1}* All those interesting experiments they must conduct there...',
-                    "<25>{#f/0}* It'd be a great learning experience for the children."
+                    '<25>{#p/toriel}{#f/1}* Forse, se riuscissi mai a diventare un insegnante...',
+                    '<25>{#f/0}* Potrei organizzare una gita al Laboratorio Reale.',
+                    "<25>{#f/0}* Con il permesso della Dottoressa Alphys, ovviamente.",
+                    '<25>{#f/1}* Con tutti quei esperimenti interessanti che si potrebbero condurre...',
+                    "<25>{#f/0}* Sarebbe di certo molto istruttivo per i bambini."
                 ]
                 : [
-                    '<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little one!',
-                    '<25>{#f/0}* Though, I have not seen it, due to my lack of a TV.',
-                    '<25>{#f/1}* When I heard about it, however, I must admit I was surprised...',
+                    '<25>{#p/toriel}{#f/0}* Piccolo mio, Ho sentito che hai fatto il tuo primo debutto in TV!',
+                    '<25>{#f/0}* Anche se devo ammettere che non ti ho ancora visto, visto che non ho una TV.',
+                    '<25>{#f/1}* Però devo ammettere che, quando l\'ho saputo, sono rimasta di sasso... ',
                     SAVE.data.n.state_aerialis_talentfails === 0
-                        ? '<25>{#f/2}* How did you not miss even a SINGLE time?'
-                        : '<25>{#f/6}* I did not know you had such \"fabulous\" moves.'
+                        ? '<25>{#f/2}* Come hai fatto a non mancare neanche una SINGOLA nota o posa di ballo?'
+                        : '<25>{#f/6}* Non credevo avessi movenze così \"ganze\".'
                 ]
             : SAVE.data.n.plot < 56
                 ? [
-                    '<25>{#p/toriel}{#f/1}* Hmm...\n* The royal guards in Aerialis...',
-                    '<25>{#f/0}* Apparently, their favorite food is... salmon.',
-                    '<25>{#f/1}* Or... was it ice cream?',
-                    '<25>{#f/2}* Wait, no, I think it was pizza!',
-                    '<25>{#f/0}* All of which would be impossible without the humble replicator.',
-                    '<25>{#f/1}* And... are those not strange foods for such new recruits?'
+                    '<25>{#p/toriel}{#f/1}* Hmm...\n* Le Guardie Reali di Aerialis...',
+                    '<25>{#f/0}* Sembrerebbe che il loro cibo preferito sia...il salmone.',
+                    '<25>{#f/1}* O forse era...il gelato?',
+                    '<25>{#f/2}* No, aspetta...credo fosse la pizza!',
+                    '<25>{#f/0}* Tutti cibi che sarebbe impossibile avere senza l\'umile replicatore.',
+                    '<25>{#f/1}* Certo che...sbaglio o questi sono gusti molto strani per delle reclute della Guardia Reale?'
                 ]
                 : SAVE.data.n.plot < 59
                     ? [
                         world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-                            ? '<25>{#p/toriel}{#f/0}* I hear you have appeared on TV, little one.'
-                            : '<25>{#p/toriel}{#f/0}* I hear you have appeared on TV again, little one.',
-                        '<25>{#f/1}* I also hear you did something shocking...',
+                            ? '<25>{#p/toriel}{#f/0}* Piccolo mio, Ho sentito che sei andato in TV.'
+                            : '<25>{#p/toriel}{#f/0}* Piccolo mio, Ho sentito che sei andato di nuovo in TV.',
+                        '<25>{#f/1}* Ho anche sentito che hai fatto qualcosa di incredibilmente irresponsabile...',
                         iFancyYourVilliany()
-                            ? '<25>{#f/2}* And altered crafting ingredients to create plastic explosive!'
+                            ? '<25>{#f/2}* E hai mischiato degli ingredienti per creare del esplosivo al plastico!'
                             : SAVE.data.n.state_aerialis_crafterresult === 0
-                                ? '<25>{#f/2}* And held your ground against the threat of an impending explosion!'
-                                : '<25>{#f/2}* And flew a \"one-time use portable jetpack\" by yourself!',
-                        '<25>{#f/3}* ... are you...',
-                        '<25>{#f/4}* Are you TRYING to put your life in danger?'
+                                ? '<25>{#f/2}* Senza contare che sei pure riuscito a farti valere contro la minaccia di un esplosione imminente!'
+                                : '<25>{#f/2}* E per finire hai usato un instabile \"jetpack usa e getta\" da solo e senza la supervisione di un adulto!',
+                        '<25>{#f/3}* ...stai per caso...',
+                        '<25>{#f/4}* Stai per caso CERCANDO di farti uccidere?'
                     ]
                     : SAVE.data.n.plot < 60
                         ? [
-                            '<25>{#p/toriel}{#f/1}* What kind of puzzles do they have in Aerialis?',
-                            '<25>{#f/1}* Are they laser-based?',
-                            '<25>{#f/1}* Do they bring you back to the start when you fail?',
-                            '<25>{#f/1}* ... can they be explicitly \"failed\" as such?',
-                            '<25>{#f/0}* Hmm...\n* Pardon me for asking so many questions.',
-                            '<25>{#f/1}* A fan of puzzles like myself cannot help but ponder these things...'
+                            '<25>{#p/toriel}{#f/1}* Che tipi di puzzle hanno là a Aerialis? ',
+                            '<25>{#f/1}* Sono tutti a tema laser?',
+                            '<25>{#f/1}* Se li sbagli ti riportano all\'inizio per farti riprovare?',
+                            '<25>{#f/1}* ...se è così si può usare questo meccanismo per risolvere il puzzle in un altro modo?',
+                            '<25>{#f/0}* Hmm...\n* Scusa se ti faccio troppe domande.',
+                            '<25>{#f/1}* Ma una fan di puzzle come me non riesce a non chiedersi certe cose...'
                         ]
                         : SAVE.data.n.plot < 61
                             ? [
-                                '<25>{#p/toriel}{#f/1}* When hearing about your hijinks with Mettaton...',
-                                '<25>{#f/0}* I had a thought.',
-                                '<25>{#f/1}* How could a robot like him exist after the ban on AI programs?',
-                                '<25>{#f/5}* Surely Dr. Alphys would not break such a well- established rule.',
-                                '<25>{#f/0}* No...\n* There must be some other explanation.'
+                                '<25>{#p/toriel}{#f/1}* Quando ho sentito delle tue disavventure con Mettaton...',
+                                '<25>{#f/0}* Mi è venuta in mente una cosa.',
+                                '<25>{#f/1}* Come è possibile che un robot come lui esista dopo che c\'è stata l\'abolizione dei programmi che usano le AI?',
+                                '<25>{#f/5}* Di certo la Dottoressa Alphys non violerebbe una regola così ben stabilita.',
+                                '<25>{#f/0}* No...\n* Ci deve essere un\'altra spiegazione...'
                             ]
                             : SAVE.data.n.plot < 63
                                 ? [
-                                    '<25>{#p/toriel}{#f/1}* Hmm...\n* The royal guards in Aerialis...',
-                                    '<25>{#f/0}* I heard they were only just promoted to their positions.',
-                                    '<25>{#f/1}* I also heard they are quite picky about their choice of weapons...',
-                                    '<25>{#f/5}* Refuse to upgrade them despite better options on offer.',
-                                    '<25>{#f/0}* Not that I want them to upgrade their weapons.',
-                                    '<25>{#f/2}* I worry about you enough as it is!'
+                                    '<25>{#p/toriel}{#f/1}* Hmm...\n* Le Guardie Reali di Aerialis...',
+                                    '<25>{#f/0}* Ho sentito che Alphys è stata solo recentemente promossa a Scienziata Reale.',
+                                    '<25>{#f/1}* So anche che è molto riluttante a cambiare le sue armi da usare contro gli umani...',
+                                    '<25>{#f/5}* Rifiutandosi di cambiarle quando quelle che sta usando sono considerate obsolete.',
+                                    '<25>{#f/0}* Non che voglia che le aggiorni sia chiaro...',
+                                    '<25>{#f/2}* Mi preoccupo di te già abbastanza!'
                                 ]
                                 : SAVE.data.n.plot < 65
                                     ? SAVE.data.b.a_state_hapstablook
                                         ? [
-                                            '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-                                            '<25>{#f/5}* It seems this has been on their mind for some time.',
-                                            '<25>{#f/0}* Thankfully, they say it should be resolved soon.',
-                                            '<25>{#f/1}* And with the help of you, no less?',
-                                            '<25>{#f/0}* Well then.\n* I am very proud of you, little one.'
+                                            '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, mi ha parlato di recente di stare avendo alcuni problemi familiari.',
+                                            '<25>{#f/5}* Sembrerebbe che è da tanto tempo che ci pensavano.',
+                                            '<25>{#f/0}* Fortunatamente, dicono che a breve si dovrebbe risolvere tutto.',
+                                            '<25>{#f/1}* E niente di meno grazie al tuo aiuto, giusto?',
+                                            '<25>{#f/0}* Molto Bene.\n* Piccolo mio, sono molto fiera di te.'
                                         ]
                                         : [
-                                            '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-                                            '<25>{#f/5}* It seems this has been on their mind for some time.',
-                                            '<25>{#f/1}* They say their cousin tried to ask for your help, but...',
-                                            '<25>{#f/5}* You were unavailable at the time.',
-                                            '<25>{#f/1}* ... you did have a good reason, did you not?'
+                                            '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, mi ha parlato di recente di stare avendo alcuni problemi familiari.',
+                                            '<25>{#f/5}* Sembrerebbe che è da tanto tempo che ci pensavano.',
+                                            '<25>{#f/1}* Hanno detto che il loro cugino ha provato a chiederti aiuto, ma...',
+                                            '<25>{#f/5}* Non eri disponibile in quel momento.',
+                                            '<25>{#f/1}* ...hai una buona motivazione per questo, giusto?'
                                         ]
                                     : SAVE.data.n.plot < 66
                                         ? [
-                                            '<25>{#p/toriel}{#f/1}* Who knew a robot could have such a beautiful voice?',
-                                            "<25>{#f/0}* Upon hearing Mettaton's new recording, I could not believe my ears.",
-                                            '<26>{#f/1}* Though, some of the lyrics were a touch... violent, for my taste.',
+                                            '<25>{#p/toriel}{#f/1}* Chi avrebbe mai immaginato che un robot potesse avere una voce così bella?',
+                                            "<25>{#f/0}* Sentendo la nuova registrazione di Mettaton, non riuscivo a credere alle mie orecchie.",
+                                            '<26>{#f/1}* Anche se, alcune parti del testo erano un po\' troppo... violente per i miei gusti.',
                                             '<25>{#f/5}* ...',
-                                            '<25>{#f/0}* Do not worry, my child.\n* Nobody is going to cast you out into space.'
+                                            '<25>{#f/0}* Piccolo mio, non preoccuparti.\n* Nessuno ti lancerà nello spazio.'
                                         ]
                                         : SAVE.data.n.plot < 68
                                             ? [
-                                                '<25>{#p/toriel}{#f/0}* Sans tells me the \"rec center\" is a favored location of his.',
-                                                '<25>{#p/toriel}{#f/1}* Art classes, music clubs, libraries...',
-                                                '<25>{#p/toriel}{#f/5}* It is a shame much of the area is unsafe for young children.',
-                                                '<25>{#p/toriel}{#f/3}* Could they not put a little more effort into being accommodating?',
-                                                '<25>{#p/toriel}{#f/2}* Those mediums can offer valuable transformative experiences!'
+                                                '<25>{#p/toriel}{#f/0}* Sans mi ha detto che il centro ricreazionale è uno dei suoi posti preferiti. ',
+                                                '<25>{#p/toriel}{#f/1}* Classe d\'arte, club di musica, librerie...',
+                                                '<25>{#p/toriel}{#f/5}* È davvero un peccato che gran parte del area non è sicura per i bambini.',
+                                                '<25>{#p/toriel}{#f/3}* Non potrebbero provare un po\' di più ad accontentare tutti?',
+                                                '<25>{#p/toriel}{#f/2}* Quei mezzi potrebbero offrire preziose esperienze di apprendimento!'
                                             ]
                                             : SAVE.data.n.plot < 70
                                                 ? world.bad_robot
                                                     ? [
-                                                        '<25>{#p/toriel}{#f/0}* Everyone I know is upset about a cancelled \"grand finale.\"',
-                                                        '<25>{#p/toriel}{#f/0}* They say it would have been quite the fight.',
-                                                        '<25>{#p/toriel}{#f/1}* While I am relieved you did not have to take on such a battle...',
-                                                        '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+                                                        '<25>{#p/toriel}{#f/0}* Tutti quelli che conosco sono tristi riguardo alla cancellazione del \"Gran Finale.\"',
+                                                        '<25>{#p/toriel}{#f/0}* A quanto pare dicono che sarebbe stato uno show da non perdere.',
+                                                        '<25>{#p/toriel}{#f/1}* E anche se è vero che sono sollevata che non hai dovuto affrontare tale battaglia...',
+                                                        '<25>{#p/toriel}{#f/5}* Non riesco a non preoccuparmi per quello che ti aspetta ora.'
                                                     ]
                                                     : SAVE.data.b.killed_mettaton
                                                         ? [
-                                                            '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-                                                            '<25>{#p/toriel}{#f/1}* They say Mettaton gave his life for the good of the show...',
-                                                            '<25>{#p/toriel}{#f/0}* But I know better.',
-                                                            '<25>{#p/toriel}{#f/1}* After all, robots can be repaired, can they not?'
+                                                            '<25>{#p/toriel}{#f/0}* Tutti quelli che conosco non hanno fatto altro che parlare del così detto \"Gran Finale.\"',
+                                                            '<25>{#p/toriel}{#f/1}* Dicono che Mettaton ha dato la sua vita per il bene dello show...',
+                                                            '<25>{#p/toriel}{#f/0}* Ma io so che non è così.',
+                                                            '<25>{#p/toriel}{#f/1}* Dopo tutto i robot si posso sempre riparare, non ne è vero?'
                                                         ]
                                                         : [
-                                                            '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-                                                            '<25>{#p/toriel}{#f/0}* They say watching you and Mettaton really made them happy.',
-                                                            '<25>{#p/toriel}{#f/1}* While I am glad that you appear to have had a good time...',
-                                                            '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+                                                            '<25>{#p/toriel}{#f/0}* Tutti quelli che conosco non hanno fatto altro che parlare del così detto \"Gran Finale.\"',
+                                                            '<25>{#p/toriel}{#f/0}* Dicono che guardare te e Mettaton li ha resi davvero felici.',
+                                                            '<25>{#p/toriel}{#f/1}* E anche se sono felice che sembra che ti sia divertito...',
+                                                            '<25>{#p/toriel}{#f/5}* Non riesco a non preoccuparmi per quello che ti aspetta ora.'
                                                         ]
                                                 : [
-                                                    '<25>{#p/toriel}{#f/1}* Are you still doing alright out there, little one?',
-                                                    '<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now.',
+                                                    '<25>{#p/toriel}{#f/1}* Piccolo mio, va tutto bene?',
+                                                    '<25>{#p/toriel}{#f/5}* Probabilmente ormai sei già stato alla Cittadella.',
                                                     '<25>{#p/toriel}{#f/9}* ...',
-                                                    "<25>{#p/toriel}{#f/10}* Be good, won't you?"
+                                                    "<25>{#p/toriel}{#f/10}* Farai il bravo, non è vero?"
                                                 ];
 
 export default {
     a_outlands: {
         darktorielcall: [
-            '<26>{#p/toriel}{#f/5}* I apologize, little one.\n* I have once again turned off my phone.',
-            '<25>{#p/toriel}{#f/9}* Please, leave me here for the time being.',
-            '<25>{#p/toriel}{#f/10}* I will return to you and the others in due time.'
+            '<26>{#p/toriel}{#f/5}* Piccolo mio, scusami.\n* Avevo di nuovo spento il mio telefono.',
+            '<25>{#p/toriel}{#f/9}* Per favore, lasciami qua per il momento.',
+            '<25>{#p/toriel}{#f/10}* Tornerò con te e gli altri a tempo debito.'
         ],
         secret1: () => [
-            '<32>{#p/basic}* There is a door here.\n* It is locked.',
-            ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Perhaps there's a key somewhere...?"])
+            '<32>{#p/basic}* C\'è una porta qui.\n* É bloccata.',
+            ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Forse puoi trovare una chiave da qualche parte...?"])
         ],
-        secret2: ['<32>{#p/human}* (You use the Secret Key.)'],
-        exit: () => [choicer.create('* (Exit the Outlands?)', 'Yes', 'No')],
-        nosleep: ['<32>{#p/human}* (Something seems to have interrupted your sleep.)'],
-        noequip: ['<32>{#p/human}* (You decide not to equip.)'],
+        secret2: ['<32>{#p/human}* (Hai usato la Chiave Segreta.)'],
+        exit: () => [choicer.create('* (Uscire dalle Outlands?)', 'Sì', 'No')],
+        nosleep: ['<32>{#p/human}* (Sembra che qualcosa abbia interrotto il tuo riposo.)'],
+        noequip: ['<32>{#p/human}* (Decidi di non equipaggiarlo.)'],
         finaltext: {
-            a: ["<32>{#p/basic}* He's gotta be around here somewhere..."],
-            b: ['<32>{#p/basic}* Huh...?', '<32>{#p/basic}* Is that... him?\n* Out there?'],
+            a: ["<32>{#p/basic}* Deve essere qui intorno da qualche parte..."],
+            b: ['<32>{#p/basic}* Huh...?', '<32>{#p/basic}* É davvero...lui?\n* Là sotto?'],
             c: [
-                "<32>{#p/basic}* ... it's him.",
-                "<32>* ...\n* Frisk, if you're ready...",
-                "<32>* If you've seen everyone else you wanted to see...",
+                "<32>{#p/basic}* ...è davvero lui.",
+                "<32>* ...\n* Frisk, Se sei pronto...",
+                "<32>* Se hai salutato tutti gli altri che volevi vedere...",
                 '<32>* ...',
-                '<32>* You know what to do.',
-                "<32>* Otherwise, I'll wait until you're ready."
+                '<32>* Sai cosa fare.',
+                "<32>* Altrimenti, aspetterò fino a quando non sei pronto."
             ],
             d1: ['<32>{#p/basic}* Asriel.'],
-            d2: ['<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Is that you...?'],
-            d3: ["<32>{#p/basic}* Asriel, it's me...", '<32>{#p/basic}* Your best friend, remember?'],
+            d2: ['<25>{#p/asriel1}{#f/13}* ... Frisk?\n* Sei davvero tu...?'],
+            d3: ["<32>{#p/basic}* Asriel, sono io...", '<32>{#p/basic}* Non ti sei scordato del tuo migliore amico, giusto?'],
             d4: [
                 '<25>{#p/asriel1}{#f/25}* ...!',
                 '<25>{#f/25}* $(name)...?',
-                "<25>{#f/13}* But... you're...",
-                "<25>{#f/23}* ... you're..."
+                "<25>{#f/13}* Ma...tu sei...",
+                "<25>{#f/23}* ... tu sei..."
             ],
-            d5: ['<32>{#p/basic}* Dead?'],
+            d5: ['<32>{#p/basic}* Morto?'],
             d6: [
                 '<32>{#p/basic}* Heh.\n* For a long time... part of me wished I was.',
                 '<32>{#p/basic}* After what I did to you, I...\n* I felt like I deserved it.'
@@ -467,11 +467,11 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    choicer.create('* (Chew the gum?)', 'Sì', 'No')
                 ]
                 : [
                     '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    choicer.create('* (Chew the gum?)', 'Sì', 'No')
                 ],
         stargum2: ['<32>{#p/human}* (You decide not to chew.)'],
         stargum3: ['<32>{#p/human}* (You recovered $(x) HP.)'],
@@ -480,7 +480,7 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                    choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                    choicer.create('* (Crawl inside?)', 'Sì', 'No')
                 ]
                 : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -488,7 +488,7 @@ export default {
                         : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
                     ...(world.darker
                         ? []
-                        : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                        : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Sì', 'No')])
                 ],
         fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
         fireplace2b: () => [
@@ -577,9 +577,9 @@ export default {
         asriel2: () => [
             '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
             "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-            choicer.create('* (Follow Him?)', 'Yes', 'No')
+            choicer.create('* (Follow Him?)', 'Sì', 'No')
         ],
-        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Yes', 'No')],
+        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Sì', 'No')],
         asriel3: ['<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this."],
         asriel4: ["<25>{#p/asriel2}{#f/4}* I'll be waiting, then."],
         asrielDiary: [
@@ -719,7 +719,7 @@ export default {
         },
         midsleep: () => [
             '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-            choicer.create('* (Go to sleep?)', 'Yes', 'No')
+            choicer.create('* (Go to sleep?)', 'Sì', 'No')
         ],
         bedfailToriel: [
             '<25>{#p/toriel}{#f/5}* Oh dear.',
@@ -732,11 +732,11 @@ export default {
             '<32>{#p/napstablook}* Zzz... Zzz...',
             '<32>* Zzz... Zzz...',
             "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Sì', 'No')
         ],
         blooky2: () => [
             '<32>{#p/basic}* The ghost is still blocking the way.',
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Sì', 'No')
         ],
         blooky3: [
             '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
@@ -836,7 +836,7 @@ export default {
             '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
             '<25>{#f/1}* ...\n* If you like, I can read you this book...',
             '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Sì', 'No')
         ],
         chair1f: pager.create(
             0,
@@ -845,12 +845,12 @@ export default {
         ),
         chair2a1: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Have breakfast?)', 'Sì', 'No')
         ],
         chair2a2: ['<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.'],
         chair2a3: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Have breakfast?)', 'Sì', 'No')
         ],
         chair2a4: () =>
             SAVE.data.b.drop_snails
@@ -868,16 +868,16 @@ export default {
             '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
             '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
             '<25>{#f/1}* Would you like me to read it to you?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Sì', 'No')
         ],
         chair2c2: ['<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...'],
         chair2c3: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Sì', 'No')
         ],
         chair2c4: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Sì', 'No')
         ],
         chair2c5: ['<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...'],
         chair2c6: [
@@ -1078,7 +1078,7 @@ export default {
             '<25>{#f/0}* No matter.\n* I will operate it for you.',
             '<25>{#f/0}* ...',
             '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-            choicer.create('* (Solve the riddle?)', 'Yes', 'No')
+            choicer.create('* (Solve the riddle?)', 'Sì', 'No')
         ],
         danger_puzzle5a: [
             '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
@@ -1120,7 +1120,7 @@ export default {
         dipper: {
             a: () => [
                 '<32>{#p/human}* (You got the Little Dipper.)',
-                choicer.create('* (Equip the Little Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Little Dipper?)', 'Sì', 'No')
             ],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
@@ -1651,7 +1651,7 @@ export default {
                         : ['<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.'],
             b: () => [
                 ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* ...', '<32>* Do you want it?']),
-                choicer.create('* (Take the Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take the Chocolate Bar?)', 'Sì', 'No')
             ],
             b1: ['<32>{#p/human}* (You decide not to take anything.)'],
             b2: () => [
@@ -1712,7 +1712,7 @@ export default {
                         '<25>{#f/9}* I did my best to try and salvage it...'
                     ]
                     : []),
-            choicer.create("* (See Napstablook's show?)", 'Yes', 'No')
+            choicer.create("* (See Napstablook's show?)", 'Sì', 'No')
         ],
         front2a: ['<25>{#p/toriel}{#f/0}* Wonderful!\n* I will let them know you are coming.'],
         front2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* I will be in the living room if you need me.'],
@@ -1814,7 +1814,7 @@ export default {
             '<25>{#f/0}* It means a lot to me.'
         ],
         halo: {
-            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Yes', 'No')],
+            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Sì', 'No')],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
         indie1: () => [
@@ -1826,18 +1826,18 @@ export default {
                 : ['<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.']),
             '<25>{#f/1}* Do you think you can make it to the end of this room...',
             '<25>{#f/1}* ... all by yourself?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Sì', 'No')
         ],
         indie1a: () => [
             '<25>{#p/toriel}{#f/1}* Are you sure...?',
             '<25>{#f/0}* It is only a short distance away.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Sì', 'No')
         ],
         indie1b: () => [
             '<25>{#p/toriel}{#f/5}* My child.',
             '<25>{#f/1}* It IS important to do things on your own, is it not?',
             '<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to take you home.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Sì', 'No')
         ],
         indie2a: ['<25>{#p/toriel}{#f/1}* Alright...', '<25>{#f/0}* Good luck!'],
         indie2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... I see.'],
@@ -2066,7 +2066,7 @@ export default {
                             "<32>* Maybe now you'll have the means to accept my offer.",
                             "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                             "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Sì', 'No')
                         ]
                         : [
                             ...(world.postnoot
@@ -2081,19 +2081,19 @@ export default {
                                     "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
                                 ]),
                             "<32>* Interested?\n* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Sì', 'No')
                         ],
                 () =>
                     SAVE.data.b.napsta_performance
                         ? [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 5G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Sì', 'No')
                         ]
                         : [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Sì', 'No')
                         ]
             ),
             b: () => [
@@ -2210,7 +2210,7 @@ export default {
                 ][SAVE.data.n.choice_flavor],
                 '<25>{#f/1}* I know what your preference is, but...',
                 '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Sì', 'No')
             ],
             b1: () => [
                 3 <= SAVE.data.n.cell_insult
@@ -2421,8 +2421,8 @@ export default {
                     '<32>{#p/basic}* Scandalous!',
                     "<32>* It's Toriel's sock collection.\n* A little messy...",
                     world.meanie
-                        ? choicer.create('* (Make it messier?)', 'Yes', 'No')
-                        : choicer.create('* (Clean up the mess?)', 'Yes', 'No')
+                        ? choicer.create('* (Make it messier?)', 'Sì', 'No')
+                        : choicer.create('* (Clean up the mess?)', 'Sì', 'No')
                 ],
         socks2: () =>
             world.meanie
@@ -2433,12 +2433,12 @@ export default {
                         ? []
                         : [
                             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                            choicer.create('* (Take the key?)', 'Yes', 'No')
+                            choicer.create('* (Take the key?)', 'Sì', 'No')
                         ])
                 ],
         socks3: () => [
             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-            choicer.create('* (Take the key?)', 'Yes', 'No')
+            choicer.create('* (Take the key?)', 'Sì', 'No')
         ],
         socks4: ['<32>{#p/human}* (You decide not to do anything.)'],
         socks5: [
@@ -2504,8 +2504,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Sì', 'No')
+                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Sì', 'No')
             ],
             b1: ['<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)'],
             b2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -2518,8 +2518,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Sì', 'No')
+                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Sì', 'No')
             ],
             c1: ['<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)"],
             c2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -3634,7 +3634,7 @@ export default {
                                         ? [
                                             '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
                                             '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                                            choicer.create('* (Smash the pie?)', 'Yes', 'No')
+                                            choicer.create('* (Smash the pie?)', 'Sì', 'No')
                                         ]
                                         : ['<32>{#p/basic}* The size of the pie intimidates you too much to eat it.'],
         piesmash1: ['<32>{#p/human}* (You decide not to smash.)'],
@@ -3807,14 +3807,14 @@ export default {
             () => [
                 '<32>{#p/basic}* This coffin dates back to December 251X.',
                 '<32>* There is an old record-keeping manifest stashed next to it...',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Sì', 'No')
             ],
             () => [
                 '<32>{#p/human}* (You once again pick up the manifest.)',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Sì', 'No')
             ]
         ),
-        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Yes', 'No')],
+        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Sì', 'No')],
         w_coffin4: ['<32>{#p/human}* (But there were no further pages to be read.)'],
         w_coffin5: ['<32>{#p/human}* (You put the manifest back where it belongs.)'],
         w_dummy1: () =>
@@ -4613,7 +4613,7 @@ export default {
                         ? ['<32>* (Nothing happens.)']
                         : [
                             '<32>* (You found a piece of gum taped to the comic strip.)',
-                            choicer.create('* (Use the gum?)', 'Yes', 'No')
+                            choicer.create('* (Use the gum?)', 'Sì', 'No')
                         ])
                 ]
                 : []

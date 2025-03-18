@@ -30,7 +30,7 @@ import { SAVE } from '../../../code/systems/save';
 export default {
     a_foundry: {
         locketseller: ['<32>{#p/basic}* ...', "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."],
-        noequip: ['<32>{#p/human}* (Вы решили не экипировать.)'],
+        noequip: ['<32>{#p/human}* (Вы решили не надевать это.)'],
         darktoriel1: [
             "<32>{#p/human}* (You grab Toriel's hand.)",
             '<25>{#p/toriel}{#f/2}* Oh my...!\n* F-frisk, is that you?',
@@ -51,7 +51,7 @@ export default {
             '<25>{#f/1}* Let me turn it on...'
         ],
         darktoriel4a: [
-            '<32>{#s/phone}{#p/event}* Dialing...',
+            '<32>{#s/phone}{#p/event}* Набор номера...',
             '<25>{#p/toriel}{#f/3}* ... oh, right.\n* My phone does not work very well here.'
         ],
         darktoriel4b: [
@@ -105,7 +105,7 @@ export default {
         starKILLER: ['<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought.'],
         quicksolve3: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Сломано."]
                 : SAVE.data.b.svr
                     ? ['<32>{#p/human}* (The terminal appears to have been powered off.)']
                     : [
@@ -169,7 +169,7 @@ export default {
                 world.meanie
                     ? 'Bully'
                     : SAVE.data.b.oops && world.flirt > 9
-                        ? 'Flirt'
+                        ? 'Флирт'
                         : SAVE.data.b.oops
                             ? 'Befriend'
                             : 'Hug',
@@ -297,12 +297,12 @@ export default {
             "<32>{#p/napstablook}* i'll be outside...\n* feel free to join me...\n* or not...",
             "<32>* it's up to you..."
         ],
-        blookmusic0: ["<32>{#p/basic}* It's out of service."],
+        blookmusic0: ["<32>{#p/basic}* Сломано."],
         blookmusic1: () => [
             SAVE.data.b.svr
                 ? '<32>{#p/human}* (You reach for the sound system...)'
                 : '<32>{#p/basic}* There is currently no music playing.',
-            choicer.create('* (Play a song?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Cancel')
+            choicer.create('* (Play a song?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Отмена')
         ],
         blookmusic1y: ['<32>{*}{#p/human}* (You turn the dial...){^40}{%}'],
         blookmusic2: () => [
@@ -597,7 +597,7 @@ export default {
         bruh: ['<32>{*}{#p/undyne}* See you soon.{^20}{%}'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Сломано."]
                 : SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (You approach the vending machine.)',
@@ -1314,7 +1314,7 @@ export default {
         ],
         napcomputer1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Сломано."]
                 : [
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You move towards the computer...)'
@@ -4090,7 +4090,7 @@ export default {
             SAVE.data.b.undyne_respecc
                 ? '<25>{#p/undyne}{#f/1}* Need anything?'
                 : '<25>{#p/undyne}{#f/14}* Need anything?',
-            choicer.create('* (Что вы скажете?)', 'Голод', 'Книга', 'Дом', 'Nothing')
+            choicer.create('* (Что вы скажете?)', 'Голоден', 'Книга', 'Дом', 'Nothing')
         ],
         unddate13a1: [
             '<25>{#p/undyne}{#f/1}* You want a snack or something?',
@@ -5099,7 +5099,7 @@ export default {
                     ? "<25>{#f/3}* The bird must've carried him across the gap by now, haha."
                     : '<25>{#f/3}* The bird must be busy right now, haha.'
             ],
-            birdx: ['<32>{#p/basic}* ... but nobody came.'],
+            birdx: ['<32>{#p/basic}* ...но никто не пришёл.'],
             path1: () =>
                 SAVE.data.n.state_foundry_muffet === 1
                     ? [
@@ -7651,8 +7651,8 @@ export default {
         steal2: ['<30>{#p/basic}* Nothing left.'],
         note: ['<30>{#p/human}* (But there was no note to be found here.)'],
         talk: () => [
-            SAVE.data.n.plot === 72 ? 'Good News' : 'Say Hello',
-            SAVE.data.n.plot === 72 ? 'Your Future' : SAVE.data.b.colleg ? 'About Temmie Armor' : 'About Yourself',
+            SAVE.data.n.plot === 72 ? 'Good News' : 'Сказать «Привет»',
+            SAVE.data.n.plot === 72 ? 'Your Future' : SAVE.data.b.colleg ? 'About Temmie Armor' : 'О себе',
             SAVE.data.n.plot === 72 ? 'Temmie Secrets' : 'Temmie History',
             'About Shop',
             'Exit'
@@ -7860,8 +7860,8 @@ export default {
                         ? ['Your Fate', '(Threaten)', '(Fight)', 'Hero', 'Exit']
                         : [
                             48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
-                                ? 'About Yourself'
-                                : ['About Yourself', '§fill=#ff0§The War (NEW)', '§fill=#ff0§Retirement (NEW)', 'Retirement'][
+                                ? 'О себе'
+                                : ['О себе', '§fill=#ff0§The War (NEW)', '§fill=#ff0§Retirement (NEW)', 'Retirement'][
                                 Math.min(SAVE.data.n.shop_gerson, 3)
                                 ],
                             ['The Homeworld', '§fill=#ff0§Family (NEW)', '§fill=#ff0§Erogot (NEW)', 'Erogot'][
@@ -8281,7 +8281,7 @@ export default {
                     ? ['<32>{#p/human}* (The starlight dims, filling you with determination.)']
                     : [
                         '<32>{#p/human}* (The starlight glimmers, distant as it may be.)',
-                        '<32>{#p/human}* (This fills you with determination.)'
+                        '<32>{#p/human}* (...наполняет вас решимостью.)'
                     ]
         },
         f_hub: {

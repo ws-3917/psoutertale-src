@@ -3802,7 +3802,7 @@ export default {
             SAVE.data.b.ufokinwotm8
                 ? ["<32>{#p/human}* (But you didn't feel like wasting your time here.)"]
                 : ["<32>{#p/basic}* The computer's offline, but there's an empty slot for a computer chip."],
-        computer2: () => [choicer.create('* (Insert the Computer Chip?)', 'Evet', 'Hayır')],
+        computer2: () => [choicer.create('* (Bilgisayar Çipini yerleştir?)', 'Evet', 'Hayır')],
         computer3: ['<32>{#p/human}* (You decide not to insert.)'],
         computer4: [
             '<32>{#p/basic}* Ah!\n* Thank you!\n* Thank you so much!',
@@ -4945,7 +4945,7 @@ export default {
         highfive: '* High Five',
         home: '* Home',
         hope: '* Hope',
-        hug: '* Hug',
+        hug: '* Sarıl',
         hum: '* Hum',
         hypothesize: '* Hypothesize',
         ignore: '* Ignore',
@@ -5005,7 +5005,7 @@ export default {
         steal: '* Steal',
         storytime: '* Story Time',
         suggest: '* Suggest',
-        talk: '* Talk',
+        talk: '* Konuş',
         taunt: '* Alay Et',
         tea: '* Tea',
         telloff: '* Tell Off',

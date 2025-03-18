@@ -136,7 +136,7 @@ export default {
         doggo: "O ha-hareket ediyor... O-O... titriyor!",
         jerry: 'Jerry.',
         major: '(Köpek kucağına zıpladı.)',
-        minor: '(Pant pant)',
+        minor: '(Ağır ağır soluk alıp verir)',
         papyrs: "KABUL EDİYORUM!!!!",
         papyru: "KABUL EDİYORUM!!!!",
         san: 'tamam.',
@@ -146,7 +146,7 @@ export default {
         starry: '\"Parlak\" seçim.',
 
         
-        bob: 'A pleasing nomenclature, no?',
+        bob: 'Memnun edici bir adlandırma, öyle değil mi?',
         doge: 'İlging gelmedi.',
         gelata: 'Kükreme.',
         gerson: 'Wah ha ha! Neden olmasın?',
@@ -187,7 +187,7 @@ export default {
         heats: 'BİLİYOR muydun?',
         kabakk: 'OTORİTEME saygı göster!',
         vulkin: 'Ahh! Teşekkürler~',
-        zorren: 'İsmimi kullandığın için ehh, teşekkürler.',
+        zorren: 'İsmimi kullandığın için, ehh, teşekkürler.',
 
         
         asgor: 'Olur?',

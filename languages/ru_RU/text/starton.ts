@@ -94,7 +94,7 @@ export default {
         noteleport: ["<32>{#p/human}* (It doesn't seem to be powered on anymore.)"],
         evac: ['<32>{#p/human}* (Вы чувствуете, как сокращается присутствие монстров.)'],
         shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
-        jukebox0: ["<32>{#p/basic}* It's out of service."],
+        jukebox0: ["<32>{#p/basic}* Сломано."],
         jukebox1: () => [
             SAVE.data.b.svr
                 ? '<32>{#p/human}* (You reach for the jukebox...)'
@@ -104,7 +104,7 @@ export default {
                 SAVE.data.b.napsta_performance ? 'Track 01' : '???',
                 2 <= SAVE.data.n.state_foundry_swansong ? 'Track 02' : '???',
                 2 <= SAVE.data.n.state_starton_trashprogress ? 'Track 03' : '???',
-                'Cancel'
+                'Отмена'
             )
         ],
         jukebox1x1: () =>
@@ -167,7 +167,7 @@ export default {
             [
                 [
                     '<32>{#p/asriel2}* Ready, $(name)?',
-                    choicer.create('* (What should Asriel do?)', 'Mercy', 'Act', 'Magic', 'Fight')
+                    choicer.create('* (What should Asriel do?)', 'Пощада', 'Действие', 'Магия', 'Битва')
                 ],
                 ["<32>{#p/asriel2}* Let's just get this over with."]
             ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
@@ -373,7 +373,7 @@ export default {
         beddoor3: ['<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!'],
         candy1: () =>
             postSIGMA()
-                ? ["<32>{#p/basic}* It's out of service."]
+                ? ["<32>{#p/basic}* Сломано."]
                 : [
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
@@ -506,7 +506,7 @@ export default {
             ['<32>{#p/basic}* Whoever you are, knock it off!!!'],
             ['<32>{#p/basic}* ...']
         ),
-        doggo3x: ['<32>{#p/basic}* (Snore... snore...)'],
+        doggo3x: ['<32>{#p/basic}* (Храп... храп...)'],
         drop_chip: [
             '<32>{#p/basic}* Did you just...\n* Drop the part of me I had given you?',
             '<32>* I have no words for you...\n* Begone!'
@@ -814,7 +814,7 @@ export default {
                 ? ['<32>{#p/human}* (You place your hands on the heavily scratched door.)']
                 : ['<32>{#p/basic}* The door is covered in cat- claw scratches.'],
         gonezo: () =>
-            world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ... but nobody came.'],
+            world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ...но никто не пришёл.'],
         garbanzo: ['<32>{#p/human}* (But there was nobody around to occupy the seat.)'],
         doggonopoggo: () =>
             SAVE.data.b.svr
@@ -825,7 +825,7 @@ export default {
 
                     (game.room === 's_pacing' && SAVE.data.n.state_starton_lesserdog === 2) // NO-TRANSLATE
 
-                    ? ['<32>{#p/basic}* ... but nobody came.']
+                    ? ['<32>{#p/basic}* ...но никто не пришёл.']
                     : ["<32>{#p/basic}* Nobody's home."],
         housebloc: () =>
             SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* It's locked."],
@@ -2417,7 +2417,7 @@ export default {
                     ? SAVE.data.b.svr
                         ? ['<32>{#p/human}* (But you already completed this puzzle beforehand.)']
                         : ['<32>{#p/basic}* The terminal is now in an unlocked state.']
-                    : ["<32>{#p/basic}* It's out of service."],
+                    : ["<32>{#p/basic}* Сломано."],
             microwave0: ['<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nothing useful here.'],
             microwave1: () =>
                 SAVE.data.b.svr
@@ -2507,7 +2507,7 @@ export default {
                         : ['<32>{#p/basic}* Once the home of a truly out- of-this-world creation.'],
             xtower1: () => [
                 ...(postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : SAVE.data.b.svr
                         ? [
                             '<32>{#p/human}* (The terminal appears to have been powered off.)',
@@ -2616,7 +2616,7 @@ export default {
             0,
             () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : [
                         ...(roomready()
                             ? [
@@ -2632,7 +2632,7 @@ export default {
                     ],
             () =>
                 postSIGMA()
-                    ? ["<32>{#p/basic}* It's out of service."]
+                    ? ["<32>{#p/basic}* Сломано."]
                     : [
                         SAVE.data.b.svr
                             ? '<32>{#p/human}* (You move towards the computer...)'
@@ -4428,7 +4428,7 @@ export default {
                     : SAVE.data.b.s_state_puzzlenote || (!world.genocide && world.edgy)
                         ? ["<32>{#p/basic}* It's un-activated."]
                         : postSIGMA()
-                            ? ["<32>{#p/basic}* It's out of service."]
+                            ? ["<32>{#p/basic}* Сломано."]
                             : ['<32>{#p/basic}* What an unfortunate outcome.'],
             s_secret_sign: () =>
                 SAVE.data.b.svr
@@ -4480,7 +4480,7 @@ export default {
                         ][Math.min(asrielinter.s_backrooms_lessdog++, 3)]
                     ]
                     : SAVE.data.n.state_starton_lesserdog === 2 || (world.population === 0 && !world.bullied)
-                        ? ['<32>{#p/basic}* ... but nobody came.']
+                        ? ['<32>{#p/basic}* ...но никто не пришёл.']
                         : world.runaway || world.population === 0
                             ? ['<32>{#p/basic}* ... but everybody ran.']
                             : SAVE.data.n.plot < 72
@@ -5113,14 +5113,14 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (The note requests that you call a certain phone number.)',
-                        '<32>{#s/phone}{#p/event}* Dialing...',
-                        '<32>{#p/human}* (No connection.)'
+                        '<32>{#s/phone}{#p/event}* Набор номера...',
+                        '<32>{#p/human}* (Нет связи.)'
                     ]
                     : world.runaway
                         ? [
                             "<32>{#p/basic}* It's a note.",
                             '<32>* \"Call me!\"\n* \"Here\'s my number!\"',
-                            '<32>{#s/phone}{#p/event}* Dialing...',
+                            '<32>{#s/phone}{#p/event}* Набор номера...',
                             '<32>{#p/basic}* The call went straight to voice-mail.',
                             '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"Would you like to escape the outpost with me?\"',
                             '<32>{#s/equip}{#p/event}* Click...'
@@ -5129,13 +5129,13 @@ export default {
                             ? [
                                 "<32>{#p/basic}* It's a note.",
                                 '<32>* \"Call me!\"\n* \"Here\'s my number!\"',
-                                '<32>{#s/phone}{#p/event}* Dialing...',
-                                '<32>{#p/human}* (No connection.)'
+                                '<32>{#s/phone}{#p/event}* Набор номера...',
+                                '<32>{#p/human}* (Нет связи.)'
                             ]
                             : [
                                 "<32>{#p/basic}* It's a note.",
                                 '<32>* \"Call me!\"\n* \"Here\'s my number!\"',
-                                '<32>{#s/phone}{#p/event}* Dialing...',
+                                '<32>{#s/phone}{#p/event}* Набор номера...',
                                 '<32>{#p/basic}* The call went straight to voice-mail.',
                                 '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"I\'m so sorry I couldn\'t be here to greet you~\"',
                                 '<32>{#s/equip}{#p/event}* Click...',
@@ -5658,7 +5658,7 @@ export default {
                 ? ["<32>{#p/human}* (You can't seem to find anyone down there.)"]
                 : world.bulrun
                     ? ['<32>{#p/basic}* ... but everybody ran.']
-                    : ['<32>{#p/basic}* ... but nobody came.'],
+                    : ['<32>{#p/basic}* ...но никто не пришёл.'],
         xtowerHiscoreNames: {
             kidd: 'UNDYNEFAN10',
             napstablook: 'NAPSTABLOOK22',
@@ -7690,9 +7690,9 @@ export default {
                     ],
         talk: (name: string) =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', name, 'The Future', 'Exit']
+                ? ['Сказать «Привет»', 'What Happened', name, 'The Future', 'Exit']
                 : [
-                    'Say Hello',
+                    'Сказать «Привет»',
                     'Ghosts',
                     'Sanctuary',
                     65 <= SAVE.data.n.plot
@@ -7980,8 +7980,8 @@ export default {
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', 'Outlands', 'The Future', 'Exit']
-                : ['Say Hello', 'What To Do Here', 'Town History', 'Your Life', 'Exit'],
+                ? ['Сказать «Привет»', 'What Happened', 'Outlands', 'The Future', 'Exit']
+                : ['Сказать «Привет»', 'What To Do Here', 'Town History', 'Your Life', 'Exit'],
         talkPrompt: '<09>{#p/basic}{#k/0}Care to chat?',
         talkText: [
             () =>
@@ -11446,9 +11446,9 @@ export default {
                     ['<32>{#p/human}* (A plate of spaghetti defying the laws of physics fills you with determination.)'],
                     [
                         '<32>{#p/human}* (The spaghetti no longer defies the laws of physics.)',
-                        '<32>{#p/human}* (This fills you with determination.)'
+                        '<32>{#p/human}* (...наполняет вас решимостью.)'
                     ],
-                    ['<32>{#p/human}* (The spaghetti is no more.)', '<32>{#p/human}* (This fills you with determination.)']
+                    ['<32>{#p/human}* (The spaghetti is no more.)', '<32>{#p/human}* (...наполняет вас решимостью.)']
                 ][trueSpaghettiState()]
         },
         s_town1: {
@@ -11457,7 +11457,7 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (The town may be abandoned, but its cuteness remains.)',
-                        '<32>{#p/human}* (This fills you with determination.)'
+                        '<32>{#p/human}* (...наполняет вас решимостью.)'
                     ]
                     : papreal() || world.runaway
                         ? ['<32>{#p/human}* (A shadow looms over town, filling you with determination.)']

@@ -2782,7 +2782,7 @@ export default {
                 ? ['FRISK', "DON'T YOU", 'DARE COME', 'AFTER US']
                 : SAVE.data.n.plot === 72
                     ? ['SORRY', "BUT WE'RE", 'OFFLINE', 'LMAO']
-                    : ['REFRESH', 'MESSAGES', 'SETTINGS', 'LOG OUT'],
+                    : ['REFRESH', 'MESSAGES', 'НАСТРОЙКИ', 'LOG OUT'],
         papcouch0: () =>
             SAVE.data.b.svr
                 ? ["<32>{#p/human}* (You can't seem to find anything in the couch.)"]
@@ -6063,7 +6063,7 @@ export default {
         act_direct: ['<32>{#p/human}* (You tell Whizkarat a mouse fact.)'],
         act_direct2: [
             '<32>{#p/human}* (You tell Whizkarat everything you know about mice.)',
-            '<32>{#p/basic}* Suddenly...!'
+            '<32>{#p/basic}* Внезапно!..'
         ],
         act_direct3: ["<32>{#p/human}* (You try to tell Whizkarat more, but it's already found its way.)"],
         act_disown: [
@@ -7513,7 +7513,7 @@ export default {
                         '<32>{#p/human}* (You consume the hilt...)',
                         '<32>{#p/human}* (You consume the handle...)'
                     ][SAVE.data.n.corndogger++],
-                    '<32>{#p/basic}* Suddenly...!'
+                    '<32>{#p/basic}* Внезапно!..'
                 ]
                 : [
                     '<32>{#p/human}* (You try to equip the Corn Dog Sword...)',

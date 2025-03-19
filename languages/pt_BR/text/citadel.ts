@@ -4210,7 +4210,7 @@ export default {
                     ? ["<32>{#p/human}* (Você não tem certeza sobre o que sentir em relação a este pilar.)"]
                     : world.darker
                         ? ["<32>{#p/basic}* É um pilar."]
-                        : ['“<32>{#p/basic}* Este pilar se autoproclama \"invasor espacial.\"'],
+                        : ['<32>{#p/basic}* Este pilar se autoproclama \"invasor espacial.\"'],
             cr_pillar8: () =>
                 SAVE.data.b.svr
                     ? ["<32>{#p/human}* (Você nunca sentiu tanta admiração por um pilar tão simples.)"]

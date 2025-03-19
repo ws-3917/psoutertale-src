@@ -66,8 +66,8 @@ export default {
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
             world.nootflags.has('a_barricade1') // NO-TRANSLATE
 
-                ? '<25>{#p/alphys}{#g/alphysInquisitive}* 這謎題也自己解決了？'
-                : "<25>{#p/alphys}{#g/alphysInquisitive}* 啊，這謎題\n  已經被解決了。",
+                ? '<25>{#p/alphys}{#g/alphysInquisitive}* 這謎題也自己解開了？'
+                : "<25>{#p/alphys}{#g/alphysInquisitive}* 啊，這謎題\n  已經被解開了。",
             '<25>{#p/alphys}{#g/alphysFR}* 怪事。',
             '<32>{#s/equip}{#p/event}* 滴...'
         ],
@@ -312,7 +312,7 @@ export default {
                     "<18>{#f/0}肯定是個誤會。",
                     "<18>{#f/5}你不會那樣做的\n... 對嗎？",
                     "<18>{#f/6}所-所以，\n我決定留下。",
-                    '<18>{#f/9}必須有人站出來\n為「小男孩」發聲！',
+                    '<18>{#f/9}必須有人站出來\n為「小夥子」發聲！',
                     '<18>{#f/0}或者小姑娘，\n或者你自己選的\n那個外號。',
                     "<18>{#f/4}等等，如果你沒有\n外號怎麼辦...",
                     '<18>{#f/8}那我該叫你啥！？！？'
@@ -894,7 +894,7 @@ export default {
                         "<33>{#z30}* ...希望她只是出去散散心了，\n  一會就回來。",
                         "<32>{#z03}* 別上火。\n* 要是感到孤獨，不用擔心...",
                         "<32>{#z02}* 我會在暗中陪伴你。",
-                        ' <32>{#z21}* ...',
+                        '<32>{#z21}* ...',
                         '<32>{#z11}* 好吧，回見！'
                     ],
                     [
@@ -907,7 +907,7 @@ export default {
                         "<32>{#z21}* 今天，艾菲斯...\n  也不打算摻和這破事了...",
                         "<32>{#z00}* 親眼目睹你的暴行之後，\n  這對她也好。",
                         '<32>{#z21}* 我請你別再殺害無辜了，\n  你答應嗎？',
-                        ' <32>{#z21}* ...',
+                        '<32>{#z21}* ...',
                         '<32>{#z11}* 好吧，回見！'
                     ],
                     [
@@ -949,7 +949,7 @@ export default {
                         '<32>{#z02}* 哈哈哈...',
                         '<32>{#z03}* 總之，你們給我記著...',
                         "<32>{#z12}* 不聽勸的話，後果自負。",
-                        ' <32>{#z21}* ...',
+                        '<32>{#z21}* ...',
                         '<32>{#z11}* 好吧，回見！'
                     ]
                     : [
@@ -957,7 +957,7 @@ export default {
                         "<32>{#z03}* 艾菲斯不擅長戰鬥，\n  這可是她親口說的。",
                         '<32>{#z12}* ...但我知道，\n  有個人，會好好收拾你們的。',
                         '<32>{#z02}* 哈哈哈...',
-                        ' <32>{#z21}* ...',
+                        '<32>{#z21}* ...',
                         '<32>{#z11}* 好吧，回見！'
                     ],
             robocaller2x: () =>
@@ -1327,7 +1327,7 @@ export default {
                 '<32>{#p/basic}* 喂？？',
                 "<32>* 傻站在這你會死的！",
                 "<32>* ...要是不知道這是節目需要，\n  我肯定會這麼說。",
-                "<32>* 不過你也別整太無聊了啊！"
+                "<32>* 不過你也別整這麼沒趣啊！"
             ],
             cooker17a: [
                 '<32>{#p/mettaton}* 哎呀呀...',
@@ -2000,7 +2000,7 @@ export default {
                 '<25>{#f/1}* 你知道，\n  那人類雖然很兇狠，\n  但至少會與大家公平競爭。',
                 '<25>{#f/5}* 而你呢？',
                 '<25>{#f/7}* 隨心所欲，規則說改就改！',
-                "­<25>{#f/9}* ...對你真沒啥好期待的。",
+                "<25>{#f/9}* ...對你真沒啥好期待的。",
                 "<25>{#f/11}* 在這點，你可是出了名的。"
             ],
             moneyFinal1: () => [
@@ -3332,7 +3332,7 @@ export default {
                         "<25>{#p/alphys}{#g/alphysSideSad}* 我... \n  我現在不能為此說太多...",
                         '<25>{#g/alphysNeutralSweat}* 作為皇家科學員，\n  我的職責就是護送你安全地\n  見到國王。',
                         "<26>{#g/alphysWorried}* 如果被其他人發-發現了，\n  他們就會認為我們在阻礙\n  我們一族的自由。",
-                        "­<25>{#g/alphysHaveSomeCompassion}* ...\n* 我們只是想做正確的事。"
+                        "<25>{#g/alphysHaveSomeCompassion}* ...\n* 我們只是想做正確的事。"
                     ]
                     : world.alphys_percieved_kills < 10
                         ? [
@@ -6373,18 +6373,18 @@ export default {
                 SAVE.data.n.plot < 66.2
                     ? [
                         '<32>{#p/event}* 鈴鈴，鈴鈴...',
-                        '<25>{#p/alphys}{#g/alphysWelp}* 所以，準備好了吧？',
+                        '<25>{#p/alphys}{#g/alphysWelp}* 你想好了？\n  那就前進吧。',
                         '<25>{#g/alphysNeutralSweat}* 一定要小-小心特戰隊成員！'
                     ]
                     : SAVE.data.n.plot < 67
                         ? [
                             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* 所以，準備好了吧？',
+                            '<25>{#p/alphys}{#g/alphysWelp}* 你想好了？\n  那就前進吧。',
                             '<25>{#g/alphysNeutralSweat}* 前面還有道門，\n  別-別忘了開...'
                         ]
                         : [
                             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* 所以，準備好了吧？',
+                            '<25>{#p/alphys}{#g/alphysWelp}* 你想好了？\n  那就前進吧。',
                             "<25>{#g/alphysNeutralSweat}* 我們離出口不遠了..."
                         ],
                 ['<32>{#p/event}* 鈴鈴，鈴鈴...', "<25>{#p/alphys}{#g/alphysWelp}* 我會一直線上的。"]
@@ -6409,8 +6409,8 @@ export default {
                 : SAVE.data.b.assist_madjick
                     ? [
                         '<25>{#p/alphys}{#g/alphysCutscene3}* 什麼鬼... 你做了啥？？',
-                        '<25>* 你說了啥，\n  怎麼會就這樣走開了！？',
-                        '<32>{#p/basic}* 呵呵。\n* 有時候你只需念出恰當的魔咒。'
+                        '<25>* ...你剛念叨啥呢？\n  它咋就這麼走開了！？',
+                        '<32>{#p/basic}* 哎呀呀。\n* 有時候啊，念對咒語\n  就能把事兒解決了。'
                     ]
                     : !SAVE.data.b.killed_madjick
                         ? [
@@ -6427,41 +6427,41 @@ export default {
                             : [
                                 '<25>{#p/alphys}{#g/alphysSideSad}* 不... 為什麼...',
                                 '<25>{#g/alphysThatSucks}* ...',
-                                "<25>* 至少我們很快\n  就能出去了。"
+                                "<25>* 起碼我們很快就能出去了。"
                             ],
-        core5: ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 等下！！！{^999}'],
+        core5: ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 等等！！！{^999}'],
         core6: () =>
             SAVE.data.b.legendary_knightknight
                 ? SAVE.data.b.assist_madjick || SAVE.data.b.legendary_madjick
                     ? [
-                        "<25>{#p/alphys}{#g/alphysWTF}* 我不敢相信我的眼睛...",
+                        "<25>{#p/alphys}{#g/alphysWTF}* 我看到啥了，\n  這兒還是現實嗎...",
                         ...(SAVE.data.b.oops || !SAVE.data.b.assist_madjick
                             ? []
-                            : ["<32>{#p/basic}* ...看來你這回用不著我幫，是嗎？"])
+                            : ["<32>{#p/basic}* ...看來這回你用不著我幫忙，是嗎？"])
                     ]
                     : ["<25>{#p/alphys}{#g/alphysCutscene3}* 啊？\n* 那東西是咋回事？"]
                 : SAVE.data.b.assist_knightknight
                     ? SAVE.data.b.assist_madjick || SAVE.data.b.legendary_madjick
                         ? [
-                            "<25>{#p/alphys}{#g/alphysWTF}* 我不敢相信我的眼睛...",
+                            "<25>{#p/alphys}{#g/alphysWTF}* 我看到啥了，\n  這兒還是現實嗎...",
                             '<32>{#p/basic}* 相信我吧。\n* 我心思可細膩了！',
                             '<32>{#p/basic}* 魔咒和戰歌可是\n  這幫故園老英雄的命脈。'
                         ]
                         : [
                             '<25>{#p/alphys}{#g/alphysCutscene3}* 什麼鬼... 你做了啥？？',
-                            '<25>* 你說了啥，\n  怎麼會就這樣走開了！？',
-                            '<32>{#p/basic}* 呵呵。\n* 有時候你只需唱出恰當的高音。'
+                            '<25>* ...你剛念叨啥呢？\n  它咋就這麼走開了！？',
+                            '<32>{#p/basic}* 哎呀呀。\n* 有時候啊，唱首應景的歌\n  就能化解矛盾。'
                         ]
                     : !SAVE.data.b.killed_knightknight
                         ? [
                             '<25>{#p/alphys}{#g/alphysWelp}* ...',
                             ...(SAVE.data.b.killed_madjick
-                                ? ['<25>{#g/alphysWelp}* 至少你倆都活下來了。']
+                                ? ['<25>{#g/alphysWelp}* 起碼這次沒死人。']
                                 : [
                                     '<25>* 咱們該去下個房間了吧。',
                                     ...(SAVE.data.b.oops || !SAVE.data.b.assist_madjick
                                         ? []
-                                        : ["<32>{#p/basic}* ...看來你這回用不著我幫，是嗎？"])
+                                        : ["<32>{#p/basic}* ...看來這回你用不著我幫忙，是嗎？"])
                                 ])
                         ]
                         : SAVE.data.b.killed_madjick || world.bad_lizard === 0
@@ -6499,8 +6499,8 @@ export default {
         core8b1: () => ["<25>{#p/alphys}{#g/alphysWelp}* 看來現在我們又往這邊走了。"],
         core8c: ['<25>{#p/alphys}{#g/alphysCutscene1}* 你成功了！\n* 去下個房間，按下開關吧！'],
         core8c1: [
-            '<25>{#p/alphys}{#g/alphysInquisitive}* 你在幹什麼...？',
-            "<25>{#p/alphys}{#g/alphysFR}* 別告訴我你現在\n  又要換條路走了..."
+            '<25>{#p/alphys}{#g/alphysInquisitive}* ...你幹啥呢？',
+            "<25>{#p/alphys}{#g/alphysFR}* 這都到節骨眼了，別告訴我\n  你突然想換條路走了..."
         ],
         core8c2: (nooted: boolean) =>
             nooted
@@ -6512,7 +6512,7 @@ export default {
                 : ['<25>{#p/alphys}{#g/alphysWTF}* 我說你啊。\n* 你還真往另一條路走啊。'],
         core8c3: [
             '<25>{#p/alphys}{#g/alphysWelp}* 這下你兩個開關都能按了。',
-            '<25>{#p/alphys}{#g/alphysCutscene3}* 得了吧！'
+            '<25>{#p/alphys}{#g/alphysCutscene3}* 呵，滿意了吧！'
         ],
         core8c4: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ...', '<25>* 你現在真是在\n  考驗我的耐心啊。'],
         core9a: () => [
@@ -6523,7 +6523,7 @@ export default {
                     ? ['<25>* ...', '<25>* 這選擇感覺不怎麼樣。']
                     : [
                         "<25>{#g/alphysWelp}* 這無疑讓我們有一種\n  要去冒險的感覺。",
-                        "<25>* 其實這沒什麼大不了的，\n  你只需要安全通過那些守衛。",
+                        "<25>* 好吧，其實沒什麼大不了的，\n  通過那些守衛就行。",
                         '<25>{#g/alphysCutscene2}* 呃... 祝你好運？',
                         '<25>{#g/alphysCutscene3}* ...',
                         "<25>* 別死在他們手上了。"
@@ -6534,7 +6534,7 @@ export default {
                 ? [
                     "<25>{#p/alphys}{#g/alphysSide}* 噢，你又跑來...",
                     '<25>{#p/alphys}{#g/alphysCutscene3}* ...這條謎題已經被解完的路了。',
-                    '<25>{#p/alphys}{#f/3}* 它一直是這樣的嗎？'
+                    '<25>{#p/alphys}{#f/3}* 這兒的迷題\n  難道就沒啟用過嗎?'
                 ]
                 : [
                     "<25>{#p/alphys}{#g/alphysSide}* 噢，你又跑來這條路了。",
@@ -6556,16 +6556,16 @@ export default {
             1 <= battler.exp && corefriendly()
                 ? nooted
                     ? [
-                        "<25>{#p/alphys}{#g/alphysInquisitive}* 莫非，我是說當然了，\n  你打算...",
+                        "<25>{#p/alphys}{#g/alphysInquisitive}* 也許... 我是說當然了，\n  你打算...",
                         '<25>{#p/alphys}{#g/alphysCutscene3}* ...換另一條\n  謎題已經被解完的路走。',
-                        '<25>{#p/alphys}{#f/3}* 它一直是這樣的嗎？'
+                        '<25>{#p/alphys}{#f/3}* 這兒的迷題\n  難道就沒啟用過嗎?'
                     ]
-                    : ["<25>{#p/alphys}{#g/alphysInquisitive}* 莫非，我是說當然了，\n  你打算換另一條路走...？"]
+                    : ["<25>{#p/alphys}{#g/alphysInquisitive}* 也許... 我是說當然了，\n  你打算換條路走...？"]
                 : nooted
                     ? [
                         '<25>{#p/alphys}{#g/alphysInquisitive}* 你改變...',
                         "<25>{#p/alphys}{#g/alphysCutscene3}* ...噢，這已經被解決了。",
-                        '<25>{#p/alphys}{#f/3}* 它一直是這樣的嗎？'
+                        '<25>{#p/alphys}{#f/3}* 這兒的迷題\n  難道就沒啟用過嗎?'
                     ]
                     : ['<25>{#p/alphys}{#g/alphysInquisitive}* 你改變主意了...？'],
         core9c: () =>
@@ -6601,10 +6601,10 @@ export default {
                 : SAVE.data.b.a_state_nooted1 && game.room === 'a_core_left2' // NO-TRANSLATE
 
                     ? ['<25>{#p/alphys}{#g/alphysCutscene3}* 到底是怎樣啊...']
-                    : ['<25>{#p/alphys}{#g/alphysCutscene3}* 你現在本應該已經到首塔了。'],
+                    : ['<25>{#p/alphys}{#g/alphysCutscene3}* 要不是在這浪費時間，\n  你早就到首塔了。'],
         core12x: [
             '<25>{#p/alphys}{#g/alphysInquisitive}* 這玩意啥時候被解決的？',
-            '<25>{#p/alphys}{#f/3}* 它一直是這樣的嗎？'
+            '<25>{#p/alphys}{#f/3}* 這兒的迷題\n  難道就沒啟用過嗎?'
         ],
         core13: [
             "<25>{#p/alphys}{#g/alphysGarbo}* 倆開關你都按了。",

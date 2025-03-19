@@ -4696,7 +4696,7 @@ export default {
                     : []),
                 ...(SAVE.data.b.ufokinwotm8
                     ? []
-                    : ['<32>{#p/basic}* A comfy reading chair...', "<32>* Doesn't seem like the right size for Asgore."])
+                    : ['<32>{#p/basic}* Уютное кресло для чтения...', "<32>* Doesn't seem like the right size for Asgore."])
             ],
             x_window_left: () =>
                 SAVE.data.b.ufokinwotm8
@@ -4907,12 +4907,12 @@ export default {
         carry: '* Carry',
         challenge: '* Challenge',
         charge: '* Charge',
-        check: '* Check',
+        check: '* Осмотреть',
         cheer: '* Cheer',
         clean: '* Clean',
         cocoa: '* Cocoa',
         comfort: '* Comfort',
-        compliment: '* Compliment',
+        compliment: '* Комплимент',
         compose: '* Compose',
         conclude: '* Conclude',
         console: '* Console',
@@ -4935,7 +4935,7 @@ export default {
         encourage: '* Encourage',
         escort: '* Escort',
         flash: '* Flash',
-        flirt: '* Flirt',
+        flirt: '* Флиртовать',
         grin: '* Grin',
         guide: '* Guide',
         handshake: '* Handshake',
@@ -4945,7 +4945,7 @@ export default {
         highfive: '* High Five',
         home: '* Home',
         hope: '* Hope',
-        hug: '* Hug',
+        hug: '* Обнять',
         hum: '* Hum',
         hypothesize: '* Hypothesize',
         ignore: '* Ignore',
@@ -4997,7 +4997,7 @@ export default {
         shove: '* Shove',
         siphon: '* Siphon',
         sit: '* Sit',
-        slap: '* Slap',
+        slap: '* Ударить',
         smile: '* Smile',
         someoneelse: '* Someone else',
         spark: '* Spark',
@@ -5005,7 +5005,7 @@ export default {
         steal: '* Steal',
         storytime: '* Story Time',
         suggest: '* Suggest',
-        talk: '* Talk',
+        talk: '* Говорить',
         taunt: '* Taunt',
         tea: '* Tea',
         telloff: '* Tell Off',
@@ -5013,11 +5013,11 @@ export default {
         test_a: '* Binding',
         test_b: '* Prosthesis',
         test_c: '* Infusion',
-        threaten: '* Threaten',
+        threaten: '* Угрожать',
         tickle: '* Tickle',
         topple: '* Topple',
         toriel: '* Ториэль',
-        translate: '* Translate',
+        translate: '* Перевести',
         travel: '* Travel',
         trivia: '* Trivia',
         tug: '* Tug',
@@ -5035,27 +5035,27 @@ export default {
     },
 
     b_opponent_dummy: {
-        act_check: ["<32>{#p/story}* DUMMY - ATK 0 DEF 0\n* A ghost within the shell, they hope you're doing well."],
+        act_check: ["<32>{#p/story}* МАНЕКЕН — АТК: 0 ЗЩТ: 0\n* Призрак в оболочке манекена. Он желает вам лучшего."],
         act_flirt: [
-            '<32>{#p/human}* (You flirt with the dummy.)',
-            "<32>{#p/basic}* It went exactly how you'd expect.",
-            '<32>* Toriel is trying not to laugh.'
+            '<32>{#p/human}* (Вы заигрываете с манекеном.)',
+            "<32>{#p/basic}* Как и ожидалось, ничего не произошло.",
+            '<32>* Ториэль с трудом сдерживает смех.'
         ],
-        act_hug: ['<32>{#p/human}* (You hug the dummy.)'],
-        act_slap: ['<32>{#p/human}* (You slap the dummy.)'],
+        act_hug: ['<32>{#p/human}* (Вы обнимаете манекена.)'],
+        act_slap: ['<32>{#p/human}* (Вы ударили манекена.)'],
         act_talk: [
-            '<32>{#p/human}* (You talk to the dummy.)',
-            "<32>{#p/basic}* It doesn't seem much for conversation.",
-            '<32>* Toriel is pleased with you.'
+            '<32>{#p/human}* (Вы заговорили с манекеном.)',
+            "<32>{#p/basic}* Кажется, манекен не самый подходящий собеседник.",
+            '<32>* Ториэль выглядит довольной.'
         ],
-        bored: ['<32>{#p/basic}* The dummy grew tired of your aimless shenanigans.'],
-        hugged: ['<32>{#p/basic}* The dummy is blushing... somehow.'],
-        name: '* Dummy',
-        slapped: ['<32>{#p/basic}* Suddenly...!'],
-        status1: ['<32>{#p/story}* You encountered the dummy.'],
-        status2: ["<32>{#p/story}* The dummy looks like it's already getting bored."],
-        status3: ["<32>{#p/story}* The dummy looks like it's lost in itself."],
-        status4: ["<32>{#p/story}* The dummy looks like it's going to fall over."],
+        bored: ['<32>{#p/basic}* Манекена утомила эта бесконечная петля однотипных действий.'],
+        hugged: ['<32>{#p/basic}* Манекен покраснел... каким-то образом.'],
+        name: '* Манекен',
+        slapped: ['<32>{#p/basic}* Внезапно!..'],
+        status1: ['<32>{#p/story}* Вы подошли к манекену.'],
+        status2: ["<32>{#p/story}* Кажется, что манекену уже сейчас становится скучно."],
+        status3: ["<32>{#p/story}* Похоже, что от ваших действий манекен запутался в себе."],
+        status4: ["<32>{#p/story}* Манекен готов провалиться сквозь землю."],
         talk: ['<09>{#p/basic}{#i/20}{~}.....{}']
     },
     b_opponent_maddummy: {

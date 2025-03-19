@@ -191,120 +191,120 @@ export default {
             ],
             d5: ['<32>{#p/basic}* Morto?'],
             d6: [
-                '<32>{#p/basic}* Heh.\n* For a long time... part of me wished I was.',
-                '<32>{#p/basic}* After what I did to you, I...\n* I felt like I deserved it.'
+                '<32>{#p/basic}* Heh.\n* Per molto tempo...parte di me desiderava lo fossi.',
+                '<32>{#p/basic}* Dopo quello che ti ho fatto, Io...\n* Pensavo di meritarmelo.'
             ],
-            d7: ["<25>{#p/asriel1}{#f/7}* Don't say that, $(name)!", "<25>{#f/6}* ... you're wrong!"],
+            d7: ["<25>{#p/asriel1}{#f/7}* Non dire così, $(name)!", "<25>{#f/6}* ... non è vero!"],
             d8: [
-                '<33>{#p/basic}* Haha... look who\'s talking now.\n* Mister \"just go be with the people who love you.\"',
-                '<32>* But you deserve to know the truth about me, Asriel...',
-                '<32>* About everything.'
+                '<33>{#p/basic}* Haha... guarda chi parla.\n* Dopo che mi hai detto di \"andare con chi mi vuole bene.\"',
+                '<32>* Ma tu meriti di sapere la verità su di me, Asriel...',
+                '<32>* Su tutto.'
             ],
             d9: ['<25>{#p/asriel1}{#f/23}* ...', '<25>{#f/23}* $(name)...'],
-            d10: ['<25>{#p/asriel1}{#f/13}* But...', '<25>{#f/15}* How are you still...'],
+            d10: ['<25>{#p/asriel1}{#f/13}* Ma...', '<25>{#f/15}* Come fai a essere ancora...'],
             d11: [
-                '<32>{#p/basic}* ... does it matter?',
-                '<32>* You were right to forget about me the way you did back there.',
-                "<32>* The truth is, I've been a terrible person...",
-                "<32>* And I'm not the friend, or the sibling you wish you had."
+                '<32>{#p/basic}* ... serve davvero a qualcosa saperlo?',
+                '<32>* Hai fatto bene a cercare di dimenticarmi.',
+                "<32>* La verità è, che io in realtà sono stato una persona orribile...",
+                "<32>* E non sono riuscito a essere l'amico o il fratello che tu volessi che fossi."
             ],
-            d12: ['<25>{#p/asriel1}{#f/13}* $(name), I...'],
-            d13: ["<32>{#p/basic}* It's alright, Asriel.", "<32>* You don't have to make it out to be better than it is."],
-            d14: ['<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... why now?'],
+            d12: ['<25>{#p/asriel1}{#f/13}* $(name), Io...'],
+            d13: ["<32>{#p/basic}* Va bene così, Asriel.", "<32>* Non mi devi far sembrare migliore di quanto sia mai stato."],
+            d14: ['<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... perché me lo dici solo ora?'],
             d15: [
-                '<32>{#p/basic}* Well...',
-                '<32>* I always thought humanity was beyond redemption.',
-                '<32>* That, no matter what...',
-                '<32>* If you were human... you were doomed to fall into darkness.',
-                '<32>* But after following Frisk along on their journey...',
-                '<32>* I understand the truth.',
-                '<32>* The other humans... always did something that made it easy to ignore this truth.',
-                "<33>* They'd attack people, or worse, make them... disappear.",
-                '<32>* But not Frisk.',
-                '<32>* No matter what struggles they faced, they showed kindness and mercy at every turn.',
-                '<32>* They... proved me wrong.',
-                "<32>* And now, because of that, I know there's no excuse for the way I treated you.",
-                '<32>* Everything you went through, everything you lost...',
-                "<32>* I'm the one to blame for it."
+                '<32>{#p/basic}* Beh...',
+                '<32>* Ho sempre pensato che la razza umana fosse insalvabile.',
+                '<32>* Che, non importa da dove venissi...',
+                '<32>* Se eri un umano... eri condannato a essere malvagio.',
+                '<32>* Ma dopo che ho seguito Frisk nel suo viaggio...',
+                '<32>* Ho capito la verità.',
+                '<32>* Gli altri umani... hanno sempre fatto qualcosa che mi rendeva semplice ignorare questa verità.',
+                "<33>* Attaccando i mostri, o ancora peggio, facendoli... sparire.",
+                '<32>* Ma non Frisk.',
+                '<32>* Non importa le difficoltà che incontrava, lui ha sempre mostrato gentilezza e risparmiato tutti.',
+                '<32>* Lui... mi hanno dimostrato che mi sbagliavo.',
+                "<32>* E so bene che, questa non è una scusa valida per come ti ho trattato.",
+                '<32>* Tutto quello che hai dovuto affrontare, tutto quello che hai perso...',
+                "<32>* É tutta colpa mia."
             ],
-            d16: ['<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Have you been conscious this whole time?'],
+            d16: ['<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Sei davvero rimasto in questo stato per tutto questo tempo?'],
             d17: [
-                '<32>{#p/basic}* ... yeah.\n* I guess I have.',
-                '<32>* This has been my existence, Asriel...\n* Ever since we died.',
-                "<32>* And... there's something else I have to tell you."
+                '<32>{#p/basic}* ... sì.\n* Purtroppo sì.',
+                '<32>* Ho vissuto in questo modo da molto tempo, Asriel...\n* Da quel giorno quando morimmo.',
+                "<32>* E... c'è qualcos’altro che devo dirti."
             ],
-            d18: ['<25>{#p/asriel1}{#f/21}* What is it?'],
+            d18: ['<25>{#p/asriel1}{#f/21}* Sì?'],
             d19: [
-                '<32>{#p/basic}* Remember when we crossed the force field together?',
-                '<32>* When we arrived at the ruins of the old homeworld, and got found out by those humans?',
-                '<32>* I wanted to use our power to destroy them... but you stopped me, remember?'
+                '<32>{#p/basic}* Ti ricordi quando abbiamo superato il campo di forza assieme?',
+                '<32>* Quando siamo arrivati alle rovine del vecchio pianeta natale, e abbiamo trovato quegli umani?',
+                '<32>* Volevo usare il nostro nuovo potere per distruggerli... ma tu mi hai fermato, ricordi?'
             ],
-            d20: ['<25>{#p/asriel1}{#f/16}* ... right.'],
+            d20: ['<25>{#p/asriel1}{#f/16}* ... Sì.'],
             d21: [
-                "<32>{#p/basic}* I didn't understand it back then, but...",
-                '<32>* I get it now.',
-                '<32>* ... you were just trying to stop me... from making a terrible mistake.'
+                "<32>{#p/basic}* Al tempo non riuscivo a capire perché mi avessi fermato, ma ora...",
+                '<32>* Ho capito.',
+                '<32>* ... tu stavi cercando di fermarmi... fermarmi dal commettere un terribile errore. '
             ],
             d22: ['<25>{#p/asriel1}{#f/15}* $(name)...'],
             d23: [
-                "<32>{#p/basic}* If not for you, the outpost would've been destroyed in a second war.",
-                '<32>* If not for you, the very same monsters I was supposedly trying to save...',
-                '<32>* ... would have died right along with us.'
+                "<32>{#p/basic}* Se non fosse stato per te, l'avamposto sarebbe stato distrutto in una seconda guerra contro gli umani.",
+                '<32>* Se non fosse stato per te, gli stessi mostri che io avrei voluto salvare...',
+                '<32>* ... sarebbero morti assieme a noi due.'
             ],
-            d24: ['<25>{#p/asriel1}{#f/25}* $(name), I...'],
+            d24: ['<25>{#p/asriel1}{#f/25}* $(name), Io...'],
             d25: [
-                '<32>{#p/basic}* Even now, your choice back then still matters.',
-                '<32>* Even now...',
-                "<32>* You're still a better sibling to me than I ever was."
+                '<32>{#p/basic}* Anche adesso, senza quella tua scelta, non saremmo arrivati a questo presente.',
+                '<32>* Anche adesso...',
+                "<32>* Hai dimostrato di essere un fratello migliore di quanto io sia mai stato."
             ],
             d26: [
-                '<25>{#p/asriel1}{#f/25}* I forgive you, $(name)!',
-                "<25>{#f/23}* Alright?\n* You don't have to do this...",
-                '<25>{#f/22}* I know how strongly you felt back then, and...',
-                "<25>{#f/15}* I wouldn't want you to change your mind just because I..."
+                '<25>{#p/asriel1}{#f/25}* Ti perdono, $(name)!',
+                "<25>{#f/23}* Basta così, ok?\n* Non c'è bisogno che tu dica altro...",
+                '<25>{#f/22}* So cosa avevi provato in quel momento, e...',
+                "<25>{#f/15}* Non voglio che tu cambi idea solamente perché io..."
             ],
             d27: [
-                '<32>{#p/basic}* No.\n* Not anymore.',
-                '<32>* People CAN change, Asriel...',
-                "<32>* Isn't that what you always believed?"
+                '<32>{#p/basic}* No.\n* Non è più così.',
+                '<32>* Le persone POSSONO cambiare, Asriel...',
+                "<32>* Non è questo quello che hai sempre creduto?"
             ],
-            d28: ['<25>{#p/asriel1}{#f/13}* ... I still do.'],
+            d28: ['<25>{#p/asriel1}{#f/13}* ... Ci credo ancora.'],
             d29: [
-                "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity.",
-                "<32>* I've spent the past hundred years holding a grudge I never should've had.",
-                '<32>* In all that time, I wondered what kept me alive...',
-                '<32>* And now, I finally know the answer.'
+                "<32>{#p/basic}* Ho passato gli ultimi centinaia di anni a crogiolarmi in autocommiserazione.",
+                "<32>* Ho passato gli ultimi centinaia di anni a provare rancore per un motivo per il quale non avrei mai dovuto.",
+                '<32>* Per tutto questo tempo, mi sono domandato cosa mi avesse tenuto in vita.',
+                '<32>* E adesso, finalmente, credo di aver capito.'
             ],
             d30: ['<25>{#p/asriel1}{#f/15}* ...?'],
-            d31: ["<32>{#p/basic}* ... it's you, Asriel.", "<32>* You're the one who's been keeping me alive."],
+            d31: ["<32>{#p/basic}* ... è grazie a te, Asriel.", "<32>* É grazie a te che sono rimasto in vita per tutto questo tempo."],
             d32: [
-                '<32>{#p/basic}* Think of it like... an unfulfilled promise.',
-                '<32>* Holding that grudge... thinking about you in the way that I did...',
-                "<32>* Knowing I could've been so much more for you than I ultimately was.",
-                "<32>* All this time, that's what's been holding me back."
+                '<32>{#p/basic}* Puoi pensarla come... una promessa non mantenuta.',
+                '<32>* Aver provato tutto quel rancore... aver pensato che tu avessi fatto la scelta sbagliata...',
+                "<32>* Aver saputo, nel profondo, che avrei potuto essere una persona molto migliore per te.",
+                "<32>* É questo che mi ha tenuto in vita per tutto questo tempo."
             ],
             d33: ['<25>{#p/asriel1}{#f/23}* $(name)...'],
-            d34: ['<32>{#p/basic}* Asriel.\n* My brother.', '<32>* You deserve to know the truth.'],
-            d35: ['<25>{*}{#p/asriel1}{#f/25}* Huh?\n* But you already- {%}'],
-            d36: ['<32>{#p/basic}* I forgive you, too.'],
+            d34: ['<32>{#p/basic}* Asriel.\n* Fratello mio.', '<32>* Meriti di sapere la verità.'],
+            d35: ['<25>{*}{#p/asriel1}{#f/25}* Huh?\n* Ma me lo hai già- {%}'],
+            d36: ['<32>{#p/basic}* Anche io ti perdono.'],
             d37: ['<25>{#p/asriel1}{#f/30}{#i/4}* ...!', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...'],
-            d38: ['<32>{#p/basic}* Shh...', "<32>* It's alright.", "<32>* I've got you, okay?"],
-            d39: ['<25>{#p/asriel1}{#f/25}{#i/4}* I...'],
-            d40: ["<32>{#p/basic}* I've got you, Asriel."],
+            d38: ['<32>{#p/basic}* Shh...', "<32>* Tranquillo.", "<32>* Sono qua con te, okay?"],
+            d39: ['<25>{#p/asriel1}{#f/25}{#i/4}* Io...'],
+            d40: ["<32>{#p/basic}* Sono qua con te, Asriel."],
             d41: [
-                '<32>{#p/basic}* ... I can feel it.',
-                '<32>* Even after a hundred years have passed...',
-                "<32>* He's still in there, isn't he?",
-                '<32>* Like a little angel...',
-                '<32>* Watching over me, protecting me from my own bad choices...',
-                '<32>* ... all so I could one day return him the favor.'
+                '<32>{#p/basic}* ... Lo sento.',
+                '<32>* Anche se sono passati centinaia di anni...',
+                "<32>* Sei ancora qua dentro, non è vero?",
+                '<32>* Come un angelo custode...',
+                '<32>* A vegliare su di me, proteggendomi dalle scelte sbagliate...',
+                '<32>* ... tutto così che potessi un giorno ricambiare il favore.'
             ],
-            d42: ["<32>{#p/basic}* It's all starting to make sense now.", '<32>* I know what I have to do.'],
-            d43: ['<25>{*}{#p/asriel1}{#f/25}* Huh?\n* What are you... {^60}{%}'],
-            d44: ['<25>{*}{#f/25}* No...!{^60}{%}', '<25>{*}{#f/26}* L... let me go!{^60}{%}'],
-            d45: ['<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* ... take care of Mom and Dad for me, okay?{^60}{%}'],
-            d46: ['<25>{#p/asriel1}{#f/25}* Frisk, are you there?', '<25>{#f/22}* Please... wake up...'],
-            d47: ["<25>{#p/asriel1}{#f/23}* I...\n* I don't want to lose you too..."],
+            d42: ["<32>{#p/basic}* Ora tutto comincia ad avere un senso.", '<32>* So cosa devo fare.'],
+            d43: ['<25>{*}{#p/asriel1}{#f/25}* Huh?\n* Di cosa stai... {^60}{%}'],
+            d44: ['<25>{*}{#f/25}* No...!{^60}{%}', '<25>{*}{#f/26}* L... lasciami andare!{^60}{%}'],
+            d45: ['<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* ... prenditi cura di Mamma e Papà al posto mio, okay?{^60}{%}'],
+            d46: ['<25>{#p/asriel1}{#f/25}* Frisk, puoi sentirmi?', '<25>{#f/22}* Per favore... svegliati...'],
+            d47: ["<25>{#p/asriel1}{#f/23}* Io...\n* Non voglio perdere pure te..."],
             d48: ['<25>{#p/asriel1}{#f/17}* ... there you are.'],
             d49: [
                 "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there.",

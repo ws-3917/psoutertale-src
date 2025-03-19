@@ -2398,7 +2398,7 @@ export default {
                     : !SAVE.data.b.failshow && SAVE.data.b.item_tvm_mewmew && !SAVE.data.b.mewget
                         ? ((SAVE.data.b.mewget = true),
                             [
-                                '<25>{#p/alphys}{#g/alphysFR}* ...哦对了，\n  你把我的喵喵玩偶送人，\n  现在我拿回来了。',
+                                '<25>{#p/alphys}{#g/alphysFR}* ...哦对了，\n  你把我的喵喵玩偶夺走，\n  现在我拿回来了。',
                                 "<25>{#p/alphys}{#g/alphysHellYeah}* 还想占我便宜？\n  让人笑掉大牙了都。"
                             ])
                         : [])
@@ -5622,7 +5622,7 @@ export default {
             },
             spaghetti: {
                 text: [
-                    '<32>{#p/human}* （某个灵魂好像很熟悉这碗意面...）',
+                    '<32>{#p/human}* （某个灵魂好像很熟悉这盘意面...）',
                     '<32>{#p/basic}* 突然间，记忆如潮水般涌回！'
                 ],
                 talk: [
@@ -5632,12 +5632,12 @@ export default {
             },
             snack: {
                 text: [
-                    '<32>{#p/human}* （某个灵魂好像很熟悉这块点心...）',
+                    '<32>{#p/human}* （某个灵魂好像很熟悉这包零食...）',
                     '<32>{#p/basic}* 突然间，记忆如潮水般涌回！'
                 ],
                 talk: [
-                    ['<11>{#p/undyne}{#e/undyne/41}那点心\n是我专门\n给你弄到的。'],
-                    ['<11>{#p/alphys}{#e/alphys/6}你会做\n点心了？']
+                    ['<11>{#p/undyne}{#e/undyne/41}肯定是\n我拿给你\n那包了。\n自家制的\n最棒了！'],
+                    ['<11>{#p/alphys}{#e/alphys/6}你啥时候\n开始做零食了？']
                 ]
             },
             starling_tea: {
@@ -5763,7 +5763,7 @@ export default {
             },
             spaghetti: {
                 text: [
-                    '<32>{#p/human}* （某个灵魂好像很熟悉这碗意面...）',
+                    '<32>{#p/human}* （某个灵魂好像很熟悉这盘意面...）',
                     '<32>{#p/basic}* 突然间，记忆如潮水般涌回！'
                 ],
                 talk: [

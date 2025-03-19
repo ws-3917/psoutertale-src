@@ -5487,7 +5487,7 @@ export default {
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
+                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Внезапно!..']
                     : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
             water: (s: boolean) => [
                 '<32>{#p/human}* (You offer the Lost Soul a glass of water.)',
@@ -5588,7 +5588,7 @@ export default {
             tvm_mewmew: {
                 text: [
                     "<32>{#p/human}* (You flash the Mew Mew Doll in the Lost Souls' faces.)",
-                    '<32>{#p/basic}* Suddenly...!'
+                    '<32>{#p/basic}* Внезапно!..'
                 ],
                 talk: [
                     ['<11>{#p/undyne}{#e/undyne/41}Uh, I guess this is between you guys.'],
@@ -5653,7 +5653,7 @@ export default {
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
+                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Внезапно!..']
                     : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
             puzzle: (s: boolean) => [
                 '<32>{#p/human}* (You ask the Lost Soul to give you a puzzle.)',
@@ -5842,7 +5842,7 @@ export default {
         act: {
             flirt: (s: boolean) =>
                 s
-                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Suddenly...!']
+                    ? ['<32>{#p/human}* (You flirt with the Lost Soul.)', '<32>{#p/basic}* Внезапно!..']
                     : ['<32>{#p/human}* (You flirt with the Lost Soul.)\n* (Nothing happens.)'],
             call: (s: boolean) => [
                 '<32>{#p/human}* (You call the Lost Soul on the phone.)',

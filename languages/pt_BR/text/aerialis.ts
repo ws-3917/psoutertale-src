@@ -9215,123 +9215,123 @@ export default {
             world.bad_lizard > 1 ? ["<11>{#p/basic}{~}Nós vamos te parar..."] : ["<11>{#p/basic}{~}Estamos só na amizade..."],
         randTalk3: () =>
             world.bad_lizard > 1
-                ? ["<11>{#p/basic}{~}You're no match for us."]
-                : ["<11>{#p/basic}{~}You best not be shippin' us..."],
+                ? ["<11>{#p/basic}{~}Vocês não são nada pra gente."]
+                : ["<11>{#p/basic}{~}É melhor você não estar shippando a gente..."],
         randTalk4: () =>
-            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Careful, bro.'] : ['<11>{#p/basic}{~}Careful, girl.'],
+            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Cuidado, bro.'] : ['<11>{#p/basic}{~}Cuidado, girl.'],
         randStatus1: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* 01 and 02 attack in sync.']
-                : ["<33>{#p/story}* 03 is living in the friendzone.\n* 04 doesn't question it."],
+                ? ['<32>{#p/story}* 01 e 02 atacam em sincronia.']
+                : ["<33>{#p/story}* 03 está vivendo na Friendzone.\n* 04 não questiona."],
         randStatus2: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* 01 and 02 prepare their next assault.']
-                : ['<32>{#p/story}* 03 casts her doubts aside for just a moment.\n* 04 breathes a sigh of relief.'],
+                ? ['<32>{#p/story}* 01 e 02 estão preparados para a batalha.']
+                : ['<32>{#p/story}* 03 deixa suas dúvidas de lado por um momento.\n* 04 respira aliviada.'],
         randStatus3: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* 01 and 02 slam their bodies together brotastically.']
-                : ["<32>{#p/story}* 03 ponders about 04's history.\n* 04 shrugs."],
+                ? ['<32>{#p/story}* 01 e 02 batem os corpos juntos com brutalidade.']
+                : ["<32>{#p/story}* 03 se questiona sobre a história de 04.\n* 04 treme."],
         randStatus4: () =>
             world.bad_lizard > 1
-                ? ["<32>{#p/story}* Smells like men's body spray."]
-                : ['<32>{#p/story}* Smells like perfume.'],
+                ? ["<32>{#p/story}* Cheira a spray corporal masculino."]
+                : ['<32>{#p/story}* Cheira a perfume.'],
         randStatus5: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* 01 and 02 refer to themselves as \"brotally swagical.\"']
-                : ['<32>{#p/story}* 03 puts on a brave face.\n* 04 replies non-verbally with her own bravery.'],
+                ? ['<32>{#p/story}* 01 e 02 referem-se a si mesmos como \"brutalmente mágicos.\"']
+                : ['<32>{#p/story}* 03 põe uma face brava.\n* 04 responde não verbalmente com sua própria cara brava.'],
         randTalkLone1: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Suffer.']
-                : ["<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."],
+                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Sofra.']
+                : ["<11>{#p/basic}{~}{@random=1.1/1.1}Eu nunca vou saber..."],
         randTalkLone2: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}No mercy.']
-                : ["<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."],
+                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Sem piedade.']
+                : ["<11>{#p/basic}{~}{@random=1.1/1.1}É tarde demais..."],
         randTalkLone3: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Unforgiv- able.']
-                : ['<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance...'],
+                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Imperdoável.']
+                : ['<11>{#p/basic}{~}{@random=1.1/1.1}Eu perdi minha chance...'],
         randTalkLone4: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Die.']
-                : ["<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."],
+                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Morra.']
+                : ["<11>{#p/basic}{~}{@random=1.1/1.1}Não pode ser..."],
         randStatusLone: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Só mais um.']
                 : world.bad_lizard > 1
-                    ? ['<32>{#p/story}* 01 seems even more focused than before.']
-                    : ['<32>{#p/story}* 03 is in disarray.'],
+                    ? ['<32>{#p/story}* 01 parece ainda mais confuso do que antes.']
+                    : ['<32>{#p/story}* 03 está em desordem.'],
 
-        act_flirt: ['<32>{#p/human}* (You flirt with 03.)'],
-        flirtTalk1: ['<11>{#p/basic}{~}Flirting is strictly forbidden.'],
-        flirtTalk2: ["<11>{#p/basic}{~}You think that's gonna work on us?"],
-        flirtTalkNervy1: ['<11>{#p/basic}{~}Flirting is... ack...'],
-        flirtTalkNervy2: ["<11>{#p/basic}{~}That's not really... ack..."],
+        act_flirt: ['<32>{#p/human}* (Você flerta com 03.)'],
+        flirtTalk1: ['<11>{#p/basic}{~}Flertar é estritamente proibido.'],
+        flirtTalk2: ["<11>{#p/basic}{~}Você acha que isso vai funcionar na gente?"],
+        flirtTalkNervy1: ['<11>{#p/basic}{~}Flertar é... paia...'],
+        flirtTalkNervy2: ["<11>{#p/basic}{~}Não é... ack..."],
         flirtTalkLone: ['<11>{#p/basic}{~}...'],
-        flirtStatus: ['<32>{#p/story}* 03 struggles to contain her feelings.\n* 04 seems confused...'],
-        flirtStatusNervy: ["<32>{#p/story}* 03's feelings are bursting at the seams.\n* 04 seems concerned..."],
+        flirtStatus: ['<32>{#p/story}* 03 batalha contra seus sentimentos.\n* 04 parece confusa...'],
+        flirtStatusNervy: ["<32>{#p/story}* Os sentimentos de 03 estão explodindo.\n* 04 parece preocupada..."],
         act_flirt_happy: [
-            '<32>{#p/human}* (You flirt with 03.)\n* (She accepts the compliment, but remains focused on 04.)'
+            '<32>{#p/human}* (Você flerta com 03.)\n* (Ela aceita o elogio, mas continua focada na 04.)'
         ],
-        act_flirt_nada: ["<32>{#p/human}* (You flirt with 01.)\n* (He doesn't seem to react in any significant way.)"],
+        act_flirt_nada: ["<32>{#p/human}* (Você flerta com 01.)\n* (Ele não parece reagir de maneira significativa.)"],
 
-        act_tug: ["<32>{#p/human}* (You try to pull on 03's glove, but she slaps your hand away.)"],
-        tugTalk1: ['<11>{#p/basic}{~}Paws off, sister.'],
-        tugTalk2: ['<11>{#p/basic}{~}No touchy.'],
-        tugTalk3: ["<11>{#p/basic}{~}That's off- limits to you."],
-        tugTalk4: ['<11>{#p/basic}{~}Nope.'],
-        tugStatus: ['<32>{#p/story}* It would seem some boundaries are better left uncrossed.'],
-        act_tug_lone: ["<32>{#p/human}* (You try to pull on 03's glove, but she raises it out of your reach.)"],
+        act_tug: ["<32>{#p/human}* (Você tenta tirar a luva da 03, mas ela da um tapa na sua mão.)"],
+        tugTalk1: ['<11>{#p/basic}{~}Tire as mãos, irmã.'],
+        tugTalk2: ['<11>{#p/basic}{~}Sem tocar.'],
+        tugTalk3: ["<11>{#p/basic}{~}Isso está fora dos limites para você."],
+        tugTalk4: ['<11>{#p/basic}{~}Negativo.'],
+        tugStatus: ['<32>{#p/story}* Parece que é melhor deixar alguns limites não sendo cruzados.'],
+        act_tug_lone: ["<32>{#p/human}* (Você tenta puxar a luva de 03, mas ela se afasta de você.)"],
         tugTalkLone: ['<11>{#p/basic}{~}...'],
-        tugStatusLone: ['<32>{#p/story}* 03 towers above you, masking her true expression.'],
+        tugStatusLone: ['<32>{#p/story}* 03 se eleva acima de você, mascarando sua verdadeira expressão.'],
         act_tug_happy: [
-            "<32>{#p/human}* (You hold 03's paw.)",
-            '<32>{#p/basic}* 03 mistakenly believes 04 is holding her paw...'
+            "<32>{#p/human}* (Você segura a pata de 03.)",
+            '<32>{#p/basic}* 03 acaba por acreditar que 04 está segurando sua mão...'
         ],
 
-        tugShock: ['<11>{#p/basic}{~}04...!', '<11>{#p/basic}{~}...', '<11>{#p/basic}{~}That bracelet...'],
-        nervyTalk1: ['<11>{#p/basic}{~}04, I...'],
-        nervyTalk2: ['<11>{#p/basic}{~}04, we...'],
-        nervyTalk3: ['<11>{#p/basic}{~}04, you...'],
-        nervyTalk4: ["<11>{#p/basic}{~}04, it's..."],
-        nervyStatus: ['<32>{#p/story}* The solar winds begin to shift towards your favor.'],
+        tugShock: ['<11>{#p/basic}{~}04...!', '<11>{#p/basic}{~}...', '<11>{#p/basic}{~}Esse bracelete...'],
+        nervyTalk1: ['<11>{#p/basic}{~}04, eu...'],
+        nervyTalk2: ['<11>{#p/basic}{~}04, nós...'],
+        nervyTalk3: ['<11>{#p/basic}{~}04, você...'],
+        nervyTalk4: ["<11>{#p/basic}{~}04, é..."],
+        nervyStatus: ['<32>{#p/story}* Os ventos solares começam a mudar a seu favor.'],
 
-        act_whisper: ['<32>{#p/human}* (You whisper to 03 to open up about her feelings.)'],
-        act_whisper_alt: ['<32>{#p/human}* (You whisper to 03.)\n* (Nothing happens.)'],
+        act_whisper: ['<32>{#p/human}* (Você diz para 03 se abrir em relação a seus sentimentos.)'],
+        act_whisper_alt: ['<32>{#p/human}* (Você cochicha para 03.)\n* (Nada acontece.)'],
 
         confess1: ['<11>{#p/basic}{~}04...'],
-        confess2: ['<11>{#p/basic}{~}...', '<11>{#p/basic}{~}... yeah, 03?'],
-        confess3: ['<11>{#p/basic}{~}Look at me, 04...'],
-        confess4: ["<11>{#p/basic}{~}But that's..."],
-        confess5: ['<11>{#p/basic}{~}The bracelet of unity...', '<11>{#p/basic}{~}Remember?'],
+        confess2: ['<11>{#p/basic}{~}...', '<11>{#p/basic}{~}... sim, 03?'],
+        confess3: ['<11>{#p/basic}{~}Olha pra mim, 04...'],
+        confess4: ["<11>{#p/basic}{~}Mas isso..."],
+        confess5: ['<11>{#p/basic}{~}O bracelete da unidade...', '<11>{#p/basic}{~}Lembra?'],
         confess6: [
-            "<11>{#p/basic}{~}It's you...",
-            "<11>{#p/basic}{~}I thought I'd lost you, all those years ago...",
-            "<11>{#p/basic}{~}I thought I'd never see you again.",
-            "<11>{#p/basic}{~}But now...\nAfter graduating from Undyne's training..."
+            "<11>{#p/basic}{~}É você...",
+            "<11>{#p/basic}{~}Eu pensei ter te perdido todos esses anos atrás...",
+            "<11>{#p/basic}{~}Eu pensei que nunca te veria de novo.",
+            "<11>{#p/basic}{~}Mas agora...\nApós a graduação dos treinos da Undyne..."
         ],
         confess7: [
-            "<11>{#p/basic}{~}We're together again, 04.\nJust like before.",
-            '<11>{#p/basic}{~}And, no matter what names we go by...',
-            '<11>{#p/basic}{~}I will always love you.'
+            "<11>{#p/basic}{~}Nós estamos juntos de novo, 04.\nAssim como antes.",
+            '<11>{#p/basic}{~}E, não importa quais nomes usemos...',
+            '<11>{#p/basic}{~}Eu sempre irei te amar.'
         ],
-        confess8: ['<11>{#p/basic}{~}03, I...', '<11>{#p/basic}{~}I love you too!'],
-        confess9: ['<11>{#p/basic}{~}... do you wanna get some ice cream?'],
-        confess10: ['<11>{#p/basic}{~}Salmon- flavored?'],
-        confess11: ['<11>{#p/basic}{~}You know it!'],
+        confess8: ['<11>{#p/basic}{~}03, eu...', '<11>{#p/basic}{~}Eu te amo também!'],
+        confess9: ['<11>{#p/basic}{~}... quer ir tomar sorvete?'],
+        confess10: ['<11>{#p/basic}{~}Sabor salmão?'],
+        confess11: ['<11>{#p/basic}{~}Você me conhece demais!'],
 
-        happyTalk1: ['<11>{#p/basic}{~}I missed you...'],
-        happyTalk2: ["<11>{#p/basic}{~}I'm glad you're here..."],
-        happyTalk3: ['<11>{#p/basic}{~}To think it was you, all this time...'],
-        happyTalk4: ['<11>{#p/basic}{~}To think I forgot about those beautiful eyes...'],
-        happyStatus: ['<32>{#p/story}* 03 and 04 are looking happily at each other.'],
+        happyTalk1: ['<11>{#p/basic}{~}Eu senti sua falta...'],
+        happyTalk2: ["<11>{#p/basic}{~}Estou feliz que você esteja aqui..."],
+        happyTalk3: ['<11>{#p/basic}{~}E pensar que era você esse tempo todo...'],
+        happyTalk4: ['<11>{#p/basic}{~}E pensar que eu esqueci a cor desses lindos olhos...'],
+        happyStatus: ['<32>{#p/story}* 03 e 04 estão olhando felizes uma para a outra.'],
 
         horrorTalk1: [
-            '<11>{#p/basic}{~}{@random=1.1/1.1}N... no...',
-            '<11>{#p/basic}{~}{@random=1.1/1.1}We were gonna be... so happy together...'
+            '<11>{#p/basic}{~}{@random=1.1/1.1}N... não...',
+            '<11>{#p/basic}{~}{@random=1.1/1.1}Nós seríamos tão... felizes juntos...'
         ],
-        horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}I can't go on..."],
-        horrorTalk3: ["<11>{#p/basic}{~}{@random=1.1/1.1}I don't want to live like this anymore..."],
+        horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}Eu não consigo mais..."],
+        horrorTalk3: ["<11>{#p/basic}{~}{@random=1.1/1.1}Eu não desejo mais viver..."],
         horrorTalk4: ['<11>{#p/basic}{~}{@random=1.1/1.1}...'],
         horrorStatus: ['<32>{#p/story}* ...'],
 
@@ -9339,278 +9339,278 @@ export default {
             world.goatbro
                 ? ['<32>{#p/asriel2}* Quase morto.']
                 : world.bad_lizard > 1
-                    ? ["<32>{#p/story}* 01's gaze pans downwards to the floor."]
-                    : ["<32>{#p/story}* 03's breathing intensifies."]
+                    ? ["<32>{#p/story}* O olhar de 01 se move para o chão."]
+                    : ["<32>{#p/story}* A respiração de 03 se intensifica."]
     },
 
     b_opponent_rg02: {
         name: () => (world.bad_lizard > 1 ? '* RG 02' : '* RG 04'),
         epiphaNOPE: () =>
             world.bad_lizard > 1
-                ? ["<11>{#p/basic}{~}I don't get this at all..."]
-                : ["<11>{#p/basic}{~}That won't work on me."],
+                ? ["<11>{#p/basic}{~}Eu não entendo..."]
+                : ["<11>{#p/basic}{~}Isso não vai funcionar comigo."],
         act_check: () =>
             world.goatbro
-                ? ["<32>{#p/asriel2}* RG 02...\n* There's really not much to say about these guys."]
+                ? ["<32>{#p/asriel2}* RG 02...\n* Não tem muito o que dizer sobre esses caras."]
                 : world.bad_lizard > 1
-                    ? ['<32>{#p/story}* RG 02 - ATK 30 DEF 20\n* A confident lover who seems intent on stopping you.']
-                    : ["<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Believes in friendship, but isn't against something more..."],
+                    ? ['<32>{#p/story}* RG 02 - ATQ 30 DEF 20\n* Um confiante amador que tem a intenção de te parar.']
+                    : ["<33>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Acredita na amizade, mas não é contra algo a mais..."],
         act_check2: () =>
             world.bad_lizard > 1
-                ? ['<32>{#p/story}* RG 02 - ATK 30 DEF 20\n* Intent on stopping you, no matter what it takes.']
-                : ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Planning on shopping for new armor soon.'],
-        act_check3: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Re-united at last...'],
-        act_check4: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Broken.'],
-        act_check5: ['<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Feeling somewhat exposed...'],
-        act_check6: ['<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Eager to see you dead.'],
-        randTalk1: () => ['<11>{#p/basic}{~}Team attack!'],
+                ? ['<32>{#p/story}* RG 02 - ATQ 30 DEF 20\n* Deseja te impedir não importando o custo.']
+                : ['<32>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Planejando comprar uma nova armadura mais tarde.'],
+        act_check3: ['<32>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Reunidos de novo...'],
+        act_check4: ['<32>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Despedaçado.'],
+        act_check5: ['<33>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Se sentindo exposta...'],
+        act_check6: ['<32>{#p/story}* RG 04 - ATQ 30 DEF 20\n* Deseja te ver morto.'],
+        randTalk1: () => ['<11>{#p/basic}{~}Ataque em equipe!'],
         randTalk2: () =>
-            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Once and for all!'] : ['<11>{#p/basic}{~}Absolutely!'],
+            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}De uma vez por todas!'] : ['<11>{#p/basic}{~}Absolutamente!'],
         randTalk3: () =>
-            world.bad_lizard > 1 ? ["<11>{#p/basic}{~}You don't stand a chance!"] : ['<11>{#p/basic}{~}No romance here!'],
+            world.bad_lizard > 1 ? ["<11>{#p/basic}{~}Você não tem chance!"] : ['<11>{#p/basic}{~}Sem romance aqui!'],
         randTalk4: () =>
-            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Totally, bro!'] : ['<11>{#p/basic}{~}Oh you know it, girl!'],
+            world.bad_lizard > 1 ? ['<11>{#p/basic}{~}Totalmente, bro!'] : ['<11>{#p/basic}{~}Ah você sabe, girl!'],
         randTalkLone1: () =>
             world.bad_lizard > 1
-                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}It's over for you!!"]
-                : ['<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?'],
+                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}Já era pra você!!"]
+                : ['<11>{#p/basic}{~}{@random=1.1/1.1}Como você pôde ter feito isso comigo...!?'],
         randTalkLone2: () =>
             world.bad_lizard > 1
-                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}Don't even try!!"]
-                : ['<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!'],
+                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}Nem mesmo tente!!"]
+                : ['<11>{#p/basic}{~}{@random=1.1/1.1}Ela era minha única amiga...!'],
         randTalkLone3: () =>
             world.bad_lizard > 1
-                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Prepare to be wiped out!!']
-                : ['<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!'],
+                ? ['<11>{#p/basic}{~}{@random=1.1/1.1}Prepare para ser partido ao meio!']
+                : ['<11>{#p/basic}{~}{@random=1.1/1.1}Ela era tudo pra mim...!'],
         randTalkLone4: () =>
             world.bad_lizard > 1
-                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}I'm gonna make you pay!!"]
-                : ['<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?'],
+                ? ["<11>{#p/basic}{~}{@random=1.1/1.1}Eu irei te fazer pagar!!"]
+                : ['<11>{#p/basic}{~}{@random=1.1/1.1}Que tipo de criatura é você...!?'],
         randStatusLone: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Só mais um.']
                 : world.bad_lizard > 1
-                    ? ['<32>{#p/story}* 02 has lost his temper.']
-                    : ['<32>{#p/story}* 04 is in shambles.'],
+                    ? ['<32>{#p/story}* 02 perdeu seu temperamento.']
+                    : ['<32>{#p/story}* 04 está em frangalhos.'],
 
-        act_flirt: ['<32>{#p/human}* (You flirt with 04.)'],
-        flirtTalk1: ["<11>{#p/basic}{~}It's in the rules!"],
-        flirtTalk2: ["<11>{#p/basic}{~}It won't!"],
-        flirtTalkNervy1: ["<11>{#p/basic}{~}It's against the rules!"],
-        flirtTalkNervy2: ["<11>{#p/basic}{~}It's not our thing!"],
+        act_flirt: ['<32>{#p/human}* (Você flerta com 04.)'],
+        flirtTalk1: ["<11>{#p/basic}{~}Está nas regras!"],
+        flirtTalk2: ["<11>{#p/basic}{~}Não vai!"],
+        flirtTalkNervy1: ["<11>{#p/basic}{~}É contra as regras!"],
+        flirtTalkNervy2: ["<11>{#p/basic}{~}Não é nossa parada!"],
         flirtTalkLone: ['<11>{#p/basic}{~}...'],
         act_flirt_happy: [
-            "<32>{#p/human}* (You flirt with 04.)\n* (She's flattered, but her eyes remain locked with 03.)"
+            "<32>{#p/human}* (Você flerta com 04.)\n* (Ela está lisonjeada, mas seus olhos permanecem fixos na 03.)"
         ],
-        act_flirt_nada: ["<32>{#p/human}* (You flirt with 02.)\n* (He doesn't seem to react in any significant way.)"],
+        act_flirt_nada: ["<32>{#p/human}* (Você flerta com 02.)\n* (Ele não parece reagir de maneira significativa.)"],
 
-        act_tug: ["<32>{#p/human}* (You pull on 04's glove.)", "<32>{#p/basic}* 04's glove seems loose..."],
-        tugTalk1: ['<11>{#p/basic}{~}W-what are you doing?'],
-        tugTalk2: ["<11>{#p/basic}{~}Don't tell me you're going to..."],
-        tugTalk3: ['<11>{#p/basic}{~}I...\nThis is...'],
+        act_tug: ["<32>{#p/human}* (Você tira a luva da 04.)", "<32>{#p/basic}* A luva de 04 parece escorregar..."],
+        tugTalk1: ['<11>{#p/basic}{~}O que você tá fazendo?'],
+        tugTalk2: ["<11>{#p/basic}{~}Não me diga que você vai..."],
+        tugTalk3: ['<11>{#p/basic}{~}Eu...\nIsso é...'],
         tugTalk4: ['<11>{#p/basic}{~}...'],
-        tugStatus: ["<32>{#p/story}* 04's glove is slipping."],
-        act_tug_lone: ["<32>{#p/human}* (You pull on 04's glove.)", "<32>* 04's glove comes right off!"],
+        tugStatus: ["<32>{#p/story}* 04 está escorregando muito."],
+        act_tug_lone: ["<32>{#p/human}* (Você tira a luva da 04.)", "<32>* A luva da 04 sai de sua mão!"],
         tugTalkLone: ['<11>{#p/basic}{~}...'],
-        tugStatusLone: ['<32>{#p/story}* 04 shows no resistance.'],
-        act_tug_hold: ["<32>{#p/human}* (You hold 04's claw.)"],
+        tugStatusLone: ['<32>{#p/story}* 04 não demonstra resistência.'],
+        act_tug_hold: ["<32>{#p/human}* (Você segura a garra de 04.)"],
         holdTalk: ['<11>{#p/basic}{~}Uh...'],
-        holdStatus: ['<32>{#p/story}* 04 is not really sure what to make of this.'],
-        act_tug_hold_lone: ["<32>{#p/human}* (You hold 04's claw.)\n* (Nothing happens.)"],
+        holdStatus: ['<32>{#p/story}* 04 não tem certeza do que tirar disso.'],
+        act_tug_hold_lone: ["<32>{#p/human}* (Você segura a garra de 04.)\n* (Nada acontece.)"],
         holdTalkLone: ['<11>{#p/basic}{~}...'],
-        holdStatusLone: ['<32>{#p/story}* 04 just lets it happen.'],
+        holdStatusLone: ['<32>{#p/story}* 04 está apenas deixando acontecer.'],
         act_tug_happy: [
-            "<32>{#p/human}* (You hold 04's claw.)",
-            '<32>{#p/basic}* 04 mistakenly believes 03 is holding her claw...'
+            "<32>{#p/human}* (Você segura a garra de 04.)",
+            '<32>{#p/basic}* 04 pensa que 03 está segurando sua mão...'
         ],
-        tugSuccessStatus: ['<32>{#p/story}* The veil has been lifted.'],
+        tugSuccessStatus: ['<32>{#p/story}* O véu foi levantado.'],
 
-        tugShock: ["<11>{#p/basic}{~}My glove...\nIt's coming off...!"],
+        tugShock: ["<11>{#p/basic}{~}Minha luva...\nEstá saindo...?"],
         nervyTalk1: ['<11>{#p/basic}{~}03...?'],
-        nervyTalk2: ['<11>{#p/basic}{~}Why are you looking at me that way?'],
-        nervyTalk3: ["<11>{#p/basic}{~}What's with that face, 03?"],
-        nervyTalk4: ['<11>{#p/basic}{~}Are you okay?'],
+        nervyTalk2: ['<11>{#p/basic}{~}Por que você está me olhando desse jeito?'],
+        nervyTalk3: ["<11>{#p/basic}{~}Que cara é essa, 03?"],
+        nervyTalk4: ['<11>{#p/basic}{~}Você tá bem?'],
 
-        act_whisper: ['<32>{#p/human}* (You whisper to 04, but she just seems confused.)'],
-        act_whisper_alt: ['<32>{#p/human}* (You whisper to 04.)\n* (Nothing happens.)'],
+        act_whisper: ['<32>{#p/human}* (Você sussurra para 04, mas ela parece confusa.)'],
+        act_whisper_alt: ['<32>{#p/human}* (Você cochicha para 04.)\n* (Nada acontece.)'],
 
-        happyTalk1: ['<11>{#p/basic}{~}I missed you too!'],
-        happyTalk2: ["<11>{#p/basic}{~}I'm glad YOU'RE here!"],
-        happyTalk3: ['<11>{#p/basic}{~}Haha, yeah...'],
-        happyTalk4: ['<11>{#p/basic}{~}Think nothing of it, sweetheart!'],
+        happyTalk1: ['<11>{#p/basic}{~}Eu senti sua falta também!'],
+        happyTalk2: ["<11>{#p/basic}{~}Estou feliz que VOCÊ ESTEJA AQUI!"],
+        happyTalk3: ['<11>{#p/basic}{~}Haha, sim...'],
+        happyTalk4: ['<11>{#p/basic}{~}Não pense nisso, querida!'],
 
         horrorTalk1: [
-            '<11>{#p/basic}{~}{@random=1.1/1.1}N... no...',
-            '<11>{#p/basic}{~}{@random=1.1/1.1}We were gonna do... so much together...'
+            '<11>{#p/basic}{~}{@random=1.1/1.1}N... não...',
+            '<11>{#p/basic}{~}{@random=1.1/1.1}Nós íamos fazer... tanta coisa juntos...'
         ],
-        horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}I can't accept it..."],
-        horrorTalk3: ['<11>{#p/basic}{~}{@random=1.1/1.1}Just... kill me...'],
+        horrorTalk2: ["<11>{#p/basic}{~}{@random=1.1/1.1}Eu não posso aceitar..."],
+        horrorTalk3: ['<11>{#p/basic}{~}{@random=1.1/1.1}Só... me mata...'],
         horrorTalk4: ['<11>{#p/basic}{~}{@random=1.1/1.1}...'],
 
         dangerStatus: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Quase morto.']
                 : world.bad_lizard > 1
-                    ? ['<32>{#p/story}* 02 holds his head high.']
-                    : ["<32>{#p/story}* 04's breathing intensifies."]
+                    ? ['<32>{#p/story}* 02 mantém a cabeça erguida.']
+                    : ["<32>{#p/story}* A respiração de 04 se intensifica."]
     },
 
     b_use: {
         old_spray: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Sugar Spray.)', '<32>{#p/human}* (Nothing happens.)'],
+                : ['<32>{#p/human}* (Você tirou o Spray de Açúcar.)', '<32>{#p/human}* (Nada acontece.)'],
         old_gun: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Stun Gun.)', '<32>{#p/human}* (Nothing happens.)'],
+                : ['<32>{#p/human}* (Você pegou a arma de choque.)', '<32>{#p/human}* (Nada acontece.)'],
         old_bomb: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Sleep Bomb.)', '<32>{#p/human}* (Nothing happens.)']
+                : ['<32>{#p/human}* (Você tirou a Bomba Sonífera.)', '<32>{#p/human}* (Nada acontece.)']
     },
 
     c_name_aerialis: {
-        alphys: "Alphys's Phone",
-        puzzle: 'Puzzle Help',
-        dimboxA: 'Dimensional Box A',
-        dimboxB: 'Dimensional Box B',
-        pms: () => (SAVE.data.n.plot_pmcheck < pms().length ? '§fill=#ff0§OuterNet (NEW)' : 'OuterNet')
+        alphys: "Cell Alphys",
+        puzzle: 'Ajuda Enigma',
+        dimboxA: 'Caixa Dimensional A',
+        dimboxB: 'Caixa Dimensional B',
+        pms: () => (SAVE.data.n.plot_pmcheck < pms().length ? '§fill=#ff0§OuterNet (NOVO)' : 'OuterNet')
     },
 
     c_call_aerialis: {
         puzzle2a: () =>
             [
                 [
-                    '<25>{#p/alphys}{#g/alphysCutscene1}* Oh, h-hey!',
-                    '<25>{#g/alphysCutscene2}* So... this puzzle is actually kinda simple.',
-                    '<25>{#g/alphysSide}* Each time you pass by a terminal, it alters your phase.',
-                    "<25>{#g/alphysSmileSweat}* Or, in layman's terms, how far you are along the fourth dimension.",
-                    "<25>{#g/alphysInquisitive}* Except it's not really a dimension, but... you get the idea.",
-                    '<25>{#g/alphysNervousLaugh}* Anyway, to pass through the puzzle, just align your local phase...',
-                    '<25>{#g/alphysHellYeah}* ... with the global phase shift of the room!',
-                    '<25>{#g/alphysCutscene2}* Which you can do by walking forwards and backwards, of course.',
-                    '<25>{#g/alphysSmileSweat}* A-and, the terminals are set to display your local phase offset...',
-                    "<25>{#g/alphysSide}* That way, you'll know when you're properly aligned.",
-                    '<25>{#g/alphysCutscene1}* Well, g-good luck!'
+                    '<25>{#p/alphys}{#g/alphysCutscene1}* Oh, e-epa!',
+                    '<25>{#g/alphysCutscene2}* Então... este quebra-cabeça é até que simples.',
+                    '<25>{#g/alphysSide}* Cada vez que você passa por um terminal isso altera sua fase.',
+                    "<25>{#g/alphysSmileSweat}* Ou, na lei dos humanos, o quão longe você está da quarta dimensão.",
+                    "<25>{#g/alphysInquisitive}* Com exceção de que não é uma dimensão... mas você entendeu.",
+                    '<25>{#g/alphysNervousLaugh}* Bem, pra passar do quebra-cabeça, apenas alinhe sua fase...',
+                    '<25>{#g/alphysHellYeah}* ... com a mudança de fase global da sala!',
+                    '<25>{#g/alphysCutscene2}* O que você pode fazer andando pra frente ou pra trás, é claro.',
+                    '<25>{#g/alphysSmileSweat}* E-e, os terminais estão configurados para exibir seu deslocamento de fase local',
+                    "<25>{#g/alphysSide}* Dessa forma você sabe quanto está propriamente alinhado.",
+                    '<25>{#g/alphysCutscene1}* B-boa sorte!'
                 ],
                 [
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... still stuck?',
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... ainda preso?',
                     '<25>{#g/alphysCutscene2}* Hmmm...',
-                    '<25>* I guess my explanation WAS a bit wordy...\n* Ehehe.',
-                    '<25>{#g/alphysSide}* Really, you just have to get to the terminal that says zero on it.',
-                    "<25>{#g/alphysNervousLaugh}* Again, it's all about phase offset.",
-                    '<25>{#g/alphysCutscene2}* As long as your local phase is aligned...',
+                    '<25>* Eu acho que minha explicação foi um pouco complexa...\n* Ehehe.',
+                    '<25>{#g/alphysSide}* Certo, você só precisa chega ao terminal que diz zero.',
+                    "<25>{#g/alphysNervousLaugh}* Novamente, é tudo uma questão de deslocamento de fase.",
+                    '<25>{#g/alphysCutscene2}* Com tanto que sua fase local esteja alinhada...',
                     '<25>{#g/alphysCutscene2}* ...',
-                    "<25>{#g/alphysUhButHeresTheDeal}* Just g-get to zero and you're home free!!"
+                    "<25>{#g/alphysUhButHeresTheDeal}* Só c-chegue ao zero e você estará livre!!"
                 ],
                 [
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... still?',
-                    '<25>{#g/alphysSmileSweat}* Uh, uh...\n* Walk forwards, until...',
-                    '<25>{#g/alphysSideSad}* ... wait, what if you already went past it?',
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... ainda?',
+                    '<25>{#g/alphysSmileSweat}* Uh, uh...\n* Caminhe para a frente, até...',
+                    '<25>{#g/alphysSideSad}* ... Espera, e se você já passou por ele?',
                     '<25>{#g/alphysNeutralSweat}* ...',
-                    "<25>{#g/alphysCutscene3}* You're smart, f-figure it out yourself!"
+                    "<25>{#g/alphysCutscene3}* Você é inteligente, d-descubra você mesmo!"
                 ]
             ][SAVE.data.n.cell_puzzleA1++],
         puzzle2b: () =>
             [
                 [
-                    '<25>{#p/alphys}{#g/alphysCutscene1}* Oh, h-hey!',
-                    '<25>{#p/alphys}{#g/alphysCutscene2}* This puzzle is a little more complicated than the last one.',
-                    "<25>{#p/alphys}{#g/alphysWelp}* Y'know, b-because of the whole extra dimension added.",
-                    '<25>{#p/alphys}{#g/alphysCutscene3}* Sometimes I question whether that actually makes it harder.',
-                    '<25>{#p/alphys}{#g/alphysSmileSweat}* Well, uh, l-like the last one, you just need to align your phase.',
-                    "<25>{#p/alphys}{#g/alphysFR}* If you don't know what that is by now...",
-                    "<25>{#p/alphys}{#g/alphysSide}* I'd say you've probably b-been living in an asteroid all this time."
+                    '<25>{#p/alphys}{#g/alphysCutscene1}* Oh, e-epa!',
+                    '<25>{#p/alphys}{#g/alphysCutscene2}* Este aí é um pouco mais complicado do que aquele último.',
+                    "<25>{#p/alphys}{#g/alphysWelp}* Sabe, por causa da dimensão a mais adicionada.",
+                    '<25>{#p/alphys}{#g/alphysCutscene3}* Às vezes me questiono se isso realmente torna as coisas mais difíceis.',
+                    '<25>{#p/alphys}{#g/alphysSmileSweat}* Bem, uh, c-como o último, você só precisa alinhar sua fase.',
+                    "<25>{#p/alphys}{#g/alphysFR}* Se você não sabe o que é isso a essa altura...",
+                    "<25>{#p/alphys}{#g/alphysSide}* Eu diria que você deve estar vivendo um asteróide esse tempo todo."
                 ],
                 [
-                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... so you HAVE been living in an asteroid.',
-                    '<25>{#p/alphys}{#g/alphysDontGetAllDreamyEyedOnMeNow}* Jeez, just find the terminal that says zero on it!'
+                    '<25>{#p/alphys}{#g/alphysInquisitive}* ... Então você ESTAVA vivendo em um asteróide.',
+                    '<25>{#p/alphys}{#g/alphysDontGetAllDreamyEyedOnMeNow}* Caramba, basta encontrar o terminal que diz zero nele!'
                 ]
             ][SAVE.data.n.cell_puzzleA2++]
     },
 
     i_tvm_radio: {
         battle: {
-            description: 'An old earth radio.',
-            name: 'Radio'
+            description: 'Um velho rádio da terra.',
+            name: 'Rádio'
         },
-        drop: ['<32>{#p/human}* (You throw away the Old Radio.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o velho rádio.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (This artifact looks a lot like other things you're used to seeing all the time.)"]
-                : ["<32>{#p/basic}* It's an old earth radio."],
-        name: 'Old Radio',
+                ? ["<32>{#p/human}* (Este artefato se parece muito com coisas que você via o tempo todo.)"]
+                : ["<32>{#p/basic}* É um velho rádio da terra."],
+        name: 'Rádio Velho',
         use: () =>
             !world.genocide && battler.active && battler.alive[0].opponent.metadata.reactTVM
                 ? []
                 : ['a_lookout', 'f_taxi', 's_taxi', 'w_wonder'].includes(game.room) // NO-TRANSLATE
 
                     ? [
-                        '<32>{#p/human}* (You turned on the Old Radio.)',
+                        '<32>{#p/human}* (Você liga o Velho Rádio.)',
                         '<32>{#p/event}{#a.radiostart}* ...',
                         '{*}{#a.radiostop}{%}'
                     ]
-                    : ['<32>{#p/human}* (You turned on the Old Radio.)\n* (No signal.)']
+                    : ['<32>{#p/human}* (Você ligou o Rádio Velho.)\n* (Sem sinal.)']
     },
     i_tvm_fireworks: {
         battle: {
-            description: 'A box of fireworks from earth.',
-            name: 'Fireworks'
+            description: 'Uma caixa de fogos de artifício da terra.',
+            name: 'Fogos de Art'
         },
-        drop: ['<32>{#p/human}* (You throw away the Fireworks box.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora a caixa de Fogos de Artifício.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (This supposed artifact looks like nothing else you've seen.)"]
-                : ["<32>{#p/basic}* It's a box of fireworks from earth."],
-        name: 'Fireworks',
+                ? ["<32>{#p/human}* (Este suposto artefato não se parece nada com algo que você viu antes.)"]
+                : ["<32>{#p/basic}* É uma caixa de fogos de artifício da terra."],
+        name: 'Fogos de Art',
         use: () =>
             !world.genocide && battler.active && battler.alive[0].opponent.metadata.reactTVM
                 ? []
                 : [
-                    '<32>{#p/human}* (You peered into the Fireworks box.)',
-                    "<32>* (You can't seem to figure out how to use these.)"
+                    '<32>{#p/human}* (Você olhou para a caixa de fogos de artifício.)',
+                    "<32>* (Você não consegue entender como fazer para usá-los!)"
                 ]
     },
     i_tvm_mewmew: {
         battle: {
-            description: 'A life-sized Mew Mew doll.',
-            name: 'Doll'
+            description: 'Uma Boneca Mew Mew tamanho real.',
+            name: 'Boneca'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Mew Mew Doll.)',
+            '<32>{#p/human}* (Você joga fora a Boneca Mew Mew.)',
             ...((fetchCharacters()
                 .find(c => c.key === 'alphys') // NO-TRANSLATE
 
                 ?.position.extentOf(game.camera.position.clamp(...renderer.region)) ?? 240) < 240
                 ? ((SAVE.data.b.mewget = true),
                     [
-                        "<25>{#p/alphys}{#f/23}* Wow, you're so kind for leaving that there for me.",
-                        '<25>{#p/alphys}{#f/22}* It only TOOK YOU LONG ENOUGH!!!',
-                        '<25>{#p/alphys}{#g/alphysCutscene2}* ... thanks, I guess.'
+                        "<25>{#p/alphys}{#f/23}* Wow, você é tão legal por deixar isso aí pra mim.",
+                        '<25>{#p/alphys}{#f/22}* Você só precisou de TODO TEMPO DO MUNDO!!!',
+                        '<25>{#p/alphys}{#g/alphysCutscene2}* ... obrigada, eu acho.'
                     ])
                 : game.room === 'f_undyne' && instance('main', 'f_dummynpc') // NO-TRANSLATE
 
                     ? [
-                        "<32>{#p/basic}* You're leaving it here??",
-                        '<32>{#p/basic}* Well... what makes you think I want it, HUH!?',
-                        "<32>{#p/basic}* Because, I DON'T!\n* It's... just a stupid doll!",
-                        '<32>{#p/basic}* I guess... it is kind of cute, though...',
-                        "<32>{#p/basic}* W-what are you looking at!?\n* I'm not blushing!",
-                        '<32>{#p/basic}* Not on the outside, anyway...',
+                        "<32>{#p/basic}* Você vai deixar isso aqui??",
+                        '<32>{#p/basic}* Bem... o que te faz pensar que eu quero, HUH!?',
+                        "<32>{#p/basic}* Porque EU NÃO QUERO!\n* É... só uma boneca estúpida!",
+                        '<32>{#p/basic}* Eu acho... que é até que fofa...',
+                        "<32>{#p/basic}* O que v-você tá olhando!?\n* Eu não tô com vergonha!",
+                        '<32>{#p/basic}* Não por fora, pelo menos...',
                         '<32>{#p/basic}* ...'
                     ]
                     : [])
         ],
-        info: ["<32>{#p/basic}* It's a life-sized Mew Mew doll, what else would it be?"],
-        name: 'Mew Mew Doll',
+        info: ["<32>{#p/basic}* É um boneca Mew Mew em tamanho real, o que mais seria"],
+        name: 'Boneca Mew Mew',
         use: () =>
             !world.genocide &&
                 battler.active &&
                 (battler.alive[0].opponent.metadata.reactTVM || battler.alive[0].opponent.metadata.reactMewMew)
                 ? []
                 : [
-                    '<32>{#p/human}* (You use the Mew Mew Doll.)',
+                    '<32>{#p/human}* (Você usa a Boneca Mew Mew.)',
                     ...((fetchCharacters()
                         .find(c => c.key === 'alphys') // NO-TRANSLATE
 
@@ -9618,7 +9618,7 @@ export default {
                         ? ['<25>{#p/alphys}{#g/alphysFR}* ...']
                         : game.room === 'f_undyne' && instance('main', 'f_dummynpc') // NO-TRANSLATE
 
-                            ? ['<32>{#p/basic}* Would you quit waving that thing around?']
+                            ? ['<32>{#p/basic}* Da pra parar de balançar essa coisa para os lados?']
                             : game.room === 'f_blooky' && // NO-TRANSLATE
 
                                 !world.genocide &&
@@ -9627,568 +9627,568 @@ export default {
                                 ? ['<32>{#p/napstablook}* oh............']
                                 : SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                                     ? []
-                                    : ['<32>{#p/basic}* What were you even expecting to happen here...?'])
+                                    : ['<32>{#p/basic}* O que você esperava que acontecesse aqui...?'])
                 ]
     },
     i_starfait: {
         battle: {
-            description: 'There is such a thing as too much sugar.',
+            description: 'Existe muita coisa além de muito açúcar.',
             name: 'Starfaint'
         },
-        drop: ['<32>{#p/human}* (You throw away the Starfaint.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Starfaint.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (23 HP.)']
-                : ['<32>{#p/basic}* \"Starfaint\" Heals 23 HP\n* There is such a thing as too much sugar.'],
+                : ['<32>{#p/basic}* \"Starfaint\" cura 23 HP\n* Existe muito açúcar.'],
         name: 'Starfaint',
-        use: ['<32>{#p/human}* (You consume the Starfaint.)']
+        use: ['<32>{#p/human}* (Você consome o Starfaint.)']
     },
     i_legendary_hero: {
         battle: {
-            description: "A shieldwich you can hold to heal after the opponent's turn.",
+            description: "Um escudo que você pode segurar para curar após o turno do oponente.",
             name: 'H.Y.G.'
         },
-        drop: ['<32>{#p/human}* (You throw away the Hold Yer Grane.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Hold Yer Grane.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (40 HP.)']
                 : [
-                    '<33>{#p/basic}* \"Hold Yer Grane\" Heals 40 HP\n* A shieldwich you can hold to heal after the opponent\'s turn.'
+                    '<33>{#p/basic}* \"Holder Yer Grane\" Cura 40 HP\n* Um escudo que você pode segurar para curar após o turno.'
                 ],
         name: 'Hold Yer Grane',
         use: () =>
             battler.active
                 ? [
-                    '<32>{#p/human}* (You brandish the Hold Yer Grane proudly.)',
-                    '<32>{#p/story}* DEFENSE up for this turn!'
+                    '<32>{#p/human}* (Você brande o Hold Yer Grane com orgulho.)',
+                    '<32>{#p/story}* DEFESA aumentou por este turno!'
                 ]
-                : ['<32>{#p/human}* (You eat the Hold Yer Grane.)']
+                : ['<32>{#p/human}* (Você come o Hold Yer Grane.)']
     },
     i_glamburger: {
         battle: {
-            description: 'This high-octane hamburger harbors a certain spicy kick.',
+            description: 'Este grande hambúrguer octávio tem um gosto picante.',
             name: 'Slamburger'
         },
         drop: () => [
-            '<32>{#p/human}* (You knocked the Slamburger out of the park.)',
+            '<32>{#p/human}* (Você joga o Slamburger no chão com força.)',
             ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                 ? []
-                : ["<32>{#p/basic}* And that's a home run!"])
+                : ["<32>{#p/basic}* E é cestaaaa!"])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (34 HP.)']
-                : ['<32>{#p/basic}* \"Slamburger\" Heals 34 HP\n* This high-octane hamburger harbors a certain spicy kick.'],
+                : ['<32>{#p/basic}* \"Slamburger\" Cura 34 HP\n* Este grande hambúrguer octávio tem um gosto picante.'],
         name: 'Slamburger',
         use: () => [
-            '<32>{#p/human}* (You slammed down the Slamburger.)',
+            '<32>{#p/human}* (Você derrubou o Slamburger.)',
             ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
                 ? []
-                : ["<32>{#p/basic}* Careful, it's hot in more ways than one!"])
+                : ["<32>{#p/basic}* Cuidado, é mais quente do que muitos!"])
         ]
     },
     i_face_steak: {
         battle: {
-            description: 'How the turns have tabled.',
-            name: "G's Envy"
+            description: 'Como a vida virou.',
+            name: "Envio do G"
         },
-        drop: ["<32>{#p/human}* (You throw away the Glyde's Envy.)"],
+        drop: ["<32>{#p/human}* (Você jogou fora o presente do Glyde.)"],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (55 HP.)']
-                : ['<32>{#p/basic}* \"Glyde\'s Envy\" Heals 55 HP\n* How the turns have tabled.'],
-        name: "Glyde's Envy",
-        use: ["<32>{#p/human}* (You consume the Glyde's Envy.)"]
+                : ['<32>{#p/basic}* \"Envio do G\" Cura 55 HP\n* Como a vida virou.'],
+        name: "Envio do G",
+        use: ["<32>{#p/human}* (Você consome o Envio do G.)"]
     },
     i_starfait_x: {
         battle: {
             description: '...',
             name: 'Startaint'
         },
-        drop: ['<32>{#p/human}* (You throw away the Startaint.)'],
-        info: ['<32>{#p/basic}* \"Startaint\" Heals -23 HP\n* ...'],
+        drop: ['<32>{#p/human}* (Você jogou fora o Startaint.)'],
+        info: ['<32>{#p/basic}* \"Startaint\" Cura -23 HP\n* ...'],
         name: 'Startaint',
-        use: ['<32>{#p/human}* (You consume the Startaint.)']
+        use: ['<32>{#p/human}* (Você consome o Startaint.)']
     },
     i_legendary_hero_x: {
         battle: {
             description: '...',
             name: 'H.Y.P.'
         },
-        drop: ['<32>{#p/human}* (You throw away the Hold Yer Pain.)'],
-        info: ['<32>{#p/basic}* \"Hold Yer Pain\" Heals -40 HP\n* ...'],
+        drop: ['<32>{#p/human}* (Você joga fora o Hold Yer Pain.)'],
+        info: ['<32>{#p/basic}* \"Hold Yer Pain\" Cura -40 HP\n* ...'],
         name: 'Hold Yer Pain',
         use: () =>
             battler.active
                 ? [
-                    '<32>{#p/human}* (You brandish the Hold Yer Pain anxiously.)',
-                    '<32>{#p/story}* DEFENSE down for this turn!'
+                    '<32>{#p/human}* (Você brande o Hold Yer Pain ansiosamente.)',
+                    '<32>{#p/story}* DEFESA abaixou por este turno!'
                 ]
-                : ['<32>{#p/human}* (You eat the Hold Yer Pain.)']
+                : ['<32>{#p/human}* (Você consome o Hold Yer Pain.)']
     },
     i_glamburger_x: {
         battle: {
             description: '...',
             name: 'Slamdunker'
         },
-        drop: ['<32>{#p/human}* (You dunk the Slamdunker into the trash.)'],
-        info: ['<32>{#p/basic}* \"Slamdunker\" Heals -34 HP\n* ...'],
+        drop: ['<32>{#p/human}* (Você joga o Slamdunker no lixo.)'],
+        info: ['<32>{#p/basic}* \"Slamdunker\" Cura -34 HP\n* ...'],
         name: 'Slamdunker',
-        use: ['<32>{#p/human}* (You slammed down the Slamdunker.)']
+        use: ['<32>{#p/human}* (Você derrubou o Slamdunker.)']
     },
     i_face_steak_x: {
         battle: {
             description: '...',
-            name: 'Envy'
+            name: 'Envio'
         },
-        drop: ["<32>{#p/human}* (You throw away the Undyne's Envy.)"],
-        info: ['<32>{#p/basic}* \"Undyne\'s Envy\" Heals -55 HP\n* ...'],
-        name: "Undyne's Envy",
-        use: ["<32>{#p/human}* (You eat the Undyne's Envy.)"]
+        drop: ["<32>{#p/human}* (Você jogou fora o presente da Undyne.)"],
+        info: ['<32>{#p/basic}* \"Envio da Undyne\" Cura -55 HP\n* ...'],
+        name: "Envio da Undyne",
+        use: ["<32>{#p/human}* (Você come o Envio da Undyne.)"]
     },
     i_trash: {
         battle: {
-            description: 'Are you brave enough to eat literal garbage?',
-            name: 'Space Junk'
+            description: 'Você é forte o suficiente para comer literalmente lixo?',
+            name: 'Lixo Espacial'
         },
-        drop: ['<32>{#p/human}* (You throw away the Space Junk.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Lixo Espacial.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (?? HP.)']
-                : ['<32>{#p/basic}* \"Space Junk\" Heals ?? HP\n* Are you brave enough to eat literal garbage?'],
-        name: 'Space Junk',
+                : ['<32>{#p/basic}* \"Lixo Espacial\" Cura ?? HP\n* Você é forte o suficiente para comer literalmente lixo?'],
+        name: 'Lixo Espacial',
         use: () => [
-            '<32>{#p/human}* (You eat the Space Junk.)',
-            ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : ['<32>{#p/basic}* Dear god.'])
+            '<32>{#p/human}* (Você come o Lixo Espacial.)',
+            ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : ['<32>{#p/basic}* Senhores Celestiais.'])
         ]
     },
     i_laser: {
         battle: {
-            description: 'Critical hits with this weapon deal MASSIVE damage.',
-            name: 'Laser Rifle'
+            description: 'Ataques críticos com essa arma dão um dano INSANO.',
+            name: 'Rifle de Laser'
         },
-        drop: ['<32>{#p/human}* (You throw away the Laser Rifle.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Rifle de Laser.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (12 AT.)']
-                : ['<32>{#p/basic}* \"Laser Rifle\" (12 AT)\n* Critical hits with this weapon deal MASSIVE damage.'],
-        name: 'Laser Rifle',
-        use: ['<32>{#p/human}* (You equip the Laser Rifle.)']
+                : ['<32>{#p/basic}* \"Rifle de Laser\" 12 (AT)\n* Ataques críticos com essa arma dão um dano INSANO.'],
+        name: 'Rifle de Laser',
+        use: ['<32>{#p/human}* (Você equipa o Rifle de Laser.)']
     },
     i_laser_x: {
         battle: {
-            description: 'Critical hits with this weapon are decent enough.',
+            description: 'Acertos críticos com esta arma são decentes o suficiente.',
             name: 'Rifle?'
         },
-        drop: ['<32>{#p/human}* (You throw away the Laser Rifle.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Rifle de Laser.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 AT.)']
-                : ['<32>{#p/basic}* \"Laser Rifle?\" (10 AT)\n* Critical hits with this weapon are decent enough.'],
-        name: 'Laser Rifle?',
-        use: ['<32>{#p/human}* (You equip the Laser Rifle.)']
+                : ['<32>{#p/basic}* \"Rifle?\" (10 AT)\n* Acertos críticos com esta arma são decentes o suficiente.'],
+        name: 'Rifle de Laser?',
+        use: ['<32>{#p/human}* (Você equipa o Rifle de Laser.)']
     },
     i_visor: {
         battle: {
-            description: 'Increases aim time in battle.',
-            name: 'Visor'
+            description: 'Aumenta o tempo de mira na batalha.',
+            name: 'Viseira'
         },
-        drop: ['<32>{#p/human}* (You throw away the Tactical Visor.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Viseira Tática.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (12 DF.)']
-                : ['<32>{#p/basic}* \"Tactical Visor\" (12 DF)\n* Increases aim time in battle.'],
-        name: 'Tactical Visor',
-        use: ['<32>{#p/human}* (You wear the Tactical Visor.)']
+                : ['<32>{#p/basic}* \"Viseira Tática\" (12 DF)\n* Aumenta o tempo de mira na batalha.'],
+        name: 'Viseira Tática',
+        use: ['<32>{#p/human}* (Você coloca o Viseira Tática.)']
     },
     i_visor_x: {
         battle: {
-            description: 'A bit less tactical than the original. Increases aim time.',
-            name: 'Visor?'
+            description: 'Um pouco menos tática do que a original. Cresce o tempo de mira.',
+            name: 'Viseira?'
         },
-        drop: ['<32>{#p/human}* (You throw away the Tactical Visor.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Viseira Tática.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 DF.)']
                 : [
-                    '<32>{#p/basic}* \"Tactical Visor?\" (10 DF)\n* A bit less tactical than the original. Increases aim time.'
+                    '<32>{#p/basic}* \"Viseira Tática?\" (10 DF)\n* Um pouco menos tático que a original. Cresce a mira.'
                 ],
-        name: 'Tactical Visor?',
-        use: ['<32>{#p/human}* (You wear the Tactical Visor.)']
+        name: 'Viseira Tática?',
+        use: ['<32>{#p/human}* (Você coloca o Viseira Tática.)']
     },
     i_filament: {
         battle: {
-            description: 'A winding wick of flavors!\nFive uses left.',
-            name: 'Filament'
+            description: 'Um pavio sinuoso de sabores!\nCinco usos restantes.',
+            name: 'Filamento'
         },
-        drop: ['<32>{#p/human}* (You throw away the Filament.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora o Filamento.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (30 HP.)']
-                : ['<32>{#p/basic}* \"Filament\" Heals 30 HP\n* A winding wick of flavors!\n* Five uses left.'],
-        name: 'Quintuple Filament',
-        use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
+                : ['<32>{#p/basic}* \"Filamento\" Cura 30 HP.\n* Um pavio sinuoso de sabores!\n* Cinco usos restantes.'],
+        name: 'Filamento Quinto',
+        use: ['<32>{#p/human}* (Você extrai certa energia do Filamento.)']
     },
     i_filament_use1: {
-        battle: { description: 'A winding wick of flavors!\nFour uses left.', name: 'Filament' },
-        drop: ['<32>{#p/human}* (You throw away the Filament.)'],
+        battle: { description: 'Um pavio sinuoso de sabores!\nQuatro usos restantes.', name: 'Filamento' },
+        drop: ['<32>{#p/human}* (Você jogou fora o Filamento.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (25 HP.)']
-                : ['<32>{#p/basic}* \"Filament\" Heals 25 HP\n* A winding wick of flavors!\n* Four uses left.'],
-        name: 'Quadruple Filament',
-        use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
+                : ['<32>{#p/basic}* \"Filamento\" Cura 25 HP\n* Um pavio sinuoso de sabores!\n* Quatro usos restantes.'],
+        name: 'Filamento Quarto',
+        use: ['<32>{#p/human}* (Você extrai certa energia do Filamento.)']
     },
     i_filament_use2: {
-        battle: { description: 'A winding wick of flavors!\nThree uses left.', name: 'Filament' },
-        drop: ['<32>{#p/human}* (You throw away the Filament.)'],
+        battle: { description: 'Um pavio sinuoso de sabores!\nTrês usos restantes.', name: 'Filamento' },
+        drop: ['<32>{#p/human}* (Você jogou fora o Filamento.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (20 HP.)']
-                : ['<32>{#p/basic}* \"Filament\" Heals 20 HP\n* A winding wick of flavors!\n* Three uses left.'],
-        name: 'Triple Filament',
-        use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
+                : ['<32>{#p/basic}* \"Filamento\" Cura 20 HP\n* Um pavio sinuoso de sabores!\n* Três usos restantes.'],
+        name: 'Filamento Triplo',
+        use: ['<32>{#p/human}* (Você extrai certa energia do Filamento.)']
     },
     i_filament_use3: {
-        battle: { description: 'A winding wick of flavors!\nTwo uses left.', name: 'Filament' },
-        drop: ['<32>{#p/human}* (You throw away the Filament.)'],
+        battle: { description: 'Um pavio sinuoso de sabores!\nDois usos restantes.', name: 'Filamento' },
+        drop: ['<32>{#p/human}* (Você jogou fora o Filamento.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (15 HP.)']
-                : ['<32>{#p/basic}* \"Filament\" Heals 15 HP\n* A winding wick of flavors!\n* Two uses left.'],
-        name: 'Double Filament',
-        use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
+                : ['<32>{#p/basic}* \"Filamento\" Cura 15 HP\n* Um pavio sinuoso de sabores!\n* Dois usos restantes.'],
+        name: 'Filamento Duplo',
+        use: ['<32>{#p/human}* (Você extrai certa energia do Filamento.)']
     },
     i_filament_use4: {
-        battle: { description: 'A winding wick of flavors!\nOne use left.', name: 'Filament' },
-        drop: ['<32>{#p/human}* (You throw away the Filament.)'],
+        battle: { description: 'Um pavio sinuoso de sabores!\nResta um uso.', name: 'Filamento' },
+        drop: ['<32>{#p/human}* (Você jogou fora o Filamento.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 HP.)']
-                : ['<32>{#p/basic}* \"Filament\" Heals 10 HP\n* A winding wick of flavors!\n* One use left.'],
-        name: 'Filament',
-        use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
+                : ['<32>{#p/basic}* \"Filamento\" Cura 10 HP\n* Um pavio sinuoso de sabores!\n* Um uso restante.'],
+        name: 'Filamento',
+        use: ['<32>{#p/human}* (Você extrai certa energia do Filamento.)']
     },
     i_tablaphone: {
         battle: {
-            description: 'Flat, but sharp. Restores some lost HP after each turn.',
+            description: 'Fino, mas forte. Restaura HP perdido em cada turno.',
             name: 'Tablaphone'
         },
-        drop: ['<32>{#p/human}* (You throw away the Tablaphone.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Tablaphone.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 AT.)']
-                : ['<32>{#p/basic}* \"Tablaphone\" (10 AT)\n* Flat, but sharp. Restores some lost HP after each turn.'],
+                : ['<32>{#p/basic}* \"Tablaphone\" (10 AT)\n* Fino, mas forte. Restaura HP perdido em cada turno.'],
         name: 'Tablaphone',
-        use: ['<32>{#p/human}* (You equip the Tablaphone.)']
+        use: ['<32>{#p/human}* (Você equipa o Tablaphone.)']
     },
     i_sonic: {
         battle: {
-            description: "Your opposition's attacks have a small chance to heal you.",
-            name: 'Resonator'
+            description: "Os ataques do seu oponente têm uma pequena chance de curá-lo.",
+            name: 'Ressonador'
         },
-        drop: ['<32>{#p/human}* (You throw away the Sonic Resonator.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Ressonador Sônico.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (11 DF.)']
                 : [
-                    '<32>{#p/basic}* \"Sonic Resonator\" (11 DF)\n* Your opposition\'s attacks have a small chance to heal you.'
+                    '<32>{#p/basic}* \"Ressonador Sônico\" (11 DF)\n* Os ataques do seu oponente têm uma pequena chance de curá-lo.'
                 ],
-        name: 'Sonic Resonator',
-        use: ['<32>{#p/human}* (You equip the Sonic Resonator.)']
+        name: 'Ressonador Sônico',
+        use: ['<32>{#p/human}* (Você equipa o Ressonador Sônico.)']
     },
     i_mystery_food: {
         battle: {
-            description: 'The kind of food you expect to find at a rec center.',
-            name: 'Mysteryfood'
+            description: 'O tipo de comida que você espera encontrar no Rec Center.',
+            name: 'ComidaMisterio'
         },
-        drop: ['<32>{#p/human}* (You throw away the Mysteryfood.)'],
+        drop: ['<32>{#p/human}* (Você jogou fora a ComidaMisterio.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (13 HP.)']
-                : ['<32>{#p/basic}* \"Mysteryfood\" Heals 13 HP\n* The kind of food you expect to find at a rec center.'],
-        name: 'Mysteryfood',
-        use: ['<32>{#p/human}* (You eat the Mysteryfood.)']
+                : ['<32>{#p/basic}* \"ComidaMisterio\" Cura 13 HP\n* O tipo de comida que você espera encontrar no Rec Center.'],
+        name: 'ComidaMisterio',
+        use: ['<32>{#p/human}* (Você come a ComidaMisterio.)']
     },
     i_super_pop: {
         battle: {
-            description: 'Alters your perception of time.',
+            description: 'Altera sua percepção do tempo.',
             name: 'Hyper Pop'
         },
-        drop: ['<32>{#p/human}* (You throw away the Hyper Vortex Pop.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Hyper Vortex Pop.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (22 HP.)']
                 : [
-                    '<33>{#p/basic}* \"Hyper Vortex Pop\" Heals 22 HP\n* Alters your perception of time.\n* Not viable outside of battle.'
+                    '<33>{#p/basic}* \"Pop do Vórtice Hiper\" cura 22 HP\n* Altera sua percepção do tempo.\n* Não é viável fora da batalha'
                 ],
         name: 'Hyper Vortex Pop',
         use: () => [
-            '<32>{#p/human}* (You sucked on the Hyper Vortex Pop.)',
+            '<32>{#p/human}* (Você suga o Hyper Vortex Pop.)',
             ...(battler.active
                 ? game.vortex
-                    ? ['<32>{#p/human}* (Your perception of time is already shifted.)']
+                    ? ['<32>{#p/human}* (Sua percepção de tempo já foi alterada.)']
                     : [
-                        '<32>{#p/human}* (Your perception of time begins to shift.)',
-                        '<32>{#p/story}* FOCUS up for two turns!'
+                        '<32>{#p/human}* (Sua percepção de tempo começa a se alterar.)',
+                        '<32>{#p/story}* FOCO cresceu por dois turnos!'
                     ]
-                : ['<32>{#p/human}* (No effect outside of battle.)'])
+                : ['<32>{#p/human}* (Sem efeito fora de batalha.)'])
         ]
     },
     i_old_gun: {
         battle: {
-            description: 'A non-violent single-use weapon.',
+            description: 'Uma arma de uso único não violenta.',
             name: 'Stun Gun'
         },
-        drop: ['<32>{#p/human}* (You throw away the Stun Gun.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Stun Gun.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (You get the sense this item shouldn't be carried as lightly as one might think.)"]
-                : ['<32>{#p/basic}* A non-violent single-use weapon.\n* Not viable outside of battle.'],
+                ? ["<32>{#p/human}* (Você tem a sensação de que este item não deve ser carregado tão levianamente quanto se imagina.)"]
+                : ['<32>{#p/basic}* Uma arma de uso único não violenta.\n* Sem efeito fora de batalha.'],
         name: 'Stun Gun',
         use: () =>
             battler.active
                 ? []
-                : ['<32>{#p/human}* (You took out the Stun Gun.)', '<32>{#p/human}* (No effect outside of battle.)']
+                : ['<32>{#p/human}* (Você pegou a arma de choque.)', '<32>{#p/human}* (Sem efeito fora de batalha.)']
     },
     i_old_bomb: {
         battle: {
-            description: 'A non-violent single-use weapon.',
-            name: 'Sleep Bomb'
+            description: 'Uma arma de uso único não violenta.',
+            name: 'Bomba Sonífera'
         },
-        drop: ['<32>{#p/human}* (You throw away the Sleep Bomb.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Bomba Sonífera.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (You get the sense this item wouldn't be as calming as one would hope.)"]
-                : ['<32>{#p/basic}* A non-violent single-use weapon.\n* Not viable outside of battle.'],
-        name: 'Sleep Bomb',
+                ? ["<32>{#p/human}* (Você tem a sensação de que este ítem não será calmamente como se espera.)"]
+                : ['<32>{#p/basic}* Uma arma de uso único não violenta.\n* Sem efeito fora de batalha.'],
+        name: 'Bomba Sonífera',
         use: () =>
             battler.active
                 ? []
-                : ['<32>{#p/human}* (You took out the Sleep Bomb.)', '<32>{#p/human}* (No effect outside of battle.)']
+                : ['<32>{#p/human}* (Você tirou a Bomba Sonífera.)', '<32>{#p/human}* (Sem efeito fora de batalha.)']
     },
     i_old_spray: {
         battle: {
-            description: 'A non-violent single-use weapon.',
-            name: 'Sugar Spray'
+            description: 'Uma arma de uso único não violenta.',
+            name: 'Spray de Açúcar'
         },
-        drop: ['<32>{#p/human}* (You throw away the Sugar Spray.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Spray de Açúcar.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ["<32>{#p/human}* (You get the sense this item isn't as sweet as it seems.)"]
-                : ['<32>{#p/basic}* A non-violent single-use weapon.\n* Not viable outside of battle.'],
-        name: 'Sugar Spray',
+                ? ["<32>{#p/human}* (Você tem a sensação de que este ítem não será tão doce quanto parece.)"]
+                : ['<32>{#p/basic}* Uma arma de uso único não violenta.\n* Sem efeito fora de batalha.'],
+        name: 'Spray de Açúcar',
         use: () =>
             battler.active
                 ? []
-                : ['<32>{#p/human}* (You took out the Sugar Spray.)', '<32>{#p/human}* (No effect outside of battle.)']
+                : ['<32>{#p/human}* (Você tirou o Spray de Açúcar.)', '<32>{#p/human}* (Sem efeito fora de batalha.)']
     },
     i_corndog: {
         battle: {
-            description: 'Fresh from the microwave.',
-            name: 'Corn Dog'
+            description: 'Esquentado no micro-ondas.',
+            name: 'Cachorro Quente'
         },
-        drop: ['<32>{#p/human}* (You throw away the Corn Dog.)'],
+        drop: ['<32>{#p/human}* (Você joga fora o Cachorro Quente.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (10 HP.)']
-                : ['<32>{#p/basic}* \"Corn Dog\" Heals 10 HP\n* Fresh from the microwave.'],
-        name: 'Corn Dog',
-        use: ['<32>{#p/human}* (You eat the Corn Dog.)']
+                : ['<32>{#p/basic}* \"Cachorro Quente\" Cura 10 HP\n* Esquentado no micro-ondas.'],
+        name: 'Cachorro Quente',
+        use: ['<32>{#p/human}* (Você come o Cachorro Quente.)']
     },
     i_corngoat: {
         battle: {
-            description: "Like a corn dog, but fluffier.\nDon't question it.",
-            name: 'Corn Goat'
+            description: "Como um Cachorro Quente, mas fofo.\nNão pergunta.",
+            name: 'Cabra Quente'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Corn Goat.)',
+            '<32>{#p/human}* (Você joga fora a Cabra Quente.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom ? ['<25>{#p/asriel1}{#f/15}* ...'] : [])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (20 HP.)']
-                : ['<32>{#p/basic}* \"Corn Goat\" Heals 20 HP\n* Like a corn dog, but fluffier.\n* Don\'t question it.'],
-        name: 'Corn Goat',
+                : ['<32>{#p/basic}* \"Cabra Quente\" Cura 20 HP\n* Como um Cachorro Quente, mas fofo.\n* Não pergunta.'],
+        name: 'Cabra Quente',
         use: () => [
-            '<32>{#p/human}* (You eat the Corn Goat.)',
+            '<32>{#p/human}* (Você come a Cabra Quente.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
-                ? ["<25>{#p/asriel1}{#f/13}* Please don't tell me that's symbolic of anything..."]
+                ? ["<25>{#p/asriel1}{#f/13}* Por favor não me diga que isso significa alguma coisa a mais..."]
                 : [])
         ]
     },
     i_moon_pie: {
         battle: {
-            description: "A slice of pie from the Earth's night sky.",
-            name: 'Moon Pie'
+            description: "Um pedaço de torta da noite estrelada na Terra.",
+            name: 'Torta da Lua'
         },
-        drop: ['<32>{#p/human}* (You throw away the Moon Pie.)'],
+        drop: ['<32>{#p/human}* (Você joga fora a Torta da Lua.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (99 HP.)']
-                : ['<32>{#p/basic}* \"Moon Pie\" Heals 99 HP\n* A slice of pie from the Earth\'s night sky.'],
-        name: 'Moon Pie',
-        use: ['<32>{#p/human}* (You eat the Moon Pie.)']
+                : ['<32>{#p/basic}* \"Torta da Lua\" Cura 99 HP\n* Um pedaço de torta da noite estrelada na Terra.'],
+        name: 'Torta da Lua',
+        use: ['<32>{#p/human}* (Você come a Torta da Lua.)']
     },
     i_orange_soda: {
         battle: {
-            description: 'A crushingly orange soda.\nTolerable.',
-            name: 'Orange Soda'
+            description: 'Um refrigerante de laranja esmagador.\nTolerável.',
+            name: 'Refri de Laranja'
         },
         drop: () => [
-            '<32>{#p/human}* (You throw away the Orange Soda.)',
+            '<32>{#p/human}* (Você jogou fora o Refri de Laranja.)',
             ...((fetchCharacters()
                 .find(c => c.key === 'alphys') // NO-TRANSLATE
 
                 ?.position.extentOf(game.camera.position.clamp(...renderer.region)) ?? 240) < 240
-                ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>* Did you just throw away a perfectly good orange soda?']
+                ? ['<25>{#p/alphys}{#g/alphysFR}* ...', '<25>* Você acabou de jogar fora um perfeito refrigerante de laranja?']
                 : [])
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                 ? ['<32>{#p/human}* (16 HP.)']
-                : ['<32>{#p/basic}* \"Orange Soda\" Heals 16 HP\n* A crushingly orange soda.\n* Tolerable.'],
-        name: 'Orange Soda',
+                : ['<32>{#p/basic}* \"Refri de Laranja\" Cura 16 HP\n* Um refri de laranja esmagador. \n* Tolerável.'],
+        name: 'Refri de Laranja',
         use: () =>
             world.meanie
                 ? [
-                    '<32>{#p/human}* (You drink the Orange Soda, and crush it in your hands.)',
+                    '<32>{#p/human}* (Você bebe o Refri de Laranja e esmaga a latinha nas mãos.)',
                     battler.active
-                        ? `<32>{#p/story}* ATTACK up by ${8 + battler.at_bonus}!`
-                        : '<32>{#p/human}* (No effect outside of battle.)',
+                        ? `<32>{#p/story}* ATAQUE subiu mais ${8 + battler.at_bonus}!`
+                        : '<32>{#p/human}* (Sem efeito fora de batalha.)',
                     ...((fetchCharacters()
                         .find(c => c.key === 'alphys') // NO-TRANSLATE
 
                         ?.position.extentOf(game.camera.position.clamp(...renderer.region)) ?? 240) < 240
                         ? [
-                            '<25>{#p/alphys}{#g/alphysOhGodNo}* W-was that my drink!?',
-                            '<25>{#p/alphys}{#f/10}* Oh... my god...',
-                            '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* You did not hold back!'
+                            '<25>{#p/alphys}{#g/alphysOhGodNo}* E-essa era minha bebia!?',
+                            '<25>{#p/alphys}{#f/10}* Oh... meu amado...',
+                            '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Você nem hesitou!'
                         ]
                         : [])
                 ]
-                : ['<32>{#p/human}* (You drink the Orange Soda.)']
+                : ['<32>{#p/human}* (Você bebeu o Refri de Laranja.)']
     },
     i_demise: {
         battle: {
             description: '...',
-            name: 'Demise'
+            name: 'Morte'
         },
-        drop: ["<32>{#p/human}* (You throw away the Plunderer's Demise.)"],
-        info: ['<32>{#p/basic}* \"Plunderer\'s Demise\"\n* Heals -99 HP\n* ...'],
-        name: "Plunderer's Demise",
-        use: ["<32>{#p/human}* (You eat the Plunderer's Demise.)"]
+        drop: ["<32>{#p/human}* (Você joga fora o Morte ao Saqueador.)"],
+        info: ['<32>{#p/basic}* \"Morte ao Saqueador\"\n* Cura -99 HP\n* ...'],
+        name: "B<32>{#p/human}* (Você joga fora o Morte ao Saqueador.)",
+        use: ["<32>{#p/human}* (Você come o Morte ao Saqueador.)"]
     },
 
     k_liftgate: {
-        name: 'Liftgate Pass',
-        description: 'Acquired from your upgraded CELL.\nUsed to access the liftgate network.'
+        name: 'Passe Levitador',
+        description: 'Adquirido na atualização do CELL.\nUsado para acessar o levitador.'
     },
 
     k_mystery: {
-        name: 'Mystery Key',
+        name: 'Chave Misteriosa',
         description: () =>
             SAVE.data.b.f_state_hapstadoor
-                ? "Used to unlock the door to Mettaton's house."
-                : "Acquired from Bratty and Catty's shop in the rec center."
+                ? "Usada para abrir a porta da casa do Mettaton."
+                : "Adquirido na loja da Bratty e Catty no Rec Center."
     },
 
     m_aerialis: {
-        sidebarCellPms1: () => (world.bad_lizard < 2 ? 'POSTS (NEWEST FIRST)' : 'PRIVATE MESSAGES (NEWEST FIRST)'),
-        sidebarCellPms2: 'Press [X] to Finish',
+        sidebarCellPms1: () => (world.bad_lizard < 2 ? 'POSTS (NOVOS)' : 'MENSAGENS PRIVADAS (NOVAS PRIMEIRO)'),
+        sidebarCellPms2: 'Pressione [x] para acabar',
         sidebarCellPms3: {
             alphysBadLizard: {
-                author: 'SYSTEM',
-                pm: 'An evacuation notice has been issued in your area. Vacate at once.'
+                author: 'SISTEMA',
+                pm: 'Um aviso de evacuação foi emitido em sua área. Desocupe imediatamente.'
             },
             alphys0: {
-                author: 'SYSTEM',
-                pm: "Thank you for creating an account on the outpost's #1 social network!"
+                author: 'SISTEMA',
+                pm: "Obrigado por criar uma conta na internet número 1 do Outpost!"
             },
             alphys1: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
-                        ? 'uhhhh nobody saw that right' 
+                        ? 'uhhhh ninguém viu aquilo né' 
                         : [
-                            'finally met the human that was kinda nervewracking LOL', 
-                            'well i just met the human' 
+                            'finalmente conheci o humano foi bem loucura kkkkk', 
+                            'bem acabei de conhecer o humano' 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys2: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
-                        ? 'ok good' 
+                        ? 'bom' 
                         : [
                             iFancyYourVilliany()
-                                ? 'still cant believe mettaton gave them a moniker???'
-                                : 'still cant believe mettaton wanted me to fight them???', 
-                            'they seem... nice?' 
+                                ? 'nem acredito que o mettaton deu pra ele um apelido???'
+                                : 'nem posso acreditar que o mettaton queria que eu lutasse com ele???', 
+                            'ele parece... legal?' 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys3: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
-                        ? 'yeah that wouldve been pretty embarrasing otherwise' 
+                        ? 'é isso teria sido bem embaraçoso' 
                         : [
                             iFancyYourVilliany()
-                                ? 'yeah lets hope that doesnt get blown out of proportion'
-                                : 'yeah lets hope that doesnt happen again', 
-                            'yeah lets hope nothing bad happens' 
+                                ? 'é vamos esperar que isso não saia de proporção'
+                                : 'é vamos esperar que isso não aconteça de novo', 
+                            'é vamos esperar que nada de ruim aconteça' 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys4: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
-                        ? 'oh my god i thought those guys were about to provoke the human' 
+                        ? 'oh senhor eu pensei que aqueles caras iriam provocar o humano' 
                         : [
-                            'really guys?\nTHERES ICE CREAM AT THE REC CENTER', 
-                            'awkward' 
+                            'sério caras?\nTEM SORVETE NO REC CENTER', 
+                            'estranho' 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys6: {
                 author: 'ALPHYS',
-                pm: 'oh no.'
+                pm: 'ah não.'
             },
             alphys7: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'ok mettaton could you like not keep doing this to me thanks' 
+                        ? 'tá mettaton da pra você não continuar fazendo isso comigo obrigada' 
                         : SAVE.data.n.state_aerialis_crafterresult === 0
-                            ? 'ok ill be honest i have no idea how that worked out LOL' 
+                            ? 'tá eu vou ser sincera eu não faço ideia de como aquilo funcionou KKKKK' 
                             : SAVE.data.n.bad_lizard < 1
                                 ? [
-                                    'wow, i shouldve known those bombs were just TV props LOL', 
-                                    'NOOOO they were so close', 
-                                    "let's go the human made it to the end", 
-                                    'anyone who wasnt watching just now missed out big time' 
+                                    'wow, eu deveria saber que aquelas bombas eram só besteira da TV kkkkkkk', 
+                                    'NÃÃÃO tava tão perto', 
+                                    "aí sim o humano chegou no final", 
+                                    'quem não estava assistindo perdeu um momento muito da hora' 
                                 ][SAVE.data.n.state_aerialis_crafterresult - 1]
-                                : 'well, there goes my last one-time use portable jetpack' 
+                                : 'bem, aí foi meu jetpack de uso único portátil' 
             },
             alphys8: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'wait how did the human get here if i never gave them a liftgate pass' 
-                        : 'BTW has anyone else seen mew mew space adventure???'
+                        ? 'espera aí como é que o humano conseguiu aquilo se eu nunca dei um passe pra ele' 
+                        : 'ALIÁS, alguém aí vou Mew Mew aventura no espaço???'
             },
             alphys9: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'like did they just steal my spare cell phone or something' 
-                        : 'i finally started watching the last season and its actually good WTF'
+                        ? 'tipo ele realmente roubou meu telefone reserva' 
+                        : 'eu finalmente comecei a assistir a última têmpora e nossa é muito bom PQP'
             },
             alphys10: {
                 author: 'NAPSTABLOOK22',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'alphys... can you please respond to my private messages...' 
-                        : 'we did... that one time...'
+                        ? 'alphys... da pra você responder minhas mensagens no privado...' 
+                        : 'nós assistimos... naquela vez...'
             },
             alphys11: {
                 author: () =>
@@ -10199,25 +10199,25 @@ export default {
                             : 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? "i'm... getting worried" 
+                        ? "eu estou... ficando preocupado" 
                         : SAVE.data.n.state_starton_papyrus === 0
-                            ? 'ARE WE WATCHING \"TV SHOWS\" NOW?\nSOUNDS EXCITING!' 
-                            : 'ooh i remember that' 
+                            ? 'ESTAMOS ASSISTINDO SHOWS DE TV AGORA?\nPARECE ANIMADOR!' 
+                            : 'ohh eu lembro disso' 
             },
             alphys12: {
                 author: () => (SAVE.data.n.plot === 72 ? '_Sp4ceAdv3ntur3r_' : '_K1ll3rMann3qu1n_'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'Alphys, HUH?\nAre you IGNORING MY COUSIN!?!?' 
-                        : 'Mew Mew SPACE ADVENTURE???\nHAH! WHAT A LOAD OF HOT GARBAGE!'
+                        ? 'Alphys, HUH?\nVocê está ignorando meu primo!?!?' 
+                        : 'Mew Mew AVENTURA NO ESPAÇO??\nHAH! É LIXO DA PRIMEIRA CLASSE!'
             },
             alphys13: {
                 author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'please stay out of this' 
+                        ? 'por favor fica fora disso' 
                         : [
-                            'let me guess youre one of those mew mew starfire fans arent you', 
+                            'deixa eu adivinhar você é um daqueles fans de mew mew starfire né', 
                             'uhhhh' 
                         ][SAVE.data.n.bad_lizard]
             },
@@ -10225,248 +10225,248 @@ export default {
                 author: () => (SAVE.data.n.plot === 72 ? '_Sp4ceAdv3ntur3r_' : '_K1ll3rMann3qu1n_'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? "oh, so i'm just supposed to IGNORE my cousins' problems, AM I?" 
+                        ? "oh, estou eu devo supostamente só IGNORAR os problemas do meu primo?" 
                         : [
-                            'yeah, okay, but ask yourself this:\ndoes space venture have EXPLOSIONS!?', 
-                            "whats the matter, huh?\nSCARED YOU'LL LOSE AN ARGUMENT!?" 
+                            'sim, claro, mas se pergunte isso:\nventura no espaço tem EXPLOSÕES!?', 
+                            "qual o problema, huh?\nCOM MEDO DE TER PERDIDO NO ARGUMENTO!?" 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys15: {
                 author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'with all due respect\nplease shut up.' 
+                        ? 'com todo o respeito, cala a boca' 
                         : [
-                            'LOLLLLLLLLLLL SPACE VENTURE\naverage starfire fan cant spell XD', 
-                            'im really starting to regret not adding a block function' 
+                            'KKKKKKKKKKKKK VENTURA NO ESPAÇO\nfã médio de aventura no espaço não sabe escrever XD', 
+                            'eu estou começando a me arrepender de não ter colocado uma função de bloquear' 
                         ][SAVE.data.n.bad_lizard]
             },
             alphys16: {
                 author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'gotta go.' 
-                        : 'another show already???'
+                        ? 'tenho que ir.' 
+                        : 'outro show, mas já???'
             },
             alphys17: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
-                        ? 'well... alright\nill look at what you sent me now' 
-                        : 'for the record this mew mew doll thing never happened.'
+                        ? 'bem... tá bom\neu vou olhar pra o que você me mandou' 
+                        : 'só pra deixar claro essa coisa da boneca mew mew nunca aconteceu.'
             },
             alphys18: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? SAVE.data.n.state_aerialis_royalguards === 1
-                            ? 'no... come on... i thought i told them not to go after anyone' 
-                            : "phew... i thought they'd be killed for sure there" 
-                        : 'i thought i told the royal guard not to go after anyone WTF???'
+                            ? 'não... droga... eu pensei ter dito pra elas não irem atrás de ninguém' 
+                            : "phew... eu pensei que elas seriam mortas de certeza ali" 
+                        : 'eu pensei ter dito pra real guarda não ir atrás de ninguém POHA???'
             },
             alphysX0: {
-                author: 'SYSTEM',
-                pm: 'Your private message history was successfully cleared.'
+                author: 'SISTEMA',
+                pm: 'Seu histórico de mensagens privadas foi excluído com sucesso.'
             },
             alphysX1: {
                 author: 'lazybones.',
-                pm: 'just to be on the safe side.'
+                pm: 'só para estar no lado seguro.'
             },
             alphysX2: {
                 author: 'ALPHYS',
-                pm: 'yeah just cleared it out now'
+                pm: 'é acabei de limpar'
             },
             alphysX3: {
                 author: 'lazybones.',
-                pm: 'heh... remember that time he showed off the new gravity plating?'
+                pm: 'heh... lembra daquela vez que ele tentou mostrar aquela coisa de plantar na gravidade?'
             },
             alphysX4: {
                 author: 'ALPHYS',
-                pm: 'and the whole set just started floating into the sky? OMG YES LMAO'
+                pm: 'e todo o set começou a voar no espaço? MDS SIM KSKSKSKSKSK'
             },
             alphysX5: {
                 author: 'lazybones.',
-                pm: 'pfft, he really thought that would work, huh?'
+                pm: 'pfft, ele realmente pensou que aquilo ia funcionar, huh?'
             },
             alphysX6: {
                 author: 'ALPHYS',
-                pm: 'i remember asgore trying everything he could to hold it down XD'
+                pm: 'eu lembro do asgore tentando tudo que podia para desligar XD'
             },
             alphysX7: {
                 author: 'ALPHYS',
-                pm: 'man what a day\ni really miss working with you sans'
+                pm: 'cara que dia\nsinto falta de trabalhar com você sans'
             },
             alphysX8: {
                 author: 'lazybones.',
-                pm: "i know you do.\nbut i've got a different job to dddd"
+                pm: "eu sei que sim.\nmas eu tenho um trabalho diferente agora dddd"
             },
             alphysX9: {
                 author: 'ALPHYS',
-                pm: '...\nhello?'
+                pm: '...\noi?'
             },
             alphysY1: {
                 author: 'lazybones.',
-                pm: 'sorry, a human just showed up, totally caught me off guard.'
+                pm: 'desculpa, um humano apareceu e me pegou fora de guarda.'
             },
             alphysY2: {
                 author: 'lazybones.',
-                pm: 'no pun intended.'
+                pm: 'sem piadinha.'
             },
             alphysY3: {
                 author: 'ALPHYS',
-                pm: 'right... wait really?'
+                pm: 'certo... pera sério?'
             },
             alphysY4: {
                 author: 'lazybones.',
-                pm: "i wouldn't lie about making a pun, would i?"
+                pm: "eu mentiria sobre fazer um piadinha?"
             },
             alphysY5: {
                 author: 'ALPHYS',
-                pm: 'you know what i mean.'
+                pm: 'você entendeu o que eu quis dizer.'
             },
             alphysY6: {
                 author: 'lazybones.',
-                pm: "don't worry, alphys.\ni've got this under control."
+                pm: "não se preocupa, alphys.\neu tenho tudo sobre controle."
             },
             alphysY7: {
                 author: 'ALPHYS',
-                pm: 'sure okay'
+                pm: 'claro beleza'
             },
             alphysY7A1: {
                 author: 'ALPHYS',
-                pm: 'woah... did you see that?'
+                pm: 'woah... você viu isso?'
             },
             alphysY7A2: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
-                        ? 'papyrus and the human just fought and it was so intense'
-                        : 'papyrus and the human just fought and it was kinda weird'
+                        ? 'papyrus e o humano lutaram foi super intenso'
+                        : 'papyrus e o humano lutaram e foi bem esquisito'
             },
             alphysY7A3: {
                 author: 'lazybones.',
-                pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'what?\nis he okay?' : 'what?\nwhat happened?')
+                pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'o quê?\nele tá bem?' : 'o quê?\no que aconteceu?')
             },
             alphysY7A4: {
                 author: 'ALPHYS',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
-                        ? 'yeah yeah hes fine dont worry'
-                        : 'well papyrus kept beating them and they kept coming back and...'
+                        ? 'sim sim ele tá bem relaxa'
+                        : 'bem o papyrus continuava vencendo dele e ele continuava voltando'
             },
             alphysY7A5: {
                 author: 'lazybones.',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
-                        ? "heh... i could feel it from here.\nhe must've really given it his all."
-                        : "hey, just tell me if he's okay."
+                        ? "heh... eu pude sentir daqui.\nele deve ter dado tudo de si."
+                        : "ei, só me diz se ele tá bem."
             },
             alphysY7A6: {
                 author: 'ALPHYS',
-                pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'yeah thats one way of putting it' : 'hes okay.')
+                pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'sim essa é uma forma de colocar isso.' : 'ele tá bem.')
             },
             alphysY7A7: {
                 author: 'lazybones.',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
-                        ? "guess i'll have to congratulate him when he gets back home."
-                        : 'heh... glad to hear it.'
+                        ? "acho que vou ter que parabenizá-lo quando ele chegar em casa."
+                        : 'heh... feliz em ouvir isso.'
             },
             alphysYdoggo1: {
                 author: 'ALPHYS',
-                pm: 'no... doggo...'
+                pm: 'não... doggo...'
             },
             alphysYdoggo2: {
                 author: 'lazybones.',
-                pm: 'huh? what happened?'
+                pm: 'huh? o que houve?'
             },
             alphysYdoggo3: {
                 author: 'ALPHYS',
-                pm: 'after he lost his eyesight he would come to my lab after work...'
+                pm: 'depois que ele perdeu sentido dos olhos ele veio ao laboratório após o trabalho...'
             },
             alphysYdoggo4: {
                 author: 'ALPHYS',
-                pm: 'id teach him to use his ears with these little games we played'
+                pm: 'eu o ensinei a usar os ouvidos com este joguinho que brincávamos'
             },
             alphysYdoggo5: {
                 author: 'ALPHYS',
-                pm: 'he would always leave with a big smile on his face. but now...'
+                pm: 'ele sempre saía com um grande sorriso no rosto. mas agora...'
             },
             alphysYdoggo6: {
                 author: 'lazybones.',
-                pm: 'i see.'
+                pm: 'eu entendo.'
             },
             alphysY8A1: {
                 author: 'ALPHYS',
-                pm: 'you know the human is killing monsters in starton right?'
+                pm: 'você sabe que o humano está matando monstros em starton né?'
             },
             alphysY8A1a: {
                 author: 'ALPHYS',
-                pm: 'theyre going after regular citizens'
+                pm: 'ele tá matando cidadãos comuns'
             },
             alphysY8A1b: {
                 author: 'ALPHYS',
-                pm: 'theyre targeting the sentries'
+                pm: 'ele tá matando os sentinelas'
             },
             alphysY8A1c: {
                 author: 'ALPHYS',
-                pm: 'theyre going after everyone'
+                pm: 'ele tá matando todo mundo'
             },
             alphysY8A1d: {
                 author: 'ALPHYS',
-                pm: 'its not just doggo theyre after'
+                pm: 'ele não matou apenas o doggo'
             },
             alphysY8A2: {
                 author: 'lazybones.',
-                pm: "i know. i'm doing my best to get people out before it's too late."
+                pm: "eu sei, tô fazendo meu máximo pra tirar as pessoas daqui antes que seja tarde."
             },
             alphysY8A3: {
                 author: 'ALPHYS',
-                pm: 'okay good'
+                pm: 'beleza ótimo'
             },
             alphysYdrake1: {
                 author: 'ALPHYS',
-                pm: 'yknow... stardrakes mom came in the other day'
+                pm: 'sabe... a mãe do stardrake veio aqui outro dia'
             },
             alphysYdrake2: {
                 author: 'ALPHYS',
-                pm: 'she told me how proud she is of her son and the new friends he made...'
+                pm: 'ele me contou sobre como estava orgulhosa do seu filho e dos novos amigos dele...'
             },
             alphysYdrake3: {
                 author: 'ALPHYS',
-                pm: 'what am i supposed to tell her now?'
+                pm: 'o que eu vou contar pra ela agora?'
             },
             alphysYdrake4: {
                 author: 'lazybones.',
-                pm: "you tell her that you'll do the best you can in your position."
+                pm: "você diz pra ela que vai fazer o melhor que poder na sua posição."
             },
             alphysYdrake5: {
                 author: 'ALPHYS',
-                pm: 'yeah... i guess thats all i really can tell her huh'
+                pm: 'é... acho que isso é tudo que eu posso dizer huh'
             },
             alphysYdrake6: {
                 author: 'lazybones.',
-                pm: "it's better than nothing."
+                pm: "é melhor do que nada."
             },
             alphysY8A4: {
                 author: 'ALPHYS',
-                pm: 'that was close'
+                pm: 'essa foi por pouco'
             },
             alphysY8A5: {
                 author: 'lazybones.',
-                pm: "yeah... guess i shouldn't have doubted my bro, heh."
+                pm: "é... acho que eu não deveria duvidar do meu mano, heh."
             },
             alphysY8A6: {
                 author: 'ALPHYS',
-                pm: 'yeah...'
+                pm: 'sim...'
             },
             alphysY8A7: {
                 author: 'ALPHYS',
-                pm: 'never mind the human is back to killing again'
+                pm: 'esquece o humano voltou a matar pessoas'
             },
             alphysY8A8: {
                 author: 'lazybones.',
-                pm: 'welp.'
+                pm: 'droga.'
             },
             alphysY8B1: {
                 author: 'ALPHYS',
@@ -10474,31 +10474,31 @@ export default {
             },
             alphysY8B2: {
                 author: 'ALPHYS',
-                pm: 'the human just killed papyrus'
+                pm: 'o humano acabou de matar o papyrus'
             },
             alphysY8B3: {
                 author: 'ALPHYS',
-                pm: 'please tell me youre there'
+                pm: 'por favor me diz que você tava lá'
             },
             alphysY8B4a: {
                 author: 'lazybones.',
-                pm: "i'm here. and i should've kept a closer eye on him."
+                pm: "eu estou aqui. e eu deveria ter mantido meu olho nele."
             },
             alphysY8B4b: {
                 author: 'lazybones.',
-                pm: "i'm here. and i shouldn't have left him alone out there."
+                pm: "eu estou aqui. e eu não deveria tê-lo deixado sozinho lá fora."
             },
             alphysY8B5: {
                 author: 'ALPHYS',
-                pm: 'what are you gonna do now?'
+                pm: 'o que você vai fazer agora?'
             },
             alphysY8B6: {
                 author: 'lazybones.',
-                pm: 'honestly, alphys?'
+                pm: 'sinceramente, alphys?'
             },
             alphysY8B7: {
                 author: 'lazybones.',
-                pm: "i don't feel like doing anything."
+                pm: "eu não quero fazer mais nada."
             },
             alphysY8B8: {
                 author: 'ALPHYS',
@@ -10506,27 +10506,27 @@ export default {
             },
             alphysY8B9: {
                 author: 'lazybones.',
-                pm: "it's not your fault.\nthis would always have happened."
+                pm: "não é sua culpa.\nisso teria acontecido de toda forma."
             },
             alphysY8B10: {
                 author: 'ALPHYS',
-                pm: 'what do you mean?'
+                pm: 'o que você quer dizer?'
             },
             alphysY8B11: {
                 author: 'lazybones.',
-                pm: 'you know how papyrus can be.'
+                pm: 'você sabe como é o papyrus.'
             },
             alphysY8B12: {
                 author: 'lazybones.',
-                pm: "he's just too damn good to stand by and watch as people die."
+                pm: "ele só é bonzinho demais pra ficar parado e ver os outros morrerem."
             },
             alphysY8B13: {
                 author: 'ALPHYS',
-                pm: 'unlike us right?'
+                pm: 'diferente da gente?'
             },
             alphysY8B14: {
                 author: 'lazybones.',
-                pm: 'yeah.'
+                pm: 'diferente da gente.'
             },
             alphysY8B15: {
                 author: 'ALPHYS',
@@ -10534,111 +10534,111 @@ export default {
             },
             alphysY8B16: {
                 author: 'ALPHYS',
-                pm: 'things arent getting any better'
+                pm: 'as coisas não estão melhorando'
             },
             alphysY8B17: {
                 author: 'lazybones.',
-                pm: "let me guess, they're going after people in the foundry now?"
+                pm: "deixa eu adivinhar, ele tá matando pessoas na foundry agora?"
             },
             alphysY8B18: {
                 author: 'ALPHYS',
-                pm: 'yeah but youre gonna help me evacuate right?'
+                pm: 'sim mas você vai me ajudar a evacuar certo?'
             },
             alphysY8B18x: {
                 author: 'ALPHYS',
-                pm: 'i mean i think so? maybe we should start evacuating or something'
+                pm: 'eu acho que sim? talvez nós devemos começar a evacuar todo mundo'
             },
             alphysY8B19: {
                 author: 'lazybones.',
-                pm: "i can't make any promises.\nbut i'll try."
+                pm: "eu não posso fazer promessas.\nmas eu vou tentar."
             },
             alphysY8B20: {
                 author: 'ALPHYS',
-                pm: 'thanks'
+                pm: 'valeu'
             },
             alphysY8C1: {
                 author: 'ALPHYS',
-                pm: 'sans people in the foundry are in serious danger'
+                pm: 'sans as pessoas na foundry estão em muito perigo'
             },
             alphysY8C2a: {
                 author: 'ALPHYS',
-                pm: 'its the human... even the elite squad cant stop it'
+                pm: 'é o humano... nem mesmo o esquadrão de elite conseguiu para-lo'
             },
             alphysY8C2b: {
                 author: 'ALPHYS',
-                pm: 'its the human... theyre going after the residents down there'
+                pm: 'é o humano... ele está indo atrás dos residentes de lá'
             },
             alphysY8C2c: {
                 author: 'ALPHYS',
-                pm: 'its the human... theyre killing everybody down there'
+                pm: 'é o humano... ele tá matando todo mundo por lá'
             },
             alphysY8C3a: {
                 author: 'lazybones.',
-                pm: 'well, it was nice while it lasted.\nyou gonna start evacuating people?'
+                pm: 'bem, foi bom enquanto durou.\nvocê vai começar a evacuar as pessoas?'
             },
             alphysY8C3b: {
                 author: 'lazybones.',
-                pm: "well, aren't you gonna start evacuating people?"
+                pm: "bem, você não vai começar a evacuar as pessoas?"
             },
             alphysY8C4: {
                 author: 'ALPHYS',
-                pm: 'oh right i need to do that'
+                pm: 'ah é eu preciso fazer isso'
             },
             alphysY8C5: {
                 author: 'ALPHYS',
-                pm: 'gotta go'
+                pm: 'tenho que ir'
             },
             alphysY8C6: {
                 author: 'lazybones.',
-                pm: "good luck, alphys.\ni'll help evacuate if i can."
+                pm: "boa sorte, alphys.\nvou ajudar a evacuar se conseguir."
             },
             alphysY8C7: {
                 author: 'ALPHYS',
-                pm: 'thanks'
+                pm: 'valeu'
             },
             alphysY8C8: {
                 author: 'ALPHYS',
-                pm: 'oh no'
+                pm: 'ah não'
             },
             alphysY8C9: {
                 author: 'ALPHYS',
-                pm: 'undyne and the human are about to fight'
+                pm: 'undyne e o humano estão prestes a lutar'
             },
             alphysY8C10a: {
                 author: 'ALPHYS',
-                pm: 'this is kind of worrying'
+                pm: 'isso é muito preocupante'
             },
             alphysY8C10b: {
                 author: 'ALPHYS',
-                pm: 'not gonna lie im kind of excited'
+                pm: 'não vou mentir eu estou bem animada'
             },
             alphysY8C11a: {
                 author: 'ALPHYS',
-                pm: 'and by kind of i mean very'
+                pm: 'e por animada eu digo muuittooo'
             },
             alphysY8C11b: {
                 author: 'ALPHYS',
-                pm: 'but like really scared at the same time'
+                pm: 'mas bem assustada ao mesmo tempo'
             },
             alphysY8C12a: {
                 author: 'lazybones.',
-                pm: "don't you think you should do something about it?"
+                pm: "você não acha que deveria fazer algo em relação a isso?"
             },
             alphysY8C12b: {
                 author: 'lazybones.',
-                pm: "didn't you say you were trying to avoid this earlier?"
+                pm: "você não disse que tava tentando evitar mais cedo ao telefone?"
             },
             alphysY8C13a: {
                 author: 'ALPHYS',
-                pm: 'yeah i dont really think undyne would listen to me'
+                pm: 'eu não acho que a undyne me escutaria'
             },
             alphysY8C13b: {
                 author: 'ALPHYS',
-                pm: 'if the human got this far they can make it past her'
+                pm: 'se o humano chegou tão longe ele consegue passar dela'
             },
             alphysY8C14: {
                 author: 'lazybones.',
-                pm: 'well, okay.\nif you say so, i guess.'
+                pm: 'beleza então.\nse você tá dizendo.'
             },
             alphysY8D1: {
                 author: 'ALPHYS',
@@ -10646,490 +10646,490 @@ export default {
             },
             alphysY8D1a1: {
                 author: 'ALPHYS',
-                pm: 'i guess killing papyrus wasnt enough for them then'
+                pm: 'eu acho que matar o papyrus não foi o suficiente pra ele'
             },
             alphysY8D1a2: {
                 author: 'ALPHYS',
-                pm: 'i guess slaughtering the elite squad wasnt enough for them then'
+                pm: 'eu acho que assassinar o esquadrão de elite não foi o suficiente'
             },
             alphysY8D1a3: {
                 author: 'ALPHYS',
-                pm: 'i guess slaughtering the canine unit wasnt enough for them then'
+                pm: 'eu acho que assassinar a unidade canina não foi o suficiente pra ele'
             },
             alphysY8D1a4: {
                 author: 'ALPHYS',
-                pm: 'i guess killing people in the foundry wasnt enough for them then'
+                pm: 'eu acho que matar pessoas na foundry não foi o suficiente pra ele'
             },
             alphysY8D1a5: {
                 author: 'ALPHYS',
-                pm: 'i guess killing people in starton wasnt enough for them then'
+                pm: 'eu acho que matar pessoas em starton não foi o suficiente pra ele'
             },
             alphysY8D1b: {
                 author: 'ALPHYS',
-                pm: 'never mind'
+                pm: 'esquece'
             },
             alphysY8D1c1: {
                 author: 'ALPHYS',
-                pm: 'that cant be good'
+                pm: 'isso não deve ser bom'
             },
             alphysY8D1c2: {
                 author: 'lazybones.',
-                pm: 'what happened?'
+                pm: 'o que houve?'
             },
             alphysY8D1c3: {
                 author: 'ALPHYS',
-                pm: 'she was trying to keep up with them and she stepped on something and...'
+                pm: 'ela estava tentando acompanhá-lo e pisou em algo e...'
             },
             alphysY8D1c4: {
                 author: 'ALPHYS',
-                pm: 'i see it...\ni think shes... fallen down'
+                pm: 'eu entendi...\neu acho que ela... caiu.'
             },
             alphysY8D1x: {
                 author: 'ALPHYS',
-                pm: 'okay they spared her'
+                pm: 'beleza ele poupou ela'
             },
             alphysY8D2a: {
                 author: 'lazybones.',
-                pm: "i'm sorry, alphys. i wish i could do something, but i can't."
+                pm: "me desculpa, alphys, eu queria poder fazer algo, mas não posso."
             },
             alphysY8D2b: {
                 author: 'lazybones.',
-                pm: "i guess there's nothing you can do, then. i'm sorry, alphys."
+                pm: "eu acho que não a Dana que você possa fazer, então. desculpa, alphys."
             },
             alphysY8D2x: {
                 author: 'ALPHYS',
-                pm: 'though i dont think i want to be here after everything that happened'
+                pm: 'mas eu não acho que queira estar aqui após tudo que aconteceu'
             },
             alphysY8D3a: {
                 author: 'ALPHYS',
                 pm: () =>
                     world.bad_lizard < 2
-                        ? 'i let this happen sans... i watched her die and did nothing to stop it'
-                        : 'i should probably leave the lab while i still have the chance'
+                        ? 'eu deixei isso acontecer sans...\neu vi ele morrer e não fiz nada'
+                        : 'eu provavelmente devo sair logo do laboratório enquanto posso'
             },
             alphysY8D3b1: {
                 author: 'ALPHYS',
-                pm: 'i get that it could have been an accident but i cant know for sure'
+                pm: 'eu entendo que pode ter sido um acidente mas não dá pra saber de certeza'
             },
             alphysY8D3b2: {
                 author: 'ALPHYS',
-                pm: 'who knows what theyll do next?'
+                pm: 'quem sabe o que ele fará em seguida?'
             },
             alphysY8D3x: {
                 author: 'ALPHYS',
-                pm: 'its probably safer just to leave the lab anyway.'
+                pm: 'é mais seguro sair do laboratório de toda forma.'
             },
             alphysY8D4: {
                 author: 'lazybones.',
                 pm: () =>
                     world.bad_lizard < 2
-                        ? "maybe it'd be best if you took some time off for a while."
-                        : "yeah, you do that.\ni'll try to keep tabs on 'em though."
+                        ? "talvez seja por você tirar um tempo fora pra você."
+                        : "sim, você faz isso.\nvou tentar ficar de olho nele."
             },
             alphysY8D4x: {
                 author: 'lazybones.',
-                pm: "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
+                pm: "você pode sair do laboratório se quiser.\nvou tentar ficar de olho nele."
             },
             alphysY8D5: {
                 author: 'ALPHYS',
                 pm: () =>
                     world.bad_lizard < 2
-                        ? 'yeah... youre probably right'
-                        : 'ok but dont get too close. they could kill someone at any moment'
+                        ? 'é... você provavelmente tá certo'
+                        : 'ok mas não chegue tão perto. ele pode matar alguém a qualquer momento.'
             },
             alphysY8D6: {
                 author: 'lazybones.',
                 pm: () =>
                     world.bad_lizard < 2
-                        ? 'sounds good. just be sure to get a phone that works outside the lab.'
-                        : "i'll be fine, just be sure to get a phone that works outside the lab."
+                        ? 'beleza. só tenha certeza de levar um celular que funciona fora do lab.'
+                        : "eu ficarei bem, só pega um celular que funciona fora do lab."
             },
             alphysY8D7: {
                 author: 'ALPHYS',
-                pm: 'oh yeah i almost forgot thanks'
+                pm: 'verdade eu quase esqueci valeu'
             },
             alphysY8D8: {
                 author: 'lazybones.',
-                pm: "oh, and be sure to clear the message history while you're at it."
+                pm: "ah, e não esquece de limpar o histórico de mensagens do celular."
             },
             alphysY8D9: {
                 author: 'ALPHYS',
-                pm: 'yeah ill do that dont worry'
+                pm: 'eu vou fazer isso relaxa'
             },
             alphysZ1: {
                 author: 'ALPHYS',
-                pm: '...\nhello?'
+                pm: '...\noi?'
             },
             alphysZ2: {
                 author: 'ALPHYS',
-                pm: 'sans im kinda getting worried'
+                pm: 'sans eu estou ficando preocupada'
             },
             alphysZ3: {
                 author: 'ALPHYS',
-                pm: 'no... no no no no no please tell me that was a prank'
+                pm: 'não... não não não não não me diga que isso é uma piadinha'
             },
             alphysZ4: {
                 author: 'ALPHYS',
-                pm: 'youre pranking me right?\nyou wouldnt just die like that'
+                pm: 'você tá brincando né?\nvocê não iria Simplesmente morrer assim.'
             },
             alphysZ5: {
                 author: 'ALPHYS',
-                pm: 'sans please tell me that youre alive and safe'
+                pm: 'sans por favor me diz que você tá vivo e seguro'
             },
             alphysZ6: {
                 author: 'ALPHYS',
-                pm: 'im sorry if i upset you for some reason or did something bad'
+                pm: 'me desculpa se eu te deixei com raiva ou algo assim'
             },
             alphysZ7: {
                 author: 'ALPHYS',
-                pm: 'its just been tough on me since you left and i dont know what to do'
+                pm: 'só tem sido difícil pra mim desde que você saiu e eu não sei o que fazer'
             },
             alphysZ8: {
                 author: 'ALPHYS',
-                pm: 'well... im back\nlooks like they got your brother'
+                pm: 'bem... eu voltei.\nparece que eles pegaram seu irmão'
             },
             alphysZ9: {
                 author: 'ALPHYS',
-                pm: 'i went to go do something and when i came back he was gone'
+                pm: 'eu saí pra fazer algo e quando eu voltei ele sumiu'
             },
             alphysZ10: {
                 author: 'ALPHYS',
-                pm: 'um... sans'
+                pm: 'hmmm... sans'
             },
             alphysZ11: {
                 author: 'ALPHYS',
-                pm: 'i dont know if youre there in some form or not but'
+                pm: 'eu não sei se você está aí de alguma forma ou não mas'
             },
             alphysZ12: {
                 author: 'ALPHYS',
-                pm: 'undynes gone'
+                pm: 'undyne foi morta'
             },
             alphysZ13: {
                 author: 'ALPHYS',
-                pm: 'UNDYNES GONE AND I DONT FING KNOW WHAT TO DO'
+                pm: 'UNDYNE FOI MORTA E NÃO SEI QUE KRL EU DEVO FAZER'
             },
             alphysZ14: {
                 author: 'ALPHYS',
-                pm: 'sorry'
+                pm: 'desculpa'
             },
             alphysZ15: {
                 author: 'ALPHYS',
-                pm: 'i should probably go.'
+                pm: 'eu deveria ir.'
             },
             alphysZ16: {
                 author: 'ALPHYS',
-                pm: 'heck i dont even know why im talking to you anymore'
+                pm: 'caramba eu nem sei porque ainda tô conversando contigo'
             },
             alphysZ17: {
                 author: 'ALPHYS',
-                pm: 'oh by the way'
+                pm: 'ah e aliás'
             },
             alphysZ18: {
                 author: 'ALPHYS',
-                pm: 'it was the starling flower all along'
+                pm: 'foi aquela flor estrelada o tempo todo'
             }
         },
-        sidebarCellPms4: '(NEW)'
+        sidebarCellPms4: '(NOVO)'
     },
 
     n_shop_bpants: {
         exit: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
-                    ? ['<32>{#p/basic}{#k/6}* Any time, little bully.']
-                    : ['<32>{#p/basic}{#k/6}* Any time, little murderer.']
-                : ['<32>{#p/basic}{#k/6}* Any time, little buddy.'],
+                    ? ['<32>{#p/basic}{#k/6}* qualquer hora, valentão.']
+                    : ['<32>{#p/basic}{#k/6}* qualquer hora, assassininho.']
+                : ['<32>{#p/basic}{#k/6}* Qualquer hora, amiguinho.'],
         item: () =>
             world.runaway
                 ? [
                     '0G - Starfaint',
                     '0G - Hold Yer Grane',
                     '0G - Slamburger',
-                    SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "0G - Glyde's Envy",
-                    'Exit'
+                    SAVE.data.b.item_face_steak ? '§fill=#808080§--- INDISPONÍVEL ---' : "0G - Envio de G",
+                    'Sair'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
                         '5G - Starfaint',
                         '10G - Hold Yer Grane',
                         '5G - Slamburger',
-                        SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "49G - Glyde's Envy",
-                        'Exit'
+                        SAVE.data.b.item_face_steak ? '§fill=#808080§--- INDISPONÍVEL ---' : "49G - Envio de G",
+                        'Sair'
                     ]
                     : world.genocide || world.killed0 || burger()
                         ? [
                             '32G - Startaint',
                             '60G - Hold Yer Pain',
                             '48G - Slamdunker',
-                            SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "138G - Undyne's Envy",
-                            'Exit'
+                            SAVE.data.b.item_face_steak ? '§fill=#808080§--- INDISPONÍVEL ---' : "138G - Envio de Undyne",
+                            'Sair'
                         ]
                         : [
                             '16G - Starfaint',
                             '30G - Hold Yer Grane',
                             '24G - Slamburger',
-                            SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "69G - Glyde's Envy",
-                            'Exit'
+                            SAVE.data.b.item_face_steak ? '§fill=#808080§--- INDISPONÍVEL ---' : "69G - Envio de G",
+                            'Sair'
                         ],
         itemInfo: () =>
             world.genocide || world.killed0 || burger()
                 ? [
-                    'Heals -23HP\nSugar over-\ndose assured.',
-                    'Heals -40HP\nNot quite a\nhero of\nany kind.',
-                    'Heals -34HP\nFace the\npain either\nway.',
-                    'Heals -55HP\nOnly for the\nmost die-\nhard folk.'
+                    'Cura -23HP\nOverdose de\naçúcar.',
+                    'Cura -40HP\nNão é um\nherói, não\nmesmo.',
+                    'Cura -34HP\nencare a dor\nde ambos os\nlados.',
+                    'Cura -55HP\nsó para o\nmais difícil\nde morrer.'
                 ]
                 : [
-                    'Heals 23HP\nSugar over-\ndose likely.',
-                    'Heals 40HP\nNot quite a\n\"legendary\nhero.\"',
-                    'Heals 34HP\nSlam it\ndown or face\nthe pain.',
-                    "Heals 55HP\nIt's a long\nstory."
+                    'Cura 23HP\nUma bela\naçucarada.',
+                    'Cura 40HP\nNão é um\n\"herói\nlendário.\"',
+                    'Cura 34HP\nComa ou\nencare\na dor.',
+                    "Cura 55HP\nÉ uma longa\nhistória."
                 ],
         itemPrompt: () =>
             world.population === 0 || burger()
-                ? '<09>{#p/basic}{#k/7}What do YOU want from me?'
-                : '<09>{#p/basic}{#k/0}What do you want from me?',
+                ? '<09>{#p/basic}{#k/7}O que VOCÊ quer de mim?'
+                : '<09>{#p/basic}{#k/0}O que você quer de mim?',
         itemPurchase: () =>
             world.population === 0 || burger()
                 ? [
                     world.bullied && !world.genocide && !burger()
-                        ? '<09>{#p/basic}{#k/5}Thanks, little bully.'
-                        : '<09>{#p/basic}{#k/5}Thanks, little murderer.',
-                    '<09>{#p/basic}{#k/7}You gonna buy something or...?',
-                    "<09>{#p/basic}{#k/6}That's the wrong amount of money.",
-                    "<10>{#p/human}(You're carrying too much.)"
+                        ? '<09>{#p/basic}{#k/5}Valeu, valentão.'
+                        : '<09>{#p/basic}{#k/5}Valeu, assassininho.',
+                    '<09>{#p/basic}{#k/7}Você vai comprar alguma coisa ou...?',
+                    "<09>{#p/basic}{#k/6}Essa é a quantia errada de dinheiro.",
+                    "<10>{#p/human}(Você está carregando demais.)"
                 ]
                 : [
-                    '<09>{#p/basic}{#k/0}Thanks, little buddy.',
-                    '<09>{#p/basic}{#k/1}You gonna buy something or...?',
-                    "<09>{#p/basic}{#k/6}That's the wrong amount of money.",
-                    "<10>{#p/human}(You're carrying too much.)"
+                    '<09>{#p/basic}{#k/0}Valeu, amiguinho.',
+                    '<09>{#p/basic}{#k/1}Você vai comprar alguma coisa ou...?',
+                    "<09>{#p/basic}{#k/6}Essa é a quantia errada de dinheiro.",
+                    "<10>{#p/human}(Você está carregando demais.)"
                 ],
-        itemPurchasePrompt: () => (world.runaway ? 'Take it?' : 'Buy it for\n$(x)G?'),
+        itemPurchasePrompt: () => (world.runaway ? 'Pegar?' : 'Comprar por\n$(x)G?'),
         itemUnavailable: () =>
             world.runaway
-                ? '<09>{#p/basic}Nothing left.'
+                ? '<09>{#p/basic}Nada sobrando.'
                 : world.population === 0 || burger()
-                    ? '<09>{#p/basic}{#k/5}Sorry, that was one of a kind.'
-                    : '<09>{#p/basic}{#k/4}Sorry, that was one of a kind.',
+                    ? '<09>{#p/basic}{#k/5}Desculpe, esse era o único.'
+                    : '<09>{#p/basic}{#k/4}Desculpa, esse era o único.',
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Pegar', 'Roubar', 'Ler', 'Sair'] : ['Comprar', world.meanie ? 'Roubar' : 'Vender', 'Conversar', 'Sair'],
         menuPrompt1: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
-                    ? '<23>{#p/basic}{#k/5}* Heyyyy little bully.'
-                    : '<23>{#p/basic}{#k/5}* Heyyyy little murderer.'
-                : '<23>{#p/basic}{#k/0}* What can I do for you, little buddy?',
+                    ? '<23>{#p/basic}{#k/5}* Ooooopaaa valentão.'
+                    : '<23>{#p/basic}{#k/5}* Ooooopaaa assassininho.'
+                : '<23>{#p/basic}{#k/0}* O que eu posso fazer por você, maninho?',
         menuPrompt2: () =>
             world.population === 0 || burger()
-                ? '<23>{#p/basic}{#k/7}* Need anything else?'
-                : '<23>{#p/basic}{#k/0}* Need anything else?',
-        menuPrompt3: '<23>{#p/basic}* ... but everybody ran.',
-        note: ['<32>{#p/human}* (But there was no note for you to read.)'],
+                ? '<23>{#p/basic}{#k/7}* Mais alguma coisa?'
+                : '<23>{#p/basic}{#k/0}* Mais alguma coisa?',
+        menuPrompt3: '<23>{#p/basic}* ... mas todo mundo correu.',
+        note: ['<32>{#p/human}* (Mas não tinha nenhuma nota pra você ler.)'],
         sell1: () =>
             world.runaway
-                ? ['<30>{#p/human}* (You took 2048G from behind the counter.)']
+                ? ['<30>{#p/human}* (Você pegou 2048G de trás do balcão.)']
                 : world.genocide || world.killed0 || burger()
                     ? [
                         '<30>{#p/basic}{#k/7}* ...',
                         ...(SAVE.storage.inventory.size < 8
                             ? [
-                                '<30>{#k/4}* Okay.\n* Here you go.',
-                                "<30>{#k/5}* It's a one-of-a-kind item, just for you.",
-                                "<30>{#p/human}* (You got the Plunderer's Demise.)"
+                                '<30>{#k/4}* Beleza.\n* Aqui vai.',
+                                "<30>{#k/5}* É um item único, só para você.",
+                                "<30>{#p/human}* (Você pegou o Morte ao Saqueador.)"
                             ]
                             : [
-                                '<30>{#p/basic}{#k/7}* For someone who wants to steal something, you sure seem well off with your ITEMs.'
+                                '<30>{#p/basic}{#k/7}* Para alguém que quer roubar algo, você com certeza parece bem com seus ITENS.'
                             ])
                     ]
                     : world.meanie
-                        ? ['<30>{#p/basic}{#k/1}* ...', '<30>{#k/4}* ...', '<30>{#k/3}* Excuse me?']
+                        ? ['<30>{#p/basic}{#k/1}* ...', '<30>{#k/4}* ...', '<30>{#k/3}* Com licença?']
                         : [
                             '<30>{#p/basic}{#k/1}* ...',
                             '<30>{#k/4}* ...',
-                            "<30>{#k/6}* You think you're real sly, huh?",
-                            "<30>{#k/7}* Hmm...\n* Why don't you try selling that to Bratty and Catty?",
-                            '<30>{#k/0}* I\'m sure they\'ll, uh, \"bite.\"'
+                            "<30>{#k/6}* Você acha que é muito astuto, hein?",
+                            "<30>{#k/7}* Hmm...\n* Por que você não tenta vender pra Bratty e pra Catty?",
+                            '<30>{#k/0}* Eu tenho certeza que elas vão, uh, \"morder.\"'
                         ],
         sell2: () =>
             world.runaway
-                ? ['<30>{#p/basic}* Nothing left.']
+                ? ['<30>{#p/basic}* Nada sobrando.']
                 : SAVE.data.b.a_state_freesell
-                    ? ['<30>{#p/basic}{#k/6}* Sorry, one free sample per murderer.']
-                    : ["<30>{#p/basic}{#k/6}* It's not happening, pal."],
+                    ? ['<30>{#p/basic}{#k/6}* Foi mal, apenas um por assassino.']
+                    : ["<30>{#p/basic}{#k/6}* Não vai acontecer, amigão."],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', 'Exit']
+                ? ['Conselho Romântico', 'Mettaton', 'Onde Ir Agora', 'Meu Futuro', 'Sair']
                 : [
-                    ['Life Advice', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge'][
+                    ['Conselho de Vida', '§fill=#ff0§Tomando Poder (NOVO)', 'Tomando Poder'][
                     Math.min(SAVE.data.n.shop_bpants_advice, 2)
                     ],
                     'Mettaton',
                     postSIGMA()
-                        ? 'Power Outage'
-                        : ['Where We Are', '§fill=#ff0§Glyde (NEW)', 'Glyde'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
-                    'Your Future',
-                    'Exit'
+                        ? 'Queda de Energia'
+                        : ['Onde Nós Estamos', '§fill=#ff0§Glyde (NOVO)', 'Glyde'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
+                    'Seu Futuro',
+                    'Sair'
                 ],
         talkPrompt: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
-                    ? '<09>{#p/basic}{#k/0}Take it from me, little bully.'
-                    : '<09>{#p/basic}{#k/0}Take it from me, little murderer.'
-                : '<09>{#p/basic}{#k/0}Take it from me, little buddy.',
+                    ? '<09>{#p/basic}{#k/0}Vai na minha, valentão.'
+                    : '<09>{#p/basic}{#k/0}Vai na minha, assassininho.'
+                : '<09>{#p/basic}{#k/0}Vai na minha, amiguinho.',
         talkText: [
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}{#k/7}* Romantic advice?',
-                        "<32>{#k/0}* Little buddy, I've only got one piece of advice when it comes to getting romantic.",
-                        "<32>{#k/1}* ... don't even try.",
-                        "<32>{#k/4}* When the right person comes along, it'll be as dainty as dancing in the dark.",
-                        '<32>{#k/0}* The fat old mole-rat might even like you back.'
+                        '<32>{#p/basic}{#k/7}* Conselho romântico?',
+                        "<32>{#k/0}* Amiguinho eu só tenho um conselho quando se trata de ficar romântico.",
+                        "<32>{#k/1}* ... não faça isso.",
+                        "<32>{#k/4}* Quando a pessoa certa vier, você estará feliz dançando no escuro.",
+                        '<32>{#k/0}* Aquele velho rato-topeira talvez até goste de você de volta.'
                     ]
                     : world.population === 0 || burger()
                         ? [
-                            '<32>{#p/basic}{#k/6}* Life advice...',
-                            "<32>{#k/6}* Shucks, I'd have thought you'd be pretty knowledgable in that department.",
-                            "<32>{#k/5}* Or maybe you're just more experienced with the opposite of life."
+                            '<32>{#p/basic}{#k/6}* Conselho de vida...',
+                            "<32>{#k/6}* Pow, eu pensei que você teria bastante conhecimento nessa área.",
+                            "<32>{#k/5}* Ou talvez você só tenha mais experiência com o lado oposto da vida."
                         ]
                         : [
                             [
-                                "<32>{#p/basic}{#k/6}* Listen up.\n* If you want to get ahead in life, you've got to learn to take charge.",
-                                '<32>{#k/4}* My boss pushed me around for way too long, and I wasted way too much of my short life not telling him \"no.\"',
-                                '<32>{#k/0}* When I finally stood up to him, well...',
-                                '<32>{#k/2}* It did us both some good.'
+                                "<32>{#p/basic}{#k/6}* Escuta aí. \n* Se você quer se dar bem na vida, tem que aprender a tomar controle.",
+                                '<32>{#k/4}* Meu chefe me abusou por tempo demais e eu gastei muito da minha pequena vida sem dize-lo \"não.\"',
+                                '<32>{#k/0}* Quando eu finalmente fui contra ele, bem...',
+                                '<32>{#k/2}* Vamos dizer que isso foi bom pra nós dois.'
                             ],
                             [
-                                "<32>{#p/basic}{#k/6}* I'll try to make this as simple as possible for you, little buddy.",
-                                '<32>* As nice as people are, sometimes they get caught in bad ways of thinking.',
-                                '<32>{#k/4}* Short-sightedness.\n* Carelessness.\n* Abuse.',
-                                '<33>{#k/4}* The nicest thing you can do for someone like that is to give them a piece of your mind. Tell them how wrong they are and make them think about it.',
-                                '<32>{#k/7}* The more you let someone get comfortable with their bad way of life, the more they get stuck in those ways.',
-                                "<32>{#k/0}* Don't let people get stuck."
+                                "<32>{#p/basic}{#k/6}* Eu vou tentar deixar isso o mais simples possível pra você, amiguinho.",
+                                '<32>* Por mais legal que uma pessoa seja, em algum momento ela é pega pensando ou fazendo o mau.',
+                                '<32>{#k/4}* Fingir não ver.\n* Descuido.\n* Abuso.',
+                                '<33>{#k/4}* O melhor que você pode fazer para essa pessoa e dar um esporro. Dizer a ela o que ela fez de errado e colocá-la para pensar.',
+                                '<32>{#k/7}* Quanto mais você deixar alguém se acomodar com comportamentos ruins, mais essa pessoa irá pensar que eles são normais.',
+                                "<32>{#k/0}* Não deixe as pessoa ficarem presas nesse tipo de vida."
                             ],
                             [
-                                "<32>{#p/basic}{#k/1}* I'm not your counselor, pal.",
+                                "<32>{#p/basic}{#k/1}* Eu não sou seu conselheiro, amigo.",
                                 '<32>{#k/7}* ...',
-                                '<32>{#k/0}* Sorry.\n* Just... remember my words.'
+                                '<32>{#k/0}* Desculpa.\n* Só... lembre das minhas palavras.'
                             ]
                         ][Math.min(SAVE.data.n.shop_bpants_advice++, 2)],
             () =>
                 SAVE.data.n.plot === 72
                     ? [
                         '<32>{#p/basic}{#k/2}* ...',
-                        "<32>{#k/4}* I guess I can't make fun of the bastard forever.",
-                        "<32>{#k/0}* One day, I'll have to do something new with my life...",
-                        '<32>{#k/7}* ... and that day is coming up on me quickly now.',
-                        '<32>{#k/6}* Don\'t worry, though.\n* My \"boyish charm\" isn\'t going anywhere ANY time soon.'
+                        "<32>{#k/4}* Eu acho que não posso fazer graça do bastardo pra sempre.",
+                        "<32>{#k/0}* Um dia, eu vou fazer algo diferente da minha vida...",
+                        '<32>{#k/7}* ... e esse dia está se aproximando cada vez mais.',
+                        '<32>{#k/6}* Mas não se preocupe.\n* Meu \"charme infantil\" não vai a lugar nenhum tão cedo.'
                     ]
                     : SAVE.data.b.killed_mettaton
-                        ? ['<32>{#p/basic}{#k/8}* Mettaton.', '<32>{#k/4}* ...', "<32>{#k/6}* Yeah, he's dead."]
+                        ? ['<32>{#p/basic}{#k/8}* Mettaton.', '<32>{#k/4}* ...', "<32>{#k/6}* É, ele tá morto."]
                         : (world.genocide || world.bad_robot) && 68 <= SAVE.data.n.plot
                             ? SAVE.data.n.shop_bpants_mtt2++ < 1
                                 ? [
                                     '<32>{#p/basic}{#k/4}* Mettaton...',
-                                    "<32>{#k/4}* I'd rant about him, but uh...\n* Since you killed him...",
-                                    "<32>{#k/5}* I don't really think there's much to say."
+                                    "<32>{#k/4}* Eu falaria mal dele...\n* Mas já que você o matou...",
+                                    "<32>{#k/5}* Eu não acho que tenha muito mais o que dizer."
                                 ]
-                                : ['<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* I'm not going to repeat myself."]
+                                : ['<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* Eu não vou repetir o que eu disse."]
                             : SAVE.data.n.shop_bpants_mtt1++ < 1
                                 ? world.population === 0 || burger()
                                     ? [
                                         '<32>{#p/basic}{#k/4}* Mettaton...',
-                                        "<32>{#k/6}* I'd rant about HIM, but YOU make him look like a saint.",
-                                        '<32>{#k/5}* I guess you could call that an accomplishment... of a terrible, terrible sort.'
+                                        "<32>{#k/6}* Eu falaria mau sobre ele, mas VOCÊ faz ele parecer um santo.",
+                                        '<32>{#k/5}* Eu acho que você pode chamar isso de conquista... uma das mais terríveis possíveis.'
                                     ]
                                     : [
-                                        '<32>{#p/basic}{#k/4}* Why does it always have to be about him...',
-                                        "<32>{#k/0}* Yeah, he's a bit of an icon around here.\n* Everybody loves him...",
-                                        '<32>{#k/6}* Except for yours truly, of course. I spit on him with every breath I take.',
-                                        "<32>{#k/5}* No, really.\n* I've got a little figurine of him under the counter, and I make sure as much saliva as possible hits his face.",
-                                        "<32>{#k/4}* You wouldn't BELIEVE the crap he put me through working here...",
-                                        '<32>{#k/6}* After he got out of my way I gracefully stripped the shop of all the MTT-brand trimmings.',
-                                        '<32>* Oh, and of course I renamed all the food items.',
-                                        '<32>{#k/5}* I wanted to rename \"Legendary Hero\" to \"Her Ye Olde Gran\" but I figured that wouldn\'t fly well with the older folks.',
+                                        '<32>{#p/basic}{#k/4}* Por que sempre tem que ser sobre ele...',
+                                        "<32>{#k/0}* É, ele é meio que um ícone por aqui.\n* Todo mundo ama ele...",
+                                        '<32>{#k/6}* Exceto pelos de verdade, é claro. Eu cuspo nele com todo o ar que tenho.',
+                                        "<32>{#k/5}* Não, sério.\n* Eu tenho uma foto dele e faço questão de colocar o máximo de saliva possível antes de cuspir na cara dele.",
+                                        "<32>{#k/4}* Você não acreditaria nas MERDAS que ele me fez passar trabalhando aqui...",
+                                        '<32>{#k/6}* Depois que ele saiu do meu caminho, eu graciosamente tirei da loja todos os enfeites da marca MTT.',
+                                        '<32>* Ah, e é claro, eu renomeei todos os itens de comida.',
+                                        '<32>{#k/5}* Eu queria renomear \"Herói Lendário\" para \"Velha Senhora da Guerra\", mas achei que isso não funcionaria bem com as pessoas mais velhas.',
                                         '<32>{#k/0}* ...',
-                                        '<32>{#k/7}* What?\n* Were you expecting me to talk about his business or something?'
+                                        '<32>{#k/7}* O que?\n* Você tava esperando que eu falasse sobre a vida dele ou algo assim?'
                                     ]
-                                : ['<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* I'm not going to repeat myself."],
+                                : ['<32>{#p/basic}{#k/5}* ...', "<33>{#k/7}* Eu não vou repetir o que eu disse."],
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}{#k/4}* Where to go, where to go...',
-                        "<32>{#k/0}* On the new homeworld, I'd like to start a new shop with that old buddy of mine, Gerson.",
-                        "<32>{#k/7}* He said he's content with just doing the finances, and that works for me.",
-                        '<32>{#k/0}* ... as long as I get to spend some time with him.'
+                        '<32>{#p/basic}{#k/4}* Onde ir, onde ir...',
+                        "<32>{#k/0}* Na novo planeta, eu gostaria de começar uma loja com meu velho amigo, Gerson.",
+                        "<32>{#k/7}* Ele disse que fica feliz só mechendo nas finanças, e isso pra mim tá ótimo.",
+                        '<32>{#k/0}* ... com tanto que possa passar um tempo conversando com ele.'
                     ]
                     : postSIGMA()
                         ? [
-                            '<32>{#p/basic}{#k/7}* Come to think of it, it HAS started getting quiet around here.',
-                            "<32>{#k/6}* Only problem is, I'm too busy enjoying my WORKING electricity.",
-                            '<32>{#k/4}* Which may or may not be because I rigged a direct power feed from the CORE a while back.',
-                            "<32>{#k/5}* Shh... don't tell anyone I told you that.\n* It's a trade secret."
+                            '<32>{#p/basic}{#k/7}* Parando pra pensar, tem COMEÇADO a ficar bem quieto por aqui.',
+                            "<32>{#k/6}* O único problema é que estou muito ocupado aproveitando minha eletricidade FUNCIONANDO.",
+                            '<32>{#k/4}* O que pode ou não ser porque eu manipulei uma alimentação de energia direta do CORE há algum tempo.',
+                            "<32>{#k/5}* Shh... não diz pra ninguém que eu te disse isso.\n* É um segredinho em troca do outro."
                         ]
                         : world.population === 0 || burger()
                             ? [
                                 '<32>{#p/basic}{#k/0}* ...',
-                                "<32>{#k/0}* We're in hell, my friend.\n* Absolute hell.",
+                                "<32>{#k/0}* Nós estamos no inferno, meu amigo.\n* Absoluto inferno.",
                                 '<32>{#k/1}* ...',
-                                "<32>{#k/3}* Gosh, isn't talking to you JUST SO MUCH FUN!?!?"
+                                "<32>{#k/3}* Caramba, conversar com você NÃO É TÃO DIVERTIDO?"
                             ]
                             : [
                                 [
-                                    '<32>{#p/basic}{#k/6}* Where we are, eh?',
-                                    '<32>{#k/4}* This place is... a little weird...',
-                                    '<32>{#k/0}* King Asgore had it built as a way to \"bring monsters together.\"',
-                                    "<32>{#k/7}* Now it's... just kind of this place that exists.\n* There's food, there's rest, and sometimes they run shows here.",
-                                    '<32>{#k/6}* Oh, and, this is where they host the OuterNet.\n* Bratty and Catty are in charge of the news.',
-                                    "<32>{#k/4}* Well, actually, they're in charge of this place as a whole.",
-                                    "<32>{#k/0}* After Mettaton left, I told them they could take over.\n* Besides, I've got my own thing going for me now...",
-                                    "<32>{#k/2}* I guess I'm just a little tired.",
-                                    "<32>{#k/3}* But hey, who has time for THAT when you've got people like GLYDE hanging around, huh!?"
+                                    '<32>{#p/basic}{#k/6}* Onde nós estamos, eh?',
+                                    '<32>{#k/4}* Esse lugar é... estranho...',
+                                    '<32>{#k/0}* Rei Asgore construiu este lugar como uma forma de \"unificar os monstros.\"',
+                                    "<32>{#k/7}* Agora é... apenas um lugar que existe.\n* Há comida, há descanso e às vezes eles fazem shows aqui.",
+                                    '<32>{#k/6}* Ah é, é por aqui que eles comandam a Outernet.\n* Bratty e Catty são as jornalistas anfitriãs.',
+                                    "<32>{#k/4}* Bem, na verdade elas estão no comando do lugar de modo geral.",
+                                    "<32>{#k/0}* Depois que Mettaton saiu, eu disse a elas que poderiam assumir.\n* Além disso, eu tenho minhas próprias coisas pra fazer agora...",
+                                    "<32>{#k/2}* Eu acho que só estou um pouco cansado.",
+                                    "<32>{#k/3}* Mas ei, quem tem tempo com um cara como o Glyde andando por aí huh!?"
                                 ],
                                 [
-                                    '<32>{#p/basic}{#k/6}* Haha... let me tell you about this showboating know-it-all.',
-                                    '<32>{#k/0}* Back when I worked for Mettaton, I regularly had to make this thing called a \"face steak.\"',
-                                    '<32>{#k/1}* For the record, that\'s a steak with Mettaton\'s \"fabulous\" face on it.',
-                                    '<32>{#k/3}* But Glyde?\n* Glyde loved it so much it decided to make its own \"steak enterprise\" by putting ITS face on steaks instead!',
-                                    "<32>{#k/3}* And, as if that wasn't crazy enough, Glyde BID on me to be its first employee!\n* Like I'm up for auction or something!",
-                                    "<32>{#k/4}* Of course, Mettaton wasn't going to let me go that easily, so I ended up staying here.",
-                                    '<32>{#k/0}* In the end, Glyde never got what it wanted, and now it just goes around demanding people join its \"crusade.\"',
-                                    '<32>{#k/1}* Oh well.\n* If things get really bad, I can just turn off the lights again...',
-                                    "<32>{#k/7}* Maniacs like that fear the dark because they can't stand not being in control of every last situation they're in."
+                                    '<32>{#p/basic}{#k/6}* Haha... deixa eu te falar sobre esse sabe-tudo exibicionista.',
+                                    '<32>{#k/0}* Quando eu trabalhava com o Mettaton eu precisava fazer um tal chamado de \"bife do rosto.\"',
+                                    '<32>{#k/1}* Só pra esclarecer, este era um bife com o \"fabuloso\" rosto do Mettaton.',
+                                    '<32>{#k/3}* Mas Glyde?\n* Glyde amou tanto que decidiu fazer sua própria \"empresa de bifes\", colocando SEU rosto nos bifes!',
+                                    "<32>{#k/3}* E como se isso não fosse loucura o suficiente, Glyde queria eu eu fosse seu primeiro cliente. Como se eu quisesse participar dessa porcaria.",
+                                    "<32>{#k/4}* É claro, Mettaton não deixaria eu ir tão facilmente, então acabei ficando aqui com ele.",
+                                    '<32>{#k/0}* No fim, Glyde nunca conseguiu o que queria e fica rodando por aí pedindo para as pessoas se juntarem a sua \"cruzada.\"',
+                                    '<32>{#k/1}* Ah bem.\n* Se as coisas ficarem muito ruins, posso simplesmente desligar as luzes novamente.',
+                                    "<32>{#k/7}* Maníacos como ele temem o escuro pois eles não aguentam não estar no controle até da última situação em que se encontram."
                                 ],
                                 [
-                                    "<32>{#p/basic}{#k/4}* I've told you all I really know about Glyde.",
-                                    "<32>{#k/7}* Maybe there's something buried somewhere in its past to explain why it acts this way...",
-                                    "<32>{#k/1}* But that's anyone's guess."
+                                    "<32>{#p/basic}{#k/4}* Eu já te disse tudo que sei sobre o Glyde.",
+                                    "<32>{#k/7}* Talvez exista algo sobre o passado dele para explicar porque ele age assim...",
+                                    "<32>{#k/1}* Mas isso vale pra todo mundo."
                                 ]
                             ][Math.min(SAVE.data.n.shop_bpants_hub++, 2)],
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}{#k/1}* What do I look like, a fortune teller?',
-                        "<32>{#k/2}* I have no idea what's in your future.",
-                        "<32>{#k/4}* But if I had to guess, it'll be better than your past.",
-                        '<32>{#k/7}* From what Asgore was saying, humans never come here for particularly good reasons.',
-                        '<32>{#k/0}* Except for that brawny kid.\n* They were just a really big fan of monsters, I guess.'
+                        '<32>{#p/basic}{#k/1}* O que eu pareço, uma cartomante?',
+                        "<32>{#k/2}* Eu não tenho ideia sobre o que o futuro te guarda.",
+                        "<32>{#k/4}* Mas se eu puder chutar, acho que vai ser melhor do que seu passado.",
+                        '<32>{#k/7}* Pelo que Asgore diz, humanos nunca vem para cá por boas razões.',
+                        '<32>{#k/0}* Exceto por aquele garoto musculoso.\n* Ele era apenas um grande fã de monstros, eu acho.'
                     ]
                     : world.population === 0 || burger()
                         ? world.bullied && !burger()
                             ? [
-                                '<32>{#p/basic}{#k/5}* My future, huh?\n* I dunno, little bully...',
-                                '<32>{#p/basic}{#k/6}* You tell me.'
+                                '<32>{#p/basic}{#k/5}* Meu futuro, huh?\n* Eu nem sei, carinha...',
+                                '<32>{#p/basic}{#k/6}* Me fala você.'
                             ]
                             : [
-                                '<32>{#p/basic}{#k/5}* Ohhhhh trust me, my little whiny-heinie death-defying slaughter-happy murderer...',
-                                "<32>{#k/6}* My future's secure.",
-                                "<32>{#k/2}* Besides, an old buddy of mine told me how I can't be hurt here.",
-                                "<32>{#k/5}* You're NEVER getting me."
+                                '<32>{#p/basic}{#k/5}* Ohhhh confia em mim, meu projeto de assassino com sorriso psicopático...',
+                                "<32>{#k/6}* Meu futuro está seguro.",
+                                "<32>{#k/2}* Aliás, um velho amigo meu me disse que não posso ser ferido aqui.",
+                                "<32>{#k/5}* Você NUNCA vai me pegar."
                             ]
                         : [
-                            '<32>{#p/basic}{#k/0}* MY future?\n* Little buddy...',
-                            '<32>{#k/3}* You should be thinking about your future!',
+                            '<32>{#p/basic}{#k/0}* Meu futuro?\n* Amiguinho...',
+                            '<32>{#k/3}* Você deveria estar pensando sobre o seu futuro!',
                             '<32>{#k/4}* ...',
-                            "<32>{#k/6}* Don't worry, pal.\n* With that rectangular rabble- rouser off my back, things are looking brighter by the day."
+                            "<32>{#k/6}* Não se preocupe, amigo.\n* Com aquela turba retangular fora das minhas costas, as coisas parecem mais brilhantes a cada dia."
                         ]
         ],
         zeroPrompt: '<09>{#p/basic}...'
@@ -11137,204 +11137,204 @@ export default {
     n_shop_gossip: {
         exit: [
             {
-                b: '<16>{#k/0/0}* Like, see you later!',
-                c: '<16>* Like, later and stuff!',
+                b: '<16>{#k/0/0}* Tipo, te vejo depois!',
+                c: '<16>* Tipo, depois e tals.',
                 s: true
             }
         ],
         item: () =>
             adultEvac()
                 ? [
-                    '0G - Space Junk',
-                    SAVE.data.b.item_laser ? '0G - Laser Rifle?' : '0G - Laser Rifle',
-                    SAVE.data.b.item_visor ? '0G - Tactical Visor?' : '0G - Tactical Visor',
-                    SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '0G - Mystery Key',
-                    'Exit'
+                    '0G - Lixo Espacial',
+                    SAVE.data.b.item_laser ? '0G - Rifle de Laser?' : '0G - Rifle de Laser',
+                    SAVE.data.b.item_visor ? '0G - Viseira Tática?' : '0G - Viseira Tática',
+                    SAVE.data.b.item_mystery_key ? '§fill=#808080§--- INDISPONÍVEL ---' : '0G - Chave Misteriosa',
+                    'Sair'
                 ]
                 : [
-                    '5G - Space Junk',
-                    SAVE.data.b.item_laser ? '60G - Laser Rifle?' : '70G - Laser Rifle',
-                    SAVE.data.b.item_visor ? '60G - Tactical Visor?' : '70G - Tactical Visor',
-                    SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '400G - Mystery Key',
-                    'Exit'
+                    '5G - Lixo Espacial',
+                    SAVE.data.b.item_laser ? '60G - Rifle de Laser?' : '70G - Rifle de Laser',
+                    SAVE.data.b.item_visor ? '60G - Viseira Tática?' : '70G - Viseira Tática',
+                    SAVE.data.b.item_mystery_key ? '§fill=#808080§--- INDISPONÍVEL ---' : '400G - Chave Misteriosa',
+                    'Sair'
                 ],
         itemInfo: () => [
-            'Heals ??HP\nCould be\nanything.',
+            'Cura ??HP\nPode ser\nQualquer coisa.',
             SAVE.data.b.item_laser
-                ? 'Weapon: 10AT\n($(x) AT)\nDifficult,\nbut powerful.\nReplicated.'
-                : 'Weapon: 12AT\n($(x) AT)\nDifficult,\nbut powerful.',
+                ? 'Arma: 10AT\n($(x) AT)\nDifícil,\nmas poderosa.\nReplicada.'
+                : 'Arma: 12AT\n($(x) AT)\nDifícil,\nmas poderosa.',
             SAVE.data.b.item_visor
-                ? 'Armor: 10DF\n($(x) DF)\nAiming made\neasier.\nReplicated.'
-                : 'Armor: 12DF\n($(x) DF)\nAiming made\neasier.',
-            'Special:\nCould lead\nanywhere.'
+                ? 'Armadura: 10DF\n($(x) DF)\nMira feita\nFácil.\nReplicada.'
+                : 'Armadura: 12DF\n($(x) DF)\nMira feita\nFácil.',
+            'Especial:\nPode ser de\nqualquer\nlugar.'
         ],
-        itemPrompt: '<99>{#p/basic}{#k/0/9}{@fill=#d4bbff}You\nshould\nbuy ALL\nour stuff!',
+        itemPrompt: '<99>{#p/basic}{#k/0/9}{@fill=#d4bbff}Você\ndeveria\ncomprar\ntudo nosso!',
         itemPurchase: [
-            "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}Bratty!\nWe're gonna be rich!",
-            '<09>{#p/basic}{#k/0/4}{@fill=#d4bbff}So are you gonna buy it??',
-            '<09>{#p/basic}{#k/4/5}{@fill=#d4bbff}You need WAY more money.',
-            "<10>{#p/human}(You're carrying too much.)"
+            "<09>{#p/basic}{#k/1/8}{@fill=#d4bbff}Bratty!\nNós seremos ricas!",
+            '<09>{#p/basic}{#k/0/4}{@fill=#d4bbff}Então, você vai comprar?',
+            '<09>{#p/basic}{#k/4/5}{@fill=#d4bbff}Você precisa de MAIS dinheiro.',
+            "<10>{#p/human}(Você está carregando demais.)"
         ],
         itemPurchasePrompt: () =>
             adultEvac()
                 ? shopper.listIndex === 3
-                    ? 'Add to your\nkeyring?'
-                    : 'Take it?'
+                    ? 'Adicionar ao seu\nchaveiro?'
+                    : 'Pegar?'
                 : shopper.listIndex === 3
-                    ? 'Add to your\nkeyring for\n$(x)G?'
-                    : 'Buy it for\n$(x)G?',
+                    ? 'Adicionar ao seu\nchaveiro por\n$(x)G?'
+                    : 'Comprar por\n$(x)G?',
         itemUnavailable: () =>
             adultEvac()
-                ? '<09>{#p/basic}Nothing left.'
-                : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}We're all sold out!\nMee-YOW!",
+                ? '<09>{#p/basic}Nada sobrando.'
+                : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}Estamos esgotadas!\nMEE-YOW",
         menu: () =>
-            adultEvac() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
-        menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!',
-        menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything.',
+            adultEvac() ? ['Pegar', 'Roubar', 'Ler', 'Sair'] : ['Comprar', world.meanie ? 'Roubar' : 'Vender', 'Conversar', 'Sair'],
+        menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Da uma olhada!',
+        menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Sem pressa nem nada.',
         menuPrompt3: () =>
-            world.bulrun ? '<23>{#p/basic}* ... but everybody ran.' : '<23>{#p/basic}* ... but nobody came.',
+            world.bulrun ? '<23>{#p/basic}* ... mas todo mundo correu.' : '<23>{#p/basic}* ... mas ninguém veio.',
         note: () => [
-            "<32>{#p/basic}* There's a series of notes here.",
+            "<32>{#p/basic}* A uma série de notas aqui.",
             {
-                b: '<16>* \"If you\'re reading this...\"',
+                b: '<16>* \"Se você está lendo isso...\"',
                 c: world.bullied
-                    ? '<16>* \"Then, like, bad news you mega-annoying weirdo!\"'
-                    : '<16>* \"Then, like, bad news you mega-evil weirdo!\"'
+                    ? '<16>* \"Então, más notícias pra você mega maluco esquisitão!\"'
+                    : '<16>* \"Então, más notícias pra você mega vilão esquisitão!\"'
             },
             ...(SAVE.data.n.plot === 72 && !world.runaway
                 ? [
                     {
-                        b: '<16>* \"We\'re not gonna come back here after you, like...\"',
-                        c: '<16>* \"... beat everyone up and stuff.\"'
+                        b: '<16>* \"Nós não vamos voltar aqui atrás depois de você, tipo...\"',
+                        c: '<16>* \"... ter espancado todo mundo e tals.\"'
                     },
                     {
-                        b: '<16>* \"The new homeworld\'s calling, and it\'s gonna make us...\"',
-                        c: '<16>* \"... super duper rich!\"'
+                        b: '<16>* \"O novo planeta natal está chamando, e vai nos fazer...\"',
+                        c: '<16>* \"... super duper ricas!\"'
                     },
                     {
-                        b: '<16>* \"So, we don\'t, like, even need that shop anymore.\"',
-                        c: '<16>* \"Yeah!!\"\n* \"Take whatever you want!\"'
+                        b: '<16>* \"Então, nós nem precisamos mais da loja.\"',
+                        c: '<16>* \"Isso aí!\"\n* \"Pegue o que quiser!\"'
                     },
                     {
-                        b: '<16>* \"Anyway, these gel pens are running out, so...\"',
-                        c: '<16>* \"That\'s about all we can say.\"'
+                        b: '<16>* \"De qualquer forma, essas canetas de gel estão acabando, então...\"',
+                        c: '<16>* \"Isso é tudo que a gente pode dizer.\"'
                     },
                     {
-                        b: '<16>* \"Not that you\'d care!\"',
+                        b: '<16>* \"Não que você se importe!\"',
                         c: '<16>* \"Nya ha ha!!!\"'
                     },
-                    { b: '<16>* \"Signed,\n  Bratty <3\"', c: '<16>* \"Signed,\n  Catty <3\"' }
+                    { b: '<16>* \"Assinado,\n  Bratty <3\"', c: '<16>* \"Assinado,\n  Catty <3\"' }
                 ]
                 : [
                     ...[
                         [
                             !world.badder_lizard
                                 ? {
-                                    b: '<16>* \"We\'re not gonna stick around while you just...\"',
-                                    c: '<16>* \"... beat everyone up and stuff.\"'
+                                    b: '<16>* \"Nós não vamos ficar por aí enquanto você só...\"',
+                                    c: '<16>* \"... ter espancado todo mundo e tals.\"'
                                 }
                                 : {
-                                    b: '<16>* \"Alphys came through here, and she\'s taking us...\"',
-                                    c: '<16>* \"... somewhere super duper safe!\"'
+                                    b: '<16>* \"Alphys veio aqui e ela está nós levando...\"',
+                                    c: '<16>* \"... pra um lugar super duper seguro!\"'
                                 },
                             {
-                                b: '<16>* \"But first, we gotta use up these gel pens.\"',
+                                b: '<16>* \"Mas primeiro, temos que usar essas canetas de gel.\"',
                                 c: !world.badder_lizard
-                                    ? '<16>* \"Yeah, we don\'t wanna waste pens!\"'
-                                    : '<16>* \"Yeah, chill, Alphys!\"\n* \"We don\'t wanna waste pens!\"'
+                                    ? '<16>* \"Isso aí, não desperdiçamos canetas!\"'
+                                    : '<16>* \"É, espera aí, Alphys!\"\n* \"Nós não podemos desperdiçar canetas!\"'
                             },
                             {
-                                b: '<16>* \"And don\'t even think about stealing our stuff.\"',
-                                c: '<16>* \"Yeah, creep!\"\n* \"Leave our junk alone!\"'
+                                b: '<16>* \"E nem pense em roubar nossas coisas!',
+                                c: '<16>* \"Sim, estranhão!\"\n* \"Deixe nosso lixo em paz!\"'
                             },
                             {
-                                b: '<16>* \"Old second-hand junk, to be specific.\"',
-                                c: '<16>* \"Yeah, our used antique store is CRAZY valuable!\"'
+                                b: '<16>* \"Lixo de segunda mão, pra ser mais específico.\"',
+                                c: '<16>* \"Sim, nossa loja de antiguidades usadas é MUITO valiosa!\"'
                             }
                         ],
                         [
                             {
-                                b: '<16>* \"Mettaton came through here, and he\'s taking everyone...\"',
-                                c: '<16>* \"... somewhere super duper safe!\"'
+                                b: '<16>* \"Mettaton passou por aqui e ele está levando todo mundo...\"',
+                                c: '<16>* \"... pra um lugar super duper seguro!\"'
                             },
-                            { b: '<16>* \"But Alphys...\"', c: '<16>* \"Alphys.\"' },
-                            { b: '<16>* \"She seemed...\"', c: '<16>* \"... super duper pissed.\"' },
+                            { b: '<16>* \"Mas Alphys...\"', c: '<16>* \"Alphys.\"' },
+                            { b: '<16>* \"Ela parece...\"', c: '<16>* \"... super duper irritada.\"' },
                             {
-                                b: '<16>* \"I\'ve never seen her like that before.\"',
-                                c: '<16>* \"I\'ve never seen ANYTHING like that before.\"',
+                                b: '<16>* \"Eu nunca vi ela assim antes.\"',
+                                c: '<16>* \"Eu nunca vi ALGO assim antes.\"',
                                 s: true
                             },
-                            { b: '<16>* \"And Mettaton...\"', c: '<16>* \"... isn\'t very happy either.\"' },
+                            { b: '<16>* \"E o Mettaton...\"', c: '<16>* \"... também não está muito feliz.\"' },
                             {
-                                b: '<16>* \"He says he\'s gonna slap your face.\"',
-                                c: '<16>* \"He says he\'s gonna kick your butt!\"',
+                                b: '<16>* \"Ele disse que vai te dar uma surra.\"',
+                                c: '<16>* \"Ele disse que vai chutar sua bunda!\"',
                                 s: true
                             },
-                            { b: '<16>* \"Or did he say he\'d destroy you...?\"', c: '<16>* \"Uh... I forgot.\"' },
-                            { b: '<16>* \"Well, I\'d be CRAZY afraid if I were you.\"', c: '<16>* \"God, TELL me about it...\"' }
+                            { b: '<16>* \"Ou ele disse que iria te destruir...?\"', c: '<16>* \"Uh... eu esqueci.\"' },
+                            { b: '<16>* \"Bem, eu estaria CHEIA de medo se fosse você.\"', c: '<16>* \"Senhor, ME FALA...!\"' }
                         ]
                     ][Math.max(world.bad_lizard - 2, 0)],
                     {
-                        b: '<16>* \"Anyway, in closing, you\'re a total loser.\"',
-                        c: '<16>* \"Yeah!\"\n* \"Loser!!\"\n* \"Nya ha ha!!!\"'
+                        b: '<16>* \"De toda forma, você é um perdedor.\"',
+                        c: '<16>* \"Isso aí!\"\n* \"Perdedor!!\"\n* \"Nya ha ha!!!\"'
                     },
-                    { b: '<16>* \"Signed,\n  Bratty <3\"', c: '<16>* \"Signed,\n  Catty <3\"', s: true }
+                    { b: '<16>* \"Assinado,\n  Bratty <3\"', c: '<16>* \"Assinado,\n  Catty <3\"', s: true }
                 ])
         ],
         sell1: () =>
             adultEvac()
-                ? ['<30>{#p/human}* (You took 5G from the till.)']
+                ? ['<30>{#p/human}* (Você pegou 5G da tigela.)']
                 : world.meanie
                     ? [
                         {
-                            b: '<16>{#k/2/6}* Um, excuse me?',
-                            c: '<16>{#k/2/6}* Like, what are you doing?'
+                            b: '<16>{#k/2/6}* Hm, licença?',
+                            c: '<16>{#k/2/6}* Tipo, o que você tá fazendo?'
                         },
                         {
-                            b: "<16>{#k/1/0}* We don't hand out stuff for free.",
-                            c: '<16>{#k/1/0}* Yeah, go steal somewhere else!'
+                            b: "<16>{#k/1/0}* Nós vamos damos nossas coisas de graça.",
+                            c: '<16>{#k/1/0}* É, vá roubar em outro lugar!'
                         }
                     ]
                     : SAVE.storage.inventory.has('glamburger') // NO-TRANSLATE
 
                         ? [
                             {
-                                b: '<16>{#k/7/0}* Oh, wow.\n* You actually got one of those new \"Slamburgers.\"',
-                                c: "<16>{#k/2/2}* GIMME GIMME!!\nI'll take your entire stock!!"
+                                b: '<16>{#k/7/0}* Oh, wow.\n* Você realmente tem um daqueles novos \"Slamburgers.\"',
+                                c: "<16>{#k/2/2}* ME DÁ, ME DÁ!!\nEu quero seu estoque inteiro!!"
                             },
                             {
-                                b: '<16>{#k/4/6}* God, Catty.\n* Try to have some self- control.',
-                                c: '<16>{#k/4/4}* Sorry...'
+                                b: '<16>{#k/4/6}* Catty.\n* Se controla!',
+                                c: '<16>{#k/4/4}* Desculpa...'
                             },
                             {
-                                b: "<16>{#k/3/5}* 'Cause they OBVIOUSLY brought that for ME.",
-                                c: '<16>{#k/5/8}* NOOO WAYY!!!'
+                                b: "<16>{#k/3/5}* Porque ele OBVIAMENTE comprou eles pra MIM.",
+                                c: '<16>{#k/5/8}* SEEEM CHANCEEEE!!!'
                             }
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
                                 {
-                                    b: "<16>{#k/0/6}* Thanks, but we, like, don't really need anything.",
+                                    b: "<16>{#k/0/6}* Valeu, mas a gente, não precisa de nada.",
                                     c: ''
                                 },
                                 {
                                     b: '',
-                                    c: "<16>{#k/0/0}* Well, maybe you're right."
+                                    c: "<16>{#k/0/0}* Sim, talvez você esteja certa."
                                 }
                             ]
                             : [
                                 {
-                                    b: "<16>{#k/0/0}* Thanks, but we, like, don't really need anything.",
-                                    c: '<16>{#k/0/8}* Oh my god, can you get us those new \"Slamburgers?\"'
+                                    b: "<16>{#k/0/0}* Valeu, mas, nós, não precisamos de nada.",
+                                    c: '<16>{#k/0/8}* Oh meu senhor, você pode me conseguir um daqueles \"Slamburgers?\"'
                                 },
                                 {
-                                    b: "<16>{#k/2/8}* We don't.\n* Really need.\n* Anything.",
-                                    c: "<16>{#k/1/7}* Wait! I'll pay 1000G if you get Mettaton to autograph my butt!"
+                                    b: "<16>{#k/2/8}* Nós não.\n* Precisamos.\n* De nada.",
+                                    c: "<16>{#k/1/7}* Espera! Eu te pago 1000G se você conseguir fazer o Mettaton autografar minha bunda!"
                                 }
                             ],
         sell2: () =>
             adultEvac()
-                ? ['<30>{#p/basic}* Nothing left.']
+                ? ['<30>{#p/basic}* Nada sobrando.']
                 : world.meanie
                     ? [
                         {
@@ -11342,46 +11342,46 @@ export default {
                             c: '<16>{#k/2/4}* ...'
                         },
                         {
-                            b: "<16>{#k/5/1}* We'd kick you out if this wasn't so silly.",
-                            c: "<16>{#k/5/1}* We'd kick you out if you weren't so cute.",
+                            b: "<16>{#k/5/1}* Nós o expulsaríamos se isso não fosse tão bobo.",
+                            c: "<16>{#k/5/1}* Nós te jogariamos pra fora se você não fosse tão fofo.",
                             s: true
                         }
                     ]
                     : [
                         {
-                            b: '<16>{#k/1/0}* If you really want us to have something...',
-                            c: '<16>{#k/1/2}* ... you could drop it off at the pickup location in Aerialis!'
+                            b: '<16>{#k/1/0}* Se você realmente quer que a gente compre algo...',
+                            c: '<16>{#k/1/2}* ... você tem que jogar lá no local de coleta de Aerialis!'
                         },
                         {
-                            b: '<16>{#k/2/0}* But how would they know where it is?',
-                            c: "<16>{#k/2/4}* OMG you're right... they probably don't..."
+                            b: '<16>{#k/2/0}* Mas como ele vai saber onde é?',
+                            c: "<16>{#k/2/4}* MDS é verdade... ele provavelmente não sabe..."
                         },
                         {
-                            b: "<16>{#k/5/8}* Guess you'll have to find it for yourself!",
-                            c: "<16>* Guess you'll need to look for it yourself!",
+                            b: "<16>{#k/5/8}* Acho que você vai ter que descobrir por conta própria!",
+                            c: "<16>* Acho que você vai ter que procurar por conta própria!",
                             s: true
                         }
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', 'Exit']
+                ? ['Está Tudo Bem', 'O Ser Deus', 'OuterNet Desligou', 'Os Humanos', 'Sair']
                 : [
-                    'About You Two',
-                    SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grand Finale',
-                    ['Area Ownership', '§fill=#ff0§Burgie (NEW)', 'Burgie'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
-                    ['Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', 'Asgore'][
+                    'Sobre Vocês',
+                    SAVE.data.n.plot < 68 ? 'Brechó' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grande Finale',
+                    ['Donas da Área ', '§fill=#ff0§Burgie (NOVO)', 'Burgie'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
+                    ['Alphys', '§fill=#ff0§Cientista Real (NOVO)', '§fill=#ff0§Asgore (NOVO)', 'Asgore'][
                     Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                     ],
-                    'Exit'
+                    'Sair'
                 ],
-        talkPrompt: "<09>{#p/basic}{#k/0/0}{@fill=#ffbbdc}So, like, what's up?",
+        talkPrompt: "<09>{#p/basic}{#k/0/0}{@fill=#ffbbdc}Então, tipo, e aí?",
         talkText: [
             () =>
                 SAVE.data.n.plot === 72
                     ? [
                         {
                             b: '<16>{#k/4/6}* Huh?',
-                            c: '<16>{#k/4/4}* Are we okay?'
+                            c: '<16>{#k/4/4}* Se estamos bem?'
                         },
                         {
                             
@@ -11391,16 +11391,16 @@ export default {
                         },
                         '{*}{#s/meow}{%}',
                         {
-                            b: "<16>{#k/6/8}* Mmm hm hm, you're too cute.",
-                            c: "<16>* Of course we're okay!",
+                            b: "<16>{#k/6/8}* Mmm hm hm, você é tão fofo.",
+                            c: "<16>* Claro que estamos bem!",
                             s: true
                         },
                         '{*}{#k/0/0/1}{%}'
                     ]
                     : [
                         {
-                            b: "<16>{#k/0/0}* I'm Bratty, and this is my best friend, Catty.",
-                            c: "<16>* I'm Catty, and this is my best friend, Bratty.",
+                            b: "<16>{#k/0/0}* Eu sou Bratty, melhor amiga da Catty.",
+                            c: "<16>* Eu sou Catty, melhor amiga da Bratty.",
                             s: true
                         },
                         {
@@ -11421,60 +11421,60 @@ export default {
                 SAVE.data.n.plot === 72
                     ? [
                         {
-                            b: '<16>{#k/0/6}* It was like... woah.',
-                            c: '<16>{#k/0/2}* No it was like... OH MY GOD.'
+                            b: '<16>{#k/0/6}* Foi tipo... uau.',
+                            c: '<16>{#k/0/2}* Não foi tipo... MEU SENHOR.'
                         },
                         {
                             b: '',
-                            c: '<16>{#k/0/1}* And if I ever met them...',
+                            c: '<16>{#k/0/1}* E se eu o encontrasse...',
                             s: true
                         },
                         {
-                            b: "<16>{#k/2/6}* Don't tell me.",
+                            b: "<16>{#k/2/6}* Não me diz.",
                             c: '',
                             s: true
                         },
                         {
-                            b: "<16>{#k/5/8}* You'd totally just hang out them!",
-                            c: "<16>* I'd totally date them!",
+                            b: "<16>{#k/5/8}* Você totalmente sairia com ele!",
+                            c: "<16>* Eu totalmente namoraria ele!",
                             s: true
                         },
                         {
-                            b: '<16>{#k/6/0}* Oh. Right. Of course you would.',
-                            c: "<16>{#k/6/7}* Who WOULDN't want to date a being with godlike powers?"
+                            b: '<16>{#k/6/0}* Ah. Certo. É claro que você iria.',
+                            c: "<16>{#k/6/7}* Quem não gostaria de namorar um ser com um poder comparado ao de um deus?"
                         }
                     ]
                     : SAVE.data.n.plot < 68
                         ? [
                             {
-                                b: "<16>{#k/0/6}* It's like, a second-hand store.",
-                                c: "<16>{#k/0/2}* No it's like, a BARGAIN outlet!"
+                                b: "<16>{#k/0/6}* É tipo, uma loja de segunda mão.",
+                                c: "<16>{#k/0/2}* Não, é como uma loja de bijuterias!"
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/2/9}* And get a load of our GENIUS business model...',
+                                c: '<16>{#k/2/9}* E dá uma olhada mo nosso modelo de negócios GENIAL...',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/0/6}* People send us their old junk...',
+                                b: '<16>{#k/0/6}* As pessoas nos mandam suas tralhas antigas...',
                                 c: '',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/5/8}* ... so we can sell it like new again!',
-                                c: '<16>* ... so we can sell it like new again!',
+                                b: '<16>{#k/5/8}* ... e nós a vendemos como se fossem novas de novo!',
+                                c: '<16>* ... e nós a vendemos como se fossem novas de novo!',
                                 s: true
                             },
                             {
-                                b: "<16>{#k/0/1}* You won't find a shop this sick anywhere else.",
-                                c: "<16>* You won't find stuff like ours anywhere else.",
+                                b: "<16>{#k/0/1}* Você não vai achar uma loja tão top em nenhum outro lugar.",
+                                c: "<16>* Você não vai achar paradas como as nossas em nenhum outro lugar.",
                                 s: true
                             }
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
                                 {
-                                    b: '<16>{#k/4/4}* Mettaton, right?',
+                                    b: '<16>{#k/4/4}* Mettaton, né?',
                                     c: '<16>* Mettaton, huh?',
                                     s: true
                                 },
@@ -11484,36 +11484,36 @@ export default {
                                     s: true
                                 },
                                 {
-                                    b: "<16>{#k/7/5}* We don't really want to talk about him.",
-                                    c: "<16>{#k/7/5}* He's WAY better than you."
+                                    b: "<16>{#k/7/5}* Nós não queremos falar sobre ele.",
+                                    c: "<16>{#k/7/5}* Ele é MUITO melhor do que você."
                                 }
                             ]
                             : [
                                 {
-                                    b: '<16>{#k/1/7}* Of course.',
-                                    c: '<16>* OMG yes!',
+                                    b: '<16>{#k/1/7}* É claro.',
+                                    c: '<16>* MDS SIM!',
                                     s: true
                                 },
                                 {
-                                    b: '<16>{#k/0/0}* You and Mettaton really put on a performance!',
-                                    c: '<16>{#k/0/2}* Yeah, you guys really knocked it outta the park!'
+                                    b: '<16>{#k/0/0}* Você é o Mettaton realmente botaram uma performance incrível!',
+                                    c: '<16>{#k/0/2}* Sim, vocês realmente arrasaram!'
                                 },
                                 {
-                                    b: '<16>{#k/4/6}* I wish I could move like that on stage...',
+                                    b: '<16>{#k/4/6}* Eu queria poder dançar daquele jeito no palco...',
                                     c: '',
                                     s: true
                                 },
                                 {
                                     b: '',
-                                    c: "<16>{#k/0/8}* You wanna see some moves?\n* I've got moves!",
+                                    c: "<16>{#k/0/8}* Então você quer ver movimentos?\n* Eu tenho movimentos!",
                                     s: true
                                 },
                                 {
-                                    b: '<16>{#k/1/8}* I could totally set up a dance off for you guys.',
-                                    c: "<16>{#k/2/7}* You should totally invite the human while you're at it!"
+                                    b: '<16>{#k/1/8}* Eu poderia preparar uma dança para vocês.',
+                                    c: "<16>{#k/2/7}* Você deveria totalmente convidar o humano enquanto faz isso!"
                                 },
                                 {
-                                    b: "<16>{#k/0/0}* ... we'll see.",
+                                    b: "<16>{#k/0/0}* ... veremos.",
                                     c: '',
                                     s: true
                                 }
@@ -11522,77 +11522,77 @@ export default {
                 SAVE.data.n.plot === 72
                     ? [
                         {
-                            b: '<16>{#k/0/6}* Yeah, it uses WAY too much power now.',
-                            c: "<16>{#k/0/5}* The force field was the CORE's main energy source."
+                            b: '<16>{#k/0/6}* Sim, ela usava MUITO poder agora.',
+                            c: "<16>{#k/0/5}* O escudo de força era o centro da energia do CORE."
                         },
                         {
-                            b: '<16>{#k/2/6}* But when we get to the new homeworld...',
-                            c: '<16>* But when we settle into our new home...',
+                            b: '<16>{#k/2/6}* Mas quando chegarmos no novo planeta...',
+                            c: '<16>* Mas quando construirmos uma nova casa...',
                             s: true
                         },
                         {
                             b: '',
-                            c: "<16>{#k/0/1}* We'll be back in business.",
+                            c: "<16>{#k/0/1}* Estaremos de volta aos negócios.",
                             s: true
                         },
                         {
-                            b: '<16>{#k/2/6}* Running a new OuterNet could make us a lot of money...',
+                            b: '<16>{#k/2/6}* Comandar uma nova Outernet pode nos dar bastante dinheiro...',
                             c: '',
                             s: true
                         },
                         {
                             b: '',
-                            c: '<16>{#k/4/0}* We could buy a lifetime supply of Slamburgers!',
+                            c: '<16>{#k/4/0}* Poderíamos comprar um suprimento vitalício de Slamburgers!',
                             s: true
                         },
                         {
-                            b: '<16>{#k/0/6}* Catty.\n* Why is that your priority.',
-                            c: "<16>{#k/0/7}* Why WOULDN'T it be my priority!"
+                            b: '<16>{#k/0/6}* Catty.\n* Por que essa é a sua prioridade.',
+                            c: "<16>{#k/0/7}* Por que essa NÃO seria minha prioridade!"
                         }
                     ]
                     : [
                         [
                             {
-                                b: "<16>{#k/2/1}* Oh yeah, we're technically the owners here.",
-                                c: '<16>* Oh yeah, we practically RULE this zone.', 
+                                b: "<16>{#k/2/1}* É, somos tecnicamente quem manda aqui.",
+                                c: '<16>* Verdade, nós praticamente COMANDAMOS toda essa zona.', 
                                 s: true
                             },
                             ...(SAVE.data.b.killed_mettaton
                                 ? [
                                     {
-                                        b: '<16>{#k/2/6}* So like, originally...',
-                                        c: '<16>* ... yeah?'
+                                        b: '<16>{#k/2/6}* Tipo, originalmente...',
+                                        c: '<16>* ... sim?'
                                     },
                                     {
-                                        b: '<16>{#k/0/5}* Um...\n* Never mind.',
+                                        b: '<16>{#k/0/5}* Um...\n* Esquece...',
                                         c: ''
                                     },
                                     {
                                         b: '',
-                                        c: "<16>{#k/6/8}* Oh, gotcha.\n* Yeah, let's not bring THAT up!"
+                                        c: "<16>{#k/6/8}* Oh, te peguei.\n* É, não vamos falar sobre isso!"
                                     },
                                     {
-                                        b: "<16>{#k/1/0}* Anyway, Burgie's the one who put us in charge.",
-                                        c: "<16>* We haven't questioned it since."
+                                        b: "<16>{#k/1/0}* De toda forma, foi o Burgie que nos colocou no poder.",
+                                        c: "<16>* Nós não questionamos a decisão."
                                     }
                                 ]
                                 : [
                                     {
-                                        b: '<16>{#k/2/1}* So like, originally, Mettaton was in charge here, right?',
-                                        c: '<16>{#k/1/1}* Totally in charge.'
+                                        b: '<16>{#k/2/1}* Então tipo, originalmente, quem estava no controle era o Mettaton, certo?',
+                                        c: '<16>{#k/1/1}* Totalmente no controle.'
                                     },
                                     {
-                                        b: '<16>{#k/2/5}* But then...',
-                                        c: '<16>* Then...'
+                                        b: '<16>{#k/2/5}* Mas então...',
+                                        c: '<16>* Então...'
                                     },
                                     {
-                                        b: '<16>{#k/4/4}* Burgie decided to \"overthrow\" him.',
+                                        b: '<16>{#k/4/4}* Burgie decidiu \"destronar\" ele.',
                                         c: '',
                                         s: true
                                     },
                                     {
                                         b: '',
-                                        c: '<16>{#k/2/4}* By having, like, a really strong word with him or something.',
+                                        c: '<16>{#k/2/4}* Através de uns gritos e chutes nele ou algo do tipo.',
                                         s: true
                                     },
                                     {
@@ -11601,13 +11601,13 @@ export default {
                                         s: true
                                     },
                                     {
-                                        b: '<16>{#k/2/6}* I think he blackmailed him.',
-                                        c: '<16>* I think he had an accomplice.',
+                                        b: '<16>{#k/2/6}* Eu acho que ele o humilhou.',
+                                        c: '<16>* Eu acho que ele tinha um cúmplice.',
                                         s: true
                                     },
                                     {
-                                        b: '<16>{#k/1/0/1}* Anyway, he said we could be the new owners.',
-                                        c: "<16>* We haven't questioned it since."
+                                        b: '<16>{#k/1/0/1}* De toda forma, ele disse que a gente poderia tomar controle.',
+                                        c: "<16>* Nós não questionamos a decisão."
                                     }
                                 ])
                         ],
@@ -11618,67 +11618,67 @@ export default {
                                 s: true
                             },
                             {
-                                b: "<16>{#k/0/5}* Yeah, he's alright.",
-                                c: "<16>* Eh, he's cool.",
+                                b: "<16>{#k/0/5}* Ele é legal.",
+                                c: "<16>* Eh, ele é top.",
                                 s: true
                             },
                             {
-                                b: '<16>{#k/2/6}* He used to act all weird around us, but...',
-                                c: '<16>* ... he kinda keeps to himself now.'
+                                b: '<16>{#k/2/6}* Ele costumava agir estranho perto da gente, mas...',
+                                c: '<16>* ... ele fica bem na dele agora.'
                             },
                             {
-                                b: '<16>{#k/0/5}* Like, the last time we heard from him...',
+                                b: '<16>{#k/0/5}* Tipo, da última vez que ouvimos falar sobre ele...',
                                 c: '',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/0/5}* He said he was \"done chasing fantasies\" or something.',
-                                c: '<16>* He said he was \"done seeking love\" or whatever.',
+                                b: '<16>{#k/0/5}* Ele disse que estava \"cansado de perseguir fantasias\" ou algo assim.',
+                                c: '<16>* Ele disse que estava \"cansado de buscar o amor\" ou algo assim.',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/2/6}* Kinda sounds like...',
-                                c: '<16>* Sorta feels like...',
+                                b: '<16>{#k/2/6}* Parece meio que...',
+                                c: '<16>* Eu sinto que...',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/5/8}* He TOTALLY saw us as a fantasy.',
-                                c: '<16>* He DEFINITELY had a crush on us.',
-                                s: true
-                            },
-                            {
-                                b: '',
-                                c: '<16>{#k/4/5}* Too bad he never asked us out, huh?',
-                                s: true
-                            },
-                            {
-                                b: '<16>{#k/2/5}* Catty, we would have said no.',
-                                c: '',
+                                b: '<16>{#k/5/8}* Ele TOTALMENTE fantasiava com a gente.',
+                                c: '<16>* Ele DEFINITIVAMENTE tinha um crush na gente.',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/2/1}* ... or would we have said yes?',
+                                c: '<16>{#k/4/5}* Triste que ele nunca tenha nos chamado pra sair, né?',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/4/1}* No.',
+                                b: '<16>{#k/2/5}* Catty, nós teríamos dito não.',
                                 c: '',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/4/8}* Yes.',
+                                c: '<16>{#k/2/1}* ... ou nós teríamos dito sim?',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/1/8}* No.',
+                                b: '<16>{#k/4/1}* Não.',
                                 c: '',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/1/7}* YES!',
+                                c: '<16>{#k/4/8}* Sim.',
+                                s: true
+                            },
+                            {
+                                b: '<16>{#k/1/8}* Não.',
+                                c: '',
+                                s: true
+                            },
+                            {
+                                b: '',
+                                c: '<16>{#k/1/7}* SIM!',
                                 s: true
                             },
                             {
@@ -11687,20 +11687,20 @@ export default {
                                 s: true
                             },
                             {
-                                b: "<16>{#k/5/6}* Catty, don't you have ANY standards?",
+                                b: "<16>{#k/5/6}* Catty, você não tem valores?",
                                 c: '',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/5/8}* Nope!!!',
+                                c: '<16>{#k/5/8}* Nããoo!!!',
                                 s: true
                             }
                         ],
                         [
                             {
-                                b: "<16>{#k/0/0}* There's not much more to say about Burgie, but-",
-                                c: '<16>{#k/0/8}* ... no, wait!\n* Can you go ask him to make us some food?'
+                                b: "<16>{#k/0/0}* Não tem muito mais o que dizer sobre Burgie, mas-",
+                                c: '<16>{#k/0/8}* ... Não, espera!\n* Você pode pedir a ele para nos fazer um pouco de comida?'
                             },
                             {
                                 b: '<16>{#k/4/8}* Catty!',
@@ -11709,7 +11709,7 @@ export default {
                             },
                             {
                                 b: '',
-                                c: "<16>{#k/4/1}* What?\n* You know I'd take it from a bad boy like him any day.",
+                                c: "<16>{#k/4/1}* Que?\n* Você sabe que eu aceitaria de um garotão daqueles qualquer dia.",
                                 s: true
                             },
                             {
@@ -11719,7 +11719,7 @@ export default {
                             },
                             '{*}{#s/meow}{%}',
                             {
-                                b: '<16>{#k/2/8}* You did not just say that out loud.',
+                                b: '<16>{#k/2/8}* Você não disse isso em voz alta.',
                                 c: '<16>* Mee-YOW!',
                                 s: true
                             },
@@ -11730,157 +11730,157 @@ export default {
                 SAVE.data.n.plot === 72
                     ? [
                         {
-                            b: '<16>{#k/2/0}* The humans?',
+                            b: '<16>{#k/2/0}* Os humanos?',
                             c: '',
                             s: true
                         },
                         {
                             b: '',
-                            c: '<16>{#k/0/0}* Oh yeah, Alphys totally had us adopt one.',
+                            c: '<16>{#k/0/0}* É, Alphys disse pra gente adotar um.',
                             s: true
                         },
                         {
-                            b: "<16>{#k/2/5}* I mean, they're kind of asleep right now, but...",
+                            b: "<16>{#k/2/5}* Quer dizer, ele meio que tá dormindo agora, mas...",
                             c: '',
                             s: true
                         },
                         {
                             b: '',
-                            c: "<16>{#k/7/5}* ... they'll wake up eventually.",
+                            c: "<16>{#k/7/5}* ... logo ele vai acordar.",
                             s: true
                         },
                         {
-                            b: '<16>{#k/2/6}* I wonder what they\'ll have to say about that \"archive\" thing...',
-                            c: '<16>{#k/2/6}* Yeah, THAT thing...'
+                            b: '<16>{#k/2/6}* Eu me pergunto o que eles terão a dizer sobre essa coisa de \"arquivo...\"',
+                            c: '<16>{#k/2/6}* Pois é, AQUELA coisa...'
                         },
                         {
                             b: '',
-                            c: "<16>{#k/2/4}* Isn't that where Asgore was keeping ALL the humans?",
+                            c: "<16>{#k/2/4}* Não era onde o Asgore estava mantendo TODOS os humanos?",
                             s: true
                         },
                         {
-                            b: '<16>{#k/0/0}* How can you keep a secret like that.',
-                            c: '<16>* How was that even POSSIBLE!',
+                            b: '<16>{#k/0/0}* Como alguém consegue manter um segredo assim.',
+                            c: '<16>* Como isso é sequer POSSÍVEL!',
                             s: true
                         }
                     ]
                     : [
                         [
-                            { b: '<16>{#k/4/4}* Oh my god.\n* Alphys.', c: '<16>* Oh my god, ALPHYS.', s: true },
+                            { b: '<16>{#k/4/4}* Oh meu senhor.\n* Alphys.', c: '<16>* Oh meu senhor, ALPHYS.', s: true },
                             {
-                                b: '<16>{#k/5/8}* She used to live in our housing spire!',
-                                c: '<16>* She was like a big sister!',
+                                b: '<16>{#k/5/8}* Ela morava em nossa torre de habitação!',
+                                c: '<16>* Ela era como uma irmã mais velha!',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/2/6}* I mean, like, if your big sister...',
-                                c: '<16>{#k/2/2}* ... takes you on rip- roaring interstellar trash hunts!'
+                                b: '<16>{#k/2/6}* Quer dizer, tipo, se sua irmã mais velha...',
+                                c: '<16>{#k/2/2}* ... leva você a caças de lixo interestelares estrondosas!'
                             },
                             {
-                                b: '<16>{#k/0/0}* She showed us the coolest ways to find stuff.',
-                                c: '<16>* She built up a WICKED sci-fi collection.',
+                                b: '<16>{#k/0/0}* Ela nos mostrou o jeito mais legal de encontrar paradas.',
+                                c: '<16>* Ela construiu uma coleção de ficção científica WICKED.',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/2/4}* Then she became the royal scientist...',
+                                b: '<16>{#k/2/4}* Então ela se tornou a cientista real...',
                                 c: '',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: "<16>{#k/0/5}* ... she doesn't really have time for trash-hunting anymore.",
+                                c: "<16>{#k/0/5}* ... ela não tem mais tempo para caçar lixo.",
                                 s: true
                             }
                         ],
                         [
                             {
-                                b: '<16>{#k/0/6}* So Alphys has always been, like...',
-                                c: '<16>{#k/0/0}* ... super duper smart.'
+                                b: '<16>{#k/0/6}* Então, Alphys sempre foi, tipo...',
+                                c: '<16>{#k/0/0}* ... super duper esperta.'
                             },
-                            { b: '<16>{#k/2/4}* Like...', c: '<16>* UNNATURALLY smart.' },
+                            { b: '<16>{#k/2/4}* Tipo...', c: '<16>* ELA É NATURALMENTE SUPER INTELIGENTE.' },
                             {
-                                b: '<16>{#k/0/0}* Like, she can calculate a derivative in her head...',
-                                c: '<16>{#k/0/2}* ... in five seconds FLAT!'
+                                b: '<16>{#k/0/0}* Tipo, ela pode calcular uma derivada de cabeça...',
+                                c: '<16>{#k/0/2}* ... em cinco míseros segundos!'
                             },
                             {
-                                b: "<16>{#k/0/0}* It's MEGA impressive and all...",
+                                b: "<16>{#k/0/0}* É MEGA impressionante e tudo...",
                                 c: '',
                                 s: true
                             },
                             {
-                                b: '<16>{#k/2/5}* ... but as a result, she struggles with her impulses sometimes.',
+                                b: '<16>{#k/2/5}* ... Mas, como resultado, ela luta com seus impulsos às vezes.',
                                 c: '',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/1/6}* I remember that time she called in half the Royal Guard...',
+                                c: '<16>{#k/1/6}* Lembro-me daquela vez que ela chamou metade da Guarda Real...',
                                 s: true
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/5/4}* ... when she thought she saw some \"interesting trash.\"',
+                                c: '<16>{#k/5/4}* ... quando ela pensou ter visto algum \"lixo interessante.\"',
                                 s: true
                             },
                             {
-                                b: "<16>{#k/2/6}* It's like...",
-                                c: "<16>* She doesn't process things the way most people do."
+                                b: "<16>{#k/2/6}* É tipo...",
+                                c: "<16>* Ela não processa as coisas da mesma forma que a maioria faz."
                             },
                             {
-                                b: "<16>{#k/5/8}* But we love her for that, don't we?",
-                                c: "<16>* But we still think she's A-MAZ-ING!",
+                                b: "<16>{#k/5/8}* Mas nós amamos ela por isso, não é?",
+                                c: "<16>* Mas ainda achamos que ela é MA-RA-VI-LHO-SA!",
                                 s: true
                             },
                             {
-                                b: '<16>{#k/4/0}* So like... OBVIOUSLY Asgore made her the royal scientist.',
-                                c: '<16>{#k/0/2}* Oh, for sure!'
+                                b: '<16>{#k/4/0}* Então tipo... OBVIAMENTE o Asgore a fez cientista real.',
+                                c: '<16>{#k/0/2}* Oh, claro!'
                             }
                         ],
                         [
                             {
-                                b: '<16>{#k/0/0}* Oh right, THAT goofy goober.',
-                                c: '<17>{#k/0/8}* Oh yeah, THAT furry fuzzball!',
+                                b: '<16>{#k/0/0}* Ah, certo, AQUELE gordinho pateta.',
+                                c: '<17>{#k/0/8}* Oh sim, AQUELA bola peluda!',
                                 s: true
                             },
                             {
-                                b: "<16>{#k/2/0}* So like, here's the thing about Asgore...",
-                                c: "<16>* ... he's one of the NICEST guys you'll ever meet."
+                                b: "<16>{#k/2/0}* Então tipo, essa é a coisa com o Asgore...",
+                                c: "<16>* ... ele é um dos caras mais LEGAIS que você vai conhecer."
                             },
                             ...[
                                 [
                                     {
-                                        b: '<16>{#k/2/0}* But, at the same time...',
-                                        c: '<16>{#k/2/4}* ... the stuff everyone wants him to do...'
+                                        b: '<16>{#k/2/0}* Mas, ao mesmo tempo...',
+                                        c: '<16>{#k/2/4}* ... as coisas que todo mundo quer que ele faça...'
                                     },
                                     {
-                                        b: "<16>{#k/4/5}* ... it's kind of gross.",
-                                        c: "<16>* ... it's just plain awful.",
+                                        b: "<16>{#k/4/5}* ... são nojentas.",
+                                        c: "<16>* ... é simplesmente horrível.",
                                         s: true
                                     },
                                     {
-                                        b: '<16>{#k/2/6}* I heard Undyne lobbied to expand the Royal Guard.',
-                                        c: "<16>{#k/2/6}* Yeah, didn't Asgore, like, not even want one to begin with?"
+                                        b: '<16>{#k/2/6}* Ouvi dizer que Undyne fez um chamado para expandir a Guarda Real.',
+                                        c: "<16>{#k/2/6}* Sim, Asgore, tipo, nem queria uma para começar?"
                                     }
                                 ],
                                 [
                                     {
-                                        b: '<16>{#k/2/0}* But, at the same time...',
-                                        c: "<16>{#k/2/4}* ... the stuff you've been up to out there..."
+                                        b: '<16>{#k/2/0}* Mas, ao mesmo tempo...',
+                                        c: "<16>{#k/2/4}* ... as coisas que você tem feito lá fora..."
                                     },
                                     {
-                                        b: "<16>{#k/4/5}* ... well, it's making his job a little tougher.",
-                                        c: "<16>* ... well, it's making his life a little harder.",
+                                        b: "<16>{#k/4/5}* ... bem, isso está tornando seu trabalho um pouco mais difícil.",
+                                        c: "<16>* ... bem, está tornando a vida dele um pouco mais difícil.",
                                         s: true
                                     },
                                     {
-                                        b: '<16>{#k/2/6}* Like...',
-                                        c: "<16>{#k/2/6}* ... maybe try NOT to kill anyone else, y'know?"
+                                        b: '<16>{#k/2/6}* Tipo...',
+                                        c: "<16>{#k/2/6}* ... talvez, tente NÃO matar mais ninguém, beleza?"
                                     }
                                 ]
                             ][world.bad_lizard],
                             {
-                                b: '<16>{#k/3/6}* Gosh.\n* I really wanna give him a hug right now.',
-                                c: '<16>{#k/3/2}* Yeah, we should TOTALLY squeeze the life outta him later!'
+                                b: '<16>{#k/3/6}* Senhor.\n* Eu realmente queria abraçar ele agora.',
+                                c: '<16>{#k/3/2}* Sim, devemos TOTALMENTE espremer a vida dele mais tarde!'
                             },
                             {
                                 b: '<16>{#k/4/5/0}* ...',
@@ -11889,7 +11889,7 @@ export default {
                             },
                             '{*}{#s/meow}{%}',
                             {
-                                b: '<16>{#k/5/8}* Catty, no!',
+                                b: '<16>{#k/5/8}* Catty, não!',
                                 c: '<16>* Nya ha ha!',
                                 s: true
                             },
@@ -11898,34 +11898,34 @@ export default {
                         [
                             [
                                 {
-                                    b: "<16>{#k/0/0}* Hey, there's no need to be afraid of him.",
+                                    b: "<16>{#k/0/0}* Ei, não tem necessidade de ter medo dele.",
                                     c: '',
                                     s: true
                                 },
                                 {
                                     b: '',
-                                    c: "<16>{#k/0/1}* Yeah, he's WAY too adorable for that.",
+                                    c: "<16>{#k/0/1}* É, ele é muito adorável pra isso.",
                                     s: true
                                 },
                                 {
-                                    b: '<16>{#k/5/1}* Way too adorable!',
+                                    b: '<16>{#k/5/1}* Muito adorável!',
                                     c: '',
                                     s: true
                                 }
                             ],
                             [
                                 {
-                                    b: "<16>{#k/0/0}* Hey, I'm sure he'll understand why you did what you did.",
+                                    b: "<16>{#k/0/0}* Ei, eu tenho certeza que ele vai entender o porquê você fez o que fez.",
                                     c: '',
                                     s: true
                                 },
                                 {
                                     b: '',
-                                    c: "<16>{#k/0/2}* Yeah, he's like, Asgore after all!",
+                                    c: "<16>{#k/0/2}* É, tipo, ele é o Asgore!",
                                     s: true
                                 },
                                 {
-                                    b: "<16>{#k/4/6}* It's basically his job.",
+                                    b: "<16>{#k/4/6}* É basicamente o trabalho dele.",
                                     c: '',
                                     s: true
                                 }
@@ -11938,112 +11938,112 @@ export default {
 
     s_save_aerialis: {
         a_start: {
-            name: 'Aerialis - Lab',
+            name: 'Aerialis - Laboratório ',
             text: () =>
                 SAVE.data.n.plot < 65
-                    ? ['<32>{#p/human}* (The Royal Lab looms ahead, filling you with determination.)']
+                    ? ['<32>{#p/human}* (O Laboratório Real se aproxima, te enchendo de determinação.)']
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (Knowing most of your journey has been recorded from inside the Royal Lab...)',
-                            '<32>* (The thought fills you with determination.)'
+                            '<32>{#p/human}* (Sabendo que a maior parte de sua jornada foi gravada de dentro do Laboratório Real...)',
+                            '<32>* (O pensamento te enche de determinação.)'
                         ]
                         : [
-                            '<32>{#p/human}* (Knowing your every move is being recorded from inside the Royal Lab...)',
-                            '<32>* (The thought fills you with determination.)'
+                            '<32>{#p/human}* (Sabendo que todos os seus movimentos estão sendo gravados de dentro do Laboratório Real...)',
+                            '<32>* (O pensamento te enche de determinação.)'
                         ]
         },
         a_path3: {
-            name: 'Aerialis - Liftway',
-            text: ['<32>{#p/human}* (Hovering from place to place fills you with determination.)']
+            name: 'Aerialis - Levitador',
+            text: ['<32>{#p/human}* (Pairar de um lugar para outro enche você de determinação.)']
         },
         a_elevator1: {
-            name: 'Aerialis - R1 Elevator',
+            name: 'Aerialis - Elevador R1',
             text: () =>
                 SAVE.data.n.plot < 65
-                    ? ['<32>{#p/human}* (Explosion-fueled joyrides fill you with determination.)']
+                    ? ['<32>{#p/human}* (Passeios movidos a explosões te enchem de determinação.)']
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (Despite the fact you might never get to use a jetpack again...)',
-                            "<32>{#p/human}* (The adventures you've had on the outpost as a whole fill you with determination.)"
+                            '<32>{#p/human}* (Apesar do fato de você nunca mais poder usar a mochila ajato de novo...)',
+                            "<32>{#p/human}* (As aventuras que você teve no Outpost como um todo o enchem de determinação.)"
                         ]
                         : [
-                            '<32>{#p/human}* (Despite the fact you might never get to use a jetpack again...)',
-                            "<32>{#p/human}* (The adventures you've had thus far fill you with determination.)"
+                            '<32>{#p/human}* (Apesar do fato de você nunca mais poder usar a mochila ajato de novo...)',
+                            "<32>{#p/human}* (As aventuras que você teve até o momento te enchem de determinação.)"
                         ]
         },
         a_mettaton2: {
-            name: 'Aerialis - Stage Two',
+            name: 'Aerialis - Segundo Palco',
             text: () =>
                 SAVE.data.n.plot < 65
                     ? SAVE.data.b.a_state_hapstablook
                         ? [
-                            '<32>{#p/human}* (Pondering the backstory of a certain TV superstar fills you with determination.)'
+                            '<32>{#p/human}* (Refletir sobre a história de fundo de uma certa estrela da TV, te enche de determinação.)'
                         ]
-                        : ["<32>{#p/human}* (Mettaton's ludicrous hijinks fill you with determination.)"]
+                        : ["<32>{#p/human}* (As travessuras ridículas de Mettaton enchem você de determinação.)"]
                     : SAVE.data.n.plot < 68
-                        ? ['<32>{#p/human}* (Taking a step back before your upcoming performance fills you with determination.)']
+                        ? ['<32>{#p/human}* (Dar um passo para trás antes de sua próxima apresentação o enche de determinação.)']
                         : world.bad_robot
-                            ? ['<32>{#p/human}* (Reflecting on your road to conflict fills you with determination.)']
+                            ? ['<32>{#p/human}* (Refletir sobre seu caminho para o conflito te enche de determinação.)']
                             : SAVE.data.b.killed_mettaton
-                                ? ['<32>{#p/human}* (Reflecting on such an anti- climactic ending fills you with determination.)']
+                                ? ['<32>{#p/human}* (Refletir sobre um final tão anticlimático enche você de determinação.)']
                                 : SAVE.data.b.a_state_hapstablook
-                                    ? ['<32>{#p/human}* (Knowing how far Mettaton has come fills you with determination.)']
-                                    : ['<32>{#p/human}* (Reflecting on your road to superstardom fills you with determination.)']
+                                    ? ['<32>{#p/human}* (Saber o quão longe Mettaton chegou te enche de determinação.)']
+                                    : ['<32>{#p/human}* (Refletir sobre seu caminho para o estrelato o enche de determinação.)']
         },
         a_split: {
-            name: 'Aerialis - Fountain',
+            name: 'Aerialis - Fonte',
             text: () =>
                 SAVE.data.n.plot < 65
                     ? SAVE.data.b.a_state_hapstablook
-                        ? ["<32>{#p/human}* (The anticipation of Mettaton's intervention fills you with determination.)"]
-                        : ['<32>{#p/human}* (This fountain in the middle of nowhere fills you with determination.)']
+                        ? ["<32>{#p/human}* (A antecipação da intervenção do Mettaton o enche de determinação.)"]
+                        : ['<32>{#p/human}* (Essa fonte no meio do nada te enche de determinação.)']
                     : SAVE.data.n.plot < 68
-                        ? ['<32>{#p/human}* (Gazing upon this fountain once again fills you with determination.)']
+                        ? ['<32>{#p/human}* (Olhar para esta fonte mais uma vez o enche de determinação.)']
                         : world.bad_robot || SAVE.data.b.killed_mettaton
                             ? [
-                                '<32>{#p/human}* (The punch in the fountain has turned bitter.)',
-                                '<32>* (This, of course, fills you with determination.)'
+                                '<32>{#p/human}* (O ponche na fonte tornou-se amargo.)',
+                                '<32>* (Isso, é claro, te enche de determinação.)'
                             ]
                             : SAVE.data.b.a_state_hapstablook
                                 ? [
-                                    '<32>{#p/human}* (The punch in the fountain has turned savory.)',
-                                    '<32>* (This, of course, fills you with determination.)'
+                                    '<32>{#p/human}* (O ponche na fonte ficou saboroso.)',
+                                    '<32>* (Isso, é claro, te enche de determinação.)'
                                 ]
                                 : [
-                                    '<32>{#p/human}* (The punch in the fountain tastes the same as before.)',
-                                    '<32>* (This, of course, fills you with determination.)'
+                                    '<32>{#p/human}* (O ponche na fonte tem o mesmo gosto de antes.)',
+                                    '<32>* (Isso, é claro, te enche de determinação.)'
                                 ]
         },
         a_aftershow: {
             name: 'Aerialis - Rec Center',
             text: () =>
                 SAVE.data.b.ubershortcut
-                    ? ['<32>{#p/human}* (Taxi rides to unfamiliar places fill you with determination.)']
+                    ? ['<32>{#p/human}* (O Táxi que leva a lugares desconhecidos te enche de determinação.)']
                     : 68 <= SAVE.data.n.plot
-                        ? ['<32>{#p/human}* (Returning to this corner of corny comforts fills you with determination.)']
+                        ? ['<32>{#p/human}* (Retornar a este canto de confortos cafonas o enche de determinação.)']
                         : SAVE.data.b.a_state_hapstablook
-                            ? ["<32>{#p/human}* (Learning Mettaton's backstory fills you with determination.)"]
-                            : ['<32>{#p/human}* (Over-dramatic musicals fill you with determination.)']
+                            ? ["<32>{#p/human}* (Aprender a história de fundo de Mettaton enche você de determinação.)"]
+                            : ['<32>{#p/human}* (Musicais excessivamente dramáticos te enchem de determinação.)']
         },
         a_core_entry1: {
             name: 'Aerialis - CORE',
-            text: ['<32>{#p/human}* (The cold and computerized aesthetic in this area fills you with determination.)']
+            text: ['<32>{#p/human}* (A estética fria e computadorizada nesta área te enche de determinação.)']
         },
         a_core_checkpoint: {
-            name: 'Aerialis - Maintenance Zone',
+            name: 'Aerialis - Zona de Manutenção',
             text: () =>
                 SAVE.data.b.ubershortcut
-                    ? ['<32>{#p/human}* (The air is calm and peaceful, filling you with determination.)']
+                    ? ['<32>{#p/human}* (O ar está calmo e pacífico, enchendo-o de determinação.)']
                     : SAVE.data.n.plot < 68
-                        ? ["<32>{#p/human}* (The anticipation of Mettaton's grand finale fills you with determination.)"]
+                        ? ["<32>{#p/human}* (A antecipação do grande finale de Mettaton te enche de determinação.)"]
                         : SAVE.data.n.plot === 72
                             ? [
-                                '<32>{#p/human}* (Knowing the CORE will soon run out of power...)',
-                                '<32>{#p/human}* (It fills you with determination.)'
+                                '<32>{#p/human}* (Saber que o CORE logo ficará sem energia...)',
+                                '<32>{#p/human}* (Isso te enche de determinação.)'
                             ]
                             : [
-                                '<32>{#p/human}* (The thought of unnecessarily backtracking to the CORE...)',
-                                '<32>{#p/human}* (It fills you with determination.)'
+                                '<32>{#p/human}* (O pensamento de retroceder desnecessariamente para o CORE...)',
+                                '<32>{#p/human}* (Isso te enche de determinação.)'
                             ]
         }
     }

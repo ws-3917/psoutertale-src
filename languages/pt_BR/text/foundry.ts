@@ -4043,7 +4043,7 @@ export default {
             choicer.create('* (O que você acha?)', 'Sim', 'Não')
         ],
         unddate11a1a: [
-            '‘<25>{#p/undyne}{#f/14}* Sério?\n* Que delícia!\n* Eu aceito!',
+            '<25>{#p/undyne}{#f/14}* Sério?\n* Que delícia!\n* Eu aceito!',
             "<25>{#f/8}* Vamos brincar nos campos da amizade!",
             '<25>{#f/7}* ... NÃO!',
             "<25>{#f/1}* Você é o inimigo dos sonhos e esperanças de todos!",

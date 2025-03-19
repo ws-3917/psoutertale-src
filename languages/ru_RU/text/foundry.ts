@@ -188,7 +188,7 @@ export default {
                         : '<32>{#p/human}* (You focus your mind on the intent to hug.)',
         tome5c: '<32>{#p/human}* (You focus your mind on the intent to kill.)',
         tome5d: '<32>{#p/human}* (You focus your mind on the intent to take gold.)',
-        tome5e: '<32>{#p/basic}* Suddenly...!',
+        tome5e: '<32>{#p/basic}* Внезапно!..',
         tome5f: '\n* (Nothing happens.)',
         astrofood0: () => [
             "<32>{#p/human}* (You can't make out what's in the box...)",
@@ -5481,9 +5481,9 @@ export default {
                 : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                     ? ['<32>{#p/kidding}* This seems kinda weird.']
                     : ['<32>{#p/story}* Smells like a jell-o store.'],
-        act_imitate: ['<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* Suddenly...!'],
-        act_flirt: ['<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* Suddenly...!'],
-        act_slap: ['<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* Suddenly...!']
+        act_imitate: ['<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* Внезапно!..'],
+        act_flirt: ['<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* Внезапно!..'],
+        act_slap: ['<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* Внезапно!..']
     },
     b_opponent_shyren: {
         act_check: ['<32>{#p/story}* SHYREN - ATK 19 DEF 0\n* A prophetic singer, held back by her own shame.'],

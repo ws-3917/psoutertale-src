@@ -514,7 +514,7 @@ export default {
                     text: {
                         basic: 'Stále hledá\npodporovatele',
                         spare: 'Získal kultovní\nnásledovníky',
-                        flirt: '­Výměna polibků\nPro fanoušky',
+                        flirt: 'Výměna polibků\nPro fanoušky',
                         bully: 'Aktivista proti\nŠikaně'
                     }
                 },

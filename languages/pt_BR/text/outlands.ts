@@ -1949,7 +1949,7 @@ export default {
                 '<32>{#s/bark}{#p/event}* Bark!\n* Bark!',
                 '<25>{#p/toriel}{#f/2}* Não, cachorro malvado!',
                 '<32>{#p/basic}* (Choraminga... choraminga...)',
-                '­<25>{#p/toriel}* Pronto, pronto...\n* Eu vou encontrar outro celular pra você.',
+                '<25>{#p/toriel}* Pronto, pronto...\n* Eu vou encontrar outro celular pra você.',
                 '<25>{#f/1}* Tudo bem?',
                 '<32>{#p/basic}* (...)',
                 '<32>{#s/bark}{#p/event}* Bark!',
@@ -2383,7 +2383,7 @@ export default {
                                 "<32>* Meu nome é Silencio... mas eu tenho certeza que você já ouviu falar de mim.",
                                 '<32>* Todo mundo ao redor sabe meu nome, até mesmo aquele DJ.',
                                 '<32>* Uma vez eu fiz minha própria performance musical aqui.',
-                                '\"<32>* \"Silencio, A Grande Fuga,\" é como é chamado.',
+                                '<32>* \"Silencio, A Grande Fuga,\" é como é chamado.',
                                 '<32>* Quando o show acabou, eu sumi antes mesmo da plateia conseguir soltar a respiração.'
                             ]
                             : [

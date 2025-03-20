@@ -4887,7 +4887,7 @@ export default {
         agree: '* Agree',
         alphys: '* Alphys',
         analyze: '* Analyze',
-        annoy: '* Annoy',
+        annoy: '* Дразнить',
         appease: '* Appease',
         approach: '* Approach',
         asgore: '* Asgore',
@@ -5001,7 +5001,7 @@ export default {
         smile: '* Smile',
         someoneelse: '* Someone else',
         spark: '* Spark',
-        stare: '* Stare',
+        stare: '* Уставиться',
         steal: '* Steal',
         storytime: '* Story Time',
         suggest: '* Suggest',
@@ -5229,7 +5229,7 @@ export default {
             ['<08>{#p/basic}{~}\x00*slime sounds*'],
             () =>
                 world.meanie
-                    ? ['<08>{#p/basic}{~}Squorch!']
+                    ? ['<08>{#p/basic}{~}Хлюп хлюп!']
                     : SAVE.data.b.oops && world.flirt > 9
                         ? ['<08>{#p/basic}{~}\x00*erotic wiggle*']
                         : SAVE.data.b.oops
@@ -5239,10 +5239,10 @@ export default {
             ['<08>{#p/basic}{~}\x00*shiny wiggle*']
         ],
         act_check0: ['<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?'],
-        act_check: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* Stereotypical: Curvaceously attractive, but no brains...'],
-        act_check2: ["<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It's even more attractive in this season's colors."],
-        act_check3: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* It\'s exactly your type.\n* It\'s \"stereo.\"'],
-        act_check4: ['<32>{#p/story}* GELATINI - ATK 6 DEF 0\n* This mold supermodel appears to be past its prime.'],
+        act_check: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Красивая, привлекательная, и, конечно же, безмозглая...'],
+        act_check2: ["<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Одета в наряд по последнему писку моды."],
+        act_check3: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Это именно ваш типаж.\n* «Стерео».'],
+        act_check4: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Супермодель на пике своей красоты.'],
         act_flirt: [
             '<32>{#p/human}* (You wiggle your hips.)\n* (Gelatini wiggles back.)',
             '<33>{#p/basic}* What a meaningful conversation!'
@@ -5264,9 +5264,9 @@ export default {
             '<32>{#p/basic}* Gelatini flees the scene!'
         ],
         idleTalk1: ['<08>{#p/basic}{~}Blorb..'],
-        idleTalk2: ['<08>{#p/basic}{~}Squorch..'],
+        idleTalk2: ['<08>{#p/basic}{~}Хлюпанье'],
         idleTalk3: ['<08>{#p/basic}{~}\x00*slime sounds*'],
-        name: '* Gelatini',
+        name: '* Пожелейка',
         perilStatus: () =>
             world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                 ? ["<32>{#p/kidding}* This can't be good..."]
@@ -5293,7 +5293,7 @@ export default {
                 ? ['<32>{#p/asriel2}* Gelatini.']
                 : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                     ? ['<32>{#p/kidding}* I wonder what Gelatinis are actually made of.']
-                    : ['<32>{#p/story}* The aroma of lime gelatin wafts through.'],
+                    : ['<32>{#p/story}* Поле боя пропахло ароматом лаймового желе.'],
         status6: ['<32>{#p/story}* And then, there was one.'],
         status8: () =>
             world.kiddo && SAVE.data.n.state_foundry_muffet !== 1

@@ -162,7 +162,7 @@ export default {
             '<25>{#p/toriel}{#f/10}* I will return to you and the others in due time.'
         ],
         secret1: () => [
-            '<32>{#p/basic}* There is a door here.\n* It is locked.',
+            '<32>{#p/basic}* Здесь находится дверь.\n* Она закрыта.',
             ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Perhaps there's a key somewhere...?"])
         ],
         secret2: ['<32>{#p/human}* (You use the Secret Key.)'],
@@ -509,7 +509,7 @@ export default {
             '<25>{#p/asriel2}{#f/3}* Это место где всё началось.',
             "<25>{#p/asriel2}{#f/4}* «С тех пор много воды утекло, что думаешь, $(name)?»"
         ],
-        noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Разве тут не был манекен...?"],
+        noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* Разве тут не было манекена?.."],
         afrog: {
             a: [
                 '<32>{#p/basic}{#n1}* Скажу тебе по секрету...',
@@ -2007,17 +2007,17 @@ export default {
                 '<32>* Perhaps, my friend, you could even become... a legend.'
             ],
             b: [
-                '<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?',
-                "<32>* Ha!\n* I can tell by the look on your face that you haven't yet.",
-                "<32>* I gotta tell you, it's tons of fun.",
-                "<32>* Your enemies won't know what to do with themselves!",
-                '<32>* Psst... if you DO start flirting, I might have more to tell you.',
-                '<32>* Good luck with that!'
+                '<32>{#p/basic}{#n1}* Эй, человек, ты ещё не пробовал флиртовать?',
+                "<32>* Ха!\n* Я вижу по твоему лицу, что ты ещё не делал этого.",
+                "<32>* На самом деле это очень весело.",
+                "<32>* Твои враги просто не будут знать что с тобой делать!",
+                '<32>* П-с-с... если ты начнёшь флиртовать, возможно, я кое-что тебе расскажу...',
+                '<32>* Удачи тебе!'
             ],
             c: [
-                "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
-                '<32>* How does it feel?',
-                "<32>* It's pretty great, right?",
+                "<32>{#p/basic}{#n1}* Эй, человек, раз уж ты начал флиртовать...",
+                '<32>* Что ты чувствуешь?',
+                "<32>* Скажи что это круто.",
                 "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
                 "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
                 '<32>* I wonder...',
@@ -2025,35 +2025,35 @@ export default {
                 '<32>* Perhaps, my friend, you could even become... a legend.'
             ],
             d: [
-                "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
-                '<32>* Ha!\n* Join the club, pal.',
-                "<32>* You're talking to the number one bully around.",
-                "<32>* As you {@fill=#3f00ff}BULLY{@fill=#fff} different kinds of monsters, you'll see swords next to their names.",
-                "<32>* The more types of monsters you {@fill=#3f00ff}BULLY{@fill=#fff}, the more swords you'll have.",
-                '<32>* Though, as a disclaimer, not ALL monsters can be bullied.',
-                "<32>* It's like flirting... but with death.",
-                '<32>* Fun, right?'
+                "<32>{#p/basic}{#n1}* Я слышал про твои хулиганства.",
+                '<32>* Ха!\n* Добро пожаловать в клуб, парень.',
+                "<32>* Ты разговариваешь с самым главным хулиганом.",
+                "<32>* Когда ты будешь {@fill=#3f00ff}ЗАДИРАТЬ{@fill=#fff} монстров, рядом с их именами будут появлятся мечи.",
+                "<32>* Чем больше монстров ты будешь {@fill=#3f00ff}ЗАДИРАТЬ{@fill=#fff}, тем больше будет мечей.",
+                '<32>* Но, предупреждаю, не всех монстров можно задирать.',
+                "<32>* Это как флирт... но со смертью.",
+                '<32>* Забавно, да?'
             ],
             e: pager.create(
                 0,
                 () => [
                     ...(30 <= SAVE.data.n.bully
                         ? [
-                            "<32>{#p/basic}{#n1}* I heard you're quite the bully around here now.",
-                            "<32>* Everyone's afraid of you, huh?"
+                            "<32>{#p/basic}{#n1}* Я слышал, теперь ты настоящий хулиган.",
+                            "<32>* Отныне все тебя боятся."
                         ]
                         : 20 <= world.flirt
                             ? [
-                                "<32>{#p/basic}{#n1}* I heard you're quite the romantic around here now.",
-                                '<32>* Everyone loves you, huh?'
+                                "<32>{#p/basic}{#n1}* Я слышал, теперь ты настоящий романтик.",
+                                '<32>* Отныне все тебя любят.'
                             ]
                             : [
-                                "<32>{#p/basic}{#n1}* I heard you're quite the hero around here now.",
-                                '<32>* Everyone likes you, huh?'
+                                "<32>{#p/basic}{#n1}* Я слышал, теперь ты настоящий герой.",
+                                '<32>* Отныне все тебя уважают.'
                             ]),
-                    '<32>* Well... personally, I think you have too much free time.'
+                    '<32>* Ну... Я думаю, у тебя слишком много свободного времени.'
                 ],
-                ['<32>{#p/basic}{#n1}* What?\n* Am I wrong?']
+                ['<32>{#p/basic}{#n1}* Что?\n* Я ошибаюсь?']
             )
         },
         manana: {
@@ -2589,29 +2589,29 @@ export default {
                     : SAVE.data.n.plot === 72
                         ? !world.runaway
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
+                                '<32>{#p/human}* (Вы активируете терминал и воспроизводите входящее сообщение.)',
                                 "<32>{#p/alphys}* We're free, everyone!\n* This isn't a joke, the force field's gone!",
                                 "<32>* Seriously, they're shutting down the core in a few days, so it's time to go!",
                                 "<32>* You don't want to die here, do you?"
                             ]
                             : [
-                                '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
+                                '<32>{#p/human}* (Вы активируете терминал и воспроизводите входящее сообщение.)',
                                 "<32>{#p/alphys}* The force field's gone.\n* Calling all citizens for immediate evacuation.",
                                 "<32>* ... I know you're all afraid, but it's going to be okay.",
                                 "<32>* They can't hurt us if we leave them behind."
                             ]
                         : 37.2 <= SAVE.data.n.plot
                             ? [
-                                '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                                "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
+                                '<32>{#p/human}* (Вы активируете терминал и воспроизводите входящее сообщение.)',
+                                "<32>{#p/alphys}* Система охлаждения Литейной была исправлена, благодаря нашим... о-отважным рабочим.",
                                 '<32>* ...',
-                                "<32>* On an unrelated note, we're... l-looking for new workers."
+                                "<32>* Если говорить о другом, то мы... и-ищем новых работников."
                             ]
                             : [
-                                '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                                "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again.",
-                                '<32>* The workers have promised a short turnaround, but things are looking bleak.',
-                                '<32>* Please, i-if anyone out there can help, we need you...'
+                                '<32>{#p/human}* (Вы активируете терминал и воспроизводите входящее сообщение.)',
+                                "<32>{#p/alphys}* В Литейной снова п-проблемы с системой охлаждения",
+                                '<32>* Рабочие пообещали, что скоро все наладится, но пока ситуация остаётся печальной.',
+                                '32>* Пожалуйста, е-если кто то может помочь, сообщите нам...'
                             ]
         },
         torieldanger: {
@@ -2770,7 +2770,7 @@ export default {
             w_candy: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)']
-                    : ['<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone than they seem.\"'],
+                    : ['<32>{#p/basic}* «Обратите внимание, что состояние приборов может быть хуже, чем кажется».'],
             w_djtable: () =>
                 SAVE.data.b.svr
                     ? []
@@ -2782,18 +2782,18 @@ export default {
             w_froggit: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human.)',
-                        '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
-                        "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
-                        '<32>* Ribbit.'
+                        '<32>{#p/basic}* Квак-квак.\n* (Прошу прощения, человек.)',
+                        '<32>* (Похоже, вы выросли мудрой и добросовестной личностью.)',
+                        "<32>* (Неважно, из за моего совета или нет...)\n* (Я всё равно горжусь вами.)",
+                        '<32>* Квак.'
                     ]
                     : [
-                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human...)',
-                        '<32>* (I have some advice for you about battling monsters.)',
-                        '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
-                        '<32>* (They might not want to battle you anymore.)',
-                        '<32>* (If a monster does not want to fight you, please...)',
-                        '<32>* (Use some {@fill=#ff0}MERCY{@fill=#fff}, human.)\n* Ribbit.'
+                        '<32>{#p/basic}* Квак-квак.\n* (Прошу прощения, человек.)',
+                        '<32>* (Я хочу вам дать совет как сражаться с монстрами.)',
+                        '<32>* (Если вы будете {@fill=#ff0}ДЕЙСТВОВАТЬ{@fill=#fff} должным образом, или {@fill=#3f00ff}СРАЖАТЬСЯ{@fill=#fff} до определённого момента...)',
+                        '<32>* (Возможно, они потеряют интерес к битве.)',
+                        '<32>* (Если вы видите, что монстр уже не хочет с вами сражаться, прошу...)',
+                        '<32>* (Используйте {@fill=#ff0}ПОЩАДУ{@fill=#fff}, человек.)\n* Квак.'
                     ],
             w_froggit_view: () =>
                 SAVE.data.b.svr
@@ -2806,8 +2806,8 @@ export default {
                                 '<32>* Tends to be a great way to channel your inner thoughts.'
                             ]
                             : [
-                                "<32>{#p/basic}* It's a view of outer space.",
-                                '<32>* Certainly no shortage of those around here, is there?'
+                                "<32>{#p/basic}* Это вид на открытый космос.",
+                                '<32>* Уж в нём-то точно нет проблем, ведь так?'
                             ],
             w_lobby1: () =>
                 SAVE.data.b.svr
@@ -3837,7 +3837,7 @@ export default {
         looxMigospWhimsun: ["<32>{#p/story}* Это же проблемная троица!"],
         looxMigospWhimsun2: ['<32>{#p/story}* Троица стала дуэтом.'],
         looxMigospWhimsun3: ['<32>{#p/story}* Остаётся только один.'],
-        moldsmalMigosp: ['<32>{#p/story}* Тихоня и компашка представляют себя! ']
+        moldsmalMigosp: ['<32>{#p/story}* Тихоня и компашка заявляют о себе! ']
     },
 
     b_opponent_froggit: {
@@ -3890,7 +3890,7 @@ export default {
         idleText3: ['<08>{#p/basic}{~}Прыг, скок.'],
         idleText4: ['<08>{#p/basic}{~}Мяу.'],
         mercyStatus: ['<32>{#p/story}* Квакушёнок не хочет продолжать битву.'],
-        name: '* Квакушёнок.',
+        name: '* Квакушёнок',
         meanText: ['<08>{#p/basic}{~}(Дрожь, тряска.)\nКвак...'],
         niceText: ['<08>{#p/basic}{~}(Смущён.)\nКвак...'],
         perilStatus: ['<32>{#p/story}* Квакушёнок пытается убежать.'],
@@ -3935,29 +3935,29 @@ export default {
         ],
         act_check3: ['<32>{#p/story}* ЗЕНИЦИЙ - АТК 6 ЗЩТ 6\n* Сей монстр чтит быть в вашем поле зрения.'],
         act_dontpick: [
-            '<32>{#p/human}* (Вы смотрите на зениция.)\n* (Зениций глядит с напряжением.)',
-            "<32>{#p/human}* (Око зениция чрезмерно напряжено, а поэтому...)",
-            '<32>{#p/human}* (... зениций моргает.)'
+            '<32>{#p/human}* (Вы уставились на зениция.)\n* (Зениций уставился в ответ ещё внимательнее.)',
+            "<32>{#p/human}* (Око зениция очень напряжено, и в конце концов...)",
+            '<32>{#p/human}* (...зениций моргнул.)'
         ],
         act_flirt: ['<32>{#p/human}* (Вы заигрываете с зеницием.)'],
-        act_pick: ['<32>{#p/human}* (Вы грубо отчитываете зениция за то, что он пялится на других.)'],
+        act_pick: ['<32>{#p/human}* (Вы строго отчитываете зениция за то, что он пялится на других.)'],
         checkTalk1: ['<08>{#p/basic}{~}Как ты смеешь глазеть?'],
         dontDeny1: ['<08>{#p/basic}{~}Смотри кто передумал.'],
         dontTalk1: ['<99>{#p/basic}{~}Этот\nвзгляд\nсилён.'],
         flirtDeny1: ['<08>{#p/basic}{~}Как смело с твоей стороны.'],
         flirtTalk1: ['<08>{#p/basic}{~}Что? Не-неправда!'],
         hurtStatus: ['<32>{#p/story}* Зениций слезится.'],
-        idleTalk1: ["<08>{#p/basic}{~}Я не свожу с тебя глаз."],
+        idleTalk1: ["<08>{#p/basic}{~}Глаз с тебя не спущу."],
         idleTalk2: ["<08>{#p/basic}{~}Не учи меня как жить."],
         idleTalk3: ['<08>{#p/basic}{~}Взор призору подобен.'],
         idleTalk4: ['<08>{#p/basic}{~}Что за песчинка в глазу.'],
         idleTalk5: ['<08>{#p/basic}{~}Что насчёт гляделок?'],
         name: '* Зениций',
-        pickTalk1: ['<08>{#p/basic}{~}Как ты смеешь усомниться в наших взглядах на жизнь!'],
+        pickTalk1: ['<08>{#p/basic}{~}Как ты смеешь осуждать наш образ жизни?!'],
         spareStatus: ["<32>{#p/story}* Зениция больше не волнует битва."],
         status1: ['<32>{#p/story}* Пара глаз встречает вас!'],
         status2: ['<32>{#p/story}* Зениций взирает сквозь вас.'],
-        status3: ['<32>{#p/story}* Зениций скрежечет зубами.'],
+        status3: ['<32>{#p/story}* Зениций скрежещет зубами.'],
         status4: ['<32>{#p/story}* Пахнет слезами.'],
         status5: ['<32>{#p/story}* Зениций налился кровью.'],
         status6: ['<32>{#p/story}* Зениций пристально смотрит на вас.'],
@@ -3973,7 +3973,7 @@ export default {
         groupInsult: ["<32>{#p/human}* (Вы попытались оскорбить тихоню, но он слишком сосредаточен на других.)"],
         groupStatus1: ['<32>{#p/story}* Тихоня шепчет что-то собратьям.'],
         groupStatus2: ["<32>{#p/story}* Пахнет как ловушка для тараканов."],
-        groupTalk1: ['<08>{#p/basic}МЕРЗКИЙ ВОЛЬНОДУМЕЦ\n..'],
+        groupTalk1: ['<08>{#p/basic}МЕРЗКИЙ ЭГОИСТ..'],
         groupTalk2: ['<08>{#p/basic}ПОДЧИНИСЬ СВЕРХРАЗУМУ\n..'],
         groupTalk3: ['<08>{#p/basic}ЛЕГИОН! ИМЯ НАМ — ЛЕГИОН!'],
         groupTalk4: ['<08>{#p/basic}ПРИСЛУШАЙСЯ К РОЮ\n..'],
@@ -5383,7 +5383,7 @@ export default {
                             '<32>{#p/human}* (ОЗ полностью восстановлены.)'
                         ]
                         : [
-                            '<32>{#p/human}* (Вид дивных и диковинных существ наполняет тебя решимостью.)',
+                            '<32>{#p/human}* (Вид дивных и диковинных существ наполняет вас решимостью.)',
                             '<32>{#p/human}* (ОЗ полностью восстановлены.)'
                         ]
         },

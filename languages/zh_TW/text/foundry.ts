@@ -505,7 +505,7 @@ export default {
                             ? ['<32>* 喔...\n* 嘿......', '<32>* 我只是回來看看蝸牛......']
                             : 60 <= SAVE.data.n.plot
                                 ? [
-                                    "<32>{#p/napstablook}* 我有個夢想就是成為mettaton節目\n  中的一名嘉賓，今天它成真了...",
+                                    "<32>{#p/napstablook}* 我有個夢想，\n  就是成為mettaton節目嘉賓。\n* 今天，終於夢想成真...",
                                     "<32>* 如果還有機會，\n  我想再去一次"
                                 ]
                                 : 49 <= SAVE.data.n.plot
@@ -1572,17 +1572,17 @@ export default {
                                 ? ['<32>{#p/basic}{#npc/a}* 你最好別回來了。']
                                 : SAVE.data.n.state_foundry_undyne === 1
                                     ? [
-                                        '<32>{#p/basic}{#npc/a}* 我感覺到\n  附近的氣氛受到了幹擾...',
+                                        '<32>{#p/basic}{#npc/a}* 我的傳感器表明，\n  附近的空氣不太正常...',
                                         "<32>* 你真不該把\n  那個女孩單獨留在那。"
                                     ]
                                     : SAVE.data.n.state_foundry_undyne === 2
                                         ? [
-                                            '<32>{#p/basic}{#npc/a}* 我感覺到\n  附近的氣氛受到了幹擾...',
+                                            '<32>{#p/basic}{#npc/a}* 我的傳感器表明，\n  附近的空氣不太正常...',
                                             '<32>* 你真應該讓\n  那個女孩一個人待著。'
                                         ]
                                         : 2 <= SAVE.data.n.plot_date
                                             ? [
-                                                '<32>{#p/basic}{#npc/a}* 我感覺到\n  附近的氣氛受到了幹擾...',
+                                                '<32>{#p/basic}{#npc/a}* 我的傳感器表明，\n  附近的空氣不太正常...',
                                                 '<32>* 我覺得你會\n  和我的新鄰居相處得很好的。'
                                             ]
                                             : SAVE.data.n.plot > 47.2 && SAVE.data.n.plot_date > 1
@@ -1765,7 +1765,7 @@ export default {
                         '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
                         "<32>{#p/basic}* （嗯，故事確實不假。）\n* （看到那一幕時，我們大夥想要\n  同心協力，擊敗那顆星星。）",
                         "<32>* （但卵用沒有，\n  反而我們大夥的靈魂\n  全被他吸收了。）",
-                        "<32>* 那一定是那道我無法掙脫\n  的亮光出現的原因。",
+                        "<32>* 那一定是那道\n  我無法掙脫的亮光\n  出現的原因。",
                         "<32>* （對，它在光源處更亮。）\n* （我們連掙脫的機會都沒有。）",
                         '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                     ]
@@ -2175,7 +2175,7 @@ export default {
                                 ? '<32>{#p/basic}* 那個人類要對在星港的死難負責。\n* 我絕不會心慈手軟！'
                                 : world.dead_canine
                                     ? "<32>{#p/basic}* 朋友的生命親手葬送在敵人手裡。\n* 我絕不會心慈手軟！"
-                                    : '<32>{#p/basic}* 我為這個時刻\n  準備了很久。\n* 我不會猶豫了！',
+                                    : '<32>{#p/basic}* 為了這次機會，\n  我準備了很久。\n* 我不會再猶豫了！',
                             "<32>{#p/undyne}* 好！！去讓那個人類見識一下\n  特戰隊的實力吧！！",
                             '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                         ]
@@ -2764,7 +2764,7 @@ export default {
                 ],
         spookydate0x: pager.create(
             0,
-            ['<25>{#p/sans}* 嘿，我對你剛才做\n  的事表示尊敬。', '<25>{#f/3}* 謝謝你。'],
+            ['<25>{#p/sans}* 嘿，我對你剛才做的事\n  表示尊敬。', '<25>{#f/3}* 謝謝你。'],
             ['<25>{#p/sans}{#f/2}* 堅持下去，\n  興許我可以帶你去吃晚餐。']
         ),
         spookydate0y: [
@@ -3068,7 +3068,7 @@ export default {
                         ],
                         [
                             '<32>{#p/finalghost}* ...多令人沮喪。',
-                            '<32>* 在這麼長時間的無生命\n  的幸福中，被迫搬家...',
+                            '<32>* 在這裡面待了這麼久，\n  多舒服啊...\n* 結果現在要被迫搬家...',
                             '<32>* 實在是令人不快。'
                         ],
                         [
@@ -3092,7 +3092,7 @@ export default {
                 0,
                 [
                     '<32>{#p/basic}* 確實如此，當一個憤怒的人偶\n  時間一長就無聊了。',
-                    '<32>* 因此我讓Alphys幫我製作\n  一個她最愛的喵喵玩偶\n  的複製品喵。',
+                    '<32>* 因此我讓Alphys幫我製作一個\n  她最愛的喵喵玩偶複製品喵。',
                     '<32>* 哇喔。\n* 哇喔！\n* 哇喔！！',
                     "<32>* 我從來都沒這麼開心過。"
                 ],
@@ -3179,7 +3179,7 @@ export default {
                     ],
             f_doge1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* （牌子上詳細說明了\n  人類與怪物靈魂之間\n  的力量差距。）']
+                    ? ['<32>{#p/human}* （牌子上詳細說明了\n  人類與怪物靈魂之間的\n  力量差距。）']
                     : [
                         '<32>{#p/basic}* 「人類為什麼要進攻？」\n* 「誠然，他們似乎無所畏懼。」',
                         '<32>* 「人類非常強大。\n   所有怪物的靈魂加起來...」',
@@ -3283,7 +3283,7 @@ export default {
                     ],
             f_path3: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* （看來這牌子上\n  的內容可以說大錯特錯。）']
+                    ? ['<32>{#p/human}* （看來，這牌子上寫的東西\n  已經錯得離譜了。）']
                     : [
                         '<32>{#p/basic}* 「但這片詛咒之地\n   遠在主星系外圍。」',
                         '<32>* 「指望人類找到我們，\n   簡直就是天方夜譚。」',
@@ -3489,7 +3489,7 @@ export default {
                                                     ? [
                                                         '<32>{#p/basic}* 所以。\n* 所以！\n* 所-以！',
                                                         "<32>* 你現在是電視明星了，\n  是吧？",
-                                                        '<32>* 是啊，Mettaton經常能對人\n  產生這樣的影響。'
+                                                        '<32>* 是啊，Mettaton經常能對別人\n  產生這樣的影響。'
                                                     ]
                                                     : SAVE.data.n.plot === 47.2
                                                         ? ['<32>{#p/basic}* 準備好了嗎，\n  她要來了！！']
@@ -3567,7 +3567,7 @@ export default {
                         ],
                         [
                             '<25>{#p/asriel1}{#f/13}* 對。\n* 這是一張幽靈床，Frisk。',
-                            '<25>{#f/13}* 比起... 不是幽靈 \n  的傢伙們，\n  幽靈有不同種類的需求。',
+                            '<25>{#f/13}* 比起不是幽靈的傢伙們...\n  幽靈有不同種類的需求。',
                             "<25>{#f/13}* 我說的不只是\n  它們的睡眠安排。"
                         ],
                         [
@@ -3576,7 +3576,7 @@ export default {
                             "<25>{#f/15}* 就像它們從不會\n  沉迷於現在，而是去展望\n  自己的將來。",
                             
                             "<25>{#f/17}* 仔細一想，也許這就是\n  Mettaton喜歡電視的原因。",
-                            '<25>{#f/16}* 在電視上通過\n  演「講來」獲取巨大的名氣\n  幾乎就是他的最終目標...'
+                            '<25>{#f/16}* 在電視上通過\n  「演講」來獲取巨大的名氣\n  幾乎就是他的最終目標...'
                         ],
                         ['<26>{#p/asriel1}{#f/20}* Mettaton和他的電視節目，\n  我說的對吧？']
                     ][Math.min(asrielinter.hapstabed++, 3)]
@@ -3798,12 +3798,12 @@ export default {
                     '<25>{#f/1}* 很厲害吧？',
                     SAVE.data.b.oops
                         ? '<32>{#p/basic}* 裡面有幾盤預熱好的\n  義大利麵。'
-                        : '<32>{#p/basic}* 在家裡，一臺電熱冰箱\n  就能創造奇蹟。'
+                        : '<32>{#p/basic}* 在家裡，一臺熱的電冰箱\n  就能創造奇蹟。'
                 ],
                 () => [
                     SAVE.data.b.oops
                         ? '<32>{#p/basic}* 裡面有幾盤預熱好的\n  義大利麵。'
-                        : '<32>{#p/basic}* 在家裡，一臺電熱冰箱\n  就能創造奇蹟。'
+                        : '<32>{#p/basic}* 在家裡，一臺熱的電冰箱\n  就能創造奇蹟。'
                 ]
             ),
             k_otherdrawer: pager.create(
@@ -4821,7 +4821,7 @@ export default {
                     "<25>{#f/5}* 我將贏得\n  我們應得的自由！",
                     '<25>{#f/16}* 但如果，\n  你設法擊敗了我...',
                     "<25>{#f/9}* 我就讓你通過這裡。",
-                    '<25>{#f/8}* ...除非你\n  的力量強大到\n  真的足夠擊敗我！！！',
+                    '<25>{#f/8}* ...除非你的力量強大到\n  真的足夠擊敗我！！！',
                     "<25>{#f/1}* 當你準備好就\n  上前迎戰吧！\n* 呋呼呼呼！"
                 ]
                 : [
@@ -5238,7 +5238,7 @@ export default {
         moldsmalMoldbygg1: () =>
             world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                 ? ['<32>{#p/kidding}* 呃啊，霉臭味！']
-                : ["<32>{#p/story}* 現在是黏黏節！"],
+                : ["<32>{#p/story}* 這裡在慶祝黏黏節！"],
         moldsmalMoldbygg2a: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* 只剩一個了。']
@@ -5301,7 +5301,7 @@ export default {
             '<32>{#p/story}* SKRUBBINGTON - 攻擊18 防禦5\n* 距離當上未來的潔淨怪物\n  只有一爪之遙。'
         ],
         act_check4: [
-            "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* 這個卑微的細菌恐懼症患者\n  的愛情故事像肥皂一樣。"
+            "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* 這個卑微的細菌恐懼症患者\n  擁有肥皂劇一樣的愛情故事。"
         ],
         name: '* Skrubbington',
         status1: () =>
@@ -5694,7 +5694,7 @@ export default {
         act_praise_bullied: ['<32>{#p/human}* （你告訴Radtile他的傷疤\n  讓他看起來更剛毅。）'],
         complimentTalk1: ["<08>{#p/basic}{~}你真的在\n看嗎？"],
         complimentTalk2: ['<08>{#p/basic}{~}先查看，\n再發表\n意見。'],
-        complimentTalk3: ['<08>{#p/basic}{~}先看\n後告訴，\n照這個\n順序。'],
+        complimentTalk3: ['<08>{#p/basic}{~}先查看一下，\n再發表意見。\n照這個順序\n來做。'],
         complimentPostInsultTalk1: ["<08>{#p/basic}{~}反正你是\n騙子。"],
         complimentPostInsultStatus: () =>
             world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
@@ -5990,7 +5990,7 @@ export default {
                     ]
                     : world.dead_canine
                         ? [
-                            "<11>{#p/basic}{~}Canis Minor是\nCanis Major\n的直系下屬。",
+                            "<11>{#p/basic}{~}Canis Minor是\nCanis Major的\n直系下屬。",
                             '<11>{#p/basic}{~}它獨特的觀察\n方式幫了很\n多忙...',
                             '<11>{#p/basic}{~}即使這種行為\n常常被大家\n誤解。'
                         ]
@@ -6302,7 +6302,7 @@ export default {
                 ]
                 : battler.volatile[0].vars.counter
                     ? [
-                        '<11>{#p/basic}{~}我的\n蜘蛛同伴們\n的安全\n需要\n得到保障...',
+                        '<11>{#p/basic}{~}我絕不能\n讓同伴們\n出事...',
                         "<11>{#p/basic}{~}我可不能\n讓它們\n置於險地，\n不是嗎？\n啊呼呼呼..."
                     ]
                     : [
@@ -6556,7 +6556,7 @@ export default {
                 ? SAVE.data.n.hp < 6
                     ? [
                         '<20>{#p/undyne}{#e/undyne/33}太難了？\n切。',
-                        "<20>{#p/undyne}{#e/undyne/2}你該在你仍有機會\n的時候想到這個的。"
+                        "<20>{#p/undyne}{#e/undyne/2}你當時怎麼沒好好想想？"
                     ]
                     : SAVE.data.n.hp < 11
                         ? [
@@ -6741,7 +6741,7 @@ export default {
                 ]
                 : respecc()
                     ? [
-                        '<20>{#p/undyne}{#e/undyne/18}所有你交戰過\n的怪物...',
+                        '<20>{#p/undyne}{#e/undyne/18}所有和你\n交戰的怪物...',
                         "<20>{#p/undyne}{#e/undyne/1}都成為了\n你力量的源泉！"
                     ]
                     : ['<20>{#p/undyne}{#e/undyne/9}快啊！'],
@@ -6978,7 +6978,6 @@ export default {
         genoCutscene11: ['<20>{#p/undyne}{#e/undyne/5}Alphys博士\n會照顧好你的。', '<20>{#e/undyne/6}快跑啊！'],
         genoCutscene12a: [
             '<20>{#p/undyne}{#e/undyne/7}...呵...\n「就是點小傷而已...」',
-'<20>...才怪。',
             '<20>不知怎麼，\n只是那麼一下...'
         ],
         genoCutscene12b: ["<20>我就...", '<20>就...'],
@@ -7081,7 +7080,7 @@ export default {
                     '<20>轟動星河的決戰到來了。',
                     '<20>我在此對你發出挑戰...',
                     '<20>{#e/undyne/9}以全前哨站\n怪物的榮耀起誓！！',
-                    "<20>{#e/undyne/7}這是能解決\n我們之間問題\n的唯一方法！！",
+                    "<20>{#e/undyne/7}這是能解決\n我們之間問題的\n唯一方法！！",
                     "<20>{#e/undyne/9}拿出真本事，放馬過來！！！\n嘎啊啊啊！！！"
                 ]
                 : [
@@ -8099,7 +8098,7 @@ export default {
                 SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                     ? ((SAVE.data.b.c_state_secret2_used = true),
                         [
-                            '<32>{#p/basic}{#k/3}* 喔？\n* 這個握手式你從哪兒\n  學來的啊？',
+                            '<32>{#p/basic}{#k/3}* 喔？\n* 這個握手式\n  你到底是從哪兒學的？',
                             "<32>{#k/2}* 我已經很多年\n  沒跟別人展示過嚕！",
                             '<32>{#k/0}* 哇哈哈...\n* 其實吧，我已經能\n  猜出個大概了。',
                             '<32>{#k/0}* 很久以前，\n  一個人類來到這裡...\n  然後我倆就成為了好朋友。',

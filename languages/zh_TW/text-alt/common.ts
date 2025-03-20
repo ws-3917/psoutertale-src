@@ -5400,7 +5400,7 @@ export default {
         idleTalk2: ['<08>{#p/basic}{~}你的腦袋\n看起來..\n光禿禿的'],
         idleTalk3: ['<08>{#p/basic}{~}多棒的\n天線啊！\n（我的！）'],
         idleTalk4: ["<09>{#p/basic}{~}這不是\n輻射！\n這是訊號\n反饋。"],
-        idleTalk5: ['<08>{#p/basic}{~}我只愛我\n的天線！'],
+        idleTalk5: ['<08>{#p/basic}{~}我只愛\n我的天線！'],
         justiceTalk: ['<08>{#p/basic}{~}你做了\n什麼...'],
         name: '* 太空帽',
         randStatus1: ['<32>{#p/story}* 太空帽想在身上其他地方\n  也裝上天線。'],
@@ -5440,7 +5440,7 @@ export default {
         genoStatus: ['<32>{#p/asriel2}* 鋰塊。'],
         happyStatus: ["<32>{#p/story}* 鋰塊不介意它的身份。"],
         happyTalk1: ['<08>{#p/basic}{~}是啊...\n我也喜歡\n我這樣。'],
-        happyTalk2: ['<08>{#p/basic}{~}嗯...\n天線是\n用來\n裝腔作勢\n的。'],
+        happyTalk2: ['<08>{#p/basic}{~}嗯...\n天線只能\n用來裝逼。'],
         happyTalk3: ['<08>{#p/basic}{~}所以你\n仍然可以\n對我印象\n深刻？'],
         happyTalk4: ['<08>{#p/basic}{~}我只是想\n讓你覺得\n我很酷。'],
         hurtStatus: () =>

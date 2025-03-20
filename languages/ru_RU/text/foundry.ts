@@ -5454,7 +5454,7 @@ export default {
             world.goatbro
                 ? ["<32>{#p/asriel2}* Gelatini...\n* Something tells me this one's more than meets the eye."]
                 : ['<32>{#p/story}* GELATINI - ATK 18 DEF 18\n* Not a squorch to be heard.'],
-        name: '* Gelatini',
+        name: '* Пожелейка',
         smalTalk: ['<08>{#p/basic}{~}...'],
         status1: () => (world.goatbro ? ['<32>{#p/asriel2}* Gelatini.'] : ['<32>{#p/story}* Gelatini appears?']),
         fakeStatus1: () =>

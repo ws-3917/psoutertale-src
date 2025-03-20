@@ -443,7 +443,7 @@ export default {
                     }
                 },
                 moldsmal: {
-                    name: 'GELATINI',
+                    name: 'ПОЖЕЛЕЙКА',
                     author: 'spacey_432',
                     text: {
                         basic: 'Found A New\nSpace Station',

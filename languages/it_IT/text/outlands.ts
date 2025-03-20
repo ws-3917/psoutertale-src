@@ -305,83 +305,83 @@ export default {
             d45: ['<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* ... prenditi cura di Mamma e Papà al posto mio, okay?{^60}{%}'],
             d46: ['<25>{#p/asriel1}{#f/25}* Frisk, puoi sentirmi?', '<25>{#f/22}* Per favore... svegliati...'],
             d47: ["<25>{#p/asriel1}{#f/23}* Io...\n* Non voglio perdere pure te..."],
-            d48: ['<25>{#p/asriel1}{#f/17}* ... there you are.'],
+            d48: ['<25>{#p/asriel1}{#f/17}* ... grazie al cielo.'],
             d49: [
-                "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there.",
-                "<25>{#f/22}* Don't scare me like that again, okay?",
+                "<25>{#p/asriel1}{#f/23}* Io... cominciavo a pensare di averti perso.",
+                "<25>{#f/22}* Non spaventarmi più così, va bene?",
                 '<25>{#f/13}* ...'
             ],
             d50: [
-                '<25>{#p/asriel1}{#f/13}* Well...\n* I have my SOUL back inside of me now.',
-                '<25>{#f/15}* My original one.',
+                '<25>{#p/asriel1}{#f/13}* Io...\n* Ho di nuovo la mia ANIMA dentro di me.',
+                '<25>{#f/15}* La mia originale.',
                 '<25>{#f/16}* ...',
-                "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around me...",
-                '<25>{#f/13}* ... keeping me safe until I could be brought back here.',
-                '<26>{#f/17}* They held on that whole time, just for a chance to see me, Frisk...',
-                '<25>{#f/13}* ... so, the least I can do is honor it.',
-                '<25>{#f/15}* Live the life they always wanted me to have.'
+                "<26>{#f/16}* Quando $(name) e io siamo morti, lui probabilmente mi hanno fatto da scudo...",
+                '<25>{#f/13}* ... e ha tenuto la mia ANIMA al sicuro con lo scopo di riportarmi in vita.',
+                '<26>{#f/17}* La ha custodita per tutto questo tempo solo per avere la possibilità di rivedermi, Frisk.',
+                '<25>{#f/13}* ... quindi, il minimo che posso fare è far valere il loro sacrificio.',
+                '<25>{#f/15}* E vivere la vita che lui ha sempre voluto che vivessi.'
             ],
             d51: [
                 '<25>{#p/asriel1}{#f/23}* ... Frisk.',
-                "<25>{#f/23}* I'm going to stay with you from now on.",
-                "<25>{#f/17}* Wherever you go... I'll follow you.",
-                '<25>{#f/13}* I feel like...\n* I can trust you with that sort of thing.',
-                "<25>{#f/13}* Even if we don't know much about each other.",
-                "<25>{#f/15}* ... I don't know.",
+                "<25>{#f/23}* D'ora in avanti starò con te.",
+                "<25>{#f/17}* Ovunque tu voglia andare... ti seguirò.",
+                '<25>{#f/13}* So che...\n* Mi posso fidare di te.',
+                "<25>{#f/13}* Anche se in realtà non ci conosciamo poi tanto bene.",
+                "<25>{#f/15}* ... Non lo so.",
                 '<25>{#f/15}* ...',
-                '<25>{#f/13}* Frisk... are you really sure about this?',
-                "<25>{#f/13}* All the times I've hurt you, hurt your friends...",
-                "<25>{#f/22}* It's... all I can think about right now.",
-                '<25>{#f/21}* Seeing them die like that in my mind, over and over...',
-                "<25>{#f/22}* Knowing that I'm the one who did it.",
+                '<25>{#f/13}* Frisk... ne sei davvero sicuro?',
+                "<25>{#f/13}* Dopo tutte le volte che ho fatto del male a te, ai tuoi amici...",
+                "<25>{#f/22}* Io... non riesco a pensare ad altro.",
+                '<25>{#f/21}* Dopo averli visti morire più e più volte...',
+                "<25>{#f/22}* Sapendo che li ho uccisi io.",
                 '<25>{#f/15}* ...',
-                '<25>{#f/15}* Are you really sure you can be there for someone like that?',
+                '<25>{#f/15}* Sei sicuro che mi merito di avere qualcuno al mio fianco dopo quello che ho fatto?',
                 '<32>{#p/human}* (...)',
                 '<25>{#p/asriel1}{#f/15}* ...',
-                "<25>{#f/17}* ... I guess I just don't understand you, Frisk.",
-                "<25>{#f/23}* No matter what I do to you... you just won't give in.",
+                "<25>{#f/17}* ... Sembra che non riesca proprio a capirti, Frisk.",
+                "<25>{#f/23}* Non importa ciò che ti faccio... tu non ti arrendi mai.",
                 '<25>{#f/22}* ...',
-                "<25>{#f/13}* Hey.\n* Maybe it won't be so bad.",
-                "<25>{#f/17}* Having you there with me definitely won't hurt matters.",
-                '<25>{#f/13}* ...\n* The thing is...\n* If I stayed here now...',
-                "<25>{#f/15}* It wouldn't be right by $(name)... you know?",
-                '<25>{#f/13}* And besides, with my SOUL back inside of me...',
-                "<25>{#f/13}* I won't turn back into a star.",
-                "<25>{#f/13}* So... there's no point in me staying here."
+                "<25>{#f/13}* Ehi.\n* Forse non sarà così male.",
+                "<25>{#f/17}* Averti al mio fianco sicuramente mi renderà tutto più semplice.",
+                '<25>{#f/13}* ...\n* Il fatto è...\n* Che se ora me ne rimanessi qui...',
+                "<25>{#f/15}* Non sarebbe giusto nei confronti di $(name)... giusto?",
+                '<25>{#f/13}* Inoltre, ora che ho di nuovo la mia ANIMA dentro di me...',
+                "<25>{#f/13}* Non tornerò a essere una stella.",
+                "<25>{#f/13}* Quindi... non ho motivo per restare qua."
             ],
             d52: [
-                '<25>{#p/asriel1}{#f/17}* Well.\n* Better get going.',
-                '<25>{#f/20}* Your friends are probably worried sick about you by now.'
+                '<25>{#p/asriel1}{#f/17}* Beh.\n* Sarà meglio andare.',
+                '<25>{#f/20}* I tuoi amici probabilmente saranno in pensiero per te.'
             ],
             e1: [
                 '<25>{#p/asriel1}{#f/15}* ...',
-                "<25>{#f/16}* I don't know what's going to happen to $(name) after this.",
-                "<25>{#f/13}* They held on for a chance to see me, but that's...",
-                '<25>{#f/15}* ... in the past now.'
+                "<25>{#f/16}* Non so cosa ne è stato di $(name) dopo quello che è successo.",
+                "<25>{#f/13}* Lui si era trattenuto qui solo per avere una possibilità di rivedermi, ma ora...",
+                '<25>{#f/15}* ... ora è tutto finito.'
             ],
             e2: [
-                "<25>{#p/asriel1}{#f/13}* I still can't believe they waited all that time just to see me...",
-                '<25>{#f/23}* Stubborn idiot.',
-                '<25>{#f/17}* ... is what I would have said, if I was still a talking star.',
-                "<25>{#f/13}* But... I don't really think they're an idiot."
+                "<25>{#p/asriel1}{#f/13}* Non riesco a credere che ha aspettato tutto questo tempo solo per rivedermi...",
+                '<25>{#f/23}* Che idiota testardo.',
+                '<25>{#f/17}* ... è quello che direi, se fossi ancora una stella parlante.',
+                "<25>{#f/13}* Ma io... so che lui non è un idiota."
             ],
             e3: [
-                "<25>{#p/asriel1}{#f/13}* $(name)'s not stupid.\n* And I...",
-                '<25>{#f/13}* I agreed with a lot of what they said about themselves...',
-                '<25>{#f/15}* About them not being the kind of friend I wish I had...',
-                "<25>{#f/7}* ... but it doesn't mean I wanted them gone!"
+                "<25>{#p/asriel1}{#f/13}* $(name) non è uno stupido.\n* E io...",
+                '<25>{#f/13}* Sono stato d\'accordo con molte delle cose che ha detto...',
+                '<25>{#f/15}* Soprattutto riguardo al fatto che non lui era l\'amico che avrei voluto avere...',
+                "<25>{#f/7}* ... ma questo non significa che volessi che sparissero in questo modo!"
             ],
             e4: [
-                "<25>{#p/asriel1}{#f/13}* It's not like $(name) has to go away...",
-                "<25>{#f/17}* If they wanted to, they could stay with us.\n* I'd like them to.",
-                "<25>{#f/15}* But I'd understand if they wanted to go.",
-                '<25>{#f/16}* They \"won\" their game.\n* They shouldn\'t want to \"play\" with me anymore.'
+                "<25>{#p/asriel1}{#f/13}* Dopo tutto non è che sarebbe dovuto andarsene per forza...",
+                "<25>{#f/17}* Se lo avesse voluto sarebbe potuto rimanere con noi.\n* Lo avrei preferito.",
+                "<25>{#f/15}* Ma capisco il perché se ne è voluto andare.",
+                '<25>{#f/16}* Ha \"portato a termine\" il suo gioco.\n* É normale che non voglia più giocare con me.'
             ],
             e5: [
-                "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* If you're still there, listening...",
-                '<25>{#f/15}* I want you to know that I love you.',
-                '<25>{#f/23}* You might not have been the greatest person...',
-                '<25>{#f/22}* But, deep down, you still cared about me.'
+                "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* Se puoi sentirmi...",
+                '<25>{#f/15}* Voglio che tu sappia che ti voglio bene.',
+                '<25>{#f/23}* Potresti non essere stato la migliore delle persone...',
+                '<25>{#f/22}* Ma, nel profondo, anche tu mi volevi bene.'
             ],
             e6: [
                 '<25>{#p/asriel1}{#f/23}* Ha...',

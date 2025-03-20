@@ -118,16 +118,21 @@ export default {
     ibbPyropebom,
     ibcDoggoHeadWan,
     ibcDoggoHeadWan$info,
+    ibcDoggoHeadWanColored,
     ibcMettatonBodyBack,
     ibcMettatonBodyBack$info,
+    ibcMettatonBodyBackColored,
     ibcMettatonHappybreaktime,
+    ibcMettatonHappybreaktimeColored,
     ibcMettatonRecbox,
     ibcMettatonRecbox$info,
     ibcMuffetSpiderSign,
     ibcMuffetSpiderSign$info,
+    ibcMuffetSpiderSignColored,
     ibcNapstablookSad,
     ibcPapyrusSecretStyle,
     ibcPapyrusSecretStyle$info,
+    ibcPapyrusSecretStyleColored,
     ibuAct,
     ibuAct$info,
     ibuFight,
@@ -186,12 +191,4 @@ export default {
     iooSTownLibrarby,
     iooSTownPolice,
     isTemBox
-};
-
-export const coloredSources = {
-    ibcDoggoHeadWanColored,
-    ibcMettatonBodyBackColored,
-    ibcMuffetSpiderSignColored,
-    ibcPapyrusSecretStyleColored,
-    ibcMettatonHappybreaktimeColored
 };

@@ -364,6 +364,7 @@ const opponents = {
             content.ibcMuffetEye3,
             content.ibcMuffetSpider,
             content.ibcMuffetSpiderSign,
+            content.ibcMuffetSpiderSignColored,
             content.ibcMuffetDustrus,
             content.ibcMuffetHair,
             content.ibcMuffetHead,
@@ -685,7 +686,7 @@ const opponents = {
                             const spideySign = new CosmosAnimation({
                                 anchor: { x: 0, y: 1 },
                                 position: { x: -1, y: -4 },
-                                resources: content.ibcMuffetSpiderSign,
+                                resources: SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcMuffetSpiderSignColored : content.ibcMuffetSpiderSign,
                                 objects: [attackInfo]
                             }).on('tick', function () {
                                 if (!this.reverse && this.active && this.index === this.frames.length - 1) {

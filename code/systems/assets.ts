@@ -3970,6 +3970,10 @@ export const content = {
         new CosmosImage(sources.ibcDoggoHeadWan),
         new CosmosData(sources.ibcDoggoHeadWan$info)
     ),
+    ibcDoggoHeadWanColored: new CosmosAnimationResources(
+        new CosmosImage(sources.ibcDoggoHeadWanColored),
+        new CosmosData(sources.ibcDoggoHeadWan$info)
+    ),
     ibcDogsAxe: new CosmosImage(ibcDogsAxe),
     ibcDogsDogamy: new CosmosAnimationResources(new CosmosImage(ibcDogsDogamy), new CosmosData(ibcDogsDogamy$info)),
     ibcDogsDogamyDesolate: new CosmosImage(ibcDogsDogamyDesolate),
@@ -4109,6 +4113,10 @@ export const content = {
         new CosmosImage(sources.ibcMettatonBodyBack),
         new CosmosData(sources.ibcMettatonBodyBack$info)
     ),
+    ibcMettatonBodyBackColored: new CosmosAnimationResources(
+        new CosmosImage(sources.ibcMettatonBodyBackColored),
+        new CosmosData(sources.ibcMettatonBodyBack$info)
+    ),
     ibcMettatonBodySOUL: new CosmosAnimationResources(
         new CosmosImage(ibcMettatonBodySOUL),
         new CosmosData(ibcMettatonBodySOUL$info)
@@ -4157,6 +4165,7 @@ export const content = {
         new CosmosData(ibcMettatonFlyawaymyroboticfriend$info)
     ),
     ibcMettatonHappybreaktime: new CosmosImage(sources.ibcMettatonHappybreaktime),
+    ibcMettatonHappybreaktimeColored: new CosmosImage(sources.ibcMettatonHappybreaktimeColored),
     ibcMettatonNeoArm1: new CosmosImage(ibcMettatonNeoArm1),
     ibcMettatonNeoArm2: new CosmosImage(ibcMettatonNeoArm2),
     ibcMettatonNeoBody: new CosmosAnimationResources(
@@ -4231,6 +4240,10 @@ export const content = {
     ),
     ibcMuffetSpiderSign: new CosmosAnimationResources(
         new CosmosImage(sources.ibcMuffetSpiderSign),
+        new CosmosData(sources.ibcMuffetSpiderSign$info)
+    ),
+    ibcMuffetSpiderSignColored: new CosmosAnimationResources(
+        new CosmosImage(sources.ibcMuffetSpiderSignColored),
         new CosmosData(sources.ibcMuffetSpiderSign$info)
     ),
     ibcMuffetSpiderTelegram: new CosmosImage(ibcMuffetSpiderTelegram),
@@ -4319,6 +4332,10 @@ export const content = {
     ibcPapyrusOwwie: new CosmosImage(ibcPapyrusOwwie),
     ibcPapyrusSecretStyle: new CosmosAnimationResources(
         new CosmosImage(sources.ibcPapyrusSecretStyle),
+        new CosmosData(sources.ibcPapyrusSecretStyle$info)
+    ),
+    ibcPapyrusSecretStyleColored: new CosmosAnimationResources(
+        new CosmosImage(sources.ibcPapyrusSecretStyleColored),
         new CosmosData(sources.ibcPapyrusSecretStyle$info)
     ),
     ibcPapyrusShock: new CosmosImage(ibcPapyrusShock),
@@ -7412,12 +7429,17 @@ export const contentTranslate = {
     ibbBlimpstrat: content.ibbBlimpstrat,
     ibbPyropebom: content.ibbPyropebom,
     ibcDoggoHeadWan: content.ibcDoggoHeadWan,
+    ibcDoggoHeadWanColored: content.ibcDoggoHeadWanColored,
     ibcMettatonBodyBack: content.ibcMettatonBodyBack,
+    ibcMettatonBodyBackColored: content.ibcMettatonBodyBackColored,
     ibcMettatonHappybreaktime: content.ibcMettatonHappybreaktime,
+    ibcMettatonHappybreaktimeColored: content.ibcMettatonHappybreaktimeColored,
     ibcMettatonRecbox: content.ibcMettatonRecbox,
     ibcMuffetSpiderSign: content.ibcMuffetSpiderSign,
+    ibcMuffetSpiderSignColored: content.ibcMuffetSpiderSignColored,
     ibcNapstablookSad: content.ibcNapstablookSad,
     ibcPapyrusSecretStyle: content.ibcPapyrusSecretStyle,
+    ibcPapyrusSecretStyleColored: content.ibcPapyrusSecretStyleColored,
     ibuAct: content.ibuAct,
     ibuFight: content.ibuFight,
     ibuHP: content.ibuHP,
@@ -8047,16 +8069,6 @@ export const contentColored = {
     idcUndyneYouKilledHimSmile: content.idcUndyneYouKilledHimSmile,
     idcUndyneYouKilledHimStare: content.idcUndyneYouKilledHimStare
 };
-
-/*
-export const contentTranslateColored = {
-   ibcMettatonBodyBack: content.ibcMettatonBodyBack,
-   ibcMettatonHappybreaktime: content.ibcMettatonHappybreaktime,
-   ibcDoggoHeadWan: content.ibcDoggoHeadWan,
-   ibcMuffetSpiderSign: content.ibcMuffetSpiderSign,
-   ibcPapyrusSecretStyle: content.ibcPapyrusSecretStyle
-};
-*/
 
 for (const k in levels) {
     (content[k as keyof typeof content] as CosmosAudio).gain = levels[k as keyof typeof levels];

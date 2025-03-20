@@ -4588,6 +4588,7 @@ export const startonScript = async (subscript: string, ...args: string[]): Promi
                         await antifreeze([tenseLoader, papchat(...text.a_starton.papdate16a)]);
                         const styleAssets = new CosmosInventory(
                             content.ibcPapyrusSecretStyle,
+                            content.ibcPapyrusSecretStyleColored,
                             content.ibcPapyrusCoolhat,
                             content.ibcPapyrusCoolhatUnder,
                             content.ibcPapyrusSpagbox
@@ -4740,7 +4741,8 @@ export const startonScript = async (subscript: string, ...args: string[]): Promi
                             await renderer.on('tick');
                         }
                         datepaps.position.x = 330;
-                        datepaps.use(content.ibcPapyrusSecretStyle);
+                        datepaps.use(SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcPapyrusSecretStyleColored
+                            : content.ibcPapyrusSecretStyle);
                         datepaps.detach(topAnim);
                         content.ibcPapyrusDateOMG.unload();
                         datepaps.position.x -= 5;

@@ -1,5 +1,5 @@
 import { translator } from '../../code/systems/translator';
-import sources, { coloredSources } from './sources';
+import sources from './sources';
 import aerialis from './text/aerialis';
 import citadel from './text/citadel';
 import common from './text/common';

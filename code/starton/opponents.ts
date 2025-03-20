@@ -706,6 +706,7 @@ const opponents = {
             content.ibcDoggoBodyHurt,
             content.ibcDoggoHead,
             content.ibcDoggoHeadWan,
+            content.ibcDoggoHeadWanColored,
             content.ibbSword,
             content.asWhimper,
             content.ibbMoon
@@ -957,10 +958,10 @@ const opponents = {
                         active: true,
                         anchor: { x: 0, y: 1 },
                         position: { y: -62 },
-                        resources: wan ? content.ibcDoggoHeadWan : content.ibcDoggoHead
+                        resources: wan ? (SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcDoggoHeadWanColored : content.ibcDoggoHeadWan) : content.ibcDoggoHead
                     }).on('tick', function () {
                         if (volatile.vars.wan !== wan) {
-                            this.use((wan = !wan) ? content.ibcDoggoHeadWan : content.ibcDoggoHead);
+                            this.use((wan = !wan) ? (SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcDoggoHeadWanColored : content.ibcDoggoHeadWan) : content.ibcDoggoHead);
                         }
                     })
                 ]

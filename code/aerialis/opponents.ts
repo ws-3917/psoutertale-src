@@ -698,7 +698,8 @@ const opponents = {
                     } else if (state.choice.type === 'act') {
                         if (state.choice.act === 'turn') {
                             await state.dialogue(false, ...text.b_opponent_mettaton1.turnTalk1);
-                            body.use(content.ibcMettatonBodyBack);
+                            body.use(SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcMettatonBodyBackColored
+                                : content.ibcMettatonBodyBack);
                             state.vars.armRezo = content.ibcMettatonArmsWelcomeBack;
                             await renderer.pause(1650);
                             await state.dialogue(false, ...text.b_opponent_mettaton1.turnTalk2);

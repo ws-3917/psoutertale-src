@@ -2358,7 +2358,8 @@ const patterns = {
                             alpha: 0.7,
                             anchor: 0,
                             scale: 0.5,
-                            frames: [content.ibcMettatonHappybreaktime],
+                            frames: [SAVE.flag.s.$option_colorMode !== 'default' ? content.ibcMettatonHappybreaktimeColored
+                                : content.ibcMettatonHappybreaktime],
                             metadata: { tx: 15 },
                             position: box
                         }).on('tick', function () {

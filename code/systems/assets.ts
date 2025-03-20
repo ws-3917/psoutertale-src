@@ -993,7 +993,10 @@ import ibcSpacetop$info from '../../assets/images/battleCharacters/spacetop/spac
 import ibcSpacetop from '../../assets/images/battleCharacters/spacetop/spacetop.png?url';
 import ibcStardrakeBody from '../../assets/images/battleCharacters/stardrake/body.png?url';
 import ibcStardrakeChilldrake from '../../assets/images/battleCharacters/stardrake/chilldrake.png?url';
+import ibcStardrakeChilldrakeBody from '../../assets/images/battleCharacters/stardrake/chilldrakeBody.png?url';
 import ibcStardrakeChilldrakeHurt from '../../assets/images/battleCharacters/stardrake/chilldrakeHurt.png?url';
+import ibcStardrakeChilldrakeHead from '../../assets/images/battleCharacters/stardrake/chilldrakeHead.png?url'
+import ibcStardrakeChilldrakeHead$info from '../../assets/images/battleCharacters/stardrake/head.json?url';
 import ibcStardrakeHead$info from '../../assets/images/battleCharacters/stardrake/head.json?url';
 import ibcStardrakeHead from '../../assets/images/battleCharacters/stardrake/head.png?url';
 import ibcStardrakeHurt from '../../assets/images/battleCharacters/stardrake/hurt.png?url';
@@ -4392,6 +4395,11 @@ export const content = {
     ibcSpacetopHurt: new CosmosImage(ibcSpacetopHurt),
     ibcStardrakeBody: new CosmosImage(ibcStardrakeBody),
     ibcStardrakeChilldrake: new CosmosImage(ibcStardrakeChilldrake),
+    ibcStardrakeChilldrakeBody: new CosmosImage(ibcStardrakeChilldrakeBody),
+    ibcStardrakeChilldrakeHead: new CosmosAnimationResources(
+        new CosmosImage(ibcStardrakeChilldrakeHead),
+        new CosmosData(ibcStardrakeChilldrakeHead$info)
+    ),
     ibcStardrakeChilldrakeHurt: new CosmosImage(ibcStardrakeChilldrakeHurt),
     ibcStardrakeHead: new CosmosAnimationResources(
         new CosmosImage(ibcStardrakeHead),
@@ -7710,6 +7718,8 @@ export const contentColored = {
     ibcSpacetopHurt: content.ibcSpacetopHurt,
     ibcStardrakeBody: content.ibcStardrakeBody,
     ibcStardrakeChilldrake: content.ibcStardrakeChilldrake,
+    ibcStardrakeChilldrakeBody: content.ibcStardrakeChilldrakeBody,
+    ibcStardrakeChilldrakeHead: content.ibcStardrakeChilldrakeHead,
     ibcStardrakeChilldrakeHurt: content.ibcStardrakeChilldrakeHurt,
     ibcStardrakeHead: content.ibcStardrakeHead,
     ibcStardrakeHurt: content.ibcStardrakeHurt,

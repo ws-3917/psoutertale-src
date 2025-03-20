@@ -248,6 +248,8 @@ import ibcSpacetopHurt from './assets/battleCharacters/spacetop/hurt.png?url';
 import ibcSpacetop from './assets/battleCharacters/spacetop/spacetop.png?url';
 import ibcStardrakeBody from './assets/battleCharacters/stardrake/body.png?url';
 import ibcStardrakeChilldrake from './assets/battleCharacters/stardrake/chilldrake.png?url';
+import ibcStardrakeChilldrakeBody from './assets/battleCharacters/stardrake/chilldrakeBody.png?url';
+import ibcStardrakeChilldrakeHead from './assets/battleCharacters/stardrake/chilldrakeHead.png?url';
 import ibcStardrakeChilldrakeHurt from './assets/battleCharacters/stardrake/chilldrakeHurt.png?url';
 import ibcStardrakeHead from './assets/battleCharacters/stardrake/head.png?url';
 import ibcStardrakeHurt from './assets/battleCharacters/stardrake/hurt.png?url';
@@ -811,6 +813,8 @@ export default {
     ibcSpacetop,
     ibcStardrakeBody,
     ibcStardrakeChilldrake,
+    ibcStardrakeChilldrakeBody,
+    ibcStardrakeChilldrakeHead,
     ibcStardrakeChilldrakeHurt,
     ibcStardrakeHead,
     ibcStardrakeHurt,

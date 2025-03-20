@@ -27,6 +27,8 @@ const opponents = {
         flirted: () => (SAVE.data.b.s_state_chilldrake ? SAVE.data.b.flirt_chilldrake : SAVE.data.b.flirt_stardrake),
         assets: new CosmosInventory(
             content.ibcStardrakeChilldrakeHurt,
+            content.ibcStardrakeChilldrakeHead,
+            content.ibcStardrakeChilldrakeBody,
             content.ibcStardrakeChilldrake,
             content.ibcStardrakeHead,
             content.ibcStardrakeBody,
@@ -302,12 +304,12 @@ const opponents = {
                 objects: [
                     new CosmosSprite({
                         anchor: { y: 1, x: 0 },
-                        frames: [content.ibcStardrakeBody],
+                        frames: [SAVE.data.b.s_state_chilldrake ? content.ibcStardrakeChilldrakeBody : content.ibcStardrakeBody],
                         objects: [
                             new CosmosAnimation({
                                 active: true,
                                 anchor: { y: 1, x: 0 },
-                                resources: content.ibcStardrakeHead,
+                                resources: (SAVE.data.b.s_state_chilldrake ? content.ibcStardrakeChilldrakeHead : content.ibcStardrakeHead),
                                 objects: SAVE.data.b.s_state_chilldrake
                                     ? [new CosmosSprite({ anchor: { y: 1, x: 0 }, frames: [content.ibcStardrakeChilldrake] })]
                                     : []

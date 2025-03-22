@@ -128,15 +128,15 @@ export default {
                 (re: boolean) => [
                     ...(re
                         ? ['<26>{#p/asriel2}{#f/13} * \nComo eu estava dizendo...']
-                        : ["<25>{#p/asriel2}{#f/13}* \nVou ser sincero..."]),
-                    "<25>{#f/16}* ... Está \nnem é a primeira vez que eu tento destruir o Outpost.",
-                    "<25>{#f/15}* Cara, eu já vi\nprovavelmente algumas centenas de milhares de linhas do tempo.",
-                    '<25>{#f/23}* Mas, não \nimportava o que eu fazia...',
+                        : ["<25>{#p/asriel2}{#f/13}* Vou ser sincero..."]),
+                    "<25>{#f/16}* ... Está nem é a primeira vez que eu tento destruir o Outpost.",
+                    "<25>{#f/15}* Cara, eu já vi centenas de milhares de linhas do tempo.",
+                    '<25>{#f/23}* Mas, não importava o que eu fazia...',
                     "<25>{#f/16}* Sempre existiu algo faltando."
                 ],
                 (re: boolean) => [
                     '<25>{#p/asriel2}{#f/15}* Antes, quando eu acordei como uma estrela...',
-                    "<25>{#f/16}* Eu não tinha idéia\nde como eu havia chegado ali ou o que estava fazendo.",
+                    "<25>{#f/16}* Eu não tinha idéia de como eu havia chegado ali ou o que fazer.",
                     "<25>{#f/13}* Não pude sentir meus braços... Nem mesmo sentir minhas pernas...",
                     '<25>{#f/13}* E não importou quantas vezes eu chamei por ajuda...',
                     '<25>{#f/23}* ...\nClamei... por ajuda...',
@@ -147,10 +147,10 @@ export default {
                     ...(re
                         ? ["<25>{#p/asriel2}{#f/6}* \nComo eu estava dizendo, depois de acordar como estrela, eu não me sentia o mesmo."]
                         : []),
-                    "<25>{#p/asriel2}{#f/15}*\nPorém, mais do que isso... Eu não parecia ser capaz de sentir amor, também.",
-                    '<25>{#f/23}* Eu estava com tanto medo... Eu só queria que tudo pudesse voltar ao normal.',
+                    "<25>{#p/asriel2}{#f/15}* Porém, mais do que isso... Eu não era ser capaz de sentir amor, também.",
+                    '<25>{#f/23}* Eu estava com tanto medo... Eu só queria voltar ao normal.',
                     "<25>{#f/13}* Eu fui atrás do papai, na esperança de que ele poderia me ajudar.",
-                    "<25>{#f/17}* Ele prometeu que cuidaria de mim pelo tempo que fosse necessário...",
+                    "<25>{#f/17}* Ele prometeu que cuidaria de mim pelo tempo necessário...",
                     "<25>{#f/13}* ... mas no fim, ele não foi capaz de me salvar."
                 ],
                 (re: boolean) => [
@@ -163,7 +163,7 @@ export default {
                         : ['<26>{#p/asriel2}{#f/16}* Então, eu fui ver a mamãe.']),
                     "<25>{#f/13}* Claramente, ela saberia o que fazer, certo?",
                     "<25>{#f/17}* Ela fez tanto por mim no passado, então...",
-                    "<25>{#f/23}* Se qualquer pessoa, de todas, poderia me ajudar... Tinha que ser ela."
+                    "<25>{#f/23}* Se qualquer pessoa, de todas, poderia me ajudar... seria ela."
                 ],
                 (re: boolean) => [
                     ...(re
@@ -229,8 +229,8 @@ export default {
                         : []),
                     "<25>{#p/asriel2}{#f/4}* Agora, nem havia muito o que fazer no começo...",
                     '<25>{#f/3}* Apenas alguns xingamentos aqui e ali.',
-                    '<25>{#f/10}* Uma parte de mim sentiu-se mal, porém o que eu tinha a perder com isso?',
-                    '<25>{#f/6}* Claro, quando as coisas começaram a se repetir, eu me tornei mais desaforado.',
+                    '<25>{#f/10}* Uma parte de mim sentiu-se mal, porém o que eu tinha a perder?',
+                    '<25>{#f/6}* Claro, as coisas começaram a repetir, me tornei desaforado.',
                     '<25>{#f/8}* Um insulto aqui, outro ali, alguns desmerecimentos...',
                     '<25>{#f/7}* Eventualmente, eu parei de me sentir mal pelo que fazia.',
                     "<25>{#f/9}* Não é como se eu estivesse matando eles ou coisa do tipo."
@@ -240,20 +240,20 @@ export default {
                     '<25>{#p/asriel2}{#f/15}* Aí, eu pensei comigo mesmo... Se eu atacar eles...',
                     "<25>{#f/16}* Estaria tudo bem, contato que eles não morram.",
                     "<25>{#f/10}* Qual seria o problema?\n* Monstros se curam com facilidade, certo?",
-                    "<25>{#f/4}* Se tudo desse errado, eu poderia simplesmente resetar e tudo ficaria bem.",
-                    "<25>{#f/3}* ...mal sabia eu como seria minha reação se isso realmente acontecesse."
+                    "<25>{#f/4}* Se tudo desse errado, eu poderia simplesmente resetar e ficaria bem.",
+                    "<25>{#f/3}* ...mal sabia eu como seria minha reação se isso acontecesse."
                 ],
                 (re: boolean) => [
                     ...(re ? ["<26>{#p/asriel2}{#f/3}* Como eu estava dizendo, acabei tendo a ideia de ataca-los em algum momento."] : []),
                     '<25>{#p/asriel2}{#f/13}* Acho que você poderia dizer que me empolguei...',
                     '<25>{#f/15}* Passei... Só um pouco do limite...',
                     '<25>{#f/16}* ...',
-                    '<25>{#f/6}* Minha própria mãe, estrangulada até a morte com minha própria magia...',
+                    '<25>{#f/6}* Minha mãe, estrangulada até a morte com minha magia...',
                     '<25>{#f/8}* Me implorando pra parar enquanto a vida era drenada do seu corpo.',
                     "<25>{#f/7}* Mesmo após RESETAR, a imagem não saiu da minha mente.",
                     '<25>{#f/13}* Eu entrei em pânico, e tentei concertar aquilo sendo legal com ela.',
                     "<25>{#f/15}* Mas eu não pude esquecer o que fiz.",
-                    "<25>{#f/15}* Eu não... eu não poderia olhar pra ela... pra ninguém... da mesma forma, de novo."
+                    "<25>{#f/15}* Eu não... poderia olhar pra ela... pra ninguém, da mesma forma, de novo."
                 ],
                 (re: boolean) => [
                     ...(re
@@ -263,20 +263,20 @@ export default {
                         ]
                         : ['<25>{#p/asriel2}{#f/16}* Depois disso, as coisas ficaram piores.']),
                     '<26>{#f/15}* Eu acho que depois de destruir tudo uma vez, se torna cada vez mais fácil de fazer depois.',
-                    '<26>{#f/15}* E logo, seja por curiosidade, simples frustração, ou mera curiosidade...',
+                    '<26>{#f/15}* E logo, seja por raiva, frustração, ou mera curiosidade...',
                     '<26>{#f/16}* O que começou como um acidente, perdeu todo o controle.',
-                    '<26>{#f/7}* Porém, sabe, mesmo com tudo que aconteceu, eu ainda poderia RESETAR, certo?',
-                    '<25>{#f/6}* E uma vez que eu entendi ISSO... realmente não havia mais volta.'
+                    '<26>{#f/7}* Porém, sabe, mesmo com tudo que aconteceu, eu ainda poderia RESETAR.',
+                    '<25>{#f/6}* E uma vez que eu entendi ISSO, não havia mais volta.'
                 ],
                 (re: boolean) => [
                     '<25>{#p/asriel2}{#f/6}* A cada RESETE, minhas ações se tornavam mais e mais bizarras.',
-                    '<25>{#f/7}* Eu fiz com que eles... todos eles... sentissem um terror acima da compreensão.',
+                    '<25>{#f/7}* Eu fiz com que todos eles sentissem um terror acima da compreensão.',
                     '<25>{#f/15}* Eu fiz isso de novo, de novo e de novo...',
                     "<25>{#f/16}* Eu fiz tantas vezes, que basicamente me acostumei com isso.",
                     '<25>{#f/3}* Então, finalmente, depois disso tudo...',
                     '<25>{#f/3}* ... nada.',
-                    '<25>{#f/3}* Eu não senti nada.\n* Não significou nada.\n* Tudo isso foi para nada.',
-                    '<25>{#f/15}* Quando me sentei sozinho no mundo vazio, eu sabia o que deveria ser feito.',
+                    '<25>{#f/3}* Eu não senti nada.\n* Não significou nada.\n* Tudo para NADA.',
+                    '<25>{#f/15}* No topo do mundo vazio, eu sabia o que deveria ser feito.',
                     '<26>{#f/23}* Então eu RESETEI e deixei o tempo se mover sem minha presença.'
                 ],
                 (re: boolean) => [
@@ -287,9 +287,9 @@ export default {
                         ]
                         : []),
                     "<25>{#p/asriel2}{#f/17}* Você não entende, $(name)?",
-                    '<25>{#f/23}* É por isso que eu esperei tanto para estar contigo depois de todo esse tempo.',
+                    '<25>{#f/23}* É por isso que eu esperei tanto para estar contigo.',
                     "<25>{#f/13}* Com você ao meu lado, eu não preciso fazer isso tudo sozinho.",
-                    "<25>{#f/15}* Com você ao meu lado... tudo isso vai finalmente significar alguma coisa.",
+                    "<25>{#f/15}* Com você ao meu lado... tudo finalmente terá significado.",
                     "<25>{#f/16}* E mesmo assim, foi isso que você sempre quis, não é mesmo?",
                     '<25>{#f/13}* Dar a eles \"liberdade\"?',
                     '<25>{#f/23}* ...heh.\n* Nós somos a dupla perfeita.'
@@ -314,14 +314,14 @@ export default {
                     ? [
                         "<25>{#f/13}* Mas o tempo do Outpost's chegou.",
                         "<25>{#f/7}* Escuta aqui, $(name).\n* Estes monstros não nos entendem.",
-                        "<25>{#f/6}* Eles gostam de pretender que o universo é um lugar lindo e perfeito.",
+                        "<25>{#f/6}* Eles pensam que o universo é um lugar lindo e perfeito.",
                         "<25>{#f/8}* Gostam de pensar que qualquer pessoa pode se redimir.",
                         "<25>{#f/6}* Mas eu e você?\n* Nós não nos encaixamos nessa visão de mundo.",
                         "<25>{#f/7}* Somos exatamente o que somos.",
                         "<25>{#f/9}* Heh.\n* Não é interessante?",
                         '<25>{#f/13}* Aquilo que nos mantém distante e diferente dos outros...',
                         '<25>{#f/16}* ... é exatamente o que nos une como um.',
-                        '<26>{#f/17}* Escuta, uma vez que pegarmos as chaves e escaparmos deste lugar...',
+                        '<26>{#f/17}* Uma vez que pegarmos as chaves e escaparmos deste lugar...',
                         "<25>{#f/17}* Estaremos juntos para sempre, $(name).",
                         "<25>{#f/23}* É nosso destino."
                     ]
@@ -4826,9 +4826,9 @@ export default {
             "<20>{#e/alphys/17}ISSO seria bem poético."
         ],
         turnTalk5: [
-            '<20>{#p/alphys}{#e/alphys/16}Não que eu te culpe por achar confeito em um parceiro humano.',
+            '<20>{#p/alphys}{#e/alphys/16}Não que eu te culpe por achar conforto em um parceiro humano.',
             '<20>{#e/alphys/52}Posso te dizer por experiência...',
-            '<20>{#e/alphys/19}Fica bem solitário após todo mundo que você se importa está morto.'
+            '<20>{#e/alphys/19}Fica bem solitário após todo mundo que você se importa estar morto.'
         ],
         turnTalk6: [
             "<20>{#p/alphys}{#e/alphys/23}Mas vocês dois não saberiam nada sobre isso, CERTO?",

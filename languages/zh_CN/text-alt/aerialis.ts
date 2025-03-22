@@ -2398,30 +2398,30 @@ export default {
             hapsta24: ["<32>{#p/finalghost}* 我没意见。"],
             hapsta25: [
                 '<32>{#p/event}* 铃铃，铃铃...',
-                '<32>{#p/mettaton}* 小幽！\n* 多棒的惊喜啊！\n* 你需要什么不？',
+                '<32>{#p/mettaton}* 天呐，居然是你啊，小幽！\n* 咱俩可刚在节目上见过呢！\n* 你需要什么帮助吗？',
                 '<32>{#p/napstablook}* 额... 我想跟你聊聊',
-                '<32>{#p/mettaton}* 好啊，我们当然可以聊天，\n  你想聊啥呢？',
+                '<32>{#p/mettaton}* 好啊，正好我现在有空，\n  你想聊啥呢？',
                 '<32>{#p/napstablook}* 可以私下聊吗.........',
                 '<32>{#p/mettaton}* 哦。',
-                "<32>{#p/mettaton}* 恐怕现在不行，\n  我还在准备另一场演出。",
+                "<32>{#p/mettaton}* 恐怕现在不行，\n  我还需要准备下一场演出呢！",
                 "<32>* 等完事我们见个面怎么样？"
             ],
             hapsta26: ['<32>{|}{#p/basic}* 你一直在回避- {%}'],
-            hapsta27: ['<32>{#p/finalghost}* 闭嘴！'],
+            hapsta27: ['<32>{#p/finalghost}* 少插嘴！'],
             hapsta28: [
                 '<32>{#p/napstablook}* 那些工作...',
                 '<32>{#p/mettaton}* 棒极了，亲爱的。',
                 "<32>* 到时候我会见面\n  跟你说说的！"
             ],
             hapsta29: [
-                '<32>{#p/basic}* 我知道了。\n* 我知道了！\n* 我知道了！',
-                '<32>* 这计划从一开始\n  就注定要失败。'
+                '<32>{#p/basic}* 我就知道。\n* 我就知道！\n* 我-就-知-道！',
+                '<32>* 这事就压根成不了。'
             ],
             hapsta30: [
-                "<32>{#p/finalghost}* 就只是因为\n  镁塔顿现在不在这吗，\n  但这并不代表我们的计划会失败。",
-                "<32>* 我们必须要有耐心。"
+                "<32>{#p/finalghost}* 急啥？\n  他这会不是没空吗？\n  你怎么就能说这事谈不成了？",
+                "<32>* 要有点耐心，等等看呗。"
             ],
-            hapsta31: ['<32>{#p/basic}* 好吧...'],
+            hapsta31: ['<32>{#p/basic}* 哦...'],
             hapsta32: () => [
                 '<32>{#p/finalghost}* 好吧，\n  聊天很愉快再见。',
                 "<32>* 我们很快就会再见面的。"
@@ -2441,23 +2441,23 @@ export default {
                 SAVE.data.n.state_foundry_undyne === 1
                     ? [
                         '<25>{#p/alphys}{#g/alphysSideSad}* ...嘿，额...',
-                        "<25>{#f/30}* 对不起，\n  我刚才就那样跑掉了。",
-                        "<25>{#f/32}* 那件事真的...\n  很难接受...",
-                        '<25>{#f/20}* 看到你将安黛因\n  就那么丢在那里\n  放任不管。',
-                        "<25>{#f/5}* 不过，我...\n* 我知道这并非你的本意...",
-                        '<25>{#f/20}* 你只是出于害怕，\n  想尽快逃离对你\n  紧追不舍的追捕者。',
+                        "<25>{#f/30}* 对不起，\n  之前我就那样跑掉了。",
+                        "<25>{#f/32}* 安黛因的死对我来说...\n  真-真的很难接受...",
+                        '<25>{#f/20}* 你就这么... 在她最需要\n  帮助的时候... 抛下了她...',
+                        "<25>{#f/5}* 当然...\n* 我-我知道这并非你本意...",
+                        '<25>{#f/20}* 你只是太害怕了，\n  想尽快逃离那个对你\n  穷追不舍的家伙。',
                         '<25>{#f/31}* 就算这样解释...\n  我还是不能接受\n  她就那么...',
                         '<25>{#f/31}* ...',
-                        '<25>{#f/20}* 好了，\n  我们该去休闲回廊了。'
+                        '<25>{#f/20}* 唉，我们该去休闲回廊了。'
                     ]
                     : [
                         '<25>{#p/alphys}{#g/alphysNervousLaugh}* 啊，你来了！',
                         ...(world.bad_lizard === 1
                             ? [
-                                "<25>{#g/alphysSideSad}* 我一直在... 担心，\n  如果我不陪同你，\n  你会做出什么。",
-                                "<25>{#g/alphysOhGodNo}* 啊，没说你\n  会做出什么坏事！",
+                                "<25>{#g/alphysSideSad}* 我一直在... 担心，\n  担心你会趁我不在\n  做出些什么事来...",
+                                "<25>{#g/alphysOhGodNo}* 啊，不是说你会做出\n  什么不好的事！",
                                 '<25>{#g/alphysWorried}* 就只是...',
-                                "<25>{#g/alphysCutscene2}* 你知道吗，\n  我觉得为你提供帮助\n  真的非常重要。",
+                                "<25>{#g/alphysCutscene2}* 就只是担心要是没有\n  我的帮助，你就可能会陷入\n  什么困境，懂了吗？",
                                 '<25>{#g/alphysCutscene2}* ...',
                                 "<25>{#g/alphysWelp}* 有一件事是肯定的，\n  那些守卫不应该攻击你。"
                             ]
@@ -2491,7 +2491,7 @@ export default {
                             '<25>{#g/alphysSmileSweat}* 过安检的时候，\n  最-最好跟着我。'
                         ],
             opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* 你-你们好呀。', "<32>{#p/basic}{#x1}* 好啊。{#x3}"],
-            opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* 哦-哦，\n  我觉得这里应该\n  没有守卫。'],
+            opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* 呃，哦！\n  这里好像本来就没守卫。'],
             opera6: ['<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* 呃，是-是啊！\n* 你好！'],
             opera7: () =>
                 world.bad_lizard === 1
@@ -2679,24 +2679,24 @@ export default {
                     ? ['<32>{#p/napstablook}* 呃，好吧......\n* 你真想聊的话，\n  私下聊也不是不行......']
                     : [
                         '<32>{#p/napstablook}* 嘿，呃......',
-                        '<32>{#p/napstablook}* 我看到了以前的实验室记录...'
+                        '<32>{#p/napstablook}* 我看了皇家实验室\n  以前的一些记录...'
                     ],
-            hapsta38: ['<32>{#p/mettaton}{#e/mettaton/34}* 所以...？'],
+            hapsta38: ['<32>{#p/mettaton}{#e/mettaton/34}* 嗯哼...？'],
             hapsta39: [
-                '<32>{#p/napstablook}* 嗯，有一段声音听起来像是...',
-                '<32>{#p/napstablook}* 像是......'
+                '<32>{#p/napstablook}* 嗯，有份录音文件里\n  有个声音听着很像...',
+                '<32>{#p/napstablook}* 很像......'
             ],
-            hapsta40: ["<33>{#p/mettaton}{#e/mettaton/11}* 亲爱的，\n  可以快点吗，\n  我们可没那么多时间。"],
+            hapsta40: ["<33>{#p/mettaton}{#e/mettaton/11}* 亲爱的，讲话能爽快点吗？\n  我们可没那么多时间。"],
             hapsta41: [
-                '<32>{#p/napstablook}* 像是你。',
+                '<32>{#p/napstablook}* ...很像你',
                 '<32>{#p/napstablook}{#e/mettaton/3}* .........\n* 真正的你。'
             ],
             hapsta42: [
                 '<32>{#p/mettaton}{#e/mettaton/2}* “真正的我”是吧？',
-                "<32>{#e/mettaton/0}* 等下，先别急着下结论。"
+                "<32>{#e/mettaton/0}* 那么，我们先打住，\n  别急着下结论。"
             ],
-            hapsta43: ["<32>{#p/finalghost}* 那段话是事实。"],
-            hapsta44: ['<32>{#p/mettaton}{#e/mettaton/6}* ...现在幽灵们\n  联手来对付我了啊。\n* 真可爱。'],
+            hapsta43: ["<32>{#p/finalghost}* 但那就是事实。"],
+            hapsta44: ['<32>{#p/mettaton}{#e/mettaton/6}* ...哦，你们幽灵现在是\n  在联手来对付我吗。\n* 真可爱。'],
             hapsta45: ['<25>{#p/alphys}{#g/alphysTheFactIs}* 和-和我没关系，\n  我-我保证...'],
             hapsta46: [
                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}{#e/mettaton/3}* 那-那我就不打扰了..."
@@ -2708,79 +2708,80 @@ export default {
             ],
             hapsta48: ['<25>{#p/alphys}{#g/alphysNeutralSweat}* 哎呀。'],
             hapsta49a: [
-                "<32>{#p/mettaton}{#e/mettaton/9}* 对，就是这样。",
+                "<32>{#p/mettaton}{#e/mettaton/9}* 哦，我明白了。",
                 "<32>{#e/mettaton/7}* 你们都出现在这里... \n  就是为了来带我回家的对吧。"
             ],
             hapsta49b: ['<32>{#e/mettaton/8}* “追逐梦想”就到此为止了，\n  是吧小幽？'],
             hapsta50: ['<32>{|}{#p/napstablook}* 表亲，我- {%}'],
-            hapsta51a: ['<32>{#p/mettaton}{#e/mettaton/18}* 哦，别叫我“表亲”。'],
+            hapsta51a: ['<32>{#p/mettaton}{#e/mettaton/18}* 别叫我“表亲”。'],
             hapsta51b: [
-                "<32>{#p/mettaton}{#e/mettaton/20}* 如果不是因为你，\n  我也许还会继续享受\n  这种平静的生活...",
-                '<32>{#p/mettaton}{#e/mettaton/17}* ...但并没有。\n* 你就是想让我重新【加入】到\n  家族企业。',
+                "<32>{#p/mettaton}{#e/mettaton/20}* 要是你不来打扰，\n  我也许还能继续享受\n  这种平静的生活...",
+                '<32>{#p/mettaton}{#e/mettaton/17}* ...但你偏要没事找事。\n* 你就【非得】让我回去收拾\n  家族企业的烂摊子。',
                 '<32>{#p/mettaton}{#e/mettaton/19}* 容我补充一下，\n  这家企业从经营第一天开始\n  就一直在亏损。'
             ],
-            hapsta52: ['<32>{#p/napstablook}{#e/mettaton/3}* .........\n* 我知道了。'],
+            hapsta52: ['<32>{#p/napstablook}{#e/mettaton/3}* .........\n* 我知道。'],
             hapsta53: [
-                '<32>{#p/mettaton}{#e/mettaton/17}* 哦，你知道什么！\n* 你真的理解\n  这对我的感受吗？'
+                '<32>{#p/mettaton}{#e/mettaton/17}* 哦，你知道个什么！\n* 你真能理解这给我种\n  什么感觉吗？'
             ],
-            hapsta54: ["<32>{#p/finalghost}* 考虑到我们都读过你的日记，\n  我觉得应该会的..."],
+            hapsta54: ["<32>{#p/finalghost}* 我们好歹也算读过你的日记，\n  所以小幽肯定能理解的..."],
             hapsta55a: [
-                "<32>{#p/mettaton}{#e/mettaton/19}* 我不在乎你们是否读过我的日记，\n  我只想让你们从我这里听到...",
-                '<32>{#p/mettaton}{#e/mettaton/3}* ...\n* 听着，“表亲”。\n* 这一切都与这个工作无关。',
-                '<32>{#p/mettaton}{#e/mettaton/14}* 养蜗牛的这份工作也许不是\n  最迷人的消遣，\n  但我喜欢它本来的样子。',
-                "<32>{#p/mettaton}{#e/mettaton/13}* 但是... \n  我一离开农场，\n  这就会成为一个问题...",
-                "<32>{#p/mettaton}* ...你们这些人都不愿意\n  拿出即使是一秒钟的时间\n  用来关心我吗？"
+                "<32>{#p/mettaton}{#e/mettaton/19}* 你们读没读日记，根本不重要，\n  我本人什么态度，听我亲口说。",
+                '<32>{#p/mettaton}{#e/mettaton/3}* ...',
+'<32>{#p/mettaton}{#e/mettaton/3}* 咳咳，我的“表亲”。\n* 问题的根本，从来不在\n  家族企业本身。',
+                '<32>{#p/mettaton}{#e/mettaton/14}* 养蜗牛来打发时间\n  也许没有那么迷人，\n  但我喜欢它本来的样子。',
+                "<32>{#p/mettaton}{#e/mettaton/13}* 可是呢... \n  只要我踏出农场半步，\n  农场就得出事...",
+                "<32>{#p/mettaton}* ...让我看清你们\n  根本就不关心我。"
             ],
             hapsta55b: [
-                '<32>{#p/mettaton}{#e/mettaton/16}* 关怀的电话...\n  突如其来的拜访...\n  这些都不存在...',
+                '<32>{#p/mettaton}{#e/mettaton/16}* 关怀的电话...\n  意外的拜访...\n  这些都不存在...',
 '<32>{#p/mettaton}{#e/mettaton/16}* 唯一就是偶尔问一句\n  “嘿，你啥时候回来工作？”',
-                "<32>{#p/mettaton}{#e/mettaton/15}* 这对我来说很明显，\n  在某些时刻，\n  我只是个顺手的工具罢了...",
+                "<32>{#p/mettaton}{#e/mettaton/15}* 还要我继续说吗？\n  有的时候啊，在你们看来，\n  我只是个趁手的工具罢了...",
                 '<32>{#p/mettaton}{#e/mettaton/11}* 只是这个伟大的\n  幽灵家族机器上的一个齿轮。'
             ],
             hapsta56: ['<32>{#p/napstablook}* ...............'],
-            hapsta57a: ['<32>{#p/mettaton}{#e/mettaton/2}* 无话可说了是吧？\n* 对，我就知道会这样。'],
+            hapsta57a: ['<32>{#p/mettaton}{#e/mettaton/2}* 一下子没话说了，对吧？\n* 呵，我就知道会这样。'],
             hapsta57b: [
-                "<32>{#p/mettaton}{#e/mettaton/5}* 老实说，\n  我压根不在乎\n  你们会说啥。",
+                "<32>{#p/mettaton}{#e/mettaton/5}* 老实讲，你们到底要说啥，\n  我压根不在乎。",
                 "<32>{#p/mettaton}{#e/mettaton/10}* 我已经得到了\n  生活中我想要的一切，\n  再看看你们...",
                 '<32>{#p/mettaton}{#e/mettaton/12}* 依附训练人偶，\n  乞求残羹剩饭。'
             ],
-            hapsta58: ["<32>{#p/finalghost}* 你说你压根不关心我们，\n  但你还是会邀请我们\n  参与你的节目。"],
+            hapsta58: ["<32>{#p/finalghost}* 你说你压根不在乎我们，\n  但你还是会邀请我们\n  参加你的节目。"],
             hapsta59: [
-                '<32>* 在最近的节目中，\n  你甚至给了小幽\n  特殊的待遇...',
-                "<32>* 踢出其他选手，\n  令其在最后一轮\n  与人类竞争。"
+                '<32>* 之前那档综艺节目，\n  你甚至特别照顾了小幽...',
+                "<32>* 把其他选手踢下场，让小幽有机会\n  与人类竞争最终奖品。"
             ],
-            hapsta60: ['<32>{#p/mettaton}{#e/mettaton/5}* ...只是怜悯罢了。'],
-            hapsta61: ['<32>{#p/basic}* 又或者... 其实在你内心深处\n  也有想要回来的想法！'],
-            hapsta62: ['<32>{#p/mettaton}{#e/mettaton/11}* 哈哈哈...\n* 开什么银河系玩笑。'],
-            hapsta63: ["<32>{#p/napstablook}* 我很抱歉，表亲"],
+            hapsta60: ['<32>{#p/mettaton}{#e/mettaton/5}* ...可怜可怜它而已。'],
+            hapsta61: ['<32>{#p/basic}* 又或者... 你内心深处\n  其实还是想回来的嘛！'],
+            hapsta62: ['<32>{#p/mettaton}{#e/mettaton/11}* 哈哈哈...\n* 开什么星际玩笑。'],
+            hapsta63: ["<32>{#p/napstablook}* 表亲，对不起"],
             hapsta64: ['<32>{#p/mettaton}{#e/mettaton/21}* ...哦？'],
             hapsta65a: [
-                "<32>{#p/napstablook}* 在你走后，\n  我们就跟不上客户的需求了...",
-                "<32>{#p/napstablook}{#e/mettaton/15}* 为此，\n  我们必须缩小农场规模\n* 现在农场... 再不如前..."
+                "<32>{#p/napstablook}* 在你走后，我们就跟不上\n  客户的需求了...",
+                "<32>{#p/napstablook}{#e/mettaton/15}* 我们不得不缩小农场规模\n* 现在农场... 再不如前..."
             ],
-            hapsta65b: ['<32>{#p/napstablook}* 在你离开前，\n  我们从来都没意识到\n  你对我们的重要性...'],
-            hapsta65c: ["<32>{#p/napstablook}{#e/mettaton/4}* 所以... 为曾发生过的一切\n* 我真的感到抱歉........."],
+            hapsta65b: ['<32>{#p/napstablook}* 你离开后，我才意识到\n  你对我们来说有多么重要...'],
+            hapsta65c: ["<32>{#p/napstablook}{#e/mettaton/4}* 所以... 之前让你遭了这么多罪...\n* 我真的很对不起........."],
             hapsta66a: [
-                '<32>{#p/mettaton}* 我知道了。',
-                '<32>{#p/mettaton}{#e/mettaton/6}* ...我知道了。',
+                '<32>{#p/mettaton}* 懂了。',
+                '<32>{#p/mettaton}{#e/mettaton/6}* ...这下是真懂了。',
                 "<32>{#p/mettaton}{#e/mettaton/5}* 你就是那种被提溜着耳朵出来骂\n  才会库库下跪磕头\n  道歉的人是吧？"
             ],
-            hapsta66b: ['<32>{#p/mettaton}{#e/mettaton/0}* 呵，我早该知道的。'],
+            hapsta66b: ['<32>{#p/mettaton}{#e/mettaton/0}* 呵，我咋早没明白呢。'],
             hapsta67: ["<32>{|}{#p/napstablook}* 不是- {%}"],
             hapsta68a: [
-                '<32>{#p/mettaton}{#e/mettaton/3}* 不，我明白了。\n  你想让我原谅你然后你就可以拍拍\n  屁股走人当一切都没发生过对吧？',
+                '<32>{#p/mettaton}{#e/mettaton/3}* 不不不，我懂你。\n  你想让我原谅你然后你就可以拍拍\n  屁股走人当一切都没发生过对吧？',
                 "<32>{#p/mettaton}{#e/mettaton/5}* 好吧，恐怕事情发展\n  不会如你所愿，小幽。"
             ],
-            hapsta68b: ["<32>{#p/mettaton}{#e/mettaton/6}* ...总之，\n  我要去准备一场\n  压轴演出..."],
-            hapsta68c: ["<32>{#p/mettaton}{#e/mettaton/11}* 所以，如果你不介意，\n  我现在就会走人。"],
+            hapsta68b: ["<32>{#p/mettaton}{#e/mettaton/6}* ...得了吧，我还有一场\n  压轴表演要准备呢..."],
+            hapsta68c: ["<32>{#p/mettaton}{#e/mettaton/11}* 要是你不介意，\n  我现在得走人了。"],
             hapsta69: ['<32>{#p/basic}* 给老子回来。\n* 给老子回来！\n* 给-老-子-回-来！！！'],
-            hapsta70: ["<33>{#p/finalghost}* 我觉得他不会回来的。"],
+            hapsta70: ["<33>{#p/finalghost}* 歇歇吧，他不会回来的。"],
             hapsta71: [
                 '<32>{#p/napstablook}* 也许...\n  他只是需要一点\n  私人空间而已......',
                 '<32>{#p/napstablook}* 我们应该给他一个机会.........'
             ],
             hapsta72: ["<32>{#p/basic}* 纯纯浪费时间。\n* 我回安黛因家去了。"],
-            hapsta73: ['<32>{#p/finalghost}* 小幽，干得不错。', '<32>{#p/finalghost}* 干得不错。'],
+            hapsta73: ['<32>{#p/finalghost}* 小幽，这算个不错的尝试了。', '<32>{#p/finalghost}* 嗯，不错的尝试。'],
             hapsta74: ['<32>{#p/napstablook}* 不............'],
             hapsta75: () =>
                 SAVE.data.b.oops
@@ -2789,7 +2790,7 @@ export default {
                         "<25>{#p/alphys}{#g/alphysCutscene2}* 我认-认识镁塔顿\n  已经有一段时间了。",
                         "<25>{#p/alphys}{#g/alphysCutscene2}* 除非他需要时间思考，\n  否则不会那样离开的。",
                         '<32>{#p/napstablook}* 是啊...',
-                        '<32>{#p/napstablook}* 应该是......'
+                        '<32>{#p/napstablook}* 应该吧......'
                     ]
                     : [
                         "<32>{#p/basic}* 你也知道他来过这套吧？",
@@ -2817,20 +2818,20 @@ export default {
                     ? [
                         '<25>{#p/alphys}{#g/alphysInquisitive}* 更不用提\n  “$(name)”的事了...',
                         "<25>* 据我所知，\n  那人死了将近一百年了...",
-                        "<25>{#g/alphysWelp}* 哦算了。\n* 他们以后\n  应该会告诉我的。",
+                        "<25>{#g/alphysWelp}* 哦算了。\n* 他们以后会跟我谈这事的。",
                         "<25>{#g/alphysWelp}{#x5}* 说到这里，\n  你应该想要出发了..."
                     ]
                     : [
                         "<25>{#p/alphys}{#g/alphysInquisitive}* 不过看起来，\n  我们是平安无事了...",
                         "<25>{#g/alphysWelp}{#x5}* 这意味着...\n  你应该想要出发了..."
                     ]),
-                '<25>{#g/alphysTheFactIs}{#x6}* 我大概也得回到\n  实验室去了...',
+                '<25>{#g/alphysTheFactIs}{#x6}* 我大概也得回\n  实验室去了...',
                 '<25>{#g/alphysNervousLaugh}{#x5}* 所以...\n  我们，回头见？',
                 ...(SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew || SAVE.data.b.mewget
                     ? [
                         "<25>{#g/alphysUhButHeresTheDeal}* 呃，但-但别担心！\n* 我会给你打电话的！\n  等你到...",
                         '<25>{#g/alphysNervousLaugh}* 等你...',
-                        "<25>{#g/alphysHellYeah}* 我-我会跟你保持\n  联络的！"
+                        "<25>{#g/alphysHellYeah}* 我-我会跟你保持联络的！"
                     ]
                     : [
                         ...(!SAVE.storage.inventory.has('tvm_mewmew') && // NO-TRANSLATE
@@ -2844,7 +2845,7 @@ export default {
                                     '<25>{#g/alphysNervousLaugh}* ...',
                                     '<25>{#g/alphysFR}* ...其实，在走之前，\n  我想跟你说一声。',
                                     '<25>{#f/33}* 我找到了\n  被你抛弃的喵喵玩偶。',
-                                    "<25>{#g/alphysCutscene3}* 现在物归原主了。\n* 我永远不会再次抛弃它。",
+                                    "<25>{#g/alphysCutscene3}* 现在物归原主了。\n* 我再也不会让它离开我了。",
                                     '<25>{#g/alphysHellYeah}* 好-好耶！'
                                 ])
                             : [
@@ -2971,7 +2972,7 @@ export default {
                                 '<32>{#e/mettaton/5}* 可别真以为\n  我会对你手下留情，\n  亲爱的“$(moniker2u)”。',
                                 "<32>{#e/mettaton/0}* 好吧，你当然不这么认为。\n* 但你并没有为接下来的发展\n  做好准备。",
                                 '<32>{#e/mettaton/10}* 如果你认为你已经准备好了，\n  那就请便吧。',
-                                "<32>{#e/mettaton/31}* 当你最终【失败】时，\n  可别将过错归咎于我！"
+                                "<32>{#e/mettaton/31}* 当你最后【失败】时，\n  可别将过错归咎于我！"
                             ]
                             : [
                                 '<32>{#e/mettaton/4}* 我得承认...',
@@ -3249,35 +3250,36 @@ export default {
                                             "<25>{#g/alphysSideSad}* 只是...\n  安黛因的死-死亡...",
                                             '<25>{#g/alphysSideSad}* 还有那些空境居民的死亡...'
                                         ]),
-                                "<25>{#g/alphysThatSucks}* ...我不知道我该做什么..."
+                                "<25>{#g/alphysThatSucks}* ...我不知道我还能做什么..."
                             ]
                             : [
-                                "<25>{#g/alphysHaveSomeCompassion}* 我知道你\n  杀了那么多人民。",
+                                "<25>{#g/alphysHaveSomeCompassion}* 你杀了很多人，\n  我不是不知道。",
                                 ...(SAVE.data.n.kills_aerialis / 2 +
                                     SAVE.data.n.corekills +
                                     (SAVE.data.b.killed_knightknight ? 1 : 0) +
                                     (SAVE.data.b.killed_madjick ? 1 : 0) >
                                     2
                                     ? [
-                                        "<25>{#g/alphysSideSad}* 即使在我离开实验室后，\n  我还-还是在继续\n  观察着你...",
-                                        '<25>{#g/alphysSideSad}* 穿过了待命区...\n* 又穿过了核心...'
+                                        "<25>{#g/alphysSideSad}* 即使离开实验室后，\n  我还-还是在继续观察着\n  你的一举一动...",
+                                        '<25>{#g/alphysSideSad}* 看着你穿过了待命区...\n* 又穿过了核心...'
                                     ]
                                     : [
                                         "<25>{#g/alphysSideSad}* 自从你来到这里，\n  我就一直在实验室\n  观-观察着你...",
-                                        '<25>{#g/alphysSideSad}* 穿过星港...\n* 又穿过铸厂...'
+                                        '<25>{#g/alphysSideSad}* 看着你穿过了星港...\n* 又穿过了铸厂...'
                                     ]),
-                                "<25>{#g/alphysNeutralSweat}* 你就没有停下来为\n  那些怪物的生命着想吗？",
-                                '<25>{#g/alphysThatSucks}* 没想过他们的...\n  家人朋友知道了会怎么样？',
+                                '<25>{#g/alphysSideSad}* 你走了这么远的路，\n  又经历了这么多事...',
+'<25>{#g/alphysNeutralSweat}* 我不明白，\n  你难道从来就没在乎过\n  那些怪物的生命吗？',
+                                '<25>{#g/alphysThatSucks}* 没有考虑过，\n  他们的家人朋友知道他们\n  被杀害后的感受吗？',
                                 ...(world.alphys_percieved_kills < 20
                                     ? [
                                         '<25>{#g/alphysNeutralSweat}* ...',
-                                        '<25>{#g/alphysNeutralSweat}* 我知道我本可以\n  更好地护送你...',
-                                        "<25>{#g/alphysHaveSomeCompassion}* 也许我也得为此担责。"
+                                        '<25>{#g/alphysNeutralSweat}* 哈，我这份护送你的工作\n  可能还是没做好，对吧？',
+                                        "<25>{#g/alphysHaveSomeCompassion}\n* 所以... 眼睁睁\n  看着你犯下如此暴行，\n  大概我也有责任吧。"
                                     ]
                                     : [
-                                        "<25>{#g/alphysIDK3}* 因为我一直在为此思考。",
-                                        '<25>{#g/alphysHaveSomeCompassion}* 我责怪自己为什么\n  要让这些发生，但是...',
-                                        '<25>{#g/alphysIDK2}* 杀死那些人是你的选择\n  我为何要为此担责？'
+                                        "<25>{#g/alphysIDK3}* 在这段时间里，\n  我一直在思索。",
+                                        '<25>{#g/alphysHaveSomeCompassion}* 我责怪自己为什么\n  要对你的行为放任不管，\n  这一切本不该发生的...',
+                                        '<25>{#g/alphysIDK2}* 这一切真的是我的错吗？\n  明明是你自己选择\n  杀了他们。'
                                     ])
                             ])
                     ],
@@ -3301,53 +3303,53 @@ export default {
                                 ...(world.alphys_percieved_kills < 10
                                     ? ['<25>{#p/alphys}{#g/alphysIDK3}* ...']
                                     : ['<25>{#p/alphys}{#g/alphysIDK3}* 最令我痛心的是... 安黛因。']),
-                                '<25>{#p/alphys}{#g/alphysIDK3}* 如果有一个怪物\n  想将我们从这牢笼中\n  解救出来...',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* 最应该是的就是她。',
+                                '<25>{#p/alphys}{#g/alphysIDK3}* 如果说有一个怪物，\n  以我们的自由为目标\n  而努力奋斗着...',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* 那最具代表性的就是她。',
                                 '<25>{#p/alphys}{#g/alphysSideSad}* 她代表自由，代表正义...',
                                 ...(world.alphys_percieved_kills < 10
                                     ? [
-                                        '<25>{#p/alphys}{#g/alphysSmileSweat}* 也许她对你有点无情...',
+                                        '<25>{#p/alphys}{#g/alphysSmileSweat}* 尽管她对你有点无情...',
                                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...但是...'
                                     ]
                                     : [
                                         "<25>{#p/alphys}{#g/alphysNeutralSweat}* 你好像根本不在乎。",
                                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...'
                                     ]),
-                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* 她是我的英雄。',
-                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 我仰望着的那一位。',
-                                '<25>{#p/alphys}{#g/alphysNeutralSweat}* 给我希望的那一位。',
-                                '<25>{#p/alphys}{#g/alphysThatSucks}* ...但看到她就这么\n  被杀害了，就像...',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* ...就像看着\n  希望在眼前被撕碎。',
-                                '<25>{#p/alphys}{#g/alphysIDK2}* 被撕成满天的碎片。',
-                                '<25>{#p/alphys}{#g/alphysIDK3}* 变得荡然无存。',
-                                "<25>{#p/alphys}{#g/alphysIDK3}* 而这一切的始作俑者，\n  ...就是你。",
+                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* ...安黛因是我的英雄。',
+                                '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 我最敬仰的... 是她。',
+                                '<25>{#p/alphys}{#g/alphysNeutralSweat}* 让我满怀希望的... 也是她。',
+                                '<25>{#p/alphys}{#g/alphysThatSucks}\n* 我就这么眼睁睁看着你...\n  轻而易举地杀了她，\n  感觉就像...',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* ...就像重拾的希望\n  在眼前又瞬间破灭...',
+                                '<25>{#p/alphys}{#g/alphysIDK2}* 变成满天的碎片...',
+                                '<25>{#p/alphys}{#g/alphysIDK3}* ...荡然无存。',
+                                "<25>{#p/alphys}{#g/alphysIDK3}* 而这一切的始作俑者\n  ...就是你。",
                                 '<25>{#p/alphys}{#g/alphysIDK2}* ...'
                             ]
                             : ['<25>{#p/alphys}{#g/alphysThatSucks}* ...']),
-                        "<25>* 无论如何，\n  我对此无能为力。",
-                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* 现在我也只是\n  心有余而力不足。"
+                        "<25>* 不管怎样，\n  我对此都... 无能为力。",
+                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* 即使到了现在，\n  我也只是心有余而力不足。"
                     ],
             endwalk3: () =>
                 !world.baddest_lizard
                     ? [
-                        "<25>{#p/alphys}{#g/alphysSideSad}* 我... \n  我现在不能为此说太多...",
+                        "<25>{#p/alphys}{#g/alphysSideSad}* 我... \n  我现在还不能说太多...",
                         '<25>{#g/alphysNeutralSweat}* 作为皇家科学员，\n  我的职责就是护送你安全地\n  见到国王。',
                         "<26>{#g/alphysWorried}* 如果被其他人发-发现了，\n  他们就会认为我们在阻碍\n  我们一族的自由。",
                         "<25>{#g/alphysHaveSomeCompassion}* ...\n* 我们只是想做正确的事。"
                     ]
                     : world.alphys_percieved_kills < 10
                         ? [
-                            "<25>{#p/alphys}{#g/alphysIDK2}* ...我并不是\n  在抱怨什么的。",
-                            "<25>{#p/alphys}{#g/alphysIDK3}* 无论如何，\n  我根本就不适合护送你。"
+                            "<25>{#p/alphys}{#g/alphysIDK2}* ...倒不是说我在抱怨什么的。",
+                            "<25>{#p/alphys}{#g/alphysIDK3}* 实话说，\n  我根本就不适合护送你。"
                         ]
                         : world.alphys_percieved_kills < 20 || SAVE.data.n.state_foundry_undyne !== 2
                             ? [
-                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* ...我并不是\n  在抱怨什么的。",
-                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* 我真的不想和你在一起。"
+                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* ...倒不是说我在抱怨什么的。",
+                                "<25>{#p/alphys}{#g/alphysNeutralSweat}* 我是真的不想和你在一起。"
                             ]
                             : [
                                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* ...要知道，你很幸运。",
-                                "<26>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 要不是因为职责所在，\n  不然我就会亲手杀了你。"
+                                "<26>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* 要不是职责所在，\n  不然我就会亲手杀了你。"
                             ],
             endwalk4: () =>
                 !world.baddest_lizard
@@ -3357,8 +3359,8 @@ export default {
                         ...(world.postnoot
                             ? world.nootflags.has('undyne') // NO-TRANSLATE
 
-                                ? ['<25>{#g/alphysWelp}* ...即使供气系统发生故障。']
-                                : ["<25>{#g/alphysInquisitive}* ...即使空气里\n  有种奇怪的味道..."]
+                                ? ['<25>{#g/alphysWelp}* ...就算是供气系统发生故障\n  也不会出啥事的。']
+                                : ["<25>{#g/alphysInquisitive}* ...就算空气里\n  有种奇怪的味道..."]
                             : [])
                     ]
                     : [
@@ -3367,7 +3369,7 @@ export default {
                         ...(world.postnoot
                             ? world.nootflags.has('undyne') // NO-TRANSLATE
 
-                                ? ['<25>{#g/alphysFR}* ...尽管供气系统...']
+                                ? ['<25>{#g/alphysFR}* ...就算供气系统...']
                                 : ["<25>{#g/alphysFR}* ...不管空气里有什么..."]
                             : [])
                     ]
@@ -3379,12 +3381,12 @@ export default {
                         "<32>{#p/human}* （你弯腰从侧面看桌子。）\n* （它比看起来要平。）",
                         ...[
                             [
-                                "<26>{#p/asriel1}{#f/20}* 是啊。\n* 这里根本没有菜...",
+                                "<26>{#p/asriel1}{#f/20}* 是啊。\n* 这上面就没有什么餐具...",
                                 '<26>{#f/15}* 镁塔顿，呃，\n  对这房间有一些计划。'
                             ],
                             [
                                 '<25>{#p/asriel1}{#f/13}* 没记错的话...\n  他想在这主持个\n  喜剧节目。',
-                                '<25>{#f/15}* 关于晚宴的。',
+                                '<25>{#f/15}* 内容是关于晚宴的。',
                                 "<25>{#f/16}* ...这跟听起来一样无聊。"
                             ],
                             [

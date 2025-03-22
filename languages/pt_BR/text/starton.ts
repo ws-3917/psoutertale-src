@@ -539,7 +539,7 @@ export default {
                     [
                         '<25>{#p/asriel2}{#f/13}* ... $(name), você...',
                         '<25>{#f/17}* Você acha que pode tomar frente daqui?',
-                        "<25>{#f/15}* Não que tenha algo de errado como, mas...",
+                        "<25>{#f/15}* Não que tenha algo de errado comigo, mas...",
                         "<25>{#f/16}* Eu só acho que você é melhor do que eu nisso.",
                         "<25>{#f/17}* É, é isso.\n* Você é melhor nesse tipo de coisa."
                     ],
@@ -579,7 +579,7 @@ export default {
                 [
                     [
                         "<25>{#p/asriel2}{#f/6}* Okay, $(name).\n* A cidade é toda sua.",
-                        "<25>{#f/7}* No meio tempo, eu vou precisar fazer algo importante para mais tarde.",
+                        "<25>{#f/7}* No meio tempo, eu vou precisar fazer algo importante mais tarde.",
                         "<25>{#f/1}* Eu estarei de volta antes que você saiba."
                     ],
                     ['<25>{#p/asriel2}{#f/1}* Te vejo de novo depois da cidade.']
@@ -591,7 +591,7 @@ export default {
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
                             "<25>{#f/10}* ... pera, cadê o Papyrus?",
                             '<25>{#f/10}* ...',
-                            "<25>{#f/4}* Senhor, $(name), eu não pensei que você o mataria com TANTA velocidade."
+                            "<25>{#f/4}* Senhor, $(name), eu não pensei que você o mataria dessa forma."
                         ]
                         : [
                             '<25>{#p/asriel2}{#f/2}* Hee.\n* Hee.\n* Hee....',
@@ -641,7 +641,7 @@ export default {
                 '<25>{|}{#p/asgore}{#f/3}* Olha, filho, eu só- {%}',
                 "<25>{#p/asriel2}{#f/7}* Eu não sou seu filho.\n* Eu não tenho SIDO seu filho a muito tempo.",
                 '<25>{#p/asgore}{#f/2}* ...',
-                '<25>{#p/asgore}{#f/1}* Certo, Asriel.\n* Você não percebe o que está fazendo consigo mesmo?',
+                '<25>{#p/asgore}{#f/1}* Certo, Asriel.\n* Você não percebe o que está fazendo consigo?',
                 "<25>{#f/2}* Você se tornou psicopático.\n* Imperdoável.",
                 "<25>{#p/asriel2}{#f/8}* Ugh, não diga como se você realmente ligasse pra mim, pai.",
                 '<25>{#p/asgore}{#f/5}* ...',
@@ -676,7 +676,7 @@ export default {
                 "<25>{#p/asriel2}{#f/3}* Acabou.\n* Você está perdendo seu tempo nele.", 
                 "<18>{#p/papyrus}{#f/6}MAS NÃO PODE SER...\nSANS, ELE...",
                 '<18>{#f/31}ELE PROMETEU...',
-                "<25>{#p/asriel2}{#f/8}* Aquele preguiçoso é a ULTIMA pessoa da qual eu confiaria manter a promessa.",
+                "<25>{#p/asriel2}{#f/8}* Aquele preguiçoso é a ULTIMA pessoa que eu confiaria uma promessa.",
                 "<26>{#f/9}* Não que eu seja melhor.", 
                 '<18>{#p/papyrus}{#f/31}...',
                 "<18>{#f/3}DESCULPA.\nEU TENHO QUE IR..."
@@ -685,7 +685,7 @@ export default {
                 '<18>{#p/papyrus}{#f/31}OLHA, EU ACABEI DE VOLTAR DA UNDYNE...',
                 '<18>{#f/31}ELA ME DISSE QUE O REI TEM UMA OFERTA.',
                 '<25>{#p/asriel2}{#f/6}* ...',
-                '<18>{#p/papyrus}{#f/3}SUAS EXATAS PALAVRAS FORAM \"EU QUERO VER MEU FILHO.\"',
+                '<18>{#p/papyrus}{#f/3}SUAS PALAVRAS FORAM \"EU QUERO VER MEU FILHO.\"',
                 '<18>{#f/7}...',
                 
                 "<18>{#f/7}EU NÃO ACREDITO QUE O PRÍNCIPE MATOU MEU IRMÃO!",
@@ -704,7 +704,7 @@ export default {
                 '<18>{#p/papyrus}{#f/31}...',
                 '<25>{#p/asriel2}{#f/4}* Deixe-me ser claro.\n* Eu admiro seu esforço.',
                 "<25>{#f/3}* Mas nós temos nossos próprios planos.",
-                "<18>{#p/papyrus}{#f/4}SÓ PRA VOCÊ SABER UNDYNE PROVAVELMENTE ESTÁ NOS ASSISTINDO AGORA.",
+                "<18>{#p/papyrus}{#f/4}OLHA, UNDYNE PROVAVELMENTE ESTÁ NOS ASSISTINDO AGORA.",
                 '<25>{#p/asriel2}{#f/3}* E seu ponto é?',
                 "<25>{#f/4}* ... olha Papyrus, não importa o que você ou qualquer um faça.",
                 '<25>{#f/1}* Quando nós dois estamos juntos, NADA pode nos separar.',
@@ -723,7 +723,7 @@ export default {
                     : SAVE.flag.n.genocide_milestone < 6
                         ? ["<25>{#p/asriel2}{#f/6}* Não.\n* Mas, eu tenho certeza que ela amaria se eu o fizesse."]
                         : ["<25>{#p/asriel2}{#f/6}* Não.\n* E ela vai morrer no final também, de toda forma."]),
-                '<18>{#p/papyrus}{#f/31}MAS, SE VOCÊ REALMENTE PODE RESETAR O QUE ACONTECE...',
+                '<18>{#p/papyrus}{#f/31}MAS, SE VOCÊ PODE RESETAR O QUE ACONTECE...',
                 '<18>{#f/5}ENTÃO, POR QUE NÃO?',
                 "<18>{#f/31}E, NA PRÓXIMA LINHA DO TEMPO... EU VOU TOMAR O LUGAR DELE.",
                 "<18>{#f/3}ENTÃO ELE NÃO VAI PRECISAR MORRER, CERTO?",
@@ -795,7 +795,7 @@ export default {
                 '<18>{#f/31}ELE ACREDITOU NA HUMANIDADE ANTES DE TODO MUNDO.',
                 '<18>{#f/4}VOCÊ, POR OUTRO LADO...',
                 '<18>{#f/7}VOCÊ SÓ QUER USÁ-LO PARA SEUS PRÓPRIOS FINS!',
-                "<18>{#f/4}E FRANCAMENTE, EU NÃO ME IMPORTO COM O QUE VOCÊ TEM A DIZER.",
+                "<18>{#f/4}E EU NÃO ME IMPORTO COM O QUE VOCÊ TEM A DIZER.",
                 '<18>{#f/9}EU AINDA TENHO ESPERANÇA NESTE HUMANO.',
                 "<25>{#p/asriel2}{#f/8}* Pois, se você tem tanta esperança nele...",
                 '<25>{#f/7}* Então me prove errado.',
@@ -926,7 +926,7 @@ export default {
             '<32>* Obrigado, cheiro estranho! \n* (Com certeza foi divertido pegar uma \"chave inglesa\" nas obras!)'
         ],
         marriage3c: [
-            "<32>{#p/basic}* Está ficando cada vez mais difícil de respirar...\n* (Cada vez mais difícil de enxergar...)",
+            "<32>{#p/basic}* Está difícil de respirar...\n* (Cada vez mais difícil de enxergar...)",
             "<32>* Vamos meter o pé daqui!"
         ],
         marriage3d: [
@@ -949,7 +949,7 @@ export default {
                     "<25>{#p/sans}{#f/3}* É bem triste que o Papyrus não possa estar aqui, por que...",
                     "<25>{#p/sans}{#f/2}* Ele tem trabalho bem duro e por um bom tempo nestes quebra-cabeças.",
                     "<25>{#p/sans}{#f/0}* mas tudo bem.",
-                    "<25>{#p/sans}{#f/0}* eu prometi pra ele mais cedo que eu te mostraria, então aí vai."
+                    "<25>{#p/sans}{#f/0}* eu prometi pra ele que eu te mostraria, então aí vai."
                 ]
                 : [
                     '<18>{#p/papyrus}OHO, O HUMANO APARECE!',
@@ -1199,7 +1199,7 @@ export default {
                                 ? [
                                     "<32>{#p/basic}{#npc/a}* Ouvi dizer que se você segurar [X] em batalha, você moverá com metade da velocidade!",
                                     '<32>* Eu sei... preguiçoso, certo?',
-                                    "<32>* Mas eu vou te deixar um segredo.\n* Aquele cachorro bem aqui... não espera que você se mova devagar.",
+                                    "<32>* Mas aqui vai um segredo. Aquele cachorro bem alí, não espera que você se mova devagar.",
                                     '<32>* Se você se aproximar dele enquanto segura [X], poderá passar despercebido!',
                                     '<32>* Guh huh huh... boa sorte.'
                                 ]
@@ -1259,7 +1259,7 @@ export default {
                                     ? [
                                         '<32>{#p/basic}{#npc/a}* Onde é que está o Sans?',
                                         '<32>* Ele me disse que tinha um mapa estelar que eu poderia usar para encontrar garotas...',
-                                        '<32>* Quer dizer, provavelmente era algum tipo de pegadinha, mas eu queria saber qual era a pegadinha!'
+                                        '<32>* Quer dizer, provavelmente era algum tipo de pegadinha, mas eu queria saber qual era!'
                                     ]
                                     : [
                                         '<32>{#p/basic}{#npc/a}* Eu tentei dar uma ligada para algumas \"garotas\" hoje.',
@@ -1504,7 +1504,7 @@ export default {
                                     : SAVE.data.n.state_starton_greatdog === 2
                                         ? ["<32>{#p/basic}{#npc/a}* (Onde está o Major Canis?)\n* (Era pra ele se juntar a gente pra essa partida.)"]
                                         : papreal()
-                                            ? ['<32>{#p/basic}{#npc/a}* (Onde estão aqueles esqueletos?)\n* (Eu queria um ossinho deles...)']
+                                            ? ['<32>{#p/basic}{#npc/a}* (Onde estão aqueles esqueletos?)\n* (Eu queria um ossinho...)']
                                             : [
                                                 "<32>{#p/basic}{#npc/a}* (Nós somos sentinelas, mas nunca ganhamos nenhum respeito.)",
                                                 '<32>* (Eu queria que aqueles esqueletos nos jogassem mais ossos.)',
@@ -1620,11 +1620,11 @@ export default {
                                     ]
                                 : papreal() || world.dead_canine || world.population < 6
                                     ? [
-                                        "<32>{#p/basic}{#npc/a}* A Cidadela está enchendo bastante, então ouvi dizer que muitos vão começar a se mudar pra cá.",
+                                        "<32>{#p/basic}{#npc/a}* A Cidadela está enchendo bastante, então ouvi dizer que muitos vão mudar pra cá.",
                                         "<32>* ... quem sabe?\n* Talvez tenhamos espaço para eles."
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* A Cidadela está enchendo bastante, então ouvi dizer que muitos vão começar a se mudar pra cá.",
+                                        "<32>{#p/basic}{#npc/a}* A Cidadela está enchendo bastante, então ouvi dizer que muitos vão mudar pra cá.",
                                         "<32>* Hmmm...\n* Eu não quero a cultura local se esvair.",
                                         "<32>* Mas seria muito legal ensinar aquele pessoal de apartamento como as coisas funcionam aqui!"
                                     ],
@@ -2301,7 +2301,7 @@ export default {
                                 '<32>* Que tudo está ficando pior, e pior...\n* E pior.'
                             ]
                             : [
-                                '<32>{#p/basic}{#npc/a}* Todo mundo está sempre rindo e fazendo piadas, tentando esquecer nossa crise moderna...',
+                                '<32>{#p/basic}{#npc/a}* Todo mundo está sempre rindo e fazendo piadas, tentando esquecer nossa crise...',
                                 '<32>* Monotonia.\n* Aglomeração.\n* Falta de um mundo natal.',
                                 "<32>* Eu me juntaria a eles, mas não me acho muito da graça."
                             ],
@@ -3523,19 +3523,19 @@ export default {
             "<25>* não se preocupa, colega.",
             "<25>{#f/2}* eu vou manter um olho aberto por você."
         ],
-        papyrus6x1: ['<18>{#p/papyrus}{#f/5}H-HUMAN?\nÉ VOCÊ...?'],
+        papyrus6x1: ['<18>{#p/papyrus}{#f/5}H-HUMANO?\nÉ VOCÊ...?'],
         papyrus6x2: [
             "<18>{#p/papyrus}{#f/1}OH MEU DEUS!!!\nÉ REALMENTE VOCÊ, NÃO É!?!?",
-            "<18>{#p/papyrus}{#f/0}EU TENHO ESPERADO MUITO PARA TE VER DESTE QUE OUVI SOBRE SUA CHEGADA.",
+            "<18>{#p/papyrus}{#f/0}ESTAVA ANSIOSO PARA TE VER AO SABER DE TI!",
             "<18>{#p/papyrus}{#f/4}... POR QUE EU SÓ APARECI AGORA?",
             '<18>{#p/papyrus}{#f/6}BEM, EU TENHO RAZÃO PARA ACREDITAR...',
-            '<18>{#p/papyrus}{#f/5}... QUE MEU IRMÃO TEM TENTANDO TE MANTER LONGE DE MIM.',
+            '<18>{#p/papyrus}{#f/5}QUE MEU IRMÃO TEM TENTANDO TE MANTER LONGE DE MIM.',
             '<18>{#p/papyrus}{#f/7}TÍPICO!!!',
             '<18>{#p/papyrus}{#f/0}MAS NOSSA ALIANÇA PODE SER NOSSO PEQUENO SEGREDO!',
             "<18>{#p/papyrus}{#f/9}ELE NÃO PRECISA SABER -NADICA- SOBRE ISSO!"
         ],
         papyrus6x3: [
-            "<18>{#p/papyrus}{#f/5}ACHO MELHOR EU IR LOGO ANTES QUE ELE DESCUBRA QUE ESTOU AQUI.",
+            "<18>{#p/papyrus}{#f/5}EU VOU INDO ANTES QUE ELE DESCUBRA QUE ESTOU AQUI.",
             "<18>{|}{#p/papyrus}{#f/9}EU TE ENCONTRO MAIS TARDE, HU- {%}"
         ],
         papyrus6x4: ['<32>{#p/without}* ... papyrus?'],
@@ -3669,7 +3669,7 @@ export default {
                 : papreal()
                     ? [
                         '<23>A TRISTEZA DE SABER QUE TANTAS PESSOAS FORAM MORTAS.',
-                        "<23>A DESESPERANÇA POR PENSAR QUE EU NÃO PODERIA FAZER NADA PARA IMPEDIR.",
+                        "<23>A DESESPERANÇA POR PENSAR QUE EU NÃO PODERIA IMPEDIR.",
                         '<23>A VONTADE DE FAZER A DIFERENÇA PARA MELHOR.',
                         '<23>ESSES SENTIMENTOS...'
                     ]
@@ -3682,7 +3682,7 @@ export default {
         papyrusFinal3: () =>
             world.genocide || papreal()
                 ? [
-                    '<18>{#f/31}ESSES SENTIMENTOS DEVEM SER O QUE VOCÊ ESTÁ SENTINDO.',
+                    '<18>{#f/31}ESSES SENTIMENTOS DEVEM SER O QUE VOCÊ SENTE.',
                     '<18>{#f/32}EU MAU POSSO IMAGINAR COMO DEVE SER ISSO...',
                     '<18>{#f/6}ATÉ PORQUE, EU SOU MUITO... BOM...',
                     '<18>{#f/32}{#x1}...',
@@ -3691,11 +3691,11 @@ export default {
                     '<18>{#f/31}EU SEI QUE VOCÊ PODE FAZER MELHOR.',
                     '<18>{#f/31}EU SEI QUE VOCÊ PODE MUDAR.',
                     ...(world.genocide
-                        ? ["<18>{#f/4}NÃO IMPORTA AS RIDÍCULAS COISAS QUE ESSE 'ASRIEL' DISSER..."]
+                        ? ["<18>{#f/4}NÃO IMPORTA AS COISAS QUE ESSE 'ASRIEL' DISSER..."]
                         : ['<18>{#f/5}NÃO IMPORTA O QUÃO IRREVERSÍVEL VOCÊ PENSA SER...']),
                     "<18>{#f/6}{#x2}EU SEI, QUE LÁ NO FUNDO, AINDA A BOM EM VOCÊ!",
                     '<18>{#f/0}ENTÃO DEIXE-ME TE AJUDAR A ENCONTRAR ESTA FELICIDADE.',
-                    '<18>{#f/0}DEIXE-ME TE AJUDAR A DESCOBRIR SEU VERDADEIRO POTENCIAL.',
+                    '<18>{#f/0}TE AJUDAREI A DESCOBRIR SEU POTENCIAL.',
                     '<18>{#f/4}E ACIMA DE TUDO...',
                     '<18>{#f/9}TE MOSTRAREI QUE VOCÊ AINDA PODE SER GRANDE!!!',
                     '<18>{#f/0}EU, PAPYRUS, TE RECEBO DE BRAÇOS ABERTOS!'
@@ -3788,16 +3788,16 @@ export default {
             "<18>{#f/0}E EU TE DAREI DIREÇÕES PARA A SAÍDA."
         ],
         papyrusFinal4c2: [
-            '<18>CONTINUE ANDANDO PELA DIREITA ATÉ CHEGAR NA CIDADELA.',
+            '<18>CONTINUE ANDANDO ATÉ CHEGAR NA CIDADELA.',
             '<18>ENTÃO, PULE EM UMA NAVE ESPACIAL PELO {@fill=#ff0}ESCUDO DE FORÇA{@fill=#fff}.',
             "<18>{#f/4}ESSA É A COISA QUE NOS MANTÉM PRESOS NO OUTPOST.",
-            '<18>TODOS PODEM ENTRAR POR ELE, MAS NINGUÉM PODE SAIR...',
+            '<18>QUALQUER UM PODE ENTRAR, MAS NINGUÉM SAIR...',
             '<18>{#f/9}... EXCETO PESSOAS COM ALMAS MUITO PODEROSAS.',
             '<18>{#f/0}IGUAL VOCÊ!!!'
         ],
         papyrusFinal4d: [
             '<18>{#f/4}OH, E EU QUASE ESQUECI DE MENCIONAR.',
-            '<18>PARA CHEGAR A SAÍDA, VOCÊ PRECISARÁ PASSAR POR...',
+            '<18>PARA CHEGAR A SAÍDA, VOCÊ PRECISARÁ PASSAR...',
             '<18>{#f/7}PELO {@fill=#ff0}REI{@fill=#fff}.',
             '<18>{@fill=#ff0}O REI DE TODOS OS MONSTROS...',
             '<18>{@fill=#ff0}ELE É...',
@@ -3942,7 +3942,7 @@ export default {
         robot12: ['<32>{#p/basic}* SUMA!'],
         sans1: [
             '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}humano.',
-            "<99>* {@spacing=2.25/0}você não sabe como{@spacing=}\n  {@spacing=2.25/0}cumprimentar um novo amigo?",
+            "<99>* {@spacing=2.25/0}você não sabe como{@spacing=}\n  {@spacing=2.25/0}cumprimentar um novo\namigo?",
             '<99>* {@spacing=2.25/0}vire-se e agite{@spacing=}\n  {@spacing=2.25/0}minha mão.'
         ],
         sans2: () => [
@@ -3972,7 +3972,7 @@ export default {
                     "<25>{#f/0}* na verdade, acho que é ele bem ali."
                 ]),
             '<25>* eu tenho uma ideia.\n* pula nesse vácuo, beleza?',
-            '<26>{#f/4}* é, pode pular.\n* meu irmão deixou a gravidade baixa demais para impedir alguém.'
+            '<26>{#f/4}* é, meu irmão deixou a gravidade baixa demais para impedir alguém.'
         ],
         sans3: () =>
             world.edgy
@@ -4070,9 +4070,9 @@ export default {
                 () =>
                     world.edgy
                         ? [
-                            '<25>{#p/sans}* se meu irmão estivesse aqui, nós teríamos várias paradas para fazer.',
+                            '<25>{#p/sans}* se meu irmão estivesse aqui, nós faríamos várias paradas.',
                             '<25>{#p/sans}{#f/3}* mas, alas...',
-                            "<25>{#p/sans}{#f/2}* ele tá ocupado resolvendo o livro de sudoku que eu dei pra ele."
+                            "<25>{#p/sans}{#f/2}* ele tá ocupado resolvendo o livro de sudoku que eu o dei."
                         ]
                         : [
                             "<25>{#p/sans}* olha, não tem nada para temer.",
@@ -4160,7 +4160,7 @@ export default {
                     world.edgy
                         ? [
                             '<25>{#p/sans}{#f/0}* o que?\n* da pra me culpar?',
-                            "<25>{#f/3}* é difícil fazer qualquer coisa quando eu preciso ficar de olho em você."
+                            "<25>{#f/3}* é difícil fazer coisas quando preciso ficar de olho em você."
                         ]
                         : world.killed5
                             ? [
@@ -4496,7 +4496,7 @@ export default {
             s_beddinng_table: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Você olha para a mesa.)\n* (Você então desvia o olhar.)']
-                    : ['<32>{#p/basic}* A mesa obrigatória.\n* Apesar de sua falta de propósito, preenche bem o espaço.'],
+                    : ['<32>{#p/basic}* A mesa obrigatória. Apesar de sua falta de propósito, preenche bem o espaço.'],
             s_bh_bone: pager.create(
                 0,
                 () =>
@@ -5424,7 +5424,7 @@ export default {
                         '<32>{#p/basic}* \"A chamada divisão de \'armas especiais\', focada em pesquisa experimental.\"',
                         '<32>{#p/basic}* \"A divisão desenvolveria muitos artefatos, mas todos inúteis em batalha...\"',
                         '<32>{#p/basic}* \"Todos menos um.\"\n* \"Um tomo encantado conhecido como \'A Epifania.\'\"',
-                        '<32>{#p/basic}* \"Seu poder era tão grande, que foi perigoso demais para ser usado, até mesmo contra os humanos.\"',
+                        '<32>{#p/basic}* \"Seu poder era tão grande, que foi perigoso demais para ser usado contra os humanos.\"',
                         '<32>{#p/basic}* \"O tomo foi trancado por dentro e guardado em pouco tempo.\"',
                         '<32>{#p/basic}* \"Alguns dizem que o tomo foi transportado por uma nave até o Outpost.\"',
                         '<32>{#p/basic}* \"Se sim, onde ele está?\"\n* \"E como seria para destrancar?\"',

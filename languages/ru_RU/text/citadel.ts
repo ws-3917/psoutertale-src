@@ -3661,7 +3661,7 @@ export default {
                     []
                 ][ca_state.floor],
             toomuch1: ["<32>{#p/human}* (You're carrying too much.)"],
-            toomuch2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+            toomuch2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
             toomuch3: ["<32>{#p/human}* (You're carrying too much to use that.)"],
             bastionTerm: () =>
                 SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
@@ -4266,41 +4266,41 @@ export default {
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* This book is labelled \"Grand Library Brochure.\"',
                             '<32>* \"Welcome to the Grand Library, a stronghold of knowledge on a variety of topics.\"',
                             '<32>* \"Along each corridor lie books of history, culture, science, technology, and beyond.\"',
                             '<32>* \"For the adventerous readers, works from famous fiction writers may also be found.\"',
                             '<32>* \"Andori, Terrestria, Strax Seterra, Vashta Nerada, and many others adorn our walls.\"',
                             '<33>* \"Visit the Grand Library of Krios today, and your first\n  ten books will be 1/2KT on us.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\"',
-                            '<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\"',
-                            '<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr family line.\"',
-                            '<32>* \"Making it is a simple process, and can be broken down into five steps.\"',
-                            '<32>* \"First, prepare the bottom crust by laying it on top of a pie plate.\"',
-                            '<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl until smooth.\"',
-                            '<32>* \"Then, take several well-aged snails, and thoroughly incorporate into the mixture.\"',
-                            '<32>* \"After that, pour the contents of the bowl into the bottom crust.\"',
-                            '<32>* \"Last, prepare the top crust by cutting sheet into strips and forming a lattice.\"',
-                            '<32>* \"Then just bake the pie!\"',
-                            '<32>* \"Once the pie is ready, take it out of the oven, let it cool, and serve!\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/basic}* «Рецепты семьи Дримурр: улиточный пирог».',
+                            '<32>* «Улиточный пирог — давняя традиция семьи Дримурр».',
+                            '<32>* «Готовка пирога — очень простой процесс, его можно разделить на пять шагов».',
+                            '<32>* «Сначала подготовьте нижнюю корочку, положив её сверху на тарелку».',
+                            '<32>* «Затем взбейте в миске сгущённое молоко, яйца и специи до однородного состояния».',
+                            '<32>* «Потом возьмите несколько полностью созревших улиток, и аккуратно добавьте их в смесь».',
+                            '<32>* «После чего вылейте содержимое миски на основу пирога».',
+                            '<32>* «А для верхней корочки нарежьте тесто на полоски, и выложите их в форме решётки».',
+                            '<32>* «Затем поместите пирог в духовку».',
+                            '<32>* «После готовности выньте пирог из духовки, дайте остыть и подавайте его на стол».',
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             "<32>{#p/basic}* It's a casualty report.",
                             '<33>* \"Overview... two thousand dead, forty-thousand injured.\"\n* \"Tenko has fallen.\"',
                             '<32>* \"Days before the attack, a local boy, Gerson, was drafted into the royal forces.\"',
@@ -4309,20 +4309,20 @@ export default {
                             '<32>* \"Had it been ignored, Gerson\'s family would have died in the attack.\"',
                             '<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"',
                             '<32>* \"The boy is a hometown hero.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             c_al_chair1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A larger dining chair.']
+                        ? ['<32>{#p/basic}* Большой обеденный стул.']
                         : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a queen."],
             c_al_chair2: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A smaller dining chair.']
+                        ? ['<32>{#p/basic}* Малый обеденный стул.']
                         : world.genocide
                             ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a demon."]
                             : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a prince."],
@@ -4338,7 +4338,7 @@ export default {
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                        ? ['<32>{#p/basic}* A king-sized dining chair.']
+                        ? ['<32>{#p/basic}* Королевский обеденный стул.']
                         : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a king."],
             
             c_ak_sink: () =>
@@ -4430,7 +4430,7 @@ export default {
                             ['<25>{#p/asriel1}{#f/23}* ... oh, Dad...']
                         ][Math.min(asrielinter.c_ah_door++, 2)]
                     ]
-                    : ['<32>{#p/basic}* \"Room under renovations.\"'],
+                    : ['<32>{#p/basic}* «Комната на ремонте».'],
             c_ah_mirror: () =>
                 SAVE.data.b.svr
                     ? ["<25>{#p/asriel1}{#f/24}* It's us..."]
@@ -4439,7 +4439,7 @@ export default {
                         : calcLV() > 14
                             ? ['<32>{#p/basic}* Despite everything...', '<32>* ... is it really you?']
                             : world.darker
-                                ? ["<32>{#p/basic}* It's you."]
+                                ? ["<32>{#p/basic}* Это ты."]
                                 : SAVE.data.b.ultrashortcut || SAVE.data.b.ubershortcut
                                     ? ["<99>{#p/basic}* Despite skipping over most of\n  the journey, it's still you."]
                                     : ["<99>{#p/basic}* Despite everything, it's\n  still you."],
@@ -4477,7 +4477,7 @@ export default {
                     : world.darker
                         ? ['<32>{#p/basic}* A cabinet full of clothes.']
                         : [
-                            '<32>{#p/basic}* A cabinet full of blue and yellow striped shirts.',
+                            '<32>{#p/basic}* Шкаф наполнен сине-жёлтыми полосатыми рубашками.',
                             '<32>{#p/basic}* Some things never change...'
                         ],
             c_aa_box: () =>

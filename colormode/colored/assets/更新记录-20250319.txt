@@ -6,21 +6,20 @@
 - battleCharacters待办
   * asgore
   * asriel hyper
-  * burgerpants
-  * froggit (优化)
-  * gerson
-  * glyde
+  * burgerpants - kite
+  * gerson - kite
+  * glyde  - kite
   * knightknight
-  * lurksalot
-  * madjick
+  * lurksalot - moon
+  * madjick - krisdm
   * mettaton
-  * muffet
-  * roman
+  * muffet - krisdm
+  * roman - moon
   * royalguard
-  * toriel (wrap)
+  * toriel (wrap) - moon
 
 - dialoguecharacters待办
-  * mettaton
+  * mettaton - krisdm
 
 - LANG待办
   * bodyBack (mettaton) - en_US + zh_CN + zh_TW

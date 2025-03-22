@@ -567,7 +567,7 @@ export default {
         asriel1: () =>
             [
                 [
-                    "<25>{#p/asriel2}{#f/2}* Desculpa, eu tive que usar o telefone da Toriel pra fazer uma ligação.",
+                    "<25>{#p/asriel2}{#f/2}* Desculpa, tive que usar o telefone da Toriel para algo.",
                     "<25>{#p/asriel2}{#f/1}* Não se preocupe...\n* Você vai descobrir o motivo logo, logo...",
                     "<25>{#p/asriel2}{#f/2}* ... hee hee hee.\n* Vou estar te esperando logo acima."
                 ],
@@ -1131,8 +1131,8 @@ export default {
         drop_steak: ['<32>{#p/basic}{#n1}* Sério!? ;)', '<32>* Aquele bife não tinha preço! ;)'],
         dummy1: [
             '<25>{#p/toriel}{#f/0}* Sua próxima lição envolve encontros com outros monstros.',
-            '<25>{#f/1}* Como um humano no Outpost, você provavelmente será atacado...',
-            '<25>{#f/0}* Se isso acontecer, você vai entrar naquilo conhecido como uma LUTA.',
+            '<25>{#f/1}* Como um humano no Outpost, você será atacado...',
+            '<25>{#f/0}* Se isso acontecer, você vai em entrar em uma LUTA.',
             '<25>{#f/0}* Felizmente, existem muitas formas de se sair de uma.',
             '<25>{#f/1}* Por agora, eu recomendo que você faça uma conversa agradável...',
             '<25>{#f/0}* ... Para que assim, eu possa resolver o conflito para ti.'
@@ -1165,7 +1165,7 @@ export default {
         dummy10: [
             '<25>{#p/toriel}{#f/7}* Minha criança, isso é...',
             '<25>{#f/0}* ... é a coisa mais fofa que eu vi hoje.',
-            '<25>{#f/0}* De qualquer forma, você conseguiu lidar perfeitamente com essa lição.',
+            '<25>{#f/0}* De qualquer forma, você conseguiu passar perfeitamente na lição.',
             '<25>{#f/0}* A próxima sala espera.'
         ],
         dummy11: ['<25>{#p/toriel}* A próxima sala aguarda.'],
@@ -1777,7 +1777,7 @@ export default {
                 : world.bullied || (16 <= outlandsKills() && SAVE.flag.n.genocide_twinkly < resetThreshold())
                     ? []
                     : ['<25>{#f/1}* É bem preocupante...']),
-            '<25>{#f/0}* De toda forma, eu estarei na sala de estar se você precisar de mim.'
+            '<25>{#f/0}* Bom, eu estarei na sala de estar se você precisar de mim.'
         ],
         goodbye1a: ['<25>{#p/toriel}{#f/10}* ...', '<25>{#f/20}{|}* Vem aqui- {%}'],
         goodbye1b: ['<25>{#p/toriel}{#f/9}* ...', '<25>{#f/19}{|}* Vem aqui- {%}'],
@@ -1992,7 +1992,7 @@ export default {
             '<25>{#f/0}* Deixe me demonstrar esse pequeno exemplo.'
         ],
         lobby_puzzle2: [
-            '<25>{#p/toriel}{#f/1}* Pode parecer estranho para ti agora, mas engenhocas assim são muito comuns no Outpost...',
+            '<25>{#p/toriel}{#f/1}* Pode parecer estranho, mas engenhocas assim são tradição aqui.',
             '<25>{#f/0}* Resolver quebra-cabeça faz parte da nossa rotina diária.',
             '<25>{#f/0}* Com um tempo, e um pouco de guia, você vai acostumar-se com eles.'
         ],
@@ -2936,7 +2936,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* \"A fronteira final é um mar negro fundo.\"',
-                            '<32>{#p/basic}* \"Antes de carregar no {@fill=#ff993d}grande desconhecido{@fill=#fff}, você deve esperar que suas {@fill=#00a2e8}correntes se alinhem{@fill=#fff}.\"'
+                            '<32>{#p/basic}* \"Antes de entrar no {@fill=#ff993d}grande desconhecido{@fill=#fff}, espefe que suas {@fill=#00a2e8}correntes se alinhem{@fill=#fff}.\"'
                         ],
             w_puzzle3_view: () =>
                 SAVE.data.b.svr
@@ -2950,7 +2950,7 @@ export default {
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (O sinal parece ser uma propaganda para uma venda de bifes.)']
                     : [
-                        '<32>{#p/basic}* \"Certifique-se de pegar uma fatia do Glyde\'s Signature Steak (TM) na sala de atividades!\"'
+                        '<32>{#p/basic}* \"Certifique-se de pegar uma fatia do Glyde\'s Signature Steak (TM) logo ao lado!\"'
                     ],
             w_ta_box: () =>
                 SAVE.data.b.svr
@@ -3225,7 +3225,7 @@ export default {
                         : [
                             "<32>{#p/basic}* É uma bancada.",
                             '<32>{#p/human}* (Você escolhe um livro...)',
-                            '<32>{#p/basic}* \"Você sabia que os caracóis têm uma língua parecida com uma motosserra chamada rádula?\"',
+                            '<32>{#p/basic}* * \"Sabia que os caracóis têm uma língua parecida com uma motosserra chamada rádula?\"',
                             '<32>* \"Poucos sabem sobre esse fato.\"',
                             '<32>* \"Outro fato interessante sobre é como seu sistema digestivo troca enquanto eles crescem.\"',
                             '<32>* \"Oh, e eu já mencionei...\"',
@@ -3696,7 +3696,7 @@ export default {
         twinkly8: ["<25>{#f/11}* E já que você sabe exatamente o que vem em seguida...{%15}"],
         twinkly9: [
             '<25>{#p/twinkly}{#f/6}* Olá.',
-            "<25>* Parece que eu vou tomar uma bola de fogo se vacilar por tempo demais.",
+            "<25>* Parece que eu vou tomar uma bola de fogo se vacilar por aqui.",
             '<25>{#f/8}* Uma tristeza, sério...',
             '<25>{#f/7}* Eu iria me divertir muito com você.',
             '<25>{#f/6}* ...',
@@ -3704,7 +3704,7 @@ export default {
         ],
         twinkly9a: [
             '<25>{#p/twinkly}{#f/12}{#v/0}* Mas que infernos você tá fazendo, $(name)?',
-            '<25>{#f/12}{#v/0}* Tínhamos o Outpost à nossa mercê'
+            '<25>{#f/12}{#v/0}* Tínhamos o Outpost nas nossas mãos!'
         ],
         twinkly9a1: ['<25>{#f/6}{#v/0}* Tudo que precisávamos fazer era seguir o plano.'],
         twinkly9a2: [

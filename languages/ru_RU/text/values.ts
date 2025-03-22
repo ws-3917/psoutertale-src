@@ -136,7 +136,7 @@ export default {
         doggo: "Оно д-движется! О-оно трясётся!",
         jerry: 'Джерри.',
         major: '(Собака запрыгнула к вам на колени.)',
-        minor: '(Уф... Ох...)',
+        minor: '(Арф арф)',
         papyrs: "Я РАЗРЕШАЮ!!!",
         papyru: "Я РАЗРЕШАЮ!!!",
         san: 'лан.',
@@ -146,7 +146,7 @@ export default {
         starry: '«Блестящий» выбор!',
 
         
-        bob: 'A pleasing nomenclature, no?',
+        bob: 'Отлично звучит, правда?',
         doge: 'Мне не смешно.',
         gelata: 'Равр.',
         gerson: 'Вах-ха-ха! Почему нет?',
@@ -166,15 +166,15 @@ export default {
         undyne: 'Добудь себе СВОЁ имя!',
 
         
-        alphy: 'Uh.... OK?',
+        alphy: 'Э-э... Ладно?',
         alphys: "Н-не делай этого.",
-        bpants: 'You are really scraping the bottom of the barrel.',
+        bpants: 'Вы достигли самого дна.',
         bratty: 'Типа, окей, наверное...',
         burgie: 'Понравилось моё имя, мелочь?',
         catty: "Брэтти! Брэтти! Это же МОЁ имя!",
-        cozmo: 'A fellow wizard?',
-        glyde: 'Slick choice, homeslice.',
-        hapsta: "Now you're just being rude, darling.",
+        cozmo: 'Дружище волшебник?',
+        glyde: 'Неплохой выбор, уважуха.',
+        hapsta: "Дорогуша, ты грубишь мне?",
         mett: 'О-О-О-Х!!! ТЫ ПРОДВИГАЕШЬ МОЙ БРЭНД?',
         metta: 'О-О-О-Х!!! ТЫ ПРОДВИГАЕШЬ МОЙ БРЭНД?',
         mtt: 'О-О-О-Х!!! ТЫ ПРОДВИГАЕШЬ МОЙ БРЭНД?',
@@ -185,7 +185,7 @@ export default {
         grilly: 'Горячо, но недостаточно.',
         gyft: "Не стоит этого делать...",
         heats: 'Ты ЗНАЛ?!',
-        kabakk: 'Respect my AUTHORITY!',
+        kabakk: 'Уважай мой АВТОРИТЕТ!',
         vulkin: 'Аах! Спасибо~',
         zorren: 'Спасибо, что, эм, используешь моё имя.',
 

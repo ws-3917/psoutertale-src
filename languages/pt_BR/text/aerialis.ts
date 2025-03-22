@@ -120,7 +120,7 @@ export default {
         approachescape: ['<32>{#p/human}* (Você escuta passos se distanciando.)'],
         puzzlehelp: [
             '<32>{#s/phone}{#p/event}* Ring, ring...',
-            "<25>{#p/alphys}{#g/alphysWelp}* Ligando para avisar que estou aqui se você precisar da minha ajuda.",
+            "<25>{#p/alphys}{#g/alphysWelp}* Ligando para avisar que estou aqui se você precisar de mim.",
             "<25>{#p/alphys}{#g/alphysCutscene2}* Irei manter meu celular disponível enquanto você estiver na sala!",
             '<32>{#s/equip}{#p/event}* Clique...'
         ],
@@ -363,7 +363,7 @@ export default {
         corndog1: pager.create(
             0,
             () => [
-                "<25>{#p/sans}{#f/0}* eu estou vendendo cachorros quentes por 5G cada, se estiver interessado.",
+                "<25>{#p/sans}{#f/0}* eu estou vendendo cachorros quentes por 5G cada, tá afim?",
                 choicer.create('* (Comprar um cachorro quente por 5G?)', 'Sim', 'Não')
             ],
             () => ['<25>{#p/sans}{#f/0}* cachorros quentes por 5G.', choicer.create('* (Comprar um cachorro quente por 5G?)', 'Sim', 'Não')]
@@ -598,9 +598,9 @@ export default {
             "<18>{#f/5}EU DECIDI QUE NÃO POSSO MAIS ME ESCONDER.",
             '<18>{#f/6}AS PESSOAS PRECISAM DE MINHA AJUDA!',
             '<18>{#f/5}E, ULTIMAMENTE...',
-            "<18>{#f/6}EU SENTI QUE PRECISO TE ENCONTRAR PESSOALMENTE DE NOVO.",
+            "<18>{#f/6}EU SENTI QUE PRECISO TE ENCONTRAR DE NOVO.",
             '<18>{#f/7}SE \"ASRIEL\" ME VER VIVO, ENTÃO QUE SEJA!',
-            '<18>{#f/7}ME RECUSO A FICAR PARADO E NÃO FAZER NADA O TEMPO INTEIRO.',
+            '<18>{#f/7}ME RECUSO A FICAR PARADO E NÃO FAZER NADA!',
             '<18>{#f/4}...',
             '<18>{#f/4}TE VEJO EM BREVE.',
             '<32>{#s/equip}{#p/event}* Clique...'
@@ -610,7 +610,7 @@ export default {
                 game.room === 'a_lab_downstairs' // NO-TRANSLATE
 
                     ? "<33>{#p/basic}* É o celular reserva de Alphys.\n* Vem com uma passagem de porta-malas e caixas bidimensionais."
-                    : "<32>{#p/basic}* É um telefone celular inteligente.\n* Vem com uma passagem de porta-malas e caixas bidimensionais.",
+                    : "<32>{#p/basic}* É um telefone celular inteligente. Vem com uma passagem de caixas bidimensionais.",
                 ...(world.genocide
                     ? ['<32>{#p/basic}* A mochila a jato de uso único não está mais disponível.']
                     : ['<32>{#p/basic}* Além disso, um jetpack portátil de uso único está disponível.'])
@@ -648,7 +648,7 @@ export default {
                         ...[
                             [
                                 '<25>{#f/1}* Bem, uh, é!',
-                                "<25>{#f/1}* Eu sou a Doutora Alphys.\n* A frente da divisão de ciência real.",
+                                "<25>{#f/1}* Eu sou a Drª Alphys. A frente da divisão de ciência real.",
                                 '<25>{#f/10}* Mas, uh, eu não sou um dos \"caras malvados!\"',
                                 "<25>{#f/17}* Na verdade, desde que você saiu das Outlands, eu tenho...",
                                 '<25>{#f/5}* Eheh, te \"observado\" atrás do meu console de segurança.',
@@ -676,11 +676,11 @@ export default {
                                                     '<25>{#f/12}* Tão legal...'
                                                 ]
                                                 : ['<25>{#f/16}* ... foi te ver lutar a Undyne???']),
-                                "<25>{#f/18}* Mas, uh, você vai precisar da minha ajuda se quiser passar por Aerialis!"
+                                "<25>{#f/18}* Mas, uh, você vai precisar da minha ajuda em Aerialis!"
                             ],
                             [
                                 '<25>{#f/8}* Bem, é...',
-                                "<25>{#f/9}* Eu sou a... doutora Alphys.\n* A frente da divisão de ciência real.",
+                                "<25>{#f/9}* Eu sou a... Drª Alphys. A frente da divisão de ciência real.",
                                 "<25>{#f/4}* Desde que você saiu das Outlands eu tenho...",
                                 '<25>{#f/4}* Eheh, \"observado\" você através do meu console de segurança.',
                                 '<25>{#f/11}* Suas lutas...\n* Seus amigos...',
@@ -714,7 +714,7 @@ export default {
                             ]
                         ][world.bad_lizard],
                         '<25>{#f/15}* Pois é... não é um lugar muito amigável para humanos...',
-                        '<25>{#f/17}* Armadilhas mortais...\n* Quebra-cabeças impossíveis...\n* Guardas reais...',
+                        '<25>{#f/17}* Armadilhas mortais...\n* Quebra-cabeças...\n* Guardas reais...',
                         '<25>{|}{#f/15}* Sem mencionar- {%}'
                     ],
             alphys4: () =>
@@ -817,7 +817,7 @@ export default {
                 '<25>{#p/alphys}{#f/21}* ...',
                 '<25>{#f/21}* O que é isso.',
                 '<25>{#f/21}* Quem te deu isso???',
-                '<25>{#f/22}* QUEM AINDA USSA TECNOLOGIA ASSIM???',
+                '<25>{#f/22}* QUEM AINDA USA TECNOLOGIA ASSIM???',
                 '<25>{#f/22}* ...',
                 "<25>{#f/23}* Eu estarei de volta logo."
             ],
@@ -827,7 +827,7 @@ export default {
                         '<25>{#p/alphys}{#g/alphysCutscene1}* Aqui, um celular novinho!',
                         "<25>* Tem um passe para as levitações e caixas dimensionais...",
                         '<25>{#g/alphysHellYeah}* E sua conta na Outernet!',
-                        '<25>{#g/alphysSmileSweat}* Eu te adicionei como amigo, assim podemos nos comunicar caso necessário.',
+                        '<25>{#g/alphysSmileSweat}* Eu te adicionei como amigo, assim podemos nos comunicar.',
                         '<25>{#g/alphysUhButHeresTheDeal}* Então, é isso!!',
                         '<32>{#s/equip}{#p/human}* (Você ganhou um celular atualizado!)'
                     ]
@@ -965,23 +965,23 @@ export default {
             status: '$(x) updated status',
             barricade1: () => [
                 '<32>{#p/event}* Ring, ring...',
-                "<25>{#p/alphys}{#g/alphysSideSad}* Eu não acho que você consiga passar por aquilo...",
+                "<25>{#p/alphys}{#g/alphysSideSad}* Eu não acho que você consiga passar por aí...",
                 '<25>{#g/alphysSmileSweat}* Deixa eu ver se consigo fazer algo para ajudar.',
                 '<32>{#p/human}* (Parece que alguém está digitando furiosamente no teclado.)',
                 '<25>{#p/alphys}{#g/alphysNervousLaugh}* Segurança... q-quê?',
                 '<32>{#p/human}* (Mais digitadas podem ser ouvidas.)',
                 '<32>{#p/human}* (...)',
                 '<32>{#p/human}* (A digitada para.)',
-                "<25>{#p/alphys}{#g/alphysWelp}* Bom... parece que vamos ter que responder algumas perguntas de segurança.",
+                "<25>{#p/alphys}{#g/alphysWelp}* Bom, vamos ter que responder algumas perguntas de segurança.",
                 "<25>{#g/alphysGarbo}* Questões de segurança, do Mettaton...",
-                '<25>{#g/alphysNeutralSweat}* Então... tem qualquer chance de você saber algo útil sobre o Mettaton?',
-                '<25>{#g/alphysTheFactIs}* ... provavelmente não, considerando que você acabou de conhecer ele...',
+                '<25>{#g/alphysNeutralSweat}* Então... você sabe algo útil sobre o Mettaton?',
+                '<25>{#g/alphysTheFactIs}* ... provavelmente não, já que você acabou de conhecer ele...',
                 "<25>{#g/alphysUhButHeresTheDeal}* Bem, talvez você saiba a resposta para a primeira.",
                 '<25>{|}{#g/alphysIDK}* \"Quem foi o hmm- {%}',
                 ...(world.postnoot
                     ? []
                     : [
-                        "<25>{#g/alphysWTF}* Oh meu senhor, é óbvio que ele usaria isso como uma pergunta de segurança.",
+                        "<25>{#g/alphysWTF}* Oh meu senhor, é óbvio que ele usaria isso como uma pergunta.",
                         '<25>{#g/alphysNervousLaugh}* \"Quem tem uma queda pelo Mettaton?\"',
                         choicer.create('* (O que você diz?)', 'Alphys', 'Asgore', 'Papyrus', 'Undyne')
                     ])
@@ -1124,7 +1124,7 @@ export default {
                 '<32>{|}{#p/human}* (A digitação de resultados ante- {%}',
                 '<25>{#p/alphys}{#g/alphysHellYeah}{#x1}* Consegui!',
                 '<25>{#g/alphysWelp}* ...',
-                "<25>{#g/alphysGarboCenter}* Eu espero que essa seja a última vez que precisamos lidar com isso.",
+                "<25>{#g/alphysGarboCenter}* Que essa seja a última vez que precisamos lidar com isso.",
                 ...(SAVE.data.b.failshow
                     ? []
                     : SAVE.data.b.item_tvm_mewmew &&
@@ -1261,7 +1261,7 @@ export default {
                         "<32>* SE VOCÊ NÃO CRUZAR ESTE CAMPO DE BOMBAS EM {@fill=#ff0}NOVENTA SEGUNDOS{@fill=#fff}..."
                     ]
                     : [
-                        "<32>* E SÓ PARA AUMENTAR A TENSÃO VOCÊ TERÁ QUE CRUZAR ESTE CAMPO DE BOMBAS EM {@fill=#ff0}NOVENTA SEGUNDOS{@fill=#fff}"
+                        "<32>* E PARA TER TENSÃO VOCÊ TERÁ QUE CRUZAR ESTE CAMPO DE BOMBAS EM {@fill=#ff0}NOVENTA SEGUNDOS{@fill=#fff}"
                     ],
             cooker9: () =>
                 iFancyYourVilliany()
@@ -1406,7 +1406,7 @@ export default {
                 "<32>* É UMA TRISTEZA QUE EU NÃO POSSA ESTAR AÍ EM PESSOA, MAS...",
                 "<32>* É ASSIM QUE AS -COISAS- TENDEM A IR NOS DIAS ATUAIS, CORRETO?",
                 '<32>* DE TODA FORMA, A PEQUENA AUDIÊNCIA QUE NOS RESTA IRÁ APRECIAR VÊ-LOS SOFRER.',
-                '<32>* COMO VOCÊ PASSARÁ PELO ABISMO SEM UMA MOCHILA A JATO?\n* AH, SE EU TIVESSE A RESPOSTA...',
+                '<32>* COMO VOCÊ PASSARÁ PELO ABISMO SEM UMA JETPACK? AH, SE EU TIVESSE A RESPOSTA...',
                 '<32>* BOA SORTE!'
             ],
             robocaller4x: [
@@ -1421,7 +1421,7 @@ export default {
                 '<32>{|}* Então, se você puder só- {%}'
             ],
             cookerX2: ['<25>{#p/asriel2}{#f/6}* Sai do nosso caminho.'],
-            cookerX3: ["<32>{#p/basic}* Ah...!\n* Eu não acho...\n* Que eu possa realmente fazer isso..."],
+            cookerX3: ["<32>{#p/basic}* Ah...!\n* Eu não acho... que eu possa realmente fazer isso..."],
             cookerX4: [
                 '<32>{#p/basic}* Quer d-dizer...\n* Eu posso abrir uma exceção...',
                 "<32>* Só... não conta para o chefe..."
@@ -1443,7 +1443,7 @@ export default {
                 "<32>* EU IREI TE MATAR DE TODA FORMA."
             ],
             whatthefuck: [
-                "<32>{#p/basic}* Não se preocupe, eu ficarei bem!\n* Só olha para esses anéis!\n* Não posso ser demitido pra sempre..."
+                "<32>{#p/basic}* Não se preocupe, eu ficarei bem! Só olha para esses anéis! Não posso ser demitido..."
             ],
             puzzleReaction2a: [
                 '<32>{#p/event}* Ring, ring...',
@@ -1547,7 +1547,7 @@ export default {
                         : [
                             '<25>{#p/sans}{#g/sansLaugh2}* oh, heheh...',
                             "<25>{#g/sansNormal}* eu sou sans.\n* sans o esqueleto.",
-                            '<25>{#g/sansLaugh1}* tecnicamente meu trabalho é capturar humanos igual aquele alí.',
+                            '<25>{#g/sansLaugh1}* tecnicamente meu trabalho é capturar humanos igual aquele.',
                             "<25>{#g/sansBlink}* mas, uh...\n* como nós estamos em um programa de tv...",
                             "<25>{#g/sansWink}* eu suponho que deva esperar por agora."
                         ],
@@ -1565,7 +1565,7 @@ export default {
                         : [
                             "<25>{#p/sans}{#g/sansLaugh1}* ruins?\n* uau, mettaton, o que há com os rins?",
                             "<25>{#g/sansBlink}* não brinque demais.\n* todos os apresentadores de tv são iguais.",
-                            "<25>{#g/sansNormal}* mas, uh, se estamos falando de piadas, bem...\n* Isso é meio legal.",
+                            "<25>{#g/sansNormal}* mas, uh, se estamos falando de piadas, bem...",
                             '<25>{#g/sansLaugh1}* falando em piada, ouvi dizer que você tentou fazer um stand up...',
                             '<25>{|}{#g/sansLaugh2}* mas ninguém- {%}'
                         ],
@@ -1645,7 +1645,7 @@ export default {
                             : [
                                 "<25>{#f/1}* OH!\n* É minha vez, certo??",
                                 "<25>{#f/4}* Eu... não tenho certeza se meus pais estão assistindo, mas...",
-                                "<25>{#f/1}* Eu espero que não!!\n* Eu... acho que eles não gostariam de me ver aqui.",
+                                "<25>{#f/1}* Eu espero que não!!\n* Eu... eles não gostariam de me ver aqui.",
                                 '<25>{#f/1}* Haha.',
                                 "<25>{#f/2}* De toda forma, eu sou Criança Monstro."
                             ])
@@ -1675,12 +1675,12 @@ export default {
             ],
             moneyTr2: ["<32>{*}* VAMPS JOGAR..."],
             moneyTr3: ['<32>{*}* {#x1}TEMPO!{^10}\n* {#x2}VERSUS!{^10}\n* {#x3}DINHEIRO!{^30}{%}'],
-            moneyHelper: '* Use esquerda e direita para arrumar, e [Z] para confirmar. §fill=#ff0§$(x)G',
-            moneyHelperConfirmed: '* Use esquerda e direita para arrumar e aperte [Z] para confirmar. §fill=#f00§$(x)G',
+            moneyHelper: '* Use esquerda e direita para\narrumar, e [Z] confirma.\n§fill=#ff0§$(x)G',
+            moneyHelperConfirmed: '* Use esquerda e direita para\narrumar e [Z] confirma. §fill=#f00§$(x)G',
             moneyItem1: {
                 a: [
                     '<32>{#p/mettaton}* NOSSO PRIMEIRO ARTEFATO FOI ENCONTRADO RECENTEMENTE...',
-                    '<32>* NA TERRA, ESTE DISPOSITIVO ERA USADO PARA RECEBER TRANSMISSÕES DAS CHAMADAS \"ESTAÇÕES DE RÁDIO\".',
+                    '<32>* NA TERRA, ESTE DISPOSITIVO ERA USADO PARA PRODUZIR \"ESTAÇÕES DE RÁDIO.\"',
                     "<32>* JORNAL, CLIMA, MÚSICA...\n* ATÉ MESMO O GAME SHOW QUE ESTAMOS AGORA!",
                     "<32>* VAMOS VER SE ALGUÉM AQUI SABE SEU PREÇO."
                 ],
@@ -1783,7 +1783,7 @@ export default {
                         ...(world.dead_skeleton
                             ? ['<25>{#p/sans}{#g/sansNormal}* ...', "<25>{#p/sans}{#g/sansBlink}* tá tudo bem."]
                             : [
-                                "<25>{#p/sans}{#g/sansBlink}* nah, tá tudo bem.\n* Aliás, eu só estou aqui porque meu irmão recusou.",
+                                "<25>{#p/sans}{#g/sansBlink}* De boas, aliás, eu só estou aqui porque meu irmão recusou.",
                                 '<25>{#g/sansWink}* ele fica nervoso perto do, Mettaton.'
                             ])
                     ],
@@ -1926,7 +1926,7 @@ export default {
                             '<32>{#p/tem}* AYAYA!'
                         ]
                         : [
-                            "<32>{#p/mettaton}* PARABÉNS, CRIANÇA MONSTRO!\n* VOCÊ GANHOU PARA SI NOVOS FOGOS DE ARTIFÍCIO DA MARCA MTT!",
+                            "<32>{#p/mettaton}* PARABÉNS, CRIANÇA MONSTRO!\n* VOCÊ GANHOU FOGOS DE ARTIFÍCIO DA MARCA MTT!",
                             "<32>* PODEM NÃO SER EXATAMENTE DA MTT, MAS SÃO DA MELHOR QUALIDADE! (TM)",
                             '<25>{#p/kidd}{#f/1}* YOOOOOO!!!'
                         ],
@@ -1947,7 +1947,7 @@ export default {
                             '<32>{#p/tem}* AYAYA!'
                         ]
                         : [
-                            "<32>{#p/mettaton}* PARABÉNS, CRIANÇA MONSTRO!\n* VOCÊ GANHOU PARA SI NOVOS FOGOS DE ARTIFÍCIO DA MARCA MTT!",
+                            "<32>{#p/mettaton}* PARABÉNS, CRIANÇA MONSTRO!\n* VOCÊ GANHOU FOGOS DE ARTIFÍCIO DA MARCA MTT!",
                             "<32>* PODEM NÃO SER EXATAMENTE DA MTT, MAS SÃO DA MELHOR QUALIDADE! (TM)",
                             '<25>{#p/kidd}{#f/1}* YOOOOOO!!!'
                         ])
@@ -2042,7 +2042,7 @@ export default {
                 '<25>{|}{#p/alphys}{#g/alphysCutscene3}* Eu passei meses procurando por- {%}'
             ],
             moneyFinal5: [
-                '<32>{#p/mettaton}* OH NÃO.\n* PAREVE QUE A CONEXÃO CAIU.',
+                '<32>{#p/mettaton}* OH NÃO.\n* PARECE QUE A CONEXÃO CAIU.',
                 '<32>* POBRE DR. ALPHYS.\n* SEM MEW MEW PRA ELA.',
                 '<32>{#z2}* AO INVÉS DISSO, UM DE VOCÊS VAI FICAR COM ELA!',
                 '<32>{#z3}* MAS QUEM?'
@@ -2201,7 +2201,7 @@ export default {
                         '<25>{#f/16}* ...{%100}',
                         '<25>{#f/13}* Isso vai ser um pouco embaraçoso, mas...{%100} ',
                         '<25>{#f/13}* Se eu me ajoelhar em frente a plataforma...{%100}',
-                        '<25>{#f/16}* Você pode... talvez subir em mim para chegar lá e cancelar o cronômetro. {%100}',
+                        '<25>{#f/16}* Você pode subir em mim para chegar lá e cancelar o cronômetro. {%100}',
                         '<25>{#f/15}* Espero que funcione...{%100}'
                     ],
                     ['<25>{#p/asriel2}{#f/13}* ...{%100}', '<25>{#f/4}* Você sabe o que temos que fazer, $(name).{%100}']
@@ -2462,7 +2462,7 @@ export default {
                                 '<25>{#g/alphysHaveSomeCompassion}* ...',
                                 '<25>{#g/alphysHaveSomeCompassion}* Aqueles guardas que NÃO deveriam ter te atacado.'
                             ]),
-                        "<25>{#g/alphysUhButHeresTheDeal}* Talvez minhas ordens reais não chegaram neles???\n* Por alguma razão?",
+                        "<25>{#g/alphysUhButHeresTheDeal}* Talvez minhas ordens reais não chegaram neles???",
                         '<25>{#g/alphysTheFactIs}* Quer dizer, eles FORAM contratados hoje...',
                         ...(SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew || SAVE.data.b.mewget
                             ? [
@@ -2483,7 +2483,7 @@ export default {
                         ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Aqui vamos nós.']
                         : [
                             "<25>{#p/alphys}{#g/alphysCutscene1}* Okay, lá vamos nós!",
-                            '<25>{#g/alphysSmileSweat}* M-melhor ficar atrás de mim enquanto nós passamos pela segurança.'
+                            '<25>{#g/alphysSmileSweat}* Fica atrás de mim enquanto passamos pela segurança.'
                         ],
             opera5: ['<25>{#p/alphys}{#g/alphysSmileSweat}* O-oi.', "<32>{#p/basic}{#x1}* Salve.{#x3}"],
             opera5b: ['<25>{#p/alphys}{#g/alphysSmileSweat}* A-ah, a-acho que não tem seguranças.'],
@@ -2496,7 +2496,7 @@ export default {
                     ]
                     : [
                         '<25>{#p/alphys}{#g/alphysWelp}* Bem uh, obrigado por... não atacar o humano mais cedo.',
-                        '<25>{#g/alphysGarbo}* Os outros guardas Reais recebem \"minhas ordens\", foi preocupante.'
+                        '<25>{#g/alphysGarbo}* Os outros guardas não receberam \"minhas ordens.\"'
                     ],
             opera8: ['<32>{#p/basic}{#x1}* ... humano?{#x3}', '<32>{#x1}* Que humano?{#x3}'],
             opera9: [
@@ -2821,7 +2821,7 @@ export default {
                 '<25>{#g/alphysNervousLaugh}{#x5}* Então... te vejo depois, eu acho?',
                 ...(SAVE.data.b.failshow || !SAVE.data.b.item_tvm_mewmew || SAVE.data.b.mewget
                     ? [
-                        "<25>{#g/alphysUhButHeresTheDeal}* Uh, M-mas não se preocupe!\n* Eu vou te ligar o momento que eu puder...",
+                        "<25>{#g/alphysUhButHeresTheDeal}* Não se preocupe! Eu vou te ligar o quando puder...",
                         '<25>{#g/alphysNervousLaugh}* Você...',
                         "<25>{#g/alphysHellYeah}* E-eu vou ficar em contato!"
                     ]
@@ -3044,7 +3044,7 @@ export default {
                                                                 ]),
                                                     '<32>{#e/mettaton/3}* MAS EU ME LEMBRO DO AVISO QUE TE DEI NO LABORATÓRIO REAL.',
                                                     "<32>{#e/mettaton/6}* E O FATO DE QUE DESDE ENTÃO VOCÊ TEM SE COMPORTADO BEM MELHOR.",
-                                                    '<32>{#e/mettaton/5}* BEM, BEM.\n* PAREVE QUE AS PESSOAS PODEM MUDAR DEPOIS DE TUDO.',
+                                                    '<32>{#e/mettaton/5}* BEM, BEM.\n* PARECE QUE AS PESSOAS PODEM MUDAR DEPOIS DE TUDO.',
                                                     '<32>{#e/mettaton/0}* BOM PRA VOCÊ.',
                                                     "<32>{#e/mettaton/20}* MAS ISSO NÃO SIGNIFICA QUE EU SÓ VOU ESQUECER O QUE VOCÊ FEZ."
                                                 ]),
@@ -3392,7 +3392,7 @@ export default {
             doublefridge1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Você coloca seu ouvido contra a porta do freezer.)\n* (Um vento pode ser escutado.)']
-                    : ["<32>{#p/basic}* É um freezer de alta segurança.\n* Ambos os lados contém suco de laranja."],
+                    : ["<32>{#p/basic}* É um freezer de alta segurança. Ambos os lados contém suco de laranja."],
             doublefridge2: () => [
                 ...(SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Parece que uma das latas dentro já foi aberto...)']
@@ -3433,7 +3433,7 @@ export default {
             kneeler2: ['<25>{#p/asriel2}{#f/8}* Obrigado, eu acho.'],
             topdesk1: () =>
                 SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
-                    ? ["<32>{#p/human}* (Você se maravilha com as imagens na tela do computador.)\n* (Deve ser devaneio.)"]
+                    ? ["<32>{#p/human}* (Você se maravilha com as imagens na tela do computador.)"]
                     : [
                         '<32>{#p/basic}* O computador está no modo descanso.\n* Ligar?',
                         choicer.create('* (Ligar o computador?)', 'Sim', 'Não')
@@ -3724,7 +3724,7 @@ export default {
                             ]
                             : [
                                 '<32>{#p/human}* (Você ativa o terminal e lê a mensagem.)',
-                                '<32>{#p/basic}* \"Queridos trabalhadores do Laboratório Real, por favor depositar restos de pesquisa no local correto.\"'
+                                '<32>{#p/basic}* \"Queridos trabalhadores do Lab. Favor depositar restos de pesquisa no local correto.\"'
                             ],
             terminal4: () =>
                 postSIGMA()
@@ -4033,8 +4033,8 @@ export default {
                             '<32>{#p/basic}* \"O corpo de um monstro é o reflexo de sua ALMA.\"',
                             '<32>* \"Normalmente, os pais decidem que tipo de monstro sua criança será...\"',
                             '<32>* \"Imprimindo seus valores na essência da criança.\"',
-                            '<32>* \"Mas o que aconteceria se outro ser, como um humano, absorvesse a ALMA ao invés disso?\"',
-                            '<32>* \"As lendas falam que os humanos que absorveram as ALMAS de boss monstros mortos na guerra...\"',
+                            '<32>* \"Mas o que aconteceria se outro ser, como um humano, absorvesse uma ALMA?',
+                            '<32>* \"É dito que os humanos que absorveram as ALMAS de boss monstros na guerra...\"',
                             '<32>* \"Em um relato particular, um humano foi dito ter assumido a forma de um avião.\"',
                             '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
@@ -4074,7 +4074,7 @@ export default {
                         '<32>{#p/basic}* \"MMSA: Sonhos (História criada por fã)\"',
                         '<32>* \"... e isso foi quando Mew Mew finalmente viu com seus dois únicos olhos.\"',
                         '<32>* \"Era meio triste, parado sozinho no espaço, basicamente abandonado...\"',
-                        '<32>* \"... mas Mew Mew sabia bem!\"\n* \"E não demorou muito para que ela soubesse de nossa situação.\"',
+                        '<32>* \"... mas Mew Mew sabia bem!\"\n* \"E não demorou muito para que ela soubesse.\"',
                         '<32>* \"Com apenas um único tiro do seu poderoso LAZER DELUXE, ela esmurra com facilidade!\"',
                         '<32>* \"E assim Mew Mew se torna a salvadora dos monstros.\"',
                         '<32>{#p/human}* (Você coloca o livro de volta na mesa.)'
@@ -4091,8 +4091,8 @@ export default {
                             '<32>* \"O CORE está ativo agora, e as construções planejadas para o Outpost estão a caminho.\"',
                             '<32>* \"Eu não sei como me sentir em relação a esse desenvolvimento...\"',
                             '<32>* \"Será bom fazer nossas vidas mais confortáveis por aqui, entretanto...\"',
-                            '<32>* \"Após definir dessa forma, estamos admitindo que não podemos escapar sem a ajuda das ALMAS humanas?\"',
-                            '<32>* \"Desde que fui apontado como cientista real, eu trabalho constantemente com objetivo de nos trazer liberdade.\"',
+                            '<32>* \"Estamos admitindo que não podemos escapar sem a ajuda das ALMAS humanas?\"',
+                            '<32>* \"Desde que fui apontado como cientista real, eu trabalho para trazer liberdade.\"',
                             '<32>* \"Agora, temo que os outros monstros tenham concordado em esperar...\"',
                             '<32>{#p/human}* (Você coloca o livro de volta na prateleira.)'
                         ],
@@ -4240,11 +4240,11 @@ export default {
             vender1: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Você observa o conteúdo misterioso por trás do vidro da unidade de armazenamento.)']
-                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo.\n* Dentro estão frascos de várias substâncias desconhecidas.'],
+                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo. Dentro tem frascos com substâncias.'],
             vender2: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (Você observa o conteúdo misterioso por trás do vidro da unidade de armazenamento.)']
-                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo.\n* Dentro estão frascos de várias substâncias desconhecidas.'],
+                    : ['<32>{#p/basic}* Uma unidade de armazenamento selada a vácuo. Dentro tem frascos com substâncias.'],
             toolrack: () =>
                 SAVE.data.b.svr
                     ? [
@@ -4266,7 +4266,7 @@ export default {
                         ["<25>{#p/asriel1}{#f/16}* ... vamos deixar isso assim."]
                     ][Math.min(asrielinter.toolrack++, 3)]
                     : [
-                        "<32>{#p/basic}* Um amontoado de ferramentas velhas e enferrujadas.\n* Parecem não ter sido usadas a anos.",
+                        "<32>{#p/basic}* Um amontoado de ferramentas velhas e enferrujadas. Não são usadas a anos.",
                         ...(SAVE.data.n.plot === 72 ? ['<33>* ... e agora jamais serão.'] : [])
                     ],
             spycamera1: () =>
@@ -4279,7 +4279,7 @@ export default {
                             : [
                                 '<32>{#p/basic}* Este monitor está calibrado para seguir seus movimentos.',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielLab1++ < 1
-                                    ? ["<25>{#p/asriel2}{#f/5}* Se eu pelo menos pudesse ver a cara da Alphys nos assistindo..."]
+                                    ? ["<25>{#p/asriel2}{#f/5}* Se eu pelo menos pudesse ver a cara da Alphys assistindo..."]
                                     : [])
                             ],
             gameshow_terminal1: () =>
@@ -4314,7 +4314,7 @@ export default {
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (O sinal estabiliza um número limite de monstros que a máquina pode suportar.)']
                     : [
-                        '<32>{#p/basic}* \"Por favor tenham em mente que boa parte dessas máquinas só suportam dois monstros por vez.\"',
+                        '<32>{#p/basic}* \"Por favor tenham em mente que boa parte dessas máquinas só suportam dois monstros vez.\"',
                         ...(world.genocide && SAVE.flag.n.ga_asrielSkySign1++ < 1
                             ? ['<25>{#p/asriel2}{#f/1}* Ótimo pra gente.']
                             : [])
@@ -4395,7 +4395,7 @@ export default {
                 "<32>{#p/alphys}* Nosso amor compartilhado por quebra-cabeças é algo que sempre me cativou.",
                 '<32>* Quando éramos crianças você me inspirou a fazer tantas coisas...',
                 '<32>* Se não fosse por você, eu talvez jamais fosse uma cientista.',
-                "<32>* Eu não pude te assistir partir, mas sei que você manteve-se verdadeiro a si mesmo no fim.",
+                "<32>* Eu não pude te assistir partir, mas sei que você manteve-se verdadeiro a si.",
                 "<32>* Por minha culpa, você nunca será si mesmo novamente."
             ],
             corenote4: [
@@ -4422,19 +4422,19 @@ export default {
                 "<32>{#p/alphys}* Eu sei que nem sempre fui a melhor no meu trabalho, mas...",
                 '<32>* Você sempre me fez sentir como se eu estivesse contribuindo com algo.',
                 '<32>* E, mesmo que aqueles experimentos fossem arriscados...',
-                '<32>* Eu sempre tive o apoio de todo o Outpost para encontrar o caminho mais rápido fora daqui.',
-                "<32>* Bem, chefe... nós conseguimos.\n* Você não vai precisar viver nem mais um dia nesse posto avançado estúpido.",
+                '<32>* Eu sempre tive o apoio de todos para encontrar o caminho mais rápido da liberdade.',
+                "<32>* Bem, chefe... nós conseguimos.\n* Você não vai precisar viver nem mais um dia nesse lugar.",
                 '<32>* Eu deveria imaginar que algo daria errado...',
                 '<32>* Eu deveria ter notado a poeira naquela Flor Estrelada...',
                 '<32>* Eu deveria ter contido enquanto ainda tinha chance...',
                 "<32>* Mas eu não o fiz.",
-                '<32>* Por minha causa e da minha arrogância, aquela criança abriu um caminho de destruição.',
+                '<32>* Por minha causa, aquela criança abriu um caminho de destruição.',
                 "<32>* Eu já perdi tantas pessoas das quais eu me importo...",
                 '<32>* Vê-las morrer do conforto do meu laboratório, enquanto eu não fazia nada para impedir.',
                 "<32>* Mettaton vai tentar seu melhor, mas se ele falhar...",
                 "<32>* ... você é o próximo.",
                 "<32>* Eu não sei o que fazer se tiver que assistir mais um dos meus amigos morrer.",
-                "<32>* Eu não sei o que farei se sentir que eu sabia que poderia ter feito algo pra ti salvar.",
+                "<32>* Eu não sei o que farei se sentir que poderia ter te salvado.",
                 "<32>* O que eu sei é que você não vai lutar, e eu sei que eles não vão se importar.",
                 "<32>* E caso eu não faça nada antes que seja tarde demais...",
                 '<32>* ...',
@@ -4513,7 +4513,7 @@ export default {
                             ['<25>{#p/asriel1}{#f/20}* Deve ser loucura.']
                         ][Math.min(asrielinter.coresign4++, 3)]
                     ]
-                    : ['<32>{#p/basic}* \"Esta placa é dedicada ao Professor T. N. Roman.\"\n* \"Que seu legado seja eternizado.\"'],
+                    : ['<32>{#p/basic}* \"Esta placa é dedicada ao Professor T. N. Roman.\"\n* \"Legado eternizado.\"'],
             coresign5: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (O sinal lista o que tem em casa direção.)']
@@ -5062,7 +5062,7 @@ export default {
                                     ],
                 () =>
                     SAVE.data.n.plot < 56
-                        ? ['<32>{#p/basic}* Mettaton geralmente tem um cronograma, mas ele se esqueceu de fazer um desta vez.']
+                        ? ['<32>{#p/basic}* Mettaton geralmente tem um cronograma, mas ele se esqueceu de fazer um.']
                         : SAVE.data.n.plot < 68
                             ? ['<32>{#p/basic}* Eu juro que você parece com aquele ator que o Mettaton trouxe...']
                             : world.bad_robot
@@ -5128,7 +5128,7 @@ export default {
                                     ? [
                                         '<32>{#p/basic}{#npc/a}* Eu sou uma das construtoras da fonte ORIGINAL daqui.',
                                         "<32>* Sabe.\n* Antes do Mettaton vir reconstruir ela toda.",
-                                        "<32>* Tipo, quem faz isso? Quem reconstrói uma estrutura inteira pra mudar único detalhe?",
+                                        "<32>* Tipo, porquê? Quem reconstrói uma estrutura toda pra mudar único detalhe?",
                                         '<32>* Bem ridículo, se você me perguntar.'
                                     ]
                                     : [
@@ -5226,7 +5226,7 @@ export default {
             a_clamguy: pager.create(
                 0,
                 [
-                    '<32>{#p/basic}{#npc/a}* Eles dizem que as coisas podem ficar muito estranhas se você for longe demais nessa salas de repetição.',
+                    '<32>{#p/basic}{#npc/a}* Dizem que as coisas ficam estranhas se for longe demais nessa salas de repetição.',
                     '<32>* Túneis espaciais...\n* Flexões espaciais invariáveis...',
                     "<32>* E não me pergunte o que isso significa, eu só ouvi a Alphys falando uma vez.",
                     "<32>* Se não fosse ela falando, eu só pensaria que foi inventado..."
@@ -5789,7 +5789,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* Eu trabalho no CORE.\n* Era para o design se parecer com um pássaro.',
-                            '<32>* Oh! Eu aposto que você só sabe o que significa \"CORE\"!',
+                            '<32>* Oh! Eu aposto que você não sabe o que significa \"CORE\"!',
                             '<32>* Significa \"Carregado de Ônio com íons de Refatoração Eletrizados.\"',
                             '<32>* O que isso significa?',
                             '<32>* Sei lá.'
@@ -5869,7 +5869,7 @@ export default {
                 ][Math.min(SAVE.flag.n.ga_asrielTimewaster++, 1)],
             asriel46: ['<25>{#p/asriel2}{#f/13}* Nossa... é estranho voltar aqui com você ao meu lado.'],
             asriel47: [
-                "<25>{#p/asriel2}{#f/4}* É como... entrar em um campo de batalha com seu amigo.",
+                "<25>{#p/asriel2}{#f/4}* É como... entrar em um campo de batalha com seu melhor amigo.",
                 "<25>{#f/3}* Porque era assim que esse lugar era pra mim."
             ],
             asriel48: [
@@ -5947,7 +5947,7 @@ export default {
                     [
                         '<25>{#p/asriel2}{#f/3}* No fim...',
                         '<25>{#f/4}* Aqui está o centro de poder do Outpost.',
-                        '<25>{#p/asriel2}{#f/8}* Fique por perto, o esquadrão de ELITE deve estar por perto.'
+                        '<25>{#p/asriel2}{#f/8}* Fique por perto, o esquadrão de ELITE deve estar nos procurando.'
                     ],
                     []
                 ][Math.min(SAVE.flag.n.ga_asrielCore0++, 1)],
@@ -5976,7 +5976,7 @@ export default {
                 [
                     [
                         '<25>{#p/asriel2}{#f/3}* Você acha que pode abrir a porta pra mim enquanto arrumo aqui?',
-                        '<25>{#f/4}* Escolha um lado, esquerda ou direita, e aperta a alavanca no final.',
+                        '<25>{#f/4}* Escolha um lado, esquerda ou direita, e aperta a alavanca.',
                         "<25>{#f/1}* Eu vou estar esperando."
                     ],
                     ["<25>{#f/4}* Eu faço minha parte e você a sua."]
@@ -6005,7 +6005,7 @@ export default {
             core7c: ['<25>{#p/asriel2}{#f/7}* Você sabe o que fazer.'],
             core8a: [
                 "<32>{#p/mettaton}* Você realmente acha que irei deixa-los fugir tão facilmente?",
-                "<25>{#p/asriel2}{#f/8}* ...\n* Não diga besteira Mettaton, é obvio que você não vai.",
+                "<25>{#p/asriel2}{#f/8}* ... Não diga besteira Mettaton, é obvio que você não vai.",
                 "<25>{#p/asriel2}{#f/7}* Só não vai importar quando você estiver morto."
             ],
             core8aX: () => [
@@ -6157,7 +6157,7 @@ export default {
                     : ["<25>{#f/0}* ... irônico, não é?"]),
             "<25>{#f/0}* de tudo forma, eu tenho esse trabalho bem chato, né?",
             "<25>{#f/0}* felizmente, tem um lugar lá na ponta de starton.",
-            "<25>{#f/0}* Lá tem uma ponte e no final da ponte uma grande e velha porta.",
+            "<25>{#f/0}* lá tem uma ponte e no final da ponte uma grande e velha porta.",
             '<25>{#f/4}* essa porta era PERFEITA para praticar piadas de toque toque.',
             "<25>{#f/0}* um dia, eu estava lá praticando como sempre...",
             '<25>{#f/0}* e eu bato na porta e digo \"toque toque.\"\n* como sempre.',
@@ -6222,7 +6222,7 @@ export default {
             '<25>{#p/sans}{#f/2}* então eu fui lá e comecei a tocar meu trombone.',
             '<25>{#f/4}* ela sendo ela, INSTANTANEAMENTE entendeu a piada.',
             "<25>{#f/0}* ... aquela noite acabou sendo uma das melhores que já tivemos.",
-            '<25>{#f/0}* em bom tempo se passou e bem...',
+            '<25>{#f/0}* um bom tempo se passou e bem...',
             "<25>{#f/2}* eu basicamente estive te vigiando.",
             "<25>{#f/0}* mas ei, eu tenho feito um ótimo trabalho. não é mesmo?",
             '<25>{#f/3}* quer dizer, olha só pra você...',
@@ -7444,7 +7444,7 @@ export default {
         status1: (azzy_neo: number) =>
             [
                 [
-                    "<33>{#p/asriel2}* Eu vou tentar usar um feitiço para abrir o escudo dele. Pegue o máximo de energia que conseguir!"
+                    "<33>{#p/asriel2}* Eu vou tentar usar um feitiço para abrir o escudo dele. Pegue o máximo de energia que der!"
                 ],
                 ['<32>{#p/asriel2}* Lá vamos nós de novo.']
             ][Math.min(azzy_neo, 1)],
@@ -8777,7 +8777,7 @@ export default {
                 : ['<08>{#p/basic}{~}Junto-se a mim na linha de frente.'],
         idleTalk2: () =>
             world.genocide
-                ? ['<08>{#p/basic}{~}Preparar para a execução!']
+                ? ['<08>{#p/basic}{~}Preparar para a exe- cução!']
                 : ["<08>{#p/basic}{~}Tudo é justo no amor...\ne no CORE."],
         idleTalk3: () =>
             world.genocide
@@ -8886,11 +8886,11 @@ export default {
         act_disarm4: pager.create(
             0,
             [
-                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para onde você começou.)',
+                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para o começo.)',
                 "<32>{#p/asriel2}* Estamos perdendo tempo."
             ],
             [
-                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para onde você começou.)',
+                '<32>{#p/human}* (Você tenta desarmar Mushketter, mas ele te chuta de volta para o começo.)',
                 '<32>{#p/asriel2}* ...'
             ]
         ),
@@ -9490,7 +9490,7 @@ export default {
                     '<25>{#g/alphysNervousLaugh}* Bem, pra passar do quebra-cabeça, apenas alinhe sua fase...',
                     '<25>{#g/alphysHellYeah}* ... com a mudança de fase global da sala!',
                     '<25>{#g/alphysCutscene2}* O que você pode fazer andando pra frente ou pra trás, é claro.',
-                    '<25>{#g/alphysSmileSweat}* E-e, os terminais estão configurados para exibir seu deslocamento de fase local',
+                    '<25>{#g/alphysSmileSweat}* Os terminais estão ativos para exibir o deslocamento de fase.',
                     "<25>{#g/alphysSide}* Dessa forma você sabe quanto está propriamente alinhado.",
                     '<25>{#g/alphysCutscene1}* B-boa sorte!'
                 ],
@@ -9518,10 +9518,10 @@ export default {
                     '<25>{#p/alphys}{#g/alphysCutscene1}* Oh, e-epa!',
                     '<25>{#p/alphys}{#g/alphysCutscene2}* Este aí é um pouco mais complicado do que aquele último.',
                     "<25>{#p/alphys}{#g/alphysWelp}* Sabe, por causa da dimensão a mais adicionada.",
-                    '<25>{#p/alphys}{#g/alphysCutscene3}* Às vezes me questiono se isso realmente torna as coisas mais difíceis.',
+                    '<25>{#p/alphys}{#g/alphysCutscene3}* Às vezes me questiono se isso torna as coisas mais difíceis.',
                     '<25>{#p/alphys}{#g/alphysSmileSweat}* Bem, uh, c-como o último, você só precisa alinhar sua fase.',
                     "<25>{#p/alphys}{#g/alphysFR}* Se você não sabe o que é isso a essa altura...",
-                    "<25>{#p/alphys}{#g/alphysSide}* Eu diria que você deve estar vivendo um asteróide esse tempo todo."
+                    "<25>{#p/alphys}{#g/alphysSide}* Eu diria que você deve estar vivendo um asteróide."
                 ],
                 [
                     '<25>{#p/alphys}{#g/alphysInquisitive}* ... Então você ESTAVA vivendo em um asteróide.',
@@ -10181,7 +10181,7 @@ export default {
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'tipo ele realmente roubou meu telefone reserva' 
-                        : 'eu finalmente comecei a assistir a última têmpora e nossa é muito bom PQP'
+                        : 'eu finalmente comecei a assistir a última temporada e nossa é muito bom PQP'
             },
             alphys10: {
                 author: 'NAPSTABLOOK22',
@@ -10262,7 +10262,7 @@ export default {
                         ? SAVE.data.n.state_aerialis_royalguards === 1
                             ? 'não... droga... eu pensei ter dito pra elas não irem atrás de ninguém' 
                             : "phew... eu pensei que elas seriam mortas de certeza ali" 
-                        : 'eu pensei ter dito pra real guarda não ir atrás de ninguém POHA???'
+                        : 'eu pensei ter dito pra guarda real não ir atrás de ninguém POHA???'
             },
             alphysX0: {
                 author: 'SISTEMA',
@@ -10704,7 +10704,7 @@ export default {
                 author: 'ALPHYS',
                 pm: () =>
                     world.bad_lizard < 2
-                        ? 'eu deixei isso acontecer sans...\neu vi ele morrer e não fiz nada'
+                        ? 'eu deixei isso acontecer sans...\neu vi ela morrer e não fiz nada'
                         : 'eu provavelmente devo sair logo do laboratório enquanto posso'
             },
             alphysY8D3b1: {
@@ -11452,7 +11452,7 @@ export default {
                             },
                             {
                                 b: '',
-                                c: '<16>{#k/2/9}* E dá uma olhada mo nosso modelo de negócios GENIAL...',
+                                c: '<16>{#k/2/9}* E dá uma olhada no nosso modelo de negócios GENIAL...',
                                 s: true
                             },
                             {
@@ -11578,7 +11578,7 @@ export default {
                                 ]
                                 : [
                                     {
-                                        b: '<16>{#k/2/1}* Então tipo, originalmente, quem estava no controle era o Mettaton, certo?',
+                                        b: '<16>{#k/2/1}* Então tipo, originalmente, quem estava no controle era o Mettaton.',
                                         c: '<16>{#k/1/1}* Totalmente no controle.'
                                     },
                                     {
@@ -11632,7 +11632,7 @@ export default {
                                 s: true
                             },
                             {
-                                b: '<16>{#k/0/5}* Ele disse que estava \"cansado de perseguir fantasias\" ou algo assim.',
+                                b: '<16>{#k/0/5}* Ele disse que estava \"cansado de perseguir fantasias.\"',
                                 c: '<16>* Ele disse que estava \"cansado de buscar o amor\" ou algo assim.',
                                 s: true
                             },
@@ -11643,7 +11643,7 @@ export default {
                             },
                             {
                                 b: '<16>{#k/5/8}* Ele TOTALMENTE fantasiava com a gente.',
-                                c: '<16>* Ele DEFINITIVAMENTE tinha um crush na gente.',
+                                c: '<16>* Ele COM CERTEZA tinha um crush na gente.',
                                 s: true
                             },
                             {
@@ -11777,7 +11777,7 @@ export default {
                                 c: '<16>{#k/2/2}* ... leva você a caças de lixo interestelares estrondosas!'
                             },
                             {
-                                b: '<16>{#k/0/0}* Ela nos mostrou o jeito mais legal de encontrar paradas.',
+                                b: '<16>{#k/0/0}* Ela mostrou uma forma legal de encontrar coisas.',
                                 c: '<16>* Ela construiu uma coleção de ficção científica WICKED.',
                                 s: true
                             },
@@ -11824,11 +11824,11 @@ export default {
                             },
                             {
                                 b: "<16>{#k/2/6}* É tipo...",
-                                c: "<16>* Ela não processa as coisas da mesma forma que a maioria faz."
+                                c: "<16>* Ela não processa as coisas da mesma forma que a maioria."
                             },
                             {
                                 b: "<16>{#k/5/8}* Mas nós amamos ela por isso, não é?",
-                                c: "<16>* Mas ainda achamos que ela é MA-RA-VI-LHO-SA!",
+                                c: "<16>* Mas ainda achamos que ela é MA RA VI LHO SA!",
                                 s: true
                             },
                             {

@@ -23,26 +23,26 @@ export default {
     a_starton: {
         telescope1: () => [
             ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X.']),
-            choicer.create('* (Use the telescope?)', 'Да', 'Нет')
+            choicer.create('* (Посмотреть в телескоп?)', 'Да', 'Нет')
         ],
-        telescopeMeetup1: ['<25>{#p/kidd}{#f/2}* You do stargazing??'],
+        telescopeMeetup1: ['<25>{#p/kidd}{#f/2}* За звёздами наблюдаешь??'],
         telescopeMeetup2: [
-            '<25>{#p/kidd}{#f/1}* Yo... I bet you just saw something really cool.',
-            '<25>{#f/7}* The last time I looked in a telescope, I saw a freaking SUPERNOVA!'
+            '<25>{#p/kidd}{#f/1}* Слышь... зуб даю, там что-то крутецкое.',
+            '<25>{#f/7}* Прикинь, когда я смотрел в телескоп, я там увидел СВЕРХНОВУЮ ЗВЕЗДУ!'
         ],
         telescopeMeetup3: [
-            '<25>{#p/kidd}{#f/3}* Here.\n* Take this.',
+            '<25>{#p/kidd}{#f/3}* Вот.\n* Возьми-ка.',
             '<32>{#s/equip}{#p/human}* (The Premium Membership Voucher was added to your keyring.)',
-            '<25>{#p/kidd}{#f/7}* Now you can use ANY telescope, even the \"premium\" ones!',
-            '<25>{#f/1}* That short skeleton gave me a bunch of these earlier.',
-            '<25>{#f/2}* He also gave me some digital thing with a lot of money...',
-            '<25>{#f/1}* I guess he really likes me, haha.'
+            '<25>{#p/kidd}{#f/7}* Теперь ты можешь смотреть в ЛЮБОЙ телескоп, даже в премиум-модели!',
+            '<25>{#f/1}* Тот костлявый коротышка отдал мне это.',
+            '<25>{#f/2}* Ещё он мне дал какую-то цифровую штуковину с кучей денег...',
+            '<25>{#f/1}* Кажись я ему приглянулся, ха-ха.'
         ],
         telescopeMeetup4: [
             '<25>{#p/kidd}{#f/3}* Anyway, I kinda just wanted to give you the voucher.',
-            '<25>{#f/1}* I hope you see something cool with it, though!'
+            '<25>{#f/1}* Надеюсь, ты там ещё чё-нить крутое увидишь!'
         ],
-        telescopeMeetup5: ["<25>{#p/kidd}{#f/1}* I'll be in town!"],
+        telescopeMeetup5: ["<25>{#p/kidd}{#f/1}* Я буду в городе!"],
         telescope2: () =>
             SAVE.data.b.svr
                 ? ['<25>{#p/asriel1}{#f/17}* See anything you like?']
@@ -2498,7 +2498,7 @@ export default {
                 '<32>{#p/human}* (It appears to be just beyond your reach.)'
             ],
             spagtable2: ['<32>{#p/human}* (You got the Spaghetti.)'],
-            spagtable2b: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+            spagtable2b: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
             spagtable3: () =>
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (You feel appreciative towards this plate for the food it served you.)']
@@ -2560,15 +2560,15 @@ export default {
         papbooks2: pager.create(
             1,
             [
-                '<32>{#p/human}* (You pick out a book...)',
+                '<32>{#p/human}* (Вы берёте одну из книг...)',
                 '<32>{#p/basic}* \"The cornerstone of a puzzle\'s interactive value is the player\'s affectation.\"',
                 '<32>* \"The tacit drive within every player to explore, progress, and complete a given task.\"',
                 '<32>* \"A puzzle that challenges and engages these motivations will ensure...\"',
                 '<32>* \"The player remains focused and on task until the very end.\"',
-                '<32>{#p/human}* (You put the book back on the shelf.)'
+                '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
             ],
             [
-                '<32>{#p/human}* (You pick out a book...)',
+                '<32>{#p/human}* (Вы берёте одну из книг...)',
                 '<32>{#p/basic}* \"\'Peek-A-Boo!\' said the human, appearing from behind the wall.\"',
                 '<32>* \"The fluffy bunny, surprised, looked at the human excitedly.\"',
                 '<32>* \"Then, the human moved away... no longer able to see them, the fluffy bunny was sad.\"',
@@ -2576,40 +2576,40 @@ export default {
                 '<32>* \"It wanted to cry, thinking it\'d been abandoned for all eternity...\"',
                 '<32>* \"But then, the human appeared once again, and all was right with the world.\"',
                 '<32>* \"The human and the bunny gave each other a big, fluffy hug.\"',
-                '<32>{#p/human}* (You put the book back on the shelf.)'
+                '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
             ],
             () =>
                 world.runaway
                     ? [
-                        '<32>{#p/human}* (You pick out a book...)',
+                        '<32>{#p/human}* (Вы берёте одну из книг...)',
                         '<23>{#p/papyrusnt}\"DEAR DAIRY, THE FORCE FIELD HAS BEEN DESTROYED.\"',
                         '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                         '<23>\"IS NOW THE SUBJECT OF FEAR AMONG EVERYONE ON THE OUTPOST.\"',
                         '<23>\"WE\'RE ALL LEAVING RIGHT AWAY, BEFORE THEY WAKE UP.\"',
                         '<23>\"STILL, A PART HOPES THEY FIND THEIR WAY OFF THE OUTPOST, TOO.\"',
                         '<23>\"EVERYONE ELSE JUST SEEMS CONTENT LEAVING THEM TO DIE.\"',
-                        '<32>{#p/human}* (You put the book back on the shelf.)'
+                        '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                     ]
                     : SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<23>{#p/papyrusnt}\"DEAR DAIRY, THE FORCE FIELD HAS BEEN DESTROYED.\"',
                             '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                             '<23>\"TOOK ON IMPOSSIBLE ODDS TO SAVE US FROM DESTRUCTION.\"',
                             '<23>\"MAYBE THIS IS WHAT\'LL INSPIRE SANS TO MOVE UP IN THE WORLD.\"',
                             '<23>\"I ONLY MENTION IT BECAUSE, I NEVER KNEW HIS SENTRY JOB...\"',
                             '<23>\"MEANT DOING SO LITTLE ACTUAL WORK.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
                         : [
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<23>{#p/papyrusnt}\"DEAR DAIRY, SANS HAS JUST BEEN MADE AN OFFICIAL ROYAL SENTRY.\"',
                             '<23>\"AT FIRST, I WAS CONFUSED AT HIM...\"',
                             '<23>\"AFTER ALL, WHY WOULD SOMEBODY SO LAZY WANT TO TAKE THIS ON?\"',
                             '<23>\"WELL, I DECIDED NOT TO QUESTION IT.\"',
                             '<23>\"THE TRUTH IS, I COULDN\'T BE MORE PROUD OF HIM!!!\"',
                             '<23>\"ONLY TIME WILL TELL WHAT GREAT THINGS THIS BRINGS FORTH.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
         ),
         papcomputer1: pager.create(
@@ -4859,7 +4859,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Before the war, monsters were taught magic on a regular, day-to-day basis.\"',
                             '<32>* \"When most of our race died, so too did many of our teachers.\"',
                             '<32>* \"To account for this, monsters started learning in larger groups.\"',
@@ -4867,7 +4867,7 @@ export default {
                             '<32>* \"By now, the population woes play a much smaller factor in our lives.\"',
                             '<32>* \"Though, we still stick to the new methods, because...\"',
                             '<32>* \"... we\'re honestly just too lazy to change back.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4876,14 +4876,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Once upon a time, monsters used a wide variety of currencies.\"',
                             '<32>* \"JEWEL and KRIOTAAN were the most prominent... but only on the home planet.\"',
                             '<32>* \"When it came to interactions with humans, the only currency used was GOLD.\"',
                             '<32>* \"Our abundant supply of the shiny mineral granted us many favors...\"',
                             '<32>* \"But as a result, the other curriences lost their value in short time.\"',
                             '<32>* \"Now, we just use gold for everything!\"\n* \"It\'s the monster way.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4892,14 +4892,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Then and Now.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Since Erogot\'s fall, our king has done his best to uphold our homeworld\'s legacy.\"',
                             '<32>* \"Even if he lost the damn thing in the process...\"',
                             '<32>* \"We\'ve all come to accept what happened, and we don\'t really blame him anymore.\"',
                             '<32>* \"The past two centuries have been tough, but we grow ever-closer to freedom.\"',
                             '<32>* \"The angel is coming...\"',
                             '<32>* \"... for all we know, it might already be here, having read this very book.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             s_librarby_desk: () =>
@@ -4915,14 +4915,14 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"The OuterNet is a joint effort by the king and the royal scientist.\"',
                             '<32>* \"... well, mostly the royal scientist, since the king just wrote the welcome message.\"',
                             '<32>* \"Still, the website serves as a \'virtual town square\' for outpost residents.\"',
                             '<32>* \"All you have to do to create an account is...\"',
                             '<32>* \"Um... well...\"',
                             "<32>* \"The instructions weren't exactly 'clear...'\"",
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4931,13 +4931,13 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"If you wanna get around on the outpost, the traveler is your best bet.\"',
                             '<32>* \"They can take you anywhere you wanna go...\"',
                             '<32>* \"... given they\'re available at your nearest taxi stop.\"',
                             '<32>* \"Not gonna lie, the stuff they say seems kinda random.\"',
                             '<33>* \"What\'s \"dog justice\" anyway?\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4946,12 +4946,12 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Information.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Monsters are free to traverse any area of the outpost.\"',
                             '<32>* \"That is, any area short of the last corridor at the top of the Citadel.\"',
                             '<32>* \"Beyond this, only the royal scientist is allowed through...\"',
                             '<32>* \"... we still don\'t know why.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             s_librarby_ladder: () =>
@@ -4967,13 +4967,13 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Monster funerals, technically speaking, are cool as heck.\"',
                             '<32>* \"When monsters get old and kick the bucket, they turn into dust.\"',
                             '<32>* \"At funerals, we take that dust and spread it on that person\'s favorite thing.\"',
                             '<32>* \"Then their essence will live on in that thing...\"',
                             '<32>* \"Uhhh, am I at the page minimum yet?\"\n* \"I\'m tired of writing this.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
@@ -4982,7 +4982,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Because they are made of magic, monsters\' bodies are attuned to their SOUL.\"',
                             '<32>* \"If a monster intends to cause harm, and truly believes in themselves...\"',
                             '<32>* \"Such a monster could become unusually powerful.\"',
@@ -4998,7 +4998,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* It\'s a bookshelf labelled \"Monster Biology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"While monsters are mostly made of magic, humans are mostly made of water.\"',
                             '<32>* \"With their physical forms, humans are far stronger than us.\"',
                             '<32>* \"But, they will never know the joy of expressing themselves through magic.\"',
@@ -5006,7 +5006,7 @@ export default {
                             '<32>* \"Or play hide-and-go seek with invisibility and clairvoyance...\"',
                             '<32>* \"Or even create wild light shows with electricity magic!\"',
                             '<32>* \"How unfortunate.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             s_librarby_purpleBooks: pager.create(
@@ -5016,7 +5016,7 @@ export default {
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Each day on our homeworld was a sight to behold.\"',
                             '<32>* \"To start the morning, bright spires of magical energy pierced the skies.\"',
                             '<32>* \"Throughout the day, these magical formations began to resonate together...\"',
@@ -5025,14 +5025,14 @@ export default {
                             '<32>* \"Bolts of magical energy previously released struck back down from above.\"',
                             '<32>* \"Once enough energy hit the ground, the spires would rise again...\"',
                             '<32>* \"Such was the cycle that once governed our days and nights.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Monsters didn\'t always have such an organized structure, you know?\"',
                             '<32>* \"Long, long ago... thousands of years ago, in fact...\"',
                             '<32>* \"Our race frolicked wild and free, with no sense of order or direction.\"',
@@ -5042,20 +5042,20 @@ export default {
                             '<32>* \"These developments begat our society, and eventually, our way of life.\"',
                             '<32>* \"... I still can\'t believe we just ran around naked for two thousand years.\"',
                             '<32>* \"Where\'s the class in that?\"\n* \"Where\'s the fashion?\"\n* \"Unbelievable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf document the history of the monster homeworld.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Homeworld History.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"When monsterkind first met with humanity, Erogot was king.\"',
                             '<32>* \"Through his wisdom and guidance, monsters and humans lived in peace and harmony.\"',
                             '<32>* \"But when Erogot died of old age... things would never be the same.\"',
                             '<32>* \"He was a skilled leader, and one his son could never replace.\"',
                             '<32>* \"The war that followed was... sadly inevitable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             s_librarby_yellowBooks: pager.create(
@@ -5065,40 +5065,40 @@ export default {
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Gerson says the outpost used to just be a small space station.\"',
                             '<32>* \"Then, after twenty years of suffering, someone looked at the force field and said...\"',
                             "<32>* \"'Couldn't WE harvest some of that energy?'\"",
                             '<32>* \"A simple but brilliant idea!\"',
                             '<32>* \"As a result, the CORE was built, and with it came a stable power supply.\"',
                             '<32>* \"We\'re still using it to this very day!\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Ah, the wonders of artificial intelligence...\"',
                             '<32>* \"... or not.\"',
                             '<32>* \"After the builder bot tragedy of K-541.12, we abandoned the idea of a sentient AI.\"',
                             '<32>* \"In fact, the queen barred anyone from creating new AI programs altogether.\"',
                             '<32>* \"These days, there\'s only one monster who\'d have the skills and resources to do so...\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf discuss various technologies devised by monsters.)']
                         : [
                             '<32>{#p/basic}* This bookshelf is labelled \"Monster Technology.\"',
-                            '<32>{#p/human}* (You pick out a book...)',
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Something people forget these days is that there\'s little to no gravity in space.\"',
                             '<32>* \"One of the earliest advancements made by monsters, even before the war...\"',
                             '<32>* \"Was our state-of-the-art gravity manipulation tech.\"',
                             '<32>* \"Even now, it\'s built into all areas of the outpost, both big and small...\"',
                             '<32>* \"You, reading this book, are probably standing on it right now.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             s_math_sign: () =>
@@ -5418,7 +5418,7 @@ export default {
                 SAVE.data.b.svr
                     ? ['<32>{#p/human}* (The uniquely-colored book describes a secret weapon lost to time.)']
                     : [
-                        "<32>{#p/basic}* It's a bookshelf.",
+                        "<32>{#p/basic}* Книжный шкаф.",
                         '<32>{#p/human}* (You pick out the red book...)',
                         '<32>{#p/basic}* \"At the height of the war, a secret division of the royal forces was established.\"',
                         '<32>{#p/basic}* \"The so-called \'special weapons\' division, focused on experimental research.\"',
@@ -5429,7 +5429,7 @@ export default {
                         '<32>{#p/basic}* \"Some say the tome was taken aboard the transport ship used to reach the outpost.\"',
                         '<32>{#p/basic}* \"If so, where is it?\"\n* \"And how would one go about unlocking it?\"',
                         '<32>{#p/basic}* \"Perhaps these questions are better left unanswered.\"',
-                        '<32>{#p/human}* (You put the book back on the shelf.)'
+                        '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                     ],
             s_sansbox: () =>
                 SAVE.data.b.svr

@@ -10,7 +10,6 @@ import systems from './text/systems';
 import values, { LANGUAGE } from './text/values';
 
 translator.content.addLanguage(LANGUAGE, sources);
-translator.content.addLanguage(LANGUAGE, coloredSources);
 translator.langs.push(LANGUAGE);
 translator.registry.of('aerialis').addLanguage(LANGUAGE, aerialis);
 translator.registry.of('citadel').addLanguage(LANGUAGE, citadel);

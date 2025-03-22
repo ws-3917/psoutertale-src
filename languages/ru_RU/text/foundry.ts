@@ -140,7 +140,7 @@ export default {
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         artifact1: ['<32>{#p/human}* (You got the Legendary Artifact.)'],
-        artifact2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        artifact2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         artifact3: () =>
             SAVE.data.b.svr
                 ? ['<32>{#p/human}* (The inscription describes a riddle of ivories and melodies.)']
@@ -152,7 +152,7 @@ export default {
                 ],
         tome0: () => ['<32>{#p/basic}* The tome is attached firmly to the pedestal.'],
         tome1: () => ['<32>{#p/human}* (You acquired The Epiphany.)'],
-        tome2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        tome2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         tome3: () =>
             SAVE.data.b.svr
                 ? ['<32>{#p/human}* (The inscription speaks of peace and good intentions.)']
@@ -593,7 +593,7 @@ export default {
             '<32>{#p/human}* (You got the Hoverboots.)',
             choicer.create('* (Equip the Hoverboots?)', 'Да', 'Нет')
         ],
-        boots2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        boots2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         bruh: ['<32>{*}{#p/undyne}* See you soon.{^20}{%}'],
         candy1: () =>
             postSIGMA()
@@ -1179,7 +1179,7 @@ export default {
             '<32>{#p/human}* (You got the Flight Suit.)',
             choicer.create('* (Equip the Flight Suit?)', 'Да', 'Нет')
         ],
-        jumpsuit2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        jumpsuit2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         kiddStatue: [
             '<25>{#p/kidd}{#f/1}* Yo, I remember this place!',
             '<25>{#f/3}* My, uh, Mom took me here one time, haha.',

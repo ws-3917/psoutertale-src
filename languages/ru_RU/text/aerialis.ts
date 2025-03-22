@@ -61,7 +61,7 @@ export default {
                 : [])
         ],
         termsmash1: ['<32>{#p/human}* (You decide not to smash.)'],
-        termsmash2: ['<32>{#p/human}* (You take a swing...)'],
+        termsmash2: ['<32>{#p/human}* (Вы разбиваете пирог...)'],
         puzzlenoot1: () => [
             '<32>{#s/phone}{#p/event}* Ring, ring...',
             world.nootflags.has('a_barricade1') // NO-TRANSLATE
@@ -571,12 +571,12 @@ export default {
             '<32>{#p/human}* (You got the Sonic Resonator.)',
             choicer.create('* (Equip the Sonic Resonator?)', 'Да', 'Нет')
         ],
-        sonic2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        sonic2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         tablaphone1: () => [
             '<32>{#p/human}* (You got the Tablaphone.)',
             choicer.create('* (Equip the Tablaphone?)', 'Да', 'Нет')
         ],
-        tablaphone2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        tablaphone2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         moonpie1: () => [
             '<32>{#p/human}* (You got the Moon Pie.)',
             ...(SAVE.data.b.svr
@@ -589,7 +589,7 @@ export default {
                     '<32>{#p/basic}* \"... someone in need of some extra health.\"'
                 ])
         ],
-        moonpie2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
+        moonpie2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
         ratings: 'RATINGS $(x)',
         gold: 'GOLD $(x)',
         secretcall: [
@@ -4028,42 +4028,42 @@ export default {
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"A monster\'s body is a reflection of its SOUL.\"',
                             '<32>* \"Normally, parents decide what kind of monsters their children will be...\"',
                             '<32>* \"Imprinting their will into the very essence of the child.\"',
                             '<32>* \"But what would happen if another being, like a human, absorbed a SOUL instead?\"',
                             '<32>* \"Legends speak of humans who absorbed the SOULs of dead boss monsters in the war...\"',
                             '<32>* \"In one particular account, a human was said to have taken the form of a plane.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"So you wanna design a robot, huh? Well, Fabulous Faraday\'s got you covered!\"',
                             '<32>* \"You see, here on Earth, we like to do things with a dash of flavor.\"',
                             '<32>* \"You can\'t just build a metal box and call it a day, you catch my drift?\"',
                             '<32>* \"You\'ve got to give it style, features dazzling and dynamic, like wheels and dials!\"',
                             '<32>* \"And, for maximum razz, do something creative with its mobility!\"',
                             '<32>* \"Like, I dunno, a unicycle?\"\n* \"Yeah, something like that.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of various unrelated contents.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>* \"Unfortunately, monsters do not deal with illness very well.\"',
                             '<32>* \"When a monsters\' death is imminent, they lie down, immobile.\"',
                             '<32>* \"We call this state \'Fallen Down.\'\"',
                             '<32>* \"During the war, this confusing situation was all too familiar...\"',
                             '<32>* \"Death, in those times, was sadly unavoidable.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             paperbook: () =>
@@ -4085,8 +4085,8 @@ export default {
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Professor\'s notes, page 76.\"',
                             '<32>* \"The CORE is now online, and outpost construction plans are already underway.\"',
                             '<32>* \"I\'m not sure how to feel about this development...\"',
@@ -4094,34 +4094,34 @@ export default {
                             '<32>* \"By settling in like this, are we admitting that we can\'t escape without human SOULs?\"',
                             '<32>* \"Since I was appointed as the royal scientist, I\'ve set my mind on breaking us free.\"',
                             '<32>* \"Now, I fear the other monsters have acquiesced to waiting...\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Professor\'s notes, page 195.\"',
                             '<32>* \"It\'s a dark day for monsterkind, the royal family is in pieces.\"',
                             '<32>* \"Queen Toriel has abandoned the throne over a few rushed words from Asgore.\"',
                             '<32>* \"But those words may have long-lasting implications for us...\"',
                             '<32>* \"Now, everyone expects him to take the human SOULs by force.\"',
                             '<32>* \"This is a disaster.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ],
                 () =>
                     SAVE.data.b.svr
                         ? ['<32>{#p/human}* (The books on this bookshelf consist of a series of notes.)']
                         : [
-                            "<32>{#p/basic}* It's a bookshelf.",
-                            '<32>{#p/human}* (You pick out a book...)',
+                            "<32>{#p/basic}* Книжный шкаф.",
+                            '<32>{#p/human}* (Вы берёте одну из книг...)',
                             '<32>{#p/basic}* \"Professor\'s notes, page 310.\"',
                             '<32>* \"Well, he\'s agreed to the plan... of course, I was almost certain he would.\"',
                             '<32>* \"The timing is fortunate.\"\n* \"The first human since $(name) arrived on the outpost today.\"',
                             "<32>* \"We don't know if it'll be able to contain them yet, but we'll find out soon enough...\"",
                             '<32>* \"Fingerbones crossed.\"',
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ]
             ),
             cream_machine: () =>
@@ -9472,7 +9472,7 @@ export default {
 
     c_name_aerialis: {
         alphys: "Alphys's Phone",
-        puzzle: 'Puzzle Help',
+        puzzle: 'Помощь с пазлом',
         dimboxA: 'Dimensional Box A',
         dimboxB: 'Dimensional Box B',
         pms: () => (SAVE.data.n.plot_pmcheck < pms().length ? '§fill=#ff0§OuterNet (NEW)' : 'OuterNet')

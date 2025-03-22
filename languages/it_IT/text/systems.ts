@@ -223,7 +223,7 @@ export default {
         message_alert: ['OK'],
         message_confirm: ['Cancella', 'OK'],
         prompt_clear: 'Cancellare questo file?',
-        prompt_demo: 'Il tuo file di SALVATAGGIO\ndalla demo di OUTERTALE è stato\nspostato in un\'altra timeline.',
+        prompt_demo: 'Il tuo file di SALVATAGGIO\ndella demo di OUTERTALE è stato\nspostato in un\'altra timeline.',
         prompt_save: 'Salvare questo file?',
         prompt_clear_mobile: 'Ripristina le impostazioni del telefono?\nQuesto non ripristinerà\nil tuo file di SALVATAGGIO',
         prompt_save_alternate: 'Copia il testo sotto in\nun file JSON per salvarlo\nnel tuo dispositivo.',
@@ -903,7 +903,7 @@ export default {
         enabled: 'ATTIVATO',
         finish: 'Premi [X] per Finire',
         frisk: 'Frisk',
-        g: 'G',
+        g: 'ORO',
         hp: 'HP',
         inf: '\u221e',
         landing1: '[PREMI Z O INVIO]',
@@ -917,7 +917,7 @@ export default {
         percent: '$(x)%',
         player: 'giocatore',
         settings: 'Impostazioni',
-        shopg: 'G',
+        shopg: 'ORO',
         unknown: '?',
         xm: 'ME',
         yes: 'Sì'
@@ -928,36 +928,36 @@ export default {
         box2: 'SCATOLA',
         key1: 'PORTACHIAVI',
 
-        confirm1: 'È il nome corretto?',
-        confirm2: 'Un nome è stato\ngià scelto.',
-        confirm3: 'Torna indietro',
+        confirm1: 'Va bene questo nome?',
+        confirm2: 'Un nome è già\nstato scelto.',
+        confirm3: 'Indietro',
 
         footer: 'OUTERTALE V5.05 (c) 2025 SPACEY_432',
 
-        heal1: '* (PS ripristinati.)',
-        heal2: '* (Hai recuperato $(x) PS.)',
-        heal3: '* (Hai perso $(x) PS.)',
-        heal4: '* (PS azzerati.)',
-        heal5: '* (Hai guadagnato $(x) PS.)',
+        heal1: '* (HP ripristinati.)',
+        heal2: '* (Hai recuperato $(x) HP.)',
+        heal3: '* (Hai perso $(x) HP.)',
+        heal4: '* (HP azzerati.)',
+        heal5: '* (Hai guadagnato $(x) HP.)',
 
         item1: 'USA',
-        item2: 'EQUIP',
+        item2: 'EQUIPPAGGIA',
         item3: 'INFO',
-        item4: 'GETTA',
+        item4: 'BUTTA',
 
         load1: 'Continua',
         load2: 'Osserva',
         load3: 'Reset',
         load4: 'Il Vero Reset',
 
-        name1: 'Nomina l\'umano incagliato.',
+        name1: 'Nome del umano alla deriva.',
         name2: 'Esci',
-        name3: 'Indietro',
+        name3: 'Backspace',
         name4: 'Fatto',
         name5: '§fill=#808080§ [ESC] - Esci / [INVIO] - Fatto',
 
         save1: 'Salva',
-        save2: 'Return',
+        save2: 'Indietro',
         save3: 'File salvato.',
 
         settings1: 'IMPOSTAZIONI',
@@ -967,7 +967,7 @@ export default {
         settings3a: 'ITALIANO',
         settings4: 'EFFETTI SONORI',
         settings5: 'MUSICA',
-        settings6: 'FANCY GRAPHICS',
+        settings6: 'GRAFICHE AVANZATE',
         settingsprompt2: '-> GIOCO & GRAFICA',
         settings6a: 'CHARACTER RUNNING',
         settings6b: 'COLORED SPRITES',
@@ -1096,7 +1096,7 @@ export default {
                 '§fill=#ff0§Press [Z]§fill=#808080§ to toggle the §fill=#fff§Invert Button Position§fill=#808080§ feature.\nWhen enabled, the layout of virtual navigation buttons will be mirrored left-to-right for better accessibility or personal preference.'
         },
 
-        sidebar1: 'OGG',
+        sidebar1: 'OGGETTI',
         sidebar2: 'STAT',
         sidebar3: 'CELL',
         sidebar4: 'CONF',
@@ -1109,9 +1109,9 @@ export default {
             '[C o CTRL] - Menù (In gioco)',
             '[F4] - Schermo Intero',
             '[Tieni ESC] - Riavvia',
-            'Perdi quando finisci i PS'
+            'Quando i tuoi HP scendono a 0, perdi.'
         ],
-        start2: 'Inizia la partita',
+        start2: 'Gioca',
 
         stat1: 'AT',
         stat2: 'DF',
@@ -1121,20 +1121,20 @@ export default {
         stat6: 'EXP',
         stat7: 'PROS',
         stat8: '§fill=#ff0§Attenzione:\nTimeline\nnon canon.',
-        stat9: 'UCCIS',
-        stat10: 'BULLI',
-        stat11: 'CORTEG',
+        stat9: 'UCCISIONI',
+        stat10: 'BULLIZZATI',
+        stat11: 'CORTEGGIATI',
         stat12: 'STATO',
         stat13: '\"$(x)\"',
 
         story1: ['<24>{#p/storyteller}Tanto tempo fa, due specie regnavano sul sistema solare: UMANI e MOSTRI.{^35}{}'],
         story2: ['<24>Col passare del tempo, una guerra scoppio tra le due specie.{^35}{}'],
-        story3: ["<24>Dopo che il pianeta natale dei MOSTRI venne distrutto, gli UMANI furono i vincitori.{^35}{}"],
+        story3: ["<24>Dopo che il pianeta natale dei MOSTRI venne distrutto, gli UMANI ne uscirono vincitori.{^35}{}"],
         story4: ['<24>I MOSTRI rimanenti vennero banditi in un avamposto abbandonato.{^35}{}'],
-        story5: ['<24>Un potente campo di forza fu eretto, e i MOSTRI furono sigillati all\'interno.{^35}{}'],
+        story5: ['<24>Un potente campo di forza fu eretto, e i MOSTRI ne furono sigillati all\'interno.{^35}{}'],
         story6: ['<24>Molti anni dopo.{^8}.{^8}.{^35}{}'],
         story7: ['<#24>     SETTORE EBOTT     \n         251X{^35}{}'],
-        story8: ['<24>Le leggende dicono di un posto da dove le astronavi non fanno ritorno.{^35}{}'],
+        story8: ['<24>Le leggende narrano di un posto da cui le astronavi non fanno ritorno.{^35}{}'],
         story9: ['<24>{^100}{}'],
         story10: ['<24>{^100}{}'],
         story11: ['<24>{^35}{}']
@@ -1142,17 +1142,17 @@ export default {
 
     timeline: {
         main: 'Riprendi Timeline Canonica',
-        main_ex: 'Start Canon Timeline',
-        timelines: 'Other Slots',
-        bisect: 'Bisect',
-        delete: 'Delete',
-        instruction: '[ESC] to Cancel / [ENTER] to Confirm',
-        instruction_gamepad: 'Press any button on your gamepad to open the keyboard.',
-        launch: 'Launch',
-        rename: 'Rename',
-        create: 'Create New',
-        placeholder: 'Enter Timeline Name',
-        confirm: 'Are You Sure?'
+        main_ex: 'Inizia Timeline Canonica',
+        timelines: 'Altri Slot',
+        bisect: 'Dividi',
+        delete: 'Cancella',
+        instruction: '[ESC] per Tornare Indietro / [ENTER] per Confermare',
+        instruction_gamepad: 'Premi un qualsiasi pulsante per aprire la tastiera.',
+        launch: 'Avvia',
+        rename: 'Rinomina',
+        create: 'Crea Nuovo',
+        placeholder: 'Inserisci nome della Timeline',
+        confirm: 'Sei Sicuro?'
     }
 };
 

@@ -385,57 +385,57 @@ export default {
             ],
             e6: [
                 '<25>{#p/asriel1}{#f/23}* Ha...',
-                '<25>{#f/22}* I probably seem like a crazy person right now.',
-                '<25>{#f/15}* Obsessing over someone I should have moved on from already...',
-                '<26>{#f/17}* ... I guess $(name) and I really are just a \n  pair of stubborn idiots.'
+                '<25>{#f/22}* Se qualcuno mi sentisse probabilmente penserebbe che sia pazzo.',
+                '<25>{#f/15}* Ossessionandomi su qualcuno di cui avrei dovuto già dimenticarmi...',
+                '<26>{#f/17}* ... Sembrerebbe che sia io che $(name) alla fine non siamo altro che \n  un paio di idioti testardi.'
             ],
             e7: [
-                '<25>{#p/asriel1}{#f/13}* One time, $(name) and I were fighting over a bed...',
-                "<25>{#f/10}* 'Cause, both of us wanted the one with the nightstand next to it.",
-                '<26>{#f/15}* We were both pushing each other off the side, trying to make room...',
-                '<25>{#f/4}* All that fighting got us so tired, that we fell asleep.',
-                '<25>{#f/13}* But when we woke up...',
-                '<25>{#f/17}* We were lying right next to each other.',
-                "<25>{#f/13}* I tried to get up, but... they didn't want to let go.",
-                '<26>{#f/15}* They just kept saying...',
-                '<25>{#f/15}* \"... warm...\"',
-                '<25>{#f/15}* \"... fluffy...\"',
-                '<25>{#f/20}* I would have complained about it, but...',
-                "<25>{#f/17}* ... at that point, I was just happy we weren't fighting."
+                '<25>{#p/asriel1}{#f/13}* Una volta, $(name) e io stavamo litigando per un letto...',
+                "<25>{#f/10}* Perché, entrambi volevamo il letto più vicino al comodino.",
+                '<26>{#f/15}* Ci continuavamo a spingere l\'un l\'altro, cercando di farci spazio...',
+                '<25>{#f/4}* Alla fine, tutto quello spingerci ci ha stancato parecchio e ci siamo addormentati.',
+                '<25>{#f/13}* Ma quando mi sono svegliato...',
+                '<25>{#f/17}* Eravamo sdraiati l\'uno accanto all\'altro. ',
+                "<25>{#f/13}* Chiaramente ho provato ad alzarmi, ma lui... continuava ad aggrapparsi a me.",
+                '<26>{#f/15}* Continuavano a ripetere...',
+                '<25>{#f/15}* \"... caldo...\"',
+                '<25>{#f/15}* \"... morbidoso...\"',
+                '<25>{#f/20}* Me ne sarei lamentato, ma...',
+                "<25>{#f/17}* ... a quel punto ero semplicemente contento che non stavamo più litigando."
             ],
             e8: [
-                '<25>{#p/asriel1}{#f/13}* This other time, $(name) and I were making dinner for Mom and Dad.',
-                '<25>{#f/15}* They kept wanting to make it more spicy...',
-                '<25>{#f/3}* To be honest, if they insisted on that now, I would not complain.',
-                '<25>{#f/20}* I could go for something spicy right about now.',
-                '<25>{#f/13}* But, back then, I was more into sweets.\n* Most monsters are.',
-                '<25>{#f/15}* We ended up playing tug-of-war with the mixing bowl, and...',
-                '<25>{#f/20}* You can imagine how that turned out.',
-                '<25>{#f/17}* Mom made us clean up the mess, of course.',
-                '<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted.'
+                '<25>{#p/asriel1}{#f/13}* Questa altra volta invece, $(name) e io stavamo preparando la cena per Mamma e Papà.',
+                '<25>{#f/15}* Lui continuava a volerla rendere più piccante...',
+                '<25>{#f/3}* Se devo essere onesto, se insistesse ora, probabilmente non me ne lamenterei.',
+                '<25>{#f/20}* Avrei giusto voglia di qualcosa di piccante, a dir la verità.',
+                '<25>{#f/13}* Ma, al tempo, mi piacevano di più i dolci.\n* Per la maggior parte dei mostri è così.',
+                '<25>{#f/15}* Alla fine, abbiamo cominciato a fare tira e molla con la ciotola delle spezie fino a che...',
+                '<25>{#f/20}* Beh, puoi immaginarti come è finita.',
+                '<25>{#f/17}* La mamma ci ha fatto ripulire tutto, ovviamente.',
+                '<25>{#f/13}* E poi, Papà ci ha portato fuori per cena, ed entrambi abbiamo mangiato ciò che preferivamo.'
             ],
             e9: [
-                "<25>{#p/asriel1}{#f/15}* $(name) and I...\n* It's like we couldn't agree on anything...",
-                '<25>{#f/20}* Besides spending time together, that is.',
-                '<26>{#f/17}* Despite our differences, $(name) and I really were inseparable.',
-                "<25>{#f/13}* Even death itself couldn't keep us apart forever."
+                "<25>{#p/asriel1}{#f/15}* $(name) e io...\n* Era come se non potessimo mai essere d'accordo su nulla...",
+                '<25>{#f/20}* A parte il volere stare insieme, ovviamente.',
+                '<26>{#f/17}* Nonostante tutte le nostre divergenze, $(name) e io eravamo davvero inseparabili.',
+                "<25>{#f/13}* Anche la morte stessa non è riuscita a tenerci separati a lungo."
             ],
             e10: [
-                "<25>{#p/asriel1}{#f/17}* ... do you think they're still around, Frisk?",
-                '<25>{#f/17}* For all you know, they could be watching us right now.',
-                "<25>{#f/23}* Wouldn't that be something.",
-                "<25>{#f/22}* But it's impossible to know for sure."
+                "<25>{#p/asriel1}{#f/17}* ... pensi che siano ancora qui da qualche parte, Frisk?",
+                '<25>{#f/17}* Dopotutto per quel che ne sappiamo, ci potrebbe star guardando in questo momento.',
+                "<25>{#f/23}* Sarebbe bello, no?",
+                "<25>{#f/22}* Ma non possiamo saperlo con certezza."
             ],
             e11: [
-                "<25>{#p/asriel1}{#f/17}* Golly.\n* For someone who'll be staying with you...",
-                "<25>{#f/20}* I sure am making it sound like I'd rather be with $(name).",
-                "<25>{#f/13}* But... it's not like that at all.",
-                "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
+                "<25>{#p/asriel1}{#f/17}* Certo che...\n* Per qualcuno che vuole stare con te...",
+                "<25>{#f/20}* Di certo lo sto facendo sembrare come se preferirei stare con $(name).",
+                "<25>{#f/13}* Ma... Non è così.",
+                "<25>{#f/17}* Semplicemente non riesco a fare a meno di ripensare a qualcuno che conoscevo."
             ],
             e12: () => [
-                '<25>{#p/asriel1}{#f/17}* Frisk...\n* I want you to know.',
-                '<25>{#f/13}* Thanks to you...',
-                '<25>{#f/23}* I feel like I have a future again.',
+                '<25>{#p/asriel1}{#f/17}* Frisk...\n* Voglio che tu sappia questo.',
+                '<25>{#f/13}* Grazie a te...',
+                '<25>{#f/23}* Posso di nuovo avere un futuro.',
                 '<25>{#f/22}* ...',
                 ...(!SAVE.flag.b.pacifist_marker_forgive
                     ? ["<25>{#f/22}* Even though you couldn't forgive me for what I'd done..."]
@@ -3659,31 +3659,31 @@ export default {
         tutorial_puzzle8b: ['<25>{#p/toriel}* Try repeating what you have done before.'],
         tutorial_puzzle8c: ['<25>{#p/toriel}{#f/1}* Go on...'],
         twinkly1: [
-            "<25>{#p/twinkly}{#f/5}* Buondì!\n* Io sono {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} la {@fill=#ff0}STELLA{@fill=#fff}!"
+            "<25>{#p/twinkly}{#f/5}* Ciao!\n* Io sono {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} la {@fill=#ff0}STELLINA{@fill=#fff}!"
         ],
         twinkly2: [
-            '<25>{#f/5}* Cosa ti porta nell\'avamposto, amico viaggiatore?',
+            '<25>{#f/5}* Cosa ti porta nell\'avamposto, caro viaggiatore?',
             '<25>{#f/5}* ...',
             "<25>{#f/8}* Ti sei perso, non è vero...",
-            "<25>{#f/5}* Beh, per fortuna sono qui per te!",
-            "<25>{#f/8}* Non sono stato al mio massimo per un po', ma...",
-            '<25>{#f/5}* ... qualcuno dovrà spiegarti come funzionano le cose qui!',
-            '<25>{#f/10}* Credo che sarò io a farlo.',
-            "<25>{#f/5}* Cominciamo, va bene?"
+            "<25>{#f/5}* Beh, per fortuna ci sono qua io per te!",
+            "<25>{#f/8}* Non sono proprio in piena forma, ma...",
+            '<25>{#f/5}* ... serve che qualcuno ti spieghi come funzionano le cose qui!',
+            '<25>{#f/10}* Sembra che spetti a questa piccola stellina aiutarti.',
+            "<25>{#f/5}* Cominciamo, sei pronto?"
         ],
         twinkly3: [
-            "<25>{#f/7}* Ma tu già lo SAI, vero?",
+            "<25>{#f/7}* Ma tu già lo SAPEVI già, giusto?",
             '<25>{#f/8}* ...',
-            "<25>{#f/5}* Comunque tocca a me mostrarti le basi.",
-            "<25>* Cominciamo, va bene?"
+            "<25>{#f/5}* Comunque, sembra tocchi a me mostrarti le basi.",
+            "<25>* Cominciamo, sei pronto?"
         ],
         twinkly4: [
-            "<25>{#p/twinkly}{#f/6}* Ok, è abbastanza.",
+            "<25>{#p/twinkly}{#f/6}* Ok, ne ho abbastanza.",
             '<25>{#f/8}* Se vuoi continuare a resettare, allora...',
-            '<25>{#f/6}* Fa come vuoi.',
-            "<25>{#f/7}* Solo non aspettarti che mi passerai facilmente."
+            '<25>{#f/6}* Fa come ti pare.',
+            "<25>{#f/7}* Ma non aspettarti che ti lasci andare così facilmente."
         ],
-        twinkly5: ["<25>{#p/twinkly}{#f/6}* Non hai niente di meglio da fare?"],
+        twinkly5: ["<25>{#p/twinkly}{#f/6}* Non hai seriamente niente di meglio da fare?"],
         twinkly6: [
             "<25>{#p/twinkly}{#f/6}* Resettare proprio dopo aver preso il tuo primo colpo, huh?",
             '<25>{#f/7}* Patetico.'
@@ -3695,9 +3695,9 @@ export default {
         twinkly7: ['<25>{#p/twinkly}{#f/7}* Posso giocare a questo gioco tutto il giorno, idiota.'],
         twinkly8: ["<25>{#f/11}* Comunque, visto che sai già cosa succederà...{%15}"],
         twinkly9: [
-            '<25>{#p/twinkly}{#f/6}* Buondì.',
-            "<25>* Sembra che mi brucerò se rimango qui troppo a lungo.",
-            '<25>{#f/8}* Un peccato, davvero...',
+            '<25>{#p/twinkly}{#f/6}* Ciao.',
+            "<25>* Sembra che Toriel mi attaccherà se rimango qui troppo a lungo.",
+            '<25>{#f/8}* Davvero un gran peccato...',
             '<25>{#f/7}* Mi sarei divertito COSÌ tanto con te.',
             '<25>{#f/6}* ...',
             '<25>{#f/5}* Beh, ci vediamo!'
@@ -3706,89 +3706,89 @@ export default {
             '<25>{#p/twinkly}{#f/12}{#v/0}* Che DIAVOLO stai facendo, $(name)?',
             '<25>{#f/12}{#v/0}* Avevamo l\'avamposto in pugno!'
         ],
-        twinkly9a1: ['<25>{#f/6}{#v/0}* Tutto quello che dovevi fare era seguire il piano.'],
+        twinkly9a1: ['<25>{#f/6}{#v/0}* Tutto quello che dovevamo fare era seguire il piano.'],
         twinkly9a2: [
-            '<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...',
-            '<25>* Finish off the guards...',
-            '<25>* And make it to the Citadel!'
+            '<25>{#f/6}{#v/0}* Ci bastava semplicemente attraversare la Fonderia...',
+            '<25>* Dare il colpo di grazia alla guardia reale...',
+            '<25>* E arrivare alla Cittadella!'
         ],
         twinkly9a3: [
-            '<25>{#f/6}{#v/0}* All we had to do was finish off the guards...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Ci bastava semplicemente dare il colpo di grazia alla guardia reale...',
+            '<25>* E attraversare la Cittadella!'
         ],
         twinkly9a4: [
-            '<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...',
-            '<25>* And get through the Citadel!'
+            '<25>{#f/6}{#v/0}* Ci bastava semplicemente UCCIDERE quello stupido robot...',
+            '<25>* E attraversare la Cittadella!'
         ],
-        twinkly9a5: ['<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!'],
-        twinkly9a6: ['<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!'],
-        twinkly9a7: ['<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!'],
-        twinkly9a8: ['<25>{#f/8}{#v/0}* Coward...'],
+        twinkly9a5: ['<25>{#f/6}{#v/0}* Ci bastava semplicemente attraversare la Cittadella!'],
+        twinkly9a6: ['<25>{#f/6}{#v/0}* Ci bastava semplicemente UCCIDERE quella schifosa nerd!'],
+        twinkly9a7: ['<25>{#f/6}{#v/0}* Dovevamo semplicemente camminare fino alla fine!', '<25>* Eravamo a un passo dalla vittoria!'],
+        twinkly9a8: ['<25>{#f/8}{#v/0}* Codardo...'],
         twinkly9b: [
             '<25>{#p/twinkly}{#f/5}* $(name)...?',
-            "<25>{#f/6}* I'm not really sure what just happened.",
-            '<25>{#f/8}* We were on the shuttle, and then...',
+            "<25>{#f/6}* Non sono sicuro di cosa sia appena successo.",
+            '<25>{#f/8}* Eravamo sulla navetta, e poi...',
             '<25>{#f/8}* ...',
-            '<25>{#f/6}* I...',
-            '<25>{#f/8}* I have to go...'
+            '<25>{#f/6}* Io...',
+            '<25>{#f/8}* Devo andare...'
         ],
         twinkly9c: [
-            "<25>{#p/twinkly}{#f/7}* So, we're back at the beginning, are we?",
-            "<26>{#f/5}* I've been expecting you.\n* I wonder how you'll do this time around.",
-            "<25>{#f/11}* Who knows?\n* Maybe it'll be easier for you now.",
-            '<25>{#f/7}* It certainly was when I had your powers.',
+            "<25>{#p/twinkly}{#f/7}* Quindi siamo di nuovo al inizio, eh?",
+            "<26>{#f/5}* Ti stavo aspettando.\n* Mi chiedo che cosa farai questa volta.",
+            "<25>{#f/11}* Chi lo sa?\n* Magari sarà più semplice adesso per te.",
+            '<25>{#f/7}* Di certo lo era stato per me quando avevo il tuo potere.',
             '<25>{#f/6}* ...',
-            '<25>{#f/5}* Well, good luck!'
+            '<25>{#f/5}* Beh, buona fortuna!'
         ],
         twinkly10: [
-            "<20>{#f/5}Vedi quel cuore? ,È la tua ANIMA, il culmine del tua essenza!",
-            '<20>{#f/5}La tua ANIMA e una parte importante di te, e ha bisogno di LOVE, cioè AMORE, per crescere.'
+            "<20>{#f/5}Vedi quel cuore? È la tua ANIMA, il vero culmine della tua essenza!",
+            '<20>{#f/5}La tua ANIMA è una parte importante di te, e ha bisogno di LOVE, ossia AMORE, per crescere.'
         ],
         twinkly11: [
-            "<20>{*}{#x2}{#f/5}Qua giù, il LOVE è diffuso tramite... {#f/8}piccoli bianchi... {#f/11}'frammenti della felicità.'",
-            "<20>{*}{#f/5}Per iniziare al meglio, condividerò un po' del mio AMORE",
-            '<20>{*}{#f/5}Prova a prenderne più che puoi!{^20}{*}{#x1}{%}'
+            "<20>{*}{#x2}{#f/5}Da queste parti, il LOVE è diffuso tramite... {#f/8}piccoli bianchi... {#f/11}'frammenti della felicità.'",
+            "<20>{*}{#f/5}Per aiutarti un po', condividerò un po' del mio AMORE.",
+            '<20>{*}{#f/5}Prova a prenderne il più possibile!{^20}{*}{#x1}{%}'
         ],
         twinkly12: [
-            "<20>{*}{#f/8}Ops, penso che tu li abbia mancati...",
-            "<20>{*}{#f/5}Ma va bene!",
-            '<20>{*}{#x2}{#f/10}Ecco, ne arrivano altri.{^20}{*}{#x1}{%}'
+            "<20>{*}{#f/8}Ops, sembra che tu sia stato troppo lento...",
+            "<20>{*}{#f/5}Ma non ti preoccupare!",
+            '<20>{*}{#x2}{#f/10}Ecco, riprova.{^20}{*}{#x1}{%}'
         ],
         twinkly13: [
-            '<20>{*}{#f/12}Ma che-... sei stupido o cosa??',
-            '<20>{*}{#x2}VAI. VERSO. I. PROIETTILI!!!{^20}{*}{#x1}{^999}'
+            '<20>{*}{#f/12}Ma che-... sei ritardato per caso??',
+            '<20>{*}{#x2}TOCCA. I. PROIETTILI!!!{^20}{*}{#x1}{^999}'
         ],
-        twinkly14: 'VAI. VERSO. I. frammenti della felicità~!!!',
+        twinkly14: 'TOCCA. I. frammenti della felicità~',
         twinkly15: [
             '<20>{#v/1}Hee hee hee...',
             "<20>In questo mondo, è UCCIDERE o ESSERE uccisi.",
-            '<20>Immagina, un\' ANIMA come la tua schiantarsi davanti la mia porta...',
-            "<20>Pensavi davvero che avrei rinunciato a un'occasione d'oro?"
+            '<20>Pensi seriamente che dopo che abbia avuto la fortuna di trovare un ANIMA come la tua...',
+            "<20>Avrei rinunciato a una tale occasione d'oro?"
         ],
         twinkly16: [
-            "<20>{#f/7}Nah, tu sai cosa sta succedendo, non è vero?",
-            "<20>Volevi solo tormentare il piccolo vecchio Twinkly, non è vero?",
-            "<20>Golly... you must have no idea who you're messing with.",
+            "<20>{#f/7}No, tu sai già che cosa sta succedendo qui, non è vero?",
+            "<20>Volevi solo fare soffrire il piccolo Twinkly, giusto?",
+            "<20>Accidentacci... proprio non sai con chi hai a che fare.",
             '<20>{#f/11}Hee hee hee...'
         ],
-        twinkly17: ["<20>{#v/1}Andiamo dritti al punto, ok?", '<20>Hee hee hee...'],
-        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
-        twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
+        twinkly17: ["<20>{#v/1}Veniamo al sodo, ok?", '<20>Hee hee hee...'],
+        twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}MUORI.{^20}{%}'],
+        twinkly19: ['<20>{#p/toriel}Quale terribile creatura torturerebbe un tale povero, giovane fanciullo...'],
         twinkly20: [
-            '<20>Have no fear, little one.',
-            '<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the {@fill=#f00}OUTLANDS{@fill=#000}.',
-            '<20>I come by every day to check for those who have been stranded here.',
-            '<20>Follow me, child.\nThere is much I intend to teach you.'
+            '<20>Piccolo mio, non temere.',
+            '<20>Io sono {@fill=#003cff}TORIEL{@fill=#000}, la guardiana delle {@fill=#f00}OUTLANDS{@fill=#000}.',
+            '<20>Passo di qui ogni giorno per aiutare coloro che finiscono qui alla deriva.',
+            '<20>Seguimi, bambino mio.\nC\'è molto che ti devo spiegare.'
         ],
         twinkly21: [
-            '<25>{#p/toriel}{#f/1}* Oh my!\n* Where did you come from, little one?',
-            '<25>{#f/1}* Are you injured?',
-            '<25>{#f/0}* ...\n* Forgive me for asking so many questions.',
-            '<25>{#f/0}* I am {@fill=#003cff}TORIEL{@fill=#fff}, overseer of the {@fill=#f00}OUTLANDS{@fill=#fff}.',
-            '<26>{#f/0}* I come by every day to check for those who\n  have been stranded here.',
-            '<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you.'
+            '<25>{#p/toriel}{#f/1}* Oh, che sorpresa!\n* Da dove vieni, piccolo mio?',
+            '<25>{#f/1}* Sei ferito?',
+            '<25>{#f/0}* ...\n* Perdonami per le troppo domande.',
+            '<25>{#f/0}* Io sono {@fill=#003cff}TORIEL{@fill=#fff}, la guardiana delle {@fill=#f00}OUTLANDS{@fill=#fff}.',
+            '<26>{#f/0}* Passo di qui ogni giorno per aiutare coloro\n  che finisco qua alla deriva.',
+            '<25>{#f/0}* Seguimi, bambino mio.\n* C\'è molto che ti devo spiegare.'
         ],
-        twinkly22: ['<25>{#f/0}* This way.'],
+        twinkly22: ['<25>{#f/0}* Per di qua.'],
         w_coffin0: () => [
             '<32>{#p/human}* (You feel it would be best to leave this be.)',
             ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/13}* ...'] : [])

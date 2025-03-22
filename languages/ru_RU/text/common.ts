@@ -3825,7 +3825,7 @@ export default {
             '<25>{*}{#p/asgore}{#f/6}* Systems powering down.{^20}{%}'
         ],
         save1: '<32>{#p/human}{@fill=#f00}* ($(x) left.)',
-        save2: '<32>{#p/human}{@fill=#f00}* (Determination.)',
+        save2: '<32>{#p/human}{@fill=#f00}* (Решимость.)',
         frontstop: pager.create(
             0,
             [
@@ -4589,9 +4589,9 @@ export default {
                         "<32>* Jeez, how many ARE there?\n* Let's just stop reading here."
                     ],
                     [
-                        '<32>{#p/basic}* \"Howdy, fellow gardeners.\"',
-                        '<32>* \"When it comes to Starling flowers, the line between growth and stagnation...\"',
-                        '<32>* \"Is access to open space.\"',
+                        '<32>{#p/basic}* «Приветик, друзья-садоводы».',
+                        '<32>* «Когда речь заходит о звездоцветах, есть тонкая грань между ростом и стагнацией...»',
+                        '<32>* «И проходит она прямо через доступ к открытому космосу».',
                         '<32>* \"That is why they were commonly grown in Aerialis...\"',
                         '<32>* \"Though, on Eurybia, the best place to grow them is unknown.\"',
                         '<32>* \"For the moment, it is recommended that they be grown in orbit.\"',
@@ -4661,7 +4661,7 @@ export default {
                                 ]),
                             "<32>{#p/human}* (You select a book from the control panel, and pick it out once it's ready...)",
                             ...pages(),
-                            '<32>{#p/human}* (You put the book back on the shelf.)'
+                            '<32>{#p/human}* (Вы ставите книгу обратно на полку.)'
                         ];
             })(),
             x_endtable: () =>

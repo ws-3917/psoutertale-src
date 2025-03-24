@@ -766,56 +766,56 @@ export default {
                     name: 'MUSHKETEER',
                     author: 'Balgamlı Kedi & Ghostly',
                     text: {
-                        basic: 'One Mushroom\nArmy',
-                        spare: 'Hardened Warrior\nSeeking Peace',
-                        flirt: 'Defeated By The\nPower Of Love',
+                        basic: 'Один в поле\nгрибочек',
+                        spare: 'Опытный воин\nчто ищет покоя',
+                        flirt: 'Побеждён\nсилой любви',
                         bully: 'Scared\nStraight'
                     }
                 }
             },
             swords: {
                 papyrus: {
-                    name: 'PAPYRUS',
+                    name: 'ПАПИРУС',
                     author: 'ProctorDorkchop02 & MattSpriteMaster'
                 },
                 sans: {
-                    name: 'SANS',
+                    name: 'САНС',
                     author: 'ProctorDorkchop02 & Fired'
                 },
                 undyne: {
-                    name: 'UNDYNE',
+                    name: 'АНДАЙН',
                     author: 'major_memestar'
                 },
                 alphys: {
-                    name: 'ALPHYS',
+                    name: 'АЛЬФИС',
                     author: 'major_memestar'
                 },
                 mewmew: {
-                    name: 'MEW MEW',
+                    name: 'МЯУ-МЯУ',
                     author: 'spacey_432'
                 },
                 napstablook: {
-                    name: 'NAPSTABLOOK',
+                    name: 'НАПСТАБЛУК',
                     author: 'spacey_432'
                 },
                 mettaton: {
-                    name: 'METTATON',
+                    name: 'МЕТТАТОН',
                     author: 'MattSpriteMaster'
                 },
                 toriel: {
-                    name: 'TORIEL',
+                    name: 'ТОРИЭЛЬ',
                     author: 'MattSpriteMaster'
                 },
                 asgore: {
-                    name: 'ASGORE',
+                    name: 'АЗГОР',
                     author: 'MattSpriteMaster'
                 },
                 monsterkid: {
-                    name: 'MONSTER KID',
+                    name: 'МОНСТРЁНОК',
                     author: 'spacey_432'
                 },
                 asriel: {
-                    name: 'ASRIEL',
+                    name: 'АЗРИЭЛЬ',
                     author: 'Medi0creking & MattSpriteMaster'
                 }
             }
@@ -826,21 +826,21 @@ export default {
             'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
         epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
 
-        quitText1: 'Quitting',
-        quitText2: 'Quitting.',
-        quitText3: 'Quitting..',
+        quitText1: 'Выходим',
+        quitText2: 'Выходим.',
+        quitText3: 'Выходим..',
 
         real1: [
             [
-                'Thank you for playing Outertale.',
-                'Working on this project has been an honor,',
-                'and a pleasure on my part.'
+                'Спасибо за игру в «Outertale».',
+                'Работать над этим проектом было честью',
+                'и удовольствием с моей стороны.'
             ],
-            ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
+            ['Когда я начал этот проект, я никогда', "не думал, что зайду так далеко, но", 'мы здесь, в самом конце.'],
             [
-                'For me, UNDERTALE was a life-changing',
-                'experience, and one that was very hard to',
-                'let go of after I first played it.'
+                'Для меня UNDERTALE был опытом, меняющим',
+                'жизнь, и это очень сложно «отпустить»',
+                'после первого прохождения.'
             ],
             [
                 'So, with OUTERTALE, I wanted to give you',
@@ -916,7 +916,7 @@ export default {
         nominal: '§fill=#0f0§NOMINAL',
         percent: '$(x)%',
         player: 'player',
-        settings: 'Settings',
+        settings: 'Настройки',
         shopg: 'М',
         unknown: '?',
         xm: 'XM',
@@ -945,9 +945,9 @@ export default {
         item3: 'INFO',
         item4: 'DROP',
 
-        load1: 'Continue',
+        load1: 'Продолжить',
         load2: 'Observe',
-        load3: 'Reset',
+        load3: 'Сброс',
         load4: 'True Reset',
 
         name1: 'Name the stranded human.',
@@ -962,10 +962,10 @@ export default {
 
         settings1: 'НАСТРОЙКИ',
         settings2: 'ВЫХОД',
-        settingsprompt1: '-> ЯЗЫК И ЗВУКИ',
+        settingsprompt1: '-> ЯЗЫК И ЗВУК',
         settings3: 'ЯЗЫК',
         settings3a: 'РУССКИЙ',
-        settings4: 'ЗВУКИ',
+        settings4: 'ЗВУК',
         settings5: 'МУЗЫКА',
         settings6: 'КРАСИВАЯ ГРАФИКА',
         settingsprompt2: '-> ИГРОВОЙ ПРОЦЕСС И ГРАФИКА',
@@ -979,10 +979,10 @@ export default {
         settings10: 'ОТКРЫТЬ ПАПКУ МОДОВ',
         settings11: 'RESTART',
         border: {
-            option: 'РАМКИ',
+            option: 'РАМКА',
             list: [
                 'ВЫКЛ',
-                'ДИНАМИЧЕСКИЕ',
+                'ДИНАМИЧЕСКАЯ',
                 'SIMPLE',
                 'КОСМОС',
                 'OUTLANDS',
@@ -1113,8 +1113,8 @@ export default {
         ],
         start2: 'Begin Game',
 
-        stat1: 'АТК',
-        stat2: 'ЗЩТ',
+        stat1: 'АТК:',
+        stat2: 'ЗЩТ:',
         stat3: 'ОРУЖИЕ',
         stat4: 'БРОНЯ',
         stat5: 'МОНЕТЫ',
@@ -1125,7 +1125,7 @@ export default {
         stat10: 'BULLY',
         stat11: 'FLIRT',
         stat12: 'STATUS',
-        stat13: '«$(x)»',
+        stat13: '$(x)',
 
         story1: ['<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}'],
         story2: ['<24>As time passed, a war broke out between the two species.{^35}{}'],

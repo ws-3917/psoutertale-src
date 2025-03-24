@@ -2817,12 +2817,12 @@ export default {
                     : [
                         '<25>{#p/asriel1}{#i/4}{#f/23}* Ha... ha...',
                         "<25>{#f/23}{#i/4}* I don't want to let go...",
-                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (Вы слышите, как кто-то плачет...)'])
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (Вы слышите чей-то плач...)'])
                     ],
             sad7: () =>
                 world.runaway
                     ? [
-                        '<25>{#p/asriel1}{#f/13}* Frisk...',
+                        '<25>{#p/asriel1}{#f/13}* Фриск...',
                         '<25>{#f/15}* Whatever you do...',
                         '<25>{#f/21}* Just... try to be careful, okay?',
                         '<25>{#f/21}* No matter who you... nearly beat to death.',
@@ -2882,7 +2882,7 @@ export default {
             epilogue1: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<18>{#p/papyrus}{#f/6}SORRY IF YOU TRIED TO CALL US BEFORE...',
                         "<18>{#p/papyrus}{#f/6}THE LINES AREN'T DOWN OR ANYTHING, WE JUST...",
                         "<18>{#p/papyrus}{#f/5}... WE'VE BEEN IGNORING YOU.",
@@ -2907,7 +2907,7 @@ export default {
                         '<32>{#s/equip}{#p/event}* Click...'
                     ]
                     : [
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         "<18>{#p/papyrus}{#f/0}HEY, HUMAN!\nI HOPE YOU'RE DOING OKAY!",
                         "<18>{#f/5}WE'VE BEEN VERY WORRIED ABOUT YOU, YOU KNOW.",
                         '<18>{#f/6}WHEN WE CALLED YOU BEFORE, THERE WAS NO RESPONSE!',
@@ -3347,7 +3347,7 @@ export default {
             use: ['<25>{#p/asgore}{#f/21}* Ah... such a wonderful form of tea, is it not?'],
             drop_tori: ['<26>{#p/asgore}{#f/5}* Did you drop something?\n* I recognize the scent...'],
             use_tori: ['<26>{#p/asgore}{#f/5}* What are you eating?\n* The aroma is familiar...'],
-            approachescape: ['<32>{#p/human}* (You hear footsteps fading into the distance.)'],
+            approachescape: ['<32>{#p/human}* (Вы слышите шаги вдалеке.)'],
             partyguard1: pager.create(
                 0,
                 () =>
@@ -3446,7 +3446,7 @@ export default {
                     ],
             fireplace2a: ['<32>{#p/human}* (Вы не решаетесь залезать.)'],
             fireplace2b: () => [
-                '<32>{#p/human}* (You crawl into the fireplace and let its warmth engulf you.)',
+                '<32>{#p/human}* (Вы залезаете внутрь, тепло окутывает вас.)',
                 '<32>{#p/human}* (You are very comfortable.)',
                 ...(SAVE.data.b.svr
                     ? asrielinter.fireplace2b++ < 1
@@ -3496,31 +3496,31 @@ export default {
                     ][Math.min(SAVE.data.n.chocolates, 11)]),
                 choicer.create('* (Take a Chocolate Bar?)', 'Да', 'Нет')
             ],
-            fridgetrap3: ['<32>{#p/human}* (You decide not to take anything.)'],
+            fridgetrap3: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
             fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
             brocall1: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
                 "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
                 "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall2: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
                 '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall3: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
                 "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
                 '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall4: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<32>{#p/mettaton}* HEY, ALPHYS CALLED ME AND TOLD ME YOU WERE BEING UNCOOPERATIVE.',
                 "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
                 '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
@@ -3528,7 +3528,7 @@ export default {
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall5: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<18>{#p/papyrus}{#f/5}LOOK.\nI KNOW YOU MUST BE APPREHENSIVE...',
                 '<18>{#p/papyrus}{#f/5}FORCE FIELDS CAN BE INTIMIDATING, AFTER ALL.',
                 '<18>{#p/papyrus}{#f/6}BUT FRET NOT!',
@@ -3538,7 +3538,7 @@ export default {
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall6: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 "<25>{#p/alphys}{#g/alphysWelp}* Hey, um...\n* We've been waiting for a long time.",
                 "<25>{#g/alphysThatSucks}* And I don't just mean right now.",
                 '<25>{#g/alphysSideSad}* Monsters have been stuck here for so long...',
@@ -3555,7 +3555,7 @@ export default {
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             brocall7: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/toriel}{#f/5}* Hello?\n* This is TORIEL.',
                 '<25>* You must be very far along by now.',
                 '<25>{#f/9}* Far enough that I doubt this message will ever reach you.',
@@ -4531,7 +4531,7 @@ export default {
                             "<25>{#f/13}* Even if they don't come back...",
                             "<25>{#f/17}* We'll still remember them for what they did in the end."
                         ],
-                        ['<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* I know we have something better to do.']
+                        ['<25>{#p/asriel1}{#f/13}* Фриск...', '<25>{#f/17}* I know we have something better to do.']
                     ][Math.min(asrielinter.c_aa_deathbed++, 2)]
                     : world.darker
                         ? ["<32>{#p/basic}* It's just another bed."]

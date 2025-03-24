@@ -297,7 +297,7 @@ export default {
                         m = music.youscreweduppal;
                         
                         addB([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<26>{#p/undyne}{#f/7}* ARRIGHT PUNK, LISTEN UP!',
                             "<25>{#p/undyne}{#f/4}* You made a BIG mistake sparing my life after what you've done.",
                             "<25>{#p/undyne}{#f/5}* Thanks to you, I've got the power to do what I ALWAYS wanted, and...",
@@ -384,7 +384,7 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#f/33}* ... shh, shh, I think this is them.',
                             "<25>{#p/alphys}{#f/1}* Hiya!\n* I'm Dr. Alphys.",
                             '<25>{#p/alphys}{#f/17}* Head of the royal pain- in-the-butt society.',
@@ -509,7 +509,7 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/sans}{#f/0}* heya.',
                             "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                         ]);
@@ -1126,7 +1126,7 @@ export default {
                         m = music.gameshow;
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/sans}{#f/0}* heya.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1187,7 +1187,7 @@ export default {
                         m = music.letsmakeabombwhydontwe;
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/sans}{#f/0}* heya.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1235,7 +1235,7 @@ export default {
                     k = 'dark_generic'; // NO-TRANSLATE
 
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<25>{#p/sans}{#f/0}* heya.',
                         "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                     ]);
@@ -1399,7 +1399,7 @@ export default {
                 
                 if (dmettaton) {
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<32>{#p/napstablook}* hey',
                         '<32>{#p/napstablook}* is anyone there?',
                         "<32>{#p/napstablook}* i think... there's something i need to tell you.",
@@ -1477,7 +1477,7 @@ export default {
                     ]);
                 } else {
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<32>{#p/mettaton}* EXCUSE ME, HUMAN...',
                         "<32>{#p/mettaton}* THERE'S A FEW THINGS I'D LIKE TO SAY TO YOU.",
                         '<32>{#p/mettaton}* ARE YOU THERE?',
@@ -1623,7 +1623,7 @@ export default {
                 m = music.sansdate;
                 
                 addA([
-                    '<32>{#s/phone}{#p/event}* Ring, ring...',
+                    '<32>{#s/phone}{#p/event}* Звонок...',
                     '<25>{#p/sans}{#f/0}* heya.',
                     '<25>{#p/sans}{#f/4}* is anyone there?',
                     "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
@@ -1784,7 +1784,7 @@ export default {
 
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#f/4}* H-hiya...',
                         '<25>{#p/alphys}{#f/20}* Is anyone there?',
                         "<25>{#p/alphys}{#f/11}* ... I hope it's not too much trouble...",
@@ -2146,7 +2146,7 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/toriel}{#f/1}* Hello?',
                             '<25>{#p/toriel}{#f/5}* This is... Toriel.',
                             '<25>{#p/toriel}{#f/1}* ... I know we did not part ways on the best of terms, but...',
@@ -2367,7 +2367,7 @@ export default {
                         
                         if (SAVE.data.n.state_wastelands_toriel === 0) {
                             addA([
-                                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                                '<32>{#s/phone}{#p/event}* Звонок...',
                                 '<25>{#p/toriel}{#f/1}* Hello?',
                                 '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
                                 '<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally have, but...',
@@ -2376,7 +2376,7 @@ export default {
                             addB(['<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry.']);
                         } else {
                             addA([
-                                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                                '<32>{#s/phone}{#p/event}* Звонок...',
                                 '<25>{#p/toriel}{#f/1}* Hello?',
                                 '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
                                 '<25>{#p/toriel}{#f/1}* The circumstances may not be ideal at the moment, but...',
@@ -2549,10 +2549,10 @@ export default {
                     m = music.dogsong;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
+                        '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                         '<32>{#p/basic}* (And yet, there is much to say!)\n* (Much to be excited for!)',
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!',
                         "<32>{#p/basic}* (Wouldn't you like to know more!?)"
                     ]);
                     addB([
@@ -2566,15 +2566,15 @@ export default {
                         '<32>{#p/basic}* (It was fun to see the other dogs in agreement.)',
                         '<32>{#p/basic}* (A feeling of pride unlike any other!)',
                         '<32>{#p/basic}* (Of course, their old master taught them all they know.)',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                         '<32>{#p/basic}* (In the end, they formed the council of dogs to make all decisions.)',
                         '<32>{#p/basic}* (Everyone gets belly rubs and treats for their hard work!)',
                         "<32>{#p/basic}* Huh?\n* Who's there?\n* Did I see someone MOVE!?",
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!',
                         "<32>{#p/basic}* Oh, it's just you.",
                         '<32>{#p/basic}* ...',
                         '<32>{#p/basic}* Wait, who are you talking to!?',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                         '<32>{#p/basic}* (Doggo wants to talk to you.)\n* (Good luck!)',
                         '<32>{#p/basic}* Give me that thing!',
                         "<32>{#p/basic}* ...\n* So it's you, huh?"
@@ -2703,10 +2703,10 @@ export default {
                     addB([
                         '<32>{#p/basic}* Yes, yes, I know.\n* It looks great... looks just like me.',
                         '<32>{#p/basic}* ... thanks.',
-                        '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                         "<32>{#p/basic}* (And that's the last one!)\n* (All council dogs have shrines now!)",
                         '<32>{#p/basic}* PERFECT!!\n* Can I go back to my phone call now?',
-                        '<32>{#s/bark}{#p/event}* Bark!',
+                        '<32>{#s/bark}{#p/event}* Гав!',
                         "<32>{#p/human}{#v/3}{@fill=#003cff}* I'll have to show the others!",
                         '<32>{#p/basic}* HEY!\n* Before you go...',
                         "<32>{#p/basic}* I wouldn't have seen it on time without you.\n* Have a treat.",
@@ -2729,10 +2729,10 @@ export default {
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Spider queen, stirring up trouble again.)',
                             '<32>{#p/basic}* (A punishment is required!)',
                             "<32>{#p/basic}* ... ugh.\n* I don't like disciplining people.",
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!',
                             '<32>{#p/basic}* (Without discipline, dog society falls out of balance.)',
                             "<32>{#p/basic}* I guess.\n* But can't someone else do it?",
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                             "<32>{#p/basic}* (All council dogs must practice discipline.)\n* (It's your turn!)"
                         ]);
                     } else if (!dpapyrus) {
@@ -2740,10 +2740,10 @@ export default {
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Tall skeleton, deserving of bonus rewards.)',
                             '<32>{#p/basic}* (Offer them to him!)',
                             '<32>{#p/basic}* ... ugh.\n* I swear we give him bonus rewards every day.',
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!',
                             '<32>{#p/basic}* (Tall skeleton sets a very good example!)',
                             "<32>{#p/basic}* At this rate, he'll be on the dog council himself.",
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                             '<32>{#p/basic}* (We are considering the possibility.)\n* (Now do your duty!)'
                         ]);
                     } else {
@@ -2751,10 +2751,10 @@ export default {
                             '<32>{#p/basic}* (Doggo, new job for you!)\n* (Supplies of dog chow are running low.)',
                             '<32>{#p/basic}* (Can you help refill?)',
                             '<32>{#p/basic}* ... ugh.\n* Why do I get all the dirty work around here.',
-                            '<32>{#s/bark}{#p/event}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!',
                             "<32>{#p/basic}* (Doggo, only dog who doesn't mind dirty work.)",
                             '<32>{#p/basic}* Lies.\n* Doge likes doing dirty jobs way more than me.',
-                            '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
+                            '<32>{#s/bark}{#p/event}* Гав!\n{#s/bark}* Гав!',
                             '<32>{#p/basic}* (Doge cannot do this job.)\n* (Doge is queen.)'
                         ]);
                     }
@@ -2774,7 +2774,7 @@ export default {
                     m = music.spiderboss;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<32>{#p/basic}{#s/spiderLaugh}* Oh, hello, dearie~',
                         '<32>{#p/basic}* Are you doing well?',
                         "<32>{#p/basic}* Oh, who am I kidding~\n* It's not like I cared about you anyway~",
@@ -2992,7 +2992,7 @@ export default {
                     m = music.papyrus;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<18>{#p/papyrus}{#f/4}IS THIS THING EVEN WORKING?',
                         '<18>{#p/papyrus}{#f/0}OH! OH!\nIT JUST WENT TO VOICE-MAIL!',
                         '<18>{#p/papyrus}{#f/6}NO WONDER I WAS SO CONFUSED!',
@@ -3122,7 +3122,7 @@ export default {
                     m = sounds.wind;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Звонок...',
                         '<25>{#p/sans}{#f/0}* heya.',
                         "<25>{#p/sans}{#f/3}* it's been a while, huh?"
                     ]);
@@ -3182,7 +3182,7 @@ export default {
 
                 
                 addA([
-                    '<32>{#s/phone}{#p/event}* Ring, ring...',
+                    '<32>{#s/phone}{#p/event}* Звонок...',
                     '<25>{#p/alphys}{#f/8}* Hiya...',
                     '<25>{#p/alphys}{#f/6}* Is anyone there?',
                     "<25>{#p/alphys}{#f/10}* I hope it's not too much trouble...",
@@ -3429,7 +3429,7 @@ export default {
             return { a, b, d, k, m };
         },
         neutral2: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<25>{#p/asgore}{#f/1}* ...',
             '<25>{#p/asgore}{#f/1}* Howdy, young one.',
             '<25>{#p/asgore}{#f/1}* I do not know if this message will reach you, or if you are alive.',
@@ -3824,7 +3824,7 @@ export default {
             '<25>{*}{#p/asgore}{#f/6}* The self-destruct protocol has been terminated remotely.{^20}{%}',
             '<25>{*}{#p/asgore}{#f/6}* Systems powering down.{^20}{%}'
         ],
-        save1: '<32>{#p/human}{@fill=#f00}* ($(x) left.)',
+        save1: '<32>{#p/human}{@fill=#f00}* ($(x) осталось.)',
         save2: '<32>{#p/human}{@fill=#f00}* (Решимость.)',
         frontstop: pager.create(
             0,
@@ -4907,7 +4907,7 @@ export default {
         carry: '* Carry',
         challenge: '* Challenge',
         charge: '* Charge',
-        check: '* Осмотреть',
+        check: '* Оценить',
         cheer: '* Cheer',
         clean: '* Clean',
         cocoa: '* Cocoa',
@@ -4950,7 +4950,7 @@ export default {
         hypothesize: '* Hypothesize',
         ignore: '* Ignore',
         inquire: '* Inquire',
-        insult: '* Insult',
+        insult: '* Оскорбить',
         joke: '* Joke',
         agreement: '* Agreement',
         call: '* Call',
@@ -4967,7 +4967,7 @@ export default {
         object: '* Object',
         papyrus: '* Papyrus',
         password: '* Password',
-        pat: '* Pat',
+        pat: '* Погладить',
         pay: '* Pay',
         perch: '* Perch',
         pet: '* Pet',
@@ -5031,11 +5031,11 @@ export default {
     },
 
     b_group_common: {
-        nobody: () => (!world.genocide && world.bullied ? '* ... but everybody ran.' : '* ... but nobody came.')
+        nobody: () => (!world.genocide && world.bullied ? '* ... but everybody ran.' : '* ...но никто не пришёл.')
     },
 
     b_opponent_dummy: {
-        act_check: ["<32>{#p/story}* МАНЕКЕН — АТК: 0 ЗЩТ: 0\n* Призрак в оболочке манекена. Он желает вам лучшего."],
+        act_check: ["<32>{#p/story}* МАНЕКЕН: АТК 0 ЗЩТ 0\n* Призрак в оболочке манекена. Он желает вам лучшего.   --- РИФМУ ПРИДУМАТЬ"],
         act_flirt: [
             '<32>{#p/human}* (Вы заигрываете с манекеном.)',
             "<32>{#p/basic}* Как и ожидалось, ничего не произошло.",
@@ -5053,7 +5053,7 @@ export default {
         name: '* Манекен',
         slapped: ['<32>{#p/basic}* Внезапно!..'],
         status1: ['<32>{#p/story}* Вы подошли к манекену.'],
-        status2: ["<32>{#p/story}* Кажется, что манекену уже сейчас становится скучно."],
+        status2: ["<32>{#p/story}* Кажется, что манекену уже становится скучно."],
         status3: ["<32>{#p/story}* Похоже, что от ваших действий манекен запутался в себе."],
         status4: ["<32>{#p/story}* Манекен готов провалиться сквозь землю."],
         talk: ['<09>{#p/basic}{#i/20}{~}.....{}']
@@ -5226,7 +5226,7 @@ export default {
     },
     b_opponent_moldsmal: {
         epiphany: [
-            ['<08>{#p/basic}{~}\x00*slime sounds*'],
+            ['<08>{#p/basic}{~}\x00(слизкие звуки)'],
             () =>
                 world.meanie
                     ? ['<08>{#p/basic}{~}Хлюп хлюп!']
@@ -5239,8 +5239,8 @@ export default {
             ['<08>{#p/basic}{~}\x00*shiny wiggle*']
         ],
         act_check0: ['<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?'],
-        act_check: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Красивая, привлекательная, и, конечно же, безмозглая...'],
-        act_check2: ["<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Одета в наряд по последнему писку моды."],
+        act_check: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Красивая, привлекательная и, конечно же, безмозглая...'],
+        act_check2: ["<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Одета по последнему писку моды."],
         act_check3: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Это именно ваш типаж.\n* «Стерео».'],
         act_check4: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Супермодель на пике своей красоты.'],
         act_flirt: [
@@ -5248,8 +5248,8 @@ export default {
             '<33>{#p/basic}* What a meaningful conversation!'
         ],
         act_imitate: [
-            '<33>{#p/human}* (You give Gelatini a nice pat.)\n* (Its body changes color...)',
-            "<32>{#p/basic}* It's Gelatini's happy color!"
+            '<33>{#p/human}* (Вы погладили пожелейку.)\n* (Она изменила свой окрас...)',
+            "<32>{#p/basic}* Это её цвет радости!"
         ],
         act_slap: [
             '<32>{#p/human}* (You give Gelatini a big slap.)',
@@ -5264,8 +5264,8 @@ export default {
             '<32>{#p/basic}* Gelatini flees the scene!'
         ],
         idleTalk1: ['<08>{#p/basic}{~}Blorb..'],
-        idleTalk2: ['<08>{#p/basic}{~}Хлюпанье'],
-        idleTalk3: ['<08>{#p/basic}{~}\x00*slime sounds*'],
+        idleTalk2: ['<08>{#p/basic}{~}Хлюп...'],
+        idleTalk3: ['<08>{#p/basic}{~}\x00(слизкие звуки)'],
         name: '* Пожелейка',
         perilStatus: () =>
             world.kiddo && SAVE.data.n.state_foundry_muffet !== 1

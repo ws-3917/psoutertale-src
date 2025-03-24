@@ -471,7 +471,7 @@ export default {
                     ]
                     : [
                         '<32>{#p/basic}{#npc/a}* Eu trabalho para Mettaton.\n* Gosto do meu trabalho.\n* Meus ajudantes não.',
-                        '<32>* Cada anel ao redor do meu corpo representa uma vez que eu sobrevivi ao processo de demissão.',
+                        '<32>* Cada anel ao redor do meu corpo é uma vez que eu sobrevivi ao processo de demissão.',
                         "<32>* Não se preocupe.\n* Eu sempre sou recontratado mais tarde."
                     ],
             () =>
@@ -2984,7 +2984,7 @@ export default {
                                     : !world.badder_lizard
                                         ? [
                                             "<32>{#e/mettaton/25}* EU CONTO COM VOCÊ PARA PASSAR POR MIM SEM SE MACHUCAR.",
-                                            "<32>{#e/mettaton/0}* NÃO ME ENTENDA ERRADO, EU AMARIA TOMAR SUA ALMA E ME TORNAR A ESTRELA DA HUMANIDADE.",
+                                            "<32>{#e/mettaton/0}* OLHA, EU AMARIA TOMAR SUA ALMA E ME TORNAR A ESTRELA DA HUMANIDADE.",
                                             '<32>{#e/mettaton/3}* MAS TIRAR -SUA- ALMA SERIA... AGRIDOCE.',
                                             "<32>{#e/mettaton/6}* NÓS FIZEMOS MUITAS COISAS JUNTOS, COM TODOS OS SHOW JUNTOS.",
                                             "<32>{#e/mettaton/4}* ALIAS, PARA UM HUMANO QUE TEM SIDO PERSEGUIDO POR TANTOS MONSTROS...",
@@ -3141,7 +3141,7 @@ export default {
                     : !world.badder_lizard
                         ? [
                             '<25>{#p/alphys}{#g/alphysInquisitive}* Hmm, você parece bem...',
-                            '<25>{#p/alphys}{#g/alphysWelp}* Desculpe por ter desaparecido no telefone mais cedo, a propósito.',
+                            '<25>{#p/alphys}{#g/alphysWelp}* Desculpe por ter desaparecido no telefone mais cedo.',
                             "<25>{#g/alphysWelp}* O sinal não chega aqui por algum motivo."
                         ]
                         : [
@@ -3158,7 +3158,7 @@ export default {
                         "<25>{*}{#p/alphys}{#f/3}* N-não vem atrás de mim!{%}"
                     ]
                     : [
-                        "<25>{#p/alphys}{#g/alphysCutscene2}* Bem, uh, não se preocupe com o Mettaton, eu posso dar energia pra ele de novo.",
+                        "<25>{#p/alphys}{#g/alphysCutscene2}* Bem, não se preocupe com o Mettaton, eu dou um jeito.",
                         "<25>{#p/alphys}{#g/alphysCutscene2}* Ele está fundido apenas com o chip de controle, de toda forma."
                     ],
             end8: [
@@ -3283,7 +3283,7 @@ export default {
                                 "<25>{#p/alphys}{#f/3}* Mas, uh, eu realmente não quero me debruçar sobre isso agora, então...",
                                 "<25>{#p/alphys}{#f/20}* ... eu só vou chegar logo no ponto."
                             ]),
-                        "<25>{#g/alphysNeutralSweat}* Tem uma... razão pela qual eu tenho te assistindo por todo esse tempo.",
+                        "<25>{#g/alphysNeutralSweat}* Tem uma razão pela qual eu te assisti todo esse tempo.",
                         '<25>* ...',
                         '<25>{#g/alphysFR}* Pra colocar mais simplesmente...',
                         "<25>{#g/alphysFR}* ASGORE tem um {@fill=#003cff}segredo{@fill=#fff}."
@@ -3324,9 +3324,9 @@ export default {
                 !world.baddest_lizard
                     ? [
                         "<25>{#p/alphys}{#g/alphysSideSad}* Eu... não posso dizer muito sobre, agora...",
-                        '<25>{#g/alphysNeutralSweat}* Como cientista real, meu trabalho é te escoltar com segurança até o rei.',
-                        "<26>{#g/alphysWorried}* Se qualquer pessoa d-descobrir, eles vão pensar que estamos contra nossa própria liberdade.",
-                        "<25>{#g/alphysHaveSomeCompassion}* ...\n* Nós estamos apenas tentando fazer a coisa certa."
+                        '<25>{#g/alphysNeutralSweat}* Como cientista real, meu trabalho é te escoltar até o rei.',
+                        "<26>{#g/alphysWorried}* Se alguém d-descobrir, vão pensar que estamos os traindo.",
+                        "<25>{#g/alphysHaveSomeCompassion}* Nós estamos apenas tentando fazer a coisa certa."
                     ]
                     : world.alphys_percieved_kills < 10
                         ? [
@@ -3345,7 +3345,7 @@ export default {
             endwalk4: () =>
                 !world.baddest_lizard
                     ? [
-                        "<25>{#p/alphys}{#g/alphysWelp}* ... você pode ir em frente.\n* Eu vou tentar não ficar tão atrás.",
+                        "<25>{#p/alphys}{#g/alphysWelp}* ... você pode ir em frente. Eu vou tentar não ficar atrás.",
                         "<25>{#g/alphysSide}* Tudo vai ficar bem, tudo bem?",
                         ...(world.postnoot
                             ? world.nootflags.has('undyne') // NO-TRANSLATE
@@ -4909,7 +4909,7 @@ export default {
                             ]
                             : [
                                 "<32>{#p/basic}{#npc/a}* Acaba que era pra eu supostamente parecer uma planta do raro mundo natal.",
-                                '<32>* Aquele velho senhor que veio conversar com o Burgie semana passada disse isso de passagem, eu acho.',
+                                '<32>* Aquele velho senhor que veio conversar com o Burgie semana passada disse isso.',
                                 "<32>* ... oh, o que eu daria pra entender o que realmente sou..."
                             ],
                 () =>
@@ -5253,7 +5253,7 @@ export default {
                         : [
                             '<32>{#p/basic}{#npc/a}* Vulkin e eu fizemos um grupo de rap chamado \"Os Piromaniacos.\"',
                             '<32>* Nossas batidas? Fantásticas.\n* Nossos flows? Piroclásticos.',
-                            "<33>* Quando eu subo no estágio, eu chego bombástico e faço a plateia derreter como plástico elástico.",
+                            "<33>* Quando eu subo no estágio, eu chego bombástico e faço a plateia derreter como plástico.",
                             "<32>* E com o Vulkin?\n* Ele é um cara incrível para batidas quentes no microfone."
                         ],
                 () =>
@@ -5514,7 +5514,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* Este urso insiste em me presentear com enfeites para colocar na minha cabeça.',
-                            '<32>* Eu sei que as intenções são boas, mas enfeites de cabeça são a última coisa que eu preciso...'
+                            '<32>* Eu sei que as intenções são boas, mas enfeites são a última coisa que preciso...'
                         ],
                 () =>
                     SAVE.data.n.plot === 72
@@ -5531,7 +5531,7 @@ export default {
                             '<32>* Quando chegarmos ao nosso destino eu sairei a procura de um.'
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Eu me sinto tão mal pelo Gyftrot.\n* É como se muitos de nós não vivêssemos em nossos habitats naturais.',
+                            '<32>{#p/basic}{#npc/a}* Eu me sinto tão mal pelo Gyftrot. Muitos de nós não vivemos em habitats naturais.',
                             '<32>* Alphys disse que o escudo de força talvez quebre logo.',
                             '<32>* Talvez quando isso acontecer, todos possamos encontrar algum descanso.'
                         ],
@@ -5607,14 +5607,14 @@ export default {
                         ]
                         : SAVE.data.b.killed_mettaton
                             ? [
-                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes.\n* Artes é supostamente para ser legal e positivo, certo?",
+                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes. Artes é supostamente para ser legal e positivo.",
                                 '<32>* Mas um dos meus estudantes começou a desenhar trabalhos muito tristes.',
                                 "<32>* Dói olhar...\n* Eu quero olhar, mas eu também não quero impedi-lo de se expressar."
                             ]
                             : [
-                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes.\n* Na arte, é dito que não existe caminho certo ou errado.",
+                                "<32>{#p/basic}{#npc/a}* Eu sou uma professora de artes. Na arte, não existe caminho certo ou errado.",
                                 '<32>* Mas um dos meus estudantes pensa que tudo que ele faz é um erro...',
-                                "<32>* Ele não para de pedir desculpas...\n* Eu quero ajudá-lo, mas eu estou perdida no que fazer."
+                                "<32>* Ele não para de pedir desculpas. Eu quero ajudá-lo, mas não sei o que fazer."
                             ],
                 () =>
                     SAVE.data.n.plot === 72
@@ -5646,11 +5646,11 @@ export default {
                                 ]
                                 : SAVE.data.b.ubershortcut || world.population === 0
                                     ? [
-                                        '<33>{#p/basic}{#npc/a}* Bem. Eu sentei nesta mesa aqui.\n* E organizei este jogo aqui.\n* Mas meu oponente?',
+                                        '<33>{#p/basic}{#npc/a}* Bem. Eu sentei nesta mesa aqui e organizei este jogo aqui. Mas meu oponente?',
                                         '<32>* Não encontro! Não está em lugar nenhum neste belo estabelecimento!'
                                     ]
                                     : [
-                                        "<32>{#p/basic}{#npc/a}* Bem. Eu joguei esse movimento aqui.\n* Peão para o cavalo quatro do rei?\n* Então meu oponente foi embora.",
+                                        "<32>{#p/basic}{#npc/a}* Eu joguei esse movimento. Peão para o cavalo quatro do rei? Então meu oponente foi embora.",
                                         "<32>* Agora, eu vou ter que esperar.\n* Sabe, vai demorar um tempo até o relógio apitar."
                                     ],
                 () =>
@@ -5736,7 +5736,7 @@ export default {
                                         : '<32>* Os guardas bateram o ponto, então eu provavelmente poderia voltar...',
                                 "<32>* ... mas, ahh, está é a melhor que eu encontrei em muito tempo..."
                             ],
-                ["<32>{#p/basic}{#npc/a}* Não se preocupe comigo, estou só vou ficar aqui... absorvendo a aura de uma flor dos desejos."]
+                ["<32>{#p/basic}{#npc/a}* Não se preocupe comigo, só vou ficar aqui... absorvendo a aura desta flor."]
             ),
             a_oni: pager.create(
                 0,
@@ -5751,10 +5751,10 @@ export default {
                             "<32>* Não, Catty, eu não quero dormir com você!\n* Fim da história!"
                         ]
                         : [
-                            '<32>{#p/basic}{#npc/a}* Muito tempo atrás, foi encontrado um pouco fraco no escudo de força. Onde hoje são as Outlands.',
+                            '<32>{#p/basic}{#npc/a}* Muito tempo atrás, foi encontrado um ponto fraco no escudo. As Outlands.',
                             "<32>* Não significa que podemos escapar por lá, mas todo humano que vier...",
                             '<32>* ... vai cair mais ou menos por aquela área.',
-                            '<32>* Então, construímos o posto avançado para ser longo, sinuoso e retardar uma invasão em potencial.',
+                            '<32>* Então, construímos o Outpost para ser longo e retardar uma potencial invasão.',
                             "<32>* Logo descobrimos a burrice da ideia, mas então se tornou uma tradição.",
                             "<32>* Agora, você não anda dois segundos sem de perder..."
                         ],
@@ -5810,11 +5810,11 @@ export default {
             a_dragon: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que o próximo show de comedia não sairá pelas próximas duas semanas??",
+                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que o show de comedia não sairá por duas semanas??",
                     '<32>* Eu pensei que era hoje!'
                 ],
                 [
-                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que não posso reagendar meu acento para uma data mais tarde?",
+                    "<32>{#p/basic}{#npc/a}* Então você tá me dizendo que não posso reagendar meu acento para outra data?",
                     '<32>* Isso é um roubo!'
                 ]
             ),
@@ -6081,7 +6081,7 @@ export default {
             0,
             [
                 "<32>{#p/basic}{#x2}* Ei, você não é, aquela criança quieta que a gente viu mais cedo?{#x3}",
-                '<32>{#x2}* Me pergunta porque Alphys tinha que te escoltar...{#x3}',
+                '<32>{#x2}* Me pergunto porque Alphys tinha que te escoltar...{#x3}',
                 '<32>{#x2}* Talvez você seja... MEGA importante.{#x3}'
             ],
             [
@@ -6346,7 +6346,7 @@ export default {
                 [
                     '<32>{#p/event}* Ring, ring...',
                     "<25>{#p/alphys}{#g/alphysSmileSweat}* Beleza, você tá aqui.",
-                    "<25>{#g/alphysSmileSweat}* Eu manterei a linha telefônica aberta enquanto você estiver aqui...",
+                    "<25>{#g/alphysSmileSweat}* Eu manterei a linha aberta enquanto você estiver aqui...",
                     '<25>{#g/alphysWelp}* ... só em caso de algo ruim acabar acontecendo.',
                     ...(SAVE.data.n.plot < 66.2
                         ? [
@@ -8238,7 +8238,7 @@ export default {
                 ? ['<32>{#p/alphys}* Ela está... chorando?']
                 : ["<32>{#p/story}* Terrestria demonstra fraqueza."],
         comfortText2: () => [
-            '<32>{#p/human}* (Você segura a mão de Terrestria e a lembra que ainda existe beleza no universo.)',
+            '<32>{#p/human}* (Você segura a mão de Terrestria e a lembra que existe beleza no universo.)',
             ...(!world.badder_lizard ? ['<32>{#p/alphys}* Awww...'] : [])
         ],
         comfortTalk2: ['<20>{#p/basic}{~}...\n...\nObrigada...'],
@@ -8895,7 +8895,7 @@ export default {
             ]
         ),
         disarmTalk: [
-            '<08>{#p/basic}{~}Eu acho que isso significa que a guerra acabou...?',
+            '<08>{#p/basic}{~}Então eu acho que a guerra acabou?',
             '<08>{#p/basic}{~}\x00*suspiro*',
             "<08>{#p/basic}{~}Talvez seja para o melhor."
         ],
@@ -11004,7 +11004,7 @@ export default {
                                 "<32>{#p/basic}{#k/6}* Eu vou tentar deixar isso o mais simples possível pra você, amiguinho.",
                                 '<32>* Por mais legal que uma pessoa seja, em algum momento ela é pega pensando ou fazendo o mau.',
                                 '<32>{#k/4}* Fingir não ver.\n* Descuido.\n* Abuso.',
-                                '<33>{#k/4}* O melhor que você pode fazer para essa pessoa e dar um esporro. Dizer a ela o que ela fez de errado e colocá-la para pensar.',
+                                '<33>{#k/4}* O melhor que você pode fazer para essa pessoa é dar um esporro, dizer a ela o que ela fez de errado e colocá-la para pensar.',
                                 '<32>{#k/7}* Quanto mais você deixar alguém se acomodar com comportamentos ruins, mais essa pessoa irá pensar que eles são normais.',
                                 "<32>{#k/0}* Não deixe as pessoa ficarem presas nesse tipo de vida."
                             ],
@@ -11083,7 +11083,7 @@ export default {
                                     "<32>{#k/7}* Agora é... apenas um lugar que existe.\n* Há comida, há descanso e às vezes eles fazem shows aqui.",
                                     '<32>{#k/6}* Ah é, é por aqui que eles comandam a Outernet.\n* Bratty e Catty são as jornalistas anfitriãs.',
                                     "<32>{#k/4}* Bem, na verdade elas estão no comando do lugar de modo geral.",
-                                    "<32>{#k/0}* Depois que Mettaton saiu, eu disse a elas que poderiam assumir.\n* Além disso, eu tenho minhas próprias coisas pra fazer agora...",
+                                    "<32>{#k/0}* Depois que Mettaton saiu, eu disse a elas que poderiam assumir.\n* Além disso, eu tenho minhas próprias coisas agora...",
                                     "<32>{#k/2}* Eu acho que só estou um pouco cansado.",
                                     "<32>{#k/3}* Mas ei, quem tem tempo com um cara como o Glyde andando por aí huh!?"
                                 ],
@@ -11092,7 +11092,7 @@ export default {
                                     '<32>{#k/0}* Quando eu trabalhava com o Mettaton eu precisava fazer um tal chamado de \"bife do rosto.\"',
                                     '<32>{#k/1}* Só pra esclarecer, este era um bife com o \"fabuloso\" rosto do Mettaton.',
                                     '<32>{#k/3}* Mas Glyde?\n* Glyde amou tanto que decidiu fazer sua própria \"empresa de bifes\", colocando SEU rosto nos bifes!',
-                                    "<32>{#k/3}* E como se isso não fosse loucura o suficiente, Glyde queria eu eu fosse seu primeiro cliente. Como se eu quisesse participar dessa porcaria.",
+                                    "<32>{#k/3}* Se isso já não fosse loucura, Glyde queria eu eu fosse seu primeiro cliente. Como se eu quisesse participar dessa porcaria.",
                                     "<32>{#k/4}* É claro, Mettaton não deixaria eu ir tão facilmente, então acabei ficando aqui com ele.",
                                     '<32>{#k/0}* No fim, Glyde nunca conseguiu o que queria e fica rodando por aí pedindo para as pessoas se juntarem a sua \"cruzada.\"',
                                     '<32>{#k/1}* Ah bem.\n* Se as coisas ficarem muito ruins, posso simplesmente desligar as luzes novamente.',
@@ -11495,7 +11495,7 @@ export default {
                                     s: true
                                 },
                                 {
-                                    b: '<16>{#k/0/0}* Você é o Mettaton realmente botaram uma performance incrível!',
+                                    b: '<16>{#k/0/0}* Você e o Mettaton realmente botaram uma performance!',
                                     c: '<16>{#k/0/2}* Sim, vocês realmente arrasaram!'
                                 },
                                 {
@@ -11510,7 +11510,7 @@ export default {
                                 },
                                 {
                                     b: '<16>{#k/1/8}* Eu poderia preparar uma dança para vocês.',
-                                    c: "<16>{#k/2/7}* Você deveria totalmente convidar o humano enquanto faz isso!"
+                                    c: "<16>{#k/2/7}* Você deveria totalmente convidar o humano!"
                                 },
                                 {
                                     b: "<16>{#k/0/0}* ... veremos.",

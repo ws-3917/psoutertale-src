@@ -100,18 +100,18 @@ import startonIndex from './starton/index';
 import startonOpponents from './starton/opponents';
 import startonPatterns from './starton/patterns';
 
-import '../languages/cs_CZ/index';
-import '../languages/de_DE/index';
-import '../languages/es_ES/index';
-import '../languages/it_IT/index';
-import '../languages/ja_JP/index';
-import '../languages/pt_BR/index';
-import '../languages/ru_RU/index';
-import '../languages/tr_TR/index';
-import '../languages/zh_CN/index';
-import '../languages/zh_CN/index-alt';
-import '../languages/zh_TW/index';
-import '../languages/zh_TW/index-alt';
+// import '../languages/cs_CZ/index';
+// import '../languages/de_DE/index';
+// import '../languages/es_ES/index';
+// import '../languages/it_IT/index';
+// import '../languages/ja_JP/index';
+// import '../languages/pt_BR/index';
+// import '../languages/ru_RU/index';
+// import '../languages/tr_TR/index';
+// import '../languages/zh_CN/index';
+// import '../languages/zh_CN/index-alt';
+// import '../languages/zh_TW/index';
+// import '../languages/zh_TW/index-alt';
 
 import '../colormode/colored/index';
 

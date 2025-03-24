@@ -121,7 +121,7 @@ export default {
         quicksolve7: ['<32>{#p/human}* (You decide not to enter.)'],
         quicksolve8: ["<32>{#p/basic}* Well, that's a mercy."],
         escape: [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок...',
             '<32>{#p/alphys}* H-hey... are you there?',
             '<32>* I know you want to keep going forward, but...',
             "<32>* If you do, she'll... try to kill you...",
@@ -211,7 +211,7 @@ export default {
             ][SAVE.data.n.state_foundry_astrofood],
         astrofood2: ['<32>{#p/human}* (You got the Space Tofu.)'],
         astrofood3: ["<32>{#p/human}* (You're carrying too much.)"],
-        astrofood4: () => ['<32>{#p/human}* (You decide not to take anything.)'],
+        astrofood4: () => ['<32>{#p/human}* (Вы решили ничего не брать.)'],
         astrofood5: () =>
             SAVE.data.b.svr
                 ? ["<32>{#p/human}* (But you couldn't find anything inside.)"]
@@ -601,11 +601,11 @@ export default {
                 : SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (You approach the vending machine.)',
-                        choicer.create('* (What will you make?)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
+                        choicer.create('* (Выберите продукт.)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
                     ]
                     : [
                         '<32>{#p/basic}* Synthesize something with the vending machine?',
-                        choicer.create('* (What will you make?)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
+                        choicer.create('* (Выберите продукт.)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
                     ],
         candy2: ['<32>{#p/human}* (You got the $(x).)'],
         candy3: () => [choicer.create('* (Buy the $(x) for $(y)G?)', 'Да', 'Нет')],
@@ -1186,7 +1186,7 @@ export default {
             "<25>{#f/1}* If we both stand on a switch, it lights up.\n* Isn't that awesome!?"
         ],
         kitchencall: () => [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок...',
             '<18>{#p/papyrus}HUMAN!\nI WAS THINKING.',
             ...(SAVE.data.n.plot_date < 1
                 ? [
@@ -1335,7 +1335,7 @@ export default {
                 'COOLSKELETON95',
                 'COOLSKELETON95',
                 SAVE.data.n.plot === 72 ? '_Sp4ceAdv3ntur3r_' : '_K1ll3rMann3qu1n_',
-                'ALPHYS',
+                'АЛЬФИС',
                 'lazybones.',
                 '(Unknown)'
             ]
@@ -2614,7 +2614,7 @@ export default {
                     : SAVE.data.n.plot === 72
                         ? ['<32>{#p/basic}* Coming back to give a lonely bench some company...\n* The gesture is appreciated.']
                         : ['<32>{#p/basic}* Just a lonely bench out in the middle of a factory.\n* Nothing weird about that!'],
-        quiche5: ['<32>{#p/human}* (You decide not to take anything.)'],
+        quiche5: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
         run1: ['<32>{*}{#p/undyne}* Run.{^20}{%}'],
         run2a1: ['<32>{#p/undyne}* ...', "<32>{#p/undyne}* I'll go check."],
         run2b1: ['<32>{#p/undyne}* (Stupid spiders...)'],
@@ -2711,7 +2711,7 @@ export default {
                         : ["<32>{#p/basic}* It's a series of notes on time travel."])
                 ],
         secretcallA: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!',
             '<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE.',
             "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE...",
@@ -2724,7 +2724,7 @@ export default {
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         secretcallB: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN.",
             '<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW.',
             '<18>{#f/6}ARE YOU WELL?\nHAS ANYONE ELSE BEEN... KILLED?',
@@ -2991,7 +2991,7 @@ export default {
                 ])
         ],
         sanscall2: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<25>{#p/sans}{#f/0}* hey, you there?',
             ...(SAVE.data.n.state_foundry_muffet === 1
                 ? [
@@ -5371,7 +5371,7 @@ export default {
     b_opponent_moldbygg: {
         sexyChat: ['<08>{#p/basic}{~}\x00*sexy shuffle*'],
         epiphany: [
-            ['<08>{#p/basic}{~}\x00*slime sounds*'],
+            ['<08>{#p/basic}{~}\x00(слизкие звуки)'],
             () =>
                 world.meanie
                     ? ['<08>{#p/basic}{~}Guoooh..']
@@ -5400,7 +5400,7 @@ export default {
         act_topple2: ['<32>{#p/human}* (You topple Gelata.)\n* (Its body parts collapse and roll into the distance.)'],
         name: '* Gelata',
         idleTalk1: ['<08>{#p/basic}{~}Guoooh!'],
-        idleTalk2: ['<08>{#p/basic}{~}\x00*slime sounds*'],
+        idleTalk2: ['<08>{#p/basic}{~}\x00(слизкие звуки)'],
         idleTalk3: ['<08>{#p/basic}{~}Roar.'],
         idleTalk4: ['<08>{#p/basic}{~}\x00*eager shuffle*'],
         randStatus1: () =>

@@ -1547,8 +1547,8 @@ export default {
                                         : papreal()
                                             ? ['<32>{#p/basic}{#npc/a}* Papyrus? \n* É você?\n* Vamos lá...']
                                             : [
-                                                "<32>{#p/basic}{#npc/a}* Eu estou pensando em deixar meu coração crescer pra mostrar um pouco minha personalidade.",
-                                                '<32>* Pra deixar uma declaração como \"Dê-me um grande e suave abraço e me acaricie, por favor.\"'
+                                                "<32>{#p/basic}{#npc/a}* Estou pensando em deixar meu coração crescer pra mostrar personalidade.",
+                                                '<32>* Pra deixar uma declaração como \"Dê-me um grande e suave abraço e me acaricie.\"'
                                             ],
             g_grillby: () =>
                 SAVE.data.b.killed_mettaton
@@ -1741,7 +1741,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* (Cough, cough.)',
-                            '<33>* Nos tempos de escola, os professores nos davam jogos de encontre a diferença quando não tínhamos dever.',
+                            '<33>* Nos tempos de escola, os professores nos davam jogos de encontre a diferença as vezes.',
                             '<32>* Eu jurava que era perda de tempo.\n* Mas olha pra mim agora...',
                             "<33>* Eu sou a artista número um do jogo encontre a diferença no Outpost."
                         ],
@@ -1818,7 +1818,7 @@ export default {
                                     ]
                                     : [
                                         '<32>{#p/basic}{#npc/a}* Eu amo trabalhar no feed de notícias.',
-                                        "<32>* Tem tão pouco pra publicar que a gente só preenche as manchetes com jogos e tirinhas.",
+                                        "<32>* Tem tão pouco pra publicar que a gente só preenche as manchetes com tirinhas.",
                                         '<32>* Eu espero que ninguém fique entediado.'
                                     ],
                 () =>
@@ -2001,7 +2001,7 @@ export default {
             t_icewolf: () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        "<32>{#p/basic}{#npc/a}* Ice Wolf está feliz hoje.\n* Querido Doggo está nos braços de Ice Wolf.",
+                        "<32>{#p/basic}{#npc/a}* Ice Wolf está feliz hoje. Querido Doggo está nos braços de Ice Wolf.",
                         '<32>* Ice Wolf é agora seu Nice Wolf.'
                     ]
                     : SAVE.data.b.killed_mettaton
@@ -2032,12 +2032,12 @@ export default {
                                         : world.population < 6
                                             ? [
                                                 world.bullied
-                                                    ? '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando o porque de tantos monstros estarem surrados.'
+                                                    ? '<32>{#p/basic}{#npc/a}* Ice Wolf se pergunta o porque de tantos monstros estarem surrados.'
                                                     : '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando porque tantos monstros sumiram.',
                                                 '<32>* Ice Wolf está preocupado.'
                                             ]
                                             : [
-                                                '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando porque seu nome é Ice Wolf sem não tem Ice pra ser jogado por aí.',
+                                                '<32>{#p/basic}{#npc/a}* Ice Wolf está se perguntando porque seu nome é Ice Wolf sem não tem Ice pra ser jogado.',
                                                 '<32>* Ice Wolf está confuso.'
                                             ],
             t_imafraidjumitebeinagang: pager.create(
@@ -2562,7 +2562,7 @@ export default {
             [
                 '<32>{#p/human}* (Você pega um livro...)',
                 '<32>{#p/basic}* \"A pedra angular do valor interativo de um QC é a afetação do jogador.\"',
-                '<32>* \"O impulso dentro de cada jogador para explorar, progredir e completar uma determinada tarefa.\"',
+                '<32>* \"O impulso dentro de cada jogador para completar uma determinada tarefa.\"',
                 '<32>* \"Um quebra-cabeça que desafia e envolve essas motivações garantirá...\"',
                 '<32>* \"O jogador permanece focado e na tarefa até o final.\"',
                 '<32>{#p/human}* (Você põe o livro de volta no lugar.)'

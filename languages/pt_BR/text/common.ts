@@ -1793,7 +1793,7 @@ export default {
                     addB([
                         '<25>{#p/alphys}{#f/20}* Então... após você fugir, o rei meio que... d-desapareceu.',
                         "<25>{#p/alphys}{#f/14}* Quando eu contei a notícia... isso feriu a moral das pessoas.",
-                        '<25>{#p/alphys}{#f/10}* Tecnicamente, como cientista real, eu deveria tomar o lugar dele, mas...',
+                        '<25>{#p/alphys}{#f/10}* Como cientista real, eu deveria tomar o lugar dele, mas...',
                         "<25>{#p/alphys}{#f/4}* Eu não pensei que seria o melhor para o trabalho."
                     ]);
                     if (dmettaton) {
@@ -1831,7 +1831,7 @@ export default {
                     } else if (dknightknight) {
                         addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte da Terrestria..."]);
                     } else if (dtoriel) {
-                        addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada ela se perderia a mente pela morte da verdadeira rainha..."]);
+                        addB(["<25>{#p/alphys}{#f/13}* ... pensei que ela se perderia pela morte da verdadeira rainha..."]);
                     } else if (dmuffet) {
                         addB(["<25>{#p/alphys}{#f/13}* ... eu estava preocupada que ela enlouqueceria pela morte da rainha das aranhas..."]);
                     } else if (dmettaton) {
@@ -1859,7 +1859,7 @@ export default {
                             addB(["<25>{#p/alphys}{#f/26}* ... sair surrando todo mundo não te ajudou muito."]);
                         } else {
                             addB([
-                                '<25>{#p/alphys}{#f/5}* ... monstros não confiam nem um pouco mais em humanos após tudo que aconteceu.'
+                                '<25>{#p/alphys}{#f/5}* ... monstros não confiam mais em humanos após o que aconteceu.'
                             ]);
                         }
                     } else {
@@ -1875,16 +1875,16 @@ export default {
                     addB([
                         '<25>{#p/alphys}{#f/10}* Já para os humanos ainda vivos no Outpost...?',
                         "<25>{#p/alphys}{#f/4}* Bem, após o que ela disse, eu... não queria tomar nenhuma chance.",
-                        '<25>{#p/alphys}{#f/20}* Então... eu mandei o arquivo para uma casa de pináculo em Aerialis.',
+                        '<25>{#p/alphys}{#f/20}* Então... eu mandei o arquivo para um lugar em Aerialis.',
                         '<25>{#p/alphys}{#f/20}* Em segredo.',
                         '<25>{#p/alphys}{#f/5}* ... Undyne viu a falta de humanos, ou... ALMAS humanas, e...',
                         "<25>{#p/alphys}{#f/10}* Assumiu que elas tinham se perdido, também."
                     ]);
                     if (dtoriel) {
                         addB([
-                            '<25>{#p/alphys}{#f/3}* Eu, ahah, tentei falar com ela sobre seu anúncio em público, mas...',
+                            '<25>{#p/alphys}{#f/3}* Eu, tentei falar com ela sobre o anúncio em público, mas...',
                             '<25>{#p/alphys}{#f/3}* ... eu não pude fazer nada...!',
-                            "<25>{#p/alphys}{#f/30}* ...\n* Todo mundo pensa que voltamos para verdadeiro foco agora."
+                            "<25>{#p/alphys}{#f/30}* Todo mundo pensa que voltamos para o verdadeiro foco agora."
                         ]);
                         if (dpapyrus) {
                             addB([
@@ -1929,22 +1929,22 @@ export default {
                         } else {
                             addB([
                                 '<18>{#p/papyrus}{#f/0}TODOS, EXCETO VOCÊ, EU E MEU IRMÃO!',
-                                '<25>{#p/alphys}{#f/27}* Oh, ei Papyrus.\n* Eu recebo isso, o arquivo ainda está funcionando?',
+                                '<25>{#p/alphys}{#f/27}* Oh, ei Papyrus.\n* O arquivo ainda está funcionando?',
                                 '<18>{#p/papyrus}{#f/0}CLARO QUE ESTÁ!',
                                 '<18>{#p/papyrus}{#f/9}EU TAMBÉM DEI AOS HUMANOS SEU CHECK DIÁRIO!',
                                 '<25>{#p/alphys}{#f/10}* Incrível, obrigada.',
-                                "<25>{#p/alphys}{#f/10}* ... talvez... você queira falar algumas coisas para o humano...?",
-                                "<25>{#p/alphys}{#f/5}* Eu estou deixando uma mensagem sobre o que aconteceu desde que eles se foram.",
+                                "<25>{#p/alphys}{#f/10}* Você quer falar algumas coisas para o humano...?",
+                                "<25>{#p/alphys}{#f/5}* Eu estou deixando uma mensagem sobre tudo que aconteceu.",
                                 '<18>{#p/papyrus}{#f/0}OH, MAS QUE BOM!',
                                 "<18>{#p/papyrus}{#f/0}... OLÁ, HUMANO.\nACREDITO QUE VOCÊ ESTEJA BEM.",
                                 "<18>{#p/papyrus}{#f/5}TEM SIDO DIFÍCIL MANTER SEGREDO DE TODO MUNDO...",
-                                "<18>{#p/papyrus}{#f/6}ESPECIALMENTE QUANDO ESTÁ TODO MUNDO TÃO TRISTE!!!",
-                                "<18>{#p/papyrus}{#f/5}TODAS ESSAS PESSOAS PENSANDO QUE NUNCA IRÃO SER LIVRES...",
+                                "<18>{#p/papyrus}{#f/6}ESPECIALMENTE QUANDO TODOS ESTÃO TRISTE!!!",
+                                "<18>{#p/papyrus}{#f/5}TODOS PENSANDO QUE NUNCA SERÃO LIVRES...",
                                 '<18>{#p/papyrus}{#f/5}PERGUNTANDO SE AINDA TEM FUTURO...',
                                 "<18>{#p/papyrus}{#f/0}MAS EI!!\nTUDO FICARÁ BEM!!",
                                 "<18>{#p/papyrus}{#f/5}UM DIA, ELES IRÃO DESCOBRIR A VERDADE...",
                                 '<18>{#p/papyrus}{#f/0}E A VERDADE OS LIBERTARÁ.',
-                                "<25>{#p/alphys}{#f/8}* Papyrus, por que você não fala para eles sobre seu novo trabalho?",
+                                "<25>{#p/alphys}{#f/8}* Papyrus, que tal falar para ele sobre seu trabalho?",
                                 '<18>{#p/papyrus}{#f/0}AH, CLARO!!\nCOMO EU PODERIA ME ESQUECER!?',
                                 '<18>{#p/papyrus}{#f/0}... UNDYNE FINALMENTE PERMITIU MINHA ENTRADA NA GUARDA REAL.',
                                 "<18>{#p/papyrus}{#f/4}TECNICAMENTE, SOU O OFICIAL DE MORAL DA GUARDA...",
@@ -1963,7 +1963,7 @@ export default {
                                 "<18>{#p/papyrus}{#f/5}EU AINDA ESTOU MEU CONFUSO.",
                                 '<25>{#p/alphys}{#f/31}* ... é.',
                                 "<25>{#p/sans}{#f/0}* oh.\n* ei pessoal.\n* desculpa pelo atraso.",
-                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo do nosso queriam que eu fizesse café da manhã.',
+                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo do nosso queriam que eu fizesse comida.',
                                 "<25>{#p/alphys}{#f/25}* Bem, não seriam eles apenas uns necessitados por comida.",
                                 '<18>{#p/papyrus}{#f/7}UGH... MORAR EM UMA CASA DE PINÁCULO DEVE SER TÃO IRRITANTE!!',
                                 '<18>{#p/papyrus}{#f/4}ELES NÃO SABEM COZINHAR POR CONTA PRÓPRIA?',
@@ -1975,7 +1975,7 @@ export default {
                                 '<18>{#p/papyrus}{#f/0} EXATAMENTE!\nQUEM PRECISA DE ALGUÉM PARA COZINHAR...',
                                 '<18>{#p/papyrus}{#f/9}... QUANDO VOCÊ TEM O PRIMEIRO E ÚNICO GRANDE PAPYRUS!',
                                 '<26>{#p/sans}{#f/0}* heh.',
-                                '<26>{#p/sans}{#f/0}* bem, eu provavelmente deveria ir naquele café da manhã, agora.',
+                                '<26>{#p/sans}{#f/0}* bem, eu deveria ir naquele café da manhã, agora.',
                                 '<26>{#p/sans}{#f/3}* papyrus, você se importaria de vir comigo?',
                                 "<18>{#p/papyrus}{#f/0}MAS É CLARO!\nESTAREI LOGO ATRÁS DE VOCÊ!",
                                 '<26>{#p/sans}{#f/0}* certo, então.\n* ... lá vamos nós!',
@@ -2107,7 +2107,7 @@ export default {
                                 '<18>{#p/papyrus}{#f/0}ENTÃO, QUE TAL ISSO?\nEU, VOCÊ, UNDYNE, CONVENCIMENTO?',
                                 "<25>{#p/sans}{#f/0}* ... huh?\n* sobre o que seria isso?",
                                 "<25>{#p/sans}{#f/3}* desculpa por estar atrasado, aliás.",
-                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo da gente queriam que eu fizesse café da manhã.',
+                                '<25>{#p/sans}{#f/2}* as pessoas no andar abaixo da gente queriam que eu fizesse comida.',
                                 "<25>{#p/alphys}{#f/25}* Bem, não seriam eles apenas uns necessitados por comida.",
                                 "<18>{#p/papyrus}{#f/4}VOCÊ NÃO VAI CONTAR PRA ELES SOBRE O QUE CONVERSAMOS?",
                                 '<25>{#p/alphys}{#f/32}* ...',
@@ -3191,7 +3191,7 @@ export default {
                 addB([
                     '<25>{#p/alphys}{#f/20}* Então... após você fugir, o rei meio que... d-desapareceu.',
                     "<25>{#p/alphys}{#f/14}* Quando eu contei a notícia... isso feriu a moral das pessoas.",
-                    '<25>{#p/alphys}{#f/10}* Tecnicamente, como cientista real, eu deveria tomar o lugar dele, mas...',
+                    '<25>{#p/alphys}{#f/10}* Como cientista real, eu deveria tomar o lugar dele, mas...',
                     "<25>{#p/alphys}{#f/11}* Eu realmente não senti que seria a melhor opção para o trabalho.",
                     '<26>{#p/alphys}{#f/5}* Então eu acabei conversando com alguns dos Guardas Reais e...',
                     '<25>{#p/alphys}{#f/6}* Nós concordamos que Terrestria seria a melhor nomeação como rainha.',

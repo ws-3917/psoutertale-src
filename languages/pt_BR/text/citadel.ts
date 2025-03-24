@@ -1592,7 +1592,7 @@ export default {
                     ],
             asgoreStory19: [
                 '<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, me-me d-desculpa!\n* Eu cheguei aqui o mais rápido que pude!',
-                '<25>{#p/asgore}{#f/6}* Não a pressa.\n* Coisas boas vem para aqueles que tem paciência.',
+                '<25>{#p/asgore}{#f/6}* Coisas boas vem para aqueles que tem paciência.',
                 "<25>{#p/alphys}{#g/alphysWorried}* ... Você acha que ele está pronto?"
             ],
             asgoreStory20a: [
@@ -1600,7 +1600,7 @@ export default {
                 '<25>{#p/asgore}{#f/7}* Eu e Alphys temos assuntos a tratar.'
             ],
             asgoreStory20b: [
-                "<25>{#p/alphys}{#g/alphysHellYeah}* Isso, só... va-vai seguindo em frente e logo você irá nos alcançar do outro lado!"
+                "<25>{#p/alphys}{#g/alphysHellYeah}* Isso, va-vai seguindo em frente e nos alcança do outro lado!"
             ],
             asgoreStory21: [
                 '<25>{#p/asgore}{#f/5}* Que estranho.\n* Ela não parece estar por aqui.',
@@ -1652,8 +1652,8 @@ export default {
                         '<32>* LOVE, também é um acrônimo.',
                         '<32>* Significa \"{@fill=#f00}Level Obtido por ViolEncia{@fill=#fff}.\"',
                         "<32>* Uma forma de quantificar a capacidade de infringir dor.",
-                        '<32>* Quando mais você mata, mais fácil tornar-se de distanciar-se de tudo.',
-                        '<32>* Quando mais você se distância, menos dor você irá sentir.',
+                        '<32>* Quanto mais você mata, mais fácil tornar-se de distanciar-se de tudo.',
+                        '<32>* Quanto mais você se distância, menos dor você irá sentir.',
                         '<32>* E assim, se torna mais fácil causar dor aos outros.'
                     ])
             ],
@@ -2149,7 +2149,7 @@ export default {
                     ? [
                         '<25>{#p/alphys}{#g/alphysCutscene1}* você chegou!',
                         '<25>{#g/alphysCutscene2}* ...\n* Este é o Arquivo Seis.',
-                        '<25>{#f/15}* Desde que foi construído, os humanos foram guiados até aqui...',
+                        '<25>{#f/15}* Desde a construção, os humanos foram guiados até aqui...',
                         '<25>{#f/15}* Mantido em estase...',
                         '<25>{#f/15}* Em um tempo acelerado de mundo virtual...',
                         "<25>{#f/10}* ... não é legal?",
@@ -2161,8 +2161,8 @@ export default {
                         '<99>{|}{#f/18} o personagem principal\n  descobre como chegar\n  até o fim e eles fazem {%}',
                         '<99>{|}{#f/18} e então eles conseguem deixar\n  todos livres!!!',
                         '<25>{#f/18}* ...',
-                        '<25>{#f/20}* Então, uh, eu acho que eles foram inspirados por isso.',
-                        "<25>{#f/18}* B-bem!!\n* Asgore estará te esperando no escudo de força!"
+                        '<25>{#f/20}* Então, uh, eu acho que ele foi inspirado por isso.',
+                        "<25>{#f/18}* Asgore estará te esperando no escudo de força!"
                     ]
                     : [
                         '<25>{#p/alphys}{#g/alphysCutscene1}* você chegou!',
@@ -2267,9 +2267,9 @@ export default {
                         [
                             '<25>{#p/asgore}{#f/6}* Como o último a entrar, você agiria como um embarcador.',
                             "<25>* Trazendo todas as outras ALMAS com seus poderes para si.",
-                            '<26>* Com todos os poderes combinados, você irá destruir o escudo de força.',
+                            '<26>* Com todos os poderes combinados, você irá destruir o escudo.',
                             '<25>* Então...',
-                            '<25>* A população monstro finalmente irá procurar por um novo planeta para chamar de casa.',
+                            '<25>* A população monstro finalmente irá procurar por um novo planeta.',
                             '<25>{#f/1}* ... entretanto.',
                             '<25>* Se você não deseja tal responsabilidade...',
                             '<25>* Você deve ficar conosco no Outpost até mudar de ideia.',
@@ -2302,7 +2302,7 @@ export default {
                         '<25>{#f/1}* Talvez eu tenha errado em acreditar que você seria como os outros.',
                         SAVE.data.b.ultrashortcut
                             ? '<25>{#f/5}* Você chegou muito rápido e eu fiz pouco para merecer sua confiança.'
-                            : '<25>{#f/5}* Você talvez não esteja pronto, e eu fiz pouco para ganhar sua confiança.',
+                            : '<25>{#f/5}* Eu fiz pouco para ganhar sua confiança.',
                         '<25>{#f/1}* Se você mudar de ideia, deve retornar até mim...',
                         '<25>{#f/2}* Eu não irei pressiona-lo.'
                     ],
@@ -4362,7 +4362,7 @@ export default {
                             "<25>{#f/8}* ... nós não falamos muito sobre isso."
                         ],
                         [
-                            '<25>{#p/asriel1}{#f/17}* Então um dia, quando o jovem Asgore estava saindo com alguns amigos...',
+                            '<25>{#p/asriel1}{#f/17}* Então um dia, quando o jovem Asgore saía com alguns amigos...',
                             '<25>{#f/17}* Ele se perdeu em uma floresta mágica e sua garrafa de água estava vazia.',
                             '<25>{#f/13}* Com sorte, no meio das árvores, tinha...',
                             '<25>{#f/20}* Bem, como pai gostava de chamar, uma \"cidade fantasma.\"'

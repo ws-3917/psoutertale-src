@@ -2675,7 +2675,7 @@ export default {
             () =>
                 world.runaway
                     ? {
-                        a: 'ALPHYS',
+                        a: 'АЛЬФИС',
                         b: 'TODAY',
                         c: '< message deleted >'
                     }
@@ -2719,7 +2719,7 @@ export default {
                     }
                     : SAVE.data.n.plot === 72
                         ? {
-                            a: 'ALPHYS',
+                            a: 'АЛЬФИС',
                             b: 'TODAY',
                             c: 'whoops, i forgot to shut\noff the server'
                         }
@@ -2803,7 +2803,7 @@ export default {
                 choicer.create('* (Take the coins?)', 'Да', 'Нет')
             ]
         ),
-        papcouch2: ['<32>{#p/human}* (You decide not to take anything.)'],
+        papcouch2: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
         papcouch3: ['<32>{#p/human}* (You found 10G.)'],
         papcouch3a: [
             "<18>{#p/papyrus}{#f/1}YOU'RE CLEANING OUT THE COUCH FOR US!?",
@@ -5673,7 +5673,7 @@ export default {
         xtowerSans: () =>
             world.genocide
                 ? [
-                    '<32>{#p/event}* Ring, ring...',
+                    '<32>{#p/event}* Звонок...',
                     "<32>{#p/alphys}* So... killing him wasn't g-good enough, huh?",
                     '<32>* You just had to go and beat his score on my... stupid m-minigame...',
                     '<32>* Ehehe...',
@@ -5695,7 +5695,7 @@ export default {
                         : [])
                 ]
                 : [
-                    '<32>{#p/event}* Ring, ring...',
+                    '<32>{#p/event}* Звонок...',
                     '<25>{#p/sans}* didja seriously just put in all that effort tryna beat my score?',
                     "<25>{#f/3}* wow.\n* you're even more stubborn than my bro.",
                     ...(SAVE.data.n.state_starton_papyrus === 1

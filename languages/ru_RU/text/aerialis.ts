@@ -63,7 +63,7 @@ export default {
         termsmash1: ['<32>{#p/human}* (You decide not to smash.)'],
         termsmash2: ['<32>{#p/human}* (Вы разбиваете пирог...)'],
         puzzlenoot1: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             world.nootflags.has('a_barricade1') // NO-TRANSLATE
 
                 ? '<25>{#p/alphys}{#g/alphysInquisitive}* Did the puzzle solve itself as well?'
@@ -72,7 +72,7 @@ export default {
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         puzzlenoot2: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             world.nootflags.has('a_puzzle1') // NO-TRANSLATE
 
                 ? "<25>{#p/alphys}{#g/alphysWelp}* And this one.\n* This one's solved as well."
@@ -92,7 +92,7 @@ export default {
         harpyKILLER: ["<32>{#p/basic}* Huhehehaw...\n* Golly gosharoo, I think I'm in mortal danger!"],
         shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
         afear: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, h-hey...',
             '<25>{#p/alphys}{#g/alphysNeutralSweat}* Sorry about... running off and stuff...',
             '<25>{#p/alphys}{#g/alphysIDK}* ...',
@@ -103,7 +103,7 @@ export default {
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         escape: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<25>{#p/alphys}{#g/alphysCutscene1}* You made it!',
             '<25>{#g/alphysInquisitive}* Oh, uh, sorry about not using my camera before.',
             '<25>{#g/alphysYeahYouKnowWhatsUp}* I was trying to keep a \"low profile...\"',
@@ -117,9 +117,9 @@ export default {
             "<25>* The other elevator's just a few rooms ahead.\n* You can't miss it!",
             '<32>{#s/equip}{#p/event}* Click...'
         ],
-        approachescape: ['<32>{#p/human}* (You hear footsteps fading into the distance.)'],
+        approachescape: ['<32>{#p/human}* (Вы слышите шаги вдалеке.)'],
         puzzlehelp: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             "<25>{#p/alphys}{#g/alphysWelp}* Just calling to let you know that I'm here if you need my help.",
             "<25>{#p/alphys}{#g/alphysCutscene2}* I'll keep my phone available while you're in the room!",
             '<32>{#s/equip}{#p/event}* Click...'
@@ -405,7 +405,7 @@ export default {
                     ? ["<32>{#p/basic}* It's a sentry station."]
                     : ['<32>{#p/basic}* Just another sentry station for the one and only Sans.'],
         sanscall1: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             ...(world.dead_skeleton
                 ? [
                     '<25>{#p/sans}{#f/0}* so, how was the show?',
@@ -566,7 +566,7 @@ export default {
                 : [])
         ],
         hotelfood2: ["<32>{#p/human}* (You're carrying too much.)"],
-        hotelfood3: ['<32>{#p/human}* (You decide not to take anything.)'],
+        hotelfood3: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
         sonic1: () => [
             '<32>{#p/human}* (You got the Sonic Resonator.)',
             choicer.create('* (Equip the Sonic Resonator?)', 'Да', 'Нет')
@@ -593,7 +593,7 @@ export default {
         ratings: 'RATINGS $(x)',
         gold: 'GOLD $(x)',
         secretcall: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Звонок...',
             '<18>{#p/papyrus}{#f/5}PAPYRUS HERE.',
             "<18>{#f/5}I'VE DECIDED I CAN'T HIDE AWAY ANY LONGER.",
             '<18>{#f/6}THE PEOPLE OUT THERE NEED MY HELP!',
@@ -964,7 +964,7 @@ export default {
                     : ['<25>{#p/asriel2}{#f/16}* Cool.'],
             status: '$(x) updated status',
             barricade1: () => [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 "<25>{#p/alphys}{#g/alphysSideSad}* I don't think you can get through that...",
                 '<25>{#g/alphysSmileSweat}* Let me see if I can do anything to help.',
                 '<32>{#p/human}* (It sounds like someone is furiously typing at a keyboard.)',
@@ -1025,7 +1025,7 @@ export default {
                     ])
             ],
             barricade2: () => [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene2}* Okay, so the question for this one is...',
                 '<25>{|}{#g/alphysCutscene1}* \"Who is Mettaton\'s- {%}',
                 '<25>{#g/alphysGarbo}* Are they all seriously about himself?',
@@ -1059,7 +1059,7 @@ export default {
                 '<25>{#g/alphysUhButHeresTheDeal}* Well, one more to go!'
             ],
             barricade3: () => [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysNervousLaugh}* Last question...',
                 '<25>{#g/alphysNeutralSweat}* \"What is Mettaton\'s true identity?\"',
                 '<25>{#g/alphysNeutralSweat}* ...',
@@ -1106,7 +1106,7 @@ export default {
                 "<25>{#g/alphysUhButHeresTheDeal}* I'll c-call you back when I'm done!"
             ],
             barricadeFail2: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysSmileSweat}* O-okay, the override is complete.'
             ],
             barricadeFail2x: [
@@ -1116,7 +1116,7 @@ export default {
             ],
             barricadeFail3: ['<25>{#p/alphys}{#g/alphysCutscene1}* Hope that helps!'],
             barricade4: () => [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysSideSad}* Not this again...',
                 '<25>{#g/alphysSideSad}* ...',
                 "<25>{#g/alphysWelp}* Wait, I'm still logged into Mettaton's account.",
@@ -1153,7 +1153,7 @@ export default {
                 '<32>{#s/equip}{#p/event}* Click...'
             ],
             puzzleReaction1: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysHellYeah}* You did it!!',
                 '<25>{#g/alphysNeutralSweat}* ...',
                 '<25>{#g/alphysCutscene2}* C... congratulations.'
@@ -1201,13 +1201,13 @@ export default {
             cooker7a: () =>
                 iFancyYourVilliany()
                     ? [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#g/alphysShocked}* Uh, w-wait!',
                         "<25>{#g/alphysOhGodNo}* That's not {@fill=#003cff}fun slime{@fill=#fff}...",
                         "<25>{#g/alphysUhButHeresTheDeal}* That's {@fill=#f00}plastic explosive{@fill=#fff}!"
                     ]
                     : [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#g/alphysShocked}* Uh, w-wait!',
                         '<25>{#g/alphysOhGodNo}* If you synthesize that right now...',
                         "<25>{#g/alphysUhButHeresTheDeal}* You'll destroy h-half of Aerialis!"
@@ -1274,7 +1274,7 @@ export default {
             cooker12: () =>
                 SAVE.data.n.state_foundry_undyne > 0
                     ? [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#f/20}* Uh... I...',
                         "<25>{#g/alphysIDK}* I d-don't know if this is a good idea...",
                         "<25>{#f/16}* B-but I'd rather help you than let you die!!",
@@ -1284,7 +1284,7 @@ export default {
                         '<25>{#f/10}* Maybe... your phone has one too??'
                     ]
                     : [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#g/alphysSide}* Hey, uh...',
                         '<25>{#g/alphysCutscene1}* I think I know a way you can get across!',
                         "<25>{#g/alphysNervousLaugh}* It's... well...",
@@ -1378,26 +1378,26 @@ export default {
                     : ['<32>* SO, UNTIL NEXT TIME...', '<32>* I BID YOU ALL FAREWELL!'])
             ],
             cooker19a: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene1}* You did it!!',
                 '<25>{#g/alphysCutscene2}* ...',
                 "<25>{#g/alphysUhButHeresTheDeal}* I guess I should've expected that."
             ],
             cooker19b: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysSideSad}* ...',
                 '<25>{#g/alphysSmileSweat}* I guess... you did it??',
                 '<25>{#p/alphys}{#g/alphysCutscene1}* Yeah!\n* You did it!!',
                 '<25>{#g/alphysWelp}* ...'
             ],
             cooker19c: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* ...',
                 '<25>{#g/alphysNeutralSweat}* ...',
                 '<25>{#g/alphysFR}* You have a death wish.'
             ],
             robocaller3: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 "<32>{#p/mettaton}* I SEE YOU'VE ARRIVED ON SET.",
                 '<32>* SMILE FOR THE CAMERAS, HOTSHOTS...'
             ],
@@ -1432,7 +1432,7 @@ export default {
             cookerX7: ['<25>{#p/asriel2}{#f/3}* That was probably a smart choice.'],
             cookerX8: ["<25>{#p/asriel2}{#f/3}* Let's go."],
             cookerX9: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 "<32>{#p/mettaton}* I SEE YOU'VE MADE IT ACROSS THE GAP.",
                 '<32>* ...',
                 '<32>* PERHAPS...',
@@ -1446,14 +1446,14 @@ export default {
                 "<32>{#p/basic}* Don't worry, I'll be okay!\n* Just look at these rings!\n* I can't be fired forever..."
             ],
             puzzleReaction2a: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysSide}* You got to the checkpoint!',
                 '<25>{#g/alphysWelp}* But, uh, that was only the f-first one.',
                 "<25>{#g/alphysNeutralSweat}* There's still two more left to go."
             ],
-            puzzleReaction2b: ['<32>{#p/event}* Ring, ring...', '<25>{#p/alphys}{#g/alphysWelp}* One left.'],
+            puzzleReaction2b: ['<32>{#p/event}* Звонок...', '<25>{#p/alphys}{#g/alphysWelp}* One left.'],
             puzzleReaction2c: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 "<25>{#p/alphys}{#g/alphysHellYeah}* Yes!!\n* That's the last one!!",
                 '<25>{#g/alphysCutscene2}* Eheh...',
                 '<25>{#f/10}* ...',
@@ -2024,13 +2024,13 @@ export default {
             moneyFinal4: () => [
                 ...(SAVE.data.n.state_foundry_undyne === 1
                     ? [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         "<25>{#p/alphys}{#g/alphysOhGodNo}{#z0}* M-mettaton, come on!\n* I've had enough of a bad day as it is!",
                         '<32>{#p/mettaton}* ...',
                         "<32>* WELL, THAT'S A SHAME, THEN!\n* BECAUSE, YOU SEE..."
                     ]
                     : [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         "<25>{#p/alphys}{#g/alphysOhGodNo}{#z0}* H-hey! You can't give that away, that's... I own that!",
                         '<32>{#p/mettaton}* OH, DO YOU NOW?',
                         "<32>* I APOLOGIZE.\n* I WASN'T AWARE.\n* BUT...",
@@ -2181,7 +2181,7 @@ export default {
                 '<32>* I get the feeling things could turn serious here.'
             ],
             moneyX1: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<32>{#p/mettaton}* OH DEAR, IS THAT...\n* IS THAT WHAT IT LOOKS LIKE?',
                 "<32>* OH, I DO BELIEVE THAT IT'S...",
                 '<32>* A TRAP!',
@@ -2252,14 +2252,14 @@ export default {
             moneyX4a: ['<25>{#p/asriel2}{#f/1}* There.'],
             moneyX4b: ['<25>{#p/asriel2}{#f/6}* ...', '<25>{#p/asriel2}{#f/7}* Did we seriously just wait for that?'],
             moneyX5a: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<32>{#p/mettaton}* DO MY SENSORS DECIEVE?', 
                 "<32>* DEAR VIEWERS, WE MIGHT HAVE TO CHANGE THIS SHOW'S RATING...",
                 '<32>* FROM \"SHAMEFUL\" TO \"ULTRA SHAMEFUL\" OF COURSE!',
                 "<32>* I CAN'T SAY MANY IN YOUR PLACE WOULD BE WILLING TO HUMILIATE THEMSELVES LIKE THAT."
             ],
             moneyX5b: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<32>{#p/mettaton}* WELL, THAT WAS...',
                 "<32>* UH... I DON'T REALLY KNOW WHAT TO CALL THAT.",
                 '<32>* THANKS FOR WAITING, I GUESS?',
@@ -2392,7 +2392,7 @@ export default {
             hapsta23: ['<32>{#p/napstablook}* .........\n* ......... should we call him?'],
             hapsta24: ["<32>{#p/finalghost}* I don't see a reason not to."],
             hapsta25: [
-                '<32>{#p/event}* Ring, ring...',
+                '<32>{#p/event}* Звонок...',
                 '<32>{#p/mettaton}* BLOOKY!\n* WHAT A WONDERFUL SURPRISE!\n* WHAT IS IT YOU NEED?',
                 '<32>{#p/napstablook}* um... i wanted to talk to you about something',
                 '<32>{#p/mettaton}* WELL, HEY, WE CAN DO IT RIGHT HERE, WHAT DO YOU NEED?',
@@ -3401,7 +3401,7 @@ export default {
             ],
             doublefridge3: ["<32>{#p/human}* (You're carrying too much.)"],
             doublefridge4: ['<32>{#p/human}* (You got the Orange Soda.)'],
-            doublefridge5: ['<32>{#p/human}* (You decide not to take anything.)'],
+            doublefridge5: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
             labcamera2: () =>
                 postSIGMA()
                     ? ["<32>{#p/basic}* Сломано."]
@@ -4662,7 +4662,7 @@ export default {
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
                             "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
                             '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
@@ -4670,7 +4670,7 @@ export default {
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
                             "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                             "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
@@ -4680,13 +4680,13 @@ export default {
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             "<25>{#p/alphys}{#g/alphysSideSad}* It's not safe to go that far...",
                             "<25>{#g/alphysNeutralSweat}* I'm gonna pull you back now.",
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysShocked}* W-what are you doing!?',
                             "<26>{#f/3}* You're almost at the edge!",
                             '<32>{#s/equip}{#p/event}* Click...'
@@ -4694,12 +4694,12 @@ export default {
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysWTF}* ...',
                             '<32>{#s/equip}{#p/event}* Click...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysIDK2}* ...',
                             "<25>{#p/alphys}{#g/alphysIDK3}* I guess... there's nothing I can say to stop you.",
                             '<32>{#s/equip}{#p/event}* Click...'
@@ -6333,7 +6333,7 @@ export default {
                     ...(SAVE.data.b.killed_mettaton ? ['<32>* You were fortunate to have done so when you did.'] : [])
                 ],
         core1: [
-            '<32>{#p/event}* Ring, ring...',
+            '<32>{#p/event}* Звонок...',
             '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... h-hiya.',
             "<25>* That's the elevator to the Citadel.",
             "<25>{#g/alphysInquisitive}* I'd have you go there straight away, but...",
@@ -6344,7 +6344,7 @@ export default {
         core2a: () =>
             [
                 [
-                    '<32>{#p/event}* Ring, ring...',
+                    '<32>{#p/event}* Звонок...',
                     "<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you're here.",
                     "<25>{#g/alphysSmileSweat}* I'll keep an open line between us while you're down here...",
                     '<25>{#g/alphysWelp}* ... just in case something bad happens.',
@@ -6360,22 +6360,22 @@ export default {
                 ],
                 SAVE.data.n.plot < 66.2
                     ? [
-                        '<32>{#p/event}* Ring, ring...',
+                        '<32>{#p/event}* Звонок...',
                         '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
                         '<25>{#g/alphysNeutralSweat}* Remember, g-gotta keep an eye out for the ELITE squad members.'
                     ]
                     : SAVE.data.n.plot < 67
                         ? [
-                            '<32>{#p/event}* Ring, ring...',
+                            '<32>{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
                             '<25>{#g/alphysNeutralSweat}* Remember, g-gotta unlock that door...'
                         ]
                         : [
-                            '<32>{#p/event}* Ring, ring...',
+                            '<32>{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?',
                             "<25>{#g/alphysNeutralSweat}* We're almost to the end, you know..."
                         ],
-                ['<32>{#p/event}* Ring, ring...', "<25>{#p/alphys}{#g/alphysWelp}* I'll be on the line."]
+                ['<32>{#p/event}* Звонок...', "<25>{#p/alphys}{#g/alphysWelp}* I'll be on the line."]
             ][Math.min(SAVE.data.n.state_aerialis_coreenter++, 2)],
         core2b: () =>
             [
@@ -10106,7 +10106,7 @@ export default {
                 pm: "Thank you for creating an account on the outpost's #1 social network!"
             },
             alphys1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
                         ? 'uhhhh nobody saw that right' 
@@ -10116,7 +10116,7 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
                         ? 'ok good' 
@@ -10128,7 +10128,7 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
                         ? 'yeah that wouldve been pretty embarrasing otherwise' 
@@ -10140,7 +10140,7 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne
                         ? 'oh my god i thought those guys were about to provoke the human' 
@@ -10150,11 +10150,11 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys6: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh no.'
             },
             alphys7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'ok mettaton could you like not keep doing this to me thanks' 
@@ -10170,14 +10170,14 @@ export default {
                                 : 'well, there goes my last one-time use portable jetpack' 
             },
             alphys8: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'wait how did the human get here if i never gave them a liftgate pass' 
                         : 'BTW has anyone else seen mew mew space adventure???'
             },
             alphys9: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'like did they just steal my spare cell phone or something' 
@@ -10196,7 +10196,7 @@ export default {
                         ? 'NAPSTABLOOK22'
                         : SAVE.data.n.state_starton_papyrus === 0
                             ? 'COOLSKELETON95'
-                            : 'ALPHYS',
+                            : 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? "i'm... getting worried" 
@@ -10212,7 +10212,7 @@ export default {
                         : 'Mew Mew SPACE ADVENTURE???\nHAH! WHAT A LOAD OF HOT GARBAGE!'
             },
             alphys13: {
-                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
+                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'АЛЬФИС'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'please stay out of this' 
@@ -10232,7 +10232,7 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys15: {
-                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
+                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'АЛЬФИС'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'with all due respect\nplease shut up.' 
@@ -10242,21 +10242,21 @@ export default {
                         ][SAVE.data.n.bad_lizard]
             },
             alphys16: {
-                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'ALPHYS'),
+                author: () => (SAVE.data.n.state_foundry_undyne === 1 ? 'NAPSTABLOOK22' : 'АЛЬФИС'),
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'gotta go.' 
                         : 'another show already???'
             },
             alphys17: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? 'well... alright\nill look at what you sent me now' 
                         : 'for the record this mew mew doll thing never happened.'
             },
             alphys18: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_foundry_undyne === 1
                         ? SAVE.data.n.state_aerialis_royalguards === 1
@@ -10273,7 +10273,7 @@ export default {
                 pm: 'just to be on the safe side.'
             },
             alphysX2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah just cleared it out now'
             },
             alphysX3: {
@@ -10281,7 +10281,7 @@ export default {
                 pm: 'heh... remember that time he showed off the new gravity plating?'
             },
             alphysX4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'and the whole set just started floating into the sky? OMG YES LMAO'
             },
             alphysX5: {
@@ -10289,11 +10289,11 @@ export default {
                 pm: 'pfft, he really thought that would work, huh?'
             },
             alphysX6: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i remember asgore trying everything he could to hold it down XD'
             },
             alphysX7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'man what a day\ni really miss working with you sans'
             },
             alphysX8: {
@@ -10301,7 +10301,7 @@ export default {
                 pm: "i know you do.\nbut i've got a different job to dddd"
             },
             alphysX9: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: '...\nhello?'
             },
             alphysY1: {
@@ -10313,7 +10313,7 @@ export default {
                 pm: 'no pun intended.'
             },
             alphysY3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'right... wait really?'
             },
             alphysY4: {
@@ -10321,7 +10321,7 @@ export default {
                 pm: "i wouldn't lie about making a pun, would i?"
             },
             alphysY5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'you know what i mean.'
             },
             alphysY6: {
@@ -10329,15 +10329,15 @@ export default {
                 pm: "don't worry, alphys.\ni've got this under control."
             },
             alphysY7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sure okay'
             },
             alphysY7A1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'woah... did you see that?'
             },
             alphysY7A2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
                         ? 'papyrus and the human just fought and it was so intense'
@@ -10348,7 +10348,7 @@ export default {
                 pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'what?\nis he okay?' : 'what?\nwhat happened?')
             },
             alphysY7A4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     SAVE.data.n.state_papyrus_capture < 3
                         ? 'yeah yeah hes fine dont worry'
@@ -10362,7 +10362,7 @@ export default {
                         : "hey, just tell me if he's okay."
             },
             alphysY7A6: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () => (SAVE.data.n.state_papyrus_capture < 3 ? 'yeah thats one way of putting it' : 'hes okay.')
             },
             alphysY7A7: {
@@ -10373,7 +10373,7 @@ export default {
                         : 'heh... glad to hear it.'
             },
             alphysYdoggo1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'no... doggo...'
             },
             alphysYdoggo2: {
@@ -10381,15 +10381,15 @@ export default {
                 pm: 'huh? what happened?'
             },
             alphysYdoggo3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'after he lost his eyesight he would come to my lab after work...'
             },
             alphysYdoggo4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'id teach him to use his ears with these little games we played'
             },
             alphysYdoggo5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'he would always leave with a big smile on his face. but now...'
             },
             alphysYdoggo6: {
@@ -10397,23 +10397,23 @@ export default {
                 pm: 'i see.'
             },
             alphysY8A1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'you know the human is killing monsters in starton right?'
             },
             alphysY8A1a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'theyre going after regular citizens'
             },
             alphysY8A1b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'theyre targeting the sentries'
             },
             alphysY8A1c: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'theyre going after everyone'
             },
             alphysY8A1d: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its not just doggo theyre after'
             },
             alphysY8A2: {
@@ -10421,19 +10421,19 @@ export default {
                 pm: "i know. i'm doing my best to get people out before it's too late."
             },
             alphysY8A3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'okay good'
             },
             alphysYdrake1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yknow... stardrakes mom came in the other day'
             },
             alphysYdrake2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'she told me how proud she is of her son and the new friends he made...'
             },
             alphysYdrake3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'what am i supposed to tell her now?'
             },
             alphysYdrake4: {
@@ -10441,7 +10441,7 @@ export default {
                 pm: "you tell her that you'll do the best you can in your position."
             },
             alphysYdrake5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah... i guess thats all i really can tell her huh'
             },
             alphysYdrake6: {
@@ -10449,7 +10449,7 @@ export default {
                 pm: "it's better than nothing."
             },
             alphysY8A4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'that was close'
             },
             alphysY8A5: {
@@ -10457,11 +10457,11 @@ export default {
                 pm: "yeah... guess i shouldn't have doubted my bro, heh."
             },
             alphysY8A6: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah...'
             },
             alphysY8A7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'never mind the human is back to killing again'
             },
             alphysY8A8: {
@@ -10469,15 +10469,15 @@ export default {
                 pm: 'welp.'
             },
             alphysY8B1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sans'
             },
             alphysY8B2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'the human just killed papyrus'
             },
             alphysY8B3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'please tell me youre there'
             },
             alphysY8B4a: {
@@ -10489,7 +10489,7 @@ export default {
                 pm: "i'm here. and i shouldn't have left him alone out there."
             },
             alphysY8B5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'what are you gonna do now?'
             },
             alphysY8B6: {
@@ -10501,7 +10501,7 @@ export default {
                 pm: "i don't feel like doing anything."
             },
             alphysY8B8: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sans...'
             },
             alphysY8B9: {
@@ -10509,7 +10509,7 @@ export default {
                 pm: "it's not your fault.\nthis would always have happened."
             },
             alphysY8B10: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'what do you mean?'
             },
             alphysY8B11: {
@@ -10521,7 +10521,7 @@ export default {
                 pm: "he's just too damn good to stand by and watch as people die."
             },
             alphysY8B13: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'unlike us right?'
             },
             alphysY8B14: {
@@ -10529,11 +10529,11 @@ export default {
                 pm: 'yeah.'
             },
             alphysY8B15: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: '...'
             },
             alphysY8B16: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'things arent getting any better'
             },
             alphysY8B17: {
@@ -10541,11 +10541,11 @@ export default {
                 pm: "let me guess, they're going after people in the foundry now?"
             },
             alphysY8B18: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah but youre gonna help me evacuate right?'
             },
             alphysY8B18x: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i mean i think so? maybe we should start evacuating or something'
             },
             alphysY8B19: {
@@ -10553,23 +10553,23 @@ export default {
                 pm: "i can't make any promises.\nbut i'll try."
             },
             alphysY8B20: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'thanks'
             },
             alphysY8C1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sans people in the foundry are in serious danger'
             },
             alphysY8C2a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its the human... even the elite squad cant stop it'
             },
             alphysY8C2b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its the human... theyre going after the residents down there'
             },
             alphysY8C2c: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its the human... theyre killing everybody down there'
             },
             alphysY8C3a: {
@@ -10581,11 +10581,11 @@ export default {
                 pm: "well, aren't you gonna start evacuating people?"
             },
             alphysY8C4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh right i need to do that'
             },
             alphysY8C5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'gotta go'
             },
             alphysY8C6: {
@@ -10593,31 +10593,31 @@ export default {
                 pm: "good luck, alphys.\ni'll help evacuate if i can."
             },
             alphysY8C7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'thanks'
             },
             alphysY8C8: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh no'
             },
             alphysY8C9: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'undyne and the human are about to fight'
             },
             alphysY8C10a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'this is kind of worrying'
             },
             alphysY8C10b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'not gonna lie im kind of excited'
             },
             alphysY8C11a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'and by kind of i mean very'
             },
             alphysY8C11b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'but like really scared at the same time'
             },
             alphysY8C12a: {
@@ -10629,11 +10629,11 @@ export default {
                 pm: "didn't you say you were trying to avoid this earlier?"
             },
             alphysY8C13a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah i dont really think undyne would listen to me'
             },
             alphysY8C13b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'if the human got this far they can make it past her'
             },
             alphysY8C14: {
@@ -10641,35 +10641,35 @@ export default {
                 pm: 'well, okay.\nif you say so, i guess.'
             },
             alphysY8D1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh'
             },
             alphysY8D1a1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i guess killing papyrus wasnt enough for them then'
             },
             alphysY8D1a2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i guess slaughtering the elite squad wasnt enough for them then'
             },
             alphysY8D1a3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i guess slaughtering the canine unit wasnt enough for them then'
             },
             alphysY8D1a4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i guess killing people in the foundry wasnt enough for them then'
             },
             alphysY8D1a5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i guess killing people in starton wasnt enough for them then'
             },
             alphysY8D1b: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'never mind'
             },
             alphysY8D1c1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'that cant be good'
             },
             alphysY8D1c2: {
@@ -10677,15 +10677,15 @@ export default {
                 pm: 'what happened?'
             },
             alphysY8D1c3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'she was trying to keep up with them and she stepped on something and...'
             },
             alphysY8D1c4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i see it...\ni think shes... fallen down'
             },
             alphysY8D1x: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'okay they spared her'
             },
             alphysY8D2a: {
@@ -10697,26 +10697,26 @@ export default {
                 pm: "i guess there's nothing you can do, then. i'm sorry, alphys."
             },
             alphysY8D2x: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'though i dont think i want to be here after everything that happened'
             },
             alphysY8D3a: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     world.bad_lizard < 2
                         ? 'i let this happen sans... i watched her die and did nothing to stop it'
                         : 'i should probably leave the lab while i still have the chance'
             },
             alphysY8D3b1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i get that it could have been an accident but i cant know for sure'
             },
             alphysY8D3b2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'who knows what theyll do next?'
             },
             alphysY8D3x: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its probably safer just to leave the lab anyway.'
             },
             alphysY8D4: {
@@ -10731,7 +10731,7 @@ export default {
                 pm: "you can leave the lab if you want.\ni'll try to keep tabs on 'em though."
             },
             alphysY8D5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: () =>
                     world.bad_lizard < 2
                         ? 'yeah... youre probably right'
@@ -10745,7 +10745,7 @@ export default {
                         : "i'll be fine, just be sure to get a phone that works outside the lab."
             },
             alphysY8D7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh yeah i almost forgot thanks'
             },
             alphysY8D8: {
@@ -10753,79 +10753,79 @@ export default {
                 pm: "oh, and be sure to clear the message history while you're at it."
             },
             alphysY8D9: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'yeah ill do that dont worry'
             },
             alphysZ1: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: '...\nhello?'
             },
             alphysZ2: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sans im kinda getting worried'
             },
             alphysZ3: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'no... no no no no no please tell me that was a prank'
             },
             alphysZ4: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'youre pranking me right?\nyou wouldnt just die like that'
             },
             alphysZ5: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sans please tell me that youre alive and safe'
             },
             alphysZ6: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'im sorry if i upset you for some reason or did something bad'
             },
             alphysZ7: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'its just been tough on me since you left and i dont know what to do'
             },
             alphysZ8: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'well... im back\nlooks like they got your brother'
             },
             alphysZ9: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i went to go do something and when i came back he was gone'
             },
             alphysZ10: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'um... sans'
             },
             alphysZ11: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i dont know if youre there in some form or not but'
             },
             alphysZ12: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'undynes gone'
             },
             alphysZ13: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'UNDYNES GONE AND I DONT FING KNOW WHAT TO DO'
             },
             alphysZ14: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'sorry'
             },
             alphysZ15: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'i should probably go.'
             },
             alphysZ16: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'heck i dont even know why im talking to you anymore'
             },
             alphysZ17: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'oh by the way'
             },
             alphysZ18: {
-                author: 'ALPHYS',
+                author: 'АЛЬФИС',
                 pm: 'it was the starling flower all along'
             }
         },

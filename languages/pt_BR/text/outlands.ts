@@ -1902,7 +1902,7 @@ export default {
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
                 '<25>{#p/toriel}* Olá...\n* Aqui é a Toriel.',
                 '<25>{#f/1}* Eu encontrei o que estava procurando...',
-                '<25>{#f/0}* Mas um pequeno cachorrinho branco pegou!\n* Que coisa.',
+                '<25>{#f/0}* Mas um pequeno cachorrinho branco pegou!',
                 '<25>{#f/1}* Os cães gostam de farinha?',
                 '<25>{#f/0}* Err, essa é uma pergunta desnecessária, claro.',
                 '<25>* Vai demorar um pouco mais para meu retorno.',
@@ -1937,7 +1937,7 @@ export default {
                 '<32>{#p/basic}* (Achoo!)',
                 '<32>{#p/human}* (Parece que o cachorrinho voltou a dormir em cima do telefone.)',
                 '<25>* (Você escuta uma voz na distância.)',
-                '<25>{#p/toriel}{#f/1}* Aha!\n* Eu escutei aquilo, seu pequeno cachorrinho branco...',
+                '<25>{#p/toriel}{#f/1}* Aha! Eu escutei isso, seu pequeno cachorrinho branco...',
                 '<25>{#f/6}* Agora eu vou te encontrar!',
                 '<32>{#p/human}* (O ronco para.)\n* (O cachorro parece estar correndo atrás de algo.)',
                 '<25>{#p/toriel}{#f/8}* Hee hee, não tem escapatória!'
@@ -1980,7 +1980,7 @@ export default {
         indie7: ['<32>{#p/basic}* Alguns minutos depois...'],
         indie8: [
             '<25>{#p/toriel}* Eu voltei!',
-            '<25>* Sua paciência até agora tem sido louvável.\n* Até eu estou impressionada!',
+            '<25>* Sua paciência até agora tem sido louvável.\n* Estou impressionada!',
             '<25>{#f/0}* De toda forma.\n* É hora de te levar para casa.',
             '<25>{#f/1}* Por favor, permita-me.'
         ],
@@ -2897,7 +2897,7 @@ export default {
                     : [
                         "<32>{#p/basic}* Ribbit, ribbit.\n* (Se você espancar um monstro até a quase morte...)",
                         '<32>* (Seu nome vai se tornar azul.)',
-                        '<32>* (Estranho, né? Mas eu ouvi dizer que os humanos ficam azuis quando são espancados também.)',
+                        '<32>* (Estranho, né? Mas eu ouvi dizer que os humanos ficam azuis quando espancados.)',
                         '<32>* (Então eu suponho que você entenda o que eu digo.)',
                         '<32>* (Bem, obrigado por escutar os pensamentos da minha mente.)\n* Ribbit.'
                     ],

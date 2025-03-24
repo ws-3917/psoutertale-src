@@ -7724,7 +7724,7 @@ export default {
                     '<20>{#p/mettaton}{#e/mettaton/10}你，还有Lurksalot\n永远都是我的亲人！',
                     
                     "<20>{#p/mettaton}{#e/mettaton/15}所以...\n请把这一切，\n把那些话都忘掉吧。",
-                    "<20>{#p/mettaton}{#e/mettaton/9}别把那些气话\n放在心上，",
+                    "<20>{#p/mettaton}{#e/mettaton/9}别把那些气话\n放在心上。",
                     '<20>{#p/mettaton}{#e/mettaton/10}只希望你能记住...'
                 ]
                 : iFancyYourVilliany()
@@ -7990,7 +7990,7 @@ export default {
             SAVE.data.b.a_state_hapstablook
                 ? ["<20>{#p/mettaton}...但我不能\n一直逃避下去。{^40}{%}"]
                 : !world.badder_lizard
-                    ? ["<20>{#p/mettaton}这就是你\n回答问题的方式！{^40}{%}"]
+                    ? ["<20>{#p/mettaton}这才叫回答问题！{^40}{%}"]
                     : ['<20>{#p/mettaton}你只是缺乏勇气，\n对吧？{^40}{%}'],
         q3: () =>
             SAVE.data.b.a_state_hapstablook

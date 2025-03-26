@@ -3503,15 +3503,15 @@ export default {
                                                 : toriSV()
                                                     ? [
                                                         '<32>{#p/toriel}{#f/21}* «Это был не самый лучший день».',
-                                                        '<32>* «Ещё один человек покинул меня...»',
-                                                        '<32>* \"The seventh and final human he\'d need to break the force field.\"',
-                                                        '<32>* \"I should not have allowed this to happen.\"',
+                                                        '<32>* «Ещё один человек ушёл от меня...»',
+                                                        '<32>* «Седьмой и последний человек, который нужен ему, чтобы сломать силовое поле».',
+                                                        '<32>* «Я должна была это предотвратить».',
                                                         '<32>* \"With the stakes so high, a confrontation may be inevitable...\"'
                                                     ]
                                                     : [
-                                                        '<32>{#p/toriel}{#f/21}* \"It has been an interesting day, to say the least.\"',
-                                                        '<32>* \"A human arrived...\"',
-                                                        '<32>* \"Then, tried to leave...\"',
+                                                        '<32>{#p/toriel}{#f/21}* «Это был... интересный день, если не больше».',
+                                                        '<32>* «Прибыл ещё один человек...»',
+                                                        '<32>* «А потом пытался уйти...»',
                                                         '<32>* \"And then, the strangest thing happened.\"',
                                                         '<32>* \"A reminder I have been in need of for some time...\"'
                                                     ])

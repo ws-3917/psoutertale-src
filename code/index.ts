@@ -103,6 +103,8 @@ import startonPatterns from './starton/patterns';
 import '../languages/cs_CZ/index';
 import '../languages/de_DE/index';
 import '../languages/es_ES/index';
+import '../languages/hu_HU/index';
+import '../languages/hy_AM/index';
 import '../languages/it_IT/index';
 import '../languages/ja_JP/index';
 import '../languages/pt_BR/index';

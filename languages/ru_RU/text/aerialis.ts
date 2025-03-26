@@ -9864,7 +9864,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Filament.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (10 HP.)']
+                ? ['<32>{#p/human}* (10 ОЗ.)']
                 : ['<32>{#p/basic}* \"Filament\" Heals 10 HP\n* A winding wick of flavors!\n* One use left.'],
         name: 'Filament',
         use: ['<32>{#p/human}* (You extract some energy from the Filament.)']
@@ -9991,7 +9991,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Corn Dog.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (10 HP.)']
+                ? ['<32>{#p/human}* (10 ОЗ.)']
                 : ['<32>{#p/basic}* \"Corn Dog\" Heals 10 HP\n* Fresh from the microwave.'],
         name: 'Corn Dog',
         use: ['<32>{#p/human}* (You eat the Corn Dog.)']

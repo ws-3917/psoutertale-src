@@ -3194,7 +3194,7 @@ export default {
                     '<25>{#p/alphys}{#f/10}* Como cientista real, eu deveria tomar o lugar dele, mas...',
                     "<25>{#p/alphys}{#f/11}* Eu realmente não senti que seria a melhor opção para o trabalho.",
                     '<26>{#p/alphys}{#f/5}* Então eu acabei conversando com alguns dos Guardas Reais e...',
-                    '<25>{#p/alphys}{#f/6}* Nós concordamos que Terrestria seria a melhor nomeação como rainha.',
+                    '<25>{#p/alphys}{#f/6}* Nós concordamos que Terrestria seria a melhor nomeação.',
                     '<25>{#p/alphys}{#f/15}* Sua primeira ação foi meio controversa... ',
                     '<25>{#p/alphys}{#f/17}* Cortando a Guarda Real ao meio e tirando parte de suas políticas.'
                 ]);
@@ -3221,7 +3221,7 @@ export default {
                         '<25>{#p/alphys}{#f/27}* ...',
                         "<25>{#p/undyne}{#f/17}* Tá de brincadeira?\n* É CLARO que eles não são todos maus!",
                         '<25>{#p/alphys}{#f/10}* U-Undyne!?',
-                        '<25>{#p/undyne}{#f/14}* Aquele último humano provou que de fato sua bondade PODE ser... bem, boa.',
+                        '<25>{#p/undyne}{#f/14}* Aquele último humano provou que de fato sua bondade é... boa.',
                         '<25>{#p/undyne}{#f/1}* Que ele pode demonstrar piedade aos seus oponentes em batalha.',
                         "<25>{#p/undyne}{#f/16}* ... é uma boa coisa também, porque...",
                         '<25>{#p/undyne}{#f/14}* Eu dúvido que a Guarda Real vai expandir tão cedo.',
@@ -3262,7 +3262,7 @@ export default {
                     addB([
                         "<25>{#p/alphys}{#f/15}* ... felizmente, isso NÃO causou uma revolta em massa...",
                         '<25>{#p/alphys}{#f/17}* Mas, ser super conhecida deve tê-la ajudado a se sair bem.',
-                        '<25>{#p/alphys}{#f/8}* De fato, as pessoas estão mais positivas em relação a humanidade agora.'
+                        '<25>{#p/alphys}{#f/8}* De fato, as pessoas estão mais positivas em relação a humanidade.'
                     ]);
                 }
                 addB(["<25>{#p/alphys}{#f/8}* Então isso já é algo.", '<26>{#p/undyne}{#f/16}* Heh, nem me fala...']);
@@ -3281,12 +3281,12 @@ export default {
                 }
                 addB([
                     "<25>{#p/alphys}{#f/6}* Eheh...\n* O sistema de educação está indo bem, também.",
-                    '<25>{#p/alphys}{#f/1}* Sofisticado dizer que o preço para construir institutos nunca esteve tão baixo!',
+                    '<25>{#p/alphys}{#f/1}* Alias o preço para construir institutos nunca esteve tão baixo!',
                     "<25>{#p/alphys}{#f/8}* A tantos estudantes aprendendo todo tipo de coisa.",
-                    '<18>{#p/papyrus}{#f/0}... EI PESSOAL!\nEU ACABEI DE VOLTAR DA ESCOLA DE MATEMÁTICA!!',
-                    '<18>{#p/papyrus}{#f/4}QUEM IMAGINARIA QUE DESCOBRIR SOBRE O ESPAÇO TEMPO SERIA TÃO COMPLICADO...',
+                    '<18>{#p/papyrus}{#f/0}... EI PESSOAL!\nEU ACABEI DE VOLTAR DA ESCOLA!',
+                    '<18>{#p/papyrus}{#f/4}DESCOBRIR SOBRE O ESPAÇO É COMPLICADO...',
                     '<25>{#p/alphys}{#f/10}* ... sim, Papyrus teve uma aula sobre teoria do campo de dobra.',
-                    '<18>{#p/papyrus}{#f/6}O QUÊ?? VOCÊ ESTÁ SE REFERINDO A MIM NA TERCEIRA PESSOA??',
+                    '<18>{#p/papyrus}{#f/6}VOCÊ ESTÁ SE REFERINDO A MIM NA TERCEIRA PESSOA??',
                     '<25>{#p/alphys}{#f/17}* ... e uma aula de redação, pelo que parece.',
                     "<25>{#p/undyne}{#f/12}* Isso ainda existe??",
                     '<18>{#p/papyrus}{#f/4}... ESPERA...',
@@ -3294,7 +3294,7 @@ export default {
                     "<25>{#p/undyne}{#f/1}* É o humano.",
                     '<18>{#p/papyrus}{#f/0}OH!! OH!!\nDEIXA EU FALAR COM ELE!!',
                     '<25>{#p/undyne}{#f/14}* Pelo que vejo.\n* Eu tenho que ir dar aula de novo.',
-                    '<25>{#p/undyne}{#f/17}* Eles têm tudo dificuldade com o exercício de \"autodefesa mágica.\"',
+                    '<25>{#p/undyne}{#f/17}* Eles têm tido dificuldade com \"autodefesa mágica.\"',
                     '<18>{#p/papyrus}{#f/0}... OLÁ HUMANO!!\nCOMO -VOCÊ- ESTEVE!?',
                     '<18>{#p/papyrus}{#f/0}...',
                     "<18>{#p/papyrus}{#f/5}EU ACHO QUE VOCÊ NÃO PODE RESPONDER.",
@@ -3322,23 +3322,23 @@ export default {
                 } else {
                     addB([
                         '<18>{#p/papyrus}{#f/0}UM DELES ATÉ DESEJOU IR COM VOCÊ!!',
-                        "<18>{#p/papyrus}{#f/5}É UM COLEGA DE CLASSE QUE SENTA PERTO DE MIM, NA VERDADE.",
+                        "<18>{#p/papyrus}{#f/5}É UM COLEGA DE CLASSE QUE SENTA PERTO DE MIM.",
                         '<18>{#p/papyrus}{#f/6}ELE DISSE QUE TE DEVE A VIDA!!',
                         '<18>{#p/papyrus}{#f/4}...UM HERÓI, NÉ?\nSE VOCÊ ALGUM DIA VOLTAR...',
-                        "<18>{#p/papyrus}{#f/0}EU TEREI CERTEZA DE CONVIDÁ-LO PARA SUA FESTA DE BOAS VINDAS."
+                        "<18>{#p/papyrus}{#f/0}EU IREI CONVIDÁ-LO PARA SUA FESTA DE BOAS VINDAS."
                     ]);
                 }
                 addB([
                     '<18>{#p/papyrus}{#f/9}VOCÊ TEM MINHA PROMESSA PESSOAL DE PAPYRUS! (TM)',
                     "<25>{#p/alphys}{#f/27}* ... ei, essa não é uma das falas do Mettaton?",
                     '<18>{#p/papyrus}{#f/4}NO PASSADO, TALVEZ... MAS AGORA.',
-                    "<18>{#p/papyrus}{#f/5}APARENTEMENTE, ELE ESTÁ ABANDONANDO COMPLETAMENTE SEU FORMATO ANTIGO...",
-                    '<18>{#p/papyrus}{#f/4}PARA COMEÇAR O \"UNIVERSO CINEMÁTICO DA MTT.\"',
+                    "<18>{#p/papyrus}{#f/5}ELE ESTÁ ABANDONANDO SEU FORMATO ANTIGO...",
+                    '<18>{#p/papyrus}{#f/4}PARA COMEÇAR O \"UNIVERSO CINEMÁTICO MTT.\"',
                     '<25>{#p/alphys}{#f/17}* Eu ouvi um rumor sobre isso.'
                 ]);
                 if (iFancyYourVilliany()) {
                     addB([
-                        '<25>{#p/alphys}{#f/21}* Eles dizem que ele está sobrando a aposta na coisa de \"vilão\".',
+                        '<25>{#p/alphys}{#f/21}* Eles dizem que ele está na aposta na coisa de \"vilão\".',
                         "<18>{#p/papyrus}{#f/4}... COMO SE ISSO NÃO FOSSE UM TIRO NAS COSTAS.",
                         '<25>{#p/alphys}{#f/22}* EU SEI!?!?'
                     ]);
@@ -3355,7 +3355,7 @@ export default {
                     }
                 } else {
                     addB([
-                        '<25>{#p/alphys}{#f/21}* Eles dizem que ele está sobrando a aposta no coisa de \"robô assassino.\"',
+                        '<25>{#p/alphys}{#f/21}* Dizem que ele está na aposta na coisa de \"robô assassino.\"',
                         "<18>{#p/papyrus}{#f/4}COMO SE ISSO NÃO FOSSE UM TIRO NAS COSTAS.",
                         '<25>{#p/alphys}{#f/22}* EU SEI!?!?'
                     ]);
@@ -3375,38 +3375,38 @@ export default {
                     "<18>{#p/papyrus}{#f/5}É... TODO MUNDO SÓ QUER TER ESPERANÇA.",
                     '<18>{#p/papyrus}{#f/6}... INCLUINDO MEU IRMÃO!',
                     '<18>{#p/papyrus}{#f/0}APÓS A REDUÇÃO DA GUARDA REAL...',
-                    '<18>{#p/papyrus}{#f/0}ELE SAIU PARA COMEÇAR NEGÓCIOS COM A BRATTY E CATTY.',
+                    '<18>{#p/papyrus}{#f/0}ELE SAIU PARA NEGÓCIOS COM A BRATTY E CATTY.',
                     '<18>{#p/papyrus}{#f/4}UM NEGÓCIO SOBRE LIXO DE SEGUNDA MÃO.',
-                    "<18>{#p/papyrus}{#f/5}EU NÃO POSSO DIZER QUE APROVO, MAS PELO MENOS ELE ESTÁ FELIZ.",
-                    "<25>{#p/sans}{#f/0}* claro que estou feliz.\n* vender lixo é basicamente meu segundo mandamento.",
+                    "<18>{#p/papyrus}{#f/5}EU NÃO SEI SE APROVO, MAS PELO MENOS ELE ESTÁ FELIZ.",
+                    "<25>{#p/sans}{#f/0}* claro que estou feliz, vender lixo é meu segundo mandamento.",
                     '<18>{#p/papyrus}{#f/7}SANS!! PARE DE APARECER ASSIM DO NADA!!',
                     '<25>{#p/sans}{#f/2}* heh.\n* então, como você tá, carinha?',
-                    "<25>{#p/sans}{#f/0}* Eu espero que meus esforços para te avisar e proteger não foram em vão.",
-                    '<18>{#p/papyrus}{#f/9}EU SABIA!\nVOCÊ ERA UM RATO INFILTRADO O TEMPO TODO!',
-                    '<25>{#p/sans}{#f/0}* sim.\n* eu realmente me infiltrei na guarda real.',
+                    "<25>{#p/sans}{#f/0}* Espero que meus esforços para te proteger não foram em vão.",
+                    '<18>{#p/papyrus}{#f/9}SABIA! VOCÊ ERA UM RATO INFILTRADO O TEMPO TODO!',
+                    '<25>{#p/sans}{#f/0}* é, eu realmente me infiltrei na guarda real.',
                     "<25>{#p/sans}{#f/3}* mas eu gosto de pensar que fiz uma influência positiva.",
                     '<25>{#p/sans}{#f/2}* depois de tudo, foi minha ideia colocar a terrestria no poder.',
                     '<18>{#p/papyrus}{#f/1}O QUE!?\nSUA IDEIA!?',
                     '<18>{#p/papyrus}{#f/5}UAU...',
                     "<25>{#p/sans}{#f/3}* ... mas isso está tudo no passado agora.",
-                    "<25>{#p/sans}{#f/0}* pelo forma que eu vejo, estou feliz que as coisas não acabaram pior.",
-                    "<25>{#p/alphys}{#f/17}* Eu estou um pouco surpresa que você não voltou a trabalhar no laboratório.",
+                    "<25>{#p/sans}{#f/0}* pelo forma que eu vejo, estou feliz que as coisas não pioraram.",
+                    "<25>{#p/alphys}{#f/17}* Estou surpresa que você não voltou a trabalhar no Lab.",
                     "<25>{#p/alphys}{#f/5}* Sabe, como você disse que faria ao sair da guarda real.",
-                    '<25>{#p/sans}{#f/3}* bem, pra ser sincero, eu preciso de um descanso após toda aquela parada.',
-                    '<25>{#p/sans}{#f/2}* mas ei, pelo menos o papyrus tá fazendo um trabalho excelente, certo?',
+                    '<25>{#p/sans}{#f/3}* Eu preciso de um descanso após toda aquela parada.',
+                    '<25>{#p/sans}{#f/2}* mas ei, pelo menos o papyrus tá fazendo um trabalho excelente.',
                     '<25>{#p/alphys}{#f/6}* Eheh.\n* É, ele está.',
                     '<18>{#p/papyrus}{#f/0}EU TENTO MEU MELHOR!!',
                     "<25>{#p/alphys}{#f/20}* ... mas, tem essa coisa na minha mente.",
                     '<25>{#p/sans}{#f/0}* o que é?',
                     '<25>{#p/alphys}{#f/27}* bem, de acordo com os telescópios...',
                     '<25>{#p/alphys}{#f/27}* Algo estranho aconteceu com as estrelas a pouco tempo.',
-                    '<18>{#p/papyrus}{#f/6}ESTRANHA!? \nCOMO UMA ESTRELA PODE SER ESTRANHA!?',
+                    '<18>{#p/papyrus}{#f/6}COMO UMA ESTRELA PODE SER ESTRANHA!?',
                     "<25>{#p/alphys}{#f/15}* Bem, okay, não foi exatamente a ESTRELA que estava estranha.",
                     '<26>{#p/alphys}{#f/23}* E sim a forma como se moveu.',
                     "<25>{#p/alphys}{#f/20}* Ou... não moveu?",
                     '<25>{#p/alphys}{#f/20}* Era mais como... uma espécie de salto.\n* Uma mudança repentina.',
-                    '<25>{#p/alphys}{#f/26}* Como se o tempo fora do campo de força apenas se... avançou alguns anos.',
-                    "<25>{#p/sans}{#f/0}* Você tem certeza que essas análises não tem nenhuma contra indicação?",
+                    '<25>{#p/alphys}{#f/26}* Como se o tempo fora do campo de força apenas avançou alguns anos.',
+                    "<25>{#p/sans}{#f/0}* Você tem certeza que essas análises não tem nenhum contra?",
                     '<25>{#p/alphys}{#f/20}* Bem, eu olhei, duplo olhei, triplo olhei...',
                     '<18>{#p/papyrus}{#f/6}MAS VOCÊ QUADRUPLO OLHOU!?',
                     '<25>{#p/alphys}{#f/21}* Claro que sim.',
@@ -3417,7 +3417,7 @@ export default {
                     "<25>{#p/sans}{#f/3}* whoops.\n* a gravação está quase no limite.\n",
                     '<25>{#p/alphys}{#f/17}* ... oh.\n* bom acho melhor irmos então.',
                     "<25>{#p/alphys}{#f/6}* bem, eu... eu espero que você esteja bem aí fora.",
-                    '<25>{#p/alphys}{#f/5}* Se nós conseguimos encontrar a felicidade aqui então... você também consegue.',
+                    '<25>{#p/alphys}{#f/5}* Se conseguimos achar a felicidade aqui, você também consegue.',
                     "<25>{#p/alphys}{#f/10}* Até porque, você tem o universo inteiro pra explorar!",
                     '<18>{#p/papyrus}{#f/0}BELAS PALAVRAS, ALPHYS.\nBELAS PALAVRAS.',
                     '<25>{#p/sans}{#f/2}* heh.\n* se cuida, beleza?',
@@ -4232,7 +4232,7 @@ export default {
         ],
         balcony12a: ['<25>{#p/kidd}{#f/7}* Túbulos??\n* Mas o que??'],
         balcony13a: [
-            "<25>{#p/asriel1}{#f/10}* Uh...\n* Você não leu os levantamentos geológicos?",
+            "<25>{#p/asriel1}{#f/10}* Você não leu os levantamentos geológicos?",
             "<25>{#p/kidd}{#f/1}* O que é um levantamento geológico?",
             '<25>{#p/asriel1}{#f/15}* ...',
             '<25>{#f/15}* Os túbulos são uma região feita de... uh, tubos.',

@@ -129,7 +129,7 @@ export default {
                     ...(re
                         ? ['<26>{#p/asriel2}{#f/13} * \nComo eu estava dizendo...']
                         : ["<25>{#p/asriel2}{#f/13}* Vou ser sincero..."]),
-                    "<25>{#f/16}* ... Está nem é a primeira vez que eu tento destruir o Outpost.",
+                    "<25>{#f/16}* ... Está não é a primeira vez que quis destruir o Outpost.",
                     "<25>{#f/15}* Cara, eu já vi centenas de milhares de linhas do tempo.",
                     '<25>{#f/23}* Mas, não importava o que eu fazia...',
                     "<25>{#f/16}* Sempre existiu algo faltando."
@@ -147,7 +147,7 @@ export default {
                     ...(re
                         ? ["<25>{#p/asriel2}{#f/6}* \nComo eu estava dizendo, depois de acordar como estrela, eu não me sentia o mesmo."]
                         : []),
-                    "<25>{#p/asriel2}{#f/15}* Porém, mais do que isso... Eu não era ser capaz de sentir amor, também.",
+                    "<25>{#p/asriel2}{#f/15}* Mais do que isso... eu não era capaz de sentir amor, também.",
                     '<25>{#f/23}* Eu estava com tanto medo... Eu só queria voltar ao normal.',
                     "<25>{#f/13}* Eu fui atrás do papai, na esperança de que ele poderia me ajudar.",
                     "<25>{#f/17}* Ele prometeu que cuidaria de mim pelo tempo necessário...",
@@ -253,7 +253,7 @@ export default {
                     "<25>{#f/7}* Mesmo após RESETAR, a imagem não saiu da minha mente.",
                     '<25>{#f/13}* Eu entrei em pânico, e tentei concertar aquilo sendo legal com ela.',
                     "<25>{#f/15}* Mas eu não pude esquecer o que fiz.",
-                    "<25>{#f/15}* Eu não... poderia olhar pra ela... pra ninguém, da mesma forma, de novo."
+                    "<25>{#f/15}* Eu não... poderia olhar pra ela... pra ninguém, da mesma forma."
                 ],
                 (re: boolean) => [
                     ...(re
@@ -262,7 +262,7 @@ export default {
                             '<25>{#f/16}* E, depois disso as coisas apenas pioraram.'
                         ]
                         : ['<25>{#p/asriel2}{#f/16}* Depois disso, as coisas ficaram piores.']),
-                    '<26>{#f/15}* Eu acho que depois de destruir tudo uma vez, se torna cada vez mais fácil de fazer depois.',
+                    '<26>{#f/15}* Após destruir tudo uma vez, se torna fácil fazer de novo.',
                     '<26>{#f/15}* E logo, seja por raiva, frustração, ou mera curiosidade...',
                     '<26>{#f/16}* O que começou como um acidente, perdeu todo o controle.',
                     '<26>{#f/7}* Porém, sabe, mesmo com tudo que aconteceu, eu ainda poderia RESETAR.',
@@ -270,7 +270,7 @@ export default {
                 ],
                 (re: boolean) => [
                     '<25>{#p/asriel2}{#f/6}* A cada RESETE, minhas ações se tornavam mais e mais bizarras.',
-                    '<25>{#f/7}* Eu fiz com que todos eles sentissem um terror acima da compreensão.',
+                    '<25>{#f/7}* Eu fiz com que todos eles sentissem um terror destrutivo.',
                     '<25>{#f/15}* Eu fiz isso de novo, de novo e de novo...',
                     "<25>{#f/16}* Eu fiz tantas vezes, que basicamente me acostumei com isso.",
                     '<25>{#f/3}* Então, finalmente, depois disso tudo...',
@@ -305,7 +305,7 @@ export default {
             ],
             monologueX3: [
                 '<25>{#p/asriel2}{#f/17}* Temos que fazer isso enquanto ainda temos a chance, certo?',
-                '<25>{#f/23}* Andando de mãos dadas, passando pela cidade, como nós sempre desejávamos...',
+                '<25>{#f/23}* Andando de mãos dadas, passando pela cidade, como desejávamos...',
                 "<25>{#f/16}* ... Então, iremos explodir este lugar em pedaços."
             ],
             monologueX4: () => [
@@ -624,7 +624,7 @@ export default {
                 '<32>{#p/basic}* ...\n* Então agora você sabe.',
                 "<32>* E por conta do diário de Asriel, você sabe que eu fiquei doente de propósito.",
                 '<32>* Eu enganei ele, manipulei ele com este plano estúpido de salvar todo mundo.',
-                '<32>* Apenas para se tornar uma procura por vingança, e mesmo isso foi uma perda de tempo no final.',
+                '<32>* Apenas para se tornar uma procura por vingança, e mesmo isso foi uma perda de tempo.',
                 '<32>* Ele me impediu de lutar de volta, e eu estava com raiva dele por tanto tempo...',
                 '<32>* ...',
                 '<32>* Talvez... parte de mim ainda esteja.',
@@ -654,7 +654,7 @@ export default {
                             ])
                     ]
                     : [
-                        "<32>* Tenho certeza de que você já está farto das minhas divagações, então provavelmente devemos ir.",
+                        "<32>* Tenho certeza de que você já está farto das minhas divagações, então vamos.",
                         "<32>* Quem sabe.\n* Talvez faça sentido assim que escudo de força tenha caído.",
                         "<32>* ...\n* Veremos."
                     ])
@@ -777,7 +777,7 @@ export default {
                 0,
                 [
                     "<32>{#p/basic}{#npc/a}* Eu nunca estive na tão aclamada Cidadela, mas parece legal.",
-                    "<32>* Mesmo sendo uma cidade inteirinha, ainda assim é mais fácil de trafegar que o restante do Outpost!",
+                    "<32>* Mesmo sendo uma cidade inteirinha, é mais fácil de andar que o resto do Outpost!",
                     "<32>* Agora isso não é alguma coisa."
                 ],
                 ["<32>{#p/basic}{#npc/a}* Eu nunca fui muito de quebra cabeças e labirintos.\n* Então isso realmente é legal."]
@@ -786,8 +786,8 @@ export default {
                 0,
                 [
                     '<32>{#p/basic}{#npc/a}* É maluco pensar que essa cidade foi construída tão rapidamente.',
-                    "<32>* E diferente de Aerialis, eles não recorreram a anomalias espaciais pra fazer ela parecer maior.",
-                    "<32>* Mas toda essa tecnobaboseira está além de mim, de qualquer maneira.\n* É bom estar aqui."
+                    "<32>* Diferente de Aerialis, eles não usam a anomalias pra fazer ela parecer maior.",
+                    "<32>* Mas toda essa tecnobaboseira está além de mim, de qualquer maneira. É bom estar aqui."
                 ],
                 ['<32>{#p/basic}{#npc/a}* Uma vida livre do termos técnicos esquisitos...\n* Paz, no fim.']
             ),
@@ -805,7 +805,7 @@ export default {
                 0,
                 [
                     "<32>{#p/basic}{#npc/a}* Então... sem mais escola?\n* Assim, é minha culpa por ter ido, claro.",
-                    '<32>* Ninguém tem que ir pra escola de verdade, mas você com certeza não vai ficar bem sem ela.',
+                    '<32>* Ninguém tem que ir pra escola de verdade, mas você não vai ficar bem sem ela.',
                     "<32>* Tanto faz.\n* Eu acho que ainda não sei o que quero fazer da vida."
                 ],
                 ['<32>{#p/basic}{#npc/a}* Ir a festas assim o tempo todo deve ser divertido...']
@@ -814,12 +814,12 @@ export default {
                 0,
                 [
                     '<18>{#p/papyrus}{#f/0}{#npc/a} OLÁ, FRISK!',
-                    "<18>{#f/9}EU ESTOU PREPARANDO A MELHOR REFEIÇÃO QUE JÁ FIZ NA VIDA!",
+                    "<18>{#f/9}ESTOU FAZENDO A MELHOR REFEIÇÃO DE TODAS!",
                     "<18>{#f/5}EU SÓ QUERIA COZINHAR UM POUCO MAIS RÁPIDO...",
-                    "<18>{#f/7}NESTE RITMO, EU VOU TER QUE SERVIR OS PRATOS NO TRANSPORTE!",
+                    "<18>{#f/7}NESTE RITMO, EU VOU TER QUE SERVIR NO TRANSPORTE!",
                     "<25>{#p/sans}{#npc}* Sério, acho que isso seria bem legal.",
-                    '<25>{#p/sans}{#f/3}* Imagina, todo mundo comendo enquanto vêem o novo planeta pela primeira vez...',
-                    "<25>{#p/sans}{#f/2}* Seria uma refeição que eles JAMAIS esquecerão.",
+                    '<25>{#p/sans}{#f/3}* Imagina, todo mundo comendo enquanto vêem o novo planeta...',
+                    "<25>{#p/sans}{#f/2}* seria uma refeição que eles JAMAIS esquecerão.",
                     '<18>{#p/papyrus}{#f/4}{#npc/a}VOCÊ ESTÁ FAZENDO UMA OFERTA TENTADORA...',
                     "<18>{#p/papyrus}{#f/5}MAS EU JÁ PROMETI QUE IREI DEIXAR PRONTO AQUI."
                 ],
@@ -831,8 +831,8 @@ export default {
                 ],
                 [
                     "<18>{#p/papyrus}{#f/0}{#npc/a} NÃO SE PREOCUPE, EU NÃO VOU FICAR -TÃO- EXCITADO.",
-                    "<18>{#f/5}NÃO É COMO SE EU FOSSE FAZER UMA APOSTA TÃO GRANDE...",
-                    '<18>{#f/0}COM UMA VARIEDADE TÃO GRANDE DE CONVIDADOS PRA ALIMENTAR.',
+                    "<18>{#f/5}NÃO É COMO SE EU FOSSE FAZER UMA APOSTA ASSIM...",
+                    '<18>{#f/0}COM UMA VARIEDADE TÃO GRANDE DE CONVIDADOS.',
                     '<18>{#f/9}ALÉM DISSO, A RECEITA ESPECIFICA O TEMPERO.',
                     '<18>{#f/4}OUVI DIZER QUE FLUTUA NA SUA BOCA...'
                 ],
@@ -853,9 +853,9 @@ export default {
                     SAVE.data.b.f_state_kidd_betray
                         ? ['<25>{#p/kidd}{#f/4}{#npc/a}* ...']
                         : [
-                            '<25>{#p/kidd}{#f/1}{#npc/a}{#f/4}* ... oh, hmm, eu sei que você provavelmente vai acabar descobrindo, mas...',
+                            '<25>{#p/kidd}{#f/1}{#npc/a}{#f/4}* ... oh, hmm, eu sei que você provavelmente já descobriu, mas...',
                             "<25>{#f/4}* Eu não tenho pais de verdade.\n* Eu inventei eles.",
-                            "<26>{#f/3}* Mas nós somos amigos agora, certo? Então... Espero que você possa me perdoar por aquilo."
+                            "<26>{#f/3}* Mas nós somos amigos agora. Então, espero que você possa me perdoar."
                         ],
                 () =>
                     SAVE.data.b.f_state_kidd_betray
@@ -878,10 +878,10 @@ export default {
 
                         ? []
                         : [
-                            '<25>{#p/undyne}{#f/14}{#npc/a}* As garotas que dirigem o centro de recreação encontraram este filme enquanto andavam no lixo.',
+                            '<25>{#p/undyne}{#f/14}{#npc/a}* As garotas que dirigem o centro de recreação encontraram este filme.',
                             "<25>{#f/1}* Então, Alphys e eu decidimos que iríamos decidir.",
-                            "<25>{#f/8}* FUHUHU!!\n* ESTE É O MELHOR ENCONTRO QUE EU JÁ TIVE!!",
-                            "<25>{#f/12}* E, uh, eu acho que este também é o único encontro que eu já tive.",
+                            "<25>{#f/8}* ESTE É O MELHOR ENCONTRO QUE EU JÁ TIVE!!",
+                            "<25>{#f/12}* E, uh, eu acho que este também é o único que eu já tive.",
                             '<25>{#f/7}* MESMO ASSIM!'
                         ],
                 () =>
@@ -908,7 +908,7 @@ export default {
                             ? ((SAVE.data.b.c_state_secret3_used = true),
                                 [
                                     '<25>{#p/alphys}{#g/alphysInquisitive}{#npc/a}* ... huh?\n* Você queria me dizer alguma coisa?',
-                                    '<32>{#p/human}* (Você recita as notas científicas compartilhadas pelo Professor Roman no Arquivo Seis.)',
+                                    '<32>{#p/human}* (Você recita as notas científicas compartilhadas do Professor Roman.)',
                                     '<25>{#p/alphys}{#g/alphysOhGodNo}* Woah... woah!',
                                     '<25>{#g/alphysNervousLaugh}* Está deve ser a chave para resolver a viagem intergaláctica...',
                                     '<25>{#g/alphysHellYeah}* ... com buraco de minhocas!',
@@ -939,7 +939,7 @@ export default {
                 () => [
                     SAVE.data.b.c_state_secret5_used
                         ? '<25>{#p/asgore}{#npc/a}{#f/1}* Não se preocupe, Frisk.\n* Eu não esqueci sobre a promessa.'
-                        : '<25>{#p/asgore}{#npc/a}{#f/6}* Não precisa ser preocupar, Frisk.\n* Estou apenas procurando novas roupas.',
+                        : '<25>{#p/asgore}{#npc/a}{#f/6}* Olá, Frisk. Estou apenas procurando novas roupas.',
                     ...(SAVE.data.b.c_state_secret5 && !SAVE.data.b.c_state_secret5_used
                         ? ((SAVE.data.b.c_state_secret5_used = true),
                             [
@@ -1721,10 +1721,10 @@ export default {
                 '<25>{#f/4}* não ser perfeito, mas ainda assim fazer a coisa certa?',
                 '<25>{#f/0}* mas eu acho que você realmente é diferente.',
                 '<25>{#f/3}* ...\n* vou te dizer uma coisa.',
-                "<25>{#f/4}* eu vou te poupar da longa, agonizante e entediante palestra que eu preparei...",
+                "<25>{#f/4}* eu vou te poupar da longa palestra que preparei...",
                 '<25>{#f/0}* e só vou te deixar ir logo.',
                 '<25>{#f/3}* até porque, alguém tão bom como você...',
-                "<25>{#f/2}* não deveria ficar ouvindo sobre como as escolhas da vida são difíceis.",
+                "<25>{#f/2}* não deveria ficar ouvindo como escolhas da vida são difíceis.",
                 ...(world.flirt < world.flirt_state1.length
                     ? [
                         '<25>{#f/3}* ...',
@@ -2047,7 +2047,7 @@ export default {
                 '<25>{#f/4}* esse olhar no seu rosto enquanto eu falava...',
                 "<25>{#f/0}* você já escutou esse discurso, não é?",
                 '<25>{#f/3}* eu suspeitei no princípio.',
-                "<25>{#f/3}* você age como se já soubesse o que iria acontecer em antecipação.",
+                "<25>{#f/3}* você age como se já soubesse o que iria acontecer.",
                 "<25>{#f/3}* como se você já tivesse visto certas coisas.",
                 '<25>{#f/0}* então... ei.',
                 "<25>{#f/0}* eu tenho um pedido pra você.",
@@ -2057,7 +2057,7 @@ export default {
                 '<25>{#f/2}* loucura, né?',
                 '<25>{#f/3}* de toda forma, aí vai...',
                 '<32>{#p/human}* (Sans falou algo para você.)',
-                "<25>{#p/sans}{#f/0}* eu estou contando que você vai voltar no tempo e vir aqui me dizer.",
+                "<25>{#p/sans}{#f/0}* eu estou contando que você vai voltar no tempo e me dizer.",
                 ...(funni ? ["<25>{#f/2}* eu vou para trás da pilastra agora."] : ['<25>{#f/2}* te vejo... mais cedo.'])
             ],
 
@@ -2066,7 +2066,7 @@ export default {
                 '<25>{#p/sans}{#f/3}* ...',
                 '<25>{#f/4}* huh?\n* você tem algo pra me dizer?',
                 '<32>{#p/human}* (Você disse para Sans o código secreto.)',
-                '<25>{#p/sans}{#f/2}* o quê? um código secreto?\n* da pra me contar isso um pouco mais alto?',
+                '<25>{#p/sans}{#f/2}* um código secreto? da pra me contar isso um pouco mais alto?',
                 '<32>{#p/human}* (Você diz ao Sans o código secreto, porém mais alto.)',
                 '<25>{#p/sans}{#f/0}* você...',
                 '<25>{#f/4}* ... me disse para \"inverter a polaridade do fluxo de nêutrons?\"',
@@ -2090,7 +2090,7 @@ export default {
                 '<25>{#f/4}* esse olhar no seu rosto enquanto eu falava...',
                 "<25>{#f/0}* você já escutou esse discurso, não é?",
                 '<25>{#f/3}* eu suspeitei no princípio.',
-                "<25>{#f/3}* você age como se já soubesse o que iria acontecer em antecipação.",
+                "<25>{#f/3}* você age como se já soubesse o que iria acontecer.",
                 "<25>{#f/3}* como se você já tivesse visto certas coisas.",
                 '<25>{#f/0}* então...',
                 '<25>{#f/0}* ... espera.\n* você já escutou isso antes também?',
@@ -2238,11 +2238,11 @@ export default {
                         ]
                         : [
                             '<25>{#f/1}* Então, uma por uma, as crianças da terra vieram.',
-                            '<25>* Todas estavam ansiosos.\n* Todas enfrentaram desafios em suas jornadas aqui.',
-                            '<26>{#f/6}* Mas, no fundo, eles deixaram transparecer seus traços mais brilhantes.',
+                            '<25>* Todas estavam ansiosas.\n* Todas enfrentaram desafios.',
+                            '<26>{#f/6}* Mas, eles deixaram transparecer seus traços mais brilhantes.',
                             '<25>* O paciente, o corajoso.',
                             '<25>* O verdadeiro, o sobrevivente.',
-                            '25>{#f/2}* O bondoso...',
+                            '<25>{#f/2}* O bondoso...',
                             '<25>{#f/4}* E aquele que desejava justiça acima de tudo.',
                             '<25>{#f/1}* Quando dada a chance para ficar, ou entrar no arquivo...',
                             '<25>* Eles eventualmente escolheram a segunda opção.',
@@ -2320,7 +2320,7 @@ export default {
                 "<25>{#p/asgore}{#f/6}* Não temas.",
                 '<25>{#p/asgore}{#f/7}* Quando o arquivo foi criado...',
                 '<25>{#p/asgore}{#f/6}* Nós tivemos certeza de prover o mundo ideal para os humanos.',
-                '<25>{#p/asgore}{#f/21}* Grandes florestas, colinas, rios tão longos quanto a visão dos olhos...',
+                '<25>{#p/asgore}{#f/21}* Grandes florestas, rios tão longos para visão dos olhos...',
                 '<25>{#p/asgore}{#f/6}* Todos os prazeres de uma linda vista de um mundo.',
                 '<25>{#p/asgore}{#f/4}* ... nós contamos contigo, pequeno.',
                 '<25>{#p/asgore}{#f/6}* Por favor, fique seguro, e não tome muito tempo.'
@@ -2352,7 +2352,7 @@ export default {
                 '<32>{@fill=#faff29}* Tudo que queríamos, poderíamos ter... com um custo.',
                 "<32>{@fill=#faff29}* Você viu o pós vida.\n* Você esteve em cada mundo que nós criamos...",
                 "<32>{@fill=#faff29}* O XM que você ganhou é a prova disso.",
-                '<32>{@fill=#faff29}* XM...\n* É um acrônimo, óbvio.\n* Ele significa \"Matéria eXótica.\"',
+                '<32>{@fill=#faff29}* XM, é um acrônimo, óbvio.\n* Ele significa \"Matéria eXótica.\"',
                 "<32>{@fill=#faff29}* É basicamente aquilo que une todas as nossas ALMAS.",
                 "<32>{@fill=#faff29}* É o que você precisa para quebrar o escudo de força."
             ],
@@ -2378,7 +2378,7 @@ export default {
                         "<32>{@fill=#faff29}* Frisk e eu não vamos lembrar dessa conversa, mas existe uma pequena chance.",
                         "<32>{@fill=#faff29}* Se você realmente está aí fora, ouvindo...",
                         "<32>{@fill=#faff29}* ... não esqueça das vidas que deixamos neste lugar.",
-                        "<32>{@fill=#faff29}* Não importa o mundo, real ou virtual, memórias como as nossas não merecem ser esquecidas."
+                        "<32>{@fill=#faff29}* Não importa o mundo, memórias assim não merecem ser esquecidas."
                     ])
             ],
 
@@ -2712,7 +2712,7 @@ export default {
                             ]),
                         "<25>{#f/13}* Esse é o tipo de coisa da qual eu estou falando.",
                         "<25>{#f/22}* ... só o fato de eu estar vivo é bem menos do que eu mereço.",
-                        choicer.create('* (O que você fará?)', 'Protestar', 'Não fazer nada')
+                        choicer.create('* (O que você fará?)', 'Protestar', 'Não')
                     ]
                     : [
                         SAVE.flag.n.killed_sans > 0
@@ -2726,7 +2726,7 @@ export default {
                         '<25>{#f/13}* Amigos, família...',
                         "<25>{#f/22}* Não existe desculpa para o que eu fiz.",
                         ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asriel...']),
-                        choicer.create('* (O que você fará?)', 'Perdoar', 'Não fazer nada')
+                        choicer.create('* (O que você fará?)', 'Perdoar', 'Não')
                     ],
             sad4a: () => [
                 ...(world.runaway
@@ -2777,7 +2777,7 @@ export default {
                 '<25>{#p/asriel1}{#f/29}* Finalmente serem livres.',
                 ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... sabia.'])
             ],
-            abreak: '{*}{#p/event}{#i/3}O escudo de força foi erradicado.',
+            abreak: '{*}{#p/event}{#i/3}O escudo de força foi\nerradicado.',
             sad5: () => [
                 '<25>{#p/asriel1}{#f/21}* Frisk...',
                 '<25>{#f/21}* Eu tenho que ir agora.',
@@ -2803,7 +2803,7 @@ export default {
                         ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Não! Você não pode só ir embora!"]),
                         '<25>{#p/asriel1}{#f/23}* Só vá com as pessoas que você ama.'
                     ]),
-                choicer.create('* (O que você fará?)', 'Conforta-lo', 'Não fazer nada')
+                choicer.create('* (O que você fará?)', 'Conforta-lo', 'Não')
             ],
             sad6: () =>
                 world.runaway
@@ -2866,7 +2866,7 @@ export default {
                     : [
                         '<25>{#p/kidd}{#f/2}* Yo!\n* Onde você esteve esse tempo todo!?',
                         "<25>{#f/1}* Estavam te procurando por todos os lados, cara!",
-                        "<25>{#f/2}* Tipo, tem uma grande refeição final acontecendo na casa do Asgore, e...",
+                        "<25>{#f/2}* Temm uma refeição final acontecendo na casa do Asgore, e...",
                         "<25>{#f/1}* Todo mundo estava se perguntando quando você iria aparecer!",
                         "<25>{#f/1}* ... vamos lá, cara!\n* Junte-se enquanto não é tarde demais!"
                     ],
@@ -2920,9 +2920,9 @@ export default {
                         "<18>{#p/papyrus}{#f/7}SANS!!!\nEU SEI O QUE ESTOU FAZENDO!!!",
                         '<25>{#p/sans}{#f/2}* Só tendo certeza.',
                         "<18>{#p/papyrus}{#f/6}ENTÃO... ASGORE É UM GRANDE FÃ DE ESPAGUETE.",
-                        '<18>{#p/papyrus}{#f/4}APÓS MINHA PRIMEIRA REFEIÇÃO, ELE FICOU ABISMADO...',
+                        '<18>{#p/papyrus}{#f/4}APÓS MINHA REFEIÇÃO, ELE FICOU ABISMADO...',
                         '<18>{#p/papyrus}{#f/0}AGORA, ELE QUER QUE EU COZINHE PARA TODA A FESTA!',
-                        '<18>{#p/papyrus}{#f/9}EU, CHEFE MESTRE PAPYRUS, ESTOU FELIZ COM TAL TAREFA!',
+                        '<18>{#p/papyrus}{#f/9}EU, CHEFE MESTRE PAPYRUS, ESTOU FELIZ COM ISSO!',
                         "<25>{#p/sans}{#f/0}* você finalmente está ganhando o respeito que merece, huh?",
                         '<18>{#p/papyrus}{#f/0}OH, ABSOLUTAMENTE.\nPORQUE ATÉ O MOMENTO...',
                         "<18>{#p/papyrus}{#f/4}EU NUNCA VI UMA PESSOA PASSANDO DA PRIMEIRA MORDIDA.",
@@ -2940,7 +2940,7 @@ export default {
             epilogue2: () => [
                 '<25>{#p/sans}{#f/0}* ei, carinha.',
                 "<25>{#f/0}* eu estava me perguntando quando você apareceria por aqui.",
-                '<25>{#f/3}* alguma criança passou por mim a não muito tempo, provavelmente pra te encontrar.',
+                '<25>{#f/3}* uma criança passou por mim, provavelmente pra te encontrar.',
                 '<25>{#f/2}* deve ser por isso que você atendeu o telefone depois de dez ligações.',
                 "<25>{#f/0}* ... de toda forma.\n* eu estive procurando por alguém também.",
                 "<25>{#f/0}* você provavelmente conhece ela.\n* o nome é toriel.",
@@ -2955,9 +2955,9 @@ export default {
                 '<25>{#p/asgore}{#f/6}* Ah, Frisk!\n* Que bom que você acordou.',
                 '<25>{#f/6}* Se você gostar, pode se juntar a nós em tal celebração.',
                 '<25>{#f/21}* Eu tenho certeza que os outros estarão felizes em te ver.',
-                '<25>{#f/5}* No mais, sinta-se livre de caminhar pelo Outpost enquanto ainda tem tempo.',
+                '<25>{#f/5}* No mais, sinta-se livre de caminhar pelo Outpost por enquanto.',
                 '<25>{#f/5}* Assim que quiser ir embora, vá para a sala do trono.',
-                '<25>{#f/6}{#x1}* Eu acabei de abrir a porta para o ônibus por controle remoto para você.'
+                '<25>{#f/6}{#x1}* Eu acabei de abrir a porta para o ônibus por controle remoto.'
             ],
             finaltext1: pager.create(
                 0,
@@ -3390,10 +3390,10 @@ export default {
             janet: pager.create(
                 0,
                 [
-                    "<32>{#p/basic}* Você levaria um tapa na cara ao descobrir o quão sujo estava quando eu cheguei pela primeira vez.",
+                    "<32>{#p/basic}* Você levaria um tapa na cara ao descobrir o quão sujo estava quando eu cheguei.",
                     "<32>* Mas vendo como todo mundo vai subir por aqui...",
                     "<32>* É bem crucial deixar tudo limpinho, eu digo.",
-                    "<32>* Aliás, obrigado por nos salvar lá fora.\n* Um verdadeiro trabalho de herói."
+                    "<32>* Aliás, obrigado por nos salvar lá fora. Um verdadeiro trabalho de herói."
                 ],
                 ["<32>{#p/basic}* Você não vai ver o que grandão tá fazendo?"]
             ),
@@ -3529,7 +3529,7 @@ export default {
             ],
             brocall5: [
                 '<32>{#s/phone}{#p/event}* Ring, ring...',
-                '<18>{#p/papyrus}{#f/5}OLHA.\nEU SEI QUE VOCÊ DEVE ESTAR APREENSIVO.',
+                '<18>{#p/papyrus}{#f/5}EU SEI QUE VOCÊ DEVE ESTAR APREENSIVO.',
                 '<18>{#p/papyrus}{#f/5}O ESCUDO DE FORÇA PODE SER INTIMIDADOR.',
                 '<18>{#p/papyrus}{#f/6}MAS NÃO TEMAS!',
                 '<18>{#p/papyrus}{#f/4}SE SUA BATALHA CONTRA MIM PROVOU UMA COISA...',
@@ -3719,7 +3719,7 @@ export default {
                                             : [])
                                     ]
                                     : [
-                                        '<32>{*}* \"Dinheiro \'HUMANO\' identificado.\"\n* \"Verificando...\"{^50}{%}',
+                                        '<32>{*}* \"Objeto \'HUMANO\' identificado.\"\n* \"Verificando...\"{^50}{%}',
                                         '<32>{#c.backdoor}* \"Identidade verificada.\"\n* \"Acesso garantido.\"'
                                     ])
                             ],
@@ -3735,8 +3735,8 @@ export default {
                     '<18>{#p/papyrus}{#f/6}ASSIM ESPERO!!'
                 ],
                 [
-                    "<25>{#p/sans}{#f/0}* eu não quero dizer que Undyne PROPOSITALMENTE ferrou com a receita, mas sei lá.",
-                    '<25>{#p/sans}{#f/0}* seria legal se ela PELO MENOS olhasse duas vezes o que você está fazendo.',
+                    "<25>{#p/sans}{#f/0}* eu não quero dizer que Undyne PROPOSITALMENTE ferrou a receita, mas...",
+                    '<25>{#p/sans}{#f/0}* seria legal se ela PELO MENOS olhasse duas vezes o que faz.',
                     "<25>{#p/sans}{#f/3}* ... jogar com segurança não é muito o jeito dela, eu acho."
                 ],
                 ["<26>{#p/sans}{#f/2}* pelo menos está tudo bem cuidado por agora."]
@@ -3746,7 +3746,7 @@ export default {
                 [
                     "<32>{#p/basic}* É meio que um desapontamento que a escola tenha sido cancelada, pois bem.",
                     "<32>* Tenho certeza que eles vão construir uma no mundo natal.",
-                    '<33>* Imagine, um campus universitário...\n* E um grande libraria...\n* E museus',
+                    '<33>* Imagine, um campus universitário, uma grande libraria e museus.',
                     '<32>* Que animador!'
                 ],
                 [
@@ -4147,7 +4147,7 @@ export default {
                         '<32>{#p/human}* (Parece que uma mensagem telepática foi deixada aqui.)',
                         "<32>{#p/human}{#v/4}{@fill=#d535d9}* Uh, eu não se você pode me ouvir, mas...",
                         "<32>{@fill=#d535d9}* Está caindo...",
-                        "<32>{@fill=#d535d9}* Estou salvando algumas das minhas mensagens em um objeto virtual.\n* Se formos corrompidos...",
+                        "<32>{@fill=#d535d9}* Estou salvando algumas das minhas mensagens em um objeto virtual.",
                         '<32>{@fill=#d535d9}* ... talvez isso preserve nossa memória, de alguma forma.',
                         "<32>{@fill=#d535d9}* Eu vou sentir sua falta..."
                     ]
@@ -5249,7 +5249,7 @@ export default {
             '<20>{*}{#p/asriel3}{#e/asriel/5}Wow... você é REALMENTE algo especial.',
             "<20>{*}{#p/asriel3}{#e/asriel/0}Mas não fique se achando.",
             "<20>{*}{#p/asriel3}{#e/asriel/0}Até o momento eu estive usando apenas umas fração do meu VERDADEIRO poder!",
-            "<20>{*}{#p/asriel3}{#e/asriel/2}Vamos ver como se DETERMINAÇÃO aguenta ISSO!"
+            "<20>{*}{#p/asriel3}{#e/asriel/2}Vamos ver como sua DETERMINAÇÃO aguenta ISSO!"
         ],
         hyperTalk1a: [
             '<20>{*}{#p/asriel3}{#e/asriel/0}Urah ha ha...',
@@ -5679,7 +5679,7 @@ export default {
         assist: {
             text: ['<32>{#p/basic}* Psst, Papyrus!\n* Undyne acabou de aprovar sua posição na Guarda Real!'],
             talk: [
-                ["<08>{#p/papyrus}{#e/papyrus/12}OH MEU DEUS, EU REALMENTE SEREI PARTE SA GUARDA REAL!"],
+                ["<08>{#p/papyrus}{#e/papyrus/12}OH MEU DEUS, EU SEREI PARTE DA GUARDA REAL!"],
                 ['<11>{#p/sans}{#e/sans/2}podemos apenas desejar.']
             ]
         },
@@ -6095,7 +6095,7 @@ export default {
                 ? ["<20>{#p/undyne}{#e/undyne/17}Então é com ELE que você tava esse tempo todo..."]
                 : ['<20>{#p/undyne}{#e/undyne/17}Então esse era seu \"negócio\"...'],
         friend36: [
-            "<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}OHHHH SIM!\nNA VERDADE, ESTÁVAMOS APENAS DISCUTINDO COMO PASSARÍAMOS NOSSO PRIMEIRO DIA FORA."
+            "<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}NA VERDADE, ESTÁVAMOS APENAS DISCUTINDO COMO PASSARÍAMOS NOSSO PRIMEIRO DIA FORA."
         ],
         friend37: ['<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}Ehehe.\nEu tenho algumas ideias pra vocês.'],
         friend38: [
@@ -6244,7 +6244,7 @@ export default {
                 : [
                     "<20>{#e/twinkly/5}{#v/0}Isso é tudo porque você FEZ eles te amarem.",
                     '<20>{#e/twinkly/8}{#v/0}Todo o tempo que você passou escutando eles...',
-                    ' 20>{#e/twinkly/8}{#v/0}Encorajando eles... escutando ele...'
+                    '<20>{#e/twinkly/8}{#v/0}Encorajando eles... escutando ele...'
                 ]),
             ...(1 <= SAVE.flag.n.killed_sans
                 ? [

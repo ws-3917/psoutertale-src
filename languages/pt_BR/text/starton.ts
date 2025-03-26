@@ -51,7 +51,7 @@ export default {
                     : ((SAVE.data.b.s_state_chargazer = true),
                         [
                             '<32>{#p/basic}* ...',
-                            '<32>* Asriel e eu tínhamos eu telescópio igual a esse.',
+                            '<32>* Asriel e eu tínhamos um telescópio igual a esse.',
                             "<32>* Nós apontamos em direções aleatórias na esperança de ver algo animador...",
                             '<32>* ... nunca vimos nada demais.',
                             "<32>* Além disso, ele não parecia ligar muito...",
@@ -221,8 +221,8 @@ export default {
                     ? [
                         '<25>{#p/sans}{#f/0}* finalmente.',
                         "<25>{#f/3}* eu vim me perguntando quando você iria aparecer.",
-                        '<25>{#f/0}* eu não sei se você lembra, mas quando nos vimos pela primeira vez...',
-                        '<25>{#f/0}* Eu falei para o papyrus focar mais na \"gravidade\" da situação.',
+                        '<25>{#f/0}* eu não sei se você lembra, quando nos vimos de primeira...',
+                        '<25>{#f/0}* eu falei para o papyrus focar na \"gravidade\" da situação.',
                         '<25>{#f/0}* O que eu quis dizer por aquilo, você pergunta?',
                         '<25>{#f/3}* bom.',
                         "<25>{#f/2}* você está prestes a {@fill=#003cff}descobrir{@fill=#fff}."
@@ -461,11 +461,11 @@ export default {
         crossword4b: pager.create(0, ["<25>{#p/sans}* sério?\n* não é tão ruim."], ['<25>{#p/sans}* sério?']),
         crossword5a: [
             '<25>{#p/sans}* valeu por dizer \"sudoku\" pra deixar meu irmão mais feliz.',
-            '<25>{#f/4}* Ontem ele ficou perplexo tentando \"resolver\" um mapa estelar.'
+            '<25>{#f/4}* Ontem ele ficou tentando \"resolver\" um mapa estelar.'
         ],
         crossword5b: [
-            '<25>{#p/sans}* papyrus...\n* ... acha dificuldades em lugares interessantes.',
-            '<25>{#f/4}* Ontem ele ficou perplexo tentando \"resolver\" um mapa estelar.'
+            '<25>{#p/sans}* papyrus... acha dificuldades em lugares interessantes.',
+            '<25>{#f/4}* Ontem ele ficou tentando \"resolver\" um mapa estelar.'
         ],
         crossword6a: [
             "<25>{#p/sans}{#f/3}* eu meio que imaginei que você evitaria isso.",
@@ -704,7 +704,7 @@ export default {
                 '<18>{#p/papyrus}{#f/31}...',
                 '<25>{#p/asriel2}{#f/4}* Deixe-me ser claro.\n* Eu admiro seu esforço.',
                 "<25>{#f/3}* Mas nós temos nossos próprios planos.",
-                "<18>{#p/papyrus}{#f/4}OLHA, UNDYNE PROVAVELMENTE ESTÁ NOS ASSISTINDO AGORA.",
+                "<18>{#p/papyrus}{#f/4}OLHA, UNDYNE PROVAVELMENTE ESTÁ NOS ASSISTINDO.",
                 '<25>{#p/asriel2}{#f/3}* E seu ponto é?',
                 "<25>{#f/4}* ... olha Papyrus, não importa o que você ou qualquer um faça.",
                 '<25>{#f/1}* Quando nós dois estamos juntos, NADA pode nos separar.',
@@ -725,7 +725,7 @@ export default {
                         : ["<25>{#p/asriel2}{#f/6}* Não.\n* E ela vai morrer no final também, de toda forma."]),
                 '<18>{#p/papyrus}{#f/31}MAS, SE VOCÊ PODE RESETAR O QUE ACONTECE...',
                 '<18>{#f/5}ENTÃO, POR QUE NÃO?',
-                "<18>{#f/31}E, NA PRÓXIMA LINHA DO TEMPO... EU VOU TOMAR O LUGAR DELE.",
+                "<18>{#f/31}E, NA PRÓXIMA VEZ, EU VOU NO LUGAR DELE.",
                 "<18>{#f/3}ENTÃO ELE NÃO VAI PRECISAR MORRER, CERTO?",
                 "<25>{#p/asriel2}{#f/6}* ...\n* Confie em mim, eu já vi essa linha do tempo.",
                 "<25>{#f/7}* É ENTEDIANTE.",
@@ -782,7 +782,7 @@ export default {
             papyrusSolo4d: [
                 "<18>{#p/papyrus}{#f/7}NÃO, VOCÊ ESTÁ ERRADO.",
                 "<18>{#f/7}VOCÊ É QUEM ESTÁ TENTANDO ME TRAZER PARA BAIXO.",
-                "<18>{#f/7}VOCÊ É QUEM ESTÁ ME CONTANDO MENTIRA APÓS MENTIRA.",
+                "<18>{#f/7}VOCÊ É QUEM ESTÁ ME CONTANDO MENTIRA.",
                 '<18>{#f/9}MAS EU, PAPYRUS...',
                 '<18>{#f/9}FINALMENTE ENTENDI A {@fill=#f00}REALIDADE{@fill=#fff}.',
                 "<25>{#p/asriel2}{#f/13}* Oh?\n* E o que seria?"
@@ -918,7 +918,7 @@ export default {
             '<32>* (... eliminar VOCÊ!)'
         ],
         marriage3a: [
-            '<32>{#p/basic}* Cachorros podem acariciar cachorros???\n* (Um novo mundo abriu-se para nós...)',
+            '<32>{#p/basic}* Cachorros podem acariciar cachorros???\n* (Um novo mundo se abriu.)',
             '<32>* Obrigado, cachorrinho estranho!'
         ],
         marriage3b: [
@@ -959,7 +959,7 @@ export default {
                     '<18>{#p/papyrus}RESPOSTA CORRETA!\nPARA VOCÊ ENTENDER...'
                 ],
         maze2a: [
-            '<18>{#x4}{#f/9}NENHUM ARTESÃO JAMAIS FEZ ARMADILHAS TÃO BOAS QUANTO EU!',
+            '<18>{#x4}{#f/9}NENHUM ARTESÃO JAMAIS FEZ ARMADILHAS ASSIM!',
             "<18>{#f/0}ELAS SÃO PRATICAMENTE IRRESISTÍVEIS!",
             "<25>{#x1}{#p/sans}{#f/2}* talvez você é quem é irresistível.",
             '<18>{#p/papyrus}{#f/1}SÉRIO!?'
@@ -973,9 +973,9 @@ export default {
         maze3a: [
             '<18>\"O PODEROSO MURO DE FOGO!!\"',
             '<25>{#p/sans}* não dava só pra chamar de \"parede de fogo\"?\n* pra salvar tempo?',
-            "<18>{#p/papyrus}{#f/4}DR. ALPHYS DIRIA QUE EU ESTOU SENDO PREGUIÇOSO AO CORTAR TERMOS.",
-            "<25>{#p/sans}* sei não, mano, ela parece gostar de fazer isso as vezes. na verdade...",
-            "<30>{#f/2}* aposto que ela acharia isso bem {@fill=#ff0}hot{@fill=#fff}."
+            "<18>{#p/papyrus}{#f/4}DR. ALPHYS DIRIA QUE EU ESTOU SENDO PREGUIÇOSO.",
+            "<25>{#p/sans}* sei não, mano, ela parece gostar de fazer isso as vezes...",
+            "<30>{#f/2}* aposto que ela acharia\nisso bem {@fill=#ff0}hot{@fill=#fff}."
         ],
         maze4: ['<18>{#p/papyrus}{#x3}{#f/7}AGORA NÃO, SANS!!'],
         maze5: () =>
@@ -989,7 +989,7 @@ export default {
                     "<25>{#p/sans}{#f/2}* Não é fácil como parece."
                 ]
                 : [
-                    '<18>{#p/papyrus}... POIS BEM, A IDEIA POR TRÁS DESSE QUEBRA-CABEÇA É SIMPLES.',
+                    '<18>{#p/papyrus}... A IDEIA DESSE QUEBRA-CABEÇA É SIMPLES.',
                     '<18>PORQUE TUDO QUE VOCÊ TEM QUE FAZER...',
                     '<18>{#f/9}É CHEGAR DO OUTRO LADO!',
                     '<18>{#f/0}BOA SORTE!!\nNYEH HEH HEH!!'
@@ -1008,15 +1008,15 @@ export default {
         maze7: [
             [
                 '<18>{#p/papyrus}VOCÊ ESTÁ COM MEDO DAS CHAMAS?',
-                "<18>{#f/4}NÃO TEMAS, ELAS NÃO PODEM TE MACHUCAR DE VERDADE.",
-                '<18>{#f/0}COMO SANS DIRIA, ELAS SÃO \"AGRADAVELMENTE QUENTES.\"',
+                "<18>{#f/4}NÃO TEMAS, ELAS NÃO PODEM TE MACHUCAR.",
+                '<18>{#f/0}SANS DIZ QUE SÃO \"AGRADAVELMENTE QUENTES.\"',
                 '<25>{#p/sans}* Na verdade, eu peguei essa fala de uma amiga.',
                 '<18>{#p/papyrus}{#f/4}... OH.'
             ],
             [
-                '<18>{#p/papyrus}VOCÊ ESTÁ ANSIOSO EM RELAÇÃO A FALHAR NO QUEBRA-CABEÇA?',
+                '<18>{#p/papyrus}VOCÊ ESTÁ ANSIOSO EM RELAÇÃO A FALHAR?',
                 "<18>SE ESSE É O CASO, ENTÃO VOCÊ DEVE SABER...",
-                '<18>{#x4}{#f/9}EU, O GRANDE PAPYRUS, NÃO IREI TE JULGAR POR ISSO!',
+                '<18>{#x4}{#f/9}EU, O GRANDE PAPYRUS, NÃO IREI TE JULGAR!',
                 '<18>{#f/0}COMO TODO CHEFE SABE, É A INTENÇÃO QUE CONTA.',
                 '<18>{#x1}ENTÃO VAI LÁ, TENTE SEU MELHOR!'
             ],
@@ -1034,7 +1034,7 @@ export default {
                     '<18>{#p/papyrus}NYEH HEH HEH!\nPOIS BEM.',
                     "<18>{#f/9}PARECE QUE VOCÊ FOI TAPEADO PELO GRANDE PAPYRUS!",
                     '<18>{#f/0}MAS NÃO FIQUE COM RAIVA!',
-                    '<18>COMO VOCÊ PODE VER, MINHAS ARMADILHAS NÃO SÃO DESLEIXADAS.',
+                    '<18>VEJA, MINHAS ARMADILHAS NÃO SÃO DESLEIXADAS.',
                     "<18>{#f/9}VOCÊ NÃO PODE SE CULPAR POR FALHAR TÃO FACILMENTE!!"
                 ],
         maze9: () =>
@@ -1058,8 +1058,8 @@ export default {
                     '<18>{#f/4}EM TODO CASO...',
                     '<18>{#f/0}EU ESTOU EXCITADO PARA O QUE VIRÁ DEPOIS!',
                     '<18>{#f/4}UM QUEBRA-CABEÇA TÃO CONFUSO...',
-                    "<18>{#f/1}NEM MESMO A PRÓPRIA TERRESTRIA CONSEGUIU RESOLVER!!!",
-                    "<25>{#p/sans}* terrestria?\n* ela não é tipo o monstro mais antigo vivo?",
+                    "<18>{#f/1}NEM TERRESTRIA CONSEGUIU RESOLVER!!!",
+                    "<25>{#p/sans}* terrestria? ela não é tipo o monstro mais antigo vivo?",
                     '<18>{|}{#p/papyrus}{#f/1}UH...\nBEM SIM, MAS- {%}',
                     "<25>{#p/sans}* droga, eu não sabia que você pensava ISSO logo de mim.",
                     '<18>{#p/papyrus}{#f/4}QUE.',
@@ -1153,7 +1153,7 @@ export default {
                             ]
                             : [
                                 "<32>* Com o recente sucesso, eu vim refletindo sobre o passado, me lembrando de meu pai.",
-                                "<32>* Se ele não tivesse inventado os Sorvete Sonhos, eu provavelmente estaria vendendo balões."
+                                "<32>* Se ele não tivesse inventado os Sorvete Sonhos, eu estaria vendendo balões."
                             ])
                     ]
                     : [
@@ -1199,7 +1199,7 @@ export default {
                                 ? [
                                     "<32>{#p/basic}{#npc/a}* Ouvi dizer que se você segurar [X] em batalha, você moverá com metade da velocidade!",
                                     '<32>* Eu sei... preguiçoso, certo?',
-                                    "<32>* Mas aqui vai um segredo. Aquele cachorro bem alí, não espera que você se mova devagar.",
+                                    "<32>* Aí vai um segredo. Aquele cachorro bem alí, não espera que você lute devagar.",
                                     '<32>* Se você se aproximar dele enquanto segura [X], poderá passar despercebido!',
                                     '<32>* Guh huh huh... boa sorte.'
                                 ]
@@ -1372,7 +1372,7 @@ export default {
                                         '<32>{#p/basic}{#npc/a}* Por tudo que nós sabemos, redenção no último minuto pode torná-lo o mais saboroso de todos.'
                                     ]
                                     : [
-                                        '<32>{#p/basic}{#npc/a}* Pelo que sabemos, a comida do novo mundo estraga ainda mais rápido do que a comida feita por humanos.'
+                                        '<32>{#p/basic}{#npc/a}* Pelo visto, a comida do novo mundo estraga mais rápido do que a feita por humanos.'
                                     ]
                                 : papreal()
                                     ? [
@@ -1488,11 +1488,11 @@ export default {
                         : SAVE.data.n.plot === 72
                             ? world.population < 2
                                 ? [
-                                    "<32>{#p/basic}{#npc/a}* (Agora que estamos livres, nós estamos planejando começar uma companhia de conselho matrimonial.)",
+                                    "<32>{#p/basic}{#npc/a}* (Agora que estamos livres, nós estamos planejando começar uma companhia de casamento.)",
                                     '<32>* (Nosso primeiro tópico será \"O que significa estar em um relacionamento abusivo.\")'
                                 ]
                                 : [
-                                    "<32>{#p/basic}{#npc/a}* (Agora que estamos livres, nós estamos planejando começar uma companhia de conselho matrimonial.)",
+                                    "<32>{#p/basic}{#npc/a}* (Agora que estamos livres, nós estamos planejando começar uma companhia de casamento.)",
                                     '<32>* (Nosso primeiro tópico será \"Os prós e contras de casar com sua mãe.\")'
                                 ]
                             : SAVE.data.n.state_starton_doggo === 2 && SAVE.data.n.state_starton_greatdog === 2
@@ -1652,7 +1652,7 @@ export default {
                         : SAVE.data.n.plot === 33
                             ? [
                                 "<32>{#p/basic}{#npc/a}* Sans é um sentinela real, mas não deixe o título te enganar.",
-                                '<32>* Todo mundo sabe que ele se senta o dia inteiro no meio da floresta holográfica e fica lendo manual de carros.'
+                                '<32>* Todo mundo sabe que ele dorme o dia inteiro no meio da floresta holográfica.'
                             ]
                             : SAVE.data.n.plot === 72
                                 ? [
@@ -2045,7 +2045,7 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria a começar uma também.",
+                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria.",
                             "<32>* Ele não é o melhor?"
                         ]
                         : SAVE.data.b.killed_mettaton
@@ -2070,7 +2070,7 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria a começar uma também.",
+                            "<32>{#p/basic}{#npc/a}* Perguntei a Papyrus sobre sua coleção de fio dental e ele disse que me ajudaria.",
                             "<32>* Ele não é o melhor?"
                         ]
                         : SAVE.data.b.killed_mettaton
@@ -2171,7 +2171,7 @@ export default {
                     SAVE.data.n.plot === 72
                         ? [
                             '<32>{#p/basic}{#npc/a}* Eu ouvi que o rei revelou a verdade sobre os monstros que ele supostamente matou.',
-                            "<32>* Todo mundo ficou tão triste por não saber.\n* Eles todos o deram um grande abraço.",
+                            "<32>* Todo mundo ficou tão triste por não saber. Eles todos o deram um grande abraço.",
                             '<32>* Então alguns adotaram os humanos para si.',
                             '<32>* Agora estes humanos vão viver suas vidas com a gente.',
                             "<32>* Iiiiiiisssssoooo é política!"
@@ -2338,7 +2338,7 @@ export default {
                             ]
                             : [
                                 "<32>* (Nós, uh, não podemos te agradecer o suficiente pelo que você fez.)",
-                                "<32>* (Mas...)\n* (Você provavelmente já escutou o suficiente disso, por agora.)",
+                                "<32>* (Mas... você provavelmente já escutou o suficiente disso, por agora.)",
                                 "<32>* (Então, vou deixar você voltar ao que estava fazendo.)"
                             ]
                         : world.meanie
@@ -2377,11 +2377,11 @@ export default {
                                         ])),
                                 ...(SAVE.data.b.oops
                                     ? [
-                                        '<32>* (Psst...)\n* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
+                                        '<32>* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
                                         '<32>* (Bem legal, né?)'
                                     ]
                                     : [
-                                        '<32>* (Psst...)\n* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
+                                        '<32>* (Só entre a gente, Kabakk e eu construímos essa estação por conta própria.)',
                                         '<32>* (Bem legal, né?)'
                                     ])
                             ])
@@ -2409,7 +2409,7 @@ export default {
                     ]
                     : [
                         '<32>{#p/basic}* Tem instruções marcadas do lado...',
-                        '<33>* É um arranhão de galinha ilegível.\n* A única palavra que você consegue distinguir é \"zero\".'
+                        '<33>* É um arranhão de galinha ilegível. A única palavra para legível é \"zero\".'
                     ])
             ],
             ctower1: () =>
@@ -2545,7 +2545,7 @@ export default {
                         ...(roomready()
                             ? [
                                 '<18>{#p/papyrus}AÍ ESTÃO MAIOR PARTE DOS MEUS LIVROS FAVORITOS.',
-                                '<18>{#f/4}COMO \"FORMAS AVANÇADAS DE CRIAÇÃO DE QUEBRAS-CABEÇAS.\"',
+                                '<18>{#f/4}COMO \"FORMAS DE CRIAÇÃO DE QUEBRAS-CABEÇAS.\"',
                                 '<18>{#f/0}E OUTRO FAVORITO MEU?',
                                 '<18>{#f/4}\"ESCONDE-ESCONDE COM COELHINHO FOFO.\"',
                                 '<18>{#f/8}O FINAL SEMPRE ME PEGA!'
@@ -2866,7 +2866,7 @@ export default {
             0,
             () => [
                 "<18>{#p/papyrus}ESSE É MEU QUARTO!",
-                "<18>{#f/4}SE VOCÊ JÁ TERMINOU DE OLHAR POR AÍ, A GENTE PODE...",
+                "<18>{#f/4}SE VOCÊ JÁ TERMINOU DE OLHAR, A GENTE PODE...",
                 '<18>{#f/4}FAZER...',
                 SAVE.data.b.flirt_papyrus
                     ? '<18>{#f/9}SEJA LÁ O QUE AS PESSOAS FAÇAM NOS ENCONTROS!'
@@ -3354,8 +3354,8 @@ export default {
         pappuzzle1: [
             '<18>{#p/papyrus}{#f/0}HUMANO!',
             '<18>{#f/0}ESTE PRÓXIMO QUEBRA CABEÇA É UM DOS MEU FAVORITOS.',
-            "<18>{#f/4}É COMO A COLEÇÃO DE BOLAS DE ALGODÃO DO MEU IRMÃO...",
-            '<18>{#f/0}UMA SÉRIE DE OBJETOS ESTRANHAMENTE SATISFATÓRIA!',
+            "<18>{#f/4}É COMO A COLEÇÃO DE ALGODÃO DO MEU IRMÃO...",
+            '<18>{#f/0}UMA SÉRIE DE OBJETOS SATISFATÓRIA!',
             "<18>{#f/9}EU VOU -TENTAR- NÃO DAR A SOLUÇÃO."
         ],
         pappuzzle1a: ['<18>{#p/papyrus}{#f/0}FAÇA ISSO!'],
@@ -3374,7 +3374,7 @@ export default {
         pappuzzle2c: ['<18>PRECISOU DE UM POUCO DE ENCORAJAMENTO, MAS VOCÊ CONSEGUIU!'],
         pappuzzle2d: [
             '<18>VOCÊ DEVE GOSTAR DE QUEBRA-CABEÇAS ASSIM COMO EU!',
-            "<18>BEM, TENHO CERTEZA QUE VOCÊ VAI GOSTAR DO PRÓXIMO, ENTÃO!",
+            "<18>BEM, CERTEZA QUE VOCÊ VAI GOSTAR DO PRÓXIMO, ENTÃO!",
             '<18>TALVEZ ATÉ SEJA FÁCIL PARA VOCÊ!!',
             '<18>NYEH!\nHEH HEH!\nHEHEHEH!!!'
         ],
@@ -3389,7 +3389,7 @@ export default {
                     : ["<32>{#p/basic}* Tem uma pilha de resíduos de cachorro na pia."],
         papsink1: [
             '<18>{#p/papyrus}{#f/9}IMPRESSIONADO?\nEU AUMENTEI O TAMANHO DA PIA.',
-            '<18>{#f/0}AGORA EU POSSO COLOCAR MAIS OSSOS EM BAIXO DELA! DA UMA OLHADA!'
+            '<18>{#f/0}AGORA EU POSSO COLOCAR MAIS OSSOS EM BAIXO DELA!'
         ],
         papsink2: ['<18>{#p/papyrus}{#f/8}NÃOO, O CACHORRO!'],
         papsink3: ['<18>{#p/papyrus}{#f/31}OH, POBRE, POBRE, CACHORRINHO...', '<18>{#f/9}AQUI, TENHA MEU ATAQUE ESPECIAL!'],
@@ -3433,14 +3433,14 @@ export default {
         papsolu4: ["<18>{#p/papyrus}{#f/4}NÃO LEMBRA DA SOLUÇÃO QUE EU TE DEI?"],
         papsolu5: ['<18>{#f/0}{#p/papyrus}QUASE LÁ!\nSÓ MAIS UM CIRCUITO PARA ATIVAR!'],
         papspaghet1: (take: boolean) => [
-            '<18>{#p/papyrus}{#f/1}O QUE!?\nCOMO VOCÊ ESCAPOU DA MINHA ARMADILHA?',
+            '<18>{#p/papyrus}{#f/1}O QUE!? COMO VOCÊ ESCAPOU DA MINHA ARMADILHA?',
             '<18>{#f/4}E, MAIS IMPORTANTE...',
             '<18>{#f/0}SOBROU PARA MIM?',
             choicer.create('* (O que você dirá para Papyrus sobre seu espaguete?)', take ? 'Peguei tudo' : 'Deixei', 'Comi tudo'),
             '<18>{#p/papyrus}SÉRIO!?'
         ],
         papspaghet1a: () => [
-            '<18>{#p/papyrus}{#f/1}O QUE!?\nCOMO VOCÊ ESCAPOU DA MINHA ARMADILHA?',
+            '<18>{#p/papyrus}{#f/1}O QUE!? COMO VOCÊ ESCAPOU DA MINHA ARMADILHA?',
             '<18>{#f/4}E, MAIS IMPORTANTE...',
             '<18>{#f/0}AINDA TEM SOBRANDO PARA...',
             '<18>{#f/4}... ESPERA.',
@@ -3510,9 +3510,9 @@ export default {
             '<18>{#p/papyrus}{#f/4}OH, CERTO. \n...\"AHEM.\"',
             "<18>{#f/9}HUMANO! VOCÊ PODE PENSAR QUE ESTÁ SEGURO AGORA...",
             '<18>{#f/9}MAS EU, O GRANDE PAPYRUS, IREI MUDAR ISSO!',
-            "<18>{#f/4}PRIMEIRO, VOU DESLUMBRÁ-LO COM OS QUEBRA-CABEÇAS DA DR. ALPHYS...",
+            "<18>{#f/4}PRIMEIRO, VERÁ OS QUEBRA-CABEÇAS DA DR. ALPHYS...",
             '<18>{#f/4}E ENTÃO, QUANDO VOCÊ MENOS ESPERAR...',
-            '<19>{#f/9}WHAM!\nCAPTURADO!\nDIRETO PARA A CIDADELA!',
+            '<19>{#f/9}WHAM! CAPTURADO!\nDIRETO PARA A CIDADELA!',
             '<18>{#f/9}NOSSA BATALHA SERÁ TÃO LENDÁRIA QUANTO VOCÊ PENSA!',
             '<18>{#f/4}EM TODO CASO...',
             '<18>{#f/9}CONTINUE EM FRENTE... SE TIVER CORAGEM!!!'
@@ -3545,31 +3545,31 @@ export default {
 
                 ? '<18>{#f/4}PODE TER SIDO FÁCIL PARA VOCÊ ANTES.'
                 : '<18>{#f/4}VOCÊ PODE TER PASSADO MEUS ÚLTIMOS DESAFIOS.',
-            "<18>{#f/9}MAS AGORA VOCÊ ENCONTRARÁ UMA PAREDE INQUEBRÁVEL!",
-            '<18>POIS VEJA, ESTE QUEBRA-CABEÇA FOI FEITO POR NINGUÉM MENOS...',
+            "<18>{#f/9}MAS AGORA VOCÊ ENCONTRARÁ UM OBSTÁCULO!",
+            '<18>POIS VEJA, ESTE AQUI FOI FEITO POR NINGUÉM MENOS...',
             '<18>{#f/0}QUE A INCRÍVEL DR. ALPHYS!',
             '<18>AS REGRAS SÃO BEM SIMPLES, DE VERDADE.',
             '<18>ESTÁ TELA VAI LER UM NÚMERO ALEATÓRIO.',
             '<18>{#f/9}... O NÚMERO DE SEGUNDOS ATÉ VOCÊ PODER PASSAR!',
-            '<18>{#f/0}SE O NÚMERO FOR ÍMPAR, VOCÊ DEVE DESVIAR DE PROJÉTEIS.',
-            '< 18> NÚMEROS QUE TERMINAM EM 1 DÃO A VOCÊ OS EM FORMA DE ESTRELA...',
-            '< 18> NÚMEROS QUE TERMINAM EM 3 FORNECEM EM FORMA DE LUA...',
+            '<18>{#f/0}SE O NÚMERO FOR ÍMPAR, DESVIARÁ DE PROJÉTEIS.',
+            '<18> NÚMEROS QUE TERMINAM EM 1 DÃO FORMA DE ESTRELA...',
+            '< 18> NÚMEROS QUE TERMINAM EM 3 EM FORMA DE LUA...',
             '<18>{#f/4}5 DÁ COMETAS, 7 DÁ QUASARES...',
             "<18>{#f/9}E SE TERMINAR COM 9, É ALEATÓRIO!",
             '<18>{#f/0}SE O NÚMERO É PRIMO A GRAVIDADE VAI TROCAR.',
-            "<18>{#f/4}(MAS, SE FOR ABAIXO DE DEZ É IMPROVÁVEL ACONTECER.)",
+            "<18>{#f/4}(ABAIXO DE DEZ É IMPROVÁVEL ACONTECER.)",
             '<18>{#f/0}SE O NÚMERO FOR PAR, VOCÊ FICARÁ BEM NO INÍCIO...',
-            '<18>{#f/9}MAS VOCÊ ENCONTRARÁ MONSTROS ALEATÓRIOS!',
-            '<18>ALÉM DISSO, POTÊNCIAS DE DOIS DOBRARÃO A FREQUÊNCIA!!',
-            '<18>{#f/0}SE O NÚMERO REPETIR O MESMO DIGITO DUAS VEZES...',
+            '<18>{#f/9}MAS VOCÊ ENCONTRARÁ MONSTROS!',
+            '<18>E POTÊNCIAS DE DOIS DOBRARÃO A FREQUÊNCIA!!',
+            '<18>{#f/0}SE O NÚMERO REPETIR DIGITOS DUAS VEZES...',
             '<18>{#f/0}O TEMPO DE ESPERA SERÁ MULTIPLICADO POR TAL NÚMERO!',
             '<18>{#f/0}SE O NÚMERO FOR UMA CORRIDA, OU SEJA, 1-2-3...',
             '<18>{#f/0}A SALA VAI BALANÇAR, TE FAZENDO TREMER!',
             '<18>{#f/0}E SE O NÚMERO TIVER UM 4 DE QUALQUER FORMA...',
-            '<18>{#f/9}SANS VAI ALEATORIAMENTE TE LEVITAR COM MAGIA AZUL!',
+            '<18>{#f/9}SANS VAI TE LEVITAR COM MAGIA AZUL!',
             "<25>{#p/sans}{#f/6}* Da uma olhada, é meu olho amarelo especial.",
             '<18>{#p/papyrus}{#f/7}AGORA NÃO, SANS!!',
-            '<25>{#p/sans}* oh, heheh.\n* Acho que fui meio {@fill=#ff0}carregado pelo momento{@fill=#fff}, hein?',
+            '<25>{#p/sans}* oh, heheh. acho que fui meio {@fill=#ff0}carregado pelo momento{@fill=#fff}, hein?',
             '<18>{#p/papyrus}{#f/4}CLARO, CLARO...',
             '<18>{#f/9}BEM!\nVOCÊ ENTENDEU A EXPLICAÇÃO?',
             choicer.create('* (O que você diz?)', 'Sim', 'Não')
@@ -3577,7 +3577,7 @@ export default {
         papyrus7: () => [
             "<18>{#p/papyrus}{#f/9}BOM, VAMOS REVISAR!",
             '<18>{#f/0}ESTA TELA GERA UM NÚMERO ALEATÓRIO DE SEGUNDOS.',
-            '<18>AKA, O QUÃO VOCÊ VAI PRECISAR ESPERAR PARA PASSAR.',
+            '<18>O QUÃO VOCÊ VAI PRECISAR ESPERAR PARA PASSAR.',
             '<18>NÚMEROS ÍMPARES SIGNIFICAM PROJÉTEIS.',
             "<18>O ÚLTIMO DIGITO DETERMINA O TIPO.",
             '<18>1 PARA ESTRELAS, 4 PARA LUAS, 5 QUASARES, 7...',
@@ -3597,7 +3597,7 @@ export default {
         ],
         papyrus8: [
             '<18>{#p/papyrus}{#f/9}BEM... ENTÃO...',
-            "<18>{#f/9}QUER SABER DE UMA COISA? VOU DEIXAR AS INSTRUÇÕES AQUI.",
+            "<18>{#f/9}SABE DE UMA COISA? VOU DEIXAR AS INSTRUÇÕES AQUI.",
             '<18>{#f/0}ENTÃO, VOCÊ PODERÁ LER ELAS NO SEU PRÓPRIO RITMO.',
             '<18>BOA SORTE, HUMANO!!',
             '<18>{#f/5}NYEH... HEH HEH...'
@@ -3614,9 +3614,9 @@ export default {
         ],
         papyrus11: [
             '<18>{#p/papyrus}{#f/9}ASSIM QUE EU DER A ORDEM VAI ATIVAR COMPLETAMENTE!',
-            '<18>LASERS VÃO DISPARAR!\nAS BOBINAS VÃO CARREGAR!\nAS LÂMINAS VÃO CORTAR!',
+            '<18>LASERS VÃO DISPARAR! EXPLOSÕES ACONTECERÃO!',
             '<18>TUDO DE MANEIRA TÁTICA E PRECISA!',
-            '<18>{#f/4}SEM PERFEITA AGILIDADE, VOCÊ COM CERTEZA IRÁ FALHAR.',
+            '<18>{#f/4}SEM PERFEITA AGILIDADE, IRÁ FALHAR.',
             '<18>{#f/9}VOCÊ ESTÁ PRONTO!?!?',
             '<18>PORQUE!',
             '<18>EU!',
@@ -3676,7 +3676,7 @@ export default {
                     : [
                         '<23>A FELICIDADE DE ENCONTRAR OUTRO AMANTE DE ESPAGUETE.',
                         "<23>A ADMIRAÇÃO POR OUTRO SOLUCIONADOR DE QUEBRA-CABEÇA.",
-                        '<23>A APRECIAÇÃO DE TER UMA PESSOA LEGAL E INTELIGENTE PENSANDO QUE VOCÊ É LEGAL.',
+                        '<23>A APRECIAÇÃO DE TER UMA ALGUÉM SUPER DA HORA TE ACHANDO LEGAL.',
                         '<23>ESSES SENTIMENTOS...'
                     ],
         papyrusFinal3: () =>
@@ -3706,7 +3706,7 @@ export default {
                     '<18>{#f/4}ATÉ PORQUE, EU SOU MUITO BOM.',
                     '<18>EU NUNCA ME PERGUNTEI COMO É TER MUITOS AMIGOS.',
                     '<18>{#f/5}TENHO PENA DE VOCÊ, HUMANO SOLITÁRIO...',
-                    '<18>{#f/0}MAS NÃO SE PREOCUPE!!\nVOCÊ NÃO FICARÁ MAIS SOZINHO!',
+                    '<18>{#f/0}MAS NÃO SE PREOCUPE, VOCÊ NÃO FICARÁ SOZINHO!',
                     '<18>{#f/9}POIS EU, O GRANDE PAPYRUS, SEREI SEU...',
                     '<18>{#f/5}{#x1}...',
                     '<18>NÃO...',
@@ -3943,7 +3943,7 @@ export default {
         sans1: [
             '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}humano.',
             "<99>* {@spacing=2.25/0}você não sabe como{@spacing=}\n  {@spacing=2.25/0}cumprimentar um novo\namigo?",
-            '<99>* {@spacing=2.25/0}vire-se e agite{@spacing=}\n  {@spacing=2.25/0}minha mão.'
+            '<99>* {@spacing=2.25/0}vire-se e aperte{@spacing=}\n  {@spacing=2.25/0}minha mão.'
         ],
         sans2: () => [
             ...(world.edgy
@@ -3972,7 +3972,7 @@ export default {
                     "<25>{#f/0}* na verdade, acho que é ele bem ali."
                 ]),
             '<25>* eu tenho uma ideia.\n* pula nesse vácuo, beleza?',
-            '<26>{#f/4}* é, meu irmão deixou a gravidade baixa demais para impedir alguém.'
+            '<26>{#f/4}* é, meu irmão deixou a gravidade baixa demais para pegar alguém.'
         ],
         sans3: () =>
             world.edgy
@@ -3987,15 +3987,15 @@ export default {
         sans5: [
             '<18>{#p/papyrus}{#x2}{#f/7}VOCÊ SABE O QUE ESTÁ EM \"CIMA\", IRMÃO!',
             '<18>VOCÊ PRECISA CONSTRUIR QUEBRA-CABEÇAS!',
-            "<18>EU TE DEI MUITA MARGEM DE TRABALHO, MAS AINDA ASSIM...",
-            '<18>VOCÊ FIQUE SENTADO POR AÍ SEM FAZER NADA O DIA INTEIRO.',
+            "<18>EU TE DEI DICAS DE TRABALHO, MAS AINDA ASSIM...",
+            '<18>VOCÊ FICA SENTADO POR AÍ SEM FAZER NADA.',
             "<18>ATÉ AGORA, É EXATAMENTE O QUE VOCÊ ESTÁ FAZENDO!",
             '<18>NADA!',
             "<25>{#p/sans}* eu tô testando esse inversor de gravidade.",
             "<25>* é bem legal.",
             '<25>{#f/4}* quer ver?',
             "<18>{#p/papyrus}{#x3}{#f/7}NÃO!! \nEU NÃO TENHO TEMPO PRA ISSO!!",
-            '<18>{#x2}SE UM HUMANO PASSAR POR AQUI EU QUERO ESTAR PRONTO!',
+            '<18>{#x2}SE UM HUMANO PASSAR AQUI EU ESTAREI PRONTO!',
             '<18>EU DEVO SER AQUELE!\nEU SEREI AQUELE!',
             '<18>{#x1}{#f/9}EU FINALMENTE IREI CAPTURAR O HUMANO!',
             '<18>{#x4}{#f/0}ENTÃO EU, O GRANDE PAPYRUS...',
@@ -4018,7 +4018,7 @@ export default {
             '<18>{#p/papyrus}{#x2}{#f/7}EU ESTOU E ESTOU ODIANDO ISSO!',
             '<18>{#x1}{#f/4}(CHORINHO...)',
             '<18>{#f/5}POR QUE ALGUÉM TÃO GRANDE COMO EU...',
-            '<18>TEM QUE FAZER TANTO PARA GANHAR UM POUCO DE RECONHECIMENTO??',
+            '<18>TEM QUE FAZER TANTO PARA GANHAR RECONHECIMENTO??',
             '<25>{#p/sans}* heh.\n* talvez você tenha que focar mais, bem...',
             '<25>* na {@fill=#ff0}gravidade{@fill=#fff} da situação.'
         ],
@@ -4101,11 +4101,11 @@ export default {
                 [
                     "<25>{#p/sans}* ei, aqui vai uma dica importante.",
                     '<25>* meu irmão tem um {@fill=#00a2e8}ataque especial{@fill=#fff}.',
-                    "<25>* se você ver um {@fill=#ff993d}ataque laranja{@fill=#fff}, deve continuar movendo para não se machucar.",
+                    "<25>* se você ver um {@fill=#ff993d}ataque laranja{@fill=#fff}, deve se continuar movendo.",
                     "<25>{#f/3}* aqui vai uma forma fácil de manter na cabeça.",
-                    "<25>{#f/0}* imagine carvão quente.\n* você não pisaria por mais que um segundo nele, certo?",
-                    '<25>* carvão quente causa queimadura.\n* então aplique isso aos ataques de meu irmão.',
-                    '<25>{#f/2}* simples, né?\n* quando lutar, lembre-se de carvões quentes amarelos.'
+                    "<25>{#f/0}* imagine carvão quente.\n* você não os pisaria por um segundo.",
+                    '<25>* carvão quente queima.\n* então aplique isso aos ataques de meu irmão.',
+                    '<25>{#f/2}* simples, né?\n* quando lutar, lembre-se de carvões quentes.'
                 ],
                 [
                     "<25>{#p/sans}{#f/0}* e não, você não será ferido se mover devagar, é só mover.",
@@ -4121,8 +4121,8 @@ export default {
                     '<25>{#f/2}* que é uma abreviação para \"Filtro De Pluralidade-Gravitacional.\"'
                 ],
                 [
-                    '<25>{#p/sans}* se não tivéssemos o F.D.P. provavelmente seria bem difícil respirar por aqui.',
-                    "<25>{#f/3}* não se preocupa, no entanto.\n* eu {@fill=#ff0}juro{@fill=#fff} isso nunca aconteceu antes."
+                    '<25>{#p/sans}* se não tivéssemos o F.D.P. seria bem difícil respirar aqui.',
+                    "<25>{#f/3}* não se preocupa. eu {@fill=#ff0}juro{@fill=#fff} que isso nunca aconteceu antes."
                 ],
                 ['<25>{#p/sans}{#f/2}* Filtro De Pluralidade-Gravitacional.']
             ),
@@ -4506,7 +4506,7 @@ export default {
                             ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                                 ? [
                                     '<18>{#p/papyrus}UMA IMAGEM CLASSICA.',
-                                    "<18>SEMPRE ME LEMBRA DO QUE É IMPORTANTE NA VIDA."
+                                    "<18>ME LEMBRA DO QUE É IMPORTANTE NA VIDA."
                                 ]
                                 : []),
                             "<32>{#p/basic}* É uma pintura minimalista do desenho de um osso."
@@ -4606,7 +4606,7 @@ export default {
                                     ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                                         ? [
                                             '<18>{#p/papyrus}{#f/9}AH-HA!\nINTERESSADO NO MEU MUSEU DE COMIDA?',
-                                            '<18>{#f/0}POR FAVOR, SINTA-SE À VONTADE PARA EXAMINAR MINHA MOSTRA DE ARTE CULINÁRIA.'
+                                            '<18>{#f/0}POR FAVOR, EXAMINE MINHA ARTE CULINÁRIA.'
                                         ]
                                         : []),
                                     '<32>{#p/basic}* Metade do freezer tem potes escritos \"espaguete\" com caneta.',
@@ -4635,7 +4635,7 @@ export default {
                             ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                                 ? [
                                     '<18>{#p/papyrus}AH SIM, A MESA DE JANTAR.',
-                                    '<18>{#f/5}NÓS NORMALMENTE CUIDAMOS DE UMA PEDRA DA LUA AQUI...',
+                                    '<18>{#f/5}NÓS CUIDAMOS DE UMA PEDRA DA LUA AQUI...',
                                     '<18>{#f/7}ATÉ QUE UM DIA, ELA SUMIU!',
                                     '<18>{#f/4}NO COMEÇO, CULPEI AQUELE CÃO INTROMETIDO...',
                                     '<18>{#f/7}MAS AÍ DESCOBRI QUE SANS USOU PARA TESTAR...',
@@ -4681,7 +4681,7 @@ export default {
                             ...(dateready() && SAVE.data.n.state_starton_papyrus === 0
                                 ? [
                                     '<18>{#p/papyrus}MEU IRMÃO SEMPRE SAI PRA COMER.',
-                                    "<18>{#f/4}MAS RECENTEMENTE, ELE TENTOU \"COZINHAR\" ALGUMA COISA...",
+                                    "<18>{#f/4}MAS RECENTEMENTE, ELE TENTOU \"COZINHAR...\"",
                                     '<18>{#f/5}EU ACHO QUE ERA... UM CHEESECAKE?',
                                     "<18>{#f/6}NÃO TENHO CERTEZA."
                                 ]
@@ -5200,8 +5200,8 @@ export default {
                                 ? [
                                     "<18>{#p/papyrus}ESSA É MINHA CAMA!",
                                     '<18>{#f/4}SE ALGUM DIA EU CHEGAR A EXPLORAR AS ESTRELAS...',
-                                    "<18>{#f/0}EU GOSTARIA DE DIRIGIR POR UMA PONTE INTERESTELAR DIGANTE.",
-                                    '<18>VENTO NO MEU CABELO, LUZ DAS ESTRELAS NA MINHA PELE...',
+                                    "<18>{#f/0}EU GOSTARIA DE DIRIGIR POR UMA PONTE INTERESTELAR.",
+                                    '<18>VENTO NO MEU CABELO, LUZ NA MINHA PELE...',
                                     "<18>{#f/4}É CLARO, ISSO É SÓ UM SONHO.",
                                     '<18>{#f/0}ENTÃO, EM VEZ DISSO, EU VIAJO ENQUANTO COCHILO.'
                                 ]
@@ -5340,10 +5340,10 @@ export default {
                             ...(roomready()
                                 ? [
                                     '<18>{#p/papyrus}AH, SIM, FIGURAS DE AÇÃO.',
-                                    '<18>UMA GRANDE REFERÊNCIA PARA CENÁRIOS DE BATALHAS TEÓRICAS.',
+                                    '<18>UMA REFERÊNCIA PARA CENÁRIOS DE BATALHAS-FAKE.',
                                     '<18>{#f/4}MAS COMO EU TENHA TANTAS?',
                                     '<18>{#f/6}BEM, HMM...\nO REI ME DEU ELAS DE PRESENTE...',
-                                    '<18>{#f/5}UM PRESENTE DO QUAL EU REALMENTE GOSTARIA DE PODER PAGÁ-LO.'
+                                    '<18>{#f/5}UM PRESENTE DO QUAL GOSTARIA DE PODER PAGÁ-LO.'
                                 ]
                                 : [])
                         ],
@@ -5410,7 +5410,7 @@ export default {
                                 '<23>\"PARA FAZER O PADRÃO PARECIDO COM MINHA FACE, É CLARO!\"',
                                 '<23>\"MAS ALGO DEU ERRADO...\"',
                                 '<23>\"TUDO QUE EU CONSEGUI CRIAR FOI UM FORMATO DE ARCO TODO ERRADO!!!\"',
-                                '<23>\"(EM OUTRAS PALAVRAS, VOCÊ VAI TER QUE RESOLVER POR CONTA PRÓPRIA.)\"',
+                                '<23>\"(EM OUTRAS PALAVRAS, VOCÊ VAI TER QUE RESOLVER POR CONTA.)\"',
                                 '<23>\"NAS NÃO SE PREOCUPE!\"\n\"EU SEI QUE VOCÊ CONSEGUE, HUMANO!\"',
                                 '<#23>  - \"COM MUITA ESPERANÇA,\"\n  PAPYRUS'
                             ],
@@ -5600,7 +5600,7 @@ export default {
             ],
             papyrus1: [
                 '<32>{#p/basic}* Papyrus é bem conhecido por seu espaguete.',
-                "<32>* O que não é tão conhecido é que ele usa receita dos humanos ao invés das dos monstros.",
+                "<32>* O que não é tão conhecido é que ele usa receita dos humanos.",
                 '<32>* Um erro honesta da sua, uh, \"instrutora de cozinha\", mas...',
                 '<32>* Tirando ele, apenas humanos gostariam da receita.',
                 '<32>* A ironia está fora de cogitação.'
@@ -5921,7 +5921,7 @@ export default {
         punTalk1: () =>
             SAVE.data.b.s_state_chilldrake
                 ? ['<08>{#p/basic}{~}Apenas o Starry consegue fazer isso.']
-                : ["<08>{#p/basic}{~}É pra isso ser engraçado?"],
+                : ["<08>{#p/basic}{~}É pra isso ser legal?"],
         punTalk2: () =>
             SAVE.data.b.s_state_chilldrake ? ["<08>{#p/basic}{~}Você não é o Starry."] : ['<08>{#p/basic}{~}Ha.. Ha..'],
         punTalk3: () =>
@@ -6002,7 +6002,7 @@ export default {
         idleTalk4: () =>
             SAVE.data.b.spared_jerry
                 ? ['<08>{#p/basic}{~}Alguém quer um abraço?']
-                : ['<08>{#p/basic}{~}SHHHH!\nMe deixa pensar, pessoal!!'],
+                : ['<08>{#p/basic}{~}SHHHH!\nMe deixa pensar, caras!!'],
         idleTalkSolo1: () =>
             SAVE.data.b.spared_jerry ? ['<08>{#p/basic}{~}Obrigado por estar aqui!'] : ['<08>{#p/basic}{~}Estranho.'],
         idleTalkSolo2: () =>
@@ -6729,7 +6729,7 @@ export default {
             "<15>B-BEM!\nEU SOU UM ESQUELETO COM PADRÕES MUITO ELEVADOS!",
             '<15>O QUE VOCÊ PODE FAZER EM RETORNO DO MEU AFETO???'
         ],
-        flirt2: [choicer.create('* (Sua resposta?)', 'Eu tenho\nzero qualidades\napreciadoras', '\nEu faço\nEspaguete')],
+        flirt2: [choicer.create('* (Sua resposta?)', '\nEu faço\nEspaguete', 'Eu tenho\nzero qualidades\napreciadoras',)],
         flirt3a: ['<15>{#p/papyrus}{#f/24}QUE COINCIDÊNCIA... ISSO ME LEMBRA...'],
         flirt3b: ['<15>{#p/papyrus}{#f/24}ESSA HUMILDADE... ISSO ME LEMBRA DE...'],
         flirt4: [
@@ -6765,7 +6765,7 @@ export default {
         randomStatus6: ['<32>{#p/story}* Papyrus está tentando manter seu pique descolado.'],
         randomStatus7: ['<32>{#p/story}* Papyrus está considerando suas opções.'],
         randomStatus8: ['<32>{#p/story}* Cheira a ossos.'],
-        randomStatus9: ['<32>{#p/story}* Papyrus lembra de uma piada que Sand o contou e começa a sorrir.'],
+        randomStatus9: ['<32>{#p/story}* Papyrus lembra de uma piada que Sans o contou e começa a sorrir.'],
         spaghetti1: () => [
             '<15>{#p/papyrus}{#f/12}MEU ESPAGUETE!',
             "<15>{#p/papyrus}{#f/13}E VOCÊ PARECE ESTAR GOSTANDO...",
@@ -6847,7 +6847,7 @@ export default {
             '<15>{#f/17}FORMAÇÃO {@fill=#f00}SIGMA{@fill=#000}!!!'
         ],
         turnTalk24x: [
-            "<15>{#p/papyrus}{#f/27}BEM...! *OFEGANTE* ESTÁ CLARO... VOCÊ NÃO PODE! *HUFF* ME DERROTAR!",
+            "<15>{#p/papyrus}{#f/27}BEM...! *OFEGANTE* ESTÁ CLARO... VOCÊ NÃO PODE! ME DERROTAR!",
             '<15>{#f/15}SIM!!! POSSO VER SUAS PERNAS TREMENDO!!',
             '<15>{#f/20}EU, O GRANDE PAPYRUS TE PONHO COMO UM GRANDE GUERREIRO!',
             '<15>{#f/20}EU IREI {@fill=#f00}TE POUPAR{@fill=#000}, HUMANO!!!',
@@ -8824,7 +8824,7 @@ export default {
         s_battle: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/9}}OLHANDO O LUGAR ONDE NÓS BATALHAMOS?',
+                '<18>{#p/papyrus}{#f/9}OLHANDO O LUGAR ONDE NÓS BATALHAMOS?',
                 "<18>{#p/papyrus}{#f/0}NÃO, NÃO, VAI LÁ.\nÉ UM LUGAR DE VALOR HISTÓRICO.",
                 ...(solo()
                     ? []
@@ -8943,7 +8943,7 @@ export default {
             0,
             () => [
                 '<18>{#p/papyrus}{#f/0}QUE LUGAR MELHOR PARA SE ESTAR DO QUE MINHA CASA!',
-                "<18>{#p/papyrus}{#f/0}TEMOS PIAS EXTRA-ALTAS...\nPEDRAS LUNARES DE ESTIMAÇÃO...",
+                "<18>{#p/papyrus}{#f/0}TEMOS PIAS EXTRA-ALTAS...\nPEDRAS LUNARES...",
                 '<18>{#p/papyrus}{#f/9}E ATÉ UMA VARANDA, EXCELENTE PARA A VIDA AO AR LIVRE!',
                 "<18>{#p/papyrus}{#f/0}É PRATICAMENTE O ÚNICO LUGAR QUE ME SINTO SEGURO.",
                 ...(solo()
@@ -8977,7 +8977,7 @@ export default {
             () =>
                 SAVE.data.n.plot_date < 1.1
                     ? [
-                        '<18>{#p/papyrus}WOW, VOCÊ SÓ PRECISOU DE QUATRO SEGUNDOS PARA ME LIGAR!',
+                        '<18>{#p/papyrus}WOW, VOCÊ SÓ QUATRO SEGUNDOS PARA ME LIGAR!',
                         '<18>VOCÊ DEVE ESTAR DESESPERADO PELA MINHA AJUDA!!!',
                         "<18>{#p/papyrus}{#f/9}MAS NÃO TEMAS.\nAQUI É A LINHA DE AJUDA DO PAPYRUS!",
                         '<18>{#p/papyrus}{#f/9}SÓ DESCREVA SUA LOCALIZAÇÃO, E...',
@@ -9148,7 +9148,7 @@ export default {
             () => [
                 "<18>{#p/papyrus}O QUE ESTÁ NA SUA CAIXA DIMENSIONAL?",
                 "<18>{#p/papyrus}{#f/4}NA VERDADE, NÃO ME FALA.",
-                "<18>{#p/papyrus}{#f/7}ISSO SERIA UMA VIOLAÇÃO FLAGRANTE DE SUA PRIVACIDADE!",
+                "<18>{#p/papyrus}{#f/7}ISSO SERIA UMA VIOLAÇÃO DE SUA PRIVACIDADE!",
                 ...(solo()
                     ? []
                     : SAVE.data.b.undyne_respecc
@@ -9480,7 +9480,7 @@ export default {
                     : solo()
                         ? ['<18>{#p/papyrus}{#f/4}... NÃO TEM NENHUMA OUTRA FORMA DE CRUZAR O ABISMO.']
                         : [
-                            '<25>{#p/undyne}{#f/1}* Esse pássaro sempre vai te levar através do abismo, ele não sabe dizer não.',
+                            '<25>{#p/undyne}{#f/1}* Esse pássaro sempre vai te levar através do abismo, SEMPRE!',
                             '<25>{#p/undyne}{#f/16}* Quando eu era mais nova, ele ME fez voar.\n* Demorou uma hora...',
                             '<25>{#p/undyne}{#f/17}* Mas esse pássaro JAMAIS pensou em desistir!!!',
                             '<25>{#p/undyne}{#f/1}* Amo esse passarinho.'
@@ -9755,11 +9755,11 @@ export default {
                     : [
                         "<25>{#p/undyne}{#f/12}* Você tem certeza que isso é... uh, seguro?",
                         "<25>{#p/undyne}{#f/10}* Eu sei que o lixo de um é o tesouro de outro, mas-",
-                        '<18>{#p/papyrus}{#f/0}SE A BRATTY E A CATTY CONSEGUEM FAZER ISSO NO ESPAÇO...',
-                        '<18>{#p/papyrus}{#f/0}SANS E EU CONSEGUIMOS FAZER ISSO EM UMA ÚNICA SALA.',
+                        '<18>{#p/papyrus}{#f/0}SE A BRATTY E A CATTY FAZEM ISSO NO ESPAÇO...',
+                        '<18>{#p/papyrus}{#f/0}SANS E EU FAZEMOS ISSO EM UMA ÚNICA SALA.',
                         "<25>{#p/undyne}{#f/1}* Quando você põe dessa forma, não parece tão mal.",
                         '<25>{#p/undyne}{#f/17}* Só tenha certeza de sair antes da caixa de descarte ativar!',
-                        "<18>{#p/papyrus}{#f/6}É CLARO!!\nNÓS NÃO GOSTARIAMOS DE VIRAR PÓ ESPACIAL!!"
+                        "<18>{#p/papyrus}{#f/6}É CLARO! NÓS NÃO GOSTARIAMOS DE VIRAR PÓ!!"
                     ])
             ],
             () =>
@@ -9790,7 +9790,7 @@ export default {
                         "<25>{#p/undyne}{#f/7}* ONDE ESTÃO AS PROVAS?",
                         '<18>{#p/papyrus}{#f/6}DO ANIME!!',
                         '<18>{#p/papyrus}{#f/4}SCI-FI ANIME.',
-                        "<18>{#p/papyrus}{#f/4}QUE EU AINDA PRECISO ASSISTIR, PORQUE EU SOU MUITO OCUPADO.",
+                        "<18>{#p/papyrus}{#f/4}QUE EU AINDA PRECISO ASSISTIR, SOU OCUPADO.",
                         '<25>{#p/undyne}{#f/17}* Muito ocupado pra anime!?',
                         "<25>{#p/undyne}{#f/8}* Tá de brincadeira!!"
                     ])
@@ -9813,7 +9813,7 @@ export default {
                         '<25>{#p/undyne}{#f/12}* Tá, não não não, espera bem aí.',
                         "<26>{#p/undyne}{#f/8}* Se eu não posso ver nada, como eu vou achar alguma coisa!",
                         '<18>{#p/papyrus}{#f/4}INFELIZMENTE, ENIGMAS SÃO ASSIM.',
-                        '<18>{#p/papyrus}{#f/7}UM MONTE DE CONSELHOS QUE NÃO LEVAM A LUGAR ALGUM!'
+                        '<18>{#p/papyrus}{#f/7}UM MONTE DE CONSELHOS QUE NÃO LEVAM A NADA!'
                     ])
             ],
             ['<18>{#p/papyrus}{#f/4}VOCÊ SABE COMO RESOLVER -ESTE- ENIGMA?']
@@ -9891,7 +9891,7 @@ export default {
                             ? ["<18>{#p/papyrus}{#f/4}NÓS AINDA ESTAMOS AQUI TE ESPERANDO, SABE..."]
                             : SAVE.data.n.plot_date < 2.1
                                 ? [
-                                    "<18>{#p/papyrus}{#f/0}EU TENHO CERTEZA QUE ELA APARECER COM ALGUMA COISA.",
+                                    "<18>{#p/papyrus}{#f/0}EU TENHO CERTEZA QUE ELA APARECERÁ COM ALGUMA COISA.",
                                     "<25>{#p/undyne}{#f/14}* Não aposte nisso!"
                                 ]
                                 : [
@@ -9904,7 +9904,7 @@ export default {
             0,
             () => [
                 "<18>{#p/papyrus}{#f/0}TALVEZ ALGUM DIA EU VIVA A VIDA QUIETA.",
-                '<18>{#p/papyrus}{#f/5}CUIDANDO DE CARACÓIS, PRODUZINDO MÚSICAS...',
+                '<18>{#p/papyrus}{#f/5}CUIDANDO DE CARACÓIS, MIX DE MÚSICAS...',
                 '<18>{#p/papyrus}{#f/6}SENDO TRISTE E NÃO DEIXANDO NINGUÉM ME ANIMAR...',
                 "<18>{#p/papyrus}{#f/5}PENSANDO BEM, TALVEZ ISSO NÃO SEJA PRA MIM.",
                 ...(solo()
@@ -9913,7 +9913,7 @@ export default {
                         "<25>{#p/undyne}{#f/17}* Ele não me deixa fazê-lo se sentir melhor!",
                         '<25>{#p/undyne}{#f/16}* ... acho que nem todo mundo pode ser feliz só por sair com eles.',
                         '<18>{#p/papyrus}{#f/5}É... O SANS PODE SER ASSIM AS VEZES.',
-                        "<18>{#p/papyrus}{#f/0}QUER DIZER, NÃO ME ENTENDA ERRADO.\nELE NORMALMENTE ESTÁ BEM!",
+                        "<18>{#p/papyrus}{#f/0}QUER DIZER, NÃO ME ENTENDA ERRADO.\nELE ESTÁ BEM!",
                         '<18>{#p/papyrus}{#f/6}MAS, IGUAL TODO MUNDO, ELE TEM SEUS DIAS RUINS.',
                         '<25>{#p/undyne}{#f/14}* Igual \"todo mundo?\"\n* Esse \"todo mundo\" inclui o Papyrus?',
                         '<18>{#p/papyrus}{#f/4}TÁ BOM, TÁ BOM...',
@@ -9928,8 +9928,8 @@ export default {
         f_snail: pager.create(
             0,
             () => [
-                "<18>{#p/papyrus}{#f/4}EU OUVI DIZER QUE TEM UM JEITO DE VENCER ESSE JOGO...",
-                '<18>{#p/papyrus}{#f/0}ALGO SOBRE OFERECER \"ENCORAJAMENTO OPORTUNO\".',
+                "<18>{#p/papyrus}{#f/4}EU OUVI DIZER QUE TEM UM JEITO DE VENCER O JOGO...",
+                '<18>{#p/papyrus}{#f/0}ALGO SOBRE \"ENCORAJAMENTO OPORTUNO\".',
                 '<18>{#p/papyrus}{#f/5}ENCORAJAMENTO OPORTUNO...',
                 "<18>{#p/papyrus}{#f/4}COMO SE EXISTISSE UM ENCORAJAMENTO -NÃO- OPORTUNO.",
                 ...(solo()
@@ -9944,7 +9944,7 @@ export default {
                         "<25>{#p/undyne}{#f/16}* O que eu estou dizendo é que se você encorajar alguém demais...",
                         "<25>{#p/undyne}{#f/16}* A pessoa não terá a chance de processar nada.",
                         '<25>{#p/undyne}{#f/17}* Então tome isso como um aviso amigo!!',
-                        "<18>{#p/papyrus}{#f/4}... EU VOU PROCESSAR ESSE CONSELHO AGORA MESMO."
+                        "<18>{#p/papyrus}{#f/4}... EU VOU PROCESSAR ESSE CONSELHO AGORA."
                     ])
             ],
             () =>
@@ -10007,23 +10007,23 @@ export default {
             0,
             ...[
                 () => [
-                    '<18>{#p/papyrus}{#f/6}EU ME CONSIDERO UM MESTRE DOS QUEBRA-CABEÇAS EM ABUNDÂNCIA, MAS...',
+                    '<18>{#p/papyrus}{#f/6}EU ME CONSIDERO UM MESTRE DOS ENIGMAS, MAS...',
                     '<18>{#p/papyrus}{#f/5}EU PRECISO SER SINCERO EM RELAÇÃO A ESTE.',
                     "<18>{#p/papyrus}{#f/4}... EU NUNCA RESOLVI ESTE QUEBRA-CABEÇA.",
                     "<18>{#p/papyrus}{#f/6}ESPERA!!\nNÃO ME JULGUE AINDA!!",
-                    '<18>{#p/papyrus}{#f/4}... ELES O DESLIGARAM ANTES QUE EU PUDESSE TENTAR.',
+                    '<18>{#p/papyrus}{#f/4}... DESLIGARAM ANTES QUE EU PUDESSE TENTAR.',
                     ...(solo()
                         ? []
                         : [
-                            "<25>{#p/undyne}{#f/17}* Mesmo se não fosse desligado, você acha que seria capaz de resolver?",
+                            "<25>{#p/undyne}{#f/17}* Mesmo se não fosse desligado, você acha que conseguiria?",
                             '<25>{#p/undyne}{#f/14}* Muitos já tentaram, mas poucos conseguiram.',
-                            "<18>{#p/papyrus}{#f/0}OH, EU TENHO CERTEZA QUE ISSO NÃO SERIA UM PROBLEMA.",
+                            "<18>{#p/papyrus}{#f/0}TENHO CERTEZA QUE ISSO NÃO SERIA UM PROBLEMA.",
                             '<18>{#p/papyrus}{#f/0}EU JÁ RESOLVI OUTROS DESSE TIPO BEM RAPIDAMENTE!',
                             '<25>{#p/undyne}{#f/14}* Se \"rapidamente\" você quer dizer HORAS, beleza.',
                             '<18>{#p/papyrus}{#f/6} O QUE?? HORAS?',
                             '<18>{#p/papyrus}{#f/5}EU RESOLVI ESTE QUEBRA-CABEÇA EM DEZ SEGUNDOS!',
                             '<25>{#p/undyne}{#f/17}* E o tempo que você passou encarando eles?',
-                            '<18>{#p/papyrus}{#f/7}... FOI O TEMPO QUE EU PASSEI TRABALHANDO NA SOLUÇÃO!!'
+                            '<18>{#p/papyrus}{#f/7}... FOI O TEMPO QUE EU PASSEI PENSANDO!!'
                         ])
                 ],
                 () =>
@@ -10060,15 +10060,15 @@ export default {
             () => [
                 '<18>{#p/papyrus}{#f/4}SE EU FOSSE VOCÊ, DESCONFIARIA DESTA SALA...',
                 '<18>{#p/papyrus}{#f/5}UNDYNE NORMALMENTE APARECE AÍ PARA ENCARAR O OUTPOST.',
-                "<18>{#p/papyrus}{#f/6}E ELA ENCARA SEJA LÁ QUEM FOR PASSANDO PELA PONTE!",
+                "<18>{#p/papyrus}{#f/6}E ELA ENCARA SEJA LÁ QUEM ESTIVER PASSANDO!",
                 ...(solo()
                     ? ['<18>{#p/papyrus}{#f/5}ATÉ EU JÁ FUI ALVO DELA.']
                     : [
-                        '<25>{#p/undyne}{#f/14}* Correção.\n. Eu fico aí para PATRULHAR e caçar humanos.',
+                        '<25>{#p/undyne}{#f/14}* Eu fico aí para PATRULHAR e caçar humanos.',
                         "<25>{#p/undyne}{#f/7}* Esse é meu TRABALHO.",
                         '<18>{#p/papyrus}{#f/6}BEM!!\nISSO SÓ TE TORNA AINDA MAIS FEROZ!!',
                         "<25>{#p/undyne}{#f/14}* Eu sou quem eu sou e não posso fazer nada para mudar isso.",
-                        '<18>{#p/papyrus}{#f/6}EU ACHO QUE QUALQUER UM PODE MUDAR, BASTA TENTAR!!',
+                        '<18>{#p/papyrus}{#f/6}QUALQUER UM PODE MUDAR, BASTA TENTAR!!',
                         "<25>{#p/undyne}{#f/17}* Existem exceções para todas as regras!",
                         '<18>{#p/papyrus}{#f/7}ENTÃO MINHA REGRA É UMA EXCESSÃO A SUA REGRA!',
                         '<25>{#p/undyne}{#f/4}* ...',
@@ -10114,7 +10114,7 @@ export default {
             () => [
                 '<18>{#p/papyrus}{#f/0}A MUITOS LUGARES NA FÁBRICA...',
                 '<18>{#p/papyrus}{#f/0}... QUE SÓ SÃO ACESSIVEIS QUANDO VOCÊ PULA.',
-                '<18>{#p/papyrus}{#f/9}POR EXEMPLO, OS DOIS CAMINHOS LATERAIS NESTA MESMA SALA!',
+                '<18>{#p/papyrus}{#f/9}TIPO, OS DOIS CAMINHOS LATERAIS NESTA SALA!',
                 ...(solo()
                     ? [
                         "<18>{#p/papyrus}{#f/4}OUVI DIZER QUE HUMANOS PULAM ATÉ QUE ALTO, ENTÃO...",
@@ -10195,7 +10195,7 @@ export default {
         f_battle: pager.create(
             0,
             () => [
-                "<18>{#p/papyrus}{#f/0}NESSA SALA VOCÊ VAI ENCONTRAR A GRANDE TORRE DA UNDYNE.",
+                "<18>{#p/papyrus}{#f/0}NESSA SALA VOCÊ VAI ENCONTRAR A TORRE DA UNDYNE.",
                 '<19>{#p/papyrus}{#f/9}FEITA DOS RESTOS DE UM ANTIGO ASTEROÍDE!',
                 "<18>{#p/papyrus}{#f/5}ELA SEMPRE SE POSICIONA NO TOPO DELA...",
                 '<18>{#p/papyrus}{#f/4}COCHICHANDO ALGO PARA SI MESMA...',
@@ -10221,10 +10221,10 @@ export default {
         f_exit: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}O TANQUE DE FLUIDO FOI COLOCADO ESPECIFICAMENTE AÍ...',
+                '<18>{#p/papyrus}O TANQUE DE FLUIDO FOI COLOCADO AÍ ESPECIFICAMENTE...',
                 '<18>{#p/papyrus}{#f/0}PORQUE UMA CERTA CAPITÃ DA GUARDA REAL...',
                 "<18>{#p/papyrus}{#f/4}PENSA QUE É SEGURO PEGAR SUA JETPACK...",
-                '<18>{#p/papyrus}{#f/5}E LEVAR ATÉ UMA ÁREA CHEIA DE ELETRICIDADE ESTÁTISTICA.',
+                '<18>{#p/papyrus}{#f/5}E LEVAR ATÉ UMA ÁREA CHEIA DE ESTÁTISTICA.',
                 ...(solo()
                     ? ['<18>{#p/papyrus}{#f/6}... NÃO BEBA ISSO, SERIA BEM, BEM PERIGOSO!!']
                     : [
@@ -10308,7 +10308,7 @@ export default {
             0,
             () => [
                 "<18>{#p/papyrus}{#f/0}ENTÃO AGORA VOCÊ CHEGOU EM AERIALIS, HUH?",
-                "<18>{#p/papyrus}{#f/0}EU ACHO QUE NÃO SOU O ÚNICO QUE NÃO GOSTA PINÁCULOS.",
+                "<18>{#p/papyrus}{#f/0}NÃO SOU O ÚNICO QUE NÃO GOSTA PINÁCULOS.",
                 "<18>{#p/papyrus}{#f/4}EXCETO... QUE ELES NÃO SÃO SÓ DECORATIVOS.",
                 '<18>{#p/papyrus}{#f/4}CENTENAS DE PESSOAS VIVEM LÁ.',
                 ...(solo()
@@ -10317,7 +10317,7 @@ export default {
                         '<25>{#p/undyne}{#f/14}* Até a Dr. Alphys vivia em uma dessas coisas.',
                         '<25>{#p/undyne}{#f/1}* Com seus amigos de infância, Bratty e Catty...',
                         '<25>{#p/undyne}{#f/1}* Ela me contou sobre quando se tornou a cientista real.',
-                        "<18>{#p/papyrus}{#f/0}OOH, EU ESTOU CURIOSO!\nVOU PERGUNTAR PRA ELA MAIS TARDE.",
+                        "<18>{#p/papyrus}{#f/0}POR CURIOSIDADE, VOU PERGUNTAR PRA ELA MAIS TARDE.",
                         '<25>{#p/undyne}{#f/12}* Faça isso.\n* Eu ACHO que ela gosta de falar sobre...?'
                     ])
             ],
@@ -10333,7 +10333,7 @@ export default {
                 '<18>{#p/papyrus}{#f/0}ESPECIALMENTE QUANDO A DR. ALPHYS ESTÁ POR AÍ.',
                 ...(solo()
                     ? [
-                        '<18>{#p/papyrus}{#f/}ELA REALMENTE GOSTA DE FALAR DAQUELA PARADA SCI-FI...',
+                        '<18>{#p/papyrus}{#f/}ELA REALMENTE GOSTA DE FALAR DAQUELE SCI-FI...',
                         "<18>{#p/papyrus}{#f/9}ENTÃO É BOM QUE EU GOSTE TAMBÉM!"
                     ]
                     : [
@@ -10359,8 +10359,8 @@ export default {
                 solo()
                     ? '<18>{#p/papyrus}{#f/0}... FOI ESSA SEMANA, EM UM RÔLE COM A DR. ALPHYS!'
                     : '<18>{#p/papyrus}{#f/0}... FOI HOJE MAIS CEDO, NO CAMINHO PARA O REC CENTER!',
-                '<18>{#p/papyrus}{#f/5}MAS QUANDO EU ERA MAIS NOVO, SANS ERA QUEM ME LEVAVA.',
-                '<18>{#p/papyrus}{#f/5}TANTAS MARAVILHAS CIENTIFICAS PARA FICAR MARAVILHADO...',
+                '<18>{#p/papyrus}{#f/5}QUANDO EU ERA NOVO, SANS ERA QUEM ME LEVAVA.',
+                '<18>{#p/papyrus}{#f/5}TANTAS MARAVILHAS CIENTIFICAS PARA MARAVILHAR...',
                 ...(solo()
                     ? ["<18>{#p/papyrus}{#f/6}É UMA PENA QUE POUCAS PESSOAS TENHAM INTERESSE!"]
                     : [
@@ -10368,8 +10368,8 @@ export default {
                         '<25>{#p/undyne}{#f/1}* O que eu acho?\n* Bem...',
                         '<25>{#p/undyne}{#f/14}* A maquina de sorvete faz um sorvete MUITO bom.',
                         "<18>{#p/papyrus}{#f/4}... É ISSO?",
-                        '<25>{#p/undyne}{#f/20}* Eu acho legal como a Alphys consegue distrair a humana assim...',
-                        '<18>{#p/papyrus}{#f/0}OH, SIM!\nELA PODE DISTRAIR OUTRAS PESSOAS, TAMBÉM!',
+                        '<25>{#p/undyne}{#f/20}* Eu acho legal como a Alphys consegue distrair a humana...',
+                        '<18>{#p/papyrus}{#f/0}OH, SIM! ELA PODE DISTRAIR OUTRAS PESSOAS, TAMBÉM!',
                         '<25>{#p/undyne}{#f/13}* ...',
                         '<25>{#p/undyne}{#f/7}* EU ESTOU SENDO DISTRAÍDA AGORA MESMO???'
                     ])
@@ -10418,7 +10418,7 @@ export default {
                         ...(solo()
                             ? []
                             : [
-                                "<25>{#p/undyne}{#f/17}* O que??\n* Ela nunca me chamou pra fazer nenhuma maratona de TV...",
+                                "<25>{#p/undyne}{#f/17}* Ela nunca me chamou pra fazer nenhuma maratona de TV...",
                                 '<18>{#p/papyrus}{#f/4}HMM...',
                                 '<18>{#p/papyrus}{#f/0}OH, TUDO BEM!',
                                 '<18>{#p/papyrus}{#f/9}VOCÊ SÓ PRECISA \"QUEBRAR O GELO\" COM ELA!',
@@ -10442,16 +10442,16 @@ export default {
         a_lab_downstairs: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/0}AQUELAS BEBIDAS FANTASTICAS NA MAQUINA DE VENDA...',
+                '<18>{#p/papyrus}{#f/0}AQUELAS BEBIDAS FANTÁSTICAS NA MAQUINA...',
                 '<18>{#p/papyrus}{#f/0}EU DESEJO TENTA-LAS, MAS...',
                 '<18>{#p/papyrus}{#f/4}A MAQUINA PARECE NÃO TER UMA FUNÇÃO DE DISPENSAR.',
                 ...(solo()
                     ? []
                     : [
                         "<25>{#p/undyne}{#f/8}* Se o produto não estiver saindo, só balança!",
-                        "<18>{#p/papyrus}{#f/0}EU PREFIRO ARRUMAR A MAQUINA PROPRIAMENTE, VALEU.",
-                        "<25>{#p/undyne}{#f/1}* Balançar normalmente funciona.\n* É minha forma de arrumar.",
-                        '<18>{#p/papyrus}{#f/4}TALVEZ VOCÊ DEVESSE ARRUMAR MINHA CARREIRA, ENTÃO.',
+                        "<18>{#p/papyrus}{#f/0}EU PREFIRO ARRUMAR A MAQUINA PROPRIAMENTE.",
+                        "<25>{#p/undyne}{#f/1}* Balançar normalmente funciona. É minha forma de arrumar.",
+                        '<18>{#p/papyrus}{#f/4}TALVEZ VOCÊ DEVESSE ARRUMAR MINHA CARREIRA.',
                         "<25>{#p/undyne}{#f/14}* Nah, ela é ótima do jeito que ela é."
                     ])
             ],
@@ -10478,12 +10478,12 @@ export default {
                     ]
                     : [
                         '<25>{#p/undyne}{#f/7}* \"Diversão\" não é a palavra que eu usaria.',
-                        '<18>{#p/papyrus}{#f/5}DA REALMENTE PRA CULPAR UM ESQUELETO COMO EU...',
-                        '<18>{#p/papyrus}{#f/6}POR QUERER SER DONO DE UM RESTAURANTE FAMOSO??',
+                        '<18>{#p/papyrus}{#f/5}DA PRA CULPAR UM ESQUELETO COMO EU...',
+                        '<18>{#p/papyrus}{#f/6}POR QUERER SER DONO DE UM RESTAURANTE??',
                         '<25>{#p/undyne}{#f/17}* Esse tipo de coisa deve ser estressante, Papyrus.',
                         '<18>{#p/papyrus}{#f/4}DISSE A CAPITÃ DA GUARDA REAL.',
                         '<25>{#p/undyne}{#f/14}* Ser a capitã da Guarda Real é uma coisa.',
-                        '<25>{#p/undyne}{#f/7}* Cuidar de um restaurante é completamente DIFERENTE!'
+                        '<25>{#p/undyne}{#f/7}* Cuidar de um restaurante é DIFERENTE!'
                     ])
             ],
             () => [
@@ -10496,10 +10496,10 @@ export default {
         a_path1: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/0}OUVI DIZER QUE AERIALIS COSTUMAVA SER UMA ÁREA DE PREPARAÇÃO.',
-                '<18>{#p/papyrus}{#f/5}ELES IRIAM CONSTRUIR TANTAS COISAS MANEIRAS, MAS...',
-                '<18>{#p/papyrus}{#f/4}ASSIM QUE O LABORATÓRIO FOI CONCLUÍDO, ACABOU O ROXO.',
-                '<18>{#p/papyrus}{#f/4}VERDADEIRAMENTE, UM SALTO GIGANTESCO PARA TRÁS.',
+                '<18>{#p/papyrus}{#f/0}EU SEI QUE AERIALIS ERA UMA ÁREA EM CONSTRUÇÃO.',
+                '<18>{#p/papyrus}{#f/5}ELES IRIAM CONSTRUIR TANTAS COISAS, MAS...',
+                '<18>{#p/papyrus}{#f/4}ASSIM QUE O LAB CONCLUIU, ACABOU O ROXO.',
+                '<18>{#p/papyrus}{#f/4}VERDADEIRAMENTE, UM SALTO PARA TRÁS.',
                 ...(solo()
                     ? []
                     : [
@@ -10509,7 +10509,7 @@ export default {
                         '<25>{#p/undyne}{#f/17}* ...',
                         '<25>{#p/undyne}{#f/17}* Ele PODE ser um pouco ditador as vezes.',
                         "<18>{#p/papyrus}{#f/0}AH, EU SEI.\nÉ POR ISSO QUE NÃO OS CULPO.",
-                        '<18>{#p/papyrus}{#f/4}POUCOS PODEM AGUENTAR SUA BELEZA INTIMIDADORA.',
+                        '<18>{#p/papyrus}{#f/4}POUCOS PODEM AGUENTAR SUA BELEZA.',
                         '<25>{#p/undyne}{#f/12}* ... não o que eu quis dizer, mas beleza.'
                     ])
             ],
@@ -10568,7 +10568,7 @@ export default {
             0,
             () => [
                 '<18>{#p/papyrus}{#f/5}OUVI DIZER QUE É DIFÍCIL CONSEGUIR AULAS EM AERIALIS.',
-                '<18>{#p/papyrus}{#f/6}SERIA VERDADE??\nOS ESTUDANTES SOFREM TANTO ASSIM?',
+                '<18>{#p/papyrus}{#f/6}SERIA VERDADE??\nOS ESTUDANTES SOFREM ASSIM?',
                 "<18>{#p/papyrus}{#f/8}EU NÃO SEI O QUE SERIA SEM MINHA EDUCAÇÃO...!",
                 ...(solo()
                     ? []
@@ -10645,13 +10645,13 @@ export default {
             0,
             () => [
                 '<18>{#p/papyrus}{#f/0}ESSA SALA PODE OU NÃO CONTER BARRICADAS.',
-                '<18>{#p/papyrus}{#f/4}DIZEM QUE É NECESSÁRIO RESPONDER PERGUNTAS PRA PASSAR...',
-                '<18>{#p/papyrus}{#f/1}PODERIA ISSO SER!?\nUMA ADIÇÃO SECRETA PARA UM SHOW DE QUIZ!?',
+                '<18>{#p/papyrus}{#f/4}É PASSAR POR PERGUNTAS PRA AVANÇAR...',
+                '<18>{#p/papyrus}{#f/1}SERIA ISSO UMA ADIÇÃO SECRETA PARA UM SHOW DE QUIZ?',
                 ...(solo()
                     ? []
                     : [
                         '<25>{#p/undyne}{#f/14}* Um quiz show, huh?',
-                        '<18>{#p/papyrus}{#f/9}... REPLETO DE QUESTÕES IMPOSSIVEIS DE SABER!',
+                        '<18>{#p/papyrus}{#f/9}... CHEIO DE QUESTÕES IMPOSSÍVEIS!',
                         "<25>{#p/undyne}{#f/1}* Okay, aqui vai uma pergunta pra você.",
                         '<25>{#p/undyne}{#f/12}* Precisamente quantas botas seriam necessárias...',
                         "<25>{#p/undyne}{#f/7}* Pra chutar a bunda de um robô pro espaço!!",
@@ -10682,7 +10682,7 @@ export default {
                     : [
                         '<25>{#p/undyne}{#f/1}* Sério?\n* Toda vez que eu tento resolver essas coisa...',
                         '<25>{#p/undyne}{#f/17}* Tudo fica bem malucão!!',
-                        "<18>{#p/papyrus}{#f/6}A Alphys nunca te trouxe de volta para a segurança??",
+                        "<18>{#p/papyrus}{#f/6}A ALPHYS NÃO TE TROUXE DE VOLTA A SEGURANÇA?",
                         '<25>{#p/undyne}{#f/12}* Bem.. Eu...',
                         '<18>{#p/papyrus}{#f/6}UNDYNE, O QUE VOCÊ FEZ!?!?',
                         '<25>{#p/undyne}{#f/12}* ...',
@@ -10737,7 +10737,7 @@ export default {
                         '<25>{#p/undyne}{#f/17}* Pelo que eu sei!',
                         '<18>{#p/papyrus}{#f/7}... A -OUSADIA- DAQUELE ROBÔ RETANGULAR!',
                         '<18>{#p/papyrus}{#f/7}EU TEREI QUE FALAR COM ELE MAIS TARDE!',
-                        "<25>{#p/undyne}{#f/7}* E dizer pra cancelar os shows ESTÚPIDOS enquanto você tá por aí!"
+                        "<25>{#p/undyne}{#f/7}* E dizer pra cancelar os shows ESTÚPIDOS enquanto você tá lá!"
                     ])
             ],
             () =>
@@ -10799,7 +10799,7 @@ export default {
         a_sans: pager.create(
             0,
             () => [
-                '<19>{#p/papyrus}{#f/0}SIM, MEU IRMÃO VENDE HOT-DOG NA ESTAÇÃO DE SENTINELA.',
+                '<19>{#p/papyrus}{#f/0}SIM, MEU IRMÃO VENDE HOT-DOG NA ESTAÇÃO.',
                 '<18>{#p/papyrus}{#f/4}NÃO É EXAMENTE O QUE EU CHAMARIA DE \"GOSTOSO.\"',
                 "<18>{#p/papyrus}{#f/5}EU DEVERIA ABRIR UM ESTANDE DE COMIDA...",
                 '<18>{#p/papyrus}{#f/5}MAS DA ÚLTIMA VEZ QUE TENTEI...',
@@ -10822,7 +10822,7 @@ export default {
                         '<18>{#p/papyrus}{#f/4}UMA BELA VESTIMENTA SÓ TE LEVA ATÉ CERTO NÍVEL.'
                     ]
                     : [
-                        '<25>{#p/undyne}{#f/1}* Você acha que essa \"máfia espacial\" pega parte dos lucros do Sans?',
+                        '<25>{#p/undyne}{#f/1}* Você acha que essa \"máfia espacial\" pega dos lucros do Sans?',
                         "<18>{#p/papyrus}{#f/0}WOW! ESSA É UMA ÓTIMA PERGUNTA!",
                         '<25>{#p/undyne}{#f/14}* Sério?',
                         "<18>{#p/papyrus}{#f/0}UMA BOA PERGUNTA DA QUAL EU NÃO QUERO A RESPOSTA!"
@@ -10831,15 +10831,15 @@ export default {
         a_pacing: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}EU RECEBI UMA MENSAGEM ESTRANHA NA OUTERNET HOJE...',
-                '<18>{#p/papyrus}{#f/4}SOBRE UMA COLÔNIA DE RATOS-TOUPEIRA, PRESOS EM UM CAMPO DE FORÇA.',
-                '<18>{#p/papyrus}{#f/5}VIVENDO VIDAS DE RATO-TOUPEIRA, COMENDO COMIDA DE RATO-TOUPEIRA...',
-                '<18>{#p/papyrus}{#f/4}DESEJANDO UM DIA ALNCANÇAR AS RATO-TOUPEIRAS ESTELARES.',
+                '<18>{#p/papyrus}{#f/5}EU RECEBI UMA MENSAGEM ESTRANHA NA OUTERNET...',
+                '<18>{#p/papyrus}{#f/4}SOBRE RATOS- TOUPEIRA, PRESOS EM UM CAMPO DE FORÇA.',
+                '<18>{#p/papyrus}{#f/5}VIVENDO VIDAS DE RATO-TOUPEIRA, COMENDO COMIDA...',
+                '<18>{#p/papyrus}{#f/4}DESEJANDO UM DIA ALCANÇAR AS ESTRELAS.',
                 ...(solo()
                     ? ['<18>{#p/papyrus}{#f/6}... O QUE ISSO SIGNIFICA!?']
                     : [
                         "<25>{#p/undyne}{#f/8}* Você pensa que isso é estranho?\n* Ha!",
-                        '<25>{#p/undyne}{#f/7}* Só espera até você ouvir sobre as mensagens que EU recebi!',
+                        '<25>{#p/undyne}{#f/7}* Só espera até você ver as mensagens que EU recebi!',
                         '<18>{#p/papyrus}{#f/4}ERA SOBRE RATO-TOUPEIRAS?',
                         '<25>{#p/undyne}{#f/14}* Não.',
                         '<18>{#p/papyrus}{#f/4}ENVOLVE \"OPORTUNIDADE DE FAZER DINHEIRO?\"',
@@ -10848,7 +10848,7 @@ export default {
                         "<25>{#p/undyne}{#f/14}* ... sim.\n* E foi aí que eu bloqueei quem mandava.",
                         '<25>{#p/undyne}{#f/7}* NINGUÉM faz falsas promessas de liberdade e se dá bem com isso!',
                         '<18>{#p/papyrus}{#f/0}ISSO!!',
-                        '<18>{#p/papyrus}{#f/5}ESPECIALMENTE QUANDO UMA -REAL- PROMESSA DE LIBERDADE...',
+                        '<18>{#p/papyrus}{#f/5}ESPECIALMENTE QUANDO UMA -REAL- PROMESSA...',
                         '<18>{#p/papyrus}{#f/6}ESTÁ NO TELEFONE COM A GENTE AGORA MESMO!!'
                     ])
             ],
@@ -10860,7 +10860,7 @@ export default {
                         '<18>{#p/papyrus}{#f/9}INFINIDADE DE DIVERSIDADES E COMBINAÇÕES!!'
                     ]
                     : [
-                        "<18>{#p/papyrus}{#f/0}AQUI ESTÁ A PROMESSA DE SUA EVENTUAL LIBERDADE.",
+                        "<18>{#p/papyrus}{#f/0}AQUI ESTÁ A PROMESSA DE SUA LIBERDADE.",
                         '<18>{#p/papyrus}{#f/6}E TALVEZ A NOSSA TAMBÉM ALGUM DIA!!'
                     ]
         ),
@@ -10888,7 +10888,7 @@ export default {
         a_puzzle2: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/6}NÃO IMPORTA ONDE EU VÁ, SEMPRE ACABO NO MESMO LUGAR!',
+                '<18>{#p/papyrus}{#f/6}NÃO IMPORTA ONDE VÁ, EU ACABO NO MESMO LUGAR!',
                 "<18>{#p/papyrus}{#f/5}PELO MENOS, É ISSO QUE ACONTECE...",
                 '<18>{#p/papyrus}{#f/4}TODA VEZ QUE TENTO RESOLVER ESSE QUEBRA-CABEÇA.',
                 ...(solo()
@@ -10931,7 +10931,7 @@ export default {
                     : [
                         '<18>{#p/papyrus}{#f/4}METTATON QUERIA QUE EU ESTIVESSE NO EP, MAS...',
                         '<18>{#p/papyrus}{#f/5}APÓS PENSAR UM POUCO, EU CHEGUEI A CONCLUSÃO...',
-                        "<18>{#p/papyrus}{#f/6}... O QUÃO NERVOSO EU ESTARIA SENTANDO PERTO DELE."
+                        "<18>{#p/papyrus}{#f/6}... EU ESTARIA NERVOSO SENTANDO PERTO DELE."
                     ]),
                 ...(solo()
                     ? []
@@ -10961,12 +10961,12 @@ export default {
             () => [
                 '<18>{#p/papyrus}{#f/6}TOME CUIDADO POR AÍ HUMANO!',
                 '<18>{#p/papyrus}{#f/5}OS GUARDAS NESSA ÁREA SAÍRAM DO TREINO A POUCO.',
-                "<18>{#p/papyrus}{#f/6}VAI SABER SE ELES NÃO IGNORARAM NENHUM COMANDO REAL!",
+                "<18>{#p/papyrus}{#f/6}VAI SABER SE ELES NÃO IGNORARAM COMANDOS REAIS!",
                 ...(solo()
                     ? ["<18>{#p/papyrus}{#f/0}ÁLIAS, O QUE SERIA UM MEMO REAL?"]
                     : [
                         '<25>{#p/undyne}{#f/16}* Nem me fala...',
-                        '<18>{#p/papyrus}{#f/5}HUH?\nELES IGNORARAM SEUS COMANDOS ULTIMAMENTE?',
+                        '<18>{#p/papyrus}{#f/5}ELES IGNORARAM SEUS COMANDOS ULTIMAMENTE?',
                         '<25>{#p/undyne}{#f/14}* Oh, eles seguem os meus tranquilamente.',
                         "<25>{#p/undyne}{#f/10}* São os memos da Alphys que eles ignoram.",
                         "<18>{#p/papyrus}{#f/6}MAS ELA É A CIENTISTA REAL!",
@@ -11015,8 +11015,8 @@ export default {
             0,
             () => [
                 "<18>{#p/papyrus}{#f/0}OLHA, É A SUPER FAMOSA FONTE DO METTATON!",
-                '<18>{#p/papyrus}{#f/4}OUVI DIZER QUE DEMOROU MUITO TEMPO PRA FICAR PRONTA.',
-                '<18>{#p/papyrus}{#f/5}INÚMERAS REPETIÇÕES E TRABALHO DOLOROSO...',
+                '<18>{#p/papyrus}{#f/4}SEI QUE DEMOROU MUITO TEMPO PRA FICAR PRONTA.',
+                '<18>{#p/papyrus}{#f/5}INÚMERAS REPETIÇÕES E TRABALHO ÁRDUO...',
                 '<18>{#p/papyrus}{#f/6}PARA TER O IDEAL FORMATO RETANGULAR.',
                 ...(solo()
                     ? []
@@ -11068,7 +11068,7 @@ export default {
                     : [
                         '<25>{#p/undyne}{#f/17}* Então você GOSTA de usar elevadores ou NÃO?',
                         '<18>{#p/papyrus}{#f/6}BEM...',
-                        '<18>{#p/papyrus}{#f/5}EU GOSTO DA MÚSICA, MAS TER QUE USA-LOS É UMA TORTURA.',
+                        '<18>{#p/papyrus}{#f/5}EU AMO A MÚSICA, MAS USA-LOS É TORTURA.',
                         '<18>{#p/papyrus}{#f/4}MAS EU ENTENDO NA NECESSIDADE DELES.',
                         "<25>{#p/undyne}{#f/1}* Olha, estou feliz que você não vive em uma casa espiral.",
                         '<18>{#p/papyrus}{#f/5}PORQUÊ?',
@@ -11097,9 +11097,9 @@ export default {
         a_elevator4: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/0}O QUE ACONTECE COM O ESQUELETO QUE PASSA PELA SEGURANÇA?',
+                '<18>{#p/papyrus}{#f/0}O QUE ACONTECE COM O ESQUELETO TOCA ELETRICIDADE?',
                 '<19>{#p/papyrus}{#f/4}... OH CERTO.\nELE É ELETROCUTADO.',
-                '<18>{#p/papyrus}{#f/6}FOI ISSO QUE ACONTECEU COMIGO, QUANDO EU VIM AQUI!',
+                '<18>{#p/papyrus}{#f/6}FOI ISSO QUE ACONTECEU, QUANDO EU VIM AQUI!',
                 ...(solo()
                     ? []
                     : [
@@ -11132,7 +11132,7 @@ export default {
                         "<25>{#p/undyne}{#f/1}* Pra ser honesto, estou surpreso que ele parou.",
                         '<25>{#p/undyne}{#f/16}* Mas acho que foi por sua alta vontade de ser um sentinela.',
                         '<18>{#p/papyrus}{#f/5}É.\nDEVE TER SIDO ISSO.',
-                        "<18>{#p/papyrus}{#f/4}NÃO TINHA DEFIVITIVAMENTE MAIS NADA ACONTECENDO.",
+                        "<18>{#p/papyrus}{#f/4}NÃO TINHA MAIS NADA ACONTECENDO, NÉ?",
                         '<25>{#p/undyne}{#f/14}* ... que?'
                     ])
             ],
@@ -11231,19 +11231,19 @@ export default {
                     : [
                         '<25>{#p/undyne}{#f/1}* Então, como uma caixa de seiva de árvore, então.',
                         '<18>{#p/papyrus}{#f/0}É, TIPO ISSO!',
-                        "<18>{#p/papyrus}{#f/4}EI, NÃO ERA PRA SUPOSTAMENTE SER UMA CAIXA DE CHOCOLATES?",
+                        "<18>{#p/papyrus}{#f/4}EI, NÃO ERA PRA SER UMA CAIXA DE CHOCOLATES?",
                         '<25>{#p/undyne}{#f/14}* Essa seria a expressão humana.'
                     ])
             ],
             () =>
                 solo()
                     ? ["<18>{#p/papyrus}{#f/4}TALVEZ SEJA MAIS COMO UMA CAIXA DE CHOCOLATES."]
-                    : ['<18>{#p/papyrus}{#f/0}CHOCOLATE E SEIVA DE ÁRVORE TÊM GOSTO MUITO SEMELHANTE.']
+                    : ['<18>{#p/papyrus}{#f/0}CHOCOLATE E SEIVA DE ÁRVORE TÊM GOSTO PARECIDO.']
         ),
         a_lookout: pager.create(
             0,
             () => [
-                '<18>{#p/papyrus}{#f/5}COM O TEMPO, NÓS PODEREMOS SER EXPLORADORES NAS ESTRELAS.',
+                '<18>{#p/papyrus}{#f/5}COM O TEMPO, NÓS IREMOS EXPLORAR AS ESTRELAS.',
                 '<18>{#p/papyrus}{#f/5}NÓS IREMOS NOS AVENTURAR NO DESCONHECIDO...',
                 '<18>{#p/papyrus}{#f/5}EJETANDO-NOS PARA LONGE DESTA VELHA PRISÃO.',
                 ...(solo()
@@ -11271,7 +11271,7 @@ export default {
             () => [
                 "<18>{#p/papyrus}{#f/6}ISSO NÃO É ONDE AS PESSOAS TRANQUILAS FICAM?",
                 '<18>{#p/papyrus}{#f/5}EU ME SINTO MEIO MAL POR ELAS...',
-                '<18>{#p/papyrus}{#f/9}... O QUE ME FAZ QUERER COMPRAR UMA GELADEIRA PRA ELES!',
+                '<18>{#p/papyrus}{#f/9}ME FAZ QUERER COMPRAR UMA GELADEIRA PRA ELES!',
                 "<18>{#p/papyrus}{#f/0}ASSIM, SEMPRE TERÁ UM LUGAR FRIO POR PERTO.",
                 ...(solo()
                     ? []
@@ -11305,7 +11305,7 @@ export default {
                         '<18>{#p/papyrus}{#f/5}ADMITO, PODE SER MEIO ESTRESSANTE CONVERSAR COM ELE.',
                         "<18>{#p/papyrus}{#f/6}POREM NÃO É CULPA DELE!!",
                         "<18>{#p/papyrus}{#f/4}JÁ QUE... ISSO É CULPA DO METTATON.",
-                        "<18>{#p/papyrus}{#f/9}MAS NÃO TEMAS!\nIREI CONFRONTÁ-LO MAIS TARDE SOBRE ISSO!"
+                        "<18>{#p/papyrus}{#f/9}MAS NÃO TEMAS!\nIREI CONFRONTÁ-LO MAIS TARDE SOBRE!"
                     ])
             ],
             () =>
@@ -11318,7 +11318,7 @@ export default {
             () => [
                 '<18>{#p/papyrus}{#f/4}ESTE \"REC CENTER\" É BEM RECREACIONAL...',
                 '<18>{#p/papyrus}{#f/5}... EM MUITAS FORMAS.',
-                "<18>{#p/papyrus}{#f/6}O QUE HÁ DE TÃO INCRÍVEL NAS FLORES DOS DESEJOS, AFINAL?",
+                "<18>{#p/papyrus}{#f/6}O QUE HÁ DE TÃO INCRÍVEL NAS FLORES DESEJOS?",
                 '<18>{#p/papyrus}{#f/4}A AURA DELAS FAZ SEU DESEJO SE TORNAR REAL?',
                 ...(solo()
                     ? ['<18>{#p/papyrus}{#f/0}HMM... TALVEZ EU DEVESSE TENTAR ALGUMA HORA.']
@@ -11420,7 +11420,7 @@ export default {
                         : ["<32>{#p/human}* (Os esquemas dos irmãos esqueleto te enchem de determinação.)"]
                     : papreal() || world.runaway
                         ? ['<32>{#p/human}* (A caixa é tão solitária, isso enche de determinação de qualquer maneira.)']
-                        : ['<32>{#p/human}* (A caixa pode ficar tranquila agora.)\n* (Isso, é claro, te enche de determinação.)']
+                        : ['<32>{#p/human}* (A caixa pode ficar tranquila agora. Isso, te enche de determinação.)']
         },
         s_pacing: {
             name: 'Starton - Rua Da Pedra Da Lua',

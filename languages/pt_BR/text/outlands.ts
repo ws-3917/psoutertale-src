@@ -23,7 +23,7 @@ const toriel_aerialis = () =>
         ? [
             '<25>{#p/toriel}{#f/1}* Eu ouvi sobre algum tinha de fluido que tem em Aerialis...',
             '<25>{#f/0}* Usado primeiramente para amortecer a eletricidade.',
-            '<25>{#f/1}* Se você achar esse fluido, o quão longe você conseguirá levá-lo?',
+            '<25>{#f/1}* Se você achar esse fluido, o quão longe irá leva-lo?',
             '<25>{#f/1}* Você o levaria até o fim da Cidadela?',
             '<25>{#f/1}* Ou você simplesmente o jogaria fora em um lixo reciclável?',
             '<25>{#f/0}* Isso deixaria qualquer um desapontado.'
@@ -113,10 +113,10 @@ const toriel_aerialis = () =>
                                     : SAVE.data.n.plot < 66
                                         ? [
                                             '<25>{#p/toriel}{#f/1}* Quem poderia imaginar um robô com uma voz tão linda?',
-                                            "<25>{#f/0}* Ao ouvir o novo álbum do Mettaton, eu nem consegui acreditar nos meus ouvidos.",
-                                            '<26>{#f/1}* Mesmo que, algumas das letras tenham um toque... violento demais pra mim.',
+                                            "<25>{#f/0}* Ao ouvir o novo álbum do Mettaton, eu nem consegui acreditar.",
+                                            '<26>{#f/1}* Mesmo que, algumas das letras tenham um toque violento demais.',
                                             '<25>{#f/5}* ...',
-                                            '<25>{#f/0}* Não se preocupe, minha criança.\n* Ninguém vai te lançar no espaço.'
+                                            '<25>{#f/0}* Não se preocupe, minha criança. Ninguém vai te lançar no espaço.'
                                         ]
                                         : SAVE.data.n.plot < 68
                                             ? [
@@ -143,7 +143,7 @@ const toriel_aerialis = () =>
                                                         ]
                                                         : [
                                                             '<25>{#p/toriel}{#f/0}* Todos que eu conheço tem falado sobre um \"grand finale.\"',
-                                                            '<25>{#p/toriel}{#f/0}* Eles disseram que te assistir lutar contra Mettaton os fez realmente feliz.',
+                                                            '<25>{#p/toriel}{#f/0}* Eles disseram que te ver lutar contra Mettaton os fez feliz.',
                                                             '<25>{#p/toriel}{#f/1}* Eu estou contente que você tenha tido um momento incrível.',
                                                             '<25>{#p/toriel}{#f/5}* Me pergunto o que te espera a frente, agora.'
                                                         ]
@@ -223,7 +223,7 @@ export default {
                 '<32>* Mas Frisk não.',
                 '<32>* Não importava o que acontecia, eles mostraram bondade e piedade toda vez.',
                 '<32>* Ele... provou que eu estava errado.',
-                "<32>* E agora, por causa disso, eu sei que não existe motivo para o que, eu havia feito com você.",
+                "<32>* E agora, por causa disso, eu sei que não existe motivo para o que eu havia feito.",
                 '<32>* Tudo que você passou, tudo que você perdeu...',
                 "<32>* Eu sou o único culpado por isso."
             ],
@@ -248,7 +248,7 @@ export default {
             d22: ['<25>{#p/asriel1}{#f/15}* $(name)...'],
             d23: [
                 "<32>{#p/basic}* Se não fosse por você, o Outpost teria sido destruído em uma segunda guerra.",
-                '<32>* Se não fosse por você, os mesmos monstros que eu estava supostamente tentando salvar...',
+                '<32>* Se não fosse por você, os mesmos monstros que eu estava tentando salvar...',
                 '<32>* ... teriam morrido pouco após a gente.'
             ],
             d24: ['<25>{#p/asriel1}{#f/25}* $(name), eu...'],
@@ -300,7 +300,7 @@ export default {
                 '<32>* ... tudo para que um dia eu possa devolver o favor.'
             ],
             d42: ["<32>{#p/basic}* Tudo esta começando a fazer sentido agora.", '<32>* Eu sei o que preciso fazer.'],
-            d43: ['<25>{*}{#p/asriel1}{#f/25}* Hã?\n*O que você está... {^60}{%}'],
+            d43: ['<25>{*}{#p/asriel1}{#f/25}* Hã?\n* O que você está... {^60}{%}'],
             d44: ['<25>{*}{#f/25}* Não...!{^60}{%}', '<25>{*}{#f/26}* Me... me deixa ir!{^60}{%}'],
             d45: ['<32>{*}{#p/basic}* Heh...{^60}{%}', '<32>{*}* Toma conta da mamãe e do papai por mim, tudo bem?{^60}{%}'],
             d46: ['<25>{#p/asriel1}{#f/25}* Frisk, você está aí?', '<25>{#f/22}* Por favor... acorda...'],
@@ -312,12 +312,12 @@ export default {
                 '<25>{#f/13}* ...'
             ],
             d50: [
-                '<25>{#p/asriel1}{#f/13}* Bem...\n* Eu tenho minha ALMA dentro de mim novamente.',
+                '<25>{#p/asriel1}{#f/13}* Eu tenho minha ALMA dentro de mim novamente.',
                 '<25>{#f/15}* Minha verdadeira e original alma.',
                 '<25>{#f/16}* ...',
                 "<26>{#f/16}* Quando $(name) e eu morremos, ele deve ter unido-se ao meu redor...",
                 '<25>{#f/13}* ...me mantendo seguro até me trazer de volta aqui.',
-                '<26>{#f/17}* Ele se segurou este tempo todo, apenas com a esperança de me ver de novo, Frisk...',
+                '<26>{#f/17}* Ele se segurou este tempo todo, apenas com a esperança de me ver...',
                 '<25>{#f/13}* ... então, o mínimo que posso fazer é honrar isso.',
                 '<25>{#f/15}* Viver a vida que ele sempre quis que eu tivesse.'
             ],
@@ -325,7 +325,7 @@ export default {
                 '<25>{#p/asriel1}{#f/23}* ... Frisk.',
                 "<25>{#f/23}* Eu estarei ao seu lado de agora em diante.",
                 "<25>{#f/17}* Aonde você for... eu irei te seguir.",
-                '<25>{#f/13}* Eu sinto como...\n* Eu sei que posso confiar em você com esse tipo de coisa.',
+                '<25>{#f/13}* Eu sei que posso confiar em você com esse tipo de coisa.',
                 "<25>{#f/13}* Mesmo que não saibamos muito um sobre o outro.",
                 "<25>{#f/15}* ... Eu não sei.",
                 '<25>{#f/15}* ...',
@@ -343,7 +343,7 @@ export default {
                 '<25>{#f/22}* ...',
                 "<25>{#f/13}* Hey.\n* Talvez isso não vá ser tão ruim.",
                 "<25>{#f/17}* Ter você lá comigo definitivamente não vai prejudicar as coisas.",
-                '<25>{#f/13}* ...\n* A questão é ...\n* Se eu ficasse aqui agora...',
+                '<25>{#f/13}* A questão é ...\n* Se eu ficasse aqui agora...',
                 "<25>{#f/15}* Não seria correto com $(name)... entende?",
                 '<25>{#f/13}* E além do mais, com minha ALMA de volta ao meu corpo...',
                 "<25>{#f/13}* Eu não irei voltar a ser uma estrela.",
@@ -351,7 +351,7 @@ export default {
             ],
             d52: [
                 '<25>{#p/asriel1}{#f/17}* Melhor ir indo.',
-                '<25>{#f/20}* Seus amigos provavelmente estão super preocupados com você.'
+                '<25>{#f/20}* Seus amigos provavelmente estão super preocupados.'
             ],
             e1: [
                 '<25>{#p/asriel1}{#f/15}* ...',
@@ -360,7 +360,7 @@ export default {
                 '<25>{#f/15}* ... no passado agora.'
             ],
             e2: [
-                "<25>{#p/asriel1}{#f/13}* Eu nem consigo acreditar que ele fez isso tudo só pra me ver...",
+                "<25>{#p/asriel1}{#f/13}* Eu nem acredito que ele fez isso tudo pra me ver...",
                 '<25>{#f/23}* Teimoso idiota.',
                 '<25>{#f/17}* ... É o que eu diria, se ainda fosse uma estrela.',
                 "<25>{#f/13}* Mas... eu não acho que ele seja idiota."
@@ -369,11 +369,11 @@ export default {
                 "<25>{#p/asriel1}{#f/13}* $(name) não é estúpido.\n* Eu...",
                 '<25>{#f/13}* Eu concordo com muito do que foi dito...',
                 '<25>{#f/15}* Sobre ele não ser o tipo de amigo que eu desejava ter...',
-                "<25>{#f/7}* ... mas isso não significa que eu desejava que ele se fosse!"
+                "<25>{#f/7}* ... mas isso não quer dizer que eu queria que ele fosse!"
             ],
             e4: [
                 "<25>{#p/asriel1}{#f/13}* Não é como se $(name) tivesse que ir...",
-                "<25>{#f/17}* Se ele quisesse, poderia ficar com a gente.\n* Eu gostaria disso.",
+                "<25>{#f/17}* Se ele quisesse, poderia ficar com a gente.",
                 "<25>{#f/15}* Mas eu entendo ele querer ir.",
                 '<25>{#f/16}* Ele \"venceu\" o jogo.\n* Ele não deveria mais querer \"brincar\" comigo'
             ],
@@ -594,9 +594,9 @@ export default {
             [
                 '<32>{#p/human}* (Você vira para a segunda página...)',
                 '<32>{#p/asriel1}{#v/2}* \"azzys diário, k-504\"',
-                '<32>* \"Mamãe disse que eu devria escrever a data, assim as pesoas sabem quando eu escrevo.\"',
-                '<32>* \"Minha flor estrelada ainda não começou a crescer, mas o papae prometeu que logo comecarra\"',
-                '<32>* \"Eu gostaria que houvesse uma janela no meu quarto, mas papai disse que há plumagem aqui.\"',
+                '<32>* \"Mamãe disse que eu devria escrever a data, assim as pesoas sabem quando foi.\"',
+                '<32>* \"Minha flor estrelada ainda não começou a crescer, mas o papae prometeu que irá.\"',
+                '<32>* \"Eu gostaria que houvesse uma janela no meu quarto, mas papai disse que há plumagem.\"',
                 '<32>* \"Eles diseram que vai coloca uma janela na sala de presença\"',
                 '<32>* \"Eu esto tendo um bom dia tabem.\"'
             ],
@@ -639,7 +639,7 @@ export default {
             [
                 '<32>{#p/human}* (Você vira para a sétima página...)',
                 '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diário, K-510.08.\"',
-                '<32>* \"Eu cara bem inteligente nos visitou hoje. Ele disse que teve um sonho ruim sobre um humano.\"',
+                '<32>* \"Um cara bem inteligente nos visitou. Ele disse que teve um sonho sobre um humano.\"',
                 '<32>* \"Eu já escrevi ele aqui? Bem, ele é o cientista real.\"',
                 '<32>* \"Ele inventou um monte de coisas das quais usamos hoje. Meu pai ama falar dele.\"',
                 '<32>* \"Como os replicadores e fabricantes e as coisas de placas de gravidade.\"',
@@ -659,13 +659,13 @@ export default {
             [
                 '<32>{#p/human}* (Você vira para a nona página... parece que um dia se passou.)',
                 '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diário, K-510.09.\"',
-                '<32>* \"Eu conheci um humano de verdade ontem. Ele bateu sua nave no lixão perto da nossa casa.\"',
+                '<32>* \"Eu conheci um humano ontem. Ele bateu sua nave perto da nossa casa.\"',
                 '<32>* \"Eu os ajudei a sair dos destroços e ele me agradeceu.\"',
                 '<32>* \"Eu não imaginei que isso aconteceria de verdade, mas aqui esta ele.\"',
                 '<32>* \"E o humano é um menino{#p/basic}f{#p/asriel1}{#v/1}h{#p/basic}sj haha azzy é um bundão ele{#p/asriel1}{#v/1}vh{#p/basic}v{#p/asriel1}{#v/1}j{#p/basic}a{#p/asriel1}{#v/1}s\"',
-                '<32>* \"Certo, eu estou tendo que me esconder de baixo dos cobertores para o $(name) não acabar com minha escrita.\"',
+                '<32>* \"Estou escondido de baixo dos cobertores para o $(name) não riscar minha escrita.\"',
                 '<32>* \"Ele é meio grosso as vezes, mas tudo bem.\"',
-                '<32>* \"Mãe fez aquela coisa de entrar em batalha com ele e o seu coração era vermelho de cabeça pra baixo.\"',
+                '<32>* \"Mãe fez aquela coisa de entrar em batalha com ele e o seu coração é vermelho.\"',
                 '<32>* \"É bem legal ter alguém pra conversar.\"'
             ],
             [
@@ -885,7 +885,7 @@ export default {
             '<25>{#f/0}* \"E ela amava o pequeno humano.\"',
             '<25>{#f/1}* \"E todo dia, o humano viria visitar...\"',
             '<25>{#f/0}* \"E iria correr e brincar juntos nos campos.\"',
-            '<25>{#f/1}* \"Iriam cantar músicas juntos, contar histórias um para o outro...\"',
+            '<25>{#f/1}* \"Iriam cantar músicas juntos, contar histórias...\"',
             '<25>{#f/0}* \"Brincar de esconde-esconde.\"',
             '<25>{#f/1}* \"E quando o humano ficasse cansado, ela o levaria para a cama...\"',
             '<25>{#f/0}* \"E o humano amava o monstro muito mesmo.\"',
@@ -896,9 +896,9 @@ export default {
             '<25>{#f/0}* \"E o monstro disse \'Venha, humano, venha brincar\'\"',
             '<25>{#f/5}* \"\'Eu sou muito grande para brincar\', disse o humano.\"',
             '<25>{#f/1}* \"\'Eu quero dirigir, encontrar uma nova casa...\'\"',
-            "<25>{#f/5}* \"'Desculpa,' disse o monstro, 'eu sou muito pobre para ter um carro.'\"",
+            "<25>{#f/5}* \"'Desculpa,' disse o monstro, 'eu sou muito pobre para isso.'\"",
             '<25>{#f/5}* \"\'Tudo que eu tenho são meus dois pés.\'\"',
-            '<25>{#f/0}* \"\'Suba nas minhas costas, eu posso te levar aonde você precisar.\'\"',
+            '<25>{#f/0}* \"\'Suba nas minhas costas, eu te levo onde você quiser.\'\"',
             '<25>{#f/0}* \"\'Então você pode ver a cidade e ser feliz.\'\"',
             '<25>{#f/1}* \"E assim o humano subiu nas costas do monstro...\"',
             '<25>{#f/0}* \"E o monstro os levou para um novo lugar.\"',
@@ -909,10 +909,10 @@ export default {
             '<25>{#f/1}* \"E o monstro sorriu de orelha a orelha e disse...\"',
             '<25>{#f/1}* \"\'Venha, humano, venha subir em minhas costas!\'\"',
             '<25>{#f/5}* \"\'Eu estou muito triste para subir,\' disse o humano.\"',
-            '<25>{#f/1}* \"\'Eu queria ter uma família e crianças das quais pudesse cuidar...\'\"',
+            '<25>{#f/1}* \"\'Eu queria ter uma família e crianças das quais cuidar...\'\"',
             "<25>{#f/5}* \"'Desculpa,' disse o monstro, 'mas eu não posso te dar isso.'\"",
             '<25>{#f/5}* \"\'Eu sou apenas uma pessoa.\'\"',
-            '<25>{#f/0}* \"\'Venha me ver mais vezes e eu posso te encontrar uma parceira.\'\"',
+            '<25>{#f/0}* \"\'Venha me ver e eu te encontrarei uma parceira.\'\"',
             '<25>{#f/0}* \"\'Assim você pode encontrar o amor e a felicidade.\'\"',
             '<25>{#f/1}* \"E assim o humano visitou sua amiga por um tempo...\"',
             '<25>{#f/0}* \"E o monstro encontrou alguém que ele gostasse.\"',
@@ -922,9 +922,9 @@ export default {
             '<25>{#f/9}* \"Ela mal conseguia falar.\"',
             '<25>{#f/1}* \"\'Venha, humano,\' ela disse...\"',
             '<25>{#f/1}* \"\'Venha e faça uma visita.\'\"',
-            '<25>{#f/5}* \"\'Eu estou muito velho e ocupado para visitar,\" disse o humano.\"',
+            '<25>{#f/5}* \"\'Eu estou velho e ocupado para visitar,\" disse o humano.\"',
             '<25>{#f/1}* \"\'Eu preciso de um lugar para descansar pela noite...\'\"',
-            "<25>{#f/5}* \"'Desculpa,' disse o monstro, 'mas eu não tenho uma cama do seu tamanho.'\"",
+            "<25>{#f/5}* \"'Desculpa,' disse o monstro, 'mas eu não tenho uma cama.'\"",
             '<25>{#f/5}* \"\'Eu nem tenho dinheiro para comprar uma.\'\"',
             '<25>{#f/0}* \"\'Durma comigo pela noite.\'\"',
             '<25>{#f/0}* \"\'Assim você pode descansar e ser feliz.\'\"',
@@ -935,14 +935,14 @@ export default {
             '<25>{#f/9}* \"E após um longo tempo, o humano voltou novamente.\"',
             "<25>{#f/5}* \"'Me desculpa, humano,' disse o monstro, 'mas eu estou velha.'\"",
             '<25>{#f/5}* \"\'Minhas pernas estão fracas, eu não posso te levar a lugar algum.\'\"',
-            '<25>{#f/10}* \"\'Não existe outro lugar que eu queira estar,\' disse o humano.\"',
-            '<26>{#f/5}* \"\'Eu não posso te encontrar um amor, eu não conheço mais ninguém\' disse o monstro.\"',
-            '<25>{#f/10}* \"\'Não existe mais ninguém com quem eu queira estar,\' disse o humano.\"',
-            '<25>{#f/5}* \"\'Eu estou muito doente para você dormir comigo\', disse o monstro.\"',
+            '<25>{#f/10}* \"\'Eu só quero estar contigo,\' disse o humano.\"',
+            '<26>{#f/5}* \"\'Você não terá amor aqui, eu não conheço ninguém\' disse o monstro.\"',
+            '<25>{#f/10}* \"\'Eu só desejo estar com você,\' disse o humano.\"',
+            '<25>{#f/5}* \"\'Eu estou doente e você não poderá dormir\', disse o monstro.\"',
             '<25>{#f/10}* \"\'Eu não preciso mais de descanso,\' disse o humano.\"',
             "<25>{#f/5}* \"'Desculpe-me,' disse o monstro com um chorinho.",
             '<25>{#f/5}* \"\'Eu queria ter algo a oferecer, mas eu não tenho nada.\'\"',
-            '<25>{#f/9}* \"\'Eu sou apenas uma velha monstro aproximando-se da morte.\'\"',
+            '<25>{#f/9}* \"\'Eu sou uma velha monstro próximo da morte.\'\"',
             '<25>{#f/5}* \"\'Desculpe-me...\'\"',
             '<25>{#f/10}* \"\'Eu não preciso de muito agora,\' disse o humano.\"',
             '<25>{#f/10}* \"\'Apenas um abraço do meu melhor amigo antes de morrer.\'\"',
@@ -1786,7 +1786,7 @@ export default {
             '<25>{#f/9}* Eu deveria saber que não posso te manter aqui para sempre.',
             '<25>{#f/5}* ... mas, se você precisar de alguém para conversar...',
             '<25>{#f/1}* Sinta-se livre para me ligar sempre que quiser.',
-            '<25>{#f/0}* Com tanto que meu celular consiga alcançar, eu irei atender.'
+            '<25>{#f/0}* Com tanto que meu celular consiga alcançar, atenderei.'
         ],
         goodbye3: [
             '<25>{#p/toriel}{#f/5}* Eu sinto muito pelo que tenho feito você passar, meu pequeno.',
@@ -2119,7 +2119,7 @@ export default {
                 '<32>* Do Gumbert, provavelmente?'
             ],
             h: [
-                "<32>{#p/basic}{#n1}* Talvez agora que estamos todos livres, eles vão chegar a fazer aquele tal reinício na história.",
+                "<32>{#p/basic}{#n1}* Talvez agora que estamos todos livres, eles farão aquele reinício na história.",
                 "<32>* Como era chamado?\n* Ah, nesse ponto eu já esqueci..."
             ]
         },
@@ -2936,7 +2936,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* \"A fronteira final é um mar negro fundo.\"',
-                            '<32>{#p/basic}* \"Antes de entrar no {@fill=#ff993d}grande desconhecido{@fill=#fff}, espefe que suas {@fill=#00a2e8}correntes se alinhem{@fill=#fff}.\"'
+                            '<32>{#p/basic}* \"Antes de entrar no {@fill=#ff993d}grande desconhecido{@fill=#fff}, espere que suas {@fill=#00a2e8}correntes se alinhem{@fill=#fff}.\"'
                         ],
             w_puzzle3_view: () =>
                 SAVE.data.b.svr
@@ -3480,7 +3480,7 @@ export default {
                 ].map(
                     lines => () =>
                         SAVE.data.b.svr
-                            ? ['<32>{#p/human}* (O diário parece consistir basicamente das piadas de esqueleto do mais alto calibre.)']
+                            ? ['<32>{#p/human}* (O diário parece consistir basicamente das piadas de esqueleto.)']
                             : SAVE.data.n.plot === 72
                                 ? [
                                     '<32>{#p/human}* (Você olha a página mais recente.)',
@@ -4672,7 +4672,7 @@ export default {
             SAVE.data.b.toriel_twinkly
                 ? [
                     '<25>{#p/toriel}{#f/1}* Foi aqui onde eu te encontrei?',
-                    '<25>{#f/5}* Aquela estrela falante que o atormentou tem sido uma praga há algum tempo.',
+                    '<25>{#f/5}* Aquela estrela falante que o atormentou tem sido uma praga aqui.',
                     '<25>{#f/1}* Eu já tentei conversar com ele antes, mas...',
                     '<25>{#f/9}* Meus esforços nunca chegaram a lugar nenhum.'
                 ]
@@ -4689,17 +4689,17 @@ export default {
             '<25>{#f/0}* Um plataforma separada parecia uma adição óbvia.'
         ],
         w_lobby: [
-            '<25>{#p/toriel}{#f/0}* O quebra-cabeça nesta sala funciona perfeitamente como demonstração.',
+            '<25>{#p/toriel}{#f/0}* O quebra-cabeça nesta sala funciona como demonstração.',
             '<25>{#f/1}* Até porque, qual seria outro motivo para construí-lo?',
             '<25>{#f/5}* Infelizmente, nem todos os humanos entenderam isso.',
             '<25>{#f/3}* Um deles tentou correr contra o escudo de segurança...',
-            '<25>{#f/0}* ... para dizer o mínimo, o uso da minha mágica de cura foi requerida.'
+            '<25>{#f/0}* ... O uso da minha mágica de cura foi requerida.'
         ],
         w_tutorial: [
             '<25>{#p/toriel}* Se este aqui não é meu favorito, eu não sei qual é!',
             '<25>* A forma na qual ensina como colaboração é uma das maiores qualidades.',
             '<25>{#f/1}* Desde que meu trabalho dos sonhos É se tornar professora...',
-            '<25>{#f/0}* Eu sempre procuro formas de demonstrar estas importantes lições.'
+            '<25>{#f/0}* Eu procuro formas de demonstrar estas importantes lições.'
         ],
         w_dummy: () => [
             '<25>{#p/toriel}{#f/1}* A sala de treinamento...?',
@@ -4745,7 +4745,7 @@ export default {
                 ][SAVE.data.n.state_wastelands_dummy]
                 : [
                     '<25>{#p/toriel}{#f/0}* Ah, certo, sobre isso.',
-                    '<25>{#p/toriel}{#f/0}* Eu recentemente descobri que um fantasma estava se escondendo no boneco.',
+                    '<25>{#p/toriel}{#f/0}* Eu descobri que um fantasma se escondia neste boneco.',
                     '<25>{#p/toriel}{#f/1}* Eles pareciam irritados com alguma coisa, mas...',
                     '<25>{#p/toriel}{#f/0}* Após alguma conversa, eu os ajudei a se acalmar.',
                     '<25>{#p/toriel}{#f/1}* Hmm... me pergunto onde Lurksalot está agora?'
@@ -4755,7 +4755,7 @@ export default {
             '<25>{#p/toriel}{#f/5}* ...',
             '<25>{#f/5}* Em momentos como esse, é importante saber demonstrar respeito.',
             '<25>{#f/10}* ... você entende?',
-            '<25>{#f/9}* É uma lição mais importante do que aprender sobre armadilhas ou lutas.'
+            '<25>{#f/9}* É uma lição mais importante do que armadilhas ou lutas.'
         ],
         w_danger: () =>
             SAVE.data.n.state_wastelands_froggit === 3
@@ -4775,7 +4775,7 @@ export default {
                     '<25>{#f/0}* É por isso que o Froggit partiu tão prontamente.'
                 ],
         w_zigzag: [
-            '<25>{#p/toriel}{#f/1}* Minha ideia ao construir está sala era que ela fosse longa e com ondas...',
+            '<25>{#p/toriel}{#f/1}* Minha ideia para está sala era que ela fosse longa...',
             '<25>{#f/0}* ... eu senti que uma sala reta seria tão entediante.',
             '<25>{#f/1}* Até porque, quem deseja andar em linha reta por toda a vida?',
             '<25>{#f/0}* Uma pequena mudança no passo pode ser bem divertido.'
@@ -4816,14 +4816,14 @@ export default {
         ],
         w_puzzle4: [
             '<25>{#p/toriel}{#f/1}* Tem chamado minha atenção que, recentemente...',
-            '<25>{#f/0}* Edições antigas de uma série de quadrinhos agora extinta estão sendo vendidas.',
+            '<25>{#f/0}* Edições antigas de uma série de HQs extinta estão sendo vendidas.',
             '<25>{#f/0}* Talvez, se você estiver entediado, pode acabar comprando uma.',
             '<25>{#f/0}* Crianças da sua idade se divertem muito com essas coisas!'
         ],
         w_mouse: [
             '<25>{#p/toriel}{#f/1}* Por uma questão de princípio, acho importante...',
             '<25>{#f/0}* Aqui tem uma sala designada para descanso.',
-            '<25>{#f/0}* Em minha própria vida, muitas vezes acho que as pausas são um recurso útil.',
+            '<25>{#f/0}* Em minha própria vida, acho que as pausas são um recurso útil.',
             '<25>{#f/1}* O stærmite que reside aqui certamente concordaria...'
         ],
         w_blooky: () =>
@@ -4848,19 +4848,19 @@ export default {
                         '<25>{#f/0}* Tem se sentido bem melhor ultimamente.',
                         '<25>{#f/0}* Ele até veio a minha casa contar como estava bem.',
                         '<25>{#f/1}* Aparentemente foi por sua causa...?',
-                        '<25>{#f/0}* Que bom.\n* Eu estou muito orgulhosa de ti, minha criança.'
+                        '<25>{#f/0}* Que bom. Eu estou orgulhosa de ti, minha criança.'
                     ],
         w_party: [
             '<25>{#p/toriel}{#f/0}* A sala de atividades.\n* Nós fazemos todos os tipos de performance aqui.',
-            '<25>{#f/0}* Drama, noites de dança, romance...\n* E o mais importante de tudo, as artes.',
+            '<25>{#f/0}* Drama, dança, romance e o mais importante de tudo, as artes.',
             '<25>{#f/0}* É sempre maravilhoso ver as pessoas se expressando.',
             '<25>{#f/1}* Eu uma vez vi um show de comédia naquela mesma sala.',
             '<25>{#f/0}* Nunca ri tanto na minha vida!'
         ],
         w_pacing: () => [
             SAVE.data.b.toriel_twinkly
-                ? '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém aí fez \"amizade\" com uma estrela falante.'
-                : '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém fez \"amizade\" com uma estrela falante.',
+                ? '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém aí fez \"amizade\" com uma estrela.'
+                : '<25>{#p/toriel}{#f/0}* Eu ouvi dizer que alguém fez \"amizade\" com uma estrela.',
             '<25>{#f/1}* Um dos Froggits, eu presumo...?',
             "<25>{#f/1}* Eu estou bem preocupada com a segurança daquele monstro...",
             '<25>{#f/5}* Mas isso é um eufemismo.'
@@ -4868,13 +4868,13 @@ export default {
         w_junction: [
             '<25>{#p/toriel}{#f/1}* A sala de junção...',
             '<25>{#f/0}* No passado, nós planejemos uma área de comunidades aqui.',
-            '<25>{#f/0}* Visitantes das Outlands iriam ser apresentados a fresca e aconchegada atmosfera.',
-            '<25>{#f/1}* Depois de um tempo, percebemos que não muitos gostariam de vir aqui...',
+            '<25>{#f/0}* Visitantes seriam apresentados a fresca e aconchegada atmosfera.',
+            '<25>{#f/1}* Depois de um tempo, percebemos que poucos gostariam de vir...',
             '<25>{#f/0}* Por isso, o design foi alterado para o que você vê hoje.',
-            '<25>{#f/5}* Um pouco entediante, mas eu suponho que nem todas as salas podem ser grandes...'
+            '<25>{#f/5}* Um pouco entediante, mas nem todas as salas podem ser grandes...'
         ],
         w_annex: [
-            '<25>{#p/toriel}* Daqui, o todo- importante ponto de táxi pode ser alcançado.',
+            '<25>{#p/toriel}* Daqui, o importante ponto de táxi pode ser acessado.',
             '<25>{#f/1}* Não apenas outras áreas do Outpost são acessíveis...',
             '<25>{#f/0}* Mas outras subseções das Outlands também.',
             '<25>{#f/1}* Mas como você é uma criança, entretanto...',
@@ -5055,11 +5055,11 @@ export default {
             '<25>{#f/0}* Mas não ele!\n* Esse esqueleto sabe o que é melhor para si.'
         ],
         s_papyrus: [
-            '<25>{#p/toriel}* Sans me contou sobre todas as gravações e utensílios que o Papyrus adicionou a sua estação.',
-            '<25>{#f/1}* Primeiro, uma alça, para que ele possa \"balançar\" para o serviço...',
-            '<25>{#f/1}* Uma chamada \"chave inglesa do céu\" usada para obter uma \"correção\" nas estrelas...',
-            '<25>{#f/0}* E um tablet para poder anotar cada uma de suas muitas responsabilidades.',
-            '<25>{#f/6}* Com invenções como essa, você poderia pensar que ele trabalha no laboratório.'
+            '<25>{#p/toriel}* Sans me disse dos utensílios que o Papyrus construiu.',
+            '<25>{#f/1}* Uma alça, para que ele \"balançe\" para o serviço...',
+            '<25>{#f/1}* Uma chamada \"chave inglesa\" usada para \"correção\" estelares...',
+            '<25>{#f/0}* E um tablet para poder anotar cada uma de suas responsabilidades.',
+            '<25>{#f/6}* Assim você poderia pensar que ele trabalha no laboratório.'
         ],
         s_doggo: [
             '<25>{#p/toriel}{#f/5}* A Guarda Real está te dando muito trabalho?',
@@ -5078,10 +5078,10 @@ export default {
             '<25>{#f/0}* É legal saber que eles estão sobrevivendo até hoje.'
         ],
         s_maze: [
-            "<25>{#p/toriel}* Sans me contou sobre a apreciação do seu irmão por armadilhas.",
+            "<25>{#p/toriel}* Sans me disse sobre a apreciação do seu irmão por armadilhas.",
             '<25>{#f/1}* Eu ouvi dizer que ele criou algumas ele mesmo...?',
             '<25>{#f/0}* Estou super curiosa sobre a \"Parede de Fogo.\"',
-            '<25>{#f/1}* As chamas estão quentes?\n* Ou elas são apenas agradavelmente quentes?',
+            '<25>{#f/1}* As chamas são quentes? Ou apenas agradavelmente quentes?',
             '<25>{#f/5}* Pelo seu bem, eu espero que seja o último.'
         ],
         s_dogs: [
@@ -5164,20 +5164,20 @@ export default {
         s_town1: [
             '<25>{#p/toriel}{#f/0}* Ah...\n* A cidade de Starton.',
             '<25>{#f/1}* Eu ouvi muito falar sobre um tal \"Grillby\" por aí...',
-            '<25>{#f/0}* ... e sua gama diversificada de clientes novos e antigos.',
+            '<25>{#f/0}* ... e sua gama diversificada de clientes novos.',
             '<25>{#f/0}* Sans vai lá para comer muitas vezes, sabe?',
             '<25>{#f/7}* E também ouvi dizer que o atendente é bem \"quente.\"'
         ],
         s_taxi: [
             '<25>{#p/toriel}{#f/1}* Uma parada de táxi perto da cidade?',
             '<25>{#f/1}* ... hmm...',
-            '<25>{#f/0}* Me pergunto se ele tem alguma diferença do que temos aqui nas Outlands.',
-            '<25>{#f/1}* Claro, na tem como eu saber antes de ver...',
+            '<25>{#f/0}* Me pergunto se ele tem alguma diferença do que tem nas Outlands.',
+            '<25>{#f/1}* Claro, não tem como eu saber antes de ver...',
             '<25>{#f/0}* O que não tem como eu fazer sem um telescópio extravagante.',
             '<25>{#f/0}* Onde será que dá pra encontrar um desses?'
         ],
         s_town2: [
-            '<25>{#p/toriel}{#f/1}* Napstablook recentemente me disse que eles abriram uma loja...',
+            '<25>{#p/toriel}{#f/1}* Napstablook me disse que eles abriram uma loja...',
             '<25>{#f/5}* ... no lado \"sul\" da cidade.',
             '<25>{#f/1}* O que isso poderia significar?',
             '<25>{#f/0}* A cidade que eu lembro organizar era um único e grande quadrado.',
@@ -5187,13 +5187,13 @@ export default {
         s_battle: [
             '<25>{#p/toriel}{#f/1}* Uma das coisas das quais Sans mais parecia querer me avisar...',
             '<25>{#f/0}* Era um então chamado \"ataque especial\" do seu irmão.',
-            '<25>{#f/1}* Se Papyrus decidir lutar contra você, é preciso evitar isso a todo custo.',
+            '<25>{#f/1}* Se Papyrus lutar contra você, evite isso a todo custo.',
             '<25>{#f/2}* Digo e repito, evite seu ataque especial!\n* A todo custo!',
             '<25>{#f/0}* Isso é tudo que eu tenho para dizer.'
         ],
         s_exit: [
             '<25>{#p/toriel}{#f/1}* Se você decidir deixar Starton, eu devo te avisar sobre algo...',
-            '<25>{#f/5}* Meu celular é antigo, é pode apenas acessar algumas partes da fábrica.',
+            '<25>{#f/5}* Meu celular é antigo, é acessa só algumas partes da fábrica.',
             '<25>{#f/9}* Vai ser difícil me ligar até você sair de lá.',
             '<25>{#f/1}* Me desculpe.\n* Eu apenas senti que você precisava saber.'
         ],
@@ -5234,7 +5234,7 @@ export default {
             '<25>{#p/toriel}{#f/0}* Ah, aí está você.',
             "<25>{#f/0}* Você está na borda da fábrica.",
             '<26>{#f/1}* Desde ponto para frente eu não sei o que te espera...',
-            '<25>{#f/5}* Antes de ir embora, havia apenas um elevador direto para a Cidadela.',
+            '<25>{#f/5}* Antes de ir embora, havia apenas um elevador a Cidadela.',
             '<25>{#f/1}* Agora, entretanto, existe essa tal área chamada \"Aerialis...\"',
             '<25>{#f/23}* ... Me pergunto quem teve a ideia DESSE nome.'
         ],

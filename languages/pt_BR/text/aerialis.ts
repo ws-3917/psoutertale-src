@@ -243,8 +243,8 @@ export default {
                         '<25>{#p/undyne}{#f/4}* Quê?\n* Óbvio que não!',
                         "<25>{#p/undyne}{#f/5}* Eu só...",
                         "<25>{#p/undyne}{#f/12}* Eu só sou uma grande admiradora das belezas de um artista.",
-                        "<18>{#p/papyrus}{#f/5}ENTÃO VOCÊ IRIA COMIGO AO CLUBE DE JAZZ E BLUES MUSIC?",
-                        "<25>{#p/undyne}{#f/8}* Ai meu senhor, pela última vez, eu NÃO vou tocar um saxophone de novo!!"
+                        "<18>{#p/papyrus}{#f/5}ENTÃO VOCÊ IRIA COMIGO AO CLUBE DE JAZZ E BLUES?",
+                        "<25>{#p/undyne}{#f/8}* Ai meu senhor, pela última vez, eu NÃO vou tocar um saxophone!!"
                     ],
             () =>
                 SAVE.data.b.a_state_fishbetray
@@ -271,7 +271,7 @@ export default {
                             '<25>{#p/undyne}{#f/3}*Nunca mais diga isso.'
                         ]
                         : [
-                            "<18>{#p/papyrus}SE VOCÊ ESTÁ PROCURANDO PELO SORVETE, ESTÁ NA MINHA DIREITA.",
+                            "<18>{#p/papyrus}SE VOCÊ PROCURA SORVETE, É NA DIREITA.",
                             '<25>{#p/undyne}{#f/3}*Você quer dizer \"esquerda?\"',
                             '<18>{#p/papyrus}{#f/5}TECNICAMENTE, O SORVETE ESTÁ NA MINHA ESQUERDA.',
                             "<18>{#p/papyrus}{#f/4}MAS PARA O HUMANO, ESTÁ NA MINHA DIREITA.",
@@ -338,10 +338,10 @@ export default {
                         ]
                         : [
                             '<25>{#p/undyne}{#f/1}* Ei, cara. \n* Legal te ver.',
-                            "<18>{#p/papyrus}{#f/6}VOCÊ NÃO ERA TIPO A INIMIGA MORTAL DELE HOJE MAIS CEDO?",
+                            "<18>{#p/papyrus}{#f/6}VOCÊ NÃO ERA TIPO A INIMIGA MORTAL DELE HOJE MESMO?",
                             "<25>{#p/undyne}{#f/14}* É tipo, sim, mas isso aí está tudo no passado.",
                             '<18>{#p/papyrus}{#f/0}SE VOCÊ DIZ.',
-                            '<18>{#p/papyrus}{#f/5}UAU... IMAGINE TUDO O QUE EU PODERIA FAZER SE SANS PENSASSE ASSIM...',
+                            '<18>{#p/papyrus}{#f/5}TUDO QUE EU PODERIA FAZER SE SANS PENSASSE ASSIM...',
                             '<18>{#p/papiro}{#f/4}... TODA VEZ QUE ELE DIZ QUE ALGO ESTA \"NO PASSADO.\"',
                             '<25>{#p/undyne}{#f/17}*Hábitos antigos prevalecem.'
                         ]
@@ -355,7 +355,7 @@ export default {
                 SAVE.data.n.plot < 68.1 || SAVE.data.b.a_state_hapstablook
                     ? [
                         '<25>{#p/undyne}{#f/1}* Se você quiser se juntar a mim no clube de artes mágicas...',
-                        '<25>{#p/undyne}{#f/3}* ... er, na verdade eu dúvido muito que o taxi te levaria lá, por você ser criança.',
+                        '<25>{#p/undyne}{#f/3}* ... na verdade eu dúvido que o taxi te leve, por você ser criança.',
                         "<25>{#p/undyne}{#f/12}* Talvez ele te deixa visitar depois que você crescer um bocadinho."
                     ]
                     : ["<25>{#p/undyne}{#f/11}* Estou de olho em você."]
@@ -609,8 +609,8 @@ export default {
             phonegrabber1: () => [
                 game.room === 'a_lab_downstairs' // NO-TRANSLATE
 
-                    ? "<33>{#p/basic}* É o celular reserva de Alphys.\n* Vem com uma passagem de porta-malas e caixas bidimensionais."
-                    : "<32>{#p/basic}* É um telefone celular inteligente. Vem com uma passagem de caixas bidimensionais.",
+                    ? "<33>{#p/basic}* É o celular reserva de Alphys. Vem com passagem e caixas dimensionais."
+                    : "<32>{#p/basic}* É um telefone celular inteligente. Vem com uma passagem e caixas dimensionais.",
                 ...(world.genocide
                     ? ['<32>{#p/basic}* A mochila a jato de uso único não está mais disponível.']
                     : ['<32>{#p/basic}* Além disso, um jetpack portátil de uso único está disponível.'])
@@ -672,7 +672,7 @@ export default {
                                             ]
                                             : SAVE.data.b.s_state_mathpass
                                                 ? [
-                                                    '<25>{#f/16}* ... foi como você venceu o quebra-cabeça do neutralizador de números por você!',
+                                                    '<25>{#f/16}* ... foi como você venceu o quebra-cabeça do neutralizador!',
                                                     '<25>{#f/12}* Tão legal...'
                                                 ]
                                                 : ['<25>{#f/16}* ... foi te ver lutar a Undyne???']),
@@ -888,7 +888,7 @@ export default {
                         "<32>{#z30}* UM ENCONTRO QUE RESULTOU NA MORTE DA CAPITÃ.",
                         "<32>{#z31}* OLHA, EU PESSOALMENTE, NÃO SOU A MAIOR FÃ DA UNDYNE.",
                         '<32>{#z30}* MAS ALPHYS... ELA ERA BASTANTE.',
-                        "<32>{#z21}* E ELA LEVOU ISSO TUDO PAR AO FUNDO DO CORAÇÃO.",
+                        "<32>{#z21}* E ELA LEVOU ISSO TUDO PARA O FUNDO DO CORAÇÃO.",
                         "<32>{#z21}* EU NÃO ESTOU DIZENDO QUE VOCÊ É UMA PESSOA RUIM... MAS SUAS ESCOLHAS FERIRAM MINHA AMIGA.",
                         "<33>{#z30}* ... VAMOS SÓ DIZER QUE ELA NÃO ESTARÁ AQUI POR UM TEMPINHO.",
                         "<32>{#z03}* MAS SEM PÂNICO.\n* SE VOCÊ SENTIR-SE SOZINHO, UMA COISA PODE GARANTIR...",
@@ -2337,7 +2337,7 @@ export default {
                 '<32>* Você tem certeza que quer isso agora?',
                 "<32>{#p/hapstablook}* eu estou pronta, doutora.",
                 "<32>{#p/alphys}* Okay... Eu v-vou ativar o Mettaton agora.",
-                '<32>* Este chip de controle vai autorizar que você use qualquer corpo que eu construir...',
+                '<32>* Este chip vai autorizar que você use qualquer corpo que eu fizer...',
                 "<32>* Quando eu finalizar seu corpo, eu só irei t-transferi-lo.",
                 '<32>* Isso vai, uh, funcionar?',
                 "<32>{#p/hapstablook}* é maravilhoso, doutora.\n* maravilhoso!",
@@ -2426,7 +2426,7 @@ export default {
                 ...(SAVE.data.b.oops
                     ? ['<32>{#p/napstablook}* te vejo depois, eu acho']
                     : [
-                        '<32>{#p/napstablook}* s $(namel)?',
+                        '<32>{#p/napstablook}* $(namel)?',
                         '<32>{#p/basic}* ...?',
                         '<32>{#p/napstablook}* .........\n* valeu por estar aqui.'
                     ])
@@ -2541,13 +2541,13 @@ export default {
                     ? "Tempo |voa|para |acabar..."
                     : iFancyYourVilliany()
                         ? 'Que |é |ver...'
-                        : 'Por |favor |vá|fugir...',
+                        : 'Por |favor |vá| fugir...',
             opera19: () =>
                 world.genocide
                     ? "Logo |você |desejará..."
                     : iFancyYourVilliany()
                         ? 'Alguém |desperdiçou... '
-                        : 'O|rei |monstro...',
+                        : 'O| rei |monstro...',
             opera20: () =>
                 world.genocide
                     ? "Que |você|não |pecasse..."
@@ -2565,7 +2565,7 @@ export default {
                     ? 'Você |ser |morto...'
                     : iFancyYourVilliany()
                         ? 'Eu |fiquei |in|trigado...'
-                        : 'Viva |longe |a|parte...',
+                        : 'Viva |longe |a| parte...',
             opera23: () =>
                 world.genocide ? "Vamos |en|saiar" : iFancyYourVilliany() ? "Mas |você |está..." : 'Mes|mo |se...',
             opera24: () =>
@@ -2573,7 +2573,7 @@ export default {
                     ? "A |vida |que você |levou..."
                     : iFancyYourVilliany()
                         ? 'Não |na |minha|liga...'
-                        : 'Isso |quebra |meu |coração...',
+                        : 'Isso |quebra |meu \n|coração...',
             opera25: () =>
                 world.genocide
                     ? 'Nascido |um |príncipe...'
@@ -2711,7 +2711,7 @@ export default {
             hapsta51b: [
                 "<32>{#p/mettaton}{#e/mettaton/20}* SE NÃO FOSSE POR VOCÊ, TALVEZ EU TIVESSE GOSTADO DA VIDA CALMA...",
                 '<32>{#p/mettaton}{#e/mettaton/17}* ... MAS NÃO.\n* VOCÊ -TINHA- QUE SE METER NOS NEGÓCIOS DE FAMÍLIA.',
-                '<32>{#p/mettaton}{#e/mettaton/19}* UM NEGÓCIO, DEVO ACRESCENTAR, CUJOS NÚMEROS DE VENDAS ESTÃO NO VERMELHO DESDE O PRIMEIRO DIA.'
+                '<32>{#p/mettaton}{#e/mettaton/19}* UM NEGÓCIO, CUJOS NÚMEROS DE VENDAS ESTÃO NO VERMELHO DESDE O PRIMEIRO DIA.'
             ],
             hapsta52: ['<32>{#p/napstablook}{#e/mettaton/3}* .........\n* eu sei.'],
             hapsta53: [
@@ -2720,13 +2720,13 @@ export default {
             hapsta54: ["<32>{#p/finalghost}* Considerando que todos nós lemos seu diario, tenho certeza que eles também..."],
             hapsta55a: [
                 "<32>{#p/mettaton}{#e/mettaton/19}* EU NÃO LIGO PRA QUEM LEU MEU DIÁRIO, EU QUERO QUE OUÇAM ISSO VINDO DE MIM.",
-                '<32>{#p/mettaton}{#e/mettaton/3}* ...\n* ESCUTA AQUI, \"PRIMO.\"\n* O TRABALHO NUNCA FOI UM PROBLEMA.',
-                '<32>{#p/mettaton}{#e/mettaton/14}* FAZENDA DE LESMAS PODIA NÃO SER O TRABALHO MAIS PRAZEROSO, MAS EU GOSTAVA PELO QUE ELE ERA.',
-                "<32>{#p/mettaton}{#e/mettaton/13}* NÃO... APENAS SE TORNOU UM PROBLEMA QUANDO TODO SEGUNDO QUE EU NÃO ESTIVESSE NA FAZENDA...",
+                '<32>{#p/mettaton}{#e/mettaton/3}* ESCUTA AQUI, \"PRIMO.\"\n* O TRABALHO NUNCA FOI UM PROBLEMA.',
+                '<32>{#p/mettaton}{#e/mettaton/14}* FAZENDA DE LESMAS PODIA NÃO SER O TRABALHO MAIS PRAZEROSO, MAS EU GOSTAVA PELO QUE ERA.',
+                "<32>{#p/mettaton}{#e/mettaton/13}* NÃO... APENAS SE TORNOU UM PROBLEMA QUANDO EU NÃO ESTIVESSE NA FAZENDA...",
                 "<32>{#p/mettaton}* ... FOI UM SEGUNDO QUE VOCÊS NÃO PARECIAM SE IMPORTAR COMIGO."
             ],
             hapsta55b: [
-                '<32>{#p/mettaton}{#e/mettaton/16}* SEM LIGAÇÃO, SEL VISITA... SÓ O PADRÃO \"EI, QUANDO VOCÊ VOLTA PARA TRABALHAR?\"',
+                '<32>{#p/mettaton}{#e/mettaton/16}* SEM LIGAÇÃO, SEM VISITA... SÓ O PADRÃO \"EI, QUANDO VOCÊ VOLTA PARA TRABALHAR?\"',
                 "<32>{#p/mettaton}{#e/mettaton/15}* ESTAVA BEM ÓBVIO PARA MIM QUE EU NÃO ERA NADA ALÉM DE UMA FERRAMENTA...",
                 '<32>{#p/mettaton}{#e/mettaton/11}* APENAS UM TRABALHADOR NA GRANDE MAQUINA DA FAMÍLIA BLOOK.'
             ],
@@ -2809,8 +2809,8 @@ export default {
                 ...(SAVE.data.b.a_state_hapstablook && !SAVE.data.b.oops
                     ? [
                         '<25>{#p/alphys}{#g/alphysInquisitive}* sem mencionar todo o \"$(name)\"...',
-                        "<25>* Da última vez que olhei, ele já está morto faz centenas de anos...",
-                        "<25>{#g/alphysWelp}* ah bem.\n* Eu acho que eles vão me falar sobre isso depois.",
+                        "<25>* Pelo que sei, ele já está morto faz centenas de anos...",
+                        "<25>{#g/alphysWelp}* ah bem, eu acho que eles vão me falar sobre isso depois.",
                         "<25>{#g/alphysWelp}{#x5}* Falando em vontades, você provavelmente já quer ir..."
                     ]
                     : [
@@ -2868,10 +2868,10 @@ export default {
             opera38: [
                 '<32>{#p/basic}* ... agora eu entendo por que Blooky se sente como ele se sente o tempo todo.',
                 "<32>* A culpa, de pensar que você poderia ter cuidado melhor de alguém...",
-                "<32>* Hmph.\n* Talvez tenha algo a mais que eu possa fazer para ajudar aqui.",
+                "<32>* Talvez tenha algo a mais que eu possa fazer para ajudar aqui.",
                 '<32>* Lembra o que aconteceu com a Toriel?',
                 '<32>* A forma como você me chamou e eu fui capaz de falar?',
-                '<32>* Eu sei uma coisa sobre monstros.\n* Uma coisa que pode nos ajudar a lidar com isso mais facilmente.',
+                '<32>* Eu sei uma coisa sobre monstros, que pode nos ajudar a lidar com isso fácil.',
                 '<32>* Então, se eu pensar sobre algo...',
                 '<32>* Me chama como você fez antes, beleza?'
             ],
@@ -3163,7 +3163,7 @@ export default {
                     ],
             end8: [
                 '<25>{#p/alphys}{#g/alphysWelp}* Eu deveria ir indo.',
-                '<25>{#g/alphysNeutralSweat}* M-mas, uh, eu meio que preciso de vocês vindo comigo.',
+                '<25>{#g/alphysNeutralSweat}* M-mas, uh, eu meio que preciso de você vindo comigo.',
                 '<25>{#g/alphysNervousLaugh}* O futuro da raça monstro... depende de d-disso...'
             ],
             end9: [
@@ -3202,10 +3202,10 @@ export default {
             ],
             end11: () => [
                 '<32>{#p/human}* (Você escuta um chorinho.)',
-                '<32>{#p/basic}* ... todas essas coisas de família com Mettaton estão batendo um pouco perto de casa.',
+                '<32>{#p/basic}* ... todas essas coisas de família com Mettaton estão batendo perto de casa.',
                 "<32>* Blooky... não foi o único que cometeu esse tipo de erro com as pessoas.",
                 '<32>* ...',
-                "<32>* Eu acho, que por agora.\nEu só vou ter que fazer meu melhor para continuar seguindo em frente...",
+                "<32>* Eu vou ter que fazer meu melhor para continuar seguindo em frente...",
                 '<32>* ...\n* Vamos lá, parceiro.',
                 "<32>* Vamos para casa."
             ],
@@ -4562,8 +4562,8 @@ export default {
                                 : '<32>{#p/basic}* Produtos químicos em correias transportadoras.\n* O que poderia dar errado?',
                         ...(mtt
                             ? [
-                                '<32>{#p/mettaton}* NADA COMO O ZUMBIDO CALMANTE DE UMA CORREIA TRANSPORTADORA COM CLASSIFICAÇÃO MTT-TRIPLE-A-SAFE!',
-                                '<32>* NÃO APENAS TE SALVA TEMPO DE TER QUE ALCANÇAR OUTROS DOIS EXTRAS MICRONS PARA SEGURAR COISAS...',
+                                '<32>{#p/mettaton}* NADA COMO O ZUMBIDO CALMANTE DE UMA CORREIA TRANSPORTADORA COM CLASSIFICAÇÃO MTT!',
+                                '<32>* NÃO APENAS TE SALVA TEMPO DE TER QUE ALCANÇAR OUTROS DOIS EXTRAS MICRONS...',
                                 '<32>* MAS QUANDO FRASCOS CAEM VIOLENTAMENTE PARA O LADO E SE QUEBRAM...',
                                 '<32>* VOCÊ GANHA UMA REAÇÃO QUÍMICA SURPRESA, CHEIA DE ENERGIA!'
                             ]
@@ -5509,8 +5509,8 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Se nós finalmente estamos indo para um novo mundo, eu vou encontrar um lugar frio pra morar.",
-                            "<32>* Não é como se eu precisasse.\n* Mas pelo menos esse urso vai deixar de me dar presentes de dar pena."
+                            "<32>{#p/basic}{#npc/a}* Se nós estamos indo para um novo mundo, eu vou achar um lugar frio pra morar.",
+                            "<32>* Não é como se eu precisasse.\n* Mas pelo menos esse urso vai deixar de me dar presentes."
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* Este urso insiste em me presentear com enfeites para colocar na minha cabeça.',
@@ -5526,7 +5526,7 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Estou começando a pensar que minha pena por Gyftrot foi um reflexo da minha própria tristeza.',
+                            '<32>{#p/basic}{#npc/a}* Estou começando a pensar que minha pena por Gyftrot foi um reflexo da minha tristeza.',
                             '<32>* Eu mesmo ansiava por um ambiente frio, desde que me lembro...',
                             '<32>* Quando chegarmos ao nosso destino eu sairei a procura de um.'
                         ]
@@ -5538,7 +5538,7 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Por agora vou ficar com o Gyftrot.\n* Dar presentes a ele é a única forma que eu sei de contribuir."
+                            "<32>{#p/basic}{#npc/a}* Por agora vou ficar com ele. Dar presentes é minha única forma de retribuir.."
                         ]
                         : [
                             '<32>{#p/basic}{#npc/a}* Por agora eu vou trabalhar para melhorar a vida daqueles menos felizes que eu.'
@@ -5629,7 +5629,7 @@ export default {
                     SAVE.data.n.plot === 72
                         ? [
                             '<32>{#p/basic}{#npc/a}* Então. Um novo mundo, né?\n* Meu filho e eu vamos fazer tantas coisas boas juntos.',
-                            "<32>* Tantas coisas boas.\n* Especialmente aquele lugar que a antiga professora de artes tem em mente.",
+                            "<32>* Tantas coisas boas. Especialmente o lugar que a professora tem em mente.",
                             "<32>* Então, nós iremos pro jantar, filmes... e o pai dele virá, também.",
                             "<32>* Garotos crescidos tem tantas necessidades, não tem?\n* Então é justo.",
                             "<32>* Eu me pergunto se o amigo do meu filho estaria interessado...?"
@@ -5829,7 +5829,7 @@ export default {
                                 : ['<32>{#p/basic}* ... mas ninguém veio.']
                             : SAVE.data.n.plot === 72
                                 ? [
-                                    '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Todas as reservas canceladas.)\n* (Sessão dois, clausula: Liberdade.)',
+                                    '<32>{#p/basic}{#npc/a}* Blub blub...\n* (Todas as reservas canceladas.)',
                                     "<32>* (Você não leu os termos e condições...?)"
                                 ]
                                 : music.sansdate.instances.length > 0
@@ -5957,7 +5957,7 @@ export default {
                     [
                         '<25>{#p/asriel2}{#f/3}* Finalmente, a sala de controle central.',
                         "<25>{#f/3}* Daqui, tem um controle para praticamente tudo.",
-                        '<25>{#f/15}* Revestimento por gravidade, distribuição de calor, até a atmosfera...',
+                        '<25>{#f/15}* Gravidade, distribuição de calor, até a atmosfera...',
                         '<25>{#f/4}* Tudo aqui roda por esse sistema.',
                         "<25>{#f/3}* Vamos ver se meu código de acesso real ainda funciona.",
                         "<25>{#f/2}* Eu não perdoaria se eles esquecessem..."
@@ -6292,7 +6292,7 @@ export default {
             () =>
                 SAVE.data.n.plot === 72
                     ? [
-                        "<32>{#p/basic}{#npc/a}* Seja bem-vindo ao Quatro Dimensões.\n* Estamos fechados pela sessão dois, clausula da liberdade.",
+                        "<32>{#p/basic}{#npc/a}* Bem-vindo ao Quatro Dimensões. Fechamos pela sessão dois, liberdade.",
                         '<32>* As pessoas nunca leem os termos e condições...'
                     ]
                     : SAVE.data.b.killed_mettaton
@@ -8405,7 +8405,7 @@ export default {
         translateText5: () =>
             world.meanie
                 ? ['<08>{#p/basic}{~}(Se arrependa de quando você foi mau.)']
-                : ['<08>{#p/basic}{~}(Nunca se arrependa da sua bondade.)'],
+                : ['<08>{#p/basic}{~}(Nunca se arre- penda da sua bondade.)'],
         mercyStatus: () =>
             !world.badder_lizard
                 ? calm_lizard()
@@ -8966,7 +8966,7 @@ export default {
         sparkTalk1A: [
             "<08>{#p/basic}{~}Eu vou te servir uma quente agora",
             "<08>{#p/basic}{~}Mesmo se você não merecer",
-            '<08>{#p/basic}{~}Dispare como uma espingarda!'
+            '<08>{#p/basic}{~}Dispare como uma espin- garda!'
         ],
         sparkTalk2A: [
             "<08>{#p/basic}{~}Esta marca está prestes a ficar machucada",
@@ -8991,7 +8991,7 @@ export default {
         ],
         sparkTalk2B: [
             '<08>{#p/basic}{~}Pois está perdendo pro cara esquentado',
-            "<09>{#p/basic}{~}Sou bipartidário, nomeado",
+            "<09>{#p/basic}{~}Sou bipar- tidário, nomeado",
             "<08>{#p/basic}{~}Você é um cidadão dominado",
             '<08>{#p/basic}{~}Até mesmo sua ALMA é corrompida!'
         ],
@@ -11441,7 +11441,7 @@ export default {
                         },
                         {
                             b: '<16>{#k/6/0}* Ah. Certo. É claro que você iria.',
-                            c: "<16>{#k/6/7}* Quem não gostaria de namorar um ser com um poder comparado ao de um deus?"
+                            c: "<16>{#k/6/7}* Quem não gostaria de namorar um ser com um poder de um deus?"
                         }
                     ]
                     : SAVE.data.n.plot < 68
@@ -11750,7 +11750,7 @@ export default {
                             s: true
                         },
                         {
-                            b: '<16>{#k/2/6}* Eu me pergunto o que eles terão a dizer sobre essa coisa de \"arquivo...\"',
+                            b: '<16>{#k/2/6}* Eu me pergunto o que eles terão a dizer sobre esse \"arquivo...\"',
                             c: '<16>{#k/2/6}* Pois é, AQUELA coisa...'
                         },
                         {

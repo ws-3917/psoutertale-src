@@ -37,7 +37,7 @@ export default {
             "<25>{#f/1}* Está meio difícil de enxergar aqui."
         ],
         darktoriel2: [
-            '<25>{#p/toriel}{#f/9}* Eu peço desculpas. Você provavelmente procurou por mim em todos os lugares.',
+            '<25>{#p/toriel}{#f/9}* Eu peço desculpas. Você provavelmente procurou por mim.',
             '<25>{#f/9}* Se você tentou me ligar, eu desliguei meu telefone.',
             '<25>{#f/13}* ...',
             '<25>{#f/13}* Me desculpe por tudo que eu fiz, pequeno.',
@@ -857,7 +857,7 @@ export default {
                         ? [
                             '<25>{#p/asgore}{#f/15}* Então você acabou voltando para ele no final...',
                             '<25>{#p/asriel2}{#f/7}* $(name) e eu somos inseparáveis, Asgore. Você deveria saber.',
-                            '<25>{#p/asgore}{#f/15}* $(name)... M-mas é claro.\n* Então... o que vocês estão fazendo?',
+                            '<25>{#p/asgore}{#f/15}* $(name)... M-mas é claro, o que vocês estão fazendo?',
                             "<25>{#p/asriel2}{#f/8}* Sinceramente, isso não te importa.",
                             "<25>{#p/asgore}{#f/15}* (Ugh... deveria ter visto isso chegando...)",
                             "<25>{#p/asriel2}{#f/6}* Só para dizer, então...\n* Estamos indo em uma pequena aventura.",
@@ -977,7 +977,7 @@ export default {
                 '<25>{#f/16}* Sem mundo, sem filhos... preso aqui pelos humanos...',
                 '<25>{#f/15}* E agora, o Outpost vai cair e tudo que eu posso fazer é assistir.',
                 "<25>{#p/asriel2}{#f/15}* Se você está me pedindo por piedade, deve estar muito desesperado...",
-                '<25>{#f/16}* Pequeno conselho.\n* Da próxima vez, tente não começar uma guerra...',
+                '<25>{#f/16}* Pequeno conselho.\n* Da próxima vez, não começa uma guerra...',
                 '<25>{#p/asgore}{#f/2}* ...',
                 '<25>{#f/4}* Você...',
                 '<25>{#f/2}* ...',
@@ -987,7 +987,7 @@ export default {
                 "<25>{#p/asriel2}{#f/15}* ... wow.\n* Estou impressionado.",
                 '<25>{#f/16}* Você finalmente disse algo inteligente.',
                 '<25>{#p/asgore}{#f/1}* ...',
-                "<25>{#p/asriel2}{#f/10}* E o que agora?\n* Qual o próximo movimento para o grande rei?",
+                "<25>{#p/asriel2}{#f/10}* E o que agora?\n* Qual o próximo movimento para o rei?",
                 '<25>{#p/asgore}{#f/15}* Pra ser sincero?',
                 '<25>{#f/15}* ...',
                 '<25>{#f/16}* Eu não faço ideia, Asriel.'
@@ -995,7 +995,7 @@ export default {
             asriel33: ['<25>{#p/asriel2}{#f/10}* Eu detectei uma emoção de raiva...?'],
             
             asriel34: [
-                "<25>{#p/asriel2}{#f/3}* Eu vou ter que cuidar de algumas coisas, então deixarei vocês sozinhos.",
+                "<25>{#p/asriel2}{#f/3}* Eu vou ter que cuidar de algumas coisas, depois eu volto.",
                 '<25>{#p/kidd}{#f/3}* Você vai voltar?\n* Você precisa me contar mais sobre a Undyne...',
                 "<25>{#p/asriel2}{#f/4}* Eu prometi, não foi?",
                 "<25>{#f/1}* Não se preocupe.\n* Eu estarei de volta antes de você perceber.",
@@ -1059,7 +1059,7 @@ export default {
                     ? [
                         '<25>{#p/asriel2}{#f/10}* Já?\n* Nossa...',
                         '<25>{#f/3}* Este é o potencial que os monstros recusam ter, $(name).',
-                        '<25>{#f/16}* Esperança, medo, empatia... eles se agarram a essas emoções.',
+                        '<25>{#f/16}* Esperança, medo, empatia... presos a essas emoções.',
                         "<25>{#f/15}* Imagine se todos eles fossem assim."
                     ]
                     : ['<25>{#p/asriel2}{#f/4}* Bem no tempo.'],
@@ -1183,7 +1183,7 @@ export default {
         kiddStatue: [
             '<25>{#p/kidd}{#f/1}* Yo, eu lembro desse lugar!',
             '<25>{#f/3}* Minha, uh, mãe me trouxe aqui uma vez.',
-            "<25>{#f/1}* Se nós dois nos colocarmos nos pisos, a luz acende.\n* Não é legal!?"
+            "<25>{#f/1}* Se nós dois nos colocarmos nos pisos, a luz acende. É legal!"
         ],
         kitchencall: () => [
             '<32>{#p/event}* Ring, ring...',
@@ -1202,7 +1202,7 @@ export default {
                     '<18>{#f/5}BEM... ACHO QUE A UNDYNE PRECISA DO MESMO.',
                     '<18>{#f/4}ACHO QUE VOCÊS DOIS SERIAM GRANDES AMIGOS...',
                     SAVE.data.b.flirt_papyrus ? '<18>{#f/6}... APENAS AMIGOS!' : '<18>{#f/0}ASSIM COMO NÓS SOMOS!',
-                    "<18>{#f/0}BEM, ME ENCONTRE NA CASA DA UNDYNE QUANDO ESTIVER PRONTO."
+                    "<18>{#f/0}BEM, ME ENCONTRE NA UNDYNE QUANDO ESTIVER PRONTO."
                 ]),
             '<18>{#f/9}SERÁ FANTASTICO!',
             '<32>{#s/equip}{#p/event}* Click...'
@@ -1300,7 +1300,7 @@ export default {
                         ]
                         : [
                             '<32>{#p/basic}* Isso significa minha tormenta interna, preso aqui por minhas hifas.',
-                            '<32>* Minha luta para me afastar.\n* Minha luta para escapar.\n* Mas, infelizmente, sem sucesso.'
+                            '<32>* Minha luta para me afastar.\n* Minha luta para escapar.\n* Mas, sem sucesso.'
                         ],
         musicbox: [
             '<18>{#p/asriel1}{#v/1}{#i/4}Parece que veio daqui...',
@@ -1560,9 +1560,9 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            '<32>{#p/basic}{#npc/a}* Que bobo...\n* Assim que eu decido ficar em um lugar, nós todos vamos embora.',
+                            '<32>{#p/basic}{#npc/a}* Assim que eu decido ficar em um lugar, nós todos vamos embora.',
                             '<32>* A ironia da situação ainda não me espaçou.\n* Ainda assim, é pelo melhor.',
-                            "<32>* No novo mundo...\n* Eu vou ter certeza de encontrar muitos novos vizinhos para mim."
+                            "<32>* No novo mundo, eu vou ter certeza de encontrar muitos novos vizinhos."
                         ]
                         : SAVE.data.n.plot === 47.2
                             ? ["<32>{#p/basic}{#npc/a}* Er, ela ainda está atrás de você."]
@@ -2410,8 +2410,8 @@ export default {
                 () =>
                     SAVE.data.n.plot === 72
                         ? [
-                            "<32>{#p/basic}{#npc/a}* Meu amigo Shortsy e eu planejamos nos tornar arquitetos especialistas no novo mundo.",
-                            "<32>* Nós construímos pontes, espirais, estações espaciais... o que você conseguir imaginar, nós podemos construir!",
+                            "<32>{#p/basic}{#npc/a}* Meu amigo Shortsy e eu planejamos nos tornar arquitetos no novo mundo.",
+                            "<32>* Nós construímos de tudo... o que você conseguir imaginar, nós podemos construir!",
                             "<32>* Como sempre, eu fico encarregado de trazer as ferramentas."
                         ]
                         : SAVE.data.n.plot < 48
@@ -2645,7 +2645,7 @@ export default {
             '<25>{#f/2}* Haha.',
             "<25>{#f/3}* ... mano, eu nunca estive tão CANSADO...",
             '<25>{#f/4}* Acho que eu deveria ir pra casa.',
-            '<25>{#f/7}* Eu... eu aposto que meus pais estão super preocupados comigo!'
+            '<25>{#f/7}* Eu aposto que meus pais estão super preocupados comigo!'
         ],
         run9: ['<25>{#p/kidd}{#f/13}* A... até mais, cara!'],
         run10: [
@@ -2782,10 +2782,10 @@ export default {
         spookydate1: pager.create(
             0,
             () => [
-                '<25>{#p/sans}* ei, ouvir falar que você passou pelo meu mano.\n* o grande papyrus.',
+                '<25>{#p/sans}* ei, ouvi falar que você passou meu mano, o grande papyrus.',
                 '<25>{#f/2}* bem... eu considero essa uma {@fill=#ff0}grande vitória{@fill=#fff}.',
                 "<25>{#f/0}* Que tal celebrarmos a ocasião no Grillby?",
-                "<25>{#f/3}* estar em uma parte do coração do papyrus te dá uma parte no meu também.",
+                "<25>{#f/3}* estar em uma parte do coração do papyrus te dá uma parte no meu.",
                 choicer.create('* (O que você acha?)', 'Sim', 'Nah ')
             ],
             () => ["<25>{#p/sans}* minha oferta continua.\n* Grillby?", choicer.create('* (O que você acha?)', 'Sim', 'Nah ')]
@@ -2808,7 +2808,7 @@ export default {
         spookydate8: ["<32>{#p/basic}* Uma vez eu ouvi que você colocou o bar em chamas com o Grillby Flamejante, é verdade?"],
         spookydate9: [
             '<25>{#p/sans}{#f/3}* huh?\n* nah, aqueles estavam totalmente murchos.',
-            '<25>{#f/2}* a única coisa que já colocou fogo NESSE bar foram minhas piadas hilárias.'
+            '<25>{#f/2}* a única coisa que já colocou fogo NESSE bar foram minhas piadas.'
         ],
         spookydate9x: ["<25>{#p/sans}{#f/3}* caramba grillby, cadê o pessoal?"],
         spookydate9y: [
@@ -2839,18 +2839,18 @@ export default {
         ],
         spookydate14b: [
             '<25>{#p/sans}{#f/0}* nem me fala.',
-            '<25>{#f/3}* uma vez, após um particular longo dia de revisão dos seus ataques...',
-            "<25>{#f/0}* papyrus revelou tudo com o que tinha trabalhado até aquele dia.",
-            '<25>{#f/0}* eu devo dizer, fiquei mais do que impressionado pelo que vi.',
-            "<25>{#f/2}* talvez algum dia, eu até faça designs de ataques por conta própria."
+            '<25>{#f/3}* uma vez, após um longo dia de revisão dos seus ataques...',
+            "<25>{#f/0}* papyrus revelou tudo o que trabalhou até aquele dia.",
+            '<25>{#f/0}* eu devo dizer, fiquei impressionado pelo que vi.',
+            "<25>{#f/2}* talvez algum dia, eu até faça designs de ataques pra mim."
         ],
         spookydate15: ['<25>{#p/sans}* aí vem a comida.'],
         spookydate16: [
             '<25>{#p/sans}* O fato é, você tem que concordar que ele é acima da média.',
             '<25>{#f/0}* Aqueles ataques dele são um ótimo exemplo disso.',
-            '<25>{#f/3}* Não muito tempo atrás, papyrus visitou a capitã da guarda real...',
+            '<25>{#f/3}* Não muito tempo atrás, papyrus visitou a capitã da guarda...',
             '<25>{#f/0}* e implorou a ele para deixá-lo entrar.',
-            '<25>{#f/3}* bem, ela bateu a porta na cara dele.\n* clássico movimento da undyne.',
+            '<25>{#f/3}* ela bateu a porta na cara dele. clássico movimento da undyne.',
             '<25>{#f/0}* mas quando o papyrus voltou com os designs horas depois...',
             "<25>{#f/0}* undyne ficou impressionada e decidiu dar a ele...",
             '<25>{#f/2}* ... bem, vamos chamar de \"treino do guerreiro.\"'
@@ -3061,7 +3061,7 @@ export default {
                         ],
                         [
                             '<32>{#p/finalghost}* ... ha...',
-                            '<32>* ... talvez, quando eu pegar outro corpo, nós dois podemos... fazer aquilo de novo.',
+                            '<32>* ... talvez, quando eu pegar outro corpo, nós dois podemos... fazer aquilo.',
                             "<32>* Você lembra, não lembra?"
                         ],
                         [
@@ -3077,7 +3077,7 @@ export default {
                     ][SAVE.data.n.state_wastelands_dummy],
                     '<32>* De toda forma...',
                     "<32>* Todos nós decidimos ir no Blooky antes de ir embora para o mundo natal.",
-                    '<32>* Eu devo dizer, Blooky com certeza tem uma playlist \"interessante\" de músicas baixadas...',
+                    '<32>* Eu devo dizer, Blooky com certeza tem uma playlist \"interessante\" de músicas.',
                     '<32>* O que é uma \"Hiper Fúria\", afinal?',
                     "<32>{#p/basic}* Um som que eu desejava não ter feito.",
                     '<32>{#p/finalghost}* Oh?\n* Você fez isso?',
@@ -3099,10 +3099,10 @@ export default {
             ghostparty3: pager.create(
                 0,
                 [
-                    "<32>{#p/mettaton}{#e/mettaton/9}* ENQUANTO BLOOKY ESTÁ OCUPADO NA LOJA, DECIDIMOS QUE CUIDARÍAMOS DA FAZENDA DELE MAIS UMA VEZ.",
+                    "<32>{#p/mettaton}{#e/mettaton/9}* ENQUANTO BLOOKY ESTÁ OCUPADO NA LOJA, DECIDIMOS OLHAR A FAZENDA MAIS UMA VEZ.",
                     "<32>{#e/mettaton/8}* CLARO, SÓ POR UM DIA ANTES DE IRMOS EMBORA DO OUTPOST.\n* MAS AINDA ASSIM.",
                     "<32>{#e/mettaton/36}* PENSANDO NO PASSADO, EU FUI MEIO DRAMÁTICO SOBRE A COISA TODA.",
-                    "<32>{#e/mettaton/36}* BLOOKY NUNCA FEZ -TANTO- MAU... EU ACHO QUE EU SÓ NÃO QUERIA ADMITIR QUE ESTAVA ENTEDIADO.",
+                    "<32>{#e/mettaton/36}* BLOOKY NUNCA FEZ -TANTO- MAU... EU ACHO QUE EU SÓ NÃO QUERIA ADMITIR MEU TÉDIO.",
                     "<32>{#e/mettaton/8}* MAS TALVEZ É ISSO QUE ME FAZ UM GRANDE ATOR.",
                     "<32>{#e/mettaton/37}* NÃO É ENCENAÇÃO SE VOCÊ NÃO COLOCAR EMOÇÃO!",
                     '<32>{#e/mettaton/9}* ... OU ALGUMA COISA ASSIM.'
@@ -3310,7 +3310,7 @@ export default {
 
                         ? ['<32>{#p/basic}* \"Ande até a próxima sala se não se importar.\"\n* \"E ignore a alavanca.\"']
                         : [
-                            '<32>{#p/basic}* \"Mova os postes para guiar o laser para dentro do receptor.\"\n* \"Em seguida, pressione o interruptor.\"'
+                            '<32>{#p/basic}* \"Mova os postes para guiar o laser para dentro do receptor.\"'
                         ],
             f_puzzle2_sign: () =>
                 SAVE.data.b.svr
@@ -3754,10 +3754,10 @@ export default {
                 () => [
                     '<25>{#p/undyne}{#f/1}* Humanos podem ser maus, mas suas histórias... lendárias.',
                     '<25>{#f/1}* No ponto, o gigante sabre de energia!',
-                    '<25>{#f/1}* Historicamente, humanos tem sabres de luz dez vezes acima do seu tamanho.',
+                    '<25>{#f/1}* Historicamente, humanos tem sabres dez vezes seu tamanho.',
                     '<25>{#f/15}* Sem mencionar seus portais interdimensionais.',
                     '<25>{#f/15}* Navios de guerra colossais...',
-                    '<25>{#f/1}* Quando eu escutei pela primeira vez, eu imediatamente queria um pra mim!',
+                    '<25>{#f/1}* Quando eu escutei pela primeira vez, eu imediatamente quis um!',
                     "<25>{#f/14}* Foi por isso que eu e a Alphys construímos um sabre gigante juntas.",
                     '<25>{#f/12}* Ela até descobriu todas as especificações sozinha!',
                     SAVE.data.b.oops
@@ -3775,7 +3775,7 @@ export default {
                 () => [
                     "<25>{#p/undyne}{#f/1}* Esse é meu armário de comidas.",
                     '<25>{#f/17}* O que, você pensou que eu tinha uma cama aí atrás?',
-                    '<25>{#f/8}* Pfft, hah!\n* Todo mundo sabe que eu durmo no duro chão de pedra.',
+                    '<25>{#f/8}* Hah! Todo mundo sabe que eu durmo no duro chão de pedra.',
                     SAVE.data.b.oops
                         ? "<32>{#p/basic}* Está trancando."
                         : '<32>{#p/basic}* Eu tenho a sensação que a mais do que \"lanches\" neste armário.'
@@ -3790,7 +3790,7 @@ export default {
                 0,
                 () => [
                     "<25>{#p/undyne}{#f/11}* Comida fria e eu não nos damos bem.",
-                    '<25>{#f/14}* Com sorte, Alphys modificou minha geladeira para esquentar comida invés disso!',
+                    '<25>{#f/14}* Então Alphys modificou minha geladeira para esquentar comida!',
                     '<25>{#f/1}* Da hora, huh?',
                     SAVE.data.b.oops
                         ? '<32>{#p/basic}* Tem um monte de pré-esquentados pratos de espaguete dentro da \"geladeira\".'
@@ -3809,11 +3809,11 @@ export default {
                         ? '<26>{#p/undyne}{#f/12}* Cuidado com isso aí.'
                         : "<25>{#p/undyne}{#f/17}* Rouba qualquer coisa da gaveta e eu te MATO.",
                     "<32>{#p/basic}* Há uma gaveta de talheres.\n* Tem garfos, colheres, facas...",
-                    '<32>* ... minúsculas lanças de cosmo, sabres de plasma, machados dimensionais, bumerangues antigravitacionais...'
+                    '<32>* ... minúsculas lanças de cosmo, sabres de plasma, machados dimensionais...'
                 ],
                 [
                     "<32>{#p/basic}* Há uma gaveta de talheres.\n* Tem garfos, colheres, facas...",
-                    '<32>* ... minúsculas lanças de cosmo, sabres de plasma, machados dimensionais, bumerangues antigravitacionais...'
+                    '<32>* ... minúsculas lanças de cosmo, sabres de plasma, machados dimensionais...'
                 ]
             ),
             k_piano: pager.create(
@@ -3882,7 +3882,7 @@ export default {
                 '<32>* Mostre a ela a bondade que seu coração precisa ver.'
             ],
             unddate: () => [
-                "<32>{#p/basic}* Que tal?\n* Em um momento nós estamos correndo por nossas vidas delas...",
+                "<32>{#p/basic}* Olha aí, em um momento nós estamos correndo por nossas vidas delas...",
                 '<32>* E no próximo?',
                 "<32>* Nós estamos cozinhando espaguete com ela.\n* E colocando fogo na casa.",
                 '<32>{#p/human}* (Você ouve uma pequena risadinha.)',
@@ -4205,7 +4205,7 @@ export default {
             '* Armário de Comida\n* Várias delícias aí dentro!',
             '* Água\n* Uma escolha inteligente.',
             '* Açúcar\n* Bom com chá quente.',
-            '* Soco Exoberry\n* Feito localmente... ou assim dizem.',
+            '* Soco Exoberry, feito localmente... ou assim dizem.',
             "* Chocolate quente\n* Tem um cilindro azul.",
             '* Chá\n* A mais equilibrada escolha?',
             '* Geladeira\n* Coisas demais para uma refeição.',
@@ -4350,9 +4350,9 @@ export default {
             [
                 "<25>{#p/undyne}{#f/12}* Sabe, é bem legal que você acabou escolhendo ESSA bebida...",
                 '<25>{#f/12}* Chocolate quente...',
-                '<25>{#f/16}* Teve uma uma, após o CORE ter um problema...',
+                '<25>{#f/16}* Teve uma vez, após o CORE ter um problema...',
                 '<25>{#f/16}* E eles tiveram que reiniciar todo o sistema atmosférico.',
-                '<25>{#f/10}* Na havia calor, pouquíssimo ar... e ficava cada vez mais frio, e frio...',
+                '<25>{#f/10}* Não havia calor, pouco ar... e ficava cada vez mais frio...',
                 '<25>{#f/1}* Então, Asgore apareceu e me ofereceu chocolate quente.',
                 '<25>{#f/12}* Nos sentamos juntos nessa sala...'
             ],
@@ -4375,8 +4375,8 @@ export default {
         ],
         unddate29: [
             '<25>{#p/undyne}{#f/16}* A verdade é que eu era uma criança muito cabeça quente.',
-            '<25>* Uma vez, para provar que eu era a mais forte, tentei lutar contra Asgore.',
-            '<25>{#f/17}* Ênfase no TENTEI.',
+            '<25>* Uma vez, para provar que eu era a mais forte...',
+            '<25>{#f/17}* ...tentei lutar contra Asgore.\n* Ênfase no TENTEI.',
             '<25>{#f/1}* Eu mal consegui acertar um soco nele!',
             '<25>* E pior ainda, ele se recusava a lutar de volta!',
             '<25>{#f/9}* Eu fui humilhada...',
@@ -4387,7 +4387,7 @@ export default {
             '<25>{#f/9}* Eu me senti... má.',
             '<25>{#f/12}* Mas ele estava brilhando...',
             '<25>{#f/1}* Eu nunca vi alguém tão orgulhoso por ter tido a cara amassada.',
-            '<25>* Cortando o tamanho da história, depois de completar meu treinamento...',
+            '<25>* Cortando a história, depois de completar meu treinamento...',
             '<25>{#f/14}* Eu me tornei a líder da Guarda Real!',
             "<25>{#f/8}* Então sou eu quem treina soldados para o combate!",
             '<25>{#f/1}* ... tipo, uh, o Papyrus.'
@@ -4483,7 +4483,7 @@ export default {
         ],
         unddate41: [
             '<25>{#p/undyne}{#f/1}* Nós adicionamos o miojo!',
-            '<25>{#f/1}* Miojos feitos em casa são os melhores, então eu sempre tenho um monte por perto.'
+            '<25>{#f/1}* Miojos feitos em casa são os melhores, sempre tenho um monte.'
         ],
         unddate41x: ['<25>{#p/undyne}{#f/12}* Uhh, você pode vir aqui agora, pirralha.'],
         unddate41y: () => [
@@ -4538,7 +4538,7 @@ export default {
         unddate57b: ['<25>{*}{#p/undyne}{#f/17}* Viu, é desse jeito que-{^20}{%}'],
         unddate58: ["<25>{*}{#p/undyne}{#f/17}* Não, espera, isso é muito qu-{^10}{%}"],
         unddate59: ['<25>{#p/undyne}{#f/14}* Ah.'],
-        unddate60: ["<25>{#p/undyne}{#f/14}* Cara, e ainda me pergunto porque do Papyrus cozinhar tão mal."],
+        unddate60: ["<25>{#p/undyne}{#f/14}* Cara, e ainda me pergunto porque do Papyrus cozinhar mal."],
         unddate61: ["<25>{#p/undyne}{#f/12}* Então o que agora?\n* Caçar lixo?\n* Bracelete de amizade?"],
         unddate62: () =>
             SAVE.data.b.undyne_respecc
@@ -4840,7 +4840,7 @@ export default {
                             "<25>{#f/9}* Eu admito, estava impressionada...",
                             ...(SAVE.data.n.state_foundry_doge === 2 && SAVE.data.n.state_foundry_muffet === 2
                                 ? [
-                                    '<25>* A forma como você não apenas conseguiu passar pelo esquadrão de ELITE...',
+                                    '<25>* A forma como você não apenas conseguiu passar pela ELITE...',
                                     '<25>{#f/10}* Mas também os tornou seus AMIGOS???',
                                     "<25>{#f/11}* Você tem nervos, pirralha.",
                                     '<25>{#f/8}* ... NÃO QUE ISSO IMPORTE!'
@@ -5437,7 +5437,7 @@ export default {
             '<32>{#p/human}* (Você oferece um aperto de mão.)\n* (Gelata engolfa você em lodo.)',
             '<32>{#p/story}* VELOCIDADE caiu!'
         ],
-        act_sit: ['<32>{#p/human}* (Você senta no topo da Gelata.)\n* (Gelata agora sente ter sido útil para você.)'],
+        act_sit: ['<32>{#p/human}* (Você senta no topo da Gelata. Gelata agora sente ter sido útil.)'],
         distanceStatus: () =>
             world.goatbro
                 ? ['<32>{#p/asriel2}* Gelata.']
@@ -5961,7 +5961,7 @@ export default {
                         ]
                         : battler.volatile[0].vars.walk
                             ? [
-                                "<11>{#p/basic}{~}Você com certeza tem andando faz um tempo.",
+                                "<11>{#p/basic}{~}Você com certeza tem andado faz um tempo.",
                                 '<11>{#p/basic}{~}Quanta energia você Tem?'
                             ]
                             : battler.volatile[0].vars.bathe
@@ -6073,7 +6073,7 @@ export default {
         walkTextSus: ['<32>{#p/human}* (Mas Doge estava suja demais para dar um passeio.)']
     },
     b_opponent_muffet: {
-        act_check: ['<32>{#p/story}* MUFFET - ATQ 39 DEF 19\n* Rainha do clã das aranhas.\n* Voluntária do esquadrão de ELITE.'],
+        act_check: ['<32>{#p/story}* MUFFET - ATQ 39 DEF 19\n* Rainha do clã das aranhas.\n* Voluntária da ELITE.'],
         act_flirt: () => [
             ...(badSpider()
                 ? ['<32>{#p/human}* (Você flerta com Muffet.)\n* (Muffet lhe dá uma olhada rabugenta.)']
@@ -6329,7 +6329,7 @@ export default {
                 ]
                 : battler.volatile[0].vars.appease
                     ? [
-                        "<11>{#p/basic}{~}E eles não fizeram exatamente muito para ganhar minha confiança...",
+                        "<11>{#p/basic}{~}E eles não fizeram exatamente muito para ganhar minha confiança",
                         '<11>{#p/basic}{~}Oh, olá, meu pet~'
                     ]
                     : ['<11>{#p/basic}{~}Segundo turno, meu pet~'],

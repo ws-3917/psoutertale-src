@@ -6740,7 +6740,7 @@ export default {
             "<15>W-WELL!\nI'M A SKELETON WITH VERY HIGH STANDARDS!!!",
             '<15>WHAT CAN YOU DO IN RETURN FOR MY AFFECTION???'
         ],
-        flirt2: [choicer.create('* (Your reply?)', 'I have\nzero redeeming\nqualities', '\nI can make\nspaghetti')],
+        flirt2: [choicer.create('* (Your reply?)', '\nI can make\nspaghetti', 'I have\nzero redeeming\nqualities',)],
         flirt3a: ['<15>{#p/papyrus}{#f/24}THAT CONFIDENCE... IT REMINDS ME OF...'],
         flirt3b: ['<15>{#p/papyrus}{#f/24}THAT HUMILITY... IT REMINDS ME OF...'],
         flirt4: [

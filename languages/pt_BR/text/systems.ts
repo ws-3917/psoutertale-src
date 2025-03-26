@@ -20,7 +20,7 @@ export default {
         mercy_spare: '* Poupar',
 
         victory1: '<32>{#p/story}* Você venceu!\n* Você ganhou $(x) EXP e\n$(y)G.',
-        victory2: '<32>{#p/story}* Você venceu!\n* Você ganhou $(x) EXP e\n$(y)G.\n* Seu LOVE cresceu.'
+        victory2: '<32>{#p/story}* Você venceu!\n* Você ganhou $(x) EXP e\n$(y)G. Seu LOVE cresceu.'
     },
 
     developer: {

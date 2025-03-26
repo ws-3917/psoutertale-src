@@ -6729,7 +6729,7 @@ export default {
                 ]
                 : respecc()
                     ? ["<20>{#p/undyne}{#e/undyne/3}哈？\n别告诉我\n你真要放弃..."]
-                    : ["<20>{#p/undyne}{#e/undyne/8}饶恕我\n卵用没有！"],
+                    : ["<20>{#p/undyne}{#e/undyne/8}饶恕我\n毛用没有！"],
         turnTalkB8a: () =>
             SAVE.data.n.state_starton_papyrus === 1
                 ? [

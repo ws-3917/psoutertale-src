@@ -3208,7 +3208,7 @@ export default {
                 '<18>{#p/papyrus}{#f/5}YEAH.',
                 '<18>{#p/papyrus}{#f/5}JUST... NICE.'
             ],
-            hangar23: ['<32>{#p/napstablook}* hey everyone...'],
+            hangar23: ['<32>{#p/napstablook}* эй народ...'],
             hangar24: [
                 "<32>{#p/napstablook}* i hope i'm not intruding on you guys or anything...",
                 '<25>{#p/undyne}{#f/14}* Pfft, intruding?\n* No way!',
@@ -6490,7 +6490,7 @@ export default {
     i_archive_healpak: {
         battle: { description: '8 HP.', name: 'Heal-pak' },
         drop: ['<32>{#p/human}* (You throw away the Heal-pak.)'],
-        info: ['<32>{#p/human}* (8 HP.)'],
+        info: ['<32>{#p/human}* (8 ОЗ.)'],
         name: 'Heal-pak',
         use: ['<32>{#p/human}* (You use the Heal-pak.)']
     },

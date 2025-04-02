@@ -111,12 +111,12 @@ export default {
             },
             debug_instructions: 'Stisknutím klávesy [TAB] můžete cyklicky přepínat informace o ladění',
             debug: {
-                a: 'A', 
+                a: 'A',
                 acceleration: 'Zrychlení',
                 active: 'Aktivní',
                 alpha: 'Alfa',
                 anchor: 'Kotva',
-                b: 'B', 
+                b: 'B',
                 blend: 'Směs',
                 border: 'Hranice',
                 compute: 'Vypočtená velikost',
@@ -126,7 +126,7 @@ export default {
                 duration: 'Trvání',
                 exp: 'BP',
                 extent: 'Rozsah',
-                f: 'F', 
+                f: 'F',
                 face: 'Obličej',
                 false: 'Falešný',
                 fill: 'Vyplnit',
@@ -162,7 +162,7 @@ export default {
                 room: 'Místnost',
                 roomState: 'Stav místnosti',
                 rotation: 'Rotace',
-                s: 'S', 
+                s: 'S',
                 scale: 'Škála',
                 shopSelection: 'Výběr obchodu',
                 size: 'Velikost',
@@ -415,14 +415,14 @@ export default {
                 '§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 "§fill=#808080§Za to, že je tam byl, abys pomohl\nukončení vývoje a\nzajištění psaní hry\ndosahuje svého plného potenciálu.§fill=#fff§"
-            
-        ],
+
+            ],
             [
-            '§fill=#ff0§< ČEŠTÍ PŘEKLADATELÉ >§fill=#fff§',
-            'Chickenytboi',
-            'petar3664',
-        ],
-['Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§']
+                '§fill=#ff0§< ČEŠTÍ PŘEKLADATELÉ >§fill=#fff§',
+                'Chickenytboi',
+                'petar3664',
+            ],
+            ['Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§']
         ],
 
         final_frontier: {
@@ -938,7 +938,7 @@ export default {
         confirm2: 'Jméno již bylo\nbyl vybrán.',
         confirm3: 'Zpět',
 
-        footer: 'OUTERTALE V5.05 (c) 2025 SPACEY_432',
+        footer: 'OUTERTALE V5.06 Preview 5 (c) 2025 SPACEY_432',
 
         heal1: '* (ZB plně obnoveno.)',
         heal2: '* (Získali jste zpět $(x) ZB.)',

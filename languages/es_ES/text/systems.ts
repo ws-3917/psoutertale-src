@@ -111,12 +111,12 @@ export default {
             },
             debug_instructions: 'Presiona [TAB] para ciclar la info',
             debug: {
-                a: 'A', 
+                a: 'A',
                 acceleration: 'Aceleración',
                 active: 'Activo',
                 alpha: 'Alfa',
                 anchor: 'Ancla',
-                b: 'B', 
+                b: 'B',
                 blend: 'Mezclar',
                 border: 'Borde',
                 compute: 'Tamaño Computado',
@@ -126,7 +126,7 @@ export default {
                 duration: 'Duración',
                 exp: 'PE',
                 extent: 'Extensión',
-                f: 'F', 
+                f: 'F',
                 face: 'Cara',
                 false: 'Falso',
                 fill: 'Llenar',
@@ -162,7 +162,7 @@ export default {
                 room: 'Habitación',
                 roomState: 'Estado de la Habitación',
                 rotation: 'Rotación',
-                s: 'S', 
+                s: 'S',
                 scale: 'Escala',
                 shopSelection: 'Selección de Tienda',
                 size: 'Tamaño',
@@ -415,19 +415,19 @@ export default {
                 '§fill=#ff0§< GRACIAS ESPECIALES >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 "§fill=#808080§Por estar ahí para ayudar al\nfinal del desarrollo, y\nasegurando que la escritura del juego\nllegue a su potencial máximo.§fill=#fff§"
-            
-        ],
+
+            ],
             [
-            '§fill=#ff0§< TRADUCTORES AL ESPAÑOL >§fill=#fff§',
-            'Stefano9000',
-            'Chistosito',
-            'Ariel',
-            'Bemy',
-            'AshuSD',,
-            'DR4GON_HE4RT',
-            'Manuel',
-        ],
-['Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§']
+                '§fill=#ff0§< TRADUCTORES AL ESPAÑOL >§fill=#fff§',
+                'Stefano9000',
+                'Chistosito',
+                'Ariel',
+                'Bemy',
+                'AshuSD', ,
+                'DR4GON_HE4RT',
+                'Manuel',
+            ],
+            ['Traído a usted por §fill=#ff0§The Mavis & Co.§fill=#fff§']
         ],
 
         final_frontier: {
@@ -943,7 +943,7 @@ export default {
         confirm2: 'Un nombre ya ha sido\nescogido.',
         confirm3: 'Regresar',
 
-        footer: 'OUTERTALE V5.05 (c) 2025 SPACEY_432',
+        footer: 'OUTERTALE V5.06 Preview 5 (c) 2025 SPACEY_432',
 
         heal1: '* (PS restaurados.)',
         heal2: '* (Has recuperado $(x) PS.)',

@@ -131,19 +131,19 @@ export default {
                 '* (What do you say?)',
                 game.room === 'w_wonder' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Հանել'
                     : 'Outlands',
                 game.room === 's_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Հանել'
                     : 'Starton',
                 game.room === 'f_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Հանել'
                     : 'Foundry',
                 game.room === 'a_lookout' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Հանել'
                     : 'Aerialis'
             )
         ],
@@ -3614,17 +3614,17 @@ export default {
             lift: {
                 elevatorStory1: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Հանել')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Հանել')],
                 elevatorStory2: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Հանել')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Հանել')],
                 elevatorStory3: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Հանել')
                 ],
                 elevatorStory4: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Հանել')
                 ],
                 elevatorStory5: () => [
                     "<32>{#p/basic}* It's de-activated.",
@@ -3647,27 +3647,27 @@ export default {
                             ],
                 elevator1: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Cancel', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Հանել', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator2: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Cancel', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Հանել', 'Floor L3', 'Floor R3')
                 ],
                 elevator3: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Cancel', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Հանել', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator4: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Cancel', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Հանել', 'Floor R3')
                 ],
                 elevator5: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Cancel')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Հանել')
                 ],
                 elevator6: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Cancel', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Հանել', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ]
             },
             terminal1: () =>
@@ -6090,19 +6090,19 @@ export default {
             ]
         ),
         elevator1: () => [
-            choicer.create('* (Where would you like to go?)', 'Cancel', 'CORE Start', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Հանել', 'CORE Start', 'CORE End', 'The Citadel')
         ],
-        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Cancel')],
+        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Հանել')],
         elevator2: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Հանել', 'CORE End', 'The Citadel')
         ],
-        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel')],
+        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Հանել')],
         elevator3: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Cancel', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Հանել', 'The Citadel')
         ],
-        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Cancel')],
+        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Հանել')],
         elevator4: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Հանել')
         ],
         dinnerdate1: pager.create(
             0,
@@ -10846,7 +10846,7 @@ export default {
                     '0G - Hold Yer Grane',
                     '0G - Slamburger',
                     SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "0G - Glyde's Envy",
-                    'Exit'
+                    'Դուրս'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
@@ -10854,7 +10854,7 @@ export default {
                         '10G - Hold Yer Grane',
                         '5G - Slamburger',
                         SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "49G - Glyde's Envy",
-                        'Exit'
+                        'Դուրս'
                     ]
                     : world.genocide || world.killed0 || burger()
                         ? [
@@ -10862,14 +10862,14 @@ export default {
                             '60G - Hold Yer Pain',
                             '48G - Slamdunker',
                             SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "138G - Undyne's Envy",
-                            'Exit'
+                            'Դուրս'
                         ]
                         : [
                             '16G - Starfaint',
                             '30G - Hold Yer Grane',
                             '24G - Slamburger',
                             SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "69G - Glyde's Envy",
-                            'Exit'
+                            'Դուրս'
                         ],
         itemInfo: () =>
             world.genocide || world.killed0 || burger()
@@ -10913,7 +10913,7 @@ export default {
                     ? '<09>{#p/basic}{#k/5}Sorry, that was one of a kind.'
                     : '<09>{#p/basic}{#k/4}Sorry, that was one of a kind.',
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Take', 'Steal', 'Read', 'Դուրս'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
@@ -10959,7 +10959,7 @@ export default {
                     : ["<30>{#p/basic}{#k/6}* It's not happening, pal."],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', 'Exit']
+                ? ['Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', 'Դուրս']
                 : [
                     ['Life Advice', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge'][
                     Math.min(SAVE.data.n.shop_bpants_advice, 2)
@@ -10969,7 +10969,7 @@ export default {
                         ? 'Power Outage'
                         : ['Where We Are', '§fill=#ff0§Glyde (NEW)', 'Glyde'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
                     'Your Future',
-                    'Exit'
+                    'Դուրս'
                 ],
         talkPrompt: () =>
             world.population === 0 || burger()
@@ -11149,14 +11149,14 @@ export default {
                     SAVE.data.b.item_laser ? '0G - Laser Rifle?' : '0G - Laser Rifle',
                     SAVE.data.b.item_visor ? '0G - Tactical Visor?' : '0G - Tactical Visor',
                     SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '0G - Mystery Key',
-                    'Exit'
+                    'Դուրս'
                 ]
                 : [
                     '5G - Space Junk',
                     SAVE.data.b.item_laser ? '60G - Laser Rifle?' : '70G - Laser Rifle',
                     SAVE.data.b.item_visor ? '60G - Tactical Visor?' : '70G - Tactical Visor',
                     SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '400G - Mystery Key',
-                    'Exit'
+                    'Դուրս'
                 ],
         itemInfo: () => [
             'Heals ??HP\nCould be\nanything.',
@@ -11188,7 +11188,7 @@ export default {
                 ? '<09>{#p/basic}Nothing left.'
                 : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}We're all sold out!\nMee-YOW!",
         menu: () =>
-            adultEvac() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            adultEvac() ? ['Take', 'Steal', 'Read', 'Դուրս'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!',
         menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything.',
         menuPrompt3: () =>
@@ -11364,7 +11364,7 @@ export default {
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', 'Exit']
+                ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', 'Դուրս']
                 : [
                     'About You Two',
                     SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grand Finale',
@@ -11372,7 +11372,7 @@ export default {
                     ['Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', 'Asgore'][
                     Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                     ],
-                    'Exit'
+                    'Դուրս'
                 ],
         talkPrompt: "<09>{#p/basic}{#k/0/0}{@fill=#ffbbdc}So, like, what's up?",
         talkText: [

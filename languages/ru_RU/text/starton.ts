@@ -282,7 +282,7 @@ export default {
         sansdoor1: () =>
             SAVE.data.b.svr || world.runaway
                 ? ['<32>{#p/human}* (It looks to have been closed with a deadlock seal.)']
-                : ["<32>{#p/basic}* It's locked."],
+                : ["<32>{#p/basic}* Заперто."],
         sansdoor2: ['<32>{#p/human}* (You use the Skeleton Key.)'],
         sanscab1: () => [
             ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's an odd remote inside of this envelope."]),
@@ -376,7 +376,7 @@ export default {
                 ? ["<32>{#p/basic}* Сломано."]
                 : [
                     SAVE.data.b.svr
-                        ? '<32>{#p/human}* (You approach the vending machine.)'
+                        ? '<32>{#p/human}* (Вы подходите к торговому автомату.)'
                         : "<32>{#p/basic}* It's an exoberry-exclusive vending machine.",
                     choicer.create('* (Buy the Exoberries for 8G?)', 'Да', 'Нет')
                 ],
@@ -828,7 +828,7 @@ export default {
                     ? ['<32>{#p/basic}* ...но никто не пришёл.']
                     : ["<32>{#p/basic}* Nobody's home."],
         housebloc: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* It's locked."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* Заперто."],
         innkeep1a: pager.create(
             0,
             () => [
@@ -4589,7 +4589,7 @@ export default {
                 ].map(
                     p => () =>
                         SAVE.data.b.svr
-                            ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
+                            ? ["<32>{#p/human}* (Вы не можете понять, что лежит в мусорке...)"]
                             : CosmosUtils.provide(p)
                 )
             ),
@@ -5123,7 +5123,7 @@ export default {
                             '<32>{#s/phone}{#p/event}* Набор номера...',
                             '<32>{#p/basic}* The call went straight to voice-mail.',
                             '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"Would you like to escape the outpost with me?\"',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]
                         : SAVE.data.n.plot === 72
                             ? [
@@ -5138,7 +5138,7 @@ export default {
                                 '<32>{#s/phone}{#p/event}* Набор номера...',
                                 '<32>{#p/basic}* The call went straight to voice-mail.',
                                 '<32>{#p/basic}* \"Hello, lonely caller!\"\n* \"I\'m so sorry I couldn\'t be here to greet you~\"',
-                                '<32>{#s/equip}{#p/event}* Click...',
+                                '<32>{#s/equip}{#p/event}* Щелчок...',
                                 ...(world.goatbro && SAVE.flag.n.ga_asrielVoicemail++ < 1
                                     ? ['<25>{#p/asriel2}{#f/10}* ... weird.']
                                     : [])
@@ -5709,7 +5709,7 @@ export default {
                                 ? "<25>{#f/0}* i'd give you a special reward, but i'm still looking for toriel."
                                 : "<25>{#f/0}* i'd give you a special reward, but i'm on break right now.",
                             ...(world.edgy_x
-                                ? ['<25>{#f/0}* no hard feelings.', '<32>{#s/equip}{#p/event}* Click...']
+                                ? ['<25>{#f/0}* no hard feelings.', '<32>{#s/equip}{#p/event}* Щелчок...']
                                 : [
                                     "<25>{#f/2}* instead, i'll just send ya some pocket change.",
                                     '<32>{#s/equip}{#p/human}* (You got 10000G.)'
@@ -7053,7 +7053,7 @@ export default {
         ],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (99 HP.)']
+                ? ['<32>{#p/human}* (99 ОЗ.)']
                 : ['<32>{#p/basic}* \"Exoberry Pie\" Heals 99 HP\n* Fresh exoberries, bathed in a sea of moist Jell-O.'],
         name: 'Exoberry Pie',
         use: () => [
@@ -7154,7 +7154,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Power Glove.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (3 AT.)']
+                ? ['<32>{#p/human}* (3 АТК.)']
                 : ['<32>{#p/basic}* \"Power Glove?\" (3 AT)\n* It\'s not the original, but it still packs a punch.'],
         name: 'Power Glove?',
         use: ['<32>{#p/human}* (You wear the Power Glove.)']

@@ -81,7 +81,7 @@ export default {
             '<32>{#s/equip}{#p/event}* Click...'
         ],
         noequip: ['<32>{#p/human}* (Decidi di non equipaggiarlo.)'],
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
+        evac: ['<32>{#p/human}* (Senti la presenza dei mostri nei paraggi diminuire.)'],
         endo: ['<32>{#p/human}* (You note the poor quality of this table.)'],
         businessKILLER: [
             '<32>{#p/basic}{#npc/a}* Just so ya know, kiddo...',

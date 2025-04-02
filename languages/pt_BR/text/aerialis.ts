@@ -2635,7 +2635,7 @@ export default {
                             ? "<32>{#p/mettaton}{#x0}* ... EU NÃO ESTOU QUE A ALPHYS FUGIU DE VOCÊ AGORA MESMO."
                             : "<32>{#p/mettaton}{#x0}* ... TOTALMENTE COMPREENSÍVEL QUE ALPHYS NÃO QUEIRA ESTAR CONTIGO.",
                         '<32>{#x1}* VOCÊ NÃO TEM PIEDADE?',
-                        "<32>{#x0}* TIVE QUE CORTAR A TRANSMISSÃO DA TV AO VIVO APENAS PARA PROTEGER OS OLHOS DOS MEUS PRECIOSOS ESPECTADORES!",
+                        "<32>{#x0}* TIVE QUE CORTAR A TRANSMISSÃO PARA PROTEGER OS OLHOS DOS MEUS ESPECTADORES!",
                         !world.badder_lizard
                             ? "<32>{#x0}* QUE LAMENTÁVEL...\n* MAS NÃO SUE A CAMISA!"
                             : "<32>{#x0}* QUE DESGRAÇA...\n* MAS NÃO TEMA!"
@@ -3070,7 +3070,7 @@ export default {
                 '<32>* TODO QUE IMPORTA É O PODER E A INSUPERÁVEL SUPERIORIDADE DOS ROBÔS!',
                 '<32>* ...\n* AGORA ME ESCUTA.',
                 "<32>* DEPOIS DE TUDO QUE VOCÊ FEZ, NÃO TEM CHANCE ALGUMA DE EU DEIXAR VOCÊ PASSAR.",
-                '<32>* VOCÊ PODE GRITAR.\n* VOCÊ PODE LUTAR.\n* VOCÊ PODE CHAMAR POR MISERICÓRDIA.',
+                '<32>* VOCÊ PODE GRITAR.\n* VOCÊ PODE LUTAR.\n* VOCÊ PODE CHORAR.',
                 '<32>* VOCÊ PODE FAZER O QUE QUISER.',
                 "<32>* QUANDO EU TE MATAR, VOCÊ NÃO SERÁ NADA ALÉM DE PANO PARA PASSAR NO CHÃO.",
                 "<32>* VEJA, EU ME UNI AO CORE E PASSEI SEU PODER DIRETAMENTE PARA MEU CORPO.",
@@ -11241,7 +11241,7 @@ export default {
                                 b: '<16>* \"Mas primeiro, temos que usar essas canetas de gel.\"',
                                 c: !world.badder_lizard
                                     ? '<16>* \"Isso aí, não desperdiçamos canetas!\"'
-                                    : '<16>* \"É, espera aí, Alphys!\"\n* \"Nós não podemos desperdiçar canetas!\"'
+                                    : '<16>* \"É, espera aí, Alphys!\"\n* \"Não dá pra desperdiçar elas!\"'
                             },
                             {
                                 b: '<16>* \"E nem pense em roubar nossas coisas!',

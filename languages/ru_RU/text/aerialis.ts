@@ -60,7 +60,7 @@ export default {
                 ]
                 : [])
         ],
-        termsmash1: ['<32>{#p/human}* (You decide not to smash.)'],
+        termsmash1: ['<32>{#p/human}* (Вы решили не разбивать Пирог.)'],
         termsmash2: ['<32>{#p/human}* (Вы разбиваете пирог...)'],
         puzzlenoot1: () => [
             '<32>{#s/phone}{#p/event}* Звонок...',
@@ -69,7 +69,7 @@ export default {
                 ? '<25>{#p/alphys}{#g/alphysInquisitive}* Did the puzzle solve itself as well?'
                 : "<25>{#p/alphys}{#g/alphysInquisitive}* Huh, the puzzle looks like it's already been solved.",
             '<25>{#p/alphys}{#g/alphysFR}* How strange.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         puzzlenoot2: () => [
             '<32>{#s/phone}{#p/event}* Звонок...',
@@ -78,7 +78,7 @@ export default {
                 ? "<25>{#p/alphys}{#g/alphysWelp}* And this one.\n* This one's solved as well."
                 : "<25>{#p/alphys}{#g/alphysWelp}* Huh... seems like the puzzle's already been done by someone.",
             "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         noequip: ['<32>{#p/human}* (Вы решили не надевать это.)'],
         evac: ['<32>{#p/human}* (Вы чувствуете, как сокращается присутствие монстров.)'],
@@ -100,7 +100,7 @@ export default {
             "<25>{#p/alphys}{#g/alphysNervousLaugh}* You won't get into any more trouble, will you?",
             '<25>{#p/alphys}{#g/alphysSideSad}* ...',
             "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Please...\n* D-don't do anything crazy, okay?",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         escape: [
             '<32>{#s/phone}{#p/event}* Звонок...',
@@ -115,14 +115,14 @@ export default {
             "<25>{#g/alphysNeutralSweat}* Sooner or later, she'll just use her jetpack to get up here.",
             '<25>* So... y-you should probably get going right away.',
             "<25>* The other elevator's just a few rooms ahead.\n* You can't miss it!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         approachescape: ['<32>{#p/human}* (Вы слышите шаги вдалеке.)'],
         puzzlehelp: [
             '<32>{#s/phone}{#p/event}* Звонок...',
             "<25>{#p/alphys}{#g/alphysWelp}* Just calling to let you know that I'm here if you need my help.",
             "<25>{#p/alphys}{#g/alphysCutscene2}* I'll keep my phone available while you're in the room!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         riverboi1: () => [
             '<32>{#p/basic}{#npc/a}* I am the traveler.\n* My taxi and I can take you to many places on the outpost.',
@@ -454,7 +454,7 @@ export default {
                     '<25>{#f/2}* if you see any bouncy armored guards up there, let me know.',
                     '<25>{#f/3}* i lost track of them on the way out here.'
                 ]),
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         tvm1: ['<32>{#p/human}* (You got the Old Radio.)', '<32>{#p/basic}{#npc/a}* Hope you like your new radio!'],
         tvm2: ['<32>{#p/human}* (You got the Fireworks.)', '<32>{#p/basic}{#npc/a}* Hope you enjoy the fireworks!'],
@@ -500,7 +500,7 @@ export default {
         tvm8: ['<32>{#p/human}* (You got the Old Radio.)'],
         tvm9: ['<32>{#p/human}* (You got the Fireworks.)'],
         lockup0: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (But you didn't have the key.)"] : ["<32>{#p/basic}* It's locked."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (But you didn't have the key.)"] : ["<32>{#p/basic}* Заперто."],
         lockup1: () => [
             '<32>{#p/human}* (You unlocked the safe with the Rusty Key.)',
             ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* The shelves are labelled \"old earth weaponry.\"'])
@@ -603,7 +603,7 @@ export default {
             '<18>{#f/7}I REFUSE TO STAND AROUND AND DO NOTHING ALL DAY.',
             '<18>{#f/4}...',
             '<18>{#f/4}SEE YOU SOON.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         story: {
             phonegrabber1: () => [
@@ -1150,7 +1150,7 @@ export default {
                                 : "<25>{#g/alphysUhButHeresTheDeal}* Actually, you don't even have it, so never mind.",
                             '<25>{|}{#g/alphysCutscene3}* Anyway see you at the elevator baiiii- {%}'
                         ]),
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             puzzleReaction1: [
                 '<32>{#p/event}* Звонок...',
@@ -1298,7 +1298,7 @@ export default {
                 SAVE.data.n.state_foundry_undyne > 0
                     ? '<25>{#p/alphys}{#f/3}* G-good luck?'
                     : "<25>{#p/alphys}{#g/alphysHellYeah}* Now we're cooking!",
-                '<32>{#s/equip}{#p/event}* Click...',
+                '<32>{#s/equip}{#p/event}* Щелчок...',
                 ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* This is absolutely bonkers.'])
             ],
             cooker13x: ['<32>{#p/human}* (You activated the jetpack.)'],
@@ -3444,7 +3444,7 @@ export default {
             labstationB: ["<32>{#p/basic}* It's opened to a set of design plans for a holographic environment."],
             laserbarrrier1: () =>
                 world.darker
-                    ? ["<32>{#p/basic}* It's a security field."]
+                    ? ["<32>{#p/basic}* Это защитное поле."]
                     : ["<32>{#p/basic}* As per the crafter's guild standard, an impassable force field surrounds the area."],
             
             laserbarrrier2: pager.create(
@@ -4336,7 +4336,7 @@ export default {
                     ? ["<32>{#p/human}* (You run your hands across the countertop.)\n* (It's pleasantly smooth.)"]
                     : [
                         world.darker
-                            ? "<32>{#p/basic}* It's just a countertop."
+                            ? "<32>{#p/basic}* Просто столешница."
                             : SAVE.data.n.plot === 72
                                 ? "<32>{#p/basic}* Ah, the humble countertop.\n* No better place to go after you've won the day!"
                                 : "<32>{#p/basic}* Ah, the humble countertop.\n* No better place to practice your arts 'n' crafts!",
@@ -4368,7 +4368,7 @@ export default {
                     : world.darker
                         ? ['<32>{#p/basic}* A Starling flower.']
                         : ['<32>{#p/basic}* Beware, the lone Starling flower.'],
-            coredoor: ["<32>{#p/basic}* It's locked."],
+            coredoor: ["<32>{#p/basic}* Заперто."],
             deadbot: ["<32>{#p/basic}* It's just a husk."],
             deadbot2: ["<32>{#p/basic}* He's all out of juice."],
             corenote1: [
@@ -4667,7 +4667,7 @@ export default {
                             "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
                             '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
                             '<25>{#g/alphysThatSucks}* Sorry...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Звонок...',
@@ -4675,7 +4675,7 @@ export default {
                             "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                             "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
                             "<26>{#f/10}* S-so don't be stupid!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
@@ -4683,26 +4683,26 @@ export default {
                             '<32>{#s/phone}{#p/event}* Звонок...',
                             "<25>{#p/alphys}{#g/alphysSideSad}* It's not safe to go that far...",
                             "<25>{#g/alphysNeutralSweat}* I'm gonna pull you back now.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysShocked}* W-what are you doing!?',
                             "<26>{#f/3}* You're almost at the edge!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
                             '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysWTF}* ...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]
                         : [
                             '<32>{#s/phone}{#p/event}* Звонок...',
                             '<25>{#p/alphys}{#g/alphysIDK2}* ...',
                             "<25>{#p/alphys}{#g/alphysIDK3}* I guess... there's nothing I can say to stop you.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]
             ),
             puzzlestop1b: () =>
@@ -6064,7 +6064,7 @@ export default {
                         ? ['<32>{#p/basic}* The switch looks even more resistant to pressing than it was before.']
                         : ["<32>{#p/basic}* The switch no longer wants to be pressed.\n* ... yes, it's stuck."],
         nosleep: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* It's locked."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (You can't seem to find a way in.)"] : ["<32>{#p/basic}* Заперто."],
         rg1chat: pager.create(
             0,
             [
@@ -6279,7 +6279,7 @@ export default {
                 ? ["<32>{#p/basic}* Сломано."]
                 : [
                     SAVE.data.b.svr
-                        ? '<32>{#p/human}* (You approach the vending machine.)'
+                        ? '<32>{#p/human}* (Вы подходите к торговому автомату.)'
                         : "<32>{#p/basic}* It's a filament-exclusive vending machine.",
                     choicer.create('* (Buy the Filament for 40G?)', 'Да', 'Нет')
                 ],
@@ -10025,7 +10025,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Moon Pie.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (99 HP.)']
+                ? ['<32>{#p/human}* (99 ОЗ.)']
                 : ['<32>{#p/basic}* \"Moon Pie\" Heals 99 HP\n* A slice of pie from the Earth\'s night sky.'],
         name: 'Moon Pie',
         use: ['<32>{#p/human}* (You eat the Moon Pie.)']

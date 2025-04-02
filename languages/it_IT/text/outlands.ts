@@ -438,44 +438,44 @@ export default {
                 '<25>{#f/23}* Posso di nuovo avere un futuro.',
                 '<25>{#f/22}* ...',
                 ...(!SAVE.flag.b.pacifist_marker_forgive
-                    ? ["<25>{#f/22}* Even though you couldn't forgive me for what I'd done..."]
+                    ? ["<25>{#f/22}* Anche se non mi posso perdonare per tutto quello che ti ho fatto..."]
                     : SAVE.flag.n.killed_sans > 0
-                        ? ['<25>{#f/22}* Even though I wanted you to do all those terrible things...']
-                        : ['<25>{#f/22}* Even though I tortured you, and threatened everyone you love...']),
-                "<25>{#f/13}* You're still willing to help me move past it all.",
-                '<25>{#f/23}* ... it means a lot.',
+                        ? ['<25>{#f/22}* Nonostante ti abbia incitato a fare delle cose davvero terribili...']
+                        : ['<25>{#f/22}* Sebbene ti abbia torturato e abbia minacciato tutti quelli a cui vuoi bene...']),
+                "<25>{#f/13}* Tu sei ancora disposto ad aiutarmi ad andare avanti.",
+                '<25>{#f/23}* ... significa molto per me.',
                 '<25>{#f/22}* ...',
-                '<25>{#f/13}* Mom, Dad...',
+                '<25>{#f/13}* Mamma, Papà...',
                 '<25>{#f/13}* Sans, Papyrus, Undyne, Alphys...',
-                "<25>{#f/15}* Everyone I've killed in past realities...",
-                "<25>{#f/16}* ... it's going to be difficult for me to face them.",
+                "<25>{#f/15}* Tutti quelli che ho ucciso nelle passate timeline...",
+                "<25>{#f/16}* ... sarà davvero difficile per me doverli affrontare.",
                 '<25>{#f/13}* ...',
-                "<25>{#f/17}* But I'll try.",
-                "<25>{#f/23}* I'll try to be a better person.",
-                '<25>{#f/22}* And, If I ever screw up...',
-                "<25>{#f/13}* ... I know you'll be there to help me pick up the pieces."
+                "<25>{#f/17}* Ma farò del mio meglio.",
+                "<25>{#f/23}* Voglio provare a diventare una persona migliore.",
+                '<25>{#f/22}* E, se sbagliassi qualcosa...',
+                "<25>{#f/13}* ... So che tu sarai al mio fianco ad aiutarmi a rimediare."
             ],
             e13: [
                 '<25>{#p/asriel1}{#f/17}* Ha... $(name).',
-                "<25>{#f/23}* I won't let you down, okay?",
-                "<25>{#f/22}* I'll make the most out of this chance you've given me.",
-                "<25>{#f/17}* I'll make it count."
+                "<25>{#f/23}* Non ti deluderò, okay?",
+                "<25>{#f/22}* Sfrutterò al massimo questa seconda possibilità che mi hai dato.",
+                "<25>{#f/17}* Farò valere il tuo sacrificio."
             ]
         },
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
+        evac: ['<32>{#p/human}* (Senti la presenza dei mostri nei paraggi diminuire.)'],
         stargum1: () =>
             SAVE.data.b.svr
                 ? [
-                    '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                    choicer.create('* (Chew the gum?)', 'Sì', 'No')
+                    '<32>{#p/human}* (Hai trovato una gomma da masticare attaccata al fumetto...)',
+                    choicer.create('* (Vuoi masticarla?)', 'Sì', 'No')
                 ]
                 : [
-                    '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                    choicer.create('* (Chew the gum?)', 'Sì', 'No')
+                    '<32>{#p/basic}* C\'era una gomma da masticare attaccata al fumetto.',
+                    choicer.create('* (Vuoi masticarla?)', 'Sì', 'No')
                 ],
-        stargum2: ['<32>{#p/human}* (You decide not to chew.)'],
-        stargum3: ['<32>{#p/human}* (You recovered $(x) HP.)'],
-        stargum4: ['<32>{#p/human}* (HP fully restored.)'],
+        stargum2: ['<32>{#p/human}* (Decidi di non masticarla.)'],
+        stargum3: ['<32>{#p/human}* (Ripristinati $(x) HP.)'],
+        stargum4: ['<32>{#p/human}* (HP completamente ripristinati.)'],
         fireplace1: () =>
             SAVE.data.b.svr
                 ? [
@@ -3690,14 +3690,14 @@ export default {
         ],
         twinkly6a: [
             "<25>{#p/twinkly}{#f/11}* Come se pensassi che mi sarei dimenticato di quello che hai fatto...",
-            '<25>{#f/7}* Sporco schiva frammenti.'
+            '<25>{#f/7}* Schifoso schiva frammenti.'
         ],
         twinkly7: ['<25>{#p/twinkly}{#f/7}* Posso giocare a questo gioco tutto il giorno, idiota.'],
         twinkly8: ["<25>{#f/11}* Comunque, visto che sai già cosa succederà...{%15}"],
         twinkly9: [
             '<25>{#p/twinkly}{#f/6}* Ciao.',
             "<25>* Sembra che Toriel mi attaccherà se rimango qui troppo a lungo.",
-            '<25>{#f/8}* Davvero un gran peccato...',
+            '<25>{#f/8}* È davvero un gran peccato...',
             '<25>{#f/7}* Mi sarei divertito COSÌ tanto con te.',
             '<25>{#f/6}* ...',
             '<25>{#f/5}* Beh, ci vediamo!'
@@ -5348,17 +5348,17 @@ export default {
                 world.runaway
                     ? [
                         '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
-                        '<32>{#p/human}* (HP fully restored.)'
+                        '<32>{#p/human}* (HP completamente ripristinati.)'
                     ]
                     : SAVE.data.n.plot < 48
                         ? [
                             '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
                         : [
                             '<32>{#p/human}* (Returning to where it all began, after so long...)',
                             '<32>{#p/human}* (This fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
         },
         w_froggit: {
@@ -5368,21 +5368,21 @@ export default {
                     ? SAVE.data.n.plot < 8.1
                         ? [
                             '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
                         : [
                             '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
                     : SAVE.data.b.svr
                         ? [
                             '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
                             '<32>{#p/human}* (This, of course, fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
                         : [
                             '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
-                            '<32>{#p/human}* (HP fully restored.)'
+                            '<32>{#p/human}* (HP completamente ripristinati.)'
                         ]
         },
         w_mouse: {

@@ -27,7 +27,7 @@ export default {
         ],
         hypertext: {
             count: 'REBOOT IN $(x)',
-            death1: ['{#p/human}(You take a deep breath.)', "(You're filled with determination.)"],
+            death1: ['{#p/human}(You take a deep breath.)', "(Հաստատամտութեամբ լեցուն ես։)"],
             death2: [
                 "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end...",
                 '{@fill=#42fcff}Just take it steady...'

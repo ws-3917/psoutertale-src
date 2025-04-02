@@ -1130,7 +1130,7 @@ export default {
         story1: ['<24>{#p/storyteller}Muito tempo atrás, duas raças reinavam sobre o sistema solar: HUMANOS e MONSTROS.{^35}{}'],
         story2: ['<24>O tempo passou, uma guerra se iniciou entre as duas raças.{^35}{}'],
         story3: ["<24>Após o planeta dos Monstros ter sido destruído, os HUMANOS declararam vitória.{^35}{}"],
-        story4: ['<24>Os MONSTROS restantes restantes foram banidos para um Posto Avançado abandonado.{^35}{}'],
+        story4: ['<24>Os MONSTROS restantes foram banidos para um Posto Avançado abandonado.{^35}{}'],
         story5: ['<24>Um escudo de força foi criado, e isso selou os MONSTROS naquela prisão.{^35}{}'],
         story6: ['<24>Muitos anos depois.{^8}.{^8}.{^35}{}'],
         story7: ['<#24>     EBOTT SECTOR     \n         251X{^35}{}'],

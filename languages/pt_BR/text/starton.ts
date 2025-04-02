@@ -2721,7 +2721,7 @@ export default {
                         ? {
                             a: 'ALPHYS',
                             b: 'HOJE',
-                            c: 'Opps, esquece de desligar o servidor'
+                            c: 'Opps, esquece de desligar o\nservidor'
                         }
                         : SAVE.data.n.plot < 34
                             ? {
@@ -5219,7 +5219,7 @@ export default {
                         ? [
                             "<32>{#p/basic}* (Você alcança a caixa, mas os ossos não dão dano.)",
                             ...[
-                                ['<25>{#p/asriel1}{#f/21}* Cuidado, Frisk!\n* Talvez ossos assim ainda estejam na ativa...'],
+                                ['<25>{#p/asriel1}{#f/21}* Cuidado, Frisk!\n* Esses ossos ainda estão ativos...'],
                                 ['<25>{#p/asriel1}{#f/16}* ... ou talvez não.'],
                                 ["<25>{#p/asriel1}{#f/13}* Me pergunto se você é o tipo de pessoa que fica parado em carvão quente."],
                                 ['<25>{#p/asriel1}{#f/8}* Carvão quente ossudo.']

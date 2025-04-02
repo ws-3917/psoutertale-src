@@ -1701,7 +1701,7 @@ export default {
                             '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                             "<32>{#p/basic}* Isso seria um prazer!\n* Eu sei que com certeza gostaria de vê-los.",
                             "<32>{#p/basic}* É meio difícil de imaginar, não é?\n* Ser salvo por um humano?",
-                            "<32>{#p/basic}* (Eu sei, correto?)\n* (E todos aqueles outros humanos... estão vivos, também.)",
+                            "<32>{#p/basic}* (Eu sei, certo? E todos aqueles outros humanos estão vivos, também.)",
                             "<32>{#p/basic}* (Que dia maluco esse tem sido.)",
                             '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
@@ -1736,7 +1736,7 @@ export default {
                         ? [
                             '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                             "<32>{#p/basic}* (Eu me pergunto o que faremos quando chegarmos ao novo mundo.)",
-                            "<32>{#p/basic}* (Talvez nós dois possamos abrir um mercado juntos!)\n* (Você venderia as bugigangas...)",
+                            "<32>{#p/basic}* (Nós dois possamos abrir um mercado juntos! Você venderia as bugigangas...)",
                             "<32>{#p/basic}* E você venderia a comida.\n* Eu gosto do jeito que você pensa sobre isso, garoto!",
                             "<32>{#p/basic}* Mas seria melhor se um de nós vendesse, e o outro cuidasse das finanças.",
                             '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
@@ -1773,7 +1773,7 @@ export default {
                             '<32>{#s/echostart}{#p/event}{#npc/a}* Sinal iniciado...',
                             "<32>{#p/basic}* (Ha. Vamos nos revezar, então.)",
                             "<32>{#p/basic}* (Fazer a mesma coisa o tempo todo fica chato, você não acha?)",
-                            "<32>{#p/basic}* Wa ha ha.\n* Talvez eu só esteja velho, mas eu não reclamaria de fazer finanças.",
+                            "<32>{#p/basic}* Talvez eu só esteja velho, mas eu não reclamaria de fazer finanças.",
                             '<32>{#p/basic}* Você pode ter a parte divertida do trabalho, carinha!',
                             '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
@@ -1828,8 +1828,8 @@ export default {
                                     ]
                                     : [
                                         '<32>{#p/basic}* (Eles estão a caminho então?)',
-                                        "<32>{#p/basic}* Claro, mas vai demorar até você vê-los.\n* Sem mencionar a Undyne...",
-                                        "<32>{#p/basic}* (Exato, ela vai para-los.)\n* (Ela está no comando da guarda real, a final...)"
+                                        "<32>{#p/basic}* Claro, mas vai demorar até você vê-lo.\n* Sem mencionar a Undyne...",
+                                        "<32>{#p/basic}* (Exato, ela vai para-lo.)\n* (Ela está no comando da guarda real, a final...)"
                                     ]),
                                 '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                             ]
@@ -1903,7 +1903,7 @@ export default {
                             '<32>{#p/basic}* (Para quem mais eu vou?)\n* (As meninas?)',
                             '<32>{#p/basic}* Hmm...\n* Eu entendo seu ponto.',
                             "<32>{#p/basic}* (Você é o único com o qual eu posso desabafar, velho amigo.)",
-                            "<32>{#p/basic}* (Construir esta loja para fazer graça do Mettaton foi divertido, mas é hora de uma mudança.)",
+                            "<32>{#p/basic}* (Construir esta loja para fazer graça do Mettaton foi divertido, mas irei mudar.)",
                             '<32>{#s/echostop}{#p/event}{#npc}* Sinal terminado.'
                         ]
                         : geno()
@@ -3213,9 +3213,9 @@ export default {
                     ? [
                         [
                             "<25>{#p/asriel1}{#f/17}* E pensar que ele está cuidando daquela loja por tanto tempo...",
-                            "<25>{#f/20}* Eu me pergunto que outras coisas ele vendeu conforme os anos.",
+                            "<25>{#f/20}* Eu me pergunto que outras coisas ele vendeu nos anos.",
                             "<25>{#f/15}* Lembre-se, nessa linha tempo, eu só estou aqui a duas semanas.",
-                            "<25>{#f/13}* Meu palpite é que ele tem vendido principalmente bugigangas...",
+                            "<25>{#f/13}* Meu palpite é que ele tem vendido bugigangas...",
                             '<25>{#f/16}* Seja nos dias do Outpost, ou no antigo mundo natal.'
                         ],
                         [
@@ -3338,7 +3338,7 @@ export default {
             f_puzzle3_sign: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (O sinal declara a decidida injustiça deste quebra-cabeça como a razão pela qual ele foi desligado.)',
+                        '<32>{#p/human}* (O sinal declara a injustiça deste quebra-cabeça sendo assim, ele foi desligado.)',
                         "<25>{#p/asriel1}{#f/20}* É... esse quebra-cabeça foi uma verdadeira dor na bunda."
                     ]
                     : !world.genocide && world.trueKills < 30
@@ -5120,7 +5120,7 @@ export default {
                         SAVE.data.b.f_state_kidd_fight
                             ? '<25>{#p/kidd}{#f/4}* Quer dizer, você me disse pra lutar...'
                             : '<25>{#p/kidd}{#f/4}* Quer dizer, você lutou sozinho...',
-                        '<25>{#p/kidd}{#f/8}* Mas você... \n* ... r-realmente queria...\n* ... isso...?'
+                        '<25>{#p/kidd}{#f/8}* Mas você, r-realmente queria... isso...?'
                     ]
                     : [
                         '<25>{#p/kidd}{#f/2}* Um dia, aquele esqueleto baixo e seu irmão apareceram...',
@@ -5131,7 +5131,7 @@ export default {
                 SAVE.data.n.state_foundry_muffet === 1
                     ? [
                         '<25>{#p/kidd}{#f/4}* Eu nunca quis ferir ninguém, eu só...\n* Eu...',
-                        '<25>{#p/kidd}{#f/8}* Eu só quero acordar...\n* Por favor... deixa isso tudo ser um sonho ruim...'
+                        '<25>{#p/kidd}{#f/8}* Eu só quero acordar...\n* Por favor... que seja um sonho ruim...'
                     ]
                     : [
                         "<25>{#p/kidd}{#f/1}* Talvez algum dia eu serei piloto, com minha própria nave espacial.",
@@ -6833,7 +6833,7 @@ export default {
                 ? [
                     '<20>{#p/undyne}Ngahhh...',
                     '<21>Eu pensei...\nQue você era diferente...',
-                    '<20>Mas você...\n... você realmente...\n... urgh...',
+                    '<20>Mas você, você realmente...\n.... urgh...',
                     '<20>...'
                 ]
                 : [

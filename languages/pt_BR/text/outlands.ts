@@ -387,12 +387,12 @@ export default {
                 '<25>{#p/asriel1}{#f/23}* Ha...',
                 '<25>{#f/22}* Eu devo estar parecendo um louco agora.',
                 '<25>{#f/15}* Obcecado por alguém que eu já deveria ter movido para frente...',
-                '<26>{#f/17}* ... Eu acho que $ (name) e eu realmente somos apenas um \n  par de idiotas.'
+                '<26>{#f/17}* ... Eu acho que $(name) e eu realmente somos um par de idiotas.'
             ],
             e7: [
                 '<25>{#p/asriel1}{#f/13}* Uma vez, eu e $(name) estávamos lutando por uma cama...',
-                "<25>{#f/10}* Porque nós dois queríamos aquele com a mesa de cabeceira ao lado.",
-                '<26>{#f/15}* Nós estávamos nos empurrando de um lado pro outro, tentando ganhar espaço...',
+                "<25>{#f/10}* Nós dois queríamos aquele com a mesa de cabeceira ao lado.",
+                '<26>{#f/15}* Estávamos nos empurrando, tentando ganhar espaço...',
                 '<25>{#f/4}* Nós lutamos tanto que acabamos nos cansando e caímos no sono.',
                 '<25>{#f/13}* Mas quando acordamos...',
                 '<25>{#f/17}* Estávamos deitados um do lado do outro.',
@@ -404,33 +404,33 @@ export default {
                 "<25>{#f/17}* ... naquele ponto, eu só estava feliz por não estarmos lutando."
             ],
             e8: [
-                '<25>{#p/asriel1}{#f/13}* Outra vez, $(name) e eu estávamos fazendo o jantar para mamãe e papai',
+                '<25>{#p/asriel1}{#f/13}* Outra vez, $(name) e eu estávamos fazendo o jantar.',
                 '<25>{#f/15}* Ele queria que a comida fosse mais picante...',
-                '<25>{#f/3}* Pra ser sincero, se ele insistisse naquilo agora, eu não teria reclamado.',
+                '<25>{#f/3}* Pra ser sincero, se ele insistisse agora, eu não teria reclamado.',
                 '<25>{#f/20}* Eu poderia fazer uma comida picante agora.',
-                '<25>{#f/13}* Mas, antes eu era mais um garoto das comidas suaves. Maior parte dos monstros eram.',
+                '<25>{#f/13}* Mas, antes eu era mais um garoto das comidas suaves. Monstros são.',
                 '<25>{#f/15}* Acabamos brincando de cabo de guerra com a tigela e...',
                 '<25>{#f/20}* Você deve imaginar como isso acabou.',
                 '<25>{#f/17}* Mamãe fez a gente limpar a bagunça, obviamente.',
-                '<25>{#f/13}* Então papai nos levou pra comer fora e nós comemos o que queríamos.'
+                '<25>{#f/13}* Fomos levados pra comer fora e comer o que queríamos.'
             ],
             e9: [
-                "<25>{#p/asriel1}{#f/15}* $(name) e eu...\n* Não é como se não tivéssemos um acordo com nada...",
+                "<25>{#p/asriel1}{#f/15}* $(name) e eu... nós tínhamos acordo às vezes...",
                 '<25>{#f/20}* Tirando passar muito tempo junto.',
-                '<26>{#f/17}* Apesar de nossas diferenças, $(name) e eu realmente éramos inseparáveis.',
+                '<26>{#f/17}* Apesar das diferenças, $(name) e eu éramos inseparáveis.',
                 "<25>{#f/13}* Nem mesmo a morte conseguiu nos separar para sempre."
             ],
             e10: [
                 "<25>{#p/asriel1}{#f/17}* ... você acha que ele ainda está aí, Frisk?",
-                '<25>{#f/17}* Com tudo isso que aconteceu, ele pode estar nos assistindo agora.',
+                '<25>{#f/17}* Com tudo isso, ele pode estar nos assistindo agora.',
                 "<25>{#f/23}* Isso não seria alguma coisa.",
                 "<25>{#f/22}* Mas é impossível saber de certeza."
             ],
             e11: [
                 "<25>{#p/asriel1}{#f/17}* Senhor. Pra alguém que vai estar contigo...",
-                "<25>{#f/20}* Eu tenho certeza que estou parecendo que queria estar com o $(name).",
+                "<25>{#f/20}* Eu tenho certeza que estou parecendo que queria estar com o ele.",
                 "<25>{#f/13}* Mas... não é verdade.",
-                "<25>{#f/17}* Eu simplesmente não posso deixar de relembrar alguém que eu conhecia."
+                "<25>{#f/17}* Eu não posso deixar de relembrar alguém que eu conhecia."
             ],
             e12: () => [
                 '<25>{#p/asriel1}{#f/17}* Frisk...\n* Eu quero que você saiba.',
@@ -441,14 +441,14 @@ export default {
                     ? ["<25>{#f/22}* Mesmo que você não pudesse me perdoar pelo que eu fiz..."]
                     : SAVE.flag.n.killed_sans > 0
                         ? ['<25>{#f/22}* Mesmo que eu quisesse que você tivesse feito todas aquelas coisas horríveis...']
-                        : ['<25>{#f/22}* Mesmo sabendo que eu te torturei, e ameacei a vida de todos que você ama...']),
+                        : ['<25>{#f/22}* Mesmo sabendo que eu te torturei, e ameacei a vida de todo mundo...']),
                 "<25>{#f/13}* Você ainda assim está me ajudando a superar tudo isso.",
                 '<25>{#f/23}* ... Significa muito pra mim.',
                 '<25>{#f/22}* ...',
                 '<25>{#f/13}* Mãe, Pai...',
                 '<25>{#f/13}* Sans, Papyrus, Undyne, Alphys...',
                 "<25>{#f/15}* Todos que eu matei nos inúmeros passados...",
-                "<25>{#f/16}* ... vai ser bem difícil pra mim olhar diretamente em seus olhos.",
+                "<25>{#f/16}* ... vai ser bem difícil pra mim olhar em seus olhos.",
                 '<25>{#f/13}* ...',
                 "<25>{#f/17}* Mas eu vou tentar.",
                 "<25>{#f/23}* Eu vou tentar se uma pessoa melhor.",
@@ -2932,7 +2932,7 @@ export default {
 
                         ? [
                             '<32>{#p/basic}* \"A fronteira final é um mar negro fundo.\"',
-                            '<32>* \"Navegar é águas jamais DEVERIA requerer resolver enigmas de desing mal feito!\"'
+                            '<32>* \"Navegar em águas jamais DEVERIA requerer resolver enigmas de desing mal feito!\"'
                         ]
                         : [
                             '<32>{#p/basic}* \"A fronteira final é um mar negro fundo.\"',

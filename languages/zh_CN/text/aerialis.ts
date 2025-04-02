@@ -2356,7 +2356,7 @@ export default {
             ],
             hapsta7: [
                 "<32>{#p/napstablook}* 就是这样",
-                "<32>{|}{#p/napstablook}* 如果我不知道其他更好的可能，\n  那我就觉得这是- {%}"
+                "<32>{|}{#p/napstablook}* 如果我不知道真相，\n  那肯定会觉得这- {%}"
             ],
             hapsta8: ["<32>{#p/finalghost}* 对不起，我迟到了。"],
             hapsta9: ['<32>* 哦。\n* 你好啊，人类。'],
@@ -2388,11 +2388,11 @@ export default {
             hapsta18: ['<32>{#p/basic}* 哎呀，开个玩笑嘛..'],
             hapsta19: ['<32>{#p/finalghost}* 自然。\n* 现在，对于手头上的事情...'],
             hapsta20: ["<32>{#p/finalghost}* 我们都知道\n  我们为何相聚于此。\n* 我们的表亲..."],
-            hapsta21: ["<32>{#p/basic}* 我们的表亲是个叛徒。"],
+            hapsta21: ["<32>{#p/basic}* 我们的表亲背叛了我们。"],
             hapsta22: [
                 '<32>{#p/finalghost}* ...',
-                '<32>* 我们的表亲可以是任何东西，\n  但绝对不会是个“叛徒”。',
-                '<32>* 实际上，我和Blooky\n  在读了表亲的日记后...\n  我才知道这是我们的错。'
+                '<32>* 我们的表亲确实不择手段，\n  但他绝不可能\n  干出“背叛”的事来。',
+                '<32>* 我与Blooky早已读过他的日记，\n  在那时，我才知道...\n  这一切都是我们的错。'
             ],
             hapsta23: ['<32>{#p/napstablook}* .........\n* .........\n  我们要给他打电话吗？'],
             hapsta24: ["<32>{#p/finalghost}* 我没意见。"],
@@ -2404,14 +2404,14 @@ export default {
                 '<32>{#p/napstablook}* 可以私下聊吗.........',
                 '<32>{#p/mettaton}* 哦。',
                 "<32>{#p/mettaton}* 恐怕现在不行，\n  我还需要准备下一场演出呢！",
-                "<32>* 等完事我们见个面怎么样？"
+                "<32>* 等完事我们再聊，\n  怎么样？"
             ],
-            hapsta26: ['<32>{|}{#p/basic}* 你一直在回避- {%}'],
+            hapsta26: ['<32>{|}{#p/basic}* 你一直在逃避- {%}'],
             hapsta27: ['<32>{#p/finalghost}* 少插嘴！'],
             hapsta28: [
-                '<32>{#p/napstablook}* 那些工作...',
-                '<32>{#p/mettaton}* 棒极了，亲爱的。',
-                "<32>* 到时候我会见面\n  跟你说说的！"
+                '<32>{#p/napstablook}* 这招果然好使...',
+                '<32>{#p/mettaton}* 太好了，亲爱的。',
+                "<32>* 那，等会再聊！"
             ],
             hapsta29: [
                 '<32>{#p/basic}* 我就知道。\n* 我就知道！\n* 我-就-知-道！',
@@ -2423,7 +2423,7 @@ export default {
             ],
             hapsta31: ['<32>{#p/basic}* 哦...'],
             hapsta32: () => [
-                '<32>{#p/finalghost}* 好吧，\n  聊天很愉快再见。',
+                '<32>{#p/finalghost}* 好吧，聊天很愉快。\n* 再见。',
                 "<32>* 我们很快就会再见面的。"
             ],
             hapsta34: () => [
@@ -2804,7 +2804,7 @@ export default {
                         "<32>* 即使... 这不是你真正\n  所需要的家庭......",
                         '<32>{#p/basic}* Blooky，我...',
                         '<32>{#p/napstablook}* $(namel)，如果...\n* 不，当你再见到他时...',
-                        "<32>* 永远不要让他忘记你\n  在生活中有多在乎他...\n  好吗？"
+                        "<32>* 提醒他：永远不要忘记\n  你在他生命中的意义...\n  可以吗？"
                     ],
             hapsta76: [
                 "<32>{#p/napstablook}* 对了，喵喵玩偶还你",
@@ -3312,7 +3312,7 @@ export default {
                                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...但是...'
                                     ]
                                     : [
-                                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* 你好像根本不在乎。",
+                                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* 但你好像根本不在乎。",
                                         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...'
                                     ]),
                                 '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* ...Undyne是我的英雄。',
@@ -3502,7 +3502,7 @@ export default {
                                             ? [
                                                 '<25>{#p/alphys}{#g/alphysCutscene1}* 我有个习惯，\n  就是经常忘记\n  暂停我的实验。',
                                                 "<25>{#g/alphysCutscene2}* 突然觉得，\n  这个习惯好像无形中\n  救了你一命！",
-                                                '<25>{#g/alphysUhButHeresTheDeal}* 但我想，\n  Mettaton总会留一个\n  备用计划。'
+                                                '<25>{#g/alphysUhButHeresTheDeal}* 但是吧，\n  就算没发生那种状况，\n  Mettaton也会启动备用计划。'
                                             ]
                                             : SAVE.data.n.plot < 59
                                                 ? [
@@ -4469,7 +4469,7 @@ export default {
             coresign1: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* （该标志写着\n  禁止任何未经授权的人\n  进入该区域。）',
+                        '<32>{#p/human}* （牌子上写着：\n  实验要地，闲人免进。）',
                         '<25>{#p/asriel1}{#f/4}* 由于某种\n  显而易见的原因，\n  你可以忽略这条警告。'
                     ]
                     : ['<32>{#p/basic}* “未经授权，严禁闯入。”'],
@@ -4600,7 +4600,7 @@ export default {
                         ],
                         [
                             "<25>{#p/asriel1}{#f/13}* 不过最终成果\n  看着不咋地...",
-                            '<25>{#f/15}* 大概是感觉自己被强迫了，\n  人们干活不咋认真导致的。',
+                            '<25>{#f/15}* 那些人并没有认真干活，\n  估计也是没兴趣干下去了。',
                             '<25>{#f/17}* 起码我还是明白了，\n  旧世界为什么会让\n  人们交口称誉。',
                             "<25>{#f/23}* 它是... 如此的美丽。\n* 可以称得上为\n  心目中的世外桃源。"
                         ],
@@ -4801,7 +4801,7 @@ export default {
                                     ? [
                                         "<32>{#p/basic}{#npc/a}* 不过，我得向他要那些\n  设计资金，祝我好运吧。"
                                     ]
-                                    : ['<32>{#p/basic}{#npc/a}* 如果不顺利的话，\n  我可能会消失在前哨站！']
+                                    : ['<32>{#p/basic}{#npc/a}* 要是顺利的话，\n  我应该还能活着回来的！']
             ),
             picnic_darkman1: pager.create(
                 0,
@@ -4989,7 +4989,7 @@ export default {
                         : SAVE.data.b.killed_mettaton
                             ? [
                                 '<32>{#p/basic}{#npc/a}* 真是个悲剧，是吧？',
-                                "<32>* ...其实也算件好事，\n  大部分人都不知道\n  你具体长啥样。"
+                                "<32>* ...其实也算件好事，\n  毕竟大部分人都不知道\n  你长啥样。"
                             ]
                             : roomKills().a_elevator1 > 0
                                 ? ["<32>{#p/basic}{#npc/a}* 听着。\n* 快走。"]
@@ -6756,7 +6756,7 @@ export default {
             '<20>{#p/basic}{~}{#e/glyde/8}被人造谣成\n售卖假冒伪劣产品！',
             '<20>{#p/basic}{~}{#e/glyde/1}我就一直在想\n“这开的什么星际玩笑”。'
         ],
-        turnStatus2: ['<32>{#p/story}* Glyde在想“时髦”\n  这个词的新俚语。'],
+        turnStatus2: ['<32>{#p/story}* Glyde在想\n  现在的网友说“时髦”\n  都喜欢用啥词。'],
         turn3: [
             '<20>{#p/basic}{#p/basic}{~}{#e/glyde/6}向你担保，我的牛排企业\n在这前哨站可稀罕了。',
             '<20>{#p/basic}{~}有啥比得上那些\n上好的无骨牛排呢！',
@@ -7329,7 +7329,7 @@ export default {
             radio: () =>
                 world.bad_robot
                     ? [
-                        '<32>{#p/human}* （你把收音机递给了Mettaton。）\n* （他放起了死亡重金属音乐，\n  并朝你大吼大叫。）'
+                        '<32>{#p/human}* （你把收音机递给了Mettaton。）\n* （他放起了死亡重金属音乐，\n  并朝你咆哮。）'
                     ]
                     : iFancyYourVilliany()
                         ? [
@@ -8836,7 +8836,7 @@ export default {
                         : ["<32>{#p/alphys}* 这只是Mushketeer罢了。"]
                     : ['<32>{#p/story}* MUSHKETEER - 攻击30 防御28\n* 拥有特殊的成长经历。\n* 火枪手。'],
         act_check2: ['<32>{#p/story}* MUSHKETEER - 攻击30 防御28\n* 正在反思自己的成长经历。\n* 半吊子火枪手。'],
-        act_check3: ['<32>{#p/story}* MUSHKETEER - 攻击30 防御28\n* 忘记了自己的成长经历。\n* 心暖花开。'],
+        act_check3: ['<32>{#p/story}* MUSHKETEER - 攻击30 防御28\n* 忘记了自己的成长经历。\n* 变成了阳光菇。'],
         act_check4: ['<32>{#p/story}* MUSHKETEER - 攻击30 防御28\n* 蘑菇的字典里，\n  从来没有“退缩”二字。'],
         act_flirt: () => [
             '<32>{#p/human}* （你邀请Mushketeer来参加\n  一场私下的枪战。）',
@@ -11001,7 +11001,8 @@ export default {
                         '<32>{#p/basic}{#k/7}* 恋爱心得？',
                         "<32>{#k/0}* 小家伙，对于恋爱，\n  我只有一条心得。",
                         "<32>{#k/1}* ...别碰。",
-                        "<32>{#k/4}* 当遇到对的人时，\n  一切皆如月下共舞般美妙。",
+                        '<32>{#k/4}* 除非你能遇到\n  情投意合的心上人。',
+'<32>{#k/4}* 唯有那时，一切才会如\n  月下共舞般美妙。',
                         '<32>{#k/0}* 那个老家伙说不定也喜欢你呢。'
                     ]
                     : world.population === 0 || burger()
@@ -11995,7 +11996,7 @@ export default {
                 SAVE.data.n.plot < 65
                     ? SAVE.data.b.a_state_hapstablook
                         ? [
-                            '<32>{#p/human}* （思考着这位电视明星的故事，\n  这使你充满了决心。）'
+                            '<32>{#p/human}* （思考着这位电视明星的故事\n  使你充满了决心。）'
                         ]
                         : ["<32>{#p/human}* （Mettaton这番荒唐的胡闹\n  使你充满了决心。）"]
                     : SAVE.data.n.plot < 68
@@ -12013,7 +12014,7 @@ export default {
             text: () =>
                 SAVE.data.n.plot < 65
                     ? SAVE.data.b.a_state_hapstablook
-                        ? ["<32>{#p/human}* （对将要干预Mettaton的预感\n  使你充满决心。）"]
+                        ? ["<32>{#p/human}* （你有预感，\n  Mettaton接下来要整新活了。\n  这使你充满决心。）"]
                         : ['<32>{#p/human}* （这座建在荒无人烟的地方的喷泉\n  使你充满了决心。）']
                     : SAVE.data.n.plot < 68
                         ? ['<32>{#p/human}* （再次凝视这个喷泉\n  使你充满了决心。）']

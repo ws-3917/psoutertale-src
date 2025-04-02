@@ -2,101 +2,101 @@
 
 export default {
     battle: {
-        death0: ['(You take a deep breath.)', "(You're filled with determination.)"],
-        death1: ['You cannot give up just yet...', '$(name)!\nStay determined...'],
-        death2: ['Our fate rests upon you...', '$(name)!\nStay determined...'],
-        death3: ["You're going to be alright!", '$(name)!\nStay determined...'],
-        death4: ["Don't lose hope!", '$(name)!\nStay determined...'],
-        death5: ['It cannot end now!', '$(name)!\nStay determined...'],
+        death0: ['(Veszel egy mély lélegzetet.)', "(El vagy telve elszántsággal.)"],
+        death1: ['Nem adhatod fel épp most...', '$(name)!\nMaradj elszánt...'],
+        death2: ['A sorsunk a Te kezedven van...', '$(name)!\nMaradj elszánt...'],
+        death3: ["Minden rendben lesz!", '$(name)!\nMaradj elszánt...'],
+        death4: ["Ne veszítsd el a reményt!", '$(name)!\nMaradj elszánt...'],
+        death5: ['Ez nem végződhet most!', '$(name)!\nMaradj elszánt...'],
 
-        flee1: '    * Escaped...',
-        flee2: "    * I'm outta here.",
-        flee3: "    * I've got better to do.",
-        flee4: "    * Don't slow me down.",
-        flee5: '    * Ran away with $(x) EXP\n      and $(y)G.',
+        flee1: '    * Megszökve...',
+        flee2: "    * Eltűntem innen.",
+        flee3: "    * Van jobb dolgom.",
+        flee4: "    * Ne lassíts le.",
+        flee5: '    * Megszökve $(x) TP-vel\n\n      és $(y)A-val.',
 
-        mercy_assist: '* Assist',
-        mercy_flee: '* Flee',
-        mercy_spare: '* Spare',
+        mercy_assist: '* Segítség',
+        mercy_flee: '* Szökés',
+        mercy_spare: '* Kímélet',
 
-        victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.',
-        victory2: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased.'
+        victory1: '<32>{#p/story}* GYŐZTÉL!\n* Elnyertél $(x) TP-t és $(y)A-t.',
+        victory2: '<32>{#p/story}* GYŐZTÉL!\n\n* Elnyertél $(x) TP-t és $(y)A-t.\n\n* A SZERETETED emelkedett.'
     },
 
     developer: {
         console: {
-            header: 'ERROR',
+            header: 'HIBA',
             p_resume: {
-                header: 'DISMISS',
-                resume: 'Click To Dismiss'
+                header: 'ELUTASÍT',
+                resume: 'Kattints az elutasításhoz'
             },
-            blurb: 'An error occured! Please send\nscreenshot to developer.'
+            blurb: 'Hiba lépett fel! Kérlek küldj\nképernyőképet a fejlesztőnek.'
         },
         control: {
-            tab: 'CONTROL',
-            headers: ['GENERAL', 'BATTLE'],
+            tab: 'IRÁNYÍTÁS',
+            headers: ['ÁLTALÁNOS', 'HARC'],
             items: [
                 [
-                    'FixMusic',
-                    'FixPlayer',
-                    'InfiniteG',
-                    'Interact',
-                    'Input',
-                    'Movement',
-                    'Noclip',
-                    'Save',
-                    'SkipText',
-                    'Freecam'
+                    'ZeneFix',
+                    'JátékosFix',
+                    'VégtelenA',
+                    'Használ',
+                    'Bevitel',
+                    'Irányítás',
+                    'ÜtközésKi',
+                    'Mentés',
+                    'SzövegÁtugrás',
+                    'SzabadKamera'
                 ],
                 [
-                    'CanAssist',
-                    'ClearBox',
-                    'Exit',
-                    'ResetBox',
-                    'ResetMenu',
-                    'CanFlee',
-                    'InfiniteHP',
-                    'PacifyAll',
-                    'Suicide',
-                    'WeakenAll'
+                    'KépesSegíteni',
+                    'DobozÜrítése',
+                    'Kilépés',
+                    'DobozVisszaállítása',
+                    'MenüVisszaállítása',
+                    'KépesMegszökni',
+                    'VégtelenÉP',
+                    'MindentNyugtat',
+                    'Öngyilok',
+                    'MindentMeggyengít'
                 ]
             ],
             p_speed: {
                 fps: '$(x) FPS',
-                halt: 'Halt',
-                header: 'GAME SPEED',
-                next: 'More',
-                prev: 'Less',
-                sec: '$(x)s/frame'
+                halt: 'Állj',
+                header: 'JÁTÉK SEBESSÉG',
+                next: 'Több',
+                prev: 'Kevesebb',
+                sec: '$(x)s/képkocka'
             }
         },
         godhome: {
-            tab: 'GODHOME',
+            tab: 'ISTENOTTHON',
             p_teleport: {
-                header: 'ROOM',
+                header: 'SZOBA',
                 action: 'Teleport'
             },
             p_encounter: {
-                header: 'ENCOUNTER',
+                header: 'ÖSSZECSAPÁS',
                 action: 'Start'
             },
             p_armor: {
-                header: 'ARMOR'
+                header: 'PÁNCÉL'
             },
             p_weapon: {
-                header: 'WEAPON'
+                header: 'FEGYVER'
             }
         },
         inspect: {
-            tab: 'INSPECT',
-            headers: ['LAYERS', 'TYPES'],
+            tab: 'VIZSGÁL',
+            headers: ['RÉTEGEK', 'TÍPUSOK'],
             switches: [
-                ['Base', 'Below', 'Main', 'Above', 'Menu'],
-                ['Hitbox', 'Sprite', 'Text']
+                ['Alap', 'Alatt', 'Fő', 'Felett', 'Menü'],
+                ['ÜtközésiKeret', 'Sprite', 'Szöveg']
             ],
             p_explorer: {
-                header: 'EXPLORER',
-                layers: ['Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)'],
+                header: 'INTÉZŐ',
+                layers: ['Alap (Intéző)', 'Alatt (Intéző)', 'Fő (Intéző)', 'Felett (Intéző)', 'Menü (Intéző)'],
                 letters: {
                     animation: 'A',
                     character: 'C',
@@ -109,134 +109,134 @@ export default {
                     text: 'T'
                 }
             },
-            debug_instructions: 'Press [TAB] to cycle debug info',
+            debug_instructions: 'Nyomj [TAB]-ot a debug infó váltásához',
             debug: {
                 a: 'A', 
-                acceleration: 'Acceleration',
-                active: 'Active',
-                alpha: 'Alpha',
-                anchor: 'Anchor',
+                acceleration: 'Gyorsulás',
+                active: 'Aktív',
+                alpha: 'Alfa',
+                anchor: 'Horgony',
                 b: 'B', 
-                blend: 'Blend',
-                border: 'Border',
-                compute: 'Computed Size',
-                content: 'Content',
-                crop: 'Crop',
-                down: 'Down',
-                duration: 'Duration',
-                exp: 'EXP',
-                extent: 'Extent',
+                blend: 'Összemos',
+                border: 'keret',
+                compute: 'Számított Méret',
+                content: 'Tartalom',
+                crop: 'Vágás',
+                down: 'Le',
+                duration: 'Időtartam',
+                exp: 'TP',
+                extent: 'Mérték',
                 f: 'F', 
-                face: 'Face',
-                false: 'False',
-                fill: 'Fill',
-                fontFamily: 'Font Family',
-                fontSize: 'Font Size',
-                frames: 'Frames',
-                gravity: 'Gravity',
-                group: 'Group',
-                hp: 'HP',
-                index: 'Index',
-                inert: 'Inert',
-                key: 'Key',
-                lastSavedTime: 'Last Saved Time',
-                layer: 'Layer',
-                layers: 'Layers',
-                left: 'Left',
-                metadata: 'Metadata',
-                music: 'Music',
-                namespace: 'Namespace',
-                none1: 'NONE',
-                none2: 'none',
-                objects: 'Objects',
-                oversaver: 'Oversaver',
-                parallax: 'Parallax',
-                position: 'Position',
-                primed: 'Primed',
-                priority: 'Priority',
-                registry: 'REGISTRY',
-                renderer: 'Renderer',
-                resources: 'Resources',
-                reverse: 'Reverse',
-                right: 'Right',
-                room: 'Room',
-                roomState: 'Room State',
-                rotation: 'Rotation',
+                face: 'Arc',
+                false: 'Hamis',
+                fill: 'Kitölt',
+                fontFamily: 'Betűcsalád',
+                fontSize: 'Betűméret',
+                frames: 'Képkockák',
+                gravity: 'Gravitáció',
+                group: 'Csoport',
+                hp: 'ÉP',
+                index: 'Mutató',
+                inert: 'Tétlen',
+                key: 'Kulcs',
+                lastSavedTime: 'Legutóbbi Mentett Idő',
+                layer: 'Réteg',
+                layers: 'Rétegek',
+                left: 'Bal',
+                metadata: 'Metaadat',
+                music: 'Zene',
+                namespace: 'Névtér',
+                none1: 'SEMMI',
+                none2: 'semmi',
+                objects: 'Objektumok',
+                oversaver: 'Túlmentő',
+                parallax: 'Parallaxis',
+                position: 'Pozíció',
+                primed: 'Előkészített',
+                priority: 'Prioritás',
+                registry: 'BEJEGYZÉS',
+                renderer: 'Renderelő',
+                resources: 'Erőforrások',
+                reverse: 'Fordított',
+                right: 'Jobb',
+                room: 'Szoba',
+                roomState: 'Szoba Állapot',
+                rotation: 'Forgatás',
                 s: 'S', 
-                scale: 'Scale',
-                shopSelection: 'Shop Selection',
-                size: 'Size',
-                spacing: 'Spacing',
-                spin: 'Spin',
-                sprites: 'Sprites',
-                step: 'Step',
-                stroke: 'Stroke',
-                subcrop: 'Subcrop',
-                talk: 'Talk',
-                target: 'Target',
-                text: 'Text',
-                time: 'Time',
-                tint: 'Tint',
-                trackedAssets: 'Tracked Assets',
-                true: 'True',
-                unknown: 'UNKNOWN',
-                up: 'Up',
-                vars: 'Vars',
-                velocity: 'Velocity',
-                volatile: 'Volatile'
+                scale: 'Skála',
+                shopSelection: 'Bolt Választás',
+                size: 'Méret',
+                spacing: 'Térköz',
+                spin: 'Pörgetés',
+                sprites: 'Sprite-ok',
+                step: 'Lépés',
+                stroke: 'Vonás',
+                subcrop: 'AlVágás',
+                talk: 'Beszéd',
+                target: 'Célpont',
+                text: 'Szöveg',
+                time: 'Idő',
+                tint: 'Árnyalat',
+                trackedAssets: 'Követett Elemek',
+                true: 'Igaz',
+                unknown: 'ISMERETLEN',
+                up: 'Fel',
+                vars: 'Változók',
+                velocity: 'Velocitás',
+                volatile: 'Instabil'
             }
         },
         savemod: {
-            tab: 'SAVEMOD',
-            header1: 'SAVE EDITOR',
+            tab: 'MENTÉSMOD',
+            header1: 'MENTÉS SZERKESZTŐ',
             domains: [
-                'Data (Booleans)',
-                'Data (Numbers)',
-                'Data (Strings)',
-                'Flags (Booleans)',
-                'Flags (Numbers)',
-                'Flags (Strings)'
+                'Adat (Boolean-ek)',
+                'Adat (Számok)',
+                'Adat (Szövegek)',
+                'Flagek (Boolean-ek)',
+                'Flagek (Számok)',
+                'Flagek (Szövegek)'
             ],
             p_page: {
-                header: 'NAVIGATION',
-                prev: 'Prev',
-                next: 'Next'
+                header: 'NAVIGÁCIÓ',
+                prev: 'Előző',
+                next: 'Következő'
             },
-            prompt: 'Enter Value',
-            back: 'Back'
+            prompt: 'Érték megadása',
+            back: 'Vissza'
         },
         storage: {
-            tab: 'STORAGE',
-            header: 'STORAGE EDITOR',
-            p_container: { header: 'SELECTION', prev: 'Prev', next: 'Next' },
-            display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
+            tab: 'TÁROLÓ',
+            header: 'TÁROLÓ SZERKESZTŐ',
+            p_container: { header: 'KIVÁLASZTÁS', prev: 'Előző', next: 'Következő' },
+            display: { inventory: 'Leltár', dimboxA: 'Dim. Doboz A', dimboxB: 'Dim. Doboz B' }
         }
     },
 
     dialog: {
-        dialog_clear_title: 'Clear File',
-        dialog_notice_title: 'Notice',
-        dialog_clear_mobile: 'Clear Mobile Settings',
-        dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
-        dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
-        error_load: 'That file could not be parsed.',
+        dialog_clear_title: 'Fájl Ürítése',
+        dialog_notice_title: 'Megjegyzés',
+        dialog_clear_mobile: 'Mobil Beállítások Ürítése',
+        dialog_open: { buttonLabel: 'Megnyit', name: 'MENTÉS fájlok', title: 'Fájl Megnyitása' },
+        dialog_save: { buttonLabel: 'Mentés', name: 'MENTÉS fájlok', title: 'Fájl Mentése' },
+        error_load: 'A fájlt nem lehet elemezni.',
         message_alert: ['OK'],
-        message_confirm: ['Cancel', 'OK'],
-        prompt_clear: 'Clear this file?',
-        prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
-        prompt_save: 'Save this file?',
-        prompt_clear_mobile: 'Clear mobile-related settings?\nThis will NOT clear\nyour SAVE file.',
-        prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
-        prompt_open: 'Load this file?'
+        message_confirm: ['Mégse', 'OK'],
+        prompt_clear: 'Fájl ürítése?',
+        prompt_demo: 'A MENTÉS fájlod az\n\nOUTERTALE demo-ból áthelyezve\n\negy idővonal helyre.',
+        prompt_save: 'Fájl mentése?',
+        prompt_clear_mobile: 'Törlöd a mobil beállításokat?\nEz NEM fogja törölni\na MENTÉSI fájlod.',
+        prompt_save_alternate: 'Másold az alábbi szöveget\negy JSON fájlba, hogy\neszközödre mentsd.',
+        prompt_open: 'Fájl betöltése?'
     },
 
     extra: {
         credits: [
             [
-                '§fill=#ff0§< DEVELOPER >§fill=#fff§',
+                '§fill=#ff0§< FEJLESZTŐ >§fill=#fff§',
                 'spacey_432',
                 '',
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< ÍRÓ >§fill=#fff§',
                 'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
@@ -250,12 +250,12 @@ export default {
                 'Rise'
             ],
             [
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< ÍRÓ >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 'Turbulation',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< MŰVÉSZ >§fill=#fff§',
                 'Balgamlı Kedi',
                 'Burge',
                 'Deskius',
@@ -267,7 +267,7 @@ export default {
                 'Ghostly'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< MŰVÉSZ >§fill=#fff§',
                 'HolyOranges',
                 'major_memestar',
                 'MattSpriteMaster',
@@ -284,24 +284,24 @@ export default {
                 'Starkiteckt'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< MŰVÉSZ >§fill=#fff§',
                 'supper12',
                 'Valor52',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< TECHNICIAN >§fill=#fff§',
+                '§fill=#ff0§< TECHNIKUS >§fill=#fff§',
                 'Codetoil',
                 'ryi3r',
                 'ws3917',
                 '',
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'Alden',
                 'Aspey',
                 'Aster',
                 'Balgamlı Kedi'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 'Brad',
                 'brayjamin',
@@ -318,7 +318,7 @@ export default {
                 'Fired'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -335,7 +335,7 @@ export default {
                 'Jonkler'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
@@ -352,7 +352,7 @@ export default {
                 'PixelToons Jaafar'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'Prezmop',
                 'prymus-agd',
                 'Quin',
@@ -369,7 +369,7 @@ export default {
                 'Teecup'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< TESZTELŐ >§fill=#fff§',
                 'Tem in a Cowboy Hat',
                 'Tenbrooks',
                 'ThatGuyWhoLikesFood',
@@ -382,83 +382,83 @@ export default {
                 'Zaxento The Greedy'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Alden',
-                '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
+                '§fill=#808080§Hogy ott voltál számomra, amikor\nszükségem volt valakire, akire támaszkodhatok,\nés hogy életleckét tanítottál,\namik jobb emberré tettek engem.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Aster',
-                '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
+                '§fill=#808080§Hogy te vagy az egyik legbarátságosabb\nember akit ismerek, az első, aki\nhinni kezdett a víziómban, és\ninspiráltál, hogy befejezzem a játékot.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Balgamlı Kedi',
-                "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+                "§fill=#808080§Hogy végig velem voltált a fejlesztés\nminden szakaszában, már az elejétől\nfogva. Függetlenül az időszaktól,\nmindig ott voltál, hogy segíts.§fill=#fff§"
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Ghostly',
-                '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
+                '§fill=#808080§Hogy a józan ész hangja voltál,\namikor a játék sok aspektusáról\nvolt szó, és bátorítottál, hogy vegyem\nkomolyan a tesztelést.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Zaxento The Greedy',
-                '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
+                '§fill=#808080§Hogy megbízható voltál, brutálisan\nőszinte, rengeteg kritikát és\nötletet adtál, és megbízható\nvoltál a nap óta, mikor először találkoztunk.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
-                '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
+                '§fill=#808080§Hogy segítettél megírni a játék fő\nrészeit, támogattad a víziómat, és\nsegítettél kifejezni magam\negy teljesen új módon.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< KÜLÖN KÖSZÖNET >§fill=#fff§',
                 'Bilge \"mnwary\"',
-                "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
+                "§fill=#808080§Hogy ott voltál, hogy segíts a fejlesztés\nvégén, és biztosítottad, hogy a játék\nírása elérje teljes potenciálját\nminden szempontból.§fill=#fff§"
             ],
-            ['Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§']
+            ['Elhozta a §fill=#ff0§The Mavis & Co.§fill=#fff§']
         ],
 
         final_frontier: {
-            header: '(( CAST ))',
+            header: '(( SZEREPOSZTÁS ))',
             opponents: {
                 froggit: {
                     name: 'FROGGIT',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Pondering\nLife',
-                        spare: 'Professional\nFrog',
-                        flirt: 'Pondering\nLove',
-                        bully: 'Hopping In\nFear'
+                        basic: 'Az életen\ntöpreng',
+                        spare: 'Professzionális\nbéka',
+                        flirt: 'A szerelmen\ntöpreng',
+                        bully: 'Félelemmel\nugrál'
                     }
                 },
                 whimsun: {
                     name: 'FLUTTERLYTE',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Learning To\nFly',
-                        spare: 'Emboldening\nAviator',
-                        flirt: 'Searching The\nSkies',
-                        bully: 'Evasively\nManeuvering'
+                        basic: 'Repülni\ntanul',
+                        spare: 'Bátorító\npilóta',
+                        flirt: 'Az eget\nkutatja',
+                        bully: 'Kitérő\nmanőverezik'
                     }
                 },
                 moldsmal: {
                     name: 'GELATINI',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Found A New\nSpace Station',
-                        spare: 'Backup\nDancer',
-                        flirt: 'Exotic Jelly\nDancer',
-                        bully: 'Found A New\nGalaxy'
+                        basic: 'Talált egy új\nűrállomást',
+                        spare: 'Háttér\ntáncos',
+                        flirt: 'Egzotikus zselé\ntáncos',
+                        bully: 'Talált egy\núj galaxist'
                     }
                 },
                 loox: {
-                    name: 'OCULOUX',
+                    name: 'OCOLOUX',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Slightly\nBully-Like',
-                        spare: 'Reformed\nBully',
-                        flirt: 'Slightly\nFlirtatious',
+                        basic: 'Kissé\nbunkószerű',
+                        spare: 'Megújult\nbunkó',
+                        flirt: 'Kissé\nFlörtölős',
                         bully: ''
                     }
                 },
@@ -466,29 +466,29 @@ export default {
                     name: 'SILENTE',
                     author: 'ScarletScaledDragon',
                     text: {
-                        basic: 'Exceedingly\nAgreeable',
-                        spare: 'Casually\nEnjoys Life',
-                        flirt: 'In Love From\nAfar',
-                        bully: 'Endangerment\nDenier'
+                        basic: 'Felettébb\negyüttértő',
+                        spare: 'Simán élvezi\naz életet',
+                        flirt: 'A távolságból\nszeret',
+                        bully: 'Veszélyeztetés\ntagadó'
                     }
                 },
                 mushy: {
                     name: 'MUSHY',
                     author: 'Balgamlı Kedi & ScarletScaledDragon',
                     text: {
-                        basic: 'Shooting\nBlanks',
-                        spare: 'Quick-Draw\nMagician',
-                        flirt: 'Gunshot\nHeart-Throb',
-                        bully: 'Spraying And\nPraying'
+                        basic: 'Vaktöltényt\nlövöldöz',
+                        spare: 'Gyorspárbaj\nmágus',
+                        flirt: 'Fegyverlövés a\nszívdobogása',
+                        bully: 'Golyószóró és\nremélő'
                     }
                 },
                 finalghost: {
                     name: 'LURKSALOT',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Keeping To\nThemselves',
-                        spare: 'Seeking\nPhysical Contact',
-                        flirt: 'Stoically\nUninvolved',
+                        basic: 'A magányt\nválasztja',
+                        spare: 'Fizikai\nkontaktust keres',
+                        flirt: 'Sztoikusan\ntávolságtartó',
                         bully: ''
                     }
                 },
@@ -496,9 +496,9 @@ export default {
                     name: 'STARDRAKE',
                     author: 'Burge',
                     text: {
-                        basic: 'Still Looking\nFor Laughs',
-                        spare: 'Semi-Successful\nComedian',
-                        flirt: 'Popular With The\nGrown-Ups',
+                        basic: 'Még mindig nevetést\nkeres',
+                        spare: 'Közepesen sikeres\nkomikus',
+                        flirt: 'Sikeres a felnőttek\nkörében',
                         bully: ''
                     }
                 },
@@ -506,29 +506,29 @@ export default {
                     name: 'CHILLDRAKE',
                     author: 'Burge',
                     text: {
-                        basic: 'Still Looking\nFor Supporters',
-                        spare: 'Gained A Cult\nFollowing',
-                        flirt: 'Trades Kisses\nFor Supporters',
-                        bully: 'Anti-Bullying\nActivist'
+                        basic: 'Még mindig támgatókat\nkeres',
+                        spare: 'Szektaként\nkövetik',
+                        flirt: 'Puszikat vált\ntámogatókra',
+                        bully: 'Anti-bunkóság\naktivista'
                     }
                 },
                 spacetop: {
                     name: 'ASTRO SERF',
                     author: 'DESM.al',
                     text: {
-                        basic: 'Thinking About\nIts Antenna',
-                        spare: 'Radio Station\nSensation',
-                        flirt: 'Love Is On\nThe Air',
-                        bully: 'Emergency\nBroadcaster'
+                        basic: 'Az antennájára\ngondol...',
+                        spare: 'Rádió állomás\nszenzáció',
+                        flirt: 'A szerelem az\nadásban~',
+                        bully: 'Vészhelyzeti\nközvetítő'
                     }
                 },
                 jerry: {
                     name: 'JERRY',
                     author: 'Discarded Vessel',
                     text: {
-                        basic: 'Getting Ditched\nOn The Daily',
-                        spare: 'Getting Ditched\nSlightly Less',
-                        flirt: 'On The Road To\nRedemption',
+                        basic: 'Napi szinten\nelhagyva',
+                        spare: 'Kicsit kevesebbszer\ncserben hagyva',
+                        flirt: 'A megváltásra\nvezető úton',
                         bully: ''
                     }
                 },
@@ -536,49 +536,49 @@ export default {
                     name: 'WHIZKARAT',
                     author: 'Zaxento The Greedy & semi',
                     text: {
-                        basic: 'Having An\nIdentity Crisis',
-                        spare: 'Newest Member Of\nMouse Society',
-                        flirt: 'Getting Frisky\nWith The Mice',
-                        bully: 'Scurried Back To\nCat Society'
+                        basic: 'Identitás zavar\nkrízise van',
+                        spare: 'Az egér társadalom\nlegújabb tagja',
+                        flirt: 'Kezd élénk lenni\naz egerek közt',
+                        bully: 'Visszamenekült a\nmacska társadalomba'
                     }
                 },
                 doggo: {
                     name: 'DOGGO',
                     author: 'Discarded Vessel',
                     text: {
-                        basic: 'Believes In The\nAlmighty Wrench',
-                        spare: 'Found His Own\nSeeing-Eye Wolf',
-                        flirt: 'In Love With His\nSeeing-Eye Wolf',
-                        bully: 'Running To His\nSeeing-Eye Wolf'
+                        basic: 'Hisz a mindenható\ncsavarkulcsban',
+                        spare: 'Megtalálta a saját\nlátó-szemű farkasát',
+                        flirt: 'Szerelemben a\nlátó-szemű farkasával',
+                        bully: 'A látó-szemű\nfarkasához rohan'
                     }
                 },
                 lesserdog: {
                     name: 'CANIS MINOR',
                     author: 'major_memestar',
                     text: {
-                        basic: 'Searching For\nAffection',
-                        spare: 'Found A Loving\nOwner',
-                        flirt: 'Found An Owning\nLover',
-                        bully: 'Desperate For\nAffection'
+                        basic: 'Szeretet után\nkutat',
+                        spare: 'Talált egy szerető\ngazdit',
+                        flirt: 'Talált egy birtokló\nszeretőt',
+                        bully: 'Szeretet után\nsóvárog'
                     }
                 },
                 dogs: {
                     name: 'DOGAMY & DOGARESSA',
                     author: 'major_memestar',
                     text: {
-                        basic: 'Still Thinking\nAbout Fetch',
-                        spare: 'Reigning Puppy-Dog\nEyes Champions',
-                        flirt: "Caught In Each-\nOther's Gaze",
-                        bully: 'Defensive Puppy-\nDog Eyes Engaged'
+                        basic: 'Visszahozósdin jár\naz agyuk',
+                        spare: 'Verhetetlen kutyaszem\nbajnokok',
+                        flirt: "Elveszve egymás\ntekintetében",
+                        bully: 'Védekező kutyaszemek\naktívak'
                     }
                 },
                 greatdog: {
                     name: 'CANIS MAJOR',
                     author: 'major_memestar',
                     text: {
-                        basic: "Unaware Of\nLife's Changes",
-                        spare: "Excited By\nLife's Changes",
-                        flirt: "Touched By\nLife's Changes",
+                        basic: "Fel se tűnnek\naz élet változásai",
+                        spare: "Izgatott az élet\nváltozásait illetően",
+                        flirt: "Megérintve az\nélet változásaitól",
                         bully: ''
                     }
                 },
@@ -586,49 +586,49 @@ export default {
                     name: 'SKRUBBINGTON',
                     author: 'Discarded Vessel',
                     text: {
-                        basic: 'Only 99.1\nPercent Clean',
-                        spare: 'Power-Washing\nPowerhouse',
-                        flirt: 'Hot Tub\nManufacturer',
-                        bully: 'Overpowered\nPressure Washer'
+                        basic: 'Csak 99.1\nszázalékban tiszta',
+                        spare: 'Magasnyomású mosó\nerőgép',
+                        flirt: 'Pezsgőfürdő\ngyártó',
+                        bully: 'Túlerőltetett\nmagasnyomású mosó'
                     }
                 },
                 moldbygg: {
                     name: 'GELATA',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Looking For A\nBaby Sitter',
-                        spare: 'Slime-Powered\nBarstool',
-                        flirt: 'Sexy Sitcom\nRegular',
-                        bully: 'Glorified\nWrestling Prop'
+                        basic: 'Bébiszittert\nkeres',
+                        spare: 'Zselé-üzemű\nbárszék',
+                        flirt: 'Szexi sitcom\nszereplő',
+                        bully: 'Megdicsőült\nbirkózókellék'
                     }
                 },
                 radtile: {
                     name: 'RADTILE',
                     author: 'Balgamlı Kedi & Zaxento The Greedy',
                     text: {
-                        basic: 'Wallowing In\nImperfection',
-                        spare: 'Improving His\nSelf-Image',
-                        flirt: 'Dating His Own\nReflection',
-                        bully: 'Headed For An\nUgly Future'
+                        basic: 'Belenyugszik a\ntökéletlenségbe',
+                        spare: 'Javítja az\nimidzsét',
+                        flirt: 'A saját tükörképével\nrandizgat',
+                        bully: 'Egy csúnya jövő\nfelé halad'
                     }
                 },
                 shyren: {
                     name: 'SHYREN',
                     author: 'Ghostly',
                     text: {
-                        basic: 'Back To Taking\nPiano Lessons',
-                        spare: "Mettaton's\nNew Lead Singer",
-                        flirt: 'In Love With\nA Ghost',
-                        bully: "Can't Sing Without\nA Synthesizer"
+                        basic: 'Ismét zongorázni\ntanul',
+                        spare: "Mettaton új\nfőénekese",
+                        flirt: 'Szerelemben egy\nszellemmel',
+                        bully: "Szintetizátor nélkül\nnem tud énekelni"
                     }
                 },
                 doge: {
                     name: 'DOGE',
                     author: 'major_memestar',
                     text: {
-                        basic: 'Construction Site\nDrill Sergeant',
-                        spare: 'Bought A Lifetime\nSpa Subscription',
-                        flirt: 'Felt Puppy Love\nFor The First Time',
+                        basic: 'Építkezési területi\nkiképzőtiszt',
+                        spare: 'Vett egy életreszóló\ngyógyfürdő bérletet',
+                        flirt: 'Először tapasztalta meg a\nkölyökkutya szerelmét',
                         bully: ''
                     }
                 },
@@ -636,9 +636,9 @@ export default {
                     name: 'MUFFET',
                     author: 'major_memestar',
                     text: {
-                        basic: 'Looking For Her\nNext Payout',
-                        spare: 'Caring For The\nSpider Clans',
-                        flirt: 'Picnic Date\nMatchmaker',
+                        basic: 'A következő havi\nfizetést várja',
+                        spare: 'Törődik a pók\nklánokkal',
+                        flirt: 'Piknik randi\nszervező',
                         bully: ''
                     }
                 },
@@ -646,49 +646,49 @@ export default {
                     name: 'HOTWIRE',
                     author: 'semi',
                     text: {
-                        basic: 'Waiting For The\nBeat To Drop',
-                        spare: 'Lightning-Fast\nRapper',
-                        flirt: 'Rapper Turned\nLove Song Writer',
-                        bully: 'Rap Battling To\nThe Near-Death'
+                        basic: 'Várja az ütemben\na droppot',
+                        spare: 'Villámgyors\nrapper',
+                        flirt: 'Rapperből lett\nszerelmes dal író',
+                        bully: 'Halál közelig\nrap csatát vív'
                     }
                 },
                 tsundere: {
                     name: 'TSUNDERIDEX',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Flying Deeper\nInto Denial',
-                        spare: 'Sneaking Up On\nYou At Warp Speed',
-                        flirt: 'Tsun To Be\nYour Dere-Dere',
-                        bully: 'Finally Met\nIts Match'
+                        basic: 'Mélyen száll az\nelutasításba',
+                        spare: 'Hipersebességgel\noson utánad',
+                        flirt: 'Hamarosan a\nkedvesed lesz',
+                        bully: 'Végre megtalálta\na párját'
                     }
                 },
                 perigee: {
                     name: 'PERIGEE',
                     author: 'Discarded Vessel',
                     text: {
-                        basic: 'Another Day,\nAnother Conflict',
-                        spare: 'Interplanetary\nAmbassador',
-                        flirt: 'Encouraging Love\nIn Others',
-                        bully: 'Showing Kindness\nThrough The Pain'
+                        basic: 'Újabb nap,\nújabb konfliktus',
+                        spare: 'Bolygószintű\nnagykövet',
+                        flirt: 'Másokban bátorítja\na szerelmet',
+                        bully: 'Kedvességet mutat\na fájdalmon át'
                     }
                 },
                 rg: {
-                    name: 'RG 03 & RG 04',
+                    name: 'KG 03 & KG 04',
                     author: 'semi',
                     text: {
-                        basic: 'In Search Of\nChildhood Friends',
-                        spare: 'Use Your\nImagination',
-                        flirt: 'Please Use Your\nImagination',
-                        bully: 'Royal Guard\nRetirees'
+                        basic: 'Gyermekkori barátokat\nkeresnek',
+                        spare: 'Használd a\nképzeleted',
+                        flirt: 'KÉRLEK használd\na képzeleted!',
+                        bully: 'Visszavonult királyi\ngárda tagok'
                     }
                 },
                 glyde: {
                     name: 'GLYDE',
                     author: 'Burge',
                     text: {
-                        basic: 'Not Your Ideal\nBusiness Partner',
-                        spare: 'A Little Less\nShady Than Usual',
-                        flirt: 'Not Your Ideal\nBedfellow',
+                        basic: 'Nem az ideális\nbiznisz partnered',
+                        spare: 'Kicsit kevésbé kétséges\na megszokottnál',
+                        flirt: 'Nem az ideális társad\naz ágyban',
                         bully: ''
                     }
                 },
@@ -696,9 +696,9 @@ export default {
                     name: 'BURGERPANTS',
                     author: 'Pongy25',
                     text: {
-                        basic: 'Running Hastily\nAt The Life Ahead',
-                        spare: 'Looking Forward\nTo The Life Ahead',
-                        flirt: 'Finding Love\nIn The Life Ahead',
+                        basic: 'Gyorsan fut az\nelőtte álló életbe',
+                        spare: 'Bizakodva várja az\nelőtte álló életet',
+                        flirt: 'Szerelmet talál az\nelőtte álló életben',
                         bully: ''
                     }
                 },
@@ -706,9 +706,9 @@ export default {
                     name: 'COZMO',
                     author: 'semi',
                     text: {
-                        basic: 'Looking For A\nDictionary',
-                        spare: 'Famous\nMagician',
-                        flirt: 'Found A New Kind\nOf Magic',
+                        basic: 'Egy szótárat\nkeres',
+                        spare: 'Híres\nbűvész',
+                        flirt: 'Egy újfajta mágiát\ntalált',
                         bully: ''
                     }
                 },
@@ -716,60 +716,60 @@ export default {
                     name: 'TERRESTRIA',
                     author: 'major_memestar',
                     text: {
-                        basic: 'In Search Of\nThe Past',
-                        spare: 'Renowned\nHistorian',
-                        flirt: 'Has A Crush On\nThe Homeworld',
+                        basic: 'A múltat\nkutatja',
+                        spare: 'Elhírhedt\ntörténész',
+                        flirt: 'A crush-a az\notthoni világ',
                         bully: ''
                     }
                 },
                 froggitex: {
-                    name: 'FINAL FROGGIT',
+                    name: 'VÉGSŐ FROGGIT',
                     author: 'PoTheWinterCorder',
                     text: {
-                        basic: 'Keeping Its\nWisdom To Itself',
-                        spare: 'Sharing Its\nWisdom Openly',
-                        flirt: 'Using Its Wisdom\nFor Love',
-                        bully: 'Using Its Wisdom\nFor Survival'
+                        basic: 'Önmagának tartja\nbölcsességét',
+                        spare: 'Nyíltan megosztja\nbölcsességét',
+                        flirt: 'Bölcsességét a\nszerelemre fordítja',
+                        bully: 'Bölcsességét túlélésre\nfordítja'
                     }
                 },
                 whimsalot: {
                     name: 'FLUTTERKNYTE',
                     author: 'spacey_432',
                     text: {
-                        basic: 'Still Working\nEvery Day',
-                        spare: 'Finally Took\nA Break',
-                        flirt: 'Looking For Some\nPrivate Time',
-                        bully: 'Working Harder\nOut Of Fear'
+                        basic: 'Továbbra is minden\nnap dolgozik',
+                        spare: 'Végre szünetet\ntart',
+                        flirt: 'Privát időre\nvágyik',
+                        bully: 'Keményebben dolgozik\nfélelemből'
                     }
                 },
                 astigmatism: {
                     name: 'EYEWALKER PRIME',
                     author: 'semi',
                     text: {
-                        basic: 'Still A\nBig Bully',
-                        spare: 'Domineering\nEye Doctor',
-                        flirt: 'Domineering\nLeather Tailor',
-                        bully: 'Overthrown By\nAn Oculoux'
+                        basic: 'Még mindig\nhatalmas bunkó',
+                        spare: 'Domináló\nszemdoktor',
+                        flirt: 'Domináló\nbőrdíszműves',
+                        bully: 'Egy Oculoux\nvette át helyét'
                     }
                 },
                 migospel: {
                     name: 'SILENCIO',
                     author: 'Balgamlı Kedi',
                     text: {
-                        basic: 'Still A\nShameless Coward',
-                        spare: 'A Little Less Of\nA Coward',
-                        flirt: 'In Love With\nIts Fear',
-                        bully: 'Running Faster\nThan Ever Before'
+                        basic: 'Még mindig egy\nszégyentelen gyáva',
+                        spare: 'Kicsit kevésbé\ngyáva',
+                        flirt: 'Szerelemben a\nfélelmével',
+                        bully: 'Gyorsabban fut,\nmint valaha'
                     }
                 },
                 mushketeer: {
                     name: 'MUSHKETEER',
                     author: 'Balgamlı Kedi & Ghostly',
                     text: {
-                        basic: 'One Mushroom\nArmy',
-                        spare: 'Hardened Warrior\nSeeking Peace',
-                        flirt: 'Defeated By The\nPower Of Love',
-                        bully: 'Scared\nStraight'
+                        basic: 'Egy-gombás\nhadsereg',
+                        spare: 'Békét kereső\nharcos',
+                        flirt: 'Legyőzve a szeretet\nerejével',
+                        bully: 'Egyszerűen\nmegijedt'
                     }
                 }
             },
@@ -811,7 +811,7 @@ export default {
                     author: 'MattSpriteMaster'
                 },
                 monsterkid: {
-                    name: 'MONSTER KID',
+                    name: 'SZÖRNY KÖLYÖK',
                     author: 'spacey_432'
                 },
                 asriel: {
@@ -821,216 +821,216 @@ export default {
             }
         },
 
-        langPrompt: '[↑ or ↓] to Select / [Z or ENTER] to Confirm',
+        langPrompt: '[↑ vagy ↓] a választáshoz / [Z vagy ENTER] megerősítéshez',
         epilepsyInfo:
-            'To whom it may concern,\n\nThis game contains §fill=#ff0§flashing images§fill=#fff§\nwhich may be reduced via the\n§fill=#ff0§settings menu§fill=#fff§.\n\n',
-        epilepsyKeys: '§fill=#808080§Press [Z or ENTER] to Continue',
+            'Akit érintene,\n\nA játék §fill=#ff0§villogó fényket tartalmaz§fill=#fff§\nmelyeket csökkenteni lehet a\n§fill=#ff0§beállítások menüben§fill=#fff§.\n\n',
+        epilepsyKeys: '§fill=#808080§nyomj [Z-t vagy ENTER-t] a folytatáshoz',
 
-        quitText1: 'Quitting',
-        quitText2: 'Quitting.',
-        quitText3: 'Quitting..',
+        quitText1: 'Kilépés',
+        quitText2: 'Kilépés.',
+        quitText3: 'Kilépés..',
 
         real1: [
             [
-                'Thank you for playing Outertale.',
-                'Working on this project has been an honor,',
-                'and a pleasure on my part.'
+                'Köszi, hogy az Outertalet játszottad!',
+                'Megtisztelés volt ezen a projekten dolgozni,',
+                'és számomra egyben öröm.'
             ],
-            ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
+            ['Amikor elkezdtem ezt az utat, sosem', "gondoltam volna, hogy ilyen messzire jutok,", 'de itt vagyunk, a végén.'],
             [
-                'For me, UNDERTALE was a life-changing',
-                'experience, and one that was very hard to',
-                'let go of after I first played it.'
-            ],
-            [
-                'So, with OUTERTALE, I wanted to give you',
-                'another chance to exist in a world like it,',
-                'as if it were your first time.'
+                'Számomra, az UNDERTALE életet megváltoztató',
+                'tapasztalat volt, amit nehéz volt',
+                'elengedni, miután először játszottam'
             ],
             [
-                "I hope I've given you that chance.",
-                "I hope you've come away satisfied with",
-                "the time you've spent in this world."
+                'Tehát, az OUTERTALE-el egy esélyt',
+                'szerettem volna teremteni, hogy egy hasonló világban létezhess',
+                'mintha ez volna az első alkalmad.'
             ],
             [
-                "No matter what you've done in your life,",
-                'your actions here speak volumes about the',
-                'kind of person you really are.'
+                "Remélem megadtam ezt az esélyt.",
+                "Remélem, elégedetten távozol ebből a világból",
+                "az itt töltött idő után."
             ],
             [
-                "It's because of you that you got the ending",
-                'you did, and nothing can take that',
-                'experience away from you.'
+                "Bármit is tettél eddigi életedben,",
+                'az itteni tetteid rengeteget elárulnak',
+                'arról, milyen nagyszerű ember vagy.'
             ],
-            ['Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?']
+            [
+                "Azért kaptad ezt a befejezést,",
+                'mert TE alakítottad így,',
+                'és ezt az élményt senki sem veheti el tőled.'
+            ],
+            ['A hibáid ellenére... csodálatos vagy,', 'és megérdemled a szeretetet és a törődést.', 'Ne feledd ezt, rendben?']
         ],
-        real2: 'Take care of yourself, \"$(x).\"',
+        real2: 'Vigyázz magadra, \"$(x).\"',
 
-        end1: 'THE END',
-        end2: 'THE END...?',
+        end1: 'VÉGE',
+        end2: 'VÉGE...?',
 
-        restartText1: 'Restarting',
-        restartText2: 'Restarting.',
-        restartText3: 'Restarting..',
+        restartText1: 'Újraindítás',
+        restartText2: 'Újraindítás.',
+        restartText3: 'Újraindítás..',
 
         title: 'OUTERTALE',
         title_timeline: 'OUTERTALE...?'
     },
 
     gamepad: {
-        prompt: 'GAMEPAD SETUP',
+        prompt: 'KONTROLLER BEÁLLÍTÁS',
         prompt_desc:
-            'Use an input on your gamepad to assign\nit to the in-game action.\n\nUse the input again to confirm, or use\nother inputs to assign those as well.\n\nPress ESC to skip setup.',
-        prompt_counter: 'Inputs Assigned: $(x)',
-        z: '[Z or ENTER] - Confirm',
-        x: '[X or SHIFT] - Cancel',
-        c: '[C or CTRL] - Menu (In-game)',
-        u: '[UP or W] - Move Up',
-        l: '[LEFT or A] - Move Left',
-        d: '[DOWN or S] - Move Down',
-        r: '[RIGHT or D] - Move Right',
-        f: '[F4] - Fullscreen',
-        prompt_done: 'Setup complete.\nPress any button to continue.',
-        prompt_done_browser: '\nNote: On this platform, the gamepad may\nnot always be able to enter fullscreen.',
+            'Használj bevitelt a kontrollereden,\nhogy hozzárendelj egy akciót.\n\nHasználd a bevitelt újra, hogy megerősítsd,\nvagy használj más beviteleket, hogy azokat is hozzárendeld.\n\nüss ESC-et, hogy átlépd a beállítást.',
+        prompt_counter: 'Bevitel hozzárendelve: $(x)',
+        z: '[Z vagy ENTER] - Megerősít',
+        x: '[X vagy SHIFT] - Mégse',
+        c: '[C vagy CTRL] - Menü (Játékban)',
+        u: '[FEL vagy W] - Mozgás Fel',
+        l: '[BAL vagy A] - Mozgás Balra',
+        d: '[LE vagy S] - Mozgás Lefele',
+        r: '[JOBB vagy D] - Mozgás Jobbra',
+        f: '[F4] - Teljes Képernyő',
+        prompt_done: 'Beállítás kész.\nNyomj egy gombot a folytatáshoz.',
+        prompt_done_browser: '\nMegjegyzés: Ezen a platformon a kontrollerel nem\nmindig lehet teljes képernyőre váltani.',
         prompt_load:
-            'A gamepad has already been set up.\nPress any button to continue, or press\nany button three times in rapid\nsuccession to restart setup.\n\nPress ESC to skip setup.'
+            'Egy kontroller már be van állítva.\nNyomj egy gombot a folytatáshot, vagy nyomd\nle bármely gombot háromszor\ngyorsan, hogy újraindítsd a beállítást.\n\nÜss ESC-et, hogy átlépd a beállítást.'
     },
 
     general: {
         asriel: 'Asriel',
-        asriel_location: 'The Oblivion',
-        disabled: 'DISABLED',
-        enabled: 'ENABLED',
-        finish: 'Press [X] to Finish',
+        asriel_location: 'Oblivion',
+        disabled: 'LETILTVA',
+        enabled: 'ENGEDÉLYEZVE',
+        finish: 'Nyomj [x]-et a befejezéshez',
         frisk: 'Frisk',
         g: 'G',
-        hp: 'HP',
+        hp: 'ÉP',
         inf: '\u221e',
-        landing1: '[PRESS Z OR ENTER]',
-        lv: 'LV',
+        landing1: '[NYOMJ Z-T VAGY ENTERT]',
+        lv: 'SZRT',
         mystery1: '§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§',
         mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2u: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}',
-        no: 'No',
-        nominal: '§fill=#0f0§NOMINAL',
+        no: 'Nem',
+        nominal: '§fill=#0f0§NÉVLEGES',
         percent: '$(x)%',
-        player: 'player',
-        settings: 'Settings',
+        player: 'játékos',
+        settings: 'Beállítások',
         shopg: 'G',
         unknown: '?',
-        xm: 'XM',
-        yes: 'Yes'
+        xm: 'EA',
+        yes: 'Igen'
     },
 
     menu: {
-        box1: 'INVENTORY',
-        box2: 'BOX',
-        key1: 'KEYRING',
+        box1: 'LELTÁR',
+        box2: 'DOBOZ',
+        key1: 'KULCSTARTÓ',
 
-        confirm1: 'Is this name correct?',
-        confirm2: 'A name has already\nbeen chosen.',
-        confirm3: 'Go back',
+        confirm1: 'Helyes ez a név?',
+        confirm2: 'A név már ki\nlett választva.',
+        confirm3: 'Vissza',
 
         footer: 'OUTERTALE V5.05 (c) 2025 SPACEY_432',
 
-        heal1: '* (HP fully restored.)',
-        heal2: '* (You recovered $(x) HP.)',
-        heal3: '* (You lost $(x) HP.)',
-        heal4: '* (HP fully depleted.)',
-        heal5: '* (You gained $(x) HP.)',
+        heal1: '* (ÉP teljesen visszanyerve.)',
+        heal2: '* (Visszanyertél $(x) ÉP-t.)',
+        heal3: '* (Veszítettél $(x) ÉP-t.)',
+        heal4: '* (ÉP teljesen elfogyott.)',
+        heal5: '* (Szereztél $(x) ÉP-t.)',
 
-        item1: 'USE',
-        item2: 'EQUIP',
-        item3: 'INFO',
-        item4: 'DROP',
+        item1: 'HASZNÁL',
+        item2: 'FELSZREREL',
+        item3: 'INFÓ',
+        item4: 'KIDOB',
 
-        load1: 'Continue',
-        load2: 'Observe',
-        load3: 'Reset',
-        load4: 'True Reset',
+        load1: 'Folytatás',
+        load2: 'Megtekint',
+        load3: 'Visszaállítás',
+        load4: 'Valódi visszaállítás',
 
-        name1: 'Name the stranded human.',
-        name2: 'Quit',
+        name1: 'Nevezd el az elveszett embert.',
+        name2: 'Kilépés',
         name3: 'Backspace',
-        name4: 'Done',
-        name5: '§fill=#808080§ [ESC] - Quit / [ENTER] - Done',
+        name4: 'Kész',
+        name5: '§fill=#808080§ [ESC] - Kilépés / [ENTER] - Kész',
 
-        save1: 'Save',
-        save2: 'Return',
-        save3: 'File saved.',
+        save1: 'Mentés',
+        save2: 'Vissza',
+        save3: 'Fájl mentve.',
 
-        settings1: 'SETTINGS',
-        settings2: 'EXIT',
-        settingsprompt1: '-> LANGUAGE & MUSIC',
-        settings3: 'LANGUAGE',
+        settings1: 'BEÁLLÍTÁSOK',
+        settings2: 'KILÉPÉS',
+        settingsprompt1: '-> NYELV & ZENE',
+        settings3: 'NYELV',
         settings3a: 'MAGYAR',
-        settings4: 'SOUND FX',
-        settings5: 'MUSIC',
-        settings6: 'FANCY GRAPHICS',
-        settingsprompt2: '-> GAMEPLAY & GRAPHICS',
-        settings6a: 'CHARACTER RUNNING',
-        settings6b: 'COLORED SPRITES',
-        settings7: 'FLASHING IMAGERY',
-        settings7a: 'NORMAL',
-        settings7b: 'REDUCED',
-        settings8: 'MOBILE SETTINGS',
-        settings9: 'DEADZONE',
-        settings10: 'OPEN MOD FOLDER',
-        settings11: 'RESTART',
+        settings4: 'HANGEFFEKTEK',
+        settings5: 'ZENE',
+        settings6: 'SZEBB GRAFIKA',
+        settingsprompt2: '-> JÁTÉKMENET & GRAFIKA',
+        settings6a: 'KARAKTER FUTÁS',
+        settings6b: 'SZÍNEZETT SPRITE-OK',
+        settings7: 'VILLÓDZÓ KÉP',
+        settings7a: 'NORMÁL',
+        settings7b: 'CSÖKKENTETT',
+        settings8: 'MOBIL BEÁLLÍTÁSOK',
+        settings9: 'HOLTZÓNA',
+        settings10: 'MOD MAPPA MEGNYITÁSA',
+        settings11: 'ÚJRAINDÍT',
         border: {
-            option: 'GAME BORDER',
+            option: 'JÁTÉK KERET',
             list: [
-                'NONE',
-                'DYNAMIC',
-                'SIMPLE',
-                'STAR',
-                'OUTLANDS',
-                'OUTLANDS (BATTLE)',
-                'TORIEL HOME',
+                'SEMMI',
+                'DINAMIKUS',
+                'EGYSZERŰ',
+                'CSILLAG',
+                'KÜLZÓNA',
+                'KÜLZÓNA (HARC)',
+                'TORIEL OTTHONA',
                 'STARTON',
-                'STARTON (BATTLE)',
-                'FOUNDRY',
-                'FOUNDRY (BATTLE)',
+                'STARTON (HARC)',
+                'ÖNTÖDE',
+                'ÖNTÖDE (HARC)',
                 'AERIALIS',
-                'AERIALIS (BATTLE)',
-                'REC CENTER',
-                'REC CENTER (BATTLE)',
-                'CORE',
-                "CORE (BATTLE)",
-                'CITADEL',
-                'ASGORE HOME',
-                'ARCHIVE SIX',
-                'ASRIEL BATTLE',
-                'BRIGHT GALAXY',
-                'NEW WORLD',
-                'NEW WORLD (WITH CUP)',
-                '§fill=#808080§(LOCKED)'
+                'AERIALIS (HARC)',
+                'REK KÖZPONT',
+                'REK KÖZPONT (HARC)',
+                'MAG',
+                "MAG (HARC)",
+                'CITADELLA',
+                'ASGORE OTTHONA',
+                'HATOS ARCHÍVUM',
+                'ASRIEL HARC',
+                'VILÁGOS GALAXIS',
+                'ÚJ VILÁG',
+                'ÚJ VILÁG (POHÁRRAL)',
+                '§fill=#808080§(ZÁRVA)'
             ]
         },
         mobile: {
-            title: 'MOBILE CTRLS',
-            controlOpacity: 'CONTROL OPACITY',
-            controlType: 'CONTROL TYPE',
-            enableDiagonal: 'ARROW KEY LAYOUT',
-            enableSingleArrow: 'INDIV. DIRECT. KEY',
+            title: 'MOBIL IRÁNYÍTÁS',
+            controlOpacity: 'IRNYT ÁTTETSZÉS',
+            controlType: 'IRNYT TÍPUS',
+            enableDiagonal: 'NYÍL GOMB LEOSZTÁS',
+            enableSingleArrow: 'KÜLÖN GOMBOK',
 
-            fourKey: '\u4dc8 4-KEY',
-            eightKey: '\u4dc9 8-KEY',
-            deadZone: 'DEADZONE',
-            toleranceAngle: 'TOLERANCE ANGLE',
+            fourKey: '\u4dc8 4-GOMB',
+            eightKey: '\u4dc9 8-GOMB',
+            deadZone: 'HOLTZÓNA',
+            toleranceAngle: 'TŰRÉSI SZÖG',
 
-            loadDefault: 'LOAD DEFAULT CONFIG',
-            enableMultiConfig: 'ENABLE QUICK SWITCHING',
-            invertButtonPos: 'INVERT BUTTON POSITION',
+            loadDefault: 'ALAP BEÁLLÍTÁS BETÖLTÉSE',
+            enableMultiConfig: 'GYORS VÁLTÁS ENGEDÉLYEZÉSE',
+            invertButtonPos: 'GOMB POZÍCIÓ INVERTÁLÁSA',
 
-            prompt1: '--- SELECT PROFILE ---',
-            prompt2: '--- GENERAL SETTINGS ---',
-            prompt3: '--- CONTROL SETTINGS ---',
-            prompt4: '--- MODIFY BUTTONS ---',
+            prompt1: '--- PROFIL VÁLASZTÁSA ---',
+            prompt2: '--- ÁLTALÁNOS BEÁLLÍTÁSOK ---',
+            prompt3: '--- IRÁNYÍTÁS BEÁLLÍTÁSOK ---',
+            prompt4: '--- GOMBOK MÓDOSÍTÁSA ---',
 
-            nextpage: 'NEXT PAGE >',
-            prepage: '< PREVIOUS PAGE',
+            nextpage: 'KÖVETKEZŐ OLDAL >',
+            prepage: '< ELŐZŐ OLDAL',
 
             ZKey: '[Z]',
             XKey: '[X]',
@@ -1046,113 +1046,113 @@ export default {
             RDKey: '[↘]',
             LDKey: '[↙]',
 
-            ShowFullScrKey: 'SHOW FULLSCREEN BUTTON',
+            ShowFullScrKey: 'TELJES KÉP GOMB MUTATÁSA',
 
-            xPos: 'CENTER X POSITION',
-            yPos: 'CENTER Y POSITION',
-            size: 'BUTTON SIZE',
-            radius: 'CIRCLE RADIUS',
+            xPos: 'X POZÍCIÓ KÖZÉPRE',
+            yPos: 'Y POZÍCIÓ KÖZÉPRE',
+            size: 'GOMB MÉRET',
+            radius: 'KÖR SUGARA',
 
-            keysettings: 'BUTTON CUSTOMIZE',
-            keyprompt0: '§fill=#ffd700§>> §fill=#fff§EDITING: §fill=#00ffff§$(x) §fill=#808080§(Press [R] to reset)',
+            keysettings: 'GOMB TESTRESZABÁS',
+            keyprompt0: '§fill=#ffd700§>> §fill=#fff§MÓDOSÍTÁS: §fill=#00ffff§$(x) §fill=#808080§(Nyomj [R]-t a visszaállításhoz)',
             keyprompt1: '§fill=#fff§PROGRESS: §fill=#00ffff§($(x)§fill=#fff§/§fill=#00ffff§3)',
-            keyprompt1a: ' [1] Initial Button Placement',
-            keyprompt1b: ' [2] Position Fine-tuning',
-            keyprompt1c: ' [3] Button Size Adjustment',
+            keyprompt1a: ' [1] Kezdeti Gomb Elhelyezés',
+            keyprompt1b: ' [2] PPozíció Finomhangolás',
+            keyprompt1c: ' [3] Gomb Méret Beállítása',
             keyprompt1d:
-                '§fill=#00ff00§*** Button Position Setup\n§fill=#fff§Press [L] (at the top-left corner) \nto start',
-            keyprompt1e: '§fill=#00ff00§*** Setup Complete \n§fill=#fff§Now you can set up\nother buttons',
-            keyprompt2: '§fill=#4169e1§--- INSTRUCTION ---',
+                '§fill=#00ff00§*** Gomb Pozíció Beállítás\n§fill=#fff§Nyomj [L]-t (a bal felső saroknál) \na kezdéshez',
+            keyprompt1e: '§fill=#00ff00§*** Beállítás Kész \n§fill=#fff§Most már beállíthatsz\nmás gombokat',
+            keyprompt2: '§fill=#4169e1§--- ÚTMUTATÓ ---',
             keyprompt2a:
-                '§fill=#fff§* Drag §fill=#00ffff§$(x)§fill=#fff§ to set initial position\n§fill=#ffd700§* Press [L] §fill=#808080§to confirm placement\n§fill=#ffd700§* Press [R] §fill=#808080§to recover if button is lost\n§fill=#808080§Position can be adjusted in the next step',
+                '§fill=#fff§* Húzd §fill=#00ffff§$(x)§fill=#fff§ kezdeti pozíció beállításhoz\n§fill=#ffd700§* Nyomj [L]-t, §fill=#808080§hogy elfogadd az elhelyezést\n§fill=#ffd700§* Nyomj [R]-t §fill=#808080§hogy helyreállíts gombokat\n§fill=#808080§Pozíció a következő lépésben állítható be',
             keyprompt2b:
-                '§fill=#fff§* Use §fill=#ffd700§[UP/DOWN/LEFT/RIGHT]§fill=#fff§ for precise adjustments\n§fill=#ffd700§* Press [R] §fill=#808080§to restore previous position\n§fill=#808080§Reference coordinates displayed below\n§fill=#ffd700§* Press [L] §fill=#808080§to confirm',
+                '§fill=#fff§* Használj §fill=#ffd700§[FEL/LE/BAL/JOBB]-ot§fill=#fff§ precíz illesztéshez\n§fill=#ffd700§* Nyomj [R]-t §fill=#808080§az előző pozíció visszaállításához\n§fill=#808080§Referencia koordináták lejjebb mutatva\n§fill=#ffd700§* Nyomj [L]-t §fill=#808080§az elfogadáshoz',
             keyprompt2c:
-                '§fill=#fff§* Adjust with §fill=#ffd700§[-5] [-1] [+1] [+5]§fill=#fff§ to set size\n§fill=#ffd700§* Press [R] §fill=#808080§to restore default size\n§fill=#808080§Current size value shown below\n§fill=#ffd700§* Press [L] §fill=#808080§to confirm',
-            keyprompt3a: '§fill=#4169e1§-> §fill=#fff§POSITION: \n§fill=#00ffff§X=$(x), Y=$(y)',
-            keyprompt3b: '§fill=#4169e1§-> §fill=#fff§SIZE: §fill=#00ffff§$(x)',
+                '§fill=#fff§* Állíts §fill=#ffd700§[-5] [-1] [+1] [+5]-el§fill=#fff§ , hogyméretet állíts\n§fill=#ffd700§* Nyomj [R]-t §fill=#808080§az eredeti méretekhez\n§fill=#808080§Jelenlegi érték lejjebb mutatva\n§fill=#ffd700§* Nyomj [L]-t §fill=#808080§az elfogadáshoz',
+            keyprompt3a: '§fill=#4169e1§-> §fill=#fff§POZÍCIÓ: \n§fill=#00ffff§X=$(x), Y=$(y)',
+            keyprompt3b: '§fill=#4169e1§-> §fill=#fff§MÉRET: §fill=#00ffff§$(x)',
 
             helper_loadDefault:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to reset your settings to default.\nThis will discard any custom configurations\nyou currently have and restore the original settings.',
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§ az alapok visszaállításához.\nEz minden egyedi beállítást visszaállít,\namid jelenleg van, az eredeti értékekre.',
             helper_enableMultiConfig:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to show/hide the configuration buttons.\nIf enabled, five number buttons ([0] - [4]) will display on the left side of the screen.\n§fill=#fff§These buttons allow you to quickly switch between different configuration options.§fill=#fff§',
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§ hogy lásd/elrejtsd a konfig. gombokat.\nHa engedélyezve van, öt számgomb ([0] - [4]) lesz látható a képernyő bal szélén.\n§fill=#fff§Ezek a gombok lehetővé teszik a gyors váltást konfigurált beállítások közt.§fill=#fff§',
             helper_controlType:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to switch between two control options:\n§fill=#ff0§1. Directional Buttons§fill=#808080§: Traditional arrow keys\n§fill=#ff0§2. Virtual Joystick§fill=#808080§: Touch-screen friendly control',
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§ hogy válts két irányítás opció közt:\n§fill=#ff0§1. Iránygombok§fill=#808080§: Klasszikus nyíl gombok\n§fill=#ff0§2. Virtuális Joystick§fill=#808080§: Érintőpanel barát irányítás',
             helper_controlOpacity:
-                '§fill=#ff0§Use LEFT or RIGHT arrows§fill=#808080§ to adjust button transparency.\nHigher values make buttons more visible, lower values make them more transparent.',
+                '§fill=#ff0§Használj BAL vagy JOBB nyilakat,§fill=#808080§ hogy beállítsd az átlátszóságot.\nMagasabb értéknél láthatóbb, alacsonyabbnál áttetszőbb gombok.',
             helper_enableDiagnal:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to toggle diagonal movement.\nWhen enabled, holding an arrow key will show\n§fill=#ff0§two additional arrows§fill=#808080§ for diagonal movement.',
+                '§fill=#ff0§Nyomj [Z]-t,§fill=#808080§ hogy kapcsold az átlós mozgást.\nEngedélyezve egy lenyomva tartott nyíl mutatni fog\n§fill=#ff0§két másik nyilat§fill=#808080§ átlós mozgáshoz.',
             helper_deadZone:
-                "§fill=#ff0§Use LEFT or RIGHT arrows§fill=#808080§ to adjust joystick sensitivity.\n§fill=#fff§The dead zone is the center area where joystick movement isn't detected§fill=#808080§.\nLarger dead zone = less sensitive controls.",
+                "§fill=#ff0§Használj BAL vagy JOBB nyilakat§fill=#808080§ a joystick érzékenység konfighoz.\n§fill=#fff§A holtzóna az a központi rész, ahhol a joystick nem érzékel mozgást§fill=#808080§.\nNagyobb holtzóna = kevésbé érzékeny irányítás.",
             helper_toleranceAngle:
-                '§fill=#ff0§Use LEFT or RIGHT arrows§fill=#808080§ to adjust joystick angle sensitivity.\n§fill=#fff§This determines how precise your movements need to be§fill=#808080§.\nAngles over 45° will trigger diagonal movement.',
+                '§fill=#ff0§Használj BAL vagy JOBB nyilakat§fill=#808080§ a joystick szög érzékenység konfighoz.\n§fill=#fff§Ez határozza meg, hogy mennyire kell precíznek lenned mozgáshoz§fill=#808080§.\nSzögek 45° felett átlós mozgást eremnényeznek.',
             helper_showFullScrKey:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to toggle the visibility of the\n§fill=#fff§Fullscreen button§fill=#808080§.',
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§, hogy láthatóvá tedd a\n§fill=#fff§Teljes képernyő gombot§fill=#808080§.',
             helper_modifyButtons:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to customize button layout.\nYou can adjust both the §fill=#ff0§size and position§fill=#808080§ of all buttons.\nA step-by-step guide will help you through the process.',
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§, hogy testreszabd a gomb elhelyezést.\nTestreszabhatod mind a §fill=#ff0§méretét és pozícióját§fill=#808080§ minden gombnak.\nLépésről lépésre segít az útmutató a folyamaton át.',
             helper_singleArrow:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to enable or disable individual directional key settings.\nWhen enabled, you can §fill=#fff§independently set the position \nand size of each directional key§fill=#808080§ for greater flexibility.',
+                '§fill=#ff0§nyomj [Z]-t§fill=#808080§, hogy engedélyzd vagy tiltsd az egyéni iránygombok beállítását.\nHa engedélyezve van, tudod §fill=#fff§independently állítani a pozícióját \nés méretét minden iránygombnak§fill=#808080§ jobb rugalmasság végett.',
             helper_invertButtonPos:
-                '§fill=#ff0§Press [Z]§fill=#808080§ to toggle the §fill=#fff§Invert Button Position§fill=#808080§ feature.\nWhen enabled, the layout of virtual navigation buttons will be mirrored left-to-right for better accessibility or personal preference.'
+                '§fill=#ff0§Nyomj [Z]-t§fill=#808080§, hogy kapcsold az §fill=#fff§inverz gombok§fill=#808080§ opciót.\nHa engedélyezve, a virtuális navigációs gombok leosztása tükrözve lesz balról jobbra, jobb hozzáférés, vagy személyes preferencia végett.'
         },
 
-        sidebar1: 'ITEM',
-        sidebar2: 'STAT',
-        sidebar3: 'CELL',
-        sidebar4: 'CONF',
+        sidebar1: 'TÁRGY',
+        sidebar2: 'ÁLL',
+        sidebar3: 'TEL',
+        sidebar4: 'KONF',
         sidebar5: 'S',
 
         start1: [
-            '--- Instruction ---',
-            '[Z or ENTER] - Confirm',
-            '[X or SHIFT] - Cancel',
-            '[C or CTRL] - Menu (In-game)',
-            '[F4] - Fullscreen',
-            '[Hold ESC] - Restart',
-            'When HP is 0, you lose.'
+            '--- Instrukció ---',
+            '[Z vagy ENTER] - Megerősít',
+            '[X vagy SHIFT] - Mégse',
+            '[C vagy CTRL] - Menü (Játékban)',
+            '[F4] - Teljes Képernyő',
+            '[Tartsd lenyomva: ESC] - Újraindítás',
+            'Ha ÉP 0, veszítesz.'
         ],
-        start2: 'Begin Game',
+        start2: 'Játék Kezdése',
 
-        stat1: 'AT',
-        stat2: 'DF',
-        stat3: 'WEAPON',
-        stat4: 'ARMOR',
-        stat5: 'GOLD',
-        stat6: 'EXP',
-        stat7: 'NEXT',
-        stat8: '§fill=#ff0§Warning:\nNon-canon\ntimeline.',
-        stat9: 'KILLS',
-        stat10: 'BULLY',
-        stat11: 'FLIRT',
-        stat12: 'STATUS',
+        stat1: 'SEB',
+        stat2: 'VÉD',
+        stat3: 'FEGYVER',
+        stat4: 'PÁNCÉL',
+        stat5: 'ARANY',
+        stat6: 'TP',
+        stat7: 'KÖVETKEZŐ',
+        stat8: '§fill=#ff0§Figyelem:\nNem-kánon\nidővonal.',
+        stat9: 'GYILOK',
+        stat10: 'BUNKÓ',
+        stat11: 'FLÖRT',
+        stat12: 'STÁTUSZ',
         stat13: '\"$(x)\"',
 
-        story1: ['<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}'],
-        story2: ['<24>As time passed, a war broke out between the two species.{^35}{}'],
-        story3: ["<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}"],
-        story4: ['<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}'],
-        story5: ['<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}'],
-        story6: ['<24>Many years later.{^8}.{^8}.{^35}{}'],
-        story7: ['<#24>     EBOTT SECTOR     \n         251X{^35}{}'],
-        story8: ['<24>Tales speak of a place from which spacecraft never return.{^35}{}'],
+        story1: ['<24>{#p/storyteller}Réges rég, két faj uralta a Naprendszert: EMBEREK és SZÖRNYEKS.{^35}{}'],
+        story2: ['<24>Az idő teltével, háború tört ki a két faj között.{^35}{}'],
+        story3: ["<24>Miután a SZÖRNYEK bolygója elpusztult, az EMBEREK kikiáltották a győzelmet.{^35}{}"],
+        story4: ['<24>A fennmaradó SZÖRNYEKET egy elhagyott támaszpontra száműzték.{^35}{}'],
+        story5: ['<24>Egy hatalmas erőteret emeltek, így a SZÖRNYEKET elzárták.{^35}{}'],
+        story6: ['<24>Sok évvel később.{^8}.{^8}.{^35}{}'],
+        story7: ['<#24>     EBOTT SZEKTOR     \n         251X{^35}{}'],
+        story8: ['<24>Történetek mesélnek egy helyről, honnan űreszköz nem tér vissza.{^35}{}'],
         story9: ['<24>{^100}{}'],
         story10: ['<24>{^100}{}'],
         story11: ['<24>{^35}{}']
     },
 
     timeline: {
-        main: 'Resume Canon Timeline',
-        main_ex: 'Start Canon Timeline',
-        timelines: 'Other Slots',
-        bisect: 'Bisect',
-        delete: 'Delete',
-        instruction: '[ESC] to Cancel / [ENTER] to Confirm',
-        instruction_gamepad: 'Press any button on your gamepad to open the keyboard.',
-        launch: 'Launch',
-        rename: 'Rename',
-        create: 'Create New',
-        placeholder: 'Enter Timeline Name',
-        confirm: 'Are You Sure?'
+        main: 'Kánon Idővonal Folytatása',
+        main_ex: 'Kánon Idővonal Indítása',
+        timelines: 'Egyéb Helyek',
+        bisect: 'Feloszt',
+        delete: 'Töröl',
+        instruction: '[ESC] mégse / [ENTER] elfogad',
+        instruction_gamepad: 'Nyomj egy gombot a kontrolleren a billentyűzet megnyitásához.',
+        launch: 'Indítás',
+        rename: 'Átnevez',
+        create: 'Új készítése',
+        placeholder: 'Nevezd el az idővonalat',
+        confirm: 'Biztos vagy benne?'
     }
 };
 

@@ -302,7 +302,7 @@ export default {
             SAVE.data.b.svr
                 ? '<32>{#p/human}* (You reach for the sound system...)'
                 : '<32>{#p/basic}* There is currently no music playing.',
-            choicer.create('* (Play a song?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Cancel')
+            choicer.create('* (Play a song?)', 'Spooktune', 'Spookwave', 'Spookwaltz', 'Հանել')
         ],
         blookmusic1y: ['<32>{*}{#p/human}* (You turn the dial...){^40}{%}'],
         blookmusic2: () => [
@@ -7594,7 +7594,7 @@ export default {
                         : SAVE.data.b.colleg
                             ? `${armorprice}G - temy ARMOR!!!`
                             : '1000G - tem pay 4 colleg',
-                    'Exit'
+                    'Դուրս'
                 ]
                 : temgone()
                     ? [
@@ -7602,7 +7602,7 @@ export default {
                         '0G - tem flake (ON SALE,)',
                         '0G - tem flake (expensiv)',
                         '§fill=#808080§--- UNAVAILABLE ---',
-                        'Exit'
+                        'Դուրս'
                     ]
                     : [
                         '4G - tem flake',
@@ -7613,7 +7613,7 @@ export default {
                             : SAVE.data.b.colleg
                                 ? `${armorprice}G - temy ARMOR!!!`
                                 : '1000G - tem pay 4 colleg',
-                        'Exit'
+                        'Դուրս'
                     ],
         itemInfo: () =>
             SAVE.data.n.plot === 72
@@ -7642,7 +7642,7 @@ export default {
         itemUnavailable: () => (temgone() ? '<09>{#p/basic}Nothing left.' : '<09>{#p/tem}{#k/2}no more item...'),
         itemRestricted: '<09>{#p/tem}{#k/2}not for sale...',
         menu: () =>
-            temgone() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            temgone() ? ['Take', 'Steal', 'Read', 'Դուրս'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: '<23>{#p/tem}{#k/0}* hOI!\n* welcom to...\n* da TEM SHOP!!!',
         menuPrompt2: '<23>{#p/basic}* ... but everybody ran.',
         sell1: ['<30>{#p/tem}{#k/2}* NUUU!!!\n* my muns,,,', '<30>{#p/tem}{#k/4}* cannot STEAL!!!'],
@@ -7655,7 +7655,7 @@ export default {
             SAVE.data.n.plot === 72 ? 'Your Future' : SAVE.data.b.colleg ? 'About Temmie Armor' : 'About Yourself',
             SAVE.data.n.plot === 72 ? 'Temmie Secrets' : 'Temmie History',
             'About Shop',
-            'Exit'
+            'Դուրս'
         ],
         talkPrompt: '<09>{#p/tem}{#k/0}HOI!!!\nim temmie',
         talkText: [
@@ -7713,7 +7713,7 @@ export default {
             '<32>{#p/tem}* tem bak from cool leg,',
             '<32>{#k/0}* tem learn MANY THINs,\n* learn to sell new ITEM!\n* yayA!!!'
         ],
-        sellExit: 'Exit',
+        sellExit: 'Դուրս',
         sellValue: '$(x)G',
         sellStory1: () => [
             '<32>{#p/tem}{#k/1}* WOA!!',
@@ -7742,24 +7742,24 @@ export default {
                     : ['<32>{#p/basic}{#k/0}* Be careful out there, kid!'],
         item: () =>
             world.runaway
-                ? ['0G - Datapad?', '0G - AR Headset?', '0G - Nebula Tea', '0G - Tree Sap', 'Exit']
+                ? ['0G - Datapad?', '0G - AR Headset?', '0G - Nebula Tea', '0G - Tree Sap', 'Դուրս']
                 : world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-                    ? ['45G - Datapad?', '45G - AR Headset?', '16G - Nebula Tea', '25G - Tree Sap', 'Exit']
+                    ? ['45G - Datapad?', '45G - AR Headset?', '16G - Nebula Tea', '25G - Tree Sap', 'Դուրս']
                     : SAVE.data.n.plot === 72
                         ? [
                             SAVE.data.b.item_padd ? '25G - Datapad?' : '35G - Datapad',
                             SAVE.data.b.item_goggles ? '25G - AR Headset?' : '35G - AR Headset',
                             '5G - Nebula Tea',
                             '5G - Tree Sap',
-                            'Exit'
+                            'Դուրս'
                         ]
                         : [
                             SAVE.data.b.item_padd ? '45G - Datapad?' : '55G - Datapad',
                             SAVE.data.b.item_goggles ? '45G - AR Headset?' : '55G - AR Headset',
                             '16G - Nebula Tea',
                             '25G - Tree Sap',
-                            'Exit'
+                            'Դուրս'
                         ],
         itemInfo: () => [
             SAVE.data.b.item_padd ||
@@ -7803,7 +7803,7 @@ export default {
                 ],
         itemPurchasePrompt: () => (world.runaway ? 'Take it?' : 'Buy it for\n$(x)G?'),
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Take', 'Steal', 'Read', 'Դուրս'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: () =>
             SAVE.data.n.plot === 72
                 ? '<23>{#p/basic}{#k/0}* Wa ha ha!\n* I knew you could do it!'
@@ -7852,12 +7852,12 @@ export default {
                     SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                         ? '§fill=#ff0§Handshake'
                         : 'Am I A Hero',
-                    'Exit'
+                    'Դուրս'
                 ]
                 : world.genocide
-                    ? ['Asriel', '(Threaten)', '(Fight)', 'Undyne', 'Exit']
+                    ? ['Asriel', '(Threaten)', '(Fight)', 'Undyne', 'Դուրս']
                     : world.killed0 || startonATE()
-                        ? ['Your Fate', '(Threaten)', '(Fight)', 'Hero', 'Exit']
+                        ? ['Your Fate', '(Threaten)', '(Fight)', 'Hero', 'Դուրս']
                         : [
                             48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
                                 ? 'About Yourself'
@@ -7874,7 +7874,7 @@ export default {
                                 : SAVE.data.b.c_state_secret2 && !SAVE.data.b.c_state_secret2_used
                                     ? '§fill=#ff0§Handshake'
                                     : 'About Undyne',
-                            'Exit'
+                            'Դուրս'
                         ],
         talkPrompt: () =>
             world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE

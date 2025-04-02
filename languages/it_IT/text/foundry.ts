@@ -100,7 +100,7 @@ export default {
             '<32>* Just... super... duper... slow.',
             "<32>{#e/maddummy/0}* But that's just me."
         ],
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
+        evac: ['<32>{#p/human}* (Senti la presenza dei mostri nei paraggi diminuire.)'],
         shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
         starKILLER: ['<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought.'],
         quicksolve3: () =>

@@ -92,7 +92,7 @@ export default {
         nicecreamScoreReaction11a: ['<32>{#p/basic}* You keep getting so close...'],
         nicecreamScoreReaction11b: ['<32>{#p/basic}* Darn, you almost beat the top scorer again...\n* You can do it!'],
         noteleport: ["<32>{#p/human}* (It doesn't seem to be powered on anymore.)"],
-        evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
+        evac: ['<32>{#p/human}* (Senti la presenza dei mostri nei paraggi diminuire.)'],
         shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
         jukebox0: ["<32>{#p/basic}* It's out of service."],
         jukebox1: () => [

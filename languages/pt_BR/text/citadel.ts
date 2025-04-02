@@ -12,7 +12,7 @@ export default {
         youvedoneitnow: [
             [
                 '<32>{#p/human}* (Você sente a escuridão preencher dentro do seu corpo.)',
-                '<32>{#p/human}* (Seu desejo é que tudo seja apenas um sonho\nruim.)'
+                '<32>{#p/human}* (Seu desejo é que tudo seja apenas um sonho ruim.)'
             ],
             [
                 '<32>{#p/human}* (Você tenta seu melhor para lutar contra, mas nada acontece.)',
@@ -1458,7 +1458,7 @@ export default {
                     : ['<25>{#p/asgore}{#f/7}* Venha.', '<25>{#p/asgore}{#f/7}* Eu gostaria de te contar uma história.'])
             ],
             alphysApproach1: [
-                "<25>{#p/alphys}{#g/alphysSmileSweat}* Ah, v-você provavelmente esta se perguntando onde está Asgore, certo?",
+                "<25>{#p/alphys}{#g/alphysSmileSweat}* Ah, v-você de estar se perguntando onde está Asgore, certo?",
                 "<25>{#g/alphysNervousLaugh}* Bem... ele...",
                 '<25>{#g/alphysHellYeah}* Esta em algum lugar seguro!',
                 '<25>{#g/alphysTheFactIs}* Relativamente falando.',
@@ -1477,9 +1477,9 @@ export default {
                 '<25>{#g/alphysIDK3}* ...',
                 "<25>{#g/alphysIDK3}* Eu sou tão estúpida...",
                 "<25>{#g/alphysThatSucks}* Você provavelmente nem liga pra mim, né?",
-                "<25>{#g/alphysIDK2}* Eu estava cheia de medo correndo de você e você provavelmente nem está atrás de mim.",
+                "<25>{#g/alphysIDK2}* Eu estava com medo correndo de você e você nem está atrás de mim.",
                 '<25>{#g/alphysIDK3}* ...',
-                "<25>{#g/alphysIDK2}* Vai.\n*Faça seja lá o que você quer fazer.",
+                "<25>{#g/alphysIDK2}* Vai.\n* Faça seja lá o que você quer fazer.",
                 "<26>{#g/alphysIDK3}* Eu não consigo te parar."
             ],
             alphysApproach3: ["<25>{#p/alphys}{#g/alphysFR}* Existe uma pessoa que poderia."],
@@ -2121,12 +2121,12 @@ export default {
                 '<25>{#f/0}* mas eu sei que após tudo isso que você fez...',
                 '<25>* em algum ponto, você deve ter se importado conosco, certo?',
                 "<25>{#f/3}* ... eu sei que existe a chance de isso nem ser verdade.",
-                "<25>{#f/0}* ainda assim, ninguém age dessa forma com estranhos por motivo nenhum.",
-                "<25>* eu sei que em algum lugar, lá no fundo, você realmente se importou com a gente.",
-                '<25>* você se importou, se não nem teria chegado tão longe assim, correto?'
+                "<25>{#f/0}* ainda assim, ninguém age dessa forma com estranhos sem motivo.",
+                "<25>* eu sei que lá, lá no fundo, você se importou com a gente.",
+                '<25>* você se importou, se não nem teria chegado tão longe assim.'
             ],
             jspeech10d: [
-                '<25>{#p/sans}{#f/3}* eu sei que. toda essa coisa de \"apego a emoção\" não é muito comigo.',
+                '<25>{#p/sans}{#f/3}* eu sei que. toda essa coisa de \"apego a emoção\" não é eu.',
                 '<25>{#f/0}* mas o que mais eu posso dizer?',
                 '<25>* quando alguém vai tão longe como você...',
                 "<25>* intimidar só não parece mais apropriado.",
@@ -2338,7 +2338,7 @@ export default {
                 '<25>{#p/asgore}{#f/2}* Então você chegou.',
                 '<32>{#p/human}* (...)',
                 '<25>{#p/asgore}{#f/1}* ...\n* Eu suponho que você não tenha muito para dizer.',
-                '<25>{#f/2}* Diferente da minha pessoa, da qual tem muito o que te questionar.',
+                '<25>{#f/2}* Diferente de mim, o qual tem muito o que questionar.',
                 '<25>{#f/4}* Assim, mesmo com nossas diferenças...',
                 '<25>{|}{#f/7}* Eu ainda acho que pode- {%}'
             ],
@@ -3303,7 +3303,7 @@ export default {
                 '<32>* Quando Asriel absorveu minha ALMA, todos esses anos antes...',
                 '<32>* Eu me tornei... um parte não física dele.\n* Um anjo em seu ombro.',
                 '<32>* Ou um demônio.\n* Você escolhe.',
-                '<32>* Mas quando ele morreu, essa minha parte não física continuou, e eu acabei me tornando um fantasma.',
+                '<32>* Mas quando ele morreu, eu continuei, e eu acabei me tornando um fantasma.',
                 "<32>* Pelo menos, eu acho que foi isso que aconteceu..."
             ],
             returnofchara3: [
@@ -3316,7 +3316,7 @@ export default {
                 "<32>* Olhando para trás, a decisão não fez muito sentido...",
                 '<32>* Em circunstâncias normais, a ALMA de um boss monstro morto...',
                 "<32>* ... não mantém a identidade do seu antigo dono.",
-                "<32>* Eu sabia que tinha uma ALMA de monstro em minha pessoa, mas eu não sabia que ainda era ele.",
+                "<32>* Eu sabia que tinha uma ALMA de monstro em minha pessoa, mas eu não sabia que era ele.",
                 "<32>* Mas as circunstâncias não eram normais.",
                 "<32>* Se eu tivesse percebido isso, eu...",
                 '<32>* ...',
@@ -6440,9 +6440,9 @@ export default {
         death1: [
             '<11>{*}{#p/asgore}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}... então é assim...',
             '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}...',
-            '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}Tome minha ALMA, e deixe este lugar amaldiçoado...',
+            '<11>{*}{#e/asgore/1}{#v/1}{#i/5}{@random=1.1/1.1}Tome minha ALMA, e deixe este lugar amal- diçoado...',
             '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Então...',
-            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Você não precisa ser sobrecarregado por nós... nunca mais...',
+            '<11>{*}{#e/asgore/1}{#v/2}{#i/6}{@random=1.1/1.1}Você não precisa ser sobre- carre- gado por nós... nunca mais...',
             '<11>{*}{#e/asgore/2}{#v/3}{#i/6}{@random=1.1/1.1}...',
             '<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Adeus...'
         ]

@@ -27,7 +27,7 @@ export default {
         ],
         hypertext: {
             count: 'REBOOT IN $(x)',
-            death1: ['{#p/human}(You take a deep breath.)', "(You're filled with determination.)"],
+            death1: ['{#p/human}(You take a deep breath.)', "(El vagy telve elszántsággal.)"],
             death2: [
                 "{#p/human}{#v/1}{@fill=#42fcff}It'll be alright in the end...",
                 '{@fill=#42fcff}Just take it steady...'
@@ -1896,7 +1896,7 @@ export default {
                 '<25>* this is an odd thing to say, but...',
                 '<25>* if you have some sort of {@fill=#ff0}special power{@fill=#fff}...',
                 "<25>* isn't it your responsibility to do the right thing?",
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Igen', 'Nem')
             ],
             jspeech5b3a: ['<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* i see.'],
             jspeech5b3b: [
@@ -2276,18 +2276,18 @@ export default {
                             '<25>{#f/6}* Whatever you decide, I will support you.',
                             '<25>{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (What do you say?)', 'Igen', 'Nem')
                         ],
                         [
                             '<26>{#p/asgore}{#f/6}* I see you have returned.',
                             '<25>{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (What do you say?)', 'Igen', 'Nem')
                         ],
                         [
                             '<25>{#p/asgore}{#f/1}* ...',
                             '<25>* Will you enter the archive?',
-                            choicer.create('* (What do you say?)', 'Yes', 'No')
+                            choicer.create('* (What do you say?)', 'Igen', 'Nem')
                         ]
                     ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
             choice2a: [
@@ -2882,7 +2882,7 @@ export default {
             epilogue1: () =>
                 world.runaway
                     ? [
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<18>{#p/papyrus}{#f/6}SORRY IF YOU TRIED TO CALL US BEFORE...',
                         "<18>{#p/papyrus}{#f/6}THE LINES AREN'T DOWN OR ANYTHING, WE JUST...",
                         "<18>{#p/papyrus}{#f/5}... WE'VE BEEN IGNORING YOU.",
@@ -2904,10 +2904,10 @@ export default {
                         '<18>{#f/3}...',
                         '<18>{#f/3}WELL... GOODBYE.',
                         '<25>{#p/undyne}{#f/1}* Enjoy the solitude!!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]
                     : [
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         "<18>{#p/papyrus}{#f/0}HEY, HUMAN!\nI HOPE YOU'RE DOING OKAY!",
                         "<18>{#f/5}WE'VE BEEN VERY WORRIED ABOUT YOU, YOU KNOW.",
                         '<18>{#f/6}WHEN WE CALLED YOU BEFORE, THERE WAS NO RESPONSE!',
@@ -2935,7 +2935,7 @@ export default {
                         '<18>{#p/papyrus}{#f/4}FOR YOU, THIS IS ABOVE AVERAGE TIMING...',
                         "<18>{#p/papyrus}{#f/0}... ANYWAY, WE'LL BE BUSY IN ASGORE'S KITCHEN.",
                         '<18>{#p/papyrus}{#f/9}FEEL FREE TO SWING BY WHEN YOU GET THE CHANCE!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ],
             epilogue2: () => [
                 '<25>{#p/sans}{#f/0}* hey, bucko.',
@@ -3399,19 +3399,19 @@ export default {
             ),
             giftbox1a: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's a weapon inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Igen', 'Nem')
             ],
             giftbox1b: () => [
                 ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* There's armor inside."]),
-                choicer.create('* (Open the box?)', 'Yes', 'No')
+                choicer.create('* (Open the box?)', 'Igen', 'Nem')
             ],
             giftbox2a: () => [
                 '<32>{#p/human}* (You got the Big Dipper.)',
-                choicer.create('* (Equip the Big Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Big Dipper?)', 'Igen', 'Nem')
             ],
             giftbox2b: () => [
                 '<32>{#p/human}* (You got the Heart Locket.)',
-                choicer.create('* (Equip the Heart Locket?)', 'Yes', 'No')
+                choicer.create('* (Equip the Heart Locket?)', 'Igen', 'Nem')
             ],
             giftbox3: () =>
                 SAVE.data.b.svr
@@ -3434,7 +3434,7 @@ export default {
                 SAVE.data.b.svr
                     ? [
                         '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                        choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                        choicer.create('* (Crawl inside?)', 'Igen', 'Nem')
                     ]
                     : [
                         SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3442,7 +3442,7 @@ export default {
                             : "<32>{#p/basic}* Asgore's fireplace.\n* It's not too hot, just pleasantly warm.",
                         ...(world.darker
                             ? []
-                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                            : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Igen', 'Nem')])
                     ],
             fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
             fireplace2b: () => [
@@ -3494,51 +3494,51 @@ export default {
                         ["<32>* My god... it's so much..."],
                         ['<32>* ...']
                     ][Math.min(SAVE.data.n.chocolates, 11)]),
-                choicer.create('* (Take a Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take a Chocolate Bar?)', 'Igen', 'Nem')
             ],
             fridgetrap3: ['<32>{#p/human}* (You decide not to take anything.)'],
             fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
             brocall1: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
                 "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
                 "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall2: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
                 '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall3: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
                 "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
                 '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall4: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<32>{#p/mettaton}* HEY, ALPHYS CALLED ME AND TOLD ME YOU WERE BEING UNCOOPERATIVE.',
                 "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
                 '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
                 '<32>{#p/mettaton}* YOU CAN DO IT, DARLING!',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall5: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<18>{#p/papyrus}{#f/5}LOOK.\nI KNOW YOU MUST BE APPREHENSIVE...',
                 '<18>{#p/papyrus}{#f/5}FORCE FIELDS CAN BE INTIMIDATING, AFTER ALL.',
                 '<18>{#p/papyrus}{#f/6}BUT FRET NOT!',
                 '<18>{#p/papyrus}{#f/4}IF YOUR BATTLE AGAINST ME PROVED ONE THING...',
                 "<18>{#p/papyrus}{#f/9}IT'S THAT YOU HAVE THE COURAGE TO TAKE ON ANYTHING!",
                 '<18>{#p/papyrus}{#f/0}THE \"IMPENETRABLE\" FORCE FIELD WON\'T STAND A CHANCE!',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall6: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 "<25>{#p/alphys}{#g/alphysWelp}* Hey, um...\n* We've been waiting for a long time.",
                 "<25>{#g/alphysThatSucks}* And I don't just mean right now.",
                 '<25>{#g/alphysSideSad}* Monsters have been stuck here for so long...',
@@ -3552,10 +3552,10 @@ export default {
                 "<25>{#g/alphysWorried}* It's like we've been waiting our whole lives for you.",
                 '<25>{#g/alphysWorried}* ...',
                 '<25>{#g/alphysCutscene2}* ... come back soon...\n* Okay?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall7: [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/toriel}{#f/5}* Hello?\n* This is TORIEL.',
                 '<25>* You must be very far along by now.',
                 '<25>{#f/9}* Far enough that I doubt this message will ever reach you.',
@@ -3570,7 +3570,7 @@ export default {
                 '<25>{#f/13}* ...',
                 '<25>{#f/9}* I will... see you soon.',
                 '<25>{#f/10}* ...\n* Be good... alright?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             brocall8: [
                 '<25>{#p/twinkly}{#f/6}* Did you seriously come all this way just to see what would happen?',
@@ -3593,7 +3593,7 @@ export default {
                 '<32>{#p/human}* (You activate the terminal.)',
                 '<32>{#p/event}* Procedure complete.\n* All subjects have successfully tethered.',
                 '<33>{#p/event}* Would you also like to exit?',
-                choicer.create('* (Exit Archive Six?)', 'Yes', 'No')
+                choicer.create('* (Exit Archive Six?)', 'Igen', 'Nem')
             ],
             cw_vender1: [
                 '<32>{#p/human}* (You tap on the panel.)',
@@ -3889,7 +3889,7 @@ export default {
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             cs_vegetoid: [
                 '<32>{#p/human}* (It appears the Vegetoid cannot move.)',

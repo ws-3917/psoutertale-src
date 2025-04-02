@@ -137,7 +137,7 @@ export default {
             "<32>* If you don't, I...",
             '<32>* I...',
             "<32>* I'll... let you go now.",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         artifact1: ['<32>{#p/human}* (You got the Legendary Artifact.)'],
         artifact2: ["<32>{#p/human}* (Вы несёте слишком много груза.)"],
@@ -600,7 +600,7 @@ export default {
                 ? ["<32>{#p/basic}* Сломано."]
                 : SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (You approach the vending machine.)',
+                        '<32>{#p/human}* (Вы подходите к торговому автомату.)',
                         choicer.create('* (Выберите продукт.)', 'Licorice', 'Chisps', 'Rations', 'Nothing')
                     ]
                     : [
@@ -816,7 +816,7 @@ export default {
                     choicer.create('* (Beat up the dummy?)', 'Да', 'Нет')
                 ]
                 : ["<32>{#p/basic}* It's a training dummy.\n* Hug it?", choicer.create('* (Hug the dummy?)', 'Да', 'Нет')],
-        dummypunch2a: ['<32>{#p/human}* (You decide not to do anything.)'],
+        dummypunch2a: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
         dummypunch2b: () =>
             world.genocide || world.meanie
                 ? ['<32>{#p/human}* (You punched the dummy as hard as you could.)']
@@ -1173,7 +1173,7 @@ export default {
                 ['<25>{#p/asriel2}{#f/7}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielEpic++, 7)],
         hapstadoor1: () =>
-            SAVE.data.b.svr ? ["<32>{#p/human}* (But you didn't have the key.)"] : ["<32>{#p/basic}* It's locked."],
+            SAVE.data.b.svr ? ["<32>{#p/human}* (But you didn't have the key.)"] : ["<32>{#p/basic}* Заперто."],
         hapstadoor2: ['<32>{#p/human}* (You use the Mystery Key.)'],
         jumpsuit1: () => [
             '<32>{#p/human}* (You got the Flight Suit.)',
@@ -1205,7 +1205,7 @@ export default {
                     "<18>{#f/0}WELL, MEET ME AT UNDYNE'S HOUSE WHEN YOU'RE READY."
                 ]),
             '<18>{#f/9}THIS IS GOING TO BE FANTASTIC!',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         madfish1: () => [
             ...(SAVE.flag.n.ga_asrielUndyneX++ < 1
@@ -2721,7 +2721,7 @@ export default {
             "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!",
             '<18>{#f/5}...',
             '<18>{#f/5}PAPYRUS OUT...',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         secretcallB: [
             '<32>{#s/phone}{#p/event}* Звонок...',
@@ -2738,7 +2738,7 @@ export default {
             "<18>{#f/9}S-STILL!!!\nI KNOW YOU WON'T LET ME DOWN!",
             '<18>{#f/5}...',
             '<18>{#f/5}PAPYRUS OUT...',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         spider1: () => ['<32>{#p/basic}* ... huh?'],
         spider2: () =>
@@ -3033,7 +3033,7 @@ export default {
                                 '<25>{#f/0}* in the meantime, just be careful who you talk to.',
                                 "<25>{#f/3}* rumor has it, someone's been causing havoc near the trash depository."
                             ]),
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         trivia: {
             f_bbox: ["<32>{#p/basic}* A bastion box.\n* There's a human inside..."],
@@ -3777,12 +3777,12 @@ export default {
                     '<25>{#f/17}* What, you thought I had a bedroom back there or something?',
                     '<25>{#f/8}* Pfft, hah!\n* Everyone knows I sleep on a cold, hard floor.',
                     SAVE.data.b.oops
-                        ? "<32>{#p/basic}* It's locked."
+                        ? "<32>{#p/basic}* Заперто."
                         : '<32>{#p/basic}* I get the feeling there\'s more to this \"closet\" than snacks.'
                 ],
                 () => [
                     SAVE.data.b.oops
-                        ? "<32>{#p/basic}* It's locked."
+                        ? "<32>{#p/basic}* Заперто."
                         : '<32>{#p/basic}* I get the feeling there\'s more to this \"closet\" than snacks.'
                 ]
             ),
@@ -5079,7 +5079,7 @@ export default {
                         : ["<25>{#p/undyne}{#f/1}* That's it, then...!", '<25>{#f/17}* No more running away!'])
         ],
         undynefinal3x: ['<25>{#f/7}{*}* HERE I COME!!!!!!!{#x1}{^999}'],
-        undynehouse1: ["<32>{#p/basic}* It's locked."],
+        undynehouse1: ["<32>{#p/basic}* Заперто."],
         undynehouse2: () =>
             SAVE.data.b.svr || world.runaway
                 ? ["<32>{#p/human}* (You can't seem to find a way in.)"]

@@ -104,7 +104,7 @@ export default {
                 SAVE.data.b.napsta_performance ? 'Track 01' : '???',
                 2 <= SAVE.data.n.state_foundry_swansong ? 'Track 02' : '???',
                 2 <= SAVE.data.n.state_starton_trashprogress ? 'Track 03' : '???',
-                'Cancel'
+                'Հանել'
             )
         ],
         jukebox1x1: () =>
@@ -7606,7 +7606,7 @@ export default {
                     SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '0G - Exoberry Jell-O Pie',
                     '0G - Ghost Fruit',
                     '0G - Milkshake',
-                    'Exit'
+                    'Դուրս'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
@@ -7614,14 +7614,14 @@ export default {
                         SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '80G - Exoberry Jell-O Pie',
                         '5G - Ghost Fruit',
                         '5G - Milkshake',
-                        'Exit'
+                        'Դուրս'
                     ]
                     : [
                         SAVE.data.b.item_voidy ? '§fill=#808080§--- UNAVAILABLE ---' : '432G - Sanctuary',
                         SAVE.data.b.item_blookpie ? '§fill=#808080§--- UNAVAILABLE ---' : '100G - Exoberry Jell-O Pie',
                         '12G - Ghost Fruit',
                         '16G - Milkshake',
-                        'Exit'
+                        'Դուրս'
                     ],
         itemInfo: [
             'Special:\nLeads to a\nmysterious\nplace.',
@@ -7640,7 +7640,7 @@ export default {
         itemUnavailable: () =>
             blookGone() ? '<09>{#p/basic}Nothing left.' : "<09>{#p/napstablook}{#k/0}oh... i don't have any more...",
         menu: () =>
-            blookGone() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            blookGone() ? ['Take', 'Steal', 'Read', 'Դուրս'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: () =>
             [
                 '<23>{#p/napstablook}{#k/3}* have a look around...',
@@ -7690,7 +7690,7 @@ export default {
                     ],
         talk: (name: string) =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', name, 'The Future', 'Exit']
+                ? ['Say Hello', 'What Happened', name, 'The Future', 'Դուրս']
                 : [
                     'Say Hello',
                     'Ghosts',
@@ -7710,7 +7710,7 @@ export default {
                                         : SAVE.data.n.state_wastelands_napstablook === 0
                                             ? 'Dapper Blook?'
                                             : 'Your Life',
-                    'Exit'
+                    'Դուրս'
                 ],
         talkPrompt: '<09>{#p/napstablook}{#k/1}oh, you wanna chat?',
         talkText: [
@@ -7908,7 +7908,7 @@ export default {
                     SAVE.data.b.item_eye ? '0G - Field Emitter?' : '0G - Field Emitter',
                     '0G - Vortex Pop',
                     '0G - Radiant Swirl',
-                    'Exit'
+                    'Դուրս'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
@@ -7916,14 +7916,14 @@ export default {
                         SAVE.data.b.item_eye ? '10G - Field Emitter?' : '20G - Field Emitter',
                         '8G - Vortex Pop',
                         '5G - Radiant Swirl',
-                        'Exit'
+                        'Դուրս'
                     ]
                     : [
                         '30G - Power Glove?',
                         SAVE.data.b.item_eye ? '30G - Field Emitter?' : '40G - Field Emitter',
                         '28G - Vortex Pop',
                         '20G - Radiant Swirl',
-                        'Exit'
+                        'Դուրս'
                     ],
         itemInfo: () => [
             "Weapon: 3AT\n($(x) AT)\nKnock 'em.\nReplicated.",
@@ -7943,8 +7943,8 @@ export default {
         itemPurchasePrompt: () => (world.population === 0 || world.runaway ? 'Take it?' : 'Buy it for\n$(x)G?'),
         menu: () =>
             world.population === 0 || world.runaway
-                ? ['Take', 'Steal', 'Read', 'Exit']
-                : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+                ? ['Take', 'Steal', 'Read', 'Դուրս']
+                : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Խօսք', 'Դուրս'],
         menuPrompt1: '<23>{#p/basic}{#k/0}* Hello, traveler.\n* How can I help you?',
         menuPrompt2: '<23>{#p/basic}{#k/0}* Take your time.',
         menuPrompt3: () =>
@@ -7980,8 +7980,8 @@ export default {
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Say Hello', 'What Happened', 'Outlands', 'The Future', 'Exit']
-                : ['Say Hello', 'What To Do Here', 'Town History', 'Your Life', 'Exit'],
+                ? ['Say Hello', 'What Happened', 'Outlands', 'The Future', 'Դուրս']
+                : ['Say Hello', 'What To Do Here', 'Town History', 'Your Life', 'Դուրս'],
         talkPrompt: '<09>{#p/basic}{#k/0}Care to chat?',
         talkText: [
             () =>

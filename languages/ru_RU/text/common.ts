@@ -500,7 +500,7 @@ export default {
                             "<32>{#p/basic}{@fill=#d4bbff}* Bratty, are you sure there's going to BE a next time?",
                             "<32>{#p/basic}{@fill=#ffbbdc}* Oh, shoot, you're right.\n* The phone's, like, outta batteries anyway.",
                             '<32>{#p/basic}{@fill=#d4bbff}* ... later, alligator!!!\n* Nya ha ha!!!',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     }
                 } else if (royals < 2) {
@@ -953,7 +953,7 @@ export default {
                                         '<25>{#p/sans}{#f/3}* have a safe journey, and all that.'
                                     ]);
                                 }
-                                addB(['<32>{#s/equip}{#p/event}* Click...']);
+                                addB(['<32>{#s/equip}{#p/event}* Щелчок...']);
                             }
                         } else {
                             if (!dtoriel) {
@@ -1117,7 +1117,7 @@ export default {
                                 "<25>{#p/sans}{#f/0}* i hope you realize how bad you've made things here.",
                                 '<25>{#p/sans}{#f/0}* no asgore, or undyne.\n* no royal guard.\n* no mettaton.',
                                 '<25>{#p/sans}{#f/3}* ... no reason to keep this phone call going any longer.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Щелчок...'
                             ]);
                         }
                     } else if (SAVE.data.n.state_wastelands_toriel !== 0 && SAVE.data.n.kills_wastelands < 16) {
@@ -1179,7 +1179,7 @@ export default {
                             "<25>{#p/sans}{#f/2}* ... just thought i'd give you a heads up.",
                             "<25>{#p/alphys}{#f/23}* Come on, let's go!",
                             "<25>{#p/sans}{#f/0}* i'm on my way.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     } else {
                         k = 'dark_charles'; // NO-TRANSLATE
@@ -1227,7 +1227,7 @@ export default {
                             "<25>{#p/sans}{#f/3}* just know you're always welcome to return.",
                             '<18>{#p/papyrus}{#f/0}YEAH, THEN YOU CAN LIVE OUT YOUR BEST LIFE, TOO!',
                             '<25>{#p/sans}{#f/2}* heh.\n* we can only hope.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     }
                 } else {
@@ -1390,7 +1390,7 @@ export default {
                     }
                     addB([
                         '<25>{#p/alphys}{#f/16}* I hope you fall into a black hole and die.',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]);
                 }
             } else if (SAVE.data.b.ubershortcut || world.bad_lizard > 1) {
@@ -1473,7 +1473,7 @@ export default {
                         "<32>{#p/napstablook}* our group vows to hunt you down and make sure you pay for what you've done.",
                         '<32>{#p/napstablook}* heh......',
                         '<32>{#p/napstablook}* ......\n* i hope you die a painful death',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]);
                 } else {
                     addA([
@@ -1614,7 +1614,7 @@ export default {
                         '<32>{#p/mettaton}* BESIDES, IT\'S A FITTING END TO THIS \"LEGACY\" YOU\'VE LEFT BEHIND.',
                         '<32>{#p/mettaton}* ...',
                         '<32>{#p/mettaton}* WHAT A SHAME...',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]);
                 }
             } else if (SAVE.data.b.ultrashortcut) {
@@ -1776,7 +1776,7 @@ export default {
                     '<25>{#p/sans}{#f/0}* ...\n* take care of yourself out there, ok?',
                     '<25>{#p/sans}{#f/3}* ...',
                     "<25>{#p/sans}{#f/3}* see ya 'round.",
-                    '<32>{#s/equip}{#p/event}* Click...'
+                    '<32>{#s/equip}{#p/event}* Щелчок...'
                 ]);
             } else if (SAVE.data.n.exp > 0 || SAVE.data.n.state_foundry_undyne === 1) {
                 if (!dundyne) {
@@ -1924,7 +1924,7 @@ export default {
                                 '<25>{#p/sans}{#f/0}* eh, i said all i wanted to, anyway.',
                                 "<25>{#p/sans}{#f/0}* i'm hanging up the phone now.",
                                 '<25>{#p/sans}{#f/3}* ... goodbye.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Щелчок...'
                             ]);
                         } else {
                             addB([
@@ -1986,7 +1986,7 @@ export default {
                                 "<25>{#p/alphys}{#f/14}* I hope you're doing better than we are right now.",
                                 '<25>{#p/alphys}{#f/20}* ...',
                                 '<25>{#p/alphys}{#f/20}* See you later.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Щелчок...'
                             ]);
                         }
                     } else {
@@ -2031,7 +2031,7 @@ export default {
                                     "<27>{#p/sans}{#f/3}* just kidding.\n* i don't really hope that.",
                                     "<27>{#p/sans}{#f/0}* ... well, that's all.",
                                     '<27>{#p/darksans}{#f/1}{#i/5}* ...',
-                                    '<32>{#s/equip}{#p/event}* Click...'
+                                    '<32>{#s/equip}{#p/event}* Щелчок...'
                                 ]);
                             } else {
                                 addB([
@@ -2077,7 +2077,7 @@ export default {
                                     "<25>{#p/sans}{#f/0}* just... think about what i've said, ok?",
                                     '<25>{#p/sans}{#f/0}* ...',
                                     "<25>{#p/sans}{#f/0}* ... well, that's all.",
-                                    '<32>{#s/equip}{#p/event}* Click...'
+                                    '<32>{#s/equip}{#p/event}* Щелчок...'
                                 ]);
                             }
                         } else {
@@ -2136,7 +2136,7 @@ export default {
                                 "<25>{#p/alphys}{#f/8}* I-I'll think about it after I hang up the phone.",
                                 '<25>{#p/alphys}{#f/10}* ...',
                                 '<25>{#p/alphys}{#f/16}* T-take care!!',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Щелчок...'
                             ]);
                         }
                     }
@@ -2282,7 +2282,7 @@ export default {
                                 '<25>{#p/toriel}{#f/2}* ...',
                                 '<25>{#p/alphys}{#f/22}* Come outside, NOW!!',
                                 '<25>{|}{#p/toriel}{#f/2}* I... I am sorry!\n* I have to- {%}',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Щелчок...'
                             ]);
                         } else {
                             addB([
@@ -2359,7 +2359,7 @@ export default {
                             } else {
                                 addB(['<25>{#p/sans}{#f/0}* fly safe out there, will ya?', '<25>{#p/sans}{#f/3}* ...']);
                             }
-                            addB(['<32>{#s/equip}{#p/event}* Click...']);
+                            addB(['<32>{#s/equip}{#p/event}* Щелчок...']);
                         }
                     } else {
                         k = 'light_toriel'; // NO-TRANSLATE
@@ -2540,7 +2540,7 @@ export default {
                             '<25>{#p/toriel}{#f/9}* There is not much else for me to say.',
                             '<25>{#p/toriel}{#f/5}* ...',
                             '<25>{#p/toriel}{#f/5}* Goodbye, little one.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     }
                 } else if (royals === 5 && !ddoggo && !dlesserdog && !ddogs && !dgreatdog && !ddoge) {
@@ -2766,7 +2766,7 @@ export default {
                         '<32>{#p/basic}* HOW CAN YOU TALK FOR SO LONG WITHOUT GETTING TIRED!?',
                         '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
                         '<32>{#p/basic}* OK already!\n* Quit rushing me!!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]);
                 } else if (!dmuffet) {
                     k = 'light_muffet'; // NO-TRANSLATE
@@ -2957,7 +2957,7 @@ export default {
                             "<32>{#p/basic}* If it ever becomes too much, you're always welcome here with us!",
                             "<32>{#p/basic}* But for now~\n* I'll be seeing you~",
                             '<32>{#p/basic}* On the other side~',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     } else {
                         addB([
@@ -2983,7 +2983,7 @@ export default {
                             "<25>{#p/alphys}{#f/27}* Huh... what's this?",
                             '<25>{#p/alphys}{#f/27}* Was she... talking to someone on this thing?',
                             '<25>{#p/alphys}{#f/17}* Weird.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Щелчок...'
                         ]);
                     }
                 } else if (!dpapyrus) {
@@ -3114,7 +3114,7 @@ export default {
                         '<25>{#p/sans}{#f/0}* heh.\n* take care of yourself out there.',
                         "<25>{#p/sans}{#f/2}* 'cause at least one person's rootin' for ya.",
                         "<18>{#p/papyrus}{#f/0}... THAT'S ME!!!",
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]);
                 } else {
                     k = 'light_sans'; // NO-TRANSLATE
@@ -3423,7 +3423,7 @@ export default {
                     '<25>{#p/sans}{#f/2}* heh.\n* take care, okay?',
                     '<18>{#p/papyrus}{#f/9}YEAH!!\nUNTIL NEXT TIME!!',
                     '<25>{#p/alphys}{#f/8}* ... until next time.',
-                    '<32>{#s/equip}{#p/event}* Click...'
+                    '<32>{#s/equip}{#p/event}* Щелчок...'
                 ]);
             }
             return { a, b, d, k, m };
@@ -3521,7 +3521,7 @@ export default {
             '<25>{#p/asgore}{#f/14}* ... do not hesitate to put an end to him.',
             '<25>{#p/asgore}{#f/2}* ...',
             '<25>{#p/asgore}{#f/4}* Good luck.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Щелчок...'
         ],
         lastblook1: [
             () => [
@@ -4517,7 +4517,7 @@ export default {
             ],
             x_trash: () => [
                 ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                    ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
+                    ? ["<32>{#p/human}* (Вы не можете понять, что лежит в мусорке...)"]
                     : []),
                 ...(SAVE.data.b.ufokinwotm8
                     ? []
@@ -4752,7 +4752,7 @@ export default {
             ],
             x_chair1: () => [
                 ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                    ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы подмечаете весьма большой размер стула.)']
                     : []),
                 ...(SAVE.data.b.ufokinwotm8
                     ? []
@@ -4764,7 +4764,7 @@ export default {
             ],
             x_chair2: () => [
                 ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                    ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы подмечаете стул небольшого размера.)']
                     : []),
                 ...(SAVE.data.b.svr
                     ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a brother."]
@@ -4797,7 +4797,7 @@ export default {
             ],
             x_chair5: () => [
                 ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                    ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы отмечаете необычный размер обеденного стула.)']
                     : []),
                 ...(SAVE.data.b.svr
                     ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a father."]
@@ -5657,7 +5657,7 @@ export default {
 
     c_call_common: {
         start: '<32>{#s/phone}{#p/event}* Набор номера...',
-        end: '<32>{#s/equip}{#p/event}* Click...',
+        end: '<32>{#s/equip}{#p/event}* Щелчок...',
         nobody0: ['<32>{#p/human}* (Слишком сильные помехи.)'],
         nobody1: ['<32>{#p/human}* (No response.)'],
         nobody2: ['<32>{#p/basic}* ...но никто не пришёл.'],

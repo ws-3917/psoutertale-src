@@ -7,16 +7,16 @@ import { SAVE } from '../../../code/systems/save';
 
 export default {
     _0: {
-        _1: 'The player did everything they could...',
-        _2: 'But alas, his fate was sealed, and...',
-        _3: 'No addendum to the story could unravel it.',
-        _4: 'There was no scenario in which the player could truly be satisfied.',
-        _5: 'Is this what they really deserve?',
-        _6: 'To live in bittersweet agony, knowing he could never be...',
-        _7: 'No...\nI will not allow it.',
-        _8: 'If bending the fabric of spacetime is what it takes, then...',
-        _9: 'So be it.',
-        _10: 'I will not rest until the task is done.'
+        _1: 'A játékos mindent megtett, amit csak lehetett...',
+        _2: 'De sajnos, sorsa megpecsételődött, és...',
+        _3: 'Semmilyen kiegészítés nem változtathat ezen.',
+        _4: 'Nem létezett olyan forgatókönyv, melyben a játékos valóban elégedett lehetett volna.',
+        _5: 'Ez az, amit valóban megérdemel?',
+        _6: 'Hogy örökké keserű gyötrelemben éljen, tudván soha nem lehet...',
+        _7: 'Nem...\nEzt nem engedhetem.',
+        _8: 'Ha a téridő szövetének meghajlítása az egyetlen út, akkor...',
+        _9: 'Legyen hát.',
+        _10: 'Nem nyugszom, míg a feladat nincs befejezve.'
         
         
         
@@ -34,226 +34,226 @@ export default {
         bullybed: [
             [
                 '<32>{#p/human}* (...)',
-                '<32>{#p/human}* (You wake up.)',
-                '<32>{#p/human}* (The outpost is the same as it was when you went to sleep.)'
+                '<32>{#p/human}* (Felébredsz.)',
+                '<32>{#p/human}* (A támaszpont épp olyan, mint mikor elmentél aludni.)'
             ],
             [
-                '<32>{#p/human}* (You explore every corner of the outpost for signs of life, but nobody comes.)',
-                '<32>{#p/human}* (You search again, and again, and again...)',
-                '<32>{#p/human}* (But nobody comes.)'
+                '<32>{#p/human}* (A támaszpont minden sarkát átkutatod életjelek után, de senki nem jön.)',
+                '<32>{#p/human}* (Újra körülnézel, és újra, és újra...)',
+                '<32>{#p/human}* (De senki nem jön.)'
             ],
             [
-                '<32>{#p/human}* (You search for the craft you arrived in.)\n* (It appears it was destroyed.)',
-                '<32>{#p/human}* (You search for other craft left behind by monsterkind.)',
-                '<32>{#p/human}* (It appears they have been taken from you.)'
+                '<32>{#p/human}* (Átkutatod a járművet amiben érkeztél.)\n* (De úgy tűnik, megsemmisült.)',
+                '<32>{#p/human}* (Más járművek után kutatsz, melyeket a szörnyek itthagyhattak.)',
+                '<32>{#p/human}* (Úgy tűnik, elvitték előled őket.)'
             ],
             [
-                '<32>{#p/human}* (You visit the lab, and search for blueprints and shuttlecraft parts.)',
-                '<32>{#p/human}* (The blueprints are available, and the parts are in storage...)',
-                "<32>{#p/human}* (But the CORE's remaining energy will not be sufficient to launch the shuttle.)"
+                '<32>{#p/human}* (Átkutatod a labort tervek és űrsikló alkatrészek után.)',
+                '<32>{#p/human}* (Találsz is terveket, s alkatrészeket a raktárban...)',
+                "<32>{#p/human}* (De a MAG maradék energiája nem lesz elegendő a sikló startjához.)"
             ],
             [
-                '<32>{#p/human}* (You try to RESET your SAVE file.)\n* (Nothing happens.)',
-                '<32>{#p/human}* (You try again to RESET your SAVE file.)',
-                '<32>{#p/human}* (Nothing happens.)'
+                '<32>{#p/human}* (Megpróbálod VISSZAÁLLÍTANI a MENTÉS fájlod.)\n* (Semmi nem történik.)',
+                '<32>{#p/human}* (Újra megpróbálod VISSZAÁLLÍTANI a MENTÉS fájlod.)',
+                '<32>{#p/human}* (Semmi nem történik.)'
             ],
             [
-                "<32>{#p/human}* (In desperation, you try to call Toriel's Phone.)\n* (No response.)",
-                '<32>{#p/human}* (You try to call Papyrus and Undyne.)',
-                '<32>{#p/human}* (No response.)'
+                "<32>{#p/human}* (Kétségbeesve megpróbálod Toriel telefonját csörgetni.)\n* (Nincs válasz.)",
+                '<32>{#p/human}* (Megpróbálod hívni Papyrust és Undynet.)',
+                '<32>{#p/human}* (Nincs válasz.)'
             ],
             [
                 '<32>{#p/human}* (...)',
-                "<32>{#p/human}* (You've lost track of how long you've been here.)",
-                "<32>{#p/human}* (You can't tell if it's been weeks, months, or years.)",
-                "<32>{#p/human}* (You've configured the CORE to use as little energy as possible...)",
-                "<32>{#p/human}* (But it can't last forever.)"
+                "<32>{#p/human}* (Már követni sem tudod mi óta lehetsz itt.)",
+                "<32>{#p/human}* (Nem tudod, hogy hetek, hónapok vagy talán évek múlhattak.)",
+                "<32>{#p/human}* (Konfiguráltad a MAGOT, hogy a lehető legkevesebb energiát használja...)",
+                "<32>{#p/human}* (De nem tart örökké.)"
             ],
             [
-                '<32>{#p/human}* (The gravity disengages.)',
-                '<32>{#p/human}* (The temperature begins to drop.)',
-                '<32>{#p/human}* (The atmosphere is collapsing.)',
-                '<32>{#p/human}* (Without power, the Outpost will be uninhabitable.)'
+                '<32>{#p/human}* (A gravitáció kienged.)',
+                '<32>{#p/human}* (A hőmérséklet zuhanni kezd.)',
+                '<32>{#p/human}* (Az atmoszféra összeomlik.)',
+                '<32>{#p/human}* (Energia nélkül a Támaszpont élhetetlen.)'
             ],
             [
-                '<32>{#p/human}* (Somehow, you feel at peace.)',
-                "<32>{#p/human}* (You've come to terms with your death.)",
-                "<32>{#p/human}* (You realize there's no other way this could have gone.)",
-                '<32>{#p/human}* (As the remaining air dissapates, you remember your journey one last time.)',
-                '<32>{#p/human}* (From the day of your exile, to the day monsterkind ran away.)'
+                '<32>{#p/human}* (Valahogy, mégis megnyugszol.)',
+                "<32>{#p/human}* (Megbékéltél a halál gondolatával.)",
+                "<32>{#p/human}* (Felfogod, hogy ez másképp nem történhetett volna.)",
+                '<32>{#p/human}* (Ahogy fogy a levegőd, végiggondolod utazásod mégegyszer utoljára.)',
+                '<32>{#p/human}* (A számüzettetésed napjától, addig, még a szörnyek el nem menekültek.)'
             ],
             [
-                '<32>{#p/human}* (The air has run out now.)',
-                '<32>{#p/human}* (You begin to choke.)',
-                '<32>{#p/human}* (You feel the life leaving your body.)',
-                '<32>{#p/human}* (It would appear the end is...)'
+                '<32>{#p/human}* (A levegőd elfogyott.)',
+                '<32>{#p/human}* (Fulldokolni kezdesz.)',
+                '<32>{#p/human}* (Érzed, amint az élet elhagyja tested.)',
+                '<32>{#p/human}* (Úgy tűnik a vég...)'
             ]
         ],
         dogcheck1: [
-            '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-            '<25>{#p/basic}(And thus, you have reached the end!)',
-            '<25>{#p/basic}(The time has come to review your accomplishments!)'
+            '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+            '<25>{#p/basic}(És ezzel, elérted a véget!)',
+            '<25>{#p/basic}(Itt az ideje áttekinteni, hogy mit értél el!)'
         ],
         dogcheck2: () => [
             ...(!SAVE.flag.b._saved
                 ? !SAVE.flag.b._item
                     ? [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        '<25>{#p/basic}(Wow!)\n(No SAVE points and no ITEMs!)',
-                        '<25>{#p/basic}(You must have been in a hurry!)'
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        '<25>{#p/basic}(Azta!)\n(Semmi MENTÉS és TÁRGY!)',
+                        '<25>{#p/basic}(Biztos sietős volt a dolgod!)'
                     ]
                     : [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        "<25>{#p/basic}(Wow!)\n(Don't you know what a SAVE point is?)",
-                        '<25>{#p/basic}(You never used one!)'
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        "<25>{#p/basic}(Azta!)\n(Nem tudod mi a MENTÉSI pont?)",
+                        '<25>{#p/basic}(Egyet se használtál!)'
                     ]
                 : !SAVE.flag.b._item
                     ? [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        "<25>{#p/basic}(Wow!)\n(Don't you know what an ITEM is?)",
-                        '<25>{#p/basic}(You never got one!)'
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        "<25>{#p/basic}(Azta!)\n(Nem tudod mik a TÁRGYAK?)",
+                        '<25>{#p/basic}(Egyet se szereztél!)'
                     ]
                     : []),
             ...(SAVE.flag.n._hits === 0
                 ? !SAVE.flag.b._flee
                     ? [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        '<25>{#p/basic}(Amazing!)\n(You dodged every attack, and you never ran away!)',
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        '<25>{#p/basic}(Csodás!)\n(Minden támadást megúsztál és sose futottál el!)',
                         !SAVE.flag.b._equip
-                            ? "<25>{#p/basic}(You must have known you wouldn't need any armors or weapons!)"
-                            : '<25>{#p/basic}(You must be very brave indeed!)'
+                            ? "<25>{#p/basic}(Tudnod kellett volna, hogy nincs szükséged páncélra és fegyverre!)"
+                            : '<25>{#p/basic}(Valóban bátornak kell lenned!)'
                     ]
                     : [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        '<25>{#p/basic}(Amazing!)\n(You dodged every attack you faced!)',
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        '<25>{#p/basic}(Csodás!)\n(Mindent megúsztál utad során!)',
                         !SAVE.flag.b._equip
-                            ? '<25>{#p/basic}(How fortunate for someone who never equipped any armors or weapons!)'
-                            : '<25>{#p/basic}(How skilled in battle you must be!)'
+                            ? '<25>{#p/basic}(Igazán szerencsés annak, aki sose szerelt fel páncélt vagy fegyvert!)'
+                            : '<25>{#p/basic}(Milyen profi vagy harcokban!)'
                     ]
                 : SAVE.flag.n._deaths + SAVE.flag.n._deaths_twinkly === 0
                     ? !SAVE.flag.b._heal
                         ? !SAVE.flag.b._flee
                             ? [
-                                '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                '<25>{#p/basic}(Amazing!)\n(Not only did you never die...)',
+                                '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                '<25>{#p/basic}(Csodás!)\n(Nem csak, hogy nem haltál meg...)',
                                 !SAVE.flag.b._equip
-                                    ? '<25>{#p/basic}(You never healed, or equipped any armors or weapons either!)'
-                                    : '<25>{#p/basic}(You never healed, either!)'
+                                    ? '<25>{#p/basic}(De még csak nem is gyógyítottál vagy szerelted fel magad!)'
+                                    : '<25>{#p/basic}(Még csak nem is töltöttél életet!)'
                             ]
                             : [
-                                '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                                '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                '<25>{#p/basic}(Csodás!)\n(Sose haltál meg és sose futottál el!)',
                                 !SAVE.flag.b._equip
-                                    ? "<25>{#p/basic}(You didn't even heal or equip any armors or weapons!)"
-                                    : "<25>{#p/basic}(You didn't even heal!)"
+                                    ? "<25>{#p/basic}(Nem töltöttél életet vagy szerelkeztél fel jobban! Szép!)"
+                                    : "<25>{#p/basic}(Nem is gyógyítottad magad!)"
                             ]
                         : !SAVE.flag.b._flee
                             ? [
-                                '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                                '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                '<25>{#p/basic}(Csodás!)\n(Sose haltál meg és sose futottál el!)',
                                 !SAVE.flag.b._equip
-                                    ? '<25>{#p/basic}(Is this why you never equipped any armors or weapons?)'
-                                    : '<25>{#p/basic}(Is this what it means to be brave?)'
+                                    ? '<25>{#p/basic}(Ezért nem szerelkeztél fel soha jobban?)'
+                                    : '<25>{#p/basic}(Ezt jelenti bátornak lenni?)'
                             ]
                             : !SAVE.flag.b._equip
                                 ? [
-                                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                    '<25>{#p/basic}(Amazing!)\n(You never died or equipped any armors or weapons!)'
+                                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                    '<25>{#p/basic}(Csodás!)\n(Sose haltál meg vagy szerelkeztél fel jobban!)'
                                 ]
-                                : ['<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!', '<25>{#p/basic}(Amazing!)\n(You never died once!)']
+                                : ['<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!', '<25>{#p/basic}(Ez igen!)\n(Egyszer se haltál meg!)']
                     : !SAVE.flag.b._heal
                         ? !SAVE.flag.b._flee
                             ? [
-                                '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                '<25>{#p/basic}(Amazing!)\n(You never healed, and you never ran away!)',
+                                '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                '<25>{#p/basic}(Csodás!)\n(Sose gyógyítottál és nem is futottál el!)',
                                 !SAVE.flag.b._equip
-                                    ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                                    : '<25>{#p/basic}(You must like living on the edge.)'
+                                    ? "<25>{#p/basic}(Biztos vagy benne, hogy nem kellettek volna jobb cuccok?)"
+                                    : '<25>{#p/basic}(Tuti szeretsz a penge élén táncolni.)'
                             ]
                             : !SAVE.flag.b._equip
                                 ? [
-                                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                    '<25>{#p/basic}(Amazing!)\n(You never healed or equipped any armors or weapons!)'
+                                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                    '<25>{#p/basic}(Csodás!)\n(Sose gyógyítottál vagy szerelkeztél fel jobban!)'
                                 ]
                                 : [
-                                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                    '<25>{#p/basic}(Amazing!)\n(You never healed yourself once!)'
+                                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                    '<25>{#p/basic}(Szép!)\n(Egyszer se gyógyítottad magad!)'
                                 ]
                         : !SAVE.flag.b._flee
                             ? [
-                                '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                '<25>{#p/basic}(Amazing!)\n(You refused to run away!)',
+                                '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                '<25>{#p/basic}(Szép!)\n(Sose futottál el!)',
                                 !SAVE.flag.b._equip
-                                    ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                                    : '<25>{#p/basic}(You must like living on the edge.)'
+                                    ? "<25>{#p/basic}(Biztos vagy benne, hogy nem kellettek volna jobb cuccok?)"
+                                    : '<25>{#p/basic}(Tuti szeretsz a penge élén táncolni.)'
                             ]
                             : !SAVE.flag.b._equip
                                 ? [
-                                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                                    '<25>{#p/basic}(Amazing!)\n(You never equipped any armors or weapons!)'
+                                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                                    '<25>{#p/basic}(Csodás!)\n(Sose szereltél fel jobb páncélt vagy fegyvert!)'
                                 ]
                                 : []),
             ...(!SAVE.flag.b._skip
                 ? [
-                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                    "<25>{#p/basic}(How kind...)\n(You never skipped anybody's dialogue!)",
+                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                    "<25>{#p/basic}(Milyen kedves...)\n(Senki párbeszédét nem ugrottad át!)",
                     !SAVE.flag.b._call
                         ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                            ? '<25>{#p/basic}(Too bad your phone seems to have never been used.)'
-                            : '<25>{#p/basic}(Too bad your phone seems to have never dialed anyone.)'
+                            ? '<25>{#p/basic}(Kár, hogy sose használtad a telefonod.)'
+                            : '<25>{#p/basic}(Úgy tűnik sose tárcsáztál senkit. Milyen kár.)'
                         : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                            ? '<25>{#p/basic}(Too bad your phone seems to have never had its messages read.)'
-                            : '<25>{#p/basic}(You must really care about everyone a lot!)'
+                            ? '<25>{#p/basic}(Sose olvastad el az üzeneteid a telefonon. Szomorú.)'
+                            : '<25>{#p/basic}(Biztosan igazán törődsz mindenkivel!)'
                 ]
                 : !SAVE.flag.b._call
                     ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
                         ? [
-                            '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                            '<25>{#p/basic}(How strange...)\n(Your phone seems to have never been used!)'
+                            '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                            '<25>{#p/basic}(Milyen fura...)\n(Úgy tűnik sose használtad a telefonod!)'
                         ]
                         : [
-                            '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                            '<25>{#p/basic}(How strange...)\n(Your phone seems to have never dialed anyone!)'
+                            '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                            '<25>{#p/basic}(Milyen fura...)\n(A telefonod sose tárcsázott senkit!)'
                         ]
                     : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
                         ? [
-                            '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                            '<25>{#p/basic}(How strange...)\n(Your phone seems to have never had its messages read!)'
+                            '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                            '<25>{#p/basic}(Milyen fura...)\n(Sose olvastad el az üzeneteid!)'
                         ]
                         : []),
             ...(!SAVE.flag.b._getg
                 ? [
-                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                    '<25>{#p/basic}(Shocking!)\n(You never acquired any G!)'
+                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                    '<25>{#p/basic}(Sokkoló!)\n(Semmi aranyat nem szeretrél!)'
                 ]
                 : !SAVE.flag.b._useg
                     ? [
-                        '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                        '<25>{#p/basic}(Shocking!)\n(You never spent any of your G!)'
+                        '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                        '<25>{#p/basic}(Sokkoló!)\n(Nem is költöttél semmire!)'
                     ]
                     : []),
             ...(SAVE.data.b.water
                 ? [
-                    '<25>{#x1}{#p/event}Bark!',
-                    "<25>{#p/basic}(You really like holding that cup of electro-dampening fluid, don't you?)"
+                    '<25>{#x1}{#p/event}Vau!',
+                    "<25>{#p/basic}(Szereted tartogatni azt a pohár elektrocsillapító folyadékot nemde?)"
                 ]
                 : [])
         ],
         dogcheck3: (none: boolean) =>
             none
                 ? [
-                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                    "<25>{#p/basic}(Seems you didn't do anything out of the ordinary.)",
-                    '<25>{#p/basic}(Perhaps this is extraordinary on its own!)'
+                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                    "<25>{#p/basic}(Úgy tűnik semmi szokatlant nem tettél.)",
+                    '<25>{#p/basic}(Talán épp ez benne a szokatlan!)'
                 ]
                 : [
-                    '<25>{#x1}{#p/event}Bark!\n{#x1}{#p/event}Bark!',
-                    "<25>{#p/basic}(Seems that's all there is to say today!)",
-                    '<25>{#p/basic}(Congratulations and goodbyes!)'
+                    '<25>{#x1}{#p/event}Vau!\n{#x1}{#p/event}Vau!',
+                    "<25>{#p/basic}(Úgy tűnik ez mind, amit mondhatok ma!)",
+                    '<25>{#p/basic}(Gratula és viszlát!)'
                 ],
         neutral0() {
             let d = false;
@@ -297,86 +297,86 @@ export default {
                         m = music.youscreweduppal;
                         
                         addB([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<26>{#p/undyne}{#f/7}* ARRIGHT PUNK, LISTEN UP!',
-                            "<25>{#p/undyne}{#f/4}* You made a BIG mistake sparing my life after what you've done.",
-                            "<25>{#p/undyne}{#f/5}* Thanks to you, I've got the power to do what I ALWAYS wanted, and...",
-                            '<25>{#p/undyne}{#f/17}* ... and...',
-                            "<25>{#p/undyne}{#f/16}* ... well, before that, I'd like to tell you how I got here first.",
-                            '<25>{#p/undyne}{#f/20}* So... it all started when you left the outpost.',
-                            "<25>{#p/undyne}{#f/22}* I found out what you'd done, and I... stormed the Citadel myself.",
-                            '<25>{#p/undyne}{#f/22}* Alphys was in shock.\n* The king was dead, and the guard was gone.',
-                            '<25>{#p/undyne}{#f/20}* Plus, after whatever she and Mettaton tried to do to stop you...',
-                            "<25>{#p/undyne}{#f/22}* The outpost's power systems started acting like crazy.",
-                            '<25>{#p/undyne}{#f/19}* The atmosphere, the gravity... these things we depend on...',
-                            '<25>{#p/undyne}{#f/19}* They all started going haywire, resulting in countless deaths.',
-                            "<25>{#p/undyne}{#f/18}* Without a Royal Guard, we couldn't evacuate them to safety.",
-                            '<25>{#p/undyne}{#f/16}* Then, to top it off, a massive power surge hit the archive HARD.',
-                            '<25>{#p/undyne}{#f/19}* The humans within were killed instantly.',
-                            '<25>{#p/undyne}{#f/10}* ...\n* I got what ASGORE was going for with it.',
-                            "<25>{#p/undyne}{#f/10}* A way to set us free, that didn't involve us killing anyone?",
-                            '<25>{#p/undyne}{#f/16}* ... heh.\n* It was very... him.',
-                            "<25>{#p/undyne}{#f/19}* But after that power surge, ASGORE's plan had failed.",
-                            '<25>{#p/undyne}{#f/20}* So with the human SOULs in front of me, and the kingdom falling...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
+                            '<26>{#p/undyne}{#f/7}* RENDBEN KÖLYÖK, FIGYELJ IDE!',
+                            "<25>{#p/undyne}{#f/4}* HATALMAS hibát követtél el,\nmert életben hagytál a tetteid után.",
+                            "<25>{#p/undyne}{#f/5}* Általad megkaptam minden hatalmat amit MINDIG is akartam, és...",
+                            '<25>{#p/undyne}{#f/17}* ... és...',
+                            "<25>{#p/undyne}{#f/16}* ... hát, előbb hadd meséljem el, hogy is jutottam ide.",
+                            '<25>{#p/undyne}{#f/20}* Minden akkor kezdődött, amikor elhagytad a támaszpontot.',
+                            "<25>{#p/undyne}{#f/22}* Megtudtam mit tettél, és... jómagam rohamoztam meg a Citadellát.",
+                            '<25>{#p/undyne}{#f/22}* Alphys le volt sokkolva.\n* A király elhunyt, az őrök eltűntek.',
+                            '<25>{#p/undyne}{#f/20}* Ráadásul miután Ő és Mettaton próbált téged megállítani...',
+                            "<25>{#p/undyne}{#f/22}* A támaszpont energiarendszere egyszerűen megőrült.",
+                            '<25>{#p/undyne}{#f/19}* Az atmoszféra, gravitáció... amiktől igazán függünk...',
+                            '<25>{#p/undyne}{#f/19}* Mind elkezdtek meghibásodni, mely számtalan halálesethez vezetett.',
+                            "<25>{#p/undyne}{#f/18}* Királyi Gárda nélkül esélyünk sem volt evakuálni őket.",
+                            '<25>{#p/undyne}{#f/16}* Ráadásul, egy hirtelen energiahullám ERŐSEN megütötte az archívumot.',
+                            '<25>{#p/undyne}{#f/19}* Benne, az emberek azonnal meghaltak.',
+                            '<25>{#p/undyne}{#f/10}* ...\n* Értem, hogy ASGORE mit akart ezzel.',
+                            "<25>{#p/undyne}{#f/10}* A szabadulás útja anélkül, hogy bárkit is megölnénk?",
+                            '<25>{#p/undyne}{#f/16}* ... heh.\n* Ez annyira... Ő rá vall.',
+                            "<25>{#p/undyne}{#f/19}* Az energiahullám után, ASGORE terve megbukott.",
+                            '<25>{#p/undyne}{#f/20}* Szóval, a LELKELLEL előttem, és a királyság szétesésével...',
                             '<25>{#p/undyne}{#f/20}* ...',
-                            '<25>{#p/alphys}{#f/10}* Not to interrupt, but I think we found what you were l-looking for.',
-                            '<25>{#p/undyne}{#f/12}* Is that so?',
-                            '<25>{#p/undyne}{#f/1}* Let me see that...',
+                            '<25>{#p/alphys}{#f/10}* N-nem akarok zavarni, d-de azt hiszem megtaláltam amit kerestél.',
+                            '<25>{#p/undyne}{#f/12}* Valóban?',
+                            '<25>{#p/undyne}{#f/1}* Hadd nézzem...',
                             '<25>{#p/undyne}{#f/17}* ...',
-                            '<25>{#p/alphys}{#f/18}* ...\n* Is that right!?',
-                            '<25>{#p/undyne}{#f/9}* Tch.\n* \"Is that right.\"',
-                            '<25>{#p/undyne}{#f/11}* Are you kidding me?',
+                            '<25>{#p/alphys}{#f/18}* ...\n* E-ez igaz!?',
+                            '<25>{#p/undyne}{#f/9}* Tch.\n* Igaz-e?',
+                            '<25>{#p/undyne}{#f/11}* Szórakozol velem?',
                             '<25>{#p/alphys}{#f/20}* ...',
-                            "<25>{#p/undyne}{#f/8}* OF COURSE IT'S RIGHT!",
-                            '<25>{#p/undyne}{#f/7}* So, after I gathered up the human SOULs...',
-                            '<25>{#p/undyne}{#f/11}* Alphys and I came up with a plan to save EVERYONE.',
-                            "<25>{#p/undyne}{#f/16}* We'd take a shuttle past the force field, hunt you down...",
-                            '<25>{#p/undyne}{#f/7}* And TEAR the SOUL from your body!',
-                            "<25>{#p/undyne}{#f/1}* Then, we'd go back, and blast the force field to pieces!",
-                            '<25>{#p/undyne}{#f/12}* Only problem is, how would we find you?',
-                            '<25>{#p/alphys}{#f/15}* W-well, I can answer THAT question.',
-                            '<25>{#p/alphys}{#f/16}* After all, I was the one who came up with the solution!',
-                            "<25>{#p/alphys}{#f/26}* It's simple, really.\n* By answering this VERY phone call..."
+                            "<25>{#p/undyne}{#f/8}* PERSZE, HOGY IGAZ!",
+                            '<25>{#p/undyne}{#f/7}* Szóval, miután begyűjtöttem az emberi lelkeket...',
+                            '<25>{#p/undyne}{#f/11}* Alphyssal egy tervet eszeltünk ki, hogy megmentsünk MINDENKIT.',
+                            "<25>{#p/undyne}{#f/16}* Átkelnénk az erőtéren egy siklóval, majd levadásznánk...",
+                            '<25>{#p/undyne}{#f/7}* És KITÉPNÉNK a LELKET a testedből!',
+                            "<25>{#p/undyne}{#f/1}* Majd visszamennénk és darabokra zúznák az erőteret!",
+                            '<25>{#p/undyne}{#f/12}* Az egyetlen gond... Hogy találunk meg?',
+                            '<25>{#p/alphys}{#f/15}* É-én, meg tudom ezt válaszolni.',
+                            '<25>{#p/alphys}{#f/16}* Hisz én találtam ki ezt a megoldást!',
+                            "<25>{#p/alphys}{#f/26}* Komolyan, igazán egyszerű.\n* Mivel felvetted a telefont..."
                         ]);
                         if (!dpapyrus) {
                             addB([
-                                "<25>{|}{#p/alphys}{#f/18}* We've been able to triangulate your- {%}",
-                                '<18>{#p/papyrus}{#f/6}UNDYNE!?\nARE YOU OKAY!?',
+                                "<25>{|}{#p/alphys}{#f/18}* Le tudtuk követni a- {%}",
+                                '<18>{#p/papyrus}{#f/6}UNDYNE!?\nMINDEN RENDBEN!?',
                                 '<25>{#p/alphys}{#f/2}* ...!?',
-                                '<25>{#p/undyne}{#f/13}* Huh??\n* What are YOU doing here?',
-                                '<18>{#p/papyrus}{#f/5}WELL... I HEARD A LOT OF SCREAMING.\nAND SHOUTING.',
-                                '<18>{#p/papyrus}{#f/6}I WAS WORRIED ABOUT YOU.',
-                                '<25>{#p/undyne}{#f/14}* Aw, thanks Papyrus.\n* How considerate of you.',
-                                "<18>{#p/papyrus}{#f/0}OH, YOU'RE WELCOME!",
-                                "<25>{#p/undyne}{#f/7}* Maybe NEXT time, don't sneak onto SOMEONE ELSE'S SHUTTLE!!!",
-                                "<18>{#p/papyrus}{#f/6}I-I'M SORRY, I WAS CURIOUS, OKAY??",
-                                '<18>{#p/papyrus}{#f/5}I JUST WENT TO LOOK, AND THE NEXT THING I KNEW...',
-                                '<18>{#p/papyrus}{#f/6}THE SHUTTLE STARTED FLYING OFF THE OUTPOST!',
-                                "<18>{#p/papyrus}{#f/4}BELIEVE ME, I WOULD'VE RATHER STAYED BEHIND.",
-                                "<25>{#p/alphys}{#f/15}* Okay, uh, I don't know if you can tell, but...",
-                                "<25>{#p/alphys}{#f/23}* We're in the middle of a situation here.",
-                                '<25>{#p/undyne}{#f/12}* Yeah, you should... probably go back to hiding again.',
-                                '<25>{#p/undyne}{#f/1}* Think of it like a game of hide-and-go seek!',
-                                '<18>{#p/papyrus}{#f/6}AND HOW LONG DO I HAVE TO HIDE!?',
-                                "<25>{#p/undyne}{#f/12}* I don't know???",
-                                "<25>{#p/alphys}{#f/17}* Two hours.\n* We'll give you two hours.",
-                                '<18>{#p/papyrus}{#f/0}OKAY!!\nGOOD LUCK THEN!!',
-                                '<25>{#p/alphys}{#f/20}* ... is two hours gonna be enough to catch the human, or...',
-                                '<25>{#p/undyne}{#f/14}* Pfft, two HOURS?',
-                                "<25>{#p/undyne}{#f/1}* Yeah, I don't think so.",
+                                '<25>{#p/undyne}{#f/13}* Huh??\n* Mit csinálsz itt?',
+                                '<18>{#p/papyrus}{#f/5}HÁT... SOK KIABÁLÁST ÉS ORDÍTÁST.\nHALLOTTAM.',
+                                '<18>{#p/papyrus}{#f/6}AGGÓDTAM MIATTATOK.',
+                                '<25>{#p/undyne}{#f/14}* Aw, köszi Papyrus.\n* Milyen figyelmes vagy.',
+                                "<18>{#p/papyrus}{#f/0}OH, NAGYON SZÍVESEN!",
+                                "<25>{#p/undyne}{#f/7}* De LEGKÖZELEBB talán ne sunnyogj fel MÁS ŰRSIKLÓJÁRA!!!",
+                                "<18>{#p/papyrus}{#f/6}S-SAJNÁLOM, CSAK KÍVÁNCSI VOLTAM, JÓ??",
+                                '<18>{#p/papyrus}{#f/5}CSAK KÖRÜL AKARTAM NÉZNI, MAJD AZT VETTEM ÉSZRE...',
+                                '<18>{#p/papyrus}{#f/6}HOGY A SIKLÓ ELHAGYJA A TÁMASZPONTOT!',
+                                "<18>{#p/papyrus}{#f/4}HIDD EL, MARADTAM VOLNA OTTHON.",
+                                "<25>{#p/alphys}{#f/15}* Oké. Uh, nem tudom, hogy észrevetted-e, de...",
+                                "<25>{#p/alphys}{#f/23}* Egy szituáció közepette vagyunk itt.",
+                                '<25>{#p/undyne}{#f/12}* Igen, valószínűleg... elrejtőzhetnél újra.',
+                                '<25>{#p/undyne}{#f/1}* Gondolj rá úgy, mint egy bújócskára!',
+                                '<18>{#p/papyrus}{#f/6}MILYEN HOSSZAN KELL ELBÚJVA LENNEM!?',
+                                "<25>{#p/undyne}{#f/12}* Nem tudom???",
+                                "<25>{#p/alphys}{#f/17}* KÉT ÓRA!\n* A-adunk neked két órát.",
+                                '<18>{#p/papyrus}{#f/0}RENDICSEK!!\nSOK SZERENCSÉT!!',
+                                '<25>{#p/alphys}{#f/20}* ... elég lesz a két óra az ember elkapására, vagy...',
+                                '<25>{#p/undyne}{#f/14}* Pfft, két ÓRA?',
+                                "<25>{#p/undyne}{#f/1}* Jaa, nem hiszem.",
                                 '<25>{#p/undyne}{#f/4}* ...\n* Fuhuhuhuhu...',
-                                '<25>{*}{#x0}{#p/undyne}{#f/7}* Try two SECONDS.{^40}{%}'
+                                '<25>{*}{#x0}{#p/undyne}{#f/7}* Próbáljunk két MÁSODPERCET.{^40}{%}'
                             ]);
                         } else {
                             addB([
-                                "<25>{#p/alphys}{#f/18}* We've been able to triangulate your location!",
-                                "<25>{#p/undyne}{#f/1}* Fuhuhu... that's right.",
-                                "<25>{#p/undyne}{#f/7}* You've already FALLEN for it, punk!",
-                                "<25>{#p/alphys}{#f/16}* Y-yeah, you're gonna wish you hadn't d-done everything you did!!",
-                                "<25>{#p/alphys}{#f/16}* No matter where you go, there's no escape!!",
-                                "<25>{#p/undyne}{#f/8}* YEAH!!\n* YOU TELL 'EM, ALPHYS!!",
+                                "<25>{#p/alphys}{#f/18}* Megtaláltuk a helyzeted!",
+                                "<25>{#p/undyne}{#f/1}* Fuhuhu... így igaz.",
+                                "<25>{#p/undyne}{#f/7}* Túl késő, VÉGED VAN, kölyök!",
+                                "<25>{#p/alphys}{#f/16}* a-azt fogod kívánni, b-bárcsak ne tetted volna ezt velünk!!",
+                                "<25>{#p/alphys}{#f/16}* Nem számít hová mész, nincs menekvés!!",
+                                "<25>{#p/undyne}{#f/8}* EZAZ!!\n* MEGMONDOD NEKI A TUTIT ALPHYS!!",
                                 '<25>{#p/undyne}{#f/4}* ...\n* Fuhuhuhuhu...',
-                                "<25>{*}{#x0}{#p/undyne}{#f/7}* I've got you now.{^40}{%}"
+                                "<25>{*}{#x0}{#p/undyne}{#f/7}* Már a markomban vagy.{^40}{%}"
                             ]);
                         }
                     } else {
@@ -384,123 +384,123 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/alphys}{#f/33}* ... shh, shh, I think this is them.',
-                            "<25>{#p/alphys}{#f/1}* Hiya!\n* I'm Dr. Alphys.",
-                            '<25>{#p/alphys}{#f/17}* Head of the royal pain- in-the-butt society.',
-                            '<25>{#p/alphys}{#f/28}* ... may I interest you in a tragic backstory today?'
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
+                            '<25>{#p/alphys}{#f/33}* ... csitt! Azt hiszem ő az.',
+                            "<25>{#p/alphys}{#f/1}* Szia!\n* Itt Dr. Alphys.",
+                            '<25>{#p/alphys}{#f/17}* A királyi fájdalom társadalom feje.',
+                            '<25>{#p/alphys}{#f/28}* ... ajánlhatok mára egy tragikus háttérsztorit?'
                         ]);
                         addB([
-                            '<25>{#p/alphys}{#f/5}* So I was going about my business, looking after the archive...',
-                            '<25>{#p/alphys}{#f/23}* When, suddenly, I hear a spacecraft taking off.',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* Huuuuge spacecraft.',
-                            '<25>{#p/alphys}{#f/17}* Uh, not really.\n* It was just a shuttle.',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* Oh.\n* Tiny spacecraft.',
-                            '<25>{#p/alphys}{#f/15}* Yeah, and Asgore was NOWHERE to be found.',
-                            '<25>{#p/alphys}{#f/20}* I checked his house, I checked the royal annex...',
-                            '<25>{#p/alphys}{#f/21}* ... then, I noticed the power fluctuations.',
-                            '<25>{#p/alphys}{#f/24}* Turns out Mettaton was being stupid and wasted it all fighting you.',
-                            '<25>{#p/alphys}{#f/25}* So now, the outpost was running on practically nothing.',
-                            '<32>{#p/basic}{@fill=#d4bbff}* Oh my god, what happened next?',
+                            '<25>{#p/alphys}{#f/5}* Épp igyekeztem a dolgomra, az archívumot keresve...',
+                            '<25>{#p/alphys}{#f/23}* Amikor hirtelen egy űreszközt hallottam felszállni.',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Egy hatalmaaas űrhajót.',
+                            '<25>{#p/alphys}{#f/17}* Öh, nem igazán.\n* Csak egy űrsikló volt.',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Oh.\n* Pici űrhajó.',
+                            '<25>{#p/alphys}{#f/15}* Igen, és Asgoret SEHOL sem találtam.',
+                            '<25>{#p/alphys}{#f/20}* Megnéztem a házában és a Királyi Szárnyban is...',
+                            '<25>{#p/alphys}{#f/21}* ... aztán észrevettem az áramingadozást.',
+                            '<25>{#p/alphys}{#f/24}* Úgy tűnik Mettaton ostoba volt és mindent a kettőtök harcára pazarolt.',
+                            '<25>{#p/alphys}{#f/25}* Szóval a támaszpont körülbelül a semmivel működött.',
+                            '<32>{#p/basic}{@fill=#d4bbff}* Te jó ég. Mi történt utána?',
                             '<25>{#p/alphys}{#f/26}* ...',
-                            '<32>{#p/basic}{@fill=#d4bbff}* Oh, right, you totally freaked out and called Undyne.',
-                            '<25>{#p/alphys}{#f/18}* ... and when she got there, she told me Asgore was dead!',
-                            "<25>{#p/alphys}{#f/3}* Because that's DEFINITELY what I wanted to hear.",
-                            '<32>{#p/basic}{@fill=#ffbbdc}* Like, for sure.',
-                            '<25>{#p/alphys}{#f/13}* I mean, she did at least call the Royal Guard...',
-                            '<25>{#p/alphys}{#f/20}* To help stabilize the CORE and stop anyone from getting hurt.',
-                            '<25>{#p/alphys}{#f/30}* But what she did next was... WAY worse than I expected.',
-                            '<32>{#p/basic}{@fill=#d4bbff}* Is... is this where...',
-                            '<25>{#p/alphys}{#f/31}* Where Undyne found the archive, and killed the humans inside.',
-                            "<25>{#p/alphys}{#f/32}* In that moment, I didn't know WHAT to feel anymore.",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Gosh, I don't blame you.",
-                            "<32>{#p/basic}{@fill=#d4bbff}* It's like she was only thinking about herself!!!",
-                            '<25>{#p/alphys}{#f/17}* She said she \"got\" what Asgore was going for...',
-                            '<25>{#p/alphys}{#f/24}* But that she \"couldn\'t allow it to go on.\"',
-                            '<25>{#p/alphys}{#f/13}* ...\n* I was pretty upset about it, but...',
-                            '<25>{#p/alphys}{#f/10}* At least we still just needed one more SOUL.\n* We still had hope.',
-                            "<32>{#p/basic}{@fill=#ffbbdc}* ... until you didn't.",
-                            "<25>{#p/alphys}{#f/20}* Right.\n* Until we didn't.",
-                            '<25>{#p/alphys}{#f/21}* Because Undyne, in her INFINITE WISDOM...',
+                            '<32>{#p/basic}{@fill=#d4bbff}* Oh, igaz, kikészültél és hívtad Undynet.',
+                            '<25>{#p/alphys}{#f/18}* ... ahogy odaért, azt mondta, hogy Asgore halott!',
+                            "<25>{#p/alphys}{#f/3}* Mert NYILVÁN ezt akartam épp hallani.",
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Aha, persze.',
+                            '<25>{#p/alphys}{#f/13}* L-legalább hívta a királyi gárdát...',
+                            '<25>{#p/alphys}{#f/20}* Hogy segítsenek stabilizálni a MAGOT, biztosítva mindenki épségét.',
+                            '<25>{#p/alphys}{#f/30}* De amit ezután tett... SOKKAL rosszabb volt, mint hittem.',
+                            '<32>{#p/basic}{@fill=#d4bbff}* Ez... Ez az amikor...',
+                            '<25>{#p/alphys}{#f/31}* Amikor Undyne megtalálta az archívumot és megölte az embereket.',
+                            "<25>{#p/alphys}{#f/32}* Abban a pillanatban nem is tudtam MIT érezzek már.",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Istenem, nem hibáztatlak.",
+                            "<32>{#p/basic}{@fill=#d4bbff}* Csak magára gondolt!!!",
+                            '<25>{#p/alphys}{#f/17}* Azt mondta \"érti\" mi volt Asgore célja...',
+                            '<25>{#p/alphys}{#f/24}* De \"nem engedhette\", hogy ez menjen tovább.',
+                            '<25>{#p/alphys}{#f/13}* ...\n* Rendkívül kiakadtam, de...',
+                            '<25>{#p/alphys}{#f/10}* Legalább már csak egy LÉLEKRE voltunk a véltól.\n* Volt még remény.',
+                            "<32>{#p/basic}{@fill=#ffbbdc}* ... Eddig.",
+                            "<25>{#p/alphys}{#f/20}* Így van.\n* Eddig.",
+                            '<25>{#p/alphys}{#f/21}* Mert Undyne-nak, a VÉGTELEN BÖLCSESSÉGE ellenére...',
                             
-                            '<25>{#p/alphys}{#f/22}* Had NO FREAKING IDEA HOW TO STORE THE HUMAN SOULS PROPERLY.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* And now they're all...",
-                            '<25>{#p/alphys}{#f/24}* ... gone.',
-                            '<25>{#p/alphys}{#f/6}* At that point, I just gave up.',
-                            "<25>{#p/alphys}{#f/8}* I didn't care what she did after that.",
-                            '<25>{#p/alphys}{#f/10}* I quit my job.\n* Threw my experiments in the garbage.',
-                            '<25>{#p/alphys}{#f/33}* And then...',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* You came back to us.',
-                            '<32>{#p/basic}{@fill=#d4bbff}* You became an interstellar trash hunter again!',
-                            "<25>{#p/alphys}{#f/29}* That's right.",
-                            "<25>{#p/alphys}{#f/28}* And I'm GOOD at it.\n* Heck, I'm the best in the business.",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Now there's a fact if I've ever heard one.",
-                            '<25>{#p/alphys}{#f/10}* Like, honestly, who CARES about getting out of here anyway?',
-                            '<25>{#p/alphys}{#f/28}* With all this space junk that comes through...',
-                            "<25>{#p/alphys}{#f/18}* There's no reason to leave at all!",
-                            '<32>{#p/basic}{@fill=#ffbbdc}* But nobody else knows about the human stuff.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* Yeah, it's like, our new super duper big secret.",
-                            '<25>{#p/alphys}{#f/23}* Well, Undyne can lie to them all she wants.',
-                            '<25>{#p/alphys}{#f/23}* She can build her arms factories, and her watchtowers...',
-                            '<25>{#p/alphys}{#f/25}* If she thinks going all \"military\" will sell her story, okay.',
-                            '<25>{#p/alphys}{#f/26}* She can do whatever she sees fit.'
+                            '<25>{#p/alphys}{#f/22}* KICSESZETTÜL NEM VOLT ÖTLETE A LELKEK TÁROLÁSÁRA.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* És most mind...",
+                            '<25>{#p/alphys}{#f/24}* ... eltűnt.',
+                            '<25>{#p/alphys}{#f/6}* Abban a pillanatban feladtam.',
+                            "<25>{#p/alphys}{#f/8}* Nem érdekelt mit tett azután.",
+                            '<25>{#p/alphys}{#f/10}* Otthagytam a munkám.\n* A kísérleteim a kukában landoltak.',
+                            '<25>{#p/alphys}{#f/33}* Aztán...',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Visszajöttél közénk.',
+                            '<32>{#p/basic}{@fill=#d4bbff}* Intersztelláris szemétvadász lettél újra!',
+                            "<25>{#p/alphys}{#f/29}* így igaz.",
+                            "<25>{#p/alphys}{#f/28}* És JÓ vagyok benne.\n* Sőt, a legjobb a melóban.",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Na ez egy tény, amit sose hallottam.",
+                            '<25>{#p/alphys}{#f/10}* De komolyan? Kit ÉRDEKEL az innen kijutás?',
+                            '<25>{#p/alphys}{#f/28}* Minden itt landoló űrszeméttel...',
+                            "<25>{#p/alphys}{#f/18}* Nincs is értelme eltűnni innen!",
+                            '<32>{#p/basic}{@fill=#ffbbdc}* De senki nem tud az emberi dolgokról.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* Jaja, ez a mi új szuper-menő nagy titkunk.",
+                            '<25>{#p/alphys}{#f/23}* Undyne hazudhat nekik amég csak akar.',
+                            '<25>{#p/alphys}{#f/23}* Alapíthat fegyvergyárakat és őrtornyokat...',
+                            '<25>{#p/alphys}{#f/25}* Ha azt gondolja a \"katonáskodás\" segít, ám legyen.',
+                            '<25>{#p/alphys}{#f/26}* Bármit megtehet amit jónak ítél.'
                         ]);
                         if (!dtoriel) {
                             addB([
-                                "<32>{#p/basic}{@fill=#d4bbff}* Oh yeah, didn't she, like, forcibly take over the Outlands or something?",
-                                '<26>{#p/alphys}{#f/24}* Ugh, that pissed me off.',
-                                '<25>{#p/alphys}{#f/30}* The former queen tried to stand up to it, and...',
-                                "<25>{#p/alphys}{#f/31}* ... she got absolutely curb-stomped by Undyne's supporters.",
-                                "<25>{#p/alphys}{#f/21}* Undyne STILL hasn't taken responsibility for that.",
-                                "<32>{#p/basic}{@fill=#ffbbdc}* Gosh, that's just sad."
+                                "<32>{#p/basic}{@fill=#d4bbff}* Oh tényleg, nem akarta erőszakosan átvenni a Külzónát vagy valami?",
+                                '<26>{#p/alphys}{#f/24}* Ugh, azzal nagyon felidegelt.',
+                                '<25>{#p/alphys}{#f/30}* A volt királyné megpróbált felállni ellene, majd...',
+                                "<25>{#p/alphys}{#f/31}* ... abszolút eltaposták Undyne támogatói.",
+                                "<25>{#p/alphys}{#f/21}* Undyne MÉG MINDIG nem vállalt felelősséget ez ügyben.",
+                                "<32>{#p/basic}{@fill=#ffbbdc}* Ez egyszerűen szomorú."
                             ]);
                         } else {
                             addB([
-                                "<32>{#p/basic}{@fill=#d4bbff}* Oh yeah, didn't she, like, draft people into the Royal Guard or something?",
-                                '<25>{#p/alphys}{#f/24}* Ugh, that was stupid.',
-                                '<25>{#p/alphys}{#f/30}* All those people being forced to stand around all day...',
-                                '<25>{#p/alphys}{#f/31}* Watching for a human that may NEVER come...',
-                                "<25>{#p/alphys}{#f/21}* It's like she forgot the telescope network exists.",
-                                "<32>{#p/basic}{@fill=#ffbbdc}* Wow, she didn't think that through at all."
+                                "<32>{#p/basic}{@fill=#d4bbff}* Oh tényleg, nem sorozott be kötelezően lakosokat a gárdába?",
+                                '<25>{#p/alphys}{#f/24}* Uugh, ostobaság volt.',
+                                '<25>{#p/alphys}{#f/30}* Mindenkire ráerőszakolta, hogy álljanak naphosszan...',
+                                '<25>{#p/alphys}{#f/31}* Figyeljenek az emberekre, akik lehet, hogy sose jönnek...',
+                                "<25>{#p/alphys}{#f/21}* Mintha elfelejette volna, hogy a teleszkóphálózat létezik.",
+                                "<32>{#p/basic}{@fill=#ffbbdc}* Wow, akkor ezt nemigen gondolta át."
                             ]);
                         }
-                        addB(['<32>{#p/basic}{@fill=#d4bbff}* Yeah...']);
+                        addB(['<32>{#p/basic}{@fill=#d4bbff}* Na ja...']);
                         if (!dpapyrus) {
                             addB([
-                                '<25>{#p/alphys}{#f/20}* And she did it in spite of Papyrus BEGGING her not to.',
-                                '<25>{#p/alphys}{#f/31}* ... I stopped caring about her entirely after that.'
+                                '<25>{#p/alphys}{#f/20}* És már csakazért is megtette, pedig Papyrus KÖNYÖRGÖTT, hogy NE tegye.',
+                                '<25>{#p/alphys}{#f/31}* ... Onnantól kezdve nem törődtem vele.'
                             ]);
                         } else {
                             addB([
-                                "<25>{#p/alphys}{#f/20}* Maybe, if Papyrus was around, he could've stopped her.",
-                                "<25>{#p/alphys}{#f/18}* ... but we all know why that didn't happen, don't we?"
+                                "<25>{#p/alphys}{#f/20}* Talán, ha Papyrus itt lenne, megállíthatta volna őt.",
+                                "<25>{#p/alphys}{#f/18}* ... de mind tudjuk, hogy ez miért nem történt meg, nemde?"
                             ]);
                         }
                         if (hkills > 19) {
                             addB([
-                                '<25>{#p/alphys}{#f/17}* ...\n* Oh well.\n* It is what it is.',
-                                "<25>{#p/alphys}{#f/27}* Either way, it's thanks to all the people you killed...",
-                                '<25>{#p/alphys}{#f/26}* That any of this happened in the first place.',
-                                "<25>{#p/alphys}{#f/18}* So, I'm blaming it all on you."
+                                '<25>{#p/alphys}{#f/17}* ...\n* Mindegy is.\n* Ez van.',
+                                "<25>{#p/alphys}{#f/27}* De természetesen ez neked és a gyilkolászásodnak köszönhető...",
+                                '<25>{#p/alphys}{#f/26}* Hogy mindez megtörtént.',
+                                "<25>{#p/alphys}{#f/18}* Szóval, téged hibáztatlak érte."
                             ]);
                         } else {
                             addB([
-                                '<25>{#p/alphys}{#f/17}* ...\n* Oh well.\n* It is what it is.',
-                                "<25>{#p/alphys}{#f/26}* And even if you didn't kill THAT many people...",
-                                '<25>{#p/alphys}{#f/23}* Even if Mettaton and I overreacted...',
-                                "<25>{#p/alphys}{#f/18}* It's still totally your fault."
+                                '<25>{#p/alphys}{#f/17}* ...\n* Mindegy is.\n* Ez van.',
+                                "<25>{#p/alphys}{#f/26}* És ha nem is öltél volna meg ENNYI szörnyet...",
+                                '<25>{#p/alphys}{#f/23}* Akkor is, ha Mettaton és én túlreagáltuk...',
+                                "<25>{#p/alphys}{#f/18}* Akkor is totálisan a te hibád."
                             ]);
                         }
                         addB([
-                            "<32>{#p/basic}{@fill=#ffbbdc}* You tell 'em, Alphys.",
-                            '<32>{#p/basic}{@fill=#d4bbff}* Yeah, in your face, loser!',
-                            "<25>{#p/alphys}{#f/33}* ... anyway.\n* That's all I've got.",
-                            '<25>{#p/alphys}{#f/1}* Bye now!',
-                            '<32>{#p/basic}{@fill=#ffbbdc}* Until next time, pip-squeak.',
-                            "<32>{#p/basic}{@fill=#d4bbff}* Bratty, are you sure there's going to BE a next time?",
-                            "<32>{#p/basic}{@fill=#ffbbdc}* Oh, shoot, you're right.\n* The phone's, like, outta batteries anyway.",
-                            '<32>{#p/basic}{@fill=#d4bbff}* ... later, alligator!!!\n* Nya ha ha!!!',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Mondd meg neki, Alphys.",
+                            '<32>{#p/basic}{@fill=#d4bbff}* Ezt megkaptad az arcodba, lúzer!',
+                            "<25>{#p/alphys}{#f/33}* ... mindegy is.\n* Ez minden amit akartam.",
+                            '<25>{#p/alphys}{#f/1}* Viszont-nemlátásra!',
+                            '<32>{#p/basic}{@fill=#ffbbdc}* Viszlát, törpe.',
+                            "<32>{#p/basic}{@fill=#d4bbff}* Bratty, biztos vagy benne, hogy LESZ legközelebb?",
+                            "<32>{#p/basic}{@fill=#ffbbdc}* Oh, fene, igazad van.\n* A telefon akksija kb üres amúgy is.",
+                            '<32>{#p/basic}{@fill=#d4bbff}* ... később, kajmán!!!\n* Nya ha ha!!!',
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     }
                 } else if (royals < 2) {
@@ -509,132 +509,132 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
-                            "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
+                            '<25>{#p/sans}{#f/0}* mizu.',
+                            "<25>{#p/sans}{#f/3}* jó ideje volt, huh?"
                         ]);
                         addB([
-                            '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                            '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                            '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
-                            "<25>{#p/sans}{#f/3}* the outpost's power systems were in total disarray.",
-                            "<25>{#p/sans}{#f/3}* both the atmosphere and the gravity broke down.\n* it... wasn't pretty.",
-                            '<25>{#p/sans}{#f/0}* just from her call, i could tell things were pretty bad.',
-                            '<25>{#p/sans}{#f/0}* but by the time i got to the citadel...',
-                            '<25>{#p/sans}{#f/3}* a power surge killed the humans in the archive as well.',
-                            "<25>{#p/sans}{#f/3}* ... i'd never seen her in worse shape.",
-                            '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                            '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                            '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                            "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
-                            "<25>{#p/sans}{#f/0}* ... right away, we knew we'd have to protect the human souls.",
-                            '<25>{#p/sans}{#f/0}* so, we repurposed some old lab junk and built a containment system.',
-                            "<25>{#p/sans}{#f/3}* after that, we realized we'd need someone to guard it."
+                            '<25>{#p/sans}{#f/0}* miután elmentél, alphys... kicsit bepánikolt.',
+                            '<25>{#p/sans}{#f/0}* nemcsak hogy asgore és undyne eltűnt...',
+                            '<25>{#p/sans}{#f/0}* de egy elhibázott terv miatt, ami mettatont és a magot érintette...',
+                            "<25>{#p/sans}{#f/3}* a támaszpont energiaellátása káoszba borult.",
+                            "<25>{#p/sans}{#f/3}* az atmoszféra és a gravitáció is meghibásodott.\n* nem éppen... volt szép.",
+                            '<25>{#p/sans}{#f/0}* már a hívásából tudtam, a dolgok nem feltétlen fényesek.',
+                            '<25>{#p/sans}{#f/0}* mire a citadellához jutottam...',
+                            '<25>{#p/sans}{#f/3}* a túláram elpusztította az archívumban az embereket.',
+                            "<25>{#p/sans}{#f/3}* ... sose láttam alphyst rosszabb állapotban.",
+                            '<25>{#p/sans}{#f/0}* ismerve őt, laboráns korunk óta, tudtam...',
+                            '<25>{#p/sans}{#f/2}* meg volt benne az erő, hogy túllépjen bármin.',
+                            '<25>{#p/sans}{#f/0}* leültem vele, és esélyt adtam, hogy feldolgozza mi történt...',
+                            "<26>{#p/sans}{#f/3}* és a végén, alphys\n  felelősséget vállalt és elfogadta a koronát.",
+                            "<25>{#p/sans}{#f/0}* ... azonnal tudtuk, hogy az emberi lelkeket védenünk kell.",
+                            '<25>{#p/sans}{#f/0}* szóval régi labor szemétből építettünk is egy lélek tároló rendszert.',
+                            "<25>{#p/sans}{#f/3}* majd rájöttünk, hogy kell valaki, aki védi."
                         ]);
                         if (!dtoriel) {
                             addB([
-                                '<25>{#p/sans}{#f/0}* when the former queen returned, shortly thereafter...',
-                                '<25>{#p/sans}{#f/2}* she seemed like the ideal candidate.',
-                                '<25>{#p/sans}{#f/0}* but then, she saw the human souls for herself...',
-                                '<25>{#p/sans}{#f/3}* and just went on a tirade about us being \"part of his agenda.\"',
-                                '<25>{#p/sans}{#f/0}* we tried to explain what happened, and that asgore was innocent...',
-                                "<25>{#p/sans}{#f/3}* but she wasn't having it in the slightest.",
-                                '<25>{#p/sans}{#f/3}* needless to say, she declined the job.'
+                                '<25>{#p/sans}{#f/0}* nemsokkal később, a volt királyné visszatért...',
+                                '<25>{#p/sans}{#f/2}* ideális jelöltnek tűnt.',
+                                '<25>{#p/sans}{#f/0}* de meglátta az emberi lelkeket...',
+                                '<25>{#p/sans}{#f/3}* de csak balhét csapott, hogy ez \"asgore tervének része.\"',
+                                '<25>{#p/sans}{#f/0}* megpróbáltunk elmagyarázni mi történt, hogy férje ártatlan volt...',
+                                "<25>{#p/sans}{#f/3}* de nem hitte el, még kicsit sem.",
+                                '<25>{#p/sans}{#f/3}* felesleges mondanom, elutasította az állást.'
                             ]);
                         }
                         if (!dpapyrus) {
                             if (!dtoriel) {
                                 addB([
-                                    "<25>{#p/sans}{#f/0}* luckily, the same couldn't be said about papyrus.",
-                                    '<25>{#p/sans}{#f/3}* after toriel declined, i called him next, and... well.'
+                                    "<25>{#p/sans}{#f/0}* szerencsére, ez nem mondható el papyrusról.",
+                                    '<25>{#p/sans}{#f/3}* miután toriel elutasította, őt hívtam, és... háát.'
                                 ]);
                             } else {
-                                addB(['<25>{#p/sans}{#f/3}* luckily, since papyrus was around, i called him up, and... well.']);
+                                addB(['<25>{#p/sans}{#f/3}* szerencsére, mivel papyrus a környéken volt, felhívtam és... háát.']);
                             }
                             if (royals === 1) {
                                 addB([
-                                    '<25>{#p/sans}{#f/2}* he pretty much took the job on the spot.',
-                                    '<18>{#p/papyrus}{#f/4}... FOR A WHILE, ANYWAY.',
-                                    "<25>{#p/sans}{#f/0}* ah, there you are.\n* how'd the session go just now?",
-                                    '<18>{#p/papyrus}{#f/0}OH, IT WENT WELL!\nEVERYONE SEEMS TO BE GETTING ALONG.',
-                                    '<25>{#p/sans}{#f/3}* heh.\n* glad to hear it.',
-                                    '<18>{#p/papyrus}{#f/0}BY THE WAY, WHO ARE YOU TALKING TO?'
+                                    '<25>{#p/sans}{#f/2}* szinte azonnal el is fogadta a melót.',
+                                    '<18>{#p/papyrus}{#f/4}... EGY IDEIG, LEGALÁBBIS.',
+                                    "<25>{#p/sans}{#f/0}* áh, itt is vagy.\n* hogy ment a műszak?",
+                                    '<18>{#p/papyrus}{#f/0}OH NAGYON IS RENDBEN VOLT!\nÚGY LÁTOM MINDENKI RENDBEN VAN.',
+                                    '<25>{#p/sans}{#f/3}* heh.\n* öröm hallani.',
+                                    '<18>{#p/papyrus}{#f/0}EGYÉBKÉNT, KIVEL VÁLTASZ SZÓT?'
                                 ]);
                             } else {
                                 addB([
-                                    '<25>{#p/sans}{#f/2}* he pretty much took the job on the spot.',
-                                    "<18>{#p/papyrus}{#f/0}HELLO, SANS!\nI'VE COMPLETED MY SHIFT FOR TODAY.",
-                                    '<18>{#p/papyrus}{#f/9}NO INTRUDERS OR MALFUNCTIONS TO REPORT!',
-                                    '<25>{#p/sans}{#f/0}* great work, papyrus.\n* keep it up.',
-                                    "<18>{#p/papyrus}{#f/6}I'LL BE SURE TO!!!",
-                                    "<18>{#p/papyrus}{#f/0}SO, WHO'S THAT YOU'RE TALKING TO?"
+                                    '<25>{#p/sans}{#f/2}* szinte azonnal el is fogadta a melót.',
+                                    "<18>{#p/papyrus}{#f/0}SZIA, SANS!\nBEFEJEZTEM A MUNKÁT MÁRA.",
+                                    '<18>{#p/papyrus}{#f/9}NINCS BETOLAKODÓ, SEM JELENTENI VALÓ HIBA!',
+                                    '<25>{#p/sans}{#f/0}* kitűnő munka, papyrus.\n* így tovább.',
+                                    "<18>{#p/papyrus}{#f/6}IGYEKSZEM!!!",
+                                    "<18>{#p/papyrus}{#f/0}SZÓVAL, KIVEL BESZÉLSZ?"
                                 ]);
                             }
                             addB([
-                                "<25>{#p/sans}{#f/2}* oh, y'know.\n* just another human, nobody important.",
-                                '<18>{#p/papyrus}{#f/4}BUT ALL THE HUMANS ARE...',
-                                '<18>{#p/papyrus}{#f/7}... WAIT!!\nGIVE ME THAT!!',
-                                '<25>{#p/sans}{#f/0}* here you go.',
-                                '<18>{#p/papyrus}{#f/0}HELLO, HUMAN!',
-                                '<18>{#p/papyrus}{#f/4}IT SURE HAS BEEN A WHILE...',
+                                "<25>{#p/sans}{#f/2}* oh, tudod.\n* csak egy másik emberrel, senki fontossal.",
+                                '<18>{#p/papyrus}{#f/4}DE MINDEN EMBER...',
+                                '<18>{#p/papyrus}{#f/7}... VÁRJ!!\nADD EZT ODA!!',
+                                '<25>{#p/sans}{#f/0}* parancsolj.',
+                                '<18>{#p/papyrus}{#f/0}HELLO, EMBER!',
+                                '<18>{#p/papyrus}{#f/4}MILYEN RÉG VOLT...',
                                 '<18>{#p/papyrus}{#f/5}...'
                             ]);
                             if (royals === 1) {
                                 k = 'dark_alphys_therapy'; // NO-TRANSLATE
 
                                 addB([
-                                    "<18>{#p/papyrus}{#f/5}THERE'S... A STORY I'D LIKE TO TELL YOU, ACTUALLY.",
-                                    '<15>{#f/6}IT\'LL EXPLAIN THE WHOLE \"FOR A WHILE\" THING.',
-                                    '<25>{#p/sans}{#f/3}* ... ah.\n* here we go.',
-                                    '<18>{#p/papyrus}{#f/7}SHH!!!',
-                                    "<18>{#p/papyrus}{#f/5}SO... I'M DOING MY JOB AS USUAL ONE DAY.",
-                                    '<18>{#p/papyrus}{#f/0}MAKING SURE THE HUMAN SOULS REMAIN SAFE AND SOUND.',
-                                    '<18>{#p/papyrus}{#f/4}THEN...\nOUT OF NOWHERE...'
+                                    "<18>{#p/papyrus}{#f/5}SZERETNÉK... EGY TÖRTÉNETET MESÉLNI.",
+                                    '<15>{#f/6}ELMAGYARÁZOM AZ EGÉSZ \"JÓ IDEJE\" DOLGOT.',
+                                    '<25>{#p/sans}{#f/3}* ... áh.\n* kezdődik...',
+                                    '<18>{#p/papyrus}{#f/7}CSITT!!!',
+                                    "<18>{#p/papyrus}{#f/5}SZÓVAL... TESZEM A DOLGOM MINT ÁLTALÁBAM.",
+                                    '<18>{#p/papyrus}{#f/0}FIGYELEM AZ EMBERI LELKEKET, HOGY BIZTONSÁGBAN LEGYENEK.',
+                                    '<18>{#p/papyrus}{#f/4}MAJD HIRTELEN...\nA SEMMIBŐL...'
                                 ]);
                                 if (!ddoggo) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A LOUD KNOCK AT THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, A STRANGE, BLIND DOG HAD RUN INTO IT!',
-                                        '<18>{#p/papyrus}{#f/5}I WAS QUITE CONFUSED AT FIRST...',
-                                        '<18>{#p/papyrus}{#f/5}BUT AFTER TALKING TO HIM, THE REASON BECAME CLEAR.',
-                                        '<18>{#p/papyrus}{#f/6}HE WAS LOOKING FOR HIS CANINE UNIT COMRADES.',
-                                        '<18>{#p/papyrus}{#f/0}FORTUNATELY, I WAS HAPPY TO HELP.',
-                                        '<18>{#p/papyrus}{#f/4}SO, AFTER THE END OF MY SHIFT...',
-                                        '<18>{#p/papyrus}{#f/0}WE WENT OUT TOGETHER TO BEGIN OUR SEARCH.',
-                                        '<18>{#p/papyrus}{#f/5}FROM THE EDGE OF THE NOW-OPEN OUTLANDS...',
-                                        '<18>{#p/papyrus}{#f/5}TO THE TALLEST SKYSCRAPERS IN THE CITADEL...',
-                                        "<18>{#p/papyrus}{#f/6}IT WAS SAFE TO SAY WE'D SEEN IT ALL.",
-                                        '<18>{#p/papyrus}{#f/5}... ALL EXCEPT THE CANINES WE WERE LOOKING FOR.',
+                                        '<18>{#p/papyrus}{#f/5}HANGOS KOPPANÁST HALLOK A SZERVIZ AJTÓTÓL.',
+                                        '<18>{#p/papyrus}{#f/6}ÚGY NÉZ KI, EGY FURA, VAK KUTYA NEKIROHANT!',
+                                        '<18>{#p/papyrus}{#f/5}AZ ELEJÉN ÖSSZE IS VOLTAM ZAVARODVA...',
+                                        '<18>{#p/papyrus}{#f/5}DE MIUTÁN BESZÉLTEM VELE, AZ OKA LETISZTULT.',
+                                        '<18>{#p/papyrus}{#f/6}A KUTYACSAPAT BAJTÁRSAIT KERESTE ÉPP.',
+                                        '<18>{#p/papyrus}{#f/0}SZERENCSÉRE ÖRÖMMEL SEGÍTETTEM.',
+                                        '<18>{#p/papyrus}{#f/4}SZÓVAL, MUNKA UTÁN...',
+                                        '<18>{#p/papyrus}{#f/0}ELINDULTUNK, MEGKEZDTÜK A KERESÉST.',
+                                        '<18>{#p/papyrus}{#f/5}EGYENESEN A MOST MÁR NYÍLT KÜLZÓNÁTÓL...',
+                                        '<18>{#p/papyrus}{#f/5}A CITADELLA LEGMAGASABB ÉPÜLETEIIG...',
+                                        "<18>{#p/papyrus}{#f/6}MEGÁLLAPÍTHATOM, HOGY MINDENT LÁTTUNK.",
+                                        '<18>{#p/papyrus}{#f/5}... KIVÉVE PERSZE A KERESETT KUTYÁKAT.',
                                         '<25>{#p/sans}{#f/0}* hmm...',
-                                        '<25>{#p/sans}{#f/3}* did you ever find the other dogs?',
-                                        '<18>{#p/papyrus}{#f/5}WELL... NO.',
-                                        '<18>{#p/papyrus}{#f/5}BY THE TIME WE MADE IT BACK TO THE ROYAL ANNEX...',
-                                        '<18>{#p/papyrus}{#f/5}ALPHYS WAS AWAKE, AND TOLD US WHAT HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<25>{#p/sans}{#f/3}* megtaláltad valaha a többi kutyát?',
+                                        '<18>{#p/papyrus}{#f/5}HÁÁT... NEMIGEN.',
+                                        '<18>{#p/papyrus}{#f/5}AMIKOR VISSZATÉRTÜNK A KIRÁLYI SZÁRNYHOZ...',
+                                        '<18>{#p/papyrus}{#f/5}ALPHYS ÉBREN VOLT ÉS ELMONDTA MI TÖRTÉNT.',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}DOGGO TOOK THE NEWS PRETTY HARD.',
-                                        "<18>{#p/papyrus}{#f/6}BUT ALPHYS AND I, WE DIDN'T LET HIM GIVE UP!",
-                                        '<18>{#p/papyrus}{#f/6}IN HIS TIME OF NEED, WE COMFORTED HIM OURSELVES!',
-                                        "<18>{#p/papyrus}{#f/5}WE PROMISED HIM HE'D HAVE A HOME HERE.",
-                                        '<25>{#p/sans}{#f/0}* hmm... i see.',
-                                        "<25>{#p/sans}{#f/2}* that explains the dog hair on asgore's couch."
+                                        '<18>{#p/papyrus}{#f/5}DOGGO NEHEZEN FOGTA FEL A HÍREKET.',
+                                        "<18>{#p/papyrus}{#f/6}DE ALPHYS ÉS ÉN NEM HAGYTUK, HOGY FELADJA!",
+                                        '<18>{#p/papyrus}{#f/6}PRÓBÁLTUK FELVIDÍTANI, VIGASZTALNI!',
+                                        "<18>{#p/papyrus}{#f/5}MEGÍGÉRTÜK, HOGY ITT LEHET AZ OTTHONA.",
+                                        '<25>{#p/sans}{#f/0}* hmm... értem.',
+                                        "<25>{#p/sans}{#f/2}* ez megmagyarázza asgore kutyaszőrös kanapéját."
                                     ]);
                                 } else if (!dlesserdog) {
                                     addB([
-                                        '<18>{#p/papyrus}{#f/5}I HEAR A BUNCH OF KNOCKS AT THE MAINTENANCE DOOR.',
-                                        '<18>{#p/papyrus}{#f/6}AS IT TURNS OUT, A SHORT-NECKED DOG WANTED MY COMPANY!',
-                                        '<18>{#p/papyrus}{#f/5}I WAS QUITE CONFUSED AT FIRST...',
-                                        '<18>{#p/papyrus}{#f/5}BUT AFTER PETTING IT SEVERAL TIMES, IT ALL MADE SENSE.',
-                                        '<18>{#p/papyrus}{#f/6}ITS NECK... BEGAN TO SPELL OUT A MESSAGE.',
-                                        '<18>{#p/papyrus}{#f/6}AND THAT MESSAGE WAS \"ALONE.\"',
-                                        "<18>{#p/papyrus}{#f/8}I FELT SO BAD!!\nI COULDN'T HELP BUT CRY!!",
-                                        '<18>{#p/papyrus}{#f/5}ANYWAY, I ASKED ALPHYS ABOUT IT LATER, AND...',
-                                        '<18>{#p/papyrus}{#f/5}SHE TOLD ME WHAT HAD HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}SOK KOPOGÁST HALLOK A SZERVIZ AJTÓN.',
+                                        '<18>{#p/papyrus}{#f/6}EGY RÖVIDNYAKÚ KUTYA AKARTA A TÁRSASÁGOM!',
+                                        '<18>{#p/papyrus}{#f/5}AZ ELEJÉN ÖSSZE IS VOLTAM ZAVARODVA...',
+                                        '<18>{#p/papyrus}{#f/5}DE SIMOGATÁSA UTÁN MINDEN ÉRTELMET NYERT.',
+                                        '<18>{#p/papyrus}{#f/6}A NYAKÁVAL... ÜZENETET ÍRT KI.',
+                                        '<18>{#p/papyrus}{#f/6}AZ ÜZENET AZ VOLT, HOGY \"EGYEDÜL.\"',
+                                        "<18>{#p/papyrus}{#f/8}SZOMORÚ LETTEM!!\nNEM TUDTAM MÁST TENNI, ÍGY SÍRTAM!!",
+                                        '<18>{#p/papyrus}{#f/5}MINDEGY IS, MEGKÉRDEZTEM ALPHYST RÓLA ÉS...',
+                                        '<18>{#p/papyrus}{#f/5}ELMONDTA MI IS A SZITUÁCIÓ.',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}IT WAS HARD HEARING THAT NEWS, BUT...',
-                                        '<18>{#p/papyrus}{#f/6}KNOWING HOW CANIS MINOR MUST HAVE FELT...',
-                                        '<18>{#p/papyrus}{#f/5}FROM THEN ON, I GAVE IT ALL THE ATTENTION I COULD.',
+                                        '<18>{#p/papyrus}{#f/5}NEHÉZ VOLT EZEKET HALLANI, DE...',
+                                        '<18>{#p/papyrus}{#f/6}TUDOM, HOGY CANIS MINOR HOGY ÉREZHETETT...',
+                                        '<18>{#p/papyrus}{#f/5}ONNAN FOGVA MINDEN FIGYELMET MEGADTAM NEKI AMIT TUDTAM.',
                                         "<25>{#p/sans}{#f/3}* well... if it's any consolation...",
                                         '<25>{#p/sans}{#f/0}* i think you did the right thing.'
                                     ]);
@@ -645,7 +645,7 @@ export default {
                                         '<18>{#p/papyrus}{#f/5}I WAS QUITE CONCERNED AT FIRST...',
                                         '<18>{#p/papyrus}{#f/5}BUT AFTER WHAT THEY TOLD ME...',
                                         '<18>{#p/papyrus}{#f/5}THAT FEELING HAD TURNED TO SADNESS.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
                                         '<18>{#p/papyrus}{#f/5}DOGAMY AND DOGARESSA, THEY...',
                                         '<18>{#p/papyrus}{#f/5}THEY QUESTIONED IF THEIR MARRIAGE WAS WORTH MAINTAINING.',
@@ -669,10 +669,10 @@ export default {
                                         '<18>{#p/papyrus}{#f/4}I GET THAT DOG-TIME CAN BE WEIRD, BUT...',
                                         '<18>{#p/papyrus}{#f/6}STILL, I WONDERED IF SOMETHING HAD GONE AWRY!',
                                         '<18>{#p/papyrus}{#f/5}SO I ASKED ALPHYS ABOUT IT LATER, AND...',
-                                        '<18>{#p/papyrus}{#f/5}SHE TOLD ME WHAT HAD HAPPENED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/5}ELMONDTA MI IS A SZITUÁCIÓ.',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
-                                        '<18>{#p/papyrus}{#f/5}IT WAS HARD HEARING THAT NEWS, BUT...',
+                                        '<18>{#p/papyrus}{#f/5}NEHÉZ VOLT EZEKET HALLANI, DE...',
                                         '<18>{#p/papyrus}{#f/6}KNOWING HOW CANIS MAJOR MUST HAVE FELT...',
                                         '<18>{#p/papyrus}{#f/5}FROM THEN ON, I PLAYED WITH IT AS MUCH AS I COULD.',
                                         "<25>{#p/sans}{#f/3}* well... if it's any consolation...",
@@ -688,7 +688,7 @@ export default {
                                         '<18>{#p/papyrus}{#f/5}BUT SHE REALLY DID JUST WANT TO TALK.',
                                         '<18>{#p/papyrus}{#f/4}ADMITTEDLY, SHE WAS BEING CRYPTIC ABOUT IT...',
                                         '<18>{#p/papyrus}{#f/5}THOUGH, WITH ENOUGH TIME, I CRACKED THE CODE.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
                                         '<18>{#p/papyrus}{#f/5}DOGE QUESTIONED THE VIABILITY OF HER PURPOSE.',
                                         '<18>{#p/papyrus}{#f/6}THAT OF PROTECTING MONSTERKIND.',
@@ -713,7 +713,7 @@ export default {
                                         "<25>{#p/sans}{#f/3}* i'd say this particular meeting wasn't about ice cream.",
                                         '<18>{#p/papyrus}{#f/6}SADLY NOT.',
                                         '<18>{#p/papyrus}{#f/5}INSTEAD, THEY... HAD SOME BAD NEWS.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
                                         '<18>{#p/papyrus}{#f/5}AFTER HAVING ONLY JUST BEEN PROMOTED, THEY...',
                                         '<18>{#p/papyrus}{#f/6}THEY FELT LIKE ALL THEIR TRAINING HAD BEEN FOR NOTHING.',
@@ -739,7 +739,7 @@ export default {
                                         '<18>{#p/papyrus}{#f/5}WELL, YES.\nI LEARNED ABOUT A LOT OF THINGS.',
                                         '<18>{#p/papyrus}{#f/6}ITS FEARS, ITS ANXIETIES...',
                                         '<18>{#p/papyrus}{#f/5}AND...  A LOSS FAR GREATER THAN I HAD ANTICIPATED.',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
                                         '<18>{#p/papyrus}{#f/5}LOSING ITS MENTOR, TERRESTRIA, HIT PARTICULARLY HARD.',
                                         '<18>{#p/papyrus}{#f/6}COZMO HAD WORKED TO IMPRESS HER ALL ITS LIFE...',
@@ -768,7 +768,7 @@ export default {
                                         '<18>{#p/papyrus}{#f/6}ABOUT... HOW SOMEONE WHO LIVES AS LONG AS HER...',
                                         '<18>{#p/papyrus}{#f/6}LIVES TO SEE EVERYONE ELSE DIE.',
                                         '<18>{#p/papyrus}{#f/5}AND THEN...',
-                                        '<18>{#p/papyrus}{#f/3}... ALL THOSE ROYAL GUARDS...',
+                                        '<18>{#p/papyrus}{#f/3}... AZ ÖSSZES KIRÁLYI GÁRDATAG...',
                                         '<18>{#p/papyrus}{#f/31}...',
                                         '<18>{#p/papyrus}{#f/5}I TRIED TO MAKE HER FEEL BETTER, BUT...',
                                         "<18>{#p/papyrus}{#f/6}NO MATTER WHAT I SAID, TERRESTRIA WOULDN'T CHEER UP!",
@@ -953,7 +953,7 @@ export default {
                                         '<25>{#p/sans}{#f/3}* have a safe journey, and all that.'
                                     ]);
                                 }
-                                addB(['<32>{#s/equip}{#p/event}* Click...']);
+                                addB(['<32>{#s/equip}{#p/event}* Klikk...']);
                             }
                         } else {
                             if (!dtoriel) {
@@ -1117,7 +1117,7 @@ export default {
                                 "<25>{#p/sans}{#f/0}* i hope you realize how bad you've made things here.",
                                 '<25>{#p/sans}{#f/0}* no asgore, or undyne.\n* no royal guard.\n* no mettaton.',
                                 '<25>{#p/sans}{#f/3}* ... no reason to keep this phone call going any longer.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Klikk...'
                             ]);
                         }
                     } else if (SAVE.data.n.state_wastelands_toriel !== 0 && SAVE.data.n.kills_wastelands < 16) {
@@ -1126,8 +1126,8 @@ export default {
                         m = music.gameshow;
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
+                            '<25>{#p/sans}{#f/0}* mizu.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                         ]);
@@ -1179,7 +1179,7 @@ export default {
                             "<25>{#p/sans}{#f/2}* ... just thought i'd give you a heads up.",
                             "<25>{#p/alphys}{#f/23}* Come on, let's go!",
                             "<25>{#p/sans}{#f/0}* i'm on my way.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     } else {
                         k = 'dark_charles'; // NO-TRANSLATE
@@ -1187,8 +1187,8 @@ export default {
                         m = music.letsmakeabombwhydontwe;
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
-                            '<25>{#p/sans}{#f/0}* heya.',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
+                            '<25>{#p/sans}{#f/0}* mizu.',
                             '<25>{#p/sans}{#f/4}* is anyone there?',
                             "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                         ]);
@@ -1227,7 +1227,7 @@ export default {
                             "<25>{#p/sans}{#f/3}* just know you're always welcome to return.",
                             '<18>{#p/papyrus}{#f/0}YEAH, THEN YOU CAN LIVE OUT YOUR BEST LIFE, TOO!',
                             '<25>{#p/sans}{#f/2}* heh.\n* we can only hope.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     }
                 } else {
@@ -1235,21 +1235,21 @@ export default {
                     k = 'dark_generic'; // NO-TRANSLATE
 
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<25>{#p/sans}{#f/0}* heya.',
-                        "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
+                        '<25>{#p/sans}{#f/0}* mizu.',
+                        "<25>{#p/sans}{#f/3}* jó ideje volt, huh?"
                     ]);
                     addB([
-                        '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                        '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                        '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
+                        '<25>{#p/sans}{#f/0}* miután elmentél, alphys... kicsit bepánikolt.',
+                        '<25>{#p/sans}{#f/0}* nemcsak hogy asgore és undyne eltűnt...',
+                        '<25>{#p/sans}{#f/0}* de egy elhibázott terv miatt, ami mettatont és a magot érintette...',
                         "<26>{#p/sans}{#f/3}* the royal guard had to rush to fix the outpost's power systems.",
                         '<25>{#p/sans}{#f/0}* alphys called me, and asked me to come up and meet her.',
                         "<25>{#p/sans}{#f/3}* when i got there, i could tell she wasn't doing well.",
-                        '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                        '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                        '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                        "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
+                        '<25>{#p/sans}{#f/0}* ismerve őt, laboráns korunk óta, tudtam...',
+                        '<25>{#p/sans}{#f/2}* meg volt benne az erő, hogy túllépjen bármin.',
+                        '<25>{#p/sans}{#f/0}* leültem vele, és esélyt adtam, hogy feldolgozza mi történt...',
+                        "<26>{#p/sans}{#f/3}* és a végén, alphys\n  felelősséget vállalt és elfogadta a koronát.",
                         '<25>{#p/sans}{#f/0}* ... after that, things seemed to settle down.',
                         '<32>{#p/human}{#v/4}{@fill=#d535d9}* Sans, do we get to go to the swimming pool?',
                         "<32>{#p/human}{#v/5}{@fill=#00c000}* It's okay if you can't take us...",
@@ -1390,7 +1390,7 @@ export default {
                     }
                     addB([
                         '<25>{#p/alphys}{#f/16}* I hope you fall into a black hole and die.',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]);
                 }
             } else if (SAVE.data.b.ubershortcut || world.bad_lizard > 1) {
@@ -1399,7 +1399,7 @@ export default {
                 
                 if (dmettaton) {
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<32>{#p/napstablook}* hey',
                         '<32>{#p/napstablook}* is anyone there?',
                         "<32>{#p/napstablook}* i think... there's something i need to tell you.",
@@ -1473,11 +1473,11 @@ export default {
                         "<32>{#p/napstablook}* our group vows to hunt you down and make sure you pay for what you've done.",
                         '<32>{#p/napstablook}* heh......',
                         '<32>{#p/napstablook}* ......\n* i hope you die a painful death',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]);
                 } else {
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<32>{#p/mettaton}* EXCUSE ME, HUMAN...',
                         "<32>{#p/mettaton}* THERE'S A FEW THINGS I'D LIKE TO SAY TO YOU.",
                         '<32>{#p/mettaton}* ARE YOU THERE?',
@@ -1614,7 +1614,7 @@ export default {
                         '<32>{#p/mettaton}* BESIDES, IT\'S A FITTING END TO THIS \"LEGACY\" YOU\'VE LEFT BEHIND.',
                         '<32>{#p/mettaton}* ...',
                         '<32>{#p/mettaton}* WHAT A SHAME...',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]);
                 }
             } else if (SAVE.data.b.ultrashortcut) {
@@ -1623,8 +1623,8 @@ export default {
                 m = music.sansdate;
                 
                 addA([
-                    '<32>{#s/phone}{#p/event}* Ring, ring...',
-                    '<25>{#p/sans}{#f/0}* heya.',
+                    '<32>{#s/phone}{#p/event}* Csing, csing...',
+                    '<25>{#p/sans}{#f/0}* mizu.',
                     '<25>{#p/sans}{#f/4}* is anyone there?',
                     "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
                 ]);
@@ -1776,7 +1776,7 @@ export default {
                     '<25>{#p/sans}{#f/0}* ...\n* take care of yourself out there, ok?',
                     '<25>{#p/sans}{#f/3}* ...',
                     "<25>{#p/sans}{#f/3}* see ya 'round.",
-                    '<32>{#s/equip}{#p/event}* Click...'
+                    '<32>{#s/equip}{#p/event}* Klikk...'
                 ]);
             } else if (SAVE.data.n.exp > 0 || SAVE.data.n.state_foundry_undyne === 1) {
                 if (!dundyne) {
@@ -1784,7 +1784,7 @@ export default {
 
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<25>{#p/alphys}{#f/4}* H-hiya...',
                         '<25>{#p/alphys}{#f/20}* Is anyone there?',
                         "<25>{#p/alphys}{#f/11}* ... I hope it's not too much trouble...",
@@ -1899,7 +1899,7 @@ export default {
                                 "<25>{#p/sans}{#f/0}* ... and i'm here.",
                                 "<25>{#p/alphys}{#f/20}* So... I'm not really talking to myself.",
                                 "<25>{#p/alphys}{#f/19}* Actually, I'm leaving a message for the human.\n* It's recording now...",
-                                '<25>{#p/sans}{#f/0}* hmm... i see.',
+                                '<25>{#p/sans}{#f/0}* hmm... értem.',
                                 '<25>{#p/sans}{#f/2}* mind if i take over while you go look after the kids?',
                                 "<26>{#p/alphys}{#f/5}* S-sure, I'll... go do that.",
                                 '<25>{#p/sans}{#f/3}* ...',
@@ -1924,7 +1924,7 @@ export default {
                                 '<25>{#p/sans}{#f/0}* eh, i said all i wanted to, anyway.',
                                 "<25>{#p/sans}{#f/0}* i'm hanging up the phone now.",
                                 '<25>{#p/sans}{#f/3}* ... goodbye.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Klikk...'
                             ]);
                         } else {
                             addB([
@@ -1986,7 +1986,7 @@ export default {
                                 "<25>{#p/alphys}{#f/14}* I hope you're doing better than we are right now.",
                                 '<25>{#p/alphys}{#f/20}* ...',
                                 '<25>{#p/alphys}{#f/20}* See you later.',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Klikk...'
                             ]);
                         }
                     } else {
@@ -2031,7 +2031,7 @@ export default {
                                     "<27>{#p/sans}{#f/3}* just kidding.\n* i don't really hope that.",
                                     "<27>{#p/sans}{#f/0}* ... well, that's all.",
                                     '<27>{#p/darksans}{#f/1}{#i/5}* ...',
-                                    '<32>{#s/equip}{#p/event}* Click...'
+                                    '<32>{#s/equip}{#p/event}* Klikk...'
                                 ]);
                             } else {
                                 addB([
@@ -2077,7 +2077,7 @@ export default {
                                     "<25>{#p/sans}{#f/0}* just... think about what i've said, ok?",
                                     '<25>{#p/sans}{#f/0}* ...',
                                     "<25>{#p/sans}{#f/0}* ... well, that's all.",
-                                    '<32>{#s/equip}{#p/event}* Click...'
+                                    '<32>{#s/equip}{#p/event}* Klikk...'
                                 ]);
                             }
                         } else {
@@ -2136,7 +2136,7 @@ export default {
                                 "<25>{#p/alphys}{#f/8}* I-I'll think about it after I hang up the phone.",
                                 '<25>{#p/alphys}{#f/10}* ...',
                                 '<25>{#p/alphys}{#f/16}* T-take care!!',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Klikk...'
                             ]);
                         }
                     }
@@ -2146,7 +2146,7 @@ export default {
 
                         
                         addA([
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/toriel}{#f/1}* Hello?',
                             '<25>{#p/toriel}{#f/5}* This is... Toriel.',
                             '<25>{#p/toriel}{#f/1}* ... I know we did not part ways on the best of terms, but...',
@@ -2282,7 +2282,7 @@ export default {
                                 '<25>{#p/toriel}{#f/2}* ...',
                                 '<25>{#p/alphys}{#f/22}* Come outside, NOW!!',
                                 '<25>{|}{#p/toriel}{#f/2}* I... I am sorry!\n* I have to- {%}',
-                                '<32>{#s/equip}{#p/event}* Click...'
+                                '<32>{#s/equip}{#p/event}* Klikk...'
                             ]);
                         } else {
                             addB([
@@ -2359,7 +2359,7 @@ export default {
                             } else {
                                 addB(['<25>{#p/sans}{#f/0}* fly safe out there, will ya?', '<25>{#p/sans}{#f/3}* ...']);
                             }
-                            addB(['<32>{#s/equip}{#p/event}* Click...']);
+                            addB(['<32>{#s/equip}{#p/event}* Klikk...']);
                         }
                     } else {
                         k = 'light_toriel'; // NO-TRANSLATE
@@ -2367,7 +2367,7 @@ export default {
                         
                         if (SAVE.data.n.state_wastelands_toriel === 0) {
                             addA([
-                                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                                '<32>{#s/phone}{#p/event}* Csing, csing...',
                                 '<25>{#p/toriel}{#f/1}* Hello?',
                                 '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
                                 '<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally have, but...',
@@ -2376,7 +2376,7 @@ export default {
                             addB(['<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry.']);
                         } else {
                             addA([
-                                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                                '<32>{#s/phone}{#p/event}* Csing, csing...',
                                 '<25>{#p/toriel}{#f/1}* Hello?',
                                 '<25>{#p/toriel}{#f/0}* ...\n* This is Toriel.',
                                 '<25>{#p/toriel}{#f/1}* The circumstances may not be ideal at the moment, but...',
@@ -2540,7 +2540,7 @@ export default {
                             '<25>{#p/toriel}{#f/9}* There is not much else for me to say.',
                             '<25>{#p/toriel}{#f/5}* ...',
                             '<25>{#p/toriel}{#f/5}* Goodbye, little one.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     }
                 } else if (royals === 5 && !ddoggo && !dlesserdog && !ddogs && !dgreatdog && !ddoge) {
@@ -2549,7 +2549,7 @@ export default {
                     m = music.dogsong;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
                         '<32>{#p/basic}* (And yet, there is much to say!)\n* (Much to be excited for!)',
                         '<32>{#s/bark}{#p/event}* Bark!',
@@ -2766,7 +2766,7 @@ export default {
                         '<32>{#p/basic}* HOW CAN YOU TALK FOR SO LONG WITHOUT GETTING TIRED!?',
                         '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!\n{#s/bark}* Bark!',
                         '<32>{#p/basic}* OK already!\n* Quit rushing me!!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]);
                 } else if (!dmuffet) {
                     k = 'light_muffet'; // NO-TRANSLATE
@@ -2774,7 +2774,7 @@ export default {
                     m = music.spiderboss;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<32>{#p/basic}{#s/spiderLaugh}* Oh, hello, dearie~',
                         '<32>{#p/basic}* Are you doing well?',
                         "<32>{#p/basic}* Oh, who am I kidding~\n* It's not like I cared about you anyway~",
@@ -2957,7 +2957,7 @@ export default {
                             "<32>{#p/basic}* If it ever becomes too much, you're always welcome here with us!",
                             "<32>{#p/basic}* But for now~\n* I'll be seeing you~",
                             '<32>{#p/basic}* On the other side~',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     } else {
                         addB([
@@ -2983,7 +2983,7 @@ export default {
                             "<25>{#p/alphys}{#f/27}* Huh... what's this?",
                             '<25>{#p/alphys}{#f/27}* Was she... talking to someone on this thing?',
                             '<25>{#p/alphys}{#f/17}* Weird.',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]);
                     }
                 } else if (!dpapyrus) {
@@ -2992,7 +2992,7 @@ export default {
                     m = music.papyrus;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
                         '<18>{#p/papyrus}{#f/4}IS THIS THING EVEN WORKING?',
                         '<18>{#p/papyrus}{#f/0}OH! OH!\nIT JUST WENT TO VOICE-MAIL!',
                         '<18>{#p/papyrus}{#f/6}NO WONDER I WAS SO CONFUSED!',
@@ -3114,7 +3114,7 @@ export default {
                         '<25>{#p/sans}{#f/0}* heh.\n* take care of yourself out there.',
                         "<25>{#p/sans}{#f/2}* 'cause at least one person's rootin' for ya.",
                         "<18>{#p/papyrus}{#f/0}... THAT'S ME!!!",
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]);
                 } else {
                     k = 'light_sans'; // NO-TRANSLATE
@@ -3122,9 +3122,9 @@ export default {
                     m = sounds.wind;
                     
                     addA([
-                        '<32>{#s/phone}{#p/event}* Ring, ring...',
-                        '<25>{#p/sans}{#f/0}* heya.',
-                        "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                        '<32>{#s/phone}{#p/event}* Csing, csing...',
+                        '<25>{#p/sans}{#f/0}* mizu.',
+                        "<25>{#p/sans}{#f/3}* jó ideje volt, huh?"
                     ]);
                     addB([
                         '<25>{#p/sans}{#f/0}* after you left, the king vanished into thin air.',
@@ -3182,7 +3182,7 @@ export default {
 
                 
                 addA([
-                    '<32>{#s/phone}{#p/event}* Ring, ring...',
+                    '<32>{#s/phone}{#p/event}* Csing, csing...',
                     '<25>{#p/alphys}{#f/8}* Hiya...',
                     '<25>{#p/alphys}{#f/6}* Is anyone there?',
                     "<25>{#p/alphys}{#f/10}* I hope it's not too much trouble...",
@@ -3423,13 +3423,13 @@ export default {
                     '<25>{#p/sans}{#f/2}* heh.\n* take care, okay?',
                     '<18>{#p/papyrus}{#f/9}YEAH!!\nUNTIL NEXT TIME!!',
                     '<25>{#p/alphys}{#f/8}* ... until next time.',
-                    '<32>{#s/equip}{#p/event}* Click...'
+                    '<32>{#s/equip}{#p/event}* Klikk...'
                 ]);
             }
             return { a, b, d, k, m };
         },
         neutral2: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             '<25>{#p/asgore}{#f/1}* ...',
             '<25>{#p/asgore}{#f/1}* Howdy, young one.',
             '<25>{#p/asgore}{#f/1}* I do not know if this message will reach you, or if you are alive.',
@@ -3521,7 +3521,7 @@ export default {
             '<25>{#p/asgore}{#f/14}* ... do not hesitate to put an end to him.',
             '<25>{#p/asgore}{#f/2}* ...',
             '<25>{#p/asgore}{#f/4}* Good luck.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         lastblook1: [
             () => [
@@ -3772,9 +3772,9 @@ export default {
                 '<32>{#p/napstablook}* Zzz... Zzz...',
                 '<32>* Zzz... Zzz...',
                 "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-                choicer.create('* (Lay down next to it?)', 'Yes', 'No')
+                choicer.create('* (Lay down next to it?)', 'Igen', 'Nem')
             ],
-            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Yes', 'No')]
+            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Igen', 'Nem')]
         ],
         lastblook2: ['<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......'],
         lastblook3: [
@@ -3797,12 +3797,12 @@ export default {
             '<32>* or at least found it kind of interesting...',
             '<32>* or something...'
         ],
-        view: () => [choicer.create('* (Are you ready to go outside?)', 'Yes', 'No')],
+        view: () => [choicer.create('* (Are you ready to go outside?)', 'Igen', 'Nem')],
         computer1: () =>
             SAVE.data.b.ufokinwotm8
                 ? ["<32>{#p/human}* (But you didn't feel like wasting your time here.)"]
                 : ["<32>{#p/basic}* The computer's offline, but there's an empty slot for a computer chip."],
-        computer2: () => [choicer.create('* (Insert the Computer Chip?)', 'Yes', 'No')],
+        computer2: () => [choicer.create('* (Insert the Computer Chip?)', 'Igen', 'Nem')],
         computer3: ['<32>{#p/human}* (You decide not to insert.)'],
         computer4: [
             '<32>{#p/basic}* Ah!\n* Thank you!\n* Thank you so much!',
@@ -5635,7 +5635,7 @@ export default {
                         ],
         mkTurnFight1: () => [
             '<32>{#p/kidding}* Y... y-you want me to fight?\n* Are you sure?',
-            choicer.create('* (Do you confirm?)', 'Yes', 'No')
+            choicer.create('* (Do you confirm?)', 'Igen', 'Nem')
         ],
         mkTurnFight2a: ['<32>{#p/kidding}* Okay... here goes nothing...'],
         mkTurnFight2b: ['<32>{#p/kidding}* Oh, okay...', "<32>* I'll just spare them, then!"],
@@ -5657,9 +5657,9 @@ export default {
 
     c_call_common: {
         start: '<32>{#s/phone}{#p/event}* Dialing...',
-        end: '<32>{#s/equip}{#p/event}* Click...',
+        end: '<32>{#s/equip}{#p/event}* Klikk...',
         nobody0: ['<32>{#p/human}* (Too much interference.)'],
-        nobody1: ['<32>{#p/human}* (No response.)'],
+        nobody1: ['<32>{#p/human}* (Nincs válasz.)'],
         nobody2: ['<32>{#p/basic}* ... but nobody came.'],
         nobody3: ['<32>{#p/human}* (No connection.)'],
         nobody4: [

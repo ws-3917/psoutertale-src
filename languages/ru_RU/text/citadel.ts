@@ -2904,7 +2904,7 @@ export default {
                         '<18>{#f/3}...',
                         '<18>{#f/3}WELL... GOODBYE.',
                         '<25>{#p/undyne}{#f/1}* Enjoy the solitude!!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ]
                     : [
                         '<32>{#s/phone}{#p/event}* Звонок...',
@@ -2935,7 +2935,7 @@ export default {
                         '<18>{#p/papyrus}{#f/4}FOR YOU, THIS IS ABOVE AVERAGE TIMING...',
                         "<18>{#p/papyrus}{#f/0}... ANYWAY, WE'LL BE BUSY IN ASGORE'S KITCHEN.",
                         '<18>{#p/papyrus}{#f/9}FEEL FREE TO SWING BY WHEN YOU GET THE CHANCE!',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Щелчок...'
                     ],
             epilogue2: () => [
                 '<25>{#p/sans}{#f/0}* hey, bucko.',
@@ -3497,27 +3497,27 @@ export default {
                 choicer.create('* (Take a Chocolate Bar?)', 'Да', 'Нет')
             ],
             fridgetrap3: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
-            fridgetrap4: ['<32>{#p/human}* (You got the Chocolate Bar.)'],
+            fridgetrap4: ['<32>{#p/human}* (Вы получили плитку шоколада.)'],
             brocall1: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',
                 "<25>{#p/alphys}{#g/alphysWelp}* I... don't want Asgore to get impatient.",
                 "<25>{#p/alphys}{#g/alphysTheFactIs}* He's already been waiting for a hundred years...",
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall2: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Hello?\n* Are you there?',
                 "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* We're...\n* Still waiting...",
                 '<25>{#p/alphys}{#g/alphysFR}* Have you run off or something?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall3: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysCutscene3}* Yup.\n* You have.\n* I just checked.',
                 "<25>{#p/alphys}{#g/alphysWTF2}* WE'VE GOT IMPORTANT STUFF TO DO, Y'KNOW...",
                 '<25>{#p/alphys}{#g/alphysWhyOhWhy}* ... why does this always happen to me...',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall4: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
@@ -3525,7 +3525,7 @@ export default {
                 "<32>{#p/mettaton}* BASED ON WHAT I'VE BEEN DISCUSSING WITH PAPYRUS...",
                 '<32>{#p/mettaton}* I SUGGEST YOU TURN YOUR BUTT AROUND AND GET ON WITH IT.',
                 '<32>{#p/mettaton}* YOU CAN DO IT, DARLING!',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall5: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
@@ -3535,7 +3535,7 @@ export default {
                 '<18>{#p/papyrus}{#f/4}IF YOUR BATTLE AGAINST ME PROVED ONE THING...',
                 "<18>{#p/papyrus}{#f/9}IT'S THAT YOU HAVE THE COURAGE TO TAKE ON ANYTHING!",
                 '<18>{#p/papyrus}{#f/0}THE \"IMPENETRABLE\" FORCE FIELD WON\'T STAND A CHANCE!',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall6: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
@@ -3552,7 +3552,7 @@ export default {
                 "<25>{#g/alphysWorried}* It's like we've been waiting our whole lives for you.",
                 '<25>{#g/alphysWorried}* ...',
                 '<25>{#g/alphysCutscene2}* ... come back soon...\n* Okay?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall7: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
@@ -3570,7 +3570,7 @@ export default {
                 '<25>{#f/13}* ...',
                 '<25>{#f/9}* I will... see you soon.',
                 '<25>{#f/10}* ...\n* Be good... alright?',
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             brocall8: [
                 '<25>{#p/twinkly}{#f/6}* Did you seriously come all this way just to see what would happen?',
@@ -3889,7 +3889,7 @@ export default {
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
                 "<32>{*}{@fill=#ff993d}{#i/1}* I can't {@mystify=remember}remember{@mystify=}{%}",
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Щелчок...'
             ],
             cs_vegetoid: [
                 '<32>{#p/human}* (It appears the Vegetoid cannot move.)',
@@ -4314,13 +4314,13 @@ export default {
             ),
             c_al_chair1: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы подмечаете весьма большой размер стула.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* Большой обеденный стул.']
                         : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a queen."],
             c_al_chair2: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы подмечаете стул небольшого размера.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* Малый обеденный стул.']
                         : world.genocide
@@ -4336,7 +4336,7 @@ export default {
                             : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for... a little angel.\n* Like you!"],
             c_al_chair4: () =>
                 SAVE.data.b.svr
-                    ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
+                    ? ['<32>{#p/human}* (Вы отмечаете необычный размер обеденного стула.)']
                     : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                         ? ['<32>{#p/basic}* Королевский обеденный стул.']
                         : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a king."],
@@ -4408,13 +4408,13 @@ export default {
                         : ['<32>{#p/basic}* Smells like marinara sauce.'],
             c_ak_trash: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
+                    ? ["<32>{#p/human}* (Вы не можете понять, что лежит в мусорке...)"]
                     : ['<32>{#p/basic}* Surprisingly, the trash is completely empty.'],
             
             c_ah_door: () =>
                 SAVE.data.b.svr
                     ? [
-                        '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
+                        '<32>{#p/human}* (Табличка гласит, что комната не завершена.)',
                         ...[
                             [
                                 "<25>{#p/asriel1}{#f/3}* If she hadn't left, that would be Mom's room...",
@@ -4433,7 +4433,7 @@ export default {
                     : ['<32>{#p/basic}* «Комната на ремонте».'],
             c_ah_mirror: () =>
                 SAVE.data.b.svr
-                    ? ["<25>{#p/asriel1}{#f/24}* It's us..."]
+                    ? ["<25>{#p/asriel1}{#f/24}* Это мы..."]
                     : world.genocide
                         ? ['<32>{#p/basic}* ...']
                         : calcLV() > 14
@@ -4473,7 +4473,7 @@ export default {
                         : ["<32>{#p/basic}* It's a framed photograph.\n* I took it myself."],
             c_aa_cabinet: () =>
                 SAVE.data.b.svr
-                    ? ["<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)"]
+                    ? ["<32>{#p/human}* (Здесь нет ничего кроме одинаковой одежды.)"]
                     : world.darker
                         ? ['<32>{#p/basic}* A cabinet full of clothes.']
                         : [
@@ -4663,7 +4663,7 @@ export default {
                                             '<32>* \"How would we survive on our own?\"',
                                             '<32>* \"Hopefully those kinds of questions will soon be answered.\"'
                                         ],
-                                        ['<32>{#p/human}* (There are no more written entries here.)']
+                                        ['<32>{#p/human}* (Больше записей нет.)']
                                     ][i]
                 )
             ),
@@ -4713,7 +4713,7 @@ export default {
                 SAVE.data.n.plot === 72 && !SAVE.data.b.svr && !world.runaway
                     ? []
                     : [
-                        '<32>{#p/human}* (You peek inside.)',
+                        '<32>{#p/human}* (Вы заглянули внутрь.)',
                         ...(SAVE.data.b.svr
                             ? [
                                 ["<25>{#p/asriel1}{#f/17}* Frisk...\n* You're staring..."],
@@ -6458,10 +6458,10 @@ export default {
     },
     i_archive_candy: {
         battle: { description: '4 HP.', name: 'Конфета' },
-        drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
+        drop: ['<32>{#p/human}* (Вы выбросили монстроконфету.)'],
         info: ['<32>{#p/human}* (4 HP.)'],
-        name: 'Monster Candy',
-        use: ['<32>{#p/human}* (You eat the Monster Candy.)']
+        name: 'Монстроконфета',
+        use: ['<32>{#p/human}* (Вы съели монстроконфету.)']
     },
     i_archive_rations: {
         battle: { description: '5 HP.', name: 'Rations' },
@@ -6533,7 +6533,7 @@ export default {
         drop: ['<32>{#p/human}* (You throw away the Starling Tea.)'],
         info: () =>
             SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                ? ['<32>{#p/human}* (99 HP.)']
+                ? ['<32>{#p/human}* (99 ОЗ.)']
                 : ['<32>{#p/basic}* \"Starling Tea\" Heals 99 HP\n* A fine tea worthy of a king.'],
         name: 'Starling Tea',
         use: ['<32>{#p/human}* (You drink the Starling Tea.)']

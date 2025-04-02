@@ -166,7 +166,7 @@ export default {
             ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* Perhaps there's a key somewhere...?"])
         ],
         secret2: ['<32>{#p/human}* (You use the Secret Key.)'],
-        exit: () => [choicer.create('* (Exit the Outlands?)', 'Yes', 'No')],
+        exit: () => [choicer.create('* (Exit the Outlands?)', 'Igen', 'Nem')],
         nosleep: ['<32>{#p/human}* (Something seems to have interrupted your sleep.)'],
         noequip: ['<32>{#p/human}* (You decide not to equip.)'],
         finaltext: {
@@ -467,11 +467,11 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You saw a piece of gum taped to the comic strip...)',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    choicer.create('* (Chew the gum?)', 'Igen', 'Nem')
                 ]
                 : [
                     '<32>{#p/basic}* There was a piece of gum taped to the comic strip.',
-                    choicer.create('* (Chew the gum?)', 'Yes', 'No')
+                    choicer.create('* (Chew the gum?)', 'Igen', 'Nem')
                 ],
         stargum2: ['<32>{#p/human}* (You decide not to chew.)'],
         stargum3: ['<32>{#p/human}* (You recovered $(x) HP.)'],
@@ -480,7 +480,7 @@ export default {
             SAVE.data.b.svr
                 ? [
                     '<32>{#p/human}* (You feel the inviting warmth of the fireplace...)',
-                    choicer.create('* (Crawl inside?)', 'Yes', 'No')
+                    choicer.create('* (Crawl inside?)', 'Igen', 'Nem')
                 ]
                 : [
                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -488,7 +488,7 @@ export default {
                         : "<32>{#p/basic}* Toriel's fireplace.\n* It's not too hot, just pleasantly warm.",
                     ...(world.darker
                         ? []
-                        : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Yes', 'No')])
+                        : ['<32>* You could probably crawl in.', choicer.create('* (Crawl inside?)', 'Igen', 'Nem')])
                 ],
         fireplace2a: ['<32>{#p/human}* (You chose not to crawl in.)'],
         fireplace2b: () => [
@@ -577,9 +577,9 @@ export default {
         asriel2: () => [
             '<25>{#p/asriel2}{#f/1}* Ready, $(name)?',
             "<25>{#f/2}* 'Cause once we move forward, there's no turning back.",
-            choicer.create('* (Follow Him?)', 'Yes', 'No')
+            choicer.create('* (Follow Him?)', 'Igen', 'Nem')
         ],
-        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Yes', 'No')],
+        asriel2b: () => ['<25>{#p/asriel2}{#f/1}* Ready?', choicer.create('* (Follow Him?)', 'Igen', 'Nem')],
         asriel3: ['<25>{#p/asriel2}{#f/2}* Okay...', "<25>{#f/1}* Let's do this."],
         asriel4: ["<25>{#p/asriel2}{#f/4}* I'll be waiting, then."],
         asrielDiary: [
@@ -719,7 +719,7 @@ export default {
         },
         midsleep: () => [
             '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-            choicer.create('* (Go to sleep?)', 'Yes', 'No')
+            choicer.create('* (Go to sleep?)', 'Igen', 'Nem')
         ],
         bedfailToriel: [
             '<25>{#p/toriel}{#f/5}* Oh dear.',
@@ -732,11 +732,11 @@ export default {
             '<32>{#p/napstablook}* Zzz... Zzz...',
             '<32>* Zzz... Zzz...',
             "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Igen', 'Nem')
         ],
         blooky2: () => [
             '<32>{#p/basic}* The ghost is still blocking the way.',
-            choicer.create('* (Try to walk through it?)', 'Yes', 'No')
+            choicer.create('* (Try to walk through it?)', 'Igen', 'Nem')
         ],
         blooky3: [
             '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
@@ -836,7 +836,7 @@ export default {
             '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
             '<25>{#f/1}* ...\n* If you like, I can read you this book...',
             '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Igen', 'Nem')
         ],
         chair1f: pager.create(
             0,
@@ -845,12 +845,12 @@ export default {
         ),
         chair2a1: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Have breakfast?)', 'Igen', 'Nem')
         ],
         chair2a2: ['<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.'],
         chair2a3: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-            choicer.create('{#n1!}* (Have breakfast?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Have breakfast?)', 'Igen', 'Nem')
         ],
         chair2a4: () =>
             SAVE.data.b.drop_snails
@@ -868,16 +868,16 @@ export default {
             '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
             '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
             '<25>{#f/1}* Would you like me to read it to you?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Igen', 'Nem')
         ],
         chair2c2: ['<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...'],
         chair2c3: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Igen', 'Nem')
         ],
         chair2c4: () => [
             '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-            choicer.create('{#n1!}* (Read the book?)', 'Yes', 'No')
+            choicer.create('{#n1!}* (Read the book?)', 'Igen', 'Nem')
         ],
         chair2c5: ['<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...'],
         chair2c6: [
@@ -1078,7 +1078,7 @@ export default {
             '<25>{#f/0}* No matter.\n* I will operate it for you.',
             '<25>{#f/0}* ...',
             '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-            choicer.create('* (Solve the riddle?)', 'Yes', 'No')
+            choicer.create('* (Solve the riddle?)', 'Igen', 'Nem')
         ],
         danger_puzzle5a: [
             '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
@@ -1120,7 +1120,7 @@ export default {
         dipper: {
             a: () => [
                 '<32>{#p/human}* (You got the Little Dipper.)',
-                choicer.create('* (Equip the Little Dipper?)', 'Yes', 'No')
+                choicer.create('* (Equip the Little Dipper?)', 'Igen', 'Nem')
             ],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
@@ -1651,7 +1651,7 @@ export default {
                         : ['<32>{#p/basic}* There is a brand-name chocolate bar in the fridge.'],
             b: () => [
                 ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* ...', '<32>* Do you want it?']),
-                choicer.create('* (Take the Chocolate Bar?)', 'Yes', 'No')
+                choicer.create('* (Take the Chocolate Bar?)', 'Igen', 'Nem')
             ],
             b1: ['<32>{#p/human}* (You decide not to take anything.)'],
             b2: () => [
@@ -1712,7 +1712,7 @@ export default {
                         '<25>{#f/9}* I did my best to try and salvage it...'
                     ]
                     : []),
-            choicer.create("* (See Napstablook's show?)", 'Yes', 'No')
+            choicer.create("* (See Napstablook's show?)", 'Igen', 'Nem')
         ],
         front2a: ['<25>{#p/toriel}{#f/0}* Wonderful!\n* I will let them know you are coming.'],
         front2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* I will be in the living room if you need me.'],
@@ -1814,7 +1814,7 @@ export default {
             '<25>{#f/0}* It means a lot to me.'
         ],
         halo: {
-            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Yes', 'No')],
+            a: () => ['<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'Igen', 'Nem')],
             b: ["<32>{#p/human}* (You're carrying too much to take that.)"]
         },
         indie1: () => [
@@ -1826,18 +1826,18 @@ export default {
                 : ['<26>{#p/toriel}* Alright.\n* It is time for your third and final lesson.']),
             '<25>{#f/1}* Do you think you can make it to the end of this room...',
             '<25>{#f/1}* ... all by yourself?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Igen', 'Nem')
         ],
         indie1a: () => [
             '<25>{#p/toriel}{#f/1}* Are you sure...?',
             '<25>{#f/0}* It is only a short distance away.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Igen', 'Nem')
         ],
         indie1b: () => [
             '<25>{#p/toriel}{#f/5}* My child.',
             '<25>{#f/1}* It IS important to do things on your own, is it not?',
             '<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to take you home.',
-            choicer.create('* (Change your mind?)', 'Yes', 'No')
+            choicer.create('* (Change your mind?)', 'Igen', 'Nem')
         ],
         indie2a: ['<25>{#p/toriel}{#f/1}* Alright...', '<25>{#f/0}* Good luck!'],
         indie2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... I see.'],
@@ -1891,7 +1891,7 @@ export default {
         ],
         indie5: [
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/toriel}* Hello!\n* This is Toriel.',
                 '<25>* My errands are taking longer than I thought they would.',
                 '<25>* You must wait a little longer.',
@@ -1899,7 +1899,7 @@ export default {
                 '<25>{#f/0}* You are very good.'
             ],
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<25>{#p/toriel}* Hello...\n* This is Toriel.',
                 '<25>{#f/1}* I found what I was looking for...',
                 '<25>{#f/0}* But a small, white puppy snatched it away!\n* How odd.',
@@ -1909,7 +1909,7 @@ export default {
                 '<25>{#f/1}* Thank you again for being so patient...'
             ],
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<32>{#p/basic}* (...)',
                 '<32>{#p/human}* (You hear heavy panting on the other end of the phone.)',
                 '<32>{#s/bark}{#p/event}* Bark!\n{#s/bark}* Bark!',
@@ -1919,7 +1919,7 @@ export default {
                 '<25>{#p/toriel}{#f/1}* Come back here with my cell phone!'
             ],
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<32>{#p/basic}* (...)',
                 '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the phone.)',
                 '<32>{#p/basic}* (Snore... snore...)',
@@ -1932,7 +1932,7 @@ export default {
                 '<32>{#p/human}* (The snoring resumes.)'
             ],
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<32>{#p/basic}* (...)',
                 '<32>{#p/basic}* (Achoo!)',
                 '<32>{#p/human}* (It sounds like a small, white dog sneezing in its sleep.)',
@@ -1943,7 +1943,7 @@ export default {
                 '<25>{#p/toriel}{#f/8}* Hee hee, there is no escape!'
             ],
             [
-                '<32>{#s/phone}{#p/event}* Ring, ring...',
+                '<32>{#s/phone}{#p/event}* Csing, csing...',
                 '<32>{#p/human}* (You hear a distant voice.)',
                 '<25>{#p/toriel}{#f/1}* Hello...\n* This is... Toriel...',
                 '<32>{#s/bark}{#p/event}* Bark!\n* Bark!',
@@ -1960,7 +1960,7 @@ export default {
             ]
         ],
         indie6: (early: boolean) => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
                 ? [
                     early
@@ -2066,7 +2066,7 @@ export default {
                             "<32>* Maybe now you'll have the means to accept my offer.",
                             "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
                             "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Igen', 'Nem')
                         ]
                         : [
                             ...(world.postnoot
@@ -2081,19 +2081,19 @@ export default {
                                     "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
                                 ]),
                             "<32>* Interested?\n* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Igen', 'Nem')
                         ],
                 () =>
                     SAVE.data.b.napsta_performance
                         ? [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 5G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Igen', 'Nem')
                         ]
                         : [
                             "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
                             "<32>* All I'm askin' for is 10G.",
-                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Yes', 'No')
+                            choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Igen', 'Nem')
                         ]
             ),
             b: () => [
@@ -2210,7 +2210,7 @@ export default {
                 ][SAVE.data.n.choice_flavor],
                 '<25>{#f/1}* I know what your preference is, but...',
                 '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Igen', 'Nem')
             ],
             b1: () => [
                 3 <= SAVE.data.n.cell_insult
@@ -2421,8 +2421,8 @@ export default {
                     '<32>{#p/basic}* Scandalous!',
                     "<32>* It's Toriel's sock collection.\n* A little messy...",
                     world.meanie
-                        ? choicer.create('* (Make it messier?)', 'Yes', 'No')
-                        : choicer.create('* (Clean up the mess?)', 'Yes', 'No')
+                        ? choicer.create('* (Make it messier?)', 'Igen', 'Nem')
+                        : choicer.create('* (Clean up the mess?)', 'Igen', 'Nem')
                 ],
         socks2: () =>
             world.meanie
@@ -2433,12 +2433,12 @@ export default {
                         ? []
                         : [
                             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                            choicer.create('* (Take the key?)', 'Yes', 'No')
+                            choicer.create('* (Take the key?)', 'Igen', 'Nem')
                         ])
                 ],
         socks3: () => [
             "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-            choicer.create('* (Take the key?)', 'Yes', 'No')
+            choicer.create('* (Take the key?)', 'Igen', 'Nem')
         ],
         socks4: ['<32>{#p/human}* (You decide not to do anything.)'],
         socks5: [
@@ -2504,8 +2504,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Igen', 'Nem')
+                    : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Igen', 'Nem')
             ],
             b1: ['<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)'],
             b2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -2518,8 +2518,8 @@ export default {
                         ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
                         : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
                 SAVE.data.b.napsta_performance
-                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Yes', 'No')
-                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Yes', 'No')
+                    ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Igen', 'Nem')
+                    : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Igen', 'Nem')
             ],
             c1: ['<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)"],
             c2: ['<32>{#p/human}{#n1!}* (You decide not to buy.)'],
@@ -3634,7 +3634,7 @@ export default {
                                         ? [
                                             '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
                                             '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                                            choicer.create('* (Smash the pie?)', 'Yes', 'No')
+                                            choicer.create('* (Smash the pie?)', 'Igen', 'Nem')
                                         ]
                                         : ['<32>{#p/basic}* The size of the pie intimidates you too much to eat it.'],
         piesmash1: ['<32>{#p/human}* (You decide not to smash.)'],
@@ -3807,14 +3807,14 @@ export default {
             () => [
                 '<32>{#p/basic}* This coffin dates back to December 251X.',
                 '<32>* There is an old record-keeping manifest stashed next to it...',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Igen', 'Nem')
             ],
             () => [
                 '<32>{#p/human}* (You once again pick up the manifest.)',
-                choicer.create('* (Access the manifest?)', 'Yes', 'No')
+                choicer.create('* (Access the manifest?)', 'Igen', 'Nem')
             ]
         ),
-        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Yes', 'No')],
+        w_coffin3: () => [choicer.create('* (Read the next page?)', 'Igen', 'Nem')],
         w_coffin4: ['<32>{#p/human}* (But there were no further pages to be read.)'],
         w_coffin5: ['<32>{#p/human}* (You put the manifest back where it belongs.)'],
         w_dummy1: () =>
@@ -4613,7 +4613,7 @@ export default {
                         ? ['<32>* (Nothing happens.)']
                         : [
                             '<32>* (You found a piece of gum taped to the comic strip.)',
-                            choicer.create('* (Use the gum?)', 'Yes', 'No')
+                            choicer.create('* (Use the gum?)', 'Igen', 'Nem')
                         ])
                 ]
                 : []
@@ -4925,7 +4925,7 @@ export default {
                     '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
                     '<25>{#f/1}* There is a certain someone who visits sometimes...',
                     '<25>{#f/6}* Perhaps you are already aware of him.',
-                    '<32>{#s/equip}{#p/event}* Click...'
+                    '<32>{#s/equip}{#p/event}* Klikk...'
                 ]
                 : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
 
@@ -4934,7 +4934,7 @@ export default {
                         '<25>{#p/toriel}{#f/1}* Calling so soon...?',
                         '<25>{#f/0}* ... I have not even gotten back to the house yet!',
                         '<25>{#f/0}* Please, wait a moment before calling again.',
-                        '<32>{#s/equip}{#p/event}* Click...'
+                        '<32>{#s/equip}{#p/event}* Klikk...'
                     ]
                     : [
                         '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',

@@ -2,45 +2,45 @@
 
 export default {
     battle: {
-        death0: ['(You take a deep breath.)', "(You're filled with determination.)"],
-        death1: ['You cannot give up just yet...', '$(name)!\nStay determined...'],
-        death2: ['Our fate rests upon you...', '$(name)!\nStay determined...'],
-        death3: ["You're going to be alright!", '$(name)!\nStay determined...'],
-        death4: ["Don't lose hope!", '$(name)!\nStay determined...'],
-        death5: ['It cannot end now!', '$(name)!\nStay determined...'],
+        death0: ['(Մեծ շունջ մը կ\'առնես։)', "(Հաստատամտութեամբ լեցուն ես։)"],
+        death1: ['Դեռ չ\'ես կրնար յոյսդ կտրել...', '$(name)։\nՀաստատամիտ մնացիր...'],
+        death2: ['Մեր ճակատագիրը քեզի կը մնայ...', '$(name)։\nՀաստատամիտ մնացիր...'],
+        death3: ["Լա՜ւ պիտի ըլլաս։", '$(name)։\nՀաստատամիտ մնացիր...'],
+        death4: ["Յոյսդ մի՜ կտրեր։", '$(name)։\nՀաստատամիտ մնացիր...'],
+        death5: ['Հիմա պիտի չի՜ վերջանայ։', '$(name)։\nՀաստատամիտ մնացիր...'],
 
-        flee1: '    * Escaped...',
-        flee2: "    * I'm outta here.",
-        flee3: "    * I've got better to do.",
-        flee4: "    * Don't slow me down.",
-        flee5: '    * Ran away with $(x) EXP\n      and $(y)G.',
+        flee1: '    * Փախեցար...',
+        flee2: "    * Ես գացի։",
+        flee3: "    * Աւելի լաւ ընելիքներ ունիմ։",
+        flee4: "    * Ինծի մի` ուշացներ։",
+        flee5: '    * Փախեցար $(x) EXP-ով\n      եւ $(y)Ո-ով։',
 
-        mercy_assist: '* Assist',
-        mercy_flee: '* Flee',
-        mercy_spare: '* Spare',
+        mercy_assist: '* Օգնել',
+        mercy_flee: '* Փախիլ',
+        mercy_spare: '* Ներել',
 
-        victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.',
-        victory2: '<32>{#p/story}* YOU WON!\n* You earned $(x) EXP and $(y)G.\n* Your LOVE increased.'
+        victory1: '<32>{#p/story}* ՅԱՂԹԵՑԻ՜Ր։\n* $(x) EXP ու $(y)Ո շահեցար։',
+        victory2: '<32>{#p/story}* ՅԱՂԹԵՑԻ՜Ր։\n* $(x) EXP ու $(y)G շահեցար։\n* LOVE-դ բարձրացաւ։'
     },
 
     developer: {
         console: {
-            header: 'ERROR',
+            header: 'ՍԽԱԼ',
             p_resume: {
-                header: 'DISMISS',
-                resume: 'Click To Dismiss'
+                header: 'ԱՐՁԱԿԵԼ',
+                resume: 'Կոխել Արձակելու'
             },
-            blurb: 'An error occured! Please send\nscreenshot to developer.'
+            blurb: 'Սխալ մը պատահեցաւ։ Հաճիս նկար\nղրկէ` հնարիչին։'
         },
         control: {
-            tab: 'CONTROL',
-            headers: ['GENERAL', 'BATTLE'],
+            tab: 'ԿԱՐԳԱԴՐԵԼ',
+            headers: ['ԸՆԴՀԱՆՈՒՐ', 'ԿՌԻՒ'],
             items: [
                 [
-                    'FixMusic',
-                    'FixPlayer',
-                    'InfiniteG',
-                    'Interact',
+                    'ՃիշտԵրաժշտ.',
+                    'ՃշտԽաղցող',
+                    'ԱնեզրՈ',
+                    'Շօշափել',
                     'Input',
                     'Movement',
                     'Noclip',
@@ -51,48 +51,48 @@ export default {
                 [
                     'CanAssist',
                     'ClearBox',
-                    'Exit',
+                    'Դուրս',
                     'ResetBox',
                     'ResetMenu',
-                    'CanFlee',
-                    'InfiniteHP',
+                    'ԿրնալՓախիլ',
+                    'ԱնեզրHP',
                     'PacifyAll',
-                    'Suicide',
-                    'WeakenAll'
+                    'Անձնասպանութիւն',
+                    'ԲոլորիՏկարացնել'
                 ]
             ],
             p_speed: {
                 fps: '$(x) FPS',
-                halt: 'Halt',
-                header: 'GAME SPEED',
-                next: 'More',
-                prev: 'Less',
-                sec: '$(x)s/frame'
+                halt: 'Կանք',
+                header: 'ԽԱՂԻ ԱՐԱԳՈՒԹԻՒՆ',
+                next: 'Աւելի',
+                prev: 'Քիչ',
+                sec: '$(x)երկվ/frame'
             }
         },
         godhome: {
-            tab: 'GODHOME',
+            tab: 'ԱՍՏՈՒԱԾԱՏՈՒՆ',
             p_teleport: {
-                header: 'ROOM',
+                header: 'ՍԵՆԵԱԿ',
                 action: 'Teleport'
             },
             p_encounter: {
-                header: 'ENCOUNTER',
-                action: 'Start'
+                header: 'ՀԱՆԴԻՊՈՒՄ',
+                action: 'Սկսիլ'
             },
             p_armor: {
-                header: 'ARMOR'
+                header: 'ԶՐԱՀ'
             },
             p_weapon: {
-                header: 'WEAPON'
+                header: 'ԶԷՆՔ'
             }
         },
         inspect: {
             tab: 'INSPECT',
-            headers: ['LAYERS', 'TYPES'],
+            headers: ['LAYERS', 'ՏԵՍԱԿՆԵՐ'],
             switches: [
-                ['Base', 'Below', 'Main', 'Above', 'Menu'],
-                ['Hitbox', 'Sprite', 'Text']
+                ['Base', 'Տակ', 'Գլխաւոր', 'Վեր', 'Կարգաւորում'],
+                ['Hitbox', 'Նկար', 'Գրութիւն']
             ],
             p_explorer: {
                 header: 'EXPLORER',
@@ -125,20 +125,20 @@ export default {
                 down: 'Down',
                 duration: 'Duration',
                 exp: 'EXP',
-                extent: 'Extent',
+                extent: 'Ծաւալ',
                 f: 'F', 
-                face: 'Face',
-                false: 'False',
-                fill: 'Fill',
-                fontFamily: 'Font Family',
-                fontSize: 'Font Size',
-                frames: 'Frames',
-                gravity: 'Gravity',
-                group: 'Group',
+                face: 'Դէմք',
+                false: 'Սխալ',
+                fill: 'Լեցնել',
+                fontFamily: 'Տառատեսակի Ընտանիք',
+                fontSize: 'Տառերու Չափ',
+                frames: 'Նկարներ',
+                gravity: 'Ծանրաբարոյութիւն',
+                group: 'Խումբ',
                 hp: 'HP',
                 index: 'Index',
                 inert: 'Inert',
-                key: 'Key',
+                key: 'Բանալի',
                 lastSavedTime: 'Last Saved Time',
                 layer: 'Layer',
                 layers: 'Layers',
@@ -154,89 +154,89 @@ export default {
                 position: 'Position',
                 primed: 'Primed',
                 priority: 'Priority',
-                registry: 'REGISTRY',
-                renderer: 'Renderer',
-                resources: 'Resources',
-                reverse: 'Reverse',
-                right: 'Right',
-                room: 'Room',
-                roomState: 'Room State',
-                rotation: 'Rotation',
+                registry: 'ԱՐՁԱՆԱԳՐՈՒԹԻՒՆ',
+                renderer: 'Render Ընող',
+                resources: 'Միջոցներ',
+                reverse: 'Հակառակ',
+                right: 'Աջ',
+                room: 'Սենեակ',
+                roomState: 'Սենեակի Վիճակ',
+                rotation: 'Թաւալում',
                 s: 'S', 
-                scale: 'Scale',
-                shopSelection: 'Shop Selection',
-                size: 'Size',
-                spacing: 'Spacing',
-                spin: 'Spin',
-                sprites: 'Sprites',
-                step: 'Step',
+                scale: 'Աստիճան',
+                shopSelection: 'Խանութի Ընտրելը',
+                size: 'Չափը',
+                spacing: 'Տեղ Տալ',
+                spin: 'Դարձուածք',
+                sprites: 'Խաղի Նկարներ',
+                step: 'Քայլ',
                 stroke: 'Stroke',
                 subcrop: 'Subcrop',
-                talk: 'Talk',
-                target: 'Target',
-                text: 'Text',
-                time: 'Time',
-                tint: 'Tint',
-                trackedAssets: 'Tracked Assets',
-                true: 'True',
-                unknown: 'UNKNOWN',
-                up: 'Up',
+                talk: 'Խօսք',
+                target: 'Նշան',
+                text: 'Գրութիւն',
+                time: 'Ժամ',
+                tint: 'Երանգ',
+                trackedAssets: 'Հետեւուած Կալուածամասներ',
+                true: 'Ճիշտ',
+                unknown: 'ՉԻ ԳԻՏՑՈՒԱԾ',
+                up: 'Վեր',
                 vars: 'Vars',
-                velocity: 'Velocity',
-                volatile: 'Volatile'
+                velocity: 'Երագութիւն',
+                volatile: 'Սնկայուն'
             }
         },
         savemod: {
-            tab: 'SAVEMOD',
-            header1: 'SAVE EDITOR',
+            tab: 'ՊԱՀԱՄՈՏ',
+            header1: 'ԿԱՐԳ ՓՈԽԵԼ',
             domains: [
-                'Data (Booleans)',
-                'Data (Numbers)',
-                'Data (Strings)',
-                'Flags (Booleans)',
-                'Flags (Numbers)',
-                'Flags (Strings)'
+                'Տեղեկութիւն (Պուլեան)',
+                'Տեղեկութիւն (Թիւ)',
+                'Տեղեկութիւն (Թելեր)',
+                'Դրօշեր (Պուլեաններ)',
+                'Դրօշեր (Թիւեր)',
+                'Դրօշեր (Թելեր)'
             ],
             p_page: {
-                header: 'NAVIGATION',
-                prev: 'Prev',
-                next: 'Next'
+                header: 'ՆԱՒԱՐԿՈՒԹԻՒՆ',
+                prev: 'Առաջ',
+                next: 'Յաջորդ'
             },
-            prompt: 'Enter Value',
-            back: 'Back'
+            prompt: 'Գրէ` Արժէքը',
+            back: 'Ետ'
         },
         storage: {
-            tab: 'STORAGE',
-            header: 'STORAGE EDITOR',
-            p_container: { header: 'SELECTION', prev: 'Prev', next: 'Next' },
-            display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
+            tab: 'ՄԹԵՐԱՆՈՑ',
+            header: 'ՄԹԵՐԱՆՈՑ ՓՈԽԵԼ',
+            p_container: { header: 'ԸՆՏՐՈՒՄ', prev: 'Առաջ', next: 'Յաջորդ' },
+            display: { inventory: 'Կահագիր', dimboxA: 'Համ. Տուփ Ա', dimboxB: 'Համ. Տուփ Բ' }
         }
     },
 
     dialog: {
-        dialog_clear_title: 'Clear File',
-        dialog_notice_title: 'Notice',
-        dialog_clear_mobile: 'Clear Mobile Settings',
-        dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
-        dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
-        error_load: 'That file could not be parsed.',
-        message_alert: ['OK'],
-        message_confirm: ['Cancel', 'OK'],
-        prompt_clear: 'Clear this file?',
-        prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
-        prompt_save: 'Save this file?',
-        prompt_clear_mobile: 'Clear mobile-related settings?\nThis will NOT clear\nyour SAVE file.',
-        prompt_save_alternate: 'Copy the text below into\na JSON file to save it\nto your device.',
-        prompt_open: 'Load this file?'
+        dialog_clear_title: 'Սրբել Կարգը',
+        dialog_notice_title: 'Լուր',
+        dialog_clear_mobile: 'Սրբել Հեռաձայնի Յատկութիւններ',
+        dialog_open: { buttonLabel: 'Բանալ', name: 'SAVE-ի Կարգեր', title: 'Բանալ Կարգ' },
+        dialog_save: { buttonLabel: 'Save', name: 'SAVE-ի Կարգեր', title: 'Պահել Կարգ' },
+        error_load: 'Այդ կարգը չ\'աշխատիր։',
+        message_alert: ['ԼԱՒ'],
+        message_confirm: ['Հանել', 'ԼԱՒ'],
+        prompt_clear: 'Սրբե՞լ այս կարգը։',
+        prompt_demo: 'SAVE-ի կարգդ OUTERTALE\ndemo-էն տեղափոխուած է\ntimeline թորիծի։',
+        prompt_save: 'Պահե՞լ այս կարգը։',
+        prompt_clear_mobile: 'Սրբե՞լ հերաձայնի վերաբերեալ ընտրութիւններ։\nՔու SAVE-ի կարգդ\nպիտի չի սրբուի։',
+        prompt_save_alternate: 'Վարի գրութիւնը տա`ր\nJSON կարգի որ պահես\nքու համակարգիչիդ։',
+        prompt_open: 'Բանա՞լ այս կարգը։'
     },
 
     extra: {
         credits: [
             [
-                '§fill=#ff0§< DEVELOPER >§fill=#fff§',
+                '§fill=#ff0§< ՀՆԱՐԻՉ >§fill=#fff§',
                 'spacey_432',
                 '',
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< ԳՐՈՂ >§fill=#fff§',
                 'Aster',
                 'Balgamlı Kedi',
                 'Bilge \"mnwary\"',
@@ -250,12 +250,12 @@ export default {
                 'Rise'
             ],
             [
-                '§fill=#ff0§< WRITER >§fill=#fff§',
+                '§fill=#ff0§< ԳՐՈՂ >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 'Turbulation',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ԳԾԱԳՐԻՉ >§fill=#fff§',
                 'Balgamlı Kedi',
                 'Burge',
                 'Deskius',
@@ -267,7 +267,7 @@ export default {
                 'Ghostly'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ԳԾԱԳՐԻՉ >§fill=#fff§',
                 'HolyOranges',
                 'major_memestar',
                 'MattSpriteMaster',
@@ -284,24 +284,24 @@ export default {
                 'Starkiteckt'
             ],
             [
-                '§fill=#ff0§< ARTIST >§fill=#fff§',
+                '§fill=#ff0§< ԳԾԱԳՐԻՉ >§fill=#fff§',
                 'supper12',
                 'Valor52',
                 'Zaxento The Greedy',
                 '',
-                '§fill=#ff0§< TECHNICIAN >§fill=#fff§',
+                '§fill=#ff0§< ՄԱՍՆԱԳԷՏ >§fill=#fff§',
                 'Codetoil',
                 'ryi3r',
                 'ws3917',
                 '',
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'Alden',
                 'Aspey',
                 'Aster',
                 'Balgamlı Kedi'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 'Brad',
                 'brayjamin',
@@ -318,7 +318,7 @@ export default {
                 'Fired'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'FireWizard72X',
                 'FuLiNT',
                 'Funtermore',
@@ -335,7 +335,7 @@ export default {
                 'Jonkler'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'Kiwi \"Quinn\"',
                 'lil tanski',
                 'MR. PETER',
@@ -352,7 +352,7 @@ export default {
                 'PixelToons Jaafar'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'Prezmop',
                 'prymus-agd',
                 'Quin',
@@ -369,7 +369,7 @@ export default {
                 'Teecup'
             ],
             [
-                '§fill=#ff0§< TESTER >§fill=#fff§',
+                '§fill=#ff0§< ՔՆՆԻՉ >§fill=#fff§',
                 'Tem in a Cowboy Hat',
                 'Tenbrooks',
                 'ThatGuyWhoLikesFood',
@@ -382,37 +382,37 @@ export default {
                 'Zaxento The Greedy'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Alden',
-                '§fill=#808080§For being there for me when I\nneed someone to lean on, and\nteaching me life lessons that\nhave made me a better person.§fill=#fff§'
+                '§fill=#808080§Հոն ըլլալու համար երբ որ ես\nմէկու մը պէտք ունէի, եւ\nինծի կեանքի դաս սորվեցնելու համար որոնք\nինծի աւելի լաւ անձ ըրած են։\n§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Aster',
-                '§fill=#808080§For being one of the friendliest\npeople I know, the first person\nto believe in my vision, and\ninspiring me to finish the game.§fill=#fff§'
+                '§fill=#808080§Ամենամտերիմ անձերէն մէկը ըլլալու համար,\nառաջին անձը որ հաւատայ\nիմ գաղափարիս, ու ինծի\nոգեւորելոի համար որ խաղը վերջացնեմ։§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Balgamlı Kedi',
-                "§fill=#808080§For sticking with me at every\nstage of development, right from\nthe start. Regardless of the era,\nhe's always been there to help.§fill=#fff§"
+                "§fill=#808080§Քովս ըլլալու համար բոլոր\nշինարարութեան շրջաններու ատեն\nսկիզբէն։ Ինչ որ ըլլար,\nմիշտ հոն եղած է օգնելու։§fill=#fff§"
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Ghostly',
-                '§fill=#808080§For being a voice of reason when\nit comes to many aspects of the\ngame, and encouraging me to take\ntesting seriously.§fill=#fff§'
+                '§fill=#808080§Բանաւոր անձ մը ըլլալու\nբազմաթիւ մասերուն մէջ,\nու ինծի քաջալերելու որ խաղին փորձելը\nլուրջի առնեմ։§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Zaxento The Greedy',
-                '§fill=#808080§For being reliable, brutally\nhonest, giving me lots of\ncriticism and ideas, and being\ntrustworthy from the day we met.§fill=#fff§'
+                '§fill=#808080§Արճանահաւատ ու\nճշմարիտ ըլլալու, ինծի բազմաթիւ\nգաղափարներ ու խրատներ տալու, ու\nվստահելի ըլլալու մեր ծանօթացած օրէն։§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'ThatGuyWhoLikesFood',
                 '§fill=#808080§For helping me write crucial\nparts of the game, supporting my\nvision, and helping me express\nmyself in a whole new way.§fill=#fff§'
             ],
             [
-                '§fill=#ff0§< SPECIAL THANKS >§fill=#fff§',
+                '§fill=#ff0§< ՅԱՏՈՒԿ ՇՆՈՐՀԱԿԱԼՈՒԹԻՒՆՆԵՐ >§fill=#fff§',
                 'Bilge \"mnwary\"',
                 "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
             ],
@@ -964,7 +964,7 @@ export default {
         settings2: 'EXIT',
         settingsprompt1: '-> LANGUAGE & MUSIC',
         settings3: 'LANGUAGE',
-        settings3a: 'ԱՐԵՎՄՏԱՀԱՅԵՐԵՆ',
+        settings3a: 'ԱՐԵՒՄՏԱՀԱՅԵՐԷՆ',
         settings4: 'SOUND FX',
         settings5: 'MUSIC',
         settings6: 'FANCY GRAPHICS',
@@ -1115,8 +1115,8 @@ export default {
 
         stat1: 'AT',
         stat2: 'DF',
-        stat3: 'WEAPON',
-        stat4: 'ARMOR',
+        stat3: 'ԶԷՆՔ',
+        stat4: 'ԶՐԱՀ',
         stat5: 'GOLD',
         stat6: 'EXP',
         stat7: 'NEXT',

@@ -56,29 +56,29 @@ export default {
                 ? [
                     "<32>{#p/human}* (You notice you're alone.)",
                     "<32>{#p/human}* (Despite knowing it'd collapse the outpost's atmosphere, you consider something.)",
-                    choicer.create('* (Smash the terminal?)', 'Yes', 'No')
+                    choicer.create('* (Smash the terminal?)', 'Igen', 'Nem')
                 ]
                 : [])
         ],
         termsmash1: ['<32>{#p/human}* (You decide not to smash.)'],
         termsmash2: ['<32>{#p/human}* (You take a swing...)'],
         puzzlenoot1: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             world.nootflags.has('a_barricade1') // NO-TRANSLATE
 
                 ? '<25>{#p/alphys}{#g/alphysInquisitive}* Did the puzzle solve itself as well?'
                 : "<25>{#p/alphys}{#g/alphysInquisitive}* Huh, the puzzle looks like it's already been solved.",
             '<25>{#p/alphys}{#g/alphysFR}* How strange.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         puzzlenoot2: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             world.nootflags.has('a_puzzle1') // NO-TRANSLATE
 
                 ? "<25>{#p/alphys}{#g/alphysWelp}* And this one.\n* This one's solved as well."
                 : "<25>{#p/alphys}{#g/alphysWelp}* Huh... seems like the puzzle's already been done by someone.",
             "<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* We'll take it!!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         noequip: ['<32>{#p/human}* (You decide not to equip.)'],
         evac: ['<32>{#p/human}* (You feel the nearby monster presence dwindling.)'],
@@ -92,7 +92,7 @@ export default {
         harpyKILLER: ["<32>{#p/basic}* Huhehehaw...\n* Golly gosharoo, I think I'm in mortal danger!"],
         shopclosed: ['<32>{#p/human}* (But there was nothing left for you to do here.)'],
         afear: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             '<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, h-hey...',
             '<25>{#p/alphys}{#g/alphysNeutralSweat}* Sorry about... running off and stuff...',
             '<25>{#p/alphys}{#g/alphysIDK}* ...',
@@ -100,10 +100,10 @@ export default {
             "<25>{#p/alphys}{#g/alphysNervousLaugh}* You won't get into any more trouble, will you?",
             '<25>{#p/alphys}{#g/alphysSideSad}* ...',
             "<25>{#p/alphys}{#g/alphysHaveSomeCompassion}* Please...\n* D-don't do anything crazy, okay?",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         escape: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             '<25>{#p/alphys}{#g/alphysCutscene1}* You made it!',
             '<25>{#g/alphysInquisitive}* Oh, uh, sorry about not using my camera before.',
             '<25>{#g/alphysYeahYouKnowWhatsUp}* I was trying to keep a \"low profile...\"',
@@ -115,14 +115,14 @@ export default {
             "<25>{#g/alphysNeutralSweat}* Sooner or later, she'll just use her jetpack to get up here.",
             '<25>* So... y-you should probably get going right away.',
             "<25>* The other elevator's just a few rooms ahead.\n* You can't miss it!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         approachescape: ['<32>{#p/human}* (You hear footsteps fading into the distance.)'],
         puzzlehelp: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             "<25>{#p/alphys}{#g/alphysWelp}* Just calling to let you know that I'm here if you need my help.",
             "<25>{#p/alphys}{#g/alphysCutscene2}* I'll keep my phone available while you're in the room!",
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         riverboi1: () => [
             '<32>{#p/basic}{#npc/a}* I am the traveler.\n* My taxi and I can take you to many places on the outpost.',
@@ -131,19 +131,19 @@ export default {
                 '* (What do you say?)',
                 game.room === 'w_wonder' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Mégse'
                     : 'Outlands',
                 game.room === 's_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Mégse'
                     : 'Starton',
                 game.room === 'f_taxi' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Mégse'
                     : 'Foundry',
                 game.room === 'a_lookout' // NO-TRANSLATE
 
-                    ? 'Cancel'
+                    ? 'Mégse'
                     : 'Aerialis'
             )
         ],
@@ -209,7 +209,7 @@ export default {
         riverboi3: () => [
             '<32>{#p/basic}{#npc/a}* I am the traveler.\n* Dr. Alphys has requested my presence at this location.',
             '<32>* You would like to go to Aerialis, would you not?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Igen', 'Nem')
         ],
         riverboi4: ['<32>{#p/basic}{#npc/a}* Thank you for taking this ride on my taxi.\n* My assignment is fulfilled.'],
         papinter1: pager.create(
@@ -364,9 +364,9 @@ export default {
             0,
             () => [
                 "<25>{#p/sans}{#f/0}* i'm selling corn dogs for 5G a piece, if you're interested.",
-                choicer.create('* (Buy the Corn Dog for 5G?)', 'Yes', 'No')
+                choicer.create('* (Buy the Corn Dog for 5G?)', 'Igen', 'Nem')
             ],
-            () => ['<25>{#p/sans}{#f/0}* corn dogs for 5G.', choicer.create('* (Buy the Corn Dog for 5G?)', 'Yes', 'No')]
+            () => ['<25>{#p/sans}{#f/0}* corn dogs for 5G.', choicer.create('* (Buy the Corn Dog for 5G?)', 'Igen', 'Nem')]
         ),
         corndog2: [
             "<32>{#p/human}* (You're carrying too much.)",
@@ -405,7 +405,7 @@ export default {
                     ? ["<32>{#p/basic}* It's a sentry station."]
                     : ['<32>{#p/basic}* Just another sentry station for the one and only Sans.'],
         sanscall1: () => [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             ...(world.dead_skeleton
                 ? [
                     '<25>{#p/sans}{#f/0}* so, how was the show?',
@@ -454,7 +454,7 @@ export default {
                     '<25>{#f/2}* if you see any bouncy armored guards up there, let me know.',
                     '<25>{#f/3}* i lost track of them on the way out here.'
                 ]),
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         tvm1: ['<32>{#p/human}* (You got the Old Radio.)', '<32>{#p/basic}{#npc/a}* Hope you like your new radio!'],
         tvm2: ['<32>{#p/human}* (You got the Fireworks.)', '<32>{#p/basic}{#npc/a}* Hope you enjoy the fireworks!'],
@@ -517,8 +517,8 @@ export default {
             world.bulrun ? ['<32>{#p/basic}* ... but everybody ran.'] : ['<32>{#p/basic}* ... but nobody came.'],
         spidershop1: () => [
             SAVE.data.n.plot === 72
-                ? choicer.create('* (Leave 36G in the web?)', 'Yes', 'No')
-                : choicer.create('* (Leave 56G in the web?)', 'Yes', 'No')
+                ? choicer.create('* (Leave 36G in the web?)', 'Igen', 'Nem')
+                : choicer.create('* (Leave 56G in the web?)', 'Igen', 'Nem')
         ],
         spidershop2: [
             '<32>{#p/basic}* Some spiders crawled out and gave you an item.',
@@ -553,9 +553,9 @@ export default {
             SAVE.data.b.svr
                 ? [
                     "<32>{#p/human}* (You dip your hands into the strange bowl of food.)\n* (It's quite slimy.)",
-                    choicer.create('* (Take the food?)', 'Yes', 'No')
+                    choicer.create('* (Take the food?)', 'Igen', 'Nem')
                 ]
-                : ["<33>{#p/basic}* It's a kind of mysterious food.", choicer.create('* (Take the food?)', 'Yes', 'No')],
+                : ["<33>{#p/basic}* It's a kind of mysterious food.", choicer.create('* (Take the food?)', 'Igen', 'Nem')],
         hotelfood1: () => [
             '<32>{#p/human}* (You got the Mysteryfood.)',
             ...(SAVE.data.b.svr && !SAVE.data.b.freedom
@@ -569,12 +569,12 @@ export default {
         hotelfood3: ['<32>{#p/human}* (You decide not to take anything.)'],
         sonic1: () => [
             '<32>{#p/human}* (You got the Sonic Resonator.)',
-            choicer.create('* (Equip the Sonic Resonator?)', 'Yes', 'No')
+            choicer.create('* (Equip the Sonic Resonator?)', 'Igen', 'Nem')
         ],
         sonic2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
         tablaphone1: () => [
             '<32>{#p/human}* (You got the Tablaphone.)',
-            choicer.create('* (Equip the Tablaphone?)', 'Yes', 'No')
+            choicer.create('* (Equip the Tablaphone?)', 'Igen', 'Nem')
         ],
         tablaphone2: ["<32>{#p/human}* (You're carrying too much to take that.)"],
         moonpie1: () => [
@@ -593,7 +593,7 @@ export default {
         ratings: 'RATINGS $(x)',
         gold: 'GOLD $(x)',
         secretcall: [
-            '<32>{#s/phone}{#p/event}* Ring, ring...',
+            '<32>{#s/phone}{#p/event}* Csing, csing...',
             '<18>{#p/papyrus}{#f/5}PAPYRUS HERE.',
             "<18>{#f/5}I'VE DECIDED I CAN'T HIDE AWAY ANY LONGER.",
             '<18>{#f/6}THE PEOPLE OUT THERE NEED MY HELP!',
@@ -603,7 +603,7 @@ export default {
             '<18>{#f/7}I REFUSE TO STAND AROUND AND DO NOTHING ALL DAY.',
             '<18>{#f/4}...',
             '<18>{#f/4}SEE YOU SOON.',
-            '<32>{#s/equip}{#p/event}* Click...'
+            '<32>{#s/equip}{#p/event}* Klikk...'
         ],
         story: {
             phonegrabber1: () => [
@@ -1150,7 +1150,7 @@ export default {
                                 : "<25>{#g/alphysUhButHeresTheDeal}* Actually, you don't even have it, so never mind.",
                             '<25>{|}{#g/alphysCutscene3}* Anyway see you at the elevator baiiii- {%}'
                         ]),
-                '<32>{#s/equip}{#p/event}* Click...'
+                '<32>{#s/equip}{#p/event}* Klikk...'
             ],
             puzzleReaction1: [
                 '<32>{#p/event}* Ring, ring...',
@@ -1298,7 +1298,7 @@ export default {
                 SAVE.data.n.state_foundry_undyne > 0
                     ? '<25>{#p/alphys}{#f/3}* G-good luck?'
                     : "<25>{#p/alphys}{#g/alphysHellYeah}* Now we're cooking!",
-                '<32>{#s/equip}{#p/event}* Click...',
+                '<32>{#s/equip}{#p/event}* Klikk...',
                 ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* This is absolutely bonkers.'])
             ],
             cooker13x: ['<32>{#p/human}* (You activated the jetpack.)'],
@@ -1806,7 +1806,7 @@ export default {
                 iFancyYourVilliany()
                     ? '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, DEAR $(moniker2u)?'
                     : '<32>{#p/mettaton}* YOU VOTING FOR ANYONE, HUMAN?',
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Igen', 'Nem')
             ],
             moneyVote4: () => [
                 '<32>{#p/mettaton}* NO, I MEAN -WHO- WILL YOU BE VOTING FOR?',
@@ -2155,7 +2155,7 @@ export default {
                         '<32>* (i watched mew mew space adventure with her one time...)',
                         '<32>* (she was... so happy......)'
                     ]),
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Igen', 'Nem')
             ],
             moneyWhisper2a: ['<32>{#p/napstablook}* (thanks...)'],
             moneyWhisper2b: ['<32>{#p/napstablook}* (..................)'],
@@ -2320,7 +2320,7 @@ export default {
                 '<32>{#p/napstablook}* so, uh...',
                 '<32>* do you think...\n* you can you help me with something...?',
                 "<33>* it's... kind of important......",
-                choicer.create('* (What do you say?)', 'Yes', 'No')
+                choicer.create('* (What do you say?)', 'Igen', 'Nem')
             ],
             hapsta1a: ['<32>{#p/napstablook}* okay.........', '<32>* this way.........'],
             hapsta1b: ['<32>{#p/napstablook}* oh.........', "<32>* i'll get out of your way, then........."],
@@ -2844,7 +2844,7 @@ export default {
                                 '<25>{#g/alphysNeutralSweat}{#x5}* But, uh, b-before I go...',
                                 '<25>{#f/10}* Would you mind... giving me back my Mew Mew doll?',
                                 '<25>{#f/3}* Please?',
-                                choicer.create('* (Give back the Mew Mew doll?)', 'Yes', 'No')
+                                choicer.create('* (Give back the Mew Mew doll?)', 'Igen', 'Nem')
                             ])
                     ])
             ],
@@ -3397,7 +3397,7 @@ export default {
                 ...(SAVE.data.b.svr
                     ? ['<32>{#p/human}* (It sounds like one of the bottles inside was opened...)']
                     : ['<32>{#p/basic}* One of the bottles has already been opened...']),
-                choicer.create('* (Take the opened bottle?)', 'Yes', 'No')
+                choicer.create('* (Take the opened bottle?)', 'Igen', 'Nem')
             ],
             doublefridge3: ["<32>{#p/human}* (You're carrying too much.)"],
             doublefridge4: ['<32>{#p/human}* (You got the Orange Soda.)'],
@@ -3417,7 +3417,7 @@ export default {
                 SAVE.data.b.svr
                     ? '<32>{#p/human}* (You feel the urge to drink from a fountain of punch.)'
                     : '<32>{#p/basic}* This extravagant fountain is filled with exoberry punch.',
-                choicer.create('* (Take a sip?)', 'Yes', 'No')
+                choicer.create('* (Take a sip?)', 'Igen', 'Nem')
             ],
             exofountain2a: ['<32>{#p/human}* (You chose not to take a sip.)'],
             exofountain2b: () => [
@@ -3436,7 +3436,7 @@ export default {
                     ? ["<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n* (It must be daydreaming.)"]
                     : [
                         '<32>{#p/basic}* The computer is on standby.\n* Turn it on?',
-                        choicer.create('* (Turn on the computer?)', 'Yes', 'No')
+                        choicer.create('* (Turn on the computer?)', 'Igen', 'Nem')
                     ],
             topdesk2: ['<32>{#p/human}* (You decide not to turn it on.)'],
             topdesk3: ["<32>{#p/basic}* It's opened to a video game emulator of some kind."],
@@ -3614,17 +3614,17 @@ export default {
             lift: {
                 elevatorStory1: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Mégse')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R2', 'Floor L2', 'Floor L3', 'Mégse')],
                 elevatorStory2: () =>
                     SAVE.data.n.plot < 64
-                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Cancel')]
-                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Cancel')],
+                        ? [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Mégse')]
+                        : [choicer.create('* (Where would you like to go?)', 'Floor R1', 'Floor L2', 'Floor L3', 'Mégse')],
                 elevatorStory3: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L3', 'Floor R1', 'Floor R2', 'Mégse')
                 ],
                 elevatorStory4: () => [
-                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Cancel')
+                    choicer.create('* (Where would you like to go?)', 'Floor L2', 'Floor R1', 'Floor R2', 'Mégse')
                 ],
                 elevatorStory5: () => [
                     "<32>{#p/basic}* It's de-activated.",
@@ -3647,27 +3647,27 @@ export default {
                             ],
                 elevator1: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Cancel', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Mégse', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator2: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Cancel', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Mégse', 'Floor L3', 'Floor R3')
                 ],
                 elevator3: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Cancel', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Mégse', 'Floor R2', 'Floor L3', 'Floor R3')
                 ],
                 elevator4: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Cancel', 'Floor R3')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Mégse', 'Floor R3')
                 ],
                 elevator5: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Cancel')
+                    choicer.create('', 'Floor L1', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Mégse')
                 ],
                 elevator6: () => [
                     '<32>{#p/human}* (Where would you like to go?)',
-                    choicer.create('', 'Cancel', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
+                    choicer.create('', 'Mégse', 'Floor R1', 'Floor L2', 'Floor R2', 'Floor L3', 'Floor R3')
                 ]
             },
             terminal1: () =>
@@ -4662,47 +4662,47 @@ export default {
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
                             "<25>{#g/alphysOhGodNo}* You're g-going to fall out of the normal plane...",
                             '<25>{#g/alphysSideSad}* I should p-probably pull you back.',
                             '<25>{#g/alphysThatSucks}* Sorry...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/alphys}{#g/alphysShocked}* Woah, stop!!',
                             "<25>{#g/alphysOhGodNo}* You c-c-can't... g-go that far out...",
                             "<26>{#g/alphysNeutralSweat}* I'd pull you back, but I'm... not at my desk.",
                             "<26>{#f/10}* S-so don't be stupid!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             "<25>{#p/alphys}{#g/alphysSideSad}* It's not safe to go that far...",
                             "<25>{#g/alphysNeutralSweat}* I'm gonna pull you back now.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/alphys}{#g/alphysShocked}* W-what are you doing!?',
                             "<26>{#f/3}* You're almost at the edge!",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ],
                 () =>
                     SAVE.data.n.state_foundry_undyne !== 1
                         ? [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/alphys}{#g/alphysWTF}* ...',
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]
                         : [
-                            '<32>{#s/phone}{#p/event}* Ring, ring...',
+                            '<32>{#s/phone}{#p/event}* Csing, csing...',
                             '<25>{#p/alphys}{#g/alphysIDK2}* ...',
                             "<25>{#p/alphys}{#g/alphysIDK3}* I guess... there's nothing I can say to stop you.",
-                            '<32>{#s/equip}{#p/event}* Click...'
+                            '<32>{#s/equip}{#p/event}* Klikk...'
                         ]
             ),
             puzzlestop1b: () =>
@@ -6090,28 +6090,28 @@ export default {
             ]
         ),
         elevator1: () => [
-            choicer.create('* (Where would you like to go?)', 'Cancel', 'CORE Start', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Mégse', 'CORE Start', 'CORE End', 'The Citadel')
         ],
-        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Cancel')],
+        elevatorStory1: () => [choicer.create('* (Where would you like to go?)', 'CORE Start', 'Mégse')],
         elevator2: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel', 'CORE End', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'Mégse', 'CORE End', 'The Citadel')
         ],
-        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Cancel')],
+        elevatorStory2: () => [choicer.create('* (Where would you like to go?)', 'Aerialis', 'Mégse')],
         elevator3: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Cancel', 'The Citadel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'Mégse', 'The Citadel')
         ],
-        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Cancel')],
+        elevatorStory3: () => [choicer.create('* (Where would you like to go?)', 'The Citadel', 'Mégse')],
         elevator4: () => [
-            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Cancel')
+            choicer.create('* (Where would you like to go?)', 'Aerialis', 'CORE Start', 'CORE End', 'Mégse')
         ],
         dinnerdate1: pager.create(
             0,
             () => [
                 "<25>{#p/sans}* hey, i heard you're visiting here.",
                 '<25>{#p/sans}{#f/2}* mind grabbing some dinner with me real quick?',
-                choicer.create('* (Have dinner?)', 'Yes', 'No')
+                choicer.create('* (Have dinner?)', 'Igen', 'Nem')
             ],
-            () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* (Have dinner?)', 'Yes', 'No')]
+            () => ['<25>{#p/sans}{#f/2}* changed your mind?', choicer.create('* (Have dinner?)', 'Igen', 'Nem')]
         ),
         dinnerdate2a: pager.create(
             0,
@@ -6281,7 +6281,7 @@ export default {
                     SAVE.data.b.svr
                         ? '<32>{#p/human}* (You approach the vending machine.)'
                         : "<32>{#p/basic}* It's a filament-exclusive vending machine.",
-                    choicer.create('* (Buy the Filament for 40G?)', 'Yes', 'No')
+                    choicer.create('* (Buy the Filament for 40G?)', 'Igen', 'Nem')
                 ],
         candy2: ["<32>{#p/human}* (You don't have enough G.)"],
         candy3: ["<32>{#p/human}* (You're carrying too much.)"],
@@ -6305,7 +6305,7 @@ export default {
                             '<32>{#p/basic}{#npc/a}* Welcome to Four Dimensions, the hotel where sleep meets the edge of perception.',
                             "<32>* Once you reserve a room with us, it's yours forever.",
                             "<32>* We've got a junior suite open on the left stack for 300G.\n* Interested?{#npc}",
-                            choicer.create('* (Own a room?)', 'Yes', 'No')
+                            choicer.create('* (Own a room?)', 'Igen', 'Nem')
                         ],
             () =>
                 SAVE.data.n.plot === 72
@@ -6314,7 +6314,7 @@ export default {
                         ? ['<32>{#p/basic}{#npc/a}* Until next time!']
                         : [
                             '<32>{#p/basic}{#npc/a}* 300G to own a junior suite.\n* Interested?{#npc}',
-                            choicer.create('* (Own a room?)', 'Yes', 'No')
+                            choicer.create('* (Own a room?)', 'Igen', 'Nem')
                         ]
         ),
         bedreceptionist2a: [
@@ -7953,7 +7953,7 @@ export default {
                     : 'Would you attack a ghost?',
         qa: () =>
             SAVE.data.b.a_state_hapstablook
-                ? ['Yes', 'No', 'Hug it out!', 'Forgive\nand forget.']
+                ? ['Igen', 'Nem', 'Hug it out!', 'Forgive\nand forget.']
                 : !world.badder_lizard
                     ? ['Heck Yeah', 'HELL YEAH', 'Absolutely!', 'Without\nHesitation.']
                     : ['I Could', 'I Should', 'I Will', 'If I\nHave To.'],
@@ -9459,15 +9459,15 @@ export default {
         old_spray: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Sugar Spray.)', '<32>{#p/human}* (Nothing happens.)'],
+                : ['<32>{#p/human}* (You took out the Sugar Spray.)', '<32>{#p/human}* (Semmi nem történik.)'],
         old_gun: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Stun Gun.)', '<32>{#p/human}* (Nothing happens.)'],
+                : ['<32>{#p/human}* (You took out the Stun Gun.)', '<32>{#p/human}* (Semmi nem történik.)'],
         old_bomb: () =>
             battler.volatile[battler.targetOverride!].opponent.metadata.reactOld
                 ? []
-                : ['<32>{#p/human}* (You took out the Sleep Bomb.)', '<32>{#p/human}* (Nothing happens.)']
+                : ['<32>{#p/human}* (You took out the Sleep Bomb.)', '<32>{#p/human}* (Semmi nem történik.)']
     },
 
     c_name_aerialis: {
@@ -10095,7 +10095,7 @@ export default {
 
     m_aerialis: {
         sidebarCellPms1: () => (world.bad_lizard < 2 ? 'POSTS (NEWEST FIRST)' : 'PRIVATE MESSAGES (NEWEST FIRST)'),
-        sidebarCellPms2: 'Press [X] to Finish',
+        sidebarCellPms2: 'Nyomj [x]-et a befejezéshez',
         sidebarCellPms3: {
             alphysBadLizard: {
                 author: 'SYSTEM',
@@ -10846,7 +10846,7 @@ export default {
                     '0G - Hold Yer Grane',
                     '0G - Slamburger',
                     SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "0G - Glyde's Envy",
-                    'Exit'
+                    'Kilépés'
                 ]
                 : SAVE.data.n.plot === 72
                     ? [
@@ -10854,7 +10854,7 @@ export default {
                         '10G - Hold Yer Grane',
                         '5G - Slamburger',
                         SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "49G - Glyde's Envy",
-                        'Exit'
+                        'Kilépés'
                     ]
                     : world.genocide || world.killed0 || burger()
                         ? [
@@ -10862,14 +10862,14 @@ export default {
                             '60G - Hold Yer Pain',
                             '48G - Slamdunker',
                             SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "138G - Undyne's Envy",
-                            'Exit'
+                            'Kilépés'
                         ]
                         : [
                             '16G - Starfaint',
                             '30G - Hold Yer Grane',
                             '24G - Slamburger',
                             SAVE.data.b.item_face_steak ? '§fill=#808080§--- UNAVAILABLE ---' : "69G - Glyde's Envy",
-                            'Exit'
+                            'Kilépés'
                         ],
         itemInfo: () =>
             world.genocide || world.killed0 || burger()
@@ -10913,7 +10913,7 @@ export default {
                     ? '<09>{#p/basic}{#k/5}Sorry, that was one of a kind.'
                     : '<09>{#p/basic}{#k/4}Sorry, that was one of a kind.',
         menu: () =>
-            world.runaway ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            world.runaway ? ['Take', 'Steal', 'Read', 'Kilépés'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Beszéd', 'Kilépés'],
         menuPrompt1: () =>
             world.population === 0 || burger()
                 ? world.bullied && !world.genocide && !burger()
@@ -10959,7 +10959,7 @@ export default {
                     : ["<30>{#p/basic}{#k/6}* It's not happening, pal."],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', 'Exit']
+                ? ['Romantic Advice', 'Mettaton', 'Where To Go Next', 'My Future', 'Kilépés']
                 : [
                     ['Life Advice', '§fill=#ff0§Taking Charge (NEW)', 'Taking Charge'][
                     Math.min(SAVE.data.n.shop_bpants_advice, 2)
@@ -10969,7 +10969,7 @@ export default {
                         ? 'Power Outage'
                         : ['Where We Are', '§fill=#ff0§Glyde (NEW)', 'Glyde'][Math.min(SAVE.data.n.shop_bpants_hub, 2)],
                     'Your Future',
-                    'Exit'
+                    'Kilépés'
                 ],
         talkPrompt: () =>
             world.population === 0 || burger()
@@ -11149,14 +11149,14 @@ export default {
                     SAVE.data.b.item_laser ? '0G - Laser Rifle?' : '0G - Laser Rifle',
                     SAVE.data.b.item_visor ? '0G - Tactical Visor?' : '0G - Tactical Visor',
                     SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '0G - Mystery Key',
-                    'Exit'
+                    'Kilépés'
                 ]
                 : [
                     '5G - Space Junk',
                     SAVE.data.b.item_laser ? '60G - Laser Rifle?' : '70G - Laser Rifle',
                     SAVE.data.b.item_visor ? '60G - Tactical Visor?' : '70G - Tactical Visor',
                     SAVE.data.b.item_mystery_key ? '§fill=#808080§--- UNAVAILABLE ---' : '400G - Mystery Key',
-                    'Exit'
+                    'Kilépés'
                 ],
         itemInfo: () => [
             'Heals ??HP\nCould be\nanything.',
@@ -11188,7 +11188,7 @@ export default {
                 ? '<09>{#p/basic}Nothing left.'
                 : "<09>{#p/basic}{#k/5/1}{@fill=#d4bbff}We're all sold out!\nMee-YOW!",
         menu: () =>
-            adultEvac() ? ['Take', 'Steal', 'Read', 'Exit'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Talk', 'Exit'],
+            adultEvac() ? ['Take', 'Steal', 'Read', 'Kilépés'] : ['Buy', world.meanie ? 'Steal' : 'Sell', 'Beszéd', 'Kilépés'],
         menuPrompt1: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!',
         menuPrompt2: '<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything.',
         menuPrompt3: () =>
@@ -11364,7 +11364,7 @@ export default {
                     ],
         talk: () =>
             SAVE.data.n.plot === 72
-                ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', 'Exit']
+                ? ['Is Everyone Okay', 'Godlike Being', 'OuterNet Shutdown', 'The Humans', 'Kilépés']
                 : [
                     'About You Two',
                     SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grand Finale',
@@ -11372,7 +11372,7 @@ export default {
                     ['Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', 'Asgore'][
                     Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                     ],
-                    'Exit'
+                    'Kilépés'
                 ],
         talkPrompt: "<09>{#p/basic}{#k/0/0}{@fill=#ffbbdc}So, like, what's up?",
         talkText: [

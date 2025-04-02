@@ -3593,7 +3593,7 @@ export default {
                     : ['<32>{#p/napstablook}* ...', "<32>* ei...\n* mesmo que minha família não esteja tão bem..."]),
                 '<32>* aquele humano que eu adotei é... bem legal, heh',
                 "<32>* ele disse que eu sou o monstro favorito dele...",
-                '<32>* ... sabendo o que eles passaram no arquivo, isso realmente significa alguma coisa.',
+                '<32>* ... sabendo o que eles passaram no arquivo, isso realmente significa algo.',
                 '<32>* e... ele sempre dá um jeito de me fazer sorrir.',
                 '<32>* tipo, algumas horas atrás quando as paredes ainda estavam sendo erguidas...',
                 '<32>* ele queria ir lá fora ver a construção antes de ser tarde demais.',
@@ -3806,7 +3806,7 @@ export default {
         computer3: ['<32>{#p/human}* (Você decide não inserir.)'],
         computer4: [
             '<32>{#p/basic}* Ah!\n* Obrigado!\n* Muito obrigado!',
-            '<32>* Você realmente tomou conta de mim!\n* Você achou um computador bem longe de hoje eu estou!',
+            '<32>* Você realmente tomou conta de mim! Você achou um CPU bem longe de hoje eu estou!',
             '<32>* ...',
             '<32>* Eu estabeleci uma conexão entre este computador e meu corpo no outpost.',
             '<32>* ...',
@@ -3881,9 +3881,9 @@ export default {
                     '<32>* Para Asriel e eu, foi o ponto de partida de inúmeras aventuras...',
                     '<33>* ... correndo destemidamente pelos vários cômodos da casa.',
                     '<32>* Eu sei, certo?\n* Bem aventurado.',
-                    '<32>* Infelizmente, tivemos que parar após o espelho ser quebrado em pedaços setecentas vezes.',
+                    '<32>* Tivemos que parar após o espelho ser quebrado em pedaços setecentas vezes.',
                     "<32>* Você não acreditaria nas minhas desculpas...",
-                    '<33>* Como quando culpei um colisor de partículas por atirar em um átomo perdido da Terra para o Outpost.',
+                    '<33>* Como quando culpei um colisor de partículas por atirar em um átomo perdido da Terra.',
                     '<33>* E de alguma forma acertou o vidro porque ele \"passou\" pela parede.',
                     "<32>* Sim... essa pode ter sido um exagero."
                 ],
@@ -3914,7 +3914,7 @@ export default {
                 [
                     "<32>{#p/basic}* Ooh... quarto do Asgore.",
                     '<32>* O grandão com certeza ama diários, né?',
-                    "<32>* Mesmo que ele ainda não tenha escrito nada naquela ali, tenho certeza que ele o fará logo, logo.",
+                    "<32>* Mesmo que ele ainda não tenha escrito nada, eu sei que ele o fará logo, logo.",
                     '<32>* Ler eles sempre foi um prazer pecaminoso meu...'
                 ],
                 [
@@ -3937,7 +3937,7 @@ export default {
                     "<32>{#p/basic}* Eu dei uma olhada lá fora, e eles AINDA estão trabalhando na construção.",
                     '<32>* A parte toda da frente da casa está uma bagunça.',
                     "<32>* E Asgore... AINDA mexendo no chão...",
-                    '<32>* ... enquanto os atuais trabalhadora do CORE tomam seu belo, belo tempo construindo a base.',
+                    '<32>* ... enquanto os atuais trabalhadores do CORE tomam seu tempo construindo a base.',
                     "<32>* Me pergunto como vai se parecer quando estiver pronto...",
                     "<32>* Com fé, já que Asgore está no controle, vai se parecer bem melhor que seu antecessor."
                 ],
@@ -4062,16 +4062,16 @@ export default {
                     '<32>* Me pergunto se os pássaros estão dizendo algo interessante.',
                     '<33>* Como \"essa é uma bela casa!\"\n* Ou \"o clima está ótimo hoje.\"',
                     "<32>* Talvez eles não gostem da casa OU do clima.\n* Isso seria... bem paia.",
-                    "<32>* Talvez eles nem sejam pássaros.\n* Quem sabe o tipo de som que pássaros fazem.",
+                    "<32>* Talvez eles nem sejam pássaros. Quem sabe o tipo de som que eles fazem.",
                     '<32>* Quem sabe se pássaros sequer existem aqui.',
-                    "<33>* Pelo que sabemos, o que estamos ouvindo são os gritos dos condenados enterrados nas profundezas do subsolo."
+                    "<33>* Pelo que sabemos, a gente pode estar ouvindo os gritos de condenados enterrados."
                 ],
                 [
-                    '<32>{#p/basic}* Após os monstros viverem aqui o suficiente, talvez este planeta ganhe algum tipo de magia.',
+                    '<32>{#p/basic}* Após os monstros viverem aqui o suficiente, talvez este planeta ganhe magia.',
                     '<32>* Se isso acontecer, os animais seriam afetados, também?',
                     '<32>* Eles começariam a ter consciência?\n* Nos entender?',
                     '<32>* Nós entenderiam os eles?',
-                    "<33>* Se o que estamos escutando SÃO realmente os choros dos condenados, então eu não sei se quero isso."
+                    "<33>* Se o que estamos escutando SÃO realmente os choros dos condenados, então ferrou."
                 ],
                 [
                     '<32>{#p/basic}* Mas é, planeta com magia.',
@@ -4092,7 +4092,7 @@ export default {
                     '<32>* Depois disso é só queda.'
                 ],
                 [
-                    "<32>{#p/basic}* E se não estivéssemos enterrados em uma selva, poderia ser ladeira abaixo a partir daqui também.",
+                    "<32>{#p/basic}* E se não estivéssemos enterrados em uma selva, poderia ser ladeira abaixo.",
                     '<32>* Não que eu culpe o Asgore por uma escolher área de risco baixo.',
                     "<32>* Ele tem duas crianças adotadas para pensar sobre agora...",
                     '<32>* Sem mencionar seu próprio filho.'
@@ -4209,7 +4209,7 @@ export default {
             '<25>{#p/asriel1}{#f/21}* Uh... eu...',
             "<25>{#f/20}* Bem, acho melhor se nós nos atarmos apenas a corridas."
         ],
-        balcony6a: ["<25>{#p/kidd}{#f/6}* Você não tá com medo de ficar com a gosma vermelha em cima de você, não é?"],
+        balcony6a: ["<25>{#p/kidd}{#f/6}* Você não tá com medo de tocar na gosma vermelha, não é?"],
         balcony7a: [
             '<25>{#p/asriel1}{#f/8}* ... ugh, é claro que não, seu idiota, é só que-',
             '<25>{#p/kidd}{#f/8}* ...',
@@ -4236,7 +4236,7 @@ export default {
             "<25>{#p/kidd}{#f/1}* O que é um levantamento geológico?",
             '<25>{#p/asriel1}{#f/15}* ...',
             '<25>{#f/15}* Os túbulos são uma região feita de... uh, tubos.',
-            '<26>{#f/17}* Tubos grandes formam penhascos, tubos médios formam colinas e tubos pequenos, bem...',
+            '<26>{#f/17}* Tubos grandes penhascos, tubos médios colinas e tubos pequenos, bem...',
             "<25>{#f/20}* Eles não fazem muita coisa, eu acho.",
             '<25>{#p/kidd}{#f/1}* Oh!\n* Isso faz sentido!'
         ],
@@ -4246,10 +4246,10 @@ export default {
             '<25>{#p/asriel1}{#f/10}* Hmm...\n* Sem dúvidas devem ter...'
         ],
         balcony15a: () => [
-            '<25>{#p/kidd}{#f/7}* Yo... que tal formarmos um grupo de exploração!\n* Para alcançar as estrelas!',
+            '<25>{#p/kidd}{#f/7}* Yo... que tal formarmos um grupo de exploração!\n* Para as estrelas!',
             '<25>{#p/asriel1}{#f/27}* ... huh.',
             "<25>{#p/kidd}{#f/6}* Nós começamos por este planeta, achando tudo que podemos...",
-            "<26>{#p/kidd}{#f/1}* Então partimos para outros mundos e logo faríamos um gigante mapa da galáxia!",
+            "<26>{#p/kidd}{#f/1}* Então partimos para outros mundos e logo faríamos um mapa!",
             ...(SAVE.data.b.c_state_secret2_used
                 ? ["<26>{#p/kidd}{#f/13}* E nós devíamos totalmente ter um aperto de mão secreto!\n* Igual o Gerson!"]
                 : []),
@@ -4258,7 +4258,7 @@ export default {
                     ...(SAVE.data.b.c_state_secret2_used
                         ? ["<25>{#p/asriel1}{#f/13}* Com sorte, nós bateremos de frente com outros raças na galáxia, também."]
                         : ["<25>{#p/asriel1}{#f/13}* Com sorte nós estaremos explorando outras galáxias também."]),
-                    "<25>{#f/13}* As viagens por buraco de minhoca da Dr. Alphys irão facilitar este processo.",
+                    "<25>{#f/13}* As viagens por buraco de minhoca da Dr. Alphys irão facilitar.",
                     "<25>{#f/17}* Nós vamos fazer uma exploração pan-galatica."
                 ]
                 : [
@@ -4300,7 +4300,7 @@ export default {
             '<32>* ... você pode.'
         ],
         balcony26a2: [
-            "<32>{#p/basic}* Ter essa ALMA extra dentro de mim deve ter tornado um mais difícil de aparecer visualmente...",
+            "<32>{#p/basic}* Ter essa ALMA extra dentro de mim deve ter tornado um mais difícil de aparecer...",
             '<32>* De volta no Outpost, quando eu finalmente consegui fazer isso...',
             '<32>* Essa mesma ALMA foi lançada pouco depois.',
             "<32>* ... eu acho que isso significa que você será visível o tempo todo agora?",
@@ -4309,7 +4309,7 @@ export default {
         balcony27a: ['<25>{#p/kidd}{#f/7}* Espera, você também é humano!?'],
         balcony28a: [
             '<32>{#p/basic}* Como é?',
-            "<33>* Eu sou um FANTASMA humano que quer que seu irmão CABRA seja feliz.\n* Acerte. Caramba."
+            "<33>* Eu sou um FANTASMA humano que quer que seu irmão CABRA seja feliz. Acerte. Caramba."
         ],
         balcony29a: ['<25>{#p/kidd}{#f/14}* ... Asriel é seu irmão!?', '<25>{#p/kidd}{#f/4}* Isso é demais pra absorver...'],
         balcony30a: ["<25>{#p/kidd}{#f/1}* Mas, uh, todo vocês são legais pra caramba, então eu ficarei bem."],
@@ -4320,7 +4320,7 @@ export default {
             '<25>{#f/20}* E da galáxia.',
             "<25>{#f/13}* E do futuro, já que o Frisk não vai deixar vocês tão cedo.",
             '<25>{#f/15}* E depois de morrer... conhecê-los cem anos depois...',
-            '<25>{#f/17}* Etc, etc, etc. Em várias das circunstâncias radicais.'
+            '<25>{#f/17}* Etc. Em várias das circunstâncias radicais.'
         ],
         balcony33a: [
             "<32>{#p/basic}* Pfft.\n* Você é engraçado Asriel.",
@@ -4345,7 +4345,7 @@ export default {
             '<25>{#f/1}* Com amigos como vocês, viver aqui será a melhor experiência!'
         ],
         balcony37a: [
-            "<33>{#p/basic}* ... heh.\n* Se fossemos apenas amigos, talvez.\n* Mas somos mais que isso.",
+            "<33>{#p/basic}* Se fossemos apenas amigos, talvez.\n* Mas somos mais que isso.",
             '<25>{#p/kidd}{#f/7}* ...?'
         ],
         balcony38a: ["<25>{#p/asriel1}{#f/17}* Nós somos sua família."],
@@ -4475,7 +4475,7 @@ export default {
                 ...(SAVE.data.b.ufokinwotm8
                     ? []
                     : [
-                        '<33>{#p/basic}* É um guia de cinco passos sobre como amar à vida ligada ao planeta.\n* Todos eles equivalem a \"divirta-se.\"'
+                        '<33>{#p/basic}* É um guia sobre como amar a vida no planeta. Tudo equivale a \"divirta-se.\"'
                     ])
             ],
             x_sign2: () => [
@@ -4501,7 +4501,7 @@ export default {
                     : [
                         ...(SAVE.data.b.svr
                             ? [
-                                '<32>{#p/human}* (Você olha para o diário vazio, se questionado das histórias que ainda serão contadas.)'
+                                '<32>{#p/human}* (Você olha para o diário vazio, histórias ainda serão contadas.)'
                             ]
                             : []),
                         "<32>{#p/basic}* É um diário.\n* Está completamente em branco.",
@@ -4550,7 +4550,7 @@ export default {
                         '<32>{#p/human}* (Você lê a primeira e única entrada...)',
                         '<32>{#p/kidding}* \"Então Asgore é meu pai agora huh? É estranho, mas tão LEGAL!\"',
                         '<32>{#p/kidding}* \"Asgore disse que eu deveria arranjar umas roupas novas, então talvez eu faça isso.\"',
-                        '<32>{#p/kidding}* \"Ele também disse que eu deveria começar a escrever meus pensamentos em um diário.\"',
+                        '<32>{#p/kidding}* \"Ele disse que eu deveria começar a escrever meu dia em um diário.\"',
                         '<32>{#p/kidding}* \"Eu sou muito bom em leitura e escrita, então isso deve ser fácil.\"',
                         '<32>{#p/kidding}* \"E Frisk pode me ajudar se eu fizer algo errado!\"',
                         '<32>{#p/kidding}* \"Frisk se você estiver lendo isso me avise se eu fiz algo errado.\"',
@@ -4564,7 +4564,7 @@ export default {
             ],
             x_knickknacks: () => [
                 ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-                    ? ['<32>{#p/human}* (Você reorganiza as bugigangas para passar o tempo.)\n* (Você espera que ninguém perceba.)']
+                    ? ['<32>{#p/human}* (Você reorganiza as bugigangas para passar o tempo.)']
                     : []),
                 ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* É uma prateleira cheia de brinquedos e bugigangas."])
             ],
@@ -4659,7 +4659,7 @@ export default {
                                 : [
                                     '<32>{#p/basic}* Os livros estão todos em branco, mas são preenchidos com texto do livro de sua escolha.'
                                 ]),
-                            "<32>{#p/human}* (Você seleciona um livro do painel de controle, e escolhe pega assim que estiver pronto...)",
+                            "<32>{#p/human}* (Você seleciona um livro da prateleira, e escolhe pegar quando estiver pronto...)",
                             ...pages(),
                             '<32>{#p/human}* (Você coloca o livro de volta.)'
                         ];
@@ -4747,7 +4747,7 @@ export default {
                 ...(SAVE.data.b.ufokinwotm8
                     ? []
                     : [
-                        "<32>{#p/basic}* É um foto digital por frame.\n* Tudo que precisa agora são algumas boas memórias com visual."
+                        "<32>{#p/basic}* É um foto digital por frame.\n* Tudo que precisa agora são algumas boas memórias."
                     ])
             ],
             x_chair1: () => [
@@ -4818,7 +4818,7 @@ export default {
                                 '<32>{#p/basic}* A geladeira está quase vazia, exceto por uma única garrafa de ponche exoberry da Undyne.'
                             ],
                             [
-                                '<32>{#p/basic}* O freezer está praticamente vazio, salvo apenas por uma caneca de chocolate quente da Undyne.',
+                                '<32>{#p/basic}* O freezer está praticamente vazio, salvo apenas pelo chocolate quente da Undyne.',
                                 "<32>* ... já está bem fria agora."
                             ],
                             [
@@ -5643,7 +5643,7 @@ export default {
         mkTurnFight3b: ['<32>* Hi-yah...!'],
         mkTurnFight3c: ['<32>* Wa-POW!'],
         mkTurnMercy1: ['<32>{#p/kidding}* Poupar?\n* Eu só deixo eles irem?', "<32>{#p/kidding}* Haha, isso é fácil!"],
-        mkTurnX: () => [choicer.create('* (O que a Criança Monstro deveria fazer?)', 'Piedade', 'Agir', 'Magia', 'Lutar')]
+        mkTurnX: () => [choicer.create('* (Ação da Criança Monstro?)', 'Piedade', 'Agir', 'Magia', 'Lutar')]
     },
 
     c_name_common: {

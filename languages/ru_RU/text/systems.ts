@@ -199,8 +199,8 @@ export default {
             ],
             p_page: {
                 header: 'NAVIGATION',
-                prev: 'Пред',
-                next: 'След'
+                prev: 'Пред.',
+                next: 'След.'
             },
             prompt: 'Enter Value',
             back: 'Back'
@@ -208,7 +208,7 @@ export default {
         storage: {
             tab: 'STORAGE',
             header: 'STORAGE EDITOR',
-            p_container: { header: 'SELECTION', prev: 'Пред', next: 'След' },
+            p_container: { header: 'SELECTION', prev: 'Пред.', next: 'След.' },
             display: { inventory: 'Inventory', dimboxA: 'Dim. Box A', dimboxB: 'Dim. Box B' }
         }
     },

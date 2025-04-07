@@ -6889,10 +6889,10 @@ atlas.navigators.register({
                 const row = 3 - Math.ceil(choicer.optioncount / 2) + Math.floor(index / 2);
                 if (row < 3) {
                     this.position.set(
-                        18 + (index % 2 === 0 ? 6 : 6 + 16) * 8 - (choicer.navigator === 'battlerAdvancedText' ? 4 : 0),
+                        18 + (index % 2 === 0 ? 4 : 4 + 15) * 8 - (choicer.navigator === 'battlerAdvancedText' ? 4 : 0),
                         choicer.navigator === 'battlerAdvancedText'
-                            ? 139 + row * 16
-                            : (choicer.navigator === 'dialoguerTop' ? 19 : 174) + row * 19
+                            ? 139 + row * 18
+                            : (choicer.navigator === 'dialoguerTop' ? 19 : 174) + row * 18
                     );
                 }
             });

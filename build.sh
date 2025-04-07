@@ -56,6 +56,8 @@ wait
 create_zip "linux-unpacked" "linux.zip" &
 create_zip "win-unpacked" "win.zip" &
 create_zip "win-ia32-unpacked" "win7x32.zip" &
+create_zip "win-arm64-unpacked" "winarm64.zip" &
+create_zip "linux-arm64-unpacked" "linuxarm64.zip" &
 wait
 
 echo build done

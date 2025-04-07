@@ -1250,7 +1250,7 @@ const opponents = {
                         anchor: { y: 1 },
                         position: { x: 23, y: -50 },
                         size: { x: 18 },
-                        fill: 0xffffff,
+                        fill: SAVE.flag.s.$option_colorMode !== 'default' ? 0xffe7bd : 0xffffff,
                         objects: [
                             new CosmosAnimation({
                                 active: true,
@@ -1272,6 +1272,7 @@ const opponents = {
                         const mercymod = volatile.vars.mercymod || 0;
                         this.size.y = mercymod / 8 + 5;
                         this.objects[0].position.y = mercymod / -8 - 5;
+                        this.fill = SAVE.flag.s.$option_colorMode !== 'default' ? 0xffe7bd : 0xffffff;
                     }),
                     new CosmosRectangle({
                         position: { x: 61, y: -120 },

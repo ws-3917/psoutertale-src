@@ -277,7 +277,7 @@ export class BorderManager {
         const temp = this.activeBorder;
         this.activeBorder = this.inactiveBorder;
         this.inactiveBorder = temp;
-        this.activeBorder.style.backgroundImage = `url(${this.currentBorder[0]})`;
+        this.activeBorder.style.backgroundImage = `url(${encodeURIComponent(this.currentBorder[0])})`;
         this.activeBorder.style.opacity = '1';
         this.inactiveBorder.style.opacity = '0';
     };

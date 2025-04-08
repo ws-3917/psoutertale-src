@@ -36,7 +36,7 @@
     "scripts": {
         "build": "bash build.sh",
         "build-apk": "cordova build android",
-        "build-app": "electron-builder build --win --linux --dir --x64 --project app",
+        "build-app": "electron-builder build --win --linux --dir --x64 --arm64 --project app",
         "build-assets": "vite build",
         "build-platforms": "cordova platform add android",
         "build-types": "tsc --declaration --emitDeclarationOnly --outDir app",

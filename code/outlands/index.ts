@@ -104,6 +104,7 @@ import {
 import { toriCheck, toriSV } from './extras';
 import groups from './groups';
 import { torielSpareState } from './opponents';
+import { extras } from '../systems/extras';
 
 export async function AWAKEN(TRANSITION: CosmosObject) {
     player.face = 'right';
@@ -346,12 +347,14 @@ export function walkHer(
         await renderer.on('tick');
         // WS3917 - added speed parameter to allow for different speeds
         // depends on player's speed
-        let delta = renderer.speed.value * (game.movement ? game.mspeed_last : 1);
+        let speedmultiplier = (game.movement && extras.mspeed > 0 ? extras.mspeed_last : 1);
+        let delta = renderer.speed.value;
         while (delta > 0) {
+            speedmultiplier = (game.movement && extras.mspeed > 0 ? extras.mspeed_last : 1);
             if (entity.metadata.stopped === true) {
                 entity.move({ x: 0, y: 0 }, renderer);
             } else {
-                entity.move({ x: direction.x, y: direction.y }, renderer);
+                entity.move({ x: direction.x * speedmultiplier, y: direction.y * speedmultiplier}, renderer);
             }
             if (threshold(entity.position)) {
                 delta--;

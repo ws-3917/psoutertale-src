@@ -6420,7 +6420,7 @@ export default {
                     : !SAVE.data.b.killed_madjick
                         ? [
                             '<25>{#p/alphys}{#g/alphysNervousLaugh}* 呼...',
-                            "<25>{#g/alphysNeutralSweat}\n* 希-希望别再出这种事了。",
+                            "<25>{#g/alphysNeutralSweat}* 希-希望别再出这种事了。",
                             ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ...看来你根本用不着我帮忙。"])
                         ]
                         : world.bad_lizard === 0

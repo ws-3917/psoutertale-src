@@ -134,6 +134,7 @@ import {
     Vow
 } from './storyteller';
 import { translator, translatorImages } from './translator';
+import { extras } from './extras';
 export type KeymapKey = 'z' | 'x' | 'c' | 'l' | 'u' | 'r' | 'd' | 'lu' | 'ru' | 'rd' | 'ld';
 for (const key in values) {
     translator.addControl(
@@ -2554,10 +2555,11 @@ export const battler = {
     },
     // vapor effect
     async vaporize(
+        // WS3917 - modify the filter threshold
         sprite: CosmosSprite,
         {
             rate = 4,
-            filter = (color: number): boolean => color === 0xffffff,
+            filter = (color: number): boolean => (0.299 * ((color >> 16) & 0xff) + 0.587 * ((color >> 8) & 0xff) + 0.114 * (color & 0xff)) >= 0x1f,
             handler = null as ((increment: number) => void) | null
         } = {}
     ) {
@@ -6889,7 +6891,7 @@ atlas.navigators.register({
                 const row = 3 - Math.ceil(choicer.optioncount / 2) + Math.floor(index / 2);
                 if (row < 3) {
                     this.position.set(
-                        18 + (index % 2 === 0 ? 4 : 4 + 15) * 8 - (choicer.navigator === 'battlerAdvancedText' ? 4 : 0),
+                        18 + (index % 2 === 0 ? 5 : 5 + 14) * 8 - (choicer.navigator === 'battlerAdvancedText' ? 4 : 0),
                         choicer.navigator === 'battlerAdvancedText'
                             ? 139 + row * 18
                             : (choicer.navigator === 'dialoguerTop' ? 19 : 174) + row * 18
@@ -10742,8 +10744,10 @@ renderer.on('tick', () => {
             const base = player.position.value();
             const mSpeed = (keyState.special ? game.sprint ? 3 : SAVE.flag.b.$option_running ? 2 : 1 : 1) * player.metadata.speed;
             game.mspeed = mSpeed;
+            extras.mspeed = mSpeed;
             if (mSpeed > 0) {
                 game.mspeed_last = mSpeed;
+                extras.mspeed_last = mSpeed
             }
             let mSpeedPool = mSpeed * 3;
             while (mSpeedPool !== 0) {
@@ -10807,6 +10811,7 @@ renderer.on('tick', () => {
             }
         } else {
             game.mspeed = 0;
+            extras.mspeed = 0;
             player.move({ x: 0, y: 0 }, renderer);
         }
     }

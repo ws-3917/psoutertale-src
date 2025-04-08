@@ -13,14 +13,14 @@ export default {
         flee2: "    * Eltűntem innen.",
         flee3: "    * Van jobb dolgom.",
         flee4: "    * Ne lassíts le.",
-        flee5: '    * Megszökve $(x) TP-vel\n\n      és $(y)A-val.',
+        flee5: '    * Megszökve $(x) TP-vel\n      és $(y)A-val.',
 
         mercy_assist: '* Segítség',
         mercy_flee: '* Szökés',
         mercy_spare: '* Kímélet',
 
         victory1: '<32>{#p/story}* GYŐZTÉL!\n* Elnyertél $(x) TP-t és $(y)A-t.',
-        victory2: '<32>{#p/story}* GYŐZTÉL!\n\n* Elnyertél $(x) TP-t és $(y)A-t.\n\n* A SZERETETED emelkedett.'
+        victory2: '<32>{#p/story}* GYŐZTÉL!\n* Elnyertél $(x) TP-t és $(y)A-t.\n* A SZERETETED emelkedett.'
     },
 
     developer: {
@@ -200,7 +200,7 @@ export default {
             p_page: {
                 header: 'NAVIGÁCIÓ',
                 prev: 'Előző',
-                next: 'Következő'
+                next: 'Köv.'
             },
             prompt: 'Érték megadása',
             back: 'Vissza'
@@ -208,7 +208,7 @@ export default {
         storage: {
             tab: 'TÁROLÓ',
             header: 'TÁROLÓ SZERKESZTŐ',
-            p_container: { header: 'KIVÁLASZTÁS', prev: 'Előző', next: 'Következő' },
+            p_container: { header: 'KIVÁLASZTÁS', prev: 'Előző', next: 'Köv.' },
             display: { inventory: 'Leltár', dimboxA: 'Dim. Doboz A', dimboxB: 'Dim. Doboz B' }
         }
     },
@@ -223,7 +223,7 @@ export default {
         message_alert: ['OK'],
         message_confirm: ['Mégse', 'OK'],
         prompt_clear: 'Fájl ürítése?',
-        prompt_demo: 'A MENTÉS fájlod az\n\nOUTERTALE demo-ból áthelyezve\n\negy idővonal helyre.',
+        prompt_demo: 'A MENTÉS fájlod az\nOUTERTALE demo-ból áthelyezve\negy idővonal helyre.',
         prompt_save: 'Fájl mentése?',
         prompt_clear_mobile: 'Törlöd a mobil beállításokat?\nEz NEM fogja törölni\na MENTÉSI fájlod.',
         prompt_save_alternate: 'Másold az alábbi szöveget\negy JSON fájlba, hogy\neszközödre mentsd.',
@@ -907,7 +907,7 @@ export default {
         hp: 'ÉP',
         inf: '\u221e',
         landing1: '[NYOMJ Z-T VAGY ENTERT]',
-        lv: 'SZRT',
+        lv: 'ST',
         mystery1: '§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§',
         mystery2: '{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
         mystery2l: '{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}',
@@ -940,8 +940,8 @@ export default {
         heal4: '* (ÉP teljesen elfogyott.)',
         heal5: '* (Szereztél $(x) ÉP-t.)',
 
-        item1: 'HASZNÁL',
-        item2: 'FELSZREREL',
+        item1: 'HASZ.',
+        item2: 'VISEL',
         item3: 'INFÓ',
         item4: 'KIDOB',
 
@@ -1127,7 +1127,7 @@ export default {
         stat12: 'STÁTUSZ',
         stat13: '\"$(x)\"',
 
-        story1: ['<24>{#p/storyteller}Réges rég, két faj uralta a Naprendszert: EMBEREK és SZÖRNYEKS.{^35}{}'],
+        story1: ['<24>{#p/storyteller}Réges rég, két faj uralta a Naprendszert: EMBEREK és SZÖRNYEK.{^35}{}'],
         story2: ['<24>Az idő teltével, háború tört ki a két faj között.{^35}{}'],
         story3: ["<24>Miután a SZÖRNYEK bolygója elpusztult, az EMBEREK kikiáltották a győzelmet.{^35}{}"],
         story4: ['<24>A fennmaradó SZÖRNYEKET egy elhagyott támaszpontra száműzték.{^35}{}'],

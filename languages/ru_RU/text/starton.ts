@@ -3939,95 +3939,95 @@ export default {
             '<32>* All of monsterkind are doomed to live out here forever...'
         ],
         robot11: ['<32>{#p/basic}* Why did I give myself away so easily?'],
-        robot12: ['<32>{#p/basic}* Begone!'],
+        robot12: ['<32>{#p/basic}* Прочь!'],
         sans1: [
-            '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}Human.',
-            "<99>* {@spacing=2.25/0}Don't you know how to{@spacing=}\n  {@spacing=2.25/0}greet a new pal?",
-            '<99>* {@spacing=2.25/0}Turn around and shake{@spacing=}\n  {@spacing=2.25/0}my hand.'
+            '<99>{#p/darksans}{#i/4}* {@spacing=2.25/0}Человек.',
+            "<99>* {@spacing=2.25/0}Разве ты не знаешь как{@spacing=}\n  {@spacing=2.25/0}встречать нового друга?",
+            '<99>* {@spacing=2.25/0}Развернись и пожми{@spacing=}\n  {@spacing=2.25/0}мою руку.'
         ],
         sans2: () => [
             ...(world.edgy
                 ? [
-                    "<25>{#p/sans}{#f/0}* huh?\n* what's with the face?",
-                    "<25>{#p/sans}{#f/2}* ... didn't you like my whoopee cushion?",
-                    '<25>{#f/0}* ... eh.\n* to each their own.'
+                    "<25>{#p/sans}{#f/0}* ого?\n* что с лицом?",
+                    "<25>{#p/sans}{#f/2}* ...не нравится моя подушка-пердушка?",
+                    '<25>{#f/0}* ... ох.\n* каждому — своё.'
                 ]
                 : ["<25>{#p/sans}{#f/4}* heheh... nothin' like a good whoopee cushion."]),
-            "<25>{#f/0}* anyway, you're a human, right?",
-            "<25>{#f/5}* that's fantastic.",
-            "<25>{#f/0}* i'm sans.\n* sans the skeleton.",
-            '<25>{#f/3}* as a royal sentry, my job is to capture humans.',
-            "<25>{#f/4}* but... y'know...",
+            "<25>{#f/0}* ты же человек, да?",
+            "<25>{#f/5}* это чудесно.",
+            "<25>{#f/0}* я — санс.\n* скелет санс.",
+            '<25>{#f/3}* как королевский страж, я должен ловить людей.',
+            "<25>{#f/4}* но, знаешь...",
             ...(world.edgy
                 ? [
-                    "<25>{#f/2}* i don't really feel like doing much work today.",
-                    '<25>{#f/0}* as for my brother, well...',
-                    "<25>{#f/5}* he's OVERFLOWING with energy.",
-                    '<25>{#f/0}* it took everything i had just to get him to stay home.'
+                    "<25>{#f/2}* сегодня что-то неохота.",
+                    '<25>{#f/0}* а вот мой брат...',
+                    "<25>{#f/5}* он ПРЕИСПОЛНЕН энергии.",
+                    '<25>{#f/0}* все силы ушли, чтобы убедить его остаться дома.'
                 ]
                 : [
-                    "<25>{#f/2}* i've got better things to do.",
-                    '<25>{#f/0}* as for my brother, well...',
-                    '<25>{#f/5}* despite not being an actual sentry, he sure ACTS like one.',
-                    "<25>{#f/0}* in fact, i think that's him over there."
+                    "<25>{#f/2}* у меня есть дела и получше.",
+                    '<25>{#f/0}* а вот мой брат...',
+                    '<25>{#f/5}* хоть он и не страж, он точно ВЕДЁТ себя как он.',
+                    "<25>{#f/0}* по правде, я уже вижу его вдалеке."
                 ]),
-            '<25>* i have an idea.\n* jump across that gap, will ya?',
-            '<26>{#f/4}* yeah, jump right across.\n* my bro set the gravity too low to stop anyone.'
+            '<25>* у меня мысль.\n* можешь прыгнуть через яму?',
+            '<26>{#f/4}* да, просто прыгни.\n* мой бро установил слишком низкую силу тяжести.'
         ],
         sans3: () =>
             world.edgy
                 ? [
-                    '<25>{#p/sans}* well, here we are.',
-                    "<25>{#f/3}* i'm afraid there's not much else i can show you right now...",
-                    "<25>{#f/2}* but maybe i'll come up with something if you keep heading forward.",
-                    "<25>{#f/0}* for now, i'll just hang around here."
+                    '<25>{#p/sans}* вот мы и здесь.',
+                    "<25>{#f/3}* боюсь, не то что бы много я тебе мог показать...",
+                    "<25>{#f/2}* но возможно я что-нить да придумаю, если ты пойдёшь дальше.",
+                    "<25>{#f/0}* а сейчас я буду паясничать здесь."
                 ]
-                : ['<25>{#p/sans}* quick, to the gravometric inverter.'],
-        sans4: ["<25>{#p/sans}* 'sup, bro?"],
+                : ['<25>{#p/sans}* быстрее, к гравометрическому инвертору.'],
+        sans4: ["<25>{#p/sans}* прив, бро?"],
         sans5: [
-            '<18>{#p/papyrus}{#x2}{#f/7}YOU KNOW WHAT \"SUP,\" BROTHER!',
-            '<18>YOU HAVE PUZZLES TO ATTEND TO!',
-            "<18>I'VE GIVEN YOU PLENTY OF LEEWAY, BUT STILL...",
-            '<18>YOU SIT AROUND AND DO NOTHING ALL DAY!',
-            "<18>EVEN NOW, THAT'S WHAT YOU'RE DOING!",
-            '<18>NOTHING!',
-            "<25>{#p/sans}* actually, i'm playing with this gravometric thingy.",
-            "<25>* it's really cool.",
-            '<25>{#f/4}* do you wanna look?',
-            "<18>{#p/papyrus}{#x3}{#f/7}NO!!\nI DON'T HAVE TIME FOR THAT!!",
-            '<18>{#x2}IF A HUMAN COMES THROUGH HERE, I WANT TO BE READY!',
-            '<18>I MUST BE THE ONE!\nI WILL BE THE ONE!',
-            '<18>{#x1}{#f/9}I WILL FINALLY CAPTURE A HUMAN!',
-            '<18>{#x4}{#f/0}THEN I, THE GREAT PAPYRUS...',
-            '<18>WILL GET ALL THE THINGS I UTTERLY DESERVE!',
-            '<18>RESPECT...\nRECOGNITION...',
-            '<18>{#f/9}I WILL FINALLY BE ABLE TO JOIN THE ROYAL GUARD!',
-            '<25>{#p/sans}* hmm...',
-            '<25>{#f/2}* maybe this gadget will help you.',
-            "<18>{#p/papyrus}{#x3}{#f/7}SANS, THAT WON'T DO ANYTHING!\nYOU LAZYBONES!",
-            '<18>{#x1}{#f/5}YOU KNOW, YOU ARE CAPABLE OF SO MUCH MORE, YET...',
-            '<18>{#x2}{#f/7}YOU CHOOSE TO SIT AROUND AND DO NOTHING ALL DAY!',
-            "<18>{#x1}{#f/5}DON'T YOU WANT... MORE, OUT OF LIFE?",
-            "<25>{#p/sans}* hey, take it easy.\n* i've got plenty of things in mind.",
-            "<25>{#f/4}* perhaps you could even say i'm...",
-            '<25>{#f/2}* shooting for the {@fill=#ff0}stars{@fill=#fff}?'
+            '<18>{#p/papyrus}{#x2}{#f/7}ЧТО ЕЩЁ ЗА «ПРИВ», БРАТ!',
+            '<18>ТЫ ДОЛЖЕН ЗАНЯТЬСЯ ГОЛОВОЛОМКАМИ!',
+            "<18>Я ТЕБЕ ДАЛ ПРОСТРАНСТВО ДЛЯ МАНЁВРОВ, НО...",
+            '<18>ТЫ СИДИШЬ И НИЧЕГО НЕ ДЕЛАЕШЬ ВЕСЬ ДЕНЬ!',
+            "<18>ДАЖЕ СЕЙЧАС ТЫ ЭТО ДЕЛАЕШЬ!",
+            '<18>НИЧЕГО!',
+            "<25>{#p/sans}* вообще-то я играю с гравометрической штуковиной.",
+            "<25>* это вообще улёт.",
+            '<25>{#f/4}* хочешь заценить?',
+            "<18>{#p/papyrus}{#x3}{#f/7}НЕТ!!\nУ МЕНЯ НЕТ ВРЕМЕНИ НА ЭТО!!",
+            '<18>{#x2}Я ХОЧУ БЫТЬ ГОТОВЫМ, ЕСЛИ ЧЕЛОВЕК БУДЕТ РЯДОМ!',
+            '<18>Я ДОЛЖЕН БЫТЬ ПЕРВЫМ!\nЯ БУДУ ПЕРВЫМ!',
+            '<18>{#x1}{#f/9}Я НАКОНЕЦ-ТО ПОЙМАЮ ЧЕЛОВЕКА!',
+            '<18>{#x4}{#f/0}ЗАТЕМ Я, ВЕЛИКИЙ ПАПИРУС...',
+            '<18>ПОЛУЧУ ВСЁ, ЧТО НЕСОМНЕННО ЗАСЛУЖИВАЮ!',
+            '<18>УВАЖЕНИЕ...\nПРИЗНАНИЕ...',
+            '<18>{#f/9}Я НАКОНЕЦ-ТО ПРИСОЕДИНЮСЬ К КОРОЛЕВСКОЙ ГВАРДИИ!',
+            '<25>{#p/sans}* хм-м...',
+            '<25>{#f/2}* может быть, это устройство поможет тебе.',
+            "<18>{#p/papyrus}{#x3}{#f/7}ЭТО НИЧЕМ НЕ ПОМОЖЕТ, САНС!\nТЫ ЛЕНИВАЯ КУЧА КОСТЕЙ!",
+            '<18>{#x1}{#f/5}ТЫ ЗНАЕШЬ, ЧТО СПОСОБЕН НА БОЛЬШЕЕ, НО...',
+            '<18>{#x2}{#f/7}ПРОСТО СИДИШЬ И НИЧЕГО НЕ ДЕЛАЕШЬ ВЕСЬ ДЕНЬ!',
+            "<18>{#x1}{#f/5}РАЗВЕ ТЫ НЕ ХОЧЕШЬ ЧЕГО-ТО В СВОЕЙ ЖИЗНИ?",
+            "<25>{#p/sans}* эй, будь попроще.\n* у меня куча вещей на уме.",
+            "<25>{#f/4}* наверное ты даже скажешь, что я...",
+            '<25>{#f/2}* способен хватать {@fill=#ff0}звёзды{@fill=#fff} с неба?'
         ],
         sans6: [
-            '<18>{#p/papyrus}{#x3}{#f/7}SANS!!',
-            "<25>{#p/sans}{#f/5}* come on.\n* you're smiling.",
-            '<18>{#p/papyrus}{#x2}{#f/7}I AM AND I UTTERLY DESPISE IT!',
+            '<18>{#p/papyrus}{#x3}{#f/7}САНС!!',
+            "<25>{#p/sans}{#f/5}* да ладно тебе.\n* ты же улыбаешься.",
+            '<18>{#p/papyrus}{#x2}{#f/7}ДА, И Я НЕНАВИЖУ ЭТО!',
             '<18>{#x1}{#f/4}(SIGH...)',
-            '<18>{#f/5}WHY DOES SOMEONE\nAS GREAT AS MYSELF...',
-            '<18>HAVE TO DO SO MUCH JUST TO GET SOME RECOGNITION??',
-            '<25>{#p/sans}* heh.\n* perhaps you should focus more on, well...',
-            '<25>* the {@fill=#ff0}gravity{@fill=#fff} of the situation.'
+            '<18>{#f/5}ПОЧЕМУ КТО-ТО\nСТОЛЬ ВЕЛИКИЙ КАК Я...',
+            '<18>ДОЛЖЕН ТАК МНОГО СДЕЛАТЬ РАДИ ПРИЗНАНИЯ??',
+            '<25>{#p/sans}* хех.\n* возможно, тебе стоит сфокусироваться на...',
+            '<25>* {@fill=#ff0}тяжести{@fill=#fff} ситуации.'
         ],
         sans7: [
             '<18>{#p/papyrus}{#x2}{#f/7}UGH!!',
-            '<18>{#x1}{#f/4}I WILL ATTEND TO MY PUZZLES...',
-            '<18>{#f/7}AS FOR YOUR WORK?',
-            '<18>{#f/4}I EXPECT YOU TO DO A MORE...',
-            '<18>{#f/9}{@fill=#ff0}\"STELLAR\"{@fill=#fff} JOB FROM NOW ON!!!',
+            '<18>{#x1}{#f/4}Я ЗАЙМУСЬ СВОИМИ ГОЛОВОЛОМКАМИ...',
+            '<18>{#f/7}А ЧТО НАСЧЁТ ТЕБЯ?',
+            '<18>{#f/4}Я ХОЧУ, ЧТОБЫ ТЫ...',
+            '<18>{#f/9}«СПУСТИЛСЯ С {@fill=#ff0}НЕБЕС{@fill=#fff} НА ЗЕМЛЮ»!!!',
             '<18>{#f/0}NYEHEHEHEHEHE\nHEHEHEHEHEHEH!!'
         ],
         sans8: ['<18>{#p/papyrus}HEH!'],

@@ -3497,7 +3497,7 @@ export default {
                 choicer.create('* (Take a Chocolate Bar?)', 'Да', 'Нет')
             ],
             fridgetrap3: ['<32>{#p/human}* (Вы решили ничего не брать.)'],
-            fridgetrap4: ['<32>{#p/human}* (Вы получили плитку шоколада.)'],
+            fridgetrap4: ['<32>{#p/human}* (Вы получили шоколадку.)'],
             brocall1: [
                 '<32>{#s/phone}{#p/event}* Звонок...',
                 '<25>{#p/alphys}{#g/alphysInquisitive}* Hey, are you coming?',

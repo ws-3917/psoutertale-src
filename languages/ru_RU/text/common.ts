@@ -3689,17 +3689,17 @@ export default {
             ],
             () => [
                 "<32>{#p/napstablook}* okay, let's see...",
-                '<32>* if a ghost changed vessels so they could have a child, what would you call it?',
+                '<32>* если призрак вселился в тело, чтобы обрести детей, как бы ты это назвал?',
                 '<32>* ...',
-                '<32>* answer... a {@fill=#ff0}trans-parent.{@fill=#fff}.',
+                '<32>* ответ...{@fill=#ff0}отча-яние.{@fill=#fff}.',
                 '<32>* ... heh.'
             ],
             () => ['<32>{#p/napstablook}* ... you wanted me to tell you a third joke?', '<32>* well... if you insist...'],
             () => [
                 "<32>{#p/napstablook}* okay.\n* i've got it.",
-                '<32>* if a restaurant hires a ghost to taste test their food, what does that make the ghost?',
+                '<32>* если ресторан нанял призрака для оценки еды, как назовётся эта должность?',
                 '<32>* ...',
-                '<32>* answer... a {@fill=#ff0}food-in-spectre.{@fill=#fff}.'
+                '<32>* ответ...{@fill=#ff0}пищевод{@fill=#fff}.'
             ],
             () => [
                 '<32>{#p/napstablook}* alright, alright.\n* maybe i got a little carried away with that one.',
@@ -3772,9 +3772,9 @@ export default {
                 '<32>{#p/napstablook}* Хр-р-р... Хр-р-р...',
                 '<32>* Хр-р-р... Хр-р-р...',
                 "<32>{#p/basic}* Этот призрак повторяет вслух «Хр-р-р», притворяясь спящим.",
-                choicer.create('* (Lay down next to it?)', 'Да', 'Нет')
+                choicer.create('* (Прилечь рядом?)', 'Да', 'Нет')
             ],
-            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', 'Да', 'Нет')]
+            () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Прилечь рядом?)', 'Да', 'Нет')]
         ],
         lastblook2: ['<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......'],
         lastblook3: [
@@ -5239,13 +5239,13 @@ export default {
             ['<08>{#p/basic}{~}\x00*shiny wiggle*']
         ],
         act_check0: ['<32>{#p/asriel2}* Gelatini, the mindless mold.\n* What more can I say?'],
-        act_check: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Красивая, привлекательная и, конечно же, безмозглая...'],
-        act_check2: ["<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Одета по последнему писку моды."],
+        act_check: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6, ЗЩТ 0.\n* Красивая, соблазнительная и, конечно же, безмозглая...'],
+        act_check2: ["<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6, ЗЩТ 0.\n* Одета по последнему писку моды."],
         act_check3: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Это именно ваш типаж.\n* «Стерео».'],
         act_check4: ['<32>{#p/story}* ПОЖЕЛЕЙКА: АТК 6 ЗЩТ 0\n* Супермодель на пике своей красоты.'],
         act_flirt: [
-            '<32>{#p/human}* (You wiggle your hips.)\n* (Gelatini wiggles back.)',
-            '<33>{#p/basic}* What a meaningful conversation!'
+            '<32>{#p/human}* (Вы дёргаете коленями.)\n* (Пожелейка колышется в ответ.)',
+            '<33>{#p/basic}* Что за осмысленная беседа!'
         ],
         act_imitate: [
             '<33>{#p/human}* (Вы погладили пожелейку.)\n* (Она изменила свой окрас...)',

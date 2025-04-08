@@ -31,7 +31,7 @@ import {
     UPDATE_PRIORITY
 } from 'pixi.js';
 import { Polygon, Vector, testPolygonPolygon } from 'sat';
-
+import { extras } from './extras';
 // types
 export type CosmosArea = CosmosPointSimple & CosmosDimensions;
 export type CosmosBaseEvents = { tick: []; render: []; 'pre-render': [] };
@@ -3623,18 +3623,20 @@ export class CosmosEntity<
         this.task?.();
         this.task = void 0;
         if (speed !== void 0) {
-            // WS3917 - trying to fix running problem
-            const realspeed = speed;
+            var realspeed = speed * (extras.mspeed > 0 ? extras.mspeed_last : 1);
             let active = true;
             this.task = () => (active = false);
             let index = 0;
-            const duration = Math.round(15 / realspeed);
+            var duration = Math.round(15 / realspeed);
             this.idle = false;
             await renderer.when(subtick => {
                 if (subtick) {
                     return false;
                 } else if (active) {
                     const { x = this.position.x, y = this.position.y } = points[index];
+                    // WS3917 - trying to fix running problem, again
+                    var realspeed = speed * (extras.mspeed > 0 ? extras.mspeed_last : 1);
+                    var duration = Math.round(15 / realspeed);
                     const limit = realspeed * renderer.speed.value;
                     const dx = Math.min(Math.max(x - this.position.x, -limit), limit);
                     const dy = Math.min(Math.max(y - this.position.y, -limit), limit);
